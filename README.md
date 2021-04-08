@@ -46,6 +46,8 @@ ______________________
 
 ## Boîte à outils d'accessibilité numérique
 
+Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles en français. 
+
 <!-- TO BE TRANSLATED
 
 ### Quel est ce projet?
