@@ -4,7 +4,9 @@
   "description": "A sharing space for resources created by employees of the Government of Canada (GC) to promote in the open. Following the Treasury Board of Canada Secretariat's Directive on Open Government.",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"eleventy": "npx eleventy",
+	"start": "eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -12,15 +14,18 @@
   },
   "keywords": [
     "accessibility",
-	"Government of Canada",
-	"sharing space",
-	"toolkit",
-	"eleventy"
+    "Government of Canada",
+    "sharing space",
+    "toolkit",
+    "eleventy"
   ],
   "author": "Government of Canada",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gc-da11yn/gc-da11yn.github.io/issues"
   },
-  "homepage": "https://github.com/gc-da11yn/gc-da11yn.github.io#readme"
+  "homepage": "https://github.com/gc-da11yn/gc-da11yn.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
 }
