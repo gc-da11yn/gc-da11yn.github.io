@@ -5,8 +5,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"eleventy": "npx eleventy",
-	"start": "eleventy --serve"
+    "eleventy": "npx eleventy",
+    "start": "eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
   "homepage": "https://github.com/gc-da11yn/gc-da11yn.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "gcweb": "github:wet-boew/themes-cdn#v6.0-gcweb",
+    "wet-boew": "github:wet-boew/wet-boew-cdn#v4.0-dist"
   }
 }

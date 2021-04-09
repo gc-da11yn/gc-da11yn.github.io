@@ -1,5 +1,8 @@
 module.exports = function(config) {
 
+	config.addPassthroughCopy({ "./node_modules/wet-boew/" : "wet-boew" });
+	config.addPassthroughCopy({ "./node_modules/gcweb/" : "gcweb" });
+
 	return {
 		  dir: {
 			  input : "./src/_pages",
