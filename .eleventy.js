@@ -1,7 +1,7 @@
-module.exports = function(config) {
+module.exports = function(eleventyConfig) {
 
-	config.addPassthroughCopy({ "./node_modules/wet-boew/" : "wet-boew" });
-	config.addPassthroughCopy({ "./node_modules/gcweb/" : "gcweb" });
+	eleventyConfig.addPassthroughCopy({ "./node_modules/wet-boew/" : "wet-boew" });
+	eleventyConfig.addPassthroughCopy({ "./node_modules/gcweb/" : "gcweb" });
 
 	return {
 		  dir: {
