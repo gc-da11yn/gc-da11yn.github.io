@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ language }}" dir="ltr">
 
-{% include "../head.njk" %}
+{% include "head.njk" %}
 
 <body vocab="http://schema.org/" typeof="WebPage">
 
-	{% include "../skipnav.njk" %}
+	{% include "skipnav.njk" %}
 
-	{% include "../header.njk"  %}
+	{% include "header.njk"  %}
 
 	<main property="mainContentOfPage" resource="#wb-main" class="container" typeof="WebPageElement">
 
@@ -15,13 +15,15 @@
 
 		<p>{{ description }}</p>
 
+		{% include "underconstruction-en.njk" %}
+
 		{{ content | safe }}
 
 		{% include "pagedetails.njk" %}
 
 	</main>
 
-	{% include "../footer.njk" %}
+	{% include "footer.njk" %}
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 	<script src="/wet-boew/js/wet-boew.min.js"></script>
