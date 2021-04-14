@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy({ "./node_modules/wet-boew/" : "wet-boew" });
 	eleventyConfig.addPassthroughCopy({ "./node_modules/gcweb/" : "gcweb" });
+	eleventyConfig.addPassthroughCopy({ "./src/_docs" : "docs" });
 
 	return {
 		  dir: {
