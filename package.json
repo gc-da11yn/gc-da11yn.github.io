@@ -29,7 +29,7 @@
     "@11ty/eleventy": "^0.11.1"
   },
   "dependencies": {
-    "gcweb": "github:wet-boew/themes-cdn#v6.0-gcweb",
-    "wet-boew": "github:wet-boew/wet-boew-cdn#v4.0-dist"
+    "gcweb": "github:wet-boew/themes-cdn#v9.1.0-gcweb",
+    "wet-boew": "github:wet-boew/wet-boew-cdn#v4.0.42.1"
   }
 }
