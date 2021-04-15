@@ -1,20 +1,28 @@
 module.exports = function(eleventyConfig) {
+	const moment = require("moment");
 
 	eleventyConfig.addPassthroughCopy({ "./node_modules/wet-boew/" : "wet-boew" });
 	eleventyConfig.addPassthroughCopy({ "./node_modules/gcweb/" : "gcweb" });
 	eleventyConfig.addPassthroughCopy({ "./src/_docs" : "docs" });
 	eleventyConfig.addPassthroughCopy({ "./src/_images" : "img" });
 
+	// date filter (localized)
+	eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
+		locale = locale ? locale : "en";
+		moment.locale(locale);
+		return moment(date).format(format);
+	});
+
 	return {
-		  dir: {
-			  input : "./src/_pages",
-			  output : "_site",
-			  includes : "../_includes",
-			  data : "../_data"
-		  },
-		  templateFormats : ["html", "md", "njk", "css"],
-		  htmlTemplateEngine : "njk",
-		  markdownTemplate : "njk",
-		  setUseGitIgnore : false
-	  };
-  }
+			dir: {
+				input : "src",
+				output : "_site",
+				includes : "_includes",
+				data : "_data"
+			},
+			templateFormats : ["html", "md", "njk", "css"],
+			htmlTemplateEngine : "njk",
+			markdownTemplate : "njk",
+			setUseGitIgnore : false
+		};
+	}
