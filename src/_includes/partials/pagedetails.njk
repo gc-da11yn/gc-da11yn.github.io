@@ -62,6 +62,6 @@
 	</div>
 	<dl id="wb-dtmd">
 		<dt>Date modified:</dt>
-		<dd><time property="dateModified">2021-04-13</time></dd>
+		<dd><time datetime="{{ post.date | date('YYYY-MM-DD') }}">{{ post.item|date("YYYY-MM-DD", locale) }}</time></dd>
 	</dl>
 </div>
