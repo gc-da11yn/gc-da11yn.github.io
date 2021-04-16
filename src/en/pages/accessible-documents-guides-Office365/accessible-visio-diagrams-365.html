@@ -2,39 +2,54 @@
 title: Accessible Visio diagrams
 layout: layouts/base.njk
 language: en
-title: Accessible practices for Microsoft Visio 2016 diagram creation.
-otherLanguagePage: diagrammes-visio-accessibles
+description: Accessible practices for Microsoft Visio diagram creation.
+otherLanguagePage: diagrammes-visio-accessibles-365
 date: 2021-04-13
 ---
 
 <div class="row mrgn-tp-lg">
 	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="how-to-create-accessible-documents.html">1. How to create accessible documents</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="accessible-word-documents.html">2. Accessible Word documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="accessible-pdf-documents.html">3. Accessible PDF documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="accessible-powerpoint-documents.html">4. Accessible PowerPoint documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="accessible-excel-documents.html">5. Accessible Excel documents</a></li>
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="how-to-create-accessible-documents-365.html">1. How to create accessible documents</a></li>
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="accessible-word-documents-365.html">2. Accessible Word documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="accessible-pdf-documents-365.html">3. Accessible PDF documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="accessible-powerpoint-documents-365.html">4. Accessible PowerPoint documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="accessible-excel-documents-365.html">5. Accessible Excel documents</a></li>
 		<li class="col-md-4 col-sm-6"><a class="list-group-item active">6. Accessible Visio diagrams</a></li>
 	</ul>
 </div>
 
 <h2>Introduction</h2>
 
-<p>Microsoft Visio is used to create diagrams such as flow charts. The accessibility issues for such a diagram fall into two categories: those affecting sighted users with disabilities (who will be using the diagram visually), and those affecting blind users (who rely on the text alternatives). Following accessibility recommendations in each of these areas will also be of benefit to all users.</p>
+<p>Microsoft Visio is used to create diagrams such as flow
+	charts. The accessibility issues for such a diagram fall into two categories:
+	those affecting sighted users with disabilities (who will be using the diagram
+	visually), and those affecting blind users (who rely on the text alternatives).
+	Following accessibility recommendations in each of these areas will also be of
+	benefit to all users.</p>
 
 <h2>Visual and general accessibility</h2>
 
-<p>Many of the general document and infographic accessibility guidelines also apply to Visio documents. Please review the General and Infographic guides for more information.</p>
+<p>Many of the general document and infographic accessibility
+	guidelines also apply to Visio documents. Please review the General and
+	Infographic guides for more information.</p>
 
 <h3>Text contrast</h3>
-<p>Text contrast must be at least 4.5:1 against the background. Because diagrams are often viewed at very low zoom, we recommend that you maintain at least this level of contrast for all text, regardless of size.</p>
+
+<p>Text contrast must be at least 4.5:1 against the background. Because
+	diagrams are often viewed at very low zoom, we recommend that you maintain at
+	least this level of contrast for all text, regardless of size.</p>
 <ul>
-	<li>To verify colour contrast, use a tool such as <a href="https://developer.paciellogroup.com/resources/contrastanalyser/">Colour Contrast Analyser</a> or <a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a></li>
-	<li>Do not place complex background images behind text</li>
-	<li>When complex background images or low-contrast backgrounds must be used, provide an outline around the text that provides sufficient contrast against the text foreground colour</li>
+	<li>To verify colour contrast, use a tool such as <a href="https://developer.paciellogroup.com/resources/contrastanalyser/">Colour Contrast Analyser</a> or <a href="https://webaim.org/resources/contrastchecker/">WebAIM
+			Contrast Checker</a></li>
+	<li>Do
+		not place complex background images behind text</li>
+	<li>When complex background images or low-contrast backgrounds must
+		be used, provide an outline around the text that provides sufficient contrast
+		against the text foreground colour</li>
 </ul>
 
-<h3>Using colour alone to convey information</h3>
+<h3>Using colour alone to
+	convey information</h3>
 
 <p>Ensure that colour is not the sole means of communicating information.
 	As colour coding is a common strategy in infographics, this is a common
@@ -105,8 +120,8 @@ date: 2021-04-13
 	describe each step to follow the directions.</p>
 
 <div class="row">
-	<div class="col-md-7 mrgn-bttm-md">
-		<img class="img-responsive" src="images/visio-01.gif" alt="Flowchart illustrating the login process">
+	<div class="col-md-7">
+		<img class="img-responsive" src="images/visio-365-001.gif" alt="Flowchart illustrating the login process">
 	</div>
 </div>
 
@@ -148,23 +163,27 @@ date: 2021-04-13
 
 <p>Example for complex data flow diagram:</p>
 
-<div class="brdr-rds-0 well">
-	<h4>Component D (Header)</h4>
-	<h5>Data Sources:</h5>
-	<ul>
-		<li><a href="#componentA">Component A</a> (links to #id of Component A header)</li>
-		<li><a href="#componentB">Component B</a> (links to #id of Component B header)</li>
-	</ul>
+<h4>Component D (Header)</h4>
 
-	<h5>Data Flows to:</h5>
-	<ul>
-		<li><a href="#componentC">Component C</a> (links to #id of Component C header) through <a href="#connector1">Connector 1</a> (links to #id of Connector 1 header)</li>
-	</ul>
+<h5>Data Sources:</h5>
 
-	<p>Follow with other relevant information about component D.</p>
-</div>
+<ul>
+	<li><a href="#componentA">Component A</a> (links to #id of Component A header)</li>
+	<li><a href="#componentB">Component B</a> (links to #id of Component B header)</li>
+</ul>
 
-<h2>Visio accessibility features</h2>
+<h5>Data Flows to:</h5>
+
+<ul>
+	<li><a href="#componentC">Component
+			C</a> (links to #id of Component C header) through <a href="#connector1">Connector 1</a>
+		(links to #id of Connector 1 header)</li>
+</ul>
+
+<p>Follow with other relevant information about component D.</p>
+
+<h2>Visio accessibility
+	features</h2>
 
 <p>Microsoft has recently published a guide on <a href="https://support.office.com/en-us/article/make-your-visio-diagram-accessible-e2c847a9-f010-4fef-af65-16e252829d44">making Visio diagrams accessible</a>.</p>
 
@@ -195,7 +214,8 @@ date: 2021-04-13
 	unidirectional flowchart) – do not draw any arrows “backwards” and then style
 	them to face the opposite way.</p>
 
-<h3>Alternative text (“alt text”)</h3>
+<h3>Alternative text (“alt
+	text”)</h3>
 
 <p>Visio has the ability to add alt text to images, shapes, and
 	entire pages. Generally, no more than short alt text would be required for an
@@ -208,25 +228,29 @@ date: 2021-04-13
 <ul>
 	<li>Open the context menu for the image or shape by right-clicking or pressing the application key</li>
 	<li>Select <strong>Format Shape</strong>.</li>
-	<li>Select <img src="images/visio-02.gif" alt=""> <strong>Size &amp; Properties</strong> and enter the alternate text under <strong>Description</strong>.</li>
+	<li>Select <img src="images/visio-365-002.gif" alt=""> <strong>Size &amp; Properties</strong> and enter the
+		alternate text under <strong>Description</strong>.</li>
 </ul>
 
-<p>To add alt text to entire page, press <strong>Shift+F5</strong>. Select the <strong>Alt Text</strong> tab and enter the <strong>Description</strong>.</p>
+<p>To add alt text to entire page, press <strong>Shift+F5</strong>.
+	Select the <strong>Alt Text</strong> tab and enter the <strong>Description</strong>.</p>
 
 <h3>Accessibility checker</h3>
 
 <p>Like most Office products, Visio now has a built-in accessibility checker.</p>
 
-<p>In the ribbon toolbar, go to <strong>Review</strong> &gt; <strong>Check Accessibility</strong>. Select each item to view details and fix the issues one by one.</p>
+<p>In the ribbon toolbar, go to <strong>Review</strong> &gt; <strong>Check
+		Accessibility</strong>. Select each item to view details and fix the issues one by one.</p>
 
 <h2>Additional resources</h2>
 
 <ul>
-	<li><a href="https://www.nvaccess.org/about-nvda/">NVDA: Free screen reader</a> (useful for testing)</li>
-	<li><a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines 2.1</a></li>
+	<li><a href="https://www.nvaccess.org/">NVDA: A free screen reader (useful for testing)</a></li>
+	<li><a href="https://www.w3.org/TR/WCAG21/">Web Content
+			Accessibility Guidelines 2.1</a></li>
 </ul>
 
 <ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="accessible-excel-documents.html" rel="prev">Previous: Accessible Excel documents</a></li>
-	<li class="next disabled"><a href="accessible-excel-documents.html" rel="next">Next:</a></li>
+	<li class="previous"><a href="accessible-excel-documents-365.html" rel="prev">Previous: Accessible Excel documents</a></li>
+	<li class="next disabled"><a href="accessible-excel-documents-365.html" rel="next">Next:</a></li>
 </ul>
