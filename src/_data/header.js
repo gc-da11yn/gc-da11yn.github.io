@@ -2,8 +2,6 @@ module.exports = {
 	fr: {
 		// Language bar
 		Languageselection: "Sélection de la langue",
-		Otherlanguage: "English",
-		Otherlanguagecode: "en",
 
 		// Brand
 		GovernmentofCanada: "Gouvernement du Canada",
@@ -51,8 +49,6 @@ module.exports = {
 	en: {
 		// Language bar
 		Languageselection: "Language selection",
-		Otherlanguage: "Français",
-		Otherlanguagecode: "fr",
 
 		// Brand
 		GovernmentofCanada: "Government of Canada",

@@ -1,4 +1,5 @@
-
+{% set otherLang = "fr" if locale == "en" else "en" %}
+{% set otherLangugae = "Français" if locale == "en" else "English" %}
 <header>
 	<div id="wb-bnr" class="container">
 		<div class="row">
@@ -7,9 +8,9 @@
 				<h2 class="wb-inv">{{ header[locale].Languageselection }}</h2>
 				<ul class="list-inline mrgn-bttm-0">
 					<li>
-						<a lang="{{ header[locale].Otherlanguagecode }}" hreflang="{{ header[locale].Otherlanguagecode }}" href="{{ otherLanguagePage }}">
-							<span class="hidden-xs">{{ header[locale].Otherlanguage }}</span>
-							<abbr title="{{ header[locale].Otherlanguage }}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ header[locale].Otherlanguagecode }}</abbr>
+						<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="/{{ otherLang }}/{{ page.fileSlug }}">
+							<span class="hidden-xs">{{ otherLangugae }}</span>
+							<abbr title="{{ otherLangugae }}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ otherLang }}</abbr>
 						</a>
 					</li>
 				</ul>
@@ -17,7 +18,7 @@
 
 			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
 				<a href="{{ header[locale].GovernmentofCanadaURL }}" property="url">
-					<img src="/gcweb/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].GovernmentofCanada }}" property="logo" /><span class="wb-inv"> / <span lang="{{ header[locale].Otherlanguagecode }}">Gouvernement du Canada</span></span>
+					<img src="/gcweb/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].GovernmentofCanada }}" property="logo" /><span class="wb-inv"> / <span lang="{{ otherLang }}">Gouvernement du Canada</span></span>
 				</a>
 				<meta property="name" content="{{ header[locale].GovernmentofCanada }}">
 				<meta property="areaServed" typeof="Country" content="Canada" />
