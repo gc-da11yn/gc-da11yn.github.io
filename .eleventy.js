@@ -13,6 +13,15 @@ module.exports = function(eleventyConfig) {
 		return moment(date).format(format);
 	});
 
+	// Localized collections
+		eleventyConfig.addCollection("posts_en", function (collection) {
+		  return collection.getFilteredByGlob("./src/en/posts/*.md");
+		});
+	  
+		eleventyConfig.addCollection("posts_fr", function (collection) {
+		  return collection.getFilteredByGlob("./src/fr/posts/*.md");
+		});
+
 	return {
 			dir: {
 				input : "src",
