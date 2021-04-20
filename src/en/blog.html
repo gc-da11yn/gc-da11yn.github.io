@@ -1,0 +1,20 @@
+---
+title: Blog
+layout: layouts/base.njk
+description: Digital accessibility resources for public servants, by public servants.
+---
+
+{% set posts = collections["posts_" + locale] %}
+{% for post in posts %}
+  {% if loop.first %}<ul>{% endif %}
+    <li>
+
+      <article>
+        <p><time datetime="{{ post.date | date('Y-MM-DD') }}">{{ post.date | date("DD MMMM[,] Y", locale) }}</time></p>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      </article>
+
+    </li>
+
+  {% if loop.last %}</ul>{% endif %}
+{% endfor %}

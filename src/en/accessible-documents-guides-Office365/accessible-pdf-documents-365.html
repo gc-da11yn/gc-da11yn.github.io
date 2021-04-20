@@ -1,0 +1,162 @@
+---
+title: Accessible PDF documents
+layout: layouts/base.njk
+description: Accessible practices for PDF document creation.
+---
+
+<div class="row mrgn-tp-lg">
+	<ul class="toc lst-spcd col-md-12">
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="how-to-create-accessible-documents-365.html">1. How to create accessible documents</a></li>
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="accessible-word-documents-365.html">2. Accessible Word documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active">3. Accessible PDF documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="accessible-powerpoint-documents-365.html">4. Accessible PowerPoint documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="accessible-excel-documents-365.html">5. Accessible Excel documents</a></li>
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="accessible-visio-diagrams-365.html">6. Accessible Visio diagrams</a></li>
+	</ul>
+</div>
+
+<h2>Introduction</h2>
+<p>PDF (Portable Document Format) is a common format for distributing printable documents. This format was created by Adobe and can be opened with Adobe Acrobat as well as many web browsers.</p>
+
+<h2>What makes a PDF accessible?</h2>
+<p>An accessible PDF is usable by persons with and without disabilities, who may use adaptive technologies or techniques to access information. For instance, a blind user may use a screen reader or a braille display. A person with a motor impairment may use a keyboard rather than a mouse to navigate between form fields. Other users may need to adjust the font size or spacing to compensate for vision loss or learning / cognitive disabilities.</p>
+<p>General document accessibility guidelines also apply to PDFs. That means that the document should be properly structured with headings, there is sufficient contrast, and images have alternate text. Refer to the general document accessibility guide for additional information.</p>
+<p>Since PDF documents often contain interactive components like forms, their accessibility should be evaluated based on the <a href="https://www.w3.org/TR/WCAG-TECHS/Overview.html">Web Content Accessibility Guidelines</a>. Following this guide does not ensure compliance with these guidelines, but it is a good start.</p>
+
+<h2>Recommended authoring tools</h2>
+
+<h3>Microsoft Word</h3>
+<p>Note: These instructions apply to Word 2013 and 2016.</p>
+<p>The easiest way to create an accessible PDF is to begin with an accessible Word document. Once you have created an accessible document in Word, export it through <strong>File</strong> &gt; <strong>Export</strong> (do not print to PDF!).</p>
+
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive" src="images/pdf-365-001.jpg" alt="Screenshot of Export dialog in Word">
+	</div>
+</div>
+
+<p>If you don’t have Adobe Acrobat installed, use the <strong>Create PDF/XPS Document </strong>option. In the dialog box, select <strong>Options </strong>and check these boxes:</p>
+
+<ul>
+	<li>Create bookmarks using: Headings<br>
+		(or bookmarks, if you have created them)</li>
+	<li>Document properties</li>
+	<li>Document structure tags</li>
+</ul>
+
+<p>The remaining boxes should be unchecked.</p>
+
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive" src="images/pdf-365-002.jpg" alt="Screenshot of PDF export options in Word">
+	</div>
+</div>
+
+<h3>Adobe products</h3>
+<p>Adobe InDesign, FrameMaker, and LiveCycle Designer will export to tagged PDF, and offer more control over visual styles than Word. (LiveCycle Designer is specifically tailored to creating forms.)</p>
+
+<h2>Validating and remediating accessibility with Acrobat Pro</h2>
+<p>Adobe Acrobat Pro is the essential tool for validating and remediating PDF accessibility. The current version as of August 2018 is Acrobat Pro DC. The following information is specific to this version.</p>
+
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive" src="images/pdf-365-003.jpg" alt="Screenshot of Accessibility Checker in Acrobat Pro DC">
+	</div>
+</div>
+
+<h3>Automated validation</h3>
+
+<ul>
+	<li>Open your PDF document and select <strong>Tools</strong></li>
+	<li>Under <strong>Accessibility</strong>, select <strong>Full Check</strong>. This will generate a list of issues that need to be either resolved or checked manually.
+		<ul>
+			<li>If <strong>Accessibility</strong> isn’t already displayed in tools you can
+				reveal it by selecting <strong>View</strong> &gt; <strong>Tools</strong> &gt; <strong>Accessibility</strong></li>
+		</ul>
+	</li>
+	<li>Uncheck “Create accessibility report” and select <strong>Start checking</strong>. A list of issues will appear in a sidebar titled “Accessibility Checker”.</li>
+	<li>Inspect each failure</li>
+</ul>
+
+<h3>Remediating issues</h3>
+<p>Some issues can be fixed simply by opening the <strong>context</strong> menu for the issue and selecting <strong>Fix</strong>. (Open the context menu by right-clicking or pressing the application key.)</p>
+
+<h2>Common issues and solutions</h2>
+<p>Pay special attention to the following areas of PDF accessibility.</p>
+
+<h3>Scanned documents: images of text</h3>
+<p>PDFs created from scanning in a paper document need, at minimum, to have the text recognized in order to be made accessible. This can be done automatically using Optical Character Recognition (OCR). The OCR process is not 100% accurate, so perform a manual review of the text. See <a href="https://www.adobe.com/accessibility/products/acrobat/pdf-repair-perform-ocr.html">Performing OCR on a Scanned Document</a>. </p>
+
+<h3>Document structure (tags)</h3>
+<p>An important part of PDF accessibility is “tagging”. Tags describe the structural meaning of an element within the document. For example, a link must be tagged as a link to be interactive and a heading must be tagged as a heading to appear in the navigation pane. If you are experienced with HTML, you should find the concept of tags familiar.</p>
+<p>Using a recommended authoring tool, tags will be automatically created based on the existing document structure. For instance, a heading created in Microsoft Word will be tagged as a heading in the PDF when you export.</p>
+<p>To check if a document is tagged, press <strong>Control + D </strong>to bring up the document properties, or run the Accessibility Checker. If not tagged, return to your authoring tool (ie.g. Word) if possible, ensure you have structured the document correctly, and export again using the settings given above.</p>
+<p>To manually set tags, use the <a href="https://helpx.adobe.com/acrobat/using/touch-reading-order-tool-pdfs.html#touch_up_reading_order_tool_for_pdfs_acrobat_pro">Touch Up Reading Order tool</a> (<strong>Tools</strong> &gt; <strong>Accessibility</strong> &gt; <strong>Reading Order</strong>)</p>
+
+<h3>Alternative text (“alt text”) for Images</h3>
+
+<p>To set alt text in Acrobat, navigate to <strong>Tools</strong> &gt; <strong>Accessibility</strong> &gt; <strong>Set Alternate Text</strong>. If your image does not show up in the list of figures, or the message “There is no figure information to display” appears, the images have not been correctly tagged as figures, and you will first have to tag them.</p>
+<p>Decorative images (which should be ignored by screen readers) should be tagged as “Background”.</p>
+
+<h3>Language and title </h3>
+<p>A meaningful title and the document’s language need to be specified. In Acrobat, press <strong>Control + D </strong>to bring up the document’s properties. The language field can be found under the <strong>Advanced </strong>tab.</p>
+<p>Bilingual PDF documents present special issues and should be avoided, especially for forms. It is preferable to offer multiple versions of the same PDF, one for each language.</p>
+
+<p>A passage in a different language than the main language of the document must be tagged separately. For example, an English paragraph may appear in a French document stating that the document is also available in English. See <a href="https://www.w3.org/TR/WCAG20-TECHS/PDF19.html">Specifying the language for a passage or phrase</a>.</p>
+
+<h3>Bookmarks</h3>
+
+<p>Any PDF longer than 1 page should include bookmarks. These may be automatically generated (such as when exporting from Word, provided the correct settings are used – see above) or you may have to <a href="https://helpx.adobe.com/acrobat/using/page-thumbnails-bookmarks-pdfs.html#create_a_bookmark">create bookmarks manually within Acrobat</a>.</p>
+
+<h3>Forms</h3>
+<p>Creating an accessible PDF form is tricky, as form fields created in other programs such as Word are not directly exported into the PDF. See <a href="https://www.adobe.com/accessibility/products/acrobat/creating-accessible-forms.html">Adobe’s guide to creating accessible forms</a>. Some general tips:</p>
+
+<ul>
+	<li><strong>Instructions</strong>: Put instructions at the beginning of the form, rather than in between form fields.</li>
+	<li><strong>Labels</strong>: In Acrobat, there is no way to specify what label applies to what form field, so each form field must also have its label entered into the “Tooltip” field. Radio buttons and check boxes require additional steps; see <a href="https://www.uottawa.ca/respect/accessibility-hub/training/pdf-accessibility-for-pc">University of Ottawa’s PDF accessibility guide</a>, specifically the section “Common PDF accessibility errors with solutions” &gt; “Form fields properties”.</li>
+	<li><strong>Input format: </strong>Ensure that the correct format is suggested, if one is required.<br>
+		Ex. Date of birth (YYYY-MM-DD). As with all labels, this should be repeated in the tooltip.</li>
+	<li><strong>Required fields: </strong>Indicate which fields are required. Do not rely solely on colour. If an asterisk (*) is used to indicate required fields, include the following text at the start of the form (eg. * indicates a required field).</li>
+	<li><strong>Tab order</strong>: Test the form using only the keyboard (using the <strong>Tab</strong> key to move between fields).</li>
+	<li>Ensure that it is obvious (visually) which field is active at all times</li>
+	<li>Ensure that the tab order follows the expected (visual) order</li>
+</ul>
+
+<h3>Reading order</h3>
+
+<p>Documents created in graphics software, rather than Word, may present information in the wrong order to screen readers and other assistive technologies. For instance, the elements might be read in the order they were created, rather than the intended visual order. Multiple columns of text can also cause reading order issues. This can be checked by pressing <strong>Control + 4</strong> to reflow the document (See “Other PDF accessibility testing tools” below). See <a href="https://helpx.adobe.com/ca/acrobat/using/touch-reading-order-tool-pdfs.html#check_and_correct_reading_order_acrobat_pro">check and correct reading order</a>.</p>
+
+<h3>Missing spaces and line breaks</h3>
+<p>Improper characters used by the author for spaces or line breaks causes words to jam together with reflow. This authoring problem occurs frequently with PDF. To test for this, export to plain text in Acrobat, or select all and copy / paste into a plain text editor like Notepad. In the plain text version, are there missing spaces and line breaks? If so, check your export settings in the authoring program. Next, try using a wider spaced font. If you have reduced the letter or word spacing, put this back to the default. If the issue persists, consider using a different authoring tool.</p>
+
+<h3>Tables</h3>
+<p>Table cells must be associated with table headers. Begin with a simple table (one with no merged cells) in Microsoft Word. Ensure that it is correctly structured with table headers by checking with the aforementioned Reading Order tool. An example of a correctly structured table is shown here. See <a href="https://www.w3.org/TR/WCAG20-TECHS/PDF20.html">Repair mis-tagged tables</a> (WCAG) and <a href="https://www.adobe.com/accessibility/products/acrobat/pdf-repair-repair-tables.html">Examine and Repair Tables</a> (Adobe).</p>
+
+<h2>Other PDF accessibility testing tools</h2>
+<p>Enabling Acrobat’s built-in accessibility features allows you to manually test the reading order and other structural issues. Adobe recommends that you <a href="https://www.adobe.com/accessibility/products/acrobat/pdf-repair-use-accessibility-checker.html">check Reflow view, Read Out Loud, and plain text export</a>.</p>
+<p>Testing a form with <a href="https://www.nvaccess.org/">NVDA (a free screen reader)</a> will quickly identify label and tab order issues. Try to fill out the form using nothing but your ears and your keyboard. This will give you an idea of what screen reader users will experience.</p>
+<p>An alternative to Acrobat’s inbuilt accessibility checker is <a href="https://www.access-for-all.ch/en/pdf-lab/pdf-accessibility-checker-pac/downloading-pac.html">Free PDF Accessibility Checker (PAC 3). </a>While this program alone won’t allow you to remediate issues, you may be able to make your fixes upstream in the authoring tool (Word, InDesign, etc.). It may also identify issues that Acrobat does not.</p>
+
+<h2>Additional resources</h2>
+
+<ul>
+	<li><a href="https://www.w3.org/TR/WCAG-TECHS/pdf.html" title="W3C WCAG 2.0 Accessibility Guidelines to Creating PDFs">W3C PDF Techniques for WCAG 2.0</a><br>
+		23 techniques for solving specific WCAG violations, mostly forms and tables (100 pages, 2016)</li>
+	<li><a href="https://helpx.adobe.com/acrobat/using/creating-accessible-pdfs.html">Adobe: Creating accessible PDFs</a><br>
+		Brief overview of creating an accessible PDF with Acrobat DC (8 pages, 2018)</li>
+	<li><a href="https://www.washington.edu/accessibility/documents/pdf-acrobat/">Fixing inaccessible PDFs Using Acrobat Pro</a><br>
+		Very brief repair workflow for resolving some of the above accessibility issues (6 pages, 2014)</li>
+	<li><a href="https://www.adobe.com/accessibility/products/acrobat/acrobat-pro-dc-pdf-accessibility-repair-workflow.html">Acrobat Pro DC PDF Accessibility Repair Workflow</a><br>
+		Step-by-step guide to resolving most of the issues above, specific to the current version (60 pages, 2015)</li>
+	<li><a href="http://www.uottawa.ca/respect/sites/www.uottawa.ca.respect/files/fss-fixing-accessibility-errors-in-pdfs.pdf">10 common accessibility errors with solutions</a><br>
+		The product of reviewing over 1500 PDF documents, this guide from the University of Ottawaa provides more details including screenshots about solving common issues (24 pages, 2014)</li>
+	<li><a href="https://www.pdf-accessible.com/en/">AcceDe: Making PDF documents accessible with Adobe Acrobat Pro</a><br>
+		Extremely detailed guide, complete with exercises. Consult this if your questions aren’t answered by the other resources. Slightly dated (95 pages, 2011)</li>
+	<li><a href="https://www.access-for-all.ch/en/pdf-lab/creation-of-accessible-pdf.html">Creation of accessible PDF</a><br>
+		Checklist of actions performed to make a PDF accessible. No details. (1 page, 2009)</li>
+</ul>
+
+<ul class="pager mrgn-tp-xl">
+	<li class="previous"><a href="accessible-word-documents-365.html" rel="prev">Previous: Accessible Word documents</a></li>
+	<li class="next"><a href="accessible-pdf-documents-365.html" rel="next">Next: Accessible PDF documents</a></li>
+</ul>
