@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+
+<head>
+	<meta charset="utf-8">
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	
+	<title>Accessible PDF documents - Digital Accessibility Toolkit</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name="description" content="Accessible practices for PDF document creation.">
+	<link rel="alternate" hreflang="en" href="./.html" />
+	<link href="./gcweb/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+	<link rel="stylesheet" href="/gcweb/css/theme.min.css" />
+</head>
+
+
+<body vocab="http://schema.org/" typeof="WebPage">
+
+	
+<nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+		</li>
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
+		</li>
+	</ul>
+</nav>
+
+
+	
+
+
+<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+
+			<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+				<h2 class="wb-inv">Language selection</h2>
+				<ul class="list-inline mrgn-bttm-0">
+					<li>
+						<a lang="fr" hreflang="fr" href="/fr/guides/office365/accessible-pdf-documents-365">
+							<span class="hidden-xs">Français</span>
+							<abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="https://www.canada.ca/en.html" property="url">
+					<img src="/gcweb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" /><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+				</a>
+				<meta property="name" content="Government of Canada">
+				<meta property="areaServed" typeof="Country" content="Canada" />
+				<link property="logo" href="/gcweb/assets/wmms-blk.svg" />
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Search</h2>
+				<form action="https://canada.ca/en/sr/srb.html" method="post" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca" />
+						<datalist id="wb-srch-q-ac"></datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+							<span class="glyphicon-search glyphicon"></span>
+							<span class="wb-inv">Search</span>
+						</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+
+	<nav class="gcweb-menu" typeof="SiteNavigationElement">
+		<div class="container">
+			<h2 class="wb-inv">Menu</h2>
+			<button type="button" aria-haspopup="true" aria-expanded="false">
+				
+					<span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+				
+			</button>
+			<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+				<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+				<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav id="wb-bc" property="breadcrumb">
+		<h2>Breadcrumb Navigation</h2>
+		<div class="container">
+			<ol class="breadcrumb">
+				<li>
+					<a href="https://www.canada.ca/en.html">Canada.ca</a>
+				</li>
+			</ol>
+		</div>
+	</nav>
+	
+</header>
+
+
+	<main property="mainContentOfPage" resource="#wb-main" class="container" typeof="WebPageElement">
+
+		<h1 property="name" id="wb-cont">Accessible PDF documents</h1>
+
+		<p>Accessible practices for PDF document creation.</p>
+
+		<div class="alert alert-warning mrgn-tp-lg">
+	<p>Our soon to be awesome site is new and still under construction. Please open an <a href="https://github.com/canada-ca/a11y/issues">issue on our Github project</a> if you see anything that needs to be fixed or if you have any recommendations.</p>
+</div>
+
+
+		
+<div class="row mrgn-tp-lg">
+	<ul class="toc lst-spcd col-md-12">
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. How to create accessible documents</a></li>
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents-365">2. Accessible Word documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active">3. Accessible PDF documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents-365">4. Accessible PowerPoint documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-excel-documents-365">5. Accessible Excel documents</a></li>
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams-365">6. Accessible Visio diagrams</a></li>
+	</ul>
+</div>
+
+<h2>Introduction</h2>
+<p>PDF (Portable Document Format) is a common format for distributing printable documents. This format was created by Adobe and can be opened with Adobe Acrobat as well as many web browsers.</p>
+
+<h2>What makes a PDF accessible?</h2>
+<p>An accessible PDF is usable by persons with and without disabilities, who may use adaptive technologies or techniques to access information. For instance, a blind user may use a screen reader or a braille display. A person with a motor impairment may use a keyboard rather than a mouse to navigate between form fields. Other users may need to adjust the font size or spacing to compensate for vision loss or learning / cognitive disabilities.</p>
+<p>General document accessibility guidelines also apply to PDFs. That means that the document should be properly structured with headings, there is sufficient contrast, and images have alternate text. Refer to the general document accessibility guide for additional information.</p>
+<p>Since PDF documents often contain interactive components like forms, their accessibility should be evaluated based on the <a href="https://www.w3.org/TR/WCAG-TECHS/Overview.html">Web Content Accessibility Guidelines</a>. Following this guide does not ensure compliance with these guidelines, but it is a good start.</p>
+
+<h2>Recommended authoring tools</h2>
+
+<h3>Microsoft Word</h3>
+<p>Note: These instructions apply to Word 2013 and 2016.</p>
+<p>The easiest way to create an accessible PDF is to begin with an accessible Word document. Once you have created an accessible document in Word, export it through <strong>File</strong> &gt; <strong>Export</strong> (do not print to PDF!).</p>
+
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive"  src="/img/en/office365/pdf-365-001.jpg" alt="Screenshot of Export dialog in Word">
+	</div>
+</div>
+
+<p>If you don’t have Adobe Acrobat installed, use the <strong>Create PDF/XPS Document </strong>option. In the dialog box, select <strong>Options </strong>and check these boxes:</p>
+
+<ul>
+	<li>Create bookmarks using: Headings<br>
+		(or bookmarks, if you have created them)</li>
+	<li>Document properties</li>
+	<li>Document structure tags</li>
+</ul>
+
+<p>The remaining boxes should be unchecked.</p>
+
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive"  src="/img/en/office365/pdf-365-002.jpg" alt="Screenshot of PDF export options in Word">
+	</div>
+</div>
+
+<h3>Adobe products</h3>
+<p>Adobe InDesign, FrameMaker, and LiveCycle Designer will export to tagged PDF, and offer more control over visual styles than Word. (LiveCycle Designer is specifically tailored to creating forms.)</p>
+
+<h2>Validating and remediating accessibility with Acrobat Pro</h2>
+<p>Adobe Acrobat Pro is the essential tool for validating and remediating PDF accessibility. The current version as of August 2018 is Acrobat Pro DC. The following information is specific to this version.</p>
+
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive"  src="/img/en/office365/pdf-365-003.jpg" alt="Screenshot of Accessibility Checker in Acrobat Pro DC">
+	</div>
+</div>
+
+<h3>Automated validation</h3>
+
+<ul>
+	<li>Open your PDF document and select <strong>Tools</strong></li>
+	<li>Under <strong>Accessibility</strong>, select <strong>Full Check</strong>. This will generate a list of issues that need to be either resolved or checked manually.
+		<ul>
+			<li>If <strong>Accessibility</strong> isn’t already displayed in tools you can
+				reveal it by selecting <strong>View</strong> &gt; <strong>Tools</strong> &gt; <strong>Accessibility</strong></li>
+		</ul>
+	</li>
+	<li>Uncheck “Create accessibility report” and select <strong>Start checking</strong>. A list of issues will appear in a sidebar titled “Accessibility Checker”.</li>
+	<li>Inspect each failure</li>
+</ul>
+
+<h3>Remediating issues</h3>
+<p>Some issues can be fixed simply by opening the <strong>context</strong> menu for the issue and selecting <strong>Fix</strong>. (Open the context menu by right-clicking or pressing the application key.)</p>
+
+<h2>Common issues and solutions</h2>
+<p>Pay special attention to the following areas of PDF accessibility.</p>
+
+<h3>Scanned documents: images of text</h3>
+<p>PDFs created from scanning in a paper document need, at minimum, to have the text recognized in order to be made accessible. This can be done automatically using Optical Character Recognition (OCR). The OCR process is not 100% accurate, so perform a manual review of the text. See <a href="https://www.adobe.com/accessibility/products/acrobat/pdf-repair-perform-ocr.html">Performing OCR on a Scanned Document</a>. </p>
+
+<h3>Document structure (tags)</h3>
+<p>An important part of PDF accessibility is “tagging”. Tags describe the structural meaning of an element within the document. For example, a link must be tagged as a link to be interactive and a heading must be tagged as a heading to appear in the navigation pane. If you are experienced with HTML, you should find the concept of tags familiar.</p>
+<p>Using a recommended authoring tool, tags will be automatically created based on the existing document structure. For instance, a heading created in Microsoft Word will be tagged as a heading in the PDF when you export.</p>
+<p>To check if a document is tagged, press <strong>Control + D </strong>to bring up the document properties, or run the Accessibility Checker. If not tagged, return to your authoring tool (ie.g. Word) if possible, ensure you have structured the document correctly, and export again using the settings given above.</p>
+<p>To manually set tags, use the <a href="https://helpx.adobe.com/acrobat/using/touch-reading-order-tool-pdfs.html#touch_up_reading_order_tool_for_pdfs_acrobat_pro">Touch Up Reading Order tool</a> (<strong>Tools</strong> &gt; <strong>Accessibility</strong> &gt; <strong>Reading Order</strong>)</p>
+
+<h3>Alternative text (“alt text”) for Images</h3>
+
+<p>To set alt text in Acrobat, navigate to <strong>Tools</strong> &gt; <strong>Accessibility</strong> &gt; <strong>Set Alternate Text</strong>. If your image does not show up in the list of figures, or the message “There is no figure information to display” appears, the images have not been correctly tagged as figures, and you will first have to tag them.</p>
+<p>Decorative images (which should be ignored by screen readers) should be tagged as “Background”.</p>
+
+<h3>Language and title </h3>
+<p>A meaningful title and the document’s language need to be specified. In Acrobat, press <strong>Control + D </strong>to bring up the document’s properties. The language field can be found under the <strong>Advanced </strong>tab.</p>
+<p>Bilingual PDF documents present special issues and should be avoided, especially for forms. It is preferable to offer multiple versions of the same PDF, one for each language.</p>
+
+<p>A passage in a different language than the main language of the document must be tagged separately. For example, an English paragraph may appear in a French document stating that the document is also available in English. See <a href="https://www.w3.org/TR/WCAG20-TECHS/PDF19.html">Specifying the language for a passage or phrase</a>.</p>
+
+<h3>Bookmarks</h3>
+
+<p>Any PDF longer than 1 page should include bookmarks. These may be automatically generated (such as when exporting from Word, provided the correct settings are used – see above) or you may have to <a href="https://helpx.adobe.com/acrobat/using/page-thumbnails-bookmarks-pdfs.html#create_a_bookmark">create bookmarks manually within Acrobat</a>.</p>
+
+<h3>Forms</h3>
+<p>Creating an accessible PDF form is tricky, as form fields created in other programs such as Word are not directly exported into the PDF. See <a href="https://www.adobe.com/accessibility/products/acrobat/creating-accessible-forms.html">Adobe’s guide to creating accessible forms</a>. Some general tips:</p>
+
+<ul>
+	<li><strong>Instructions</strong>: Put instructions at the beginning of the form, rather than in between form fields.</li>
+	<li><strong>Labels</strong>: In Acrobat, there is no way to specify what label applies to what form field, so each form field must also have its label entered into the “Tooltip” field. Radio buttons and check boxes require additional steps; see <a href="https://www.uottawa.ca/respect/accessibility-hub/training/pdf-accessibility-for-pc">University of Ottawa’s PDF accessibility guide</a>, specifically the section “Common PDF accessibility errors with solutions” &gt; “Form fields properties”.</li>
+	<li><strong>Input format: </strong>Ensure that the correct format is suggested, if one is required.<br>
+		Ex. Date of birth (YYYY-MM-DD). As with all labels, this should be repeated in the tooltip.</li>
+	<li><strong>Required fields: </strong>Indicate which fields are required. Do not rely solely on colour. If an asterisk (*) is used to indicate required fields, include the following text at the start of the form (eg. * indicates a required field).</li>
+	<li><strong>Tab order</strong>: Test the form using only the keyboard (using the <strong>Tab</strong> key to move between fields).</li>
+	<li>Ensure that it is obvious (visually) which field is active at all times</li>
+	<li>Ensure that the tab order follows the expected (visual) order</li>
+</ul>
+
+<h3>Reading order</h3>
+
+<p>Documents created in graphics software, rather than Word, may present information in the wrong order to screen readers and other assistive technologies. For instance, the elements might be read in the order they were created, rather than the intended visual order. Multiple columns of text can also cause reading order issues. This can be checked by pressing <strong>Control + 4</strong> to reflow the document (See “Other PDF accessibility testing tools” below). See <a href="https://helpx.adobe.com/ca/acrobat/using/touch-reading-order-tool-pdfs.html#check_and_correct_reading_order_acrobat_pro">check and correct reading order</a>.</p>
+
+<h3>Missing spaces and line breaks</h3>
+<p>Improper characters used by the author for spaces or line breaks causes words to jam together with reflow. This authoring problem occurs frequently with PDF. To test for this, export to plain text in Acrobat, or select all and copy / paste into a plain text editor like Notepad. In the plain text version, are there missing spaces and line breaks? If so, check your export settings in the authoring program. Next, try using a wider spaced font. If you have reduced the letter or word spacing, put this back to the default. If the issue persists, consider using a different authoring tool.</p>
+
+<h3>Tables</h3>
+<p>Table cells must be associated with table headers. Begin with a simple table (one with no merged cells) in Microsoft Word. Ensure that it is correctly structured with table headers by checking with the aforementioned Reading Order tool. An example of a correctly structured table is shown here. See <a href="https://www.w3.org/TR/WCAG20-TECHS/PDF20.html">Repair mis-tagged tables</a> (WCAG) and <a href="https://www.adobe.com/accessibility/products/acrobat/pdf-repair-repair-tables.html">Examine and Repair Tables</a> (Adobe).</p>
+
+<h2>Other PDF accessibility testing tools</h2>
+<p>Enabling Acrobat’s built-in accessibility features allows you to manually test the reading order and other structural issues. Adobe recommends that you <a href="https://www.adobe.com/accessibility/products/acrobat/pdf-repair-use-accessibility-checker.html">check Reflow view, Read Out Loud, and plain text export</a>.</p>
+<p>Testing a form with <a href="https://www.nvaccess.org/">NVDA (a free screen reader)</a> will quickly identify label and tab order issues. Try to fill out the form using nothing but your ears and your keyboard. This will give you an idea of what screen reader users will experience.</p>
+<p>An alternative to Acrobat’s inbuilt accessibility checker is <a href="https://www.access-for-all.ch/en/pdf-lab/pdf-accessibility-checker-pac/downloading-pac.html">Free PDF Accessibility Checker (PAC 3). </a>While this program alone won’t allow you to remediate issues, you may be able to make your fixes upstream in the authoring tool (Word, InDesign, etc.). It may also identify issues that Acrobat does not.</p>
+
+<h2>Additional resources</h2>
+
+<ul>
+	<li><a href="https://www.w3.org/TR/WCAG-TECHS/pdf.html" title="W3C WCAG 2.0 Accessibility Guidelines to Creating PDFs">W3C PDF Techniques for WCAG 2.0</a><br>
+		23 techniques for solving specific WCAG violations, mostly forms and tables (100 pages, 2016)</li>
+	<li><a href="https://helpx.adobe.com/acrobat/using/creating-accessible-pdfs.html">Adobe: Creating accessible PDFs</a><br>
+		Brief overview of creating an accessible PDF with Acrobat DC (8 pages, 2018)</li>
+	<li><a href="https://www.washington.edu/accessibility/documents/pdf-acrobat/">Fixing inaccessible PDFs Using Acrobat Pro</a><br>
+		Very brief repair workflow for resolving some of the above accessibility issues (6 pages, 2014)</li>
+	<li><a href="https://www.adobe.com/accessibility/products/acrobat/acrobat-pro-dc-pdf-accessibility-repair-workflow.html">Acrobat Pro DC PDF Accessibility Repair Workflow</a><br>
+		Step-by-step guide to resolving most of the issues above, specific to the current version (60 pages, 2015)</li>
+	<li><a href="http://www.uottawa.ca/respect/sites/www.uottawa.ca.respect/files/fss-fixing-accessibility-errors-in-pdfs.pdf">10 common accessibility errors with solutions</a><br>
+		The product of reviewing over 1500 PDF documents, this guide from the University of Ottawaa provides more details including screenshots about solving common issues (24 pages, 2014)</li>
+	<li><a href="https://www.pdf-accessible.com/en/">AcceDe: Making PDF documents accessible with Adobe Acrobat Pro</a><br>
+		Extremely detailed guide, complete with exercises. Consult this if your questions aren’t answered by the other resources. Slightly dated (95 pages, 2011)</li>
+	<li><a href="https://www.access-for-all.ch/en/pdf-lab/creation-of-accessible-pdf.html">Creation of accessible PDF</a><br>
+		Checklist of actions performed to make a PDF accessible. No details. (1 page, 2009)</li>
+</ul>
+
+<ul class="pager mrgn-tp-xl">
+	<li class="previous"><a href="../accessible-word-documents-365" rel="prev">Previous: Accessible Word documents</a></li>
+	<li class="next"><a href="../accessible-powerpoint-documents-365" rel="next">Next: Accessible PDF documents</a></li>
+</ul>
+
+		
+<div class="pagedetails">
+	<div class="row">
+		<div class="col-sm-6 col-md-5 col-lg-4">
+			<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-center">Report a problem on this page</a></div>
+		<div class="wb-share col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+	</div>
+	<dl id="wb-dtmd">
+		<dt>Date modified:</dt>
+		<dd><time datetime="2021-04-22">2021-04-22</time></dd>
+	</dl>
+</div>
+
+
+
+
+
+
+	</main>
+
+	
+<footer id="wb-info">
+	<div class="landscape">
+		<nav class="container wb-navcurr">
+			<h2 class="wb-inv">About government</h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
+				<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+				<li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
+				<li><a href="https://www.canada.ca/en/news.html">News</a></li>
+				<li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
+				<li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+				<li><a href="https://pm.gc.ca/eng">Prime Minister</a></li>
+				<li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
+				<li><a href="https://open.canada.ca/en/">Open government</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="brand">
+		<div class="container">
+			<div class="row">
+				<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+					<h2 class="wb-inv">About this site</h2>
+					<ul>
+						<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+						<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+						<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
+						<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+						<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+					</ul>
+				</nav>
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+					<img src="/gcweb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<script src="/wet-boew/js/wet-boew.min.js"></script>
+	<script src="/gcweb/js/theme.min.js"></script>
+</body>
+</html>

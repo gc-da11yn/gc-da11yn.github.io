@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+
+<head>
+	<meta charset="utf-8">
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	
+	<title>Designing accessible services - Digital Accessibility Toolkit</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name="description" content="description">
+	<link rel="alternate" hreflang="en" href="./.html" />
+	<link href="./gcweb/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+	<link rel="stylesheet" href="/gcweb/css/theme.min.css" />
+</head>
+
+
+<body vocab="http://schema.org/" typeof="WebPage">
+
+	
+<nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+		</li>
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
+		</li>
+	</ul>
+</nav>
+
+
+	
+
+
+<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+
+			<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+				<h2 class="wb-inv">Language selection</h2>
+				<ul class="list-inline mrgn-bttm-0">
+					<li>
+						<a lang="fr" hreflang="fr" href="/fr/design-accessible-services">
+							<span class="hidden-xs">Français</span>
+							<abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="https://www.canada.ca/en.html" property="url">
+					<img src="/gcweb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" /><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+				</a>
+				<meta property="name" content="Government of Canada">
+				<meta property="areaServed" typeof="Country" content="Canada" />
+				<link property="logo" href="/gcweb/assets/wmms-blk.svg" />
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Search</h2>
+				<form action="https://canada.ca/en/sr/srb.html" method="post" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca" />
+						<datalist id="wb-srch-q-ac"></datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+							<span class="glyphicon-search glyphicon"></span>
+							<span class="wb-inv">Search</span>
+						</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+
+	<nav class="gcweb-menu" typeof="SiteNavigationElement">
+		<div class="container">
+			<h2 class="wb-inv">Menu</h2>
+			<button type="button" aria-haspopup="true" aria-expanded="false">
+				
+					<span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+				
+			</button>
+			<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+				<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+				<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav id="wb-bc" property="breadcrumb">
+		<h2>Breadcrumb Navigation</h2>
+		<div class="container">
+			<ol class="breadcrumb">
+				<li>
+					<a href="https://www.canada.ca/en.html">Canada.ca</a>
+				</li>
+			</ol>
+		</div>
+	</nav>
+	
+</header>
+
+
+	<main property="mainContentOfPage" resource="#wb-main" class="container" typeof="WebPageElement">
+
+		<h1 property="name" id="wb-cont">Designing accessible services</h1>
+
+		<p>description</p>
+
+		<div class="alert alert-warning mrgn-tp-lg">
+	<p>Our soon to be awesome site is new and still under construction. Please open an <a href="https://github.com/canada-ca/a11y/issues">issue on our Github project</a> if you see anything that needs to be fixed or if you have any recommendations.</p>
+</div>
+
+
+		
+<p>Printable posters <span id="das1">(PDF format)</span>:
+<ul>
+	<li><a href="/docs/posters/AutismSpect-en.pdf" id="das2" aria-labelledby="das2 das1">Designing for users on the autistic spectrum</a></li>
+	<li><a href="/docs/posters/Cognitive-en.pdf" id="das3" aria-labelledby="das3 das1">Design principles for users with cognitive disabilities</a></li>
+	<li><a href="/docs/posters/Hearing-en.pdf" id="das4" aria-labelledby="das4 das1">Designing for users who are deaf or hard of hearing</a></li>
+	<li><a href="/docs/posters/LowVision-en.pdf" id="das6" aria-labelledby="das6 das1">Designing for users with low vision</a></li>
+	<li><a href="/docs/posters/MotorPhysical-en.pdf" id="das7" aria-labelledby="das7 das1">Designing for users with physical or motor disabilities</a></li>
+	<li><a href="/docs/posters/ScreenReader-en.pdf" id="das8" aria-labelledby="das8 das1">Designing for users of screen readers</a></li>
+</ul>
+<h2>Designing for users on the autistic spectrum</h2>
+
+<div class="row">
+	<div class="col-md-6">
+		<p class="h3">Do:</p>
+		<ul>
+			<li>Use simple colours</li>
+			<li>Write in plain English</li>
+			<li>Use simple sentences and bullets</li>
+			<li>Make buttons descriptive</li>
+			<li>Build simple and consistent layouts</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<p class="h3">Don't:</p>
+		<ul>
+			<li>Use bright contrasting colours</li>
+			<li>Use figures of speech and idioms</li>
+			<li>Create a wall of text</li>
+			<li>Make buttons vague and unpredictable</li>
+			<li>Build complex and cluttered layouts</li>
+		</ul>
+	</div>
+</div>
+
+<h2>Designing for users with cognitive disabilities</h2>
+
+<div class="row">
+	<div class="col-md-6">
+		<p class="h3">Do:</p>
+		<ul>
+			<li>Let users have control of the contrast and colours onthe screen</li>
+			<li>Align text to the left, keep a consistent layout and use a sans-serif font at a min 12pt</li>
+			<li>Keep content short, clear and simple</li>
+			<li>Use images and diagrams to support text and complex ideas</li>
+			<li>Use simple colours and coloured paper like yellow or pink </li>
+			<li>Use multi-modal materials like audio and video</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<p class="h3">Don't:</p>
+		<ul>
+			<li>Overload the user with too much info at once</li>
+			<li>Write large walls of complex text</li>
+			<li>Use complicated words or figures of speech</li>
+			<li>Increase cognitive load by requiring users to recall into</li>
+			<li>Use bright and contrasting colours stimulation overload</li>
+			<li>Rush users or set short time limits to complete tasks</li>
+		</ul>
+	</div>
+</div>
+
+<h2>Designing for users who are deaf or hard of hearing</h2>
+
+<div class="row">
+	<div class="col-md-6">
+		<p class="h3">Do:</p>
+		<ul>
+			<li>Write in plain language</li>
+			<li>Use subtitles or provide transcripts for videos</li>
+			<li>Use a linear, logical layout</li>
+			<li>Break up content with sub-headings, images and videos</li>
+			<li>Let users ask for their preferred communication support when booking appointments</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<p class="h3">Don't:</p>
+		<ul>
+			<li>Use complicated words or figures of speech</li>
+			<li>Put content in audio or video only</li>
+			<li>Make complex layouts and menus</li>
+			<li>Make users read long blocks of content</li>
+			<li>Make telephone the only means of contact for users</li>
+		</ul>
+	</div>
+</div>
+
+<!--<h2>Designing for users with dyslexia</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="h3">Do:</p>
+            <ul>
+              <li>Use images and diagrams to support text</li>
+              <li>Align text to the left and keep a consistent layout</li>
+              <li>Consider producing materials in other formats (for example, audio or video)</li>
+              <li>Keep content short and simple, make clear prompts</li>
+              <li>Let users change the contrast between the background and text</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <p class="h3">Don't:</p>
+            <ul>
+              <li>Use large blocks of heavy text</li>
+              <li>Underline words, use italics or write in capitals</li>
+              <li>Force users to remember things from previous pages - give reminders and prompts</li>
+              <li>Rely on accurate spelling. Use autocorrect or provide suggestions</li>
+              <li>Put too much information in one place</li>
+            </ul>
+          </div>
+        </div>-->
+
+<h2>Designing for users with low vision</h2>
+<div class="row">
+	<div class="col-md-6">
+		<p class="h3">Do:</p>
+		<ul>
+			<li>Use good colour contrast and a readable font size</li>
+			<li>Publish all information on web pages</li>
+			<li>Use a combination of colour, shapes and text</li>
+			<li>Follow a linear, logical layout</li>
+			<li>Put buttons and notifications in context</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<p class="h3">Don't:</p>
+		<ul>
+			<li>Use low colour contrasts and small font sizes</li>
+			<li>Bury information in downloads</li>
+			<li>Only use colour to convey meaning</li>
+			<li>Spread content all over a page</li>
+			<li>Separate actions from their context</li>
+		</ul>
+	</div>
+</div>
+
+<h2>Designing for users with physical or motor disabilities</h2>
+<div class="row">
+	<div class="col-md-6">
+		<p class="h3">Do:</p>
+		<ul>
+			<li>Make large clickable actions</li>
+			<li>Give form fields space</li>
+			<li>Design for keyboard or speech only use</li>
+			<li>Design with mobile and touchscreen in mind</li>
+			<li>Provide shortcuts</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<p class="h3">Don't:</p>
+		<ul>
+			<li>Demand precision</li>
+			<li>Bunch interactions together</li>
+			<li>Make dynamic content that requires a lot of mouse movement</li>
+			<li>Have short time out windows</li>
+			<li>Tire users with lots of typing and scrolling</li>
+		</ul>
+	</div>
+</div>
+
+<h2>Designing for users of screenreaders</h2>
+<div class="row">
+	<div class="col-md-6">
+		<p class="h3">Do:</p>
+		<ul>
+			<li>Describe images and provide transcripts for video</li>
+			<li>Follow a linear logical layout</li>
+			<li>Structure content using HTML5</li>
+			<li>Build for keyboard use only</li>
+			<li>Write descriptive links and headings</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<p class="h3">Don't:</p>
+		<ul>
+			<li>Only show information in an image or video</li>
+			<li>Spread content all over a page</li>
+			<li>Rely on text size and placement for structure</li>
+			<li>Force mouse or screen use</li>
+			<li>Write uninformative links and headings</li>
+		</ul>
+	</div>
+</div>
+
+		
+<div class="pagedetails">
+	<div class="row">
+		<div class="col-sm-6 col-md-5 col-lg-4">
+			<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-center">Report a problem on this page</a></div>
+		<div class="wb-share col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+	</div>
+	<dl id="wb-dtmd">
+		<dt>Date modified:</dt>
+		<dd><time datetime="2021-04-22">2021-04-22</time></dd>
+	</dl>
+</div>
+
+
+
+
+
+
+	</main>
+
+	
+<footer id="wb-info">
+	<div class="landscape">
+		<nav class="container wb-navcurr">
+			<h2 class="wb-inv">About government</h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
+				<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+				<li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
+				<li><a href="https://www.canada.ca/en/news.html">News</a></li>
+				<li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
+				<li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+				<li><a href="https://pm.gc.ca/eng">Prime Minister</a></li>
+				<li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
+				<li><a href="https://open.canada.ca/en/">Open government</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="brand">
+		<div class="container">
+			<div class="row">
+				<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+					<h2 class="wb-inv">About this site</h2>
+					<ul>
+						<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+						<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+						<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
+						<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+						<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+					</ul>
+				</nav>
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+					<img src="/gcweb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<script src="/wet-boew/js/wet-boew.min.js"></script>
+	<script src="/gcweb/js/theme.min.js"></script>
+</body>
+</html>
