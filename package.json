@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eleventy": "npx eleventy",
-    "start": "eleventy --serve"
+    "start": "eleventy --serve",
+	"build": "eleventy"
   },
   "repository": {
     "type": "git",
