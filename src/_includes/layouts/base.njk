@@ -11,9 +11,9 @@
 
 	<main property="mainContentOfPage" resource="#wb-main" class="container" typeof="WebPageElement">
 
-		<h1 property="name" id="wb-cont">{{ title }}</h1>
+		<h1 property="name" id="wb-cont">{{ title | safe }}</h1>
 
-		<p>{{ description }}</p>
+		<p>{{ description | safe }}</p>
 
 		{% include "partials/underconstruction.njk" %}
 
