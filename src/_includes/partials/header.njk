@@ -82,6 +82,16 @@
 				<li>
 					<a href="{{ header[locale].GovernmentofCanadaURL }}">Canada.ca</a>
 				</li>
+				{% set url = page.filePathStem | replace("/", "") %}
+				{% if url | replace("index", "") != locale %}
+					<li><a href="/{{ locale }}/">{{ settings[locale].metaTitle }}</a></li>
+				{% endif %}
+				
+				{% for breadcrumb in breadcrumbs %}
+					{% if breadcrumb.title != title %}
+						<li><a href="{{ breadcrumb.link | safe }}">{{ breadcrumb.title }}</a></li>
+					{% endif %}
+				{% endfor %}
 			</ol>
 		</div>
 	</nav>
