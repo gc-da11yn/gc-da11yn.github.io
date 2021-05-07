@@ -1,6 +1,6 @@
 {% set otherLang = "fr" if locale == "en" else "en" %}
 {% set otherLangugae = "Français" if locale == "en" else "English" %}
-{% set toggleURL = page.filePathStem | replace("/en/", "/fr/") if locale == "en"  else page.filePathStem | replace("/fr/", "/en/") %}
+{% set toggleURL = page.filePathStem | replace("/en/", "fr/") if locale == "en"  else page.filePathStem | replace("/fr/", "en/") %}
 <header>
 	<div id="wb-bnr" class="container">
 		<div class="row">
@@ -9,7 +9,7 @@
 				<h2 class="wb-inv">{{ header[locale].Languageselection }}</h2>
 				<ul class="list-inline mrgn-bttm-0">
 					<li>
-						<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ toggleURL | replace("index", "") }}">
+						<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ '/' | url }}{{ toggleURL | replace("index", "") }}">
 							<span class="hidden-xs">{{ otherLangugae }}</span>
 							<abbr title="{{ otherLangugae }}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ otherLang }}</abbr>
 						</a>
