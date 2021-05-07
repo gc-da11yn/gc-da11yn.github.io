@@ -32,7 +32,7 @@ module.exports = function(eleventyConfig) {
 			templateFormats : ["html", "md", "njk", "css"],
 			htmlTemplateEngine : "njk",
 			markdownTemplate : "njk",
-			setUseGitIgnore : false,
-			pathPrefix : "/gc-da11yn.github.io/"
+			setUseGitIgnore : false
+			// pathPrefix : "/gc-da11yn.github.io/"
 		};
 	}
