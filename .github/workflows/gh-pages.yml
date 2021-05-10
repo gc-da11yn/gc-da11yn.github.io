@@ -16,6 +16,11 @@ jobs:
         with:
           node-version: '12.x'
 
+      - name: Reconfigure git to use HTTP authentication
+        run: >
+            git config --global url."https://github.com/".insteadOf
+            ssh://git@github.com/
+
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
