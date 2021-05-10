@@ -1,0 +1,45 @@
+.contribute {
+	background-color: black;
+	color: white;
+
+	ul {
+		padding-bottom: 2em;
+		padding-top: 2em;
+		position: relative;
+	}
+	
+	small {
+		display: block;
+		color: #aaa;
+		
+	}
+	
+	h2 {
+		font-size: 3em;
+		margin-bottom: 15px;
+		
+		small {
+			margin-left: 45px;
+			margin-top: 5px;
+		}
+	}
+	
+	a {
+		text-decoration: none;
+		color: #fff;
+
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
+		
+		.fa-fw {
+			margin-right: 6px;
+		}
+
+		small {
+			margin-left: 15px;
+		}
+	}
+}
+
