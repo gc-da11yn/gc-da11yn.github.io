@@ -1,0 +1,20 @@
+// Banner styles
+$theme-color: #26374a;
+
+.home {
+	background: no-repeat center center; 
+	background-size: cover;
+	background-image: url("/img/banner.png");
+	margin-bottom: 25px;
+
+	
+	.gctheme.well.header-rwd {
+		background-color: $theme-color;
+		
+		h1 {
+			width: 100%;
+			border: none;
+			
+		}
+	}
+}
