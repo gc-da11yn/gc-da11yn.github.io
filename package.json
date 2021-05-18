@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eleventy": "npx eleventy",
-	"watch:eleventy": "eleventy --serve",
-    "sass": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
-	"watch:sass": "npm run sass -- --watch",
-    "start": "npm-run-all sass --parallel watch:*",
-    "build": "npm-run-all sass --parallel eleventy"
+    "watch:eleventy": "eleventy --serve",
+    "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
+    "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
+    "watch:sass": "npm run sass-start -- --watch",
+    "start": "npm-run-all sass-start --parallel watch:*",
+    "build": "npm-run-all sass-build --parallel eleventy"
   },
   "repository": {
     "type": "git",
