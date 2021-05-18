@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "./node_modules/gcweb/" : "gcweb" });
 	eleventyConfig.addPassthroughCopy({ "./src/_docs" : "docs" });
 	eleventyConfig.addPassthroughCopy({ "./src/_images" : "img" });
+	eleventyConfig.addPassthroughCopy({ "./src/CNAME" : "CNAME" });
 
 	// date filter (localized)
 	eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
