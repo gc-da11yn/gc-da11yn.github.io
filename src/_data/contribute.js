@@ -1,7 +1,7 @@
 module.exports = {
 	fr: {
 		contribute: "Contribuez",
-		small: "à Github.com",
+		small: "sur Github.com",
 		see: "Voir le code source",
 		report: "Signaler un problème",
 		join: "Participez aux discussions"
