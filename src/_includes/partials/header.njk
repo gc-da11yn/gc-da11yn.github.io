@@ -6,7 +6,7 @@
 		<div class="row">
 
 			<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
-				<h2 class="wb-inv">{{ header[locale].Languageselection }}</h2>
+				<h2 class="wb-inv">{{ header[locale].languageSelections }}</h2>
 				<ul class="list-inline mrgn-bttm-0">
 					<li>
 						<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ '/' | url }}{{ toggleURL | replace("index", "") }}">
@@ -18,10 +18,10 @@
 			</section>
 
 			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
-				<a href="{{ header[locale].GovernmentofCanadaURL }}" property="url">
-					<img src="{{ '/' | url }}gcweb/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].GovernmentofCanada }}" property="logo" /><span class="wb-inv"> / <span lang="{{ otherLang }}">Gouvernement du Canada</span></span>
+				<a href="{{ header[locale].governmentOfCanadaURL }}" property="url">
+					<img src="{{ '/' | url }}gcweb/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].governmentOfCanada }}" property="logo" /><span class="wb-inv"> / <span lang="{{ otherLang }}">Gouvernement du Canada</span></span>
 				</a>
-				<meta property="name" content="{{ header[locale].GovernmentofCanada }}">
+				<meta property="name" content="{{ header[locale].governmentOfCanada }}">
 				<meta property="areaServed" typeof="Country" content="Canada" />
 				<link property="logo" href="{{ '/' | url }}gcweb/assets/wmms-blk.svg" />
 			</div>
@@ -30,14 +30,14 @@
 				<h2>Search</h2>
 				<form action="https://canada.ca/{{ locale }}/sr/srb.html" method="post" name="cse-search-box" role="search">
 					<div class="form-group wb-srch-qry">
-						<label for="wb-srch-q" class="wb-inv">{{ header[locale].SearchCanadaca }}</label>
-						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="{{ header[locale].SearchCanadaca }}" />
+						<label for="wb-srch-q" class="wb-inv">{{ header[locale].searchCanadaCa }}</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="{{ header[locale].searchCanadaCa }}" />
 						<datalist id="wb-srch-q-ac"></datalist>
 					</div>
 					<div class="form-group submit">
 						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
 							<span class="glyphicon-search glyphicon"></span>
-							<span class="wb-inv">{{ header[locale].Search }}</span>
+							<span class="wb-inv">{{ header[locale].search }}</span>
 						</button>
 					</div>
 				</form>
@@ -51,36 +51,36 @@
 			<h2 class="wb-inv">Menu</h2>
 			<button type="button" aria-haspopup="true" aria-expanded="false">
 				{% if locale == "en" %}
-					<span class="wb-inv">{{ header[locale].MainMenu }} </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+					<span class="wb-inv">{{ header[locale].mainMenu }} </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
 				{% else %}
-					Menu <span class="wb-inv">{{ header[locale].MainMenu }} </span><span class="expicon glyphicon glyphicon-chevron-down"></span>
+					Menu <span class="wb-inv">{{ header[locale].mainMenu }} </span><span class="expicon glyphicon glyphicon-chevron-down"></span>
 				{% endif %}
 			</button>
 			<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-{{ locale }}.html">
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].JobsandtheworkplaceURL }}">{{ header[locale].Jobsandtheworkplace }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].ImmigrationandcitizenshipURL }}">{{ header[locale].Immigrationandcitizenship }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].TravelandtourismURL }}">{{ header[locale].Travelandtourism }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].BusinessandindustryURL }}">{{ header[locale].Businessandindustry }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].BenefitsURL }}">{{ header[locale].Benefits }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].HealthURL }}">{{ header[locale].Health }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].TaxesURL }}">{{ header[locale].Taxes }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].EnvironmentandnaturalresourcesURL }}">{{ header[locale].Environmentandnaturalresources }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].NationalsecurityanddefenceURL }}">{{ header[locale].Nationalsecurityanddefence }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].CulturehistoryandsportURL }}">{{ header[locale].Culturehistoryandsport }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].PolicingjusticeandemergenciesURL }}">{{ header[locale].Policingjusticeandemergencies }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].TransportandinfrastructureURL }}">{{ header[locale].Transportandinfrastructure }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].CanadaandtheworldURL }}">{{ header[locale].Canadaandtheworld }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].MoneyandfinancesURL }}">{{ header[locale].Moneyandfinances }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].ScienceandinnovationURL }}">{{ header[locale].Scienceandinnovation }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].jobsAndTheWorkplaceURL }}">{{ header[locale].jobsAndTheWorkplace }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].immigrationAndCitizenshipURL }}">{{ header[locale].immigrationAndCitizenship }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].travelAndTourismURL }}">{{ header[locale].travelAndTourism }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].businessAndIndustryURL }}">{{ header[locale].businessAndIndustry }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].benefitsURL }}">{{ header[locale].benefits }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].healthURL }}">{{ header[locale].health }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].taxesURL }}">{{ header[locale].taxes }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].environmentAndNaturalResourcesURL }}">{{ header[locale].environmentAndNaturalResources }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].nationalSecurityAndDefenceURL }}">{{ header[locale].nationalSecurityAndDefence }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].cultureHistoryAndSportURL }}">{{ header[locale].cultureHistoryAndSport }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].policingJusticeAndEmergenciesURL }}">{{ header[locale].policingJusticeAndEmergencies }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].transportAndInfrastructureURL }}">{{ header[locale].transportAndInfrastructure }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].canadaAndTheWorldURL }}">{{ header[locale].canadaAndTheWorld }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].moneyAndFinancesURL }}">{{ header[locale].moneyAndFinances }}</a></li>
+				<li role="presentation"><a role="menuitem" href="{{ header[locale].scienceAndInnovationURL }}">{{ header[locale].scienceAndInnovation }}</a></li>
 			</ul>
 		</div>
 	</nav>
 	<nav id="wb-bc" property="breadcrumb">
-		<h2>{{ header[locale].Breadcrumbsheading }}</h2>
+		<h2>{{ header[locale].breadcrumbsHeading }}</h2>
 		<div class="container">
 			<ol class="breadcrumb">
 				<li>
-					<a href="{{ header[locale].GovernmentofCanadaURL }}">Canada.ca</a>
+					<a href="{{ header[locale].governmentOfCanadaURL }}">Canada.ca</a>
 				</li>
 				{% set url = page.filePathStem | replace("/", "") %}
 				{% if url | replace("index", "") != locale %}
