@@ -9,7 +9,7 @@
 				<h2 class="wb-inv">{{ header[locale].languageSelections }}</h2>
 				<ul class="list-inline mrgn-bttm-0">
 					<li>
-						<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ '/' | url }}{{ toggleURL | replace("index", "") }}">
+						<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ rootPath }}{{ toggleURL | replace("index", "") }}">
 							<span class="hidden-xs">{{ otherLangugae }}</span>
 							<abbr title="{{ otherLangugae }}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ otherLang }}</abbr>
 						</a>
@@ -19,11 +19,11 @@
 
 			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
 				<a href="{{ header[locale].governmentOfCanadaURL }}" property="url">
-					<img src="{{ '/' | url }}gcweb/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].governmentOfCanada }}" property="logo" /><span class="wb-inv"> / <span lang="{{ otherLang }}">Gouvernement du Canada</span></span>
+					<img src="{{ rootPath }}gcweb/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].governmentOfCanada }}" property="logo" /><span class="wb-inv"> / <span lang="{{ otherLang }}">Gouvernement du Canada</span></span>
 				</a>
 				<meta property="name" content="{{ header[locale].governmentOfCanada }}">
 				<meta property="areaServed" typeof="Country" content="Canada" />
-				<link property="logo" href="{{ '/' | url }}gcweb/assets/wmms-blk.svg" />
+				<link property="logo" href="{{ rootPath }}gcweb/assets/wmms-blk.svg" />
 			</div>
 
 			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
@@ -84,7 +84,7 @@
 				</li>
 				{% set url = page.filePathStem | replace("/", "") %}
 				{% if url | replace("index", "") != locale %}
-					<li><a href="{{ '/' | url }}{{ locale }}/">{{ settings[locale].metaTitle }}</a></li>
+					<li><a href="{{ rootPath }}{{ locale }}/">{{ settings[locale].metaTitle }}</a></li>
 				{% endif %}
 				
 				{% for breadcrumb in breadcrumbs %}
