@@ -1,6 +1,10 @@
 {
 	"breadcrumbs": [
 		{
+			"title": "Guides",
+			"link": "/en/guides/"
+		},
+		{
 			"title": "How to create accessible documents in Office 365",
 			"link": "/en/guides/office365/"
 		}

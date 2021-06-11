@@ -1,6 +1,10 @@
 {
 	"breadcrumbs": [
 		{
+			"title": "Outils et ressources",
+			"link": "/fr/guides/"
+		},
+		{
 			"title": "Comment créer des documents accessibles dans Office 2016",
 			"link": "/fr/guides/office2016/"
 		}
