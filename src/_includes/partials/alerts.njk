@@ -1,0 +1,13 @@
+{% set otherLang = "fr" if locale == "en" else "en" %}
+<section class="alert alert-warning mrgn-tp-lg">
+	<h2>{{ alerts[locale].alertHeading }}</h2>
+	<ul>
+		<li class="mrgn-tp-lg">{{ alerts[locale].underConstText | safe }}</li>
+	{% if isDraft == true %}
+		<li class="mrgn-tp-lg">{{ alerts[locale].draftText }}</li>
+	{% endif %}
+	{% if needsTranslation == true %}
+		<li class="mrgn-tp-lg">{{ alerts[locale].translationText }}</li>
+	{% endif %}
+	</ul>
+</section>
