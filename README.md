@@ -26,6 +26,10 @@ Deploying with [Github Actions](https://github.com/features/actions) to [Github 
 
 The content is created for GC employees although it can be used by anyone who works in digital accessibility. 
 
+#### Key roles
+
+The key roles will be defined based on the W3C's [ARRM Project - Accessibility Roles and Responsibilities Mapping](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) project.
+
 ### What is the goal of this project?
 
 To promote the great work we do in the field of digital accessibility within the GC and to have a centralized place to share our documentation.  
