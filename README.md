@@ -1,5 +1,7 @@
 ([Français](#boîte-à-outils-d'accessibilité-numérique))
 
+This project is in the early stages of development and planning, not all information is available in both official languages.
+
 ## Digital Accessibility Toolkit
 
 ### What is this project?
@@ -14,13 +16,9 @@ Types of information relating to digital accessibility to be shared are:
 - discussions,
 - information about the work we do in the GC.
 
-### How does it work?
+### Development
 
-Build the site based on what the [a11yproject](https://github.com/a11yproject/a11yproject.com) is doing.
-
-Using [Eleventy](https://www.11ty.io), a simple static site generator that uses [nodeJS](https://nodejs.org/en/).
-
-Deploying with [Github Actions](https://github.com/features/actions) to [Github Pages](https://pages.github.com) to host the site.
+See [DEVELOPMENT.md](DEVELOPMENT.md) for more information.
 
 ### Who will use this project?
 
@@ -50,7 +48,7 @@ ______________________
 
 ## Boîte à outils d'accessibilité numérique
 
-Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles en français. 
+Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles dans les deux langues officielles.
 
 <!-- TO BE TRANSLATED
 
@@ -76,7 +74,7 @@ Ce projet en est aux premiers stades de développement et de planification, tout
 
 Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre section [Discussions](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
 
-Voir [CONTRIBUTING.md](CONTRIBUTING.md)pour plus d'informations.
+Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour plus d'informations.
 
 ### Licence
 

@@ -2,6 +2,8 @@
 
 ([Français](#comment-contribuer))
 
+<!-- Need to update this, suggestion to add stuff similar to https://www.a11yproject.com/contributing-guidelines/ -->
+
 ## How to Contribute
 
 When contributing, post comments and discuss changes you wish to make via Issues.
