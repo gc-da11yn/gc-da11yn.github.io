@@ -14,13 +14,9 @@ Types of information relating to digital accessibility to be shared are:
 - discussions,
 - information about the work we do in the GC.
 
-### How does it work?
+### Development
 
-Build the site based on what the [a11yproject](https://github.com/a11yproject/a11yproject.com) is doing.
-
-Using [Eleventy](https://www.11ty.io), a simple static site generator that uses [nodeJS](https://nodejs.org/en/).
-
-Deploying with [Github Actions](https://github.com/features/actions) to [Github Pages](https://pages.github.com) to host the site.
+See [DEVELOPMENT.md](DEVELOPMENT.md) for more information.
 
 ### Who will use this project?
 
