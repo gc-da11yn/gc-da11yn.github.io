@@ -1,5 +1,7 @@
 ([Français](#boîte-à-outils-d'accessibilité-numérique))
 
+This project is in the early stages of development and planning, not all information is available in both official languages.
+
 ## Digital Accessibility Toolkit
 
 ### What is this project?
@@ -46,7 +48,7 @@ ______________________
 
 ## Boîte à outils d'accessibilité numérique
 
-Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles en français. 
+Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles dans les deux langues officielles.
 
 <!-- TO BE TRANSLATED
 
@@ -72,7 +74,7 @@ Ce projet en est aux premiers stades de développement et de planification, tout
 
 Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre section [Discussions](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
 
-Voir [CONTRIBUTING.md](CONTRIBUTING.md)pour plus d'informations.
+Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour plus d'informations.
 
 ### Licence
 
