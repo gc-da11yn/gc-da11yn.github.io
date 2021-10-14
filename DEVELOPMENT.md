@@ -26,9 +26,38 @@ You'll need access to the following programs and technology in order to get the 
 
 Once you have met [the prerequisites](#requirements), follow these steps to install the website on your computer:
 
-1. Clone this repository by entering this command into your command line application: `git clone https://github.com/gc-da11yn/gc-da11yn.github.io.git`. It will create a version controlled copy of the website in the directory you entered the command in.
-1. Navigate into the project's [root directory](https://en.m.wikipedia.org/wiki/Root_directory) by typing `cd gc-da11yn.github.io` in your command line application.
-1. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
+1. Fork the repository via the Github web by clicking the "Fork" button in the top right corner.
+
+2. After you created your fork from the Github web site. Clone your fork repository by entering this command into your command line application: Replace "$githubUsername" by your github username. 
+
+`git clone https://github.com/$githubUsername/gc-da11yn.github.io.git`
+
+It will create a version controlled copy of the website in the directory you entered the command in.
+
+3. Navigate into the project's [root directory](https://en.m.wikipedia.org/wiki/Root_directory) by typing the following change directory command in your command line application.
+
+`cd gc-da11yn.github.io/`
+
+4. Add a reference to the upstream.
+
+`git remote add upstream https://github.com/gc-da11yn/gc-da11yn.github.io.git`
+
+6. Fetch all the latest changes. It will make you local instance is aware of all the recent change made to upstream project, but nothing will be updated in your code.
+
+`git fetch --allEnsure your local working copy include all the recent changesgit rebase upstream/main`
+
+6a. Be attentive to rebase conflict, in such situation you can rollback by running 
+
+`git rebase --abort`
+
+and then use a different strategy to update your working copyEverything went well
+
+6b. You will see the following message if it went well
+
+`Successfully rebased and updated refs/heads/main.`
+
+
+7. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
 
 ## Running the website
 
