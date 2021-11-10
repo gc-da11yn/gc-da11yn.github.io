@@ -44,9 +44,9 @@ It will create a version controlled copy of the website in the directory you ent
 
 6. Fetch all the latest changes. It will make you local instance is aware of all the recent change made to upstream project, but nothing will be updated in your code.
 
-`git fetch --all
+`git fetch --all`
 
-Ensure your local working copy include all the recent changesgit rebase upstream/main`
+Ensure your local working copy include all the recent changesgit rebase upstream/main
 
 6a. Be attentive to rebase conflict, in such situation you can rollback by running 
 
