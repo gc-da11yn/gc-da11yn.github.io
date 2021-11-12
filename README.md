@@ -16,6 +16,8 @@ Types of information relating to digital accessibility to be shared are:
 - discussions,
 - information about the work we do in the GC.
 
+For documentation on the task forces created for this project, view the [Terms of Reference (ToR)](TERMS_OF_REFERENCE.md). 
+
 ### Development
 
 See [DEVELOPMENT.md](DEVELOPMENT.md) for more information.
