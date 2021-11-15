@@ -16,11 +16,11 @@ Types of information relating to digital accessibility to be shared are:
 - discussions,
 - information about the work we do in the GC.
 
-For documentation on the task forces created for this project, view the [Terms of Reference (ToR)](TERMS_OF_REFERENCE.md). 
+For documentation on the task forces created for this project, view the [Terms of Reference (ToR)](.github/TERMS_OF_REFERENCE.md). 
 
 ### Development
 
-See [DEVELOPMENT.md](DEVELOPMENT.md) for more information.
+See [DEVELOPMENT.md](.github/DEVELOPMENT.md) for more information.
 
 ### Who will use this project?
 
@@ -38,7 +38,7 @@ To promote the great work we do in the field of digital accessibility within the
 
 Got an idea, suggestion, opinion? We want to hear from you in our [Discussions](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) section.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for more information.
 
 ### License
 
@@ -76,7 +76,7 @@ Ce projet en est aux premiers stades de développement et de planification, tout
 
 Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre section [Discussions](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
 
-Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour plus d'informations.
+Voir [CONTRIBUTING.md](.github/CONTRIBUTING.md) pour plus d'informations.
 
 ### Licence
 
