@@ -35,9 +35,5 @@
     "moment": "^2.29.1",
     "npm-run-all": "^4.1.5",
     "sass": "^1.32.12"
-  },
-  "dependencies": {
-    "gcweb": "github:wet-boew/themes-cdn#v9.1.0-gcweb",
-    "wet-boew": "github:wet-boew/wet-boew-cdn#v4.0.42.1"
   }
 }

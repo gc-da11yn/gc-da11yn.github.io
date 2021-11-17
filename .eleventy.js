@@ -1,8 +1,6 @@
 module.exports = function(eleventyConfig) {
 	const moment = require("moment");
 
-	eleventyConfig.addPassthroughCopy({ "./node_modules/wet-boew/" : "wet-boew" });
-	eleventyConfig.addPassthroughCopy({ "./node_modules/gcweb/" : "gcweb" });
 	eleventyConfig.addPassthroughCopy({ "./src/_docs" : "docs" });
 	eleventyConfig.addPassthroughCopy({ "./src/_images" : "img" });
 	eleventyConfig.addPassthroughCopy({ "./src/CNAME" : "CNAME" });
