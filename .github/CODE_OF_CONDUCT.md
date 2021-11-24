@@ -4,7 +4,7 @@
 
 ([Français](#Code-de-conduite-pour-le-projet-boîte-à-outils-d'accessibilité-numérique))
 
-<div>
+</div>
 
 Contributors to repositories hosted in Digital Accessibility Toolkit are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
 
