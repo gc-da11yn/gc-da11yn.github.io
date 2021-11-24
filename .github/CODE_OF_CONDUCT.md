@@ -1,6 +1,10 @@
 # Contributor Covenant Code of Conduct for the Digital Accessibility Toolkit project
 
+<div lang="fr">
+
 ([Français](#Code-de-conduite-pour-le-projet-boîte-à-outils-d'accessibilité-numérique))
+
+<div>
 
 Contributors to repositories hosted in Digital Accessibility Toolkit are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
 
@@ -61,6 +65,9 @@ available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.h
 This Code of Conduct is also inspired by GDS' `alphagov` [Code of conduct](https://github.com/alphagov/code-of-conduct)
 
 ---
+
+<div lang="fr">
+
 <!--markdownlint-disable MD025-->
 # Code de conduite pour le projet Boîte à outils d'accessibilité numérique
 <!--markdownlint-enable MD025-->
@@ -120,3 +127,5 @@ disponible à l'adresse [https://www.contributor-covenant.org/version/1/4/code-o
 [page d'accueil]: https://www.contributor-covenant.org
 
 Le présent Code de conduite s'inspire également du " Code de conduite " du [alphaGov](https://github.com/alphagov/code-of-conduct) de GDS.
+
+</div>
