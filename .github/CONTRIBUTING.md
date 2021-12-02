@@ -1,6 +1,10 @@
 # Contributing
 
+<div lang="fr">
+
 ([Français](#comment-contribuer))
+
+</div>
 
 <!-- Need to update this, suggestion to add stuff similar to https://www.a11yproject.com/contributing-guidelines/ -->
 
@@ -18,6 +22,8 @@ If this is your first time contributing on GitHub, don't worry! Let us know if y
 
 ______________________
 
+<div lang="fr">
+
 ## Comment contribuer
 
 Lorsque vous contribuez, veuillez également publier des commentaires et discuter des modifications que vous souhaitez apporter par l'entremise des enjeux (Issues).
@@ -29,3 +35,5 @@ Si c'est la première fois que vous contribuez à GitHub, ne vous en faites pas!
 ### Sécurité
 
 **Ne publiez aucun problème de sécurité sur le dépôt publique!** Voir [SECURITY.md](SECURITY.md)
+
+</div>

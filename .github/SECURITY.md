@@ -1,4 +1,8 @@
+<div lang="fr">
+
 ([Français](#sécurité))
+
+</div>
 
 # Security
 
@@ -6,6 +10,10 @@
 
 ______________________
 
+<div lang="fr">
+
 ## Sécurité
 
 **Ne publiez aucun problème de sécurité sur le dépôt publique!** Les vulnérabilités de sécurité doivent être signalées par courriel à ssc.aaact-aatia.spc@canada.ca
+
+</div>
