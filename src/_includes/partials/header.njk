@@ -21,16 +21,16 @@
 
 			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
 				<a href="{{ header[locale].governmentOfCanadaURL }}" property="url">
-					<img src="{{ rootPath }}gcweb/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].governmentOfCanada }}" property="logo" /><span class="wb-inv"> / <span lang="{{ otherLang }}">Gouvernement du Canada</span></span>
+					<img src="//www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].governmentOfCanada }}" property="logo" /><span class="wb-inv"> / <span lang="{{ otherLang }}">Gouvernement du Canada</span></span>
 				</a>
 				<meta property="name" content="{{ header[locale].governmentOfCanada }}">
 				<meta property="areaServed" typeof="Country" content="Canada" />
-				<link property="logo" href="{{ rootPath }}gcweb/assets/wmms-blk.svg" />
+				<link property="logo" href="//www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
 			</div>
 
 			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
 				<h2>Search</h2>
-				<form action="https://canada.ca/{{ locale }}/sr/srb.html" method="post" name="cse-search-box" role="search">
+				<form action="//canada.ca/{{ locale }}/sr/srb.html" method="post" name="cse-search-box" role="search">
 					<div class="form-group wb-srch-qry">
 						<label for="wb-srch-q" class="wb-inv">{{ header[locale].searchCanadaCa }}</label>
 						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="{{ header[locale].searchCanadaCa }}" />
@@ -58,7 +58,7 @@
 					Menu <span class="wb-inv">{{ header[locale].mainMenu }} </span><span class="expicon glyphicon glyphicon-chevron-down"></span>
 				{% endif %}
 			</button>
-			<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-{{ locale }}.html">
+			<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-{{ locale }}.html">
 				<li role="presentation"><a role="menuitem" href="{{ header[locale].jobsAndTheWorkplaceURL }}">{{ header[locale].jobsAndTheWorkplace }}</a></li>
 				<li role="presentation"><a role="menuitem" href="{{ header[locale].immigrationAndCitizenshipURL }}">{{ header[locale].immigrationAndCitizenship }}</a></li>
 				<li role="presentation"><a role="menuitem" href="{{ header[locale].travelAndTourismURL }}">{{ header[locale].travelAndTourism }}</a></li>
