@@ -51,7 +51,7 @@ DAT members belong to multiple stakeholder departments who have knowledge in dig
 ## Members
 
 * Co-Chair(s):
-  * SSC: Shawn Thompson, AAACT Program (Design lead)
+  * SSC: Shawn Thompson, AAACT Program (Development lead)
   * CSPS: Julie BB, Digital Accessibility in Learning (Content lead)
 * Contributing resources:
   * Open Government Working Group
