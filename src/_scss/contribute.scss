@@ -25,12 +25,14 @@
 	}
 	
 	a {
+		// text-decoration: underline;
 		text-decoration: none;
+		border-bottom: solid 1px;
 		color: #fff;
-
+		
 		&:hover,
 		&:focus {
-			text-decoration: underline;
+			border-bottom: none;
 		}
 		
 		.fa-fw {
