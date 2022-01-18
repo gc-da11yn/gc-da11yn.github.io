@@ -4,6 +4,8 @@
 
 </div>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae5a2ff0-ba39-4d39-832c-ab00f2385999/deploy-status)](https://app.netlify.com/sites/a11ycanada/deploys)
+
 This project is in the early stages of development and planning, not all information is available in both official languages.
 
 ## Digital Accessibility Toolkit
