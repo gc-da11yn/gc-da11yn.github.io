@@ -1,12 +1,12 @@
 {
 	"breadcrumbs": [
 		{
-			"title": "Who we are?",
-			"link": "/en/about/"
+			"title": "Qui sommes-nous ?",
+			"link": "/fr/about/"
 		},
 		{
-			"title": "Government departments working in accessibility",
-			"link": "/en/about/organizations/"
+			"title": "Les ministères travaillant dans le domaine de l'accessibilité",
+			"link": "/fr/about/organizations/"
 		}
 	]
 }
