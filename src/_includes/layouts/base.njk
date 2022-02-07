@@ -11,7 +11,6 @@
 
 	<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
 
-
 		<div class="home">
 			<div class="container p-0 p-sm-3">
 				<div class="well header-rwd brdr-0 brdr-rds-0 text-white gctheme opct-90">
@@ -24,16 +23,11 @@
 		</div>
 
 		<div class="container">
-
-			<p>{{ description | safe }}</p>
-
 			{% include "partials/alerts.njk" %}
-
+			<p>{{ description | safe }}</p>
 			{{ content | safe }}
-
 			{% include "partials/pagedetails.njk" %}
 		</div>
-
 
 	</main>
 
