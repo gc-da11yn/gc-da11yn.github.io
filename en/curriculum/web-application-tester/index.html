@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+
+
+<head>
+	<meta charset="utf-8">
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	
+	<title>Web Application Tester - Digital Accessibility Toolkit / Sharing space</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name="description" content="Accessibility courses for Web Application Tester">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="alternate" hreflang="fr" href="../../../fr/curriculum/web-application-tester" />
+	<link href="//www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+	<link rel="stylesheet" href="//www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
+	<link rel="stylesheet" href="../../../css/da11yn.css">
+</head>
+
+
+<body vocab="http://schema.org/" typeof="WebPage">
+
+	
+<nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+		</li>
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
+		</li>
+	</ul>
+</nav>
+
+
+	
+
+
+<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+		
+		
+			<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+				<h2 class="wb-inv">Language selection</h2>
+				<ul class="list-inline mrgn-bttm-0">
+					<li>
+						<a lang="fr" hreflang="fr" href="../../../fr/curriculum/web-application-tester">
+							<span class="hidden-xs">Français</span>
+							<abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+						</a>
+					</li>
+				</ul>
+			</section>
+		
+
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="//www.canada.ca/en.html" property="url">
+					<img src="//www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" /><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+				</a>
+				<meta property="name" content="Government of Canada">
+				<meta property="areaServed" typeof="Country" content="Canada" />
+				<link property="logo" href="//www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Search</h2>
+				<form action="//canada.ca/en/sr/srb.html" method="post" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca" />
+						<datalist id="wb-srch-q-ac"></datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+							<span class="glyphicon-search glyphicon"></span>
+							<span class="wb-inv">Search</span>
+						</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+
+	<nav class="gcweb-menu" typeof="SiteNavigationElement">
+		<div class="container">
+			<h2 class="wb-inv">Menu</h2>
+			<button type="button" aria-haspopup="true" aria-expanded="false">
+				
+					<span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+				
+			</button>
+			<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+				<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/business.html">Business and industry</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/benefits.html">Benefits</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/health.html">Health</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/taxes.html">Taxes</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/defence.html">National security and defence</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+				<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/finance.html">Money and finances</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/science.html">Science and innovation</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav id="wb-bc" property="breadcrumb">
+		<h2>Breadcrumb Navigation</h2>
+		<div class="container">
+			<ol class="breadcrumb">
+				<li>
+					<a href="//www.canada.ca/en.html">Canada.ca</a>
+				</li>
+				
+				
+					<li><a href="../../../en/">Digital Accessibility Toolkit / Sharing space</a></li>
+				
+				
+				
+			</ol>
+		</div>
+	</nav>
+	
+</header>
+
+
+	<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+
+		<div class="home">
+			<div class="container p-0 p-sm-3">
+				<div class="well header-rwd brdr-0 brdr-rds-0 text-white gctheme opct-90">
+				<p aria-hidden="true">Digital Accessibility Toolkit / Sharing space</p>
+					<h1 property="name" id="wb-cont">
+						Web Application Tester
+					</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			
+<section class="alert alert-warning mrgn-tp-lg">
+	<h2>Important information</h2>
+	<ul>
+		<li class="mrgn-tp-lg">Our soon to be awesome site is new and still under construction. Please open an <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues">issue on our Github project</a> if you see anything that needs to be fixed or if you have any recommendations.</li>
+	
+	
+	</ul>
+</section>
+			<p>Accessibility courses for Web Application Tester</p>
+			 
+<div class="well">
+    <ul>
+        <li><a href="#t716">T716: Web Accessibility for Canada.ca</a></li>
+        <li><a href="#301-549">EN 301-549 Non-Web Software (Chapter 11)</a></li>
+        <li><a href="#how-to-audit">How to audit: accessible QA for sites, apps, and documents</a></li>
+        <li><a href="#508-ada-testers">eAccessibility for Section 508 and ADA, and Trusted Testers</a></li>
+        <li><a href="#accessible-canada-act">Accessible Canada Act</a></li>
+    <li><a href="#accessibility-strategy">Accessibility Strategy for the Public Service of Canada</a></li>
+    </ul>
+</div>
+<div class="panel panel-primary">
+    <div class="panel-body">
+        <h3 id="t716" class="mrgn-tp-0">T716: Web Accessibility for Canada.ca</h3>
+        <p><strong>Note</strong>: Participants must have an account in order to access the course</p>
+        <dl class="dl-horizontal">
+            <dt>Learning objective:</dt>
+            <dd>This course presents the standards and guidelines for this subject. It focuses on the requirements, roles and responsibilities for compliance with these standards. Participants will learn how to assess the Web Content Accessibility Guidelines (WCAG) 2.1 and apply them consistently across Canada.ca web pages.</dd>
+            <dt>Level:</dt>
+            <dd>Intermediate</dd>
+            <dt>Provider:</dt>
+            <dd>Canada School of Public Service</dd>
+            <dt>Prerequisite:</dt>
+            <dd>Web Technical Information Specialist</dd>
+            <dt>Duration:</dt>
+            <dd>15 hours</dd>
+            <dt>Delivery type:</dt>
+            <dd>Classroom courses</dd>
+            <dt>Estimated cost:</dt>
+            <dd>Free</dd>
+            <dt>Language:</dt>
+            <dd>English and French</dd>
+        </dl>
+        <p><a href="https://learn-apprendre.csps-efpc.gc.ca/" class="btn btn-success">Register<span class="wb-inv">&nbsp;for T716</span></a></p>
+    </div>
+</div>
+<div class="panel panel-primary">
+    <div class="panel-body">
+        <h3 id="301-549" class="mrgn-tp-0">EN 301-549 Non-Web Software (Chapter 11)</h3>
+        <dl class="dl-horizontal">
+            <dt>Learning objective:</dt>
+            <dd>Accessibility requirements suitable for public procurement of ICT products and services in Europe" specifies the Functional Accessibility Requirements applicable to ICT products and services. It contains a description of the test procedures and evaluation methodology for each accessibility requirement. The requirements are suitable for use in public procurement within Europe.</dd>
+            <dt>Level:</dt>
+            <dd>Beginner</dd>
+            <dt>Provider:</dt>
+            <dd><a href="https://www.youtube.com/channel/UCdW_0pPNiiPLaLM90_20org">Accessible ICT Procurement Toolkit</a></dd>
+            <dt>Prerequisite:</dt>
+            <dd>Not mentioned</dd>
+            <dt>Duration:</dt>
+            <dd>Self-paced</dd>
+            <dt>Delivery type:</dt>
+            <dd>Onlined; Reading</dd>
+            <dt>Estimated cost:</dt>
+            <dd>Free</dd>
+            <dt>Note:</dt>
+            <dd>YouTube videos are accessible offline.</dd>
+        </dl>
+        <p><a href="https://www.youtube.com/channel/UCdW_0pPNiiPLaLM90_20org" class="btn btn-success">Read<span class="wb-inv">&nbsp; EN 301-549 Non-Web Software (Chapter 11)</span></a></p>
+    </div>
+</div>
+<div class="panel panel-primary">
+    <div class="panel-body">
+        <h3 id="how-to-audit" class="mrgn-tp-0">How to audit: accessible QA for sites, apps, and documents</h3>
+        <dl class="dl-horizontal">
+            <dt>Learning objective:</dt>
+            <dd>
+                <p>Instructional videos on the European standard for accessibility requirements in public procurement of ICT (Information Communication Technology) products and services. These videos are sponsored by Microsoft and produced by Funka</p>
+                <ul>
+                    <li>Accessibility quality assurance</li>
+                    <li>Accessibility supported technologies</li>
+                    <li>Standard controls vs. custom controls</li>
+                    <li>Strategies of persons with disabilities in using web solutions</li>
+                    <li>Interoperability and compatibility issues</li>
+                    <li>Testing with assistive technologies</li>
+                    <li>Testing for end-user impact</li>
+                    <li>Testing tools for the web (both automated and manual tools,</li>
+                    <li>Level of severity and prioritization of issues</li>
+                </ul>
+            </dd>
+            <dt>Level:</dt>
+            <dd>Intermediate</dd>
+            <dt>Provider:</dt>
+            <dd><a href="https://www.wcag2.com/training">David Berman Communications</a></dd>
+            <dt>Prerequisite:</dt>
+            <dd>Experience with HTML, CSS, and JavaScript/jQuery is required, experience with accessibility and WCAG 2.0 or 2.1 is recommended.</dd>
+            <dt>Duration:</dt>
+            <dd>half-day or full-day. We also provide this course customized on-site for your organization.</dd>
+            <dt>Delivery type:</dt>
+            <dd>online or onsite</dd>
+            <dt>Estimated cost:</dt>
+            <dd>CAD$330 (group discounts available)</dd>
+        </dl>
+        <p><a href="https://u5854113.ct.sendgrid.net/wf/click?upn=0jtiag-2FuRoxYSNS97-2B2LtlG1WAHsjIQ0Ep5-2BKjre2v6xtLg-2Ft-2FB6hhY0wDlCWyO9DJWk5al2cBTBls5C7KCtdS2TWLcMuLKWSU3fnqFeXcw-3D_mm4vR5b8-2B-2BzKspZM2ii0IcjwhTv4zZvwbUjYrxDq6DbqTQH4xzGYHIdjHRaFmoBOX8WE9BM2lzY1RalU0t4CTu8opZhDf9tpc-2FyXZ8URStdJ2bfsUQTYZT-2B2D9Dlq25G9ljRteKlgaNoZq7VuUgoGnF5xxtYJ-2FgiUmnnufUx-2B813GaPr1uP3IgSWScW8z-2BlBji10wK-2FvZOD9ePuAgH0vN19msEvO8bGCzCAuUNJXiHNTTy0E1oNW2LEVwmSQ1sJ0" class="btn btn-success">Register<span class="wb-invisible"> for "How to audit"</span></a></p>
+    </div>
+</div>
+<div class="panel panel-primary">
+    <div class="panel-body">
+        <h3 id="508-ada-testers" class="mrgn-tp-0">eAccessibility for Section 508 and ADA, and Trusted Testers</h3>
+        <dl class="dl-horizontal">
+            <dt>Learning objective:</dt>
+            <dd>
+                <p>You will learn how to make your current sites more accessible by complying with current legislation, standards, and guidelines.</p>
+                <p>By addressing and understanding accessibility issues, Web developers can more effectively deliver their message to their whole audience, while complying with the legal and moral responsibilities, regardless of physical or mental impediment.</p>
+            </dd>
+            <dt>Level:</dt>
+            <dd>Beginner</dd>
+            <dt>Provider:</dt>
+            <dd><a href="https://www.wcag2.com/training">David Berman Communications</a></dd>
+            <dt>Prerequisite:</dt>
+            <dd>None</dd>
+            <dt>Duration:</dt>
+            <dd>Half-day course, one-day course, three-day course.</dd>
+            <dt>Delivery type:</dt>
+            <dd>online or onsite</dd>
+            <dt>Estimated cost:</dt>
+            <dd>CAD$330 (group discounts available)</dd>
+        </dl>
+        <p><a href="https://davidberman.com/courses/keynotes-and-courses/accessibility-course-revised-section-508-ada/" class="btn btn-success">Register<span class="wb-inv"> for eAccessibility for Section 508 and ADA, and Trusted Testers</span></a></p>
+    </div>
+</div>
+<div class="panel panel-primary">
+    <div class="panel-body">
+        <h3 id="accessible-canada-act" class="mrgn-tp-0">Accessible Canada Act</h3>
+        <dl class="dl-horizontal">
+            <dt>Learning objective:</dt>
+            <dd>
+                <p>Provide a basis for understanding existing policies. Explain the purpose of the ACL and identify principles relevant to web application issues.</p>
+            </dd>
+            <dt>Level:</dt>
+            <dd>N/A</dd>
+            <dt>Provider:</dt>
+            <dd><a href="https://laws-lois.justice.gc.ca/eng/">Justice Canada Website </a></dd>
+            <dt>Prerequisite:</dt>
+            <dd>None</dd>
+            <dt>Duration :</dt>
+            <dd>N/A</dd>
+            <dt>Delivery type:</dt>
+            <dd>Online reading</dd>
+            <dt>Estimated cost:</dt>
+            <dd>Free</dd>
+            <dt>Language :</dt>
+            <dd>French or English</dd>
+        </dl>
+        <p><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" class="btn btn-success">Read<span class="wb-inv"> Accessible Canada Act</span></a></p>
+    </div>
+</div>
+<div class="panel panel-primary">
+    <div class="panel-body">
+        <h3 id="accessibility-strategy" class="mrgn-tp-0">Accessibility Strategy for the Public Service of Canada</h3>
+        <dl class="dl-horizontal">
+            <dt>Learning objective:</dt>
+            <dd>
+                <p>Improve your understanding of the Government of Canada's desired state of technological accessibility for clients and employees. Explain what the Government of Canada is doing to improve accessibility using technology.</p>
+            </dd>
+            <dt>Level:</dt>
+            <dd>N/A</dd>
+            <dt>Provider :</dt>
+            <dd><a href="https://www.canada.ca/en/treasury-board-secretariat.html">Treasury Board of Canada Web Site  </a></dd>
+            <dt>Prerequisite :</dt>
+            <dd>None</dd>
+            <dt>Duration:</dt>
+            <dd>N/A</dd>
+            <dt>Delivery type:</dt>
+            <dd>Online reading</dd>
+            <dt>Estimated cost:</dt>
+            <dd>Free</dd>
+            <dt>Language :</dt>
+            <dd>French or English</dd>
+        </dl>
+        <p><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html" class="btn btn-success">Read<span class="wb-inv"> Accessibility Strategy for the Public Service of Canada</span></a></p>
+    </div>
+</div>
+
+			
+<div class="pagedetails">
+	<div class="row">
+		<div class="col-sm-6 col-md-5 col-lg-4">
+			<a href="//www.canada.ca/en/report-problem.html" class="btn btn-default btn-center">Report a problem on this page</a></div>
+		<div class="wb-share col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+	</div>
+	<dl id="wb-dtmd">
+		<dt>Date modified:</dt>
+		<dd><time datetime="2022-02-23">2022-02-23</time></dd>
+	</dl>
+</div>
+
+
+
+
+
+		</div>
+
+	</main>
+
+	
+
+<aside class="contribute">
+	<div class="container">
+		<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i>Contribute <small>on Github.com</small></h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a  hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io">See the source code <small>on Github.com</small></a></li>
+				<li><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en"  href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose">Report an issue <small>on Github.com</small></a></li>
+				<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en"  href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Join the discussions <small>on Github.com</small></a></li>
+			</ul>
+			<p>This site is powered by <a hreflang="en"  href="https://www.netlify.com">Netlify</a></p>
+	</div>
+</aside>
+
+	
+	
+<footer id="wb-info">
+	<div class="landscape">
+		<nav class="container wb-navcurr">
+			<h2 class="wb-inv">About government</h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><a href="//www.canada.ca/en/contact.html">Contact us</a></li>
+				<li><a href="//www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+				<li><a href="//www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
+				<li><a href="//www.canada.ca/en/news.html">News</a></li>
+				<li><a href="//www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
+				<li><a href="//www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+				<li><a href="https://pm.gc.ca/eng">Prime Minister</a></li>
+				<li><a href="//www.canada.ca/en/government/system.html">How government works</a></li>
+				<li><a href="https://open.canada.ca/en/">Open government</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="brand">
+		<div class="container">
+			<div class="row">
+				<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+					<h2 class="wb-inv">About this site</h2>
+					<ul>
+						<li><a href="//www.canada.ca/en/social.html">Social media</a></li>
+						<li><a href="//www.canada.ca/en/mobile.html">Mobile applications</a></li>
+						<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
+						<li><a href="//www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+						<li><a href="//www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+					</ul>
+				</nav>
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+					<img src="//www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<script src="//www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+	<script src="//www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+</body>
+</html>
