@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr" dir="ltr">
+
+
+
+<head>
+	<meta charset="utf-8">
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	
+	<title>Liste de vérification de l’accessibilité des documents PDF - Boîte à outils d&#39;accessibilité numérique / Espace de partage</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name="description" content="Vous trouverez ici différentes questions pour vous aider à savoir si votre document pdf est accessible ou non.">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="alternate" hreflang="en" href="../../../en/accessible-documents/pdf-accessibility-checklist" />
+	<link href="//www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+	<link rel="stylesheet" href="//www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
+	<link rel="stylesheet" href="../../../css/da11yn.css">
+</head>
+
+
+<body vocab="http://schema.org/" typeof="WebPage">
+
+	
+<nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+		</li>
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-info">Passer à « Au sujet du gouvernement »</a>
+		</li>
+	</ul>
+</nav>
+
+
+	
+
+
+<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+		
+		
+			<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+				<h2 class="wb-inv">Sélection de la langue</h2>
+				<ul class="list-inline mrgn-bttm-0">
+					<li>
+						<a lang="en" hreflang="en" href="../../../en/accessible-documents/pdf-accessibility-checklist">
+							<span class="hidden-xs">English</span>
+							<abbr title="English" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">en</abbr>
+						</a>
+					</li>
+				</ul>
+			</section>
+		
+
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="//www.canada.ca/fr.html" property="url">
+					<img src="//www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-fr.svg" alt="Gouvernement du Canada" property="logo" /><span class="wb-inv"> / <span lang="en">Gouvernement du Canada</span></span>
+				</a>
+				<meta property="name" content="Gouvernement du Canada">
+				<meta property="areaServed" typeof="Country" content="Canada" />
+				<link property="logo" href="//www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Search</h2>
+				<form action="//canada.ca/fr/sr/srb.html" method="post" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca" />
+						<datalist id="wb-srch-q-ac"></datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+							<span class="glyphicon-search glyphicon"></span>
+							<span class="wb-inv">Recherche</span>
+						</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+
+	<nav class="gcweb-menu" typeof="SiteNavigationElement">
+		<div class="container">
+			<h2 class="wb-inv">Menu</h2>
+			<button type="button" aria-haspopup="true" aria-expanded="false">
+				
+					Menu <span class="wb-inv">principal </span><span class="expicon glyphicon glyphicon-chevron-down"></span>
+				
+			</button>
+			<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a></li>
+				<li role="presentation"><a role="menuitem" href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/benefits.html">Prestations</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/sante.html">Santé</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/impots.html">Impôts</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/transport.html">Transport et infrastructure</a></li>
+				<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/finance.html">Argent et finances</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav id="wb-bc" property="breadcrumb">
+		<h2>Piste de navigation</h2>
+		<div class="container">
+			<ol class="breadcrumb">
+				<li>
+					<a href="//www.canada.ca/fr.html">Canada.ca</a>
+				</li>
+				
+				
+					<li><a href="../../../fr/">Boîte à outils d&#39;accessibilité numérique / Espace de partage</a></li>
+				
+				
+				
+			</ol>
+		</div>
+	</nav>
+	
+</header>
+
+
+	<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+
+		<div class="home">
+			<div class="container p-0 p-sm-3">
+				<div class="well header-rwd brdr-0 brdr-rds-0 text-white gctheme opct-90">
+				<p aria-hidden="true">Boîte à outils d'accessibilité numérique / Espace de partage</p>
+					<h1 property="name" id="wb-cont">
+						Liste de vérification de l’accessibilité des documents PDF
+					</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			
+<section class="alert alert-warning mrgn-tp-lg">
+	<h2>Informations importantes</h2>
+	<ul>
+		<li class="mrgn-tp-lg">Notre site, qui sera bientôt génial, est nouveau et toujours en construction. Veuillez ouvrir un <a hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues">« <span lang="en">issue</span> » sur notre projet Github</a> si vous voyez quelque chose qui doit être corrigé ou si vous avez des recommandations.</li>
+	
+	
+	</ul>
+</section>
+			<p>Vous trouverez ici différentes questions pour vous aider à savoir si votre document pdf est accessible ou non.</p>
+			<h2>Introduction</h2>
+<p>La liste de vérification de l’accessibilité des documents PDF vise à aider les
+    développeurs de documents PDF d’Emploi et Développement social Canada (EDSC) à
+    s’assurer que l’accessibilité est conforme aux normes <a
+        href="http://www.w3.org/WAI/WCAG21/quickref/">Règles pour l'accessibilité des contenus Web (WCAG)
+        2.1</a> (anglais seulement). Veuillez noter que la liste de vérification ne contient que
+    des critères WCAG liés aux erreurs les plus courantes relevées dans les documents
+    PDF.</p>
+<p>Nous avons dressé une liste d’outils et de ressources pour aider les développeurs à
+    vérifier l’accessibilité de leurs documents, ainsi que la liste de vérification de
+    l’accessibilité des documents PDF qui établit 27 critères de réussite pertinents pour les
+    documents PDF.</p>
+<h2>Outils et ressources</h2>
+<ul>
+    <li><a href="http://iservice.prv/fra/giti/catalogue/service_logiciels_applications/foxit_phantomPDF_business.shtml">Foxit
+            PhantomPDF <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
+               Lien interne</span></a>&nbsp;: Outil recommand&eacute; par EDSC pour cr&eacute;er des documents PDF
+        accessibles. Les employ&eacute;s d&rsquo;EDSC peuvent obtenir le logiciel en remplissant le formulaire
+        <a
+            href="https://dialogue/grp/EWCS-SCEW/SiteAssets/SitePages/License%20Request%20Forms/Foxit%20PhantomPDF%20Business%20Request%20form.docx">Formulaire
+            de demande d&rsquo;affaires Foxit PhantomPDF  <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
+                Lien interne</span></a> et en ouvrant un billet aupr&egrave;s d&rsquo;<a
+            href="http://srmis-sigdi-iagent.prv/">InfoService national  <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
+                Lien interne</span></a>. </li>
+    <li><a href="http://esdc.prv/fr/dgiit/se/smle/cenw/outils/index-fra.shtml#colour">Outil Colour Contrast
+            Analyzer  <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
+                Lien interne</span></a>&nbsp;: Outil recommand&eacute; par EDSC pour v&eacute;rifier le contraste des couleurs;
+        les employ&eacute;s d&rsquo;EDSC peuvent obtenir le logiciel en ouvrant un billet aupr&egrave;s
+        d&rsquo;<a href="http://srmis-sigdi-iagent.prv/">InfoService national  <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
+            Lien interne</span></a>.</li>
+</ul>
+<h3>Ressources permettant de rendre les documents PDF accessibles</h3>
+<ul>
+    <li><a href="http://www.w3.org/WAI/WCAG21/Techniques/#pdf">Techniques relatives aux WCAG&nbsp;2.1 en format
+            PDF</a> (anglais seulement)</li>
+    <li><a href="https://www.foxitsoftware.com/fr/solution/accessibility/">Accessibilit&eacute; des fichiers PDF
+            Foxit PhantomPDF</a></li>
+    <li><a
+            href="https://www.foxitsoftware.com/fr/support/tutorial/?from=foxit%20phantompdf_business&amp;utm_source=client-app">Tutoriels
+            didactiques PhantomPDF de Foxit</a></li>
+    <li><a
+            href="https://www.foxitsoftware.com/blog/use-action-wizard-to-automatically-make-pdfs-508-compliant/">Foxit&nbsp;:
+            Utilisez l&rsquo;assistant d&rsquo;action pour rendre automatiquement les PDF conformes &agrave; la
+            norme&nbsp;508</a> (anglais seulement)</li>
+    <li><a href="https://webaim.org/techniques/foxit/">WebAIM&nbsp;: Accessibilit&eacute; Foxit et PDF</a>
+            (anglais seulement)</li>
+    <li><a href="../fr/index.html">Choses &agrave; faire et &agrave; ne pas
+            faire dans la conception accessible</a></li>
+</ul>
+<h2>Instructions pour la liste de vérification</h2>
+<p></p>Veuillez remplir la liste de vérification de l’accessibilité des documents PDF. Cela permet de s’assurer que les erreurs courantes en matière
+d’accessibilité sont corrigées. </p>
+<p>Veuillez noter que les employés d’EDSC devront remplir cette liste de vérification avant de demander une
+    vérification de l’accessibilité au Bureau de l’accessibilité des TI.</p>
+<h2>Information de contact</h2>
+<p>Pour toute autre question ou commentaire concernant la liste de v&eacute;rification de
+    l&rsquo;accessibilit&eacute; des documents PDF, ou pour demander une v&eacute;rification de
+    l&rsquo;accessibilit&eacute;, veuillez remplir un nouveau <a
+        href="https://a11yrmt.ca/newrequest-fr.php">formulaire de demande</a>.</p>
+<h2>Liste de vérification</h2>
+<ul class="list-unstyled mrgn-tp-lg mrgn-lft-lg">
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>1 &ndash; Le
+        titre du PDF est clairement précisé et saisi correctement au moyen de l’entrée de titre. Vous le
+        trouverez dans le répertoire interne du PDF.
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>2 &ndash; La
+        langue du PDF est définie dans le champ de saisie Lang (anglais / français).</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>3 &ndash; La
+        langue d’un passage, d’une phrase ou d’un mot qui diffère de la langue du PDF est spécifiée dans la
+        langue appropriée. </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>4 &ndash; Le
+        document comporte des signets pour faciliter la navigation.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>5 &ndash; Il y a
+        des en-têtes et des pieds de page au besoin pour que les utilisateurs sachent où ils se trouvent dans le
+        PDF en tout temps.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>6 &ndash; Les
+        pages sont clairement identifiées. P. ex. 1 – 2 – 3 / A – B – C, etc.
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>7 &ndash;
+        L’ordre de lecture du PDF est correct.
+        Les lecteurs d’écran lisent le contenu dans l’ordre logique.
+
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>8
+        &ndash; En utilisant la touche de tabulation, l’utilisateur peut naviguer dans le PDF et accéder à tous
+        les champs de saisie et les liens, dans le bon ordre.
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>9
+        &ndash; Les titres de page et les sous-titres sont inclus au besoin.
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>10
+        &ndash; Les tableaux sont étiquetés correctement afin qu’ils soient reconnus par la technologie
+        d’assistance.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>11 &ndash; Les
+        listes de divers éléments connexes sont étiquetées correctement, comme des listes et des éléments de
+        liste. </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>12 &ndash; Les
+        images qui n’ajoutent aucune valeur au contenu et qui ne contiennent aucun texte sont marquées comme
+        étant décoratives et ignorées par les lecteurs d’écran.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>13
+        &ndash; Les éléments visuels comprennent une description écrite démontrant le contexte de l’élément
+        visuel. Le texte de remplacement du visuel explique où se trouve la description.
+        Les éléments visuels qui ne contiennent pas de description écrite dans le corps du document PDF ont un
+        texte alternatif descriptif.
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>14
+        &ndash; Lorsque vous utilisez des couleurs, des formes ou des aides visuelles pour transmettre un
+        message, il existe d’autres descripteurs écrits pour transmettre le message.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>15
+        &ndash; Le ratio de contraste du texte et des images de texte est d’au moins 4,5:1, sauf pour les gros
+        caractères (au-dessus de la taille 14 gras ou au-dessus de la taille 18), qui exigent un ratio de
+        contraste de 3:1.
+        Ainsi, la palette de couleurs sera optimale pour les personnes ayant une déficience visuelle ou les
+        personnes aveugles.
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>16 &ndash; Les
+        liens sont clairement indiqués et contiennent du texte descriptif. </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>17 &ndash; Les
+        options de saisie de formulaire sontclairementindiqués et décrits.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>18 &ndash; Les
+        boutons radio qui permettent une sélection – ils sont clairement indiqués en cercles.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>19 &ndash; Les
+        cases à cocher qui permettent des sélections multiples – elles sont clairement indiquées comme des
+        carrés.
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>20 &ndash; Les
+        liens sont clairement marqués d’un texte bleu souligné.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>21 &ndash; Les
+        contrôles des formulaires sont bien affichés et indiqués sur le formulaire pour que les utilisateurs
+        puissent y accéder facilement et s’identifier.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>22 &ndash; Tous
+        les champs comportent un nom, un rôle et une valeur appropriés pour les utilisateurs.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>23 &ndash; Tous
+        les champs de texte comportent un texte descriptif connexe.
+        Cela permet à la technologie d’assistance de reconnaître et de comprendre les différents champs de
+        formulaire.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>24 &ndash;
+        Lorsqu’un utilisateur n’a pas entré correctement l’information dans un champ, un indicateur d’erreur
+        clair lui signale l’erreur de manière visuelle ou sonore, ainsi que la façon de la corriger et de
+        remplir correctement le champ.
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>25 &ndash;
+        Le bouton Soumettre est clairement marqué pour que les utilisateurs sachent comment soumettre le
+        formulaire qu’ils remplissent.</li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>26 &ndash;
+        Meilleure pratique : lorsque vous utilisez un acronyme, assurez-vous qu’il est entièrement défini la
+        première fois qu’il est mentionné dans le document PDF.
+        P. ex. Emploi et Développement social Canada (EDSC)
+    </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>27 &ndash;
+        Meilleure pratique : la police est sans empattement et est couramment utilisée (pour améliorer la
+        lisibilité visuelle).
+
+</ul>
+<h2>Glossaire</h2>
+<p><strong>Texte alternatif : </strong>Texte associ&eacute; &agrave; une image qui transmet la m&ecirc;me
+    information essentielle que l&rsquo;image.</p>
+<p><strong>La technologie d&rsquo;assistance&nbsp;: </strong>Tout outil ou appareil l&eacute;ger, moyen ou de
+    haute technologie qui aide les personnes handicap&eacute;es &agrave; accomplir leurs t&acirc;ches avec plus
+    de facilit&eacute; ou d&rsquo;autonomie.</p>
+<p><strong>Signet&nbsp;: </strong>Type de lien avec un texte repr&eacute;sentatif qui facilite la navigation
+    dans les documents.</p>
+<p><strong>Texte descriptif&nbsp;: </strong>Texte qui d&eacute;crit le contenu d&rsquo;un champ de formulaire
+    &agrave; un utilisateur du lecteur d&rsquo;&eacute;cran. Il s&rsquo;agit &eacute;galement d&rsquo;une
+    &laquo;&nbsp;&eacute;tiquette&nbsp;&raquo;.</p>
+<p><strong>Ordre de lecture&nbsp;: </strong>Ceci est l&rsquo;ordre dans lequel les technologies
+    d&rsquo;assistance, comme les lecteurs d&rsquo;&eacute;cran, pr&eacute;sentent le contenu en format PDF. Les
+    &eacute;tiquettes dans l&rsquo;arborescence des &eacute;tiquettes d&eacute;terminent cet ordre.&nbsp;</p>
+<p><strong>En-t&ecirc;tes et pieds de page fixes&nbsp;:</strong> Information r&eacute;p&eacute;t&eacute;e au
+    haut ou au bas des pages d&rsquo;un document. Ils contiennent souvent des renseignements comme le
+    num&eacute;ro de page, le nom du document, etc.</p>
+<p><strong>Lecteur d&rsquo;&eacute;cran&nbsp;: </strong>Logiciel utilis&eacute; pour permettre la lecture du
+    contenu et la navigation &agrave; l&rsquo;&eacute;cran &agrave; l&rsquo;aide d&rsquo;une sortie vocale ou en
+    braille. Utilis&eacute; principalement par les personnes aveugles ou malvoyantes.</p>
+<p><strong>Balises&nbsp;: </strong>Repr&eacute;sentation textuelle structur&eacute;e du contenu PDF auquel ont
+    acc&egrave;s les lecteurs d&rsquo;&eacute;cran pour lire le document &agrave; haute voix.</p>
+
+<a class="btn btn-primary"
+    href="../../../docs/accessible-documents/Liste_de_verification_de_laccessibilite_des_documents_PDF.pdf"
+    role="button">Télécharger la page (PDF, 355 Ko)</a> 
+    
+			
+<div class="pagedetails">
+	<div class="row">
+		<div class="col-sm-6 col-md-5 col-lg-4">
+			<a href="//www.canada.ca/fr/signaler-probleme.html" class="btn btn-default btn-center">Signaler un problème sur cette page</a></div>
+		<div class="wb-share col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+	</div>
+	<dl id="wb-dtmd">
+		<dt>Date de modification :</dt>
+		<dd><time datetime="2022-03-24">2022-03-24</time></dd>
+	</dl>
+</div>
+
+
+
+
+
+		</div>
+
+	</main>
+
+	
+
+<aside class="contribute">
+	<div class="container">
+		<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i>Contribuez <small>sur Github.com</small></h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a  hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io">Voir le code source <small>sur Github.com</small></a></li>
+				<li><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en"  href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose">Signaler un problème <small>sur Github.com</small></a></li>
+				<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en"  href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Participez aux discussions <small>sur Github.com</small></a></li>
+			</ul>
+			<p>Ce site est alimenté par <a hreflang="en"  href="https://www.netlify.com">Netlify</a></p>
+	</div>
+</aside>
+
+	
+	
+<footer id="wb-info">
+	<div class="landscape">
+		<nav class="container wb-navcurr">
+			<h2 class="wb-inv">Au sujet du gouvernement</h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><a href="//www.canada.ca/fr/contact.html">Contactez-nous</a></li>
+				<li><a href="//www.canada.ca/fr/gouvernement/min.html">Ministères et organismes</a></li>
+				<li><a href="//www.canada.ca/fr/gouvernement/fonctionpublique.html">Fonction publique et force militaire</a></li>
+				<li><a href="//www.canada.ca/fr/nouvelles.html">Nouvelles</a></li>
+				<li><a href="//www.canada.ca/fr/gouvernement/systeme/lois.html">Traités, lois et règlements</a></li>
+				<li><a href="//www.canada.ca/fr/transparence/rapports.html">Rapports à l&#39;échelle du gouvernement</a></li>
+				<li><a href="https://pm.gc.ca/fra">Premier ministre</a></li>
+				<li><a href="//www.canada.ca/fr/gouvernement/systeme.html">Comment le gouvernement fonctionne</a></li>
+				<li><a href="https://ouvert.canada.ca/">Gouvernement ouvert</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="brand">
+		<div class="container">
+			<div class="row">
+				<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+					<h2 class="wb-inv">À propos de ce site</h2>
+					<ul>
+						<li><a href="//www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
+						<li><a href="//www.canada.ca/fr/mobile.html">Applications mobiles</a></li>
+						<li><a href="https://www1.canada.ca/fr/nouveausite.html">À propos de Canada.ca</a></li>
+						<li><a href="//www.canada.ca/fr/transparence/avis.html">Avis</a></li>
+						<li><a href="//www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
+					</ul>
+				</nav>
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">aut de la page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+					<img src="//www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" alt="Symbole du gouvernement du Canada">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<script src="//www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+	<script src="//www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+</body>
+</html>

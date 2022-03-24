@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr" dir="ltr">
+
+
+
+<head>
+	<meta charset="utf-8">
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	
+	<title>Meilleures pratiques d’accessibilité pour les documents Excel - Boîte à outils d&#39;accessibilité numérique / Espace de partage</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name="description" content="Pratiques accessibles pour la création de documents dans Microsoft Excel.">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="alternate" hreflang="en" href="../../../en/accessible-documents/best-practices-excel" />
+	<link href="//www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+	<link rel="stylesheet" href="//www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
+	<link rel="stylesheet" href="../../../css/da11yn.css">
+</head>
+
+
+<body vocab="http://schema.org/" typeof="WebPage">
+
+	
+<nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+		</li>
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-info">Passer à « Au sujet du gouvernement »</a>
+		</li>
+	</ul>
+</nav>
+
+
+	
+
+
+<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+		
+		
+			<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+				<h2 class="wb-inv">Sélection de la langue</h2>
+				<ul class="list-inline mrgn-bttm-0">
+					<li>
+						<a lang="en" hreflang="en" href="../../../en/accessible-documents/best-practices-excel">
+							<span class="hidden-xs">English</span>
+							<abbr title="English" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">en</abbr>
+						</a>
+					</li>
+				</ul>
+			</section>
+		
+
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="//www.canada.ca/fr.html" property="url">
+					<img src="//www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-fr.svg" alt="Gouvernement du Canada" property="logo" /><span class="wb-inv"> / <span lang="en">Gouvernement du Canada</span></span>
+				</a>
+				<meta property="name" content="Gouvernement du Canada">
+				<meta property="areaServed" typeof="Country" content="Canada" />
+				<link property="logo" href="//www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Search</h2>
+				<form action="//canada.ca/fr/sr/srb.html" method="post" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca" />
+						<datalist id="wb-srch-q-ac"></datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+							<span class="glyphicon-search glyphicon"></span>
+							<span class="wb-inv">Recherche</span>
+						</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+
+	<nav class="gcweb-menu" typeof="SiteNavigationElement">
+		<div class="container">
+			<h2 class="wb-inv">Menu</h2>
+			<button type="button" aria-haspopup="true" aria-expanded="false">
+				
+					Menu <span class="wb-inv">principal </span><span class="expicon glyphicon glyphicon-chevron-down"></span>
+				
+			</button>
+			<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a></li>
+				<li role="presentation"><a role="menuitem" href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/benefits.html">Prestations</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/sante.html">Santé</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/impots.html">Impôts</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/en/services/transport.html">Transport et infrastructure</a></li>
+				<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/finance.html">Argent et finances</a></li>
+				<li role="presentation"><a role="menuitem" href="//www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav id="wb-bc" property="breadcrumb">
+		<h2>Piste de navigation</h2>
+		<div class="container">
+			<ol class="breadcrumb">
+				<li>
+					<a href="//www.canada.ca/fr.html">Canada.ca</a>
+				</li>
+				
+				
+					<li><a href="../../../fr/">Boîte à outils d&#39;accessibilité numérique / Espace de partage</a></li>
+				
+				
+				
+			</ol>
+		</div>
+	</nav>
+	
+</header>
+
+
+	<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+
+		<div class="home">
+			<div class="container p-0 p-sm-3">
+				<div class="well header-rwd brdr-0 brdr-rds-0 text-white gctheme opct-90">
+				<p aria-hidden="true">Boîte à outils d'accessibilité numérique / Espace de partage</p>
+					<h1 property="name" id="wb-cont">
+						Meilleures pratiques d’accessibilité pour les documents Excel
+					</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			
+<section class="alert alert-warning mrgn-tp-lg">
+	<h2>Informations importantes</h2>
+	<ul>
+		<li class="mrgn-tp-lg">Notre site, qui sera bientôt génial, est nouveau et toujours en construction. Veuillez ouvrir un <a hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues">« <span lang="en">issue</span> » sur notre projet Github</a> si vous voyez quelque chose qui doit être corrigé ou si vous avez des recommandations.</li>
+	
+	
+	</ul>
+</section>
+			<p>Pratiques accessibles pour la création de documents dans Microsoft Excel.</p>
+			<h2>Partie 1. Contenu des documents</h2>
+<h3>Langage clair</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>Utilisez un langage clair (<a href="http://www.btb.termiumplus.gc.ca/tcdnstyl-chap?i=1&amp;info0=13&amp;lang=fra&amp;lettr=chapsect13%3Flang%3Deng?lang=fra">TermiumPlus - Langage clair</a> [en anglais seulement])&thinsp;;</li>
+            <li>Connaissez vos destinataires (<a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/invalidite/cra/mots-images.html">Le pouvoir des mots</a>)&thinsp;;</li>
+            <li>Choisissez un vocabulaire et des structures simples.</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <ul class="lst-spcd">
+
+            <li>Ne confondez pas avec un style simplifi&eacute; ou condescendant&thinsp;;</li>
+<li>Ne r&eacute;digez pas des phrases d&rsquo;une longueur de plus de 20 mots.</li>
+
+        </ul>
+    </div>
+</div>
+<h3>Structure du contenu</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <p>Document unilingue.</p>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <ul class="lst-spcd">
+            <li>&Eacute;vitez d'utiliser Excel comme manuel ou guide de l&rsquo;utilisateur, ou encore s&rsquo;il y a beaucoup de texte&thinsp;;</li>
+            <li>&Eacute;vitez d'utiliser plus d'une langue dans le m&ecirc;me document.</li>
+        </ul>
+    </div>
+</div>
+<h3>Acronymes</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>&Eacute;crire au long lors de la premi&egrave;re utilisation&thinsp;;</li>
+            <li>&Eacute;crivez les acronymes en majuscules.</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <p>Omettez les points et les apostrophes en écrivant les acronymes.</p>
+    </div>
+</div>
+<h2>Partie 2. Format des documents <sup id="fn1-rf"><a
+    class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup></h2>
+    <p><a href="https://support.office.com/fr-fr/article/r%c3%a8gles-pour-le-v%c3%a9rificateur-d-accessibilit%c3%a9-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ui=fr-FR&amp;rs=fr-FR&amp;ad=FR">Ex&eacute;cutez le V&eacute;rificateur d&rsquo;accessibilit&eacute; (site Web de Microsoft)</a></p>
+<h3>Styles nommés</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>Formatez votre texte en utilisant les styles de titre pr&eacute;d&eacute;finis&thinsp;;</li>
+            <li>Utilisez un ordre de style appropri&eacute;&thinsp;(1-2-3)&thinsp;;</li>
+            <li>Modifiez l&rsquo;aspect du style pour mieux r&eacute;pondre &agrave; vos besoins.</li></ul>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <ul class="lst-spcd">
+            <li>&Eacute;viter les grandes quantit&eacute;s de texte en gras, en italique, avec soulignement ou en majuscule&thinsp;;</li>
+            <li>&Eacute;vitez les titres identiques.</li></ul>
+    </div>
+</div>
+<h3>Texte (<a href="https://webaim.org/resources/contrastchecker/">Analyseur de contraste de couleurs</a> [en anglais seulement])</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>Utilisez une taille de police d'au moins 12 points pour le texte&thinsp;;</li>
+            <li>Utilisez un contraste de couleur suffisant entre le texte et l'arri&egrave;re-plan (rapport de 4:5:1)&thinsp;;</li>
+            <li>Choisissez des polices sans empattement, telles qu'Arial, Helvetica ou Verdana.</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <ul class="lst-spcd">
+            <li>&Eacute;vitez d'utiliser un alignement &laquo;&thinsp;Justifi&eacute;&thinsp;&raquo;&thinsp;;</li>
+<li>&Eacute;vitez les traits d'union&thinsp;;</li>
+<li>&Eacute;vitez les s&eacute;ries d'espaces vides, de tabulations ou de retours pour le formatage&thinsp;;</li>
+<li>&Eacute;vitez un exc&egrave;s de texte en gras, en italique, avec soulignement ou enti&egrave;rement en majuscules&thinsp;;</li>
+<li>&Eacute;vitez le texte anim&eacute;.</li>
+        </ul>
+    </div>
+</div>
+<h3>Structure des tableaux</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>Utilisez une structure de pr&eacute;sentation simple&thinsp;;</li>
+            <li>Sp&eacute;cifiez des en-t&ecirc;tes de tableau clairs et concis&thinsp;;</li>
+            <li>D&eacute;finissez la ligne d'en-t&ecirc;te&thinsp;;</li>
+            <li>D&eacute;finissez le nom des plages de cellules.</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <ul class="lst-spcd">
+            <li>&Eacute;vitez le fusionnement et le fractionnement des cellules&thinsp;;</li>
+            <li>&Eacute;vitez d&rsquo;utiliser des cellules, lignes et colonnes vides pour le formatage.</li>
+        </ul>
+    </div>
+</div>
+<h3>Couleur 
+    (Analyseur de contraste de couleurs
+    <sup id="fn2-rf"><a
+    class="fn-lnk" href="#fn2"><span class="wb-inv">Note de bas de page </span>2</a></sup>)            
+</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>Utilisez un contraste de couleur suffisant entre le texte et l'arri&egrave;re-plan. &Eacute;tablissez un rapport de contraste d'au moins 3:1 pour le texte en gros caract&egrave;res (taille de police de 18 points)&thinsp;;</li>
+            <li>Utilisez un style avec des couleurs pour les graphiques. Faites la distinction entre les lignes avec des formes, des textures et des types de lignes.</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <p>N'utilisez pas des couleurs pour faire la distinction entre des cellules.</p>
+    </div>
+</div>
+<h3>Contenu visuel</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>Ajoutez du texte de remplacement pour d&eacute;finir le contenu et la fonction&thinsp;;</li>
+            <li>Identifiez les images avec un num&eacute;ro de figure et r&eacute;f&eacute;rez-vous &agrave; celles-ci par leur num&eacute;ro&thinsp;;</li>
+            <li>Ajoutez un titre et des &eacute;tiquettes d'axes pour les graphiques&thinsp;;</li>
+            <li>Ajoutez des tableaux de donn&eacute;es pour les objets complexes, tels que les graphiques.</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <ul class="lst-spcd">
+            <li>&Eacute;viter de r&eacute;p&eacute;ter l'information du document dans le texte de remplacement de l'image&thinsp;;</li>
+            <li>&Eacute;vitez le texte de remplacement de plus de 2 phrases&thinsp;;</li>
+            <li>Ne vous fiez pas exclusivement aux graphiques pour transmettre l'information&thinsp;;</li>
+            <li>&Eacute;vitez de faire r&eacute;f&eacute;rence aux images par leur aspect&thinsp;;</li>
+            <li>&Eacute;vitez d'utiliser &laquo;&thinsp;image de&thinsp;&raquo; ou &laquo;&thinsp;graphique de&thinsp;&raquo; dans le texte de remplacement&thinsp;;</li>
+            <li>&Eacute;vitez d'utiliser des images de texte.</li>
+        </ul>
+    </div>
+</div>
+<h3>Objets audio et vidéo
+</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>Ajoutez un sous-titrage cod&eacute;&thinsp;;</li>
+<li>Ajoutez une <a href="https://www.ami.ca/captioning-and-transcription">Vid&eacute;odescription - AMI</a> [en anglais seulement]&thinsp;;</li>
+<li>Ajoutez la transcription du texte.</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <p>Évitez les vidéos de longue durée afin de prévenir les pauses et arrêts en raison de la mise en mémoire tampon.</p>
+    </div>
+</div>
+<h3>Hyperliens
+</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>Fournissez un texte descriptif de l'hyperlien (qui indique o&ugrave; celui-ci m&egrave;ne)&thinsp;;</li>
+            <li>Le texte de l'hyperlien doit &ecirc;tre clair lorsqu'il est &laquo;&thinsp;hors contexte&thinsp;&raquo;.</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>À ne pas faire...</h4>
+        <p>Évitez que les hyperliens affichent des étiquettes banales telles que « cliquez ici » ou « lien vers ».</p>
+    </div>
+</div>
+<h3>Nom de la feuille de travail 
+</h3>
+<div class="row">
+    <div class="col-md-6">
+        <h4>À faire...</h4>
+        <ul class="lst-spcd">
+            <li>Donnez des noms descriptifs et uniques &agrave; tous les onglets de la feuille&thinsp;;</li>
+            <li>Enlevez les feuilles vides.</li></ul>
+    </div>
+
+</div>
+
+<h2>Contact</h2>
+<p>Veuillez utiliser le <a href="http://iservice.prv/fra/giti/A11E/admission.shtml">Formulaire de demande <i
+            class="fas fa-external-link-square-alt"></i><span class="wb-inv"> Lien interne</span></a> sur
+    iService ou nous soumettre un courriel &agrave; <a
+        href="mailto:edsc.ti-it.a11y.esdc@hrsdc-rhdcc.gc.ca">edsc.ti-it.a11y.esdc@hrsdc-rhdcc.gc.ca</a> pour
+    faire une demande de service des Technologies de l&rsquo;information et des Communications Accessible.</p>
+<aside class="wb-fnote" role="note">
+    <h2 id="fn">Notes de bas de page</h2>
+    <dl>
+        <dt>Note de bas de page 1</dt>
+        <dd id="fn1">
+            <ul>
+                <li><a href="https://www.algonquincollege.com/accessibility-resources/accessible-education-tools/creating-accessible-documents/">Cr&eacute;er des documents Excel accessibles - Coll&egrave;ge Algonquin</a> [en anglais seulement]</li>
+                <li><a href="https://support.office.com/fr-fr/article/rendre-vos-documents-excel-accessibles-aux-personnes-atteintes-de-handicaps-6cc05fc5-1314-48b5-8eb3-683e49b3e593?ui=fr-FR&amp;rs=fr-FR&amp;ad=FR">Rendre vos documents Excel accessibles aux personnes atteintes de handicaps</a></li>
+                </ul>
+            <p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Retour à la référence de la note de bas de
+                        page </span>1
+                </a></p>
+        </dd>
+        <dt>Note de bas de page 2</dt>
+        <dd id="fn2">
+            <p>Pour obtenir l'outil, soumettez un billet auprès de l’InfoService national.</p>
+            <p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Retour à la référence de la note de bas de
+                        page </span>2</a></p>
+        </dd>
+    </dl>
+</aside>
+<p><a class="btn btn-primary" href="../../../docs/accessible-documents/Accessibility_Best_Practices_for_Excel_Documents_FR.docx" role="button">Télécharger la page (DOCX, 60 Ko)</a></p>
+
+			
+<div class="pagedetails">
+	<div class="row">
+		<div class="col-sm-6 col-md-5 col-lg-4">
+			<a href="//www.canada.ca/fr/signaler-probleme.html" class="btn btn-default btn-center">Signaler un problème sur cette page</a></div>
+		<div class="wb-share col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+	</div>
+	<dl id="wb-dtmd">
+		<dt>Date de modification :</dt>
+		<dd><time datetime="2022-03-24">2022-03-24</time></dd>
+	</dl>
+</div>
+
+
+
+
+
+		</div>
+
+	</main>
+
+	
+
+<aside class="contribute">
+	<div class="container">
+		<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i>Contribuez <small>sur Github.com</small></h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a  hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io">Voir le code source <small>sur Github.com</small></a></li>
+				<li><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en"  href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose">Signaler un problème <small>sur Github.com</small></a></li>
+				<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en"  href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Participez aux discussions <small>sur Github.com</small></a></li>
+			</ul>
+			<p>Ce site est alimenté par <a hreflang="en"  href="https://www.netlify.com">Netlify</a></p>
+	</div>
+</aside>
+
+	
+	
+<footer id="wb-info">
+	<div class="landscape">
+		<nav class="container wb-navcurr">
+			<h2 class="wb-inv">Au sujet du gouvernement</h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><a href="//www.canada.ca/fr/contact.html">Contactez-nous</a></li>
+				<li><a href="//www.canada.ca/fr/gouvernement/min.html">Ministères et organismes</a></li>
+				<li><a href="//www.canada.ca/fr/gouvernement/fonctionpublique.html">Fonction publique et force militaire</a></li>
+				<li><a href="//www.canada.ca/fr/nouvelles.html">Nouvelles</a></li>
+				<li><a href="//www.canada.ca/fr/gouvernement/systeme/lois.html">Traités, lois et règlements</a></li>
+				<li><a href="//www.canada.ca/fr/transparence/rapports.html">Rapports à l&#39;échelle du gouvernement</a></li>
+				<li><a href="https://pm.gc.ca/fra">Premier ministre</a></li>
+				<li><a href="//www.canada.ca/fr/gouvernement/systeme.html">Comment le gouvernement fonctionne</a></li>
+				<li><a href="https://ouvert.canada.ca/">Gouvernement ouvert</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="brand">
+		<div class="container">
+			<div class="row">
+				<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+					<h2 class="wb-inv">À propos de ce site</h2>
+					<ul>
+						<li><a href="//www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
+						<li><a href="//www.canada.ca/fr/mobile.html">Applications mobiles</a></li>
+						<li><a href="https://www1.canada.ca/fr/nouveausite.html">À propos de Canada.ca</a></li>
+						<li><a href="//www.canada.ca/fr/transparence/avis.html">Avis</a></li>
+						<li><a href="//www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
+					</ul>
+				</nav>
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">aut de la page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+					<img src="//www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" alt="Symbole du gouvernement du Canada">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<script src="//www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+	<script src="//www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+</body>
+</html>
