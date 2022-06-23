@@ -1,21 +1,25 @@
 ---
-name: Demande de modification
-about: Demander une modification d'une page du site
-title: "[MODIFICATION] Brève description de la page"
+name: Lien brisé
+about: Lien brisé trouvé dans le contenu du site
+title: "[LIEN BRISÉ] Texte du lien brisé"
 labels: ''
 assignees: ''
 ---
-
 <div lang="fr">
 
 ## Information nécessaire
 
-**Quelle page fait l'objet de la demande de modification ? Veuillez fournir l'URI.**
+**Sur quelle page se trouve le lien brisé ? Veuillez fournir l'URL.**
 
 URL:
 
-**Joignez un document Word avec l'option suivi des modifications activée pour la ou les modifications requises.**
+**Texte du lien**
 
+Texte:
+
+**Nouveau `href` pour le lien**
+
+URL:
 
 **Approbation nécessaire ?**
 

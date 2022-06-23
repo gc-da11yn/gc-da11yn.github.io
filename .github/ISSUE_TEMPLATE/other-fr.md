@@ -7,5 +7,9 @@ assignees: ''
 
 ---
 
+<div lang="fr">
+
 ## Objectif de cette requête
 Posez vos questions, laissez vos commentaires ou demandez de l'aide ici.
+
+</div>

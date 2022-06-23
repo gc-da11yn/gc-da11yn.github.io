@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+<div lang="fr">
+
 ## Information nécessaire
 
 **Est-ce que votre demande de fonctionnalité est reliée à un problème ? Veuillez élaborer.**
@@ -32,3 +34,5 @@ Si applicable, ajoutez des captures d'écran pour aider à démontrer le bogue.
 
 **Contexte additionnel**
 Ajoutez du contexte en rapport avec la fonctionnalité ici.
+
+</div>
