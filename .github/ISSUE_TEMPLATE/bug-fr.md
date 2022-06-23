@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+<div lang="fr">
+
 ## Information nécessaire
 
 **Description du bogue**
@@ -41,3 +43,5 @@ Si applicable, ajoutez des captures d'écran pour aider à démontrer le bogue.
 
 **Contexte additionnel**
 Ajouter du contexte en rapport avec le problème ici.
+
+</div>

@@ -6,6 +6,8 @@ labels: ''
 assignees: ''
 ---
 
+<div lang="fr">
+
 ## Information nécessaire
 
 **Quelle page fait l'objet de la demande de modification ? Veuillez fournir l'URI.**
@@ -39,3 +41,5 @@ Si applicable, ajoutez des captures d'écran pour aider à démontrer le bogue.
 **Contexte additionnel**
 
 Ajoutez du contexte en rapport avec la fonctionnalité ici.
+
+</div>
