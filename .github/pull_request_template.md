@@ -6,6 +6,17 @@ A clear and concise description of what the code of this PR accomplishes. /// U
 ## Additional information (optional) / Information additionnelle (optionel)
 
 **General checklist / Liste de contrôle générale**
+
+<!--
+Add an X between the [] to select one of the options in the check lists
+Example: - [X] No
+-->
+
+<!--
+Ajoutez un X entre les [] pour sélectionner l'une des options des listes de contrôle.
+Exemple : - [X] Non
+-->
+
 Make your own list for the purpose of your Pull request. /// Faites votre propre liste en fonction des besoins de votre demande « pull ».
 
 - [ ] Create/update documentation /// Créer/mettre à jour la documentation
@@ -18,3 +29,5 @@ List issues that are being closed or worked on with this pull request i.e. Close
 
 **Screenshots / Captures d'écrans**
 If applicable, add screenshots to help demonstrate what this PR does. /// Si applicable, ajoutez des captures d'écran pour aider à démontrer ce que cette PR fait.
+
+

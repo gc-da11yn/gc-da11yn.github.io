@@ -23,6 +23,11 @@ URL:
 
 **Approbation nécessaire ?**
 
+<!--
+Ajoutez un X entre les [] pour sélectionner l'une des options des listes de contrôle.
+Exemple : - [X] Non
+-->
+
 - [ ] Non
 - [ ] Oui, j'ai besoin d'approuver cette demande avant que le changement ne soit effectif
 - [ ] Oui, veuillez envoyer une demande à la personne suivante : INSÉRER_NOM_ICI

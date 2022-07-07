@@ -18,6 +18,11 @@ URL:
 
 **Approval needed?**
 
+<!--
+Add an X between the [] to select one of the options in the check lists
+Example: - [X] No
+-->
+
 - [ ] No
 - [ ] Yes, I need to approve this request before change goes live
 - [ ] Yes, please send a request to the following person: INSERT_NAME_HERE
