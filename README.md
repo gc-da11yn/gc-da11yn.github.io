@@ -82,7 +82,7 @@ Consultez [DEVELOPMENT.md](.github/DEVELOPMENT.md) pour plus de détails.
 
 Le contenu est créé pour les employés du GC, mais il peut être utilisé par toute personne travaillant dans le domaine de l'accessibilité numérique.
 
-#### Rôles Principaux
+### Rôles Principaux
 
 The key roles will be defined based on the W3C's [ARRM Project - Accessibility Roles and Responsibilities Mapping](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) project.
 
