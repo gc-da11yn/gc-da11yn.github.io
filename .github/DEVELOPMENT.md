@@ -1,3 +1,9 @@
+<div lang="fr">
+
+([Français](#Développement))
+
+</div>
+
 # Development
 
 ## Technology
@@ -78,3 +84,30 @@ Make sure you edit the files in the `src/` subdirectory. Any edits made in the `
 ## Quitting
 
 You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd>C</kbd> keys at the same time in your command line application, or by closing the command line application window or tab.
+______________________
+<div lang="fr">
+
+# Développement
+    
+## Technologie
+    
+Le projet est basé sur l'utilisation de la même technologie que le projet [a11yproject](https://github.com/a11yproject/gc-da11yn.github.io).
+    
+En utilisant [Eleventy](https://www.11ty.io), pour construire un site statique simple qui utilise [nodeJS](https://nodejs.org/en/) pour générer et déployer avec  [Github Actions](https://github.com/features/actions) aux [Github Pages](https://pages.github.com) hébergeant le site.
+    
+Eleventy s'appuie sur [Markdown](https://daringfireball.net/projects/markdown/syntax), [Sass](https://sass-lang.com/), [Nunjucks](https://mozilla.github.io/nunjucks/) et [JSON](https://www.json.org/) pour fonctionner.
+    
+Il peut être utile de se familiariser avec ces technologies, en fonction de ce que vous voulez faire. Pour plus d'informations, consultez notre [Contributor documentation](./CONTRIBUTING.md).
+    
+## Exigences
+    
+Vous devrez avoir accès aux programmes et technologies suivants afin de pouvoir travailler sur le site Web sur votre ordinateur :
+    
+1. Une application de ligne de commande telle que Terminal.
+1. [Git](https://git-scm.com/) version control and a [GitHub account](https://github.com/).
+    - You can check to see if Git is already installed on your computer by typing `git --version` into your command line application. If it is installed it will list the currently installed version (e.g. `git version 2.18.0`).
+    - If you prefer to use a GUI to work with version control, GitHub offers a [free desktop app](https://desktop.github.com).
+1. [Node.js](https://nodejs.org/en/), a programming environment powered by JavaScript.
+    - You can check to see if Node.js is already installed on your computer by typing `node -v` into your command line application. If it is installed it will list the currently installed version (e.g. `v16.4.0`). This project requires a minimum version of `16.0.0`.
+    - It may also be helpful to use a program such as [nvm](https://github.com/creationix/nvm) to help manage your Node.js versions. This will ensure that the version of Node.js your computer uses to run various things won't conflict with an updated version. For Windows users, you can use [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows).
+</div>
