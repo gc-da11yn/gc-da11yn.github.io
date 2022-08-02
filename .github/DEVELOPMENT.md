@@ -52,13 +52,13 @@ It will create a version controlled copy of the website in the directory you ent
 
 `git fetch --all`
 
-Ensure your local working copy include all the recent changesgit rebase upstream/main
+Ensure your local working copy include all the recent changesgit rebase upstream/main.
 
 6a. Be attentive to rebase conflict, in such situation you can rollback by running 
 
 `git rebase --abort`
 
-and then use a different strategy to update your working copyEverything went well
+and then use a different strategy to update your working copy.
 
 6b. You will see the following message if it went well
 
@@ -104,10 +104,66 @@ Il peut être utile de se familiariser avec ces technologies, en fonction de ce 
 Vous devrez avoir accès aux programmes et technologies suivants afin de pouvoir travailler sur le site Web sur votre ordinateur :
     
 1. Une application de ligne de commande telle que Terminal.
-1. [Git](https://git-scm.com/) version control and a [GitHub account](https://github.com/).
-    - You can check to see if Git is already installed on your computer by typing `git --version` into your command line application. If it is installed it will list the currently installed version (e.g. `git version 2.18.0`).
-    - If you prefer to use a GUI to work with version control, GitHub offers a [free desktop app](https://desktop.github.com).
-1. [Node.js](https://nodejs.org/en/), a programming environment powered by JavaScript.
-    - You can check to see if Node.js is already installed on your computer by typing `node -v` into your command line application. If it is installed it will list the currently installed version (e.g. `v16.4.0`). This project requires a minimum version of `16.0.0`.
-    - It may also be helpful to use a program such as [nvm](https://github.com/creationix/nvm) to help manage your Node.js versions. This will ensure that the version of Node.js your computer uses to run various things won't conflict with an updated version. For Windows users, you can use [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows).
+1. Le controle de version [Git](https://git-scm.com/) et un [compte GitHub](https://github.com/).
+    - Vous pouvez vérifier si Git est déjà installé sur votre ordinateur en tapant `git --version` dans votre application de ligne de commande. S'il est installé, il listera la version actuellement installée (par exemple, `git version 2.18.0`).
+    - Si vous préférez utiliser une autre interface graphique pour travailler avec le contrôle de version, GitHub propose une [application de bureau gratuite](https://desktop.github.com).
+1. [Node.js](https://nodejs.org/en/), un environnement de programmation basé sur JavaScript.
+    - Vous pouvez vérifier si Node.js est déjà installé sur votre ordinateur en tapant `node -v` dans votre application de ligne de commande. S'il est installé, il affichera la version actuellement installée (par exemple, `v16.4.0`). Ce projet nécessite une version minimale de `16.0.0`.
+    - Il peut également être utile d'utiliser un programme tel que [nvm](https://github.com/creationix/nvm) pour vous aider à gérer vos versions de Node.js. Cela garantira que la version de Node.js que votre ordinateur utilise pour exécuter diverses choses n'entrera pas en conflit avec une version mise à jour. Pour les utilisateurs de Windows, vous pouvez utiliser [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows).
+
+## Installation
+    
+Une fois que vous avez rencontré [les conditions préalables](#Exigences), suivez ces étapes pour installer le site Web sur votre ordinateur :
+    
+1. Fork le dépôt via le Github web en cliquant sur le bouton "Fork" dans le coin supérieur droit.
+
+2. Après avoir créé votre fork à partir du site web Github, clonez votre dépôt de fork en entrant cette commande dans votre application de ligne de commande : Remplacez "$githubUsername" par votre nom d'utilisateur Github. 
+
+`git clone https://github.com/$githubUsername/gc-da11yn.github.io.git`
+    
+ Cela créera une copie sous contrôle de version du site Web dans le répertoire dans lequel vous avez entré la commande.
+ 
+ 3. Naviguez dans la [racine du répertoire](https://en.m.wikipedia.org/wiki/Root_directory) du projet en tapant la commande     de changement de répertoire suivante dans votre application de ligne de commande.
+ 
+ `cd gc-da11yn.github.io/`
+
+ 4. Ajoutez une référence à l'upstream.
+    
+ `git remote add upstream https://github.com/gc-da11yn/gc-da11yn.github.io.git`
+    
+ 6. Récupérez toutes les dernières modifications. Cela fera en sorte que votre instance locale soit au courant de toutes       les modifications récentes apportées à l'upstream du projet, mais rien ne sera mis à jour dans votre code.
+    
+ `git fetch --all`
+    
+  Assurez vous que votre copie de travail locale inclut tous les changements récents git rebase upstream/main
+    
+  6a. Soyez attentif aux conflits de rebasement, dans une telle situation vous pouvez faire marche arrière en exécutant 
+  
+  `git rebase --abort`
+    
+  et ensuite utiliser une stratégie différente pour mettre à jour votre copie de travail.
+  
+  6b. Si tout s'est bien passé, vous verrez le message suivant
+  
+  `Successfully rebased and updated refs/heads/main.`
+
+7. Installez les modules Node.js du projet en tapant `npm install` dans votre application de ligne de commande. Une liste      des modules devrait être affichée après leur téléchargement et leur installation.
+    
+## Exécution du site Web
+
+Après avoir cloné et installé les modules Node.js du projet, tapez `npm start` dans votre application de ligne de commande. Cela demandera à Node.js de compiler le projet et de le transformer en site web.
+    
+Votre application de ligne de commande affichera alors quelques informations sur Eleventy, dont une ligne qui commence par `Local:`. Vous pouvez copier l'URL vers laquelle elle pointe (elle devrait ressembler à [`http://localhost:3000`](http://localhost:3000)) et la coller dans un onglet du navigateur. Cela chargera une copie locale du site web avec laquelle vous pourrez interagir pour prévisualiser vos modifications.
+
+Vous pouvez également utiliser l'URL `External` pour prévisualiser la copie locale sur un autre appareil connecté au même réseau, ce qui vous permet de vérifier l'aspect et le fonctionnement du site sur des appareils tels que les smartphones. Cela se fait via [Browsersync](https://www.browsersync.io/).
+    
+## Mise à jour du site Web
+    
+En sauvegardant les fichiers du projet, Node.js régénérera le site Web pour refléter les changements que vous avez effectués. Votre application de ligne de commande affichera de nouveaux messages pour refléter cela, y compris toute erreur que vous pourriez accidentellement faire. Ne vous inquiétez pas ! Comme le site utilise la version de contrôle, vous ne risquez pas de casser sérieusement quoi que ce soit. Si vous corrigez l'erreur, Node.js devrait continuer à fonctionner.
+
+Assurez-vous d'éditer les fichiers dans le sous-répertoire `src/`. Toute modification faite dans le sous-répertoire `_site` sera écrasée par la prochaine modification d'un fichier dans `src/` et tout votre travail sera perdu !
+    
+##Quitter
+    
+Vous pouvez demander à Node.js d'arrêter de s'exécuter en appuyant simultanément sur les touches <kbd>Control</kbd> et <kbd>C</kbd> dans votre application de ligne de commande, ou en fermant la fenêtre ou l'onglet de l'application de ligne de commande.
 </div>
