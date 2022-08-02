@@ -48,24 +48,23 @@ It will create a version controlled copy of the website in the directory you ent
 
 `git remote add upstream https://github.com/gc-da11yn/gc-da11yn.github.io.git`
 
-6. Fetch all the latest changes. It will make you local instance is aware of all the recent change made to upstream project, but nothing will be updated in your code.
+5. Fetch all the latest changes. It will make you local instance is aware of all the recent change made to upstream project, but nothing will be updated in your code.
 
 `git fetch --all`
 
 Ensure your local working copy include all the recent changesgit rebase upstream/main.
 
-6a. Be attentive to rebase conflict, in such situation you can rollback by running 
+5a. Be attentive to rebase conflict, in such situation you can rollback by running 
 
 `git rebase --abort`
 
 and then use a different strategy to update your working copy.
 
-6b. You will see the following message if it went well
+5b. You will see the following message if it went well
 
 `Successfully rebased and updated refs/heads/main.`
 
-
-7. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
+6. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
 
 ## Running the website
 
@@ -93,7 +92,7 @@ ______________________
     
 Le projet est basé sur l'utilisation de la même technologie que le projet [a11yproject](https://github.com/a11yproject/gc-da11yn.github.io).
     
-En utilisant [Eleventy](https://www.11ty.io), pour construire un site statique simple qui utilise [nodeJS](https://nodejs.org/en/) pour générer et déployer avec  [Github Actions](https://github.com/features/actions) aux [Github Pages](https://pages.github.com) hébergeant le site.
+En utilisant [Eleventy](https://www.11ty.io), pour construire un site statique simple qui utilise [nodeJS](https://nodejs.org/fr/) pour générer et déployer avec  [Github Actions](https://github.com/features/actions) aux [Github Pages](https://pages.github.com) hébergeant le site.
     
 Eleventy s'appuie sur [Markdown](https://daringfireball.net/projects/markdown/syntax), [Sass](https://sass-lang.com/), [Nunjucks](https://mozilla.github.io/nunjucks/) et [JSON](https://www.json.org/) pour fonctionner.
     
@@ -107,7 +106,7 @@ Vous devrez avoir accès aux programmes et technologies suivants afin de pouvoir
 1. Le controle de version [Git](https://git-scm.com/) et un [compte GitHub](https://github.com/).
     - Vous pouvez vérifier si Git est déjà installé sur votre ordinateur en tapant `git --version` dans votre application de ligne de commande. S'il est installé, il listera la version actuellement installée (par exemple, `git version 2.18.0`).
     - Si vous préférez utiliser une autre interface graphique pour travailler avec le contrôle de version, GitHub propose une [application de bureau gratuite](https://desktop.github.com).
-1. [Node.js](https://nodejs.org/en/), un environnement de programmation basé sur JavaScript.
+1. [Node.js](https://nodejs.org/fr/), un environnement de programmation basé sur JavaScript.
     - Vous pouvez vérifier si Node.js est déjà installé sur votre ordinateur en tapant `node -v` dans votre application de ligne de commande. S'il est installé, il affichera la version actuellement installée (par exemple, `v16.4.0`). Ce projet nécessite une version minimale de `16.0.0`.
     - Il peut également être utile d'utiliser un programme tel que [nvm](https://github.com/creationix/nvm) pour vous aider à gérer vos versions de Node.js. Cela garantira que la version de Node.js que votre ordinateur utilise pour exécuter diverses choses n'entrera pas en conflit avec une version mise à jour. Pour les utilisateurs de Windows, vous pouvez utiliser [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows).
 
@@ -123,7 +122,7 @@ Une fois que vous avez rencontré [les conditions préalables](#Exigences), suiv
     
  Cela créera une copie sous contrôle de version du site Web dans le répertoire dans lequel vous avez entré la commande.
  
- 3. Naviguez dans la [racine du répertoire](https://en.m.wikipedia.org/wiki/Root_directory) du projet en tapant la commande     de changement de répertoire suivante dans votre application de ligne de commande.
+ 3. Naviguez dans le [répertoire racine](https://fr.wikipedia.org/wiki/R%C3%A9pertoire_racine) du projet en tapant la commande de changement de répertoire suivante dans votre application de ligne de commande.
  
  `cd gc-da11yn.github.io/`
 
@@ -131,23 +130,23 @@ Une fois que vous avez rencontré [les conditions préalables](#Exigences), suiv
     
  `git remote add upstream https://github.com/gc-da11yn/gc-da11yn.github.io.git`
     
- 6. Récupérez toutes les dernières modifications. Cela fera en sorte que votre instance locale soit au courant de toutes       les modifications récentes apportées à l'upstream du projet, mais rien ne sera mis à jour dans votre code.
+ 5. Récupérez toutes les dernières modifications. Cela fera en sorte que votre instance locale soit au courant de toutes       les modifications récentes apportées à l'upstream du projet, mais rien ne sera mis à jour dans votre code.
     
  `git fetch --all`
     
   Assurez vous que votre copie de travail locale inclut tous les changements récents git rebase upstream/main
     
-  6a. Soyez attentif aux conflits de rebasement, dans une telle situation vous pouvez faire marche arrière en exécutant 
+  5a. Soyez attentif aux conflits de rebasement, dans une telle situation vous pouvez faire marche arrière en exécutant 
   
   `git rebase --abort`
     
   et ensuite utiliser une stratégie différente pour mettre à jour votre copie de travail.
   
-  6b. Si tout s'est bien passé, vous verrez le message suivant
+  5b. Si tout s'est bien passé, vous verrez le message suivant
   
   `Successfully rebased and updated refs/heads/main.`
 
-7. Installez les modules Node.js du projet en tapant `npm install` dans votre application de ligne de commande. Une liste      des modules devrait être affichée après leur téléchargement et leur installation.
+ 6. Installez les modules Node.js du projet en tapant `npm install` dans votre application de ligne de commande. Une liste      des modules devrait être affichée après leur téléchargement et leur installation.
     
 ## Exécution du site Web
 
