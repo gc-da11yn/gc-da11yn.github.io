@@ -1,5 +1,7 @@
 module.exports = function(eleventyConfig) {
 	const moment = require("moment");
+	const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 	eleventyConfig.addPassthroughCopy({ "./src/_docs" : "docs" });
 	eleventyConfig.addPassthroughCopy({ "./src/_images" : "img" });
