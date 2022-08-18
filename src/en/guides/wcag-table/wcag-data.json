@@ -1,0 +1,126 @@
+[
+  {
+    "id":"1.3.1",
+    "name":"Info and Relationships",
+    "techniques": [
+      {
+        "id":"ARIA11",
+        "appCrits": ["1.3.1"],
+        "cat":"sufficient",
+        "tags":["headings","name regions", "aria"],
+        "content":["ARIA landmarks are defined as a role=x attribute and correctly identify regions of a page"]
+      },
+      {
+        "id":"ARIA12",
+        "appCrits": ["1.3.1"],
+        "cat":"advisory",
+        "tags":["banana","apple", "headings", "aria"],
+        "content":[
+          "Headings",
+          [
+            "Headings beyond level 6 are defined using a role=“heading” attribute on a <div>",
+            "The heading level is defined using an aria-level attribute",
+            "Example of a <div> used to simulate an <h7>:",
+            ["<div role=\"heading\" aria-level=\"7\">Level 7 heading text/div>"]
+          ]]
+      },
+      {
+        "id":"ARIA13",
+        "appCrits": ["1.3.1"],
+        "cat":"advisory",
+        "tags":["orange","mango", "regions", "landmarks", "region landmarks", "aria"],
+        "content":["Region Landmarks",
+          ["The aria-labelledby attribute is used to associate a page text with UI components.",
+            "If no relevant page text is available, aria-label may be used instead"]
+        ]
+      },
+      {
+        "id":"ARIA17",
+        "appCrits": ["1.3.1"],
+        "cat":"sufficient",
+        "tags":["papaya","pear", "group", "input", "user input", "user", "controls", "use controls", "aria"],
+        "content":["User Input",
+          ["The role=“group” attribute is used to group related user input controls (role=“radiogroup” is also valid for a group of radio buttons)"]]
+      },
+      {
+        "id":"ARIA16",
+        "appCrits": ["1.3.1"],
+        "cat":"advisory",
+        "tags":["strawberry","blueberry", "regions", "name regions", "name", "ui", "ui components", "page text", "text", "aria"],
+        "content":["Name Regions",
+          ["The aria-labelledby attribute is used to associate a page text with UI components.",
+            "If no relevant page text is available, aria-label may be used instead"
+          ]
+        ]
+      },
+      {
+        "id":"G141",
+        "appCrits": ["1.3.1"],
+        "cat":"sufficient",
+        "tags":["pineapple","apple", "general"],
+        "content":["beh beh",
+          ["cha cha",
+            ["cah cah",
+              "bei bei"],
+            "buh buh"],
+          "heh heh"]
+      },
+      {
+        "id":"G142",
+        "appCrits": ["1.3.1"],
+        "cat":"advisory",
+        "tags":["orange","mango", "banana", "general"],
+        "content":["mreugh mreugh"]
+      },
+      {
+        "id":"G143",
+        "appCrits": ["1.3.1"],
+        "cat":"sufficient",
+        "tags":["papaya","pear", "mango", "general"],
+        "content":["hoo hoo"]
+      },
+      {
+        "id":"G144",
+        "appCrits": ["1.3.1"],
+        "cat":"sufficient",
+        "tags":["strawberry","blueberry", "coconut", "general"],
+        "content":["kee kee"]
+      },
+      {
+        "id":"H39",
+        "appCrits": ["1.3.1"],
+        "cat":"sufficient",
+        "tags":["data tables", "layout Tables", "tables", "captions", "summary", "html"],
+        "content":["Data Tables",
+          ["Verify that captions are present and applied to data tables via <caption> tags"],
+          "Layout Tables",
+          ["Verify that the table contains no caption element",
+            "Verify that if the table has a <summary> element, it is not empty"]]
+      },
+      {
+        "id":"H42",
+        "appCrits": ["1.3.1"],
+        "cat":"sufficient",
+        "tags":["headings", "order", "heading order", "html"],
+        "content":["Check that Headings are Correctly Applied",
+          ["Verify that headings are created using an <hx> tag where x is the appropriate heading level from 1 to 6",
+            "Verify that <hx> tags are only used for headings"]]
+      }
+    ]
+  },
+  {
+    "id":"4.1.2",
+    "name":"Name, Role, Value",
+    "techniques": [
+      {
+        "id":"ARIA14",
+        "appCrits": ["4.1.2"],
+        "cat":"sufficient",
+        "tags":["peach","apple", "pear", "aria"],
+        "content":["This is just",
+          ["a test technique for 4.2.1",
+            "also meaningless"]]
+      }
+    ]
+  }
+]
