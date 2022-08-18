@@ -5,6 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "newFolder": "node scripts/create-new-folder.js",
     "eleventy": "npx eleventy",
     "watch:eleventy": "eleventy --serve",
     "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
@@ -30,6 +31,9 @@
     "url": "https://github.com/gc-da11yn/gc-da11yn.github.io/issues"
   },
   "homepage": "https://github.com/gc-da11yn/gc-da11yn.github.io#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "moment": "^2.29.1",
