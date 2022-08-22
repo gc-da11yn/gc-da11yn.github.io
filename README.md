@@ -22,7 +22,7 @@ Types of information relating to digital accessibility to be shared are:
 - discussions,
 - information about the work we do in the GC.
 
-For documentation on the task forces created for this project, view the [Terms of Reference (ToR)](.github/TERMS_OF_REFERENCE.md). 
+For documentation on the task forces created for this project, view the [Terms of Reference (ToR)](.github/TERMS_OF_REFERENCE.md).
 
 ### Development
 
@@ -30,7 +30,7 @@ See [DEVELOPMENT.md](.github/DEVELOPMENT.md) for more information.
 
 ### Who will use this project?
 
-The content is created for GC employees although it can be used by anyone who works in digital accessibility. 
+The content is created for GC employees although it can be used by anyone who works in digital accessibility.
 
 #### Key roles
 
@@ -38,7 +38,7 @@ The key roles will be defined based on the W3C's [ARRM Project - Accessibility R
 
 ### What is the goal of this project?
 
-To promote the great work we do in the field of digital accessibility within the GC and to have a centralized place to share our documentation.  
+To promote the great work we do in the field of digital accessibility within the GC and to have a centralized place to share our documentation.
 
 ### How to Contribute
 
@@ -52,38 +52,49 @@ Unless otherwise noted, the source code of this project is covered under Crown C
 
 The Canada wordmark and related graphics associated with this distribution are protected under trademark law and copyright law. No permission is granted to use them outside the parameters of the Government of Canada's corporate identity program. For more information, see [Federal identity requirements](https://www.canada.ca/en/treasury-board-secretariat/topics/government-communications/federal-identity-requirements.html).
 
-______________________
+---
+
 <div lang="fr">
 
-## Boîte à outils d'accessibilité numérique
+## Boîte à Outils d'Accessibilité Numérique
 
 Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles dans les deux langues officielles.
 
-<!-- TO BE TRANSLATED
+### Quel est ce Projet?
 
-### Quel est ce projet?
+Un **espace de partage** pour les ressources créées par les employés du gouvernement du Canada (GC) à promouvoir dans le cadre de la transparence. Suite à la [Directive sur le gouvernement ouvert] du Secrétariat du Conseil du Trésor du Canada. (https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28108).
 
+Les types d'informations relatives à l'accessibilité numérique à partager sont:
 
+- les guides,
+- liens vers des guides déjà créés en ligne,
+- les meilleures pratiques,
+- des discussions,
+- informations sur le travail que nous effectuons au sein du GC.
 
-### Comment ça marche?
+Pour obtenir de la documentation sur les groupes de travail créés pour ce projet, consultez les [Termes de référence (ToR)](.github/TERMS_OF_REFERENCE.md).
 
+### Comment ça Marche?
 
+Consultez [DEVELOPMENT.md](.github/DEVELOPMENT.md) pour plus de détails.
 
-### Qui utilisera ce projet?
+### Qui Utilisera ce Projet?
 
+Le contenu est créé pour les employés du GC, mais il peut être utilisé par toute personne travaillant dans le domaine de l'accessibilité numérique.
 
+### Rôles Principaux
 
-### Quel est le but de ce projet? 
+The key roles will be defined based on the W3C's [ARRM Project - Accessibility Roles and Responsibilities Mapping](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) project.
 
+### Quel est le But de ce Projet?
 
--->
+Promouvoir l'excellent travail que nous faisons dans le domaine de l'accessibilité numérique au sein du GC et disposer d'un lieu centralisé pour partager notre documentation.
 
+### Comment Contribuer
 
-### Comment contribuer
+Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre [Section de Discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
 
-Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre section [Discussions](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
-
-Voir [CONTRIBUTING.md](.github/CONTRIBUTING.md) pour plus d'informations.
+Consultez [CONTRIBUTING.md](.github/CONTRIBUTING.md) pour plus de détails.
 
 ### Licence
 
