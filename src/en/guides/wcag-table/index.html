@@ -1,15 +1,8 @@
 ---
 title: Searchable WCAG Checklist
 layout: layouts/base.njk
-description: [TEMPORARY DESCRIPTION TEXT]
+description: This is a searchable table of WCAG criteria and techniques for use by testers, developers, or other interested parties.
 ---
-<h2 class="mrgn-bttm-lg">Launch the Checklist</h2>
-<ul class="btn-toolbar list-inline">
-	<li class="btn-group mrgn-bttm-md">
-		<a class="btn btn-primary" href="./wcag-criteria-table"><i aria-hidden="true" class="fas fa-file-word"></i>{{title}}
-			(Word version 1, 88 <abbr title="KiloByte">KB</abbr>)</a>
-	</li>
-</ul>
 
 <h2>Introduction</h2>
 <p>The searchable WCAG table is a list of WCAG 2.1 AA testing techniques that can be used to test accessibility of
@@ -20,7 +13,7 @@ description: [TEMPORARY DESCRIPTION TEXT]
 	2.1 documentation.</p>
 
 <h2>Use of Table</h2>
-<p>[THIS WILL BE FILLED IN WHEN TABLE FORMAT IS DETERMINED]</p>
+<p></p>
 
 <ul class="list-unstyled">
 	<li>
@@ -68,7 +61,6 @@ description: [TEMPORARY DESCRIPTION TEXT]
 								<li class="checkbox">
 																		<label for="check111"><input data-column="2" id="check111" name="critChecks" type="checkbox"
 										   value="1.1.1">1.1.1</label>
-								</li>
 								</li>
 
 								<li class="checkbox">
@@ -415,13 +407,13 @@ description: [TEMPORARY DESCRIPTION TEXT]
 		<details open>
 			<summary>The Table</summary>
 			<table class="wb-tables table table-striped table-hover" data-wb-tables='{ "ordering" : false }'
-				   id="wcag-table">
+				   id="wcag-table" tabindex="0">
 				<thead>
 				<tr>
 					<th>Technique ID</th>
 					<th>Technique Content</th>
 					<th>Criterion</th>
-					<th hidden="true">TCat</th>
+					<th hidden>TCat</th>
 				</tr>
 				</thead>
 				<tbody id="wcag-table-body">
@@ -434,7 +426,7 @@ description: [TEMPORARY DESCRIPTION TEXT]
 <script>
 	let techniques_json = []
 	console.log("Doin' the thing")
-	fetch('https://a11y.canada.ca/checklist-app/criteria.json')
+	fetch('https://raw.githubusercontent.com/DanielShifman/checklist-app/main/criteria.json')
 		.then(function (response) {
 			return response.json();
 		})
@@ -476,8 +468,8 @@ description: [TEMPORARY DESCRIPTION TEXT]
 						technique.content.forEach((point) => {
 
 							let newLi = document.createElement("li")
-							let newElem = recArr(point)
-							if (newElem.tagName == "UL") {
+							let newElem = recArr(point, technique.img)
+							if (newElem.tagName === "UL") {
 								newUl.append(newElem)
 							} else {
 								newLi.append(newElem)
@@ -514,21 +506,42 @@ description: [TEMPORARY DESCRIPTION TEXT]
 		return "Other"
 	}
 
-	function recArr(v) {
+	function imageCheck(str, imgs) {
+		let res = str.match(/^\u007cIMG-(\d+)\u007c (.*)$/);
+		console.log(`STR: ${str}       RES: ${res}`)
+		if (res === null || res.length === 0) {
+			return false
+		} else {
+			console.log("IMGS:")
+			console.log(imgs)
+			return [imgs[res[1]], res[2]]
+		}
+	}
+
+	function recArr(v, imgs) {
 		if (!Array.isArray(v)) return v
 
 		let newUl = document.createElement("ul")
 		v.forEach((point) => {
 
 			let newLi = document.createElement("li")
-			let newElem = recArr(point)
-			if (newElem.tagName == "UL") {
+			let newElem;
+			let imgc = imageCheck(point[0], imgs)
+			if (imgc === false) {
+				newElem = recArr(point)
+			} else {
+				newElem = document.createElement("img")
+				newElem.setAttribute("src", `https://raw.githubusercontent.com/DanielShifman/checklist-app/main/img/${imgc[0]}.png`)
+				newElem.setAttribute("alt", imgc[1])
+			}
+			if (newElem.tagName === "UL") {
+				newUl.append(newElem)
+			} else if (newElem.tagName === "P") {
 				newUl.append(newElem)
 			} else {
 				newLi.append(newElem)
 				newUl.append(newLi)
 			}
-
 		})
 		return newUl
 	}
