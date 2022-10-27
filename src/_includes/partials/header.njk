@@ -1,31 +1,35 @@
-{% set otherLang = "fr" if locale == "en" else "en" %}
-{% set otherLangugae = "Français" if locale == "en" else "English" %}
-{% set toggleURL = page.filePathStem | replace("/en/", "fr/") if locale == "en"  else page.filePathStem | replace("/fr/", "en/") %}
+{% set otherLang = "fr" if locale == "en" else
+	"en" %}
+{% set otherLangugae = "Français" if locale == "en" else
+	"English" %}
+{% set toggleURL = page.filePathStem | replace("/en/", "fr/")if locale == "en" else
+	page.filePathStem | replace("/fr/", "en/") %}
 <header>
 	<div id="wb-bnr" class="container">
 		<div class="row">
-		
-		{% if needsTranslation != true %}
-			<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
-				<h2 class="wb-inv">{{ header[locale].languageSelections }}</h2>
-				<ul class="list-inline mrgn-bttm-0">
-					<li>
-						<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ rootPath }}{{ toggleURL | replace("index", "") }}">
-							<span class="hidden-xs">{{ otherLangugae }}</span>
-							<abbr title="{{ otherLangugae }}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ otherLang }}</abbr>
-						</a>
-					</li>
-				</ul>
-			</section>
-		{% endif %}
+
+			{% if needsTranslation != true %}
+				<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+					<h2 class="wb-inv">{{ header[locale].languageSelections }}</h2>
+					<ul class="list-inline mrgn-bttm-0">
+						<li>
+							<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ rootPath }}{{ toggleURL | replace("index", "") }}">
+								<span class="hidden-xs">{{ otherLangugae }}</span>
+								<abbr title="{{ otherLangugae }}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ otherLang }}</abbr>
+							</a>
+						</li>
+					</ul>
+				</section>
+			{% endif %}
 
 			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
 				<a href="{{ header[locale].governmentOfCanadaURL }}" property="url">
-					<img src="//www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].governmentOfCanada }}" property="logo" /><span class="wb-inv"> / <span lang="{{ otherLang }}">Gouvernement du Canada</span></span>
+					<img src="//www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-{{ locale }}.svg" alt="{{ header[locale].governmentOfCanada }}" property="logo"/>
+					<span class="wb-inv"> / <span lang="{{ otherLang }}">Gouvernement du Canada</span></span>
 				</a>
 				<meta property="name" content="{{ header[locale].governmentOfCanada }}">
-				<meta property="areaServed" typeof="Country" content="Canada" />
-				<link property="logo" href="//www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
+				<meta property="areaServed" typeof="Country" content="Canada"/>
+				<link property="logo" href="//www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg"/>
 			</div>
 
 			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
@@ -33,7 +37,7 @@
 				<form action="//canada.ca/{{ locale }}/sr/srb.html" method="post" name="cse-search-box" role="search">
 					<div class="form-group wb-srch-qry">
 						<label for="wb-srch-q" class="wb-inv">{{ header[locale].searchCanadaCa }}</label>
-						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="{{ header[locale].searchCanadaCa }}" />
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="{{ header[locale].searchCanadaCa }}"/>
 						<datalist id="wb-srch-q-ac"></datalist>
 					</div>
 					<div class="form-group submit">
@@ -53,27 +57,60 @@
 			<h2 class="wb-inv">Menu</h2>
 			<button type="button" aria-haspopup="true" aria-expanded="false">
 				{% if locale == "en" %}
-					<span class="wb-inv">{{ header[locale].mainMenu }} </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+					<span class="wb-inv">{{ header[locale].mainMenu }}
+					</span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
 				{% else %}
-					Menu <span class="wb-inv">{{ header[locale].mainMenu }} </span><span class="expicon glyphicon glyphicon-chevron-down"></span>
+					Menu <span class="wb-inv">{{ header[locale].mainMenu }}
+					</span>
+					<span class="expicon glyphicon glyphicon-chevron-down"></span>
 				{% endif %}
 			</button>
 			<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-{{ locale }}.html">
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].jobsAndTheWorkplaceURL }}">{{ header[locale].jobsAndTheWorkplace }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].immigrationAndCitizenshipURL }}">{{ header[locale].immigrationAndCitizenship }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].travelAndTourismURL }}">{{ header[locale].travelAndTourism }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].businessAndIndustryURL }}">{{ header[locale].businessAndIndustry }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].benefitsURL }}">{{ header[locale].benefits }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].healthURL }}">{{ header[locale].health }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].taxesURL }}">{{ header[locale].taxes }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].environmentAndNaturalResourcesURL }}">{{ header[locale].environmentAndNaturalResources }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].nationalSecurityAndDefenceURL }}">{{ header[locale].nationalSecurityAndDefence }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].cultureHistoryAndSportURL }}">{{ header[locale].cultureHistoryAndSport }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].policingJusticeAndEmergenciesURL }}">{{ header[locale].policingJusticeAndEmergencies }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].transportAndInfrastructureURL }}">{{ header[locale].transportAndInfrastructure }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].canadaAndTheWorldURL }}">{{ header[locale].canadaAndTheWorld }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].moneyAndFinancesURL }}">{{ header[locale].moneyAndFinances }}</a></li>
-				<li role="presentation"><a role="menuitem" href="{{ header[locale].scienceAndInnovationURL }}">{{ header[locale].scienceAndInnovation }}</a></li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].jobsAndTheWorkplaceURL }}">{{ header[locale].jobsAndTheWorkplace }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].immigrationAndCitizenshipURL }}">{{ header[locale].immigrationAndCitizenship }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].travelAndTourismURL }}">{{ header[locale].travelAndTourism }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].businessAndIndustryURL }}">{{ header[locale].businessAndIndustry }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].benefitsURL }}">{{ header[locale].benefits }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].healthURL }}">{{ header[locale].health }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].taxesURL }}">{{ header[locale].taxes }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].environmentAndNaturalResourcesURL }}">{{ header[locale].environmentAndNaturalResources }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].nationalSecurityAndDefenceURL }}">{{ header[locale].nationalSecurityAndDefence }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].cultureHistoryAndSportURL }}">{{ header[locale].cultureHistoryAndSport }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].policingJusticeAndEmergenciesURL }}">{{ header[locale].policingJusticeAndEmergencies }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].transportAndInfrastructureURL }}">{{ header[locale].transportAndInfrastructure }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].canadaAndTheWorldURL }}">{{ header[locale].canadaAndTheWorld }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].moneyAndFinancesURL }}">{{ header[locale].moneyAndFinances }}</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" href="{{ header[locale].scienceAndInnovationURL }}">{{ header[locale].scienceAndInnovation }}</a>
+				</li>
 			</ul>
 		</div>
 	</nav>
@@ -86,16 +123,20 @@
 				</li>
 				{% set url = page.filePathStem | replace("/", "") %}
 				{% if url | replace("index", "") != locale %}
-					<li><a href="{{ rootPath }}{{ locale }}/">{{ settings[locale].metaTitle }}</a></li>
+					<li>
+						<a href="{{ rootPath }}{{ locale }}/">{{ settings[locale].metaTitle }}</a>
+					</li>
 				{% endif %}
-				
+
 				{% for breadcrumb in breadcrumbs %}
 					{% if breadcrumb.title != title %}
-						<li><a href="{{ breadcrumb.link | safe }}">{{ breadcrumb.title }}</a></li>
+						<li>
+							<a href="{{ breadcrumb.link | safe }}">{{ breadcrumb.title | safe }}</a>
+						</li>
 					{% endif %}
 				{% endfor %}
 			</ol>
 		</div>
 	</nav>
-	
+
 </header>
