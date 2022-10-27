@@ -38,7 +38,7 @@ Phase One of the Standard will focus on foundational elements of <abbr>ICT</abbr
 To foster a participative engagement process, select stakeholders will be invited to:
 
 - Review the _Standard on Information and Communication Technologies (<abbr>ICT</abbr>) Accessibility_ in full, the proposed accessibility requirements and the associated implementation timelines
-- Consult the [background document](#) **[insert link]** with a description of each requirement
+- Consult the [background document](./backgrounder) with a description of each requirement
 - Submit your confidential and anonymous feedback by completing our [feedback submission form](#) **[insert link]**
 
 In the event of technical difficulties, stakeholders will be able to contact us through our generic mailbox: <DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca>
@@ -51,6 +51,7 @@ In the event of technical difficulties, stakeholders will be able to contact us 
 - Targeted engagement closes: <time datetime="2022-11-30">November 30, 2022</time>
 
 ## Resources
+
 - [_Accessible Canada Act_](https://laws-lois.justice.gc.ca/eng/acts/A-0.6/)
 - [Canadian Human Rights Commission](https://www.accessibilitychrc.ca/en/how-we-can-help)
 - [Accessibility Standards Canada](https://accessible.canada.ca/)

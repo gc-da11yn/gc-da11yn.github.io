@@ -38,7 +38,7 @@ La première phase met l'accent sur les éléments fondamentaux de l'accessibili
 Pour Favoriser Un Processus D'engagement Participatif, Certains Intervenants Seront Invités :
 
 - à examiner la _Norme d'accessibilité des technologies de l'information et des communications (<abbr>TIC</abbr>)_ dans son intégralité, les exigences en matière d'accessibilité proposées ainsi que les délais de mise en œuvre associés;
-- à consulter le [document d'information](#) **\[insérer le lien\]**, qui donne une description de chaque exigence;
+- à consulter le [document d'information](./backgrounder), qui donne une description de chaque exigence;
 - à envoyer leur rétroaction confidentielle et anonyme en remplissant [notre formulaire d'envoi de rétroaction](#)**\[insérer le lien\]**.
 
 En cas de difficultés techniques, les intervenants pourront communiquer avec nous en utilisant notre boîte aux lettres générique : [DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca](mailto:DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca)
@@ -65,5 +65,5 @@ En cas de difficultés techniques, les intervenants pourront communiquer avec no
 - <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en"><em>Norme européenne harmonisée : Exigences en matière d'accessibilité applicables aux produits et services liés aux <abbr>TIC</abbr> (EN 301 549)</em> (en anglais seulement)</a>
 
 ## Pour communiquer avec nous
-Veuillez nous envoyer les demandes par courriel à l'adresse [DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca](mailto:DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca).
 
+Veuillez nous envoyer les demandes par courriel à l'adresse [DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca](mailto:DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca).
