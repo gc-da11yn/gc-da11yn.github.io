@@ -37,7 +37,7 @@ Phase One of the Standard will focus on foundational elements of <abbr>ICT</abbr
 
 To foster a participative engagement process, select stakeholders will be invited to:
 
-- Review the _Standard on Information and Communication Technologies (<abbr>ICT</abbr>) Accessibility_ in full, the proposed accessibility requirements and the associated implementation timelines
+- Review the _[Standard on Information and Communication Technologies (<abbr>ICT</abbr>) Accessibility](./standard)_ in full, the proposed accessibility requirements and the associated implementation timelines
 - Consult the [background document](./backgrounder) with a description of each requirement
 - Submit your confidential and anonymous feedback by completing our [feedback submission form](#) **[insert link]**
 
