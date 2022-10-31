@@ -1,8 +1,9 @@
 ---
-title: "Document d’information sur les exigences de la phase 1 de la Norme d’accessibilité des technologies de l’information et des communications"
+title: "Document d’information sur les exigences de la phase 1 de la <em>Norme d’accessibilité des technologies de l’information et des communications</em>"
 layout: layouts/base.njk
 description: "<p>Le présent document donne un aperçu des exigences que nous prévoyons d’inclure dans la phase 1 de la <em>Norme d’accessibilité des technologies de l’information et des communications (<abbr>TIC</abbr>)</em>.</p>
 <p>Il fournit des renseignements généraux, des explications sur chaque exigence et certaines ressources accessibles au public.</p>"
+internalLinks: true
 ---
 
 
@@ -16,7 +17,7 @@ Au Canada, une personne sur six a une incapacité. L’accessibilité des techno
 
 À mesure que la technologie continue d’évoluer, le gouvernement du Canada a l’obligation de veiller à ce que la prochaine génération de solutions technologiques soient mises au point en tenant compte de l’accessibilité, afin que personne ne soit laissé pour compte.
 
-La publication de la [_Loi canadienne sur l’accessibilité_](https://laws-lois.justice.gc.ca/fra/lois/A-0.6/), de la [Stratégie sur l’accessibilité au sein de la fonction publique du Canada](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm/strategie-accessibilite-fonction-publique-technologie.html) et de la [Ligne directrice sur l’utilisabilité de la technologie de l’information par tous](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32620) en 2019 a conduit, à l’échelle du gouvernement du Canada, à de nombreuses initiatives destinées à éliminer les obstacles aux TIC. L’une de ces initiatives a été la rédaction de la _Norme d’accessibilité des technologies de l’information et des communications_. Cette Norme, qui remplacera la _Norme sur l’accessibilité des sites Web_, élargira la portée des exigences en matière d’accessibilité conformément à la _Politique sur les services et le numérique_. La Norme sera harmonisée avec la _[Norme européenne harmonisée sur les exigences en matière d’accessibilité applicables aux produits et services liés aux TIC](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) (2021) (EN 301 549)_ et répondra à toutes les exigences applicables de la loi et de la stratégie, en plus d’être harmonisée avec les pratiques exemplaires internationales. Elle sera harmonisée avec la norme EN 301 549 (2021), recevant des mises à jour ultérieures à mesure que de futures versions de la norme EN 301 549 seront publiées.
+La publication de la [_Loi canadienne sur l’accessibilité_](https://laws-lois.justice.gc.ca/fra/lois/A-0.6/), de la [Stratégie sur l’accessibilité au sein de la fonction publique du Canada](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm/strategie-accessibilite-fonction-publique-technologie.html) et de la [Ligne directrice sur l’utilisabilité de la technologie de l’information par tous](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32620) en 2019 a conduit, à l’échelle du gouvernement du Canada, à de nombreuses initiatives destinées à éliminer les obstacles aux <abbr title="technologies de l’information et des communications">TIC</abbr>. L’une de ces initiatives a été la rédaction de la _Norme d’accessibilité des technologies de l’information et des communications_. Cette Norme, qui remplacera la _Norme sur l’accessibilité des sites Web_, élargira la portée des exigences en matière d’accessibilité conformément à la _Politique sur les services et le numérique_. La Norme sera harmonisée avec la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>Norme européenne harmonisée sur les exigences en matière d’accessibilité applicables aux produits et services liés aux <abbr title="technologies de l’information et des communications">TIC</abbr> (EN&nbsp;301&nbsp;549)</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> et répondra à toutes les exigences applicables de la loi et de la stratégie, en plus d’être harmonisée avec les pratiques exemplaires internationales. Elle sera harmonisée avec la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> (2021), recevant des mises à jour ultérieures à mesure que de futures versions de la norme <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> seront publiées.
 
 ## À propos de la Norme
 
@@ -32,18 +33,18 @@ La Norme contient des exigences concernant&nbsp;:
 - la capacité et les aptitudes de l’effectif;
 - la planification et l’établissement de rapports sur le rendement.
 
-Une fiche d’évaluation et un modèle de maturité connexes sont en cours d’élaboration pour que les ministères puissent s’en servir pour évaluer leurs progrès accomplis en vue d’atteindre l’objectif de rendre les TIC utilisables par tous.
+Une fiche d’évaluation et un modèle de maturité connexes sont en cours d’élaboration pour que les ministères puissent s’en servir pour évaluer leurs progrès accomplis en vue d’atteindre l’objectif de rendre les <abbr title="technologies de l’information et des communications">TIC</abbr> utilisables par tous.
 
 En novembre 2021, le Bureau de la dirigeante principale de l’information a mené des consultations à l’échelle du gouvernement sur l’ébauche de la Norme et sur une fiche d’évaluation de la mesure de l’accessibilité. Ces consultations ont révélé que les ministères estimaient qu’ils ne disposaient pas des ressources et de l’expertise technique nécessaires pour mettre en œuvre la Norme dans son intégralité.
 
-Pour faire en sorte que toutes les nouvelles TIC utilisées au gouvernement fédéral soient accessibles et pour donner aux ministères le temps de rendre les technologies existantes accessibles, nous publions la Norme en deux phases&nbsp;:
+Pour faire en sorte que toutes les nouvelles <abbr title="technologies de l’information et des communications">TIC</abbr> utilisées au gouvernement fédéral soient accessibles et pour donner aux ministères le temps de rendre les technologies existantes accessibles, nous publions la Norme en deux phases&nbsp;:
 
 - La **phase 1** comporte des exigences dont la mise en œuvre est relativement peu coûteuse et peu risquée.
 - La **phase 2** comporte des exigences dont la mise en œuvre est plus coûteuse et plus difficile
 
 ## Achat de biens et de services dans le domaine des technologies de l’information et des communications
 
-### Nouvel approvisionnement de TIC
+### Nouvel approvisionnement de <abbr title="technologies de l’information et des communications">TIC</abbr>
 
 <table class="table table-bordered">
   <thead>
@@ -56,15 +57,15 @@ Pour faire en sorte que toutes les nouvelles TIC utilisées au gouvernement féd
   <tbody>
     <tr>
       <td>2.1.1.1</td>
-      <td>Les ministères doivent satisfaire à la dernière version de la <em>Norme européenne harmonisée sur les exigences en matière d’accessibilité applicables aux produits et services liés aux TIC</em> (EN 301 549) au moment d’acheter de nouveaux produits et services liés aux TIC, tout en respectant la <em>Directive sur la gestion de l’approvisionnement</em>. </td>
+      <td>Les ministères doivent satisfaire à la dernière version de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>Norme européenne harmonisée sur les exigences en matière d’accessibilité applicables aux produits et services liés aux <abbr title="technologies de l’information et des communications">TIC</abbr> (EN&nbsp;301&nbsp;549)</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> au moment d’acheter de nouveaux produits et services liés aux <abbr title="technologies de l’information et des communications">TIC</abbr>, tout en respectant la <em>Directive sur la gestion de l’approvisionnement</em>. </td>
       <td>Date d’entrée en vigueur de la Norme + 12 mois</td>
     </tr>
   </tbody>
 </table>
 
-Lorsqu’un ministère conclut un nouveau marché avec un fournisseur, il doit veiller à ce que le produit ou le service qu’il achète soit accessible en satisfaisant aux clauses applicables de la dernière version de la [_Norme européenne harmonisée sur les exigences en matière d’accessibilité applicables aux produits et services liés aux TIC_](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) _(2021)_ (EN 301 549)
+Lorsqu’un ministère conclut un nouveau marché avec un fournisseur, il doit veiller à ce que le produit ou le service qu’il achète soit accessible en satisfaisant aux clauses applicables de la dernière version de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>Norme européenne harmonisée sur les exigences en matière d’accessibilité applicables aux produits et services liés aux <abbr title="technologies de l’information et des communications">TIC</abbr> (EN&nbsp;301&nbsp;549)</em> (PDF 2.3Mo) (disponible seulement en anglais)</a>.
 
-Les responsables techniques et les autorités contractantes qui travaillent au gouvernement du Canada peuvent consulter le [Guide d'approvisionnement en TIC accessibles](https://www.gcpedia.gc.ca/gcwiki/images/3/36/Guide_d%E2%80%99approvisionnement_en_TIC_accessibles_31May2022_FR.docx) pour obtenir de plus amples renseignements et une orientation avant la publication de l’orientation normalisée officielle.
+Les responsables techniques et les autorités contractantes qui travaillent au gouvernement du Canada peuvent consulter le [Guide d'approvisionnement en <abbr title="technologies de l’information et des communications">TIC</abbr> accessibles (Word, 1.51 Mo) <i class="fas fa-external-link-square-alt" aria-hidden="true"></i><span class="wb-inv">Interne</span>](https://www.gcpedia.gc.ca/gcwiki/images/3/36/Guide_d%E2%80%99approvisionnement_en_TIC_accessibles_31May2022_FR.docx) pour obtenir de plus amples renseignements et une orientation avant la publication de l’orientation normalisée officielle.
 
 ## Contenu sur le Web
 
@@ -81,17 +82,17 @@ Les responsables techniques et les autorités contractantes qui travaillent au g
   <tbody>
     <tr>
       <td>2.1.2.1</td>
-      <td>Tout le nouveau contenu sur le Web doit se conformer à la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">norme EN 301 549<a> et inclure un énoncé sur l’accessibilité.</td>
+      <td>Tout le nouveau contenu sur le Web doit se conformer à la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> et inclure un énoncé sur l’accessibilité.</td>
       <td>Date d’entrée en vigueur de la Norme + 12 mois</td>
     </tr>
   </tbody>
 </table>
 
-Après la publication de la phase 1 de la Norme, tout le nouveau contenu sur le Web (sites Web publics **et** internes) devra être accessible et satisfaire aux clauses de la norme EN 301 549.
+Après la publication de la phase 1 de la Norme, tout le nouveau contenu sur le Web (sites Web publics **et** internes) devra être accessible et satisfaire aux clauses de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a>.
 
 Les ministères devront inclure un énoncé sur l’accessibilité avec tout le nouveau contenu sur le Web. Cet énoncé met en évidence des renseignements importants sur l’accessibilité du contenu. Par exemple&nbsp;:
 
-- le niveau d’accessibilité du site Web (selon les critères d’évaluation de la norme EN 301 549 et des Règles pour l’accessibilité des contenus Web [WCAG] 2,1);
+- le niveau d’accessibilité du site Web (selon les critères d’évaluation de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> et des Règles pour l’accessibilité des contenus Web [WCAG 2.1](https://www.w3.org/Translations/WCAG21-fr/);
 - toute partie du site qui n’est pas accessible;
 - les mesures prises par votre organisation pour garantir l’accessibilité du site;
 - les coordonnées auxquelles les utilisateurs peuvent signaler les problèmes d’accessibilité.
@@ -111,7 +112,7 @@ De plus amples renseignements sur les énoncés sur l’accessibilité seront fo
   <tbody>
     <tr>
       <td>2.1.2.2</td>
-      <td>Les essais de conformité en matière d’accessibilité par rapport à la norme EN 301 549 doivent être réalisés pour tout le contenu Web existant utilisé par le ministère qui est destiné au public.</td>
+      <td>Les essais de conformité en matière d’accessibilité par rapport à la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> doivent être réalisés pour tout le contenu Web existant utilisé par le ministère qui est destiné au public.</td>
       <td>Date d’entrée en vigueur de la Norme + 12 mois</td>
     </tr>
   </tbody>
@@ -132,13 +133,13 @@ Avant que les ministères puissent se conformer aux exigences énoncées dans la
   <tbody>
     <tr>
       <td>2.1.2.3</td>
-      <td>Tout le contenu Web existant destiné au public doit être conforme à la norme EN 301 549 et inclure un énoncé sur l’accessibilité et un mécanisme de rétroaction des utilisateurs sur la page Web.</td>
+      <td>Tout le contenu Web existant destiné au public doit être conforme à la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> et inclure un énoncé sur l’accessibilité et un mécanisme de rétroaction des utilisateurs sur la page Web.</td>
       <td>Date d’entrée en vigueur de la Norme + 24 mois</td>
     </tr>
   </tbody>
 </table>
 
-Tout le contenu Web existant destiné au public devra satisfaire aux clauses applicables de la norme EN 301 549 24 mois après la date d’entrée en vigueur de la Norme.
+Tout le contenu Web existant destiné au public devra satisfaire aux clauses applicables de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> 24 mois après la date d’entrée en vigueur de la Norme.
 
 Le contenu Web destiné au public comprend le contenu du site canada.ca et le contenu des sites Web ministériels.
 
@@ -157,7 +158,7 @@ Les ministères devront prévoir un mécanisme permettant aux utilisateurs de fo
   <tbody>
     <tr>
       <td>2.1.2.4</td>
-      <td>Les essais de conformité en matière d’accessibilité par rapport à la norme <em>EN 301 549</em> doivent être réalisés pour tout le contenu Web existant utilisé par le ministère qui est destiné à un public interne.</td>
+      <td>Les essais de conformité en matière d’accessibilité par rapport à la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> doivent être réalisés pour tout le contenu Web existant utilisé par le ministère qui est destiné à un public interne.</td>
       <td>Date d’entrée en vigueur de la Norme + 24 mois</td>
     </tr>
   </tbody>
@@ -203,17 +204,17 @@ Lorsqu’un membre du public ou un employé du gouvernement du Canada demande un
   <tbody>
     <tr>
       <td>2.1.4.1</td>
-      <td>Tous les nouveaux logiciels organisationnels et ministériels doivent se conformer à la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">norme EN 301 549<a> et inclure un énoncé sur l’accessibilité.</td>
+      <td>Tous les nouveaux logiciels organisationnels et ministériels doivent se conformer à la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> et inclure un énoncé sur l’accessibilité.</td>
       <td>Date d’entrée en vigueur de la Norme + 12 mois</td>
     </tr>
   </tbody>
 </table>
 
-À la suite de la publication de la Norme d’accessibilité des TIC (phase 1), tous les nouveaux logiciels organisationnels et ministériels devront satisfaire aux clauses de la norme EN 301 549.
+À la suite de la publication de la Norme d’accessibilité des <abbr title="technologies de l’information et des communications">TIC</abbr> (phase 1), tous les nouveaux logiciels organisationnels et ministériels devront satisfaire aux clauses de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a>.
 
 Les ministères devront inclure un énoncé sur l’accessibilité avec tous les nouveaux logiciels organisationnels et ministériels. Cet énoncé met en évidence des renseignements importants sur l’accessibilité du logiciel utilisé. Par exemple&nbsp;:
 
-- le niveau d’accessibilité de l’application logicielle (selon les critères d’évaluation de la norme EN 301 549 ou des WCAG 2.1);
+- le niveau d’accessibilité de l’application logicielle (selon les critères d’évaluation de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> ou des [WCAG 2.1](https://www.w3.org/Translations/WCAG21-fr/));
 - toute partie du logiciel qui n’est pas accessible;
 - les mesures prises par votre organisation pour garantir l’accessibilité du logiciel;
 - les coordonnées auxquelles les utilisateurs peuvent signaler les problèmes d’accessibilité.
@@ -260,17 +261,17 @@ Une application mobile native (appli) est une appli qui est installée localemen
   <tbody>
     <tr>
       <td>2.1.5.1</td>
-      <td>Toutes les nouvelles applications mobiles natives doivent se conformer à la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">norme EN 301 549<a> et inclure un énoncé sur l’accessibilité.</td>
+      <td>Toutes les nouvelles applications mobiles natives doivent se conformer à la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> et inclure un énoncé sur l’accessibilité.</td>
       <td>Date d’entrée en vigueur de la Norme + 12 mois</td>
     </tr>
   </tbody>
 </table>
 
-Après l’entrée en vigueur de la phase 1 de la Norme, toutes les nouvelles applications mobiles natives devront satisfaire aux clauses applicables de la norme EN 301 549.
+Après l’entrée en vigueur de la phase 1 de la Norme, toutes les nouvelles applications mobiles natives devront satisfaire aux clauses applicables de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a>.
 
 Les ministères devront inclure un énoncé sur l’accessibilité avec toutes les nouvelles applications mobiles natives. Cet énoncé met en évidence des renseignements importants sur l’accessibilité de l’application mobile. Par exemple&nbsp;:
 
-- le niveau d’accessibilité de l’application mobile selon les critères d’évaluation de la norme EN 301 549 ou des WCAG 2.1);
+- le niveau d’accessibilité de l’application mobile selon les critères d’évaluation de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> ou des [WCAG 2.1](https://www.w3.org/Translations/WCAG21-fr/));
 - toute partie de l’application mobile qui n’est pas accessible;
 - les mesures prises par votre organisation pour garantir l’accessibilité de l’application mobile;
 - les coordonnées auxquelles les utilisateurs peuvent signaler les problèmes d’accessibilité.
@@ -290,7 +291,7 @@ De plus amples renseignements sur les énoncés sur l’accessibilité seront fo
   <tbody>
     <tr>
       <td>2.1.5.2</td>
-      <td>Les essais de conformité en matière d’accessibilité par rapport à la dernière version de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">norme EN 301 549<a> doivent être réalisés pour toutes les applications mobiles natives existantes utilisées par le ministère.</td>
+      <td>Les essais de conformité en matière d’accessibilité par rapport à la dernière version de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>norme EN&nbsp;301&nbsp;549</em> (PDF 2.3Mo) (disponible seulement en anglais)</a> doivent être réalisés pour toutes les applications mobiles natives existantes utilisées par le ministère.</td>
       <td>Date d’entrée en vigueur de la Norme + 24 mois</td>
     </tr>
   </tbody>
@@ -319,7 +320,7 @@ Avant que les ministères puissent se conformer aux exigences énoncées dans la
   </tbody>
 </table>
 
-Le matériel comprend les claviers, les souris d’ordinateur et les TIC fixes. Toute fonction qui améliore l’accessibilité (c.-à-d. le texte-parole, le sous-titrage, les raccourcis clavier, etc.) sur tout le nouveau matériel devra être mise à la disposition de tous les utilisateurs dès le départ.
+Le matériel comprend les claviers, les souris d’ordinateur et les <abbr title="technologies de l’information et des communications">TIC</abbr> fixes. Toute fonction qui améliore l’accessibilité (c.-à-d. le texte-parole, le sous-titrage, les raccourcis clavier, etc.) sur tout le nouveau matériel devra être mise à la disposition de tous les utilisateurs dès le départ.
 
 Au moment de mettre en œuvre les fonctions d’accessibilité intégrées, conformément à la sous-section B.2.6 des [Procédures obligatoires relatives aux mesures de sécurité de la technologie de l’information](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32611), les administrateurs généraux doivent « [m]ettre en œuvre des processus d’évaluation et d’autorisation liés à la sécurité de la TI afin d’établir et de maintenir la confiance envers la sécurité des systèmes d’information que le ministère utilise ou gère, tout en tenant compte des exigences des intervenants en matière de sécurité ».
 
@@ -336,17 +337,17 @@ Au moment de mettre en œuvre les fonctions d’accessibilité intégrées, conf
   <tbody>
     <tr>
       <td>2.1.7.1</td>
-      <td>Les ministères doivent fournir des mécanismes permettant aux utilisateurs de donner leur rétroaction sur l’accessibilité des TIC.</td>
+      <td>Les ministères doivent fournir des mécanismes permettant aux utilisateurs de donner leur rétroaction sur l’accessibilité des <abbr title="technologies de l’information et des communications">TIC</abbr>.</td>
       <td>Date d’entrée en vigueur de la Norme</td>
     </tr>
   </tbody>
 </table>
 
-Quelle que soit la TIC utilisée, les utilisateurs auront besoin d’un mécanisme pour fournir une rétroaction au ministère sur les questions liées à l’accessibilité. Pour ce faire, les ministères intègrent un formulaire de rétroaction des utilisateurs à leurs TIC.
+Quelle que soit la <abbr title="technologies de l’information et des communications">TIC</abbr> utilisée, les utilisateurs auront besoin d’un mécanisme pour fournir une rétroaction au ministère sur les questions liées à l’accessibilité. Pour ce faire, les ministères intègrent un formulaire de rétroaction des utilisateurs à leurs <abbr title="technologies de l’information et des communications">TIC</abbr>.
 
 ## Capacité et aptitudes de l’effectif
 
-### Formation et outils pour des TIC accessibles
+### Formation et outils pour des <abbr title="technologies de l’information et des communications">TIC</abbr> accessibles
 
 <table class="table table-bordered">
   <thead>
@@ -359,13 +360,13 @@ Quelle que soit la TIC utilisée, les utilisateurs auront besoin d’un mécanis
   <tbody>
     <tr>
       <td>2.1.8.1</td>
-      <td>Une formation et des outils permettant d’intégrer l’accessibilité aux TIC dès le départ doivent être mis à la disposition des fonctionnaires.</td>
+      <td>Une formation et des outils permettant d’intégrer l’accessibilité aux <abbr title="technologies de l’information et des communications">TIC</abbr> dès le départ doivent être mis à la disposition des fonctionnaires.</td>
       <td>Date d’entrée en vigueur de la Norme + 12 mois</td>
     </tr>
   </tbody>
 </table>
 
-Les ministères devront veiller à ce que l’accessibilité soit intégrée à la conception et à la prestation de la formation, et ce, afin que tous les outils et tout le matériel de formation soient à la disposition de toutes les collectivités fonctionnelles. La mise au point de la formation et des outils nécessaires à l’accessibilité des TIC pour les employés du GC permettra d’éviter de créer de nouveaux obstacles aux TIC.
+Les ministères devront veiller à ce que l’accessibilité soit intégrée à la conception et à la prestation de la formation, et ce, afin que tous les outils et tout le matériel de formation soient à la disposition de toutes les collectivités fonctionnelles. La mise au point de la formation et des outils nécessaires à l’accessibilité des <abbr title="technologies de l’information et des communications">TIC</abbr> pour les employés du GC permettra d’éviter de créer de nouveaux obstacles aux <abbr title="technologies de l’information et des communications">TIC</abbr>.
 
 ### Apprentissage pour tous les employés
 
@@ -380,7 +381,7 @@ Les ministères devront veiller à ce que l’accessibilité soit intégrée à 
   <tbody>
     <tr>
       <td>2.1.8.2</td>
-      <td>Les ministères doivent offrir à tous les employés, y compris les cadres, des possibilités d’apprentissage sur les lois, les politiques et les responsabilités en matière d’accessibilité en vue de créer des TIC accessibles.</td>
+      <td>Les ministères doivent offrir à tous les employés, y compris les cadres, des possibilités d’apprentissage sur les lois, les politiques et les responsabilités en matière d’accessibilité en vue de créer des <abbr title="technologies de l’information et des communications">TIC</abbr> accessibles.</td>
       <td>Date d’entrée en vigueur de la Norme + 12 mois</td>
     </tr>
   </tbody>
@@ -405,13 +406,13 @@ Cette exigence s’harmonise également avec l’exigence de la _Politique sur l
   <tbody>
     <tr>
       <td>2.1.8.3</td>
-      <td>Les ministères doivent offrir aux employés qui achètent, mettent au point ou mettent en œuvre des TIC des possibilités d’apprentissage sur les exigences en matière d’accessibilité. </td>
+      <td>Les ministères doivent offrir aux employés qui achètent, mettent au point ou mettent en œuvre des <abbr title="technologies de l’information et des communications">TIC</abbr> des possibilités d’apprentissage sur les exigences en matière d’accessibilité. </td>
       <td>Date d’entrée en vigueur de la Norme + 12 mois</td>
     </tr>
   </tbody>
 </table>
 
-Les ministères doivent veiller à ce que des possibilités d’apprentissage soient offertes aux employés qui travaillent dans le domaine des TIC. L’apprentissage peut porter sur des sujets tels que l’approvisionnement accessible, la conception de sites Web accessibles, la planification et l’établissement de rapports sur le rendement par rapport à la présente Norme.
+Les ministères doivent veiller à ce que des possibilités d’apprentissage soient offertes aux employés qui travaillent dans le domaine des <abbr title="technologies de l’information et des communications">TIC</abbr>. L’apprentissage peut porter sur des sujets tels que l’approvisionnement accessible, la conception de sites Web accessibles, la planification et l’établissement de rapports sur le rendement par rapport à la présente Norme.
 
 Cette exigence s’harmonise également avec l’exigence de la _Politique sur les services et le numérique_ selon laquelle les ministères doivent offrir des activités internes, étant donné qu’elle exige que ces possibilités d’apprentissage soient offertes à tous les employés.
 
@@ -451,14 +452,14 @@ Conformément à la [_Politique sur les services et le numérique_](https://www.
   <tbody>
     <tr>
       <td>2.1.9.2</td>
-      <td>Les ministères doivent rendre compte de l’état d’avancement de la mise en œuvre de l’accessibilité des TIC au sein de leur ministère, conformément à l’orientation et aux outils de mesure de l’accessibilité. Ces rapports seront inclus dans leurs plans d’accessibilité et dans leurs rapports d’étape en vertu de la <em>Loi canadienne sur l’accessibilité</em>.</td>
+      <td>Les ministères doivent rendre compte de l’état d’avancement de la mise en œuvre de l’accessibilité des <abbr title="technologies de l’information et des communications">TIC</abbr> au sein de leur ministère, conformément à l’orientation et aux outils de mesure de l’accessibilité. Ces rapports seront inclus dans leurs plans d’accessibilité et dans leurs rapports d’étape en vertu de la <em>Loi canadienne sur l’accessibilité</em>.</td>
       <td>Date d’entrée en vigueur de la Norme</td>
     </tr>
   </tbody>
 </table>
 
-En vertu de la _Loi canadienne sur l’accessibilité_, les ministères doivent publier un rapport sur leurs progrès en vue de réaliser les priorités énoncées dans leur plan d’accessibilité ministériel. Pour rédiger ce rapport, les ministères utiliseront le tableau de bord de la mesure de l’accessibilité des TIC et le modèle de maturité.
+En vertu de la _Loi canadienne sur l’accessibilité_, les ministères doivent publier un rapport sur leurs progrès en vue de réaliser les priorités énoncées dans leur plan d’accessibilité ministériel. Pour rédiger ce rapport, les ministères utiliseront le tableau de bord de la mesure de l’accessibilité des <abbr title="technologies de l’information et des communications">TIC</abbr> et le modèle de maturité.
 
 ## Exceptions
 
-Les ministères pourront demander une exception aux exigences de la présente Norme dans certaines circonstances bien définies. Les ministères qui se verront accorder une exception devront tout de même fournir une feuille de route expliquant en détail de quelle façon le produit de TIC ou encore le bien ou service acheté sera conforme à la présente Norme.
+Les ministères pourront demander une exception aux exigences de la présente Norme dans certaines circonstances bien définies. Les ministères qui se verront accorder une exception devront tout de même fournir une feuille de route expliquant en détail de quelle façon le produit de <abbr title="technologies de l’information et des communications">TIC</abbr> ou encore le bien ou service acheté sera conforme à la présente Norme.
