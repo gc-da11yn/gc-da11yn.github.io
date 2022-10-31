@@ -41,6 +41,8 @@ Pour favoriser un processus d'engagement participatif, certains intervenants ser
 - à consulter le [document d'information](./backgrounder), qui donne une description de chaque exigence;
 - à envoyer leur rétroaction confidentielle et anonyme en remplissant [notre formulaire d'envoi de rétroaction](https://forms.office.com/Pages/ResponsePage.aspx?id=EN-XY5VFR0CcTwMxEoIVK5_R18YD5b5JpOR8T_7y9oxUOUlVWVY5TVlBUDlJU0VPRlNLV0ZINlhDSCQlQCN0PWcu).
 
+**Lorsque vous cliquez sur le lien, cliquer sur « Français » dans le coin supérieur droit de la page Web pour accéder à la version française du formulaire.**
+
 En cas de difficultés techniques, les intervenants pourront communiquer avec nous en utilisant notre boîte aux lettres générique : [DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca](mailto:DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca)
 
 ## Dates importantes
