@@ -1,15 +1,12 @@
 ---
-title: "Document d’information sur les exigences de la phase 1 de la <em>Norme d’accessibilité des technologies de l’information et des communications</em>"
+title: "Document d’information sur les exigences de la première phase de la <em>Norme d’accessibilité des technologies de l’information et des communications</em>"
 layout: layouts/base.njk
-description: "<p>Le présent document donne un aperçu des exigences que nous prévoyons d’inclure dans la phase 1 de la <em>Norme d’accessibilité des technologies de l’information et des communications (<abbr>TIC</abbr>)</em>.</p>
+description: "<p>Le présent document donne un aperçu des exigences que nous prévoyons inclure dans la première phase de la <em>Norme d’accessibilité des technologies de l’information et des communications (<abbr>TIC</abbr>)</em></p>
 <p>Il fournit des renseignements généraux, des explications sur chaque exigence et certaines ressources accessibles au public.</p>"
 internalLinks: true
 ---
 
-
 **NOTA**: Il est important de prendre note que les renseignements contenus dans le présent document sont fournis à titre de référence seulement et **ne doivent pas être interprétés comme étant une orientation normalisée officielle**. Une orientation normalisée officielle sera publiée à une date ultérieure et fournira des renseignements détaillés sur la façon dont les ministères peuvent satisfaire à chaque exigence de la Norme.
-
-**Octobre 2022**
 
 ## Contexte
 

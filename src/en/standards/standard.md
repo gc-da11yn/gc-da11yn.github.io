@@ -56,12 +56,12 @@ Last updated: October 18, 2022
         <ol class="a11y-standards-list">
           <li><strong><span>2.3.1</span> Procurement of <abbr title="Information and Communication Technology Accessibility">ICT</abbr> goods and services</strong>
             <ol class="a11y-standards-list">
-              <li><span id="2.3.1.1">2.3.1.1</span> Departments must meet the latest version of the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><em>Homronised European Standard on Accessibility requirements for <abbr title="Information and Communication Technology Accessibility">ICT</abbr> products and services</em></a> (EN 301 549) accessibility requirements when procuring new <abbr title="Information and Communication Technology Accessibility">ICT</abbr> products and services, while adhering to the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"><em>Directive on the Management of Procurement</em>;</a></li>
+              <li><span id="2.3.1.1">2.3.1.1</span> Departments must meet the latest version of the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><em>Harmonised European Standard on Accessibility requirements for <abbr title="Information and Communication Technology Accessibility">ICT</abbr> products and services</em></a> (EN 301 549) accessibility requirements when procuring new <abbr title="Information and Communication Technology Accessibility">ICT</abbr> products and services, while adhering to the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"><em>Directive on the Management of Procurement</em>;</a></li>
             </ol>
           </li>
           <li><strong><span>2.3.2</span> Web content</strong>
             <ol class="a11y-standards-list">
-              <li><span id="2.3.2.1">2.3.2.1</span> All new web content must conform with the latest version of <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><a download="download" href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><em>EN&nbsp;301&nbsp;549</em> (PDF, 2.3MB)</a></a> and include an accessibility statement;</li>
+              <li><span id="2.3.2.1">2.3.2.1</span> All new web content must conform with the latest version of <a download="download" href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><em>EN&nbsp;301&nbsp;549</em> (PDF, 2.3MB)</a> and include an accessibility statement;</li>
               <li><span id="2.3.2.2">2.3.2.2</span> Accessibility conformance testing against the latest version of <em><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a></em> standard must be conducted for all existing public-facing web content used by the department;</li>
               <li><span id="2.3.2.3">2.3.2.3</span> All existing public-facing web pages must feature an accessibility statement and a user feedback mechanism;</li>
               <li><span id="2.3.2.4">2.3.2.4</span> Accessibility conformance testing against the latest version of <em><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a></em> standard must be conducted for all existing internal-facing web content used by the department.</li>
@@ -73,13 +73,13 @@ Last updated: October 18, 2022
           </li>
           <li><strong><span>2.3.4</span> Enterprise and departmental software</strong>
             <ol class="a11y-standards-list">
-              <li><span id="2.3.4.1">2.3.4.1</span> All new enterprise and departmental software must conform with the latest version of <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><a download="download" href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><em>EN&nbsp;301&nbsp;549</em> (PDF, 2.3MB)</a></a> and include an accessibility statement;</li>
+              <li><span id="2.3.4.1">2.3.4.1</span> All new enterprise and departmental software must conform with the latest version of <a download="download" href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><em>EN&nbsp;301&nbsp;549</em> (PDF, 2.3MB)</a> and include an accessibility statement;</li>
               <li><span id="2.3.4.2">2.3.4.2</span> All accessibility features built into all new applications must be configured to keep these features active when implemented in a department and must be available to users by default, while respecting security requirements in the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32611"><em>Directive on Security Management</em></a>;</li>
             </ol>
           </li>
           <li><strong><span>2.3.5</span> Native mobile applications (apps)</strong>
             <ol class="a11y-standards-list">
-              <li><span id="2.3.5.1">2.3.5.1</span> All new native mobile applications must conform with the latest version of <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><a download="download" href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><em>EN&nbsp;301&nbsp;549</em> (PDF, 2.3MB)</a></a> and include an accessibility statement;</li>
+              <li><span id="2.3.5.1">2.3.5.1</span> All new native mobile applications must conform with the latest version of <a download="download" href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"><em>EN&nbsp;301&nbsp;549</em> (PDF, 2.3MB)</a> and include an accessibility statement;</li>
               <li><span id="2.3.5.2">2.3.5.2</span> Accessibility conformance testing against the latest version of <em><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a></em> standard must be conducted for all existing native mobile applications used by the department;</li>
             </ol>
           </li>

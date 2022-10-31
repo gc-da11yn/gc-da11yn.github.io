@@ -1,14 +1,12 @@
 ---
 title: "<em>Standard on Information and Communication Technology Accessibility (<abbr>ICT</abbr>)</em> Phase One Requirements Backgrounder"
 layout: layouts/base.njk
-description: "<p>This document provides an overview of the requirements we plan to include in phase 1 of the <em><a href='../standard'>Standard on Information and Communication Technology Accessibility (<abbr>ICT</abbr>)</a></em>.</p>
+description: "<p>This document provides an overview of the requirements we plan to include in phase one of the <em><a href='../standard'>Standard on Information and Communication Technology Accessibility (<abbr>ICT</abbr>)</a></em>.</p>
 <p>It provides background information, explanations of each requirement and some publicly available resources.</p>"
 internalLinks: true
 ---
 
 **NOTE:** It is important to note the information in this document is for reference purposes only and **must not be interpreted as being official standard guidance**. Official standard guidance will be published at a later date and will provide detailed information on how departments can satisfy each standard requirement.
-
-**October 2022**
 
 ## Context
 
