@@ -3,7 +3,6 @@ title: "Document d’information sur les exigences de la première phase de la <
 layout: layouts/base.njk
 description: "<p>Le présent document donne un aperçu des exigences que nous prévoyons inclure dans la première phase de la <em>Norme d’accessibilité des technologies de l’information et des communications (<abbr>TIC</abbr>)</em></p>
 <p>Il fournit des renseignements généraux, des explications sur chaque exigence et certaines ressources accessibles au public.</p>"
-internalLinks: true
 ---
 
 **NOTA**: Il est important de prendre note que les renseignements contenus dans le présent document sont fournis à titre de référence seulement et **ne doivent pas être interprétés comme étant une orientation normalisée officielle**. Une orientation normalisée officielle sera publiée à une date ultérieure et fournira des renseignements détaillés sur la façon dont les ministères peuvent satisfaire à chaque exigence de la Norme.
@@ -62,7 +61,7 @@ Pour faire en sorte que toutes les nouvelles <abbr title="technologies de l’in
 
 Lorsqu’un ministère conclut un nouveau marché avec un fournisseur, il doit veiller à ce que le produit ou le service qu’il achète soit accessible en satisfaisant aux clauses applicables de la dernière version de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>Norme européenne harmonisée sur les exigences en matière d’accessibilité applicables aux produits et services liés aux <abbr title="technologies de l’information et des communications">TIC</abbr> (EN&nbsp;301&nbsp;549)</em> (PDF 2.3Mo) (disponible seulement en anglais)</a>.
 
-Les responsables techniques et les autorités contractantes qui travaillent au gouvernement du Canada peuvent consulter le [Guide d'approvisionnement en <abbr title="technologies de l’information et des communications">TIC</abbr> accessibles (Word, 1.51 Mo) <i class="fas fa-external-link-square-alt" aria-hidden="true"></i><span class="wb-inv">Interne</span>](https://www.gcpedia.gc.ca/gcwiki/images/3/36/Guide_d%E2%80%99approvisionnement_en_TIC_accessibles_31May2022_FR.docx) pour obtenir de plus amples renseignements et une orientation avant la publication de l’orientation normalisée officielle.
+Les responsables techniques et les autorités contractantes qui travaillent au gouvernement du Canada peuvent consulter le Guide d'approvisionnement en <abbr title="technologies de l’information et des communications">TIC</abbr> accessibles pour obtenir de plus amples renseignements et une orientation avant la publication de l’orientation normalisée officielle.
 
 ## Contenu sur le Web
 
