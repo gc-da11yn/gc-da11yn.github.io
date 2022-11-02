@@ -39,6 +39,7 @@
     "sass": "^1.32.12"
   },
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "path": "^0.12.7"
   }
 }
