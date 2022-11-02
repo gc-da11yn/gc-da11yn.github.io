@@ -3,7 +3,6 @@ title: "<em>Standard on Information and Communication Technology Accessibility (
 layout: layouts/base.njk
 description: "<p>This document provides an overview of the requirements we plan to include in phase one of the <em><a href='../standard'>Standard on Information and Communication Technology Accessibility (<abbr>ICT</abbr>)</a></em>.</p>
 <p>It provides background information, explanations of each requirement and some publicly available resources.</p>"
-internalLinks: true
 ---
 
 **NOTE:** It is important to note the information in this document is for reference purposes only and **must not be interpreted as being official standard guidance**. Official standard guidance will be published at a later date and will provide detailed information on how departments can satisfy each standard requirement.
@@ -61,7 +60,7 @@ To make sure all new <abbr title="Information and Communication Technology Acces
 </table>
 
 When a department enters a new contract with a vendor, it will need to make sure the product or service it is procuring is accessible by satisfying the applicable clauses in the latest version of the _[Harmonised European Standard on Accessibility Requirements for <abbr title="Information and Communication Technology Accessibility">ICT</abbr> Products and Services](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) (2021) (EN 301 549)_.
-Technical authorities and contracting authorities who work in the Government of Canada can consult Shared Services Canada’s <a download="download" href="https://www.gcpedia.gc.ca/gcwiki/images/e/e4/AccessibleICTProcurementGuide_31May2022_EN.docx">Accessible <abbr title="Information and Communication Technology Accessibility">ICT</abbr> Procurement Guide (Word, 1.21MB)<i class="fas fa-external-link-square-alt" aria-hidden="true"></i><span class="wb-inv">Internal</span></a> for more information and guidance prior to the publication of official standard guidance.
+Technical authorities and contracting authorities who work in the Government of Canada can consult Shared Services Canada’s Accessible <abbr title="Information and Communication Technology Accessibility">ICT</abbr> Procurement Guide for more information and guidance prior to the publication of official standard guidance.
 
 ## Web content
 
