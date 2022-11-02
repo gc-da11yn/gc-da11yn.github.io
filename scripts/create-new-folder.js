@@ -41,7 +41,7 @@ try {
 
 fs.writeFile("." + path.sep + "en" + path.sep + folderName + path.sep  + "index.html" , htmlContentEN, function(err, result) {
     if(err) console.log('error', err);});
-fs.writeFile("." + path.sep + "en" + path.sep + folderName + `\\${folderName}.json`, jsonContentEN, function(err, result) {
+fs.writeFile("." + path.sep + "en" + path.sep + folderName + path.sep + `${folderName}.json`, jsonContentEN, function(err, result) {
     if(err) console.log('error', err);});
 
 
