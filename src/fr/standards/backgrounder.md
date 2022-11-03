@@ -61,7 +61,7 @@ Pour faire en sorte que toutes les nouvelles <abbr title="technologies de l’in
 
 Lorsqu’un ministère conclut un nouveau marché avec un fournisseur, il doit veiller à ce que le produit ou le service qu’il achète soit accessible en satisfaisant aux clauses applicables de la dernière version de la <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en" download="download"><em>Norme européenne harmonisée sur les exigences en matière d’accessibilité applicables aux produits et services liés aux <abbr title="technologies de l’information et des communications">TIC</abbr> (EN&nbsp;301&nbsp;549)</em> (PDF 2.3Mo) (disponible seulement en anglais)</a>.
 
-Les responsables techniques et les autorités contractantes qui travaillent au gouvernement du Canada peuvent consulter le Guide d'approvisionnement en <abbr title="technologies de l’information et des communications">TIC</abbr> accessibles pour obtenir de plus amples renseignements et une orientation avant la publication de l’orientation normalisée officielle.
+Les autorités techniques et contractuelles qui travaillent avec le gouvernement du Canada peuvent consulter à l’Équipe de tri en matière d’accessibilité [att-eta@ssc-spc.gc.ca](mailto:att-eta@ssc-spc.gc.ca) pour obtenir de plus amples renseignements et des directives avant la publication de l’orientation officielle de la norme.
 
 ## Contenu sur le Web
 
