@@ -4,6 +4,8 @@ layout: layouts/base.njk
 description: "The Digital Policy Division at the Treasury Board of Canada Secretariat is seeking targeted input on Phase One of the <a href='./standard'><em>Standard on Information and Communications Technology (<abbr title='Information and Communication Technology'>ICT</abbr>) Accessibility</em></a>. This webpage is where you can provide feedback to help make the Government of Canada’s <abbr title='Information and Communication Technology'>ICT</abbr> usable by all."
 ---
 
+{% include "partials/standard-alert.njk" %}
+
 Feedback will be accepted until **<time datetime="2022-11-30">November 30th, 2022</time>**.
 
 ## What is <abbr title="Information and Communication Technology">ICT</abbr>?
@@ -32,16 +34,6 @@ The Government of Canada’s [_Standard on <abbr title="Information and Communic
 We are harmonizing with the _Harmonised European Standard_ to provide a framework to update accessibility requirements over time. This harmonization will help Canada become a global leader in <abbr title="Information and Communication Technology">ICT</abbr> accessibility and will enable the Canadian federal public service to identify, remove and prevent accessibility barriers to new, existing and future <abbr title="Information and Communication Technology">ICT</abbr>.
 
 Phase One of the Standard will focus on foundational elements of <abbr title="Information and Communication Technology">ICT</abbr> accessibility, including requirements for new <abbr title="Information and Communication Technology">ICT</abbr>, most assessments, training, performance and reporting and user feedback.
-
-## How to get involved?
-
-To foster a participative engagement process, select stakeholders will be invited to:
-
-- Review the _[Standard on Information and Communication Technologies (<abbr title="Information and Communication Technology">ICT</abbr>) Accessibility](./standard)_ in full, the proposed accessibility requirements and the associated implementation timelines
-- Consult the [background document](./backgrounder) with a description of each requirement
-- Submit your confidential and anonymous feedback by completing our [feedback submission form](https://forms.office.com/Pages/ResponsePage.aspx?id=EN-XY5VFR0CcTwMxEoIVK5_R18YD5b5JpOR8T_7y9oxUOUlVWVY5TVlBUDlJU0VPRlNLV0ZINlhDSCQlQCN0PWcu)
-
-In the event of technical difficulties, stakeholders will be able to contact us through our generic mailbox: <DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca>
 
   ## Important dates
 
