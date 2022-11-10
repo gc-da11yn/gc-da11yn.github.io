@@ -3,6 +3,9 @@ title: "Séance de mobilisation ciblée : L’ébauche de la <em>Norme d’acces
 layout: layouts/base.njk
 description: "La Division de la politique numérique du Secrétariat du Conseil du Trésor souhaite obtenir des renseignements ciblés sur la première phase de la <a href='./standard'><em>Norme d’accessibilité des technologies de l’information et des communications (<abbr title='technologies de l’information et des communications'>TIC</abbr>)</em></a>. Ce site Web est l’endroit où vous pouvez fournir une rétroaction pour aider à rendre les <abbr title='technologies de l’information et des communications'>TIC</abbr> du gouvernement du Canada utilisables par tous."
 ---
+
+{% include "partials/standard-alert.njk" %}
+
 La rétroaction sera acceptée jusqu'au **30 novembre 2022**.
 
 ## Que sont les <abbr title="technologies de l’information et des communications">TIC</abbr>?
@@ -32,18 +35,6 @@ La [_Norme d'accessibilité des <abbr title="technologies de l’information et 
 Nous harmonisons notre [_Norme d'accessibilité des <abbr title="technologies de l’information et des communications">TIC</abbr>_](./standard) avec la _Norme européenne harmonisée_ dans le but de mettre en place un cadre permettant de mettre à jour les exigences en matière d'accessibilité au fil du temps. Cette harmonisation aidera le Canada à devenir un chef de file mondial en matière d'accessibilité des <abbr title="technologies de l’information et des communications">TIC</abbr> et permettra à la fonction publique fédérale canadienne de repérer, d'éliminer et de prévenir les obstacles à l'accessibilité des <abbr title="technologies de l’information et des communications">TIC</abbr> nouvelles, existantes et futures.
 
 La première phase met l'accent sur les éléments fondamentaux de l'accessibilité des <abbr title="technologies de l’information et des communications">TIC</abbr>, y compris les exigences relatives aux nouvelles <abbr title="technologies de l’information et des communications">TIC</abbr>, à la plupart des évaluations, à la formation, au rendement et à la rétroaction des utilisateurs.
-
-## Façons de participer
-
-Pour favoriser un processus d'engagement participatif, certains intervenants seront invités&nbsp;:
-
-- à examiner la [_Norme d'accessibilité des technologies de l'information et des communications (<abbr title="technologies de l’information et des communications">TIC</abbr>)_](./standard) dans son intégralité, les exigences en matière d'accessibilité proposées ainsi que les délais de mise en œuvre associés;
-- à consulter le [document d'information](./backgrounder), qui donne une description de chaque exigence;
-- à envoyer leur rétroaction confidentielle et anonyme en remplissant [notre formulaire d'envoi de rétroaction](https://forms.office.com/Pages/ResponsePage.aspx?id=EN-XY5VFR0CcTwMxEoIVK5_R18YD5b5JpOR8T_7y9oxUOUlVWVY5TVlBUDlJU0VPRlNLV0ZINlhDSCQlQCN0PWcu).
-
-**Lorsque vous cliquez sur le lien, cliquer sur « Français » dans le coin supérieur droit de la page Web pour accéder à la version française du formulaire.**
-
-En cas de difficultés techniques, les intervenants pourront communiquer avec nous en utilisant notre boîte aux lettres générique : [DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca](mailto:DigitalPolicy.PolitiqueNumerique-Consultation@tbs-sct.gc.ca)
 
 ## Dates importantes
 
