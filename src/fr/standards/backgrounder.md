@@ -242,7 +242,7 @@ Au moment de mettre en œuvre les fonctions d’accessibilité intégrées, conf
 
 ## Applications mobiles natives (applis)
 
-Une application mobile native (appli) est une appli qui est installée localement sur un appareil mobile tel qu’un téléphone intelligent ou une tablette. L’appli ArriveCAN est un exemple d’appli mobile native.
+Une application mobile native (appli) est une appli qui est installée localement sur un appareil mobile tel qu’un téléphone intelligent ou une tablette.
 
 ### Nouvelles applis mobiles natives&nbsp;: énoncé sur la conformité et l’accessibilité
 

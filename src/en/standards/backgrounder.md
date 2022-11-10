@@ -249,7 +249,7 @@ When implementing built-in accessibility features, under subsection B.2.6 of the
 
 ## Native mobile applications (apps)
 
-A native mobile application (app) is an app that is installed locally on a mobile device such as a smartphone or a tablet. The ArriveCAN app is an example of a native mobile app.
+A native mobile application (app) is an app that is installed locally on a mobile device such as a smartphone or a tablet.
 
 ### New native mobile apps: compliance and accessibility statement
 
