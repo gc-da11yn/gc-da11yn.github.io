@@ -1,5 +1,6 @@
 module.exports = {
 	buildTime: new Date(),
+	env: process.env.ELEVENTY_ENV,
 	baseUrl: "/",
 	en: {
 	  metaTitle: "Digital Accessibility Toolkit / Sharing space"
@@ -7,4 +8,4 @@ module.exports = {
 	fr: {
 	  metaTitle: "Boîte à outils d'accessibilité numérique / Espace de partage"
 	}
-  };
+};
