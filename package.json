@@ -4,7 +4,7 @@
   "description": "A sharing space for resources created by employees of the Government of Canada (GC) to promote in the open. Following the Treasury Board of Canada Secretariat's Directive on Open Government.",
   "main": ".eleventy.js",
   "scripts": {
-    "newFolder": "node scripts/create-new-folder.js",
+    "new-folder": "node scripts/create-new-folder.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eleventy": "npx eleventy",
     "watch:eleventy": "eleventy --serve",
