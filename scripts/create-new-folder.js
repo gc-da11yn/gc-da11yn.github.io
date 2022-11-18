@@ -11,7 +11,7 @@ const folderName = prompt("What is the name of your new folder?: ");
 const titleEN = prompt("What is the *english* title value of your page?: ");
 const descriptionEN = prompt("What is the *english* description value of your page?: ");
 
-var htmlContentEN = `
+var mdContentEN = `
 ---
 title: ${titleEN}
 layout: layouts/base.njk
@@ -39,7 +39,7 @@ try {
   console.error(err);
 }
 
-fs.writeFile("." + path.sep + "en" + path.sep + folderName + path.sep  + "index.html" , htmlContentEN, function(err, result) {
+fs.writeFile("." + path.sep + "en" + path.sep + folderName + path.sep  + "index.md" , mdContentEN, function(err, result) {
     if(err) console.log('error', err);});
 fs.writeFile("." + path.sep + "en" + path.sep + folderName + path.sep + `${folderName}.json`, jsonContentEN, function(err, result) {
     if(err) console.log('error', err);});
@@ -53,7 +53,7 @@ fs.writeFile("." + path.sep + "en" + path.sep + folderName + path.sep + `${folde
 const titleFR = prompt("What is the *french* title value of your page?: ");
 const descriptionFR = prompt("What is the *french* description value of your page?: ");
 
-var htmlContentFR = `
+var mdContentFR = `
 ---
 title: ${titleFR}
 layout: layouts/base.njk
@@ -81,7 +81,7 @@ try {
     console.error(err);
   }
 
-  fs.writeFile("." + path.sep + "fr" + path.sep + folderName + path.sep + "index.html", htmlContentFR, function(err, result) {
+  fs.writeFile("." + path.sep + "fr" + path.sep + folderName + path.sep + "index.md", mdContentFR, function(err, result) {
     if(err) console.log('error', err);});
 fs.writeFile("." + path.sep + "fr" + path.sep + folderName + path.sep + `${folderName}.json`, jsonContentFR, function(err, result) {
     if(err) console.log('error', err);});
