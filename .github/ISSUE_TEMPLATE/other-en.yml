@@ -1,0 +1,10 @@
+name: Other
+description: Ask a question, leave a comment, seek guidance
+title: "[OTHER] Summary of the purpose"
+labels: [pending triage]
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Describe the purpose of this issue
+      description: Ask your question, leave your comment or seek guidance here. Here you can add screen shots and / or attach documents for changes to content.
