@@ -67,7 +67,7 @@ and then use a different strategy to update your working copy.
 6. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
 
 ## Creating new folders
-To create a new folder for the site in both the EN and FR directories along with a the basic files needed for a page in these folders you can use the new-folder script. 
+To create a new folder for the site in both the EN and FR directories along with the basic files needed for a page in these folders you can use the new-folder script. 
 
 To run the new-folder script by typing `npm run new-folder` into your command line application. 
 
