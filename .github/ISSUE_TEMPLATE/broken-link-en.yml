@@ -1,0 +1,50 @@
+name: Broken link
+description: Broken link found in the content on the site
+title: "[BROKEN LINK] Link text of broken link"
+labels: [pending triage]
+body:
+  - type: input
+    id: old-url
+    attributes:
+      label: What page is the broken link found on? Please supply the URL.
+  - type: input
+    id: link-text
+    attributes:
+      label: Link text of the link
+  - type: input
+    id: new-url
+    attributes:
+      label: New `href` for the link
+  - type: dropdown
+    id: approval-needed
+    attributes:
+      label: Approval needed?
+      multiple: false
+      options:
+        - "No"
+        - "Yes, I need to approve this request before change goes live"
+  - type: input
+    id: approver
+    attributes:
+      label: Yes, please send a request to the following person?
+  - type: checkboxes
+    id: do-the-work
+    attributes:
+      label: "Who shall do the work?"
+      options:
+        - label: I will do it, I want to contribute
+        - label: I am asking for someone else to please do the work
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional information (optional)
+  - type: input
+    id: deadline
+    attributes:
+      label: Timeline
+      description: "Is there a deadline attached to this request? If so, please briefly describe why and provide a date (YYYY-MM-DD)"
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the feature request here. Here you can add screen shots and / or attach documents for changes to content.
