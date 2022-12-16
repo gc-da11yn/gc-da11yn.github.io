@@ -142,7 +142,7 @@ This is an example of the table as it is in the Word document.
                 <p><a href="https://www.youtube.com/channel/UCdW_0pPNiiPLaLM90_20org">EN 301 549 Video Series</a></p>
             </td>
             <td>Stylistic rewording</td>
-            <td>Chapters 9, 10, 11 apply <u><a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/"><strong>WCAG 2.1</strong> Level A and Level AA</a></u> Success Criteria to Web content (Chapter 9), Documents (Chapter 10), and Non-Web Software (Chapter 11).</td>
+            <td>Chapters 9, 10, 11 apply <u><a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/"><mark>WCAG 2.1</mark> Level A and Level AA</a></u> Success Criteria to Web content (Chapter 9), Documents (Chapter 10), and Non-Web Software (Chapter 11).</td>
             <td>Functional change</td>
             <td>Chapters 9, 10, 11 apply <a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/">WCAG 2.1 Level A and Level AA</a> Success Criteria to Web content (Chapter 9), Documents (Chapter 10), and Non-Web Software (Chapter 11).</td>
             <td>&nbsp;</td>
@@ -156,15 +156,15 @@ This is an example of the table as it is in the Word document.
 <table class="wb-tables table table-striped">
     <thead>
         <tr>
-            <th><strong>Revised Section 508</strong></th>
-            <th><strong>EN 301 549 V1.1.1 (2014)</strong></th>
-            <th><strong>508 to 2014</strong></th>
-            <th><strong>EN 301 549 V2.1.2 (2018)</strong></th>
-            <th><strong>2014 to 2018</strong></th>
-            <th><strong>EN 301 549 V3.1.1 (2019)</strong></th>
-            <th><strong>2018 to 2019</strong></th>
-            <th><strong>EN 301 549 V3.2.1 (2021)</strong></th>
-            <th><strong>2019 to 2021</strong></th>
+            <th>Revised Section 508</th>
+            <th>EN 301 549 V1.1.1 (2014)</th>
+            <th>508 to 2014</th>
+            <th>EN 301 549 V2.1.2 (2018)</th>
+            <th>2014 to 2018</th>
+            <th>EN 301 549 V3.1.1 (2019)</th>
+            <th>2018 to 2019</th>
+            <th>EN 301 549 V3.2.1 (2021)</th>
+            <th>2019 to 2021</th>
         </tr>
     </thead>
     <tbody>
@@ -182,13 +182,13 @@ This is an example of the table as it is in the Word document.
             <td>
                 <p>4.2.1 Usage without vision</p>
                 <p>Where ICT provides visual modes of operation, some users need ICT to provide at least one mode of operation that does not require vision.</p>
-                <p><strong>NOTE 1: A web page or application with a well formed semantic structure can allow users without vision to identify, navigate and interact with a visual user interface.</strong></p>
+                <p><mark>NOTE 1: A web page or application with a well formed semantic structure can allow users without vision to identify, navigate and interact with a visual user interface.</mark></p>
                 <p>NOTE 2: Audio and tactile user interfaces may contribute towards meeting this clause.</p>
             </td>
             <td>Explanatory update</td>
             <td>
                 <p>4.2.1 Usage without vision</p>
-                <p>Where ICT provides visual modes of operation, <strong>the ICT provides</strong> at least one mode of operation that does not require vision. <strong>This is essential for users without vision and benefits many more users in different situations.</strong></p>
+                <p>Where ICT provides visual modes of operation, <mark>the ICT provides</mark> at least one mode of operation that does not require vision. <mark>This is essential for users without vision and benefits many more users in different situations.</mark></p>
                 <p>NOTE 1: A web page or application with a well formed semantic structure can allow users without vision to identify, navigate and interact with a visual user interface.</p>
                 <p>NOTE 2: Audio and tactile user interfaces may contribute towards meeting this clause.</p>
             </td>
@@ -227,7 +227,7 @@ This is an example of the table as it is in the Word document.
             <td>&nbsp;</td>
             <td>
                 <p>4.2.2 Usage with limited vision</p>
-                <p>Where ICT provides visual modes of operation, <strong>the ICT provides</strong> features that enable users to make better use of their limited vision. <strong>This is essential for users with limited vision and benefits many more users in different situations.</strong></p>
+                <p>Where ICT provides visual modes of operation, <mark>the ICT provides</mark> features that enable users to make better use of their limited vision. <mark>This is essential for users with limited vision and benefits many more users in different situations.</mark></p>
                 <p>NOTE 1: Magnification, reduction of required field of vision and control of contrast, brightness and intensity can contribute towards meeting this clause.</p>
                 <p>NOTE 2: Where significant features of the user interface are dependent on depth perception, the provision of additional methods of distinguishing between the features may contribute towards meeting this clause.</p>
                 <p>NOTE 3: Users with limited vision may also benefit from non-visual access (see clause 4.2.1).</p>
@@ -248,7 +248,7 @@ This is an example of the table as it is in the Word document.
         <tr>
             <td>
                 <p>302.3 Without Perception of Color</p>
-                <p>Where a visual mode of operation is provided, ICT shall provide at least one visual mode of operation that does not require user perception of color<strong>.</strong></p>
+                <p>Where a visual mode of operation is provided, ICT shall provide at least one visual mode of operation that does not require user perception of color<mark>.</mark></p>
             </td>
             <td>
                 <p>4.2.3 Usage without perception of colour</p>
@@ -267,7 +267,7 @@ This is an example of the table as it is in the Word document.
             <td>&nbsp;</td>
             <td>
                 <p>4.2.3 Usage without perception of colour</p>
-                <p>Where ICT provides visual modes of operation<strong>, the ICT provides</strong> a visual mode of operation that does not require user perception of colour<strong>. This is essential for users with limited colour perception and benefits many more users in different situations.</strong></p>
+                <p>Where ICT provides visual modes of operation<mark>, the ICT provides</mark> a visual mode of operation that does not require user perception of colour<mark>. This is essential for users with limited colour perception and benefits many more users in different situations.</mark></p>
                 <p>NOTE: Where significant features of the user interface are colour-coded, the provision of additional methods of distinguishing between the features may contribute towards meeting this clause.</p>
             </td>
             <td>
@@ -300,8 +300,8 @@ This is an example of the table as it is in the Word document.
             <td>&nbsp;</td>
             <td>
                 <p>4.2.4 Usage without hearing</p>
-                <p>Where ICT provides auditory modes of operation<strong>, the ICT provides</strong> at least one mode of operation that does not require hearing. <strong>This is essential for users without hearing and benefits many more users in different situations.</strong></p>
-                <p>NOTE: Visual and tactile user interfaces<strong>, including those based on sign language,</strong> may contribute towards meeting this clause.</p>
+                <p>Where ICT provides auditory modes of operation<mark>, the ICT provides</mark> at least one mode of operation that does not require hearing. <mark>This is essential for users without hearing and benefits many more users in different situations.</mark></p>
+                <p>NOTE: Visual and tactile user interfaces<mark>, including those based on sign language,</mark> may contribute towards meeting this clause.</p>
             </td>
             <td>
                 <p>Stylistic rewording</p>
@@ -338,9 +338,9 @@ This is an example of the table as it is in the Word document.
             <td>&nbsp;</td>
             <td>
                 <p>4.2.5 Usage with limited hearing</p>
-                <p>Where ICT provides auditory modes of operation<strong>, the ICT provides</strong> enhanced audio features. <strong>This is essential for users with limited hearing and benefits many more users in different situations.</strong></p>
-                <p>NOTE 1: Enhancement of the audio clarity, reduction of background noise, <strong>providing a joint monaural option, adjustment of balance of both audio channels</strong>, increased range of volume and greater volume in the higher frequency range can contribute towards meeting this clause.</p>
-                <p><strong>NOTE 2: Allowing the use of Assistive Listening Devices, such as headsets with noise cancellation (connected by cable, Bluetooth or WLAN) can contribute towards meeting this clause.</strong></p>
+                <p>Where ICT provides auditory modes of operation<mark>, the ICT provides</mark> enhanced audio features. <mark>This is essential for users with limited hearing and benefits many more users in different situations.</mark></p>
+                <p>NOTE 1: Enhancement of the audio clarity, reduction of background noise, <mark>providing a joint monaural option, adjustment of balance of both audio channels</mark>, increased range of volume and greater volume in the higher frequency range can contribute towards meeting this clause.</p>
+                <p><mark>NOTE 2: Allowing the use of Assistive Listening Devices, such as headsets with noise cancellation (connected by cable, Bluetooth or WLAN) can contribute towards meeting this clause.</mark></p>
                 <p>NOTE 3: Users with limited hearing may also benefit from non-hearing access (see clause 4.2.4).</p>
             </td>
             <td>
@@ -378,8 +378,8 @@ This is an example of the table as it is in the Word document.
             <td>&nbsp;</td>
             <td>
                 <p>4.2.6 Usage with no or limited vocal capability</p>
-                <p>Where ICT requires vocal input from users<strong>, the ICT provides</strong> at least one mode of operation that does not require them to generate vocal output. <strong>This is essential users with no or limited vocal capability and benefits many more users in different situations.</strong></p>
-                <p>NOTE 1: <strong>Vocal output includes speech and other orally generated sounds, such as whistles and clicks.</strong></p>
+                <p>Where ICT requires vocal input from users<mark>, the ICT provides</mark> at least one mode of operation that does not require them to generate vocal output. <mark>This is essential users with no or limited vocal capability and benefits many more users in different situations.</mark></p>
+                <p>NOTE 1: <mark>Vocal output includes speech and other orally generated sounds, such as whistles and clicks.</mark></p>
                 <p>NOTE 2: Keyboard, pen or touch user interfaces may contribute towards meeting this clause.</p>
             </td>
             <td>
@@ -421,7 +421,7 @@ This is an example of the table as it is in the Word document.
             <td>&nbsp;</td>
             <td>
                 <p>4.2.7 Usage with limited manipulation or strength</p>
-                <p>Where ICT requires manual actions, <strong>the ICT provides</strong> features that enable users to make use of the ICT through alternative actions not requiring manipulation<strong>, simultaneous action</strong> or hand strength. <strong>This is essential for users with limited manipulation or strength and benefits many more users in different situations.</strong></p>
+                <p>Where ICT requires manual actions, <mark>the ICT provides</mark> features that enable users to make use of the ICT through alternative actions not requiring manipulation<mark>, simultaneous action</mark> or hand strength. <mark>This is essential for users with limited manipulation or strength and benefits many more users in different situations.</mark></p>
                 <p>NOTE 1: Examples of operations that users may not be able to perform include those that require fine motor control, path dependant gestures, pinching, twisting of the wrist, tight grasping, or simultaneous manual actions.</p>
                 <p>NOTE 2: One-handed operation, sequential key entry and speech user interfaces may contribute towards meeting this clause.</p>
                 <p>NOTE 3: Some users have limited hand strength and may not be able to achieve the level of strength to perform an operation. Alternative user interface solutions that do not require hand strength may contribute towards meeting this clause.</p>
@@ -462,7 +462,7 @@ This is an example of the table as it is in the Word document.
             <td>&nbsp;</td>
             <td>
                 <p>4.2.8 Usage with limited reach</p>
-                <p>Where ICT products are free-standing or installed, <strong>all the elements required for operation</strong> will need to be within reach of all users. <strong>This is essential for users with limited reach and benefits many more users in different situations.</strong></p>
+                <p>Where ICT products are free-standing or installed, <mark>all the elements required for operation</mark> will need to be within reach of all users. <mark>This is essential for users with limited reach and benefits many more users in different situations.</mark></p>
                 <p>NOTE: Considering the needs of wheelchair users and the range of user statures in the placing of operational elements of the user interface may contribute towards meeting this clause.</p>
             </td>
             <td>
@@ -500,11 +500,11 @@ This is an example of the table as it is in the Word document.
             <td>&nbsp;</td>
             <td>
                 <p>4.2.10 Usage with limited cognition, language or learning</p>
-                <p><strong>The ICT provides features and/or presentation that makes it simpler and easier to understand, operate and use. This is essential for users with limited cognition, language or learning, and benefits many more users in different situations.</strong></p>
+                <p><mark>The ICT provides features and/or presentation that makes it simpler and easier to understand, operate and use. This is essential for users with limited cognition, language or learning, and benefits many more users in different situations.</mark></p>
                 <p>NOTE 1: Adjustable timings, error indication and suggestion, and a logical focus order are examples of design features that may contribute towards meeting this clause.</p>
-                <p><strong>NOTE 2: Providing an audio output of the text is an example of providing support for people with limited reading abilities.</strong></p>
-                <p><strong>NOTE 3: Providing spelling aid and word prediction of the text is an example of providing support for people with limited writing abilities.</strong></p>
-                <p><strong>NOTE 4: Interaction with content can be made easier, and less prone to errors, by presenting tasks in steps that are easy to follow.</strong></p>
+                <p><mark>NOTE 2: Providing an audio output of the text is an example of providing support for people with limited reading abilities.</mark></p>
+                <p><mark>NOTE 3: Providing spelling aid and word prediction of the text is an example of providing support for people with limited writing abilities.</mark></p>
+                <p><mark>NOTE 4: Interaction with content can be made easier, and less prone to errors, by presenting tasks in steps that are easy to follow.</mark></p>
             </td>
             <td>
                 <p>Functional change</p>
@@ -623,7 +623,7 @@ This is an example removing the change type columns and adding icons instead.
                 <p>5.1.3.1 Audio output of visual information</p>
                 <p>
                     Where visual information is needed to enable the use of those functions of ICT that are closed to assistive technologies for screen reading, ICT shall provide at least one mode of operation using non-visual access to enable the use of those functions.</p>
-                <p>NOTE 1: Non-visual access may be in an audio form, including speech, or a tactile form <strong>such as braille for deaf-blind users</strong>.</p>
+                <p>NOTE 1: Non-visual access may be in an audio form, including speech, or a tactile form <mark>such as braille for deaf-blind users</mark>.</p>
                 <p>NOTE 2: The visual information needed to enable use of some functions may include operating instructions and orientation, transaction prompts, user input verification, error messages and non-text content.</p>
             </td>
             <td>
@@ -649,7 +649,7 @@ This is an example removing the change type columns and adding icons instead.
             <td>
                 <p><span class="fas fa-flask"></span> <span class="wb-inv">Functional change</span></p>
                 <p>5.1.3.6 Speech output for non-text content</p>
-                <p>Where ICT presents non-text content, the alternative for non-text content shall be presented to users via speech output unless the non-text content is pure decoration or is used only for visual formatting. The speech output for non-text content shall follow the guidance for "text alternative" described in <strong>WCAG 2.1</strong> Success Criterion 1.1.1.</p>
+                <p>Where ICT presents non-text content, the alternative for non-text content shall be presented to users via speech output unless the non-text content is pure decoration or is used only for visual formatting. The speech output for non-text content shall follow the guidance for "text alternative" described in <mark>WCAG 2.1</mark> Success Criterion 1.1.1.</p>
             </td>
             <td>
                 <p>5.1.3.6 Speech output for non-text content</p>
@@ -1057,15 +1057,15 @@ This is an example removing the change type columns and adding icons instead.
             </td>
             <td>
                 <p>8.2.2.1 Fixed-line devices</p>
-                <p>Where ICT hardware is a fixed-line communication device with speech output and which is normally held to the ear and which carries the "T" symbol specified in <strong>ETSI</strong> ETS 300 381, it shall provide a means of magnetic coupling which meets the requirements of <strong>ETSI</strong> ES 200 381-1.</p>
+                <p>Where ICT hardware is a fixed-line communication device with speech output and which is normally held to the ear and which carries the "T" symbol specified in <mark>ETSI</mark> ETS 300 381, it shall provide a means of magnetic coupling which meets the requirements of <mark>ETSI</mark> ES 200 381-1.</p>
                 <p>NOTE: ICT fulfilling the requirements of TIA-1083-A is deemed to comply with the requirements of this clause.</p>
             </td>
             <td>Explanatory update</td>
             <td>
                 <p>8.2.2.1 Fixed-line devices</p>
-                <p>Where ICT hardware is a fixed-line communication device with speech output and which is normally held to the ear<strong>, it shall provide a means of magnetic coupling which meets the requirements of ETSI ES 200 381-1 and shall carry the "T" symbol specified in ETSI ETS 300 381.</strong></p>
+                <p>Where ICT hardware is a fixed-line communication device with speech output and which is normally held to the ear<mark>, it shall provide a means of magnetic coupling which meets the requirements of ETSI ES 200 381-1 and shall carry the "T" symbol specified in ETSI ETS 300 381.</mark></p>
                 <p>NOTE 1: ICT fulfilling the requirements of TIA-1083-A is deemed to comply with the requirements of this clause.</p>
-                <p><strong>NOTE 2: Magnetic coupling is also known as inductive coupling for T-coil.</strong></p>
+                <p><mark>NOTE 2: Magnetic coupling is also known as inductive coupling for T-coil.</mark></p>
             </td>
             <td>
                 <p>Stylistic rewording</p>
@@ -1094,7 +1094,7 @@ This is an example removing the change type columns and adding icons instead.
             </td>
             <td>
                 <p>8.2.2.2 Wireless communication devices</p>
-                <p>Where ICT hardware is a wireless communication device with speech output which is normally held to the ear, it shall provide a means of magnetic coupling to hearing technologies which meets the requirements of <strong>ETSI</strong> ES 200 381-2.</p>
+                <p>Where ICT hardware is a wireless communication device with speech output which is normally held to the ear, it shall provide a means of magnetic coupling to hearing technologies which meets the requirements of <mark>ETSI</mark> ES 200 381-2.</p>
                 <p>NOTE: ICT fulfilling the requirements of ANSI/IEEE C63.19 is deemed to comply with the requirements of this clause.</p>
             </td>
             <td>Explanatory update</td>
