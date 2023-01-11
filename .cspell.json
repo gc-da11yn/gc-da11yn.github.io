@@ -1,0 +1,41 @@
+//cspell configs
+{
+    "version": "0.2",
+    "import": [
+        "node_modules/@cspell/dict-fr-fr/cspell-ext.json"
+    ],
+    "dictionaries": [
+        "fr-fr",
+        "en-gb",
+        "en_US",
+        "html",
+        "html-symbol-entities",
+        "css",
+        "custom-en",
+        "custom-fr",
+        "custom-names"
+    ],
+    "dictionaryDefinitions": [
+        {
+            "name": "custom-en",
+            "path": "./.custom-en.txt",
+            "addWords": true
+        },
+        {
+            "name": "custom-fr",
+            "path": "./.custom-fr.txt",
+            "addWords": true
+        },
+        {
+            "name": "custom-names",
+            "path": "./.custom-names.txt",
+            "addWords": true
+        }
+    ],
+    "ignorePaths": [
+        "node_modules"
+    ],
+    "ignoreRegExpList": [
+        "^.*[&\\(\\[\\{].*$"
+    ]
+}

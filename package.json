@@ -6,6 +6,7 @@
   "scripts": {
     "newFolder": "node scripts/create-new-folder.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "spellcheck": "cspell \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
     "eleventy": "npx eleventy",
     "watch:eleventy": "eleventy --serve",
     "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
@@ -35,6 +36,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-navigation": "^0.3.3",
+    "@cspell/dict-fr-fr": "^2.1.2",
+    "cspell": "^6.18.1",
     "moment": "^2.29.1",
     "npm-run-all": "^4.1.5",
     "sass": "^1.32.12"

@@ -1,0 +1,10 @@
+# Acronyms
+pspc
+pwgsc
+aaact
+esdc
+hrsdc
+iitb
+CDTS
+
+# ---------
