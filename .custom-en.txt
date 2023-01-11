@@ -1,10 +1,16 @@
-# Acronyms
-pspc
-pwgsc
 aaact
+AABSS
+AODA
+CDTS
+CSPS
 esdc
+grandkids
+Helpdesk
+Hoverable
 hrsdc
 iitb
-CDTS
-
-# ---------
+nonmodal
+OPSA
+pspc
+pwgsc
+toolkits
