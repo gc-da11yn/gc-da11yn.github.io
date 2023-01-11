@@ -6,7 +6,7 @@
   "scripts": {
     "newFolder": "node scripts/create-new-folder.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "spellcheck": "cspell \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
+    "spellcheck": "cspell --no-progress -u \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
     "eleventy": "npx eleventy",
     "watch:eleventy": "eleventy --serve",
     "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
