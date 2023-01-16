@@ -1,13 +1,18 @@
-# Acronymes
+aatia
+appara
+BOEW
+cliparts
+d'infotechnologie
+dgiit
+Échap
+edsc
+extrants
+l’extrant
+musculosquelettiques
+parajuriste
+postlinguistique
+rhdcc
+SGDC
 spac
 tpsgc
-aatia
-edsc
-rhdcc
-dgiit
-SGDC
-BOEW
-
-# ---------
-parajuriste
-appara
+VERR
