@@ -66,15 +66,6 @@ and then use a different strategy to update your working copy.
 
 6. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
 
-## Creating new folders
-To create a new folder for the site in both the EN and FR directories along with the basic files needed for a page in these folders you can use the new-folder script. 
-
-To run the new-folder script by typing `npm run new-folder` into your command line application. 
-
-The script will need the name of the folder, the English title of the page, the French title of the page, the English description of the page, the French description of the page.
-
-The script will create the json file for the breadcrumbs, an index.md, and the english and french folders.
-
 ## Running the website
 
 After cloning and installing project Node.js modules, type `npm start` into your command line application. This will tell Node.js to compile the project and turn it into a website.
@@ -156,15 +147,6 @@ Une fois que vous avez rencontré [les conditions préalables](#Exigences), suiv
   `Successfully rebased and updated refs/heads/main.`
 
  6. Installez les modules Node.js du projet en tapant `npm install` dans votre application de ligne de commande. Une liste      des modules devrait être affichée après leur téléchargement et leur installation.
-
-## Création de nouveaux dossiers
-Pour créer un nouveau dossier pour le site dans les répertoires EN et FR, ainsi que les fichiers de base nécessaires pour une page dans ces dossiers, vous pouvez utiliser le script new-folder. 
-
-Pour lancer le script new-folder, tapez `npm run new-folder` dans votre application de ligne de commande. 
-
-Le script aura besoin du nom du dossier, du titre anglais de la page, du titre français de la page, de la description anglaise de la page, de la description française de la page.
-
-Le script créera le fichier json pour les breadcrumbs, un index.md, et les dossiers anglais et français.
 
 ## Exécution du site Web
 
