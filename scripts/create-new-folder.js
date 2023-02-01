@@ -9,8 +9,7 @@ const folderName = prompt("What is the name of your new folder?: ");
 const titleEN = prompt("What is the *english* title value of your page?: ");
 const descriptionEN = prompt("What is the *english* description value of your page?: ");
 
-var htmlContentEN = `
----
+var mdContentEN = `---
 title: ${titleEN}
 layout: layouts/base.njk
 description: ${descriptionEN}
@@ -18,8 +17,7 @@ description: ${descriptionEN}
 
 <!-- HTML starts here -->`
 
-var jsonContentEN = `
-{
+var jsonContentEN = `{
 	"breadcrumbs": [
 		{
 			"title": "${titleEN}",
@@ -51,8 +49,7 @@ fs.writeFile(".\\src\\en\\" + folderName + `\\${folderName}.json`, jsonContentEN
 const titleFR = prompt("What is the *french* title value of your page?: ");
 const descriptionFR = prompt("What is the *french* description value of your page?: ");
 
-var htmlContentFR = `
----
+var mdContentFR = `---
 title: ${titleFR}
 layout: layouts/base.njk
 description: ${descriptionFR}
@@ -60,8 +57,7 @@ description: ${descriptionFR}
 
 <!-- HTML starts here -->`
 
-var jsonContentFR = `
-{
+var jsonContentFR = `{
 	"breadcrumbs": [
 		{
 			"title": "${titleFR}",
