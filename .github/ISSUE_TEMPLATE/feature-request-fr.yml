@@ -1,0 +1,52 @@
+name: Demande de fonctionnalité
+description: Suggérer une idée pour le projet
+title: "[FONCTION] Courte description de la fonctionnalité"
+labels: [pending triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+
+        <div lang="fr">
+
+  - type: textarea
+    id: demande
+    attributes:
+      label: Est-ce que votre demande de fonctionnalité est reliée à un problème ? Veuillez élaborer.
+      description: "Description courte et concise du problème ex. : Je suis toujours frustré(e) par ... Si vous avez trouvé une autre demande de fonctionnalité ou rapport de bogue relié à ceci sur GitHub, veuillez mentionner le numéro ex. : #7890"
+  - type: textarea
+    id: solution
+    attributes:
+      label: Décrivez la solution que vous aimeriez voir
+      description: Description claire et concise de ce que vous voudriez avoir comme fonctionnalité.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Décrivez des alternatives que vous avez considérées
+      description: Description claire et concise des solutions alternatives ou autres fonctionnalités que vous avez considérées.
+  - type: checkboxes
+    id: do-the-work
+    attributes:
+      label: "Qui devrait travailler à développer ce changement ?"
+      options:
+        - label: "Je vais le faire, je veux contribuer"
+        - label: "Je demande à quelqu'un d'autre de faire le travail s’il vous plaît"
+  - type: markdown
+    attributes:
+      value: |
+        ## Information additionnelle (optionel)
+  - type: input
+    id: deadline
+    attributes:
+      label: Échéance
+      description: "Y-a-t'il une échéance relié à cette requête? Si oui, veuillez brièvement expliquer pourquoi et fournissez une date (YYYY-MM-DD))"
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Contexte additionnel
+      description: Ajoutez du contexte en rapport avec la fonctionnalité ici. Vous pouvez y ajouter des captures d'écran et / ou joindre des documents pour les modifications du contenu.
+  - type: markdown
+    attributes:
+      value: |
+
+        </div>

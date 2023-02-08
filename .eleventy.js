@@ -1,25 +1,15 @@
 module.exports = function(eleventyConfig) {
-	const moment = require("moment");
+  const { DateTime } = require("luxon");
+
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" })
+      .setLocale("en")
+      .toFormat("yyyy'-'MM'-'dd");
+  });
 
 	eleventyConfig.addPassthroughCopy({ "./src/_docs" : "docs" });
 	eleventyConfig.addPassthroughCopy({ "./src/_images" : "img" });
 	eleventyConfig.addPassthroughCopy({ "./src/CNAME" : "CNAME" });
-
-	// date filter (localized)
-	eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
-		locale = locale ? locale : "en";
-		moment.locale(locale);
-		return moment(date).format(format);
-	});
-
-	// Localized collections
-		eleventyConfig.addCollection("posts_en", function (collection) {
-		  return collection.getFilteredByGlob("./src/en/posts/*.md");
-		});
-	  
-		eleventyConfig.addCollection("posts_fr", function (collection) {
-		  return collection.getFilteredByGlob("./src/fr/posts/*.md");
-		});
 
 	return {
 			dir: {

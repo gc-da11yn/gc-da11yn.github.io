@@ -1,3 +1,9 @@
+<div lang="fr">
+
+([Français](#Développement))
+
+</div>
+
 # Development
 
 ## Technology
@@ -42,24 +48,23 @@ It will create a version controlled copy of the website in the directory you ent
 
 `git remote add upstream https://github.com/gc-da11yn/gc-da11yn.github.io.git`
 
-6. Fetch all the latest changes. It will make you local instance is aware of all the recent change made to upstream project, but nothing will be updated in your code.
+5. Fetch all the latest changes. It will make you local instance is aware of all the recent change made to upstream project, but nothing will be updated in your code.
 
 `git fetch --all`
 
-Ensure your local working copy include all the recent changesgit rebase upstream/main
+Ensure your local working copy include all the recent changesgit rebase upstream/main.
 
-6a. Be attentive to rebase conflict, in such situation you can rollback by running 
+5a. Be attentive to rebase conflict, in such situation you can rollback by running 
 
 `git rebase --abort`
 
-and then use a different strategy to update your working copyEverything went well
+and then use a different strategy to update your working copy.
 
-6b. You will see the following message if it went well
+5b. You will see the following message if it went well
 
 `Successfully rebased and updated refs/heads/main.`
 
-
-7. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
+6. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
 
 ## Running the website
 
@@ -78,3 +83,86 @@ Make sure you edit the files in the `src/` subdirectory. Any edits made in the `
 ## Quitting
 
 You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd>C</kbd> keys at the same time in your command line application, or by closing the command line application window or tab.
+______________________
+<div lang="fr">
+
+# Développement
+    
+## Technologie
+    
+Le projet est basé sur l'utilisation de la même technologie que le projet [a11yproject](https://github.com/a11yproject/gc-da11yn.github.io).
+    
+En utilisant [Eleventy](https://www.11ty.io), pour construire un site statique simple qui utilise [nodeJS](https://nodejs.org/fr/) pour générer et déployer avec  [Github Actions](https://github.com/features/actions) aux [Github Pages](https://pages.github.com) hébergeant le site.
+    
+Eleventy s'appuie sur [Markdown](https://daringfireball.net/projects/markdown/syntax), [Sass](https://sass-lang.com/), [Nunjucks](https://mozilla.github.io/nunjucks/) et [JSON](https://www.json.org/) pour fonctionner.
+    
+Il peut être utile de se familiariser avec ces technologies, en fonction de ce que vous voulez faire. Pour plus d'informations, consultez notre [Contributor documentation](./CONTRIBUTING.md).
+    
+## Exigences
+    
+Vous devrez avoir accès aux programmes et technologies suivants afin de pouvoir travailler sur le site Web sur votre ordinateur :
+    
+1. Une application de ligne de commande telle que Terminal.
+1. Le controle de version [Git](https://git-scm.com/) et un [compte GitHub](https://github.com/).
+    - Vous pouvez vérifier si Git est déjà installé sur votre ordinateur en tapant `git --version` dans votre application de ligne de commande. S'il est installé, il listera la version actuellement installée (par exemple, `git version 2.18.0`).
+    - Si vous préférez utiliser une autre interface graphique pour travailler avec le contrôle de version, GitHub propose une [application de bureau gratuite](https://desktop.github.com).
+1. [Node.js](https://nodejs.org/fr/), un environnement de programmation basé sur JavaScript.
+    - Vous pouvez vérifier si Node.js est déjà installé sur votre ordinateur en tapant `node -v` dans votre application de ligne de commande. S'il est installé, il affichera la version actuellement installée (par exemple, `v16.4.0`). Ce projet nécessite une version minimale de `16.0.0`.
+    - Il peut également être utile d'utiliser un programme tel que [nvm](https://github.com/creationix/nvm) pour vous aider à gérer vos versions de Node.js. Cela garantira que la version de Node.js que votre ordinateur utilise pour exécuter diverses choses n'entrera pas en conflit avec une version mise à jour. Pour les utilisateurs de Windows, vous pouvez utiliser [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows).
+
+## Installation
+    
+Une fois que vous avez rencontré [les conditions préalables](#Exigences), suivez ces étapes pour installer le site Web sur votre ordinateur :
+    
+1. Fork le dépôt via le Github web en cliquant sur le bouton "Fork" dans le coin supérieur droit.
+
+2. Après avoir créé votre fork à partir du site web Github, clonez votre dépôt de fork en entrant cette commande dans votre application de ligne de commande : Remplacez "$githubUsername" par votre nom d'utilisateur Github. 
+
+`git clone https://github.com/$githubUsername/gc-da11yn.github.io.git`
+    
+ Cela créera une copie sous contrôle de version du site Web dans le répertoire dans lequel vous avez entré la commande.
+ 
+ 3. Naviguez dans le [répertoire racine](https://fr.wikipedia.org/wiki/R%C3%A9pertoire_racine) du projet en tapant la commande de changement de répertoire suivante dans votre application de ligne de commande.
+ 
+ `cd gc-da11yn.github.io/`
+
+ 4. Ajoutez une référence à l'upstream.
+    
+ `git remote add upstream https://github.com/gc-da11yn/gc-da11yn.github.io.git`
+    
+ 5. Récupérez toutes les dernières modifications. Cela fera en sorte que votre instance locale soit au courant de toutes       les modifications récentes apportées à l'upstream du projet, mais rien ne sera mis à jour dans votre code.
+    
+ `git fetch --all`
+    
+  Assurez vous que votre copie de travail locale inclut tous les changements récents git rebase upstream/main
+    
+  5a. Soyez attentif aux conflits de rebasement, dans une telle situation vous pouvez faire marche arrière en exécutant 
+  
+  `git rebase --abort`
+    
+  et ensuite utiliser une stratégie différente pour mettre à jour votre copie de travail.
+  
+  5b. Si tout s'est bien passé, vous verrez le message suivant
+  
+  `Successfully rebased and updated refs/heads/main.`
+
+ 6. Installez les modules Node.js du projet en tapant `npm install` dans votre application de ligne de commande. Une liste      des modules devrait être affichée après leur téléchargement et leur installation.
+    
+## Exécution du site Web
+
+Après avoir cloné et installé les modules Node.js du projet, tapez `npm start` dans votre application de ligne de commande. Cela demandera à Node.js de compiler le projet et de le transformer en site web.
+    
+Votre application de ligne de commande affichera alors quelques informations sur Eleventy, dont une ligne qui commence par `Local:`. Vous pouvez copier l'URL vers laquelle elle pointe (elle devrait ressembler à [`http://localhost:3000`](http://localhost:3000)) et la coller dans un onglet du navigateur. Cela chargera une copie locale du site web avec laquelle vous pourrez interagir pour prévisualiser vos modifications.
+
+Vous pouvez également utiliser l'URL `External` pour prévisualiser la copie locale sur un autre appareil connecté au même réseau, ce qui vous permet de vérifier l'aspect et le fonctionnement du site sur des appareils tels que les smartphones. Cela se fait via [Browsersync](https://www.browsersync.io/).
+    
+## Mise à jour du site Web
+    
+En sauvegardant les fichiers du projet, Node.js régénérera le site Web pour refléter les changements que vous avez effectués. Votre application de ligne de commande affichera de nouveaux messages pour refléter cela, y compris toute erreur que vous pourriez accidentellement faire. Ne vous inquiétez pas ! Comme le site utilise la version de contrôle, vous ne risquez pas de casser sérieusement quoi que ce soit. Si vous corrigez l'erreur, Node.js devrait continuer à fonctionner.
+
+Assurez-vous d'éditer les fichiers dans le sous-répertoire `src/`. Toute modification faite dans le sous-répertoire `_site` sera écrasée par la prochaine modification d'un fichier dans `src/` et tout votre travail sera perdu !
+    
+## Quitter
+    
+Vous pouvez demander à Node.js d'arrêter de s'exécuter en appuyant simultanément sur les touches <kbd>Control</kbd> et <kbd>C</kbd> dans votre application de ligne de commande, ou en fermant la fenêtre ou l'onglet de l'application de ligne de commande.
+</div>

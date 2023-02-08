@@ -1,0 +1,12 @@
+.a11y-standards-list {
+	list-style: none;
+
+	&>li {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	span {
+		margin-right: 15px;
+	}
+}

@@ -1,0 +1,67 @@
+name: Bogue
+description: Générer un rapport de bogue pour nous aider à nous améliorer
+title: "[BOGUE] Nom de la fonctionnalité - Courte description du bogue"
+labels: [pending triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+
+        <div lang="fr">
+
+  - type: textarea
+    id: required-information
+    attributes:
+      label: Description du bogue
+      description: "Une description claire et concise du bogue. Si vous avez trouvé un autre rapport de bogue relié à ceci sur GitHub, veuillez mentionner son numéro ex. : #7890"
+      value: |
+        **Pour le reproduire**
+        Étapes pour reproduire le problème :
+        1. Allez à "..."
+        2. Cliquer sur "...."
+        3. Défiler jusqu'à "...."
+        4. Voir erreur
+
+        **Scénario attendu**
+        Une description claire et concise de ce qui devrait se passer en tant normal.
+
+        **Qui devrait travailler à corriger ce problem?**
+        [Je vais le faire, je veux contribuer] ou [Je demande à quelqu'un d'autre de faire le travail svp]
+  - type: markdown
+    attributes:
+      value: |
+        ## Information additionnelle (optionel)
+  - type: input
+    id: version-dat
+    attributes:
+      label: Version de gc-da11yn que vous utilisez
+  - type: markdown
+    attributes:
+      value: |
+        ### Ordinateur/Téléphone intelligent (svp complétez l'information suivante)
+  - type: input
+    id: os
+    attributes:
+      label: "OS ou Device: (e.g. iOS)"
+  - type: input
+    id: browser
+    attributes:
+      label: "Browser (e.g. Chrome, Safari)"
+  - type: input
+    id: version
+    attributes:
+      label: "Version (e.g. 22)"
+  - type: markdown
+    attributes:
+      value: |
+        ## Information additionnelle (optionel)
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Contexte additionnel
+      description: Ajoutez du contexte en rapport avec la fonctionnalité ici. Vous pouvez y ajouter des captures d'écran et / ou joindre des documents pour les modifications du contenu.
+  - type: markdown
+    attributes:
+      value: |
+
+        </div>
