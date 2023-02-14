@@ -6,11 +6,15 @@ description: Learn more about the organizations, projects and people that are wo
 
 <div class="row wb-eqht">
 	<div class="col-md-6">
+		<h2 class="h3"><a href="./dat/">About the project</a></h2>
+About the project, who we are and what is our goal.
+	</div>
+	<div class="col-md-6">
 		<h2 class="h3"><a href="./organizations">Government departments working in accessibility</a></h2>
-		<p>The Government of Canada has many departments working in all areas of accessibility. The departments listed on this page contribute to this site.</p>
+The Government of Canada has many departments working in all areas of accessibility. The departments listed on this page contribute to this site.
 	</div>
 	<div class="col-md-6">
 		<h2 class="h3"><a href="./workinggroups">Working groups on accessibility within the Government of Canada</a></h2>
-		<p>There are many working groups who cover different topics on accessibility with members from different departments working together.</p>
+There are many working groups who cover different topics on accessibility with members from different departments working together.
 	</div>
 </div>
