@@ -45,7 +45,7 @@ This task force will:
 
 The Digital Accessibility Toolkit (<abbr>DAT</abbr>) will leverage accessibility expertise across government, showcase best practices, and promote inclusive design and accessible by default.
 
-The key roles will be defined based on the World Wide Web Consortium's (<abbr>W3C</abbr>) [<abbr>ARRM</abbr> Project - Accessibility Roles and Responsibilities Mapping](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) project.
+The key roles will be defined based on the World Wide Web Consortium's (<abbr>W3C</abbr>) [<abbr>ARRM</abbr> Project - Accessibility Roles and Responsibilities Mapping project](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping).
 
 ## Reporting structure
 
@@ -59,7 +59,7 @@ The Digital Accessibility Toolkit (<abbr>DAT</abbr>) is a recommendation-making 
 
 - position the Government of Canada (<abbr>GC</abbr>) to meet or exceed Information and Communications Technology obligations of the Accessible Canada Act and the goal of the Accessibility Strategy for the Public Service of Canada to "[make information and communications technology usable by all](https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc/accessibility-strategy-public-service-technology.html)";
 - make recommendations for a <abbr title="Government of Canada">GC</abbr> central repository to share accessibility information created by various <abbr title="Government of Canada">GC</abbr> departments, minimizing duplication of work across departments
-- improve consistency of accessibility and identify best practices for Information and Communication Technology (ICT) accessibility information;
+- improve consistency of accessibility and identify best practices for Information and Communication Technology (<abbr>ICT</abbr>) accessibility information;
 - increase awareness across participating departments through the Access Working Group (<abbr>AWG</abbr>) and Interdepartmental <abbr title="Information and Communication Technology">ICT</abbr> working Group;
 - leverage expertise, foster information flow, and broaden knowledge across the <abbr title="Government of Canada">GC</abbr>; and
 - make recommendations for future phases of the project -- for example expanding access to other jurisdictions that are collaborating with the <abbr title="Government of Canada">GC</abbr> on <abbr title="Information and Communication Technology">ICT</abbr> accessibility.
