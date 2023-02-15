@@ -56,45 +56,43 @@ The Canada wordmark and related graphics associated with this distribution are p
 
 <div lang="fr">
 
-## Boîte à outils d'accessibilité numérique
+## Boîte à Outils d'Accessibilité Numérique
 
 Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles dans les deux langues officielles.
 
-### Qu'est-ce projet?
+### Quel est ce Projet?
 
-C'est un **espace de partage** pour les ressources créées par les employés du gouvernement du Canada (GC) à ---promouvoir dans le cadre de la transparence---. Suite à la [Directive sur le gouvernement ouvert] du Secrétariat du Conseil du Trésor du Canada. (https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28108).
+Un **espace de partage** pour les ressources créées par les employés du gouvernement du Canada (GC) à promouvoir dans le cadre de la transparence. Suite à la [Directive sur le gouvernement ouvert] du Secrétariat du Conseil du Trésor du Canada. (https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28108).
 
 Les types d'informations relatives à l'accessibilité numérique à partager sont:
 
 - les guides,
-- des liens vers des guides déjà créés en ligne,
+- liens vers des guides déjà créés en ligne,
 - les meilleures pratiques,
 - des discussions,
-- de l'informations sur le travail que nous effectuons au sein du GC.
+- informations sur le travail que nous effectuons au sein du GC.
 
 Pour obtenir de la documentation sur les groupes de travail créés pour ce projet, consultez les [Termes de référence (ToR)](.github/TERMS_OF_REFERENCE.md).
 
 ### Comment ça Marche?
 
-Consultez [DEVELOPMENT.md](.github/DEVELOPMENT.md) pour plus de détails.
+Consultez nos procédure de [DEVELOPMENT.md](.github/DEVELOPMENT.md#développement) pour plus de détails afin de proposer des changements.
 
 ### Qui Utilisera ce Projet?
 
-Le contenu est créé pour les employés du GC, mais il peut être utilisé par toute personne travaillant dans le domaine de l'accessibilité numérique.
+Le contenu a été créé à l'intention des employés du GC, mais il peut être utile pour toute personne travaillant dans le domaine de l'accessibilité numérique.
 
-### Rôles Principaux
+#### Rôles Principaux
 
-<div lang="en">
-The key roles will be defined based on the W3C's [ARRM Project - Accessibility Roles and Responsibilities Mapping](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) project.
-</div>
+Les rôles principaux seront définis sur la base du projet [ARRM - Accessibility Roles and Responsibilities Mapping] (https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) du W3C
 
 ### Quel est le But de ce Projet?
 
-Promouvoir le travail que nous faisons dans le domaine de l'accessibilité numérique au sein du GC et de regrouper notre documentation dans un site web centralisé afin de faciliter le partage et l'accès à l'information.
+Promouvoir l'excellent travail que nous faisons dans le domaine de l'accessibilité numérique au sein du GC et disposer d'un lieu centralisé pour partager notre documentation.
 
 ### Comment Contribuer
 
-Vous avez une idée, une suggestion, une opinion? Nous souhaitons vous entendre dans notre [section de discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) sur GitHub. Cette section est disponible seulement en anglais mais vous pouvez initier et participer à des discussion dans la langue de votre choix.
+Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre [Section de Discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
 
 Consultez [CONTRIBUTING.md](.github/CONTRIBUTING.md) pour plus de détails.
 
