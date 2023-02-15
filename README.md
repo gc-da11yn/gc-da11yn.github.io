@@ -94,7 +94,7 @@ Promouvoir le travail que nous faisons dans le domaine de l'accessibilité numé
 
 ### Comment Contribuer
 
-Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre [Section de Discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
+Vous avez une idée, une suggestion, une opinion? Nous souhaitons vous entendre dans notre [section de discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) sur GitHub. Cette section est disponible seulement en anglais mais vous pouvez initier et participer à des discussion dans la langue de votre choix.
 
 Consultez [CONTRIBUTING.md](.github/CONTRIBUTING.md) pour plus de détails.
 
