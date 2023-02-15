@@ -67,10 +67,10 @@ C'est un **espace de partage** pour les ressources créées par les employés du
 Les types d'informations relatives à l'accessibilité numérique à partager sont:
 
 - les guides,
-- liens vers des guides déjà créés en ligne,
+- des liens vers des guides déjà créés en ligne,
 - les meilleures pratiques,
 - des discussions,
-- informations sur le travail que nous effectuons au sein du GC.
+- de l'informations sur le travail que nous effectuons au sein du GC.
 
 Pour obtenir de la documentation sur les groupes de travail créés pour ce projet, consultez les [Termes de référence (ToR)](.github/TERMS_OF_REFERENCE.md).
 
