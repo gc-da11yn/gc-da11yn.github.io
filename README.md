@@ -56,7 +56,7 @@ The Canada wordmark and related graphics associated with this distribution are p
 
 <div lang="fr">
 
-## Boîte à Outils d'Accessibilité Numérique
+## Boîte à outils d'accessibilité numérique
 
 Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles dans les deux langues officielles.
 
