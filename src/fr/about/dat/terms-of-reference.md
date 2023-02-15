@@ -46,7 +46,7 @@ Les rôles clés seront définis sur la base du projet <a href="https://www.w3.o
 
 Les coprésidents seront des leaders de la communauté de l'accessibilité au sein du gouvernement du Canada (<abbr>GC</abbr>). Les présidents pourront changer au fil du temps, selon les besoins.
 
-Le Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) fonctionne sous l'égide du <a href="/en/about/workinggroups/awg/" hreflang="en">Groupe de travail sur l’accès (<abbr>GTA</abbr>) et fera des rapports périodiques à ce groupe de travail.
+Le Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) fonctionne sous l'égide du <a href="/en/about/workinggroups/awg/" hreflang="en">Groupe de travail sur l’accès (<abbr>GTA</abbr>)</a> et fera des rapports périodiques à ce groupe de travail.
 
 ### Mandat et autorité de décision
 
