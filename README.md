@@ -90,7 +90,7 @@ The key roles will be defined based on the W3C's [ARRM Project - Accessibility R
 
 ### Quel est le But de ce Projet?
 
-Promouvoir l'excellent travail que nous faisons dans le domaine de l'accessibilité numérique au sein du GC et disposer d'un lieu centralisé pour partager notre documentation.
+Promouvoir le travail que nous faisons dans le domaine de l'accessibilité numérique au sein du GC et de regrouper notre documentation dans un site web centralisé afin de faciliter le partage et l'accès à l'information.
 
 ### Comment Contribuer
 
