@@ -84,7 +84,9 @@ Le contenu est créé pour les employés du GC, mais il peut être utilisé par 
 
 ### Rôles Principaux
 
+<div lang="en">
 The key roles will be defined based on the W3C's [ARRM Project - Accessibility Roles and Responsibilities Mapping](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) project.
+</div>
 
 ### Quel est le But de ce Projet?
 
