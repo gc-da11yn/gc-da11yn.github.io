@@ -71,7 +71,7 @@ Digital Accessibility Toolkit (<abbr>DAT</abbr>) members belong to multiple stak
 Members
 
 - Co-Chair(s):
-  - Shared Service Canada (<abbr>SSC</abbr>): Shawn Thompson, AAACT Program (Development lead)
+  - Shared Service Canada (<abbr>SSC</abbr>): Shawn Thompson, Accessibility, Accommodation and Adaptive Computer Technology (<abbr>AAACT</abbr>) Program (Development lead)
   - Canada School of Public Service (<abbr>CSPS</abbr>): Julie Bélisle Boutet, Digital Accessibility in Learning (Content lead)
 - Contributing resources:
   - Open Government Working Group
@@ -98,7 +98,7 @@ A brief summary of the project progress will be provided at minimum at every oth
 
 The methods of contributing could be as done in one or more of the following ways:
 
-1. [Github discussion forum](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) in the open (All feedback will be vetted before posting.);
+1. [Github discussion forum](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) in the open;
     1. GitHub,
     2. email, or
     3. anonymously via web form.
@@ -130,7 +130,7 @@ Establishing a proper maintenance cycle, including the review of the current con
 
 ## Resources
 
-- [Government Digital Service](https://github.com/orgs/alphagov/projects/4) projects on GitHub
+- [Government Digital Service](https://github.com/alphagov) projects on GitHub
 - [The A11Y Project](https://www.a11yproject.com/)
 - [DWP Accessibility Manual](https://accessibility-manual.dwp.gov.uk/)
 - [ARRM Project - Accessibility Roles and Responsibilities Mapping](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping)
