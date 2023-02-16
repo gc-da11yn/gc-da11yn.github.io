@@ -208,7 +208,7 @@ La commande `npm run dev` va construire le site dans le dossier `_site` et défi
 
 La commande `npm run eleventy` construit les pages HTML du dossier `src` dans le dossier `_site`.
 
-#### Création d'un nouveau dossier et des fichiers nécessaires
+#### Création d'un nouveau dossier et des fichiers requis
 
 To create a new folder for the site in both the `src/en` and `src/fr` directories along with the basic files needed for a page in these folders you can use `npm run new-folder`.
 
