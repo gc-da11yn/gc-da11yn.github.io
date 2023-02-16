@@ -104,7 +104,7 @@ The `npm run spellcheck` command runs a spell checker on all the markdown and HT
 
 The script will then display possible spelling errors in the terminal.
 
-#### Bulding the site for testing locally with a server
+#### Bulding the site for testing locally
 
 The `npm run start` command is used to build the `_site` folder with all the files (HTML, CSS, JS and images) needed to host the site.
 
@@ -223,7 +223,7 @@ La commande `npm run spellcheck` lance un vérificateur d'orthographe sur tous l
 
 Le script affichera alors les éventuelles erreurs d'orthographe dans le terminal.
 
-#### Construire le site pour le tester localement avec un serveur
+#### Construire le site pour le tester localement
 
 La commande `npm run start` est utilisée pour construire le dossier `_site` avec tous les fichiers (HTML, CSS, JS et images) nécessaires pour héberger le site.
 
