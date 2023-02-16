@@ -218,7 +218,7 @@ Le script aura besoin du nom du dossier, du titre anglais de la page, du titre f
 
 Le script créera le fichier json pour les breadcrumbs, un index.md, et les dossiers anglais et français.
 
-#### Vérifier l'orthographe sur le site
+#### Vérification de l'orthographe sur le site
 
 La commande `npm run spellcheck` lance un vérificateur d'orthographe sur tous les fichiers markdown et HTML du dossier `src`.
 
