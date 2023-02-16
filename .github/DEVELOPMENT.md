@@ -78,19 +78,19 @@ You can also use the `External` URL to preview the local copy on another device 
 
 This is a list of all the **npm** commands you could run from the command line within this project.
 
-#### build
+#### Building the site
 
 The `npm run build` command will build the site into the `_site` folder. It is used for the production server hosted with Github pages.
 
-#### dev
+#### Running in development mode
 
 The `npm run dev` command will build the site into the `_site` folder and set the `ELEVENTY_ENV=dev` variable for the Netlify staging instance of the site.
 
-#### eleventy
+#### Building the HTML files
 
 The `npm run eleventy` command builds the HTML pages from the `src` folder into the `_site`.
 
-#### newFolder
+#### Creating a new folder and the files needed
 
 To create a new folder for the site in both the `src/en` and `src/fr` directories along with the basic files needed for a page in these folders you can use `npm run new-folder`.
 
@@ -98,13 +98,13 @@ The script will need the name of the folder, the English title of the page, the 
 
 The script will create the json file for the breadcrumbs, an index.md, and the english and french folders.
 
-#### spellcheck
+#### Checking the spelling on the site
 
 The `npm run spellcheck` command runs a spell checker on all the markdown and HTML files inside the `src` folder.
 
 The script will then display possible spelling errors in the terminal.
 
-#### start
+#### Bulding the site for testing locally with a server
 
 The `npm run start` command is used to build the `_site` folder with all the files (HTML, CSS, JS and images) needed to host the site.
 
@@ -196,19 +196,19 @@ Vous pouvez également utiliser l'URL `External` pour prévisualiser la copie lo
 
 Voici une liste de toutes les commandes **npm** que vous pouvez exécuter à partir de la ligne de commande dans ce projet.
 
-#### `build`
+#### Création du site
 
 La commande `npm run build` va construire le site dans le dossier `_site`. Il est utilisé pour le serveur de production hébergé avec "Github pages".
 
-#### dev
+#### Exécution en mode développement
 
 La commande `npm run dev` va construire le site dans le dossier `_site` et définir la variable `ELEVENTY_ENV=dev` pour l'instance Netlify de développement du site.
 
-#### eleventy
+#### Construire les fichiers HTML
 
 La commande `npm run eleventy` construit les pages HTML du dossier `src` dans le dossier `_site`.
 
-#### newFolder
+#### Création d'un nouveau dossier et des fichiers nécessaires
 
 To create a new folder for the site in both the `src/en` and `src/fr` directories along with the basic files needed for a page in these folders you can use `npm run new-folder`.
 
@@ -218,13 +218,13 @@ Le script aura besoin du nom du dossier, du titre anglais de la page, du titre f
 
 Le script créera le fichier json pour les breadcrumbs, un index.md, et les dossiers anglais et français.
 
-#### spellcheck
+#### Vérifier l'orthographe sur le site
 
 La commande `npm run spellcheck` lance un vérificateur d'orthographe sur tous les fichiers markdown et HTML du dossier `src`.
 
 Le script affichera alors les éventuelles erreurs d'orthographe dans le terminal.
 
-#### start
+#### Construire le site pour le tester localement avec un serveur
 
 La commande `npm run start` est utilisée pour construire le dossier `_site` avec tous les fichiers (HTML, CSS, JS et images) nécessaires pour héberger le site.
 
