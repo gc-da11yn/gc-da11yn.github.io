@@ -196,7 +196,7 @@ Vous pouvez également utiliser l'URL `External` pour prévisualiser la copie lo
 
 Voici une liste de toutes les commandes **npm** que vous pouvez exécuter à partir de la ligne de commande dans ce projet.
 
-#### Création du site
+#### Compilation du site
 
 La commande `npm run build` va construire le site dans le dossier `_site`. Il est utilisé pour le serveur de production hébergé avec "Github pages".
 
