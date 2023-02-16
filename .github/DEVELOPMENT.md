@@ -204,7 +204,7 @@ La commande `npm run build` va construire le site dans le dossier `_site`. Il es
 
 La commande `npm run dev` va construire le site dans le dossier `_site` et définir la variable `ELEVENTY_ENV=dev` pour l'instance Netlify de développement du site.
 
-#### Construire les fichiers HTML
+#### Construction des fichiers HTML
 
 La commande `npm run eleventy` construit les pages HTML du dossier `src` dans le dossier `_site`.
 
