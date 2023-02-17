@@ -6,12 +6,12 @@ description: About the project, who we are and what is our goal.
 
 ## Purpose
 
-Collaborate on the creation of a structure and platform to centralize Government of Canada (<abbr>GC</abbr>) information on accessibility.
+Collaborate on the creation of a platform to centralize Government of Canada (<abbr title="Government of Canada">GC</abbr>) information on accessibility.
 
-The [Access Working Group (AWG)](/en/about/workinggroups/awg/) would like to enable interdepartmental centralization and sharing of accessibility information produced by <abbr title="Government of Canada">GC</abbr> departments in a central repository and sharing space.
+The [Access Working Group (AWG)](/en/about/workinggroups/awg/) would like to enable interdepartmental centralization and sharing of accessibility information produced by <abbr title="Government of Canada">GC</abbr> departments in a central repository sharing space and in <a href="https://canada-ca.github.io/Open_First_Whitepaper/">the open</a>.
 
-- [Digital Accessibility Toolkit (DAT) Task Force - Terms of Reference (ToR)](./terms-of-reference/)
-- [Digital Accessibility Toolkit (DAT)](https://a11y.canada.ca)
+- [Digital Accessibility Toolkit (DAT) Task Force - Terms of Reference](./terms-of-reference/)
+- [Digital Accessibility Toolkit (DAT) website: a11y.canada.ca](https://a11y.canada.ca)
 - [Digital Accessibility Toolkit - Github repository](https://github.com/gc-da11yn/gc-da11yn.github.io)
 
 ## Sharing
@@ -23,8 +23,9 @@ The Digital Accessibility Toolkit (<abbr>DAT</abbr>) will focus on:
 - Collaboration between departments in the open;
 - Reducing time and money spent duplicating or searching for other Government of Canada (<abbr>GC</abbr>) departments accessibility work; and
 - Promoting the accessibility work that we do in the <abbr title="Government of Canada">GC</abbr> on a public space.
+- Working in the open
 
-## Task Force’s Key Role
+## Task force’s key role
 
 The Digital Accessibility Toolkit (<abbr>DAT</abbr>) will leverage accessibility expertise across government, showcase best practices, and promote inclusive design and be accessible by default.
 

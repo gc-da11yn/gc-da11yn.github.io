@@ -1,12 +1,11 @@
 ---
-title: Terms of Reference (ToR)
+title: Terms of Reference
 layout: layouts/base.njk
 description: Terms of reference define the purpose and scope of the project. It includes information regarding the structures of a project, key roles, membership, meeting.
 ---
 
-## Found on this page
+## On this page
 
-- [Found on this page](#found-on-this-page)
 - [Purpose](#purpose)
 - [Key role](#key-role)
 - [Reporting structure](#reporting-structure)
@@ -51,7 +50,7 @@ The key roles will be defined based on the World Wide Web Consortium's (<abbr>W3
 
 Co-chairs will be leaders in the accessibility community within the Government of Canada (<abbr>GC</abbr>). The chair(s) may change over time as appropriate.
 
-The DDigital Accessibility Toolkit (<abbr>DAT</abbr>) operates under the umbrella of the Access Working Group (<abbr>AWG</abbr>) and will make periodic reports to that working group.
+The Digital Accessibility Toolkit (<abbr>DAT</abbr>) operates under the umbrella of the Access Working Group (<abbr>AWG</abbr>) and will make periodic reports to that working group.
 
 ### Mandate and decision-making authority
 
@@ -110,7 +109,7 @@ The Terms of Reference will be reviewed at minimum annually and adjusted as requ
 
 ## Scope
 
-While ideally the project have a four phases approach, the focus of this task force will be on Phase 1 only.
+While ideally the project have a four phases approach, the focus of this task force will be on Phase 1 only as early 2023.
 
 ### Phase 1: Site Architecture (detailed in separate document)
 
