@@ -86,16 +86,16 @@ You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd
 
 ## Alerts
 
-We have three types of alerts that can be used either individually or together in yor webpage and their logic of it can be found in [alert include](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/src/_includes/partials/alerts.njk), as per your needs.
+We have three types of alerts that can be used either individually or together in your webpage, as per your needs and their logic can be found in [alert include](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/src/_includes/partials/alerts.njk)
 
 ### 1) isDraft
 #### What is the function of isDraft
 
-The isDraft variable is used to control whether or not an alert message includes a isDraft message. If the isDraft variable is set to true, the alert message will include the message that the content is still in draft and is not final. If it is  included at all, the "Draft" message will be excluded
+The isDraft variable is used to control whether or not an alert message includes a isDraft message. If the isDraft variable is set to true, the alert message will include the message that the content is still in draft and is not final. If it is  included not at all, the "Draft" message will be excluded
 
 #### How to trigger isDraft
 
-To trigger the isDraft variable in the front matter, you can set its value to true. Here's an example front matter that sets the isDraft variable to true:
+To trigger the isDraft variable in the front matter, you have to set its value to true. Here's an example of front matter that sets the isDraft variable to true:
 
     ---
     isDraft:true
@@ -104,6 +104,40 @@ To trigger the isDraft variable in the front matter, you can set its value to tr
 #### What happens when isDraft is not included
 
 If you don't include the isDraft variable in the front matter of your Markdown file, then the "Draft" message will not be included in the alert message by default. This is because the isDraft variable is used to control whether or not the "Draft" message is included, and if it is not specified in the front matter, it will default to false.
+
+### 2) needsTranslation
+#### What is the function of needsTranslation
+
+The needsTranslation variable is used to indicate whether or not the content needs to be translated to another language. When this is set to true a note is added to the page that tells the reader that the content is only available in one language. When this is set, the language toggle link is also removed from the page
+
+#### How to trigger needsTranslation
+
+To trigger the needsTranslation variable in the front matter, you have to set its value to true, if the content needs to be translated. Here's an example of front matter that sets the needsTranslation variable to true:
+
+    ---
+    needsTranslation:true
+    ---
+
+#### What happens when needsTranslation is not included
+
+If you don't include the needsTranslation variable in the front matter of your Markdown file, then the "needsTranslation" message will not be included in the alert message by default. This is because the needsTranslation variable is used to control whether or not the "needsTranslation" message is included, and if it is not specified in the front matter, it will default to false.
+
+### 3)internalLinks
+#### What is the function of internalLinks
+
+This needs to be set to true on all pages that have links that point to content that can only be accessed from behind the Government of Canada firewall.
+
+#### How to trigger internalLinks
+
+To trigger the internalLinks variable in the front matter, you have to set its value to true, if the website contains internal links that can only be accessed by government of canada. Here's an example of front matter that sets the internalLinks variable to true:
+
+    ---
+    internalLinks:true
+    ---
+
+#### What happens when internalLinks is not included
+
+If you don't include the internalLinks variable in the front matter of your Markdown file, then the "internalLinks" message will not be included in the alert message by default. This is because the internalLinks variable is used to control whether or not the "internalLinks" message is included, and if it is not specified in the front matter, it will default to false.
 ______________________
 <div lang="fr">
 
