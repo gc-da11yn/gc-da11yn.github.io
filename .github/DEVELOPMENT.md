@@ -211,13 +211,69 @@ Votre application de ligne de commande affichera alors quelques informations sur
 
 Vous pouvez également utiliser l'URL `External` pour prévisualiser la copie locale sur un autre appareil connecté au même réseau, ce qui vous permet de vérifier l'aspect et le fonctionnement du site sur des appareils tels que les smartphones. Cela se fait via [Browsersync](https://www.browsersync.io/).
     
-## Mise à jour du site Web
+### Mise à jour du site Web
     
 En sauvegardant les fichiers du projet, Node.js régénérera le site Web pour refléter les changements que vous avez effectués. Votre application de ligne de commande affichera de nouveaux messages pour refléter cela, y compris toute erreur que vous pourriez accidentellement faire. Ne vous inquiétez pas ! Comme le site utilise la version de contrôle, vous ne risquez pas de casser sérieusement quoi que ce soit. Si vous corrigez l'erreur, Node.js devrait continuer à fonctionner.
 
 Assurez-vous d'éditer les fichiers dans le sous-répertoire `src/`. Toute modification faite dans le sous-répertoire `_site` sera écrasée par la prochaine modification d'un fichier dans `src/` et tout votre travail sera perdu !
     
-## Quitter
+### Quitter
     
 Vous pouvez demander à Node.js d'arrêter de s'exécuter en appuyant simultanément sur les touches <kbd>Control</kbd> et <kbd>C</kbd> dans votre application de ligne de commande, ou en fermant la fenêtre ou l'onglet de l'application de ligne de commande.
+
+## Alertes
+
+Nous avons trois types d'alertes qui peuvent être utilisées individuellement ou ensemble dans votre page Web, selon vos besoins et leur logique peut être trouvée dans. [alerte inclure](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/src/_includes/partials/alerts.njk)
+
+### 1) isDraft
+#### Quelle est la fonction de isDraft
+
+La variable isDraft est utilisée pour contrôler si un message d'alerte inclut ou non un message isDraft. Si la variable isDraft est définie sur true, le message d'alerte inclura le message indiquant que le contenu est toujours à l'état de brouillon et qu'il n'est pas final. S'il n'est pas du tout inclus, le message "Brouillon" sera exclu.
+
+#### Comment déclencher isDraft
+
+Pour déclencher la variable isDraft dans le front matter, vous devez définir sa valeur sur true. Voici un exemple d'avant-propos qui définit la variable isDraft sur true:
+
+    ---
+    isDraft:true
+    ---
+
+#### Que se passe-t-il lorsque isDraft n'est pas inclus
+
+Si vous n'incluez pas la variable isDraft dans le front matter de votre fichier Markdown, le message "Draft" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable isDraft est utilisée pour contrôler si oui ou non le message "Brouillon" est inclus, et s'il n'est pas spécifié dans l'avant-propos, il sera faux par défaut.
+
+### 2) needsTranslation
+#### Quelle est la fonction de needsTranslation
+
+La variable needsTranslation est utilisée pour indiquer si le contenu doit ou non être traduit dans une autre langue. Lorsque cette option est définie sur true, une note est ajoutée à la page pour indiquer au lecteur que le contenu n'est disponible que dans une seule langue. Lorsque cette option est définie, le lien de basculement de langue est également supprimé de la page
+
+#### Comment déclencher needsTranslation
+
+Pour déclencher la variable needsTranslation dans le front matter, vous devez définir sa valeur sur true, si le contenu doit être traduit. Voici un exemple d'avant-propos qui définit la variable needsTranslation sur true:
+
+    ---
+    needsTranslation:true
+    ---
+
+#### Que se passe-t-il lorsque needsTranslation n'est pas inclus
+
+Si vous n'incluez pas la variable needsTranslation dans le front matter de votre fichier Markdown, le message "needsTranslation" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable needsTranslation est utilisée pour contrôler si le message "needsTranslation" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à false.
+
+### 3) internalLinks
+#### Quelle est la fonction de internalLinks
+
+Cela doit être défini sur vrai sur toutes les pages qui ont des liens pointant vers du contenu accessible uniquement à partir de derrière le pare-feu du gouvernement du Canada.
+
+#### Comment déclencher internalLinks
+
+Pour déclencher la variable internalLinks dans le front matter, vous devez définir sa valeur sur true, si le site Web contient des liens internes qui ne peuvent être consultés que par le gouvernement du canada. Voici un exemple d'avant-propos qui définit la variable internalLinks sur true:
+
+    ---
+    internalLinks:true
+    ---
+
+#### Que se passe-t-il lorsque internalLinks n'est pas inclus
+
+Si vous n'incluez pas la variable internalLinks dans l'avant-propos de votre fichier Markdown, le message "internalLinks" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable internalLinks est utilisée pour contrôler si le message "internalLinks" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à false.
 </div>
+
