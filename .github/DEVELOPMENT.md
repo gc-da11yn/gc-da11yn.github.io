@@ -83,6 +83,26 @@ Make sure you edit the files in the `src/` subdirectory. Any edits made in the `
 ### Quitting
 
 You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd>C</kbd> keys at the same time in your command line application, or by closing the command line application window or tab.
+
+## Alerts
+
+We have three types of alerts that can be used either individually or together in yor webpage and their logic of it can be found in [alert include](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/src/_includes/partials/alerts.njk), as per your needs.
+
+### 1) isDraft
+#### What is the function of isDraft
+
+The isDraft variable is used to control whether or not an alert message includes a isDraft message. If the isDraft variable is set to true, the alert message will include the message that the content is still in draft and is not final. If it is  included at all, the "Draft" message will be excluded
+
+#### How to trigger isDraft
+
+To trigger the isDraft variable in the front matter, you can set its value to true. Here's an example front matter that sets the isDraft variable to true:
+    ---
+    isDraft:true
+    ---
+
+#### What happens when isDraft is not included
+
+If you don't include the isDraft variable in the front matter of your Markdown file, then the "Draft" message will not be included in the alert message by default. This is because the isDraft variable is used to control whether or not the "Draft" message is included, and if it is not specified in the front matter, it will default to false.
 ______________________
 <div lang="fr">
 
