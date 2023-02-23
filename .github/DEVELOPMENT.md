@@ -122,7 +122,7 @@ To trigger the needsTranslation variable in the front matter, you have to set it
 
 If you don't include the needsTranslation variable in the front matter of your Markdown file, then the "needsTranslation" message will not be included in the alert message by default. This is because the needsTranslation variable is used to control whether or not the "needsTranslation" message is included, and if it is not specified in the front matter, it will default to false.
 
-### 3)internalLinks
+### 3) internalLinks
 #### What is the function of internalLinks
 
 This needs to be set to true on all pages that have links that point to content that can only be accessed from behind the Government of Canada firewall.
