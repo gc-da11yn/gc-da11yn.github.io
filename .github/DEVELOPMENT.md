@@ -96,8 +96,9 @@ The isDraft variable is used to control whether or not an alert message includes
 #### How to trigger isDraft
 
 To trigger the isDraft variable in the front matter, you can set its value to true. Here's an example front matter that sets the isDraft variable to true:
+
     ---
-    isDraft:true
+        isDraft:true
     ---
 
 #### What happens when isDraft is not included
