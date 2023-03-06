@@ -7,7 +7,7 @@
 	</div>
 	<dl id="wb-dtmd">
 		<dt>{{ pagedetails[locale].dateModified }}</dt>
-		<dd><time datetime="{{ post.date | date('YYYY-MM-DD') }}">{{ post.item|date("YYYY-MM-DD", locale) }}</time></dd>
+		<dd><time property="dateModified" datetime="{{ page.date | postDate }}">{{ page.date | postDate }}</time></dd>
 	</dl>
 </div>
 

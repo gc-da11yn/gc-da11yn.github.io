@@ -10,11 +10,13 @@
 
 ## How to Contribute
 
-When contributing, post comments and discuss changes you wish to make via Issues.
+To contribute to our project you can do one of the folowing:
 
-Feel free to propose changes by creating Pull Requests. If you don't have write access, editing a file will create a Fork of this project for you to save your proposed changes to. Submitting a change to a file will write it to a new Branch in your Fork, so you can send a Pull Request.
+- report a problem with the website, you can [open an issue](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose) and choose from one of our issue templates,
+- join in on a [discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) or start a new one, or
+- make a change yourself to the code you can try following our [Development Guide](DEVELOPMENT.md) to create a pull request.
 
-If this is your first time contributing on GitHub, don't worry! Let us know if you have any questions.
+If this is your first time contributing on GitHub, don't worry! Let us know if you have any questions in our [discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions/new?category=q-a).
 
 ### Security
 
@@ -26,11 +28,13 @@ ______________________
 
 ## Comment contribuer
 
-Lorsque vous contribuez, veuillez également publier des commentaires et discuter des modifications que vous souhaitez apporter par l'entremise des enjeux (Issues).
+Pour contribuer à notre projet, vous pouvez faire l'une des choses suivantes&nbsp;:
 
-N'hésitez pas à proposer des modifications en créant des demandes de tirage (Pull Requests). Si vous n'avez pas accès au mode de rédaction, la modification d'un fichier créera une copie (Fork) de ce projet afin que vous puissiez enregistrer les modifications que vous proposez. Le fait de proposer une modification à un fichier l'écrira dans une nouvelle branche dans votre copie (Fork), de sorte que vous puissiez envoyer une demande de tirage (Pull Request).
+- signaler un problème avec le site web, vous pouvez ouvrir un <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose" hreflang="en" lang="en">issue <span lang="fr">(page disponible seulement en anglais)</span></a> et choisir parmi l'un de nos modèles (versions français son disponibles) de questions,
+- participer à une <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions" hreflang="en">discussion</a> ou en lancer une nouvelle, ou
+- apporter vous-même une modification au code, vous pouvez essayer de suivre notre [guide de développement](DEVELOPMENT.md#Développement) pour créer un <span lang="en">pull request</span>.
 
-Si c'est la première fois que vous contribuez à GitHub, ne vous en faites pas! Faites-nous part de vos questions.
+Si c'est la première fois que vous contribuez sur GitHub, ne vous inquiétez pas ! Faites-nous savoir si vous avez des questions, dans la langue de votre choix, dans nos <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions/new?category=q-a">discussion</a>.
 
 ### Sécurité
 

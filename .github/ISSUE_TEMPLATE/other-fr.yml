@@ -1,0 +1,21 @@
+name: Autre
+description: Poser une question, laisser un commentaire, demander de l'aide
+title: "[AUTRE] Résumé de la requête"
+labels: [pending triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+
+        <div lang="fr">
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: Objectif de cette requête
+      description: Posez vos questions, laissez vos commentaires ou demandez de l'aide ici. Vous pouvez y ajouter des captures d'écran et / ou joindre des documents pour les modifications du contenu.
+  - type: markdown
+    attributes:
+      value: |
+
+        </div>

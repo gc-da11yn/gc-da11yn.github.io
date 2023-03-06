@@ -1,0 +1,60 @@
+---
+title: "We couldn't find that Web page (Error 404) / <span lang='fr'>Nous ne pouvons trouver cette page Web (Erreur 404)</span>"
+permalink: 404.html
+---
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="utf-8" />
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>{{ title | striptags(true) | escape | nl2br }}</title>
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<meta name="robots" content="noindex, nofollow, noarchive" />
+		<link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme-srv.css" />
+
+	</head>
+
+	<body vocab="http://schema.org/" resource="#wb-webpage" typeof="WebPage">
+		<header id="wb-bnr" class="container">
+			<div class="row" property="publisher" resource="#wb-publisher" typeof="GovernmentOrganization">
+				<div class="col-sm-6 text-right">
+					<img id="gcwu-sig" src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" /><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+					<meta property="name" content="Government of Canada" />
+					<meta property="name" lang="fr" content="Gouvernement du Canada" />
+					<meta property="areaServed" typeOf="Country" content="Canada" />
+				</div>
+				<div class="col-sm-6">
+					<img id="wmms" src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" property="logo" /><span class="wb-inv"> / <span lang="fr">Government of Canada</span></span>
+				</div>
+			</div>
+		</header>
+		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" class="container">
+			<h1 class="wb-inv">{{ title  | safe }}</h1>
+			<div class="row mrgn-tp-lg">
+
+				<section class="col-md-6">
+					<h2><span class="glyphicon glyphicon-warning-sign mrgn-rght-md" aria-hidden="true"></span>We couldn't find that Web page (Error 404)</h2>
+					<p>We're sorry you ended up here. Sometimes a page gets moved or deleted, but hopefully we can help you find what you're looking for.</p>
+					<ul>
+						<li>Visit our main page of the <a href="/en/">Digital Accessibility Toolkit</a>.</li>
+						<li>Visit <a href="https://www.canada.ca/en.html">Canada.ca</a> </li>
+					</ul>
+				</section>
+
+				<section class="col-md-6" lang="fr">
+					<h2><span class="glyphicon glyphicon-warning-sign mrgn-rght-md" aria-hidden="true"></span>Nous ne pouvons trouver cette page Web (Erreur 404)</h2>
+					<p>Nous sommes désolés que vous avez arrivé sur cette page. Il arrive parfois qu'une page ait été déplacée ou supprimée. Nous espérons que les liens suivants vont vous permettre de trouver ce que vous cherchez.</p>
+					<ul>
+						<li>Visitez notre page principale du <a href="fr">Boîte à outils d'accessibilité numérique</a>.</li>
+						<li>Visitez <a href="https://www.canada.ca/fr.html">Canada.ca</a></li>
+					</ul>
+				</section>
+
+			</div>
+		</main>
+	</body>
+
+</html>

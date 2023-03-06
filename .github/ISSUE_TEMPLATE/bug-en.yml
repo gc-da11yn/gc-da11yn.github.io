@@ -1,0 +1,52 @@
+name: Bug
+description: Create a bug report to help us improve
+title: "[BUG] Feature name - Short description of the bug"
+labels: [pending triage]
+body:
+  - type: textarea
+    id: required-information
+    attributes:
+      label: Describe the bug
+      description: "A clear and concise description of what the bug is. If you found another bug report related to this issue on GitHub, please mention its number e.g. #7890"
+      value: |
+        **To Reproduce**
+        Steps to reproduce the behaviour:
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+
+        **Expected behaviour**
+        A clear and concise description of what you expected to happen.
+
+        **Who shall do the work?**
+        [I will do it, I want to contribute] or [I am asking for someone else to please do the work]
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional information (optional)
+  - type: input
+    id: version-dat
+    attributes:
+      label: Version of gc-da11yn you are using
+  - type: markdown
+    attributes:
+      value: |
+        ### Desktop / Smartphone (please complete the following information)
+  - type: input
+    id: os
+    attributes:
+      label: "OS or Device: (e.g. iOS)"
+  - type: input
+    id: browser
+    attributes:
+      label: "Browser (e.g. Chrome, Safari)"
+  - type: input
+    id: version
+    attributes:
+      label: "Version (e.g. 22)"
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the feature request here. Here you can add screen shots and / or attach documents for changes to content.
