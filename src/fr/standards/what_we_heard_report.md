@@ -4,7 +4,7 @@ layout: layouts/base.njk
 description: Between October 31 and November 30, 2022, the TBS-OCIO Digital Policy & Performance Division undertook a targeted engagement on the Standard on Information and Communication Technology (ICT) Accessibility. The following provides a summary of the key themes and points of feedback from the engagement, as well as steps taken by TBS to address them. Participant feedback has been instrumental in the further development of the standard, and this page represents an opportunity to share some of it with our industry partners and the GC community.
 ---
 
-## Purpose 
+## Objectif 
 
 Entre le 31 octobre et le 30 novembre 2022, la Division de la Politique sur le numérique et du rendement du BDPI du SCT a entrepris un engagement ciblé sur la NATIC.
 
@@ -12,10 +12,9 @@ Cette page offre un résumé des principaux thèmes et points de rétroaction de
 
 Les commentaires des participants ont joué un rôle déterminant dans le développement de la norme, et cette page représente une occasion de partager certains de ces commentaires avec nos partenaires de l’industrie et la communauté du gouvernement du Canada (GC).
 
-
 ## Contexte
 
-- La NATIC entrera en vigueur le 1er avril 2023 dans le cadre de la Politique sur les services et le numérique, qui remplace la Norme sur l’accessibilité des sites Web 
+- La **NATIC** entrera en vigueur l'été 2023 dans le cadre de *la Politique sur les services et le numérique*, qui remplace la *Norme sur l’accessibilité des sites Web* 
 - L’objectif principal de cet engagement était de recueillir des réactions, des idées et des commentaires sur la première phase de la NATIC, tout en identifiant les lacunes potentielles
 - La NATIC contient des exigences visant à rendre accessibles toutes les TIC qui sont développées, achetées ou détenues par le GC.  
     - Conforme à la Politique et à la Directive sur les services et le numérique et aux pratiques exemplaires d’autres administrations (EN 301 549 v3.2.1).
@@ -45,8 +44,8 @@ La NATIC a pour objet de repérer, d’éliminer et de prévenir les obstacles �
 
 ### Commentaire :
 
-- Les répondants ont indiqué que la date d’entrée en vigueur devrait être incluse dans la norme afin qu’ils n’aient pas à faire des allers-retours pour rechercher les échéances et les exigences associées. 
-- Les répondants ont également noté que le format actuel « date d’entrée en vigueur + x mois » peut être source de confusion pour eux. Les délais de conformité doivent être clairement indiqués.
+- Les répondants ont indiqué que **la date d’entrée en vigueur devrait être incluse dans la norme** afin qu’ils n’aient pas à faire des allers-retours pour rechercher les échéances et les exigences associées. 
+- Les répondants ont également noté que le format actuel **« date d’entrée en vigueur + x mois »** peut être source de confusion pour eux. Les délais de conformité doivent être clairement indiqués.
 
 ### Comment nous nous sommes adaptés :
 
@@ -56,7 +55,7 @@ La NATIC a pour objet de repérer, d’éliminer et de prévenir les obstacles �
 
 ### Commentaire:
 
-- Les répondants ont fait remarquer que la norme EN 301 549 n’est publiée qu’en anglais, donc ne leur est pas accessible, et que cela va à l’encontre de l’esprit de la Loi sur les langues officielles. Si nous voulons continuer à faire référence à la norme EN 301 549 dans la NATIC, nous devons nous assurer de rendre disponible une version française de celle-ci.
+- Les répondants ont fait remarquer que la norme EN 301 549 n’est publiée qu’en anglais, donc ne leur est pas accessible, et que cela va à l’encontre de l’esprit de la *Loi sur les langues officielles*. Si nous voulons continuer à faire référence à la norme EN 301 549 dans la NATIC, nous devons nous assurer de rendre disponible une version française de celle-ci.
 
 ### Comment nous nous sommes adaptés:
 
@@ -83,13 +82,13 @@ La NATIC a pour objet de repérer, d’éliminer et de prévenir les obstacles �
 ### Comment nous nous sommes adaptés:
 
 - Auparavant, nous avions une seule exigence qui exigeait aux départements de fournir des documents non-web existants lorsqu'ils étaient demandés. Depuis, nous avons ajouté deux exigences supplémentaires pour être plus proactifs dans l'accessibilité des documents non-web aux ministères. Ces exigences sont les suivantes :
-    - Tous les nouveaux documents non-web extérieurs produits à partir d'un logiciel de traitement de texte, de feuilles de calcul, de présentations ou de fichiers PDF dans un format numérique natif après le 1er avril 2024, doivent être accessibles conformément à l'EN 301 549 V3.2.1;
+    - Tous les nouveaux documents non-web extérieurs produits à partir d'un logiciel de traitement de texte, de feuilles de calcul, de présentations ou de fichiers PDF dans un format numérique natif après l'été 2024, doivent être accessibles conformément à l'EN 301 549 V3.2.1;
     - Tous les modèles de base des documents non-web produits à partir d'un logiciel de traitement de texte, de feuilles de calcul, de présentations ou de fichiers PDF dans un format numérique natif et appartenant aux ministères doivent être conformes à l'EN 301 549 V3.2.1.
 
 ## Les prochaines étapes
 
-- Obtenir les approbations requises pour la norme par le biais du processus de gérance des politiques du BDPI (janvier à mars 2023)
+- Obtenir les approbations requises pour la norme par le biais du processus de gérance des politiques du BDPI (été 2023)
 
-- Publier la phase 1 de la NATIC (avril 2023)
+- Publier la phase 1 de la NATIC (été 2023)
 
-- Publier un guide officiel pour la norme (printemps 2023)
+- Publier un guide officiel pour la norme (été 2023)

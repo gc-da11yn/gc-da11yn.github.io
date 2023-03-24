@@ -12,10 +12,9 @@ The following provides a summary of the key themes and points of feedback from t
 
 Participant feedback has been instrumental in the further development of the standard, and this page represents an opportunity to share some of it with our industry partners and the GC community.
 
-
 ## Context
 
-The Standard on ICT Accessibility will come into effect under the Policy on Service and Digital on April 1, 2023, replacing the Standard on Web Accessibility
+The **Standard on ICT Accessibility** will come into effect under the *Policy on Service and Digital* in Summer 2023, replacing the *Standard on Web Accessibility*
 
 - The main objective of this engagement was to gather feedback, insights, and comments on phase one of the Standard on ICT Accessibility, while identifying potential gaps
 - The Standard on ICT Accessibility contains requirements for making all ICT that is developed, procured, or owned by the GC accessible. 
@@ -46,13 +45,12 @@ The purpose of the Standard on ICT Accessibility is to identify, remove and prev
 
 ### Feedback:
 
--Respondents indicated that the effective date should be included in the standard so that they don’t have go back and forth to look for the timelines and the associated requirements. 
--Respondents also noted the current format “effective date + x month” can be confusing to them. Conformance timelines should be stated clearly.
+-Respondents indicated that the **effective date should be included in the standard** so that they don’t have go back and forth to look for the timelines and the associated requirements. 
+-Respondents also noted the current format **“effective date + x month”** can be confusing to them. Conformance timelines should be stated clearly.
 
 ### How we adapted:
 
--The subsection on compliance timelines was removed and compliance dates were incorporated directly into the requirements.
--For example, the standard now reads as follows: All new enterprise and departmental software after October 1, 2024, must conform with the EN 301 549 V3.2.1
+-The subsection on compliance timelines was removed and **compliance dates were incorporated directly** into the requirements.
 
 ## Theme 2: Official Language requirements
 
@@ -85,13 +83,13 @@ The purpose of the Standard on ICT Accessibility is to identify, remove and prev
 ### How we adapted:
 
 -Previously we had a single requirement that required departments to provide existing non-web documents when requested. We've since added two additional requirements to be more proactive in accessibility of the GC's non-web document, which read:
-    -All new external-facing non-web documents that are produced from a word processing software, spreadsheets, presentations or Portable Document Format (PDF) files in a native digital format after April 1, 2024, must be accessible in conformance with the EN 301 549 V3.2.1;
+    -All new external-facing non-web documents that are produced from a word processing software, spreadsheets, presentations or Portable Document Format (PDF) files in a native digital format after summer 2024, must be accessible in conformance with the EN 301 549 V3.2.1;
     -All base templates of non-web documents that are produced from a word processing software, spreadsheets, presentations or Portable Document Format (PDF) files in a native digital format and owned by the GC organisation must conform with the EN 301 549 V3.2.1
 
 ## Next Steps
 
--Obtain required approvals for the standard through OCIO policy stewardship process (January – March 2023)
+-Obtain required approvals for the standard through OCIO policy stewardship process (Summer 2023)
 
--Publish Phase 1 of the Standard on ICT Accessibility (April 2023)
+-Publish Phase 1 of the Standard on ICT Accessibility (Summer 2023)
 
--Publish official standard guidance (Spring 2023)
+-Publish official standard guidance (Summer 2023)
