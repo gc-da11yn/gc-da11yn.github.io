@@ -110,15 +110,76 @@ The `npm run start` command is used to build the `_site` folder with all the fil
 
 The script also runs a websever on your machine for you to view the site locally, usually set at _http://localhost:8081_ or the nearest unused port to **8081**, if it's in use.
 
-## Updating the website
+### Updating the website
 
 Saving project files will make Node.js regenerate the website to reflect the changes you made. Your command line application will display some new messaging to reflect this, including any errors you might accidentally make. Don't worry! Since the site uses version control, you're not in danger of seriously breaking anything. If you fix the error, Node.js should continue to run.
 
 Make sure you edit the files in the `src/` subdirectory. Any edits made in the `_site` subdirectory will be overwritten by the next change to any file in `src/` and all your hard work will be lost!
 
-## Quitting
+### Quitting
 
 You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd>C</kbd> keys at the same time in your command line application, or by closing the command line application window or tab.
+
+## Alerts
+
+We have three types of alerts that can be used either individually or together in your webpage, as per your needs and their logic can be found in [alert include](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/src/_includes/partials/alerts.njk)
+
+### isDraft
+#### What is the function of isDraft
+
+The `isDraft` variable is used to control whether or not an alert message includes a `isDraft` message. If the `isDraft` variable is set to `true`, the alert message will include the message that the content is still in draft and is not final. If it is  included not at all, the "Draft" message will be excluded
+
+#### How to trigger isDraft
+
+To trigger the `isDraft` variable in the front matter, you have to set its value to `true`. Here's an example of front matter that sets the `isDraft` variable to `true`:
+
+    ```
+    ---
+    isDraft: true
+    ---
+    ```
+
+#### What happens when isDraft is not included
+
+If you don't include the `isDraft` variable in the front matter of your Markdown file, then the "Draft" message will not be included in the alert message by default. This is because the `isDraft` variable is used to control whether or not the "Draft" message is included, and if it is not specified in the front matter, it will default to false.
+
+### needsTranslation
+#### What is the function of needsTranslation
+
+The `needsTranslation` variable is used to indicate whether or not the content needs to be translated to another language. When this is set to `true` a note is added to the page that tells the reader that the content is only available in one language. When this is set, the language toggle link is also removed from the page
+
+#### How to trigger needsTranslation
+
+To trigger the `needsTranslation` variable in the front matter, you have to set its value to `true`, if the content needs to be translated. Here's an example of front matter that sets the `needsTranslation` variable to `true`:
+
+    ```
+    ---
+    needsTranslation:true
+    ---
+    ```
+
+#### What happens when needsTranslation is not included
+
+If you don't include the `needsTranslation` variable in the front matter of your Markdown file, then the "needsTranslation" message will not be included in the alert message by default. This is because the `needsTranslation` variable is used to control whether or not the "needsTranslation" message is included, and if it is not specified in the front matter, it will default to `false`.
+
+### internalLinks
+#### What is the function of internalLinks
+
+This needs to be set to `true` on all pages that have links that point to content that can only be accessed from behind the Government of Canada firewall.
+
+#### How to trigger internalLinks
+
+To trigger the `internalLinks` variable in the front matter, you have to set its value to `true`, if the website contains internal links that can only be accessed by government of canada. Here's an example of front matter that sets the `internalLinks` variable to `true`:
+
+    ```
+    ---
+    internalLinks:true
+    ---
+    ```
+
+#### What happens when internalLinks is not included
+
+If you don't include the `internalLinks` variable in the front matter of your Markdown file, then the "internalLinks" message will not be included in the alert message by default. This is because the `internalLinks` variable is used to control whether or not the "internalLinks" message is included, and if it is not specified in the front matter, it will default to `false`.
 ______________________
 <div lang="fr">
 
@@ -229,13 +290,75 @@ La commande `npm run start` est utilisée pour construire le dossier `_site` ave
 
 Le script exécute également un websever sur votre machine pour vous permettre de visualiser le site localement, généralement sur _http://localhost:8081_ ou sur le port inutilisé le plus proche de **8081**, s'il est utilisé.
 
-## Mise à jour du site Web
+### Mise à jour du site Web
 
 En sauvegardant les fichiers du projet, Node.js régénérera le site Web pour refléter les changements que vous avez effectués. Votre application de ligne de commande affichera de nouveaux messages pour refléter cela, y compris toute erreur que vous pourriez accidentellement faire. Ne vous inquiétez pas ! Comme le site utilise la version de contrôle, vous ne risquez pas de casser sérieusement quoi que ce soit. Si vous corrigez l'erreur, Node.js devrait continuer à fonctionner.
 
 Assurez-vous d'éditer les fichiers dans le sous-répertoire `src/`. Toute modification faite dans le sous-répertoire `_site` sera écrasée par la prochaine modification d'un fichier dans `src/` et tout votre travail sera perdu !
 
-## Quitter
+### Quitter
 
 Vous pouvez demander à Node.js d'arrêter de s'exécuter en appuyant simultanément sur les touches <kbd>Control</kbd> et <kbd>C</kbd> dans votre application de ligne de commande, ou en fermant la fenêtre ou l'onglet de l'application de ligne de commande.
+
+## Alertes
+
+Nous avons trois types d'alertes qui peuvent être utilisées individuellement ou ensemble dans votre page Web, selon vos besoins et leur logique peut être trouvée dans. [alerte inclure](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/src/_includes/partials/alerts.njk)
+
+### isDraft
+#### Quelle est la fonction de isDraft
+
+La variable `isDraft` est utilisée pour contrôler si un message d'alerte inclut ou non un message `isDraft`. Si la variable `isDraft` est définie sur `true`, le message d'alerte inclura le message indiquant que le contenu est toujours à l'état de brouillon et qu'il n'est pas final. S'il n'est pas du tout inclus, le message "Brouillon" sera exclu.
+
+#### Comment déclencher isDraft
+
+Pour déclencher la variable `isDraft` dans le front matter, vous devez définir sa valeur sur `true`. Voici un exemple d'avant-propos qui définit la variable `isDraft` sur `true`:
+
+    ```
+    ---
+    isDraft:true
+    ---
+    ```
+
+#### Que se passe-t-il lorsque isDraft n'est pas inclus
+
+Si vous n'incluez pas la variable `isDraft` dans le front matter de votre fichier Markdown, le message "Draft" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `isDraft` est utilisée pour contrôler si oui ou non le message "Brouillon" est inclus, et s'il n'est pas spécifié dans l'avant-propos, il sera faux par défaut.
+
+### needsTranslation
+#### Quelle est la fonction de needsTranslation
+
+La variable `needsTranslation` est utilisée pour indiquer si le contenu doit ou non être traduit dans une autre langue. Lorsque cette option est définie sur `true`, une note est ajoutée à la page pour indiquer au lecteur que le contenu n'est disponible que dans une seule langue. Lorsque cette option est définie, le lien de basculement de langue est également supprimé de la page
+
+#### Comment déclencher needsTranslation
+
+Pour déclencher la variable `needsTranslation` dans le front matter, vous devez définir sa valeur sur `true`, si le contenu doit être traduit. Voici un exemple d'avant-propos qui définit la variable `needsTranslation` sur `true`:
+
+    ```
+    ---
+    needsTranslation:true
+    ---
+    ```
+
+#### Que se passe-t-il lorsque needsTranslation n'est pas inclus
+
+Si vous n'incluez pas la variable `needsTranslation` dans le front matter de votre fichier Markdown, le message "needsTranslation" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `needsTranslation` est utilisée pour contrôler si le message "needsTranslation" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à `false`.
+
+### internalLinks
+#### Quelle est la fonction de internalLinks
+
+Cela doit être défini sur vrai sur toutes les pages qui ont des liens pointant vers du contenu accessible uniquement à partir de derrière le pare-feu du gouvernement du Canada.
+
+#### Comment déclencher internalLinks
+
+Pour déclencher la variable `internalLinks` dans le front matter, vous devez définir sa valeur sur `true`, si le site Web contient des liens internes qui ne peuvent être consultés que par le gouvernement du canada. Voici un exemple d'avant-propos qui définit la variable `internalLinks` sur `true`:
+
+    ```
+    ---
+    internalLinks:true
+    ---
+    ```
+
+#### Que se passe-t-il lorsque internalLinks n'est pas inclus
+
+Si vous n'incluez pas la variable `internalLinks` dans l'avant-propos de votre fichier Markdown, le message "internalLinks" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `internalLinks` est utilisée pour contrôler si le message "internalLinks" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à `false`.
 </div>
+
