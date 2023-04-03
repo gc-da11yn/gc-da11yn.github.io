@@ -36,60 +36,58 @@ The purpose of the Standard on ICT Accessibility is to identify, remove and prev
 
 ## Themes from Commentary Include:
 
--Simplify the Effective date and deadline for compliance
--Official Language requirements
--Supporting guidance is essential for departments to understand and implement the standard requirements
--Accessibility as an ongoing commitment for the GC
+- Simplify the Effective date and deadline for compliance
+- Official Language requirements
+- Supporting guidance is essential for departments to understand and implement the standard requirements
+- Accessibility as an ongoing commitment for the GC
 
 ## Theme 1: Simplify the effective date and deadline for compliance
 
 ### Feedback:
 
--Respondents indicated that the **effective date should be included in the standard** so that they don’t have go back and forth to look for the timelines and the associated requirements. 
--Respondents also noted the current format **“effective date + x month”** can be confusing to them. Conformance timelines should be stated clearly.
+- Respondents indicated that the **effective date should be included in the standard** so that they don’t have go back and forth to look for the timelines and the associated requirements. 
+- Respondents also noted the current format **“effective date + x month”** can be confusing to them. Conformance timelines should be stated clearly.
 
 ### How we adapted:
 
--The subsection on compliance timelines was removed and **compliance dates were incorporated directly** into the requirements.
+- The subsection on compliance timelines was removed and **compliance dates were incorporated directly** into the requirements.
 
 ## Theme 2: Official Language requirements
 
 ### Feedback:
 
--Respondents commented that the EN 301 549 standard is only published in English, which is not accessible to them, and it goes against the spirit of the Official Languages Act. If we want to keep referring to the EN 301 549 in the Standard on ICT Accessibility, we must ensure that there is a French version of the EN 301 549 available as well.
+- Respondents commented that the EN 301 549 standard is only published in English, which is not accessible to them, and it goes against the spirit of the Official Languages Act. If we want to keep referring to the EN 301 549 in the Standard on ICT Accessibility, we must ensure that there is a French version of the EN 301 549 available as well.
 
 ### How we adapted:
 
--TBS-OCIO will be publishing the EN 301 549 requirements in both official languages.
+- TBS-OCIO will be publishing the EN 301 549 requirements in both official languages.
 
 ## Theme 3: Supporting guidance is essential for departments to understand and implement the standard requirements
 
 ### Feedback:
 
--Respondents commented that the EN 301 549 standard is too technical to comprehend and was not written in plain language, including clearer definitions.
--Respondents inquired about the details regarding accessibility training, tools and conformance testing. 
+- Respondents commented that the EN 301 549 standard is too technical to comprehend and was not written in plain language, including clearer definitions.
+- Respondents inquired about the details regarding accessibility training, tools and conformance testing. 
 
 ### How we adapted:
 
--Implementation guidance will also be published in plain language to better support departments understand the requirements in the EN 301 549 and successfully implement phase one. 
--Definitions has been removed in the final version of the standard and will instead be featured in the  standard guidance that will follow. 
+- Implementation guidance will also be published in plain language to better support departments understand the requirements in the EN 301 549 and successfully implement phase one. 
+- Definitions has been removed in the final version of the standard and will instead be featured in the  standard guidance that will follow. 
 
 ## Theme 4: Accessibility as an ongoing commitment for the GC
 
 ### Feedback:
 
--Respondents noted our requirements could go further and we could be doing more (especially as it relates to non-web documents). 
+- Respondents noted our requirements could go further and we could be doing more (especially as it relates to non-web documents). 
 
 ### How we adapted:
 
--Previously we had a single requirement that required departments to provide existing non-web documents when requested. We've since added two additional requirements to be more proactive in accessibility of the GC's non-web document, which read:
-    -All new external-facing non-web documents that are produced from a word processing software, spreadsheets, presentations or Portable Document Format (PDF) files in a native digital format after summer 2024, must be accessible in conformance with the EN 301 549 V3.2.1;
-    -All base templates of non-web documents that are produced from a word processing software, spreadsheets, presentations or Portable Document Format (PDF) files in a native digital format and owned by the GC organisation must conform with the EN 301 549 V3.2.1
+- Previously we had a single requirement that required departments to provide existing non-web documents when requested. We've since added two additional requirements to be more proactive in accessibility of the GC's non-web document, which read:
+    - All new external-facing non-web documents that are produced from a word processing software, spreadsheets, presentations or Portable Document Format (PDF) files in a native digital format after summer 2024, must be accessible in conformance with the EN 301 549 V3.2.1;
+    - All base templates of non-web documents that are produced from a word processing software, spreadsheets, presentations or Portable Document Format (PDF) files in a native digital format and owned by the GC organisation must conform with the EN 301 549 V3.2.1
 
 ## Next Steps
 
--Obtain required approvals for the standard through OCIO policy stewardship process (Summer 2023)
-
--Publish Phase 1 of the Standard on ICT Accessibility (Summer 2023)
-
--Publish official standard guidance (Summer 2023)
+- Obtain required approvals for the standard through OCIO policy stewardship process (Summer 2023)
+- Publish Phase 1 of the Standard on ICT Accessibility (Summer 2023)
+- Publish official standard guidance (Summer 2023)

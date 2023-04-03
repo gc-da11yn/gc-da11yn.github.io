@@ -35,10 +35,10 @@ La NATIC a pour objet de repérer, d’éliminer et de prévenir les obstacles �
 
 ## Les thèmes abordés dans les commentaires incluent :
 
--Simplifier la date d’entrée en vigueur et le délai de mise en conformité
--Exigences en matière de langues officielles
--Des conseils de soutien sont essentiels pour que les ministères comprennent et mettent en œuvre les exigences de la norme
--L’accessibilité comme engagement permanent pour le GC
+- Simplifier la date d’entrée en vigueur et le délai de mise en conformité
+- Exigences en matière de langues officielles
+- Des conseils de soutien sont essentiels pour que les ministères comprennent et mettent en œuvre les exigences de la norme
+- L’accessibilité comme engagement permanent pour le GC
 
 ## Thème 1 : Simplifier la date d’entrée en vigueur et le délai de mise en conformité
 
@@ -88,7 +88,5 @@ La NATIC a pour objet de repérer, d’éliminer et de prévenir les obstacles �
 ## Les prochaines étapes
 
 - Obtenir les approbations requises pour la norme par le biais du processus de gérance des politiques du BDPI (été 2023)
-
 - Publier la phase 1 de la NATIC (été 2023)
-
 - Publier un guide officiel pour la norme (été 2023)
