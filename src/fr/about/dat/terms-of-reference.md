@@ -1,9 +1,10 @@
 ---
 title: Mandats
 layout: layouts/base.njk
-description: Le cadre de référence définit l’objet et la portée du projet. Il comprend des informations sur la structures du projet, les rôles clés, les membres, le fonctionnement.
+description: Le cadre de référence définit l’objet et la portée du projet de la Boîte à outils de l'accessibilité numérique. Il comprend des informations sur la structures du projet, les rôles clés, les membres, le fonctionnement, etc.
 ---
 
+## Sur cette page
 - [Objectif](#objectif)
 - [Rôle essentiel](#rôle-essentiel)
 - [Structure de rapport](#structure-de-rapport)

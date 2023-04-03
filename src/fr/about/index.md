@@ -6,7 +6,7 @@ description: Apprenez-en davantage sur les organisations, les projets et les per
 
 <div class="row wb-eqht">
 	<div class="col-md-6">
-		<h2 class="h3"><a href="./dat">A propos du projet</a></h2>
+		<h2 class="h3"><a href="./dat">Projet de la Boîte à outils de l'accessibilité numériqu</a></h2>
 A propos du projet, qui nous sommes et quel est notre but.
 	</div>
 	<div class="col-md-6">

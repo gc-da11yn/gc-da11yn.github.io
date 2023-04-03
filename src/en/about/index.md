@@ -6,8 +6,8 @@ description: Learn more about the organizations, projects and people that are wo
 
 <div class="row wb-eqht-grd">
 	<div class="col-md-6">
-		<h2 class="h3"><a href="./dat/">About the project</a></h2>
-Who we are and what is our goal.
+		<h2 class="h3"><a href="./dat/">Digital Accessibility Toolkit project</a></h2>
+About the project, who we are and what is our goal.
 	</div>
 	<div class="col-md-6">
 		<h2 class="h3"><a href="./organizations">Government departments working in accessibility</a></h2>
