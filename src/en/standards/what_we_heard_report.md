@@ -1,7 +1,7 @@
 ---
 title: "What We Heard Report: Standard on Information and Communication Technology Accessibility (SICTA)"
 layout: layouts/base.njk
-description: Between October 31 and November 30, 2022, the TBS-OCIO Digital Policy & Performance Division undertook a targeted engagement on the Standard on Information and Communication Technology (ICT) Accessibility. The following provides a summary of the key themes and points of feedback from the engagement, as well as steps taken by TBS to address them. Participant feedback has been instrumental in the further development of the standard, and this page represents an opportunity to share some of it with our industry partners and the GC community.
+description: Between October 31 and November 30, 2022, the Treasury Board of Canada Secretariat - Office of the Chief Information Officer (TBS-OCIO) Digital Policy & Performance Division undertook a targeted engagement on the *Standard on Information and Communication Technology (ICT) Accessibility*. This page details the key themes that emerged and next steps to be taken in relation to the standard.
 ---
 
 ## Purpose 

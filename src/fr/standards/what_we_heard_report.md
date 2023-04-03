@@ -1,7 +1,7 @@
 ---
 title: "Rapport sur ce que nous avons entendu : Norme d’accessibilité des technologies de l’information et des communications (NATIC)"
 layout: layouts/base.njk
-description: Between October 31 and November 30, 2022, the TBS-OCIO Digital Policy & Performance Division undertook a targeted engagement on the Standard on Information and Communication Technology (ICT) Accessibility. The following provides a summary of the key themes and points of feedback from the engagement, as well as steps taken by TBS to address them. Participant feedback has been instrumental in the further development of the standard, and this page represents an opportunity to share some of it with our industry partners and the GC community.
+description: Entre le 31 octobre et le 30 novembre 2022, la Division de la politique numérique et de la performance du Secrétariat du Conseil du Trésor du Canada - Bureau du dirigeant principal de l'information (SCT-BDPI) a entrepris un engagement ciblé sur la *Norme d'accessibilité des technologies de l'information et de la communication (TIC)*. Cette page détaille les principaux thèmes qui ont émergé et les prochaines étapes à suivre en ce qui concerne la norme.
 ---
 
 ## Objectif 
