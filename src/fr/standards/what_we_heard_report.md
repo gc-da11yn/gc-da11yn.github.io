@@ -4,7 +4,29 @@ layout: layouts/base.njk
 description: "Entre le 31 octobre et le 30 novembre 2022, la Division de la politique numérique et de la performance du Secrétariat du Conseil du Trésor du Canada - Bureau du dirigeant principal de l'information (<abbr>SCT-BDPI</abbr>) a entrepris un engagement ciblé sur la <em>Norme d'accessibilité des technologies de l'information et de la communication (<abbr>TIC</abbr>)</em>. Cette page détaille les principaux thèmes qui ont émergé et les prochaines étapes à suivre en ce qui concerne la norme."
 ---
 
-## Objectif 
+<div class="row">
+
+  <div class="col-md-4 col-md-push-8 mrgn-tp-lg">
+    <a class="gc-dwnld-lnk" href="/docs/sitka-wwhr-fr.pptx">
+      <div class="well gc-dwnld">
+        <div class="row">
+          <div class="col-xs-4">
+            <p><img class="img-responsive thumbnail gc-dwnld-img" src="/img/doc.png" alt=""></p>
+          </div>
+          <div class="col-xs-8">
+            <p class="gc-dwnld-txt">
+              <span>{{ title }}</span>
+              <span class="gc-dwnld-info">(<abbr title="PowerPoint Presentations">PPT</abbr>, 149 <abbr title="KiloByte">Ko</abbr>)</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+<div class="col-md-8 col-md-pull-4">
+
+## Objectif
 
 Entre le 31 octobre et le 30 novembre 2022, la Division de la Politique sur le numérique et du rendement du BDPI du SCT a entrepris un engagement ciblé sur la NATIC.
 
@@ -12,14 +34,18 @@ Cette page offre un résumé des principaux thèmes et points de rétroaction de
 
 Les commentaires des participants ont joué un rôle déterminant dans le développement de la norme, et cette page représente une occasion de partager certains de ces commentaires avec nos partenaires de l’industrie et la communauté du gouvernement du Canada (GC).
 
+</div>
+
+</div>
+
 ## Contexte
 
 - La **NATIC** entrera en vigueur l'été 2023 dans le cadre de *la Politique sur les services et le numérique*, qui remplace la *Norme sur l’accessibilité des sites Web* 
 - L’objectif principal de cet engagement était de recueillir des réactions, des idées et des commentaires sur la première phase de la NATIC, tout en identifiant les lacunes potentielles
 - La NATIC contient des exigences visant à rendre accessibles toutes les TIC qui sont développées, achetées ou détenues par le GC.  
-    - Conforme à la Politique et à la Directive sur les services et le numérique et aux pratiques exemplaires d’autres administrations (EN 301 549 v3.2.1).
-    - Rendre opérationnel le principe du « rien sans nous »
-    - S’appuie sur les leçons apprises
+  - Conforme à la Politique et à la Directive sur les services et le numérique et aux pratiques exemplaires d’autres administrations (EN 301 549 v3.2.1).
+  - Rendre opérationnel le principe du « rien sans nous »
+  - S’appuie sur les leçons apprises
 
 ## Objectif de la Norme
 
@@ -31,7 +57,7 @@ La NATIC a pour objet de repérer, d’éliminer et de prévenir les obstacles �
 - Nous avons consulté les principales parties prenantes, notamment les partenaires du GC, les experts en matière d’accessibilité, les réseaux de personnes handicapées, les centres de décision pertinents, les réseaux d’échange de données informatisées et certains partenaires externes de l’industrie.
 - Nous avons appliqué une approche d’engagement inclusif pour impliquer les partenaires traditionnels et non traditionnels par une combinaison de communication ciblée, de discussions bilatérales, de réunions intersectorielles et de forums existants dont nous avons tirés parti. Cela s’est traduit par un niveau d’engagement plus élevé de la part de parties prenantes possédant un large éventail de compétences, de connaissances et d’expériences. 
 - Pour permettre une certaine souplesse, les parties prenantes ont été invitées à soumettre leurs commentaires par le biais d’un formulaire MS, d’un courriel ou en ligne (via GitHub) :
-    -  Nous avons reçu environ 85 réponses et 510 commentaires uniques
+  - Nous avons reçu environ 85 réponses et 510 commentaires uniques
 
 ## Les thèmes abordés dans les commentaires incluent :
 
@@ -53,17 +79,17 @@ La NATIC a pour objet de repérer, d’éliminer et de prévenir les obstacles �
 
 ## Thème 2 : Exigences en matière de langues officielles
 
-### Commentaire:
+### Commentaire :
 
 - Les répondants ont fait remarquer que la norme EN 301 549 n’est publiée qu’en anglais, donc ne leur est pas accessible, et que cela va à l’encontre de l’esprit de la *Loi sur les langues officielles*. Si nous voulons continuer à faire référence à la norme EN 301 549 dans la NATIC, nous devons nous assurer de rendre disponible une version française de celle-ci.
 
-### Comment nous nous sommes adaptés:
+### Comment nous nous sommes adaptés :
 
 - Le BDPI du SCT publiera les exigences EN 301 549 dans les deux langues officielles. 
 
 ## Thème 3 : Des conseils de soutien sont essentiels pour que les ministères comprennent et mettent en œuvre les exigences de la norme
 
-### Commentaire:
+### Commentaire :
 
 - Les répondants ont indiqué que la norme EN 301 549 est trop technique pour être comprise et qu’elle n’a pas été rédigée dans un langage clair, avec des définitions plus claires.
 - Les répondants ont demandé des précisions sur la formation à l’accessibilité, les outils et les tests de conformité. 
@@ -75,15 +101,15 @@ La NATIC a pour objet de repérer, d’éliminer et de prévenir les obstacles �
 
 ## Thème 4 : L’accessibilité comme engagement permanent pour le GC
 
-### Commentaire:
+### Commentaire :
 
 - Les répondants ont noté que nos exigences pourraient aller plus loin et que nous pourrions en faire plus (surtout en ce qui concerne les documents qui ne sont pas sur le Web). 
 
-### Comment nous nous sommes adaptés:
+### Comment nous nous sommes adaptés :
 
 - Auparavant, nous avions une seule exigence qui exigeait aux départements de fournir des documents non-web existants lorsqu'ils étaient demandés. Depuis, nous avons ajouté deux exigences supplémentaires pour être plus proactifs dans l'accessibilité des documents non-web aux ministères. Ces exigences sont les suivantes :
-    - Tous les nouveaux documents non-web extérieurs produits à partir d'un logiciel de traitement de texte, de feuilles de calcul, de présentations ou de fichiers PDF dans un format numérique natif après l'été 2024, doivent être accessibles conformément à l'EN 301 549 V3.2.1;
-    - Tous les modèles de base des documents non-web produits à partir d'un logiciel de traitement de texte, de feuilles de calcul, de présentations ou de fichiers PDF dans un format numérique natif et appartenant aux ministères doivent être conformes à l'EN 301 549 V3.2.1.
+  - Tous les nouveaux documents non-web extérieurs produits à partir d'un logiciel de traitement de texte, de feuilles de calcul, de présentations ou de fichiers PDF dans un format numérique natif après l'été 2024, doivent être accessibles conformément à l'EN 301 549 V3.2.1;
+  - Tous les modèles de base des documents non-web produits à partir d'un logiciel de traitement de texte, de feuilles de calcul, de présentations ou de fichiers PDF dans un format numérique natif et appartenant aux ministères doivent être conformes à l'EN 301 549 V3.2.1.
 
 ## Les prochaines étapes
 
