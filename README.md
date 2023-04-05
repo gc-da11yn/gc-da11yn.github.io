@@ -40,7 +40,7 @@ The key roles will be defined based on the W3C's [ARRM Project - Accessibility R
 
 To promote the great work we do in the field of digital accessibility within the GC and to have a centralized place to share our documentation.
 
-### How to Contribute
+### How to contribute
 
 Got an idea, suggestion, opinion? We want to hear from you in our [Discussions](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) section.
 
@@ -56,11 +56,11 @@ The Canada wordmark and related graphics associated with this distribution are p
 
 <div lang="fr">
 
-## Boîte à Outils d'Accessibilité Numérique
+## Boîte à outils d'accessibilité numérique
 
 Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles dans les deux langues officielles.
 
-### Quel est ce Projet?
+### Qu'est-ce projet?
 
 Un **espace de partage** pour les ressources créées par les employés du gouvernement du Canada (GC) à promouvoir dans le cadre de la transparence. Suite à la [Directive sur le gouvernement ouvert] du Secrétariat du Conseil du Trésor du Canada. (https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28108).
 
@@ -74,27 +74,27 @@ Les types d'informations relatives à l'accessibilité numérique à partager so
 
 Pour obtenir de la documentation sur les groupes de travail créés pour ce projet, consultez les [Termes de référence (ToR)](.github/TERMS_OF_REFERENCE.md).
 
-### Comment ça Marche?
+### Comment ça marche?
 
 Consultez nos procédure de [DEVELOPMENT.md](.github/DEVELOPMENT.md#développement) pour plus de détails afin de proposer des changements.
 
-### Qui Utilisera ce Projet?
+### Qui utilisera ce projet?
 
 Le contenu a été créé à l'intention des employés du GC, mais il peut être utile pour toute personne travaillant dans le domaine de l'accessibilité numérique.
 
-#### Rôles Principaux
+#### Rôles principaux
 
 Les rôles principaux seront définis sur la base du projet [ARRM - Accessibility Roles and Responsibilities Mapping] (https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) du W3C
 
-### Quel est le But de ce Projet?
+### Quel est le but de ce projet?
 
 Promouvoir l'excellent travail que nous faisons dans le domaine de l'accessibilité numérique au sein du GC et disposer d'un lieu centralisé pour partager notre documentation.
 
-### Comment Contribuer
+### Comment contribuer
 
 Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre [Section de Discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
 
-Consultez [CONTRIBUTING.md](.github/CONTRIBUTING.md) pour plus de détails.
+Consultez nos procédure de [DEVELOPMENT.md](.github/DEVELOPMENT.md#développement) pour plus de détails afin de proposer des changements.
 
 ### Licence
 
