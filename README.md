@@ -62,7 +62,7 @@ Ce projet en est aux premiers stades de développement et de planification, tout
 
 ### Qu'est-ce projet?
 
-Un **espace de partage** pour les ressources créées par les employés du gouvernement du Canada (GC) à promouvoir dans le cadre de la transparence. Suite à la [Directive sur le gouvernement ouvert] du Secrétariat du Conseil du Trésor du Canada. (https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28108).
+C'est un **espace de partage** pour les ressources créées par les employés du gouvernement du Canada (GC) à ---promouvoir dans le cadre de la transparence---. Suite à la [Directive sur le gouvernement ouvert] du Secrétariat du Conseil du Trésor du Canada. (https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=28108).
 
 Les types d'informations relatives à l'accessibilité numérique à partager sont:
 
@@ -82,19 +82,19 @@ Consultez nos procédure de [DEVELOPMENT.md](.github/DEVELOPMENT.md#développeme
 
 Le contenu a été créé à l'intention des employés du GC, mais il peut être utile pour toute personne travaillant dans le domaine de l'accessibilité numérique.
 
-#### Rôles principaux
+### Objectif du projet
 
 Les rôles principaux seront définis sur la base du projet [ARRM - Accessibility Roles and Responsibilities Mapping] (https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) du W3C
 
 ### Quel est le but de ce projet?
 
-Promouvoir l'excellent travail que nous faisons dans le domaine de l'accessibilité numérique au sein du GC et disposer d'un lieu centralisé pour partager notre documentation.
+Promouvoir le travail que nous faisons dans le domaine de l'accessibilité numérique au sein du GC et de regrouper notre documentation dans un site web centralisé afin de faciliter le partage et l'accès à l'information.
 
 ### Comment contribuer
 
-Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre [Section de Discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
+Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre [section de discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) sur GitHub. Cette section est disponible seulement en anglais mais vous pouvez initier et participer à des discussion dans la langue de votre choix. 
 
-Consultez nos procédure de [DEVELOPMENT.md](.github/DEVELOPMENT.md#développement) pour plus de détails afin de proposer des changements.
+Consultez [CONTRIBUTING.md](.github/CONTRIBUTING.md) pour plus de détails.
 
 ### Licence
 
