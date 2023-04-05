@@ -56,7 +56,7 @@ The Canada wordmark and related graphics associated with this distribution are p
 
 <div lang="fr">
 
-## Boîte à outils d'accessibilité numérique
+## Boîte à Outils d'Accessibilité Numérique
 
 Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles dans les deux langues officielles.
 
@@ -90,7 +90,7 @@ Les rôles principaux seront définis sur la base du projet [ARRM - Accessibilit
 
 Promouvoir le travail que nous faisons dans le domaine de l'accessibilité numérique au sein du GC et de regrouper notre documentation dans un site web centralisé afin de faciliter le partage et l'accès à l'information.
 
-### Comment contribuer
+### Comment Contribuer
 
 Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre [section de discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) sur GitHub. Cette section est disponible seulement en anglais mais vous pouvez initier et participer à des discussion dans la langue de votre choix. 
 

@@ -1,0 +1,53 @@
+name: Demande de modification
+description: Demander une modification d'une page du site
+title: "[MODIFICATION] Brève description de la page"
+labels: [pending triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+
+        <div lang="fr">
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Quelle page fait l'objet de la demande de modification ? Veuillez fournir l'URI.
+  - type: dropdown
+    id: approval-needed
+    attributes:
+      label: Approbation nécessaire ?
+      multiple: false
+      options:
+        - "Non"
+        - "Oui, j'ai besoin d'approuver cette demande avant que le changement ne soit effectif"
+  - type: input
+    id: approver
+    attributes:
+      label: "Oui, veuillez envoyer une demande à la personne suivante?"
+  - type: checkboxes
+    id: do-the-work
+    attributes:
+      label: "Qui devrait travailler à développer ce changement ?"
+      options:
+        - label: "Je vais le faire, je veux contribuer"
+        - label: "Je demande à quelqu'un d'autre de faire le travail s’il vous plaît"
+  - type: markdown
+    attributes:
+      value: |
+        ## Information additionnelle (optionel)
+  - type: input
+    id: deadline
+    attributes:
+      label: Échéance
+      description: "Y-a-t'il une échéance relié à cette requête? Si oui, veuillez brièvement expliquer pourquoi et fournissez une date (YYYY-MM-DD))"
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Contexte additionnel
+      description: Ajoutez du contexte en rapport avec la fonctionnalité ici. Vous pouvez y ajouter des captures d'écran et / ou joindre des documents pour les modifications du contenu.
+  - type: markdown
+    attributes:
+      value: |
+
+        </div>
