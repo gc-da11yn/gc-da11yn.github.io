@@ -62,7 +62,7 @@ Ce projet en est aux premiers stades de développement et de planification, tout
 
 ### Qu'est-ce projet?
 
-C'est un **espace de partage** pour les ressources créées par les employés du gouvernement du Canada (GC) à promouvoir dans le cadre de la transparence. Suite à la [Directive sur le gouvernement ouvert du Secrétariat du Conseil du Trésor du Canada.] (https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=28108).
+C'est un **espace de partage** pour les ressources créées par les employés du gouvernement du Canada (GC) à promouvoir dans le cadre de la transparence. Suite à la [Directive sur le gouvernement ouvert du Secrétariat du Conseil du Trésor du Canada] (https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=28108).
 
 Les types d'informations relatives à l'accessibilité numérique à partager sont:
 
