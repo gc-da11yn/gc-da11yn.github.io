@@ -18,21 +18,21 @@
 	<link rel="stylesheet" href="//www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
 	<link rel="stylesheet" href="{{ rootPath }}css/da11yn.css">
 
-	{% if settings.env != "dev" %}
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
-		<script>
-			var host = window.location.hostname;
-			if (host != "localhost") {
-				window.dataLayer = window.dataLayer || [];
-				function gtag() {
-					dataLayer.push(arguments);
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+	<script>
+		(function (w) {
+			"use strict";
+			var dl = "dataLayer";
+			if (w.location.hostname === "a11y.canada.ca") {
+				w[dl] = w[dl] || [];
+				w.gtag = function () {
+					w[dl].push(arguments);
 				}
-				gtag('js', new Date());
-
-				gtag('config', 'G-SM9MSHWDVN');
+				w.gtag('js', new Date());
+				w.gtag('config', 'G-SM9MSHWDVN');
 			}
-		</script>
-	{% endif %}
-
+		})(window);
+	</script>
 </head>
