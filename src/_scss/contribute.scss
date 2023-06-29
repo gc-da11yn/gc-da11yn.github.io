@@ -4,37 +4,41 @@
 
 	ul {
 		padding-bottom: 2em;
-		padding-top: 2em;
-		position: relative;
+		padding-top: 4em;
 	}
-	
+
+	li {
+	padding-bottom: 15px;
+}
+
 	small {
 		display: block;
 		color: #aaa;
-		
+		margin-top: 5px;
+
 	}
-	
+
 	h2 {
 		font-size: 3em;
 		margin-bottom: 15px;
-		
+
 		small {
 			margin-left: 45px;
 			margin-top: 5px;
 		}
 	}
-	
+
 	a {
 		// text-decoration: underline;
 		text-decoration: none;
 		border-bottom: solid 1px;
 		color: #fff;
-		
+
 		&:hover,
 		&:focus {
 			border-bottom: none;
 		}
-		
+
 		.fa-fw {
 			margin-right: 6px;
 		}
