@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/gc-da11yn/gc-da11yn.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@cspell/dict-fr-fr": "^2.1.2",
     "cspell": "^6.18.1",
