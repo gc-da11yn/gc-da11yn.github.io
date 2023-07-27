@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = { 
 	fr: {
 		aboutGovernment: "Au sujet du gouvernement",
 		contactUs: "Contactez-nous",
@@ -68,3 +68,5 @@ module.exports = {
 		privacyURL: "//www.canada.ca/en/transparency/privacy.html"
 	}
 };
+
+// test
