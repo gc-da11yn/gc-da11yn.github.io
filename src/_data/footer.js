@@ -68,5 +68,3 @@ module.exports = {
 		privacyURL: "//www.canada.ca/en/transparency/privacy.html"
 	}
 };
-
-// test
