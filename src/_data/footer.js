@@ -34,6 +34,13 @@ module.exports = {
 		privacyURL: "//www.canada.ca/fr/transparence/confidentialite.html"
 	},
 	en: {
+		contextualHeader: "Digital Accessibility Toolkit",
+		contextualLink1: "",
+		contextualLink2: "https://a11y.canada.ca/en/about/organizations/",
+		contextualLink3: "",
+		contextualLinkText1: "Contact the Digital Accessibility Toolkit",
+		contextualLinkText2: "Accessibility in Government of Canada",
+		contextualLinkText3: "Accessibility in your role",
 		aboutGovernment: "About government",
 		contactUs: "Contact us",
 		contactUsURL: "//www.canada.ca/en/contact.html",
