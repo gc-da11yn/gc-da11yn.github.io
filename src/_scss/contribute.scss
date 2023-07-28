@@ -32,6 +32,11 @@
 		}
 	}
 
+	.fa-fw {
+		margin-right: 8px;
+	}
+
+
 	a {
 		text-decoration: none;
 		border-bottom: solid 1px;
@@ -40,10 +45,6 @@
 		&:hover,
 		&:focus {
 			border-bottom: none;
-		}
-
-		.fa-fw {
-			margin-right: 6px;
 		}
 
 		small {
