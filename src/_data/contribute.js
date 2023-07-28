@@ -3,7 +3,7 @@ module.exports = {
 		contribute: "Contribuez à ce projet",
 		small: "sur Github.com",
 		see: "Code source",
-		report: "Enjeu",
+		report: "Problèmes (Issues) (en anglais seulement)",
 		join: "Discussions",
 		netlify: "Ce site est alimenté par",
 	},
