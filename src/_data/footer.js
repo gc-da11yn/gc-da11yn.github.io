@@ -2,10 +2,10 @@ module.exports = {
 	fr: {
 		aboutGovernment: "Au sujet du gouvernement",
 		allContacts: "Toutes les coordonnées",
-		allContactsLink: "//www.canada.ca/fr/contact.html",
+		allContactsLink: "https://www.canada.ca/fr/contact.html",
 		contextualHeader: "Boîte à outils sur l'accessibilité numérique",
 		contextualLink1: "",
-		contextualLink2: "https://a11y.canada.ca/en/about/organizations/",
+		contextualLink2: "https://a11y.canada.ca/fr/about/organizations/",
 		contextualLink3: "",
 		contextualLinkText1: "Contacter la boîte à outils sur l'accessibilité numérique",
 		contextualLinkText2: "L'accessibilité au sein du gouvernement du Canada",
@@ -96,7 +96,7 @@ module.exports = {
 		defence: "National security and defence",
 		cultureURL: "https://www.canada.ca/en/services/culture.html",
 		culture: "Culture, history and sport",
-		policingURL: "https://www.canada.ca/en/services/policing.",
+		policingURL: "https://www.canada.ca/en/services/policing.html",
 		policing: "Policing, justice and emergencies",
 		transportURL: "https://www.canada.ca/en/services/transport.html",
 		transport: "Transport and infrastructure",
@@ -123,6 +123,5 @@ module.exports = {
 		terms: "Terms and conditions",
 		privacyURL: "https://www.canada.ca/en/transparency/privacy.html",
 		privacy: "Privacy",
-
 	}
 };
