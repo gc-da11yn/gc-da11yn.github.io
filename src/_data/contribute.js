@@ -2,9 +2,9 @@ module.exports = {
 	fr: {
 		contribute: "Contribuez",
 		small: "sur Github.com",
-		see: "Voir le code source",
-		report: "Signaler un problème",
-		join: "Participez aux discussions",
+		see: "Code source (en anglais seulement)",
+		report: "Problèmes (Issues) (en anglais seulement)",
+		join: "Discussions (en anglais seulement)",
 		netlify: "Ce site est alimenté par"
 	},
 
