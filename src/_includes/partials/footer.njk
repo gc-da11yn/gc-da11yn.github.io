@@ -1,40 +1,56 @@
 
 <footer id="wb-info">
-	<div class="landscape">
-		<nav class="container wb-navcurr">
-			<h2 class="wb-inv">{{ footer[locale].aboutGovernment }}</h2>
-			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
-				<li><a href="{{ footer[locale].contactUsURL }}">{{ footer[locale].contactUs }}</a></li>
-				<li><a href="{{ footer[locale].departmentsAndAgenciesURL }}">{{ footer[locale].departmentsAndAgencies }}</a></li>
-				<li><a href="{{ footer[locale].publicServiceAndMilitaryURL }}">{{ footer[locale].publicServiceAndMilitary }}</a></li>
-				<li><a href="{{ footer[locale].newsURL }}">{{ footer[locale].news }}</a></li>
-				<li><a href="{{ footer[locale].treatiesLawsAndRegulationsURL }}">{{ footer[locale].treatiesLawsAndRegulations }}</a></li>
-				<li><a href="{{ footer[locale].governmentWideReportingURL }}">{{ footer[locale].governmentWideReporting }}</a></li>
-				<li><a href="{{ footer[locale].primeMinisterURL }}">{{ footer[locale].primeMinister }}</a></li>
-				<li><a href="{{ footer[locale].howGovernmentWorksURL }}">{{ footer[locale].howGovernmentWorks }}</a></li>
-				<li><a href="{{ footer[locale].openGovernmentURL }}">{{ footer[locale].openGovernment }}</a></li>
-			</ul>
-		</nav>
+	<h2 class="wb-inv">{{ footer[locale].aboutThisSite }}</h2>
+	<div class="gc-contextual">
+	<div class="container">
+			<nav>
+				<h3>{{ footer[locale].contextualHeader }}</h3>
+				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="http://canada.ca/en">{{ footer[locale].contextualLinkText1 }}</a></li><li><a href="{{ footer[locale].contextualLink2 }}"> {{ footer[locale].contextualLinkText2 }} </a></li><li><a href="http://canada.ca/en">{{ footer[locale].contextualLinkText3 }}</a></li></ul>
+			</nav>
+		</div>
 	</div>
-	<div class="brand">
+	<div class="gc-main-footer">
 		<div class="container">
-			<div class="row">
-				<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
-					<h2 class="wb-inv">{{ footer[locale].aboutThisSite }}</h2>
-					<ul>
-						<li><a href="{{ footer[locale].socialMediaURL }}">{{ footer[locale].socialMedia }}</a></li>
-						<li><a href="{{ footer[locale].mobileApplicationsURL }}">{{ footer[locale].mobileApplications }}</a></li>
-						<li><a href="{{ footer[locale].aboutCanadaCaURL }}">{{ footer[locale].aboutCanadaCa }}</a></li>
-						<li><a href="{{ footer[locale].termsAndConditionsURL }}">{{ footer[locale].termsAndConditions }}</a></li>
-						<li><a href="{{ footer[locale].privacyURL }}">{{ footer[locale].privacy }}</a></li>
-					</ul>
-				</nav>
-				<div class="col-xs-6 visible-sm visible-xs tofpg">
-					<a href="#wb-cont">{{ footer[locale].topOfPage }} <span class="glyphicon glyphicon-chevron-up"></span></a>
-				</div>
-				<div class="col-xs-6 col-md-3 col-lg-2 text-right">
-					<img src="//www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" alt="{{ footer[locale].symbolOfTheGovernmentOfCanada }}">
-				</div>
+			<nav>
+				<h3>Government of Canada</h3>
+				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="{{ footer[locale].allContactsLink }}">{{ footer[locale].allContacts }}</a></li>
+					<li><a href="{{ footer[locale].departmentsAndAgenciesURL }}">{{ footer[locale].departmentsAndAgencies }}</a></li>
+					<li><a href="{{ footer[locale].aboutGovernmentURL }}">{{ footer[locale].aboutGovernment }}</a></li></ul>
+				<h4><span class="wb-inv">Themes and topics</span></h4>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3"><li><a href="{{ footer[locale].jobsURL }}">{{ footer[locale].jobs }}</a></li>
+					<li><a href="{{ footer[locale].immigrationURL }}">{{ footer[locale].immigration }}</a></li>
+					<li><a href="{{ footer[locale].travelURL }}">{{ footer[locale].travel }}</a></li>
+					<li><a href="{{ footer[locale].businessURL }}">{{ footer[locale].business }}</a></li>
+					<li><a href="{{ footer[locale].benefitsURL }}">{{ footer[locale].benefits }}</a></li>
+					<li><a href="{{ footer[locale].healthURL }}">{{ footer[locale].health }}</a></li>
+					<li><a href="{{ footer[locale].taxesURL }}">{{ footer[locale].taxes }}</a></li>
+					<li><a href="{{ footer[locale].enviromentURL }}">{{ footer[locale].enviroment }}</a></li>
+					<li><a href="{{ footer[locale].defenceURL }}">{{ footer[locale].defence }}</a></li>
+					<li><a href="{{ footer[locale].cultureURL }}">{{ footer[locale].culture }}</a></li>
+					<li><a href="{{ footer[locale].policingURL }}">{{ footer[locale].policing }}</a></li>
+					<li><a href="{{ footer[locale].transportURL }}">{{ footer[locale].transport }}</a></li>
+					<li><a href="{{ footer[locale].internationalURL }}">{{ footer[locale].international }}</a></li>
+					<li><a href="{{ footer[locale].financeURL }}">{{ footer[locale].finance }}</a></li>
+					<li><a href="{{ footer[locale].scienceURL }}">{{ footer[locale].science }}</a></li>
+					<li><a href="{{ footer[locale].indigenousURL }}">{{ footer[locale].indigenous }}</a></li>
+					<li><a href="{{ footer[locale].veteransURL }}">{{ footer[locale].veterans }}</a></li>
+					<li><a href="{{ footer[locale].youthURL }}">{{ footer[locale].youth }}</a></li></ul>
+			</nav>
+		</div>
+	</div>
+	<div class="gc-sub-footer">
+		<div class="container d-flex align-items-center">
+			<nav>
+				<h3 class="wb-inv">{{ footer[locale].governmentCorporateHeading }}</h3>
+				<ul>
+					<li><a href="{{ footer[locale].socialURL }}">{{ footer[locale].social }}</a></li>
+					<li><a href="{{ footer[locale].mobileURL }}">{{ footer[locale].mobile }}</a></li>
+					<li><a href="{{ footer[locale].aboutURL }}">{{ footer[locale].about }}</a></li>
+					<li><a href="{{ footer[locale].termsURL }}">{{ footer[locale].terms }}</a></li>
+					<li><a href="{{ footer[locale].privacyURL }}">{{ footer[locale].privacy }}</a></li></ul>
+			</nav>
+			<div class="wtrmrk align-self-end">
+				<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
 			</div>
 		</div>
 	</div>
