@@ -7,9 +7,9 @@
 			</div>
 			<div class="col-md-7">
 				<ul class="list-inline">
-					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a{% if locale != en %} hreflang="en" {% endif %}href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}</a></li>
-					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale != en %} hreflang="en" {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose">{{ contribute[locale].report }}</a></li>
-					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale != en %} hreflang="en" {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a{% if locale != en %} hreflang="en" {% endif %}href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}{% if locale != en %} <small>(en anglais seulement)</small>{% endif %}</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale != en %} hreflang="en" {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose">{{ contribute[locale].report }}{% if locale != en %} <small>(en anglais seulement)</small>{% endif %}</a></li>
+					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale != en %} hreflang="en" {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}{% if locale != en %} <small>(en anglais seulement)</small>{% endif %}</a></li>
 				</ul>
 			</div>
 		</div>
