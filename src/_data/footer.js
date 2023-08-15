@@ -61,6 +61,7 @@ module.exports = {
 		terms: "Avis",
 		privacyURL: "https://www.canada.ca/fr/transparence/confidentialite.html",
 		privacy: "Confidentialité",
+		aboutThisSite: "À propos de ce site",
 	},
 	en: {
 		contextualHeader: "Digital Accessibility Toolkit",
@@ -123,5 +124,6 @@ module.exports = {
 		terms: "Terms and conditions",
 		privacyURL: "https://www.canada.ca/en/transparency/privacy.html",
 		privacy: "Privacy",
+		aboutThisSite: "About this site",
 	}
 };
