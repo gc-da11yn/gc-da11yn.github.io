@@ -56,11 +56,11 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
 
 ## Sources
 
-* [European Telecommunications Standards Institute, *EN 301 549 V1.1.1 (2014-02)*, 2014, Accessed on: Dec. 23, 2019](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.01_60/en_301549v010101p.pdf)
-* [European Telecommunications Standards Institute, *EN 301 549 V2.1.2 (2018-08)*, 2018, Accessed on: Dec. 23, 2019](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf)
-* [European Telecommunications Standards Institute, *EN 301 549 V3.1.1 (2019-11)*, 2019, Accessed on: Dec. 23, 2019](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf)
-* [European Telecommunications Standards Institute, *EN 301 549 V3.2.1 (2021-03)*, 2021, Accessed on: July 19, 2021](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf)
-* [United States Access Board, *Text of the Standards and Guidelines*, 2017, Accessed on Jan. 31, 2020](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines)
+* [European Telecommunications Standards Institute, *EN 301 549 V1.1.1 (2014-02)*, 2014](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.01_60/en_301549v010101p.pdf)
+* [European Telecommunications Standards Institute, *EN 301 549 V2.1.2 (2018-08)*, 2018](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf)
+* [European Telecommunications Standards Institute, *EN 301 549 V3.1.1 (2019-11)*, 2019](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf)
+* [European Telecommunications Standards Institute, *EN 301 549 V3.2.1 (2021-03)*, 2021](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf)
+* [United States Access Board, *Text of the Standards and Guidelines*, 2017](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines)
 
 ## Glossary
 
@@ -178,7 +178,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
   <tbody>
     <tr>
       <td data-wb-tags="choice_1">302.1 Without vision. Where a visual mode of operation is provided, ICT shall provide at least one mode of operation that does not require user vision.</td>
-      <td data-wb-tags="choice_1">
+      <td data-wb-tags="choice_1 choice_2">
         <p>4.2.1 Usage without vision</p>
         <p>Where ICT provides visual modes of operation, some users need ICT to provide at least one mode of operation that does not require vision.</p>
         <p>NOTE: Audio and tactile user interfaces may contribute towards meeting this clause.</p>
@@ -187,14 +187,14 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_2">
+      <td data-wb-tags="choice_2 choice_3">
         <p>4.2.1 Usage without vision</p>
         <p>Where ICT provides visual modes of operation, some users need ICT to provide at least one mode of operation that does not require vision.</p>
         <p><strong>NOTE 1: A web page or application with a well formed semantic structure can allow users without vision to identify, navigate and interact with a visual user interface.</strong></p>
         <p>NOTE 2: Audio and tactile user interfaces may contribute towards meeting this clause.</p>
       </td>
       <td data-wb-tags="choice_2">Explanatory update</td>
-      <td data-wb-tags="choice_3">
+      <td data-wb-tags="choice_3 choice_4">
         <p>4.2.1 Usage without vision</p>
         <p>Where ICT provides visual modes of operation, <strong>the ICT provides</strong> at least one mode of operation that does not require vision. <strong>This is essential for users without vision and benefits many more users in different situations.</strong></p>
         <p>NOTE 1: A web page or application with a well formed semantic structure can allow users without vision to identify, navigate and interact with a visual user interface.</p>
@@ -214,7 +214,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
     </tr>
     <tr>
       <td data-wb-tags="choice_1">302.2 With limited vision Where a visual mode of operation is provided, ICT shall provide at least one mode of operation that enables users to make use of limited vision.</td>
-      <td data-wb-tags="choice_1">
+      <td data-wb-tags="choice_1 choice_2">
         <p>4.2.2 Usage with limited vision</p>
         <p>Where ICT provides visual modes of operation, some users will need the ICT to provide features that enable users to make better use of their limited vision.</p>
         <p>NOTE 1: Magnification, reduction of required field of vision and control of contrast, brightness and intensity can contribute towards meeting this clause.</p>
@@ -225,7 +225,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_2">
+      <td data-wb-tags="choice_2 choice_3">
         <p>4.2.2 Usage with limited vision</p>
         <p>Where ICT provides visual modes of operation, some users will need the ICT to provide features that enable users to make better use of their limited vision.</p>
         <p>NOTE 1: Magnification, reduction of required field of vision and control of contrast, brightness and intensity can contribute towards meeting this clause.</p>
@@ -233,7 +233,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
         <p>NOTE 3: Users with limited vision may also benefit from non-visual access (see clause 4.2.1).</p>
       </td>
       <td data-wb-tags="choice_2"></td>
-      <td data-wb-tags="choice_3">
+      <td data-wb-tags="choice_3 choice_4">
         <p>4.2.2 Usage with limited vision</p>
         <p>Where ICT provides visual modes of operation, <strong>the ICT provides</strong> features that enable users to make better use of their limited vision. <strong>This is essential for users with limited vision and benefits many more users in different situations.</strong></p>
         <p>NOTE 1: Magnification, reduction of required field of vision and control of contrast, brightness and intensity can contribute towards meeting this clause.</p>
@@ -275,7 +275,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
       <td data-wb-tags="choice_2"></td>
       <td data-wb-tags="choice_3">
         <p>4.2.3 Usage without perception of colour</p>
-        <p>Where ICT provides visual modes of operation<strong>, the ICT provides</strong> a visual mode of operation that does not require user perception of colour<strong>. This is essential for users with limited colour perception and benefits many more users in different situations.</strong></p>
+        <p>Where ICT provides visual modes of operation, <strong>the ICT provides</strong> a visual mode of operation that does not require user perception of colour<strong>. This is essential for users with limited colour perception and benefits many more users in different situations.</strong></p>
         <p>NOTE: Where significant features of the user interface are colour-coded, the provision of additional methods of distinguishing between the features may contribute towards meeting this clause.</p>
       </td>
       <td data-wb-tags="choice_3">
@@ -429,7 +429,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
       <td data-wb-tags="choice_2"></td>
       <td data-wb-tags="choice_3">
         <p>4.2.7 Usage with limited manipulation or strength</p>
-        <p>Where ICT requires manual actions, <strong>the ICT provides</strong> features that enable users to make use of the ICT through alternative actions not requiring manipulation<strong>, simultaneous action</strong> or hand strength. <strong>This is essential for users with limited manipulation or strength and benefits many more users in different situations.</strong></p>
+        <p>Where ICT requires manual actions, <strong>the ICT provides</strong> features that enable users to make use of the ICT through alternative actions not requiring manipulation, <strong>simultaneous action</strong> or hand strength. <strong>This is essential for users with limited manipulation or strength and benefits many more users in different situations.</strong></p>
         <p>NOTE 1: Examples of operations that users may not be able to perform include those that require fine motor control, path dependant gestures, pinching, twisting of the wrist, tight grasping, or simultaneous manual actions.</p>
         <p>NOTE 2: One-handed operation, sequential key entry and speech user interfaces may contribute towards meeting this clause.</p>
         <p>NOTE 3: Some users have limited hand strength and may not be able to achieve the level of strength to perform an operation. Alternative user interface solutions that do not require hand strength may contribute towards meeting this clause.</p>
@@ -1775,313 +1775,313 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
         <p>407.6 Operation</p>
         <p>At least one mode of operation shall be operable with one hand and shall not require tight grasping, pinching, or twisting of the wrist. The force required to activate operable parts shall be 5 pounds (22.2 N) maximum.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>5.5.1 Means of operation</p>
         <p>Where ICT has operable parts that require grasping, pinching, or twisting of the wrist to operate, an accessible alternative means of operation that does not require these actions shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>5.5.1 Means of operation</p>
         <p>Where ICT has operable parts that require grasping, pinching, or twisting of the wrist to operate, an accessible alternative means of operation that does not require these actions shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2"></td>
+      <td data-wb-tags="choice_3">
         <p>5.5.1 Means of operation</p>
         <p>Where ICT has operable parts that require grasping, pinching, or twisting of the wrist to operate, an accessible alternative means of operation that does not require these actions shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3"></td>
+      <td data-wb-tags="choice_4">
         <p>5.5.1 Means of operation</p>
         <p>Where ICT has operable parts that require grasping, pinching, or twisting of the wrist to operate, an accessible alternative means of operation that does not require these actions shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">407.6 Operation At least one mode of operation shall be operable with one hand and shall not require tight grasping, pinching, or twisting of the wrist. The force required to activate operable parts shall be 5 pounds (22.2 N) maximum.</td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>8.4.2.1 Means of Operation of mechanical parts</p>
         <p>Where a control requires grasping, pinching, or twisting of the wrist to operate it, an accessible alternative means of operation that does not require these actions shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>8.4.2.1 Means of operation of mechanical parts</p>
         <p>Where a control requires grasping, pinching, or twisting of the wrist to operate it, an accessible alternative means of operation that does not require these actions shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2"></td>
+      <td data-wb-tags="choice_3">
         <p>8.4.2.1 Means of operation of mechanical parts</p>
         <p>Where a control requires grasping, pinching, or twisting of the wrist to operate it, an accessible alternative means of operation that does not require these actions shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3"></td>
+      <td data-wb-tags="choice_4">
         <p>8.4.2.1 Means of operation of mechanical parts</p>
         <p>Where a control requires grasping, pinching, or twisting of the wrist to operate it, an accessible alternative means of operation that does not require these actions shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">407.6 Operation At least one mode of operation shall be operable with one hand and shall not require tight grasping, pinching, or twisting of the wrist. The force required to activate operable parts shall be 5 pounds (22.2 N) maximum.</td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>8.4.2.2 Force of operation of mechanical parts</p>
         <p>Where a control requires a force greater than 22,2 N to operate it, an accessible alternative means of operation that requires a force less than 22,2 N shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>8.4.2.2 Force of operation of mechanical parts</p>
         <p>Where a control requires a force greater than 22,2 N to operate it, an accessible alternative means of operation that requires a force less than 22,2 N shall be provided.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2"></td>
+      <td data-wb-tags="choice_3">
         <p>8.4.2.2 Force of operation of mechanical parts</p>
         <p>Where a control requires a force greater than 22,2 N to operate it, an accessible alternative means of operation that requires a force less than 22,2 N shall be provided.</p>
         <p><strong>NOTE: ISO 21542:2011: Building Construction - Accessibility and Usability of the Built Environment recommends a value between 2,5 and 5 Newtons.</strong></p>
       </td>
-      <td data-wb-tags="choice_">Explanatory update</td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3">Explanatory update</td>
+      <td data-wb-tags="choice_4">
         <p>8.4.2.2 Force of operation of mechanical parts</p>
         <p>Where a control requires a force greater than 22,2 N to operate it, an accessible alternative means of operation that requires a force less than 22,2 N shall be provided.</p>
         <p>NOTE: ISO 21542:2011 [i.34]: Building Construction - Accessibility and Usability of the Built Environment recommends a value between 2,5 and 5 Newtons.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">
         <p>407.7 Tickets, Fare Cards, and Keycards</p>
         <p>Where tickets, fare cards, or keycards are provided, they shall have an orientation that is tactilely discernible if orientation is important to further use of the ticket, fare card, or keycard.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>8.4.3 Keys, tickets and fare cards</p>
         <p>Where ICT provides keys, tickets or fare cards, and their orientation is important for further use, they shall have an orientation that is tactilely discernible.</p>
         <p>NOTE: ETS 300 767 defines suitable tactile indications for plastic cards.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>8.4.3 Keys, tickets and fare cards</p>
         <p>Where ICT provides keys, tickets or fare cards, and their orientation is important for further use, they shall have an orientation that is tactilely discernible.</p>
         <p>NOTE: <strong>ETSI</strong> ETS 300 767 defines suitable tactile indications for plastic cards.</p>
       </td>
-      <td data-wb-tags="choice_">Explanatory update</td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">Explanatory update</td>
+      <td data-wb-tags="choice_3">
         <p>8.4.3 Keys, tickets and fare cards</p>
         <p>Where ICT provides keys, tickets or fare cards, and their orientation is important for further use, they shall have an orientation that is tactilely discernible.</p>
         <p>NOTE: ETSI ETS 300 767 defines suitable tactile indications for plastic cards.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3"></td>
+      <td data-wb-tags="choice_4">
         <p>8.4.3 Keys, tickets and fare cards</p>
         <p>Where ICT provides keys, tickets or fare cards, and their orientation is important for further use, they shall have an orientation that is tactilely discernible.</p>
         <p>NOTE: ETSI ETS 300 767 [i.6] defines suitable tactile indications for plastic cards.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">
         <p>407.8.1.1 Vertical Plane for Side Reach</p>
         <p>Where a side reach is provided, the vertical reference plane shall be 48 inches (1220 mm) long minimum.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>8.3.2.2 Clear floor or ground space</p>
         <p>Where the operating area is integral to the ICT, it should provide a clear floor area that has the minimum dimensions of 760 mm (30 inches) by 1 220 mm (48 inches) from which to operate the ICT.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>8.3.2.2 Clear floor or ground space</p>
         <p>Where the operating area is integral to the ICT, it should provide a clear floor area that has the minimum dimensions of 760 mm (30 inches) by 1 220 mm (48 inches) from which to operate the ICT.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2"></td>
+      <td data-wb-tags="choice_3">
         <p>8.3.4.2 Clear floor or ground space</p>
         <p>Where <strong>stationary ICT has an operating area within it, it shall</strong> provide a clear floor area that has the minimum dimensions of 760 mm (30 inches) by 1 220 mm (48 inches) from which to operate the ICT.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3">
         <p>Numbering change</p>
         <p>Stylistic rewording</p>
         <p>Functional change</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_4">
         <p>8.3.4.2 Clear floor or ground space</p>
         <p>Where stationary ICT has an operating area within it, it shall provide a clear floor area that has the minimum</p>
         <p>dimensions of 760 mm (30 inches) by 1 220 mm (48 inches) from which to operate the ICT.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">407.8.1.2 Vertical Plane for Forward Reach Where a forward reach is provided, the vertical reference plane shall be 30 inches (760 mm) long minimum.</td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>8.3.2.2 Clear floor or ground space</p>
         <p>Where the operating area is integral to the ICT, it should provide a clear floor area that has the minimum dimensions of 760 mm (30 inches) by 1 220 mm (48 inches) from which to operate the ICT.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>8.3.2.2 Clear floor or ground space</p>
         <p>Where the operating area is integral to the ICT, it should provide a clear floor area that has the minimum dimensions of 760 mm (30 inches) by 1 220 mm (48 inches) from which to operate the ICT.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2"></td>
+      <td data-wb-tags="choice_3">
         <p>8.3.4.2 Clear floor or ground space</p>
         <p>Where <strong>stationary ICT has an operating area within it, it shall</strong> provide a clear floor area that has the minimum dimensions of 760 mm (30 inches) by 1 220 mm (48 inches) from which to operate the ICT.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3">
         <p>Numbering change</p>
         <p>Stylistic rewording</p>
         <p>Functional change</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_4">
         <p>8.3.4.2 Clear floor or ground space</p>
         <p>Where stationary ICT has an operating area within it, it shall provide a clear floor area that has the minimum dimensions of 760 mm (30 inches) by 1 220 mm (48 inches) from which to operate the ICT.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">
         <p>407.8.2.1 Unobstructed Side Reach</p>
         <p>Where the operable part is located 10 inches (255 mm) or less beyond the vertical reference plane, the operable part shall be 48 inches (1220 mm) high maximum and 15 inches (380 mm) high minimum above the floor.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>8.3.3.2.1 Unobstructed high side reach</p>
         <p>Where the access space is integral to the ICT, allows a parallel approach, and the side reach is unobstructed or obstructed by an element integral to the ICT which is less than 255 mm (10 inches), all essential controls should be within a high side reach which is less than or equal to 1 220 mm (48 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>8.3.3.2.1 Unobstructed high side reach</p>
         <p>Where the access space is integral to the ICT, allows a parallel approach, and the side reach is unobstructed or obstructed by an element integral to the ICT which is less than 255 mm (10 inches), all essential controls should be within a high side reach which is less than or equal to 1 220 mm (48 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2"></td>
+      <td data-wb-tags="choice_3">
         <p>8.3.3.1 Unobstructed high side reach</p>
         <p>Where the <strong>side reach is unobstructed or obstructed by an element that is an integral part of the stationary ICT and</strong> which is less than 255 mm (10 inches), <strong>at least one of each type of operable part shall</strong> be within a high side reach which is less than or equal to 1 220 mm (48 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3">
         <p>Numbering change</p>
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
         <p>Functional change</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_4">
         <p>8.3.3.1 Unobstructed high side reach</p>
         <p>Where the side reach is unobstructed or obstructed by an element that is an integral part of the stationary ICT and which is less than 255 mm (10 inches), at least one of each type of operable part shall be within a high side reach which is less than or equal to 1 220 mm (48 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">407.8.2.1 Unobstructed Side Reach Where the operable part is located 10 inches (255 mm) or less beyond the vertical reference plane, the operable part shall be 48 inches (1220 mm) high maximum and 15 inches (380 mm) high minimum above the floor.</td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>8.3.3.2.2 Unobstructed low side reach</p>
         <p>Where the access space is integral to the ICT, allows a parallel approach, and the side reach is unobstructed or obstructed by an element integral to the ICT which is less than 255 mm (10 inches), all essential controls should be within a low side reach which is greater than or equal to 380 mm (15 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>8.3.3.2.2 Unobstructed low side reach</p>
         <p>Where the access space is integral to the ICT, allows a parallel approach, and the side reach is unobstructed or obstructed by an element integral to the ICT which is less than 255 mm (10 inches), all essential controls should be within a low side reach which is greater than or equal to 380 mm (15 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2"></td>
+      <td data-wb-tags="choice_3">
         <p>8.3.3.2 Unobstructed low side reach</p>
         <p>Where the <strong>side reach is unobstructed or obstructed by an element that is an integral part of the stationary ICT and</strong> which is less than 255 mm (10 inches), <strong>at least one of each type of operable part shall</strong> be within a low side reach which is greater than or equal to 380 mm (15 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3">
         <p>Numbering change</p>
         <p>Stylistic rewording</p>
         <p>Functional change</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_4">
         <p>8.3.3.2 Unobstructed low side reach</p>
         <p>Where the side reach is unobstructed or obstructed by an element that is an integral part of the stationary ICT and which is less than 255 mm (10 inches), at least one of each type of operable part shall be within a low side reach which is greater than or equal to 380 mm (15 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">
         <p>407.8.2.2 Obstructed Side Reach</p>
         <p>Where the operable part is located more than 10 inches (255 mm), but not more than 24 inches (610 mm), beyond the vertical reference plane, the height of the operable part shall be 46 inches (1170 mm) high maximum and 15 inches (380 mm) high minimum above the floor. The operable part shall not be located more than 24 inches (610 mm) beyond the vertical reference plane.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>8.3.3.2.3.1 Obstructed (&lt;= 255 mm) side reach</p>
         <p>Where the access space is integral to the ICT, allows a parallel approach and has an obstruction which is integral to the ICT, the height of the obstruction should be less than 865 mm (34 inches). Where the depth of the obstruction is less than or equal to 255 mm (10 inches), the high side reach to all essential controls should be no higher than 1 220 mm (48 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>8.3.3.2.3.1 Obstructed (&lt;= 255 mm) side reach</p>
         <p>Where the access space is integral to the ICT, allows a parallel approach and has an obstruction which is integral to the ICT, the height of the obstruction should be less than 865 mm (34 inches). Where the depth of the obstruction is less than or equal to 255 mm (10 inches), the high side reach to all essential controls should be no higher than 1 220 mm (48 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2"></td>
+      <td data-wb-tags="choice_3">
         <p>8.3.3.3.1 Obstructed (&lt;= 255 mm) side reach</p>
         <p>Where <strong>stationary ICT has an obstruction which is an integral part of the ICT, the height of the obstruction shall</strong> be less than 865 mm (34 inches). Where the depth of the obstruction is less than or equal to 255 mm (10 inches), the high side reach to <strong>at least one of each type of operable part shall</strong> be no higher than 1 220 mm (48 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3">
         <p>Numbering change</p>
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
         <p>Functional change</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_4">
         <p>8.3.3.3.1 Obstructed (≤ 255 mm) side reach</p>
         <p>Where stationary ICT has an obstruction which is an integral part of the ICT, the height of the obstruction shall be less than 865 mm (34 inches). Where the depth of the obstruction is less than or equal to 255 mm (10 inches), the high side reach to at least one of each type of operable part shall be no higher than 1 220 mm (48 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">
         <p>407.8.2.2 Obstructed Side Reach</p>
         <p>Where the operable part is located more than 10 inches (255 mm), but not more than 24 inches (610 mm), beyond the vertical reference plane, the height of the operable part shall be 46 inches (1170 mm) high maximum and 15 inches (380 mm) high minimum above the floor. The operable part shall not be located more than 24 inches (610 mm) beyond the vertical reference plane.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>8.3.3.2.3.2 Obstructed (&lt;= 610 mm) side reach</p>
         <p>Where the access space is integral to the ICT, allows a parallel approach and has an obstruction which is integral to the ICT, the height of the obstruction should be less than 865 mm (34 inches). Where the depth of the obstruction is greater than 255 mm (10 inches) and 610 mm (24 inches) maximum, the high side reach to all essential controls should be no higher than 1 170 mm (46 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_1">
         <p>Stylistic rewording</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">
         <p>8.3.3.2.3.2 Obstructed (&lt;= 610 mm) side reach</p>
         <p>Where the access space is integral to the ICT, allows a parallel approach and has an obstruction which is integral to the ICT, the height of the obstruction should be less than 865 mm (34 inches). Where the depth of the obstruction is greater than 255 mm (10 inches) <strong>with a maximum depth of</strong> <strong>610 mm (24 inches),</strong> the high side reach to all essential controls should be no higher than 1 170 mm (46 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_">Stylistic rewording</td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_2">Stylistic rewording</td>
+      <td data-wb-tags="choice_3">
         <p>8.3.3.3.2 Obstructed (&lt;= 610 mm) side reach</p>
         <p>Where <strong>stationary ICT has an obstruction which is an integral part of the ICT,</strong> the height of the obstruction <strong>shall</strong> be less than 865 mm (34 inches). Where the depth of the obstruction is greater than 255 mm (10 inches) with a maximum depth of 610 mm (24 inches), the high side reach to <strong>at least one of each type of operable part shall</strong> be no higher than 1 170 mm (46 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_3">
         <p>Numbering change</p>
         <p>Stylistic rewording</p>
         <p>Functional change</p>
         <p>Explanatory update</p>
       </td>
-      <td data-wb-tags="choice_">
+      <td data-wb-tags="choice_4">
         <p>8.3.3.3.2 Obstructed (≤ 610 mm) side reach</p>
         <p>Where stationary ICT has an obstruction which is an integral part of the ICT, the height of the obstruction shall be less than 865 mm (34 inches). Where the depth of the obstruction is greater than 255 mm (10 inches) with a maximum depth of 610 mm (24 inches), the high side reach to at least one of each type of operable part shall be no higher than 1 170 mm (46 inches) above the floor of the access space.</p>
       </td>
-      <td data-wb-tags="choice_"></td>
+      <td data-wb-tags="choice_4"></td>
     </tr>
     <tr>
       <td data-wb-tags="choice_1">
