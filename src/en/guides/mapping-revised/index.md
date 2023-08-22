@@ -133,15 +133,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>User interface components and content of platforms and applications shall conform to Level A and Level AA Success Criteria and Conformance Requirements specified for web pages in <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/">WCAG 2.0.</a></p>
          <p>EXCEPTIONS:</p>
          <ol>
-           <li>
-             Software that is assistive technology and that supports the accessibility services of the platform shall not be required to conform to E207.2.
-           </li>
-           <li>
-             Non-Web software shall not be required to conform to the following four Success Criteria in WCAG 2.0: 2.4.1 Bypass Blocks; 2.4.5 Multiple Ways; 3.2.3 Consistent Navigation; and 3.2.4 Consistent Identification.
-           </li>
-           <li>
-             Non-Web software shall not be required to conform to Conformance Requirement 3 Complete Processes in WCAG 2.0.
-           </li>
+           <li>Software that is assistive technology and that supports the accessibility services of the platform shall not be required to conform to E207.2.</li>
+           <li>Non-Web software shall not be required to conform to the following four Success Criteria in WCAG 2.0: 2.4.1 Bypass Blocks; 2.4.5 Multiple Ways; 3.2.3 Consistent Navigation; and 3.2.4 Consistent Identification.</li>
+           <li>Non-Web software shall not be required to conform to Conformance Requirement 3 Complete Processes in WCAG 2.0.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2">
@@ -583,24 +577,12 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>ICT with a display screen shall be speech-output enabled for full and independent use by individuals with vision impairments.<a href="#fn3" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
          <p>EXCEPTIONS:</p>
          <ol>
-           <li>
-             Variable message signs conforming to 402.5 shall not be required to be speech-output enabled.
-           </li>
-           <li>
-             Speech output shall not be required where ICT display screens only provide status indicators and those indicators conform to 409.
-           </li>
-           <li>
-             Where speech output cannot be supported due to constraints in available memory or processor capability, ICT shall be permitted to conform to 409 in lieu of 402.2.
-           </li>
-           <li>
-             Audible tones shall be permitted instead of speech output where the content of user input is not displayed as entered for security purposes, including, but not limited to, asterisks representing personal identification numbers.
-           </li>
-           <li>
-             Speech output shall not be required for: the machine location; date and time of transaction; customer account number; and the machine identifier or label.
-           </li>
-           <li>
-             Speech output shall not be required for advertisements and other similar information unless they convey information that can be used for the transaction being conducted.
-           </li>
+           <li>Variable message signs conforming to 402.5 shall not be required to be speech-output enabled.</li>
+           <li>Speech output shall not be required where ICT display screens only provide status indicators and those indicators conform to 409.</li>
+           <li>Where speech output cannot be supported due to constraints in available memory or processor capability, ICT shall be permitted to conform to 409 in lieu of 402.2.</li>
+           <li>Audible tones shall be permitted instead of speech output where the content of user input is not displayed as entered for security purposes, including, but not limited to, asterisks representing personal identification numbers.</li>
+           <li>Speech output shall not be required for: the machine location; date and time of transaction; customer account number; and the machine identifier or label.</li>
+           <li>Speech output shall not be required for advertisements and other similar information unless they convey information that can be used for the transaction being conducted.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2">
@@ -769,12 +751,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>5.1.3.2 Auditory output delivery including speech</p>
          <p>Where auditory output is provided as non-visual access to closed functionality, the auditory output shall be delivered:</p>
          <ol>
-           <li>
-             either directly by a mechanism included in or provided with the ICT;
-           </li>
-           <li>
-             or by a personal headset that can be connected through a 3,5 mm audio jack, or an industry standard connection, without requiring the use of vision.
-           </li>
+           <li>either directly by a mechanism included in or provided with the ICT;</li>
+           <li>or by a personal headset that can be connected through a 3,5 mm audio jack, or an industry standard connection, without requiring the use of vision.</li>
          </ol>
          <p>NOTE 1: Mechanisms included in or provided with ICT may be, but are not limited to, a loudspeaker, a built-in handset/headset, or other industry standard coupled peripheral.</p>
          <p>NOTE 2: An industry standard connection could be a wireless connection.</p>
@@ -788,12 +766,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>5.1.3.2 Auditory output delivery including speech</p>
          <p>Where auditory output is provided as non-visual access to closed functionality, the auditory output shall be delivered:</p>
          <ol>
-           <li>
-             either directly by a mechanism included in or provided with the ICT; or
-           </li>
-           <li>
-             by a personal headset that can be connected through a 3,5 mm audio jack, or an industry standard connection, without requiring the use of vision.
-           </li>
+           <li>either directly by a mechanism included in or provided with the ICT; or</li>
+           <li>by a personal headset that can be connected through a 3,5 mm audio jack, or an industry standard connection, without requiring the use of vision.</li>
          </ol>
          <p>NOTE 1: Mechanisms included in or provided with ICT may be, but are not limited to, a loudspeaker, a built-in handset/headset, or other industry standard coupled peripheral.</p>
          <p>NOTE 2: An industry standard connection could be a wireless connection.</p>
@@ -804,12 +778,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>5.1.3.2 Auditory output delivery including speech</p>
          <p>Where auditory output is provided as non-visual access to closed functionality, the auditory output shall be delivered:</p>
          <ol>
-           <li>
-             either directly by a mechanism included in or provided with the ICT; or
-           </li>
-           <li>
-             by a personal headset that can be connected through a 3,5 mm audio jack, or an industry standard connection, without requiring the use of vision.
-           </li>
+           <li>either directly by a mechanism included in or provided with the ICT; or</li>
+           <li>by a personal headset that can be connected through a 3,5 mm audio jack, or an industry standard connection, without requiring the use of vision.</li>
          </ol>
          <p>NOTE 1: Mechanisms included in or provided with ICT may be, but are not limited to, a loudspeaker, a built-in handset/headset, or other industry standard coupled peripheral.</p>
          <p>NOTE 2: An industry standard connection could be a wireless connection.</p>
@@ -820,12 +790,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>5.1.3.2 Auditory output delivery including speech</p>
          <p>Where auditory output is provided as non-visual access to closed functionality, the auditory output shall be delivered:</p>
          <ol>
-           <li>
-             either directly by a mechanism included in or provided with the ICT; or
-           </li>
-           <li>
-             by a personal headset that can be connected through a 3,5 mm audio jack, or an industry standard connection, without requiring the use of vision.
-           </li>
+           <li>either directly by a mechanism included in or provided with the ICT; or</li>
+           <li>by a personal headset that can be connected through a 3,5 mm audio jack, or an industry standard connection, without requiring the use of vision.</li>
          </ol>
          <p>NOTE 1: Mechanisms included in or provided with ICT may be, but are not limited to, a loudspeaker, a built-in handset/headset, or other industry standard coupled peripheral.</p>
          <p>NOTE 2: An industry standard connection could be a wireless connection.</p>
@@ -1146,18 +1112,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Ψ = (180 x H) / (π x D)</p>
          <p>Where:</p>
          <ul>
-           <li>
-             ψ is the subtended angle in degrees
-           </li>
-           <li>
-             H is the height of the text
-           </li>
-           <li>
-             D is the viewing distance
-           </li>
-           <li>
-             D and H are expressed in the same units
-           </li>
+           <li>ψ is the subtended angle in degrees</li>
+           <li>H is the height of the text</li>
+           <li>D is the viewing distance</li>
+           <li>D and H are expressed in the same units</li>
          </ul>
          <p>NOTE: The intent is to provide a mode of operation where text is large enough to be used by most users with low vision.</p>
        </td>
@@ -1173,18 +1131,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Ψ = (180 x H) / (π x D)</p>
          <p>Where:</p>
          <ul>
-           <li>
-             ψ is the subtended angle in degrees
-           </li>
-           <li>
-             H is the height of the text
-           </li>
-           <li>
-             D is the viewing distance
-           </li>
-           <li>
-             D and H are expressed in the same units
-           </li>
+           <li>ψ is the subtended angle in degrees</li>
+           <li>H is the height of the text</li>
+           <li>D is the viewing distance</li>
+           <li>D and H are expressed in the same units</li>
          </ul>
          <p>NOTE: The intent is to provide a mode of operation where text is large enough to be used by most users with low vision.</p>
        </td>
@@ -1196,18 +1146,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Ψ = (180 x H) / (π x D)</p>
          <p>Where:</p>
          <ul>
-           <li>
-             ψ is the subtended angle in degrees
-           </li>
-           <li>
-             H is the height of the text
-           </li>
-           <li>
-             D is the viewing distance
-           </li>
-           <li>
-             D and H are expressed in the same units
-           </li>
+           <li>ψ is the subtended angle in degrees</li>
+           <li>H is the height of the text</li>
+           <li>D is the viewing distance</li>
+           <li>D and H are expressed in the same units</li>
          </ul>
          <p>NOTE: The intent is to provide a mode of operation where text is large enough to be used by most users with low vision.</p>
        </td>
@@ -1219,18 +1161,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Ψ = (180 x H) / (π x D)</p>
          <p>Where:</p>
          <ul>
-           <li>
-             ψ is the subtended angle in degrees
-           </li>
-           <li>
-             H is the height of the text
-           </li>
-           <li>
-             D is the viewing distance
-           </li>
-           <li>
-             D and H are expressed in the same units
-           </li>
+           <li>ψ is the subtended angle in degrees</li>
+           <li>H is the height of the text</li>
+           <li>D is the viewing distance</li>
+           <li>D and H are expressed in the same units</li>
          </ul>
          <p>NOTE 1: The intent is to provide a mode of operation where text is large enough to be used by most users with low vision.</p>
        </td>
@@ -1245,18 +1179,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Ψ = (180 x H) / (π x D)</p>
          <p>Where:</p>
          <ul>
-           <li>
-             ψ is the subtended angle in degrees
-           </li>
-           <li>
-             H is the height of the text
-           </li>
-           <li>
-             D is the viewing distance
-           </li>
-           <li>
-             D and H are expressed in the same units
-           </li>
+           <li>ψ is the subtended angle in degrees</li>
+           <li>H is the height of the text</li>
+           <li>D is the viewing distance</li>
+           <li>D and H are expressed in the same units</li>
          </ul>
          <p>NOTE: The intent is to provide a mode of operation where text is large enough to be used by most users with low vision.</p>
        </td>
@@ -1271,18 +1197,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Ψ = (180 x H) / (π x D)</p>
          <p>Where:</p>
          <ul>
-           <li>
-             ψ is the subtended angle in degrees
-           </li>
-           <li>
-             H is the height of the text
-           </li>
-           <li>
-             D is the viewing distance
-           </li>
-           <li>
-             D and H are expressed in the same units
-           </li>
+           <li>ψ is the subtended angle in degrees</li>
+           <li>H is the height of the text</li>
+           <li>D is the viewing distance</li>
+           <li>D and H are expressed in the same units</li>
          </ul>
          <p>NOTE: The intent is to provide a mode of operation where text is large enough to be used by most users with low vision.</p>
        </td>
@@ -1294,18 +1212,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Ψ = (180 x H) / (π x D)</p>
          <p>Where:</p>
          <ul>
-           <li>
-             ψ is the subtended angle in degrees
-           </li>
-           <li>
-             H is the height of the text
-           </li>
-           <li>
-             D is the viewing distance
-           </li>
-           <li>
-             D and H are expressed in the same units
-           </li>
+           <li>ψ is the subtended angle in degrees</li>
+           <li>H is the height of the text</li>
+           <li>D is the viewing distance</li>
+           <li>D and H are expressed in the same units</li>
          </ul>
          <p>NOTE: The intent is to provide a mode of operation where text is large enough to be used by most users with low vision.</p>
        </td>
@@ -1317,18 +1227,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Ψ = (180 x H) / (π x D)</p>
          <p>Where:</p>
          <ul>
-           <li>
-             ψ is the subtended angle in degrees
-           </li>
-           <li>
-             H is the height of the text
-           </li>
-           <li>
-             D is the viewing distance
-           </li>
-           <li>
-             D and H are expressed in the same units
-           </li>
+           <li>ψ is the subtended angle in degrees</li>
+           <li>H is the height of the text</li>
+           <li>D is the viewing distance</li>
+           <li>D and H are expressed in the same units</li>
          </ul>
          <p>NOTE 1: The intent is to provide a mode of operation where text is large enough to be used by most users with low vision.</p>
        </td>
@@ -2415,12 +2317,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Knee and toe space under ICT shall be 27 inches (685 mm) high minimum, 25 inches (635 mm) deep maximum, and 30 inches (760 mm) wide minimum and shall be clear of obstructions.</p>
          <p>EXCEPTIONS:</p>
          <ol>
-           <li>
-             Toe space shall be permitted to provide a clear height of 9 inches (230 mm) above the floor and a clear depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT.
-           </li>
-           <li>
-             At a depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT, space between 9 inches (230 MM) and 27 inches (685 mm) minimum above the floor shall be permitted to reduce at a rate of 1 inch (25 mm) in depth for every 6 inches (150 mm) in height.<a href="#fn13" id="fnref13" role="doc-noteref"><sup>13</sup></a>
-           </li>
+           <li>Toe space shall be permitted to provide a clear height of 9 inches (230 mm) above the floor and a clear depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT.</li>
+           <li>At a depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT, space between 9 inches (230 MM) and 27 inches (685 mm) minimum above the floor shall be permitted to reduce at a rate of 1 inch (25 mm) in depth for every 6 inches (150 mm) in height.<a href="#fn13" id="fnref13" role="doc-noteref"><sup>13</sup></a></li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2">
@@ -2455,27 +2353,17 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>407.8.3.2.2 Knee and Toe Space under ICT with Obstructed Forward Reach Knee and toe space under ICT shall be 27 inches (685 mm) high minimum, 25 inches (635 mm) deep maximum, and 30 inches (760 mm) wide minimum and shall be clear of obstructions.</p>
          <p>EXCEPTIONS:</p>
          <ol>
-           <li>
-             Toe space shall be permitted to provide a clear height of 9 inches (230 mm) above the floor and a clear depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT.
-           </li>
-           <li>
-             At a depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT, space between 9 inches (230 mm) and 27 inches (685 mm) minimum above the floor shall be permitted to reduce at a rate of 1 inch (25 mm) in depth for every 6 inches (150 mm) in height.<a href="#fn14" id="fnref14" role="doc-noteref"><sup>14</sup></a>
-           </li>
+           <li>Toe space shall be permitted to provide a clear height of 9 inches (230 mm) above the floor and a clear depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT.</li>
+           <li>At a depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT, space between 9 inches (230 mm) and 27 inches (685 mm) minimum above the floor shall be permitted to reduce at a rate of 1 inch (25 mm) in depth for every 6 inches (150 mm) in height.<a href="#fn14" id="fnref14" role="doc-noteref"><sup>14</sup></a></li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2">
          <p>8.3.2.5 Toe clearance</p>
          <p>Where an obstacle is integral to the ICT, a space under the obstacle that is less than 230 mm (9 inches) above the floor is considered toe clearance and should:</p>
          <ol>
-           <li>
-             extend 635 mm (25 inches) maximum under the whole obstacle;
-           </li>
-           <li>
-             provide a space at least 430 mm (17 inches) deep and 230 mm above the floor under the obstacle;
-           </li>
-           <li>
-             extend no more than150 mm (6 inches) beyond any obstruction at 230 mm (9 inches) above the floor.
-           </li>
+           <li>extend 635 mm (25 inches) maximum under the whole obstacle;</li>
+           <li>provide a space at least 430 mm (17 inches) deep and 230 mm above the floor under the obstacle;</li>
+           <li>extend no more than150 mm (6 inches) beyond any obstruction at 230 mm (9 inches) above the floor.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_1">
@@ -2487,15 +2375,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>8.3.2.5 Toe clearance</p>
          <p>Where an obstacle is integral to the ICT, a space under the obstacle that is less than 230 mm (9 inches) above the floor is considered toe clearance and should:</p>
          <ol>
-           <li>
-             extend 635 mm (25 inches) maximum under the whole obstacle;
-           </li>
-           <li>
-             provide a space at least 430 mm (17 inches) deep and 230 mm above the floor under the obstacle;
-           </li>
-           <li>
-             extend no more than 150 mm (6 inches) beyond any obstruction at 230 mm (9 inches) above the floor.
-           </li>
+           <li>extend 635 mm (25 inches) maximum under the whole obstacle;</li>
+           <li>provide a space at least 430 mm (17 inches) deep and 230 mm above the floor under the obstacle;</li>
+           <li>extend no more than 150 mm (6 inches) beyond any obstruction at 230 mm (9 inches) above the floor.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_2"></td>
@@ -2503,15 +2385,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>8.3.2.5 Toe clearance</p>
          <p>Where an obstacle is <strong>an integral part of the stationary</strong> ICT, a space under the obstacle that is less than 230 mm (9 inches) above the floor is considered toe clearance and <strong>shall</strong>:</p>
          <ol>
-           <li>
-             extend 635 mm (25 inches) maximum under the whole obstacle;
-           </li>
-           <li>
-             provide a space at least 430 mm (17 inches) deep and 230 mm <strong>(9 inches)</strong> above the floor under the obstacle;
-           </li>
-           <li>
-             extend no more than 150 mm (6 inches) beyond any obstruction at 230 mm (9 inches) above the floor.
-           </li>
+           <li>extend 635 mm (25 inches) maximum under the whole obstacle;</li>
+           <li>provide a space at least 430 mm (17 inches) deep and 230 mm <strong>(9 inches)</strong> above the floor under the obstacle;</li>
+           <li>extend no more than 150 mm (6 inches) beyond any obstruction at 230 mm (9 inches) above the floor.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_3">
@@ -2523,15 +2399,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>8.3.2.5 Toe clearance</p>
          <p>Where an obstacle is an integral part of the stationary ICT, a space under the obstacle that is less than 230 mm (9 inches) above the floor is considered toe clearance and shall:</p>
          <ol>
-           <li>
-             extend 635 mm (25 inches) maximum under the whole obstacle;
-           </li>
-           <li>
-             provide a space at least 430 mm (17 inches) deep and 230 mm (9 inches) above the floor under the obstacle;
-           </li>
-           <li>
-             extend no more than 150 mm (6 inches) beyond any obstruction at 230 mm (9 inches) above the floor.
-           </li>
+           <li>extend 635 mm (25 inches) maximum under the whole obstacle;</li>
+           <li>provide a space at least 430 mm (17 inches) deep and 230 mm (9 inches) above the floor under the obstacle;</li>
+           <li>extend no more than 150 mm (6 inches) beyond any obstruction at 230 mm (9 inches) above the floor.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_4"></td>
@@ -2541,30 +2411,18 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>407.8.3.2.2 Knee and Toe Space under ICT with Obstructed Forward Reach Knee and toe space under ICT shall be 27 inches (685 mm) high minimum, 25 inches (635 mm) deep maximum, and 30 inches (760 mm) wide minimum and shall be clear of obstructions.</p>
          <p>EXCEPTIONS:</p>
          <ol>
-           <li>
-             Toe space shall be permitted to provide a clear height of 9 inches (230 mm) above the floor and a clear depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT.
-           </li>
-           <li>
-             At a depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT, space between 9 inches (230 MM) and 27 inches (685 mm) minimum above the floor shall be permitted to reduce at a rate of 1 inch (25 mm) in depth for every 6 inches (150 mm) in height.<a href="#fn15" id="fnref15" role="doc-noteref"><sup>15</sup></a>
-           </li>
+           <li>Toe space shall be permitted to provide a clear height of 9 inches (230 mm) above the floor and a clear depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT.</li>
+           <li>At a depth of 6 inches (150 mm) maximum from the vertical reference plane toward the leading edge of the ICT, space between 9 inches (230 MM) and 27 inches (685 mm) minimum above the floor shall be permitted to reduce at a rate of 1 inch (25 mm) in depth for every 6 inches (150 mm) in height.<a href="#fn15" id="fnref15" role="doc-noteref"><sup>15</sup></a></li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2">
          <p>8.3.2.6 Knee clearance</p>
          <p>Where an obstacle is integral to the ICT, the space under the obstacle that is between 230 mm and 685 mm above the floor is considered knee clearance and should:</p>
          <ol>
-           <li>
-             extend no more than 635 mm (25 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;
-           </li>
-           <li>
-             extend at least 280 mm (11 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;
-           </li>
-           <li>
-             extend at least 205 mm (8 inches) under the obstacle at a height of 685 mm (27 inches) above the floor;
-           </li>
-           <li>
-             be between 230 mm (9 inches) and 685 mm (27 inches) above the floor be permitted to be reduced in depth at a rate of 25 mm (1 inch) for each 150 mm (6 inches) in height.
-           </li>
+           <li>extend no more than 635 mm (25 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;</li>
+           <li>extend at least 280 mm (11 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;</li>
+           <li>extend at least 205 mm (8 inches) under the obstacle at a height of 685 mm (27 inches) above the floor;</li>
+           <li>be between 230 mm (9 inches) and 685 mm (27 inches) above the floor be permitted to be reduced in depth at a rate of 25 mm (1 inch) for each 150 mm (6 inches) in height.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_1">
@@ -2576,18 +2434,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>8.3.2.6 Knee clearance</p>
          <p>Where an obstacle is integral to the ICT, the space under the obstacle that is between 230 mm and 685 mm above the floor is considered knee clearance and should:</p>
          <ol>
-           <li>
-             extend no more than 635 mm (25 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;
-           </li>
-           <li>
-             extend at least 280 mm (11 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;
-           </li>
-           <li>
-             extend at least 205 mm (8 inches) under the obstacle at a height of 685 mm (27 inches) above the floor;
-           </li>
-           <li>
-             <strong>d) be permitted to be reduced in depth at a rate of 25 mm (1 inch) for each 150 mm (6 inches) in height.</strong>
-           </li>
+           <li>extend no more than 635 mm (25 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;</li>
+           <li>extend at least 280 mm (11 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;</li>
+           <li>extend at least 205 mm (8 inches) under the obstacle at a height of 685 mm (27 inches) above the floor;</li>
+           <li><strong>d) be permitted to be reduced in depth at a rate of 25 mm (1 inch) for each 150 mm (6 inches) in height.</strong></li>
          </ol>
        </td>
        <td data-wb-tags="choice_2">Stylistic rewording</td>
@@ -2595,18 +2445,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>8.3.2.6 Knee clearance</p>
          <p>Where an obstacle is <strong>an integral part of the stationary</strong> ICT, the space under the obstacle that is between 230 mm <strong>(9 inches)</strong> and 685 mm <strong>(25 inches)</strong><a href="#fn16" id="fnref16" role="doc-noteref"><sup>16</sup></a> above the floor is considered knee clearance and <strong>shall</strong>:</p>
          <ol>
-           <li>
-             extend no more than 635 mm (25 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;
-           </li>
-           <li>
-             extend at least 280 mm (11 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;
-           </li>
-           <li>
-             extend at least 205 mm (8 inches) under the obstacle at a height of 685 mm (27 inches) above the floor;
-           </li>
-           <li>
-             d) be permitted to be reduced in depth at a rate of 25 mm (1 inch) for each 150 mm (6 inches) in height.
-           </li>
+           <li>extend no more than 635 mm (25 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;</li>
+           <li>extend at least 280 mm (11 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;</li>
+           <li>extend at least 205 mm (8 inches) under the obstacle at a height of 685 mm (27 inches) above the floor;</li>
+           <li>d) be permitted to be reduced in depth at a rate of 25 mm (1 inch) for each 150 mm (6 inches) in height.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_3">
@@ -2618,18 +2460,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>8.3.2.6 Knee clearance</p>
          <p>Where an obstacle is an integral part of the stationary ICT, the space under the obstacle that is between 230 mm (9 inches) and 685 mm (25 inches) above the floor is considered knee clearance and shall:</p>
          <ol>
-           <li>
-             extend no more than 635 mm (25 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;
-           </li>
-           <li>
-             extend at least 280 mm (11 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;
-           </li>
-           <li>
-             extend at least 205 mm (8 inches) under the obstacle at a height of 685 mm (27 inches) above the floor;
-           </li>
-           <li>
-             d) be permitted to be reduced in depth at a rate of 25 mm (1 inch) for each 150 mm (6 inches) in height.
-           </li>
+           <li>extend no more than 635 mm (25 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;</li>
+           <li>extend at least 280 mm (11 inches) under the obstacle at a height of 230 mm (9 inches) above the floor;</li>
+           <li>extend at least 205 mm (8 inches) under the obstacle at a height of 685 mm (27 inches) above the floor;</li>
+           <li>d) be permitted to be reduced in depth at a rate of 25 mm (1 inch) for each 150 mm (6 inches) in height.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_4"></td>
@@ -4243,9 +4077,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      <tr>
        <td data-wb-tags="choice_1">
          <ol>
-           <li>
-             Section 9.3.3 Enable sequential entry of multiple (chorded) keystrokes;<a href="#fn31" id="fnref31" role="doc-noteref"><sup>31</sup></a>
-           </li>
+           <li>Section 9.3.3 Enable sequential entry of multiple (chorded) keystrokes;<a href="#fn31" id="fnref31" role="doc-noteref"><sup>31</sup></a></li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2">
@@ -4279,9 +4111,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      <tr>
        <td data-wb-tags="choice_1">
          <ol start="2">
-           <li>
-             Section 9.3.4 Provide adjustment of delay before key acceptance;
-           </li>
+           <li>Section 9.3.4 Provide adjustment of delay before key acceptance;</li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2">
@@ -4319,9 +4149,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      <tr>
        <td data-wb-tags="choice_1">
          <ol start="3">
-           <li>
-             Section 9.3.5 Provide adjustment of same-key double-strike acceptance;<a href="#fn32" id="fnref32" role="doc-noteref"><sup>32</sup></a>
-           </li>
+           <li>Section 9.3.5 Provide adjustment of same-key double-strike acceptance;<a href="#fn32" id="fnref32" role="doc-noteref"><sup>32</sup></a></li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2">
@@ -4351,9 +4179,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      <tr>
        <td data-wb-tags="choice_1">
          <ol start="7">
-           <li>
-             Section 10.7.1 Display any captions provided.
-           </li>
+           <li>Section 10.7.1 Display any captions provided.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2">
@@ -4819,12 +4645,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>12.1.2 Accessible documentation</p>
          <p>Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:</p>
          <ol>
-           <li>
-             a Web format that conforms to the requirements of clause 9, or
-           </li>
-           <li>
-             a non-web format that conforms to the requirements of clause 10.
-           </li>
+           <li>a Web format that conforms to the requirements of clause 9, or</li>
+           <li>a non-web format that conforms to the requirements of clause 10.</li>
          </ol>
          <p>NOTE 1: This does not preclude the possibility of also providing the product documentation in other formats (electronic or printed) that are not accessible.</p>
          <p>NOTE 2: It also does not preclude the possibility of providing alternate formats that meet the needs of some specific type of users (e.g. Braille documents for blind people or easy-to-read information for persons with cognitive impairments).</p>
@@ -4839,12 +4661,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>12.1.2 Accessible documentation</p>
          <p>Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:</p>
          <ol>
-           <li>
-             a Web format that conforms to the requirements of clause 9, or
-           </li>
-           <li>
-             a non-web format that conforms to the requirements of clause 10.
-           </li>
+           <li>a Web format that conforms to the requirements of clause 9, or</li>
+           <li>a non-web format that conforms to the requirements of clause 10.</li>
          </ol>
          <p>NOTE 1: This does not preclude the possibility of also providing the product documentation in other formats (electronic or printed) that are not accessible.</p>
          <p>NOTE 2: It also does not preclude the possibility of providing alternate formats that meet the needs of some specific type of users (e.g. Braille documents for blind people or easy-to-read information for persons with cognitive impairments).</p>
@@ -4856,12 +4674,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>12.1.2 Accessible documentation</p>
          <p>Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:</p>
          <ol>
-           <li>
-             a Web format that conforms to the requirements of clause 9; or
-           </li>
-           <li>
-             a non-web format that conforms to the requirements of clause 10.
-           </li>
+           <li>a Web format that conforms to the requirements of clause 9; or</li>
+           <li>a non-web format that conforms to the requirements of clause 10.</li>
          </ol>
          <p>NOTE 1: This does not preclude the possibility of also providing the product documentation in other formats (electronic, printed or audio) that are not accessible.</p>
          <p>NOTE 2: It also does not preclude the possibility of providing alternate formats that meet the needs of some specific type of users (e.g. Braille documents for blind people or easy-to-read information for persons with <strong>limited cognitive, language and learning abilities</strong>).</p>
@@ -4873,12 +4687,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>12.1.2 Accessible documentation</p>
          <p>Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:</p>
          <ol>
-           <li>
-             a Web format that conforms to the requirements of clause 9; or
-           </li>
-           <li>
-             a non-web format that conforms to the requirements of clause 10.
-           </li>
+           <li>a Web format that conforms to the requirements of clause 9; or</li>
+           <li>a non-web format that conforms to the requirements of clause 10.</li>
          </ol>
          <p>NOTE 1: This does not preclude the possibility of also providing the product documentation in other formats (electronic, printed or audio) that are not accessible.</p>
          <p>NOTE 2: It also does not preclude the possibility of providing alternate formats that meet the needs of some specific type of users (e.g. Braille documents for blind people or easy-to-read information for persons with limited cognitive, language and learning abilities).</p>
@@ -4893,12 +4703,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>12.1.2 Accessible documentation</p>
          <p>Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:</p>
          <ol>
-           <li>
-             a Web format that conforms to the requirements of clause 9, or
-           </li>
-           <li>
-             a non-web format that conforms to the requirements of clause 10.
-           </li>
+           <li>a Web format that conforms to the requirements of clause 9, or</li>
+           <li>a non-web format that conforms to the requirements of clause 10.</li>
          </ol>
          <p>NOTE 1: This does not preclude the possibility of also providing the product documentation in other formats (electronic or printed) that are not accessible.</p>
          <p>NOTE 2: It also does not preclude the possibility of providing alternate formats that meet the needs of some specific type of users (e.g. Braille documents for blind people or easy-to-read information for persons with cognitive impairments).</p>
@@ -4913,12 +4719,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>12.1.2 Accessible documentation</p>
          <p>Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:</p>
          <ol>
-           <li>
-             a Web format that conforms to the requirements of clause 9, or
-           </li>
-           <li>
-             a non-web format that conforms to the requirements of clause 10.
-           </li>
+           <li>a Web format that conforms to the requirements of clause 9, or</li>
+           <li>a non-web format that conforms to the requirements of clause 10.</li>
          </ol>
          <p>NOTE 1: This does not preclude the possibility of also providing the product documentation in other formats (electronic or printed) that are not accessible.</p>
          <p>NOTE 2: It also does not preclude the possibility of providing alternate formats that meet the needs of some specific type of users (e.g. Braille documents for blind people or easy-to-read information for persons with cognitive impairments).</p>
@@ -4930,12 +4732,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>12.1.2 Accessible documentation</p>
          <p>Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:</p>
          <ol>
-           <li>
-             a Web format that conforms to the requirements of clause 9; or
-           </li>
-           <li>
-             a non-web format that conforms to the requirements of clause 10.
-           </li>
+           <li>a Web format that conforms to the requirements of clause 9; or</li>
+           <li>a non-web format that conforms to the requirements of clause 10.</li>
          </ol>
          <p>NOTE 1: This does not preclude the possibility of also providing the product documentation in other formats (electronic, printed or audio) that are not accessible.</p>
          <p>NOTE 2: It also does not preclude the possibility of providing alternate formats that meet the needs of some specific type of users (e.g. Braille documents for blind people or easy-to-read information for persons with <strong>limited cognitive, language and learning abilities</strong>).</p>
@@ -4947,12 +4745,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>12.1.2 Accessible documentation</p>
          <p>Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:</p>
          <ol>
-           <li>
-             a Web format that conforms to the requirements of clause 9; or
-           </li>
-           <li>
-             a non-web format that conforms to the requirements of clause 10.
-           </li>
+           <li>a Web format that conforms to the requirements of clause 9; or</li>
+           <li>a non-web format that conforms to the requirements of clause 10.</li>
          </ol>
          <p>NOTE 1: This does not preclude the possibility of also providing the product documentation in other formats (electronic, printed or audio) that are not accessible.</p>
          <p>NOTE 2: It also does not preclude the possibility of providing alternate formats that meet the needs of some specific type of users (e.g. Braille documents for blind people or easy-to-read information for persons with limited cognitive, language and learning abilities).</p>
@@ -5393,9 +5187,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>502.4 Platform Accessibility Features</p>
          <p>Platforms and platform software shall conform to the requirements in ANSI/HFES 200.2, Human Factors Engineering of Software User Interfaces — Part 2: Accessibility (2008) (incorporated by reference, see 702.4.1) listed below:</p>
          <ol start="4">
-           <li>
-             Section 10.6.7 Allow users to choose visual alternative for audio output;<a href="#fn37" id="fnref37" role="doc-noteref"><sup>37</sup></a>
-           </li>
+           <li>Section 10.6.7 Allow users to choose visual alternative for audio output;<a href="#fn37" id="fnref37" role="doc-noteref"><sup>37</sup></a></li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2"></td>
@@ -5412,9 +5204,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>502.4 Platform Accessibility Features</p>
          <p>Platforms and platform software shall conform to the requirements in ANSI/HFES 200.2, Human Factors Engineering of Software User Interfaces — Part 2: Accessibility (2008) (incorporated by reference, see 702.4.1) listed below:</p>
          <ol start="5">
-           <li>
-             Section 10.6.8 Synchronize audio equivalents for visual events;<a href="#fn38" id="fnref38" role="doc-noteref"><sup>38</sup></a>
-           </li>
+           <li>Section 10.6.8 Synchronize audio equivalents for visual events;<a href="#fn38" id="fnref38" role="doc-noteref"><sup>38</sup></a></li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2"></td>
@@ -5431,9 +5221,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>502.4 Platform Accessibility Features</p>
          <p>Platforms and platform software shall conform to the requirements in ANSI/HFES 200.2, Human Factors Engineering of Software User Interfaces — Part 2: Accessibility (2008) (incorporated by reference, see 702.4.1) listed below:</p>
          <ol start="6">
-           <li>
-             Section 10.6.9 Provide speech output services;<a href="#fn39" id="fnref39" role="doc-noteref"><sup>39</sup></a>
-           </li>
+           <li>Section 10.6.9 Provide speech output services;<a href="#fn39" id="fnref39" role="doc-noteref"><sup>39</sup></a></li>
          </ol>
        </td>
        <td data-wb-tags="choice_1 choice_2"></td>
@@ -5591,18 +5379,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>5.1.3.14 Spoken languages</p>
          <p>Where speech output is provided as non-visual access to closed functionality, speech output shall be in the same human language as the displayed content provided, except:</p>
          <ol>
-           <li>
-             for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text;
-           </li>
-           <li>
-             where the content is generated externally and not under the control of the ICT vendor, clause 5.1.3.14 shall not be required to apply for languages not supported by the ICT's speech synthesizer;
-           </li>
-           <li>
-             for displayed languages that cannot be selected using non-visual access;
-           </li>
-           <li>
-             where the user explicitly selects a speech language that is different from the language of the displayed content.
-           </li>
+           <li>for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text;</li>
+           <li>where the content is generated externally and not under the control of the ICT vendor, clause 5.1.3.14 shall not be required to apply for languages not supported by the ICT's speech synthesizer;</li>
+           <li>for displayed languages that cannot be selected using non-visual access;</li>
+           <li>where the user explicitly selects a speech language that is different from the language of the displayed content.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_1"></td>
@@ -5610,18 +5390,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>5.1.3.14 Spoken languages</p>
          <p>Where speech output is provided as non-visual access to closed functionality, speech output shall be in the same human language as the displayed content provided, except:</p>
          <ol>
-           <li>
-             for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text;
-           </li>
-           <li>
-             where the content is generated externally and not under the control of the ICT vendor, clause 5.1.3.14 shall not be required to apply for languages not supported by the ICT's speech synthesizer;
-           </li>
-           <li>
-             for displayed languages that cannot be selected using non-visual access;
-           </li>
-           <li>
-             where the user explicitly selects a speech language that is different from the language of the displayed content.
-           </li>
+           <li>for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text;</li>
+           <li>where the content is generated externally and not under the control of the ICT vendor, clause 5.1.3.14 shall not be required to apply for languages not supported by the ICT's speech synthesizer;</li>
+           <li>for displayed languages that cannot be selected using non-visual access;</li>
+           <li>where the user explicitly selects a speech language that is different from the language of the displayed content.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_2"></td>
@@ -5629,18 +5401,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>5.1.3.14 Spoken languages</p>
          <p>Where speech output is provided as non-visual access to closed functionality, speech output shall be in the same human language as the displayed content provided, except:</p>
          <ol>
-           <li>
-             for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text;
-           </li>
-           <li>
-             where the content is generated externally and not under the control of the ICT vendor, <strong>the present clause</strong> shall not be required to apply for languages not supported by the ICT's speech synthesizer;
-           </li>
-           <li>
-             for displayed languages that cannot be selected using non-visual access;
-           </li>
-           <li>
-             where the user explicitly selects a speech language that is different from the language of the displayed content.
-           </li>
+           <li>for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text;</li>
+           <li>where the content is generated externally and not under the control of the ICT vendor, <strong>the present clause</strong> shall not be required to apply for languages not supported by the ICT's speech synthesizer;</li>
+           <li>for displayed languages that cannot be selected using non-visual access;</li>
+           <li>where the user explicitly selects a speech language that is different from the language of the displayed content.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_3">Stylistic rewording</td>
@@ -5648,18 +5412,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>5.1.3.14 Spoken languages</p>
          <p>Where speech output is provided as non-visual access to closed functionality, speech output shall be in the same human language as the displayed content provided, except:</p>
          <ol>
-           <li>
-             for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text;
-           </li>
-           <li>
-             where the content is generated externally and not under the control of the ICT vendor, the present clause shall not be required to apply for languages not supported by the ICT's speech synthesizer;
-           </li>
-           <li>
-             for displayed languages that cannot be selected using non-visual access;
-           </li>
-           <li>
-             where the user explicitly selects a speech language that is different from the language of the displayed content.
-           </li>
+           <li>for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text;</li>
+           <li>where the content is generated externally and not under the control of the ICT vendor, the present clause shall not be required to apply for languages not supported by the ICT's speech synthesizer;</li>
+           <li>for displayed languages that cannot be selected using non-visual access;</li>
+           <li>where the user explicitly selects a speech language that is different from the language of the displayed content.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_4"></td>
@@ -5954,18 +5710,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.2.3 Interoperability</p>
          <p>Where ICT with RTT functionality interoperates with other ICT with RTT functionality (as required by 6.2.1.1) they shall support at least one of the four RTT interoperability mechanisms described below:</p>
          <ol>
-           <li>
-             ICT interoperating over the Public Switched Telephone Network (PSTN), with other ICT that directly connects to the PSTN as described in Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;
-           </li>
-           <li>
-             ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using real-time text that conforms to RFC 4103;
-           </li>
-           <li>
-             ICT interoperating with other ICT using RTT that conforms with the IP Multimedia Sub-System (IMS) set of protocols specified in TS 126 114, TS 122 173 and TS 134 229;
-           </li>
-           <li>
-             ICT interoperating with other ICT using a relevant and applicable common specification for RTT exchange that is published and available. This common specification shall include a method for indicating loss or corruption of characters.
-           </li>
+           <li>ICT interoperating over the Public Switched Telephone Network (PSTN), with other ICT that directly connects to the PSTN as described in Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;</li>
+           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using real-time text that conforms to RFC 4103;</li>
+           <li>ICT interoperating with other ICT using RTT that conforms with the IP Multimedia Sub-System (IMS) set of protocols specified in TS 126 114, TS 122 173 and TS 134 229;</li>
+           <li>ICT interoperating with other ICT using a relevant and applicable common specification for RTT exchange that is published and available. This common specification shall include a method for indicating loss or corruption of characters.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_1"></td>
@@ -5973,18 +5721,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.2.3 Interoperability</p>
          <p>Where ICT with RTT functionality interoperates with other ICT with RTT functionality (as required by <strong>clause</strong> 6.2.1.1) they shall support at least one of the four RTT interoperability mechanisms described below:</p>
          <ol>
-           <li>
-             ICT interoperating over the Public Switched Telephone Network (PSTN), with other ICT that directly connects to the PSTN as described in Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;
-           </li>
-           <li>
-             ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using real-time text that conforms to <strong>IETF</strong> RFC 4103;
-           </li>
-           <li>
-             ICT interoperating with other ICT using RTT that conforms with the IP Multimedia Sub-System (IMS) set of protocols specified in <strong>ETSI</strong> TS 126 114, <strong>ETSI</strong> TS 122 173 and <strong>ETSI</strong> TS 134 229;
-           </li>
-           <li>
-             ICT interoperating with other ICT using a relevant and applicable common specification for RTT exchange that is published and available. This common specification shall include a method for indicating loss or corruption of characters.
-           </li>
+           <li>ICT interoperating over the Public Switched Telephone Network (PSTN), with other ICT that directly connects to the PSTN as described in Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;</li>
+           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using real-time text that conforms to <strong>IETF</strong> RFC 4103;</li>
+           <li>ICT interoperating with other ICT using RTT that conforms with the IP Multimedia Sub-System (IMS) set of protocols specified in <strong>ETSI</strong> TS 126 114, <strong>ETSI</strong> TS 122 173 and <strong>ETSI</strong> TS 134 229;</li>
+           <li>ICT interoperating with other ICT using a relevant and applicable common specification for RTT exchange that is published and available. This common specification shall include a method for indicating loss or corruption of characters.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_2">
@@ -5995,18 +5735,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.2.3 Interoperability</p>
          <p>Where ICT with RTT functionality interoperates with other ICT with RTT functionality (as required by clause 6.2.1.1) they shall support <strong>the applicable</strong> RTT interoperability mechanisms described below:</p>
          <ol>
-           <li>
-             ICT interoperating <strong>with other ICT directly connected to</strong> the Public Switched Telephone Network (PSTN), <strong>using</strong> Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;
-           </li>
-           <li>
-             ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using <strong>RTT</strong> that conforms to IETF RFC 4103. <strong>For ICT interoperating with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, the set of protocols specified in ETSI TS 126 114, ETSI TS 122 173 and ETSI TS 134 229 describe how IETF RFC 4103 would apply;</strong>
-           </li>
-           <li>
-             ICT interoperating with other ICT <strong>using technologies other than a or b, above,</strong> using a relevant and applicable common specification for RTT exchange that is published and available <strong>for the environments in which they will be operating.</strong> This common specification shall include a method for indicating loss or corruption of characters.
-           </li>
-           <li>
-             <strong>ICT interoperating with other ICT using a standard for RTT that has been introduced for use in any of the above environments, and is supported by all of the other active ICT that support voice and RTT in that environment.</strong>
-           </li>
+           <li>ICT interoperating <strong>with other ICT directly connected to</strong> the Public Switched Telephone Network (PSTN), <strong>using</strong> Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;</li>
+           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using <strong>RTT</strong> that conforms to IETF RFC 4103. <strong>For ICT interoperating with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, the set of protocols specified in ETSI TS 126 114, ETSI TS 122 173 and ETSI TS 134 229 describe how IETF RFC 4103 would apply;</strong></li>
+           <li>ICT interoperating with other ICT <strong>using technologies other than a or b, above,</strong> using a relevant and applicable common specification for RTT exchange that is published and available <strong>for the environments in which they will be operating.</strong> This common specification shall include a method for indicating loss or corruption of characters.</li>
+           <li><strong>ICT interoperating with other ICT using a standard for RTT that has been introduced for use in any of the above environments, and is supported by all of the other active ICT that support voice and RTT in that environment.</strong></li>
          </ol>
          <p><strong>NOTE 1: In practice, new standards are introduced as an alternative codec/protocol that is supported alongside the existing common standard and used when all end-to-end components support it while technology development, combined with other reasons including societal development and cost efficiency, may make others become obsolete.</strong></p>
          <p><strong>NOTE 2: Where multiple technologies are used to provide voice communication, multiple interoperability mechanisms may be needed to ensure that all users are able to use RTT.</strong></p>
@@ -6021,18 +5753,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.2.3 Interoperability</p>
          <p>Where ICT with RTT functionality interoperates with other ICT with RTT functionality (as required by clause 6.2.1.1) they shall support the applicable RTT interoperability mechanisms described below:</p>
          <ol>
-           <li>
-             ICT interoperating with other ICT directly connected to the Public Switched Telephone Network (PSTN), using Recommendation ITU-T V.18 [i.23] or any of its annexes for text telephony signals at the PSTN interface;
-           </li>
-           <li>
-             ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using RTT that conforms to IETF RFC 4103 [i.13]. For ICT interoperating with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, the set of protocols specified in ETSI TS 126 114 [i.10], ETSI TS 122 173 [i.11] and ETSI TS 134 229 [i.12] describe how IETF RFC 4103 [i.13] would apply;
-           </li>
-           <li>
-             ICT interoperating with other ICT using technologies other than a or b, above, using a relevant and applicable common specification for RTT exchange that is published and available for the environments in which they will be operating. This common specification shall include a method for indicating loss or corruption of characters;
-           </li>
-           <li>
-             ICT interoperating with other ICT using a standard for RTT that has been introduced for use in any of the above environments, and is supported by all of the other active ICT that support voice and RTT in that environment.
-           </li>
+           <li>ICT interoperating with other ICT directly connected to the Public Switched Telephone Network (PSTN), using Recommendation ITU-T V.18 [i.23] or any of its annexes for text telephony signals at the PSTN interface;</li>
+           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using RTT that conforms to IETF RFC 4103 [i.13]. For ICT interoperating with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, the set of protocols specified in ETSI TS 126 114 [i.10], ETSI TS 122 173 [i.11] and ETSI TS 134 229 [i.12] describe how IETF RFC 4103 [i.13] would apply;</li>
+           <li>ICT interoperating with other ICT using technologies other than a or b, above, using a relevant and applicable common specification for RTT exchange that is published and available for the environments in which they will be operating. This common specification shall include a method for indicating loss or corruption of characters;</li>
+           <li>ICT interoperating with other ICT using a standard for RTT that has been introduced for use in any of the above environments, and is supported by all of the other active ICT that support voice and RTT in that environment.</li>
          </ol>
          <p>NOTE 1: In practice, new standards are introduced as an alternative codec/protocol that is supported alongside the existing common standard and used when all end-to-end components support it while technology development, combined with other reasons including societal development and cost efficiency, may make others become obsolete.</p>
          <p>NOTE 2: Where multiple technologies are used to provide voice communication, multiple interoperability mechanisms may be needed to ensure that all users are able to use RTT.</p>
@@ -6159,15 +5883,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.6 Alternatives to video-based services</p>
          <p>Where ICT provides real-time video-based communication and also provides answering machine, auto attendant or interactive response facilities, the ICT should offer users a means to access the information and carry out the tasks related to these facilities:</p>
          <ol>
-           <li>
-             for audible information, without the use of hearing;
-           </li>
-           <li>
-             for spoken commands, without the use of speech;
-           </li>
-           <li>
-             for visual information, without the use of vision.
-           </li>
+           <li>for audible information, without the use of hearing;</li>
+           <li>for spoken commands, without the use of speech;</li>
+           <li>for visual information, without the use of vision.</li>
          </ol>
          <p>NOTE: Solutions capable of generating real-time captions or handling real-time text could satisfy the above requirement.</p>
        </td>
@@ -6176,15 +5894,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.6 Alternatives to video-based services</p>
          <p>Where ICT provides real-time video-based communication and also provides answering machine, auto attendant or interactive response facilities, the ICT should offer users a means to access the information and carry out the tasks related to these facilities:</p>
          <ol>
-           <li>
-             for audible information, without the use of hearing;
-           </li>
-           <li>
-             for spoken commands, without the use of speech;
-           </li>
-           <li>
-             for visual information, without the use of vision.
-           </li>
+           <li>for audible information, without the use of hearing;</li>
+           <li>for spoken commands, without the use of speech;</li>
+           <li>for visual information, without the use of vision.</li>
          </ol>
          <p>NOTE: Solutions capable of generating real-time captions or handling real-time text could satisfy the above requirement.</p>
        </td>
@@ -6193,15 +5905,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.6 Alternatives to video-based services</p>
          <p>Where ICT provides real-time video-based communication and also provides answering machine, auto attendant or interactive response facilities, the ICT should offer users a means to access the information and carry out the tasks related to these facilities:</p>
          <ol>
-           <li>
-             for audible information, without the use of hearing;
-           </li>
-           <li>
-             for spoken commands, without the use of speech;
-           </li>
-           <li>
-             for visual information, without the use of vision.
-           </li>
+           <li>for audible information, without the use of hearing;</li>
+           <li>for spoken commands, without the use of speech;</li>
+           <li>for visual information, without the use of vision.</li>
          </ol>
          <p>NOTE: Solutions capable of generating real-time captions or handling <strong>RTT</strong> could satisfy the above requirement.</p>
        </td>
@@ -6210,15 +5916,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.6 Alternatives to video-based services</p>
          <p>Where ICT provides real-time video-based communication and also provides answering machine, auto attendant or interactive response facilities, the ICT should offer users a means to access the information and carry out the tasks related to these facilities:</p>
          <ol>
-           <li>
-             for audible information, without the use of hearing;
-           </li>
-           <li>
-             for spoken commands, without the use of speech;
-           </li>
-           <li>
-             for visual information, without the use of vision.
-           </li>
+           <li>for audible information, without the use of hearing;</li>
+           <li>for spoken commands, without the use of speech;</li>
+           <li>for visual information, without the use of vision.</li>
          </ol>
          <p>NOTE: Solutions capable of generating real-time captions or handling RTT could satisfy the above requirement.</p>
        </td>
@@ -6240,12 +5940,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>7.1.2 Captioning synchronization</p>
          <p>Where ICT displays captions, the mechanism to display captions shall preserve synchronization between the audio and the corresponding captions as follows:</p>
          <ul>
-           <li>
-             <strong>Captions in recorded material: within 100 ms of the time stamp of the caption</strong>
-           </li>
-           <li>
-             <strong>Live captions: within 100 ms of the availability of the caption to the player.</strong>
-           </li>
+           <li><strong>Captions in recorded material: within 100 ms of the time stamp of the caption</strong></li>
+           <li><strong>Live captions: within 100 ms of the availability of the caption to the player.</strong></li>
          </ul>
        </td>
        <td data-wb-tags="choice_3">Functional change</td>
@@ -6253,14 +5949,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>7.1.2 Captioning synchronization</p>
          <p>Where ICT displays captions, the mechanism to display captions shall preserve synchronization between the audio and the corresponding captions as follows:</p>
          <ul>
-           <li>
-             Captions in recorded material: within 100 ms of the time stamp of the caption.
-           </li>
+           <li>Captions in recorded material: within 100 ms of the time stamp of the caption.</li>
          </ul>
          <ul>
-           <li>
-             Live captions: within 100 ms of the availability of the caption to the player.
-           </li>
+           <li>Live captions: within 100 ms of the availability of the caption to the player.</li>
          </ul>
        </td>
        <td data-wb-tags="choice_4"></td>
@@ -6381,12 +6073,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p><strong>Clauses 8.3.2 to 8.3.4 specify mandatory limits for the maximum and minimum height of operable parts and displays.</strong></p>
          <p><strong>Based on dimensions shown in figure 53 of ISO 21542:2011, it is recommended that the possible height range is reduced to:</strong></p>
          <ul>
-           <li>
-             <strong>minimum and maximum heights of operable parts: 800 mm and 1 100 mm respectively, and</strong>
-           </li>
-           <li>
-             <strong>minimum and maximum heights of displays: 1 200 mm and 1 400 mm respectively.</strong>
-           </li>
+           <li><strong>minimum and maximum heights of operable parts: 800 mm and 1 100 mm respectively, and</strong></li>
+           <li><strong>minimum and maximum heights of displays: 1 200 mm and 1 400 mm respectively.</strong></li>
          </ul>
        </td>
        <td data-wb-tags="choice_3">New requirement</td>
@@ -6396,14 +6084,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>The scope includes stationary ICT, of which floors and circulation spaces are "an integral part" (typically kiosks and cabins), and where there are external reach ranges relevant for operating the stationary ICT.</p>
          <p>Clauses 8.3.2 to 8.3.4 specify mandatory limits for the maximum and minimum height of operable parts and displays. Based on dimensions shown in <strong>F</strong>igure 53 of ISO 21542:2011, it is recommended that the possible height range is reduced to:</p>
          <ul>
-           <li>
-             minimum and maximum heights of operable parts: 800 mm and 1 100 mm respectively, and
-           </li>
+           <li>minimum and maximum heights of operable parts: 800 mm and 1 100 mm respectively, and</li>
          </ul>
          <ul>
-           <li>
-             minimum and maximum heights of displays: 1 200 mm and 1 400 mm respectively.
-           </li>
+           <li>minimum and maximum heights of displays: 1 200 mm and 1 400 mm respectively.</li>
          </ul>
        </td>
        <td data-wb-tags="choice_4"></td>
@@ -6415,12 +6099,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Where there is a change in floor level that is integral to the ICT then it should be ramped with a slope no steeper than 1:48.</p>
          <p>Exceptions:</p>
          <ol>
-           <li>
-             If the change in floor level is less than or equal to 6,4 mm (¼ inch) the change may be vertical.
-           </li>
-           <li>
-             If the change in floor level is less than or equal to 13 mm (½ inch) the change may have a slope not steeper than 1:2.
-           </li>
+           <li>If the change in floor level is less than or equal to 6,4 mm (¼ inch) the change may be vertical.</li>
+           <li>If the change in floor level is less than or equal to 13 mm (½ inch) the change may have a slope not steeper than 1:2.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_1"></td>
@@ -6429,12 +6109,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Where there is a change in floor level that is integral to the ICT then it should be ramped with a slope no steeper than 1:48.</p>
          <p>Exceptions:</p>
          <ol>
-           <li>
-             If the change in floor level is less than or equal to 6,4 mm (¼ inch) the change may be vertical.
-           </li>
-           <li>
-             If the change in floor level is less than or equal to 13 mm (½ inch) the change may have a slope not steeper than 1:2.
-           </li>
+           <li>If the change in floor level is less than or equal to 6,4 mm (¼ inch) the change may be vertical.</li>
+           <li>If the change in floor level is less than or equal to 13 mm (½ inch) the change may have a slope not steeper than 1:2.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_2"></td>
@@ -6443,12 +6119,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Where <strong>stationary ICT has a floor within it, then any change of floor level within it or entering it shall</strong> be ramped with a slope no steeper than 1:48.</p>
          <p>Exceptions:</p>
          <ol>
-           <li>
-             If the change in floor level is less than or equal to 6,4 mm (¼ inch) the change may be vertical.
-           </li>
-           <li>
-             If the change in floor level is less than or equal to 13 mm (½ inch) the change may have a slope not steeper than 1:2.
-           </li>
+           <li>If the change in floor level is less than or equal to 6,4 mm (¼ inch) the change may be vertical.</li>
+           <li>If the change in floor level is less than or equal to 13 mm (½ inch) the change may have a slope not steeper than 1:2.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_3">
@@ -6462,12 +6134,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>slope no steeper than 1:48.</p>
          <p>Exceptions:</p>
          <ol>
-           <li>
-             If the change in floor level is less than or equal to 6,4 mm (¼ inch) the change may be vertical as shown in Figure 8.
-           </li>
-           <li>
-             If the change in floor level is less than or equal to 13 mm (½ inch) the change may have a slope not steeper than 1:2.
-           </li>
+           <li>If the change in floor level is less than or equal to 6,4 mm (¼ inch) the change may be vertical as shown in Figure 8.</li>
+           <li>If the change in floor level is less than or equal to 13 mm (½ inch) the change may have a slope not steeper than 1:2.</li>
          </ol>
        </td>
        <td data-wb-tags="choice_4"></td>
@@ -6916,12 +6584,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p><strong>Where ICT is a non-web document, it shall satisfy the following success criterion.</strong></p>
          <p><strong>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</strong></p>
          <ul>
-           <li>
-             <strong>Vertical scrolling content at a width equivalent to 320 CSS pixels;</strong>
-           </li>
-           <li>
-             <strong>Horizontal scrolling content at a height equivalent to 256 CSS pixels;</strong>
-           </li>
+           <li><strong>Vertical scrolling content at a width equivalent to 320 CSS pixels;</strong></li>
+           <li><strong>Horizontal scrolling content at a height equivalent to 256 CSS pixels;</strong></li>
          </ul>
          <p><strong>Except for parts of the content which require two-dimensional layout for usage or meaning.</strong></p>
          <p><strong>NOTE 1: 320 CSS pixels</strong> <strong>is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For documents</strong> <strong>which are designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1024px at 400% zoom.</strong></p>
@@ -6934,17 +6598,11 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Where ICT is a non-web document, it shall satisfy the following success criterion.</p>
          <p>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>
          <ul>
-           <li>
-             Vertical scrolling content at a width equivalent to 320 CSS pixels;
-           </li>
-           <li>
-             Horizontal scrolling content at a height equivalent to 256 CSS pixels.
-           </li>
+           <li>Vertical scrolling content at a width equivalent to 320 CSS pixels;</li>
+           <li>Horizontal scrolling content at a height equivalent to 256 CSS pixels.</li>
          </ul>
          <ul>
-           <li>
-             Except for parts of the content which require two-dimensional layout for usage or meaning.
-           </li>
+           <li>Except for parts of the content which require two-dimensional layout for usage or meaning.</li>
          </ul>
          <p>NOTE 1: 320 CSS pixels is equivalent to a starting viewport width of 1 280 CSS pixels wide at 400 % zoom. For documents which are designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1 024 pixels at 400 % zoom.</p>
          <p>NOTE 2: Examples of content which require two-dimensional layout are images, maps, diagrams, video, games, presentations, data tables, and interfaces where it is necessary to keep toolbars in view while manipulating content.</p>
@@ -6955,12 +6613,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>10.1.4.10 Reflow</p>
          <p>Where ICT is a non-web document, it shall satisfy the success criterion Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>
          <ul>
-           <li>
-             Vertical scrolling content at a width equivalent to 320 CSS pixels.
-           </li>
-           <li>
-             Horizontal scrolling content at a height equivalent to 256 CSS pixels.
-           </li>
+           <li>Vertical scrolling content at a width equivalent to 320 CSS pixels.</li>
+           <li>Horizontal scrolling content at a height equivalent to 256 CSS pixels.</li>
          </ul>
          <p>Except for parts of the content which require two-dimensional layout for usage or meaning.</p>
          <p>NOTE 1: 320 CSS pixels is equivalent to a starting viewport width of 1 280 CSS pixels wide at 400 % zoom. For documents which are designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1 024 pixels at 400 % zoom.</p>
@@ -7128,18 +6782,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p><strong>Where ICT is a non-web document, it shall satisfy the following success criterion.</strong></p>
          <p><strong>For functionality that can be operated using a single pointer, at least one of the following is true:</strong></p>
          <ul>
-           <li>
-             <strong>No Down-Event: The down-event of the pointer is not used to execute any part of the function;</strong>
-           </li>
-           <li>
-             <strong>Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;</strong>
-           </li>
-           <li>
-             <strong>Up Reversal: The up-event reverses any outcome of the preceding down-event;</strong>
-           </li>
-           <li>
-             <strong>Essential: Completing the function on the down-event is essential.</strong>
-           </li>
+           <li><strong>No Down-Event: The down-event of the pointer is not used to execute any part of the function;</strong></li>
+           <li><strong>Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;</strong></li>
+           <li><strong>Up Reversal: The up-event reverses any outcome of the preceding down-event;</strong></li>
+           <li><strong>Essential: Completing the function on the down-event is essential.</strong></li>
          </ul>
          <p><strong>NOTE 1: Functions that emulate a keyboard or numeric keypad key press are considered essential.</strong></p>
          <p><strong>NOTE 2: This requirement applies to a document that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</strong></p>
@@ -7151,18 +6797,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Where ICT is a non-web document, it shall satisfy the following success criterion.</p>
          <p>For functionality that can be operated using a single pointer, at least one of the following is true:</p>
          <ul>
-           <li>
-             No Down-Event: The down-event of the pointer is not used to execute any part of the function;
-           </li>
-           <li>
-             Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;
-           </li>
-           <li>
-             Up Reversal: The up-event reverses any outcome of the preceding down-event;
-           </li>
-           <li>
-             Essential: Completing the function on the down-event is essential.
-           </li>
+           <li>No Down-Event: The down-event of the pointer is not used to execute any part of the function;</li>
+           <li>Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;</li>
+           <li>Up Reversal: The up-event reverses any outcome of the preceding down-event;</li>
+           <li>Essential: Completing the function on the down-event is essential.</li>
          </ul>
          <p>NOTE 1: Functions that emulate a keyboard or numeric keypad key press are considered essential.</p>
          <p>NOTE 2: This requirement applies to a document that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
@@ -7173,18 +6811,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>10.2.5.2 Pointer cancellation</p>
          <p>Where ICT is a non-web document, it shall satisfy the success criterion. For functionality that can be operated using a single pointer, at least one of the following is true:</p>
          <ul>
-           <li>
-             No Down-Event: The down-event of the pointer is not used to execute any part of the function;
-           </li>
-           <li>
-             Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;
-           </li>
-           <li>
-             Up Reversal: The up-event reverses any outcome of the preceding down-event;
-           </li>
-           <li>
-             Essential: Completing the function on the down-event is essential.
-           </li>
+           <li>No Down-Event: The down-event of the pointer is not used to execute any part of the function;</li>
+           <li>Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;</li>
+           <li>Up Reversal: The up-event reverses any outcome of the preceding down-event;</li>
+           <li>Essential: Completing the function on the down-event is essential.</li>
          </ul>
          <p>NOTE 1: Functions that emulate a keyboard or numeric keypad key press are considered essential.</p>
          <p>NOTE 2: This requirement applies to a document that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
@@ -7685,12 +7315,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p><strong>Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading, it shall satisfy the following success criterion.</strong></p>
          <p><strong>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</strong></p>
          <ul>
-           <li>
-             <strong>Vertical scrolling content at a width equivalent to 320 CSS pixels;</strong>
-           </li>
-           <li>
-             <strong>Horizontal scrolling content at a height equivalent to 256 CSS pixels;</strong>
-           </li>
+           <li><strong>Vertical scrolling content at a width equivalent to 320 CSS pixels;</strong></li>
+           <li><strong>Horizontal scrolling content at a height equivalent to 256 CSS pixels;</strong></li>
          </ul>
          <p><strong>Except for parts of the content which require two-dimensional layout for usage or meaning.</strong></p>
          <p><strong>NOTE 1: 320 CSS pixels is equivalent to a starting viewport width of 1 280 CSS pixels wide at 400 % zoom. For non-web software which are</strong> <strong>designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1 024 px at 400 % zoom.</strong></p>
@@ -7703,12 +7329,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p><strong>Where ICT is non-web software that provides a user interface it shall satisfy the following success criterion.</strong></p>
          <p>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>
          <ul>
-           <li>
-             Vertical scrolling content at a width equivalent to 320 CSS pixels;
-           </li>
-           <li>
-             Horizontal scrolling content at a height equivalent to 256 CSS pixels;
-           </li>
+           <li>Vertical scrolling content at a width equivalent to 320 CSS pixels;</li>
+           <li>Horizontal scrolling content at a height equivalent to 256 CSS pixels;</li>
          </ul>
          <p>Except for parts of the content which require two-dimensional layout for usage or meaning.</p>
          <p>NOTE 1: 320 CSS pixels is equivalent to a starting viewport width of 1 280 CSS pixels wide at 400 % zoom. For non-web software which are designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1 024 px at 400 % zoom.</p>
@@ -7723,12 +7345,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>11.1.4.10 Reflow</p>
          <p>Where ICT is non-web software that provides a user interface it shall satisfy the success criterion Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>
          <ul>
-           <li>
-             Vertical scrolling content at a width equivalent to 320 CSS pixels;
-           </li>
-           <li>
-             Horizontal scrolling content at a height equivalent to 256 CSS pixels;
-           </li>
+           <li>Vertical scrolling content at a width equivalent to 320 CSS pixels;</li>
+           <li>Horizontal scrolling content at a height equivalent to 256 CSS pixels;</li>
          </ul>
          <p>Except for parts of the content which require two-dimensional layout for usage or meaning.</p>
          <p>NOTE 1: 320 CSS pixels is equivalent to a starting viewport width of 1 280 CSS pixels wide at 400 % zoom. For non-web software which are designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1 024 px at 400 % zoom.</p>
@@ -7972,18 +7590,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>W<strong>here ICT is non-web software that provides a user interface, it shall satisfy the following success criterion.</strong></p>
          <p><strong>For functionality that can be operated using a single pointer, at least one of the following is true:</strong></p>
          <ul>
-           <li>
-             <strong>No Down-Event: The down-event of the pointer is not used to execute any part of the function;</strong>
-           </li>
-           <li>
-             <strong>Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;</strong>
-           </li>
-           <li>
-             <strong>Up Reversal: The up-event reverses any outcome of the preceding down-event;</strong>
-           </li>
-           <li>
-             <strong>Essential: Completing the function on the down-event is essential.</strong>
-           </li>
+           <li><strong>No Down-Event: The down-event of the pointer is not used to execute any part of the function;</strong></li>
+           <li><strong>Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;</strong></li>
+           <li><strong>Up Reversal: The up-event reverses any outcome of the preceding down-event;</strong></li>
+           <li><strong>Essential: Completing the function on the down-event is essential.</strong></li>
          </ul>
          <p><strong>NOTE 1: Functions that emulate a keyboard or numeric keypad key press are considered essential.</strong></p>
          <p><strong>NOTE 2: This requirement applies to non-web software that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</strong></p>
@@ -7995,18 +7605,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Where ICT is non-web software that provides a user interface, it shall satisfy the following success criterion.</p>
          <p>For functionality that can be operated using a single pointer, at least one of the following is true:</p>
          <ul>
-           <li>
-             No Down-Event: The down-event of the pointer is not used to execute any part of the function;
-           </li>
-           <li>
-             Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;
-           </li>
-           <li>
-             Up Reversal: The up-event reverses any outcome of the preceding down-event;
-           </li>
-           <li>
-             Essential: Completing the function on the down-event is essential.
-           </li>
+           <li>No Down-Event: The down-event of the pointer is not used to execute any part of the function;</li>
+           <li>Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;</li>
+           <li>Up Reversal: The up-event reverses any outcome of the preceding down-event;</li>
+           <li>Essential: Completing the function on the down-event is essential.</li>
          </ul>
          <p>NOTE 1: Functions that emulate a keyboard or numeric keypad key press are considered essential.</p>
          <p>NOTE 2: This requirement applies to non-web software that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
@@ -8017,18 +7619,10 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>11.2.5.2 Pointer cancellation</p>
          <p>Where ICT is non-web software that provides a user interface, it shall satisfy the success criterion For functionality that can be operated using a single pointer, at least one of the following is true:</p>
          <ul>
-           <li>
-             No Down-Event: The down-event of the pointer is not used to execute any part of the function.
-           </li>
-           <li>
-             Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion.
-           </li>
-           <li>
-             Up Reversal: The up-event reverses any outcome of the preceding down-event.
-           </li>
-           <li>
-             Essential: Completing the function on the down-event is essential.
-           </li>
+           <li>No Down-Event: The down-event of the pointer is not used to execute any part of the function.</li>
+           <li>Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion.</li>
+           <li>Up Reversal: The up-event reverses any outcome of the preceding down-event.</li>
+           <li>Essential: Completing the function on the down-event is essential.</li>
          </ul>
          <p>NOTE 1: Functions that emulate a keyboard or numeric keypad key press are considered essential.</p>
          <p>NOTE 2: This requirement applies to non-web software that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
