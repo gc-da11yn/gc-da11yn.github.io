@@ -87,27 +87,64 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
 <div class="container-fluid mrgn-tp-lg">
   <section class="wb-tagfilter provisional">
     <div class="well">
-      <fieldset class="container gc-chckbxrdio">
-        <legend><span class="field-name">Select comparisons to show</span></legend>
-        <ul class="list-unstyled lst-spcd-2">
-          <li class="checkbox">
-            <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="choice_1" id="choice_1">
-            <label for="choice_1">Section 508 versus EN 301 549 V1.1.1 (2014)</label>
-          </li>
-          <li class="checkbox">
-            <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="choice_2" id="choice_2">
-            <label for="choice_2">EN 301 549 V1.1.1 (2014) versus EN 301 549 V2.1.2 (2018)</label>
-          </li>
-          <li class="checkbox">
-            <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="choice_3" id="choice_3">
-            <label for="choice_3">EN 301 549 V3.1.1 (2018) versus EN 301 549 V3.1.1 (2019)</label>
-          </li>
-          <li class="checkbox">
-            <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="choice_4" id="choice_4">
-            <label for="choice_4">EN 301 549 V3.1.1 (2019) versus EN 301 549 V3.1.1 (2021)</label>
-          </li>
-        </ul>
-      </fieldset>
+       <div class="container">
+          <div class="col-md-12 mrgn-bttm-lg">
+              <label for="choices">Select to see changes</label>
+         		   <select name="choices" id="choices" class="form-control full-width wb-tagfilter-ctrl">
+                        <option selected value="">Full table</option>
+                        <option value="choice_1">Section 508 versus EN 301 549 V1.1.1 (2014)</option>
+                        <option value="choice_2">EN 301 549 V1.1.1 (2014) versus EN 301 549 V2.1.2 (2018)</option>
+                        <option value="choice_3">EN 301 549 V2.1.2 (2018) versus EN 301 549 V3.1.1 (2019)</option>
+                        <option value="choice_4">EN 301 549 V3.1.1 (2019) versus EN 301 549 V3.2.1 (2021)</option>
+         			</select>
+          </div>
+         <fieldset class="col-md-6 gc-chckbxrdio">
+           <legend><span class="field-name">Select to see changes</span></legend>
+           <ul class="list-unstyled lst-spcd-2">
+             <li class="radio">
+               <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_1" id="choice_1">
+               <label for="choice_1"><strong>Section 508</strong> versus <strong>EN 301 549 V1.1.1 (2014)</strong></label>
+             </li>
+             <li class="radio">
+               <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_2" id="choice_2">
+               <label for="choice_2"><strong>EN 301 549 V1.1.1 (2014)</strong> versus <strong>EN 301 549 V2.1.2 (2018)</strong></label>
+             </li>
+             <li class="radio">
+               <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_3" id="choice_3">
+               <label for="choice_3"><strong>EN 301 549 V2.1.2 (2018)</strong> versus <strong>EN 301 549 V3.1.1 (2019)</strong></label>
+             </li>
+             <li class="radio">
+               <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_4" id="choice_4">
+               <label for="choice_4"><strong>EN 301 549 V3.1.1 (2019)</strong> versus <strong>EN 301 549 V3.2.1 (2021)</strong></label>
+             </li>
+           </ul>
+         </fieldset>
+         <fieldset class="col-md-6 gc-chckbxrdio">
+           <legend><span class="field-name">Select the versions to compare</span></legend>
+           <ul class="list-unstyled lst-spcd-2">
+             <li class="checkbox">
+               <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="choice_5" id="choice_5">
+               <label for="choice_5">Section 508</label>
+             </li>
+             <li class="checkbox">
+               <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="choice_6" id="choice_6">
+               <label for="choice_6">EN 301 549 V1.1.1 (2014)</label>
+             </li>
+             <li class="checkbox">
+               <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="choice_7" id="choice_7">
+               <label for="choice_7">EN 301 549 V2.1.2 (2018)</label>
+             </li>
+             <li class="checkbox">
+               <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="choice_8" id="choice_8">
+               <label for="choice_8">EN 301 549 V3.1.1 (2019)</label>
+             </li>
+             <li class="checkbox">
+               <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="choice_9" id="choice_9">
+               <label for="choice_9">EN 301 549 V3.2.1 (2021)</label>
+             </li>
+           </ul>
+         </fieldset>
+       </div>
     </div>
 
 ## Chapter 2 Scoping Requirements
@@ -115,20 +152,20 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
      <tr>
-       <th data-wb-tags="choice_1">Revised Section 508</th>
-       <th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+       <th data-wb-tags="choice_1 choice_5">Revised Section 508</th>
+       <th data-wb-tags="choice_1 choice_2 choice_6">EN 301 549 V1.1.1 (2014)</th>
        <th data-wb-tags="choice_1">508 to 2014</th>
-       <th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+       <th data-wb-tags="choice_2 choice_3 choice_7">EN 301 549 V2.1.2 (2018)</th>
        <th data-wb-tags="choice_2">2014 to 2018</th>
-       <th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+       <th data-wb-tags="choice_3 choice_4 choice_8">EN 301 549 V3.1.1 (2019)</th>
        <th data-wb-tags="choice_3">2018 to 2019</th>
-       <th data-wb-tags="choice_4">EN 301 549 V3.2.1 (2021)</th>
+       <th data-wb-tags="choice_4 choice_9">EN 301 549 V3.2.1 (2021)</th>
        <th data-wb-tags="choice_4">2019 to 2021</th>
      </tr>
    </thead>
    <tbody>
      <tr>
-       <td data-wb-tags="choice_1">
+       <td data-wb-tags="choice_1 choice_5">
          <p>E207.2 WCAG Conformance</p>
          <p>User interface components and content of platforms and applications shall conform to Level A and Level AA Success Criteria and Conformance Requirements specified for web pages in <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/">WCAG 2.0.</a></p>
          <p>EXCEPTIONS:</p>
@@ -138,16 +175,16 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
            <li>Non-Web software shall not be required to conform to Conformance Requirement 3 Complete Processes in WCAG 2.0.</li>
          </ol>
        </td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>Chapters 9, 10, and 11 apply <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/">WCAG 2.0 Level A and Level AA</a> Success Criteria to Web content (<a href="http://mandate376.standards.eu/standard/technical-requirements/#9">Chapter 9</a>), Documents (<a href="http://mandate376.standards.eu/standard/technical-requirements/#10">Chapter 10</a>), and Non-Web Software (<a href="http://mandate376.standards.eu/standard/technical-requirements/#11">Chapter 11</a>).</p>
          <p><a href="https://www.youtube.com/channel/UCdW_0pPNiiPLaLM90_20org">EN 301 549 Video Series</a></p>
        </td>
        <td data-wb-tags="choice_1">Stylistic rewording</td>
-       <td data-wb-tags="choice_2 choice_3">Chapters 9, 10, 11 apply <u><a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/"><strong>WCAG 2.1</strong> Level A and Level AA</a></u> Success Criteria to Web content (Chapter 9), Documents (Chapter 10), and Non-Web Software (Chapter 11).</td>
+       <td data-wb-tags="choice_2 choice_3 choice_7">Chapters 9, 10, 11 apply <u><a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/"><strong>WCAG 2.1</strong> Level A and Level AA</a></u> Success Criteria to Web content (Chapter 9), Documents (Chapter 10), and Non-Web Software (Chapter 11).</td>
        <td data-wb-tags="choice_2">Functional change</td>
-       <td data-wb-tags="choice_3 choice_4">Chapters 9, 10, 11 apply <a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/">WCAG 2.1 Level A and Level AA</a> Success Criteria to Web content (Chapter 9), Documents (Chapter 10), and Non-Web Software (Chapter 11).</td>
+       <td data-wb-tags="choice_3 choice_4 choice_8">Chapters 9, 10, 11 apply <a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/">WCAG 2.1 Level A and Level AA</a> Success Criteria to Web content (Chapter 9), Documents (Chapter 10), and Non-Web Software (Chapter 11).</td>
        <td data-wb-tags="choice_3"></td>
-       <td data-wb-tags="choice_4">Chapters 9, 10, 11 apply <a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/">WCAG 2.1 Level A and Level AA</a> Success Criteria to Web content (Chapter 9), Documents (Chapter 10), and Non-Web Software (Chapter 11).</td>
+       <td data-wb-tags="choice_4 choice_9">Chapters 9, 10, 11 apply <a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/">WCAG 2.1 Level A and Level AA</a> Success Criteria to Web content (Chapter 9), Documents (Chapter 10), and Non-Web Software (Chapter 11).</td>
        <td data-wb-tags="choice_4"></td>
      </tr>
    </tbody>
@@ -158,21 +195,21 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
      <tr>
-       <th data-wb-tags="choice_1">Revised Section 508</th>
-       <th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+       <th data-wb-tags="choice_1 choice_5">Revised Section 508</th>
+       <th data-wb-tags="choice_1 choice_2 choice_6">EN 301 549 V1.1.1 (2014)</th>
        <th data-wb-tags="choice_1">508 to 2014</th>
-       <th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+       <th data-wb-tags="choice_2 choice_3 choice_7">EN 301 549 V2.1.2 (2018)</th>
        <th data-wb-tags="choice_2">2014 to 2018</th>
-       <th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+       <th data-wb-tags="choice_3 choice_4 choice_8">EN 301 549 V3.1.1 (2019)</th>
        <th data-wb-tags="choice_3">2018 to 2019</th>
-       <th data-wb-tags="choice_4">EN 301 549 V3.2.1 (2021)</th>
+       <th data-wb-tags="choice_4 choice_9">EN 301 549 V3.2.1 (2021)</th>
        <th data-wb-tags="choice_4">2019 to 2021</th>
      </tr>
    </thead>
    <tbody>
      <tr>
-       <td data-wb-tags="choice_1">302.1 Without vision. Where a visual mode of operation is provided, ICT shall provide at least one mode of operation that does not require user vision.</td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_5">302.1 Without vision. Where a visual mode of operation is provided, ICT shall provide at least one mode of operation that does not require user vision.</td>
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>4.2.1 Usage without vision</p>
          <p>Where ICT provides visual modes of operation, some users need ICT to provide at least one mode of operation that does not require vision.</p>
          <p>NOTE: Audio and tactile user interfaces may contribute towards meeting this clause.</p>
@@ -181,14 +218,14 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_2 choice_3">
+       <td data-wb-tags="choice_2 choice_3 choice_7">
          <p>4.2.1 Usage without vision</p>
          <p>Where ICT provides visual modes of operation, some users need ICT to provide at least one mode of operation that does not require vision.</p>
          <p><strong>NOTE 1: A web page or application with a well formed semantic structure can allow users without vision to identify, navigate and interact with a visual user interface.</strong></p>
          <p>NOTE 2: Audio and tactile user interfaces may contribute towards meeting this clause.</p>
        </td>
        <td data-wb-tags="choice_2">Explanatory update</td>
-       <td data-wb-tags="choice_3 choice_4">
+       <td data-wb-tags="choice_3 choice_4 choice_8">
          <p>4.2.1 Usage without vision</p>
          <p>Where ICT provides visual modes of operation, <strong>the ICT provides</strong> at least one mode of operation that does not require vision. <strong>This is essential for users without vision and benefits many more users in different situations.</strong></p>
          <p>NOTE 1: A web page or application with a well formed semantic structure can allow users without vision to identify, navigate and interact with a visual user interface.</p>
@@ -198,7 +235,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_4">
+       <td data-wb-tags="choice_4 choice_9">
          <p>4.2.1 Usage without vision</p>
          <p>Where ICT provides visual modes of operation, the ICT provides at least one mode of operation that does not require vision. This is essential for users without vision and benefits many more users in different situations.</p>
          <p>NOTE 1: A web page or application with a well formed semantic structure can allow users without vision to identify, navigate and interact with a visual user interface.</p>
@@ -207,8 +244,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_4"></td>
      </tr>
      <tr>
-       <td data-wb-tags="choice_1">302.2 With limited vision Where a visual mode of operation is provided, ICT shall provide at least one mode of operation that enables users to make use of limited vision.</td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_5">302.2 With limited vision Where a visual mode of operation is provided, ICT shall provide at least one mode of operation that enables users to make use of limited vision.</td>
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>4.2.2 Usage with limited vision</p>
          <p>Where ICT provides visual modes of operation, some users will need the ICT to provide features that enable users to make better use of their limited vision.</p>
          <p>NOTE 1: Magnification, reduction of required field of vision and control of contrast, brightness and intensity can contribute towards meeting this clause.</p>
@@ -219,7 +256,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_2 choice_3">
+       <td data-wb-tags="choice_2 choice_3 choice_7">
          <p>4.2.2 Usage with limited vision</p>
          <p>Where ICT provides visual modes of operation, some users will need the ICT to provide features that enable users to make better use of their limited vision.</p>
          <p>NOTE 1: Magnification, reduction of required field of vision and control of contrast, brightness and intensity can contribute towards meeting this clause.</p>
@@ -227,7 +264,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>NOTE 3: Users with limited vision may also benefit from non-visual access (see clause 4.2.1).</p>
        </td>
        <td data-wb-tags="choice_2"></td>
-       <td data-wb-tags="choice_3 choice_4">
+       <td data-wb-tags="choice_3 choice_4 choice_8">
          <p>4.2.2 Usage with limited vision</p>
          <p>Where ICT provides visual modes of operation, <strong>the ICT provides</strong> features that enable users to make better use of their limited vision. <strong>This is essential for users with limited vision and benefits many more users in different situations.</strong></p>
          <p>NOTE 1: Magnification, reduction of required field of vision and control of contrast, brightness and intensity can contribute towards meeting this clause.</p>
@@ -238,7 +275,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_4">
+       <td data-wb-tags="choice_4 choice_9">
          <p>4.2.2 Usage with limited vision</p>
          <p>Where ICT provides visual modes of operation, the ICT provides features that enable users to make better use of their limited vision. This is essential for users with limited vision and benefits many more users in different situations.</p>
          <p>NOTE 1: Magnification, reduction of required field of vision and control of contrast, brightness and intensity can contribute towards meeting this clause.</p>
@@ -248,11 +285,11 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_4"></td>
      </tr>
      <tr>
-       <td data-wb-tags="choice_1">
+       <td data-wb-tags="choice_1 choice_5">
          <p>302.3 Without Perception of Color</p>
          <p>Where a visual mode of operation is provided, ICT shall provide at least one visual mode of operation that does not require user perception of color<strong>.</strong></p>
        </td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>4.2.3 Usage without perception of colour</p>
          <p>Where ICT provides visual modes of operation, some users will need the ICT to provide a visual mode of operation that does not require user perception of colour.</p>
          <p>NOTE: Where significant features of the user interface are colour-coded, the provision of additional methods of distinguishing between the features may contribute towards meeting this clause.</p>
@@ -261,13 +298,13 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_2 choice_3">
+       <td data-wb-tags="choice_2 choice_3 choice_7">
          <p>4.2.3 Usage without perception of colour</p>
          <p>Where ICT provides visual modes of operation, some users will need the ICT to provide a visual mode of operation that does not require user perception of colour.</p>
          <p>NOTE: Where significant features of the user interface are colour-coded, the provision of additional methods of distinguishing between the features may contribute towards meeting this clause.</p>
        </td>
        <td data-wb-tags="choice_2"></td>
-       <td data-wb-tags="choice_3 choice_4">
+       <td data-wb-tags="choice_3 choice_4 choice_8">
          <p>4.2.3 Usage without perception of colour</p>
          <p>Where ICT provides visual modes of operation, <strong>the ICT provides</strong> a visual mode of operation that does not require user perception of colour<strong>. This is essential for users with limited colour perception and benefits many more users in different situations.</strong></p>
          <p>NOTE: Where significant features of the user interface are colour-coded, the provision of additional methods of distinguishing between the features may contribute towards meeting this clause.</p>
@@ -276,7 +313,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_4">
+       <td data-wb-tags="choice_4 choice_9">
          <p>4.2.3 Usage without perception of colour</p>
          <p>Where ICT provides visual modes of operation, the ICT provides a visual mode of operation that does not require user perception of colour. This is essential for users with limited colour perception and benefits many more users in different situations.</p>
          <p>NOTE: Where significant features of the user interface are colour-coded, the provision of additional methods of distinguishing between the features may contribute towards meeting this clause.</p>
@@ -284,8 +321,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_4"></td>
      </tr>
      <tr>
-       <td data-wb-tags="choice_1">302.4 Without Hearing. Where an audible mode of operation is provided, ICT shall provide at least one mode of operation that does not require user hearing.</td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_5">302.4 Without Hearing. Where an audible mode of operation is provided, ICT shall provide at least one mode of operation that does not require user hearing.</td>
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>4.2.4 Usage without hearing</p>
          <p>Where ICT provides auditory modes of operation, some users need ICT to provide at least one mode of operation that does not require hearing.</p>
          <p>NOTE: Visual and tactile user interfaces may contribute towards meeting this clause.</p>
@@ -294,13 +331,13 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_2 choice_3">
+       <td data-wb-tags="choice_2 choice_3 choice_7">
          <p>4.2.4 Usage without hearing</p>
          <p>Where ICT provides auditory modes of operation, some users need ICT to provide at least one mode of operation that does not require hearing.</p>
          <p>NOTE: Visual and tactile user interfaces may contribute towards meeting this clause.</p>
        </td>
        <td data-wb-tags="choice_2"></td>
-       <td data-wb-tags="choice_3 choice_4">
+       <td data-wb-tags="choice_3 choice_4 choice_8">
          <p>4.2.4 Usage without hearing</p>
          <p>Where ICT provides auditory modes of operation<strong>, the ICT provides</strong> at least one mode of operation that does not require hearing. <strong>This is essential for users without hearing and benefits many more users in different situations.</strong></p>
          <p>NOTE: Visual and tactile user interfaces<strong>, including those based on sign language,</strong> may contribute towards meeting this clause.</p>
@@ -309,7 +346,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_4">
+       <td data-wb-tags="choice_4 choice_8">
          <p>4.2.4 Usage without hearing</p>
          <p>Where ICT provides auditory modes of operation, the ICT provides at least one mode of operation that does not require hearing. This is essential for users without hearing and benefits many more users in different situations.</p>
          <p>NOTE: Visual and tactile user interfaces, including those based on sign language, may contribute towards meeting this clause.</p>
@@ -317,11 +354,11 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_4"></td>
      </tr>
      <tr>
-       <td data-wb-tags="choice_1">
+       <td data-wb-tags="choice_1 choice_5">
          <p>302.5 With Limited Hearing</p>
          <p>Where an audible mode of operation is provided, ICT shall provide at least one mode of operation that enables users to make use of limited hearing.</p>
        </td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>4.2.5 Usage with limited hearing</p>
          <p>Where ICT provides auditory modes of operation, some users will need the ICT to provide enhanced audio features.</p>
          <p>NOTE 1: Enhancement of the audio clarity, reduction of background noise, increased range of volume and greater volume in the higher frequency range can contribute towards meeting this clause.</p>
@@ -331,14 +368,14 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_2 choice_3">
+       <td data-wb-tags="choice_2 choice_3 choice_7">
          <p>4.2.5 Usage with limited hearing</p>
          <p>Where ICT provides auditory modes of operation, some users will need the ICT to provide enhanced audio features.</p>
          <p>NOTE 1: Enhancement of the audio clarity, reduction of background noise, increased range of volume and greater volume in the higher frequency range can contribute towards meeting this clause.</p>
          <p>NOTE 2: Users with limited hearing may also benefit from non-hearing access (see clause 4.2.4).</p>
        </td>
        <td data-wb-tags="choice_2"></td>
-       <td data-wb-tags="choice_3 choice_4">
+       <td data-wb-tags="choice_3 choice_4 choice_8">
          <p>4.2.5 Usage with limited hearing</p>
          <p>Where ICT provides auditory modes of operation<strong>, the ICT provides</strong> enhanced audio features. <strong>This is essential for users with limited hearing and benefits many more users in different situations.</strong></p>
          <p>NOTE 1: Enhancement of the audio clarity, reduction of background noise, <strong>providing a joint monaural option, adjustment of balance of both audio channels</strong>, increased range of volume and greater volume in the higher frequency range can contribute towards meeting this clause.</p>
@@ -350,7 +387,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Explanatory update</p>
          <p>Functional change</p>
        </td>
-       <td data-wb-tags="choice_4">
+       <td data-wb-tags="choice_4 choice_9">
          <p>4.2.5 Usage with limited hearing</p>
          <p>Where ICT provides auditory modes of operation, the ICT provides enhanced audio features. This is essential for users with limited hearing and benefits many more users in different situations.</p>
          <p>NOTE 1: Enhancement of the audio clarity, reduction of background noise, providing a joint monaural option, adjustment of balance of both audio channels, increased range of volume and greater volume in the higher frequency range can contribute towards meeting this clause.</p>
@@ -360,8 +397,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_4"></td>
      </tr>
      <tr>
-       <td data-wb-tags="choice_1">302.6 Without Speech Where speech is used for input, control, or operation, ICT shall provide at least one mode of operation that does not require user speech.</td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_5">302.6 Without Speech Where speech is used for input, control, or operation, ICT shall provide at least one mode of operation that does not require user speech.</td>
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>4.2.6 Usage without vocal capability</p>
          <p>Where ICT requires vocal input from users, some users will need the ICT to provide at least one mode of operation that does not require them to generate vocal output.</p>
          <p>NOTE 1: This clause covers the alternatives to the use of orally-generated sounds, including speech, whistles, clicks, etc.</p>
@@ -371,14 +408,14 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_2 choice_3">
+       <td data-wb-tags="choice_2 choice_3 choice_7">
          <p>4.2.6 Usage without vocal capability</p>
          <p>Where ICT requires vocal input from users, some users will need the ICT to provide at least one mode of operation that does not require them to generate vocal output.</p>
          <p>NOTE 1: This clause covers the alternatives to the use of orally-generated sounds, including speech, whistles, clicks, etc.</p>
          <p>NOTE 2: Keyboard, pen or touch user interfaces may contribute towards meeting this clause.</p>
        </td>
        <td data-wb-tags="choice_2"></td>
-       <td data-wb-tags="choice_3 choice_4">
+       <td data-wb-tags="choice_3 choice_4 choice_8">
          <p>4.2.6 Usage with no or limited vocal capability</p>
          <p>Where ICT requires vocal input from users<strong>, the ICT provides</strong> at least one mode of operation that does not require them to generate vocal output. <strong>This is essential users with no or limited vocal capability and benefits many more users in different situations.</strong></p>
          <p>NOTE 1: <strong>Vocal output includes speech and other orally generated sounds, such as whistles and clicks.</strong></p>
@@ -389,7 +426,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_4">
+       <td data-wb-tags="choice_4 choice_9">
          <p>4.2.6 Usage with no or limited vocal capability</p>
          <p>Where ICT requires vocal input from users, the ICT provides at least one mode of operation that does not require them to generate vocal output. This is essential users with no or limited vocal capability and benefits many more users in different situations.</p>
          <p>NOTE 1: Vocal output includes speech and other orally generated sounds, such as whistles and clicks.</p>
@@ -398,11 +435,11 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_4"></td>
      </tr>
      <tr>
-       <td data-wb-tags="choice_1">
+       <td data-wb-tags="choice_1 choice_5">
          <p>302.7 With Limited Manipulation</p>
          <p>Where a manual mode of operation is provided, ICT shall provide at least one mode of operation that does not require fine motor control or simultaneous manual operations.<a href="#fn1" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
        </td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>4.2.7 Usage with limited manipulation or strength</p>
          <p>Where ICT requires manual actions, some users will need the ICT to provide features that enable users to make use of the ICT through alternative actions not requiring manipulation or hand strength.</p>
          <p>NOTE 1: Examples of operations that users may not be able to perform include those that require fine motor control, path dependant gestures, pinching, twisting of the wrist, tight grasping, or simultaneous manual actions.</p>
@@ -413,7 +450,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_2 choice_3">
+       <td data-wb-tags="choice_2 choice_3 choice_7">
          <p>4.2.7 Usage with limited manipulation or strength</p>
          <p>Where ICT requires manual actions, some users will need the ICT to provide features that enable users to make use of the ICT through alternative actions not requiring manipulation or hand strength.</p>
          <p>NOTE 1: Examples of operations that users may not be able to perform include those that require fine motor control, path dependant gestures, pinching, twisting of the wrist, tight grasping, or simultaneous manual actions.</p>
@@ -421,7 +458,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>NOTE 3: Some users have limited hand strength and may not be able to achieve the level of strength to perform an operation. Alternative user interface solutions that do not require hand strength may contribute towards meeting this clause.</p>
        </td>
        <td data-wb-tags="choice_2"></td>
-       <td data-wb-tags="choice_3 choice_4">
+       <td data-wb-tags="choice_3 choice_4 choice_8">
          <p>4.2.7 Usage with limited manipulation or strength</p>
          <p>Where ICT requires manual actions, <strong>the ICT provides</strong> features that enable users to make use of the ICT through alternative actions not requiring manipulation, <strong>simultaneous action</strong> or hand strength. <strong>This is essential for users with limited manipulation or strength and benefits many more users in different situations.</strong></p>
          <p>NOTE 1: Examples of operations that users may not be able to perform include those that require fine motor control, path dependant gestures, pinching, twisting of the wrist, tight grasping, or simultaneous manual actions.</p>
@@ -433,7 +470,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Functional change</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_4">
+       <td data-wb-tags="choice_4 choice_9">
          <p>4.2.7 Usage with limited manipulation or strength</p>
          <p>Where ICT requires manual actions, the ICT provides features that enable users to make use of the ICT through alternative actions not requiring manipulation, simultaneous action or hand strength. This is essential for users with limited manipulation or strength and benefits many more users in different situations.</p>
          <p>NOTE 1: Examples of operations that users may not be able to perform include those that require fine motor control, path dependant gestures, pinching, twisting of the wrist, tight grasping, or simultaneous manual actions.</p>
@@ -443,11 +480,11 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_4"></td>
      </tr>
      <tr>
-       <td data-wb-tags="choice_1">
+       <td data-wb-tags="choice_1 choice_5">
          <p>302.8 With Limited Reach and Strength</p>
          <p>Where a manual mode of operation is provided, ICT shall provide at least one mode of operation that is operable with limited reach and limited strength.<a href="#fn2" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
        </td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>4.2.8 Usage with limited reach</p>
          <p>Where ICT products are free-standing or installed, the operational elements will need to be within reach of all users.</p>
          <p>NOTE: Considering the needs of wheelchair users and the range of user statures in the placing of operational elements of the user interface may contribute towards meeting this clause.</p>
@@ -456,13 +493,13 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_2 choice_3">
+       <td data-wb-tags="choice_2 choice_3 choice_7">
          <p>4.2.8 Usage with limited reach</p>
          <p>Where ICT products are free-standing or installed, the operational elements will need to be within reach of all users.</p>
          <p>NOTE: Considering the needs of wheelchair users and the range of user statures in the placing of operational elements of the user interface may contribute towards meeting this clause.</p>
        </td>
        <td data-wb-tags="choice_2"></td>
-       <td data-wb-tags="choice_3 choice_4">
+       <td data-wb-tags="choice_3 choice_4 choice_8">
          <p>4.2.8 Usage with limited reach</p>
          <p>Where ICT products are free-standing or installed, <strong>all the elements required for operation</strong> will need to be within reach of all users. <strong>This is essential for users with limited reach and benefits many more users in different situations.</strong></p>
          <p>NOTE: Considering the needs of wheelchair users and the range of user statures in the placing of operational elements of the user interface may contribute towards meeting this clause.</p>
@@ -471,7 +508,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_4">
+       <td data-wb-tags="choice_4 choice_9">
          <p>4.2.8 Usage with limited reach</p>
          <p>Where ICT products are free-standing or installed, all the elements required for operation will need to be within reach of all users. This is essential for users with limited reach and benefits many more users in different situations.</p>
          <p>NOTE: Considering the needs of wheelchair users and the range of user statures in the placing of operational elements of the user interface may contribute towards meeting this clause.</p>
@@ -479,11 +516,11 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_4"></td>
      </tr>
      <tr>
-       <td data-wb-tags="choice_1">
+       <td data-wb-tags="choice_1 choice_5">
          <p>302.9 With Limited Language, Cognitive, and Learning Abilities</p>
          <p>ICT shall provide features making its use by individuals with limited cognitive, language, and learning abilities simpler and easier.</p>
        </td>
-       <td data-wb-tags="choice_1 choice_2">
+       <td data-wb-tags="choice_1 choice_2 choice_6">
          <p>4.2.10 Usage with limited cognition</p>
          <p>Some users will need the ICT to provide features that make it simpler and easier to use.</p>
          <p>NOTE 1: This clause is intended to include the needs of persons with limited cognitive, language and learning abilities.</p>
@@ -493,14 +530,14 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_2 choice_3">
+       <td data-wb-tags="choice_2 choice_3 choice_7">
          <p>4.2.10 Usage with limited cognition</p>
          <p>Some users will need the ICT to provide features that make it simpler and easier to use.</p>
          <p>NOTE 1: This clause is intended to include the needs of persons with limited cognitive, language and learning abilities.</p>
          <p>NOTE 2: Adjustable timings, error indication and suggestion, and a logical focus order are examples of design features that may contribute towards meeting this clause.</p>
        </td>
        <td data-wb-tags="choice_2"></td>
-       <td data-wb-tags="choice_3 choice_4">
+       <td data-wb-tags="choice_3 choice_4 choice_8">
          <p>4.2.10 Usage with limited cognition, language or learning</p>
          <p><strong>The ICT provides features and/or presentation that makes it simpler and easier to understand, operate and use. This is essential for users with limited cognition, language or learning, and benefits many more users in different situations.</strong></p>
          <p>NOTE 1: Adjustable timings, error indication and suggestion, and a logical focus order are examples of design features that may contribute towards meeting this clause.</p>
@@ -513,7 +550,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>Stylistic rewording</p>
          <p>Explanatory update</p>
        </td>
-       <td data-wb-tags="choice_4">
+       <td data-wb-tags="choice_4 choice_9">
          <p>4.2.10 Usage with limited cognition, language or learning</p>
          <p>The ICT provides features and/or presentation that makes it simpler and easier to understand, operate and use. This is essential for users with limited cognition, language or learning, and benefits many more users in different situations.</p>
          <p>NOTE 1: Adjustable timings, error indication and suggestion, and a logical focus order are examples of design features that may contribute towards meeting this clause.</p>
