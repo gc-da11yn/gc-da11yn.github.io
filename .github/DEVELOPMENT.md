@@ -14,6 +14,12 @@ Using [Eleventy](https://www.11ty.io), to build a simple static site which uses 
 
 Eleventy relies on [Markdown](https://daringfireball.net/projects/markdown/syntax), [Sass](https://sass-lang.com/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [JSON](https://www.json.org/) to function.
 
+### Markdown helpers:
+
+- [markdown-it - npm](https://www.npmjs.com/package/markdown-it)
+- [markdown-it-anchor - npm](https://www.npmjs.com/package/markdown-it-anchor)
+- [markdown-it-attrs - npm](https://www.npmjs.com/package/markdown-it-attrs)
+
 It may be helpful to familiarize yourself with these technologies, depending on what you want to do. For more information, check our our [Contributor documentation](./CONTRIBUTING.md).
 
 ## Requirements
@@ -192,6 +198,12 @@ Le projet est basé sur l'utilisation de la même technologie que le projet [a11
 En utilisant [Eleventy](https://www.11ty.io), pour construire un site statique simple qui utilise [nodeJS](https://nodejs.org/fr/) pour générer et déployer avec  [Github Actions](https://github.com/features/actions) aux [Github Pages](https://pages.github.com) hébergeant le site.
 
 Eleventy s'appuie sur [Markdown](https://daringfireball.net/projects/markdown/syntax), [Sass](https://sass-lang.com/), [Nunjucks](https://mozilla.github.io/nunjucks/) et [JSON](https://www.json.org/) pour fonctionner.
+
+### Aides pour le markdown
+
+- [markdown-it - npm](https://www.npmjs.com/package/markdown-it)
+- [markdown-it-anchor - npm](https://www.npmjs.com/package/markdown-it-anchor)
+- [markdown-it-attrs - npm](https://www.npmjs.com/package/markdown-it-attrs)
 
 Il peut être utile de se familiariser avec ces technologies, en fonction de ce que vous voulez faire. Pour plus d'informations, consultez notre [Contributor documentation](./CONTRIBUTING.md).
 

@@ -1,5 +1,15 @@
+const markdownIt = require('markdown-it');
+const markdownItAnchor = require('markdown-it-anchor');
+const markdownItAttrs = require('markdown-it-attrs');
+
 module.exports = function(eleventyConfig) {
   const { DateTime } = require("luxon");
+
+  let markdownItOptions = {
+    html: true // you can include HTML tags
+	}
+
+	eleventyConfig.setLibrary("md", markdownIt(markdownItOptions).use(markdownItAnchor).use(markdownItAttrs))
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" })
