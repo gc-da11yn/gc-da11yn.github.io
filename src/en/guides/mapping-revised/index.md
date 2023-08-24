@@ -135,6 +135,44 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
       </div>
     </div>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
+<section id="left-panel" class="wb-overlay modal-content overlay-def wb-panel-l">
+	<header class="modal-header">
+		<h3 class="modal-title">List of tables</h3>
+	</header>
+	<div class="modal-body">
+
+- [Chapter 2: Scoping Requirements](#chapter-2%3A-scoping-requirements)
+- [Chapter 3: Functional Performance Statements](#chapter-3%3A-functional-performance-statements)
+- [Chapter 4: Hardware](#chapter-4%3A-hardware)
+  - [402 Closed Functionality](#402-closed-functionality)
+  - [403 Biometrics](#403-biometrics)
+  - [404 Preservation of Information Provided for Accessibility](#404-preservation-of-information-provided-for-accessibility)
+  - [405 Privacy](#405-privacy)
+  - [406 Standard Connections](#406-standard-connections)
+  - [407 Operable Parts](#407-operable-parts)
+  - [408 Display Screen](#408-display-screen)
+  - [409 Status Indicators](#409-status-indicators)
+  - [410 Color Coding](#410-color-coding)
+  - [412 ICT with Two-Way Voice Communication](#412-ict-with-two-way-voice-communication)
+  - [413 Closed Caption Processing Technologies](#413-closed-caption-processing-technologies)
+  - [414 Audio Description Processing Technologies](#414-audio-description-processing-technologies)
+  - [415 User Controls for Captions and Audio Descriptions](#415-user-controls-for-captions-and-audio-descriptions)
+- [Chapter 5: Software](#chapter-5%3A-software)
+  - [501 General](#501-general)
+  - [502 Interoperability with Assistive Technology](#502-interoperability-with-assistive-technology)
+  - [503 Applications](#503-applications)
+  - [504 Authoring Tools](#504-authoring-tools)
+- [Chapter 6: Support Documentation and Services](#chapter-6%3A-support-documentation-and-services)
+  - [602 Support Documentation](#602-support-documentation)
+  - [603 Support Services](#603-support-services)
+- [Provisions Not Mapped](#provisions-not-mapped)
+  - [Revised Section 508](#revised-section-508)
+  - [EN 301 549](#en-301-549)
+	</div>
+</section>
+
 
 ### Chapter 2: Scoping Requirements
 
