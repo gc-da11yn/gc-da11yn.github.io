@@ -4,6 +4,18 @@ layout: layouts/base.njk
 description: "As the <a href='https://www.etsi.org/human-factors-accessibility/en-301-549-v3-the-harmonized-european-standard-for-ict-accessibility'>EN 301 549 standards</a> continue to evolve and release updates, this document shows the progression of the <a href='https://www.etsi.org/human-factors-accessibility/en-301-549-v3-the-harmonized-european-standard-for-ict-accessibility'>EN 301 549 standard</a> from 2014 through the proceeding updates of 2018, 2019 and 2021. This information is important as the Government of Canada (<abbr>GC</abbr>) is moving towards adopting the EN 301 549 (2021) as its accessibility standard for ICT. The <abbr title='Government of Canada'>GC</abbr>, as part of the solicitation process, may ask suppliers to provide accessibility conformance reports based on the Voluntary Product Accessibility Template (<abbr>VPAT®</abbr>). Each <abbr title='Voluntary Product Accessibility Template'>VPAT®</abbr> is based on a specific technical standard – Revised Section 508, EN 301 549, or <a href='https://www.w3.org/TR/WCAG/'>Web Content Accessibility Guidelines (<abbr>WCAG</abbr>)</a>. Suppliers, technical authorities and contracting authorities need to understand the differences between these standards to ensure that the accessibility requirements are properly addressed."
 ---
 
+## On thise page
+
+- [Copyright Notice](#copyright-notice)
+- [Caveat](#caveat)
+- [Intended Audience](#intended-audience)
+- [Background](#background)
+- [Purpose](#purpose)
+- [Summary of differences](#summary-of-differences)
+- [Sources](#sources)
+- [Glossary](#glossary)
+- [Comparison Tables](#comparison-tables)
+
 ## Copyright Notice
 
 This document reproduces relevant ICT accessibility requirements from the EN 301 549 Harmonised European Standard "Accessibility requirements for ICT products and services" (© used under license from European Telecommunications Standards Institute 2014, 2018, 2019 and 2021. © Comité Européen de Normalisation 2014, 2018, 2019, 2021. © Comité Européen de Normalisation Électrotechnique 2014, 2018, 2019 and 2021. All rights reserved.)
@@ -62,7 +74,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
 * [European Telecommunications Standards Institute, *EN 301 549 V3.2.1 (2021-03)*, 2021](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf)
 * [United States Access Board, *Text of the Standards and Guidelines*, 2017](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines)
 
-## Glossary
+## Comparison Tables
+
+### Glossary
 
 <dl>
   <dt>Stylistic rewording:</dt>
@@ -76,6 +90,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
   <dt>New requirement:</dt>
   <dd>a criterion that does not exist in a previous version of the EN 301 549 document. Several new criteria were added in the 2019 version that do not appear in either the 2014 or 2018 version</dd>
 </dl>
+
 
 **Changes between versions of EN 301 549 are emphasized:**
 
@@ -120,7 +135,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
       </div>
     </div>
 
-## Chapter 2 Scoping Requirements
+
+### Chapter 2: Scoping Requirements
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -163,7 +179,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
-## Chapter 3 Functional Performance Statements
+### Chapter 3: Functional Performance Statements
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -536,9 +552,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ## Chapter 4 Hardware
+ ### Chapter 4: Hardware
 
- ### 402 Closed Functionality
+ #### 402 Closed Functionality
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -1249,7 +1265,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 403 Biometrics
+ #### 403 Biometrics
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -1306,7 +1322,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 404 Preservation of Information Provided for Accessibility
+ #### 404 Preservation of Information Provided for Accessibility
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -1349,7 +1365,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 405 Privacy
+ #### 405 Privacy
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -1440,7 +1456,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 406 Standard Connections
+ #### 406 Standard Connections
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -1498,7 +1514,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 407 Operable Parts
+ #### 407 Operable Parts
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -2481,7 +2497,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 408 Display Screen
+ #### 408 Display Screen
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -2535,7 +2551,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 409 Status Indicators
+ #### 409 Status Indicators
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -2626,7 +2642,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 410 Color Coding
+ #### 410 Color Coding
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -2669,7 +2685,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 412 ICT with Two-Way Voice Communication
+ #### 412 ICT with Two-Way Voice Communication
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -3109,7 +3125,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 413 Closed Caption Processing Technologies
+ #### 413 Closed Caption Processing Technologies
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -3220,7 +3236,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 414 Audio Description Processing Technologies
+ #### 414 Audio Description Processing Technologies
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -3299,7 +3315,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 415 User Controls for Captions and Audio Descriptions
+ #### 415 User Controls for Captions and Audio Descriptions
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -3401,9 +3417,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ## Chapter 5 Software
+ ### Chapter 5: Software
 
- ### 501 General
+ #### 501 General
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -3441,7 +3457,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 502 Interoperability with Assistive Technology
+ #### 502 Interoperability with Assistive Technology
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -4226,7 +4242,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 503 Applications
+ #### 503 Applications
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -4429,7 +4445,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 504 Authoring Tools
+ #### 504 Authoring Tools
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -4596,9 +4612,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ## Chapter 6 Support Documentation and Services
+ ### Chapter 6: Support Documentation and Services
 
- ### 602 Support Documentation
+ #### 602 Support Documentation
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -4768,7 +4784,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### 603 Support Services
+ #### 603 Support Services
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -4873,9 +4889,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ## Provisions Not Mapped
+ ### Provisions Not Mapped
 
- ### Revised Section 508
+ #### Revised Section 508
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -5260,7 +5276,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### EN 301 549
+ #### EN 301 549
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -7862,7 +7878,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
 <div class="container">
 <section role="doc-endnotes">
 
- ## End notes
+ ### End notes
 
 <ol>
    <li id="fn1">The functional performance criteria 302.7 and 302.8 of Section 508 and functional performance statements 4.2.7 and 4.2.8 of EN 301 549 inclusively cover the same requirements, despite being grouped slightly differently in each standard. <a href="#fnref1" role="doc-backlink"><small>Return to reference 1</small></a></li>
