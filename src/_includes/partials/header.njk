@@ -14,8 +14,8 @@
 					<ul class="list-inline mrgn-bttm-0">
 						<li>
 							<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ rootPath }}{{ toggleURL | replace("index", "") }}">
-								<span class="hidden-xs">{{ otherLangugae }}</span>
-								<abbr title="{{ otherLangugae }}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ otherLang }}</abbr>
+								<span class="hidden-xs" translate="no">{{ otherLangugae }}</span>
+								<abbr title="{{ otherLangugae }}" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ otherLang }}</abbr>
 							</a>
 						</li>
 					</ul>
@@ -52,8 +52,10 @@
 		</div>
 	</div>
 
+<hr>
+<div class="container"><div class="row"><div class="col-md-8">
+
 	<nav class="gcweb-menu" typeof="SiteNavigationElement">
-		<div class="container">
 			<h2 class="wb-inv">Menu</h2>
 			<button type="button" aria-haspopup="true" aria-expanded="false">
 				{% if locale == "en" %}
@@ -112,14 +114,17 @@
 					<a role="menuitem" href="{{ header[locale].scienceAndInnovationURL }}">{{ header[locale].scienceAndInnovation }}</a>
 				</li>
 			</ul>
-		</div>
 	</nav>
+</div></div></div>
 	<nav id="wb-bc" property="breadcrumb">
 		<h2>{{ header[locale].breadcrumbsHeading }}</h2>
 		<div class="container">
-			<ol class="breadcrumb">
-				<li>
-					<a href="{{ header[locale].governmentOfCanadaURL }}">Canada.ca</a>
+			<ol class="breadcrumb" typeof="BreadcrumbList">
+				<li property="itemListElement" typeof="ListItem">
+					<a property="item" typeof="WebPage" href="{{ header[locale].governmentOfCanadaURL }}">
+						<span property="name">Canada.ca</span>
+					</a>
+					<meta property="position" content="1">
 				</li>
 				{% set url = page.filePathStem | replace("/", "") %}
 				{% if url | replace("index", "") != locale %}
@@ -138,5 +143,4 @@
 			</ol>
 		</div>
 	</nav>
-
 </header>
