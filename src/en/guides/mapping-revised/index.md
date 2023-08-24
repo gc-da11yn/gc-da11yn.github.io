@@ -107,7 +107,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <legend><span class="field-name">Select to see changes</span></legend>
          <ul class="list-unstyled lst-spcd-2">
             <li class="radio">
-               <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="" id="fullTable">
+               <input type="radio" name="columns" class="wb-tagfilter-ctrl" checked value="" id="fullTable">
                <label for="fullTable">View full table</strong></label>
             </li>
             <li class="radio">
