@@ -1,7 +1,7 @@
 ---
 title: Digital Accessibility Toolkit
 description: Welcome to the Digital Accessibility Toolkit. We offer a variety of learning materials and resources to help you learn and implement accessibility in your digital projects.
-layout: layouts/base.njk
+layout: layouts/home.njk
 permalink: /en/index.html
 ---
 
@@ -9,7 +9,7 @@ permalink: /en/index.html
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.mainCollectionEN %}
 	<div class="col-md-6">
-		<h2 class="h3"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
 		<p>{{ item.data.description }}</p>
 	</div>
 	{% endfor %}
