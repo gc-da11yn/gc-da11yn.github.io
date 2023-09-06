@@ -1,14 +1,14 @@
 ---
 title: Boîte à outils d'accessibilité numérique
-description:
-layout: layouts/base.njk
+description: Bienvenue sur la Boîte à outils de l'accessibilité numérique. Nous offrons une variété de matériel d'apprentissage et de ressources pour vous aider à apprendre et à mettre en œuvre l'accessibilité dans vos projets numériques.
+layout: layouts/home.njk
 permalink: /fr/index.html
 ---
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.mainCollectionFR %}
 	<div class="col-md-6">
-		<h2 class="h3"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
 		<p>{{ item.data.description }}</p>
 	</div>
 	{% endfor %}
