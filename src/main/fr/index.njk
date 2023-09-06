@@ -1,7 +1,15 @@
 ---
-title:
+title: Boîte à outils d'accessibilité numérique
 description:
 layout: layouts/base.njk
-audience:
-  -
+permalink: /fr/index.html
 ---
+
+<div class="row wb-eqht mrgn-tp-lg">
+	{% for item in collections.mainCollectionFR %}
+	<div class="col-md-6">
+		<h2 class="h3"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+		<p>{{ item.data.description }}</p>
+	</div>
+	{% endfor %}
+</div>

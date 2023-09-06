@@ -9,6 +9,18 @@ module.exports = function(eleventyConfig) {
     html: true // you can include HTML tags
 	}
 
+  eleventyConfig.addCollection("mainCollectionEN", function (collection) {
+    return collection
+      .getFilteredByTags("main")
+      .filter((item) => item.data.locale == "en");
+  });
+
+  eleventyConfig.addCollection("mainCollectionFR", function (collection) {
+    return collection
+      .getFilteredByTags("main")
+      .filter((item) => item.data.locale == "fr");
+  });
+
 	eleventyConfig.setLibrary("md", markdownIt(markdownItOptions).use(markdownItAnchor).use(markdownItAttrs))
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
