@@ -10,7 +10,7 @@ audience:
   - Everyone
 ---
 
-# <a name="_toc141279914"></a>**Transcript Checklist**
+# **Transcript Checklist**
 **Does the video have:**
 
 - Brief summary of video or audio; an introduction.
@@ -38,7 +38,7 @@ audience:
 - Integrated transcript in the same page (ideal method), or
 - Linked to a separate document or page for transcript, or
 - Interactive transcript.
-## <a name="_toc141279915"></a>**Transcription examples**
+## **Transcription examples**
 [https://app.csps-efpc.gc.ca/content/GBA+ A Fireside Chat with Gina Wilson.html?ou=6606&d2l_body_type=3](https://app.csps-efpc.gc.ca/content/GBA+%20A%20Fireside%20Chat%20with%20Gina%20Wilson.html?ou=6606&d2l_body_type=3)
 
 Deputy Minister Gina Wilson discusses the relevance of GBA+ and Canada’s place as a leader in developing policies that support diversity.

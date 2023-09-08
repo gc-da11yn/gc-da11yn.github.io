@@ -32,7 +32,6 @@ Visual disabilities are sensory disabilities that can range from some amount of 
 - Most eye care professionals prefer to use the term “low vision” to describe permanently reduced vision that cannot be corrected with regular glasses, contact lenses, medicine, or surgery.
 
 ## Adaptive Technologies and Adaptive Strategies
-
 Here are some commonly used products:
 
 - Screen readers

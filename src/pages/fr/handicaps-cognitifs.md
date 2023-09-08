@@ -35,7 +35,6 @@ On trouve une vaste gamme de déficience cognitive, telle que l'affaiblissement 
 Les troubles cognitifs peuvent survenir seuls ou résulter de diverses conditions ou blessures telles que les lésions cérébrales traumatiques. Ils peuvent également coexister avec d'autres types d’handicaps.
 
 ## Des handicaps intellectuels
-
 Définition&nbsp;: La déficience intellectuelle se caractérise par des limitations importantes à la fois dans le fonctionnement intellectuel (raisonnement, apprentissage, résolution de problèmes) et dans le comportement adaptatif, qui couvre une gamme de compétences sociales et pratiques quotidiennes.
 
 Une personne a une déficience intellectuelle si elle répond à trois critères selon le « American Association of Intellectual and Developmental Disabilities »&nbsp;:
@@ -54,7 +53,6 @@ Caractéristiques&nbsp;: Les personnes ayant une déficience intellectuelle peuv
 - Avoir du mal à résoudre des problèmes et à prendre des décisions
 
 ## Lecture et dyslexie
-
 Définition&nbsp;: La dyslexie est une déficience d'apprentissage qui nuit à la capacité d'une personne à lire. Le handicap peut résulter d'une différence congénitale, d'une blessure, d'un retard de développement, d'un handicap neurologique ou physique. Les professionnels identifient et diagnostiquent des troubles spécifiques de la lecture, tels que la dyslexie chez les enfants et les adolescents. Souvent, le diagnostic d'un trouble de l'apprentissage comprend des éléments d'un trouble de la lecture.
 
 Les personnes atteintes de dyslexie à l'âge adulte se développent généralement après une lésion cérébrale ou dans le contexte d'une démence. Des études récentes ont identifié un certain nombre de gènes qui peuvent prédisposer une personne à développer une dyslexie. La dyslexie peut être héréditaire dans certaines familles.
@@ -66,7 +64,6 @@ Caractéristiques&nbsp;: Les déficiences de lecture peuvent inclure:
 - Difficultés dans le traitement phonologique (la manipulation des sons), l'orthographe et / ou une réponse visuelle-verbale rapide
 
 ## Mathématiques et calcul
-
 Définition&nbsp;: Les handicaps mathématiques et informatiques ont un impact sur la capacité d'une personne à apprendre et à communiquer les mathématiques. La dyscalculie implique une incapacité à comprendre l'arithmétique et la façon de calculer. Ce handicap peut être compliqué par la dysgraphie, une incapacité à dessiner ou à copier des figures et des graphiques, et par l'anxiété. La dyscalculie peut être congénitale ou résulte d'une blessure, d'une maladie ou du vieillissement.
 
 Caractéristiques&nbsp;: D'après le document "Qu'est-ce que la dyscalculie" de Understood et d'autres sources, les signes courants de la dyscalculie comprennent des difficultés à&nbsp;:
@@ -92,7 +89,6 @@ Caractéristiques&nbsp;: les principaux symptômes du TDAH sont&nbsp;:
 - Hyperactivité : bougeotte, agitation, bavardage excessif et incapacité à rester assis
 
 ## Troubles du spectre autistique
-
 Définition&nbsp;: selon l'Organisation mondiale de la santé: Le trouble du spectre autistique (AASD) fait référence à une gamme de conditions caractérisées par un certain degré de comportement social, de communication et de langage altérés, et une gamme étroite d'intérêts et d'activités qui sont à la fois uniques à l'individu et réalisés de manière répétitive.
 
 Les TSA apparaissent dès l'enfance et ont tendance à persister à l'adolescence et à l'âge adulte. Les personnes atteintes de TSA présentent souvent d'autres conditions concomitants, tels que l'épilepsie, la dépression, l'anxiété et le trouble déficitaire de l'attention avec hyperactivité (TDAH). Le niveau de fonctionnement intellectuel chez les personnes atteintes de TSA est extrêmement variable, s'étendant d’altération profonde à des niveaux supérieurs.
@@ -109,7 +105,6 @@ Caractéristiques&nbsp;: Les personnes atteintes de TSA peuvent présenter des t
 - Sensibilités sensorielles : réactions inhabituelles au son, à l'odeur, au goût, à l'apparence ou à la sensation des choses
 
 ## Trouble d'apprentissage non verbal
-
 Définition&nbsp;: Selon le «&nbsp;University of Michigan, Michigan Medicine resource, Your Child Development and Behavior Resources, Non-verbal Learning Disability&nbsp;»&nbsp;: Le trouble d'apprentissage non verbal (TANV) ressemble beaucoup au syndrome d'Asperger (SA), dans lequel les personnes atteintes de ce syndrome ont une intelligence et un développement du langage normaux, mais ont des difficultés avec les compétences sociales, les apports sensoriels et les transitions. Le SA et le TANV sont généralement considérés comme décrivant le même type de trouble, mais avec une différence de SA décrivant des symptômes plus graves.
 
 Caractéristiques&nbsp;: Certains des signes de TANV incluent&nbsp;:
@@ -127,7 +122,6 @@ Caractéristiques&nbsp;: Certains des signes de TANV incluent&nbsp;:
 - Anxiété, dépression, faible estime de soi
 
 ## Obstacles pour les personnes souffrant de troubles cognitifs
-
 De l’Initiative de l’accessibilité du web de W3C et d'autres sources&nbsp;:
 
 - Phrases complexes et vocabulaire inhabituel.
@@ -140,7 +134,6 @@ De l’Initiative de l’accessibilité du web de W3C et d'autres sources&nbsp;:
 - Discrimination par isolement social.
 
 ## Défis et solutions pour la lecture et la dyslexie
-
 Perçoit les mots comme flottants et non alignés&nbsp;:
 
 - Utiliser une police spéciale développée pour la dyslexie qui alourdit les lettres et fait apparaître différemment des figures similaires.
@@ -179,7 +172,6 @@ Difficultés d'orthographe :
 - Dictation.
 
 ## Défis et solutions en mathématiques et en calcul
-
 Incapacité à distinguer la droite de la gauche dans les images graphiques&nbsp;:
 
 - Lire des données dans un tableau de données ou une description textuelle comme alternative au représentation graphique des données.
@@ -192,7 +184,6 @@ Incapacité à effectuer des calculs&nbsp;:
 - Accorder du temps supplémentaire pour accomplir les tâches.
 
 ## Technologies d'assistance et Stratégies adaptatives pour les Déficiences cognitives
-
 Voici quelques produits couramment utilisés&nbsp;:
 
 - Aide à la mémorisation
@@ -228,7 +219,6 @@ Voici des liens à des tutoriels&nbsp;:
 - [Tutoriel Kurzweil 3000 (en anglais)](https://www.kurzweiledu.com/products/product-guides.html)
 
 ### Pour la communication&nbsp;:
-
 - Accorder suffisamment de temps pour échanger des informations
 - Parler lentement
 - Vérification de la compréhension

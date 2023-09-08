@@ -10,7 +10,7 @@ audience:
   - Everyone
 ---
 
-# <a name="_transcript_guidelines_(how"></a><a name="_toc141280046"></a>Liste de contrôle des transcriptions
+# Liste de contrôle des transcriptions
 **Est-ce que la vidéo comprend :**
 
 - Un résumé de la vidéo ou de l’audio; une introduction?
@@ -38,7 +38,7 @@ audience:
 - Transcription intégrée dans la même page (méthode idéale);
 - Lien vers un document ou une page distincte pour la transcription;
 - Transcription interactive.
-## <a name="_transcript_sample"></a><a name="_toc141280047"></a>**Exemple de transcription**
+## **Exemple de transcription**
 [Gina Wilson parle de l’ACS+ (csps-efpc.gc.ca)](https://app.csps-efpc.gc.ca/content/Gina%20Wilson%20parle%20de%20l%E2%80%99ACS+.html?ou=6606&d2l_body_type=3)
 
 La sous-ministre Gina Wilson parle de la pertinence de l’ACS+ et de la place du Canada en tant que chef de file dans l’élaboration de politiques qui favorisent la diversité.

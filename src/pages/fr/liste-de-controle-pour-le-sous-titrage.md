@@ -10,7 +10,7 @@ audience:
   - Everyone
 ---
 
-# <a name="_transcript_guidelines_(how"></a><a name="_toc141281091"></a>Liste de contrôle pour le sous-titrage
+# Liste de contrôle pour le sous-titrage
 Les sous-titres codés comprennent-ils :
 
 - L’identification du locuteur, notamment pour les locuteurs multiples?

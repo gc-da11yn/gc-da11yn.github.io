@@ -9,7 +9,7 @@ layout: layouts/base.njk
 audience:
   - Everyone
 ---
-# <a name="_transcript_guidelines_(how"></a><a name="_hlk141091348"></a><a name="_toc141091595"></a>Directives pour la description sonore
+# Directives pour la description sonore
 La description sonore (DS) est parfois appelée vidéo décrite (VD), vidéodescription ou interprétation visuelle. Elle permet à tout utilisateur souffrant d’un handicap visuel ou cognitif de recevoir une expérience très détaillée et descriptive de ce qui se passe à l’écran pour chaque aspect de la vidéo. Un certain nombre d’organismes exigent la description sonore et la vidéo décrite, ou la description vidéo dans la vidéo, comme le [CRTC](https://crtc.gc.ca/fra/info_sht/b322.htm).
 
 La description sonore est également utilisée par les personnes voyantes, de sorte que les éléments audio et vidéo sont tous deux nécessaires (p. ex. une personne souffrant d’une légère perte de vision qui n’a pas pu lire le texte, mais souhaite voir le reste).
@@ -24,17 +24,19 @@ Elle consiste en une voix hors champ produite par un animateur ou un annonceur q
 
 Elle offre une description orale des principaux éléments visuels d’une émission, comme les décors, les costumes ou le langage corporel. La description est ajoutée pendant les pauses dans le dialogue et elle permet au téléspectateur de se représenter mentalement ce qui se passe dans l’émission. La vidéodescription utilise une piste audio distincte.
 
-Source : CRTC – Accès à la télévision pour les personnes ayant une déficience visuelle :<a name="_hlk43450202"></a> [Vidéodescription et description sonore](https://crtc.gc.ca/fra/info_sht/b322.htm).
+Source : CRTC – Accès à la télévision pour les personnes ayant une déficience visuelle : [Vidéodescription et description sonore](https://crtc.gc.ca/fra/info_sht/b322.htm).
 
 Remarque : Si une description sonore est utilisée pour une vidéo, elle doit être incluse dans la transcription.
-## <a name="_toc141091596"></a>Définitions
+
+## Définitions
 - Descripteur
   - La personne qui rédige ou génère les descriptions, que ce soit à l’avance ou en direct sur place.
 - Narrateur
   - La personne qui prononce les descriptions à haute voix. Elle peut être le même que le descripteur et peut théoriquement être une machine utilisant la sortie vocale.
 - Production
   - L’œuvre d’art unique et discrète décrite, telle qu’une pièce de théâtre, un programme télévisé, un spectacle de danse, un film, une photographie. La description d’une série télévisée complète, en revanche, implique une séquence de productions.
-## <a name="_toc141091597"></a>Norme
+
+## Norme
 1. Décrire ce que l’on observe :
    - **Explication** : Il s’agit de l’exigence la plus fondamentale de la DA, mais elle est régulièrement ignorée.
    - **Historique des changements :** « Décrire ce que l’on voit » est une expression à la mode parmi les descripteurs, mais « Décrire ce que l’on observe » est peut-être légèrement meilleur, car cela incite le descripteur à réfléchir à ce qu’il voit plutôt qu’à noter une description sommaire et par cœur.
@@ -56,7 +58,8 @@ Remarque : Si une description sonore est utilisée pour une vidéo, elle doit �
 1. Des descriptions plus détaillées, donnant, par exemple, le contexte de la production ou des définitions de termes, peuvent être fournies dans la mesure du possible, mais doivent se limiter à la production en cours.
 1. Décrire dans la langue du public, et non de la production.
 - **Explication :** Une émission comportant des segments en français et en anglais doit être décrite en anglais sur une chaîne de télévision de langue anglaise. Une production en langue espagnole sous-titrée en néerlandais devrait être décrite en néerlandais sur une chaîne de télévision néerlandaise, même si le son environnant n’est pas en néerlandais. Les programmes réellement bilingues sur des stations réellement bilingues sont rares, et dans ces cas-là, le descripteur se conformerait quand même à ce principe en décrivant dans l’une ou l’autre de ces langues (ou en passant de l’une à l’autre).
-## <a name="_audio_description_checklist"></a><a name="_toc141091598"></a>**Liste de contrôle pour la description sonore**
+
+## **Liste de contrôle pour la description sonore**
 La description audio :
 
 - Décrit-elle ce que celui/celle qui visionne doit savoir?
@@ -95,8 +98,9 @@ La description audio est-elle :
 - Égale?
   - Le sens et l’intention du matériel sont-ils entièrement préservés et transmis?
   - Non censurée?
-## <a name="_time-based_media_player"></a><a name="_toc141091599"></a>**Directives d’accès au clavier**
-<a name="_time-based_media_player_1"></a>Les lecteurs multimédias accessibles fournissent une interface utilisateur qui fonctionne sans souris, par le biais d'une interface vocale, lorsque la page est agrandie et avec des lecteurs d'écran. Par exemple, les lecteurs multimédias doivent : 
+
+## **Directives d’accès au clavier**
+Les lecteurs multimédias accessibles fournissent une interface utilisateur qui fonctionne sans souris, par le biais d'une interface vocale, lorsque la page est agrandie et avec des lecteurs d'écran. Par exemple, les lecteurs multimédias doivent : 
 
 - Fournir un support pour le clavier (dans Comprendre les WCAG : Accessibilité du clavier)
 - rendre visible l'indicateur de mise au point du clavier (voir Comprendre les WCAG : Mise au point visible)
@@ -109,7 +113,8 @@ Certains lecteurs multimédias offrent des fonctionnalités d'accessibilité sup
 - Définir la manière dont les sous-titres sont affichés (par exemple, le style de texte, la taille du texte, les couleurs et la position des sous-titres).
 - Lire les sous-titres avec un lecteur d'écran et un appareil braille.
 - Transcriptions interactives.
-## <a name="_toc141091600"></a>**Liste de contrôle d’accès au clavier**
+
+## **Liste de contrôle d’accès au clavier**
 - L’apprenant peut-il utiliser un clavier pour faire fonctionner le lecteur multimédia? (WCAG 2.1.1)
 - Le lecteur multimédia est-il exempt de pièges à clavier? (WCAG 2.1.2)
 - Le média temporel est-il exempt de contenu qui clignote plus de trois fois par seconde? (WCAG 2.3.1)

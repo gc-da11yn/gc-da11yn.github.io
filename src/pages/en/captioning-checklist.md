@@ -9,7 +9,8 @@ layout: layouts/base.njk
 audience:
   - Everyone
 ---
-# <a name="_hlk141280948"></a><a name="_toc141280972"></a>**Captioning Checklist**
+
+# **Captioning Checklist**
 Do the captions include:
 
 - Speaker identification for multiple speakers?

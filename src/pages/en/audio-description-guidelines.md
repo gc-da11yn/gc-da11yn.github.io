@@ -29,7 +29,6 @@ Source: [TV access for people who are blind or partially sighted : Described vid
 Note: If audio description is being used for a video, then the descriptions need to be included in the transcript.
 
 ## Definitions
-
 - Describer:
   - The person who writes or generates the descriptions, whether in advance or live on the spot.
 - Narrator:
@@ -38,7 +37,6 @@ Note: If audio description is being used for a video, then the descriptions need
   - The single, discrete artwork being described, such as a play, a television program, a dance performance, a film, a photograph. Describing a complete television series, by contrast, involves a sequence of productions.
 
 ## Standard
-
 1. Describe what you observe:
 
   - **Explanation** : It's the most basic requirement of audio description, but one that is routinely ignored.
@@ -71,18 +69,15 @@ Note: If audio description is being used for a video, then the descriptions need
 - **Explanation:** A program with segments in French and English should be described in English on an English-language television station. A Spanish-language production with Dutch subtitles should be described in Dutch on a Dutch TV station even though the surrounding audio isn't in Dutch. Truly bilingual programs on truly bilingual stations are rare, and in those cases the describer would still comply with this principle by describing in either of those languages (or by switching from one to another).
 
 ## Audio Description Checklist
-
 Does the audio description:
 
 - Describe what the viewer needs to know?
   - Prioritize important content?
   - Describe actions and details that add to the understanding of personal appearance, setting, atmosphere, and mise-en-scène (scenery).
-
 - Describe only what is seen?
   - Exclude motivations or intentions?
   - Narrate the main visual elements observed (settings, costumes, and body language).
   - Obvious emotional states (exclude invisible perceptions such as mental state, reasoning, or motivation).
-
 - Describe where unidentified sounds are coming from? (phone ringing)
 - Include credits, subtitles, and captions?
 - Have a clear voice distinction between the description and the video's audio?
@@ -93,32 +88,26 @@ Does the audio description:
 Is the audio description:
 
 - Accurate?
-
 - Good word choice?
 - Good pronunciation?
 - Good diction?
 - Good enunciation?
 - Consistent use of names and terms.
-
 - Consistent?
   - Content and voicing match the style, tone, and pace of video.
   - Synchronized and occurring at approximately the same time as it is appearing in the video.
-
 - Prioritized?
   - Content is essential for comprehension?
-
 - Appropriate for intended audience?
   - Described in the language of the audience
     - Is it objective?
     - Is it simple?
     - Is it succinct?
-
 - Equal?
   - The meaning and intention of the material is preserved and conveyed?
   - Uncensored?
 
 ## Keyboard Access Guidelines
-
 Accessible media players provide a user interface that works without a mouse, through speech interface, when the page is zoomed larger, and with screen readers. For example, media players need to:
 
 - Provide keyboard support ([in Understanding WCAG: Keyboard Accessible](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible))
@@ -134,7 +123,6 @@ Some media players provide additional accessibility functionality to users such 
 - Interactive transcripts.
 
 ## Keyboard Access Checklist
-
 - Can the user use a keyboard to operate the media player ([WCAG 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html))?
 - Is the media player free from keyboard traps? ([WCAG 2.1.2](https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html))
 - Is the time-based media free from content that flashes more than three times per second? ([WCAG 2.3.1](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html))

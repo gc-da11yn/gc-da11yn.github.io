@@ -10,7 +10,7 @@ audience:
   - Everyone
 ---
 
-# <a name="_toc141103344"></a>**Captioning Guidelines**
+# **Captioning Guidelines**
 All videos with audio content must have captions.
 
 Captioning is the process of converting the audio content of a video to displaying the text on a screen or monitor. They make it easier for people who need to access information in audio media but can't hear the content because:
@@ -31,7 +31,8 @@ It is important that the captions are:
 [Best Practices in Online Captioning](http://joeclark.org/access/captioning/bpoc/)
 
 [Captions/Subtitles | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/media/av/captions/)
-### <a name="_toc141103345"></a>**Caption vs Subtitle**
+
+### **Caption vs Subtitle**
 Captioning and subtitling are different media with deceptively similar appearance.
 
 1. Captions are intended for deaf and hard-of-hearing audiences. The assumed audience for subtitling is hearing people who do not understand the language of dialogue.
@@ -41,7 +42,7 @@ Captioning and subtitling are different media with deceptively similar appeara
    1. [Martin]
    1. >> Announcer:
 1. Captions notate sound effects and other dramatically significant audio. Subtitles assume you can hear the phone ringing, the footsteps outside the door, or a thunderclap.
-1. Subtitles are Captions are usually <a name="_int_gv8wpirb"></a>closed, but can be opened by users.
+1. Subtitles are Captions are usually closed, but can be opened by users.
 1. Captions are usually in the same language as the audio. Subtitles are usually a translation.
 1. Subtitles also translate onscreen type in another language, e.g., a sign tacked to a door, a computer monitor display, a newspaper headline, or opening credits.
 1. Subtitles never mention the source language. A film with dialogue in multiple languages will feature continuous subtitles that never indicate that the source language has changed. (Or only dialogue in one language will be subtitled – for example, *Life Is Beautiful*, where only the Italian is subtitled, not the German.)
@@ -56,8 +57,7 @@ Captioning and subtitling are different media with deceptively similar appeara
    1. [Vincent, narrating]
 1. Subtitles can be captioned (subtitles first, captions later) but not the other way around. 
 
-<a name="_captioning_checklist"></a>
-# <a name="_toc141103346"></a>**Captioning Checklist**
+# *Captioning Checklist**
 Do the captions include:
 
 - Speaker identification for multiple speakers?

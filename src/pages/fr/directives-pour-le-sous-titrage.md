@@ -10,7 +10,7 @@ audience:
   - Everyone
 ---
 
-# <a name="_transcript_guidelines_(how"></a><a name="_toc141103829"></a>Directives pour le sous-titrage
+# Directives pour le sous-titrage
 Toutes les vidéos avec du contenu audio doivent avoir des sous-titres codés.
 
 Le sous-titrage est le processus qui consiste à convertir le contenu audio d’une vidéo pour afficher le texte sur un écran ou un moniteur. Il permet aux personnes qui doivent accéder à l’information au format audio, mais qui ne peuvent entendre le contenu pour les raisons suivantes :
@@ -31,7 +31,8 @@ Il est important que les sous-titres codés soient :
 [Best Practices in Online Captioning](http://joeclark.org/access/captioning/bpoc/) (en anglais)
 
 [Captions/Subtitles | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/media/av/captions/) (en anglais)
-### <a name="_toc141103830"></a>**Sous-titres codés et sous-titres**
+
+### **Sous-titres codés et sous-titres**
 Les sous-titres codés et les sous-titres sont des médias différents dont l’apparence est faussement similaire.
 
 1. Les sous-titres codés sont destinés au public sourd et malentendant. Le public présumé des sous-titres codés est constitué de personnes entendantes qui ne comprennent pas la langue des dialogues.
@@ -56,8 +57,7 @@ Les sous-titres codés et les sous-titres sont des médias différents dont l’
    1. [Vincent, narrateur]
 1. Un programme sous-titré peut être sous-titré codé (sous-titres d’abord, sous-titres codés ensuite). Les programmes sous-titrés codés ne sont pas sous-titrés après le sous-titrage.
 
-<a name="_captioning_checklist"></a>**
-# <a name="_toc141103831"></a>Liste de contrôle pour le sous-titrage
+# Liste de contrôle pour le sous-titrage
 Les sous-titres codés comprennent-ils :
 
 - L’identification du locuteur, notamment pour les locuteurs multiples?
