@@ -9,10 +9,8 @@ module.exports = function(eleventyConfig) {
     html: true // you can include HTML tags
 	}
 
-  eleventyConfig.addFilter("localeMatch", function (collection, locale = null) {
-    if (!locale) {
-      locale = this.ctx.locale;
-    } // Falls back to the current page's locale if using Nunjucks (or Liquid)
+  eleventyConfig.addFilter("localeMatch", function (collection) {
+    const { locale } = this.ctx; // avoid retrieving it for each item
     return collection.filter((item) => item.data.locale === locale);
   });
 
