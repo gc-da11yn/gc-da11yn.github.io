@@ -1,0 +1,15 @@
+---
+title: À propos du projet
+description: En savoir plus sur ce projet et sur la boîte à outils sur l'accessibilité numérique.
+layout: layouts/base.njk
+tags: aboutUs
+---
+
+<div class="row wb-eqht mrgn-tp-lg">
+	{% for item in collections.aboutTheDigitalTheAccessibilityToolkitProject | localeMatch(locale) %}
+	<div class="col-md-6">
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+		<p>{{ item.data.description }}</p>
+	</div>
+	{% endfor %}
+</div>

@@ -24,10 +24,12 @@
 
 		<div class="container">
 			{% include "partials/alerts.njk" %}
+			<h2>{{ home[locale].explore }}</h2>
 			{{ content | safe }}
+			{% include "partials/collectionsMain.njk" %}
+			{% include "partials/about.njk" %}
 			{% include "partials/pagedetails.njk" %}
 		</div>
-
 	</main>
 
 	{% include "partials/contribute.njk" %}

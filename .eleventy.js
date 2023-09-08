@@ -9,6 +9,11 @@ module.exports = function(eleventyConfig) {
     html: true // you can include HTML tags
 	}
 
+  eleventyConfig.addFilter("localeMatch", function (collection) {
+    const { locale } = this.ctx; // avoid retrieving it for each item
+    return collection.filter((item) => item.data.locale === locale);
+  });
+
 	eleventyConfig.setLibrary("md", markdownIt(markdownItOptions).use(markdownItAnchor).use(markdownItAttrs))
 
   eleventyConfig.addFilter("postDate", (dateObj) => {

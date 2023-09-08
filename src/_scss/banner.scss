@@ -1,19 +1,21 @@
 // Banner styles
-$theme-color: #26374a;
+$theme-color: #31393A;
 
 .home {
-	background: no-repeat center center; 
+	background: no-repeat center center;
 	background-size: cover;
 	background-image: url("../img/banner.png");
 	margin-bottom: 25px;
-	
-	.gctheme.well.header-rwd {
+
+	.bg-gctheme.well.header-rwd {
 		background-color: $theme-color;
-		
+		width: 75%;
+
 		h1 {
 			width: 100%;
-			border: none;
-			
+
 		}
 	}
 }
+
+
