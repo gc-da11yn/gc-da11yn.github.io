@@ -2,6 +2,14 @@
 title: Global Accessibility Standards
 description: A set of guidelines to ensure digital content is accessible worldwide for people living with disabilities and frameworks for creating accessible digital products, services, and more.
 layout: layouts/base.njk
-audience:
-  -
+tags: accessibilityFundamentals
 ---
+
+<div class="row wb-eqht mrgn-tp-lg">
+	{% for item in collections.globalAccessibilityStandards | localeMatch(locale) %}
+	<div class="col-md-6">
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+		<p>{{ item.data.description }}</p>
+	</div>
+	{% endfor %}
+</div>
