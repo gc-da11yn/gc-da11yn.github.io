@@ -4,3 +4,12 @@ description: Meet the team of accessibility specialists behind the Digital Acces
 layout: layouts/base.njk
 "tags" : "main"
 ---
+
+<div class="row wb-eqht mrgn-tp-lg">
+	{% for item in collections.aboutUs | localeMatch(locale) %}
+	<div class="col-md-6">
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+		<p>{{ item.data.description }}</p>
+	</div>
+	{% endfor %}
+</div>
