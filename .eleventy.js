@@ -9,16 +9,11 @@ module.exports = function(eleventyConfig) {
     html: true // you can include HTML tags
 	}
 
-  eleventyConfig.addCollection("mainCollectionEN", function (collection) {
-    return collection
-      .getFilteredByTags("main")
-      .filter((item) => item.data.locale == "en");
-  });
-
-  eleventyConfig.addCollection("mainCollectionFR", function (collection) {
-    return collection
-      .getFilteredByTags("main")
-      .filter((item) => item.data.locale == "fr");
+  eleventyConfig.addFilter("localeMatch", function (collection, locale = null) {
+    if (!locale) {
+      locale = this.ctx.locale;
+    } // Falls back to the current page's locale if using Nunjucks (or Liquid)
+    return collection.filter((item) => item.data.locale === locale);
   });
 
 	eleventyConfig.setLibrary("md", markdownIt(markdownItOptions).use(markdownItAnchor).use(markdownItAttrs))
