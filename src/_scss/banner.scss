@@ -9,11 +9,14 @@ $theme-color: #31393A;
 
 	.bg-gctheme.well.header-rwd {
 		background-color: $theme-color;
-		width: 75%;
+		width: 90%;
+
+		@media (min-width: 768px) {
+			width: 75%;
+		}
 
 		h1 {
 			width: 100%;
-
 		}
 	}
 }
