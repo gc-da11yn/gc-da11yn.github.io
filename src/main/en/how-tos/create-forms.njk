@@ -3,9 +3,14 @@ title: Create forms
 description: Learn about the essential steps for creating accessible forms.
 layout: layouts/base.njk
 tags: 
-  - createForms
   - howTos
 ---
+
+{% if collections.createForms === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.createForms | localeMatch(locale) %}
@@ -15,3 +20,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

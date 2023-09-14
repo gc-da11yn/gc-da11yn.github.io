@@ -3,8 +3,8 @@ title: Transcript Checklist
 description: A tool to make sure you did not forget anything. 
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone

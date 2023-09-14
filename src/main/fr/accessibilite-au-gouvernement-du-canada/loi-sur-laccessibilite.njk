@@ -4,8 +4,13 @@ description: En savoir plus sur la loi sur l'accessibilité et sur le rôle que 
 layout: layouts/base.njk
 tags: 
   - accessibilityInTheGovernmentOfCanada
-  - communityDirectory
 ---
+
+{% if collections.accessibilityAct === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.accessibilityAct | localeMatch(locale) %}
@@ -15,3 +20,6 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}
+

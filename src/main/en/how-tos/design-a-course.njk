@@ -3,9 +3,13 @@ title: Design a course
 description: Learn about the roles and processes involved in designing and developing an accessible course.
 layout: layouts/base.njk
 tags: 
-  - designCourse
   - howTos
 ---
+{% if collections.designCourse === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.designCourse | localeMatch(locale) %}
@@ -15,3 +19,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

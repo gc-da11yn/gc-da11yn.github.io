@@ -3,9 +3,14 @@ title: Créer du contenu Web
 description: La création de contenu pour le web comporte ses propres défis et spécifications. Dans la section suivante, nous avons rassemblé diverses ressources et aides à la tâche.
 layout: layouts/base.njk
 tags: 
-  - createWebContent
   - howTos
 ---
+
+{% if collections.createWebContent === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.createWebContent | localeMatch(locale) %}
@@ -15,3 +20,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

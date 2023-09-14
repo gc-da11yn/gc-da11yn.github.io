@@ -3,9 +3,14 @@ title: Host a meetings and events
 description: Learn how to host accessible virtual meetings such as training session, a kiosk, or an open-door event.
 layout: layouts/base.njk
 tags: 
-  - hostMeetingsAndEvents
   - howTos
 ---
+
+{% if collections.hostMeetingsAndEvents === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.hostMeetingsAndEvents | localeMatch(locale) %}
@@ -15,4 +20,6 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}
 

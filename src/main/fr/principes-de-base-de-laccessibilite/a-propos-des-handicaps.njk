@@ -4,8 +4,13 @@ description: Il y a plusieurs types d’handicaps et limitations. Explorons ense
 layout: layouts/base.njk
 tags: 
   - accessibilityFundamentals
-  - aboutDisabilities
 ---
+
+{% if collections.aboutDisabilities === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.aboutDisabilities | localeMatch(locale) %}
@@ -15,3 +20,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

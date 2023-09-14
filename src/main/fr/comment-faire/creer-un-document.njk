@@ -3,9 +3,14 @@ title: Créer un document
 description: Dans cette section, vous trouverez les étapes standards et d'instructions spécifiques pour chaque type de document.
 layout: layouts/base.njk
 tags: 
-  - createDocument
   - howTos
 ---
+
+{% if collections.createDocument === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.createDocument | localeMatch(locale) %}
@@ -15,3 +20,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

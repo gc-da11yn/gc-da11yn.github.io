@@ -3,8 +3,8 @@ title: Déficiences auditives
 description: Brèves descriptions et caractéristiques des types de handicaps auditifs les plus courants.
 category:
   - Accessibility Fundamentals
-sub-category:
-  - About Disabilities
+tags: 
+  - aboutDisabilities
 layout: layouts/base.njk
 audience:
   - Everyone

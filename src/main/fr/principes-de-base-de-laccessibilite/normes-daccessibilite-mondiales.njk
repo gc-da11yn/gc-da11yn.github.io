@@ -4,8 +4,13 @@ description: Les lignes directrices visant à garantir que le contenu numérique
 layout: layouts/base.njk
 tags: 
   - accessibilityFundamentals
-  - globalAccessibilityStandards
 ---
+
+{% if collections.globalAccessibilityStandards === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.globalAccessibilityStandards | localeMatch(locale) %}
@@ -15,3 +20,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

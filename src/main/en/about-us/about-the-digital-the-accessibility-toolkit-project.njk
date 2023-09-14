@@ -2,7 +2,13 @@
 title: About the Digital the accessibility toolkit project
 description: Learn more about this project and what the Digital Accessibility Toolkit is.
 layout: layouts/base.njk
+tags: aboutUs
 ---
+{% if collections.aboutTheDigitalTheAccessibilityToolkitProject === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.aboutTheDigitalTheAccessibilityToolkitProject | localeMatch(locale) %}
@@ -12,3 +18,5 @@ layout: layouts/base.njk
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

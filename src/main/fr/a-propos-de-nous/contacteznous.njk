@@ -4,8 +4,13 @@ description: Vous souhaitez en savoir plus ? Prenez contact avec notre équipe.
 layout: layouts/base.njk
 tags:
   - aboutUs
-  - contactUs
 ---
+
+{% if collections.contactUs === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.contactUs | localeMatch(locale) %}
@@ -15,3 +20,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

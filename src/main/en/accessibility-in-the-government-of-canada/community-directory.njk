@@ -4,8 +4,12 @@ description: Learn more about the organizations, projects, and people working on
 layout: layouts/base.njk
 tags: 
   - accessibilityInTheGovernmentOfCanada
-  - communityDirectory
 ---
+{% if collections.communityDirectory === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.communityDirectory | localeMatch(locale) %}
@@ -15,3 +19,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

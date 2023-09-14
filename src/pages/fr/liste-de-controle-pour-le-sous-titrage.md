@@ -3,8 +3,8 @@ title: Liste de contrôle pour le sous-titrage
 description: Pour ne rien oublier avec votre sous-titrage.
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone

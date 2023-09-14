@@ -4,8 +4,13 @@ description: Interested in learning more? Reach out and get connected to our tea
 layout: layouts/base.njk
 tags:
   - aboutUs
-  - contactUs
 ---
+
+{% if collections.contactUs === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.contactUs | localeMatch(locale) %}
@@ -15,3 +20,7 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}
+
+

@@ -3,9 +3,14 @@ title: Create emails
 description: Learn about the essential steps for writing emails accessibly.
 layout: layouts/base.njk
 tags: 
-  - createEmails
   - howTos
 ---
+
+{% if collections.createEmails === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.createEmails | localeMatch(locale) %}
@@ -15,3 +20,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

@@ -4,8 +4,13 @@ description: Restez au courant des dernières normes et réglementations en mati
 layout: layouts/base.njk
 tags: 
   - accessibilityInTheGovernmentOfCanada
-  - standards
 ---
+
+{% if collections.standards === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.standards | localeMatch(locale) %}
@@ -15,3 +20,5 @@ tags:
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}
