@@ -3,8 +3,8 @@ title: Enregistrements
 description: Les enregistrements appartiennent généralement à l’une des deux catégories suivantes un événement animé en personne (vidéo standard) ou une présentation uniquement audio. Nous avons défini ci-dessous chaque type et ses exigences respectives en matière d’accessibilité.
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone

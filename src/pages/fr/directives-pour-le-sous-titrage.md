@@ -3,8 +3,8 @@ title: Directives pour le sous-titrage
 description: Le sous-titrage est le processus qui consiste à convertir le contenu audio d’une vidéo pour afficher le texte sur un écran ou un moniteur. 
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone

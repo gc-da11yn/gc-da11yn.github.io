@@ -3,8 +3,8 @@ title: Déficiences visuelles
 description: Brèves descriptions et caractéristiques des types de handicaps visuels les plus courants.
 category:
   - Accessibility Fundamentals
-sub-category:
-  - About Disabilities
+tags: 
+  - aboutDisabilities
 layout: layouts/base.njk
 audience:
   - Everyone

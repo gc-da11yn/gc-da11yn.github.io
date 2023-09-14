@@ -3,8 +3,8 @@ title: Captioning Checklist
 description: Making sure you did not forget anything with your captions.
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone

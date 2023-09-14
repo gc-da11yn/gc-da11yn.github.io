@@ -3,8 +3,8 @@ title: Captioning Guidelines
 description: Captioning is the process of converting the audio content of a video to displaying the text on a screen or monitor 
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone

@@ -3,8 +3,8 @@ title: Directives pour la transcription
 description: Directives sur la manière d’incorporer divers aspects de l’audio et de la vidéo dans une transcription. 
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone

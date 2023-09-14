@@ -3,8 +3,8 @@ title: Live Broadcast
 description: Live Broadcasts are defined as a facilitator presenting a PowerPoint via videoconference. Here we have defined each type and their respective accessibility requirements.
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone

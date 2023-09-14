@@ -3,8 +3,8 @@ title: Types d'invalidité les plus courants
 description: Brève introduction et liens vers les types de handicaps les plus courants.
 category:
   - Accessibility Fundamentals
-sub-category:
-  - About Disabilities
+tags: 
+  - aboutDisabilities
 Keywords: 
   - Déficiences auditives
   - Déficiences visuelles

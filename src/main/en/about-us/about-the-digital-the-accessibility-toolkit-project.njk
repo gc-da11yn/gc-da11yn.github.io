@@ -4,6 +4,11 @@ description: Learn more about this project and what the Digital Accessibility To
 layout: layouts/base.njk
 tags: aboutUs
 ---
+{% if collections.aboutTheDigitalTheAccessibilityToolkitProject === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.aboutTheDigitalTheAccessibilityToolkitProject | localeMatch(locale) %}
@@ -13,3 +18,5 @@ tags: aboutUs
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

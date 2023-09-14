@@ -3,8 +3,8 @@ title: Liste de contrôle des transcriptions
 description: Outil pour s’assurer de rien oublier. 
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone

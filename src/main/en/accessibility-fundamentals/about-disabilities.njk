@@ -2,6 +2,23 @@
 title: About Disabilities
 description: Learn more about the most common types of disabilities in the workplace and their related accessibility considerations.
 layout: layouts/base.njk
-audience:
-  -
+tags: 
+  - accessibilityFundamentals
 ---
+
+{% if collections.aboutDisabilities === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
+
+<div class="row wb-eqht mrgn-tp-lg">
+	{% for item in collections.aboutDisabilities | localeMatch(locale) %}
+	<div class="col-md-6">
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+		<p>{{ item.data.description }}</p>
+	</div>
+	{% endfor %}
+</div>
+
+{% endif %}

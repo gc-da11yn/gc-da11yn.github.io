@@ -3,8 +3,8 @@ title: Cognitive Disabilities
 description: Brief descriptions and characteristics of common types of cognitive disabilities.
 category:
   - Accessibility Fundamentals
-sub-category:
-  - About Disabilities
+tags: 
+  - aboutDisabilities
 Keywords: 
   - Intellectual disabilities
   - Reading disability

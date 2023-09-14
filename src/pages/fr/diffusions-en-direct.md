@@ -3,8 +3,8 @@ title: Diffusions en direct
 description: Les diffusions en direct sont définies comme un animateur qui présente un PowerPoint par vidéoconférence. Nous définissions ici chaque type de diffusion et leurs exigences respectives en matière d'accessibilité.
 category:
   - How to's
-sub-category:
-  - Create web content
+tags: 
+  - createWebContent
 layout: layouts/base.njk
 audience:
   - Everyone
