@@ -2,6 +2,7 @@
 title: Digital Accessibility Toolkit project
 layout: layouts/base.njk
 description: About the project, who we are and what is our goal.
+subject: aboutUs
 tags: aboutTheDigitalTheAccessibilityToolkitProject
 ---
 

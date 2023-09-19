@@ -1,3 +1,4 @@
 {
-"locale" : "en"
+  "permalink": "/{{ locale }}/{{ title | slugify }}/",
+  "locale" : "en"
 }
