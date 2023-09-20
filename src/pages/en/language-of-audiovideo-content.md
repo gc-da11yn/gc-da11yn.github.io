@@ -1,9 +1,9 @@
 ---
 title: Language of Audio/Video Content
 description: When to use sign language interpretation and bilingual videos, tools and samples of accessible videos. 
-category:
-  - How to's
-tags: 
+subject:
+  - howTos
+tags:
   - createWebContent
 layout: layouts/base.njk
 audience:

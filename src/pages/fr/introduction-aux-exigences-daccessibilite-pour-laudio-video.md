@@ -1,9 +1,9 @@
 ---
 title: Introduction aux exigences d’accessibilité pour l’audio-vidéo
 description: Ce document est une excellente introduction sur la manière de rendre la vidéo accessible à un public de conseillers en communication se situant entre l'auteur Web et l'expert en contenu.
-category:
-  - How to's
-tags: 
+subject:
+  - howTos
+tags:
   - createWebContent
 layout: layouts/base.njk
 audience:

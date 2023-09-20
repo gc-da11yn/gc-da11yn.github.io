@@ -1,9 +1,9 @@
 ---
 title: Recordings
 description: Recordings typically fall into one of two categories, an in-person facilitated event (Standard Video) or an audio-only presentation. Here is a definition of each type and their respective accessibility requirements.
-category:
-  - How to's
-tags: 
+subject:
+  - howTos
+tags:
   - createWebContent
 layout: layouts/base.njk
 audience:

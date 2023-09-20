@@ -1,9 +1,9 @@
 ---
 title: Liste de contrôle pour le sous-titrage
 description: Pour ne rien oublier avec votre sous-titrage.
-category:
-  - How to's
-tags: 
+subject:
+  - howTos
+tags:
   - createWebContent
 layout: layouts/base.njk
 audience:

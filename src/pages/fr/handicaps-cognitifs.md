@@ -1,10 +1,10 @@
 ---
 title: Handicaps cognitifs
 description: Brèves descriptions et caractéristiques des types de handicaps cognitifs les plus courants.
-category:
-  - Accessibility Fundamentals
-sub-category:
-  - About Disabilities
+subject:
+  - accessibilityFundamentals
+tags:
+  - aboutDisabilities
 keywords:
   - Handicaps intellectuels, 
   - troubles de la lecture
