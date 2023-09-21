@@ -1,0 +1,24 @@
+---
+title: Ressources
+description:
+layout: layouts/base.njk
+tags: 
+  - resourcesAndTools
+---
+
+{% if collections.resources === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
+
+<div class="row wb-eqht mrgn-tp-lg">
+	{% for item in collections.resources | localeMatch(locale) %}
+	<div class="col-md-6">
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+		<p>{{ item.data.description }}</p>
+	</div>
+	{% endfor %}
+</div>
+
+{% endif %}

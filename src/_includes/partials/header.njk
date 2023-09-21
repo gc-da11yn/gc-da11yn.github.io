@@ -53,94 +53,75 @@
 	</div>
 
 <hr>
-<div class="container"><div class="row"><div class="col-md-8">
 
-	<nav class="gcweb-menu" typeof="SiteNavigationElement">
-			<h2 class="wb-inv">Menu</h2>
-			<button type="button" aria-haspopup="true" aria-expanded="false">
-				{% if locale == "en" %}
-					<span class="wb-inv">{{ header[locale].mainMenu }}
-					</span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
-				{% else %}
-					Menu <span class="wb-inv">{{ header[locale].mainMenu }}
-					</span>
-					<span class="expicon glyphicon glyphicon-chevron-down"></span>
-				{% endif %}
-			</button>
-			<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-{{ locale }}.html">
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].jobsAndTheWorkplaceURL }}">{{ header[locale].jobsAndTheWorkplace }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].immigrationAndCitizenshipURL }}">{{ header[locale].immigrationAndCitizenship }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].travelAndTourismURL }}">{{ header[locale].travelAndTourism }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].businessAndIndustryURL }}">{{ header[locale].businessAndIndustry }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].benefitsURL }}">{{ header[locale].benefits }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].healthURL }}">{{ header[locale].health }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].taxesURL }}">{{ header[locale].taxes }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].environmentAndNaturalResourcesURL }}">{{ header[locale].environmentAndNaturalResources }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].nationalSecurityAndDefenceURL }}">{{ header[locale].nationalSecurityAndDefence }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].cultureHistoryAndSportURL }}">{{ header[locale].cultureHistoryAndSport }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].policingJusticeAndEmergenciesURL }}">{{ header[locale].policingJusticeAndEmergencies }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].transportAndInfrastructureURL }}">{{ header[locale].transportAndInfrastructure }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].canadaAndTheWorldURL }}">{{ header[locale].canadaAndTheWorld }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].moneyAndFinancesURL }}">{{ header[locale].moneyAndFinances }}</a>
-				</li>
-				<li role="presentation">
-					<a role="menuitem" href="{{ header[locale].scienceAndInnovationURL }}">{{ header[locale].scienceAndInnovation }}</a>
-				</li>
-			</ul>
-	</nav>
-</div></div></div>
-	<nav id="wb-bc" property="breadcrumb">
-		<h2>{{ header[locale].breadcrumbsHeading }}</h2>
-		<div class="container">
-			<ol class="breadcrumb" typeof="BreadcrumbList">
-				<li property="itemListElement" typeof="ListItem">
-					<a property="item" typeof="WebPage" href="{{ header[locale].governmentOfCanadaURL }}">
-						<span property="name">Canada.ca</span>
-					</a>
-					<meta property="position" content="1">
-				</li>
-				{% set url = page.filePathStem | replace("/", "") %}
-				{% if url | replace("index", "") != locale %}
-					<li>
-						<a href="{{ rootPath }}{{ locale }}/">{{ settings[locale].metaTitle }}</a>
-					</li>
-				{% endif %}
-
-				{% for breadcrumb in breadcrumbs %}
-					{% if breadcrumb.title != title %}
-						<li>
-							<a href="{{ breadcrumb.link | safe }}">{{ breadcrumb.title | safe }}</a>
-						</li>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<nav class="gcweb-menu" typeof="SiteNavigationElement">
+				<h2 class="wb-inv">Menu</h2>
+				<button type="button" aria-haspopup="true" aria-expanded="false">
+					{% if locale == "en" %}
+						<span class="wb-inv">{{ header[locale].mainMenu }}
+						</span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+					{% else %}
+						Menu <span class="wb-inv">{{ header[locale].mainMenu }}
+						</span>
+						<span class="expicon glyphicon glyphicon-chevron-down"></span>
 					{% endif %}
-				{% endfor %}
-			</ol>
+				</button>
+				<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-{{ locale }}.html">
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].jobsAndTheWorkplaceURL }}">{{ header[locale].jobsAndTheWorkplace }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].immigrationAndCitizenshipURL }}">{{ header[locale].immigrationAndCitizenship }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].travelAndTourismURL }}">{{ header[locale].travelAndTourism }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].businessAndIndustryURL }}">{{ header[locale].businessAndIndustry }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].benefitsURL }}">{{ header[locale].benefits }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].healthURL }}">{{ header[locale].health }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].taxesURL }}">{{ header[locale].taxes }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].environmentAndNaturalResourcesURL }}">{{ header[locale].environmentAndNaturalResources }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].nationalSecurityAndDefenceURL }}">{{ header[locale].nationalSecurityAndDefence }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].cultureHistoryAndSportURL }}">{{ header[locale].cultureHistoryAndSport }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].policingJusticeAndEmergenciesURL }}">{{ header[locale].policingJusticeAndEmergencies }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].transportAndInfrastructureURL }}">{{ header[locale].transportAndInfrastructure }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].canadaAndTheWorldURL }}">{{ header[locale].canadaAndTheWorld }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].moneyAndFinancesURL }}">{{ header[locale].moneyAndFinances }}</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="{{ header[locale].scienceAndInnovationURL }}">{{ header[locale].scienceAndInnovation }}</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-	</nav>
+	</div>
+</div>
+
+{% include "partials/breadcrumbs.njk" %}
+
 </header>
+

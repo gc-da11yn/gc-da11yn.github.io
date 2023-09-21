@@ -1,0 +1,34 @@
+<nav id="wb-bc" property="breadcrumb">
+	<h2>{{ header[locale].breadcrumbsHeading }}</h2>
+	<div class="container">
+		<ol class="breadcrumb" typeof="BreadcrumbList">
+			<li property="itemListElement" typeof="ListItem">
+				<a property="item" typeof="WebPage" href="{{ header[locale].governmentOfCanadaURL }}">
+					<span property="name">Canada.ca</span>
+				</a>
+				<meta property="position" content="1">
+			</li>
+			{% set url = page.url | replace("/", "") %}
+			{% if url != locale %}
+			<li>
+				<a href="/{{ locale }}/">{{ settings[locale].metaTitle }}</a>
+			</li>
+			{% endif %}
+
+			{% if tags != "main" %}
+
+				{% if subject %}
+					<li><a href="/{{ locale }}/{{ tagList[locale][subject] | slugify }}">{{ tagList[locale][subject] }}</a></li>
+				{% endif %}
+
+				{% if tags %}
+					<li>
+						<a href="/{{ locale }}/{{ tagList[locale][tags] | slugify }}">{{ tagList[locale][tags] }}</a>
+					</li>
+				{% endif %}
+
+			{% endif %}
+
+		</ol>
+	</div>
+</nav>

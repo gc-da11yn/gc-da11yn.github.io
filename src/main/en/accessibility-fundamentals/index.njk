@@ -1,0 +1,15 @@
+---
+title: Accessibility Fundamentals
+description: Discover the accessibility principles behind creating digital products and services that remove barriers for people living with disabilities while ensuring ease of use for all.
+layout: layouts/base.njk
+"tags" : "main"
+---
+
+<div class="row wb-eqht mrgn-tp-lg">
+	{% for item in collections.accessibilityFundamentals | localeMatch(locale) %}
+	<div class="col-md-6">
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+		<p>{{ item.data.description }}</p>
+	</div>
+	{% endfor %}
+</div>
