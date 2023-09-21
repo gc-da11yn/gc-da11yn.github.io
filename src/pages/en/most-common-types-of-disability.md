@@ -1,9 +1,9 @@
 ---
 title: Most Common Types of Disability
 description: Brief introduction and links to the most common types of disabilities.
-category:
-  - Accessibility Fundamentals
-tags: 
+subject:
+  - accessibilityFundamentals
+tags:
   - aboutDisabilities
 Keywords: 
   - Auditory disabilities

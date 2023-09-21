@@ -1,9 +1,9 @@
 ---
 title: Langue du contenu audio/vidéo
 description: Quand utiliser l'interprétation en langage des signes et les vidéos bilingues, outils et exemples de vidéos accessibles.
-category:
-  - How to's
-tags: 
+subject:
+  - howTos
+tags:
   - createWebContent
 layout: layouts/base.njk
 audience:

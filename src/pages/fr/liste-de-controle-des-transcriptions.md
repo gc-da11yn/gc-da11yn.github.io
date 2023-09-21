@@ -1,9 +1,9 @@
 ---
 title: Liste de contrôle des transcriptions
 description: Outil pour s’assurer de rien oublier. 
-category:
-  - How to's
-tags: 
+subject:
+  - howTos
+tags:
   - createWebContent
 layout: layouts/base.njk
 audience:

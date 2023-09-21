@@ -1,9 +1,9 @@
 ---
 title: Captioning Checklist
 description: Making sure you did not forget anything with your captions.
-category:
-  - How to's
-tags: 
+subject:
+  - howTos
+tags:
   - createWebContent
 layout: layouts/base.njk
 audience:

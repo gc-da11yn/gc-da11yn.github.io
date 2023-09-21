@@ -1,9 +1,9 @@
 ---
 title: Visual Impairments
 description: Brief descriptions and characteristics of common types of visual impairments.
-category:
-  - Accessibility Fundamentals
-tags: 
+subject:
+  - accessibilityFundamentals
+tags:
   - aboutDisabilities
 layout: layouts/base.njk
 audience:

@@ -1,9 +1,9 @@
 ---
 title: Transcript Checklist
 description: A tool to make sure you did not forget anything. 
-category:
-  - How to's
-tags: 
+subject:
+  - howTos
+tags:
   - createWebContent
 layout: layouts/base.njk
 audience:

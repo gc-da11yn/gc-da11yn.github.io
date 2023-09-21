@@ -1,9 +1,9 @@
 ---
 title: Auditory Disabilities
 description: Brief descriptions and characteristics of common types of auditory disabilities.
-category:
-  - Accessibility Fundamentals
-tags: 
+subject:
+  - accessibilityFundamentals
+tags:
   - aboutDisabilities
 layout: layouts/base.njk
 audience:

@@ -1,9 +1,9 @@
 ---
 title: Transcript Guidelines
 description: Guidelines on how to incorporate various aspects of audio and video into a transcript.
-category:
-  - How to's
-tags: 
+subject:
+  - howTos
+tags:
   - createWebContent
 layout: layouts/base.njk
 audience:
