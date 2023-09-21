@@ -1,6 +1,7 @@
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function(eleventyConfig) {
   const { DateTime } = require("luxon");
@@ -8,6 +9,8 @@ module.exports = function(eleventyConfig) {
   let markdownItOptions = {
     html: true // you can include HTML tags
 	}
+
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   eleventyConfig.addFilter("localeMatch", function (collection) {
     const { locale } = this.ctx; // avoid retrieving it for each item
