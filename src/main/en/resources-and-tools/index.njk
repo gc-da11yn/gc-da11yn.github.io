@@ -6,6 +6,12 @@ toggle: ressources-et-outils
 tags: main
 ---
 
+{% if collections.resourcesAndTools === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
+
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.resourcesAndTools | localeMatch(locale) %}
 	<div class="col-md-6">
@@ -14,3 +20,5 @@ tags: main
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

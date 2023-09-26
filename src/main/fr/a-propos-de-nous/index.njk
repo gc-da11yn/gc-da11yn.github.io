@@ -6,6 +6,12 @@ toggle: about-us
 tags: main
 ---
 
+{% if collections.aboutUs === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
+
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.aboutUs | localeMatch(locale) %}
 	<div class="col-md-6">
@@ -14,3 +20,5 @@ tags: main
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

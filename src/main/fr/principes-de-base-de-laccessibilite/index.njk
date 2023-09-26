@@ -5,6 +5,11 @@ layout: layouts/base.njk
 toggle: accessibility-fundamentals
 tags: main
 ---
+{% if collections.accessibilityFundamentals === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.accessibilityFundamentals | localeMatch(locale) %}
@@ -14,3 +19,5 @@ tags: main
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}
