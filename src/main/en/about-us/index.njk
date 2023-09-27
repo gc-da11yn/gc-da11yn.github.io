@@ -2,8 +2,15 @@
 title: About Us
 description: Meet the team of accessibility specialists behind the Digital Accessibility Toolkit.
 layout: layouts/base.njk
-"tags" : "main"
+toggle: a-propos-de-nous
+tags: main
 ---
+
+{% if collections.aboutUs === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.aboutUs | localeMatch(locale) %}
@@ -13,3 +20,5 @@ layout: layouts/base.njk
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

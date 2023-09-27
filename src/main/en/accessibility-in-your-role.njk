@@ -2,5 +2,23 @@
 title: Accessibility in your role
 description: We all have a role to play in accessibility. Learn more about job-specific accessibility tips and how to integrate them into your day-to-day work.
 layout: layouts/base.njk
-"tags" : "main"
+toggle: laccessibilite-dans-votre-role
+tags: main
 ---
+
+{% if collections.accessibilityInYourRole === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
+
+<div class="row wb-eqht mrgn-tp-lg">
+	{% for item in collections.accessibilityInYourRole | localeMatch(locale) %}
+	<div class="col-md-6">
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+		<p>{{ item.data.description }}</p>
+	</div>
+	{% endfor %}
+</div>
+
+{% endif %}

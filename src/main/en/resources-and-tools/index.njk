@@ -2,8 +2,15 @@
 title: Resources and Tools
 description: Explore the various guides and learning materials created by federal public servants working to advance digital accessibility.
 layout: layouts/base.njk
-"tags" : "main"
+toggle: ressources-et-outils
+tags: main
 ---
+
+{% if collections.resourcesAndTools === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.resourcesAndTools | localeMatch(locale) %}
@@ -13,3 +20,5 @@ layout: layouts/base.njk
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

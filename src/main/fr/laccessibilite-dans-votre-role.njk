@@ -2,5 +2,22 @@
 title: L'accessibilité dans votre rôle
 description: Nous avons tous un rôle à jouer en matière d'accessibilité. Apprenez-en plus sur les conseils d'accessibilité spécifiques à votre emploi et sur la manière de les intégrer dans votre travail quotidien.
 layout: layouts/base.njk
-"tags" : "main"
+toggle: accessibility-in-your-role
+tags: main
 ---
+{% if collections.accessibilityInYourRole === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
+
+<div class="row wb-eqht mrgn-tp-lg">
+	{% for item in collections.accessibilityInYourRole | localeMatch(locale) %}
+	<div class="col-md-6">
+		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+		<p>{{ item.data.description }}</p>
+	</div>
+	{% endfor %}
+</div>
+
+{% endif %}

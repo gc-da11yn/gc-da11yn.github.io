@@ -2,8 +2,15 @@
 title: Ressources et outils
 description: Vous trouverez ici différents guides, ressources et outils créés par des fonctionnaires fédéraux pour faire progresser l'accessibilité numérique.
 layout: layouts/base.njk
-"tags" : "main"
+toggle: resources-and-tools
+tags: main
 ---
+
+{% if collections.resourcesAndTools === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.resourcesAndTools | localeMatch(locale) %}
@@ -13,3 +20,5 @@ layout: layouts/base.njk
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

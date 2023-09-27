@@ -2,8 +2,15 @@
 title: Accessibilité au gouvernement du Canada
 description: En savoir plus sur les normes d'accessibilité, les rôles et les équipes liées au gouvernement du Canada.
 layout: layouts/base.njk
-"tags" : "main"
+toggle: accessibility-in-the-government-of-canada
+tags: main
 ---
+
+{% if collections.accessibilityInTheGovernmentOfCanada === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.accessibilityInTheGovernmentOfCanada | localeMatch(locale) %}
@@ -13,3 +20,5 @@ layout: layouts/base.njk
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

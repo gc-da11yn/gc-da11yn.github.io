@@ -2,8 +2,15 @@
 title: Accessibility Fundamentals
 description: Discover the accessibility principles behind creating digital products and services that remove barriers for people living with disabilities while ensuring ease of use for all.
 layout: layouts/base.njk
-"tags" : "main"
+toggle: principes-de-base-de-laccessibilite
+tags: main
 ---
+
+{% if collections.accessibilityFundamentals === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.accessibilityFundamentals | localeMatch(locale) %}
@@ -13,3 +20,5 @@ layout: layouts/base.njk
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}
