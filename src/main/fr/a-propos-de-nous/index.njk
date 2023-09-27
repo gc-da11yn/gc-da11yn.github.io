@@ -2,8 +2,15 @@
 title: À propos de nous
 description: Rencontrez l'équipe de spécialistes de l'accessibilité à l'origine de la boîte à outils sur l'accessibilité numérique.
 layout: layouts/base.njk
-"tags" : "main"
+toggle: about-us
+tags: main
 ---
+
+{% if collections.aboutUs === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.aboutUs | localeMatch(locale) %}
@@ -13,3 +20,5 @@ layout: layouts/base.njk
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

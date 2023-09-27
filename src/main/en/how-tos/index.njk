@@ -2,8 +2,15 @@
 title: How to’s
 description: Tips and core steps to help make all your digital products and content, such as documents, meetings, accessible.
 layout: layouts/base.njk
-"tags" : "main"
+toggle: comment-faire
+tags: main
 ---
+
+{% if collections.howTos === undefined %}
+
+<p>There's nothing here !</p>
+
+{% else %}
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.howTos | localeMatch(locale) %}
@@ -13,3 +20,5 @@ layout: layouts/base.njk
 	</div>
 	{% endfor %}
 </div>
+
+{% endif %}

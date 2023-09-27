@@ -1,6 +1,6 @@
 {% set otherLang = "fr" if locale == "en" else
 	"en" %}
-{% set otherLangugae = "Français" if locale == "en" else
+{% set otherLanguage = "Français" if locale == "en" else
 	"English" %}
 {% set toggleURL = page.filePathStem | replace("/en/", "fr/")if locale == "en" else
 	page.filePathStem | replace("/fr/", "en/") %}
@@ -8,19 +8,7 @@
 	<div id="wb-bnr" class="container">
 		<div class="row">
 
-			{% if needsTranslation != true %}
-				<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
-					<h2 class="wb-inv">{{ header[locale].languageSelections }}</h2>
-					<ul class="list-inline mrgn-bttm-0">
-						<li>
-							<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ rootPath }}{{ toggleURL | replace("index", "") }}">
-								<span class="hidden-xs" translate="no">{{ otherLangugae }}</span>
-								<abbr title="{{ otherLangugae }}" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ otherLang }}</abbr>
-							</a>
-						</li>
-					</ul>
-				</section>
-			{% endif %}
+			{% include "partials/lang.njk" %}
 
 			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
 				<a href="{{ header[locale].governmentOfCanadaURL }}" property="url">
