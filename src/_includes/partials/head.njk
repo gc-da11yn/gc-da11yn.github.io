@@ -2,9 +2,6 @@
 	"en" %}
 {% set toggleURL = page.filePathStem | replace("/en/", "fr/")if locale == "en" else
 	page.filePathStem | replace("/fr/", "en/") %}
-{% if redirect %}
-	<meta http-equiv="refresh" content="0; URL={{ redirect }}" />
-{% endif %}
 <head>
 	<meta charset="utf-8">
 

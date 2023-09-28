@@ -1,3 +1,9 @@
+{% if redirect %}
+
+<meta http-equiv="refresh" content="0; URL={{ redirect }}" />
+
+{% else %}
+
 <!DOCTYPE html>
 <html class="no-js" lang="{{ locale }}" dir="ltr">
 
@@ -41,3 +47,5 @@
 	<script src="//www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
 </body>
 </html>
+
+{% endif %}
