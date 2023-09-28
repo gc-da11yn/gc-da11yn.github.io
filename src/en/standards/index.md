@@ -1,4 +1,4 @@
 ---
-redirect: /en/standard-on-information-and-communication-technology-accessibility-ict-accessibility-phase-one/
+redirect: /en/targeted-engagement-draft-standard-on-information-and-communication-technology-ict-accessibility
 layout: layouts/base.njk
 ---
