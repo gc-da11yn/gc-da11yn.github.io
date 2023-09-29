@@ -3,12 +3,13 @@ title: Meilleures pratiques d’accessibilité pour les documents PowerPoint
 layout: layouts/base.njk
 description: Pratiques accessibles pour la création de documents Microsoft PowerPoint.
 internalLinks: true
-otherLang: english-accessibility-best-practices-for-powerpoint-documents
+toggle: accessibility-best-practices-for-powerpoint-documents
 ---
-Partie 1. Contenu des documents
--------------------------------
+
+## Partie 1. Contenu des documents
 
 ### Documents bilingues
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -19,17 +20,23 @@ Partie 1. Contenu des documents
         </ul>
     </div>
     <div class="col-md-6">
-#### À ne pas faire...
-        <ul class="lst-spcd">
-*   Ne placez pas l'anglais et le français **côte à côte** sur une même page ; et
-*   Ne **mélangez** pas les paragraphes en anglais avec les paragraphes en français.
 
-        </ul>
-    </div>
-</div>
+#### À ne pas faire...
+
+        <ul class="lst-spcd">
+
+- Ne placez pas l'anglais et le français **côte à côte** sur une même page ; et
+- Ne **mélangez** pas les paragraphes en anglais avec les paragraphes en français.
+
+          </ul>
+      </div>
+
+  </div>
+
 ### Langage clair
 
 [Test de niveau de lisibilité Flesch-Kincaid](https://support.office.com/fr-fr/article/acc%c3%a9der-aux-statistiques-de-lisibilit%c3%a9-et-de-niveau-de-votre-document-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2?ui=fr-FR&rs=fr-FR&ad=FR)
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -39,19 +46,23 @@ Partie 1. Contenu des documents
 *   Choisissez un vocabulaire clair et des structures simples ; et
 *   Diviser votre texte par points principaux et secondaires.
 
-
         </ul>
     </div>
     <div class="col-md-6">
+
 #### À ne pas faire...
+
         <ul class="lst-spcd">
-*   Ne confondez pas avec un style simplifié ou hautain ;
-*   Évitez un langage passif; et
-*   Ne rédigez pas des phrases d’une longueur de plus de 20 mots.
-        </ul>
-    </div>
+
+- Ne confondez pas avec un style simplifié ou hautain ;
+- Évitez un langage passif; et
+- Ne rédigez pas des phrases d’une longueur de plus de 20 mots.
+</ul>
 </div>
+</div>
+
 ### Acronymes
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...

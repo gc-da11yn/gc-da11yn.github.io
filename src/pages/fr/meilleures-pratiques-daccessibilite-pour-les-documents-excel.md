@@ -3,12 +3,13 @@ title: Meilleures pratiques d’accessibilité pour les documents Excel
 layout: layouts/base.njk
 description: Pratiques accessibles pour la création de documents dans Microsoft Excel.
 internalLinks: true
-otherLang: english-accessibility-best-practices-for-excel-documents
+toggle: accessibility-best-practices-for-excel-documents
 ---
-Partie 1. Contenu des documents
--------------------------------
+
+## Partie 1. Contenu des documents
 
 ### Langage clair
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -22,13 +23,16 @@ Partie 1. Contenu des documents
 #### À ne pas faire...
         <ul class="lst-spcd">
 
-*   Ne confondez pas avec un style simplifié ou condescendant ;
-*   Ne rédigez pas des phrases d’une longueur de plus de 20 mots.
+- Ne confondez pas avec un style simplifié ou condescendant ;
+- Ne rédigez pas des phrases d’une longueur de plus de 20 mots.
 
-      </ul>
-    </div>
-</div>
+        </ul>
+      </div>
+
+  </div>
+
 ### Structure du contenu
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -199,8 +203,8 @@ N'utilisez pas des couleurs pour faire la distinction entre des cellules.
 
 </div>
 
-Contact
--------
+## Contact
+
 <p>Veuillez utiliser le <a href="http://iservice.prv/fra/giti/A11E/admission.shtml">Formulaire de demande <i
             class="fas fa-external-link-square-alt"></i><span class="wb-inv"> Lien interne</span></a> sur
     iService ou nous soumettre un courriel &agrave; <a

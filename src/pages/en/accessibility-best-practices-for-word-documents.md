@@ -3,12 +3,13 @@ title: Accessibility Best Practices For Word Documents
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Word document creation.
 internalLinks: true
-otherLang: french-meilleures-pratiques-daccessibilite-pour-les-documents-word
+toggle: meilleures-pratiques-daccessibilite-pour-les-documents-word
 ---
-Part 1. Document Content
-------------------------
+
+## Part 1. Document Content
 
 ### Bilingual Documents
+
 <div class="row">
     <div class="col-md-6">
 #### Do...
@@ -22,6 +23,7 @@ Proper language Markup.
 
         </ul>
     </div>
+
 </div>
 ### Reference to second language
 <div class="row">
@@ -61,6 +63,7 @@ Proper language Markup.
 
         </ul>
     </div>
+
 </div>
 ### Acronyms
 <div class="row">
@@ -81,6 +84,7 @@ Part 2. Document Format
 [Run the Accessibility Checker (Microsoft website)](https://support.office.com/en-us/article/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1)
 
 ### Heading Styles
+
 <div class="row">
     <div class="col-md-6">
 #### Do...
@@ -140,6 +144,7 @@ Part 2. Document Format
 
         </ul>
     </div>
+
 </div>
 ### Tables
 <div class="row">
@@ -162,6 +167,7 @@ Part 2. Document Format
 
         </ul>
     </div>
+
 </div>
 ### Colour (Colour Contrast Analyzer)
 <div class="row">

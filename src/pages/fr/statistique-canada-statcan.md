@@ -2,7 +2,7 @@
 title: Statistique Canada (StatCan)
 layout: layouts/base.njk
 description: Statistique Canada, en collaboration avec des partenaires d'Emploi et D&eacute;veloppement social Canada, continuera d'&eacute;laborer et de diffuser des produits permettant de mieux comprendre les exp&eacute;riences des Canadiens en mati&egrave;re d'accessibilit&eacute;. Le <a href="https://www.statcan.gc.ca/fr/themes-debut/accessibilite">carrefour de donn&eacute;es sur l'accessibilit&eacute;</a> offre un emplacement centralis&eacute; de sujets li&eacute;s &agrave; l'accessibilit&eacute; et &agrave; l'incapacit&eacute; par le biais de tableaux de donn&eacute;es, d'articles, d'infographies et d'outils interactifs de visualisation de donn&eacute;es.
-otherLang: english-statistics-canada-statcan
+toggle: statistics-canada-statcan
 ---
 
 <div class="row wb-eqht">

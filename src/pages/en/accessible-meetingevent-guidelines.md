@@ -3,7 +3,7 @@ title: Accessible Meeting/Event Guidelines
 layout: layouts/base.njk
 description: Proper planning of meetings and events is essential for the inclusion of all. There are several things to consider in the to-do list before and during these.
 internalLinks: true
-otherLang: french-lignes-directrices-pour-les-reunionsevenements-accessibles
+toggle: lignes-directrices-pour-les-reunionsevenements-accessibles
 ---
 
 ## Planning the meeting/event

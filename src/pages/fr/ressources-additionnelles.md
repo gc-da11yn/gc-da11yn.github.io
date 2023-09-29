@@ -3,7 +3,7 @@ title: Ressources additionnelles
 layout: layouts/base.njk
 description: Pour plus d'informations sur les réunions et événements accessibles, vous pouvez consulter cette liste de liens.
 internalLinks: true
-otherLang: english-additional-resources
+toggle: additional-resources
 ---
 
     <li>

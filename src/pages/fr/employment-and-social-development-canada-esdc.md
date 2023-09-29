@@ -2,7 +2,7 @@
 title: Employment and Social Development Canada (ESDC)
 layout: layouts/base.njk
 description: Emploi et Développement social Canada (EDSC) travaille à améliorer le niveau de vie et la qualité de vie de tous les Canadiens en faisant la promotion d'une main-d'œuvre mobile et hautement spécialisée ainsi que d'un marché du travail efficace et favorable à l'inclusion. EDSC compte plusieurs équipes travaillant dans le domaine de l'accessibilité numérique dans le but de créer un environnement sans obstacle pour les Canadiens et les employés !
-otherLang: english-employment-and-social-development-canada-esdc
+toggle: employment-and-social-development-canada-esdc
 ---
 
 <div class="row wb-eqht">
@@ -18,13 +18,10 @@ Le Bureau de l’accessibilité des TI (BATI) demeure un fournisseur de la techn
 		<h2 class="h3"><a href="https://ceacs-cesca.github.io/index-fr.html">Centre d'expertise pour le service à la clientèle accessible</a></h2>
 Le Centre d'expertise pour le service à la clientèle accessible aide à promouvoir une culture axée sur l'accessibilité en offrant des conseils et un soutien afin :
 
-*   d’intégrer les principes de conception universelle aux initiatives nouvelles ou existantes axées sur la conception de programmes et l'amélioration des services;
-*   de comprendre le mode de vie des personnes ayant un handicap et les obstacles qu'elles doivent surmonter pour avoir accès aux services;
-*   de trouver des moyens de faciliter l'accès aux programmes et aux services qu'il offre;
-*   de diriger la conception et la prestation de programmes et de services pour atteindre l’objectif 4 de la [Stratégie sur l’accessibilité au sein de la fonction publique du Canada](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm.html).
-	</div>
-
+- d’intégrer les principes de conception universelle aux initiatives nouvelles ou existantes axées sur la conception de programmes et l'amélioration des services;
+- de comprendre le mode de vie des personnes ayant un handicap et les obstacles qu'elles doivent surmonter pour avoir accès aux services;
+- de trouver des moyens de faciliter l'accès aux programmes et aux services qu'il offre;
+- de diriger la conception et la prestation de programmes et de services pour atteindre l’objectif 4 de la [Stratégie sur l’accessibilité au sein de la fonction publique du Canada](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm.html).
 </div>
 
-
-
+</div>

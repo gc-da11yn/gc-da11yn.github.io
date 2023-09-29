@@ -3,12 +3,13 @@ title: Accessibility Best Practices For PowerPoint Documents
 layout: layouts/base.njk
 description: Accessible practices for Microsoft PowerPoint document creation.
 internalLinks: true
-otherLang: french-meilleures-pratiques-daccessibilite-pour-les-documents-powerpoint
+toggle: meilleures-pratiques-daccessibilite-pour-les-documents-powerpoint
 ---
-Part 1. Document Content
-------------------------
+
+## Part 1. Document Content
 
 ### Bilingual Documents
+
 <div class="row">
     <div class="col-md-6">
 #### Do...
@@ -19,16 +20,23 @@ Part 1. Document Content
         </ul>
     </div>
     <div class="col-md-6">
-#### Don't...
-        <ul class="lst-spcd">
-*   Do not place English and French **side-by-side** on the same page; and
-*   Do not **mix** one paragraph in English with one paragraph in French.
 
-        </ul>
-    </div>
-</div>
+#### Don't...
+
+        <ul class="lst-spcd">
+
+- Do not place English and French **side-by-side** on the same page; and
+- Do not **mix** one paragraph in English with one paragraph in French.
+
+          </ul>
+      </div>
+
+  </div>
+
 ### Plain Language
+
 [Readability Scores Flesch-Kincaid Grade](https://support.office.com/en-us/article/test-your-document-s-readability-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2)
+
 <div class="row">
     <div class="col-md-6">
 #### Do...
@@ -38,19 +46,23 @@ Part 1. Document Content
 *   Choose straightforward vocabulary and simple structures; and
 *   Divide your text into main points and secondary points.
 
-
         </ul>
     </div>
     <div class="col-md-6">
+
 #### Don't...
+
         <ul class="lst-spcd">
-*   Do not confuse with oversimplified or condescending style;
-*   Avoid passive voice; and
-*   Do not write sentences of more than 20 words.
-        </ul>
-    </div>
+
+- Do not confuse with oversimplified or condescending style;
+- Avoid passive voice; and
+- Do not write sentences of more than 20 words.
+</ul>
 </div>
+</div>
+
 ### Acronyms
+
 <div class="row">
     <div class="col-md-6">
 #### Do...

@@ -3,12 +3,13 @@ title: Lignes directrices pour les réunions/événements accessibles
 layout: layouts/base.njk
 description: Une bonne planification des réunions et des événements est essentielle pour l'inclusion de tous. Il y a plusieurs choses à considérer dans la liste de choses à faire avant et pendant celles-ci.
 internalLinks: true
-otherLang: english-accessible-meetingevent-guidelines
+toggle: accessible-meetingevent-guidelines
 ---
 
 ## Planification de la réunion ou de l’événement
 
 Chaque réunion ou activité est différente et chaque participant a des besoins différents. Ces lignes directrices sont utiles pour organiser des réunions et des activités de faible envergure.
+
 <p>
 Pour les &eacute;v&eacute;nements plus importants, comme des
 conf&eacute;rences et des sommets, des &eacute;l&eacute;ments

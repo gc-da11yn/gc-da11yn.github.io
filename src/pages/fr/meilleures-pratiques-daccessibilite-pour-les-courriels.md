@@ -3,12 +3,13 @@ title: Meilleures pratiques d’accessibilité pour les courriels
 layout: layouts/base.njk
 description: Pratiques accessibles pour le contenu, le format et la conception des courriels.
 internalLinks: true
-otherLang: english-accessibility-best-practices-for-emails
+toggle: accessibility-best-practices-for-emails
 ---
-Partie 1. Contenu des courriels
--------------------------------
+
+## Partie 1. Contenu des courriels
 
 ### Message bilingue
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -43,14 +44,19 @@ page </span>1</a></sup>; et</li>
         </ul>
     </div>
     <div class="col-md-6">
+
 #### À ne pas faire...
+
         <ul class="lst-spcd">
-*   Ne confondez pas avec un style simplifié ou condescendant ; et
-*   Évitez de rédiger des phrases qui contiennent plus de 20 mots.
-        </ul>
-    </div>
+
+- Ne confondez pas avec un style simplifié ou condescendant ; et
+- Évitez de rédiger des phrases qui contiennent plus de 20 mots.
+</ul>
 </div>
+</div>
+
 ### Acronymes et abréviations
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -68,6 +74,7 @@ Partie 2. Format de courriel
 ----------------------------
 
 ### Arrière-plan
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -80,6 +87,7 @@ Conservez l'arrière-plan blanc pour assurer un contraste approprié.
 </div>
 
 ### Texte
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -164,16 +172,18 @@ Ne transmettez pas d'informations en utilisant seulement des couleurs.
 #### À ne pas faire...
         <ul class="lst-spcd">
 
-*   Éviter de répéter le texte du document dans le texte de remplacement de l'image ;
-*   Ne vous fiez pas exclusivement aux graphiques pour transmettre un message ;
-*   Évitez les objets avec des positions flottantes ;
-*   Évitez de faire référence aux images par leurs apparences ;
-*   Évitez d'utiliser « image de » ou « graphique de » dans le texte de remplacement ; et
-*   Évitez d'utiliser des images de texte.
-        </ul>
-    </div>
+- Éviter de répéter le texte du document dans le texte de remplacement de l'image ;
+- Ne vous fiez pas exclusivement aux graphiques pour transmettre un message ;
+- Évitez les objets avec des positions flottantes ;
+- Évitez de faire référence aux images par leurs apparences ;
+- Évitez d'utiliser « image de » ou « graphique de » dans le texte de remplacement ; et
+- Évitez d'utiliser des images de texte.
+</ul>
 </div>
+</div>
+
 ### Hyperlien textuel
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -209,8 +219,8 @@ Ne transmettez pas d'informations en utilisant seulement des couleurs.
     </div>
 </div>
 
-Références
-----------
+## Références
+
 <ul class="lst-spcd">
 *   [Secrétariat du Conseil du Trésor (SCT) - Langues officielles dans la fonction publique](https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/langues-officielles/services-public/bureaux-bilingues.html)
 *   [TermiumPlus – La langue clair et simple](http://www.btb.termiumplus.gc.ca/redac-chap?lang=fra&lettr=chap_catlog&info0=10#zz10)
@@ -219,8 +229,8 @@ Références
 *   [Règles pour le Vérificateur d’accessibilité](https://support.office.com/fr-fr/article/r%c3%a8gles-pour-le-v%c3%a9rificateur-d-accessibilit%c3%a9-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ui=fr-FR&rs=fr-FR&ad=FR)
 </ul>
 
-Contact
--------
+## Contact
+
 <p>Veuillez utiliser le <a href="http://iservice.prv/fra/giti/A11E/admission.shtml">Formulaire de demande <i
             class="fas fa-external-link-square-alt"></i><span class="wb-inv"> Lien interne</span></a> sur
     iService ou nous soumettre un courriel &agrave; <a

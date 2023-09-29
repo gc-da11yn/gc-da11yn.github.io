@@ -2,7 +2,7 @@
 title: Canada School of Public Service (CSPS)
 layout: layouts/base.njk
 description: The Canada School of Public Service leads the government's enterprise-wide approach to learning by providing a common, standardized curriculum that supports public servants through key career transitions, ensuring that they are equipped to serve Canadians with excellence. Multiple teams at the School support accessibility with the goal of creating a barrier free learning environment for its learners.
-otherLang: french-ecole-de-la-fonction-publique-du-canada-efpc
+toggle: ecole-de-la-fonction-publique-du-canada-efpc
 ---
 
 <div class="row wb-eqht">
@@ -15,6 +15,7 @@ The Canada School of Public Service (CSPS) Policy, Priorities, and Partnership t
 The CSPS Future of Work / Employee Experience team is working on the creation of the corporate accessibility plan, as required by the [_Accessible Canada Act._](https://laws-lois.justice.gc.ca/eng/acts/A-0.6/) The plan is based on the current CSPS Accessibility Strategy, while ensuring that the CSPS is compliant with the new technical Accessible Canada Regulations.
 
 The Future of Work team will be coordinating with all CSPS business lines involved in accessibility related policy, both from an employer and service provider standpoint. As well, we will be conducting consultations with employees who identify as Persons with Disabilities during the process of preparation of the accessibility plan which is scheduled to be published prior to December 2022.
+
 </section>
 	<section class="col-md-6">
 		<h2 class="h3">Digital Academy team</h2>
@@ -35,5 +36,6 @@ The CSPS Digital Accessibility in Learning team, under the User Experience divis
 *   Provide coaching and professional development to School employees on accessibility.
 
 To learn more about inclusion and accessibility, or to access help with your learning design or development, please contact the Digital Accessibility team.
-	</section>
+</section>
+
 </div>

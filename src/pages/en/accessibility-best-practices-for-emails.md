@@ -3,7 +3,7 @@ title: Accessibility Best Practices for Emails
 layout: layouts/base.njk
 description: Accessible practices for Emails content, format and design.
 internalLinks: true
-otherLang: french-meilleures-pratiques-daccessibilite-pour-les-courriels
+toggle: meilleures-pratiques-daccessibilite-pour-les-courriels
 ---
 
 ## Part 1. Email Content
@@ -213,8 +213,8 @@ Do not convey information by colour alone.
     </div>
 </div>
 
-References
-----------
+## References
+
 <ul class="lst-spcd">
 *   [Treasury Board Secretariat (TBS) - Official languages in the public service](https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/official-languages/public-services/bilingual-offices-facilities.html)
 *   [TermiumPlus - Plain language](http://www.btb.termiumplus.gc.ca/tcdnstyl-chap?i=1&info0=13&lang=eng&lettr=chapsect13?lang%3Deng)
@@ -223,8 +223,8 @@ References
 *   [Rules for the Accessibility Checker](https://support.office.com/en-us/article/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1)
 </ul>
 
-Contact
--------
+## Contact
+
 <p>Please use the <a href="http://iservice.prv/eng/imit/A11Y/intake.shtml">Intake Form <i
             class="fas fa-external-link-square-alt"></i><span class="wb-inv"> Internal link</span></a> on
     iService or email us at <a

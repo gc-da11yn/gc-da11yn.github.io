@@ -3,12 +3,13 @@ title: Meilleures pratiques d’accessibilité Pour les documents Word
 layout: layouts/base.njk
 description: Pratiques accessibles pour la création de documents dans Microsoft Word.
 internalLinks: true
-otherLang: english-accessibility-best-practices-for-word-documents
+toggle: accessibility-best-practices-for-word-documents
 ---
-Partie 1. Contenu des documents
--------------------------------
+
+## Partie 1. Contenu des documents
 
 ### Documents bilingues
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -22,6 +23,7 @@ Balisage du langage approprié
 
         </ul>
     </div>
+
 </div>
 ### Référence à la langue seconde
 <div class="row">
@@ -40,6 +42,7 @@ Balisage du langage approprié
 
         </ul>
     </div>
+
 </div>
 ### Langage simple
 [Test de niveau de lisibilité Flesch-Kincaid](https://support.office.com/fr-fr/article/acc%c3%a9der-aux-statistiques-de-lisibilit%c3%a9-et-de-niveau-de-votre-document-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2?ui=fr-FR&rs=fr-FR&ad=FR)
@@ -62,6 +65,7 @@ Balisage du langage approprié
 
         </ul>
     </div>
+
 </div>
 ### Acronymes
 <div class="row">
@@ -82,6 +86,7 @@ Partie 2. Format des documents
 [Règles pour le Vérificateur d’accessibilité (site Web de Microsoft)](https://support.office.com/fr-fr/article/r%c3%a8gles-pour-le-v%c3%a9rificateur-d-accessibilit%c3%a9-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ui=fr-FR&rs=fr-FR&ad=FR)
 
 ### Styles de titre
+
 <div class="row">
     <div class="col-md-6">
 #### À faire...
@@ -140,6 +145,7 @@ Partie 2. Format des documents
 
         </ul>
     </div>
+
 </div>
 ### Tableaux
 <div class="row">
@@ -162,6 +168,7 @@ Partie 2. Format des documents
 
         </ul>
     </div>
+
 </div>
 ### Couleur (Analyseur de contraste de couleurs)
 <div class="row">

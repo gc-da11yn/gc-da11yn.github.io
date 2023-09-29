@@ -3,12 +3,13 @@ title: Accessibility Best Practices For Excel Documents
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Excel document creation.
 internalLinks: true
-otherLang: french-meilleures-pratiques-daccessibilite-pour-les-documents-excel
+toggle: meilleures-pratiques-daccessibilite-pour-les-documents-excel
 ---
-Part 1. Document Content
-------------------------
+
+## Part 1. Document Content
 
 ### Plain Language
+
 <div class="row">
     <div class="col-md-6">
 #### Do...
@@ -20,29 +21,40 @@ Part 1. Document Content
         </ul>
     </div>
     <div class="col-md-6">
+
 #### Don't...
+
         <ul class="lst-spcd">
-*   Do not confuse with oversimplified or condescending style; and
-*   Do not write sentences of more than 20 words.
-        </ul>
-    </div>
+
+- Do not confuse with oversimplified or condescending style; and
+- Do not write sentences of more than 20 words.
+</ul>
 </div>
+</div>
+
 ### Organize Content
+
 <div class="row">
     <div class="col-md-6">
     #### Do...
 
 Unilingual document.
-    </div>
-    <div class="col-md-6">
-#### Don't...
-        <ul class="lst-spcd">
-*   Avoid using Excel for playbook, user guide or for large volume of text; and
-*   Avoid using more than one language in the same document.
-        </ul>
-    </div>
+
 </div>
+<div class="col-md-6">
+
+#### Don't...
+
+        <ul class="lst-spcd">
+
+- Avoid using Excel for playbook, user guide or for large volume of text; and
+- Avoid using more than one language in the same document.
+</ul>
+</div>
+</div>
+
 ### Acronyms
+
 <div class="row">
     <div class="col-md-6">
 #### Do...
@@ -55,7 +67,9 @@ Unilingual document.
 #### Don't...
 
 Do not add a period or an apostrophe to acronyms.
-    </div>
+
+</div>
+
 </div>
 <h2>Part 2. Document Format <sup id="fn1-rf"><a
     class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup></h2>
@@ -88,7 +102,7 @@ Do not add a period or an apostrophe to acronyms.
         </ul>
     </div>
     <div class="col-md-6">
- #### Don't...
+#### Don't...
         <ul class="lst-spcd">
 *   Avoid using ‘Justify’ for the alignment;
 *   Avoid hyphenated text;
@@ -197,8 +211,8 @@ Avoid hyperlink text such as “click here” and “link to”.
 
 </div>
 
-Contact
--------
+## Contact
+
 <p>Please use the <a href="http://iservice.prv/eng/imit/A11Y/intake.shtml">Intake Form  <i class="fas fa-external-link-square-alt"></i><span class="wb-inv"> Internal link</span></a> on iService or email us at <a href="mailto:edsc.ti-it.a11y.esdc@hrsdc-rhdcc.gc.ca">edsc.ti-it.a11y.esdc@hrsdc-rhdcc.gc.ca</a> to request an Accessible Information and Communications Technology service.</p>
 <aside class="wb-fnote" role="note">
     <h2 id="fn">Footnotes</h2>

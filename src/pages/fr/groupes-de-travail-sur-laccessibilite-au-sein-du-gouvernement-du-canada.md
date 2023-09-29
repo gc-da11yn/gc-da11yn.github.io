@@ -2,7 +2,7 @@
 title: Groupes de travail sur l'accessibilité au sein du gouvernement du Canada
 layout: layouts/base.njk
 description: Il existe de nombreux groupes de travail qui couvrent différents sujets sur l'accessibilité, composés de membres de différents départements travaillant tous ensemble.
-otherLang: english-working-groups-on-accessibility-within-the-government-of-canada
+toggle: working-groups-on-accessibility-within-the-government-of-canada
 ---
 
 <div class="row wb-eqht">

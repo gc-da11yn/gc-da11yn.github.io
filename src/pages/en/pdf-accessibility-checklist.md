@@ -3,7 +3,7 @@ title: PDF Accessibility Checklist
 layout: layouts/base.njk
 description: Here you can find different questions to help you to know if your pdf document is accessible or not.
 internalLinks: true
-otherLang: french-liste-de-verification-de-laccessibilite-des-documents-pdf
+toggle: liste-de-verification-de-laccessibilite-des-documents-pdf
 ---
 
 ## Introduction
@@ -106,6 +106,7 @@ For any further questions or comments regarding the PDF Accessibility Checklist,
                     The submit button is clearly marked so that users know
 
 how to submit the form they are filling out.</li>
+
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>26 &ndash; Best Practice: when using an acronym ensure that the first
 time it is mentioned in the PDF that it is fully defined.
 Eg. Employment and Social Development Canada (ESDC)
