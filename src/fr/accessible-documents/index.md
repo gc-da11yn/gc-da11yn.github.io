@@ -1,0 +1,3 @@
+---
+redirect: /fr/documents-accessibles/
+---
