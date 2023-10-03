@@ -2,13 +2,13 @@
 title: Contact us
 description: Interested in learning more? Reach out and get connected to our team.
 layout: layouts/base.njk
-toggle: contacteznous
+toggle: contactez-nous
 tags: aboutUs
 ---
 
 {% if collections.contactUs === undefined %}
 
-<p>There's nothing here !</p>
+	{% include "partials/alert-landingpages.njk" %}
 
 {% else %}
 
