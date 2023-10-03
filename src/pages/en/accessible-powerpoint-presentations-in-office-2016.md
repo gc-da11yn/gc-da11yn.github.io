@@ -1,0 +1,204 @@
+---
+title: Accessible PowerPoint presentations in Office 2016
+layout: layouts/base.njk
+description: Accessible practices for Microsoft PowerPoint 2016 document creation.
+---
+<div class="row mrgn-tp-lg">
+	<ul class="toc lst-spcd col-md-12">
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. How to create accessible documents</a></li>
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents">2. Accessible Word documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-pdf-documents">3. Accessible PDF documents</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item active">4. Accessible PowerPoint presentations</a></li>
+		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-excel-documents">5. Accessible Excel workbooks</a></li>
+		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams">6. Accessible Visio drawings</a></li>
+	</ul>
+</div>
+
+<h2>Accessibility Checker</h2>
+<p>The Microsoft Office suite (Word, Excel, Power Point) provides a built-in accessibility validator. The checker does not identify all issues but looks for things such as missing alternative text, duplicate slide titles and potential reading order issues.</p>
+
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive"  src="{{ rootPath }}img/en/office2016/powerpoint-01.jpg" alt="Screenshot of Check for Issues menu" />
+	</div>
+</div>
+
+<p>How to use the Accessibility Checker:</p>
+<ol>
+	<li>On the <strong>File</strong> Tab &gt; <strong>Info</strong> &gt; <strong>Check for Issues</strong> &gt; <strong>Check Accessibility</strong></li>
+	<li>Review the results in the <strong>Accessibility Checker</strong> pane</li>
+	<li>Address the listed issues. Helpful information to understand and fix the different issues is provided at the bottom of the pane</li>
+</ol>
+
+<h2>PowerPoint structure</h2>
+<h3>Design themes</h3>
+<p>The slide theme or template has a large effect on accessibility. The <strong>Design</strong> tab contains many built-in <strong>Themes</strong> and colour <strong>Variants</strong> that can be used to change the look of a presentation. PowerPoint also offers the ability to create custom themes.</p>
+<p>Choose themes that meet colour contrast requirements and that have simple backgrounds making them easier to read. If the presentation will be viewed on a projector, the contrast and readability may need to be even more pronounced than on a computer monitor.</p>
+
+<h3>Slide title</h3>
+<p>Give every slide a unique title. People who have vision loss or learning / cognitive disabilities rely on slide titles to navigate. For example, by skimming or using a screen reader, they can quickly scan through a list of slide titles and go right to the slide they want.</p>
+
+<ol>
+	<li>To restore all placeholders for the selected slide, on the <strong>Home</strong> tab, in the <strong>Slides</strong> group, select <strong>Reset</strong></li>
+	<li>On the slide, type a unique and descriptive title</li>
+</ol>
+
+<p>To make a title invisible on the slide, but still voiced by screen readers:</p>
+<ol>
+	<li>The <strong>Home</strong> tab, in the <strong>Drawing</strong> group, select <strong>Arrange</strong></li>
+	<li>In the <strong>Arrange</strong> menu, select <strong>Selection Pane</strong></li>
+	<li>In the <strong>Selection</strong> pane, locate the <strong>Title</strong> text box, and then activate the eye icon next to it</li>
+</ol>
+
+<h3>Text structure</h3>
+<h4>Text formatting</h4>
+<p>Ensure that the type is large enough to read easily. If your presentation will be viewed via projector, the type should be larger than on printed handouts. </p>
+<p>Recommended formatting to improve legibility:</p>
+
+<ul>
+	<li>30-point type</li>
+	<li>Sans-serif fonts, such as Arial, Helvetica, Verdana, Calibri, or Century Gothic</li>
+</ul>
+
+<p>Three to seven bullet points per slide is a good rule of thumb.</p>
+<p>Avoid using all capitals or excessive italics or underline.</p>
+<p>Ensure there are blank spaces between sentences or paragraphs.</p>
+
+<h4>Headings</h4>
+<p>Ensure headings and labels are descriptive and unique. Section headings facilitate navigation and comprehension of presentations. To evaluate headings:</p>
+
+<ul>
+	<li>Determine if headings and labels are provided</li>
+	<li>Are the headings descriptive?</li>
+	<li>Are the headings and labels unique?</li>
+	<li>Are the headings provided using titles and sub-title placeholders? </li>
+</ul>
+
+<p>To verify that headings and labels have been properly structured, navigate on the <strong>Home</strong> tab to <strong>Slides</strong>, select <strong>Slide Layout</strong>. Verify that the slide layout matches the layout on the current slide.</p>
+
+<h3>Reading order</h3>
+<p>By default, a screen reader will read the slide title first, followed by other content in elements defined in the slide layout. Then it will read any additional content on the side in the order it was added to the slide. If you add content with this principle in mind, it should be presented to screen reader users in a logical order.</p>
+<p>Use the <strong>Selection Pane</strong> to set the order in which the screen readers read the slide contents. The <strong>Selection Pane</strong> lists the objects on the slide in bottom to top order in the Office 2013 version of PowerPoint and top to bottom in the Office 2016 version of PowerPoint. When the screen reader reads this slide, it reads the objects in the reverse order listed in the <strong>Selection Pane</strong>. The pane will show every object on the slide. Highlighting an object in the pane will also highlight it in the slide.</p>
+
+<ol>
+	<li>On the <strong>Home</strong> tab, in the <strong>Drawing</strong> group, select <strong>Arrange</strong></li>
+	<li>In the <strong>Arrange</strong> menu, select <strong>Selection Pane</strong></li>
+	<li>In the <strong>Selection Pane</strong>, to change the reading order, do one of the following:
+		<ol>
+			<li>Drag and drop items to the new location</li>
+			<li>Select the item and then select the Up arrow button (Bring Forward) or Down arrow button (Send Backward)</li>
+		</ol>
+	</li>
+</ol>
+
+<h3>Tables</h3>
+<p>PowerPoint allows you to identify a single row of column headers and a single column of row headers.</p>
+<p>Most screen readers do not identify table headers in PowerPoint, but we still recommend going through this process. It is important to identify headers visually. These headers will be maintained when saving to PDF.</p>
+
+<p>To identify table headers:</p>
+<ol>
+	<li>Focus the table by clicking inside or tabbing to the content. The Table Tools options should appear and the <strong>Design</strong> tab should be open</li>
+	<li>If the top row of the table contains headers for each column (most tables do), make sure the <strong>Header Row</strong> checkbox is checked</li>
+	<li>If the first column of the table contains headers for each row, make sure the <strong>First Column</strong> checkbox is checked</li>
+	<li>In the Table Styles section, select a style where the table headers are clearly identified visually. Make sure the style has good contrast</li>
+</ol>
+
+<h2>Visuals and alternative text (“alt text”)</h2>
+<p>Use alt text to describe pictures, images, graphics, graphs, tables, and flowcharts, so that a screen reader can access them.</p>
+<p>Alt text should always communicate the purpose of visual images accurately and succinctly. In general, it is a short description of the image that answers the question “What information is this image conveying?”. A longer description may be needed for complex diagrams and images. General guidelines for creating alt text include:</p>
+
+<ul>
+	<li>Don’t repeat the text of an adjacent caption. Screen readers read both the caption and the alt text, so avoid having the same details in both.</li>
+	<li>Use punctuation for full sentences</li>
+</ul>
+
+<h3>Images</h3>
+<p>PowerPoint presentations usually include images. Images need equivalent alternative text. To add <strong>alt text</strong> to an image:</p>
+
+<ol>
+	<li>Open the context menu for the image by right-clicking or pressing the application key.</li>
+	<li>Choose <strong>Format Picture</strong></li>
+	<li>In the <strong>Format Picture</strong> sidebar, activate the <strong>Size &amp; Properties</strong> icon and expand <strong>Alt Text</strong></li>
+	<li>Enter a title in the <strong>Title</strong> box. Note: This box should only be filled in if you are entering a detailed or long explanation in the Description box</li>
+	<li>Enter an appropriate alternative text in the in the <strong>Description</strong> box</li>
+	<li>Activate the <strong>Close</strong> button</li>
+</ol>
+
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive"  src="{{ rootPath }}img/en/office2016/powerpoint-02.jpg" alt="Screenshot of Format Picture tool">
+	</div>
+</div>
+
+<p>Tips and Guidelines:</p>
+<ul>
+	<li>Don’t begin with the words “Image of” at the start of the alt text. Screen readers tell the user that there is an image and then read the alt text.</li>
+	<li>Do begin with “Screenshot of…” if the image is a screenshot</li>
+	<li>An image requires no alternative text if it is purely decorative. Set the alt text to “decorative” (no quotes).</li>
+</ul>
+
+<h3>SmartArt graphics (charts and diagrams)</h3>
+<p>Ensure complex images and charts provide long descriptions. Complex images include schematics, plans, diagrams or any other image that conveys a large amount of information. This is necessary as users who cannot see the complex image will not be able to sufficiently determine its value/purpose.</p>
+<p>To add a long description to a diagram or chart:</p>
+
+<ol>
+	<li>Open the context menu for the chart/diagram and activate <strong>Format Chart Area</strong></li>
+	<li>The <strong>Format Chart Area</strong> sidebar will appear</li>
+	<li>Activate <strong>Layout and Properties</strong></li>
+	<li>Provide a meaningful long description
+		<ol>
+			<li>Describe the title of the chart</li>
+			<li>The role it plays in the document</li>
+			<li>The relationship of elements in the correct order </li>
+		</ol>
+	</li>
+	<li>Activate the <strong>Close</strong> Button</li>
+</ol>
+
+<p>Ensure that colour is not being used as the only way information is being conveyed in any graphics.</p>
+
+<h3>Video and audio</h3>
+<p>PowerPoint 2016 supports the playback of video with multiple audio tracks. It also supports closed captions and subtitles that are embedded in video files.</p>
+<p>Supported video formats for captions and subtitles vary depending on the operating system that you're using. Each operating system has settings to adjust how the closed captions or subtitles are displayed. Embedded audio also requires a transcript. Closed captions typically also describe audio cues such as music or sound effects that occur off-screen.</p>
+<p>Video description means audio-narrated descriptions of a video's key visual elements. These descriptions are inserted into natural pauses in the program's dialogue. Video description makes video more accessible to individuals who are blind or visually impaired. Subtitles typically contain a transcription (or translation) of the dialogue.</p>
+<p>If you embed video, make sure that the player controls — start, pause and stop — are accessible using the keyboard.</p>
+
+<h2>Additional features</h2>
+<h3>Transitions and animations</h3>
+<p>It is best practice to keep any transitions and animations simple and brief. Complex or automatic transitions and animations can be distracting or add a layer of further comprehension that is unnecessary. </p>
+<p>Limiting the use of transitions and animation to one per slide will help to improve the usability of your presentation for screen reader users. If you must use Animations in your PowerPoint presentations, they should be made accessible. </p>
+<p>In addition, you should carefully consider your use of decorative animations. Constant motion on the screen may cause a screen reader to refresh frequently, thus making the presentation more difficult to use. Keeping animations to a minimum or eliminating them altogether will increase the accessibility of your content.</p>
+
+<h3>Grouping elements</h3>
+<p>Grouping visual elements such as images, shapes, or SmartArt should generally be avoided as it changes the information that will be read by screen readers. </p>
+<p>However, if it is more meaningful to group elements that have a relationship, there are techniques to do so. When using the Group feature to combine visual elements, ensure that sufficient alt text<strong> </strong>is used to indicate any conveyed information to the user. Correspondingly, if the grouped elements are purely decorative, indicate this in your alt text by marking it as such.</p>
+
+<ol>
+	<li>Select the visual elements you want to group together while holding down <strong>CTRL</strong></li>
+	<li>Open the context menu and activate <strong>Group</strong></li>
+</ol>
+
+<p>Alternatively, you can do one of the following after selecting the element you wish to group:</p>
+
+<ol>
+	<li>To group shapes and other objects, on the <strong>Drawing Tools Format</strong> tab, activate <strong>Group &gt; Group</strong></li>
+	<li>To group pictures, on the <strong>Picture Tools Format</strong> tab, activate <strong>Group &gt; Group</strong></li>
+</ol>
+
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive"  src="{{ rootPath }}img/en/office2016/powerpoint-03.jpg" alt="Screenshot of Group menu">
+	</div>
+</div>
+
+<h2>Additional resources</h2>
+<ul>
+	<li><a href="https://webaim.org/techniques/powerpoint/">Web AIM: Creating Accessible PowerPoint Presentations</a></li>
+	<li><a href="https://support.office.com/en-us/article/make-your-powerpoint-presentations-accessible-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25">Microsoft: How to Make Your PowerPoint Presentation Accessible</a></li>
+	<li><a href="https://www.queensu.ca/accessibility/how-info/accessible-documents/accessible-powerpoint-presentations-checklist">Queen's University: Accessible PowerPoints Checklists</a></li>
+</ul>
+
+<ul class="pager mrgn-tp-xl">
+	<li class="previous"><a href="../accessible-pdf-documents" rel="prev">Previous: Accessible PDF documents</a></li>
+	<li class="next"><a href="../accessible-excel-documents" rel="next">Next: Accessible Excel workbooks</a></li>
+</ul>
