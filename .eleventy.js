@@ -1,9 +1,21 @@
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
+const { stripHtml } = require("string-strip-html");
 
 module.exports = function(eleventyConfig) {
+
+  const slugifyFilter = eleventyConfig.javascriptFunctions.slugify;
+
+  eleventyConfig.addFilter("stripTagsSlugify", (str) => {
+
+    if (!str) return;
+
+    return slugifyFilter(stripHtml(str).result, {
+    });
+  });
+
   const { DateTime } = require("luxon");
 
   let markdownItOptions = {
@@ -40,6 +52,5 @@ module.exports = function(eleventyConfig) {
 			htmlTemplateEngine : "njk",
 			markdownTemplate : "njk",
 			setUseGitIgnore : false
-			// pathPrefix : "/gc-da11yn.github.io/"
 		};
 	}
