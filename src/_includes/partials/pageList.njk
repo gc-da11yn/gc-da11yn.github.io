@@ -1,0 +1,27 @@
+
+<div class="wb-filter" data-wb-filter='{
+    "selector": " ",
+  "section": "section"
+}'>
+	<div class="wb-eqht-grd row">
+
+		{% for entry in entries %}
+
+		{% if entry.data.locale == locale %}
+
+		{% if entry.data.redirect %}
+		{% else %}
+
+		<section class="col-md-4">
+			<h2 class="h4"><a href="{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></h2>
+			<p><code>{{ entry.url }}</code></p>
+			<p>{{ entry.data.description | striptags(true) | escape | nl2br }}</p>
+		</section>
+
+		{% endif %}
+
+		{% endif %}
+
+		{% endfor %}
+	</div>
+</div>
