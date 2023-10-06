@@ -23,7 +23,7 @@
 
 				{% if tags %}
 					<li>
-						<a href="/{{ locale }}/{{ tagList[locale][tags] | slugify }}">{{ tagList[locale][tags] }}</a>
+						<a href="/{{ locale }}/{{ tagList[locale][tags[0]] | slugify }}">{{ tagList[locale][tags[0]] }}</a>
 					</li>
 				{% endif %}
 
