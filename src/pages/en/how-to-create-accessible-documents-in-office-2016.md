@@ -162,7 +162,7 @@ description: Accessible practices for digital document creation.
 <ul>
 	<li><a href="https://support.google.com/docs/answer/6199477?hl=en&amp;ref_topic=6039805">Google Docs – “Make your document or presentation accessible&quot;</a></li>
 	<li><a href="https://support.office.com/en-ie/article/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d" rel="external">Microsoft – &quot;Make your Word documents accessible&quot;</a></li>
-	<li><a href="//www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html#toc5" rel="external">Government of Canada “Canada.ca Content Style Guide”</a> </li>
+	<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html#toc5" rel="external">Government of Canada “Canada.ca Content Style Guide”</a> </li>
 	<li><a href="https://support.office.com/en-us/article/test-your-document-s-readability-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2#__toc342546557" rel="external">Flesch-Kincaid Reading-Ease Test</a> for English and <a href="http://www.scolarius.com/">Scolarius</a> for French</li>
 	<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html" rel="external">Understanding non-text contrast</a></li>
 	<li><a href="https://support.office.com/en-ie/article/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669" rel="external">Add alternative text – Microsoft Office Support</a></li>
