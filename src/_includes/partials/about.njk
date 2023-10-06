@@ -1,17 +1,17 @@
+{% if collections.mainAbout === undefined %}
+
+{% else %}
 <section>
 	<h2>{{ about[locale].about }}</h2>
-	<div class="row">
+	<p>{{ about[locale].aboutPara }}</p>
+	<div class="row wb-eqht mrgn-tp-lg">
+		{% for item in collections.mainAbout | localeMatch(locale) %}
 		<section class="col-md-4">
-			<h3><a href="#">How it started</a></h3>
-			<p>description Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+			<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+			<p>{{ item.data.description }}</p>
 		</section>
-		<section class="col-md-4">
-			<h3><a href="#">Terms of reference</a></h3>
-			<p>description Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-		</section>
-		<section class="col-md-4">
-			<h3><a href="#">Contact the Digital Accessibility Toolkit</a></h3>
-			<p>description Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-		</section>
+		{% endfor %}
 	</div>
 </section>
+
+{% endif %}

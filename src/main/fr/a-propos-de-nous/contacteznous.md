@@ -3,7 +3,9 @@ title: Contactez-nous
 description: Vous souhaitez en savoir plus ? Prenez contact avec notre équipe.
 layout: layouts/base.njk
 toggle: contact-us
-tags: aboutUs
+tags:
+  - aboutUs
+  - mainAbout
 ---
 
 ## Nous aimerions beaucoup avoir de vos nouvelles.
