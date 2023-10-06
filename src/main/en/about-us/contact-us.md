@@ -3,7 +3,9 @@ title: Contact us
 description: Interested in learning more? Reach out and get connected to our team.
 layout: layouts/base.njk
 toggle: contactez-nous
-tags: aboutUs
+tags:
+  - aboutUs
+  - mainAbout
 ---
 
 ## We would love to hear from you.
