@@ -1,0 +1,57 @@
+
+<p><a href="#full-screen" aria-controls="full-screen" class="overlay-lnk btn btn-primary btn-block" role="button">{% if locale === "en" %}Definitions of labels{% else %}Définitions des étiquettes{% endif %}</a></p>
+<section id="full-screen" class="wb-overlay modal-content overlay-def wb-popup-full">
+	<header class="modal-header">
+	<h2>{% if locale === "en" %}Definitions of labels{% else %}Définitions des étiquettes{% endif %}</h2>
+	</header>
+	<div class="row modal-body">
+		<section class="col-md-6">
+			<h3>{% if locale === "en" %}Subjects{% else %}Sujets{% endif %}</h3>
+			{% for item, tag in tagList.subjects[locale] %}
+			<dl>
+				<dt><span class="label label-success">{{ item }}</span></dt>
+				<dd>{{ tag }}</dd>
+			</dl>
+			{% endfor %}
+		</section>
+		<section class="col-md-6">
+			<h3>{% if locale === "en" %}Tags{% else %}Balises{% endif %}</h3>
+			{% for item, tag in tagList.tags[locale] %}
+			<dl>
+				<dt><span class="label label-info">{{ item }}</span></dt>
+				<dd>{{ tag }}</dd>
+			</dl>
+			{% endfor %}
+		</section>
+	</div>
+</section>
+
+<div class="wb-filter" data-wb-filter='{
+    "selector": " ",
+  "section": "section"
+}'>
+	<div class="wb-eqht-grd row">
+		{% for entry in entries %}
+			{% if entry.data.locale == locale %}
+				{% if entry.data.redirect %}
+				{% else %}
+					<section class="col-md-4">
+						<h2 class="h4"><a href="{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></h2>
+						{% if entry.data.subject %}
+							<p><strong>{% if locale === "en" %}subject{% else %}sujets {% endif %}:</strong> <span class="label label-success">{{ entry.data.subject }}</span></p>
+						{% endif %}
+						{% if entry.data.tags %}
+						<p><strong>{% if locale === "en" %}tags{% else %}balises {% endif %}:</strong>
+							{% for item in entry.data.tags %}
+							<span class="label label-info">{{ item }}</span>
+							{% endfor %}
+						</p>
+						{% endif %}
+						<p><strong>Description{% if locale === "en" %}{% else %} {% endif %}:</strong> {{ entry.data.description | striptags(true) | escape | nl2br }}</p>
+						<p><strong>{% if locale === "en" %} Path:{% else %}Chemin d'accès :{% endif %}</strong> <code>{{ entry.url }}</code></p>
+					</section>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>
