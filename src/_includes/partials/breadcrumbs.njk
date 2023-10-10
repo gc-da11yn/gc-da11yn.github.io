@@ -18,12 +18,12 @@
 			{% if tags != "main" %}
 
 				{% if subject %}
-					<li><a href="/{{ locale }}/{{ tagList[locale][subject] | slugify }}">{{ tagList[locale][subject] }}</a></li>
+					<li><a href="/{{ locale }}/{{ tagList.subjects[locale][subject] | slugify }}">{{ tagList.subjects[locale][subject] }}</a></li>
 				{% endif %}
 
 				{% if tags %}
 					<li>
-						<a href="/{{ locale }}/{{ tagList[locale][tags[0]] | slugify }}">{{ tagList[locale][tags[0]] }}</a>
+						<a href="/{{ locale }}/{{ tagList.tags[locale][tags[0]] | slugify or tagList.subjects[locale][tags[0]] | slugify }}">{{ tagList.tags[locale][tags[0]] or tagList.subjects[locale][tags[0]] }}</a>
 					</li>
 				{% endif %}
 
