@@ -2,6 +2,8 @@
 title: Dessins Visio accessibles dans Office 365
 description: Pratiques accessibles pour la création de diagrammes Microsoft Visio.
 layout: layouts/base.njk
+tags:
+  - createDocument
 ---
 
 <div class="row mrgn-tp-lg">

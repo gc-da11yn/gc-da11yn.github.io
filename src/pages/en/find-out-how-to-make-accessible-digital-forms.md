@@ -2,6 +2,8 @@
 title: Find out how to make accessible digital forms
 layout: layouts/base.njk
 description: DESCRIPTION
+tags:
+  - createDocument
 ---
 <h2>The most accessible format for forms: HTML</h2>
 

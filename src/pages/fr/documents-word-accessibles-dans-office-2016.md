@@ -2,6 +2,8 @@
 title: Documents Word accessibles dans Office 2016
 description: Pratiques accessibles pour la création de documents Microsoft Word 2016.
 layout: layouts/base.njk
+tags:
+  - createDocument
 ---
 
 <div class="row mrgn-tp-lg">

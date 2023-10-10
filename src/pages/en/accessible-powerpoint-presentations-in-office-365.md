@@ -2,6 +2,8 @@
 title: Accessible PowerPoint presentations in Office 365
 layout: layouts/base.njk
 description: Accessible practices for Microsoft PowerPoint document creation.
+tags:
+  - createDocument
 ---
 
 <div class="row mrgn-tp-lg">

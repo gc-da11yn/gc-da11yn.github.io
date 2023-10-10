@@ -2,9 +2,9 @@
 title: Directives pour la description sonore
 description: La description sonore permet à tout utilisateur souffrant d’un handicap visuel ou cognitif de recevoir une expérience très détaillée et descriptive de ce qui se passe à l’écran pour chaque aspect de la vidéo.
 subject:
-  - howTos
+  - accessibilityFundamentals
 tags:
-  - createWebContent
+  - aboutDisabilities
 layout: layouts/base.njk
 audience:
   - Everyone
@@ -91,7 +91,7 @@ La description audio est-elle :
 - Priorisée?
   - Le contenu est essentiel pour la compréhension?
 - Appropriée pour le public visé?
-  - Description dans la langue de l’auditoire? 
+  - Description dans la langue de l’auditoire?
   - Objective?
   - Simple?
   - Succincte?
@@ -100,7 +100,7 @@ La description audio est-elle :
   - Non censurée?
 
 ## **Directives d’accès au clavier**
-Les lecteurs multimédias accessibles fournissent une interface utilisateur qui fonctionne sans souris, par le biais d'une interface vocale, lorsque la page est agrandie et avec des lecteurs d'écran. Par exemple, les lecteurs multimédias doivent : 
+Les lecteurs multimédias accessibles fournissent une interface utilisateur qui fonctionne sans souris, par le biais d'une interface vocale, lorsque la page est agrandie et avec des lecteurs d'écran. Par exemple, les lecteurs multimédias doivent :
 
 - Fournir un support pour le clavier (dans Comprendre les WCAG : Accessibilité du clavier)
 - rendre visible l'indicateur de mise au point du clavier (voir Comprendre les WCAG : Mise au point visible)

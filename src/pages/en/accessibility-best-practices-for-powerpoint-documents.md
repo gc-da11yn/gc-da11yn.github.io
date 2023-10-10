@@ -4,6 +4,10 @@ layout: layouts/base.njk
 description: Accessible practices for Microsoft PowerPoint document creation.
 internalLinks: true
 toggle: meilleures-pratiques-daccessibilite-pour-les-documents-powerpoint
+subject:
+  - howTos
+tags:
+  - globalAccessibilityStandards
 ---
 
 ## Part 1. Document Content

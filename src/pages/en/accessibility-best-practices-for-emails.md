@@ -4,6 +4,10 @@ layout: layouts/base.njk
 description: Accessible practices for Emails content, format and design.
 internalLinks: true
 toggle: meilleures-pratiques-daccessibilite-pour-les-courriels
+subject:
+  - accessibilityFundamentals
+tags:
+  - aboutDisabilities
 ---
 
 ## Part 1. Email Content

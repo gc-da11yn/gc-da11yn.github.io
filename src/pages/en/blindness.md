@@ -3,6 +3,8 @@ title: Blindness
 layout: layouts/base.njk
 description: People who are blind have a range of conditions from severely reduced visual acuity to complete loss of vision and light perception. A variety of software and hardware is used to provide accommodations for employees who are blind.
 toggle: cecite
+tags:
+  - contactUs
 ---
 
 ## Information and Awareness on Accessibility Topics

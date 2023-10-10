@@ -3,6 +3,8 @@ title: Plateformes de réunions virtuelles et fonctionnalités
 layout: layouts/base.njk
 description: Les plateformes de réunions virtuelles Microsoft Teams et Zoom offrent diverses fonctionnalités d’accessibilité qui répondent à différents besoins, entre autres pour les réunions et les conversations.
 toggle: virtual-meeting-platforms-and-accessibility-features
+tags:
+  - learning
 ---
 
 ## Microsoft Teams

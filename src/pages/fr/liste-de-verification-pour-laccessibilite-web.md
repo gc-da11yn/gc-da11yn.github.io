@@ -3,6 +3,8 @@ title: Liste de vérification pour l'accessibilité Web
 layout: layouts/base.njk
 description: Liste de vérification pour vérifier si le contenu d'une page web est accessible ou non
 toggle: web-accessibility-checklist
+tags:
+  - procurement
 ---
 <ul class="list-unstyled mrgn-tp-lg">
     <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>N’utilisez pas de balise <code>&lt;table&gt;</code> pour la mise en page.</li>
