@@ -3,11 +3,8 @@ title: Proposed Meeting Types with Accessibility Features
 layout: layouts/base.njk
 description: Here are our recommendations for choosing virtual meeting platforms based on the type of meeting or event, number of people, and content shared.
 toggle: types-de-reunion-proposes-avec-fonctionnalites-daccessibilite
-<<<<<<< HEAD
 tags:
   - tools
-=======
->>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
 <p class="mrgn-tp-md">Always ensure that accommodation requests are done ahead of time, and apply all accessibility features necessary based on the known audience or based on the accommodation requests that were done. If you have no way of knowing the needs of your participants, then you should provide as many accommodations as possible and you will need to secure official language interpretation (English &ndash; French), if you expect to have both languages spoken during the event. Depending on language profiles of the audience and the language of the meeting, then official language interpretation will be required.</p>

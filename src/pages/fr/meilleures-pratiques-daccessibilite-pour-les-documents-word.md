@@ -4,13 +4,10 @@ layout: layouts/base.njk
 description: Pratiques accessibles pour la création de documents dans Microsoft Word.
 internalLinks: true
 toggle: accessibility-best-practices-for-word-documents
-<<<<<<< HEAD
 subject:
   - resourcesAndTools
 tags:
   - createDocument
-=======
->>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
 ## Partie 1. Contenu des documents

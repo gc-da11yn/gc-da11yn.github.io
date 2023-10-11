@@ -4,13 +4,10 @@ layout: layouts/base.njk
 description: Pratiques accessibles pour le contenu, le format et la conception des courriels.
 internalLinks: true
 toggle: accessibility-best-practices-for-emails
-<<<<<<< HEAD
 subject:
   - accessibilityFundamentals
 tags:
   - aboutDisabilities
-=======
->>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
 ## Partie 1. Contenu des courriels

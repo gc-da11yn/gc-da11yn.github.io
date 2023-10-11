@@ -3,11 +3,8 @@ title: Types de réunion proposés avec fonctionnalités d'accessibilité
 layout: layouts/base.njk
 description: Voici nos recommandations pour choisir des plateformes de réunion virtuelles en fonction du type de réunion ou d'événement, du nombre de personnes et du contenu partagé.
 toggle: proposed-meeting-types-with-accessibility-features
-<<<<<<< HEAD
 tags:
   - tools
-=======
->>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
 <p class="mrgn-tp-md">Veillez toujours &agrave; ce que les demandes de mesures

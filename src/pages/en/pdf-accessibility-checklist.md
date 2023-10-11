@@ -4,13 +4,10 @@ layout: layouts/base.njk
 description: Here you can find different questions to help you to know if your pdf document is accessible or not.
 internalLinks: true
 toggle: liste-de-verification-de-laccessibilite-des-documents-pdf
-<<<<<<< HEAD
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - createForms
-=======
->>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
 ## Introduction

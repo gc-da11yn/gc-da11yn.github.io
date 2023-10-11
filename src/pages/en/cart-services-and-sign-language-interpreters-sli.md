@@ -4,11 +4,8 @@ layout: layouts/base.njk
 description: The most common accommodations for meetings or events are computer-assisted real-time transcription (CART) and interpretation services.
 internalLinks: true
 toggle: aservices-cart-et-interpretes-en-langue-des-signes-sli
-<<<<<<< HEAD
 tags:
   - testYourProducts
-=======
->>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
 Important to consider that people who are culturally Deaf, may prefer to have sign language interpreters because their first language is likely American Sign Language (ASL – English) or Langue des signes québécoise (LSQ), but do not assume this. Ask them what their preferred accommodation would be. Indeed, there are people who have become deaf later in life and have not learned to communicate by ASL or LSQ.
