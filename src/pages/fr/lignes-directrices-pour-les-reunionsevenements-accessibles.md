@@ -4,8 +4,11 @@ layout: layouts/base.njk
 description: Une bonne planification des réunions et des événements est essentielle pour l'inclusion de tous. Il y a plusieurs choses à considérer dans la liste de choses à faire avant et pendant celles-ci.
 internalLinks: true
 toggle: accessible-meetingevent-guidelines
+<<<<<<< HEAD
 tags:
   - designCourse
+=======
+>>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
 ## Planification de la réunion ou de l’événement

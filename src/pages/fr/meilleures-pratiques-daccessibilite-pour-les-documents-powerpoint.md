@@ -4,10 +4,13 @@ layout: layouts/base.njk
 description: Pratiques accessibles pour la création de documents Microsoft PowerPoint.
 internalLinks: true
 toggle: accessibility-best-practices-for-powerpoint-documents
+<<<<<<< HEAD
 subject:
   - howTos
 tags:
   - globalAccessibilityStandards
+=======
+>>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
 ## Partie 1. Contenu des documents

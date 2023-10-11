@@ -3,10 +3,13 @@ title: Liens utiles
 layout: layouts/base.njk
 description: Cette page contient une liste de liens utiles pour le bureau d'accessibilité informatique de l'ESDC.
 toggle: useful-links
+<<<<<<< HEAD
 subject:
   - resources
 tags:
   - resources
+=======
+>>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 <table class="wb-tables table table-striped table-hover">
     <thead>

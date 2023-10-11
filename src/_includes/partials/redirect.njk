@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ locale }}" dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>{% if title %}{{ title }}{% else %}{% if locale === "fr" %}La page{% else %}Page{% endif %}{% endif %}{% if locale === "en" %} has been moved{% else %} a été déplacée{% endif %} - {{ settings[locale].metaTitle }}</title>
+
+		<meta http-equiv="refresh" content="0; URL={{ redirect }}" />
+	</head>
+
+	<body>
+		{% if title %}
+
+		<h1>{{ title }}</h1>
+
+		{% endif %}
+		{% if locale === "en" %}
+
+		<p>This page has moved to a <a href="{{ redirect }}">new location</a>.</p>
+
+		{% else  %}
+
+		<p>Cette page a été déplacée vers un <a href="{{ redirect }}">nouvel emplacement</a>.</p>
+
+		{% endif %}
+	</body>
+
+</html>

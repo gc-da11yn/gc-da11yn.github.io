@@ -3,10 +3,13 @@ title: Useful Links
 layout: layouts/base.njk
 description: This page contains a list of key links for ESDC's IT Accessibility Office.
 toggle: liens-utiles
+<<<<<<< HEAD
 subject:
   - resources
 tags:
   - resources
+=======
+>>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 <table class="wb-tables table table-striped table-hover">
 

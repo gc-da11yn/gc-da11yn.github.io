@@ -1,7 +1,5 @@
 {% if redirect %}
-
-<meta http-equiv="refresh" content="0; URL={{ redirect }}" />
-
+{% include "partials/redirect.njk" %}
 {% else %}
 
 <!DOCTYPE html>
@@ -41,8 +39,8 @@
 	{% include "partials/footer.njk" %}
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-	<script src="//www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-	<script src="//www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+	<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+	<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
 </body>
 </html>
 

@@ -4,10 +4,13 @@ layout: layouts/base.njk
 description: Here you can find different questions to help you to know if your Word document is accessible or not.
 internalLinks: true
 toggle: liste-de-verification-de-la-conformite-des-documents-microsoft
+<<<<<<< HEAD
 subject:
   - learningAndDevelopment
 tags:
   - createEmails
+=======
+>>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
 Below are questions that will help you establish if your Microsoft Office document is accessible. We provide the Success Criteria in reference with WCAG 2.1: [How to Meet WCAG - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/) and the [Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).

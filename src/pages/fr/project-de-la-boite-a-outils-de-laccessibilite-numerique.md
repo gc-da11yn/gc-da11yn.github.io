@@ -2,10 +2,12 @@
 title: Project de la Boîte à outils de l'accessibilité numérique
 layout: layouts/base.njk
 description: A propos du projet, qui nous sommes et quel est notre but.
+toggle: digital-accessibility-toolkit-project
 subject:
   - aboutUs
 tags:
   - aboutTheDigitalTheAccessibilityToolkitProject
+  - mainAbout
 ---
 
 ## Objectif

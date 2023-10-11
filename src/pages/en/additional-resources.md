@@ -4,8 +4,11 @@ layout: layouts/base.njk
 description: For more information on accessible meetings and events, you can consult this list of links.
 internalLinks: true
 toggle: ressources-additionnelles
+<<<<<<< HEAD
 tags:
   - hostMeetingsAndEvents
+=======
+>>>>>>> d419ed2a5d18abd64a466c290e071970ae49407e
 ---
 
     <li>
