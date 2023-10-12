@@ -1,0 +1,121 @@
+{% set branch = "new-site-structure" %}
+
+</div>
+<div class="container-fluid">
+	<p><a href="#full-screen" aria-controls="full-screen" class="overlay-lnk btn btn-primary btn-block" role="button">{{ pageList[locale].definitionButtonText }}</a></p>
+	<section id="full-screen" class="wb-overlay modal-content overlay-def wb-popup-full">
+		<header class="modal-header">
+			<h2>{{ pageList[locale].definitionButtonText }}</h2>
+		</header>
+		<div class="row modal-body">
+			<section class="col-md-6">
+				<h3>{{ pageList[locale].subjectsText }}</h3>
+				{% for item, tag in tagList.subjects[locale] %}
+				<dl>
+					<dt><span class="label label-success">{{ item }}</span></dt>
+					<dd>{{ tag }}</dd>
+				</dl>
+				{% endfor %}
+			</section>
+			<section class="col-md-6">
+				<h3>{{ pageList[locale].tagsText }}</h3>
+				{% for item, tag in tagList.tags[locale] %}
+				<dl>
+					<dt><span class="label label-info">{{ item }}</span></dt>
+					<dd>{{ tag }}</dd>
+				</dl>
+				{% endfor %}
+			</section>
+		</div>
+	</section>
+
+	<div id="filteredAppsList" class="wb-tagfilter provisional">
+
+		<div class="form-group mrgn-bttm-0">
+			<fieldset>
+				<legend class="h5 mrgn-tp-0"><span class="field-name">Visible columns</span></legend>
+				<ul class="list-unstyled list-inline">
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_1" checked> {% if locale === "en" %}Title{% else %}Titre{% endif %}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_2" checked> {% if locale === "en" %}Other language link{% else %}Lien vers d'autres langues{% endif %}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_3" checked> {{ pageList[locale].tagsText }}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_4" checked> {{ pageList[locale].subjectsText }}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_5" checked> {% if locale === "en" %}Description present?{% else %}Description présente ?{% endif %}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_6" checked> {% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}
+						</label>
+					</li>
+				</ul>
+			</fieldset>
+		</div>
+
+		<table class="wb-tagfilter-items table table-bordered">
+			<thead>
+				<tr>
+					<th data-wb-tags="col_1">{% if locale === "en" %}Title{% else %}Titre{% endif %}</th>
+					<th data-wb-tags="col_2">{% if locale === "en" %}Other language link{% else %}Lien vers d'autres langues{% endif %}</th>
+					<th data-wb-tags="col_3">{{ pageList[locale].tagsText }}</th>
+					<th data-wb-tags="col_4">{{ pageList[locale].subjectsText }}</th>
+					<th data-wb-tags="col_5">{% if locale === "en" %}Description present?{% else %}Description présente ?{% endif %}</th>
+					<th data-wb-tags="col_6">{% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for entry in entries %}
+				{% set newPath = entry.inputPath | replace("\./", "/") %}
+				{% set otherLocale = "fr" if locale === "en" else "en" %}
+				{% set toggleURL = entry.inputPath | replace("\./src/" + locale + "/", "/" + otherLocale + "/") %}
+				{% if entry.data.locale == locale %}
+				{% if entry.data.redirect %}
+				{% else %}
+				<tr>
+					<td data-wb-tags="col_1"><a href="{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></td>
+					<td data-wb-tags="col_2">
+						{% if entry.data.toggle %}
+						<a href="/{{ otherLocale }}/{{ entry.data.toggle }}" hreflang="{{ otherLang }}">{% if locale === "en" %}French version{% else %}Version anglaise{% endif %} <span class="wb-inv">{% if locale === "en" %}of{% else %}de{% endif %} {{ entry.data.title | striptags(true) | escape | nl2br }}</span></a>
+						{% else %}
+						<a href="{{ toggleURL }}" hreflang="{{ otherLang }}">{% if locale === "en" %}French version{% else %}Version anglaise{% endif %} <span class="wb-inv">{% if locale === "en" %}of{% else %}de{% endif %} {{ entry.data.title | striptags(true) | escape | nl2br }}</span></a>
+						{% endif %}
+					</td>
+					<td data-wb-tags="col_3">
+						{% for item in entry.data.tags %}
+						<span class="label label-info">{{ item }}</span>
+						{% endfor %}
+					</td>
+					<td data-wb-tags="col_4"><span class="label label-success">{{ entry.data.subject }}</span></td>
+					<td data-wb-tags="col_5">{% if entry.data.description %}
+						<span class="glyphicon glyphicon-ok mrgn-rght-sm" aria-hidden="true"></span>{% if locale === "en" %}Present{% else %}Présente{% endif %}
+						{% else %}
+						<span class="glyphicon glyphicon-remove mrgn-rght-sm" aria-hidden="true"></span>{% if locale === "en" %}Needed{% else %}Nécessaire{% endif %}
+						{% endif %}
+					</td>
+					<td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></td>
+				</tr>
+				{% endif %}
+				{% endif %}
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>
+<div class="container">
