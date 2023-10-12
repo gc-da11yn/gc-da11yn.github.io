@@ -9,6 +9,10 @@ Tagging:
 layout: layouts/base.njk
 audience:
   - General public
+subject:
+  - accessibilityFundamentals
+tags:
+  - aboutDisabilities
 ---
 
 # Mobility, Flexibility, and Body Structure Disabilities

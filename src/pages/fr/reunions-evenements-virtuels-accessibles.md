@@ -3,6 +3,10 @@ title: Réunions/événements virtuels accessibles
 layout: layouts/base.njk
 description: Afin de vous aider à proposer une réunion/un événement virtuel entièrement accessible, qu'il s'agisse d'une session de formation, d'une réunion, d'un kiosque ou d'un événement portes ouvertes, l'Office de l'accessibilité informatique (ITAO) a rassemblé les informations les plus pertinentes sur le sujet.
 toggle: accessible-virtual-meetings-events
+subject:
+  - aboutUs
+tags:
+  - createWebContent
 ---
 
 Les réunions et événements virtuels sont caractérisés par différents formats et différentes tailles, allant de petits ateliers comprenant des participants qui se connaissent à de grandes réunions publiques à planifier. Il est essentiel de veiller à ce que ces réunions et événements soient pleinement accessibles, depuis leur accès jusqu’aux présentations. En planifiant, vous pouvez intégrer l’accessibilité à tous les aspects d’une réunion. Cela permet à tout le monde de pleinement participer, y compris les personnes en situation de handicap.

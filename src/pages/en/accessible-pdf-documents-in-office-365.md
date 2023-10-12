@@ -2,6 +2,8 @@
 title: Accessible PDF documents in Office 365
 layout: layouts/base.njk
 description: Accessible practices for PDF document creation.
+tags:
+  - createDocument
 ---
 
 <div class="row mrgn-tp-lg">

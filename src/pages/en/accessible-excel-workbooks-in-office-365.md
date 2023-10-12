@@ -2,6 +2,8 @@
 title: Accessible Excel workbooks in Office 365
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Excel document creation.
+tags:
+  - createDocument
 ---
 
 <div class="row mrgn-tp-lg">

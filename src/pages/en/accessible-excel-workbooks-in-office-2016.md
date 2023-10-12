@@ -2,6 +2,8 @@
 title: Accessible Excel workbooks in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Excel 2016 document creation.
+tags:
+  - createDocument
 ---
 <div class="row mrgn-tp-lg">
 	<ul class="toc lst-spcd col-md-12">

@@ -2,6 +2,8 @@
 title: How to create accessible documents in Office 365
 layout: layouts/base.njk
 description: Accessible practices for digital document creation.
+tags:
+  - createDocument
 ---
 
 <div class="row mrgn-tp-lg">

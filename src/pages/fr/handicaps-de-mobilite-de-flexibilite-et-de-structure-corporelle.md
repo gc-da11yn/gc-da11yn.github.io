@@ -21,6 +21,10 @@ Keywords:
 layout: layouts/base.njk
 audience:
   - General public
+subject:
+  - accessibilityFundamentals
+tags:
+  - aboutDisabilities
 ---
 
 # Handicaps de mobilité, de flexibilité et de structure corporelle

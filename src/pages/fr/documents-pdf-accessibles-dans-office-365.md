@@ -2,6 +2,8 @@
 title: Documents PDF accessibles dans Office 365
 description: Pratiques accessibles pour la création de documents PDF.
 layout: layouts/base.njk
+tags:
+  - createDocument
 ---
 
 <div class="row mrgn-tp-lg">

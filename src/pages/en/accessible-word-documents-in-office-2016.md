@@ -2,6 +2,8 @@
 title: Accessible Word documents in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Word 2016 document creation.
+tags:
+  - createDocument
 ---
 
 <div class="row mrgn-tp-lg">
