@@ -2,6 +2,8 @@
 title: Accessible Visio drawings in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Visio 2016 diagram creation.
+subject:
+  - howTos
 tags:
   - createDocument
 ---

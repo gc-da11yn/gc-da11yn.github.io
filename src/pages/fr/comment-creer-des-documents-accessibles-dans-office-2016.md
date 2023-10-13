@@ -2,6 +2,8 @@
 title: Comment créer des documents accessibles dans Office 2016
 description: Pratiques accessibles pour la création de documents numériques.
 layout: layouts/base.njk
+subject:
+  - howTos
 tags:
   - createDocument
 ---

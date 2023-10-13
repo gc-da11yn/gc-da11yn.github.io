@@ -4,6 +4,8 @@ layout: layouts/base.njk
 description: The following learning paths provide accessibility training to meet WCAG 2.1 success criteria and accessibility standards from the Government of Canada (GC).
 internalLinks: true
 toggle:
+subject:
+  - accessibilityInTheGovernmentOfCanada
 tags:
   - communityDirectory
 ---

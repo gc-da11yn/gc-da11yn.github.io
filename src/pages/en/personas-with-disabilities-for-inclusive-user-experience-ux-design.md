@@ -3,6 +3,8 @@ title: Personas with Disabilities for inclusive user experience (UX) design
 redirect: personas-with-disabilities-for-inclusive-user-experience-ux-design
 layout: layouts/base.njk
 description: The case to include disabilities into user personas, the types of technologies they use, and sample personas with disabilities.
+subject:
+  - accessibilityFundamentals
 tags:
   - aboutDisabilities
 ---

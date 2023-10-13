@@ -2,6 +2,8 @@
 title: Guides - Outils et ressources
 layout: layouts/base.njk
 description: Vous trouverez ici différents guides, ressources et outils créés par les employés de la fonction publique fédérale pour faire avancer l'accessibilité numérique.
+subject:
+  - howTos
 tags:
   - createDocument
 ---

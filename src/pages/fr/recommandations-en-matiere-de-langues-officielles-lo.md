@@ -3,6 +3,8 @@ title: Recommandations en matière de langues officielles (LO)
 layout: layouts/base.njk
 description: Les réunions ou les événements unilingues offerts dans les deux langues officielles (anglais et fran&ccedil;ais) sont à privilégier. Il y a cependant des meilleures pratiques à suivre lorsqu’il s’agit de bilinguisme.
 toggle: official-languages-ol-recommendations
+subject:
+  - resourcesAndTools
 tags:
   - resources
 ---

@@ -3,6 +3,8 @@ title: Liste de vérification pour l'accessibilité Web
 layout: layouts/base.njk
 description: Liste de vérification pour vérifier si le contenu d'une page web est accessible ou non
 toggle: web-accessibility-checklist
+subject:
+  - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
 ---
