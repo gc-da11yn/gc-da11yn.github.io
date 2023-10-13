@@ -19,6 +19,7 @@ module.exports = {
 			aboutTheDigitalTheAccessibilityToolkitProject: "À propos du projet",
 			contactUs: "Contactez-nous",
 			accessibilityInYourRole: "L'accessibilité dans votre rôle",
+			mainAbout: "Section à propos de nous sur la page d'accueil",
 		},
 		en: {
 			aboutDisabilities: "About Disabilities",
@@ -40,6 +41,7 @@ module.exports = {
 				"About the Digital the accessibility toolkit project",
 			contactUs: "Contact us",
 			accessibilityInYourRole: "Accessibility in your role",
+			mainAbout: "About us section on homepage",
 		},
 	},
 	subjects: {

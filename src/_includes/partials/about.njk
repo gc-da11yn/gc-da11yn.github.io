@@ -8,7 +8,13 @@
 		{% for item in collections.mainAbout | localeMatch(locale) %}
 		<section class="col-md-4">
 			<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
-			<p>{{ item.data.description }}</p>
+			<p>
+			{% if item.data.description %}
+			{{ item.data.description }}
+			{% else %}
+			{{ landingPage[locale].descriptionNoneText }}
+			{% endif %}
+		</p>
 		</section>
 		{% endfor %}
 	</div>
