@@ -2,6 +2,8 @@
 title: Guides - Tools and resources
 layout: layouts/base.njk
 description: Here you can find different guides, resources and tools created by federal public service employees advancing digital accessibility.
+subject:
+  - howTos
 tags:
   - createDocument
 ---

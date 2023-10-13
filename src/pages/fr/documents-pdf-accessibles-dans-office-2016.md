@@ -2,6 +2,8 @@
 title: Documents PDF accessibles dans Office 2016
 description: Pratiques accessibles pour la création de documents PDF 2016.
 layout: layouts/base.njk
+subject:
+  - howTos
 tags:
   - createDocument
 ---

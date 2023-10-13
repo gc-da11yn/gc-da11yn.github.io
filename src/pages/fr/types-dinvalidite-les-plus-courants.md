@@ -1,6 +1,8 @@
 ---
 title: Types d'invalidité les plus courants
 description: Brève introduction et liens vers les types de handicaps les plus courants.
+subject:
+  - aboutUs
 tags:
   - aboutTheDigitalTheAccessibilityToolkitProject
 Keywords:

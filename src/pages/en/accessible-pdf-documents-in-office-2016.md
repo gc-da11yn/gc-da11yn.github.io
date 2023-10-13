@@ -2,6 +2,8 @@
 title: Accessible PDF documents in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for PDF document creation.
+subject:
+  - howTos
 tags:
   - createDocument
 ---

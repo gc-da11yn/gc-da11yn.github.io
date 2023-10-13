@@ -2,6 +2,8 @@
 title: Accessible Word documents in Office 365
 layout: layouts/base.njk
 description: DESCRIPTION
+subject:
+  - howTos
 tags:
   - createDocument
 ---

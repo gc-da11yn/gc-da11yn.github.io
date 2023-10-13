@@ -2,6 +2,8 @@
 title: Accessible PowerPoint presentations in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for Microsoft PowerPoint 2016 document creation.
+subject:
+  - howTos
 tags:
   - createDocument
 ---

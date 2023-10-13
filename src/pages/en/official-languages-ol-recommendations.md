@@ -3,6 +3,8 @@ title: Official Languages (OL) Recommendations
 layout: layouts/base.njk
 description: Unilingual meetings or events offered in both official languages (English and French) are preferred. There are, however, best practices to follow when it comes to bilingualism.
 toggle: recommandations-en-matiere-de-langues-officielles-lo
+subject:
+  - resourcesAndTools
 tags:
   - resources
 ---

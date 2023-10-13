@@ -4,8 +4,10 @@ layout: layouts/base.njk
 description: Proper planning of meetings and events is essential for the inclusion of all. There are several things to consider in the to-do list before and during these.
 internalLinks: true
 toggle: lignes-directrices-pour-les-reunionsevenements-accessibles
+subject:
+  - accessibilityInTheGovernmentOfCanada
 tags:
-  - designCourse
+  - howTos
 ---
 
 ## Planning the meeting/event
