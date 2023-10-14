@@ -2,22 +2,7 @@
 title: Accessible PowerPoint presentations in Office 365
 layout: layouts/base.njk
 description: Accessible practices for Microsoft PowerPoint document creation.
-subject:
-  - howTos
-tags:
-  - createDocument
 ---
-
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. How to create accessible documents</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents-365">2. Accessible Word documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-pdf-documents-365">3. Accessible PDF documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item active">4. Accessible PowerPoint presentations</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-excel-documents-365">5. Accessible Excel workbooks</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams-365">6. Accessible Visio drawings</a></li>
-	</ul>
-</div>
 
 <h2>Accessibility Checker</h2>
 <p>The Microsoft Office suite (Word, Excel, Power Point) provides a built-in accessibility validator. The checker does not identify all issues but looks for things such as missing alternative text, duplicate slide titles and potential reading order issues.</p>

@@ -2,21 +2,7 @@
 title: Accessible Excel workbooks in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Excel 2016 document creation.
-subject:
-  - howTos
-tags:
-  - createDocument
 ---
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. How to create accessible documents</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents">2. Accessible Word documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-pdf-documents">3. Accessible PDF documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents">4. Accessible PowerPoint presentations</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active">5. Accessible Excel workbooks</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams">6. Accessible Visio drawings</a></li>
-	</ul>
-</div>
 
 <h2>Accessibility Checker</h2>
 

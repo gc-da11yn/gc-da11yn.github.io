@@ -1,23 +1,8 @@
 ---
-title: Accessible PDF documents in Office 365
+title: Accessible PDF documents in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for PDF document creation.
-subject:
-  - howTos
-tags:
-  - createDocument
 ---
-
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. How to create accessible documents</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents-365">2. Accessible Word documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active">3. Accessible PDF documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents-365">4. Accessible PowerPoint presentations</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-excel-documents-365">5. Accessible Excel workbooks</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams-365">6. Accessible Visio drawings</a></li>
-	</ul>
-</div>
 
 <h2>Introduction</h2>
 <p>PDF (Portable Document Format) is a common format for distributing printable documents. This format was created by Adobe, and can be opened with Adobe Acrobat as well as many other tools and some web browsers.</p>
@@ -30,12 +15,12 @@ tags:
 <h2>Recommended authoring tools</h2>
 
 <h3>Microsoft Word</h3>
-<p>Note: These instructions apply to the current version of Word as of December 2020.</p>
-<p>The easiest way to create an accessible PDF is to begin with an accessible Word document. Once you have created an accessible document in Word, if you do not have a professional version of a PDF authoring tool installed, export it through <strong>File</strong> &gt; <strong>Export</strong> &gt; <strong>Create PDF/XPS Document</strong> &gt; <strong>Create PDF/XPS</strong> (do not use "print to PDF"!).</p>
+<p>Note: These instructions apply to Word 2013 and 2016.</p>
+<p>The easiest way to create an accessible PDF is to begin with an accessible Word document. Once you have created an accessible document in Word, export it through <strong>File</strong> &gt; <strong>Export</strong> &gt; <strong>Create PDF/XPS Document</strong> &gt; <strong>Create PDF/XPS</strong> (do not use "print to PDF"!).</p>
 
 <div class="row">
 	<div class="col-md-7">
-		<img class="img-responsive"  src="{{ rootPath }}img/en/office365/pdf-365-001.png" alt="Screenshot of Export dialog in Word demonstrating where in the file menu to export a PDF. Namely File > Export > Create PDF/XPS">
+		<img class="img-responsive"  src="{{ rootPath }}img/en/office2016/pdf-01.jpg" alt="Screenshot of Export dialog in Word">
 	</div>
 </div>
 
@@ -48,20 +33,13 @@ tags:
 	<li>Document structure tags</li>
 </ul>
 
+<p>The remaining boxes should be unchecked.</p>
+
 <div class="row">
 	<div class="col-md-7">
-		<img class="img-responsive"  src="{{ rootPath }}img/en/office365/pdf-365-002.png" alt="Screenshot of PDF export options in Word">
+		<img class="img-responsive"  src="{{ rootPath }}img/en/office2016/pdf-02.jpg" alt="Screenshot of PDF export options in Word">
 	</div>
 </div>
-
-<p>If you do have a professional PDF authoring tool installed, a tab for the tool should be added to Microsoft Word Ribbon menu. To create a PDF:</p>
-
-<ul>
-	<li>navigate the Ribbon menu</li>
-	<li>find the PDF authoring tool tab</li>
-	<li>make sure the options to create bookmarks and tags are enabled in the tool’s settings</li>
-	<li>activate the Create PDF button</li>
-</ul>
 
 <h3>Adobe products</h3>
 <p>Adobe Acrobat Pro, InDesign, FrameMaker, and LiveCycle Designer will export to tagged PDF, and offer more control over visual styles than Word. (LiveCycle Designer is specifically tailored to creating forms.)</p>
@@ -79,7 +57,7 @@ tags:
 
 <div class="row">
 	<div class="col-md-7">
-		<img class="img-responsive"  src="{{ rootPath }}img/en/office365/pdf-365-003.png" alt="Screenshot of Accessibility Checker in Phantom PDF">
+		<img class="img-responsive"  src="{{ rootPath }}img/en/office2016/pdf-03.png" alt="Screenshot of Accessibility Checker in Phantom PDF">
 	</div>
 </div>
 
@@ -87,7 +65,7 @@ tags:
 
 <div class="row">
 	<div class="col-md-7">
-		<img class="img-responsive"  src="{{ rootPath }}img/en/office365/pdf-365-004.png" alt="Screenshot of the Accessibility Checker options menu in Phantom PDF">
+		<img class="img-responsive"  src="{{ rootPath }}img/en/office2016/pdf-04.png" alt="Screenshot of the Accessibility Checker options menu in Phantom PDF">
 	</div>
 </div>
 
@@ -165,6 +143,6 @@ tags:
 </ul>
 
 <ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="../accessible-word-documents-365" rel="prev">Previous: Accessible Word documents</a></li>
-	<li class="next"><a href="../accessible-powerpoint-documents-365" rel="next">Next: Accessible PowerPoint presentations</a></li>
+	<li class="previous"><a href="../accessible-word-documents" rel="prev">Previous: Accessible Word documents</a></li>
+	<li class="next"><a href="../accessible-powerpoint-documents" rel="next">Next: Accessible PowerPoint presentations</a></li>
 </ul>

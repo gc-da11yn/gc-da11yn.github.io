@@ -28,6 +28,9 @@
 
 		<div class="container">
 			{% include "partials/alerts.njk" %}
+			{% if officeTOC === true %}
+			{% include "partials/office-toc.njk" %}
+			{% endif %}
 			{{ content | safe }}
 			{% include "partials/pagedetails.njk" %}
 		</div>

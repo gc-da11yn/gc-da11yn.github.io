@@ -1,0 +1,26 @@
+
+{% if tags[1] === "office2016" or page.fileSlug === "how-to-create-accessible-documents-in-office-2016"  %}
+<div class="row mrgn-tp-lg">
+	<ul class="toc lst-spcd col-md-12">
+		<li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === "/en/how-to-create-accessible-documents-in-office-2016/" %} active{% endif %}"{% if page.url === "/en/how-to-create-accessible-documents-in-office-2016/" %} aria-current="page"{% endif %}{% if page.url != "/en/how-to-create-accessible-documents-in-office-2016/" %} href="/en/how-to-create-accessible-documents-in-office-2016/"{% endif %}>How to create accessible documents</a></li>
+		{% for item in collections.office2016 | localeMatch(locale) %}
+		{% set title = item.data.title | replace("in Office 2016", "") | replace("Accessible", "") %}
+		<li class="col-md-4 col-sm-6{% if loop.index === 2 or loop.index === 4 %} clr-lft-sm{% endif %}{% if loop.index === 3 %} clr-lft-md clr-lft-lg{% endif %}" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}" {% if page.url !=item.url %}href="{{ item.url }}" {% endif %}>{{ title }}</a></li>
+		{% endfor %}
+		<li class="col-sm-12 text-center"><a class="list-group-item" href="/en/how-to-create-accessible-documents-in-office-365/">How to create accessible documents in <strong>Office 365</strong></a></li>
+	</ul>
+</div>
+{% endif %}
+
+{% if tags[1] === "office365" or page.fileSlug === "how-to-create-accessible-documents-in-office-365" %}
+<div class="row mrgn-tp-lg">
+	<ul class="toc lst-spcd col-md-12">
+		<li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === "/en/how-to-create-accessible-documents-in-office-365/" %} active{% endif %}"{% if page.url==="/en/how-to-create-accessible-documents-in-office-365/" %} aria-current="page" {% endif %}{% if page.url !="/en/how-to-create-accessible-documents-in-office-365/" %} href="/en/how-to-create-accessible-documents-in-office-365/" {% endif %}>How to create accessible documents</a></li>
+		{% for item in collections.office365 | localeMatch(locale) %}
+		{% set title = item.data.title | replace("in Office 365", "") | replace("Accessible", "") %}
+		<li class="col-md-4 col-sm-6{% if loop.index === 2 %} clr-lft-sm{% endif %}{% if loop.index === 3 %} clr-lft-md clr-lft-lg{% endif %}" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}" {% if page.url !=item.url %}href="{{ item.url }}" {% endif %}>{{ title }}</a></li>
+		{% endfor %}
+		<li class="col-sm-12 text-center"><a class="list-group-item" href="/en/how-to-create-accessible-documents-in-office-2016/">How to create accessible documents in <strong>Office 2016</strong></a></li>
+	</ul>
+</div>
+{% endif %}
