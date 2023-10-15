@@ -2,6 +2,7 @@
 title: Accessible PDF documents in Office 365
 layout: layouts/base.njk
 description: Accessible practices for PDF document creation.
+toggle: documents-pdf-accessibles-dans-office-365
 ---
 
 <h2>Introduction</h2>

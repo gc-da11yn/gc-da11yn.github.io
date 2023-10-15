@@ -2,6 +2,7 @@
 title: Accessible Word documents in Office 365
 layout: layouts/base.njk
 description: DESCRIPTION
+toggle: documents-word-accessibles-dans-office-365
 ---
 
 <h2>Accessibility Checker</h2>
