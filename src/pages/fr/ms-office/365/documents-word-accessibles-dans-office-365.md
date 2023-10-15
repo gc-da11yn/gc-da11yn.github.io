@@ -2,22 +2,7 @@
 title: Documents Word accessibles dans Office 365
 description: Pratiques accessibles pour la création de documents Microsoft Word.
 layout: layouts/base.njk
-subject:
-  - howTos
-tags:
-  - createDocument
 ---
-
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. Comment créer des documents accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item active">2. Documents Word accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-pdf-documents-365">3. Documents PDF accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents-365">4. Présentations PowerPoint accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-excel-documents-365">5. Classeurs Excel accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams-365">6. Dessins Visio accessibles</a></li>
-	</ul>
-</div>
 
 <h2>Vérificateur d’accessibilité</h2>
 

@@ -1,23 +1,8 @@
 ---
-title: Documents PDF accessibles dans Office 365
-description: Pratiques accessibles pour la création de documents PDF.
+title: Documents PDF accessibles dans Office 2016
+description: Pratiques accessibles pour la création de documents PDF 2016.
 layout: layouts/base.njk
-subject:
-  - howTos
-tags:
-  - createDocument
 ---
-
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. Comment créer des documents accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents-365">2. Documents Word accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active">3. Documents PDF accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents-365">4. Présentations PowerPoint accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-excel-documents-365">5. Classeurs Excel accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams-365">6. Dessins Visio accessibles</a></li>
-	</ul>
-</div>
 
 <h2>Introduction</h2>
 <p>Le format PDF (Portable Document Format) est un format fréquemment utilisé pour la distribution de documents imprimables. Ce format, créé par Adobe, peut être ouvert avec Adobe Acrobat ainsi qu’avec autres outils et de nombreux navigateurs Web.</p>
@@ -29,12 +14,12 @@ tags:
 
 <h2>Outils d’édition recommandés</h2>
 <h3>Microsoft Word</h3>
-<p>Remarque&nbsp;: Ces instructions font référence à la version actuelle de Word à compter de décembre 2020.</p>
-<p>Le moyen le plus simple de créer un fichier PDF accessible consiste à commencer par un document Word accessible. Une fois que vous avez créé un document accessible dans Word et n’avez pas un outil de création de PDF professionnelle, vous pouvez l’exporter en cliquant sur <strong>Fichier</strong> &gt; <strong>Exporter</strong> &gt; <strong>Créer un document PDF/XPS</strong> &gt; <strong>Créer PDF/XPS</strong> (n’utilisez jamais la fonction Imprimer au format PDF!).</p>
+<p>Remarque&nbsp;: Ces instructions font référence à Word 2013 et 2016.</p>
+<p>Le moyen le plus simple de créer un fichier PDF accessible consiste à commencer par un document Word accessible. Une fois que vous avez créé un document accessible dans Word, exportez-le en cliquant sur <strong>Fichier</strong> &gt; <strong>Exporter</strong> &gt; <strong>Créer un document PDF/XPS</strong> &gt; <strong>Créer PDF/XPS</strong> (n’utilisez jamais la fonction Imprimer au format PDF!).</p>
 
 <div class="row">
-	<div class="col-md-7">
-		<img class="img-responsive"  src="{{ rootPath }}img/fr/office365/pdf-365-001.jpg" alt="Capture écran qui démontre le processus d'exportation d'un PDF dans Word. Fichier > Exporter > Créer un document PDF/XPS > Créer PDF/XPS">
+	<div class="col-md-7 mrgn-bttm-md">
+		<img class="img-responsive"  src="{{ rootPath }}img/fr/office2016/pdf-01.jpg" alt="Capture d’écran de exporter le texte en format Word">
 	</div>
 </div>
 
@@ -46,20 +31,13 @@ tags:
 	<li>Balises de structure du document.</li>
 </ul>
 
+<p>Les cases restantes doivent être décochées.</p>
+
 <div class="row">
-	<div class="col-md-7">
-		<img class="img-responsive"  src="{{ rootPath }}img/fr/office365/pdf-365-002.jpg" alt="Capture écran qui démontre le bouton « Options » activé lors du processus d'exportation de PDF dans Word.">
+	<div class="col-md-9">
+		<img class="img-responsive"  src="{{ rootPath }}img/fr/office2016/pdf-02.jpg" alt="Capture d’écran de Options d’exportation du format PDF au format Word">
 	</div>
 </div>
-
-<p>Si vous avez un outil de création PDF professionnelle installée, un onglet devrait être présent dans le menu ruban du haut dans Microsoft Word. Pour créer un PDF&nbsp;:</p>
-
-<ul>
-	<li>Naviguez au menu ruban</li>
-	<li>Trouver l’outil de création PDF</li>
-	<li>Assurez-vous que la case « créer des étiquettes » est cochée dans les paramètres de l’outil</li>
-	<li>Activez le bouton <strong>Créer un PDF</strong></li>
-</ul>
 
 <h3>Produits Adobe</h3>
 <p>Les produits Adobe Acrobat Pro, InDesign, FrameMaker et LiveCycle Designer exportent au format PDF balisé et offrent davantage de contrôle sur les styles visuels que Word. (LiveCycle Designer est spécialement conçu pour la création de formulaires)</p>
@@ -77,7 +55,7 @@ tags:
 
 <div class="row">
 	<div class="col-md-7">
-		<img class="img-responsive"  src="{{ rootPath }}img/fr/office365/pdf-365-003.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
+		<img class="img-responsive"  src="{{ rootPath }}img/fr/office2016/pdf-03.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
 	</div>
 </div>
 
@@ -85,7 +63,7 @@ tags:
 
 <div class="row">
 	<div class="col-md-7">
-		<img class="img-responsive"  src="{{ rootPath }}img/fr/office365/pdf-365-004.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
+		<img class="img-responsive"  src="{{ rootPath }}img/fr/office2016/pdf-04.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
 	</div>
 </div>
 
@@ -159,7 +137,7 @@ tags:
 	<li><a href="https://www.foxitsoftware.com/fr/support/tutorial/">Tutoriels vidéo pour Foxit PhantomPDF</a>
 </ul>
 
-<ul class="pager">
-	<li class="previous small"><a href="../accessible-word-documents-365" rel="prev">Précédent : Documents Word accessibles</a></li>
-	<li class="next small"><a href="../accessible-powerpoint-documents-365" rel="next">Suivant : Présentations PowerPoint accessibles</a></li>
+<ul class="pager mrgn-tp-xl">
+	<li class="previous small"><a href="../accessible-word-documents" rel="prev">Précédent : Documents Word accessibles</a></li>
+	<li class="next small"><a href="../accessible-powerpoint-documents" rel="next">Suivant : Présentations PowerPoint accessibles</a></li>
 </ul>
