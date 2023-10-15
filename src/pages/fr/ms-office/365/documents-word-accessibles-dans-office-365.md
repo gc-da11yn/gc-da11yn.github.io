@@ -218,8 +218,3 @@ toggle: accessible-word-documents-in-office-365
 	<li><a href="https://support.office.com/fr-fr/article/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-de-handicaps-d9bf3683-87ac-47ea-b91a-78dcacb3c66d">Microsoft&nbsp;: Rendre vos documents Word accessibles aux personnes atteintes de handicaps</a></li>
 	<li><a href="https://webaim.org/techniques/word/">WebAIM&nbsp;: Créer des documents accessibles dans Microsoft Word (en anglais seulement)</a></li>
 </ul>
-
-<ul class="pager">
-	<li class="previous small"><a href="../" rel="prev">Précédent : Comment créer des documents accessibles</a></li>
-	<li class="next small"><a href="../accessible-pdf-documents-365" rel="next">Suivant : Documents PDF accessibles</a></li>
-</ul>

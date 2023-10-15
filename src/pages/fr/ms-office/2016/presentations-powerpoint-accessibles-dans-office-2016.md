@@ -187,8 +187,3 @@ toggle: accessible-powerpoint-presentations-in-office-2016
 	<li><a href="https://support.office.com/fr-fr/article/rendre-vos-pr%C3%A9sentations-powerpoint-accessibles-aux-personnes-atteintes-de-handicaps-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25" rel="external">Microsoft&nbsp;: Rendre vos présentations PowerPoint accessibles aux personnes atteintes de handicaps</a></li>
 	<li><a href="https://www.queensu.ca/accessibility/how-info/accessible-documents/accessible-powerpoint-presentations-checklist" rel="external">Université Queen’s&nbsp;: Liste de vérification pour créer des présentations PowerPoint accessibles</a> (en anglais seulement)</li>
 </ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous small"><a href="../accessible-pdf-documents" rel="prev">Précédent : Documents PDF accessibles</a></li>
-	<li class="next small"><a href="../accessible-excel-documents" rel="next">Suivant : Documents Excel accessibles</a></li>
-</ul>

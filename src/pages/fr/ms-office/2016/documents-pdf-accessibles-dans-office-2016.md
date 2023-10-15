@@ -137,8 +137,3 @@ toggle: accessible-pdf-documents-in-office-2016
 		Le produit de la révision de plus de 1&#8201;500 documents PDF, ce guide de U Ottawa fournit des détails, y compris des captures d’écran concernant la résolution de problèmes fréquents (24 pages, 2014).</li>
 	<li><a href="https://www.foxitsoftware.com/fr/support/tutorial/">Tutoriels vidéo pour Foxit PhantomPDF</a>
 </ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous small"><a href="../accessible-word-documents" rel="prev">Précédent : Documents Word accessibles</a></li>
-	<li class="next small"><a href="../accessible-powerpoint-documents" rel="next">Suivant : Présentations PowerPoint accessibles</a></li>
-</ul>

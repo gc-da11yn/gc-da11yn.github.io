@@ -91,8 +91,3 @@ toggle: accessible-excel-workbooks-in-office-365
 	<li><a href="https://support.office.com/en-us/article/make-your-excel-documents-accessible-to-people-with-disabilities-6cc05fc5-1314-48b5-8eb3-683e49b3e593">Microsoft : Rendre vos documents Excel accessibles aux personnes atteintes de handicaps</a></li>
 	<li><a href="https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-excel-0976b140-7033-4e2d-8887-187280701bf8">Microsoft : Prise en charge de l’accessibilité dans Excel</a></li>
 </ul>
-
-<ul class="pager">
-	<li class="previous small"><a href="../accessible-powerpoint-documents-365" rel="prev">Précédent : Présentations PowerPoint accessibles</a></li>
-	<li class="next small"><a href="../accessible-visio-documents-365" rel="next">Suivant : Dessins Visio accessibles</a></li>
-</ul>

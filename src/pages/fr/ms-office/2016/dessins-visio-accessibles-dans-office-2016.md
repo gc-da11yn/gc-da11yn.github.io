@@ -135,8 +135,3 @@ toggle: accessible-visio-drawings-in-office-2016
 	<li><a href="https://www.nvaccess.org/about-nvda/">NVDA : Un lecteur d’écran gratuit (pratique pour la mise à l’essai) (en anglais seulement)</a></li>
 	<li><a href="https://www.w3.org/TR/WCAG21/">Règles pour l’accessibilité des contenus Web 2.1 (en anglais seulement)</a></li>
 </ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous small"><a href="../accessible-excel-documents" rel="prev">Précédent&nbsp;: Classeurs Excel accessibles</a></li>
-	<li class="next small disabled"><a href="../accessible-pdf-documents" rel="next">Suivant</a></li>
-</ul>
