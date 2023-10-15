@@ -353,8 +353,3 @@ description: Accessible practices for Microsoft PowerPoint document creation.
 	<li><a href="https://www.queensu.ca/accessibility/how-info/accessible-documents/accessible-powerpoint-presentations-checklist">Queen's
 			University: Accessible PowerPoints Checklists</a></li>
 </ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="../accessible-pdf-documents-365" rel="prev">Previous: Accessible PDF documents</a></li>
-	<li class="next"><a href="../accessible-excel-documents-365" rel="next">Next: Accessible Excel workbooks</a></li>
-</ul>

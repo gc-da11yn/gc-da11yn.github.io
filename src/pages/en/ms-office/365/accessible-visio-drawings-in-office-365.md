@@ -236,8 +236,3 @@ description: Accessible practices for Microsoft Visio diagram creation.
 	<li><a href="https://www.w3.org/TR/WCAG21/">Web Content
 			Accessibility Guidelines 2.1</a></li>
 </ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="../accessible-excel-documents-365" rel="prev">Previous: Accessible Excel workbooks</a></li>
-	<li class="next disabled"><a href="../accessible-excel-documents-365" rel="next">Next:</a></li>
-</ul>

@@ -187,8 +187,3 @@ description: Accessible practices for Microsoft PowerPoint 2016 document creatio
 	<li><a href="https://support.office.com/en-us/article/make-your-powerpoint-presentations-accessible-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25">Microsoft: How to Make Your PowerPoint Presentation Accessible</a></li>
 	<li><a href="https://www.queensu.ca/accessibility/how-info/accessible-documents/accessible-powerpoint-presentations-checklist">Queen's University: Accessible PowerPoints Checklists</a></li>
 </ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="../accessible-pdf-documents" rel="prev">Previous: Accessible PDF documents</a></li>
-	<li class="next"><a href="../accessible-excel-documents" rel="next">Next: Accessible Excel workbooks</a></li>
-</ul>

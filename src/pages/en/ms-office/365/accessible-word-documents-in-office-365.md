@@ -279,8 +279,3 @@ description: DESCRIPTION
 	<li><a href="https://webaim.org/techniques/word/">WebAIM: Microsoft Word, creating accessible documents</a></li>
 </ul>
 
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="../" rel="prev">Previous: How to create accessible documents</a></li>
-	<li class="next"><a href="../accessible-pdf-documents-365" rel="next">Next: Accessible PDF documents</a></li>
-</ul>

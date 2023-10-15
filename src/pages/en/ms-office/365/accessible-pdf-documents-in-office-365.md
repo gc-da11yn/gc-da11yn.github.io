@@ -148,8 +148,3 @@ description: Accessible practices for PDF document creation.
 		The product of reviewing over 1500 PDF documents, this guide from the University of Ottawa provides more details including screenshots about solving common issues (24 pages, 2014)</li>
 	<li><a href="https://www.foxitsoftware.com/support/tutorial/">Foxit PhantomPDF Instructional Videos</a></li>
 </ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="../accessible-word-documents-365" rel="prev">Previous: Accessible Word documents</a></li>
-	<li class="next"><a href="../accessible-powerpoint-documents-365" rel="next">Next: Accessible PowerPoint presentations</a></li>
-</ul>

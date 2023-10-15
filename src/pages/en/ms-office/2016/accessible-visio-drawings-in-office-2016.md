@@ -211,8 +211,3 @@ description: Accessible practices for Microsoft Visio 2016 diagram creation.
 	<li><a href="https://www.nvaccess.org/about-nvda/">NVDA: Free screen reader</a> (useful for testing)</li>
 	<li><a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines 2.1</a></li>
 </ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="../accessible-excel-documents" rel="prev">Previous: Accessible Excel workbooks</a></li>
-	<li class="next disabled"><a href="../accessible-excel-documents" rel="next">Next:</a></li>
-</ul>
