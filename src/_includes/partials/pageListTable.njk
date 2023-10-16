@@ -65,6 +65,16 @@
 							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_6" checked> {% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}
 						</label>
 					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="isLanding" checked> {% if locale === "en" %}Is a landing page?{% else %}Une page d'atterrissage ?{% endif %}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="isPage" checked> {% if locale === "en" %}Is a content page?{% else %}Une page de contenu ?{% endif %}
+						</label>
+					</li>
 				</ul>
 			</fieldset>
 		</div>
@@ -81,20 +91,27 @@
 				</tr>
 			</thead>
 			<tbody>
-				{% for entry in entries %}
+				{% for entry in entries | sort(false, false, 'data.title') %}
 				{% set newPath = entry.inputPath | replace("\./", "/") %}
 				{% set otherLocale = "fr" if locale === "en" else "en" %}
 				{% set toggleURL = entry.inputPath | replace("\./src/" + locale + "/", "/" + otherLocale + "/") %}
+				{% set isLanding = entry.inputPath | replace("/", ",") %}
+				{% if locale === "en" %}
+					{% set missingToggle = "Missing french version" %}
+					{% else %}
+					{% set missingToggle = "Version anglais manquante" %}
+				{% endif %}
 				{% if entry.data.locale == locale %}
 				{% if entry.data.redirect %}
 				{% else %}
-				<tr>
-					<td data-wb-tags="col_1"><a href="{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></td>
+				<tr{% for items in isLanding[6] %}{% if items === "m" %} class="success" data-wb-tags="isLanding"{% else %} data-wb-tags="isPage"{% endif %}{% endfor %}>
+					<td data-wb-tags="col_1">
+					<a href="{{ entry.url }}">{{ entry.data.title | safe }}</a></td>
 					<td data-wb-tags="col_2">
 						{% if entry.data.toggle %}
-						<a href="/{{ otherLocale }}/{{ entry.data.toggle }}" hreflang="{{ otherLang }}">{% if locale === "en" %}French version{% else %}Version anglaise{% endif %} <span class="wb-inv">{% if locale === "en" %}of{% else %}de{% endif %} {{ entry.data.title | striptags(true) | escape | nl2br }}</span></a>
+						<a href="/{{ otherLocale }}/{{ entry.data.toggle }}" hreflang="{{ otherLang }}">{% if locale === "en" %}French version{% else %}Version anglaise{% endif %} <span class="wb-inv">{% if locale === "en" %}of{% else %}de{% endif %} {{ entry.data.title | safe }}</span></a>
 						{% else %}
-						<a href="{{ toggleURL }}" hreflang="{{ otherLang }}">{% if locale === "en" %}French version{% else %}Version anglaise{% endif %} <span class="wb-inv">{% if locale === "en" %}of{% else %}de{% endif %} {{ entry.data.title | striptags(true) | escape | nl2br }}</span></a>
+						<strong>{{ missingToggle }}</strong>
 						{% endif %}
 					</td>
 					<td data-wb-tags="col_3">
