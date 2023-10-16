@@ -2,9 +2,9 @@
 title: Types d'invalidité les plus courants
 description: Brève introduction et liens vers les types de handicaps les plus courants.
 subject:
-  - aboutUs
+  - accessibilityFundamentals
 tags:
-  - aboutTheDigitalTheAccessibilityToolkitProject
+  - aboutDisabilities
 Keywords:
   - Déficiences auditives
   - Déficiences visuelles
@@ -17,6 +17,7 @@ Keywords:
 layout: layouts/base.njk
 audience:
   - Everyone
+toggle: most-common-types-of-disability
 ---
 
 # Types d'invalidité les plus courants
