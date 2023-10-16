@@ -63,7 +63,7 @@
 	</section>
 
 	<div class="wb-eqht-grd row wb-tagfilter-items">
-		{% for entry in entries %}
+		{% for entry in entries | sort(false, false, 'data.title') %}
 		{% set newPath = entry.inputPath | replace("\./", "/") %}
 		{% if entry.data.locale == locale %}
 		{% if entry.data.redirect %}
