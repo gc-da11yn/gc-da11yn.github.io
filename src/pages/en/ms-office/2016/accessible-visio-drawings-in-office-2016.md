@@ -2,22 +2,8 @@
 title: Accessible Visio drawings in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Visio 2016 diagram creation.
-subject:
-  - howTos
-tags:
-  - createDocument
+toggle: dessins-visio-accessibles-dans-office-2016
 ---
-
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. How to create accessible documents</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents">2. Accessible Word documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-pdf-documents">3. Accessible PDF documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents">4. Accessible PowerPoint presentations</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-excel-documents">5. Accessible Excel workbooks</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item active">6. Accessible Visio drawings</a></li>
-	</ul>
-</div>
 
 <h2>Introduction</h2>
 
@@ -225,9 +211,4 @@ tags:
 <ul>
 	<li><a href="https://www.nvaccess.org/about-nvda/">NVDA: Free screen reader</a> (useful for testing)</li>
 	<li><a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines 2.1</a></li>
-</ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="../accessible-excel-documents" rel="prev">Previous: Accessible Excel workbooks</a></li>
-	<li class="next disabled"><a href="../accessible-excel-documents" rel="next">Next:</a></li>
 </ul>

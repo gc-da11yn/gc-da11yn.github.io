@@ -14,6 +14,7 @@ tags: howTos
 
 <div class="row wb-eqht mrgn-tp-lg">
 	{% for item in collections.createDocument | localeMatch(locale) %}
+	{% if item.data.tags[1] != "office2016" and item.data.tags[1] != "office365" %}
 	<div class="col-md-6">
 		<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
 		<p>
@@ -24,7 +25,7 @@ tags: howTos
 			{% endif %}
 		</p>
 	</div>
+	{% endif %}
 	{% endfor %}
 </div>
-
 {% endif %}

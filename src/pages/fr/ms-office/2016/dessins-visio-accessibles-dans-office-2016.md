@@ -2,22 +2,8 @@
 title: Dessins Visio accessibles dans Office 2016
 description: Pratiques accessibles pour la création de diagrammes Microsoft Visio 2016.
 layout: layouts/base.njk
-subject:
-  - howTos
-tags:
-  - createDocument
+toggle: accessible-visio-drawings-in-office-2016
 ---
-
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. Comment créer des documents accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents">2. Documents Word accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-pdf-documents">3. Documents PDF accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents">4. Présentations PowerPoint accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-excel-documents">5. Classeurs Excel accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item active">6. Dessins Visio accessibles</a></li>
-	</ul>
-</div>
 
 <h2>Introduction</h2>
 <p>Le programme Microsoft Visio sert à créer des diagrammes, comme des organigrammes. Les problèmes d’accessibilité pour de tels diagrammes sont répartis en deux catégories&nbsp;: les problèmes qui concernent les utilisateurs voyants ayant une déficience visuelle (qui utilisent le diagramme de manière visuelle) et les problèmes qui concernent les utilisateurs aveugles (qui comptent sur les textes de remplacement). Suivre les recommandations d’accessibilité dans chacune de ces catégories aide également tous les utilisateurs.</p>
@@ -148,9 +134,4 @@ tags:
 <ul>
 	<li><a href="https://www.nvaccess.org/about-nvda/">NVDA : Un lecteur d’écran gratuit (pratique pour la mise à l’essai) (en anglais seulement)</a></li>
 	<li><a href="https://www.w3.org/TR/WCAG21/">Règles pour l’accessibilité des contenus Web 2.1 (en anglais seulement)</a></li>
-</ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous small"><a href="../accessible-excel-documents" rel="prev">Précédent&nbsp;: Classeurs Excel accessibles</a></li>
-	<li class="next small disabled"><a href="../accessible-pdf-documents" rel="next">Suivant</a></li>
 </ul>

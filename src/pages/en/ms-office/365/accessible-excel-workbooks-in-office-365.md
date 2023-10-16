@@ -2,22 +2,8 @@
 title: Accessible Excel workbooks in Office 365
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Excel document creation.
-subject:
-  - howTos
-tags:
-  - createDocument
+toggle: classeurs-excel-accessibles-dans-office-365
 ---
-
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. How to create accessible documents</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents-365">2. Accessible Word documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-pdf-documents-365">3. Accessible PDF documents</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents-365">4. Accessible PowerPoint presentations</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active">5. Accessible Excel workbooks</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams-365">6. Accessible Visio drawings</a></li>
-	</ul>
-</div>
 
 <h2>Accessibility Checker</h2>
 
@@ -133,9 +119,4 @@ tags:
 <ul>
 	<li><a href="https://support.office.com/en-us/article/make-your-excel-documents-accessible-to-people-with-disabilities-6cc05fc5-1314-48b5-8eb3-683e49b3e593" rel="external">Microsoft: Make your Excel documents accessible to people with disabilities</a></li>
 	<li><a href="https://support.office.com/en-us/article/accessibility-support-for-excel-0976b140-7033-4e2d-8887-187280701bf8" rel="external">Microsoft: Accessibility support for people who use a screen reader program</a></li>
-</ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous"><a href="../accessible-powerpoint-documents-365" rel="prev">Previous: Accessible PowerPoint presentations</a></li>
-	<li class="next"><a href="../accessible-visio-diagrams-365" rel="next">Next: Accessible Visio drawings</a></li>
 </ul>

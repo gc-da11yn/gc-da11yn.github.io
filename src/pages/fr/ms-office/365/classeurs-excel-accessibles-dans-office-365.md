@@ -2,22 +2,8 @@
 title: Classeurs Excel accessibles dans Office 365
 description: Pratiques accessibles pour la création de documents Microsoft Excel.
 layout: layouts/base.njk
-subject:
-  - howTos
-tags:
-  - createDocument
+toggle: accessible-excel-workbooks-in-office-365
 ---
-
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. Comment créer des documents accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents-365">2. Documents Word accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-pdf-documents-365">3. Documents PDF accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents-365">4. Présentations PowerPoint accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active">5. Classeurs Excel accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams-365">6. Dessins Visio accessibles</a></li>
-	</ul>
-</div>
 
 <h2>Vérificateur d’accessibilité</h2>
 <p>Microsoft Office (Word, Excel, PowerPoint) comporte un programme intégré de vérification de l’accessibilité. Le vérificateur ne détecte pas tous les problèmes, mais recherche des éléments, comme les textes de remplacement manquants, les titres de diapositive en double et les problèmes potentiels d’ordre de lecture.</p>
@@ -104,9 +90,4 @@ tags:
 <ul>
 	<li><a href="https://support.office.com/en-us/article/make-your-excel-documents-accessible-to-people-with-disabilities-6cc05fc5-1314-48b5-8eb3-683e49b3e593">Microsoft : Rendre vos documents Excel accessibles aux personnes atteintes de handicaps</a></li>
 	<li><a href="https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-excel-0976b140-7033-4e2d-8887-187280701bf8">Microsoft : Prise en charge de l’accessibilité dans Excel</a></li>
-</ul>
-
-<ul class="pager">
-	<li class="previous small"><a href="../accessible-powerpoint-documents-365" rel="prev">Précédent : Présentations PowerPoint accessibles</a></li>
-	<li class="next small"><a href="../accessible-visio-documents-365" rel="next">Suivant : Dessins Visio accessibles</a></li>
 </ul>

@@ -2,22 +2,8 @@
 title: Documents PDF accessibles dans Office 2016
 description: Pratiques accessibles pour la création de documents PDF 2016.
 layout: layouts/base.njk
-subject:
-  - howTos
-tags:
-  - createDocument
+toggle: accessible-pdf-documents-in-office-2016
 ---
-
-<div class="row mrgn-tp-lg">
-	<ul class="toc lst-spcd col-md-12">
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../">1. Comment créer des documents accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-word-documents">2. Documents Word accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active">3. Documents PDF accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="../accessible-powerpoint-documents">4. Présentations PowerPoint accessibles</a></li>
-		<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="../accessible-excel-documents">5. Classeurs Excel accessibles</a></li>
-		<li class="col-md-4 col-sm-6"><a class="list-group-item" href="../accessible-visio-diagrams">6. Dessins Visio accessibles</a></li>
-	</ul>
-</div>
 
 <h2>Introduction</h2>
 <p>Le format PDF (Portable Document Format) est un format fréquemment utilisé pour la distribution de documents imprimables. Ce format, créé par Adobe, peut être ouvert avec Adobe Acrobat ainsi qu’avec autres outils et de nombreux navigateurs Web.</p>
@@ -150,9 +136,4 @@ tags:
 	<li><a href="http://www.uottawa.ca/respect/sites/www.uottawa.ca.respect/files/fss-fixing-accessibility-errors-in-pdfs.pdf">10 erreurs fréquentes en matière d’accessibilité avec les solutions</a> (en anglais seulement)<br>
 		Le produit de la révision de plus de 1&#8201;500 documents PDF, ce guide de U Ottawa fournit des détails, y compris des captures d’écran concernant la résolution de problèmes fréquents (24 pages, 2014).</li>
 	<li><a href="https://www.foxitsoftware.com/fr/support/tutorial/">Tutoriels vidéo pour Foxit PhantomPDF</a>
-</ul>
-
-<ul class="pager mrgn-tp-xl">
-	<li class="previous small"><a href="../accessible-word-documents" rel="prev">Précédent : Documents Word accessibles</a></li>
-	<li class="next small"><a href="../accessible-powerpoint-documents" rel="next">Suivant : Présentations PowerPoint accessibles</a></li>
 </ul>
