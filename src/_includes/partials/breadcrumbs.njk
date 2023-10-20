@@ -22,19 +22,20 @@
 				{% endif %}
 
 				{% if tags %}
-					<li>
-						<a href="/{{ locale }}/{{ tagList.tags[locale][tags[0]] | stripTagsSlugify or tagList.subjects[locale][tags[0]] | stripTagsSlugify }}">{{ tagList.tags[locale][tags[0]] or tagList.subjects[locale][tags[0]] }}</a>
-					</li>
-				{% endif %}
+					{% for breadcrumb in tags %}
 
-				{% if breadcrumb %}
-				<li>
-					<a href="{{ breadcrumb.path }}">{{ breadcrumb.title }}</a>
-				</li>
+					{% if breadcrumb != "mainAbout" %}
+					<li>
+						<a href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</a>
+					</li>
+					{% endif %}
+
+					{% endfor %}
 				{% endif %}
 
 			{% endif %}
 
 		</ol>
+
 	</div>
 </nav>

@@ -21,6 +21,8 @@ module.exports = {
 			contactUs: "Contactez-nous",
 			accessibilityInYourRole: "L'accessibilité dans votre rôle",
 			mainAbout: "Section à propos de nous sur la page d'accueil",
+			office2016: "Comment créer des documents accessibles dans Office 2016",
+			office365: "Comment créer des documents accessibles dans Office 365",
 		},
 		en: {
 			aboutDisabilities: "About Disabilities",
@@ -44,6 +46,8 @@ module.exports = {
 			contactUs: "Contact us",
 			accessibilityInYourRole: "Accessibility in your role",
 			mainAbout: "About us section on homepage",
+			office2016: "How to create accessible documents in Office 2016",
+			office365: "How to create accessible documents in Office 365",
 		},
 	},
 	subjects: {
