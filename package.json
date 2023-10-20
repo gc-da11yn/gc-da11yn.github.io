@@ -48,6 +48,7 @@
     "string-strip-html": "^8.5.0"
   },
   "dependencies": {
+    "markdown-link-check": "^3.11.2",
     "clean-html": "^2.0.1",
     "prompt-sync": "^4.2.0"
   }
