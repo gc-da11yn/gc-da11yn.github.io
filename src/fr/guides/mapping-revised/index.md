@@ -174,6 +174,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 - [Dispositions non mises en correspondance](#dispositions-non-mises-en-correspondance)
   - [Article 508 révisé](#article-508-révisé)
   - [EN 301 549](#en-301-549)
+
 	</div>
 </section>
 
@@ -474,13 +475,6 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 </tr>
 </tbody>
 </table>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Les critères de rendement fonctionnel 302.7 et 302.8 de l’article 508 et les énoncés de rendement fonctionnel 4.2.7 et 4.2.8 de la norme EN 301 549 inclusivement visent les mêmes exigences, même s’ils sont regroupés légèrement différemment dans chaque norme.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Les critères de rendement fonctionnel 302.7 et 302.8 de l’article 508 et les énoncés de rendement fonctionnel 4.2.7 et 4.2.8 de la norme EN 301 549 inclusivement visent les mêmes exigences, même s’ils sont regroupés légèrement différemment dans chaque norme.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 ### Chapitre 4 – Matériel
 
@@ -520,7 +514,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>402.2 Sortie vocale activée</p>
-<p>Les TIC ayant un écran d’affichage doivent être dotées d’une sortie vocale pour permettre aux utilisateurs atteints de déficience visuelle une utilisation complète et autonome.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Les TIC ayant un écran d’affichage doivent être dotées d’une sortie vocale pour permettre aux utilisateurs atteints de déficience visuelle une utilisation complète et autonome.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
 <p>EXCEPTIONS :</p>
 <ol type="1">
 <li><p>Les panneaux à messages variables conformes à la clause 402.5 n’ont pas à être dotés d’une sortie vocale.</p></li>
@@ -975,19 +969,14 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <li><p>ψ est l’angle sous-tendu en degrés;</p></li>
 <li><p>H est la hauteur du texte;</p></li>
 <li><p>D est la distance de visibilité;</p></li>
-<li><p>D et H sont exprimés dans les mêmes unités.</p></li>
+<li><p>D et H sont exprimés dans les mêmes unités.</p></li
 </ul>
 <p>REMARQUE 1 : L’intention est de fournir un mode de fonctionnement où le texte est suffisamment grand pour être utilisé par la plupart des utilisateurs ayant une basse vision.</p></td>
 <td data-wb-tags="choice_4"></td>
 </tr>
 </tbody>
 </table>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>L’article 508 précise que le mode de fonctionnement non visuel doit être une sortie vocale.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
+
 
 #### 403 Données biométriques
 
@@ -1256,7 +1245,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>407.3.2 Touches alphabétiques</p>
-<p>Lorsqu’elles sont fournies, les touches alphabétiques individuelles doivent être disposées selon le clavier QWERTY et les touches « F » et « J » doivent pouvoir se distinguer de manière tactile des autres touches.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></td>
+<p>Lorsqu’elles sont fournies, les touches alphabétiques individuelles doivent être disposées selon le clavier QWERTY et les touches « F » et « J » doivent pouvoir se distinguer de manière tactile des autres touches.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>5.5.2 Perceptibilité des pièces manœuvrables</p>
 <p>Lorsque les TIC sont dotées de pièces manœuvrables, elles doivent offrir un moyen de percevoir chaque pièce manœuvrable sans recourir à la vision et sans effectuer l’action associée à cette pièce manœuvrable.</p>
 <p>REMARQUE : Cette exigence peut être satisfaite en rendant les pièces manœuvrables perceptibles au toucher.</p></td>
@@ -1277,7 +1266,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>407.3.3 Touches numériques</p>
-<p>Lorsqu’elles sont fournies, les touches numériques doivent être disposées selon le format du pavé numérique à 12 touches en ordre ascendant ou descendant. La touche du numéro cinq doit pouvoir se distinguer de manière tactile des autres touches. Lorsque les TIC fournissent un clavier avec superposition des touches alphabétiques sur les touches numériques, les liens entre les lettres et les chiffres doivent être conformes à la Recommandation E.161 de l’UIT-T (incorporée par renvoi, voir l’article 702.7.1).<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></td>
+<p>Lorsqu’elles sont fournies, les touches numériques doivent être disposées selon le format du pavé numérique à 12 touches en ordre ascendant ou descendant. La touche du numéro cinq doit pouvoir se distinguer de manière tactile des autres touches. Lorsque les TIC fournissent un clavier avec superposition des touches alphabétiques sur les touches numériques, les liens entre les lettres et les chiffres doivent être conformes à la Recommandation E.161 de l’UIT-T (incorporée par renvoi, voir l’article 702.7.1).<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>8.4.1 Touches numériques</p>
 <p>Lorsqu’elles sont fournies, les touches numériques formant un pavé rectangulaire doivent permettre de distinguer le numéro cinq de manière tactile des autres touches du pavé numérique.</p>
 <p>REMARQUE : La Recommandation E.161 de l’UIT-T décrit la disposition du clavier du téléphone à 12 touches et fournit des détails supplémentaires sur la forme des marqueurs tactiles.</p></td>
@@ -1732,7 +1721,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>EXCEPTIONS :</p>
 <ol type="1">
 <li><p>L’espace pour les pieds doit fournir une hauteur dégagée de 230 mm (9 po) au-dessus du plancher et une profondeur maximale dégagée de 150 mm (6 po) du plan de référence vertical vers le bord avant des TIC.</p></li>
-<li><p>Avec une profondeur maximale de 150 mm (6 po) du plan de référence vertical au bord avant des TIC, l’espace entre le minimum de 230 mm (9 po) et de 685 mm (27 po) au-dessus du plancher doit pouvoir être réduit à un taux de 25 mm (1 po) de profondeur pour chaque 150 mm (6 po) de hauteur.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p></li>
+<li><p>Avec une profondeur maximale de 150 mm (6 po) du plan de référence vertical au bord avant des TIC, l’espace entre le minimum de 230 mm (9 po) et de 685 mm (27 po) au-dessus du plancher doit pouvoir être réduit à un taux de 25 mm (1 po) de profondeur pour chaque 150 mm (6 po) de hauteur.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p></li>
 </ol></td>
 <td data-wb-tags="choice_1 choice_2"><p>8.3.2.4 Largeur libre pour les genoux et les pieds</p>
 <p>Lorsque l’espace sous un obstacle faisant partie intégrante des TIC fait partie de l’espace d’accès, la largeur libre devrait être d’au moins 760 mm (30 po).</p></td>
@@ -1755,7 +1744,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>EXCEPTIONS :</p>
 <ol type="1">
 <li><p>L’espace pour les pieds doit fournir une hauteur dégagée de 230 mm (9 po) au-dessus du plancher et une profondeur maximale dégagée de 150 mm (6 po) du plan de référence vertical vers le bord avant des TIC.</p></li>
-<li><p>Avec une profondeur maximale de 150 mm (6 po) du plan de référence vertical au bord avant des TIC, l’espace entre le minimum de 230 mm (9 po) et de 685 mm (27 po) au-dessus du plancher doit pouvoir être réduit à un taux de 25 mm (1 po) de profondeur pour chaque 150 mm (6 po) de hauteur.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p></li>
+<li><p>Avec une profondeur maximale de 150 mm (6 po) du plan de référence vertical au bord avant des TIC, l’espace entre le minimum de 230 mm (9 po) et de 685 mm (27 po) au-dessus du plancher doit pouvoir être réduit à un taux de 25 mm (1 po) de profondeur pour chaque 150 mm (6 po) de hauteur.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p></li>
 </ol></td>
 <td data-wb-tags="choice_1 choice_2"><p>8.3.2.5 Espace libre pour les pieds</p>
 <p>Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle d’au moins 230 mm (9 po) au-dessus du plancher est considéré comme un espace libre pour les pieds et il devrait :</p>
@@ -1800,7 +1789,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>EXCEPTIONS :</p>
 <ol type="1">
 <li><p>L’espace pour les pieds doit fournir une hauteur dégagée de 230 mm (9 po) au-dessus du plancher et une profondeur maximale dégagée de 150 mm (6 po) du plan de référence vertical vers le bord avant des TIC.</p></li>
-<li><p>Avec une profondeur maximale de 150 mm (6 po) du plan de référence vertical au bord avant des TIC, l’espace entre le minimum de 230 mm (9 po) et de 685 mm (27 po) au-dessus du plancher doit pouvoir être réduit à un taux de 25 mm (1 po) de profondeur pour chaque 150 mm (6 po) de hauteur.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p></li>
+<li><p>Avec une profondeur maximale de 150 mm (6 po) du plan de référence vertical au bord avant des TIC, l’espace entre le minimum de 230 mm (9 po) et de 685 mm (27 po) au-dessus du plancher doit pouvoir être réduit à un taux de 25 mm (1 po) de profondeur pour chaque 150 mm (6 po) de hauteur.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p></li>
 </ol></td>
 <td data-wb-tags="choice_1 choice_2"><p>8.3.2.6 Espace libre pour les genoux</p>
 <p>Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (27 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait :</p>
@@ -1823,7 +1812,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </ol></td>
 <td data-wb-tags="choice_2">Reformulation stylistique</td>
 <td data-wb-tags="choice_3 choice_4"><p>8.3.2.6 Espace libre pour les genoux</p>
-<p>Lorsqu’un obstacle fait <strong>partie intégrante des TIC fixes</strong>, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po)<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> au-dessus du plancher est considéré comme un espace libre pour les genoux et il <strong>doit :</strong></p>
+<p>Lorsqu’un obstacle fait <strong>partie intégrante des TIC fixes</strong>, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po)<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> au-dessus du plancher est considéré comme un espace libre pour les genoux et il <strong>doit :</strong></p>
 <ol>
 <li><p>être à une distance pas plus de 635 mm (25 po) sous toute obstruction à 230 mm (9 po) de hauteur au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 280 mm (11 po) sous l’obstacle et une hauteur de 230 mm (9 po) au-dessus du plancher;</p></li>
@@ -1834,7 +1823,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Mise à jour explicative</p>
 <p>Changement fonctionnel</p></td>
 <td data-wb-tags="choice_4 choice_5"><p>8.3.2.6 Espace libre pour les genoux</p>
-<p>Lorsqu’un obstacle fait partie intégrante des TIC fixes, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po)<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> au-dessus du plancher est considéré comme un espace libre pour les genoux et il doit :</p>
+<p>Lorsqu’un obstacle fait partie intégrante des TIC fixes, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po)<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> au-dessus du plancher est considéré comme un espace libre pour les genoux et il doit :</p>
 <ol>
 <li><p>être à une distance pas plus de 635 mm (25 po) sous toute obstruction à 230 mm (9 po) de hauteur au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 280 mm (11 po) sous l’obstacle et une hauteur de 230 mm (9 po) au-dessus du plancher;</p></li>
@@ -1845,18 +1834,6 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 </tbody>
 </table>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>L’article 508 fait référence à une configuration de clavier spécifique qui n’est pas nécessairement pertinente à toutes les langues.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>L’article 508 contient des exigences supplémentaires relatives à la superposition des touches alphabétiques sur les touches numériques.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>La norme EN 301 549 V3.1.1 (2019-11) contient une erreur: «Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait […] » Les 685 mm auraient dû être convertis en 27 po. Ce document démontre l’erreur dans la documentation originale de la norme EN.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p>La norme EN 301 549 V3.1.1 (2019-11) contient une erreur: «Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait […] » Les 685 mm auraient dû être convertis en 27 po. Ce document démontre l’erreur dans la documentation originale de la norme EN.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 #### 408 Écran d’affichage
 
@@ -2045,7 +2022,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.2.1 Gain de volume pour les téléphones filaires</p>
-<p>Un gain de volume conforme à la norme 47 CFR 68.317 doit être fourni sur les téléphones filaires analogiques et numériques.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></td>
+<p>Un gain de volume conforme à la norme 47 CFR 68.317 doit être fourni sur les téléphones filaires analogiques et numériques.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>8.2.1.2 Réglage incrémentiel du volume</p>
 <p>Lorsque le matériel de TIC est doté d’une sortie vocale et d’un réglage additionnel du volume, elles doivent fournir au moins un niveau intermédiaire de gain de 12 dB au-dessus du réglage de volume le plus bas.</p></td>
 <td data-wb-tags="choice_1"><p>Reformulation stylistique</p>
@@ -2085,7 +2062,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.2.2 Gain de volume pour les TIC non filaires</p>
-<p>Une méthode d’augmentation du volume doit être fournie pour les TIC non filaires.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></td>
+<p>Une méthode d’augmentation du volume doit être fournie pour les TIC non filaires.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>8.2.1.2 Réglage incrémentiel du volume</p>
 <p>Lorsque le matériel de TIC est doté d’une sortie vocale et d’un réglage additionnel du volume, elles doivent fournir au moins un niveau intermédiaire de gain de 12 dB au-dessus du réglage de volume le plus bas.</p></td>
 <td data-wb-tags="choice_1"><p>Reformulation stylistique</p>
@@ -2103,7 +2080,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.3.1 Combinés sans fil</p>
-<p>Les TIC sous forme de combinés sans fil doivent être conformes à la norme ANSI/IEEE C63.19-2011 (incorporée par renvoi, voir l’article 702.5.1).<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p></td>
+<p>Les TIC sous forme de combinés sans fil doivent être conformes à la norme ANSI/IEEE C63.19-2011 (incorporée par renvoi, voir l’article 702.5.1).<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>8.2.2.2 Dispositifs de communication sans fil</p>
 <p>Lorsque le matériel de TIC est un dispositif de communication sans fil avec sortie vocale qui est normalement tenu à l’oreille, il doit fournir un moyen de couplage magnétique aux technologies auditives qui répond aux exigences ES 200 381-2 de l’ETSI.</p>
 <p>REMARQUE : Les TIC répondant aux exigences de la norme ANSI/IEEE C63.19 sont réputées conformes aux exigences de la présente clause.</p></td>
@@ -2124,7 +2101,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.3.2 Combinés filaires</p>
-<p>Les TIC sous forme de combinés filaires, y compris les combinés sans fil, doivent être conformes à la norme TIA-1083-B (incorporée par renvoi, voir l’article 702.9.1).<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p></td>
+<p>Les TIC sous forme de combinés filaires, y compris les combinés sans fil, doivent être conformes à la norme TIA-1083-B (incorporée par renvoi, voir l’article 702.9.1).<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>8.2.2.1 Dispositifs de téléphonie fixe</p>
 <p>Lorsque le matériel de TIC est un dispositif de communication fixe avec sortie vocale qui est normalement tenu à l’oreille et qui porte le symbole « T » spécifié dans la norme ETS 300 381, il doit fournir un moyen de couplage magnétique qui répond aux exigences de la norme ES 200 381-1.</p>
 <p>REMARQUE : Les TIC répondant aux exigences de la norme TIA-1083-A sont réputées conformes aux exigences de la présente clause.</p></td>
@@ -2148,7 +2125,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.4 Codage numérique de la parole</p>
-<p>Les TIC contenues dans des réseaux IP doivent transmettre et recevoir des messages vocaux codés de façon numérique de la manière spécifiée par la Recommandation G.722.2 de l’UTI-T (incorporée par référence, voir l’article 702.7.2) ou par la norme RFC 6716 de l’IETF (incorporée par renvoi, voir l’article 702.8.1).<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p></td>
+<p>Les TIC contenues dans des réseaux IP doivent transmettre et recevoir des messages vocaux codés de façon numérique de la manière spécifiée par la Recommandation G.722.2 de l’UTI-T (incorporée par référence, voir l’article 702.7.2) ou par la norme RFC 6716 de l’IETF (incorporée par renvoi, voir l’article 702.8.1).<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>6.1 Largeur de bande sonore pour la parole (recommandation informative)</p>
 <p>Lorsque les TIC permettent la communication vocale bidirectionnelle, pour offrir une bonne qualité sonore, elles devraient pouvoir coder et décoder la communication vocale bidirectionnelle selon une audiofréquence dont la limite supérieure est d’au moins 7 kHz.</p>
 <p>REMARQUE 1 : aux fins de l’interopérabilité, la Recommandation G.722 de l’UIT-T est largement utilisée.</p>
@@ -2174,7 +2151,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.5 Fonctionnalité texte en temps réel</p>
-<p>[Réservé].<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p></td>
+<p>[Réservé].<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2">Voir les exigences relatives au TTR dans EN 301 549 V1.1.1 (2014), chapitre 6, ci-dessous.</td>
 <td data-wb-tags="choice_1"></td>
 <td data-wb-tags="choice_2 choice_3">Voir les exigences relatives au TTR dans EN 301 549 V2.1.2 (2018), chapitre 6, ci-dessous.</td>
@@ -2186,7 +2163,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.6 Identification de l’appelant</p>
-<p>Lorsqu’elle est fournie, la fonction d’identification de l’appelant ou de télécommunications similaire doit être visible et audible.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p></td>
+<p>Lorsqu’elle est fournie, la fonction d’identification de l’appelant ou de télécommunications similaire doit être visible et audible.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>6.3 Identification de l’appelant</p>
 <p>Lorsque les TIC sont dotées de la fonction d’identification de l’appelant ou sont d’une fonction de télécommunications similaire, la fonction d’identification de l’appelant ou de télécommunications similaire doit être offerte en mode textuel et dans au moins un autre mode.</p></td>
 <td data-wb-tags="choice_1"><p>Reformulation stylistique</p>
@@ -2205,7 +2182,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.7 Communication vidéo</p>
-<p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p></td>
+<p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>6.5.1 Généralités (information)</p>
 <p>La clause 6.5 (Communication vidéo) décrit les exigences fonctionnelles prenant en charge les utilisateurs qui communiquent en langage gestuel et en lecture labiale. À cette fin, une résolution de CIF (Common Intermediate Format), une vitesse de défilement d’au moins 20 images par seconde et un écart entre le son et la vidéo de 100 ms ou moins permettent d’obtenir une bonne exploitabilité.</p>
 <p>Lorsque la résolution passe au format QCIF (Quarter Common Intermediate Format) et que la vitesse de défilement baisse à 12 images par seconde, la communication est encore possible avec certaines restrictions.</p>
@@ -2236,7 +2213,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.7 Communication vidéo</p>
-<p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p></td>
+<p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>6.5.2 Résolution</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
 <ol>
@@ -2270,7 +2247,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.7 Communication vidéo</p>
-<p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p></td>
+<p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>6.5.3 Vitesse de défilement des images</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
 <ol>
@@ -2304,7 +2281,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>412.7 Communication vidéo</p>
-<p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p></td>
+<p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>6.5.4 Synchronisation entre le son et la vidéo</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles devraient présenter à l’utilisateur un écart temporel maximal de 100 ms entre la parole et la vidéo.</p></td>
 <td data-wb-tags="choice_1"><p>Reformulation stylistique</p>
@@ -2323,22 +2300,6 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 </tbody>
 </table>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>L’article 508 fait référence à la norme 47 CFR 68.317 (une réglementation américaine), tandis que la norme EN 301 549 fait référence au niveau spécifique de gain de volume requis.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>La norme EN 301 549 comprend des exigences plus spécifiques en matière de gain de volume.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Chacune fait référence à des normes locales pertinentes.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Chacune fait référence à des normes locales pertinentes.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Les exigences de la norme EN 301 549 n’ont qu’une valeur informative et font référence à une limite de fréquence supérieure plutôt qu’à la norme de l’UTI.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>La norme EN 301 549 fournit les exigences relatives au TTR, dont il est question ci-dessous.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p>La norme EN 301 549 précise qu’elle doit être offerte « en mode textuel et dans au moins un autre mode » tandis que l’article 508 précise qu’elle doit être « visible et audible ».<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn10"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn11"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 #### 413 Technologies de traitement des sous-titres codés
 
@@ -2443,7 +2404,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <tbody>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>414.1.1 Syntoniseurs de télévision numérique</p>
-<p>Les syntoniseurs de télévision numérique doivent prévoir un traitement de la description audio conforme à la partie 5 de la norme de télévision numérique ATSC A/53 (2014) (incorporée par renvoi, voir l’article 702.2.1). Les syntoniseurs de télévision numérique doivent traiter la description audio lorsqu’elle est codée comme un service audio associé aux malvoyants qui est fourni sous forme de combinaison complète de programmes contenant une description audio conformément à la norme ATSC A/53.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></td>
+<p>Les syntoniseurs de télévision numérique doivent prévoir un traitement de la description audio conforme à la partie 5 de la norme de télévision numérique ATSC A/53 (2014) (incorporée par renvoi, voir l’article 702.2.1). Les syntoniseurs de télévision numérique doivent traiter la description audio lorsqu’elle est codée comme un service audio associé aux malvoyants qui est fourni sous forme de combinaison complète de programmes contenant une description audio conformément à la norme ATSC A/53.<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>7.2.3 Préservation de la description audio</p>
 <p>Lorsque les TIC transmettent, convertissent ou enregistrent de la vidéo avec synchronisation sonore, elles doivent préserver la description audio de manière à ce qu’elle puisse être lue conformément aux clauses 7.2.1 et 7.2.2.</p></td>
 <td data-wb-tags="choice_1"><p>Reformulation stylistique</p>
@@ -2478,12 +2439,6 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 </tbody>
 </table>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>L’article 508 fait référence aux normes locales spécifiques relatives aux syntoniseurs de télévision numérique.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 #### 415 Commandes de l’utilisateur pour les sous-titres et les descriptions audio
 
@@ -2504,7 +2459,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <tbody>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>415.1.1 Commandes pour les sous-titres</p>
-<p>Lorsque les TIC sont dotées de pièces manœuvrables pour le réglage du volume, elles doivent aussi être dotées de pièces manœuvrables pour la sélection des sous-titres.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></td>
+<p>Lorsque les TIC sont dotées de pièces manœuvrables pour le réglage du volume, elles doivent aussi être dotées de pièces manœuvrables pour la sélection des sous-titres.<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>7.3 Commandes de l’utilisateur pour les sous-titres et les descriptions audio</p>
 <p>Lorsque les TIC affichent principalement du contenu vidéo et du contenu sonore associé, les commandes de l’utilisateur pour activer le sous-titrage et la description audio doivent être fournies à l’utilisateur au même niveau d’interaction (c.-à-d. le nombre d’étapes pour accomplir la tâche) que les principales commandes médias.</p>
 <p>REMARQUE 1 : Les principales commandes médias sont celles dont se sert l’utilisateur le plus souvent pour activer les médias.</p>
@@ -2533,7 +2488,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>415.1.2 Commandes pour les descriptions audio</p>
-<p>Lorsque les TIC sont dotées de pièces manœuvrables pour la sélection des programmes, elles doivent aussi être dotées de pièces manœuvrables pour la sélection de la description audio.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></td>
+<p>Lorsque les TIC sont dotées de pièces manœuvrables pour la sélection des programmes, elles doivent aussi être dotées de pièces manœuvrables pour la sélection de la description audio.<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"><p>7.3 Commandes de l’utilisateur pour les sous-titres et les descriptions audio</p>
 <p>Lorsque les TIC affichent principalement du contenu vidéo et du contenu sonore associé, les commandes de l’utilisateur pour activer le sous-titrage et la description audio doivent être fournies à l’utilisateur au même niveau d’interaction (c.-à-d. le nombre d’étapes pour accomplir la tâche) que les principales commandes médias.</p>
 <p>REMARQUE 1 : Les principales commandes médias sont celles dont se sert l’utilisateur le plus souvent pour contrôler les médias.</p>
@@ -2562,13 +2517,6 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 </tbody>
 </table>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>L’article 508 met l’accent sur les pièces manœuvrables tandis que la norme EN 301 549 met l’accent sur le niveau d’interaction.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>L’article 508 met l’accent sur les pièces manœuvrables tandis que la norme EN 301 549 met l’accent sur le niveau d’interaction.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 ### Chapitre 5 - Logiciels
 
@@ -3043,7 +2991,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><ol>
-<li><p>L’article 9.3.3 permet la saisie séquentielle de plusieurs touches (avec accord) ;<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></li>
+<li><p>L’article 9.3.3 permet la saisie séquentielle de plusieurs touches (avec accord) ;<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a></p></li>
 </ol></td>
 <td data-wb-tags="choice_1 choice_2"><p>5.9 Actions simultanées de la part de l’utilisateur</p>
 <p>Lorsque les TIC requièrent des actions simultanées de la part de l’utilisateur pour fonctionner, ces TIC doivent fournir au moins un mode de fonctionnement qui ne requiert pas d’actions simultanées de la part de l’utilisateur pour fonctionner.</p>
@@ -3099,7 +3047,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><ol start="3">
-<li><p>L’article 9.3.5 prévoit l’ajustement de l’acceptation de la double frappe de la même touche;<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></li>
+<li><p>L’article 9.3.5 prévoit l’ajustement de l’acceptation de la double frappe de la même touche;<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a></p></li>
 </ol></td>
 <td data-wb-tags="choice_1 choice_2"><p>5.8 Acceptation de la double frappe</p>
 <p>Lorsqu’un clavier ou un pavé numérique sont fournis, le délai après chaque frappe, pendant lequel une pression supplémentaire sur une touche ne sera pas acceptée si elle est identique à la frappe précédente, doit être réglable jusqu’à au moins 0,5 seconde.</p></td>
@@ -3142,13 +3090,6 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 </tbody>
 </table>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>L’article 508 mentionne spécifiquement les touches; tandis que la norme EN 301 549 a une portée plus large et doit inclure les touches.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>L’article 508 exige que le délai soit réglé jusqu’à 2 secondes, tandis que la norme EN 301 549 exige le réglage du délai jusqu’à 0,5 seconde.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 #### 503 Applications
 
@@ -3719,7 +3660,7 @@ REMARQUE 1 :</p>
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>407.5 Réponse minutée</p>
-<p>Lorsqu’une réponse minutée est requise, l’utilisateur doit être averti visuellement, ainsi que de manière tactile et auditive, et il doit avoir la possibilité d’indiquer qu’il a besoin de plus de temps.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></td>
+<p>Lorsqu’une réponse minutée est requise, l’utilisateur doit être averti visuellement, ainsi que de manière tactile et auditive, et il doit avoir la possibilité d’indiquer qu’il a besoin de plus de temps.<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"></td>
 <td data-wb-tags="choice_1"></td>
 <td data-wb-tags="choice_2 choice_3"></td>
@@ -3731,7 +3672,7 @@ REMARQUE 1 :</p>
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>407.8 Hauteur et profondeur de portée</p>
-<p>Au moins un de chaque type de pièce manœuvrable des TIC fixes doit être à une hauteur conforme à la clause 407.8.2 ou 407.8.3 selon sa position établie par le plan de référence vertical spécifié à la clause 407.8.1 pour une portée latérale ou une portée avant. Les pièces manœuvrables utilisées avec sortie vocale qui sont requises par la clause 402.2 ne doivent pas être le seul type de pièce manœuvrable conforme à la clause 407.8, sauf si la pièce est la seule pièce manœuvrable de son type.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></td>
+<p>Au moins un de chaque type de pièce manœuvrable des TIC fixes doit être à une hauteur conforme à la clause 407.8.2 ou 407.8.3 selon sa position établie par le plan de référence vertical spécifié à la clause 407.8.1 pour une portée latérale ou une portée avant. Les pièces manœuvrables utilisées avec sortie vocale qui sont requises par la clause 402.2 ne doivent pas être le seul type de pièce manœuvrable conforme à la clause 407.8, sauf si la pièce est la seule pièce manœuvrable de son type.<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"></td>
 <td data-wb-tags="choice_1"></td>
 <td data-wb-tags="choice_2 choice_3"></td>
@@ -3780,7 +3721,7 @@ REMARQUE 1 :</p>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>408.3 Clignotement</p>
 <p>Lorsque les TIC émettent des lumières sous forme de flash, il ne doit pas y avoir plus de trois flashs dans un intervalle d’une seconde.</p>
-<p>EXCEPTION : Les flashs qui ne dépassent pas le seuil de flash générique et le seuil de flash rouge définis dans les WCAG 2.0 (incorporés par renvoi, voir l’article 702.10.1) n’ont pas à être conformes à la clause 408.3. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p></td>
+<p>EXCEPTION : Les flashs qui ne dépassent pas le seuil de flash générique et le seuil de flash rouge définis dans les WCAG 2.0 (incorporés par renvoi, voir l’article 702.10.1) n’ont pas à être conformes à la clause 408.3. <a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"></td>
 <td data-wb-tags="choice_1"></td>
 <td data-wb-tags="choice_2 choice_3"></td>
@@ -3792,7 +3733,7 @@ REMARQUE 1 :</p>
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>411.1 Généralités</p>
-<p>Lorsqu’ils sont fournis, les signaux ou indices sonores ne doivent pas être utilisés comme seul moyen de véhiculer de l’information, d’indiquer une action ou de solliciter une réponse.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p></td>
+<p>Lorsqu’ils sont fournis, les signaux ou indices sonores ne doivent pas être utilisés comme seul moyen de véhiculer de l’information, d’indiquer une action ou de solliciter une réponse.<a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"></td>
 <td data-wb-tags="choice_1"></td>
 <td data-wb-tags="choice_2 choice_3"></td>
@@ -3952,7 +3893,7 @@ REMARQUE 1 :</p>
 <td data-wb-tags="choice_1 choice_5"><p>502.4 Caractéristiques d’accessibilité de la plateforme</p>
 <p>Les plateformes et les logiciels de plateforme doivent être conformes aux exigences de la norme <em>ANSI/HFES 200.2, Human Factors Engineering of Software User interfaces — Part 2: Accessibility (2008)</em> (incorporée par renvoi, voir l’article 702.4.1) énumérées ci-dessous :</p>
 <ol start="4">
-<li><p>L’article 10.6.7 permet aux utilisateurs de choisir un équivalent visuel pour la sortie audio.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p></li>
+<li><p>L’article 10.6.7 permet aux utilisateurs de choisir un équivalent visuel pour la sortie audio.<a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a></p></li>
 </ol></td>
 <td data-wb-tags="choice_1 choice_2"></td>
 <td data-wb-tags="choice_1"></td>
@@ -3967,7 +3908,7 @@ REMARQUE 1 :</p>
 <td data-wb-tags="choice_1 choice_5"><p>502.4 Caractéristiques d’accessibilité de la plateforme</p>
 <p>Les plateformes et les logiciels de plateforme doivent être conformes aux exigences de la norme <em>ANSI/HFES 200.2, Human Factors Engineering of Software User interfaces — Part 2: Accessibility (2008)</em> (incorporée par renvoi, voir l’article 702.4.1) énumérées ci-dessous :</p>
 <ol start="5">
-<li><p>L’article 10.6.8 synchronise les équivalents audios pour les événements visuels.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p></li>
+<li><p>L’article 10.6.8 synchronise les équivalents audios pour les événements visuels.<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a></p></li>
 </ol></td>
 <td data-wb-tags="choice_1 choice_2"></td>
 <td data-wb-tags="choice_1"></td>
@@ -3982,7 +3923,7 @@ REMARQUE 1 :</p>
 <td data-wb-tags="choice_1 choice_5"><p>502.4 Caractéristiques d’accessibilité de la plateforme</p>
 <p>Les plateformes et les logiciels de plateforme doivent être conformes aux exigences de la norme <em>ANSI/HFES 200.2, Human Factors Engineering of Software User interfaces — Part 2: Accessibility (2008)</em> (incorporée par renvoi, voir l’article 702.4.1) énumérées ci-dessous :</p>
 <ol start="6">
-<li><p>L’article 10.6.9 fournit des services de sortie vocale.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p></li>
+<li><p>L’article 10.6.9 fournit des services de sortie vocale.<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a></p></li>
 </ol></td>
 <td data-wb-tags="choice_1 choice_2"></td>
 <td data-wb-tags="choice_1"></td>
@@ -3995,7 +3936,7 @@ REMARQUE 1 :</p>
 </tr>
 <tr>
 <td data-wb-tags="choice_1 choice_5"><p>504.2.2 Exportation de fichier PDF</p>
-<p>Les outils-auteurs capables d’exporter des fichiers PDF qui sont conformes à la norme ISO 32000-1:2008 (PDF 1.7) doivent également pouvoir exporter des fichiers PDF conformes à la norme ANSI/AIIM/ISO 14289-1:2016 (PDF/UA-1) (incorporée par renvoi, voir l’article 702.3.1).<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p></td>
+<p>Les outils-auteurs capables d’exporter des fichiers PDF qui sont conformes à la norme ISO 32000-1:2008 (PDF 1.7) doivent également pouvoir exporter des fichiers PDF conformes à la norme ANSI/AIIM/ISO 14289-1:2016 (PDF/UA-1) (incorporée par renvoi, voir l’article 702.3.1).<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a></p></td>
 <td data-wb-tags="choice_1 choice_2"></td>
 <td data-wb-tags="choice_1"></td>
 <td data-wb-tags="choice_2 choice_3"></td>
@@ -4007,20 +3948,6 @@ REMARQUE 1 :</p>
 </tr>
 </tbody>
 </table>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>La norme EN 301 549 considère la réponse minutée comme un problème logiciel. Voir 11.2.1.17 (réglable du délai).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Les clauses des normes EN 301 549 V1.1.1 (2014) et V2.1.2 (2018) de la série 407.8 sont des recommandations (« devrait » par opposition à « doit »). Toutefois, les dispositions de la norme 301 549 V3.1.1 (2019) sont des exigences (« doit » par opposition à « devrait »).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>La norme EN 301 549 considère les problèmes liés au clignotement et à la photosensibilité comme des critères de rendement fonctionnel (voir 4.2.9) et un critère logiciel (voir 11.2.1.19)<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>La norme EN 301 549 considère les problèmes liés à la transmission des renseignements par multiples modalités comme des problèmes logiciels (voir 11.2.1.9)<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Aucune clause correspondante dans la norme EN 301 549. Certains aspects sont abordés dans les articles 5.1.5, 7.1.1, 7.1.2, 7.3, 11.2.1.2, 11.2.1.3 et 11.2.1.5 de la norme EN 301 549 (2014).<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>Aucune clause correspondante dans la norme EN 301 549. Certains aspects sont abordés dans les articles 5.1.3, 7.2.2 et 11.3 de la norme</p>
-<p>EN 301 549 (2014).<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p>Aucune clause correspondante dans la norme EN 301 549. La question de l’interopérabilité avec les technologies d’assistance est abordée à l’article 11.3 de la norme EN 301 549 (2014).<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8"><p>Aucune clause correspondante dans la norme EN 301 549, mais la clause 11.6.3 couvre la même exigence sans préciser PDF.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 #### EN 301 549
 
@@ -5929,3 +5856,48 @@ REMARQUE 2 : Le système peut être spécifié comme devant fonctionner avec de
 </table>
 
 <div class="container">
+
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+
+## Notes de bas de page
+
+<ol>
+<li id="fn1"><p>Les critères de rendement fonctionnel 302.7 et 302.8 de l’article 508 et les énoncés de rendement fonctionnel 4.2.7 et 4.2.8 de la norme EN 301 549 inclusivement visent les mêmes exigences, même s’ils sont regroupés légèrement différemment dans chaque norme.<a href="#fnref1" class="footnote-back" role="doc-backlink"><small>Return to reference 1</small></a></p></li>
+<li id="fn2"><p>Les critères de rendement fonctionnel 302.7 et 302.8 de l’article 508 et les énoncés de rendement fonctionnel 4.2.7 et 4.2.8 de la norme EN 301 549 inclusivement visent les mêmes exigences, même s’ils sont regroupés légèrement différemment dans chaque norme.<a href="#fnref2" class="footnote-back" role="doc-backlink"><small>Return to reference 2</small></a></p></li>
+<li id="fn3">
+<p>L’article 508 précise que le mode de fonctionnement non visuel doit être une sortie vocale.<a href="#fnref3" class="footnote-back" role="doc-backlink"><small>Return to reference 3</small></a></p>
+</li>
+<li id="fn4"><p>L’article 508 fait référence à une configuration de clavier spécifique qui n’est pas nécessairement pertinente à toutes les langues.<a href="#fnref4" class="footnote-back" role="doc-backlink"><small>Return to reference 4</small></a></p></li>
+<li id="fn5"><p>L’article 508 contient des exigences supplémentaires relatives à la superposition des touches alphabétiques sur les touches numériques.<a href="#fnref5" class="footnote-back" role="doc-backlink"><small>Return to reference 5</small></a></p></li>
+<li id="fn6"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref6" class="footnote-back" role="doc-backlink"><small>Return to reference 6</small></a></p></li>
+<li id="fn7"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref7" class="footnote-back" role="doc-backlink"><small>Return to reference 7</small></a></p></li>
+<li id="fn8"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref8" class="footnote-back" role="doc-backlink"><small>Return to reference 8</small></a></p></li>
+<li id="fn9"><p>La norme EN 301 549 V3.1.1 (2019-11) contient une erreur: «Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait […] » Les 685 mm auraient dû être convertis en 27 po. Ce document démontre l’erreur dans la documentation originale de la norme EN.<a href="#fnref9" class="footnote-back" role="doc-backlink"><small>Return to reference 9</small></a></p></li>
+<li id="fn10"><p>La norme EN 301 549 V3.1.1 (2019-11) contient une erreur: «Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait […] » Les 685 mm auraient dû être convertis en 27 po. Ce document démontre l’erreur dans la documentation originale de la norme EN.<a href="#fnref10" class="footnote-back" role="doc-backlink"><small>Return to reference 10</small></a></p></li>
+<li id="fn11"><p>L’article 508 fait référence à la norme 47 CFR 68.317 (une réglementation américaine), tandis que la norme EN 301 549 fait référence au niveau spécifique de gain de volume requis.<a href="#fnref11" class="footnote-back" role="doc-backlink"><small>Return to reference 11</small></a></p></li>
+<li id="fn12"><p>La norme EN 301 549 comprend des exigences plus spécifiques en matière de gain de volume.<a href="#fnref12" class="footnote-back" role="doc-backlink"><small>Return to reference 12</small></a></p></li>
+<li id="fn13"><p>Chacune fait référence à des normes locales pertinentes.<a href="#fnref13" class="footnote-back" role="doc-backlink"><small>Return to reference 13</small></a></p></li>
+<li id="fn14"><p>Chacune fait référence à des normes locales pertinentes.<a href="#fnref14" class="footnote-back" role="doc-backlink"><small>Return to reference 14</small></a></p></li>
+<li id="fn15"><p>Les exigences de la norme EN 301 549 n’ont qu’une valeur informative et font référence à une limite de fréquence supérieure plutôt qu’à la norme de l’UTI.<a href="#fnref15" class="footnote-back" role="doc-backlink"><small>Return to reference 15</small></a></p></li>
+<li id="fn16"><p>La norme EN 301 549 fournit les exigences relatives au TTR, dont il est question ci-dessous.<a href="#fnref16" class="footnote-back" role="doc-backlink"><small>Return to reference 16</small></a></p></li>
+<li id="fn17"><p>La norme EN 301 549 précise qu’elle doit être offerte « en mode textuel et dans au moins un autre mode » tandis que l’article 508 précise qu’elle doit être « visible et audible ».<a href="#fnref17" class="footnote-back" role="doc-backlink"><small>Return to reference 17</small></a></p></li>
+<li id="fn18"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref18" class="footnote-back" role="doc-backlink"><small>Return to reference 18</small></a></p></li>
+<li id="fn19"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref19" class="footnote-back" role="doc-backlink"><small>Return to reference 19</small></a></p></li>
+<li id="fn20"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref20" class="footnote-back" role="doc-backlink"><small>Return to reference 20</small></a></p></li>
+<li id="fn21"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref21" class="footnote-back" role="doc-backlink"><small>Return to reference 21</small></a></p></li>
+<li id="fn22"><p>L’article 508 fait référence aux normes locales spécifiques relatives aux syntoniseurs de télévision numérique.<a href="#fnref22" class="footnote-back" role="doc-backlink"><small>Return to reference 22</small></a></p></li>
+<li id="fn23"><p>L’article 508 met l’accent sur les pièces manœuvrables tandis que la norme EN 301 549 met l’accent sur le niveau d’interaction.<a href="#fnref23" class="footnote-back" role="doc-backlink"><small>Return to reference 23</small></a></p></li>
+<li id="fn24"><p>L’article 508 met l’accent sur les pièces manœuvrables tandis que la norme EN 301 549 met l’accent sur le niveau d’interaction.<a href="#fnref24" class="footnote-back" role="doc-backlink"><small>Return to reference 24</small></a></p></li>
+<li id="fn25"><p>L’article 508 mentionne spécifiquement les touches; tandis que la norme EN 301 549 a une portée plus large et doit inclure les touches.<a href="#fnref25" class="footnote-back" role="doc-backlink"><small>Return to reference 25</small></a></p></li>
+<li id="fn26"><p>L’article 508 exige que le délai soit réglé jusqu’à 2 secondes, tandis que la norme EN 301 549 exige le réglage du délai jusqu’à 0,5 seconde.<a href="#fnref26" class="footnote-back" role="doc-backlink"><small>Return to reference 26</small></a></p></li>
+<li id="fn27"><p>La norme EN 301 549 considère la réponse minutée comme un problème logiciel. Voir 11.2.1.17 (réglable du délai).<a href="#fnref27" class="footnote-back" role="doc-backlink"><small>Return to reference 27</small></a></p></li>
+<li id="fn28"><p>Les clauses des normes EN 301 549 V1.1.1 (2014) et V2.1.2 (2018) de la série 407.8 sont des recommandations (« devrait » par opposition à « doit »). Toutefois, les dispositions de la norme 301 549 V3.1.1 (2019) sont des exigences (« doit » par opposition à « devrait »).<a href="#fnref28" class="footnote-back" role="doc-backlink"><small>Return to reference 28</small></a></p></li>
+<li id="fn29"><p>La norme EN 301 549 considère les problèmes liés au clignotement et à la photosensibilité comme des critères de rendement fonctionnel (voir 4.2.9) et un critère logiciel (voir 11.2.1.19)<a href="#fnref29" class="footnote-back" role="doc-backlink"><small>Return to reference 29</small></a></p></li>
+<li id="fn30"><p>La norme EN 301 549 considère les problèmes liés à la transmission des renseignements par multiples modalités comme des problèmes logiciels (voir 11.2.1.9)<a href="#fnref30" class="footnote-back" role="doc-backlink"><small>Return to reference 30</small></a></p></li>
+<li id="fn31"><p>Aucune clause correspondante dans la norme EN 301 549. Certains aspects sont abordés dans les articles 5.1.5, 7.1.1, 7.1.2, 7.3, 11.2.1.2, 11.2.1.3 et 11.2.1.5 de la norme EN 301 549 (2014).<a href="#fnref31" class="footnote-back" role="doc-backlink"><small>Return to reference 31</small></a></p></li>
+<li id="fn32"><p>Aucune clause correspondante dans la norme EN 301 549. Certains aspects sont abordés dans les articles 5.1.3, 7.2.2 et 11.3 de la norme</p>
+<p>EN 301 549 (2014).<a href="#fnref32" class="footnote-back" role="doc-backlink"><small>Return to reference 32</small></a></p></li>
+<li id="fn33"><p>Aucune clause correspondante dans la norme EN 301 549. La question de l’interopérabilité avec les technologies d’assistance est abordée à l’article 11.3 de la norme EN 301 549 (2014).<a href="#fnref33" class="footnote-back" role="doc-backlink"><small>Return to reference 33</small></a></p></li>
+<li id="fn34"><p>Aucune clause correspondante dans la norme EN 301 549, mais la clause 11.6.3 couvre la même exigence sans préciser PDF.<a href="#fnref34" class="footnote-back" role="doc-backlink"><small>Return to reference 34</small></a></p></li>
+</ol>
+</section>
