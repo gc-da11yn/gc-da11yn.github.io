@@ -14,7 +14,7 @@ description: "As the <a href='https://www.etsi.org/human-factors-accessibility/e
 - [Summary of differences](#summary-of-differences)
 - [Sources](#sources)
 - [Glossary](#glossary)
-- [Comparison Tables](#comparison-tables)
+- [Comparison tables](#comparison-tables)
 
 ## Copyright Notice
 
@@ -90,7 +90,6 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
   <dt>New requirement:</dt>
   <dd>a criterion that does not exist in a previous version of the EN 301 549 document. Several new criteria were added in the 2019 version that do not appear in either the 2014 or 2018 version</dd>
 </dl>
-
 
 **Changes between versions of EN 301 549 are emphasized:**
 
@@ -172,7 +171,6 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
   - [EN 301 549](#en-301-549)
 	</div>
 </section>
-
 
 ### Chapter 2: Scoping Requirements
 
