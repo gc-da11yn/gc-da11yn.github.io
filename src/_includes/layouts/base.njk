@@ -36,6 +36,9 @@
 			{% include "partials/office-toc.njk" %}
 			{% endif %}
 			{{ content | safe }}
+			{% if officeTOC === true %}
+			{% include "partials/office-toc.njk" %}
+			{% endif %}
 			{% include "partials/pagedetails.njk" %}
 		</div>
 
