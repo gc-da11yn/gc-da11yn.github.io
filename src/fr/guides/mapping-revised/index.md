@@ -195,8 +195,6 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
-
-
 <tbody>
 <tr>
 <td><p>E207.2 Conformité des WCAG</p>
@@ -225,15 +223,15 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -262,7 +260,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE 2 : Les interfaces utilisateur audio et tactiles peuvent contribuer au respect de cette clause.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>302.2 Avec vision limitée</p>
 <p>Lorsqu’un mode de fonctionnement visuel est prévu, les TIC doivent fournir au moins un mode de fonctionnement qui permet aux utilisateurs d’utiliser leur vision limitée.</p></td>
 <td><p>4.2.2 Utilisation avec vision limitée</p>
@@ -314,7 +312,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE : Lorsque des caractéristiques importantes de l’interface utilisateur sont codées par couleur, l’ajout de méthodes supplémentaires de distinction entre les caractéristiques peut contribuer au respect de cette clause.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>302.4 Sans audition</p>
 <p>Lorsqu’un mode de fonctionnement sonore est prévu, les TIC doivent fournir au moins un mode de fonctionnement qui ne requiert pas l’audition des utilisateurs.</p></td>
 <td><p>4.2.4 Utilisation sans audition</p>
@@ -365,7 +363,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE 3 : Les utilisateurs ayant une audition limitée peuvent également bénéficier d’un accès non auditif (voir la clause 4.2.4).</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>302.6 Sans capacité vocale</p>
 <p>Lorsque la contribution vocale est utilisée pour la saisie, le contrôle ou le fonctionnement, les TIC doivent fournir au moins un mode de fonctionnement qui n’exige pas la contribution vocale des utilisateurs.</p></td>
 <td><p>4.2.6 Utilisation sans capacité vocale</p>
@@ -423,7 +421,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE 3 : Certains utilisateurs ont une force de la main limitée et peuvent ne pas être en mesure d’atteindre le niveau de force nécessaire pour effectuer une opération. D’autres solutions d’interface utilisateur qui ne nécessitent pas de force manuelle peuvent contribuer au respect de cette clause.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>302.8 Avec une portée et une force limitée</p>
 <p>Lorsqu’un mode de fonctionnement manuel est prévu, les TIC doivent fournir au moins un mode de fonctionnement qui peut être manœuvrable moyennant une portée et une force limitée.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></td>
 <td><p>4.2.8 Utilisation à portée limitée</p>
@@ -493,15 +491,15 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -522,7 +520,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>Lorsque les TIC ont une fonction restreinte, cette fonction restreinte doit pouvoir fonctionner sans que l’utilisateur ait à joindre, connecter ou installer une technologie d’assistance et doit être conforme aux exigences génériques des clauses 5.1.3 à 5.1.6 selon le cas. Les casques d’écoute personnels et les boucles inductives personnelles ne doivent pas être considérés comme une technologie d’assistance aux fins de la présente clause.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>402.2 Sortie vocale activée</p>
 <p>Les TIC ayant un écran d’affichage doivent être dotées d’une sortie vocale pour permettre aux utilisateurs atteints de déficience visuelle une utilisation complète et autonome.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <p>EXCEPTIONS :</p>
@@ -577,7 +575,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE : Cette sortie vocale peut prendre la forme d’une description audio ou d’une transcription auditive du contenu vidéo.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>402.2.1 Renseignements affichés à l’écran</p>
 <p>Une sortie vocale doit être fournie pour tous les renseignements affichés à l’écran.</p></td>
 <td><p>5.1.3.8 Entrée masquée</p>
@@ -627,12 +625,12 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE : La sortie vocale peut être fournie par n’importe quel élément de l’ensemble du système de TIC.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>402.2.3 Type de fonctionnement vocal et coordination</p>
 <p>La sortie vocale doit être fournie au moyen d’un mécanisme facilement accessible à tous les utilisateurs, y compris, sans toutefois s’y limiter, un connecteur accrédité par l’industrie ou un combiné téléphonique. La sortie vocale doit être enregistrée ou être une voix humaine numérisée, ou synthétisée. La sortie vocale doit être coordonnée avec les renseignements affichés à l’écran.</p></td>
 <td><p>5.1.3.2 Mode de fonctionnement auditif incluant l’usage de la voix</p>
 <p>Lorsque la sortie sonore est fournie en tant qu’accès non visuel à une fonction restreinte, les fonctions sonores doivent être utilisées :</p>
-<ol type="a">
+<ol>
 <li><p>soit directement au moyen d’un mécanisme d’assistance intégré dans les TIC ou offert avec celles-ci;</p></li>
 <li><p>soit au moyen d’un casque d’écoute qui peut être branché via une prise audio de 3,5 mm ou une connexion accréditée par l’industrie, et ce, sans exiger l’utilisation de la vision.</p></li>
 </ol>
@@ -643,7 +641,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>Mise à jour explicative</p></td>
 <td><p>5.1.3.2 Mode de fonctionnement auditif incluant l’usage de la voix</p>
 <p>Lorsque la sortie sonore est fournie en tant qu’accès non visuel à une fonction restreinte, les fonctions sonores doivent être utilisées :</p>
-<ol type="a">
+<ol>
 <li><p>soit directement au moyen d’un mécanisme d’assistance intégré dans les TIC ou offert avec celles-ci;</p></li>
 <li><p>soit au moyen d’un casque d’écoute qui peut être branché via une prise audio de 3,5 mm ou une connexion accréditée par l’industrie, et ce, sans exiger l’utilisation de la vision.</p></li>
 </ol>
@@ -653,7 +651,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <td></td>
 <td><p>5.1.3.2 Mode de fonctionnement auditif incluant l’usage de la voix</p>
 <p>Lorsque la sortie sonore est fournie en tant qu’accès non visuel à une fonction restreinte, les fonctions sonores doivent être utilisées :</p>
-<ol type="a">
+<ol>
 <li><p>soit directement au moyen d’un mécanisme d’assistance intégré dans les TIC ou offert avec celles-ci;</p></li>
 <li><p>soit au moyen d’un casque d’écoute qui peut être branché via une prise audio de 3,5 mm ou une connexion accréditée par l’industrie, et ce, sans exiger l’utilisation de la vision.</p></li>
 </ol>
@@ -663,7 +661,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <td></td>
 <td><p>5.1.3.2 Mode de fonctionnement auditif incluant l’usage de la voix</p>
 <p>Lorsque la sortie sonore est fournie en tant qu’accès non visuel à une fonction restreinte, les fonctions sonores doivent être utilisées :</p>
-<ol type="a">
+<ol>
 <li><p>soit directement au moyen d’un mécanisme d’assistance intégré dans les TIC ou offert avec celles-ci;</p></li>
 <li><p>soit au moyen d’un casque d’écoute qui peut être branché via une prise audio de 3,5 mm ou une connexion accréditée par l’industrie, et ce, sans exiger l’utilisation de la vision.</p></li>
 </ol>
@@ -697,7 +695,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE 2 : Les exemples d’informations auditives qui permettent à l’utilisateur de mettre en corrélation l’audio avec les informations affichées à l’écran comprennent la structure et les relations véhiculées dans la présentation.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>402.2.4 Contrôle par l’utilisateur</p>
 <p>La sortie vocale de toute fonction unique doit être automatiquement interrompue lorsqu’une transaction est sélectionnée. La sortie vocale doit pouvoir être répétée et mise en pause.</p></td>
 <td><p>5.1.3.4 Contrôle de la sortie vocale par l’utilisateur</p>
@@ -743,7 +741,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE : Lorsqu’il est essentiel que l’utilisateur entende l’intégralité du message, par exemple une instruction de sécurité ou un avertissement, les TIC peuvent devoir bloquer toute action de l’utilisateur afin que la parole ne soit pas interrompue.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>402.2.5 Instructions en braille</p>
 <p>Lorsque la sortie vocale est requise par la clause 402.2, des instructions en braille doivent être fournies pour lancer le mode de fonctionnement vocal. Les services en braille doivent être obtenus par contrat et être conformes à la norme 36 CFR partie 1191, annexe D, article 703.3.1.</p>
 <p>EXCEPTION : Les dispositifs à usage personnel n’ont pas à être conformes à la clause 402.2.5.</p></td>
@@ -783,7 +781,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>Lorsque la sortie sonore est fournie en tant qu’accès non visuel à une fonction restreinte, et ce, par le biais d’un mécanisme d’écoute privée, les TIC doivent prévoir au moins un mode de fonctionnement non visuel pour contrôler le volume.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>402.3.1 Écoute privée</p>
 <p>Lorsque les TIC fournissent un mode d’écoute privée, elles doivent fournir un mode de fonctionnement pour contrôler le volume. Lorsque les TIC fournissent une sortie par un transducteur audio qui est normalement tenu à l’oreille, il faut fournir un moyen de couplage magnétique efficace aux technologies auditives.</p></td>
 <td><p>8.2.2.1 Dispositifs de téléphonie fixe</p>
@@ -828,7 +826,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE : Les TIC répondant aux exigences de la norme ANSI/IEEE C63.19 [i.1] sont réputées conformes aux exigences de la présente clause.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>402.3.2 Écoute non privée</p>
 <p>Lorsque les TIC fournissent une écoute non privée, une commande de volume incrémentielle doit être fournie avec une amplification de sortie jusqu’à un niveau d’au moins 65 dBA. Une fonction doit être fournie pour rétablir automatiquement le volume au niveau par défaut après chaque utilisation.</p></td>
 <td><p>5.1.3.12 Volume de l’enceinte</p>
@@ -869,7 +867,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <p>REMARQUE 1 : Une fonction permettant de désactiver la fonction de réinitialisation du volume peut être fournie afin de permettre de respecter l’exception de l’utilisateur unique.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>402.4 Caractères sur les écrans d’affichage</p>
 <p>Au moins un mode de caractères affiché à l’écran doit être dans une police sans empattement. Lorsque les TIC ne prévoient pas de fonction d’agrandissement de l’écran, les caractères doivent avoir une hauteur minimale de 4,8 mm (3/16 po) en fonction de la lettre majuscule « I ». Les caractères doivent se distinguer de leur arrière-plan, soit au moyen de caractères de couleur claire sur fond sombre, soit de caractères de couleur sombre sur fond clair.</p></td>
 <td><p>5.1.4 Fonction restreinte à l’agrandissement du texte</p>
@@ -998,15 +996,15 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -1045,15 +1043,15 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -1081,15 +1079,15 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -1118,7 +1116,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>REMARQUE 2 : La sortie non privée peut être préférée lorsque la fonction restreinte est utilisée, par exemple, dans l’intimité de la maison de l’utilisateur. Une mise en garde soulignant les préoccupations relatives à la protection de la vie privée pourrait être appropriée pour s’assurer que l’utilisateur a fait un choix éclairé.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>405.1 Généralités</p>
 <p>Le même degré de protection des données d’entrée et de sortie doit être fourni à tous les utilisateurs. Lorsque la sortie vocale requise par la clause 402.2 est activée, l’écran ne doit pas s’éteindre automatiquement.</p></td>
 <td><p>5.1.3.8 Entrée masquée</p>
@@ -1151,15 +1149,15 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -1200,15 +1198,15 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -1233,7 +1231,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>REMARQUE : Cette exigence peut être satisfaite en rendant les pièces manœuvrables perceptibles au toucher.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.3.1 Perceptibles de manière tactile</p>
 <p>Les commandes d’entrée doivent être manœuvrables et perceptibles de manière tactile sans activation.</p></td>
 <td><p>5.6.1 État tactile ou auditif</p>
@@ -1279,7 +1277,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>REMARQUE : Cette exigence peut être satisfaite en rendant les pièces manœuvrables perceptibles au toucher.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.3.3 Touches numériques</p>
 <p>Lorsqu’elles sont fournies, les touches numériques doivent être disposées selon le format du pavé numérique à 12 touches en ordre ascendant ou descendant. La touche du numéro cinq doit pouvoir se distinguer de manière tactile des autres touches. Lorsque les TIC fournissent un clavier avec superposition des touches alphabétiques sur les touches numériques, les liens entre les lettres et les chiffres doivent être conformes à la Recommandation E.161 de l’UIT-T (incorporée par renvoi, voir l’article 702.7.1).<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></td>
 <td><p>8.4.1 Touches numériques</p>
@@ -1305,34 +1303,34 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsqu’un clavier doté d’une fonction de répétition des touches est fourni, le délai de répétition des touches doit être établi ou réglé à au moins 2 secondes.</p></td>
 <td><p>5.7 Répétition des touches</p>
 <p>Lorsque des TIC avec fonction de répétition des touches sont fournies et que la fonction de répétition des touches ne peut pas être désactivée :</p>
-<ol type="a">
+<ol>
 <li><p>le délai de répétition des touches doit être réglable à au moins 2 secondes;</p></li>
 <li><p>b. la fréquence de répétition des touches doit être réglable à un caractère par 2 secondes.</p></li>
 </ol></td>
 <td>Reformulation stylistique</td>
 <td><p>5.7 Répétition des touches</p>
 <p>Lorsque les TIC <strong>sont dotées d’une fonction de répétition des touches</strong> qui ne peut pas être désactivée :</p>
-<ol type="a">
+<ol>
 <li><p>le délai de répétition des touches doit être réglable à au moins 2 secondes;</p></li>
 <li><p>la fréquence de répétition des touches doit être réglable à un caractère par 2 secondes.</p></li>
 </ol></td>
 <td>Reformulation stylistique</td>
 <td><p>5.7 Répétition des touches</p>
 <p>Lorsque les TIC sont dotées d’une fonction de répétition des touches qui ne peut pas être désactivée :</p>
-<ol type="a">
+<ol>
 <li><p>le délai de répétition des touches doit être réglable à au moins 2 secondes;</p></li>
 <li><p>la fréquence de répétition des touches doit être réglable à un caractère par 2 secondes.</p></li>
 </ol></td>
 <td></td>
 <td><p>5.7 Répétition des touches</p>
 <p>Lorsque les TIC sont dotées d’une fonction de répétition des touches qui ne peut pas être désactivée :</p>
-<ol type="a">
+<ol>
 <li><p>le délai de répétition des touches doit être réglable à au moins 2 secondes;</p></li>
 <li><p>la fréquence de répétition des touches doit être réglable à un caractère par 2 secondes.</p></li>
 </ol></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.6 Fonctionnement</p>
 <p>Au moins un mode de fonctionnement doit être manœuvrable d’une seule main et ne doit pas nécessiter un serrage, un pincement ou une torsion du poignet. La force requise pour activer les pièces manœuvrables doit être au maximum de 5 livres (22,2 N).</p></td>
 <td><p>5.5.1 Moyens de fonctionnement</p>
@@ -1366,7 +1364,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsqu’une commande nécessite un serrage, un pincement ou une torsion du poignet pour fonctionner, un autre moyen de fonctionnement qui n’exige pas de telles actions doit être fourni.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.6 Fonctionnement</p>
 <p>Au moins un mode de fonctionnement doit être manœuvrable d’une seule main et ne doit pas nécessiter un serrage, un pincement ou une torsion du poignet. La force requise pour activer les pièces manœuvrables doit être au maximum de 5 livres (22,2 N).</p></td>
 <td><p>8.4.2.2 Force de fonctionnement des pièces mécaniques</p>
@@ -1406,7 +1404,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>REMARQUE : La norme ETS 300 767 [i.6] de l’ETSI définit les indications tactiles appropriées pour les cartes plastiques.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.1.1 Plan vertical pour portée latérale</p>
 <p>Lorsqu’une portée latérale est fournie, le plan de référence vertical doit avoir une longueur minimale de 1 220 mm (48 po).</p></td>
 <td><p>8.3.2.2 Surface de plancher dégagé et espace au sol</p>
@@ -1446,7 +1444,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsque des TIC fixes intègrent un espace opérationnel, elles doivent prévoir une surface de plancher dégagée qui a les dimensions minimales suivantes : un espace opérationnel des TIC de 760 mm (30 po) par 1 220 mm (48 po).</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.2.1 Portée latérale libre</p>
 <p>Lorsque la pièce manœuvrable est située à 255 mm (10 po) ou moins au-delà du plan de référence vertical, la pièce manœuvrable doit avoir une hauteur maximale de 1 220 mm (48 po) et une hauteur minimale 380 mm (15 po) au-dessus du plancher.</p></td>
 <td><p>8.3.3.2.1 Hauteur maximum de la portée latérale libre</p>
@@ -1486,7 +1484,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsque la portée latérale est libre ou obstruée par un élément faisant partie intégrante des TIC fixes et qui est inférieur à 255 mm (10 po), la hauteur minimum de la portée latérale à au moins un de chaque type de pièces manœuvrables devrait être inférieure ou égale à 380 mm (15 po) au-dessus du plancher de l’espace d’accès.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.2.2 Portée latérale obstruée</p>
 <p>Lorsque la pièce manœuvrable est située à plus de 255 mm (10 po), mais à moins de 610 mm (24 po), au-delà du plan de référence vertical, la pièce manœuvrable doit avoir une hauteur maximale de 1 170 mm (46 po) et une hauteur minimale de 380 mm (15 po) au-dessus du plancher. La pièce manœuvrable ne doit pas se trouver à plus de 610 mm (24 po) au-delà du plan de référence vertical.</p></td>
 <td><p>8.3.3.2.3.1 Portée latérale obstruée (≤ 255 mm) (&lt; 10 po)</p>
@@ -1526,7 +1524,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsque les TIC fixes présentent un obstacle qui fait partie intégrante des TIC, la hauteur de l’obstacle doit être inférieure à 865 mm (34 po). Lorsque la profondeur de l’obstruction est supérieure à 255 mm (10 po) et inférieure à 610 mm (24 po), la hauteur maximum de la portée latérale à au moins un de chaque type de pièces manœuvrables ne doit pas être supérieure à 1 170 mm (46 po) au-dessus du plancher de l’espace d’accès.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.3 Portée avant</p>
 <p>Les pièces manœuvrables des TIC dotées d’une portée avant doivent être conformes à la clause 407.8.3.1 ou 407.8.3.2. Le plan de référence vertical doit être centré et croiser la pièce manœuvrable. Lorsqu’une portée avant permet d’atteindre au-dessus d’une partie des TIC, celle-ci doit être au maximum d’une hauteur de 865 mm (34 po).</p></td>
 <td><p>8.3.3.1.1 Hauteur maximum de la portée avant libre</p>
@@ -1566,7 +1564,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsqu’aucune pièce des TIC fixes n’obstrue la portée avant, au moins un de chaque type de pièces manœuvrables ne doit pas être situé à moins de 380 mm (15 po) du plancher de l’espace d’accès.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.3 Portée avant</p>
 <p>Les pièces manœuvrables des TIC dotées d’une portée avant doivent être conformes à la clause 407.8.3.1 ou 407.8.3.2. Le plan de référence vertical doit être centré et croiser la pièce manœuvrable. Lorsqu’une portée avant permet d’atteindre au-dessus d’une partie des TIC, celle-ci doit être au maximum d’une hauteur de 865 mm (34 po).</p></td>
 <td><p>8.3.3.1.3.2 Portée avant obstruée (&lt; 510 mm) (&lt; 20 po)</p>
@@ -1608,7 +1606,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsque les TIC fixes présentent un obstacle faisant partie intégrante des TIC et qu’il n’est pas inférieur à 510 mm (20 pouces) mais est inférieur à 635 mm (25 pouces) au plus, la portée avant à au moins un de chaque type de pièces manœuvrables ne doit pas être supérieure à 1 120 mm (44 po) au-dessus du point de contact au sol des TIC.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.3.1 Portée avant libre</p>
 <p>Lorsque la pièce manœuvrable est située au bord avant de la saillie maximale dans la longueur du plan de référence vertical des TIC, la pièce manœuvrable doit avoir une hauteur maximale de 1 220 mm (48 po) et une hauteur minimale de 380 mm (15 po) pouces (380 mm) au-dessus du plancher.</p></td>
 <td><p>8.3.3.1.1 Hauteur maximum de la portée avant libre</p>
@@ -1646,7 +1644,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsqu’aucune pièce des TIC fixes n’obstrue la portée avant, au moins un de chaque type de pièces manœuvrables ne doit pas être situé à moins de 380 mm (15 po) du plancher de l’espace d’accès.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.3.2 Portée avant obstruée</p>
 <p>Lorsque la pièce manœuvrable est située au-delà du bord avant de la saillie maximale dans la longueur du plan de référence vertical des TIC, la pièce manœuvrable doit être conforme à la clause 407.8.3.2. La portée avant maximale autorisée pour une pièce manœuvrable doit être de 635 mm (25 po).</p></td>
 <td><p>8.3.3.1.3.2 Portée avant obstruée (&lt; 510 mm) (&lt; 20 po)</p>
@@ -1688,7 +1686,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsque les TIC fixes présentent un obstacle faisant partie intégrante des TIC et qu’il n’est pas inférieur à 510 mm (20 pouces) mais est inférieur à 635 mm (25 pouces) au plus, la portée avant à au moins un de chaque type de pièces manœuvrables ne doit pas être supérieure à 1 120 mm (44 po) au-dessus du point de contact au sol des TIC.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.3.2.1 Hauteur de la pièce manœuvrable pour les TIC avec portée avant obstruée</p>
 <p>La hauteur de la pièce manœuvrable doit être conforme au tableau 407.8.3.2.1.</p></td>
 <td><p>8.3.3.1.3.2 Portée avant obstruée (&lt; 510 mm) (&lt; 20 po)</p>
@@ -1730,7 +1728,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsque les TIC fixes présentent un obstacle faisant partie intégrante des TIC et qu’il n’est pas inférieur à 510 mm (20 pouces) mais est inférieur à 635 mm (25 pouces) au plus, la portée avant à au moins un de chaque type de pièces manœuvrables ne doit pas être supérieure à 1 120 mm (44 po) au-dessus du point de contact au sol des TIC.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.3.2.2 Espace pour les genoux et les pieds sous les TIC avec portée avant obstruée</p>
 <p>L’espace pour les genoux et les pieds sous les TIC doit avoir une hauteur minimum de 685 mm (27 po), une profondeur maximum de 635 mm (25 po) et doit être dégagé de tout obstacle.</p>
 <p>EXCEPTIONS :</p>
@@ -1763,7 +1761,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </ol></td>
 <td><p>8.3.2.5 Espace libre pour les pieds</p>
 <p>Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle d’au moins 230 mm (9 po) au-dessus du plancher est considéré comme un espace libre pour les pieds et il devrait :</p>
-<ol type="a">
+<ol>
 <li><p>avoir une largeur d’au plus 635 mm (25 po) sous tout l’obstacle;</p></li>
 <li><p>fournir un espace d’au moins 430 mm (17 po) de profondeur et 230 mm (9 po) au-dessus du plancher sous l’obstacle;</p></li>
 <li><p>être à une distance d’au plus 150 mm (6 po) de toute obstruction à 230 mm (9 po) au-dessus du plancher.</p></li>
@@ -1773,7 +1771,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Changement fonctionnel</p></td>
 <td><p>8.3.2.5 Espace libre pour les pieds</p>
 <p>Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle d’au moins 230 mm (9 po) au-dessus du plancher est considéré comme un espace libre pour les pieds et il devrait :</p>
-<ol type="a">
+<ol>
 <li><p>avoir une largeur d’au plus 635 mm (25 po) sous tout l’obstacle;</p></li>
 <li><p>procurer un espace d’au moins 430 mm (17 po) de profondeur et 230 mm (9 po) au-dessus du plancher sous l’obstacle;</p></li>
 <li><p>être à une distance d’au plus 150 mm (6 po) de toute obstruction à 230 mm (9 po) au-dessus du plancher.</p></li>
@@ -1781,7 +1779,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <td></td>
 <td><p>8.3.2.5 Espace libre pour les pieds</p>
 <p>Lorsqu’un obstacle <strong>fait partie intégrante des TIC fixes</strong>, un espace sous l’obstacle d’au moins 230 mm (9 po) au-dessus du plancher est considéré comme un espace libre pour les pieds et il <strong>doit</strong> :</p>
-<ol type="a">
+<ol>
 <li><p>avoir une largeur d’au plus 635 mm (25 po) sous tout l’obstacle;</p></li>
 <li><p>procurer un espace d’au moins 430 mm (17 po) de profondeur et 230 mm (9 po) au-dessus du plancher sous l’obstacle;</p></li>
 <li><p>être à une distance d’au plus 150 mm (6 po) de toute obstruction à 230 mm (9 po) au-dessus du plancher.</p></li>
@@ -1791,14 +1789,14 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Mise à jour explicative</p></td>
 <td><p>8.3.2.5 Espace libre pour les pieds</p>
 <p>Lorsqu’un obstacle fait partie intégrante des TIC fixes, un espace sous l’obstacle d’au moins 230 mm (9 po) au-dessus du plancher est considéré comme un espace libre pour les pieds et il doit :</p>
-<ol type="a">
+<ol>
 <li><p>avoir une largeur d’au plus 635 mm (25 po) sous tout l’obstacle;</p></li>
 <li><p>procurer un espace d’au moins 430 mm (17 po) de profondeur et 230 mm (9 po) au-dessus du plancher sous l’obstacle;</p></li>
 <li><p>être à une distance d’au plus 150 mm (6 po) de toute obstruction à 230 mm (9 po) au-dessus du plancher.</p></li>
 </ol></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.3.2.2 Espace pour les genoux et les pieds sous les TIC avec portée avant obstruée</p>
 <p>L’espace pour les genoux et les pieds sous les TIC doit avoir une hauteur minimum de 685 mm (27 po), une profondeur maximum de 635 mm (25 po) et doit être dégagé de tout obstacle.</p>
 <p>EXCEPTIONS :</p>
@@ -1808,7 +1806,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </ol></td>
 <td><p>8.3.2.6 Espace libre pour les genoux</p>
 <p>Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (27 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait :</p>
-<ol type="a">
+<ol>
 <li><p>être à une distance pas plus de 635 mm (25 po) sous toute obstruction à 230 mm (9 po) de hauteur au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 280 mm (11 po) sous l’obstacle et une hauteur de 230 mm (9 po) au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 205 mm (8 po) sous l’obstacle et une hauteur de 685 mm (27 po) au-dessus du plancher;</p></li>
@@ -1819,7 +1817,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Changement fonctionnel</p></td>
 <td><p>8.3.2.6 Espace libre pour les genoux</p>
 <p>Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (27 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait :</p>
-<ol type="a">
+<ol>
 <li><p>être à une distance pas plus de 635 mm (25 po) sous toute obstruction à 230 mm (9 po) de hauteur au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 280 mm (11 po) sous l’obstacle et une hauteur de 230 mm (9 po) au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 205 mm (8 po) sous l’obstacle et une hauteur de 685 mm (27 po) au-dessus du plancher;</p></li>
@@ -1828,7 +1826,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <td>Reformulation stylistique</td>
 <td><p>8.3.2.6 Espace libre pour les genoux</p>
 <p>Lorsqu’un obstacle fait <strong>partie intégrante des TIC fixes</strong>, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po)<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> au-dessus du plancher est considéré comme un espace libre pour les genoux et il <strong>doit :</strong></p>
-<ol type="a">
+<ol>
 <li><p>être à une distance pas plus de 635 mm (25 po) sous toute obstruction à 230 mm (9 po) de hauteur au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 280 mm (11 po) sous l’obstacle et une hauteur de 230 mm (9 po) au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 205 mm (8 po) sous l’obstacle et une hauteur de 685 mm (27 po) au-dessus du plancher;</p></li>
@@ -1839,7 +1837,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Changement fonctionnel</p></td>
 <td><p>8.3.2.6 Espace libre pour les genoux</p>
 <p>Lorsqu’un obstacle fait partie intégrante des TIC fixes, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po)<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> au-dessus du plancher est considéré comme un espace libre pour les genoux et il doit :</p>
-<ol type="a">
+<ol>
 <li><p>être à une distance pas plus de 635 mm (25 po) sous toute obstruction à 230 mm (9 po) de hauteur au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 280 mm (11 po) sous l’obstacle et une hauteur de 230 mm (9 po) au-dessus du plancher;</p></li>
 <li><p>avoir une largeur d’au moins 205 mm (8 po) sous l’obstacle et une hauteur de 685 mm (27 po) au-dessus du plancher;</p></li>
@@ -1867,15 +1865,15 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -1910,15 +1908,15 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -1947,7 +1945,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>REMARQUE 2 : La touche « VERR MAJ » de la plupart des claviers est un exemple de commande de verrouillage ou de basculement. La touche de volume d’un téléphone public, qui peut être réglé à un volume normal, fort ou très fort, en est un autre exemple.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>409.1 Généralités</p>
 <p>Lorsqu’ils sont fournis, les indicateurs d’état doivent être perceptibles visuellement ainsi que de manière tactile ou auditive.</p></td>
 <td><p>5.6.2 État visuel</p>
@@ -1978,15 +1976,15 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -2014,15 +2012,15 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -2047,7 +2045,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>REMARQUE : Les combinés et casques d’écoute de téléphonie fixe qui satisfont aux exigences de la norme ANSI/TIA-4965 sont réputés conformes à cette exigence.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.2.1 Gain de volume pour les téléphones filaires</p>
 <p>Un gain de volume conforme à la norme 47 CFR 68.317 doit être fourni sur les téléphones filaires analogiques et numériques.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></td>
 <td><p>8.2.1.2 Réglage incrémentiel du volume</p>
@@ -2087,7 +2085,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>REMARQUE : Les combinés et casques d’écoute de téléphonie fixe qui satisfont aux exigences de la norme ANSI/TIA-4965 sont réputés conformes à cette exigence.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.2.2 Gain de volume pour les TIC non filaires</p>
 <p>Une méthode d’augmentation du volume doit être fournie pour les TIC non filaires.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></td>
 <td><p>8.2.1.2 Réglage incrémentiel du volume</p>
@@ -2126,7 +2124,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>REMARQUE : Les TIC répondant aux exigences de la norme ANSI/IEEE C63.19 sont réputées conformes aux exigences de la présente clause.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.3.2 Combinés filaires</p>
 <p>Les TIC sous forme de combinés filaires, y compris les combinés sans fil, doivent être conformes à la norme TIA-1083-B (incorporée par renvoi, voir l’article 702.9.1).<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p></td>
 <td><p>8.2.2.1 Dispositifs de téléphonie fixe</p>
@@ -2176,7 +2174,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>REMARQUE 2 : lorsqu’il y a négociation de codecs, d’autres codecs normalisés tels que la Recommandation G.722.2 de l’UIT-T sont parfois utilisés afin d’éviter le transcodage.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.5 Fonctionnalité texte en temps réel</p>
 <p>[Réservé].<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p></td>
 <td>Voir les exigences relatives au TTR dans EN 301 549 V1.1.1 (2014), chapitre 6, ci-dessous.</td>
@@ -2207,7 +2205,7 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 <p>Lorsque les TIC sont dotées de la fonction d’identification de l’appelant ou sont d’une fonction de télécommunications similaire, la fonction d’identification de l’appelant ou de télécommunications similaire doit être offerte en mode textuel ainsi qu’être déterminable par un programme informatique, à moins que la fonction ne soit restreinte.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.7 Communication vidéo</p>
 <p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p></td>
 <td><p>6.5.1 Généralités (information)</p>
@@ -2243,7 +2241,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p></td>
 <td><p>6.5.2 Résolution</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
-<ol type="a">
+<ol>
 <li><p>doivent prendre en charge au moins la résolution QCIF;</p></li>
 <li><p>doivent de préférence prendre en charge au moins la résolution CIF.</p></li>
 </ol></td>
@@ -2252,32 +2250,32 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>Changement fonctionnel</p></td>
 <td><p>6.5.2 Résolution</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
-<ol type="a">
+<ol>
 <li><p>doivent prendre en charge au moins la résolution QCIF;</p></li>
 <li><p>doivent de préférence prendre en charge au moins la résolution CIF.</p></li>
 </ol></td>
 <td></td>
 <td><p>6.5.2 Résolution</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
-<ol type="a">
+<ol>
 <li><p>doivent prendre en charge au moins la résolution <strong>QVGA</strong>;</p></li>
 <li><p>doivent de préférence prendre en charge au moins la résolution <strong>VGA</strong>.</p></li>
 </ol></td>
 <td>Changement fonctionnel</td>
 <td><p>6.5.2 Résolution</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
-<ol type="a">
+<ol>
 <li><p>doivent prendre en charge au moins la résolution QVGA;</p></li>
 <li><p>doivent de préférence prendre en charge au moins la résolution VGA.</p></li>
 </ol></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.7 Communication vidéo</p>
 <p>Lorsque les TIC sont dotées d’une fonctionnalité vidéo en temps réel, la qualité de la vidéo doit être suffisante pour prendre en charge la communication au moyen du langage des signes.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p></td>
 <td><p>6.5.3 Vitesse de défilement des images</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
-<ol type="a">
+<ol>
 <li><p>doivent prendre en charge une vitesse de défilement d’au moins 12 images par seconde (IPS);</p></li>
 <li><p>doivent de préférence prendre en charge une vitesse de défilement d’au moins 20 images par seconde (IPS) avec ou sans langage gestuel dans le flux vidéo.</p></li>
 </ol></td>
@@ -2286,21 +2284,21 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>Changement fonctionnel</p></td>
 <td><p>6.5.3 Vitesse de défilement des images</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
-<ol type="a">
+<ol>
 <li><p>doivent prendre en charge une vitesse de défilement d’au moins 12 images par seconde (IPS);</p></li>
 <li><p>doivent de préférence prendre en charge une vitesse de défilement d’au moins 20 images par seconde (IPS) avec ou sans langage gestuel dans le flux vidéo.</p></li>
 </ol></td>
 <td></td>
 <td><p>6.5.3 Vitesse de défilement des images</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
-<ol type="a">
+<ol>
 <li><p>doivent prendre en charge une vitesse de défilement d’au moins <strong>20</strong> images par seconde (IPS);</p></li>
 <li><p>doivent de préférence prendre en charge une vitesse de défilement d’au moins <strong>30</strong> images par seconde (IPS) avec ou sans langage gestuel dans le flux vidéo.</p></li>
 </ol></td>
 <td>Changement fonctionnel</td>
 <td><p>6.5.3 Vitesse de défilement des images</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
-<ol type="a">
+<ol>
 <li><p>doivent prendre en charge une vitesse de défilement d’au moins <strong>20</strong> images par seconde (IPS);</p></li>
 <li><p>doivent de préférence prendre en charge une vitesse de défilement d’au moins <strong>30</strong> images par seconde (IPS) avec ou sans langage gestuel dans le flux vidéo.</p></li>
 </ol></td>
@@ -2349,15 +2347,15 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -2385,7 +2383,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p><strong>REMARQUE 3 : La clause 7.1.1 fait référence à la capacité du lecteur d’afficher des sous-titres. Les clauses 9.1.2.2, 10.1.2.2 et 11.1.2.2 font référence à la fourniture de sous-titres pour le contenu (la vidéo).</strong></p></td>
 <td>Mise à jour explicative</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>413.1.2 Transmission des données de sous-titres codés</p>
 <p>Les données des sous-titres doivent passer par le câblage et l’équipement auxiliaire.</p></td>
 <td><p>5.4 Préservation des renseignements sur l’accessibilité pendant la conversion</p>
@@ -2433,15 +2431,15 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -2463,7 +2461,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>Lorsque les TIC transmettent, convertissent ou enregistrent de la vidéo avec synchronisation sonore, elles doivent préserver la description audio de manière à ce qu’elle puisse être lue conformément aux clauses 7.2.1 et 7.2.2.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>414.1.2 Autres TIC</p>
 <p>Les TIC autres que les syntoniseurs de télévision numérique doivent prévoir un traitement de la description audio.</p></td>
 <td><p>7.2.3 Préservation de la description audio</p>
@@ -2494,15 +2492,15 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -2535,7 +2533,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>REMARQUE 3 : Il est recommandé d’ajouter des commandes permettant à l’utilisateur d’activer ou désactiver les sous-titres et les descriptions audio par défaut.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>415.1.2 Commandes pour les descriptions audio</p>
 <p>Lorsque les TIC sont dotées de pièces manœuvrables pour la sélection des programmes, elles doivent aussi être dotées de pièces manœuvrables pour la sélection de la description audio.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></td>
 <td><p>7.3 Commandes de l’utilisateur pour les sous-titres et les descriptions audio</p>
@@ -2581,15 +2579,15 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -2615,15 +2613,15 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -2643,7 +2641,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>Lorsque le logiciel est une plateforme, il doit offrir des modes de fonctionnement suffisants permettant à l’utilisateur de contrôler les caractéristiques d’accessibilité de la plateforme documentées comme étant destinées aux utilisateurs.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.2.2 Aucune perturbation des caractéristiques d'accessibilité</p>
 <p>Les logiciels ne doivent pas perturber les caractéristiques de la plateforme qui sont définies dans la documentation de celle-ci comme étant des caractéristiques d’accessibilité.</p></td>
 <td><p>11.4.2 Aucune perturbation des caractéristiques d’accessibilité</p>
@@ -2702,7 +2700,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>REMARQUE 5 : Dans des environnements d’un programme informatique particuliers, les attributs techniques associés aux propriétés de l’interface utilisateur décrites dans les clauses 11.5.2.5 à 11.5.2.17 peuvent avoir des noms différents de ceux utilisés dans ces clauses.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.3 Services d’accessibilité</p>
 <p>Les logiciels et les outils logiciels de la plateforme fournis par le développeur de celle-ci doivent fournir un ensemble documenté de services d’accessibilité qui prennent en charge les applications exécutées sur la plateforme pour interagir avec la technologie d’assistance et doivent être conformes à la clause 502.3. Les applications qui sont également des plateformes doivent exposer les services d’accessibilité de la plateforme sous-jacents ou mettre en œuvre d’autres services d’accessibilité documentés.</p></td>
 <td><p>11.3.2.2 Soutien pour le service d’accessibilité aux plateformes pour les technologies d’assistance</p>
@@ -2761,7 +2759,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>Lorsque le logiciel fournit une interface utilisateur, il doit, en utilisant les services décrits à la clause 11.5.2.3, permettre au rôle, aux états, à la limite, au nom et à la description des éléments d’interface utilisateur d’être déterminés par un programme informatique au moyen de technologies d’assistance.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.3.2 Modification des renseignements sur les objets</p>
 <p>Les états et les propriétés qui peuvent être définis par l’utilisateur doivent pouvoir être définis par un programme informatique, y compris par une technologie d’assistance.</p></td>
 <td><p>11.3.2.16 Modifications d’états ou de propriétés</p>
@@ -2805,7 +2803,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>Lorsque le logiciel fournit une interface utilisateur, il doit, en utilisant les services décrits à la clause 11.5.2.3, rendre la ligne et la colonne de chaque cellule d’un tableau de données, y compris les en-têtes de la ligne et de la colonne, le cas échéant, déterminables par un programme informatique au moyen de technologies d’assistance.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.3.4 Valeurs</p>
 <p>Toute valeur actuelle, ainsi que toute série ou plage de valeurs admissibles associée à un objet, doit être déterminable par un programme informatique.</p></td>
 <td><p>11.3.2.7 Valeurs</p>
@@ -2849,7 +2847,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>REMARQUE 2 : Des technologies d’assistance peuvent être nécessaires pour maintenir le même niveau de sécurité que les mécanismes de saisie standard pris en charge par la plateforme.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.3.6 Liens entre les étiquettes</p>
 <p>Tout lien qu’entretient un composant en tant qu’étiquette pour un autre composant, ou en tant que composant étiqueté par un autre composant, doit être déterminable par un programme informatique.</p></td>
 <td><p>11.3.2.8 Liens entre les étiquettes</p>
@@ -2883,7 +2881,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>Lorsque le logiciel fournit une interface utilisateur, il doit, en utilisant les services décrits à la clause 11.5.2.3, permettre de déterminer, par un programme informatique au moyen de technologies d’assistance, la relation entre un élément d’interface utilisateur et tout élément parent ou enfant.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.3.8 Texte</p>
 <p>Le contenu des objets textuels, les attributs textuels et la limite du texte affiché à l’écran doivent être déterminables par un programme informatique.</p></td>
 <td><p>11.3.2.10 Texte</p>
@@ -2927,7 +2925,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>REMARQUE 2 : Des technologies d’assistance peuvent être nécessaires pour maintenir le même niveau de sécurité que les mécanismes de saisie standard pris en charge par la plateforme.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.3.10 Liste des actions</p>
 <p>Une liste de toutes les actions pouvant être exécutées sur un objet doit être déterminable par un programme informatique.</p></td>
 <td><p>11.3.2.11 Liste des actions disponibles</p>
@@ -2971,7 +2969,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>REMARQUE 2 : Les technologies d’assistance peuvent être requises pour maintenir le même niveau de sécurité que les mécanismes de saisie standard pris en charge par la plateforme.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.3.12 Curseur du focus</p>
 <p>Les applications doivent exposer les informations et les mécanismes nécessaires pour faire le suivi du focus, du point d’insertion du texte et des attributs de sélection des composants de l’interface utilisateur.</p></td>
 <td><p>11.3.2.13 Suivi du focus et des attributs de sélection</p>
@@ -3015,7 +3013,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>REMARQUE 2 : Des technologies d’assistance peuvent être requises pour maintenir le même niveau de sécurité que les mécanismes de saisie standard pris en charge par la plateforme.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.3.14 Avis d’événements</p>
 <p>La technologie d’assistance doit avoir accès aux avis d’événements liés aux interactions de l’utilisateur, y compris, sans toutefois s’y limiter, les changements aux états, à la valeur, au nom, à la description et à la limite du composant.</p></td>
 <td><p>11.3.2.15 Avis de modification</p>
@@ -3045,8 +3043,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <td>Voir A-G, ci-dessous.</td>
 <td></td>
 </tr>
-<tr class="even">
-<td><ol type="A">
+<tr>
+<td><ol>
 <li><p>L’article 9.3.3 permet la saisie séquentielle de plusieurs touches (avec accord) ;<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></li>
 </ol></td>
 <td><p>5.9 Actions simultanées de la part de l’utilisateur</p>
@@ -3068,12 +3066,12 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <td></td>
 </tr>
 <tr>
-<td><ol start="2" type="A">
+<td><ol start="2">
 <li><p>L’article 9.3.4 prévoit l’ajustement du délai avant l’acceptation de la frappe;</p></li>
 </ol></td>
 <td><p>5.7 Répétition des touches</p>
 <p>Lorsque des TIC avec fonction de répétition des touches sont fournies et que la fonction de répétition des touches ne peut pas être désactivée :</p>
-<ol type="a">
+<ol>
 <li><p>le délai de répétition des touches doit être réglable à au moins 2 secondes;</p></li>
 <li><p>la fréquence de répétition des touches doit être réglable à un caractère par 2 secondes.</p></li>
 </ol></td>
@@ -3081,28 +3079,28 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>Mise à jour explicative</p></td>
 <td><p>5.7 Répétition des touches</p>
 <p>Lorsque les TIC <strong>sont dotées d’une fonction de répétition des touches</strong> qui ne peut pas être désactivée :</p>
-<ol type="a">
+<ol>
 <li><p>le délai de répétition des touches doit être réglable à au moins 2 secondes;</p></li>
 <li><p>la fréquence de répétition des touches doit être réglable à un caractère par 2 secondes.</p></li>
 </ol></td>
 <td>Reformulation stylistique</td>
 <td><p>5.7 Répétition des touches</p>
 <p>Lorsque les TIC sont dotées d’une fonction de répétition des touches qui ne peut pas être désactivée :</p>
-<ol type="a">
+<ol>
 <li><p>le délai de répétition des touches doit être réglable à au moins 2 secondes;</p></li>
 <li><p>la fréquence de répétition des touches doit être réglable à un caractère par 2 secondes.</p></li>
 </ol></td>
 <td></td>
 <td><p>5.7 Répétition des touches</p>
 <p>Lorsque les TIC sont dotées d’une fonction de répétition des touches qui ne peut pas être désactivée :</p>
-<ol type="a">
+<ol>
 <li><p>le délai de répétition des touches doit être réglable à au moins 2 secondes;</p></li>
 <li><p>la fréquence de répétition des touches doit être réglable à un caractère par 2 secondes.</p></li>
 </ol></td>
 <td></td>
 </tr>
-<tr class="even">
-<td><ol start="3" type="A">
+<tr>
+<td><ol start="3">
 <li><p>L’article 9.3.5 prévoit l’ajustement de l’acceptation de la double frappe de la même touche;<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></li>
 </ol></td>
 <td><p>5.8 Acceptation de la double frappe</p>
@@ -3120,7 +3118,7 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <td></td>
 </tr>
 <tr>
-<td><ol start="7" type="A">
+<td><ol start="7">
 <li><p>L’article 10.7.1 prévoit l’affichage des sous-titres fournis.</p></li>
 </ol></td>
 <td><p>7.1.1 Lecture du sous-titrage</p>
@@ -3159,15 +3157,15 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -3199,7 +3197,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE 3 : Cela n’empêche pas le logiciel d’avoir des valeurs supplémentaires pour un paramètre, tant qu’il existe un mode dans lequel l’application suivra les paramètres du système, même s’ils sont plus restreints.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>503.3 Autres interfaces utilisateurs</p>
 <p>Lorsqu’une application prévoit une autre interface utilisateur qui fonctionne comme une technologie d’assistance, l’application doit utiliser une plateforme et d’autres services d’accessibilité standard de l’industrie.</p></td>
 <td><p>11.3.2.4 Technologie d’assistance</p>
@@ -3248,7 +3246,7 @@ REMARQUE 1 :</p>
 <p><strong>REMARQUE 3 : la clause 7.1.1 fait référence à la capacité du lecteur d’afficher des sous-titres. Les clauses 9.1.2.2, 10.1.2.2 et 11.1.2.2 font référence à la fourniture de sous-titres pour le contenu (la vidéo).</strong></p></td>
 <td>Mise à jour explicative</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>503.4.1 Commandes pour les sous-titres</p>
 <p>Lorsque des commandes sont fournies à l’utilisateur pour régler le volume, les commandes de l’utilisateur pour sélectionner les sous-titres doivent être fournies par les TIC au même niveau de menu que les commandes de l’utilisateur pour le réglage du volume ou la sélection des programmes.</p></td>
 <td><p>7.3 Commandes de l’utilisateur pour les sous-titres et les descriptions audio</p>
@@ -3314,15 +3312,15 @@ REMARQUE 1 :</p>
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -3342,7 +3340,7 @@ REMARQUE 1 :</p>
 <p>Les outils-auteurs doivent être conformes aux clauses 11.8.2 à 11.8.5 dans la mesure où les renseignements requis pour l’accessibilité sont pris en charge par le format utilisé pour les extrants de l’outil-auteur.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>504.2 Création ou modification de contenu</p>
 <p>Les outils-auteurs doivent prévoir un mode de fonctionnement permettant de créer ou de modifier du contenu qui est conforme aux critères de succès de niveau A et de niveau AA ainsi qu’aux exigences de conformité dans les WCAG 2.0 (incorporées par renvoi, voir l’article 702.10.1) pour toutes les caractéristiques prises en charge et, le cas échéant, aux formats de fichier pris en charge par l’outil-auteur. Les outils-auteurs doivent permettre aux auteurs de remplacer les renseignements requis pour l’accessibilité.</p>
 <p>EXCEPTION : Les outils-auteurs n’ont pas à être conformes à la clause 504.2 lorsqu’ils sont utilisés pour modifier directement le code source en texte brut.</p></td>
@@ -3389,7 +3387,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE 2 : Les transformations de recodage sont des transformations dans le cadre desquelles la technologie utilisée pour coder le contenu est modifiée.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>504.3 Invites</p>
 <p>Les outils-auteurs doivent prévoir un mode de fonctionnement qui invite les auteurs à créer du contenu qui est conforme aux critères de succès de niveau A et de niveau AA ainsi qu’aux exigences de conformité dans les WCAG 2.0 (incorporées par renvoi, voir l’article 702.10.1) pour les caractéristiques prises en charge et, le cas échéant, aux formats de fichier pris en charge par l’outil-auteur.</p></td>
 <td><p>11.6.4 Aide à la réparation</p>
@@ -3440,15 +3438,15 @@ REMARQUE 1 :</p>
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -3477,12 +3475,12 @@ REMARQUE 1 :</p>
 <p>REMARQUE 3 : L’énoncé sur l'accessibilité et les pages d’aide sont deux exemples de diffusion de renseignements sur les produits.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>602.3 Documentation de soutien électronique</p>
 <p>La documentation au format électronique, y compris le soutien en libre-service sur le Web, doit être conforme aux critères de succès de niveau A et de niveau AA ainsi qu’aux exigences de conformité dans les WCAG 2.0 (incorporées par renvoi, voir l’article 702.10.1).</p></td>
 <td><p>12.1.2 Documentation accessible</p>
 <p>La documentation du produit fournie avec les TIC doit être disponible dans au moins un des formats électroniques suivants :</p>
-<ol type="a">
+<ol>
 <li><p>un format Web conforme aux exigences de la clause 9;</p></li>
 <li><p>un format autre qu’un format Web conforme aux exigences de la clause 10.</p></li>
 </ol>
@@ -3494,7 +3492,7 @@ REMARQUE 1 :</p>
 <p>Mise à jour explicative</p></td>
 <td><p>12.1.2 Documentation accessible</p>
 <p>La documentation du produit fournie avec les TIC doit être disponible dans au moins un des formats électroniques suivants :</p>
-<ol type="a">
+<ol>
 <li><p>un format Web conforme aux exigences de la clause 9;</p></li>
 <li><p>un format autre qu’un format Web conforme aux exigences de la clause 10.</p></li>
 </ol>
@@ -3505,7 +3503,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td><p>12.1.2 Documentation accessible</p>
 <p>La documentation du produit fournie avec les TIC doit être disponible dans au moins un des formats électroniques suivants :</p>
-<ol type="a">
+<ol>
 <li><p>un format Web conforme aux exigences de la clause 9;</p></li>
 <li><p>un format autre qu’un format Web conforme aux exigences de la clause 10.</p></li>
 </ol>
@@ -3516,7 +3514,7 @@ REMARQUE 1 :</p>
 <td>Changement fonctionnel</td>
 <td><p>12.1.2 Documentation accessible</p>
 <p>La documentation du produit fournie avec les TIC doit être disponible dans au moins un des formats électroniques suivants :</p>
-<ol type="a">
+<ol>
 <li><p>un format Web conforme aux exigences de la clause 9;</p></li>
 <li><p>un format autre qu’un format Web conforme aux exigences de la clause 10.</p></li>
 </ol>
@@ -3531,7 +3529,7 @@ REMARQUE 1 :</p>
 <p>Lorsque la documentation de soutien est uniquement fournie dans des formats non électroniques, d’autres formats utilisables par les personnes handicapées doivent être fournis sur demande.</p></td>
 <td><p>12.1.2 Documentation accessible</p>
 <p>La documentation du produit fournie avec les TIC doit être disponible dans au moins un des formats électroniques suivants :</p>
-<ol type="a">
+<ol>
 <li><p>un format Web conforme aux exigences de la clause 9;</p></li>
 <li><p>un format autre qu’un format Web conforme aux exigences de la clause 10.</p></li>
 </ol>
@@ -3543,7 +3541,7 @@ REMARQUE 1 :</p>
 <p>Mise à jour explicative</p></td>
 <td><p>12.1.2 Documentation accessible</p>
 <p>La documentation du produit fournie avec les TIC doit être disponible dans au moins un des formats électroniques suivants :</p>
-<ol type="a">
+<ol>
 <li><p>un format Web conforme aux exigences de la clause 9;</p></li>
 <li><p>un format autre qu’un format Web conforme aux exigences de la clause 10.</p></li>
 </ol>
@@ -3554,7 +3552,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td><p>12.1.2 Documentation accessible</p>
 <p>La documentation du produit fournie avec les TIC doit être disponible dans au moins un des formats électroniques suivants :</p>
-<ol type="a">
+<ol>
 <li><p>un format Web conforme aux exigences de la clause 9;</p></li>
 <li><p>un format autre qu’un format Web conforme aux exigences de la clause 10.</p></li>
 </ol>
@@ -3565,7 +3563,7 @@ REMARQUE 1 :</p>
 <td>Changement fonctionnel</td>
 <td><p>12.1.2 Documentation accessible</p>
 <p>La documentation du produit fournie avec les TIC doit être disponible dans au moins un des formats électroniques suivants :</p>
-<ol type="a">
+<ol>
 <li><p>un format Web conforme aux exigences de la clause 9;</p></li>
 <li><p>un format autre qu’un format Web conforme aux exigences de la clause 10.</p></li>
 </ol>
@@ -3583,15 +3581,15 @@ REMARQUE 1 :</p>
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -3611,7 +3609,7 @@ REMARQUE 1 :</p>
 <p>Les services d’appui en matière de TIC comprennent, sans s’y limiter, les centres d’assistance, les centres d’appel, le soutien technique, les services de relais et les services de formation.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>603.2 Renseignements sur les caractéristiques d’accessibilité et de compatibilité</p>
 <p>Les services de soutien en matière de TIC doivent inclure des renseignements sur les caractéristiques d’accessibilité et de compatibilité exigées par la clause 602.2.</p></td>
 <td><p>12.2.2 Renseignements sur les caractéristiques d’accessibilité et de compatibilité</p>
@@ -3659,15 +3657,15 @@ REMARQUE 1 :</p>
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508 révisé</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -3684,7 +3682,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.1 Généralités</p>
 <p>Le cas échéant, les pièces manœuvrables utilisées dans le fonctionnement normal des TIC doivent être conformes à la clause 407.</p></td>
 <td></td>
@@ -3708,7 +3706,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.3 Commandes d’entrée</p>
 <p>Au moins une commande d’entrée conforme à la clause 407.3 doit être fournie pour chaque fonction.</p>
 <p>EXCEPTION : Les dispositifs à usage personnel avec commandes d’entrée que l’on peut distinguer de manière audible sans activation et qui fonctionnent de manière tactile n’ont pas à être conformes à la clause 407.3.</p></td>
@@ -3733,7 +3731,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8 Hauteur et profondeur de portée</p>
 <p>Au moins un de chaque type de pièce manœuvrable des TIC fixes doit être à une hauteur conforme à la clause 407.8.2 ou 407.8.3 selon sa position établie par le plan de référence vertical spécifié à la clause 407.8.1 pour une portée latérale ou une portée avant. Les pièces manœuvrables utilisées avec sortie vocale qui sont requises par la clause 402.2 ne doivent pas être le seul type de pièce manœuvrable conforme à la clause 407.8, sauf si la pièce est la seule pièce manœuvrable de son type.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></td>
 <td></td>
@@ -3757,7 +3755,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>407.8.2 Portée latérale</p>
 <p>Les pièces manœuvrables des TIC dotées d’une portée latérale doivent être conformes à la clause 407.8.2.1 ou 407.8.2.2. Le plan de référence vertical doit être centré sur la pièce manœuvrable et placé sur le bord avant de la saillie maximale des TIC, dans la longueur du plan de référence vertical. Lorsqu’une portée latérale exige d’atteindre au-dessus d’une partie des TIC, la hauteur de cette partie des TIC doit être au maximum de 865 mm (34 po).</p></td>
 <td></td>
@@ -3781,7 +3779,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>408.3 Clignotement</p>
 <p>Lorsque les TIC émettent des lumières sous forme de flash, il ne doit pas y avoir plus de trois flashs dans un intervalle d’une seconde.</p>
 <p>EXCEPTION : Les flashs qui ne dépassent pas le seuil de flash générique et le seuil de flash rouge définis dans les WCAG 2.0 (incorporés par renvoi, voir l’article 702.10.1) n’ont pas à être conformes à la clause 408.3. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p></td>
@@ -3806,7 +3804,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.1 Généralités</p>
 <p>Les TIC qui permettent une communication vocale bidirectionnelle doivent être conformes à la clause 412.</p></td>
 <td></td>
@@ -3830,7 +3828,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.3 Réduction des interférences et couplage magnétique</p>
 <p>Lorsque les TIC fournissent une sortie par un combiné ou un autre type de transducteur audio qui est normalement tenu à l’oreille, elles doivent réduire les interférences avec les technologies auditives et fournir un moyen efficace de couplage magnétique sans fil conformément à la clause 412.3.1 ou 412.3.2.</p></td>
 <td></td>
@@ -3854,7 +3852,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.8.1 Connexion ATS</p>
 <p>Les TIC doivent inclure un point de connexion non acoustique standard pour les ATS.</p></td>
 <td></td>
@@ -3878,7 +3876,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>412.8.3 Compatibilité du signal</p>
 <p>Les TIC doivent prendre en charge tous les protocoles de signaux ATS standard librement accessibles et couramment utilisés par différents fabricants lorsque le système interagit avec le réseau téléphonique commuté (RTC).</p></td>
 <td></td>
@@ -3902,7 +3900,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>413.1 Généralités</p>
 <p>Lorsque les TIC affichent ou traitent des vidéos avec synchronisation sonore, elles doivent fournir une technologie de traitement des sous-titres codés conforme à la clause 413.1.1 ou 413.1.2.</p></td>
 <td></td>
@@ -3926,7 +3924,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>415.1 Généralités</p>
 <p>Lorsque les TIC affichent des vidéos avec synchronisation sonore, elles doivent permettre à l’utilisateur de contrôler les sous-titres et les descriptions audio conformes à la clause 415.1.</p>
 <p>EXCEPTION : Les dispositifs à usage personnel n’ont pas à être conformes à la clause 415.1 à condition que les sous-titres et les descriptions audio puissent être activés par les paramètres de la plateforme à l’échelle du système.</p></td>
@@ -3952,10 +3950,10 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.4 Caractéristiques d’accessibilité de la plateforme</p>
 <p>Les plateformes et les logiciels de plateforme doivent être conformes aux exigences de la norme <em>ANSI/HFES 200.2, Human Factors Engineering of Software User interfaces — Part 2: Accessibility (2008)</em> (incorporée par renvoi, voir l’article 702.4.1) énumérées ci-dessous :</p>
-<ol start="4" type="A">
+<ol start="4">
 <li><p>L’article 10.6.7 permet aux utilisateurs de choisir un équivalent visuel pour la sortie audio.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p></li>
 </ol></td>
 <td></td>
@@ -3970,7 +3968,7 @@ REMARQUE 1 :</p>
 <tr>
 <td><p>502.4 Caractéristiques d’accessibilité de la plateforme</p>
 <p>Les plateformes et les logiciels de plateforme doivent être conformes aux exigences de la norme <em>ANSI/HFES 200.2, Human Factors Engineering of Software User interfaces — Part 2: Accessibility (2008)</em> (incorporée par renvoi, voir l’article 702.4.1) énumérées ci-dessous :</p>
-<ol start="5" type="A">
+<ol start="5">
 <li><p>L’article 10.6.8 synchronise les équivalents audios pour les événements visuels.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p></li>
 </ol></td>
 <td></td>
@@ -3982,10 +3980,10 @@ REMARQUE 1 :</p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>502.4 Caractéristiques d’accessibilité de la plateforme</p>
 <p>Les plateformes et les logiciels de plateforme doivent être conformes aux exigences de la norme <em>ANSI/HFES 200.2, Human Factors Engineering of Software User interfaces — Part 2: Accessibility (2008)</em> (incorporée par renvoi, voir l’article 702.4.1) énumérées ci-dessous :</p>
-<ol start="6" type="A">
+<ol start="6">
 <li><p>L’article 10.6.9 fournit des services de sortie vocale.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p></li>
 </ol></td>
 <td></td>
@@ -4031,15 +4029,15 @@ REMARQUE 1 :</p>
 <table class="wb-tagfilter-items table table-bordered table-striped">
 <thead>
 <tr>
-<th>Article 508</th>
-<th>EN 301 549 V1.1.1 (2014)</th>
-<th>508 à 2014</th>
-<th>EN 301 549 V2.1.2 (2018)</th>
-<th>2014 à 2018</th>
-<th>EN 301 549 V3.1.1 (2019)</th>
-<th>2018 à 2019</th>
-<th>EN 301 549 V3.2.1 (2021)</th>
-<th>2019 à 2021</th>
+<th data-wb-tags="choice_1 choice_5">Article 508 révisé</th>
+<th data-wb-tags="choice_1 choice_2">EN 301 549 V1.1.1 (2014)</th>
+<th data-wb-tags="choice_1">508 à 2014</th>
+<th data-wb-tags="choice_2 choice_3">EN 301 549 V2.1.2 (2018)</th>
+<th data-wb-tags="choice_2">2014 à 2018</th>
+<th data-wb-tags="choice_3 choice_4">EN 301 549 V3.1.1 (2019)</th>
+<th data-wb-tags="choice_3">2018 à 2019</th>
+<th data-wb-tags="choice_4 choice_5">EN 301 549 V3.2.1 (2021)</th>
+<th data-wb-tags="choice_4">2019 à 2021</th>
 </tr>
 </thead>
 <tbody>
@@ -4062,7 +4060,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE : Permettre la connexion de casques d’écoute personnels pour une écoute privée, ne pas fournir une version parlée des caractères masqués et permettre à l’utilisateur de contrôler les données juridiques, financières et personnelles sont des exemples de caractéristiques de conception qui peuvent contribuer au respect de cette clause.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>4.2.9 Réduction au minimum du risque de provoquer des crises photosensibles</p>
 <p>Lorsque les TIC prévoient des modes de fonctionnement visuels, elles fournissent au moins un mode de fonctionnement qui réduit au minimum le risque de provoquer des crises photosensibles.</p>
@@ -4101,7 +4099,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE 2 : Les exigences de la présente clause remplacent celles des clauses 5.2 à 13 qui indiquent expressément qu’elles ne s’appliquent pas aux fonctions restreintes. Cela peut être dû au fait qu’elles concernent la compatibilité avec les technologies d’assistance ou la capacité de l’utilisateur de régler les paramètres d’accessibilité du système dans les produits aux fonctions restreintes (p. ex. les produits qui empêchent l’accès au panneau de commande des paramètres du système).</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>5.1.3.10 Sortie sonore non interférente</p>
 <p>Lorsque la sortie sonore est fournie en tant qu’accès non visuel à une fonction restreinte, les TIC ne doivent pas lire automatiquement, en même temps, toute sortie audible interférente d’une durée supérieure à trois secondes.</p></td>
@@ -4120,7 +4118,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td><p>5.1.3.14 Langues parlées</p>
 <p>Lorsque la sortie vocale est fournie en tant qu’accès non visuel à une fonction restreinte, la sortie vocale doit être dans la même langue humaine que le contenu affiché fourni, sauf :</p>
-<ol type="a">
+<ol>
 <li><p>pour les noms propres, les termes techniques, les mots d’une langue indéterminée et les mots ou expressions qui font maintenant partie de la langue vernaculaire du texte qui les entoure immédiatement;</p></li>
 <li><p>lorsque le contenu est généré à l’extérieur et n’est pas sous le contrôle du fournisseur de TIC, La clause 5.1.3.14 n’est pas tenue de s’appliquer aux langues non prises en charge par le synthétiseur vocal de TIC;</p></li>
 <li><p>pour les langues affichées qui ne peuvent pas être sélectionnées à l’aide d’un accès non visuel;</p></li>
@@ -4129,7 +4127,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td><p>5.1.3.14 Langues parlées</p>
 <p>Lorsque la sortie vocale est fournie en tant qu’accès non visuel à une fonction restreinte, la sortie vocale doit être dans la même langue humaine que le contenu affiché fourni, sauf :</p>
-<ol type="a">
+<ol>
 <li><p>pour les noms propres, les termes techniques, les mots d’une langue indéterminée et les mots ou expressions qui font maintenant partie de la langue vernaculaire du texte qui les entoure immédiatement;</p></li>
 <li><p>lorsque le contenu est généré à l’extérieur et n’est pas sous le contrôle du fournisseur de TIC, La clause 5.1.3.14 n’est pas tenue de s’appliquer aux langues non prises en charge par le synthétiseur vocal de TIC;</p></li>
 <li><p>pour les langues affichées qui ne peuvent pas être sélectionnées à l’aide d’un accès non visuel;</p></li>
@@ -4138,7 +4136,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td><p>5.1.3.14 Langues parlées</p>
 <p>Lorsque la sortie vocale est fournie en tant qu’accès non visuel à une fonction restreinte, la sortie vocale doit être dans la même langue humaine que le contenu affiché fourni, sauf :</p>
-<ol type="a">
+<ol>
 <li><p>pour les noms propres, les termes techniques, les mots d’une langue indéterminée et les mots ou expressions qui font maintenant partie de la langue vernaculaire du texte qui les entoure immédiatement;</p></li>
 <li><p>lorsque le contenu est généré à l’extérieur et n’est pas sous le contrôle du fournisseur de TIC<strong>, la présente clause</strong> 5.1.3.14 n’est pas tenue de s’appliquer aux langues non prises en charge par le synthétiseur vocal de TIC;</p></li>
 <li><p>pour les langues affichées qui ne peuvent pas être sélectionnées à l’aide d’un accès non visuel;</p></li>
@@ -4147,7 +4145,7 @@ REMARQUE 1 :</p>
 <td>Reformulation stylistique</td>
 <td><p>5.1.3.14 Langues parlées</p>
 <p>Lorsque la sortie vocale est fournie en tant qu’accès non visuel à une fonction restreinte, la sortie vocale doit être dans la même langue humaine que le contenu affiché fourni, sauf :</p>
-<ol type="a">
+<ol>
 <li><p>pour les noms propres, les termes techniques, les mots d’une langue indéterminée et les mots ou expressions qui font maintenant partie de la langue vernaculaire du texte qui les entoure immédiatement;</p></li>
 <li><p>lorsque le contenu est généré à l’extérieur et n’est pas sous le contrôle du fournisseur de TIC, la présente clause 5.1.3.14 n’est pas tenue de s’appliquer aux langues non prises en charge par le synthétiseur vocal de TIC;</p></li>
 <li><p>pour les langues affichées qui ne peuvent pas être sélectionnées à l’aide d’un accès non visuel;</p></li>
@@ -4155,7 +4153,7 @@ REMARQUE 1 :</p>
 </ol></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>5.1.3.15 Détermination non visuelle des erreurs</p>
 <p>Lorsque la sortie vocale est fournie en tant qu’accès non visuel à une fonction restreinte et qu’une erreur de saisie est automatiquement détectée, la sortie vocale doit identifier et décrire l’élément qui est en erreur.</p></td>
@@ -4189,7 +4187,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE : Ce renseignement visuel peut prendre la forme de sous-titre ou de transcriptions textuelles.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>5.1.6.1 Fonction restreinte</p>
 <p>Lorsque la fonction des TIC est restreinte aux claviers ou aux interfaces clavier, toutes les fonctions doivent pouvoir fonctionner sans vision, comme l’exige la clause 5.1.3.</p></td>
@@ -4219,7 +4217,7 @@ REMARQUE 1 :</p>
 <p>Lorsque la fonctionnalité des TIC est restreinte aux claviers ou aux interfaces clavier et que le focus de la saisie peut être déplacé vers un élément d’interface utilisateur, il doit être possible d’éloigner le focus de la saisie de cet élément en utilisant le même mécanisme, afin d’éviter de piéger le focus de la saisie.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4259,7 +4257,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE 3 : Aux fins de l’interopérabilité, la Recommandation T.140 de l’UIT-T est largement utilisée.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>6.2.1.2 Voix et texte simultanés</p>
 <p>Lorsque les TIC permettent la communication vocale bidirectionnelle pour un contexte d’utilisation particulière et permettent à un utilisateur de communiquer avec un autre utilisateur par TTR, elles prévoient un mécanisme permettant de choisir un mode de fonctionnement qui permet la communication vocale et textuelle simultanée.</p>
@@ -4305,7 +4303,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE : La possibilité pour l’utilisateur de choisir entre l’affichage du texte d’envoi et de réception sur une ligne ou séparément, et avec des options de sélection, permet aux utilisateurs d’afficher le TTR dans le format qui leur convient le mieux. Cela permettrait aux utilisateurs de texte en braille d’utiliser un seul champ et d’intervenir à tour de rôle, mais aussi de faire apparaître le texte de la manière séquentielle dont ils peuvent avoir besoin ou qu’ils préfèrent.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>6.2.2.2 Direction d’envoi et de réception déterminable par un programme informatique</p>
 <p>Lorsque les TIC présentent des capacités d’envoi et de réception de TTR, la direction de l’envoi et de la réception du texte doit pouvoir être déterminée par un programme informatique, à moins que la fonction de TTR soit une fonctionnalité restreinte.</p>
@@ -4340,7 +4338,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE : Cela est nécessaire pour permettre aux participants utilisant la fonction de capacité vocale comme ceux utilisant la fonction de TTR de savoir qui communique à un moment donné, que ce soit par TTR ou capacité vocale.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4361,7 +4359,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td><p>6.2.3 Interopérabilité</p>
 <p>Lorsque les TIC dotées d’une fonction de TTR fonctionnent avec d’autres TIC dotées d’une fonction de TTR (comme l’exige 6.2.1.1), elles doivent prendre en charge au moins un des quatre mécanismes d’interopérabilité de TTR décrits ci-dessous :</p>
-<ol type="a">
+<ol>
 <li><p>l’interopérabilité des TIC sur le réseau téléphonique commuté (RTC), avec d’autres TIC qui se raccordent directement au RTC, comme le décrit la Recommandation V.18 de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</p></li>
 <li><p>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initiation de session (SIP) et du texte en temps réel conforme à RFC 4103;</p></li>
 <li><p>l’interopérabilité des TIC avec d’autres TIC dotées de TTR conformes aux protocoles du sous-système multimédia IP (IMS) conformément aux spécifications TS 126 114, TS 122 173 et TS 134 229;</p></li>
@@ -4370,7 +4368,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td><p>6.2.3 Interopérabilité</p>
 <p>Lorsque les TIC dotées d’une fonction de TTR fonctionnent avec d’autres TIC dotées d’une fonction de TTR (comme l’exige la <strong>clause</strong> 6.2.1.1), elles doivent prendre en charge au moins un des quatre mécanismes d’interopérabilité de TTR décrits ci-dessous :</p>
-<ol type="a">
+<ol>
 <li><p>l’interopérabilité des TIC sur le réseau téléphonique commuté (RTC), avec d’autres TIC qui se raccordent directement au RTC, comme le décrit la Recommandation V.18 de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</p></li>
 <li><p>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initiation de session (SIP) et du texte en temps réel conforme à RFC 4103 <strong>de l’IETF</strong>;</p></li>
 <li><p>l’interopérabilité des TIC avec d’autres TIC dotées de TTR conformes aux protocoles du sous-système multimédia IP (IMS) conformément aux spécifications TS 126 114, TS 122 173 et TS 134 229 <strong>de l’ETSI;</strong></p></li>
@@ -4380,7 +4378,7 @@ REMARQUE 1 :</p>
 <p>Mise à jour explicative</p></td>
 <td><p>6.2.3 Interopérabilité</p>
 <p>Lorsque les TIC dotées d’une fonction de TTR fonctionnent avec d’autres TIC dotées d’une fonction de TTR (comme l’exige la clause 6.2.1.1), elles doivent prendre en charge au moins un des quatre mécanismes d’interopérabilité de TTR <strong>applicables</strong> décrits ci-dessous :</p>
-<ol type="a">
+<ol>
 <li><p>l’interopérabilité des TIC <strong>avec d’autres TIC raccordées directement au</strong> réseau téléphonique commuté (RTC), <strong>utilisant</strong> la Recommandation V.18 de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</p></li>
 <li><p>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initiation de session (SIP) et du <strong>TTR</strong> en temps réel conforme à RFC 4103. <strong>Pour l’interopérabilité des TIC avec d’autres TIC utilisant le sous-système multimédia IP (IMS) pour mettre en œuvre VoIP, l’ensemble des protocoles spécifiés dans TS 126 114, TS 122 173 et TS 134 229 de l’ETSI décrivent la façon dont RFC 4103 de l’IETF s’appliquerait;</strong></p></li>
 <li><p>l’interopérabilité des TIC avec d’autres TIC <strong>utilisant des technologies autres que a ou b, ci-dessus,</strong> utilisant une spécification commune pertinente et applicable pour les échanges de TTR qui est publiée et accessible <strong>pour les environnements dans lesquels ils fonctionneront.</strong> Cette spécification commune comprend une méthode permettant d’indiquer la perte ou la corruption de caractères.</p></li>
@@ -4394,7 +4392,7 @@ REMARQUE 1 :</p>
 <p>Changement fonctionnel</p></td>
 <td><p>6.2.3 Interopérabilité</p>
 <p>Lorsque les TIC dotées d’une fonction de TTR fonctionnent avec d’autres TIC dotées d’une fonction de TTR (comme l’exige la clause 6.2.1.1), elles doivent prendre en charge au moins un des quatre mécanismes d’interopérabilité de TTR applicables décrits ci-dessous :</p>
-<ol type="a">
+<ol>
 <li><p>l’interopérabilité des TIC avec d’autres TIC raccordées directement au réseau téléphonique commuté (RTC), utilisant la Recommandation V.18 de l’UIT-T [i.23] ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</p></li>
 <li><p>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initiation de session (SIP) et du TTR en temps réel conforme à RFC 4103 [i.13] . Pour l’interopérabilité des TIC avec d’autres TIC utilisant le sous-système multimédia IP (IMS) pour mettre en œuvre VoIP, l’ensemble des protocoles spécifiés dans TS 126 114 [i.10], TS 122 173 [i.11] et TS 134 229 [i.12] de l’ETSI décrivent la façon dont RFC 4103 [i.13] de l’IETF s’appliquerait;</p></li>
 <li><p>l’interopérabilité des TIC avec d’autres TIC utilisant des technologies autres que a ou b, ci-dessus, utilisant une spécification commune pertinente et applicable pour les échanges de TTR qui est publiée et accessible pour les environnements dans lesquels ils fonctionneront. Cette spécification commune comprend une méthode permettant d’indiquer la perte ou la corruption de caractères;</p></li>
@@ -4405,7 +4403,7 @@ REMARQUE 1 :</p>
 <p>EXEMPLE : Un système de conférence prenant en charge la communication vocale par une connexion Internet peut fournir une communication par TTR par une connexion Internet au moyen d’une méthode TTR exclusive (option c). Toutefois, que la méthode TTR soit libre ou exclusive, si le système de conférence offre aussi la communication par téléphone, il devra également prendre en charge les options a ou b pour garantir que le TTR est pris en charge par la connexion par téléphone.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>6.2.4 Réactivité du texte en temps réel</p>
 <p>Lorsque les TIC permettent la saisie de TTR, cette saisie est transmise au réseau des TIC prenant en charge le TTR dans un délai d’une seconde après la saisie.</p>
@@ -4457,7 +4455,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE 2 : Des solutions permettant de traiter les supports sons, TTR et vidéo en temps réel pourraient répondre au besoin susmentionné.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4491,11 +4489,11 @@ REMARQUE 1 :</p>
 <p>REMARQUE 2 : Ce mécanisme peut être déclenché manuellement par un utilisateur ou automatiquement lorsque cela est techniquement réalisable.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>6.6 Autres solutions de services vidéo</p>
 <p>Lorsque les TIC sont dotées de la communication vidéo en temps réel ainsi que d’un répondeur, d’un standard automatique ou de moyens de réponse interactifs, elles doivent permettre aux utilisateurs d’accéder aux renseignements et d’exécuter les tâches liées à ces moyens :</p>
-<ol type="a">
+<ol>
 <li><p>pour des renseignements audibles, sans recourir à l’ouïe;</p></li>
 <li><p>pour les commandes vocales, sans recourir à la parole;</p></li>
 <li><p>pour les renseignements visuels, sans recourir à la vision.</p></li>
@@ -4504,7 +4502,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td><p>6.6 Autres solutions de services vidéo</p>
 <p>Lorsque les TIC sont dotées de la communication vidéo en temps réel ainsi que d’un répondeur, d’un standard automatique ou de moyens de réponse interactifs, elles doivent permettre aux utilisateurs d’accéder aux renseignements et d’exécuter les tâches liées à ces moyens :</p>
-<ol type="a">
+<ol>
 <li><p>pour des renseignements audibles, sans recourir à l’ouïe;</p></li>
 <li><p>pour les commandes vocales, sans recourir à la parole;</p></li>
 <li><p>pour les renseignements visuels, sans recourir à la vision.</p></li>
@@ -4513,7 +4511,7 @@ REMARQUE 1 :</p>
 <td></td>
 <td><p>6.6 Autres solutions de services vidéo</p>
 <p>Lorsque les TIC sont dotées de la communication vidéo en temps réel ainsi que d’un répondeur, d’un standard automatique ou de moyens de réponse interactifs, elles doivent permettre aux utilisateurs d’accéder aux renseignements et d’exécuter les tâches liées à ces moyens :</p>
-<ol type="a">
+<ol>
 <li><p>pour des renseignements audibles, sans recourir à l’ouïe;</p></li>
 <li><p>pour les commandes vocales, sans recourir à la parole;</p></li>
 <li><p>pour les renseignements visuels, sans recourir à la vision.</p></li>
@@ -4522,7 +4520,7 @@ REMARQUE 1 :</p>
 <td>Reformulation stylistique</td>
 <td><p>6.6 Autres solutions de services vidéo</p>
 <p>Lorsque les TIC sont dotées de la communication vidéo en temps réel ainsi que d’un répondeur, d’un standard automatique ou de moyens de réponse interactifs, elles doivent permettre aux utilisateurs d’accéder aux renseignements et d’exécuter les tâches liées à ces moyens :</p>
-<ol type="a">
+<ol>
 <li><p>pour des renseignements audibles, sans recourir à l’ouïe;</p></li>
 <li><p>pour les commandes vocales, sans recourir à la parole;</p></li>
 <li><p>pour les renseignements visuels, sans recourir à la vision.</p></li>
@@ -4553,7 +4551,7 @@ REMARQUE 1 :</p>
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4591,7 +4589,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE 4 : Les sous-titres qui sont des images bitmap sont des exemples pour lesquels le contenu de sous-titres affichés ne peut pas être déterminé par programmation.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>7.2.1 Lecture de la description audio</p>
 <p>Lorsque les TIC affichent des vidéos avec du son synchronisé, elles doivent fournir un mécanisme permettant de sélectionner et de lire la description audio disponible sur le canal audio par défaut.</p>
@@ -4633,7 +4631,7 @@ REMARQUE 1 :</p>
 <p>Lorsque les TIC prévoient un mécanisme de lecture de la description audio, celui-ci doit préserver la synchronisation entre le contenu audio/visuel et la description audio correspondante.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4667,7 +4665,7 @@ REMARQUE 1 :</p>
 <td><p>8.3.2.1 Changement de niveau</p>
 <p>Lorsqu’un dénivelé de plancher fait partie intégrante des TIC, une rampe présentant une pente d’au plus 1 : 48 doit être aménagée.</p>
 <p>Exceptions</p>
-<ol type="a">
+<ol>
 <li><p>Si le dénivelé est inférieur ou égal à 6,4 mm (¼ po), le dénivelé peut être vertical.</p></li>
 <li><p>Si le dénivelé est inférieur ou égal à 13 mm (½ po), le dénivelé peut présenter une pente d’au plus 1 : 2.</p></li>
 </ol></td>
@@ -4675,7 +4673,7 @@ REMARQUE 1 :</p>
 <td><p>8.3.2.1 Changement de niveau</p>
 <p>Lorsqu’un dénivelé de plancher fait partie intégrante des TIC, une rampe présentant une pente d’au plus 1 : 48 doit être aménagée.</p>
 <p>Exceptions</p>
-<ol type="a">
+<ol>
 <li><p>Si le dénivelé est inférieur ou égal à 6,4 mm (¼ po), le dénivelé peut être vertical.</p></li>
 <li><p>Si le dénivelé est inférieur ou égal à 13 mm (½ po), le dénivelé peut présenter une pente d’au plus 1 : 2.</p></li>
 </ol></td>
@@ -4683,7 +4681,7 @@ REMARQUE 1 :</p>
 <td><p><strong>8.3.4.1</strong> Changement de niveau</p>
 <p>Lorsque des <strong>TIC fixes comportent un plancher, tout dénivelé de plancher qui y est intégré doit</strong> être aménagé d’une rampe présentant une pente d’au plus 1 : 48.</p>
 <p>Exceptions</p>
-<ol type="a">
+<ol>
 <li><p>Si le dénivelé est inférieur ou égal à 6,4 mm (¼ po), le dénivelé peut être vertical.</p></li>
 <li><p>Si le dénivelé est inférieur ou égal à 13 mm (½ po), le dénivelé peut présenter une pente d’au plus 1 : 2.</p></li>
 </ol></td>
@@ -4693,13 +4691,13 @@ REMARQUE 1 :</p>
 <td><p>8.3.4.1 Changement de niveau</p>
 <p>Lorsque des TIC fixes comportent un plancher, tout dénivelé de plancher qui y est intégré doit être aménagé d’une rampe présentant une pente d’au plus 1 : 48.</p>
 <p>Exceptions</p>
-<ol type="a">
+<ol>
 <li><p>Si le dénivelé est inférieur ou égal à 6,4 mm (¼ po), le dénivelé peut être vertical comme il est illustré à la figure 8.</p></li>
 <li><p>Si le dénivelé est inférieur ou égal à 13 mm (½ po), le dénivelé peut présenter une pente d’au plus 1 : 2.</p></li>
 </ol></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>8.3.2.3.1 Généralités</p>
 <p>Lorsque l’espace d’accès fait partie intégrante des TIC, au moins un côté complet de l’espace doit être dégagé.</p></td>
@@ -4733,7 +4731,7 @@ REMARQUE 1 :</p>
 <p>Lorsque l’espace opérationnel se trouve dans une alcôve au sein des TIC fixes, la profondeur de l’alcôve est supérieure à 610 mm (24 po), et lorsqu’une approche avant est nécessaire, l’espace d’accès doit être d’au moins 915 mm (36 po) de largeur.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>8.3.2.3.3 Approche parallèle</p>
 <p>Lorsque l’espace opérationnel se trouve dans une alcôve faisant partie intégrante des TIC, la profondeur de l’alcôve est supérieure à 380 mm (15 po), et lorsqu’une approche parallèle est nécessaire, l’espace d’accès devrait être d’au moins 1 525 mm (60 po) de largeur.</p></td>
@@ -4768,7 +4766,7 @@ REMARQUE 1 :</p>
 <p>Les instructions d’installation doivent être accessibles pour toutes les TIC fixes. Ces instructions doivent donner des directives sur la façon d’installer les TIC d’une manière qui tient compte des exigences applicables en matière d’accessibilité de l’environnement bâti lorsqu’elles s’appliquent à l’installation des TIC. Lorsque de telles exigences n’existent pas, les instructions devraient exiger que les dimensions des TIC installées soient conformes aux clauses 8.3.2 à 8.3.5 du présent document.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4796,7 +4794,7 @@ REMARQUE 1 :</p>
 <p>Lorsque les TIC sont une page Web, elles doivent satisfaire au critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4824,7 +4822,7 @@ REMARQUE 1 :</p>
 <p>Lorsque la TIC est une page Web, elle doit satisfaire au critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4852,7 +4850,7 @@ REMARQUE 1 :</p>
 <p>Dans le cas où la TIC est une page Web, elle remplit le critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4880,7 +4878,7 @@ REMARQUE 1 :</p>
 <p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au critère de succès 2.5.1 Gestes pour le contrôle du pointeur.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4908,7 +4906,7 @@ REMARQUE 1 :</p>
 <p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au critère de succès 2.5.3 Étiquette dans le nom de WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4936,7 +4934,7 @@ REMARQUE 1 :</p>
 <p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au critère de succès 4.1.3 Messages d’état.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4969,7 +4967,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE : Lorsque les documents contiennent des types de structure non standard (rôles), il est préférable de les faire correspondre à un type de structure standard comme solution de secours pour le lecteur.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -4997,7 +4995,7 @@ REMARQUE 1 :</p>
 <p>Dans le cas où la TIC est un document non Web, elle remplit le critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5052,7 +5050,7 @@ REMARQUE 1 :</p>
 <p>Lorsque la TIC est un document non Web, elle doit satisfaire au critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5080,7 +5078,7 @@ REMARQUE 1 :</p>
 <p>Dans le cas où la TIC est un document non Web, elle remplit le critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5110,7 +5108,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE 2 : Bien qu’il ne s’agisse pas d’une exigence, la possibilité de contourner des blocs de contenu qui sont répétés dans les documents est généralement considérée comme une pratique exemplaire et répond aux besoins des utilisateurs.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>10.2.20 Clause vide</p>
 <p>Cette clause ne contient aucune exigence. Elle est incluse afin d’aligner la numérotation des sous-clauses connexes dans les clauses 9.2, 10.2 et 11.2.</p></td>
@@ -5147,7 +5145,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE 2 : Ce critère de succès est identique au critère de succès 2.5.1 Gestes pour le contrôle du pointeur des WCAG 2.1 après remplacement des notes originales des WCAG 2.1 par la note 1 ci-dessus.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5205,7 +5203,7 @@ REMARQUE 1 :</p>
 <p>Dans le cas où la TIC est un document non Web, celle-ci doit satisfaire au critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5233,7 +5231,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE : L’exigence de la page Web connexe « Navigation cohérente » ne s’applique pas aux documents uniques, mais à une définition précise d’« ensembles de documents » qui sont rares.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5261,7 +5259,7 @@ REMARQUE 1 :</p>
 <p>Lorsque la TIC est un document non Web qui contient des médias synchronisés avec des sous-titres, les sous-titres ne devraient pas cacher les renseignements pertinents dans les médias synchronisés.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5289,7 +5287,7 @@ REMARQUE 1 :</p>
 <p>Lorsque la TIC est un logiciel non Web qui fournit une interface utilisateur restreinte aux technologies d’assistance pour la lecture d’écran, elle doit satisfaire à l'exigence 5.1.3.7 (sortie vocale pour l’information vidéo).</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>11.2.1.6 Description audio (préenregistrée)</p>
 <p>Lorsque la TIC est un logiciel non Web qui fournit une interface utilisateur, elle doit satisfaire au critère de succès 1.2.5 Description audio (préenregistrée) des WCAG 2.1.</p>
@@ -5332,7 +5330,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE 2 : Des pistes audio secondaires ou de rechange sont couramment utilisées à cette fin.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5366,7 +5364,7 @@ REMARQUE 1 :</p>
 <p>REMARQUE : Dans les logiciels, la déterminabilité par un programme informatique est le mieux réalisée par l'utilisation des services d'accessibilité fournis par les logiciels de plateforme pour permettre l'interopérabilité entre les logiciels et les technologies d'assistance et les fonctions d'accessibilité des logiciels (voir la clause 11.5 Interopérabilité avec les technologies d'assistance).</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5402,7 +5400,7 @@ REMARQUE 1 :</p>
 <p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle doit satisfaire au critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5436,7 +5434,7 @@ REMARQUE 1 :</p>
 <p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le critère de succès 1.3.4 Orientation des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5464,7 +5462,7 @@ REMARQUE 1 :</p>
 <p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui est restreint aux technologies d’assistance, elle doit prévoir au moins un mode de fonctionnement selon lequel l’utilisateur est présenté, sous forme audio, l’objectif de chaque champ de saisie recueillant des renseignements sur l’utilisateur, lorsque ce champ sert à un objectif définie à la section Identifier la finalité de la saisie pour les composants d’interface utilisateur des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>11.2.1.13 Redimensionnement du texte</p>
 <p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux fonctions d’agrandissement d’une plateforme ou d’une technologie d’assistance, elle doit satisfaire au critère de succès. À l’exception des légendes et des images de texte, le texte peut être redimensionné sans technologie d’assistance jusqu’à 200 % sans perte de contenu ou de fonctionnalité.</p>
@@ -5510,7 +5508,7 @@ Changement fonctionnel</td>
 <p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle doit satisfaire au critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5566,7 +5564,7 @@ Changement fonctionnel</td>
 <p>REMARQUE 3 : Ce critère de succès est identique au critère de succès 1.4.10 Redistribution des WCAG 2.1 après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5592,7 +5590,7 @@ Changement fonctionnel</td>
 <p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5620,7 +5618,7 @@ Changement fonctionnel</td>
 <p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5648,7 +5646,7 @@ Changement fonctionnel</td>
 <p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au critère de succès 2.1.4 Raccourcis clavier utilisant des caractères des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5678,7 +5676,7 @@ Changement fonctionnel</td>
 <p>REMARQUE 2 : Bien qu’il ne s’agisse pas d’une exigence, la possibilité de contourner des blocs de contenu qui sont répétés dans les logiciels est généralement considérée comme une pratique exemplaire et répond aux besoins des utilisateurs.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>11.2.1.21 Clause vide</p>
 <p>Cette clause ne contient aucune exigence. Elle est incluse afin d’aligner la numérotation des sous-clauses connexes dans les clauses 9.2, 10.2 et 11.2.</p></td>
@@ -5708,7 +5706,7 @@ Changement fonctionnel</td>
 <p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur qui est restreinte aux technologies d’assistance pour la lecture d’écran, elle doit satisfaire à l’exigence 5.1.3.14 (Langues parlées).</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5776,7 +5774,7 @@ Changement fonctionnel</td>
 <p>REMARQUE 3 : Ce critère de succès est identique au critère de succès 2.5.2 Annulation de l’action du pointeur des WCAG 2.1 après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5803,7 +5801,7 @@ Changement fonctionnel</td>
 <p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui ne prend pas en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle doit satisfaire à l’exigence 5.1.3.3 (Corrélation de sortie sonore).</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5830,7 +5828,7 @@ Changement fonctionnel</td>
 <p>Dans le cas où la TIC est un logiciel non Web, elle doit satisfaire au critère de succès 4.1.3 Messages d’état des WCAG 2.1.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td></td>
@@ -5862,7 +5860,7 @@ Changement fonctionnel</td>
 <p>Une pratique exemplaire consiste à respecter les exigences de la norme en vigueur ES 202 975 [i.5] de l’ETSI en matière de services de relais.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>13.1.6 Services de relais de la parole à la parole</p>
 <p>Lorsque les TIC visent à fournir un service de relais de la parole à la parole, celui-ci doit permettre aux utilisateurs de téléphones souffrant de troubles de l’élocution ou de troubles cognitifs et à tout autre utilisateur de communiquer en leur fournissant une assistance mutuelle.</p></td>
@@ -5904,7 +5902,7 @@ Changement fonctionnel</td>
 <p>REMARQUE 2 : Le système peut être spécifié comme devant fonctionner avec des services de relais, par exemple, par des acheteurs, des organismes de réglementation ou des spécifications de produits.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td><p>13.3 Accès aux services d’urgence</p>
 <p>Lorsque les systèmes des TIC prennent en charge la communication bidirectionnelle et qu’un ensemble de services d’urgence est spécifié pour ce type de communication, l’accès à ces services d’urgence ne doit pas être bloqué pour les appels sortants et entrants.</p>
