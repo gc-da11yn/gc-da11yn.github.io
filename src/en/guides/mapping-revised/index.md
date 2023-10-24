@@ -111,11 +111,11 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
             </li>
             <li class="radio">
                <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_5" id="choice_5">
-               <label for="choice_5">Compare <strong>Section 508</strong> and <strong>EN 301 549 V1.1.1 (2014)</strong></label>
+               <label for="choice_5">Compare <strong>Revised Section 508</strong> and <strong>EN 301 549 V1.1.1 (2014)</strong></label>
             </li>
             <li class="radio">
                <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_1" id="choice_1">
-               <label for="choice_1">Changes in <strong>Section 508</strong> versus <strong>EN 301 549 V1.1.1 (2014)</strong></label>
+               <label for="choice_1">Changes in <strong>Revised Section 508</strong> versus <strong>EN 301 549 V1.1.1 (2014)</strong></label>
             </li>
             <li class="radio">
                <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_2" id="choice_2">

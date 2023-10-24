@@ -111,11 +111,11 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
             </li>
             <li class="radio">
                <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_5" id="choice_5">
-               <label for="choice_5">Comparer <strong>l’article 508</strong> et <strong>EN 301 549 V1.1.1 (2014)</strong></label>
+               <label for="choice_5">Comparer <strong>l’article 508 révisé</strong> et <strong>EN 301 549 V1.1.1 (2014)</strong></label>
             </li>
             <li class="radio">
                <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_1" id="choice_1">
-               <label for="choice_1">Changements dans <strong>l’article 508</strong> par rapport à <strong>EN 301 549 V1.1.1 (2014)</strong></label>
+               <label for="choice_1">Changements dans <strong>l’article 508 révisé</strong> par rapport à <strong>EN 301 549 V1.1.1 (2014)</strong></label>
             </li>
             <li class="radio">
                <input type="radio" name="columns" class="wb-tagfilter-ctrl" value="choice_2" id="choice_2">
