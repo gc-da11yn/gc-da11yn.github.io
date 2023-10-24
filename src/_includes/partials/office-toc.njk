@@ -2,10 +2,12 @@
 	{% set indexSlug = "how-to-create-accessible-documents-in-office-" %}
 	{% set indexTitle = "How to create accessible documents" %}
 	{% set inOffice = "in Office" %}
+	{% set tryText = "Not the version you were looking for? Try" %}
 {% else %}
 	{% set indexSlug = "comment-creer-des-documents-accessibles-dans-office-" %}
 	{% set indexTitle = "Comment créer des documents accessibles" %}
 	{% set inOffice = "dans Office" %}
+	{% set tryText = "Ce n\'est pas la version que vous recherchez ? Essayez" %}
 {% endif %}
 
 {% if tags[1] === "office2016" or page.fileSlug === indexSlug + "2016" %}
@@ -23,15 +25,27 @@
 	{% set indexSlug = indexSlug + version %}
 	{% set indexURL = "/" + locale + "/" + indexSlug + "/" %}
 	<div class="gc-stp-stp">
-	<div class="toc row mrgn-tp-lg">
-		<ul class="wb-eqht-grd">
-			<li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="/{{ locale }}/{{ indexSlug }}/"{% endif %}>{{ indexTitle }}<small class="visible-xs-block visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
-			{% for item in collections | localeMatch(locale) %}
-			{% set title = item.data.title if locale === "en" else item.data.title %}
-			<li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ item.url }}"{% endif %}>{{ title | replace(inOffice + " " + version,"") }}<small class="visible-xs-block visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
-			{% endfor %}
-		</ul>
+		<div class="toc row mrgn-tp-lg">
+			<ul class="wb-eqht-grd">
+				<li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="/{{ locale }}/{{ indexSlug }}/"{% endif %}>{{ indexTitle }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
+				{% for item in collections | localeMatch(locale) %}
+				{% set title = item.data.title if locale === "en" else item.data.title %}
+				<li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ item.url }}"{% endif %}>{{ title | replace(inOffice + " " + version,"") }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
-	<p><a href="{{ page.url | replace(version,otherVersion) }}/">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
+
+{# The following </div> closes the content container allowing to use the full length of the page #}
 </div>
+
+<div class="well">
+	<div class="container">
+		<p class="mrgn-tp-md">{{ tryText }} <a href="{{ page.url | replace(version,otherVersion) }}/">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
+	</div>
+</div>
+
+{# The following div reopens the content container #}
+<div class="container">
+
 {% endif %}
