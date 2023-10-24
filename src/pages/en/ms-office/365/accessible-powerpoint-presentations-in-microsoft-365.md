@@ -1,8 +1,8 @@
 ---
-title: Accessible PowerPoint presentations in Office 365
+title: Accessible PowerPoint presentations in Microsoft 365
 layout: layouts/base.njk
 description: Accessible practices for Microsoft PowerPoint document creation.
-toggle: presentations-powerpoint-accessibles-dans-office-365
+toggle: presentations-powerpoint-accessibles-dans-microsoft-365
 ---
 
 <h2>Accessibility Checker</h2>

@@ -1,51 +1,72 @@
+{# TODO
+Excel: <i class="fa-regular fa-file-excel"></i>
+PDF: <i class="fa-regular fa-file-pdf"></i>
+PowerPoint: <i class="fa-regular fa-file-powerpoint"></i>
+Word:: <i class="fa-regular fa-file-word"></i>
+Default file icon: <i class="fa-regular fa-file"></i>
+Optional for visio drawings: <i class="fa-solid fa-chart-simple"></i>
+
+#}
+
+
 {% if locale === "en" %}
-	{% set indexSlug = "how-to-create-accessible-documents-in-office-" %}
+	{% set indexSlug = "how-to-create-accessible-documents" %}
 	{% set indexTitle = "How to create accessible documents" %}
-	{% set inOffice = "in Office" %}
-	{% set tryText = "Not the version you were looking for? Try" %}
+	{% set inOffice = "in" %}
 {% else %}
-	{% set indexSlug = "comment-creer-des-documents-accessibles-dans-office-" %}
+	{% set indexSlug = "comment-creer-des-documents-accessibles" %}
 	{% set indexTitle = "Comment créer des documents accessibles" %}
-	{% set inOffice = "dans Office" %}
+	{% set inOffice = "dans" %}
 	{% set tryText = "Ce n\'est pas la version que vous recherchez ? Essayez" %}
 {% endif %}
 
-{% if tags[1] === "office2016" or page.fileSlug === indexSlug + "2016" %}
-	{% set version = 2016 %}
-	{% set otherVersion = 365 %}
+{% if tags[1] === "office2016" or page.fileSlug === indexSlug + "-" + inOffice + "-office-2016" %}
+	{% set version = "Office 2016" %}
+	{% set otherVersion = "Microsoft 365" %}
 	{% set collections = collections.office2016 %}
 {% endif %}
-{% if tags[1] === "office365" or page.fileSlug === indexSlug + "365" %}
-	{% set version = 365 %}
-	{% set otherVersion = 2016 %}
-	{% set collections = collections.office365 %}
-{% endif %}
+{% if tags[1] === "microsoft365" or page.fileSlug === indexSlug + "-" + inOffice + "-microsoft-365" %}
+	{% set version = "Microsoft 365" %}
+	{% set otherVersion = "Office 2016" %}
+	{% set collections = collections.microsoft365 %}
+	{% endif %}
 
-{% if officeTOC === true %}
-	{% set indexSlug = indexSlug + version %}
-	{% set indexURL = "/" + locale + "/" + indexSlug + "/" %}
+	{% if officeTOC === true %}
+	{# {% set indexSlug = indexSlug + version %} #}
+	{% set versionSlug = version | slugify %}
+	{% set indexURL = "/" + locale + "/" + indexSlug + "-" + inOffice + "-" + versionSlug + "/" %}
+	{% if locale === "en" %}
+		{% set tryText = "Looking for the " + otherVersion + " version? Try" %}
+	{% else %}
+		{% set tryText = "Besoin de la version " + otherVersion + " ? Essayez" %}
+	{% endif %}
 	<div class="gc-stp-stp">
+		{% if version === "Microsoft 365" %}
+		<div class="alert alert-info">
+			{% if locale === "en" %}
+				<p><a href="https://support.microsoft.com/en-us/office/office-is-now-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office is now Microsoft 365</a>.</p>
+				{% else %}
+				<p><a href="https://support.microsoft.com/fr-fr/office/office-est-désormais-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office est désormais Microsoft 365</a>.</p>
+			{% endif %}
+		</div>
+		{% endif %}
 		<div class="toc row mrgn-tp-lg">
 			<ul class="wb-eqht-grd">
-				<li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="/{{ locale }}/{{ indexSlug }}/"{% endif %}>{{ indexTitle }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
+				<li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="{{ indexURL }}"{% endif %}>{{ indexTitle }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
 				{% for item in collections | localeMatch(locale) %}
-				{% set title = item.data.title if locale === "en" else item.data.title %}
-				<li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ item.url }}"{% endif %}>{{ title | replace(inOffice + " " + version,"") }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
+				{% set title = item.data.title %}
+				<li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ item.url }}"{% endif %}>{{ title | replace(inOffice + " " + version, "") }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
 				{% endfor %}
 			</ul>
 		</div>
 	</div>
 
-{# The following </div> closes the content container allowing to use the full length of the page #}
-</div>
-
 <div class="well">
 	<div class="container">
-		<p class="mrgn-tp-md">{{ tryText }} <a href="{{ page.url | replace(version,otherVersion) }}/">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
+		{% set versionSlug = version | slugify %}
+		{% set otherVersionSlug = otherVersion | slugify %}
+		<p class="mrgn-tp-md">{{ tryText }} <a href="{{ page.url | replace(versionSlug,otherVersionSlug) }}">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
 	</div>
 </div>
-
-{# The following div reopens the content container #}
-<div class="container">
 
 {% endif %}

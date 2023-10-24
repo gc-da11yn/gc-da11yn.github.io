@@ -1,8 +1,8 @@
 ---
-title: Accessible Visio drawings in Office 365
+title: Accessible Visio drawings in Microsoft 365
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Visio diagram creation.
-toggle: dessins-visio-accessibles-dans-office-365
+toggle: dessins-visio-accessibles-dans-microsoft-365
 ---
 
 
