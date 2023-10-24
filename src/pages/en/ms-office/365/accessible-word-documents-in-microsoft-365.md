@@ -3,6 +3,7 @@ title: Accessible Word documents in Microsoft 365
 layout: layouts/base.njk
 description: DESCRIPTION
 toggle: documents-word-accessibles-dans-microsoft-365
+fontIcon: fa-file-word
 ---
 
 <h2>Accessibility Checker</h2>

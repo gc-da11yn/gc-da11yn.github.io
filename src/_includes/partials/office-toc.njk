@@ -1,14 +1,3 @@
-{# TODO
-Excel: <i class="fa-regular fa-file-excel"></i>
-PDF: <i class="fa-regular fa-file-pdf"></i>
-PowerPoint: <i class="fa-regular fa-file-powerpoint"></i>
-Word:: <i class="fa-regular fa-file-word"></i>
-Default file icon: <i class="fa-regular fa-file"></i>
-Optional for visio drawings: <i class="fa-solid fa-chart-simple"></i>
-
-#}
-
-
 {% if locale === "en" %}
 	{% set indexSlug = "how-to-create-accessible-documents" %}
 	{% set indexTitle = "How to create accessible documents" %}
@@ -54,8 +43,12 @@ Optional for visio drawings: <i class="fa-solid fa-chart-simple"></i>
 			<ul class="wb-eqht-grd">
 				<li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="{{ indexURL }}"{% endif %}>{{ indexTitle }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
 				{% for item in collections | localeMatch(locale) %}
-				{% set title = item.data.title %}
-				<li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ item.url }}"{% endif %}>{{ title | replace(inOffice + " " + version, "") }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
+					{% set title = item.data.title %}
+					<li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ item.url }}"{% endif %}>
+						{% if item.data.fontIcon %}
+							<i class="fas fa-lg {{ item.data.fontIcon }}" aria-hidden="true"></i>
+						{% endif %}
+						{{ title | replace(inOffice + " " + version, "") }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
 				{% endfor %}
 			</ul>
 		</div>

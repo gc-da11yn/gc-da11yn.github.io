@@ -3,6 +3,7 @@ title: Présentations PowerPoint accessibles dans Microsoft 365
 description: Pratiques accessibles pour la création de documents Microsoft PowerPoint.
 layout: layouts/base.njk
 toggle: accessible-powerpoint-presentations-in-microsoft-365
+fontIcon: fa-file-powerpoint
 ---
 
 <h2>Vérificateur d'accessibilité</h2>

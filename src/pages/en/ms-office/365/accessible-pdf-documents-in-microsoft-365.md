@@ -3,6 +3,7 @@ title: Accessible PDF documents in Microsoft 365
 layout: layouts/base.njk
 description: Accessible practices for PDF document creation.
 toggle: documents-pdf-accessibles-dans-microsoft-365
+fontIcon: fa-file-pdf
 ---
 
 <h2>Introduction</h2>

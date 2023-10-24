@@ -3,6 +3,7 @@ title: Documents Word accessibles dans Microsoft 365
 description: Pratiques accessibles pour la création de documents Microsoft Word.
 layout: layouts/base.njk
 toggle: accessible-word-documents-in-microsoft-365
+fontIcon: fa-file-word
 ---
 
 <h2>Vérificateur d’accessibilité</h2>
