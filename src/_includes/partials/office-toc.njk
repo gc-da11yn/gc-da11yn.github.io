@@ -21,7 +21,6 @@
 	{% endif %}
 
 	{% if officeTOC === true %}
-	{# {% set indexSlug = indexSlug + version %} #}
 	{% set versionSlug = version | slugify %}
 	{% set indexURL = "/" + locale + "/" + indexSlug + "-" + inOffice + "-" + versionSlug + "/" %}
 	{% if locale === "en" %}
