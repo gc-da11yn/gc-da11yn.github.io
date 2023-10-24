@@ -601,6 +601,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 ### Chapitre 4 – Matériel
 
 #### 402 Fonctions restreintes
@@ -1306,6 +1307,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
 #### 403 Données biométriques
 
@@ -1366,6 +1368,8 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 #### 404 Préservation des renseignements fournis pour l’accessibilité
 
 <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -1411,6 +1415,8 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 </tr>
 </tbody>
 </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
 #### 405 Confidentialité
 
@@ -1504,6 +1510,8 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 #### 406 Raccordements standard
 
 <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -1564,6 +1572,8 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 </tbody>
 </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
 #### 407 Pièces manœuvrables
 
@@ -2592,6 +2602,8 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 #### 408 Écran d’affichage
 
 <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -2648,6 +2660,8 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 </tbody>
 </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
 #### 409 Indicateurs d’état
 
@@ -2741,6 +2755,8 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 #### 410 Codage par couleurs
 
 <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -2786,6 +2802,8 @@ Le même degré de protection des données d’entrée et de sortie doit être f
 </tr>
 </tbody>
 </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
 #### 412 TIC avec communication vocale bidirectionnelle
 
@@ -3258,6 +3276,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 #### 413 Technologies de traitement des sous-titres codés
 
 <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -3378,6 +3398,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 #### 414 Technologies de traitement de la description audio
 
 <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -3456,6 +3478,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 </tbody>
 </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
 #### 415 Commandes de l’utilisateur pour les sous-titres et les descriptions audio
 
@@ -3559,6 +3583,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 ### Chapitre 5 - Logiciels
 
 #### 501 Généralités
@@ -3598,6 +3624,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tr>
 </tbody>
 </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
 #### 502 Interopérabilité avec technologie d’assistance
 
@@ -4412,6 +4440,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 #### 503 Applications
 
 <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -4629,6 +4659,8 @@ REMARQUE 1 :</p>
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 #### 504 Outils-auteurs
 
 <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -4815,6 +4847,8 @@ REMARQUE 1 :</p>
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 ### Chapitre 6 – Documentation et services de soutien
 
 #### 602 Documentation de soutien
@@ -4996,6 +5030,8 @@ REMARQUE 1 :</p>
 </tbody>
 </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 ### 603 Services de soutien
 
 <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -5103,6 +5139,8 @@ REMARQUE 1 :</p>
 </tr>
 </tbody>
 </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
 ### Dispositions non mises en correspondance
 
@@ -5517,6 +5555,8 @@ REMARQUE 1 :</p>
 </tr>
 </tbody>
 </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
 #### EN 301 549
 
@@ -8096,8 +8136,11 @@ REMARQUE 2 : Le système peut être spécifié comme devant fonctionner avec de
 </tbody>
 </table>
 
-<div class="container">
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
 
+</section>
+</div>
+<div class="container">
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 
 ## Notes de bas de page

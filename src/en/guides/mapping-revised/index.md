@@ -588,9 +588,11 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- ### Chapter 4: Hardware
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
 
- #### 402 Closed Functionality
+### Chapter 4: Hardware
+
+#### 402 Closed Functionality
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -1301,7 +1303,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- #### 403 Biometrics
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
+#### 403 Biometrics
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -1358,6 +1362,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
  #### 404 Preservation of Information Provided for Accessibility
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -1401,7 +1407,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- #### 405 Privacy
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
+#### 405 Privacy
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -1492,7 +1500,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- #### 406 Standard Connections
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
+#### 406 Standard Connections
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -1549,6 +1559,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      </tr>
    </tbody>
  </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
 
  #### 407 Operable Parts
 
@@ -2533,6 +2545,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
  #### 408 Display Screen
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -2586,6 +2600,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      </tr>
    </tbody>
  </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
 
  #### 409 Status Indicators
 
@@ -2678,6 +2694,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
  #### 410 Color Coding
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -2720,6 +2738,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      </tr>
    </tbody>
  </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
 
  #### 412 ICT with Two-Way Voice Communication
 
@@ -3161,6 +3181,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
  #### 413 Closed Caption Processing Technologies
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -3272,6 +3294,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
  #### 414 Audio Description Processing Technologies
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -3350,6 +3374,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      </tr>
    </tbody>
  </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
 
  #### 415 User Controls for Captions and Audio Descriptions
 
@@ -3453,6 +3479,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
  ### Chapter 5: Software
 
  #### 501 General
@@ -3492,6 +3520,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      </tr>
    </tbody>
  </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
 
  #### 502 Interoperability with Assistive Technology
 
@@ -4278,6 +4308,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
  #### 503 Applications
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -4481,6 +4513,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
  #### 504 Authoring Tools
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -4647,6 +4681,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      </tr>
    </tbody>
  </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
 
  ### Chapter 6: Support Documentation and Services
 
@@ -4820,6 +4856,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
  #### 603 Support Services
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
@@ -4924,6 +4962,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      </tr>
    </tbody>
  </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
 
  ### Provisions Not Mapped
 
@@ -5312,7 +5352,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
    </tbody>
  </table>
 
- #### EN 301 549
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
+#### EN 301 549
 
  <table class="wb-tagfilter-items table table-bordered table-striped">
    <thead>
@@ -7909,12 +7951,15 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      </tr>
    </tbody>
  </table>
+
+<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">List tables</a></p>
+
 </section>
 </div>
 <div class="container">
 <section role="doc-endnotes">
 
- ### End notes
+### End notes
 
 <ol>
    <li id="fn1">The functional performance criteria 302.7 and 302.8 of Section 508 and functional performance statements 4.2.7 and 4.2.8 of EN 301 549 inclusively cover the same requirements, despite being grouped slightly differently in each standard. <a href="#fnref1" role="doc-backlink"><small>Return to reference 1</small></a></li>
