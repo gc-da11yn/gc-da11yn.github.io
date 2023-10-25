@@ -21,7 +21,11 @@
 					<h1 property="name" id="wb-cont">
 						{{ title | safe }}
 					</h1>
-					<p>{{ description | safe }}</p>
+					{% if description %}
+						<p>{{ description | safe }}</p>
+					{% else %}
+						<p><strong>{{ landingPage[locale].descriptionNoneText }}</strong></p>
+					{% endif %}
 				</div>
 			</div>
 		</div>
