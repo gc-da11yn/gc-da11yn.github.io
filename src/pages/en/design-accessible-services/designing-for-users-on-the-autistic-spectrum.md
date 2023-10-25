@@ -1,7 +1,7 @@
 ---
 title: Designing for users on the autistic spectrum
 layout: layouts/base.njk
-description: false
+description:
 tags: designingAccessible
 toogle: concevoir-pour-les-utilisateurs-dans-le-spectre-autistique
 ---

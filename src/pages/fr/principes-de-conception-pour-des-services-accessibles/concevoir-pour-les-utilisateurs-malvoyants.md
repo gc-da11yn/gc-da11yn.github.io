@@ -1,7 +1,7 @@
 ---
 title: Concevoir pour les utilisateurs malvoyants
 layout: layouts/base.njk
-description: false
+description:
 tags: designingAccessible
 toogle: designing-for-users-with-low-vision
 ---

@@ -1,7 +1,7 @@
 ---
 title: Designing for users of screen readers
 layout: layouts/base.njk
-description: false
+description:
 tags: designingAccessible
 toogle: concevoir-pour-les-utilisateurs-de-revues-decran
 ---

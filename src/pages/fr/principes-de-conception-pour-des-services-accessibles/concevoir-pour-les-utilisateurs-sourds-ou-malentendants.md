@@ -1,7 +1,7 @@
 ---
 title: Concevoir pour les utilisateurs sourds ou malentendants
 layout: layouts/base.njk
-description: false
+description:
 tags: designingAccessible
 toogle: designing-for-users-who-are-deaf-or-hard-of-hearing
 ---

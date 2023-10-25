@@ -1,7 +1,7 @@
 ---
 title: Principes de conception pour les utilisateurs avec handicap cognitif
 layout: layouts/base.njk
-description: false
+description:
 tags: designingAccessible
 toogle: design-principles-for-users-with-cognitive-disabilities
 ---

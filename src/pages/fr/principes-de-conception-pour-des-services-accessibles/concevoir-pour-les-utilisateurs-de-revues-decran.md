@@ -1,7 +1,7 @@
 ---
 title: Concevoir pour les utilisateurs de revues d’écran
 layout: layouts/base.njk
-description: false
+description:
 tags: designingAccessible
 toogle: designing-for-users-of-screen-readers
 ---

@@ -1,7 +1,7 @@
 ---
 title: Designing for users with physical or motor disabilities
 layout: layouts/base.njk
-description: false
+description:
 tags: designingAccessible
 toogle: concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur
 ---

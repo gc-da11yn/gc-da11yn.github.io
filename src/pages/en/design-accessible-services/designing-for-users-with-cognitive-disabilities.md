@@ -1,7 +1,7 @@
 ---
 title: Designing for users with cognitive disabilities
 layout: layouts/base.njk
-description: false
+description:
 tags: designingAccessible
 toogle: principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif
 ---
