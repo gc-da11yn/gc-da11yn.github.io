@@ -1,15 +1,14 @@
 ---
 title: Concevoir pour les utilisateurs sourds ou malentendants
 layout: layouts/base.njk
-description: description
+description: false
 tags: designingAccessible
 toogle: designing-for-users-who-are-deaf-or-hard-of-hearing
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-			<li><a href="{{ rootPath }}docs/posters/Sourds-fr_2023.pdf" id="das4" aria-labelledby="das4 das1">Concevoir pour les utilisateurs sourds ou malentendants</a></li></ul>
+			<li><a href="{{ rootPath }}docs/posters/Sourds-fr_2023.pdf" id="das4" aria-labelledby="das4 das1">Concevoir pour les utilisateurs sourds ou malentendants (PDF, 70 kb)</a></li></ul>
 
-# Concevoir pour les utilisateurs sourds ou malentendants
 
 <div class="row">
 	<div class="col-md-6">

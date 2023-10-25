@@ -1,15 +1,14 @@
 ---
 title: Concevoir pour les utilisateurs avec un handicap physique ou moteur
 layout: layouts/base.njk
-description: description
+description: false
 tags: designingAccessible
 toogle: designing-for-users-with-physical-or-motor-disabilities
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-			<li><a href="{{ rootPath }}docs/posters/MoteurPhysique-fr_2023.pdf" id="das6" aria-labelledby="das6 das1">Concevoir pour les utilisateurs avec un handicap physique ou moteur</a></li></ul>
+			<li><a href="{{ rootPath }}docs/posters/MoteurPhysique-fr_2023.pdf" id="das6" aria-labelledby="das6 das1">Concevoir pour les utilisateurs avec un handicap physique ou moteur (PDF, 50 kb)</a></li></ul>
 
-# Concevoir pour les utilisateurs avec un handicap physique ou moteur
 
 <div class="row">
 	<div class="col-md-6">

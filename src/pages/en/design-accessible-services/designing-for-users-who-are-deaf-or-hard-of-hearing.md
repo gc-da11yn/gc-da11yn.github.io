@@ -1,15 +1,13 @@
 ---
 title: Designing for users who are deaf or hard of hearing
 layout: layouts/base.njk
-description: description
+description: false
 tags: designingAccessible
 toogle: concevoir-pour-les-utilisateurs-sourds-ou-malentendants
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-	<li><a href="{{ rootPath }}docs/posters/Hearing-en_2023.pdf" id="das4" aria-labelledby="das4 das1">Designing for users who are deaf or hard of hearing</a></li></ul>
-
-# Designing for users who are deaf or hard of hearing
+	<li><a href="{{ rootPath }}docs/posters/Hearing-en_2023.pdf" id="das4" aria-labelledby="das4 das1">Designing for users who are deaf or hard of hearing (PDF, 53 kb)</a></li></ul>
 
 <div class="row">
 	<div class="col-md-6">

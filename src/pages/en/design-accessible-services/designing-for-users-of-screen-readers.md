@@ -1,15 +1,13 @@
 ---
 title: Designing for users of screen readers
 layout: layouts/base.njk
-description: description
+description: false
 tags: designingAccessible
 toogle: concevoir-pour-les-utilisateurs-de-revues-decran
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-		<li><a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" id="das8" aria-labelledby="das8 das1">Designing for users of screen readers</a></li></ul>
-
-# Designing for users of screen readers
+		<li><a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" id="das8" aria-labelledby="das8 das1">Designing for users of screen readers (PDF, 51 kb)</a></li></ul>
 
 <div class="row">
 	<div class="col-md-6">
