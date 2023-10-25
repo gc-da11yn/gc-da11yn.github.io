@@ -7,7 +7,7 @@ toogle: designing-for-users-on-the-autistic-spectrum
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-			<li><a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" id="das2" aria-labelledby="das2 das1">Concevoir pour les utilisateurs dans le spectre autistique (PDF, 67 kb)</a></li></ul>
+			<li><a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" id="das2" aria-labelledby="das2 das1">Concevoir pour les utilisateurs dans le spectre autistique (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a></li></ul>
 
 
 <div class="row">

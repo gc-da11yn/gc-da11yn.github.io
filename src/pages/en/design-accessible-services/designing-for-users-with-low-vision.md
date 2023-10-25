@@ -7,7 +7,7 @@ toogle: concevoir-pour-les-utilisateurs-malvoyants
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-		<li><a href="{{ rootPath }}docs/posters/LowVision-en_2023.pdf" id="das6" aria-labelledby="das6 das1">Designing for users with low vision (PDF, 43 kb)</a></li></ul>
+		<li><a href="{{ rootPath }}docs/posters/LowVision-en_2023.pdf" id="das6" aria-labelledby="das6 das1">Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)</a></li></ul>
 
 
 <div class="row">

@@ -7,7 +7,7 @@ toogle: principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-	<li><a href="{{ rootPath }}docs/posters/Cognitive-en_2023.pdf" id="das3" aria-labelledby="das3 das1">Design principles for users with cognitive disabilities (PDF, 74 kb)</a></li></ul>
+	<li><a href="{{ rootPath }}docs/posters/Cognitive-en_2023.pdf" id="das3" aria-labelledby="das3 das1">Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)</a></li></ul>
 
 
 <div class="row">

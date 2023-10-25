@@ -7,7 +7,7 @@ toogle: concevoir-pour-les-utilisateurs-de-revues-decran
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-		<li><a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" id="das8" aria-labelledby="das8 das1">Designing for users of screen readers (PDF, 51 kb)</a></li></ul>
+		<li><a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" id="das8" aria-labelledby="das8 das1">Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a></li></ul>
 
 <div class="row">
 	<div class="col-md-6">

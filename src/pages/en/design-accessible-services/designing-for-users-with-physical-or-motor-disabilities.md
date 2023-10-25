@@ -7,7 +7,7 @@ toogle: concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-		<li><a href="{{ rootPath }}docs/posters/MotorPhysical-en_2023.pdf" id="das7" aria-labelledby="das7 das1">Designing for users with physical or motor disabilities (PDF, 47 kb)</a></li></ul>
+		<li><a href="{{ rootPath }}docs/posters/MotorPhysical-en_2023.pdf" id="das7" aria-labelledby="das7 das1">Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a></li></ul>
 
 
 <div class="row">

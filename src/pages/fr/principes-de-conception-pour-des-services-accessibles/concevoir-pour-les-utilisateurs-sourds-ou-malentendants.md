@@ -7,7 +7,7 @@ toogle: designing-for-users-who-are-deaf-or-hard-of-hearing
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
-			<li><a href="{{ rootPath }}docs/posters/Sourds-fr_2023.pdf" id="das4" aria-labelledby="das4 das1">Concevoir pour les utilisateurs sourds ou malentendants (PDF, 70 kb)</a></li></ul>
+			<li><a href="{{ rootPath }}docs/posters/Sourds-fr_2023.pdf" id="das4" aria-labelledby="das4 das1">Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)</a></li></ul>
 
 
 <div class="row">
