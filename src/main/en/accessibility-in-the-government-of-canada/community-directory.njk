@@ -11,10 +11,10 @@ tags: accessibilityInTheGovernmentOfCanada
 
 {% else %}
 
-<div class="row wb-eqht mrgn-tp-lg">
+<div class="row wb-eqht mrgn-tp-lg gc-srvinfo">
 	{% for item in collections.communityDirectory | sort(false, false, 'data.title') | localeMatch(locale) %}
 	<div class="col-md-6">
-		<h3><a href="{{ item.url }}">{{ item.data.title | safe }}</a></h3>
+		<h2><a href="{{ item.url }}">{{ item.data.title | safe }}</a></h2>
 		<p>
 			{% if item.data.description %}
 			{{ item.data.description | safe }}
