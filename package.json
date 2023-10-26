@@ -5,6 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "newFolder": "node scripts/create-new-folder.js",
+    "cleanHTML": "node scripts/clean-html.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "spellcheck": "cspell --no-progress -u \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
     "eleventy": "npx eleventy",
@@ -47,6 +48,7 @@
     "string-strip-html": "^8.5.0"
   },
   "dependencies": {
+    "clean-html": "^2.0.1",
     "prompt-sync": "^4.2.0"
   }
 }
