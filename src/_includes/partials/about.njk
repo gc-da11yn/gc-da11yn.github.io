@@ -4,7 +4,7 @@
 <section>
 	<h2>{{ about[locale].about }}</h2>
 	<p>{{ about[locale].aboutPara }}</p>
-	<div class="row wb-eqht mrgn-tp-lg">
+	<div class="row wb-eqht mrgn-tp-lg gc-srvinfo">
 		{% for item in collections.mainAbout | localeMatch(locale) %}
 		<section class="col-md-4">
 			<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
