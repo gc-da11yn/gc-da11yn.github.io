@@ -10,3 +10,13 @@
 		margin-right: 15px;
 	}
 }
+
+
+// Added because GCWeb doesn't cover h2 in the doormat styles
+.gc-drmt {
+	h2 {
+		font-size: 1em;
+		margin-bottom: 5px;
+		margin-top: 23px
+	}
+}
