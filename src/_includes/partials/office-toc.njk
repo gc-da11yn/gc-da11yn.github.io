@@ -45,11 +45,9 @@
 	</div>
 
 <div class="well">
-	<div class="container">
-		{% set versionSlug = version | slugify %}
-		{% set otherVersionSlug = otherVersion | slugify %}
-		<p class="mrgn-tp-md">{{ tryText }} <a href="{{ page.url | replace(versionSlug,otherVersionSlug) }}">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
-	</div>
+	{% set versionSlug = version | slugify %}
+	{% set otherVersionSlug = otherVersion | slugify %}
+	<p class="mrgn-tp-md">{{ tryText }} <a href="{{ page.url | replace(versionSlug,otherVersionSlug) }}">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
 </div>
 
 		{% if version === "Microsoft 365" %}
