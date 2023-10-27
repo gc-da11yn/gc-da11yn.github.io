@@ -14,7 +14,7 @@ tags: howTos
 
 <div class="row wb-eqht mrgn-tp-lg gc-drmt">
 	{% for item in collections.createDocument | sort(false, false, 'data.title') | localeMatch(locale) %}
-		{% if item.data.tags[1] != "office2016" and item.data.tags[1] != "office365" %}
+		{% if item.data.tags[1] != "office2016" and item.data.tags[1] != "microsoft365" %}
 			<div class="col-md-6">
 				<h2><a href="{{ item.url }}">{{ item.data.title | safe }}</a></h2>
 				<p>

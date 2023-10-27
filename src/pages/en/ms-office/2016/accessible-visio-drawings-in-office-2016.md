@@ -3,6 +3,7 @@ title: Accessible Visio drawings in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for Microsoft Visio 2016 diagram creation.
 toggle: dessins-visio-accessibles-dans-office-2016
+fontIcon: fa-project-diagram
 ---
 
 <h2>Introduction</h2>

@@ -3,6 +3,7 @@ title: Accessible PDF documents in Office 2016
 layout: layouts/base.njk
 description: Accessible practices for PDF document creation.
 toggle: documents-pdf-accessibles-dans-office-2016
+fontIcon: fa-file-pdf
 ---
 
 <h2>Introduction</h2>

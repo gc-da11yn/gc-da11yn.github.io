@@ -1,8 +1,9 @@
 ---
-title: Documents PDF accessibles dans Office 365
+title: Documents PDF accessibles dans Microsoft 365
 description: Pratiques accessibles pour la création de documents PDF.
 layout: layouts/base.njk
-toggle: accessible-pdf-documents-in-office-365
+toggle: accessible-pdf-documents-in-microsoft-365
+fontIcon: fa-file-pdf
 ---
 
 <h2>Introduction</h2>
