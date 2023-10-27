@@ -6,6 +6,7 @@
   "scripts": {
     "newFolder": "node scripts/create-new-folder.js",
     "cleanHTML": "node scripts/clean-html.js",
+    "link-check": "node scripts/link-check.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "spellcheck": "cspell --no-progress -u \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
     "eleventy": "npx eleventy",
@@ -49,6 +50,7 @@
   },
   "dependencies": {
     "clean-html": "^2.0.1",
+    "markdown-link-check": "^3.0.0",
     "prompt-sync": "^4.2.0"
   }
 }

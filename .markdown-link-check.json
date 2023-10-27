@@ -1,0 +1,13 @@
+{
+    "ignorePatterns": [
+      {
+        "pattern": "http://www.austlii.edu.au/"
+      },
+      {
+        "pattern": "http://www.gcpedia.gc.ca/"
+      },
+      {
+        "pattern": "https://www.igi-global.com/"
+      }
+    ]
+  }
