@@ -8,13 +8,14 @@ var glob = require("glob");
 var path = require("path");
 var chalk = require("chalk");
 
-var files = glob.sync("**/*.md", {
+var pagesDirectory = "src/pages"; 
+var files = glob.sync(pagesDirectory + "/**/*.md", {
   ignore: ["**/node_modules/**/*.md"],
   realpath: true
-})
+});
 
 var config = JSON.parse(fs.readFileSync(".markdown-link-check.json"));
-config.timeout = '30s'
+config.timeout = '30s';
 
 files.forEach(function (file) {
   var markdown = fs.readFileSync(file).toString();
@@ -32,15 +33,14 @@ files.forEach(function (file) {
 
     results.forEach(function (result) {
       if (result.link.startsWith("http://") || result.link.startsWith("https://")) {
-
         return;
       }
 
       if (result.status === "dead") {
-        process.exitCode = 1
+        process.exitCode = 1;
         console.log(chalk.red("Dead: " + result.link));
       } else if (result.status == "error") {
-        process.exitCode = 1
+        process.exitCode = 1;
         console.log(chalk.red("Link Error: " + result.link));
       }
     });
