@@ -376,6 +376,14 @@ Pour déclencher la variable `internalLinks` dans le front matter, vous devez d�
     ---
     ```
 
+#### Comment exécuter markdown-link-checker pour vérifier les liens brisés ou morts sur la console ?
+
+Le markdown-link-checker est un plugin implémenté à partir de [markdown-link-checker] (https://www.npmjs.com/package/markdown-link-check) qui analyse et vérifie automatiquement les liens actifs et morts. Le code utilisé dans ce projet est une version modifiée de [canada.ca link checker](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/link-check.js). Nous utilisons actuellement la version 3.0.
+
+Pour lancer le plugin, il suffit de lancer 'npm run link-check'. 
+
+Astuce : Gardez à l'esprit qu'il peut y avoir un décalage, mais donnez-lui quelques secondes pour terminer.
+
 #### Que se passe-t-il lorsque internalLinks n'est pas inclus
 
 Si vous n'incluez pas la variable `internalLinks` dans l'avant-propos de votre fichier Markdown, le message "internalLinks" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `internalLinks` est utilisée pour contrôler si le message "internalLinks" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à `false`.
