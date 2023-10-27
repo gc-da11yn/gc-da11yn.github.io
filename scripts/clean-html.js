@@ -3,9 +3,6 @@ const fs = require("fs");
 const path = require("path");
 
 const options = {
-	"break-around-comments": false,
-	"decode-entities": true,
-	"remove-tags": ["b", "i", "center", "font"],
 	"break-around-tags": ["li"],
 	wrap: 0,
 };
