@@ -14,7 +14,8 @@
     "watch:sass": "npm run sass-start -- --watch",
     "start": "npm-run-all sass-start --parallel watch:*",
     "dev": "ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
-    "build": "npm-run-all sass-build --parallel eleventy"
+    "build": "npm-run-all sass-build --parallel eleventy",
+    "link-check": "node scripts/link-check.js"
   },
   "repository": {
     "type": "git",

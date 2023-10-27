@@ -187,10 +187,8 @@ To trigger the `internalLinks` variable in the front matter, you have to set its
 
 The markdown-link-checker is an implemented plugin from [markdown-link-checker](https://www.npmjs.com/package/markdown-link-check) that automatically scans and checks for working and dead links. The code used in this project is a modified version from [canada.ca link checker](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/link-check.js). We are currently using version 3.0.
 
-To run the plugin follow the instructions:
+To run the plugin simply run 'npm run link-check'.
 
-1. Make sure you are in the same directory as the link-check.js file, in this case /gc-da11yn.github.io>
-2. Run 'node link-check' on your terminal
 
 #### What happens when internalLinks is not included
 
