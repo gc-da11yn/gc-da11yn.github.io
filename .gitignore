@@ -240,3 +240,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# .markdown-link-check results file
+broken-links.json

@@ -17,13 +17,15 @@ var files = glob.sync(pagesDirectory + "/**/*.md", {
 var config = JSON.parse(fs.readFileSync(".markdown-link-check.json"));
 config.timeout = '30s';
 
+var results = [];
+
 files.forEach(function (file) {
   var markdown = fs.readFileSync(file).toString();
   let opts = Object.assign({}, config);
 
   opts.baseUrl = 'file://' + path.dirname(path.resolve(file)).replace(/\\/g, '/');
 
-  markdownLinkCheck(markdown, opts, function (err, results) {
+  markdownLinkCheck(markdown, opts, function (err, linkResults) {
     if (err) {
       console.error('Error', err);
       return;
@@ -31,7 +33,7 @@ files.forEach(function (file) {
 
     console.log(chalk.green("Reading: " + file));
 
-    results.forEach(function (result) {
+    linkResults.forEach(function (result) {
       if (result.link.startsWith("http://") || result.link.startsWith("https://")) {
         return;
       }
@@ -39,10 +41,14 @@ files.forEach(function (file) {
       if (result.status === "dead") {
         process.exitCode = 1;
         console.log(chalk.red("Dead: " + result.link));
+        results.push({ file, link: result.link, status: "dead" });
       } else if (result.status == "error") {
         process.exitCode = 1;
         console.log(chalk.red("Link Error: " + result.link));
+        results.push({ file, link: result.link, status: "error" });
       }
     });
+
+    fs.writeFileSync('broken-links.json', JSON.stringify(results, null, 2));
   });
 });
