@@ -186,7 +186,7 @@ To trigger the `internalLinks` variable in the front matter, you have to set its
 
 The markdown-link-checker is an implemented plugin from [markdown-link-checker](https://www.npmjs.com/package/markdown-link-check) that automatically scans and checks for working and dead links. The code used in this project is a modified version from [canada.ca link checker](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/link-check.js). We are currently using version 3.0.
 
-To run the plugin simply run 'npm run link-check'. 
+To run the plugin simply type 'npm run link-check' in your terminal. The links will load in the terminal but they will also be generated inside a 'broken-links.json' in the root directory.
 
 Tip: Keep in mind it might lag, but just give it a few seconds to finish
 
@@ -380,7 +380,7 @@ Pour déclencher la variable `internalLinks` dans le front matter, vous devez d�
 
 Le markdown-link-checker est un plugin implémenté à partir de [markdown-link-checker] (https://www.npmjs.com/package/markdown-link-check) qui analyse et vérifie automatiquement les liens actifs et morts. Le code utilisé dans ce projet est une version modifiée de [canada.ca link checker](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/link-check.js). Nous utilisons actuellement la version 3.0.
 
-Pour lancer le plugin, il suffit de lancer 'npm run link-check'. 
+Pour lancer le plugin, tapez simplement 'npm run link-check' dans votre terminal. Les liens se chargeront dans le terminal mais ils seront également générés dans un fichier 'broken-links.json' dans le répertoire racine.
 
 Astuce : Gardez à l'esprit qu'il peut y avoir un décalage, mais donnez-lui quelques secondes pour terminer.
 
