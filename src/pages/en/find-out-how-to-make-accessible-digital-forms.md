@@ -1,7 +1,7 @@
 ---
 title: Find out how to make accessible digital forms
 layout: layouts/base.njk
-description: DESCRIPTION
+description:
 subject:
   - howTos
 tags:
