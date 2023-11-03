@@ -3,6 +3,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
+const customMarkdownIt = require("../gc-da11yn.github.io/scripts/markdown-to-html");
 
 module.exports = function(eleventyConfig) {
 
