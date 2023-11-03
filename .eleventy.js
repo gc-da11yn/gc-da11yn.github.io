@@ -36,7 +36,7 @@ module.exports = function(eleventyConfig) {
       .setLocale("en")
       .toFormat("yyyy'-'MM'-'dd");
   });
-
+  eleventyConfig.setLibrary("md", customMarkdownIt);
 	eleventyConfig.addPassthroughCopy({ "./src/_docs" : "docs" });
 	eleventyConfig.addPassthroughCopy({ "./src/_images" : "img" });
 	eleventyConfig.addPassthroughCopy({ "./src/CNAME" : "CNAME" });
