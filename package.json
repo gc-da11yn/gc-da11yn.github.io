@@ -16,8 +16,7 @@
     "watch:sass": "npm run sass-start -- --watch",
     "start": "npm-run-all sass-start --parallel watch:*",
     "dev": "ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
-    "build": "npm-run-all sass-build eleventy custom-markdown cleanHTML",
-    "custom-markdown": "node gc-da11yn.github.io/scripts/markdown-to-html.js"
+    "build": "npm-run-all sass-build eleventy cleanHTML"
   },
   "repository": {
     "type": "git",
