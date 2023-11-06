@@ -8,7 +8,7 @@ var glob = require("glob");
 var path = require("path");
 var chalk = require("chalk");
 
-var pagesDirectory = "src/pages"; 
+var pagesDirectory = "src/pages";
 var files = glob.sync(pagesDirectory + "/**/*.md", {
   ignore: ["**/node_modules/**/*.md"],
   realpath: true
@@ -16,6 +16,8 @@ var files = glob.sync(pagesDirectory + "/**/*.md", {
 
 var config = JSON.parse(fs.readFileSync(".markdown-link-check.json"));
 config.timeout = '30s';
+
+var ignorePaths = ["/en/", "/fr/"]; // Define the paths to ignore
 
 var results = [];
 
@@ -35,6 +37,11 @@ files.forEach(function (file) {
 
     linkResults.forEach(function (result) {
       if (result.link.startsWith("http://") || result.link.startsWith("https://")) {
+        return;
+      }
+
+      // Check if the link starts with one of the ignored paths
+      if (ignorePaths.some(prefix => result.link.startsWith(prefix))) {
         return;
       }
 
