@@ -59,9 +59,9 @@ Open captions are recommended at the top of American Sign Language (ASL) and Lan
 
 Design teams or a contractor can provide the caption text.
 
-[Captioning Guidelines](\l)
+[Captioning Guidelines](/en/captioning-guidelines/)
 
-[Captioning Checklist](#_Captioning_Checklist)
+[Captioning Checklist](/en/captioning-checklist/)
 
 ## Audio description summary
 Audio description allows any user with a visual disability or cognitive disability to receive a very detailed and descriptive experience of what is happening on the screen. During existing pauses in dialogue, audio description provides information about actions, characters, scene changes, and on-screen text that are important and are not described or spoken in the main soundtrack.
@@ -72,9 +72,9 @@ This can be done using:
 - Adding a separate audio track that describes the visual content. (WCAG 1.2.5 level AA).
   - Note: If audio description additional audio track is being used for a video, then these descriptions need to be included in the transcript.
 
-[Audio Description Guidelines](#_Audio_Description_Guidelines)
+[Audio Description Guidelines](/en/audio-description-guidelines/)
 
-[Audio Description Checklist](#_Audio_Description_Checklist)
+[Audio Description Checklist](/en/audio-description-checklist/)
 
 ## keyboard access
 All video controls must be accessible and navigable via the keyboard. It is the responsibility of the developer to ensure that video players are accessible such as:
