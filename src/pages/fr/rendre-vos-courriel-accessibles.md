@@ -3,68 +3,24 @@ title: Rendre vos courriel accessibles
 layout: layouts/base.njk
 description: Un courriel accessible est important pour les personnes handicapées, mais aussi pour tout le monde. Découvrez comment créer un e-mail accessible dans Outlook.
 tags: howTos
-toggle: making-accessible-emails_ENG
+toggle: making-accessible-emails
 ---
 
-# Création de courriels accessibles
-## Table des matières
-1. [Format du texte](#Format-du-texte)
-2. [Message bilingue (le cas échéant)](#Message-bilingue-le-cas-échéant)
-
-   [Définir une langue](#Définir-une-langue)
-
-3. [Langage clair](#Langage-clair)
-
-   [Ressources ](#Resources)
-
-4. [Styles](#Styles)
-
-   [Utilisation d’un style](#Utilisation-dun-style)
-
-   [Modifier un style](#Modifier-un-style)
-
-5. [Polices de caractères](#Polices-de-caractères)
-
-   [Attributs de la police de caractères](#Attributs-de-la-police-de-caractères)
-
-6. [Utilisation de la couleur](#Utilisation-de-la-couleur)
-7. [Contraste de couleurs](#Contraste-de-couleurs)
-8. [Thèmes Outlook](#Thèmes-Outlook)
-9. [Structure sémantique](#Structure-sémantique)
-
-    [Titres](#Titres)
-
-    [Paragraphes](#Paragraphes)
-
-    [Listes](#Listes)
-
-10. [Images accessibles](#Images-accessibles)
-
-    [Images alignées sur le texte](#Images-alignées-sur-le-texte)
-
-    [Texte de remplacement](#Texte-de-remplacement)
-
-    [Ajouter un texte de remplacement](#Ajouter-un-texte-de-remplacement)
-
-    [Ajouter une légende](#Ajouter-une-légende)
-
-    [Descriptions longues](#Descriptions-longues)
-
-
-11. [Utilisation de tableaux](#Utilisation-de-tableaux)
-
-    [Ajouter un tableau](#Ajouter-un-tableau)
-
-12. [Hyperliens pertinents](#Hyperliens-pertinents)
-
-    [Signets](#Signets)
-
-13. [Signatures de courriel accessibles](#Signatures-de-courriel-accessibles)
-14. [Vérification de l’accessibilité](#Vérification-de-laccessibilité)
-
-    [Vérificateur d’accessibilité d’Outlook](#Vérificateur-daccessibilité-dOutlook)
-
-    [Lecteur d’écran Narrateur de Windows 14](#Lecteur-décran-Narrateur-de-Windows)
+## Sur cette page
+- [Format du texte](#Format-du-texte)
+- [Message bilingue (le cas échéant)](#Message-bilingue-le-cas-échéant)
+- [Langage clair](#Langage-clair)
+- [Styles](#Styles)
+- [Polices de caractères](#Polices-de-caractères)
+- [Utilisation de la couleur](#Utilisation-de-la-couleur)
+- [Contraste de couleurs](#Contraste-de-couleurs)
+- [Thèmes Outlook](#Thèmes-Outlook)
+- [Structure sémantique](#Structure-sémantique)
+- [Images accessibles](#Images-accessibles)
+- [Utilisation de tableaux](#Utilisation-de-tableaux)
+- [Hyperliens pertinents](#Hyperliens-pertinents)
+- [Signatures de courriel accessibles](#Signatures-de-courriel-accessibles)
+- [Vérification de l’accessibilité](#Vérification-de-laccessibilité)
 
 ## Format du texte
 Outlook offre trois options de format : HTML, texte brut et texte enrichi. Parmi ces trois options,

@@ -6,62 +6,24 @@ tags: howTos
 toggle: rendre-vos-courriel-accessibles
 ---
 
-# Making Emails Accessible
-
-## Table of contents
-
-1. [Format](#format)
-2. [Bilingual message (if applicable)](#bilingual-message-if-applicable)
-
-   [Setting a language](#setting-a-language)
-
-3. [Plain language](#plain-language)
-4. [Resources](#resources)
-5. [Styles](#styles)
-
-   [Using a style](#using-a-style)
-
-   [Modify a style](#modify-a-style)
-
-6. [Fonts](#fonts)
-
-   [Font attributes](#font-attributes)
-
-7. [Use of colour](#use-of-colour)
-8. [Colour contrast](#colour-contrast)
-9. [Outlook Themes](#outlook-Themes)
-10. [Semantic structure](#semantic-structure)
-
-    [Headings](#headings)
-
-    [Paragraphs](#paragraphs)
-
-    [Lists](#lists)
-
-11. [Accessible images](#Accessible-images)
-
-    [Inline images](#Inline-images)
-
-    [Alt text](#Alt-Text)
-
-    [Add alt text](#Add-alt-text)
-
-    [Add a caption](#Add-a-caption)
-
-    [Long description](#Long-descriptions)
-
-12. [Using tables](#Using-tables)
-
-    [Add a table](#Add-a-table)
-
-13. [Meaningful links](#Meaningful-links)
-
-    [Bookmarks](#Bookmarks)
-
-14. [Accessible email signatures](#Accessible-email-signatures)
-15. [Testing for accessibility](#Testing-for-accessibility)
-16. [Outlook's Accessibility Checker](#Outlooks-Accessibility-Checker)
-17. [Window's Narrator screen reader](#Windowss-Narrator-screen-reader)
+## On this page
+- [Format](#format)
+- [Bilingual message (if applicable)](#bilingual-message-if-applicable)
+- [Plain language](#plain-language)
+- [Resources](#resources)
+- [Styles](#styles)
+- [Fonts](#fonts)
+- [Use of colour](#use-of-colour)
+- [Colour contrast](#colour-contrast)
+- [Outlook Themes](#outlook-Themes)
+- [Semantic structure](#semantic-structure)
+- [Accessible images](#Accessible-images)
+- [Using tables](#Using-tables)
+- [Meaningful links](#Meaningful-links)
+- [Accessible email signatures](#Accessible-email-signatures)
+- [Testing for accessibility](#Testing-for-accessibility)
+- [Outlook's Accessibility Checker](#Outlooks-Accessibility-Checker)
+- [Window's Narrator screen reader](#Windowss-Narrator-screen-reader)
 
 ## Format
 
