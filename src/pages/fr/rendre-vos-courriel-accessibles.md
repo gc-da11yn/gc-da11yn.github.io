@@ -1,5 +1,5 @@
 ---
-title: Making Accessible Emails
+title: Rendre vos courriel accessibles
 layout: layouts/base.njk
 description: Un courriel accessible est important pour les personnes handicapées, mais aussi pour tout le monde. Découvrez comment créer un e-mail accessible dans Outlook.
 subject: howTos
