@@ -11,7 +11,7 @@ sizeFormat: KB
 
 <h2 class="mrgn-bttm-lg">Other Document Formats (downloadable)</h2>
 <ul class="btn-toolbar list-inline">
-	<li class="btn-group mrgn-bttm-md"><a href="/docs/alternate-formats/AccessibleVirtualMeetingsEN.docx" class="btn btn-primary"><i class="fas fa-file-word" aria-hidden="true"></i>{{title}} (Word version 3, 87 <abbr title="KiloByte">KB</abbr>)</a></li>
+	<li class="btn-group mrgn-bttm-md"><a href="../../_docs/alternate-formats/AccessibleVirtualMeetingsEN.docx" class="btn btn-primary"><i class="fas fa-file-word" aria-hidden="true"></i>{{title}} (Word version 3, 87 <abbr title="KiloByte">KB</abbr>)</a></li>
 </ul>
 <h2>Introduction</h2>
 <p>The Government of Canada (GC) is committed to being an accessible employer and service provider, not only because it is the right thing to do and required under the <em>Accessible Canada Act</em>, but because an inclusive public service is more innovative, efficient and productive.<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup></p>
