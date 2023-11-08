@@ -8,7 +8,8 @@ module.exports = {
 			createForms: "Créer un formulaire",
 			createWebContent: "Créer du contenu Web",
 			designCourse: "Concevoir un cours",
-			designingAccessible: "Concevoir l'accessibilité",
+			designingAccessible:
+				"Principes de conception pour des services accessibles",
 			hostMeetingsAndEvents: "Organiser des réunions et des événements",
 			testYourProducts: "Testez vos produits",
 			resources: "Ressources",
@@ -34,7 +35,7 @@ module.exports = {
 			createForms: "Create forms",
 			createWebContent: "Create web content",
 			designCourse: "Design a course",
-			designingAccessible: "Designing Accessibility",
+			designingAccessible: "Designing accessible services",
 			hostMeetingsAndEvents: "Host a meetings and events",
 			testYourProducts: "Test your products",
 			resources: "Resources",
