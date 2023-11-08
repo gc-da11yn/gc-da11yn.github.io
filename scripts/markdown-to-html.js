@@ -1,4 +1,5 @@
 const markdownIt = require("markdown-it");
+const replaceLink = require("markdown-it-replace-link");
 
 const customMarkdownIt = markdownIt({
   html: true,
@@ -6,16 +7,11 @@ const customMarkdownIt = markdownIt({
   replaceLink: (link) => {
     if (link.startsWith("./") || link.startsWith("../")) {
       // Replace './' with '../'
-      let newLink = link.replace(/^\.\//, "../");
-
-      // Replace '.md' with '/'
-      newLink = newLink.replace(/\.md$/, "/");
+      const newLink = link.replace(/^\.\//, "../");
       return newLink;
     }
-  }
-
-  // Call the default renderer for links
-  return self.renderToken(tokens, idx, options, env, self);
-};
+    return link;
+  },
+});
 
 module.exports = customMarkdownIt;
