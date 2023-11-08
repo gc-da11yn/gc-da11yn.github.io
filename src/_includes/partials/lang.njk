@@ -1,16 +1,10 @@
 {# Language toggle #}
-{% if needsTranslation != true %}
+{% if needsTranslation != true and toggle %}
 <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
 	<h2 class="wb-inv">{{ header[locale].languageSelections }}</h2>
 	<ul class="list-inline mrgn-bttm-0">
 		<li>
-			<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="
-			{% if toggle %}
-				{{ rootPath }}{{ otherLang }}/{{ toggle }}
-				{% else %}
-				{{ rootPath }}{{ toggleURL | replace(" index", "" ) }}
-			{% endif %}
-			">
+			<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ rootPath }}{% if toggle != "fr" and toggle != "en" %}{{ otherLang }}/{% endif %}{{ toggle }}/index.html">
 				<span class="hidden-xs" translate="no">{{ otherLanguage }}</span>
 				<abbr title="{{ otherLanguage }}" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ otherLang }}</abbr>
 			</a>
