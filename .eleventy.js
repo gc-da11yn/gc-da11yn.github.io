@@ -6,6 +6,15 @@ const { stripHtml } = require('string-strip-html');
 
 module.exports = function(eleventyConfig) {
 
+  let markdownItOptions = {
+    html: true, // you can include HTML tags
+  };
+
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt(markdownItOptions).use(markdownItAnchor).use(markdownItAttrs)
+  );
+
   const slugifyFilter = eleventyConfig.javascriptFunctions.slugify;
 
   eleventyConfig.addFilter("stripTagsSlugify", (str) => {
