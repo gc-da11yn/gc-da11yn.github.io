@@ -91,6 +91,7 @@ Every meeting/event is different and each participant has different needs. These
 - For an open-door type meeting where you have no way of knowing the needs of your participants, then you should provide as many accommodations as possible, including but not limited to simultaneous English/French translation, CART (Communication Access Realtime Translation), sign language interpreters in both American Sign Language (ASL – English) and Langue des signes québécoise (LSQ – French). You will need to secure official language interpretation (English – French) if you expect to have both languages spoken during the event.
 
 - Please see [CART services and Sign Language Interpreters (SLI)](./cart-services-and-sign-language-interpreters-sli.md) for additional information regarding CART services and SLI.
+- Please see [CART services and Sign Language Interpreters (SLI)](./cart-services-and-sign-language-interpreters-sli.md) for additional information regarding CART services and SLI.
 
 - Note that adding multiple accommodation features may increase technical complexity (e.g. need for multiple channels for simultaneous interpretation), if special accommodations are required please contact us by [opening a request.](https://a11yrmt.ca/openrequest-en.php)
 
@@ -102,4 +103,81 @@ Every meeting/event is different and each participant has different needs. These
 
 - Please see [Official Languages (OL) recommendations](./Official-languages-recommendations) for additional information regarding Official Languages recommendations.
 
+- For meetings/events that include accommodations and/or service providers do a “Dry Run”, practice meeting a couple of days before the event to make sure everyone can connect, and everything runs smoothly.
 
+- On the day of the event, about one hour before the start time, ask all interpreters and captionists to join the event to ensure no technical issues with login and to ensure everything is working.
+
+## Best practices for presenters
+
+    <li>
+    	Consult the
+    	<a
+    		href="https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-eng.asp#s12_10"
+    		>Briefing the Event team, Facilitators and Presenters
+    		<i class="fas fa-external-link-square-alt"></i
+    		><span class="wb-inv"> Internal link</span></a
+    	>
+    	section of the
+    	<a href="https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-eng.asp"
+    		>Planning Inclusive and Accessible Events - A Handbook for Federal
+    		Public Servants. <i class="fas fa-external-link-square-alt"></i
+    		><span class="wb-inv">Internal link</span></a
+    	>
+    </li>
+
+- Announce your name before speaking.
+- Use plain language and explain all terms and acronyms.
+- Speak at a moderate pace and enunciate clearly.
+- Find a quiet environment to avoid noise distractions.
+- Use a plain and non-distracting background.
+- Use adequate lighting when sharing video for individuals who lip-read.
+- Face your camera when talking for individuals who lip-read.
+- Respect your allotted time, to ensure health breaks and the meeting ends as scheduled.
+
+## Conducting the meeting
+
+- Use the spotlight feature to spotlight presenters’ and interpreters’ videos as required, so that all participants will have a focus on their videos.
+- Introduce interpreters and/or captioners at the start of the meeting.
+- Remind participants how to “pin” interpreters and speakers if needed.
+- Include the link to the captioning service in the chat at the beginning of the meeting, and again about ten minutes later. The captioning service link can also be sent by email to participants, and included in the invitation.
+- When possible and with the consent of all participants, set the meeting to be recorded in order to allow participants to review the presentation and take notes at their own pace.
+
+- Notify the participants on how and when the recording will be shared with them.
+
+- For large meetings/events ensure participants are muted with their cameras off, for non-speakers, upon entry and inform them of this.
+- Describe all visual material (such as PowerPoints and screen shares).
+- If using MS Teams, encourage presenters to use the Share PowerPoint feature instead of just sharing their screen to allow assistive technology users to engage with the PowerPoint.
+- Mention to participants to use the chat only for questions, as it can become overwhelming and distracting for some to have too many chat messages.
+
+- Read relevant chat messages aloud.
+
+- Mention to participants to use the Raise your hand feature to ask questions. Participants may motion on camera or post in the chat if they are unable to use the Raise hand feature.
+
+- Ensure to have a meeting organizer/presenter monitor the video feeds if someone is gesturing on camera.
+
+- Foster an inclusive and safe space by encouraging disability-safe language during meetings by raising awareness of ableist language and preferred terminology.
+
+- Avoid phrases such as, “turning a blind eye to…”, and “being deaf to…”.
+
+- Encourage phrases such as “person with a disability” and not “handicapped”, or “wheelchair-bound”, etc.
+
+- Discourage cross-talk among participants. Only one person should be speaking at a time, allowing for clear communication.
+- Encourage participants if they would like a turn to speak, to use the Raise hand feature, or motion on camera or post in the chat, if they are unable to use that feature.
+- Remind participants of in-event etiquette:
+
+- Stay on mute when not speaking.
+
+- Encourage participants to use plain language.
+
+- Keep camera off, if not speaking, to reduce visual stimuli.
+
+- Turn your camera on when speaking, to allow others who lip-read to do so
+
+- Some participants may have anxiety or other accommodation needs that would require them not be on camera. If participants are unable to be on camera, ensure that their message is still clearly communicated to all other participants.
+
+- Send relevant materials and links that were shared in the chat by email after the meeting.
+- Strive to end the meeting on time to respect participants’ schedules and time.
+
+## Summary of accessible tips
+
+Here is a summary of this page on accessibility tips: [Accessible meetings and events - Summary of Advice list (DOCX, 28 KB)](../../docs/accessible-meetings-and-events-summary-of-advice-list.docx)
