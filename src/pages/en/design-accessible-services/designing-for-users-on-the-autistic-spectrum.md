@@ -1,9 +1,9 @@
 ---
 title: Designing for users on the autistic spectrum
 layout: layouts/base.njk
-description:
+description: What to do - and what <strong>not</strong> to do - when designing for users on the autistic spectrum.
 tags: designingAccessible
-toogle: concevoir-pour-les-utilisateurs-dans-le-spectre-autistique
+toggle: concevoir-pour-les-utilisateurs-dans-le-spectre-autistique
 ---
 
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>

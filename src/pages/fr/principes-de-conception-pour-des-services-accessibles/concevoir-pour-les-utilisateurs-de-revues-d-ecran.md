@@ -1,9 +1,9 @@
 ---
 title: Concevoir pour les utilisateurs de revues d’écran
 layout: layouts/base.njk
-description:
+description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs de lecteurs d'écran.
 tags: designingAccessible
-toogle: designing-for-users-of-screen-readers
+toggle: designing-for-users-of-screen-readers
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
