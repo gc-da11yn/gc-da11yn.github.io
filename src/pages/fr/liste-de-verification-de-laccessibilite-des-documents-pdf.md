@@ -170,5 +170,5 @@ Pour toute autre question ou commentaire concernant la liste de vérification de
 **Balises :** Représentation textuelle structurée du contenu PDF auquel ont accès les lecteurs d’écran pour lire le document à haute voix.
 
 <a class="btn btn-primary"
-    href="../../../docs/Liste_de_verification_de_laccessibilite_des_documents_PDF.pdf"
+    href="{{ rootPath }}docs/Liste_de_verification_de_laccessibilite_des_documents_PDF.pdf"
     role="button">Télécharger la page (PDF, 355 Ko)</a>

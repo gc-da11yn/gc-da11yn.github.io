@@ -12,7 +12,7 @@ tags:
 <div class="row">
 
   <div class="col-md-4 col-md-push-8 mrgn-tp-lg">
-    <a class="gc-dwnld-lnk" href="/docs/sitka-wwhr-fr.pptx">
+    <a class="gc-dwnld-lnk" href="{{ rootPath }}docs/sitka-wwhr-fr.pptx">
       <div class="well gc-dwnld">
         <div class="row">
           <div class="col-xs-4">

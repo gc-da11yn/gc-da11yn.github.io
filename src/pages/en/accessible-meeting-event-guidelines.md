@@ -90,7 +90,7 @@ Every meeting/event is different and each participant has different needs. These
 - Participants may not feel comfortable sharing their disabilities with organizers, and not want their information to be shared or used elsewhere. To ensure participants feel comfortable to request the accommodations they need, provide them with a link to the privacy policy [ESDC Consultation and engagement activities privacy notice statement.](https://www.canada.ca/en/employment-social-development/corporate/transparency/consultation-privacy-policy.html)
 - For an open-door type meeting where you have no way of knowing the needs of your participants, then you should provide as many accommodations as possible, including but not limited to simultaneous English/French translation, CART (Communication Access Realtime Translation), sign language interpreters in both American Sign Language (ASL – English) and Langue des signes québécoise (LSQ – French). You will need to secure official language interpretation (English – French) if you expect to have both languages spoken during the event.
 
-- Please see [CART services and Sign Language Interpreters (SLI)](./CART-services-Sign-Language-Interpreters) for additional information regarding CART services and SLI.
+- Please see [CART services and Sign Language Interpreters (SLI)](./cart-services-and-sign-language-interpreters-sli.md) for additional information regarding CART services and SLI.
 
 - Note that adding multiple accommodation features may increase technical complexity (e.g. need for multiple channels for simultaneous interpretation), if special accommodations are required please contact us by [opening a request.](https://a11yrmt.ca/openrequest-en.php)
 
@@ -179,4 +179,4 @@ Every meeting/event is different and each participant has different needs. These
 
 ## Summary of accessible tips
 
-Here is a summary of this page on accessibility tips: [Accessible meetings and events - Summary of Advice list (DOCX, 28 KB)](src_docs\accessible-meetings-and-events-summary-of-advice-list.docx)
+Here is a summary of this page on accessibility tips: [Accessible meetings and events - Summary of Advice list (DOCX, 28 KB)](../../docs/accessible-meetings-and-events-summary-of-advice-list.docx)

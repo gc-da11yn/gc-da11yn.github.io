@@ -39,12 +39,11 @@ internalLinks: true
 
 <p>Certains des cours d&eacute;crits ci-dessous sont offerts par des fournisseurs externes, uniquement en anglais. D'autres cours sont offerts par le Coll&egrave;ge@EDSC et l'&Eacute;cole de la fonction publique du Canada. Puisqu'EDSC n'est pas affili&eacute; &agrave; ces cours et ne participe pas &agrave; la mise &agrave; jour de ces sites Web, le minist&egrave;re ne peut &ecirc;tre tenu responsable de leur contenu. Ces sites Web constituent une ressource et sont &agrave; utiliser avec pr&eacute;caution.</p>
 <ul class="lst-spcd">
-
 	<li><a href="http://iservice.prv/fra/college/competence-interculturelle/accessibilite.shtml">Formation pour tous <i class="fas fa-external-link-square-alt" aria-hidden="true"></i><span class="wb-inv">Lien interne</span></a></li>
-		<li><a href="./web-application-developer/">Développeurs d'application web</a></li>
-		<li><a href="./web-application-tester/">Testeurs d'applications web</a></li>
-		<li><a href="./desktop-application-developer/">Développeurs d'applications bureautiques</a></li>
-		<li><a href="./desktop-application-tester/">Testeurs d'applications bureautiques</a></li>
-		<li><a href="./writers-editors-translators/">Rédacteurs, réviseurs et traducteurs</a></li>
+		<li><a href="./developpeurs-dapplication-web.md">Développeurs d'application web</a></li>
+		<li><a href="./testeurs-dapplications-web.md">Testeurs d'applications web</a></li>
+		<li><a href="./developpeurs-d-applications-bureautiques.md">Développeurs d'applications bureautiques</a></li>
+		<li><a href="./testeurs-d-applications-bureautiques.md">Testeurs d'applications bureautiques</a></li>
+		<li><a href="./redacteurs-reviseurs-et-traducteurs.md">Rédacteurs, réviseurs et traducteurs</a></li>
 	</ul>
 
