@@ -1,9 +1,9 @@
 ---
 title: Designing for users of screen readers
 layout: layouts/base.njk
-description:
+description: What to do - and what (to avoid)/(<strong>not</strong> to do) - when designing for users of screen readers.
 tags: designingAccessible
-toogle: concevoir-pour-les-utilisateurs-de-revues-decran
+toggle: concevoir-pour-les-utilisateurs-de-revues-d-ecran
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>

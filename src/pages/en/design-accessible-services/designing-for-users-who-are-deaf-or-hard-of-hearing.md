@@ -1,9 +1,9 @@
 ---
 title: Designing for users who are deaf or hard of hearing
 layout: layouts/base.njk
-description:
+description: What to do - and what <strong>not</strong> to do - when designing for users who are deaf or hard of hearing.
 tags: designingAccessible
-toogle: concevoir-pour-les-utilisateurs-sourds-ou-malentendants
+toggle: concevoir-pour-les-utilisateurs-sourds-ou-malentendants
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>

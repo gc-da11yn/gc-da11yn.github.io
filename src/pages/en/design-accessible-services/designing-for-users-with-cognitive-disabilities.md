@@ -1,9 +1,9 @@
 ---
 title: Designing for users with cognitive disabilities
 layout: layouts/base.njk
-description:
+description: What to do - and what <strong>not</strong> to do - when designing for users with cognitive disabilities.
 tags: designingAccessible
-toogle: principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif
+toggle: principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>

@@ -1,9 +1,9 @@
 ---
 title: Designing for users with low vision
 layout: layouts/base.njk
-description:
+description: What to do - and what <strong>not</strong> to do - when designing for users with low vision.
 tags: designingAccessible
-toogle: concevoir-pour-les-utilisateurs-malvoyants
+toggle: concevoir-pour-les-utilisateurs-malvoyants
 ---
 <p>Printable posters <span id="das1">(PDF format)</span>:</p>
 <ul>
