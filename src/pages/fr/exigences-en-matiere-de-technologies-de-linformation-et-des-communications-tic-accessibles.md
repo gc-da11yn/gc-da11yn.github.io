@@ -16,7 +16,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<div class="well gc-dwnld">
 			<div class="row">
 				<div class="col-xs-8">
-					<p class="gc-dwnld-txt"> <a href="/docs/Annexe%20X%20-%20Exigences%20en%20mati%C3%A8re%20de%20TIC%20accessibles.docx" class="gc-dwnld-info"><i class="fas fa-file-word" aria-hidden="true"></i>Exigences en matière de TIC accessibles.docx (636 <abbr title="KiloByte">Ko</abbr>)</a> </p>
+					<p class="gc-dwnld-txt"> <a href="{{ rootPath }}docs/Annexe%20X%20-%20Exigences%20en%20mati%C3%A8re%20de%20TIC%20accessibles.docx" class="gc-dwnld-info"><i class="fas fa-file-word" aria-hidden="true"></i>Exigences en matière de TIC accessibles.docx (636 <abbr title="KiloByte">Ko</abbr>)</a> </p>
 				</div>
 			</div>
 		</div>

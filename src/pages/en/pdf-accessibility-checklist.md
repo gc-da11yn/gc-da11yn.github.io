@@ -138,4 +138,4 @@ Eg. Employment and Social Development Canada (ESDC)
 
 **Tags:** The structured, textual representation of the PDF content that is accessed by screen readers, to read the document out-loud.
 
-<p><a class="btn btn-primary" href="../../../docs/PDF_Accessibility_Checklist.pdf" role="button">Download page (PDF, 324 KB)</a></p>
+<p><a class="btn btn-primary" href="{{ rootPath }}docs/PDF_Accessibility_Checklist.pdf" role="button">Download page (PDF, 324 KB)</a></p>

@@ -171,8 +171,7 @@ If you answer ‘No’ to one of the following questions, then your document IS 
 - Microsoft has numerous FREE videos on their Youtube channel [MSFTEnable](https://www.youtube.com/user/MSFTEnable) with good learning tool.
   <li>Checklists (available by document type) are available on the IT SharePoint site under <a href="https://www.youtube.com/user/MSFTEnable">Accessibility Toolkit  <i class="fas fa-external-link-square-alt"></i><span class="wb-inv"> Internal link</span></a></li>
   <li>To find out about our services, consult &lsquo;<a href="http://iservice.prv/eng/imit/A11Y/index.shtml">Accessible Information and Communication Technology <i class="fas fa-external-link-square-alt"></i><span class="wb-inv"> Internal link</span></a>&rsquo; on iService </li>
-
-          <aside class="wb-fnote" role="note">
+<aside class="wb-fnote" role="note">
               <h2 id="fn">Footnotes</h2>
               <dl>
                   <dt>Footnote 1</dt>
@@ -196,4 +195,4 @@ If you answer ‘No’ to one of the following questions, then your document IS 
               </dl>
           </aside>
           <p>&nbsp;</p>
-          <p><a class="btn btn-primary" href="../../../docs/MSDocument_COMPLIANCE_CHECKLIST.docx" role="button">Download page (DOCX, 60 KB)</a></p>
+          <p><a class="btn btn-primary" href="{{ rootPath }}docs/MSDocument_COMPLIANCE_CHECKLIST.docx" role="button">Download page (DOCX, 60 KB)</a></p>

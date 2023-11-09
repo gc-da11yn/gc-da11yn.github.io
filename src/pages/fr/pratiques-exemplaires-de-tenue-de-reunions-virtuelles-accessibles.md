@@ -12,7 +12,7 @@ sizeFormat: ko
 
 <h2 class="mrgn-bttm-lg">Autres formats du document (à télécharger)</h2>
 <ul class="btn-toolbar list-inline">
-	<li class="btn-group mrgn-bttm-md"><a href="/docs/alternate-formats/PratiquesExemplairesPourLaTenueDeRéunionsVirtuellesAccessibles.docx" class="btn btn-primary"><i class="fas fa-file-word" aria-hidden="true"></i>{{title}} (Word version 3, 90 <abbr title="kilo-octet">ko</abbr>)</a></li>
+	<li class="btn-group mrgn-bttm-md"><a href="{{ rootPath }}docs/alternate-formats/PratiquesExemplairesPourLaTenueDeRéunionsVirtuellesAccessibles.docx" class="btn btn-primary"><i class="fas fa-file-word" aria-hidden="true"></i>{{title}} (Word version 3, 90 <abbr title="kilo-octet">ko</abbr>)</a></li>
 </ul>
 <h2>Introduction</h2>
 <p>Le gouvernement du Canada (GC) entend être un employeur et un fournisseur de services accessible, non seulement parce qu’il convient d’agir ainsi et pour se conformer à la <em>Loi canadienne sur l’accessibilité</em>, mais parce que la fonction publique est ainsi plus innovatrice, efficiente et productive.<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup></p>
