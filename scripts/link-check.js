@@ -18,6 +18,7 @@ var config = JSON.parse(fs.readFileSync(".markdown-link-check.json"));
 config.timeout = '30s';
 
 var ignorePaths = ["/en/", "/fr/"]; // Define the paths to ignore
+var imageExtensions = [".png", ".jpg", ".jpeg", ".gif", ".svg"]; // Define image extensions
 
 var results = [];
 
@@ -42,6 +43,11 @@ files.forEach(function (file) {
 
       // Check if the link starts with one of the ignored paths
       if (ignorePaths.some(prefix => result.link.startsWith(prefix))) {
+        return;
+      }
+
+      // Check if the file has an image extension
+      if (imageExtensions.some(ext => result.link.toLowerCase().endsWith(ext))) {
         return;
       }
 

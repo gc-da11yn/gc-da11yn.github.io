@@ -37,7 +37,7 @@ internalLinks: true
   </section>
 
   <section class="col-md-6">
-    <h2 class="h3"><a href="./accessible-image.html">Concevoir des images accessibles</a></h2>
+    <h2 class="h3"><a href="./concevoir-des-images-accessibles.md">Concevoir des images accessibles</a></h2>
     <p>Les images sont par nature inaccessibles aux personnes qui ne peuvent pas les voir. Les rédacteurs, développeurs et concepteurs doivent tenir compte des utilisateurs souffrant de divers handicaps lorsqu'ils utilisent des images. Les utilisateurs de lecteurs d'écran comprennent les personnes aveugles, malvoyantes ou souffrant de handicaps cognitifs. Chaque image doit fournir un texte alternatif efficace pour les lecteurs d'écran.</p>
   </section>
 

@@ -6,6 +6,7 @@
   "scripts": {
     "newFolder": "node scripts/create-new-folder.js",
     "cleanHTML": "node scripts/clean-html.js",
+    "markdown-to-html": "node scripts/markdown-to-html.js",
     "link-check": "node scripts/link-check.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "spellcheck": "cspell --no-progress -u \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
@@ -16,7 +17,7 @@
     "watch:sass": "npm run sass-start -- --watch",
     "start": "npm-run-all sass-start --parallel watch:*",
     "dev": "ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
-    "build": "npm-run-all sass-build eleventy cleanHTML"
+    "build": "npm-run-all sass-build eleventy cleanHTML markdown-to-html"
   },
   "repository": {
     "type": "git",

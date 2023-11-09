@@ -162,8 +162,7 @@ Si vous répondez « Non » à l’une des questions suivantes, votre document N
 - Microsoft propose de nombreuses vidéos GRATUITES sur sa chaîne YouTube [MSFTEnable](https://www.youtube.com/user/MSFTEnable) (Vérifié si disponible en français) avec un bon outil d’apprentissage.
   <li>Pour trouver d’autres outils qui vous aideront à rendre vos documents accessibles, consultez la <a href="https://www.youtube.com/user/MSFTEnable">trousse d’outils sur l’accessibilité <i class="fas fa-external-link-square-alt"></i><span class="wb-inv"> Lien interne</span></a> que vous trouverez dans le site SharePoint de l’accessibilité des TI (cherchez CHECKLIST [LISTE DE CONTRÔLE]).</li>
   <li>Pour en savoir plus sur nos services, consultez la page <a href="http://iservice.prv/eng/imit/A11Y/index.shtml">Technologies de l’information et les communications (TIC) accessibles <i class="fas fa-external-link-square-alt"></i><span class="wb-inv"> Lien interne</span></a> sur iService.</li>
-
-          <aside class="wb-fnote" role="note">
+<aside class="wb-fnote" role="note">
               <h2 id="fn">Notes de bas de pages</h2>
               <dl>
                   <dt>Note de bas de page 1</dt>
@@ -180,4 +179,4 @@ Si vous répondez « Non » à l’une des questions suivantes, votre document N
               </dl>
           </aside>
           <p>&nbsp;</p>
-          <a class="btn btn-primary" href="../../../docs/MSDocument_COMPLIANCE_CHECKLIST_FR.docx" role="button">Télécharger la page (DOCX, 60 Ko)</a>
+          <a class="btn btn-primary" href="{{ rootPath }}docs/MSDocument_COMPLIANCE_CHECKLIST_FR.docx" role="button">Télécharger la page (DOCX, 60 Ko)</a>
