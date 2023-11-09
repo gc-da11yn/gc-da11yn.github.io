@@ -42,7 +42,7 @@ Pour rédiger vos courriels en format HTML :
 4. dans la liste déroulante **Composition des messages** (**Alt + É**), choisissez **HTML;**
 5. sélectionnez **OK**.
 
-![Options d'Outlook, Courrier, Composition des messages, liste déroulante avec l'option choisie HTML.](https://github.com/RosalieYelle/introduction-to-github/assets/78310125/40ed5322-1e6c-437f-9d86-6a5ee426f0b1)
+<p><img src="{{ rootPath }}img/fr/rendre-vos-courriel-accessibles-1.png" alt="" /></p>
 
 ## Message bilingue (le cas échéant)
 
@@ -99,13 +99,9 @@ Le volet Styles se trouve sur l’onglet Format du texte. Mettez en évidence le
 
 Pour ouvrir le volet Styles, cliquez sur la **flèche d’expansion** (**Alt, X, S)**. Sélectionnez **Titre**. Le style Titre sera mis en évidence dans la liste et sera appliqué au texte sélectionné.
 
-![Voir description de figure ci-dessous](https://github.com/RosalieYelle/introduction-to-github/assets/78310125/d42e82b6-cf3e-465e-92d5-9920859418df)
+<p><img src="{{ rootPath }}img/fr/rendre-vos-courriel-accessibles-2.png" alt="" /></p>
 
-Figure 2 : Bouton « Autres » du volet Styles.
-
-![Voir description de figure ci-dessous](https://github.com/RosalieYelle/introduction-to-github/assets/78310125/2f3fceef-1037-4129-90f4-6a98e379f921)
-
-Figure 3 : Volet styles développé.
+<p><img src="{{ rootPath }}img/fr/rendre-vos-courriel-accessibles-3.png" alt="" /></p>
 
 ### Modifier un style
 

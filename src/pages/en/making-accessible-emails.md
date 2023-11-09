@@ -43,7 +43,7 @@ To send your emails using HTML format:
 4. go to **Compose messages** drop-down list (**Alt + C**) and choose **HTML**
 5. select **OK**.
 
-![Outlook Options, Mail, Compose messages in this format dropdown list showing HTML.](https://github.com/RosalieYelle/introduction-to-github/assets/78310125/b0898c6a-bbfc-4dc5-8215-c816984999dd)
+<p><img src="{{ rootPath }}img/en/making-accessible-emails-1.png" alt="" /></p>
 
 ## Bilingual message (if applicable)
 
@@ -95,13 +95,9 @@ The Styles pane is on the Format Text tab. Highlight the text that you want to c
 
 To access the Styles pane, select the **expansion arrow** (**Alt, H, F, Y)** and the Styles pane will open. Select **Title**. The text will be formatted to the Title style and highlighted in the Styles pane.
 
-![See caption below](https://github.com/RosalieYelle/introduction-to-github/assets/78310125/71672908-7978-49ff-ab14-35b005602744)
+<p><img src="{{ rootPath }}img/en/making-accessible-emails-2.png" alt="" /></p>
 
-Figure 2: Styles gallery More button
-
-![See caption below](https://github.com/RosalieYelle/introduction-to-github/assets/78310125/ccef4f80-d85d-4c2a-8b5f-caa90657cbc2)
-
-Figure 3: Expanded Style gallery.
+<p><img src="{{ rootPath }}img/en/making-accessible-emails-3.png" alt="" /></p>
 
 ### Modify a style
 
