@@ -45,7 +45,9 @@
     "eleventy-plugin-broken-links": "^2.0.3",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-attrs": "^4.1.6",
+    "markdown-link-check": "^3.11.2",
     "npm-run-all": "^4.1.5",
+    "replace-in-file": "^7.0.2",
     "sass": "^1.32.12",
     "string-strip-html": "^8.5.0"
   },
@@ -53,7 +55,6 @@
     "clean-html": "^2.0.1",
     "esm": "^3.2.25",
     "markdown-it-replace-link": "^1.2.0",
-    "markdown-link-check": "^3.0.0",
     "prompt-sync": "^4.2.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1"
