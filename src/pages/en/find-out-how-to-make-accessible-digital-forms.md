@@ -6,6 +6,7 @@ subject:
   - howTos
 tags:
   - createDocument
+toggle: ameliorer-l-accessibilite-des-formulaires
 ---
 <h2>The most accessible format for forms: HTML</h2>
 
