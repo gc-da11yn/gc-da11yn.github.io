@@ -8,7 +8,7 @@ const path = require('path');
 module.exports = function (eleventyConfig) {
   let markdownItOptions = {
     html: true, // you can include HTML tags
-  };a
+  };
 
   const customMarkdownIt = markdownIt(markdownItOptions)
     .use(markdownItAnchor)
