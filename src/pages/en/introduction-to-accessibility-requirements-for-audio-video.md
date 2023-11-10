@@ -59,7 +59,7 @@ Open captions are recommended at the top of American Sign Language (ASL) and Lan
 
 Design teams or a contractor can provide the caption text.
 
-[Captioning Guidelines](/en/captioning-guidelines/)
+[Captioning Guidelines](./captioning-guidelines.md)
 
 [Captioning Checklist](/en/captioning-checklist/)
 

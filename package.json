@@ -6,7 +6,7 @@
   "scripts": {
     "newFolder": "node scripts/create-new-folder.js",
     "cleanHTML": "node scripts/clean-html.js",
-    "markdown-to-html": "node scripts/markdown-to-html.js",
+    "replaceLink": "node scripts/replace-links.js",
     "link-check": "node scripts/link-check.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "spellcheck": "cspell --no-progress -u \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
@@ -17,7 +17,7 @@
     "watch:sass": "npm run sass-start -- --watch",
     "start": "npm-run-all sass-start --parallel watch:*",
     "dev": "ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
-    "build": "npm-run-all sass-build eleventy cleanHTML markdown-to-html"
+    "build": "npm-run-all sass-build eleventy && npm run cleanHTML && npm run replaceLink"
   },
   "repository": {
     "type": "git",
@@ -50,7 +50,11 @@
   },
   "dependencies": {
     "clean-html": "^2.0.1",
+    "esm": "^3.2.25",
+    "markdown-it-replace-link": "^1.2.0",
     "markdown-link-check": "^3.0.0",
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   }
 }
