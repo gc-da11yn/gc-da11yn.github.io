@@ -1,23 +1,20 @@
 const markdownIt = require("markdown-it");
+const replaceLink = require("markdown-it-replace-link");
 
 const customMarkdownIt = markdownIt({
   html: true,
-});
+}).use(replaceLink, {
+  replaceLink: (link) => {
+    if (link.startsWith("./") || link.startsWith("../")) {
+      // Replace './' with '../'
+      let newLink = link.replace(/^\.\//, "../");
 
-customMarkdownIt.renderer.rules.link_open = (tokens, idx, options, env, self) => {
-  const hrefIndex = tokens[idx].attrIndex('href');
-  if (hrefIndex !== -1) {
-    let hrefValue = tokens[idx].attrs[hrefIndex][1];
-
-    // Handle your link replacement logic here
-    if (hrefValue.startsWith("./") || hrefValue.startsWith("../")) {
-      hrefValue = hrefValue.replace(/^\.\//, "../").replace(/\.md$/, "/");
-      tokens[idx].attrs[hrefIndex][1] = hrefValue;
+      // Replace '.md' with '/'
+      newLink = newLink.replace(/\.md$/, "/");
+      return newLink;
     }
-  }
-
-  // Call the default renderer for links
-  return self.renderToken(tokens, idx, options, env, self);
-};
+    return link;
+  },
+});
 
 module.exports = customMarkdownIt;
