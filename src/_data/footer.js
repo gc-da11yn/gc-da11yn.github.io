@@ -1,4 +1,4 @@
-module.exports = { 
+module.exports = {
 	fr: {
 		aboutGovernment: "Au sujet du gouvernement",
 		allContacts: "Toutes les coordonnées",
@@ -28,8 +28,8 @@ module.exports = {
 		health: "Santé",
 		taxesURL: "https://www.canada.ca/fr/services/impots.html",
 		taxes: "Impôts",
-		enviromentURL: "https://www.canada.ca/fr/services/environnement.html",
-		enviroment: "Environnement et ressources naturelles",
+		environmentURL: "https://www.canada.ca/fr/services/environnement.html",
+		environment: "Environnement et ressources naturelles",
 		defenceURL: "https://www.canada.ca/fr/services/defense.html",
 		defence: "Sécurité nationale et défense",
 		cultureURL: "https://www.canada.ca/fr/services/culture.html",
@@ -91,8 +91,8 @@ module.exports = {
 		health: "Health",
 		taxesURL: "https://www.canada.ca/en/services/taxes.html",
 		taxes: "Taxes",
-		enviromentURL: "https://www.canada.ca/en/services/environment.html",
-		enviroment: "Enviroment and natural resources",
+		environmentURL: "https://www.canada.ca/en/services/environment.html",
+		environment: "Environment and natural resources",
 		defenceURL: "https://www.canada.ca/en/services/defence.html",
 		defence: "National security and defence",
 		cultureURL: "https://www.canada.ca/en/services/culture.html",
