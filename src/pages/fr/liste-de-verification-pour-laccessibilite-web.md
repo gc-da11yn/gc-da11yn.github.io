@@ -4,25 +4,29 @@ layout: layouts/base.njk
 description: Liste de vérification pour vérifier si le contenu d'une page web est accessible ou non
 toggle: web-accessibility-checklist
 subject:
-  - accessibilityInTheGovernmentOfCanada
+- learningAndDevelopment
 tags:
-  - procurement
+- development
 ---
+
 <ul class="list-unstyled mrgn-tp-lg">
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>N’utilisez pas de balise <code>&lt;table&gt;</code> pour la mise en page.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>N’utilisez pas la balise <code>&lt;br&gt;</code> ou &nbsp; pour créer des espaces. Utilisez plutôt le CSS.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Le niveau de contraste de la présentation visuelle du texte et des images de texte est d'au moins 4,5 : 1 sur toutes les pages.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Vous devez pouvoir redimensionner (c'est-à-dire zoomer) jusqu'à 200%, sans perte de contenu ou de fonctionnalité.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Les pages fonctionnent bien sur les appareils mobiles (en modifiant la taille de la fenêtre).</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Toutes les fonctionnalités du contenu sont accessibles à l’aide du clavier.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Un mécanisme est disponible pour contourner les blocs de contenu qui se répètent sur plusieurs pages Web.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Les pages Web ont des titres uniques qui décrivent le sujet ou l'objectif.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>L'objectif de chaque lien peut être déterminé à partir du texte du lien.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Les titres doivent être significatifs et utilisés pour créer une structure hiérarchique. (Les niveaux de titres ne doivent pas être sautés).</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Le « focus » est toujours visible lors de l'utilisation d’un clavier.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Tous les éléments d’un formulaire doivent avoir un « label » associé.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Le langage de la page et de son contenu doit être programmée.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Toutes les pages qui contiennent des tableaux pour transmettre des données utilisent soit <a href="https://webaim.org/techniques/tables/data#scope"><code>scope</code> (disponible seulement en anglais)</a> ou <a href="https://webaim.org/techniques/tables/data#id"><code>id</code> with <code>headers</code> (disponible seulement en anglais)</a>.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Utilisez la <a href="https://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-fr.html">validation de formulaire</a> de la <a href="https://wet-boew.github.io/wet-boew/index-fr.html"><abbr title="Boîte à outils de l’expérience Web">BOEW</abbr></a>.</li>
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Toutes les pages doivent être validées : <a hreflang="en" lang="en" href="https://validator.w3.org/">Markup Validation Service<span lang="fr"> (disponible seulement en anglais)</span></a>.</li>
-</ul class="list-unstyled mrgn-tp-lg">
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Les images informatives ont un texte alternatif court et descriptif, et toutes les images d&eacute;coratives ont des attributs alternatifs vides <code>&lt;alt=&ldquo;&rdquo;&gt;</code>.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Les titres sont significatifs et utilis&eacute;s pour cr&eacute;er une structure hi&eacute;rarchique. (Les niveaux de titres ne doivent pas &ecirc;tre saut&eacute;s).</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>La balise <code>&lt;table&gt;</code> n&rsquo;est pas utilis&eacute;e pour la mise en page.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Toutes les pages qui contiennent des tableaux pour transmettre des donn&eacute;es utilisent soit <a href="https://webaim.org/techniques/tables/data#scope"><code>scope</code> (disponible seulement en anglais)</a> ou <a hreflang="en" href="https://webaim.org/techniques/tables/data#id"><span lang="en"><code>id</code> with <code>headers</code></span> (disponible seulement en anglais)</a>.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Les &eacute;l&eacute;ments d'information et les d&eacute;finitions sont correctement structur&eacute;s sous forme de listes ordonn&eacute;es <code>&lt;ol&gt;</code>, non ordonn&eacute;es <code>&lt;ul&gt;</code> ou de d&eacute;finitions <code>&lt;dl&gt;</code>.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>L'ordre de lecture des pages est logique et intuitif.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Le niveau de contraste de la pr&eacute;sentation visuelle du texte et des images de texte est d'au moins 4,5:1 sur toutes les pages.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Les utilisateurs peuvent redimensionner (par exemple, zoomer) jusqu'&agrave; 200 %, sans perte de contenu ou de fonctionnalit&eacute;.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Le contenu de la page est redistribu&eacute; sur les appareils mobiles (en modifiant la taille de la fen&ecirc;tre d&rsquo;affichage, &agrave; partir de 320 px) &agrave; mesure que le zoom augmente, jusqu'&agrave; 400%.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Les &eacute;l&eacute;ments interactifs (liens, boutons, menus, boutons d'expansion et de r&eacute;duction, etc.) re&ccedil;oivent toujours la priorit&eacute; lorsqu'on utilise le clavier.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Le contenu statique (comme les titres, les paragraphes, les &eacute;l&eacute;ments de liste, etc.) ne doit pas &ecirc;tre mis en &eacute;vidence par d&eacute;faut lors de l'utilisation du clavier.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Un m&eacute;canisme est disponible pour contourner les blocs de contenu qui se r&eacute;p&egrave;tent sur plusieurs pages web.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Les pages web ont des titres uniques qui d&eacute;crivent le sujet ou l'objectif.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>L'objectif de chaque lien peut &ecirc;tre d&eacute;termin&eacute; &agrave; partir du texte du lien.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>La langue de la page et de son contenu est programm&eacute;e.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Chaque &eacute;l&eacute;ment d&rsquo;un formulaire a un &laquo; <code lang="en">label</code> &raquo; associ&eacute;.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Se r&eacute;f&eacute;rer &agrave; la page de <a href="https://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-fr.html">validation des formulaires Boîte à outils de l'expérience Web (<abbr>BOEW</abbr>)</a> pour la validation g&eacute;n&eacute;rique et la gestion des messages d'erreur pour les formulaires Web.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>La balise <code>&lt;br&gt;</code> n&rsquo;est pas utilis&eacute;e pour cr&eacute;er des espaces; le CSS est plut&ocirc;t utilis&eacute;.</li>
+	<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>Utilisez <a hreflang="en" href="https://validator.w3.org/"><span lang="en">Markup Validation Service</span> (disponible seulement en anglais)</a> pour valider le balisage des pages.</li>
+</ul>
