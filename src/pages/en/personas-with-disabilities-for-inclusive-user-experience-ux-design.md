@@ -6,7 +6,6 @@ description: The case to include disabilities into user personas, the types of t
 subject:
   - accessibilityFundamentals
 tags:
-  - aboutDisabilities
 ---
 
 <h2>Table of contents</h2>

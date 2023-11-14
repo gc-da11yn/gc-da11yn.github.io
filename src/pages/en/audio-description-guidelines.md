@@ -4,7 +4,6 @@ description: Audio description allows any user with a visual disability or cogni
 subject:
   - accessibilityFundamentals
 tags:
-  - aboutDisabilities
 layout: layouts/base.njk
 audience:
   - Everyone

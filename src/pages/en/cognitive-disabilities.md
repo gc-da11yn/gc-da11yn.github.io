@@ -1,11 +1,11 @@
 ---
 title: Cognitive Disabilities
-description: Brief descriptions and characteristics of common types of cognitive disabilities.
+description: Cognitive impairments take many forms, including short and long-term memory impairments, and perceptual differences. Language impairments, including dyslexia and temporary impairments associated with those trying to learn new languages, are also common cognitive problems.
 subject:
   - accessibilityFundamentals
-tags: 
+tags:
   - aboutDisabilities
-Keywords: 
+Keywords:
   - Intellectual disabilities
   - Reading disability
   - Dyslexia
@@ -27,12 +27,13 @@ Keywords:
 layout: layouts/base.njk
 audience:
   - Everyone
+toggle: handicaps-cognitifs
 ---
 
-# **Cognitive Disabilities**
-Cognitive impairments take many forms, including short and long-term memory impairments, and perceptual differences. Language impairments, including dyslexia and temporary impairments associated with those trying to learn new languages, are also common cognitive problems. Normally a combination of adaptive computer technologies is used to help people with cognitive disabilities.
-
-Cognitive disabilities may occur on their own or result from a variety of conditions or injuries such as traumatic brain injury. They may also co-occur with other types of disabilities.
+* <a href="{{ rootPath }}docs/posters/AutismSpect-en_2023.pdf" id="das2" aria-labelledby="das2 das1">Designing for users on the autistic spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
+* [Designing for users on the autistic spectrum (HTML)]({{ rootPath }}en/designing-for-users-on-the-autistic-spectrum/)
+* <a href="{{ rootPath }}docs/posters/Cognitive-en_2023.pdf" id="das3" aria-labelledby="das3 das1">Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)</a>
+* [Designing principle for users with cognitive disabilities (HTML)]({{ rootPath }}en/designing-for-users-with-cognitive-disabilities/)
 
 ## Intellectual Disabilities
 Definition: Intellectual disability is characterized by significant limitations both in intellectual functioning (reasoning, learning, problem solving) and in adaptive behavior, which covers a range of everyday social and practical skills.

@@ -5,7 +5,6 @@ description: Le cas d'inclure les handicaps dans les personas des utilisateurs, 
 subject:
   - accessibilityFundamentals
 tags:
-  - aboutDisabilities
 ---
 
 <h2>Table des matières</h2>

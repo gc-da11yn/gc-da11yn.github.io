@@ -1,6 +1,6 @@
 ---
 title: Mobility, Flexibility, and Body Structure Disabilities
-description: Brief descriptions and characteristics of common types of mobility, flexibility, and body structure disabilities.
+description: Mobility impairment includes people with upper or lower limb loss or disability, challenges with manual dexterity, disability in co-ordination with different organs of the body, or with a broken skeletal structure. Physical and mobility disabilities restrict the ability of the body or one or more limbs to move independently and purposefully.
 category:
   - Disability awareness
 Tagging:
@@ -13,12 +13,11 @@ subject:
   - accessibilityFundamentals
 tags:
   - aboutDisabilities
+toggle: handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle
 ---
 
-# Mobility, Flexibility, and Body Structure Disabilities
-Mobility impairment includes people with upper or lower limb loss or disability, challenges with manual dexterity, disability in co-ordination with different organs of the body, or with a broken skeletal structure. Physical and mobility disabilities restrict the ability of the body or one or more limbs to move independently and purposefully.
-
-The change in a person’s mobility may be temporary or permanent. Disability in mobility can be congenital, acquired with age, or be the consequence of disease.
+* <a href="{{ rootPath }}docs/posters/MotorPhysical-en_2023.pdf" id="das7" aria-labelledby="das7 das1">Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
+* [Designing for users with physical or motor disabilities (HTML)]({{ rootPath }}en/designing-for-users-with-physical-or-motor-disabilities/)
 
 ## Manual Dexterity/Fine Motor Control
 Definition: Fine motor skills are the intricate and detailed movements of the hand and wrist needed to manipulate, control and use objects, produce neat, legible handwriting, and dress independently. Disability may be temporary, recurring, or permanent.

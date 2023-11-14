@@ -1,6 +1,6 @@
 ---
 title: Auditory Disabilities
-description: Brief descriptions and characteristics of common types of auditory disabilities.
+description: Auditory disabilities are sensory disabilities that range from partial to complete hearing loss.
 subject:
   - accessibilityFundamentals
 tags:
@@ -8,10 +8,14 @@ tags:
 layout: layouts/base.njk
 audience:
   - Everyone
+toggle: deficiences-auditives
 ---
 
-# Auditory Disabilities
-Auditory disabilities are sensory disabilities that range from partial to complete hearing loss. Some people can also have overly sensitive hearing (hyperacusis) in one or both ears.
+* <a href="{{ rootPath }}docs/posters/Hearing-en_2023.pdf" id="das4" aria-labelledby="das4 das1">Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a>
+* [Designing for users who are deaf or hard of hearing (HTML)]({{ rootPath }}en/designing-for-users-who-are-deaf-or-hard-of-hearing/)
+* <a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" id="das8" aria-labelledby="das8 das1">Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
+* [Designing for users of screen readers (HTML)]({{ rootPath }}en/designing-for-users-of-screen-readers/)
+
 
 ## Deafness
 Definition: Deafness is the total or near total loss of hearing.
