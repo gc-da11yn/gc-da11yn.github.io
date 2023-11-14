@@ -4,7 +4,6 @@ const markdownItAttrs = require('markdown-it-attrs');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
 const path = require('path');
-const path = require('path');
 
 module.exports = function (eleventyConfig) {
   let markdownItOptions = {
