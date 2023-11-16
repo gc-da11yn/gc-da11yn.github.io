@@ -31,8 +31,6 @@ toggle: mobility-flexibility-and-body-structure-disabilities
 * <a href="{{ rootPath }}docs/posters/MoteurPhysique-fr_2023.pdf" id="das6" aria-labelledby="das6 das1">Concevoir pour les utilisateurs avec un handicap physique ou moteur (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 50 <abbr title="kilo-octet">ko</abbr>)</a>
 * [Concevoir pour les utilisateurs avec un handicap physique ou moteur (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/)
 
-
-# Handicaps de mobilité, de flexibilité et de structure corporelle
 La mobilité réduite comprend les personnes ayant une perte ou une incapacité d'un membre supérieur ou inférieur, des défis avec dextérité manuelle, handicap de coordination avec différents organes du corps, ou avec une structure squelettique brisée. Les déficiences physiques et motrices limitent le mouvement physique indépendant et délibéré du corps ou d'une ou plusieurs extrémités.
 
 L’altération de la mobilité de la personne peut être temporaire ou permanente. Handicap dans la mobilité peut être congénitale, acquise avec l'âge ou être la conséquence d'une maladie.

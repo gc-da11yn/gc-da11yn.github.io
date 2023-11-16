@@ -17,7 +17,6 @@ toggle: auditory-disabilities
 * [Concevoir pour les utilisateurs de revues d’écran (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-de-revues-decran/)
 
 
-# Déficiences auditives
 Les déficiences auditives sont des déficiences sensorielles allant d'une perte auditive partielle à complète. Certaines personnes peuvent aussi avoir une ouïe trop sensible (hyperacousie) dans une ou les deux oreilles.
 
 ## Surdité
