@@ -14,7 +14,7 @@
     "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
     "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
     "watch:sass": "npm run sass-start -- --watch",
-    "start": "npm-run-all sass-start --parallel watch:*",
+    "start": "ELEVENTY_ENV=dev npm-run-all sass-start --parallel watch:*",
     "dev": "ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
     "build": "npm-run-all sass-build eleventy cleanHTML"
   },
