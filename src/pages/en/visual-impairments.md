@@ -1,6 +1,6 @@
 ---
 title: Visual Impairments
-description: Brief descriptions and characteristics of common types of visual impairments.
+description: Visual disabilities are sensory disabilities that can range from some amount of vision loss, loss of visual acuity, or increased or decreased sensitivity to specific or bright colours, to complete or uncorrectable loss of vision in either or both eyes.
 subject:
   - accessibilityFundamentals
 tags:
@@ -8,9 +8,11 @@ tags:
 layout: layouts/base.njk
 audience:
   - Everyone
+toggle: deficiences-visuelles
 ---
 
-Visual disabilities are sensory disabilities that can range from some amount of vision loss, loss of visual acuity, or increased or decreased sensitivity to specific or bright colors, to complete or uncorrectable loss of vision in either or both eyes.
+* <a href="{{ rootPath }}docs/posters/LowVision-en_2023.pdf" id="das6" aria-labelledby="das6 das1">Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)</a>
+* [Designing for users with low vision (HTML)]({{ rootPath }}en/designing-for-users-with-low-vision/)
 
 ## Blindness
 

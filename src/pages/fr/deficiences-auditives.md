@@ -1,6 +1,6 @@
 ---
 title: Déficiences auditives
-description: Brèves descriptions et caractéristiques des types de handicaps auditifs les plus courants.
+description: Les déficiences auditives sont des déficiences sensorielles allant d'une perte auditive partielle à complète.
 subject:
   - accessibilityFundamentals
 tags:
@@ -8,9 +8,15 @@ tags:
 layout: layouts/base.njk
 audience:
   - Everyone
+toggle: auditory-disabilities
 ---
 
-# Déficiences auditives
+* <a href="{{ rootPath }}docs/posters/Sourds-fr_2023.pdf" id="das4" aria-labelledby="das4 das1">Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)</a>
+* [Concevoir pour les utilisateurs sourds ou malentendants (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-sourds-ou-malentendants/)
+* <a href="{{ rootPath }}docs/posters/RevuesDecran-fr_2023.pdf" id="das7" aria-labelledby="das7 das1">Concevoir pour les utilisateurs de revues d’écran (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 53 <abbr title="kilo-octet">ko</abbr>)</a>
+* [Concevoir pour les utilisateurs de revues d’écran (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-de-revues-decran/)
+
+
 Les déficiences auditives sont des déficiences sensorielles allant d'une perte auditive partielle à complète. Certaines personnes peuvent aussi avoir une ouïe trop sensible (hyperacousie) dans une ou les deux oreilles.
 
 ## Surdité

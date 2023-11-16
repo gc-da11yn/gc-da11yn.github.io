@@ -1,12 +1,12 @@
 ---
 title: Handicaps cognitifs
-description: Brèves descriptions et caractéristiques des types de handicaps cognitifs les plus courants.
+description: Les déficiences cognitives prennent de nombreuses formes, notamment des troubles de la mémoire à court et à long terme et des différences de perception. Les troubles du langage, notamment la dyslexie et les déficiences temporaires associées à ceux qui tentent d'apprendre de nouvelles langues, sont également des problèmes cognitifs courants.
 subject:
   - accessibilityFundamentals
 tags:
   - aboutDisabilities
 keywords:
-  - Handicaps intellectuels, 
+  - Handicaps intellectuels,
   - troubles de la lecture
   - dyslexie
   - dyscalculie
@@ -28,7 +28,14 @@ keywords:
 layout: layouts/base.njk
 audience:
   - Everyone
+toggle: cognitive-disabilities
 ---
+
+* <a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" id="das2" aria-labelledby="das2 das1">Concevoir pour les utilisateurs dans le spectre autistique (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
+* [Concevoir pour les utilisateurs dans le spectre autistique (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-dans-le-spectre-autistique/)
+* <a href="{{ rootPath }}docs/posters/Cognitif-fr_2023.pdf" id="das3" aria-labelledby="das3 das1">Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
+* [Principes de conception pour les utilisateurs avec handicap cognitif (HTML)]({{ rootPath }}fr/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif/)
+
 
 On trouve une vaste gamme de déficience cognitive, telle que l'affaiblissement de la mémoire à court et à long terme et la différence perceptuelle. Les troubles du langage, y compris la dyslexie et les troubles temporaires associés à l'apprentissage de nouvelles langues, sont également des problèmes cognitifs courants. Habituellement, une combinaison de technologie informatique adaptative est utilisé pas les personnes en situation d’handicaps cognitifs.
 
