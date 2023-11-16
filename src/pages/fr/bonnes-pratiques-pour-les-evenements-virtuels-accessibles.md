@@ -30,6 +30,7 @@ tags:
 	</div>
 </div>
 
+## Sur cette page
 - [Introduction](#introduction)
   - [Problèmes courants signalés par les personnes en situation de handicap](#problèmes-courants-signalés-par-les-personnes-en-situation-de-handicap)
     - [Audio](#audio)
@@ -103,13 +104,13 @@ tags:
       - [Copiez-collez des renseignements que vous pouvez inclure dans l'invitation des participants](#copiez-collez-des-renseignements-que-vous-pouvez-inclure-dans-linvitation-des-participants-2)
 
 
-# Introduction
+## Introduction
 
 Aux fins du présent contenu, le terme « événement » comprend des activités telles que: événements, des conférences, des réunions, des kiosques, des formations, des présentations et plus encore.
 
 Le présent guide propose un calendrier pour l'organisation de votre événement, mais celui-ci n'est pas normatif.
 
-## Problèmes courants signalés par les personnes en situation de handicap
+### Problèmes courants signalés par les personnes en situation de handicap
 
 Avant d'explorer le présent guide, nous vous invitons à prendre connaissance des plaintes les plus courantes concernant les événements que nous avons recueillies auprès de personnes en situation de handicap. Nous vous invitons à collaborer avec nous pour aborder de front les difficultés suivantes.
 
@@ -125,7 +126,7 @@ Avant d'explorer le présent guide, nous vous invitons à prendre connaissance d
 
 - Le placement du micro, la caméra et l'éclairage gênent la lecture des lèvres.
 
-### Visuel
+#### Visuel
 
 - Certaines personnes ne peuvent pas voir le nom ou le visage des participants, ce qui rend difficile de connaître le nom de la personne qui parle et d'apprendre à reconnaître sa voix.
 
@@ -137,7 +138,7 @@ Avant d'explorer le présent guide, nous vous invitons à prendre connaissance d
 
 - Certaines personnes ne peuvent pas tenir un outil d'écriture et ont besoin d'une alternative pour les activités impliquant l'écriture sur papier.
 
-### Cognitif
+#### Cognitif
 
 - Le manque d'objectifs clairs pour l'événement fait que les participants ont de la difficulté à se préparer et à se concentrer.
 
@@ -157,13 +158,13 @@ Avant d'explorer le présent guide, nous vous invitons à prendre connaissance d
 
 - Il peut y avoir une certaine confusion par rapport à la logistique de l'événement et un manque d’information sur la manière d'activer les fonctions d'accessibilité.
 
-##  Cadre juridique canadien pour l'accessibilité des événements
+###  Cadre juridique canadien pour l'accessibilité des événements
 
 Au Canada, la [*Loi canadienne sur l’accessibilité*](https://laws-lois.justice.gc.ca/fra/lois/a-0.6/) ainsi que *la [Loi canadienne sur les droits de la personne](https://laws-lois.justice.gc.ca/fra/lois/h-6/page-1.html)* et la [*Directive sur l’obligation de prendre des mesures d’adaptation*](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32634) nous incitent à créer des événements accessibles. Ce cadre juridique protège les droits des personnes en situation de handicap afin d'assurer leur pleine participation dans la société.
 
 Voici un bref résumé de leur relation avec la gestion des événements :
 
-### *Loi canadienne sur l’accessibilité*
+#### *Loi canadienne sur l’accessibilité*
 
 L'objectif est de faire du Canada un pays exempt obstacles d'ici le 1<sup>er</sup> janvier 2040, en exigeant la reconnaissance, l'élimination et la prévention des obstacles dans les domaines suivants :
 
@@ -171,38 +172,38 @@ L'objectif est de faire du Canada un pays exempt obstacles d'ici le 1<sup>er</su
 
 - les communications (y compris les langues officiellement reconnues par les personnes malentendantes au Canada, à savoir l’American Sign Language, la langue des signes québécoise et les langues des signes autochtones).
 
-### *Loi canadienne sur les droits de la personne*
+#### *Loi canadienne sur les droits de la personne*
 
 Interdit la discrimination fondée sur le handicap.
 
-### *Directive sur l’obligation de prendre des mesures d’adaptation*
+#### *Directive sur l’obligation de prendre des mesures d’adaptation*
 
 Garantit la pleine participation des personnes en situation de handicap en concevant l’ensemble des systèmes, processus et installations de manière à ce qu'ils soient accessibles dès le départ. Lorsqu'un obstacle ne peut être supprimé, la personne doit bénéficier de mesures d'adaptation.
 
-## Faits à retenir
+### Faits à retenir
 
-### À propos des mesures d’adaptation
+#### À propos des mesures d’adaptation
 
 - Les événements devraient être inclusifs par défaut, plutôt que d’exiger des participants qu’ils demandent des mesures d’adaptation.
 
 - Dans certains cas, une mesure d’adaptation pour un participant peut devenir un obstacle pour un autre.
 
-### À propos des handicaps
+#### À propos des handicaps
 
 - Ce n’est pas le handicap d’une personne qui empêche celle-ci de participer; c’est plutôt la limitation de la technologie et des processus.
 
 - Les personnes en situation de handicap n'ont pas à révéler leur
   handicap à qui que ce soit.
 
-### À propos d’une planification minutieuse
+#### À propos d’une planification minutieuse
 
 - Plus vous vous donnez de temps pour planifier un événement, mieux c'est.
 
 - Demandez-vous s'il ne serait pas plus productif de remplacer l'événement par un courriel.
 
-#  Événements virtuels
+##  Événements virtuels
 
-## Feuille de route
+### Feuille de route
 
 Tout d'abord, vous devrez planifier votre événement. Plusieurs décisions devront être prises, notamment :
 
@@ -244,17 +245,17 @@ Enfin, après l'événement, vous voudrez faire ce qui suit :
 
 - recueillir les commentaires des participants aux fins d’amélioration.
 
-## Planification de l’événement : un à deux mois avant la tenue de l'événement (environ)
+### Planification de l’événement : un à deux mois avant la tenue de l'événement (environ)
 
-### Décidez si l'événement est bilingue ou s'il s'agit de deux sessions unilingues
+#### Décidez si l'événement est bilingue ou s'il s'agit de deux sessions unilingues
 
-#### Une session en français, une session en anglais (meilleur choix pour l'accessibilité)
+##### Une session en français, une session en anglais (meilleur choix pour l'accessibilité)
 
 Dans la mesure du possible, prévoyez deux sessions distinctes, l'une en français et l'autre en anglais. C'est particulièrement utile pour les formations obligatoires et essentielles.
 
 - **Pourquoi?** Cela simplifie l'utilisation des services d'interprétation et de sous-titrage. Cela évite également d'exclure les participants unilingues. N'oubliez pas que certaines personnes ne peuvent pas utiliser les sous-titres, par exemple les utilisateurs de lecteurs d'écran.
 
-#### Événement bilingue (meilleur choix pour les langues officielles)
+##### Événement bilingue (meilleur choix pour les langues officielles)
 
 Les événements bilingues sont une option, en particulier pour les
 conférences et les événements hebdomadaires ou pour l’ensemble du
@@ -285,7 +286,7 @@ bilingue :
 
 - Résumez les remarques de chaque participant dans l'autre langue.
 
-#### Ressources pour les événements bilingues
+##### Ressources pour les événements bilingues
 
 - [Pratiques efficaces régissant la présidence des réunions bilingues et des présentations provenant de l’externe](https://www.clo-ocol.gc.ca/fr/outils-ressources/outils-ressources/pratiques-efficaces-regissant-presidence-reunions-bilingues)
 
@@ -293,20 +294,20 @@ bilingue :
 
 - [Virtual Accessible Bilingual Conference Planning: The Parks Accessibility Conference – MDPI Open Access Journals (mdpi.com)](https://www.mdpi.com/1660-4601/20/3/2302#B7-ijerph-20-02302) (en anglais seulement)
 
-### Décidez de la plateforme virtuelle qui accueillera votre événement
+#### Décidez de la plateforme virtuelle qui accueillera votre événement
 
 Choisissez une plateforme dont l'interface utilisateur est conforme au
 niveau AA de la norme [WCAG 2.1](https://www.w3.org/Translations/WCAG21-fr/). En outre, nous vous recommandons de faire appel à des utilisateurs en situation de handicap pour tester la convivialité de votre plateforme et la manière dont vous avez mis en œuvre votre événement. Pour obtenir des conseils détaillés, reportez-vous à la section [Selecting an accessible remote meeting platform (lien en anglais seulement)](https://www.w3.org/TR/remote-meetings/#selection) du guide sur l'accessibilité des réunions à distance de W3C.
 
-### Attribuez des rôles et des responsabilités au personnel chargé de l'événement
+#### Attribuez des rôles et des responsabilités au personnel chargé de l'événement
 
-#### Avertissement :
+##### Avertissement :
 
 Lors des événements de moindre envergure, certains membres du personnel peuvent être amenés à jouer plusieurs rôles. Les événements plus importants présenteront plus de défis et nécessiteront une plus grande répartition des tâches. N'oubliez pas que des tiers, tels que des compagnies de production audiovisuelle, peuvent être chargés de certaines de ces tâches.
 
 En règle générale, les rôles suivants sont attribués, mais ces conseils ne sont pas normatifs :
 
-#### Hôte / responsable de l'événement
+##### Hôte / responsable de l'événement
 
 - Présenter les orateurs.
 
@@ -320,7 +321,7 @@ En règle générale, les rôles suivants sont attribués, mais ces conseils ne 
 
 **Remarque :** Il est recommandé d'avoir un seul hôte / animateur de l'événement, car les participants se sentent plus à l'aise lorsqu'ils entendent une voix familière.
 
-#### Modérateur(s)
+##### Modérateur(s)
 
 - Surveiller les participants et leur répondre par l'intermédiaire du clavardage ou de la zone de questions et réponses.
 
@@ -330,7 +331,7 @@ En règle générale, les rôles suivants sont attribués, mais ces conseils ne 
 
 - Gérer l'accès des participants à la vidéo et au microphone.
 
-#### Présentateur(s)
+##### Présentateur(s)
 
 - Présenter le contenu principal de l'événement.
 
@@ -338,13 +339,13 @@ En règle générale, les rôles suivants sont attribués, mais ces conseils ne 
 
 - Répondre oralement aux questions de l’auditoire.
 
-#### Administrateur / Soutien
+##### Administrateur / Soutien
 
 - Point de contact pour tous les participants et les fournisseurs de services en cas de problèmes (difficultés techniques, problèmes d’accès ou questions générales sur l’événement).
 
 - Planifier l’événement et s’assurer que les paramètres de l’événement sont exacts.
 
-#### Preneur de notes
+##### Preneur de notes
 
 - Documenter les points clés, les discussions et les actions à entreprendre lors de l'événement.
 
@@ -352,19 +353,19 @@ En règle générale, les rôles suivants sont attribués, mais ces conseils ne 
 
 **Remarque :** La distribution des notes après l'événement est importante, en particulier pour les participants qui ont de la difficulté à écouter et à écrire en même temps.
 
-### Réservez les services de mesures d’adaptation une fois la date confirmée
+#### Réservez les services de mesures d’adaptation une fois la date confirmée
 
 Des mesures d’adaptation peuvent être nécessaires pour remplir les obligations énoncées dans la [Directive sur l’obligation de prendre des mesures d’adaptation](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32634).
 
 **Remarque :** Veuillez fournir à l'avance le matériel de présentation (PowerPoint, Word, courriel, vidéos préenregistrées) aux fournisseurs de services. En raison de la forte demande, nous vous conseillons de soumettre vos demandes au moins quatre semaines avant l'événement.
 
-#### Services d'interprétation en langue des signes (ASL, LSQ)
+##### Services d'interprétation en langue des signes (ASL, LSQ)
 
 Les personnes qui sont sourdes, malentendantes ou qui maîtrisent la langue des signes peuvent avoir des difficultés avec les sous-titres écrits, car il s'agit de leur deuxième langue. L'interprétation en langue des signes améliore également l'expérience en transmettant l'intonation, l'émotion et des renseignements audio importants.
 
 - Pour réserver des services d'interprétation en langue des signes pour les conférences et événements du GC, veuillez consulter le site suivant : [Services d'interprétation en langues des signes – Services et outils linguistiques du Bureau de la traduction (à l’interne seulement)](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/signe-sign-fra.html)
 
-#### Traduction en temps réel des communications
+##### Traduction en temps réel des communications
 
 Le sous-titrage permet aux personnes qui sont sourdes, qui ont subi une perte d’audition ou qui souffrent de troubles cognitifs tels que des difficultés à traiter des informations auditives, et même aux personnes dont le français et l'anglais ne sont pas la langue maternelle, de participer pleinement à des événements en direct.
 
@@ -374,7 +375,7 @@ Le sous-titrage permet aux personnes qui sont sourdes, qui ont subi une perte d�
 
 **Mise en garde :** Certaines plateformes d'événements virtuels proposent des sous-titres automatisés en direct, comme les [sous-titres en direct dans Microsoft Teams](https://support.microsoft.com/fr-fr/office/utiliser-des-sous-titres-en-direct-dans-les-r%C3%A9unions-microsoft-teams-4be2d304-f675-4b57-8347-cbd000a21260). Malheureusement, ces technologies commettent souvent des erreurs, ce qui désavantage les utilisateurs qui comptent sur les sous-titres. Les sous-titres automatiques ne devraient être utilisés qu'en dernier recours ou pour des événements de moindre importance. Utilisez plutôt les services de sous-titrage CART.
 
-#### Services d’interprétation et de traduction simultanée
+##### Services d’interprétation et de traduction simultanée
 
 Les événements bilingues peuvent constituer un obstacle pour les personnes unilingues en situation de handicap. Pour garantir le plein accès, des traductions vocales simultanées sont nécessaires. Les sous-titres traduits ou le contenu à l'écran ne sont pas accessibles aux utilisateurs non visuels. Par conséquent, ils doivent attendre les changements de langue sans aucun stimulus et s'en remettre uniquement aux résumés des points de discussion dans leur langue.
 
@@ -386,19 +387,19 @@ Les événements bilingues peuvent constituer un obstacle pour les personnes uni
 
 **Remarque :** Ceci nécessite une plateforme virtuelle qui offre plusieurs canaux vocaux, un pour chaque langue. Lorsque le présentateur ne parle plus la langue du canal vocal, l'interprète affecté au canal vocal doit prononcer la traduction.
 
-### Veillez à ce que tous les supports de l'événement soient accessibles (tels que les courriels, les présentations PowerPoint, les documents Word...)
+#### Veillez à ce que tous les supports de l'événement soient accessibles (tels que les courriels, les présentations PowerPoint, les documents Word...)
 
 Tout le contenu distribué doit être accessible et dans les deux langues officielles. Dans la mesure du possible, privilégiez les formats plus accessibles tels que HTML, Word, PowerPoint, ePub plutôt que les formats moins accessibles tels que PDF.
 
 **Important :** Révisez toujours le matériel des présentateurs, même lorsque ceux-ci sont externes, car vous serez responsable de l'accessibilité du contenu.
 
-#### Formation
+##### Formation
 
 Envisagez de suivre une formation sur l'accessibilité. Lorsque le contenu est élaboré par des personnes qui ont acquis des connaissances en matière d'accessibilité et qui les appliquent dès le départ, cela permet de gagner bien du temps et d'économiser beaucoup d'argent en réduisant la nécessité de prendre des mesures correctives et en évitant les plaintes potentielles.
 
 Veuillez consulter la [boîte à outils d'accessibilité numérique](https://a11y.canada.ca/fr/guides/) pour obtenir des renseignements plus détaillés dans nos guides. En outre, nous vous recommandons de regarder [l'atelier enregistré de l'EFPC intitulé « Rendre ses documents accessibles (INC1-V46) »](https://www.csps-efpc.gc.ca/video/making-documents-accessible-fra.aspx).
 
-#### Conseil général sur l'accessibilité des documents (s'applique à tous)
+##### Conseil général sur l'accessibilité des documents (s'applique à tous)
 
 - **Contraste des couleurs** : À l'aide d'un outil de vérification du contraste des couleurs comme le [Colour Contrast Analyser de TPGi (application de bureau)](https://www.tpgi.com/color-contrast-checker/) ou le [Contrast Checker de WebAim (disponible en ligne)](https://webaim.org/resources/contrastchecker/), assurez-vous que :
 
@@ -438,7 +439,7 @@ Veuillez consulter la [boîte à outils d'accessibilité numérique](https://a11
 
   - Consultez la [section Style de présentation du Guide de rédaction du contenu du site Canada.ca](https://conception.canada.ca/guide-redaction/#toc8) pour obtenir des exemples de la bonne façon d'utiliser ces styles.
 
-#### Conseils rapides pour les courriels
+##### Conseils rapides pour les courriels
 
 - Utilisez le [vérificateur d’accessibilité intégré](https://support.microsoft.com/fr-fr/office/am%C3%A9liorer-l-accessibilit%C3%A9-%C3%A0-l-aide-du-v%C3%A9rificateur-d-accessibilit%C3%A9-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f).
 
@@ -450,7 +451,7 @@ Veuillez consulter la [boîte à outils d'accessibilité numérique](https://a11
 
 - Utilisez une taille de police minimale de 12 points.
 
-#### Conseils rapides pour les présentations PowerPoint
+##### Conseils rapides pour les présentations PowerPoint
 
 - Utilisez le [vérificateur d'accessibilité intégré](https://support.microsoft.com/fr-fr/office/am%C3%A9liorer-l-accessibilit%C3%A9-%C3%A0-l-aide-du-v%C3%A9rificateur-d-accessibilit%C3%A9-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f).
 
@@ -466,7 +467,7 @@ Veuillez consulter la [boîte à outils d'accessibilité numérique](https://a11
 
 - Vérifiez que [l'ordre de lecture suit l'ordre logique](https://support.microsoft.com/fr-fr/office/faciliter-la-lecture-des-diapositives-%C3%A0-l-aide-du-volet-ordre-de-lecture-863b5c1c-4f19-45ec-96e6-93a6457f5e1c).
 
-#### Conseils rapides pour les documents Word
+##### Conseils rapides pour les documents Word
 
 - Utilisez le [vérificateur d'accessibilité intégré](https://support.microsoft.com/fr-fr/office/am%C3%A9liorer-l-accessibilit%C3%A9-%C3%A0-l-aide-du-v%C3%A9rificateur-d-accessibilit%C3%A9-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f).
 
@@ -474,7 +475,7 @@ Veuillez consulter la [boîte à outils d'accessibilité numérique](https://a11
 
 - Utilisez les [styles et les titres intégrés pour structurer votre document](https://support.microsoft.com/fr-fr/office/ajouter-un-titre-3eb8b917-56dc-4a17-891a-a026b2c790f2).
 
-#### Conseils rapides pour les vidéos préenregistrés
+##### Conseils rapides pour les vidéos préenregistrés
 
 - Les sous-titres et la transcription doivent être fournis.
 
@@ -488,9 +489,9 @@ Veuillez consulter la [boîte à outils d'accessibilité numérique](https://a11
 
 - Assurez-vous que la vidéo dispose d'une fonction pause/lecture/arrêt.
 
-### Envoie des invitations aux participants
+#### Envoie des invitations aux participants
 
-#### Établissez un ordre du jour
+##### Établissez un ordre du jour
 
 - Prévoyez des pauses, une pause de cinq à dix minutes est recommandée par heure d'événement.
 
@@ -502,7 +503,7 @@ Veuillez consulter la [boîte à outils d'accessibilité numérique](https://a11
 
   - Les notes de l'orateur devraient être incluses.
 
-#### Incluez les renseignements sur l'événement dans l'invitation
+##### Incluez les renseignements sur l'événement dans l'invitation
 
 Veillez à inclure les renseignements suivants dans votre invitation à
 l'événement :
@@ -543,9 +544,9 @@ l'événement :
 
   - Une autre possibilité consiste à donner les coordonnées de l'organisateur de l'événement et à laisser les participants demander le matériel.
 
-## Préparez-vous : une à deux semaines avant l'événement (environ)
+### Préparez-vous : une à deux semaines avant l'événement (environ)
 
-### Préparez les scénarios
+#### Préparez les scénarios
 
 Un scénario pour l'hôte peut être très utile pour guider l'événement. En général, un tel scénario contient le discours d'ouverture de l'hôte, les déclarations pour les sections de questions et réponses et, enfin, le mot de la fin.
 
@@ -557,7 +558,7 @@ Vous trouverez ci-dessous un exemple de modèle de scénario de discours d'ouver
 >- Pour poser des questions, tapez dans la fonction de clavardage ou attendez que nous ayons une période de questions pour utiliser la fonction « lever la main » - le raccourci clavier est **[donnez le raccourci clavier]**. Une fois que vous êtes sélectionné pour poser votre question, veuillez réactiver votre micro et montrer votre vidéo si vous le souhaitez. Nous trierons vos questions posées dans le clavardage et y répondrons soit dans le clavardage, soit pendant la période de questions. Sinon, nous pouvons vous demander d'envoyer votre question par courriel à l’adresse courriel de l'événement afin que nous puissions y répondre après cet événement.
 Je vais maintenant vous présenter notre présentateur aujourd'hui : **[présentez le présentateur]**
 
-### Préparez-vous à présenter – Sensibilisation à l'accessibilité pour les orateurs
+#### Préparez-vous à présenter – Sensibilisation à l'accessibilité pour les orateurs
 
 - Apprenez à [parler des personnes en situation de handicap](https://www.canada.ca/fr/emploi-developpement-social/programmes/invalidite/cra/mots-images.html).
 
@@ -599,15 +600,15 @@ Je vais maintenant vous présenter notre présentateur aujourd'hui : **[présen
 
 - Renseignements importants concernant les avatars dans les événements virtuels : Pour être accessibles, les avatars doivent pouvoir être désactivés pour les personnes souffrant du mal des transports.
 
-### Tenez des répétitions (si nécessaire)
+#### Tenez des répétitions (si nécessaire)
 
 Plus l'événement est important ou critique, plus il est préférable d'organiser une répétition générale.
 
 Si une répétition est jugée souhaitable, nous recommandons vivement de la faire pour vous assurer que tout le monde est sur la même longueur d'onde.
 
-## Animez l'événement : jour de l'événement
+### Animez l'événement : jour de l'événement
 
-### Testez votre installation environ 15 à 30 minutes avant l'événement.
+#### Testez votre installation environ 15 à 30 minutes avant l'événement.
 
 - Demandez aux modérateurs et aux présentateurs de tester leur installation audio et vidéo.
 
@@ -617,7 +618,7 @@ Si une répétition est jugée souhaitable, nous recommandons vivement de la fai
 
 - Assurez-vous que vos fournisseurs de services d’adaptation sont prêts.
 
-### Commencez l'événement!
+#### Commencez l'événement!
 
 - Si vous enregistrez l'événement, veillez à en informer les participants à l'avance.
 
@@ -639,7 +640,7 @@ Si une répétition est jugée souhaitable, nous recommandons vivement de la fai
 
 - Les modérateurs affichent dans le clavardage des liens intégrés dans la présentation.
 
-#### Étiquette recommandée pour les participants
+##### Étiquette recommandée pour les participants
 
 Invitez les participants à :
 
@@ -659,13 +660,13 @@ Invitez les participants à :
 
 - parler à un rythme modéré et énoncer clairement (si possible).
 
-#### Corrigez les erreurs
+##### Corrigez les erreurs
 
 - Si une erreur est commise pendant l'événement, soyez là pour la réparer.
 
   - Par exemple, activez la fonction de transcription dès que vous vous rendez compte que vous avez oublié de l'activer.
 
-### Récapitulez l’événement
+#### Récapitulez l’événement
 
 - S’il y a des mesures à prendre, répétez-les à la fin de l'événement et assurez-vous que tout le monde sait qui fait quoi.
 
@@ -675,9 +676,9 @@ Invitez les participants à :
 
 - Informez les participants de la manière dont ils peuvent donner une rétroaction sur la présentation et veillez à ce que votre outil de rétroaction soit accessible.
 
-## Après l'événement
+### Après l'événement
 
-### Envoyez le contenu de la récapitulation
+#### Envoyez le contenu de la récapitulation
 
 Veillez à distribuer le contenu [dans un format accessible](#veillez-à-ce-que-tous-les-supports-de-lévénement-soient-accessibles-tels-que-les-courriels-les-présentations-powerpoint-les-documents-word...), ce qui est souvent fait par le biais d'un courriel de remerciement après l'événement :
 
@@ -691,11 +692,11 @@ Veillez à distribuer le contenu [dans un format accessible](#veillez-à-ce-que-
 
 - matériel supplémentaire.
 
-### Répondez aux questions après l'événement
+#### Répondez aux questions après l'événement
 
 Veuillez répondre en temps opportun.
 
-### Recueillez les commentaires des participants
+#### Recueillez les commentaires des participants
 
 Demandez aux participants de vous faire part de leurs commentaires et offrez-leur plusieurs moyens de les recevoir, par exemple par courriel ou par l'intermédiaire d'un formulaire. Il est important d'obtenir une rétroaction pour continuer à améliorer la qualité des événements.
 
@@ -723,7 +724,7 @@ Voici quelques exemples de sujets qui peuvent être abordés et de questions qui
 
   - Le fait de poser une question ouverte demandant une rétroaction supplémentaire peut mettre les participants à l'aise lorsqu'ils souhaitent faire part d'une rétroaction qui ne correspond à aucune autre question.
 
-## À titre de référence : Ce qui affectera votre budget
+### À titre de référence : Ce qui affectera votre budget
 
 - [Services d'adaptation (ASL, LSQ, interprètes de la langue des signes...)](#réservez-les-services-de-mesures-dadaptation-une-fois-la-date-confirmée)
 
@@ -737,9 +738,9 @@ Voici quelques exemples de sujets qui peuvent être abordés et de questions qui
 
 - Traductions de documents
 
-## À titre de référence : Plateformes virtuelles
+### À titre de référence : Plateformes virtuelles
 
-### Avertissement de sécurité : « Bombardement » des événements virtuels
+#### Avertissement de sécurité : « Bombardement » des événements virtuels
 
 Des termes comme « bombardement par Zoom », « T-BOMB », etc. sont devenus populaires pour décrire l'intrusion d'étrangers sur l'internet dans des événements virtuels. En général, les intrus tentent de perturber l'événement en partageant leur caméra, en faisant du bruit dans leur micro ou en utilisant la fonction « Partager l'écran ».
 
@@ -755,13 +756,13 @@ Voici quelques conseils pour gérer les risques liés à ces attaques :
 
   - **Remarque :** Cela peut être problématique si une personne perd la connexion, car elle ne peut pas se réinscrire à l'événement tant que celui-ci n'a pas été déverrouillé.
 
-### Information sur Microsoft Teams
+#### Information sur Microsoft Teams
 
-#### Conformité aux normes d'accessibilité
+##### Conformité aux normes d'accessibilité
 
 Vous trouverez les modèles volontaires d'accessibilité des produits (VPAT) pour MS Teams dans les [rapports de conformité de l'accessibilité de Microsoft (lien en anglais seulement)](https://www.microsoft.com/en-us/accessibility/conformance-reports), en utilisant le filtre et en choisissant « Teams » comme catégorie.
 
-#### Options recommandées pour les événements
+##### Options recommandées pour les événements
 
 Après avoir configuré un événement dans MS Teams, il est possible de modifier les [options de
 réunion](https://support.microsoft.com/fr-fr/office/options-de-r%C3%A9union-dans-microsoft-teams-53261366-dbd5-45f9-aae9-a70e6354f88e). Pour accéder aux options de réunion, activez le lien situé au bas de l'invitation à l'événement générée par Teams.
@@ -780,7 +781,7 @@ Dans la mesure du possible, nous recommandons ce qui suit :
 
   - Vous pouvez toujours leur donner des autorisations pendant l'événement.
 
-#### Ressources supplémentaires pour l'organisateur
+##### Ressources supplémentaires pour l'organisateur
 
 - Apprendre à [créer des invitations bilingues à des événements (lien interne seulement)](https://163gc.sharepoint.com/sites/Collaboration/SitePages/fr/Invitations-a-des-reunions%20-bilingues.aspx)
 
@@ -788,7 +789,7 @@ Dans la mesure du possible, nous recommandons ce qui suit :
 
 - [Bonnes pratiques pour la configuration et l’exécution d’une réunion Teams ou d’un événement en direct pour les sourds et malentendants](https://support.microsoft.com/fr-fr/office/bonnes-pratiques-pour-la-configuration-et-l-ex%C3%A9cution-d-une-r%C3%A9union-teams-ou-d-un-%C3%A9v%C3%A9nement-en-direct-pour-les-sourds-et-malentendants-6d5ff6ac-c6f3-434b-ac95-c6e2e15ff0ac)
 
-#### Copiez-collez des renseignements que vous pouvez inclure dans l'invitation des participants
+##### Copiez-collez des renseignements que vous pouvez inclure dans l'invitation des participants
 
 Veuillez consulter les liens suivants pour en savoir plus sur Microsoft Teams :
 
@@ -839,13 +840,13 @@ Fonctionnalités pour événements
 
 **Remarque :** Les participants qui entrent dans une réunion Microsoft Teams après que 1 000 personnes se sont déjà jointes auront une expérience restreinte, en lecture seule. Pour obtenir de plus amples renseignements sur les contrôles et les actions disponibles dans cette expérience de réunion en lecture seule, veuillez consulter la ressource suivante : « [Expérience de réunion en lecture seule de Teams - Microsoft Teams \| Microsoft Learn ](https://learn.microsoft.com/fr-ca/microsoftteams/view-only-meeting-experience)».
 
-### Information sur WebEx
+#### Information sur WebEx
 
-#### Conformité aux normes d'accessibilité
+##### Conformité aux normes d'accessibilité
 
 Les VPAT remplis pour WebEx se trouvent parmi les autres produits de cette société sur la page « [Voluntary Product Accessibility Templates - Cisco](https://www.cisco.com/c/en/us/about/accessibility/voluntary-product-accessibility-templates.html) » (en anglais seulement), dans la section « WebEx App ».
 
-#### Copiez-collez des renseignements que vous pouvez inclure dans l'invitation des participants
+##### Copiez-collez des renseignements que vous pouvez inclure dans l'invitation des participants
 
 Veuillez consulter les liens suivants pour en savoir plus sur WebEx :
 
@@ -895,15 +896,15 @@ Fonctionnalités pour événements
 
 - [Sessions en petits groupes dans les réunions et les webinaires](https://help.webex.com/fr-fr/article/nroo6fs/Sessions-scind%C3%A9es-dans-les-r%C3%A9unions-et-les-webinaires)
 
-### Information sur Zoom
+#### Information sur Zoom
 
-#### Conformité aux normes d'accessibilité
+##### Conformité aux normes d'accessibilité
 
 Zoom affirme être conforme aux normes WCAG 2.1 niveau AA, aux normes révisées de l’article 508 et aux exigences de la norme EN 301 549. Vous trouverez les VPAT remplis pour Zoom à leur page [Accessibilité](https://explore.zoom.us/fr/accessibility/) dans la section « Documents relatifs à l’accessibilité ».
 
 Pour déposer une plainte en matière d'accessibilité, contactez <zoomphone-canada-access@zoom.us> ou composez le (877) 662-1070.
 
-#### Copiez-collez des renseignements que vous pouvez inclure dans l'invitation des participants
+##### Copiez-collez des renseignements que vous pouvez inclure dans l'invitation des participants
 
 Veuillez consulter les liens suivants pour en savoir plus sur Zoom :
 

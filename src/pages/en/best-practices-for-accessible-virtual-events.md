@@ -29,6 +29,7 @@ tags:
 	</div>
 </div>
 
+## On this page
 - [Introduction](#introduction)
   - [Common Issues Reported by People with Disabilities](#common-issues-reported-by-people-with-disabilities)
     - [Audio](#audio)
@@ -101,17 +102,17 @@ tags:
       - [Accessibility Standards Compliance](#accessibility-standards-compliance-2)
       - [Copy Paste Information You Can Include into Invitation for Attendees](#copy-paste-information-you-can-include-into-invitation-for-attendees-2)
 
-# Introduction
+## Introduction
 
 For the purposes of this content, the term “event” includes activities such as: events, conferences, meetings, kiosks, training, presentations, and more.
 
 This guide provides a suggested timeline for planning your event, but it is not prescriptive.
 
-## Common Issues Reported by People with Disabilities
+### Common Issues Reported by People with Disabilities
 
 Before exploring this guide, we invite you to review common complaints about events that we collected from persons with disabilities. Please collaborate with us to address the following challenges head-on.
 
-### Audio
+#### Audio
 
 - Difficulty understanding / hearing speakers and the captions are unreliable
 
@@ -123,19 +124,19 @@ Before exploring this guide, we invite you to review common complaints about eve
 
 - Mic placement, camera and lighting hindering lip reading
 
-### Visual
+#### Visual
 
 - Some cannot see the participants names or faces, making it difficult to know the name of the person speaking and learn to recognize their voice
 
 - Presenters are sharing screens without providing explanations of what is visually going on, leading to missed information and context
 
-### Mobility
+#### Mobility
 
 - Exclusion caused by inaccessible external engagement tools (like surveys and polls) and/or not given enough time to participate
 
 - Some cannot hold a writing utensil, needing an alternative for activities involving writing on paper
 
-### Cognitive
+#### Cognitive
 
 - Lack of clear event objectives, leading to participants’ difficulties in preparing and focusing
 
@@ -155,13 +156,13 @@ Before exploring this guide, we invite you to review common complaints about eve
 
 - Confusion regarding event logistics and not knowing how to enable accessibility features
 
-##  Canadian Legal Framework for Events’ Accessibility
+###  Canadian Legal Framework for Events’ Accessibility
 
 In Canada, the [*Accessible Canada Act*](https://laws-lois.justice.gc.ca/eng/acts/a-0.6/), along with the [*Canadian Human Rights Act*](https://laws-lois.justice.gc.ca/eng/acts/h-6/page-1.html) and the [*Directive on the duty to accommodate*](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32634), urges us to create accessible events. This legal framework protects the rights of persons with disabilities to ensure their full participation in society.
 
 Here is a short summary of their relationship with handling events:
 
-### *Accessible Canada Act*
+#### *Accessible Canada Act*
 
 Aims for a barrier-free Canada by January 1, 2040, requiring the identification, removal and prevention of barriers in areas which include:
 
@@ -169,37 +170,37 @@ Aims for a barrier-free Canada by January 1, 2040, requiring the identification,
 
 - and communications (which include officially recognised languages of Deaf people in Canada: American Sign Language, Quebec Sign Language and Indigenous sign languages).
 
-### *Human Rights Legislation*
+#### *Human Rights Legislation*
 
 Prohibits disability-based discrimination.
 
-### *Directive on the Duty to Accommodate*
+#### *Directive on the Duty to Accommodate*
 
 Ensures the full participation of persons with disabilities by designing all systems, processes and facilities to be accessible from the start. When a barrier cannot be removed, the individual must be accommodated.
 
-## Facts to Keep in Mind
+### Facts to Keep in Mind
 
-### About accommodations
+#### About accommodations
 
 - Events should be inclusive by default, rather than requiring participants to make accommodation requests
 
 - In some cases, an accommodation for one participant can become a barrier for another
 
-### About disabilities
+#### About disabilities
 
 - A partaker’s barrier to their participation is a limitation of technology and processes, not because of a person’s disability
 
 - People with disabilities do not have to disclose their disability to anyone
 
-### About careful planning
+#### About careful planning
 
 - The more time you give yourself to plan an event, the better
 
 - Consider if it would be more productive to replace the event with an email
 
-#  Virtual Events
+##  Virtual Events
 
-## Roadmap
+### Roadmap
 
 First, you will be planning your event. Multiple decisions will have to be made, notably:
 
@@ -241,17 +242,17 @@ Finally, after the event, you will want to:
 
 - Collect feedback from participants to improve
 
-## Plan the event: 1 to 2 months before the event (approximately)
+### Plan the event: 1 to 2 months before the event (approximately)
 
-### Decide if the event is bilingual or two unilingual sessions
+#### Decide if the event is bilingual or two unilingual sessions
 
-#### One Session in French, One Session in English (Best Choice for Accessibility)
+##### One Session in French, One Session in English (Best Choice for Accessibility)
 
 When possible scheduled two separate sessions, one in French and one in English. This is especially good for mandatory and statutory training.
 
 - **Why?** This simplifies the use of interpretation and captioning services. It also avoids excluding unilingual participants. Keep in mind that some people cannot use captions, for example, screen reader users.
 
-#### Bilingual (Best Choice for Official Languages)
+##### Bilingual (Best Choice for Official Languages)
 
 Bilingual events are an option, especially for conferences and all-staff / weekly events.
 
@@ -279,7 +280,7 @@ When organizing a bilingual event, you will want to ensure:
 
 - Summarize each participant’s remarks in the other language
 
-#### Resources for Bilingual Events
+##### Resources for Bilingual Events
 
 - [Effective practices for chairing bilingual events and externally sourced presentations - Office of the Commissioner of Official Languages of Canada (clo-ocol.gc.ca)](https://www.clo-ocol.gc.ca/en/tools-resources/tools-resources/effective-practices-chairing-bilingual-meetings-externally-sourced)
 
@@ -287,19 +288,19 @@ When organizing a bilingual event, you will want to ensure:
 
 - [Virtual Accessible Bilingual Conference Planning: The Parks Accessibility Conference – MDPI Open Access Journals (mdpi.com)](https://www.mdpi.com/1660-4601/20/3/2302#B7-ijerph-20-02302)
 
-### Decide which virtual platform to host your event
+#### Decide which virtual platform to host your event
 
 Please choose a platform who’s user interface that conforms to level AA of the [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/). Additionally, we recommend reaching out to users with disabilities to test the usability of your platform and the way you’ve implemented your event. Refer to [Selecting an accessible remote meeting platform from the Accessibility of Remote Meetings W3C Group Note (w3.org)](https://www.w3.org/TR/remote-meetings/#selection) for detailed guidance.
 
-### Assign roles and responsibilities to your event staff
+#### Assign roles and responsibilities to your event staff
 
-#### Forewarning:
+##### Forewarning:
 
 Smaller events may have some staff with multiple roles. Bigger events will present more challenges and will necessitate a greater distribution of tasks. Keep in mind that third parties, like audio-visual production companies, can be used to handle some of these tasks.
 
 In general, we usually see the following roles, this guidance is not prescriptive:
 
-#### Host / Leader of the event
+##### Host / Leader of the event
 
 - Introduce speakers
 
@@ -313,7 +314,7 @@ In general, we usually see the following roles, this guidance is not prescriptiv
 
 **Note:** It is recommended to have one host / leader of the event as attendees feel more comfortable hearing a familiar voice.
 
-#### Moderator(s)
+##### Moderator(s)
 
 - Monitor and answer participants through the Chat or Q&A area
 
@@ -323,7 +324,7 @@ In general, we usually see the following roles, this guidance is not prescriptiv
 
 - Manage attendees’ video and microphone access
 
-#### Presenter(s)
+##### Presenter(s)
 
 - Deliver the main content of the event
 
@@ -331,13 +332,13 @@ In general, we usually see the following roles, this guidance is not prescriptiv
 
 - Verbally answer questions from the audience
 
-#### Administrator / Support
+##### Administrator / Support
 
 - Point of contact for all attendees and service providers in case they run into issues (such as technical difficulties, access problems, or general questions about the event)
 
 - Schedules the event and ensures that the event settings are right
 
-#### Notetaker
+##### Notetaker
 
 - Document key points, discussions, and action items of the event
 
@@ -345,19 +346,19 @@ In general, we usually see the following roles, this guidance is not prescriptiv
 
 **Note:** The distribution of notes after the event is important, especially for attendees who have difficulties listening and writing at the same time.
 
-### Book accommodation services once the date is confirmed
+#### Book accommodation services once the date is confirmed
 
 Accommodations may be necessary to fulfill the obligations outlines in the [Directive on the Duty to Accommodate](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32634).
 
 **Note:** Please provide the presentation material (such as PowerPoint, Word, email, pre-recorded videos) to service providers in advance. Due to high demand, we suggest submitting your requests at least 4 weeks before the event.
 
-#### Sign Language Interpretation Services (ASL, LSQ)
+##### Sign Language Interpretation Services (ASL, LSQ)
 
 People who are deaf, hard of hearing, or sign language-fluent may struggle with written captions as it's their second language. Sign language interpretation also enhances the experience by conveying intonation, emotion, and meaningful audio information.
 
 - To book sign language interpretation for GC conferences and events, please visit: [Sign language interpretation services – Translation Bureau’s language services and tools (tpsgc-pwgsc.gc.ca) (internal only)](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/signe-sign-eng.html)
 
-#### Communication Access Realtime Translation (CART)
+##### Communication Access Realtime Translation (CART)
 
 Captions enables people who are deaf, have a hearing loss and people who have cognitive disabilities like auditory processing difficulties, and even people for who French and English might not be their first language, to be able to fully participate in live events.
 
@@ -367,7 +368,7 @@ Captions enables people who are deaf, have a hearing loss and people who have co
 
 > **Warning:** Some virtual events platforms offer automated live captions, like [Microsoft Teams Live Captions](https://support.microsoft.com/en-us/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260). Unfortunately, these technologies often make errors which disadvantages users that rely on captions. Automated captions should be used as a last resort only or for events of lower importance. Use Communication Access Realtime Translation (CART) instead.
 
-#### Simultaneous Translation Interpretation Services
+##### Simultaneous Translation Interpretation Services
 
 Bilingual events can be a barrier for unilingual individuals with disabilities. To ensure full accessibility, simultaneous voiced translations are necessary. Translated captions or on-screen content alone cannot be accessed by non-visual users. As a result, they must wait for language switches without any stimuli and rely solely on summaries of the talking points in their language.
 
@@ -379,19 +380,19 @@ Bilingual events can be a barrier for unilingual individuals with disabilities. 
 
 **Note:** This requires a virtual platform that offers multiple voice channels, one for each language. When the presenter is no longer speaking the voice channel’s language, the interpreter assigned to the voice channel must speak the translation.
 
-### Ensure all event materials are accessible (such as email, PowerPoints, Word…)
+#### Ensure all event materials are accessible (such as email, PowerPoints, Word…)
 
 All content distributed must be accessible and in both official languages. When possible, favor more accessible formats like HTML, Word, PowerPoint, ePub over less accessible formats like PDF.
 
 **Important:** Always review the presenters’ material even when the presenter is external as you will be accountable for the accessibility of the content.
 
-#### Training
+##### Training
 
 Consider taking some training about accessibility. When content is made by people who have built their accessibility knowledge and they apply it from the beginning, it saves a lot of time and money by reducing the need for remediation and avoids potential complaints.
 
 Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/guides/) to access more in-dept information through our guides. Additionally, we recommend watching the recorded [CSPS workshop called “Making Documents Accessible (INC1-V46)”](https://www.csps-efpc.gc.ca/video/making-documents-accessible-eng.aspx).
 
-#### General Document Accessibility Advice (Applies to All)
+##### General Document Accessibility Advice (Applies to All)
 
 - **Colour Contrast:** Using a colour contrast checker tool like the [Colour Contrast Analyser by TPGi (desktop app)](https://www.tpgi.com/color-contrast-checker/) or [Contrast Checker by WebAim (available online)](https://webaim.org/resources/contrastchecker/), ensure that:
 
@@ -427,7 +428,7 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/gu
 
   - Refer to the [Style section of the Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html#toc8) for examples of the proper way to use these stylings
 
-#### Email Quick Tips
+##### Email Quick Tips
 
 - Use the [built-in accessibility checker](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Windows)
 
@@ -439,7 +440,7 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/gu
 
 - Use a minimum font size of 12 point
 
-#### PowerPoint Quick Tips
+##### PowerPoint Quick Tips
 
 - Use the [built-in accessibility checker](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Windows)
 
@@ -453,7 +454,7 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/gu
 
 - Verify that the [reading order follows the logical order](https://support.microsoft.com/en-us/office/make-slides-easier-to-read-by-using-the-reading-order-pane-863b5c1c-4f19-45ec-96e6-93a6457f5e1c#:~:text=Check%20the%20reading%20order%20of,section%20to%20open%20the%20list.)
 
-#### Word Quick Tips
+##### Word Quick Tips
 
 - Use the [built-in accessibility checker](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Windows)
 
@@ -461,7 +462,7 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/gu
 
 - Use [built-in styles and headings to structure your document](https://support.microsoft.com/en-us/office/add-a-heading-3eb8b917-56dc-4a17-891a-a026b2c790f2)
 
-#### Pre-Recorded Video Quick Tips
+##### Pre-Recorded Video Quick Tips
 
 - Captions and transcript need to be provided
 
@@ -473,9 +474,9 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/gu
 
 - Ensure the video has a pause/play/stop functionality
 
-### Send invitations to attendees
+#### Send invitations to attendees
 
-#### Build an agenda
+##### Build an agenda
 
 - Plan for breaks, recommended 5-10 minutes break per hour of event
 
@@ -487,7 +488,7 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/gu
 
   - Speaker notes should be included
 
-#### Include event information in invitation
+##### Include event information in invitation
 
 Make sure to include the following information in your event invitation:
 
@@ -527,9 +528,9 @@ Make sure to include the following information in your event invitation:
 
   - Another possibility is to give out the contact information of the event organizer and let participants request the material
 
-## Get ready: 1-2 weeks before the event (approximately)
+### Get ready: 1-2 weeks before the event (approximately)
 
-### Prepare the scripts
+#### Prepare the scripts
 
 A script for the host can be very useful to guide the event. Usually such a script contains the opening statements of the host, statements for during the Q&A sections and finally, closing remarks.
 
@@ -541,7 +542,7 @@ Below you will find an example of an opening statements script template that you
 >- To ask questions, either type into the chat function or wait until we get a question period to use the “raise your hand” feature, the keyboard shortcut is **[give the keyboard shortcut]**. Once you are selected to ask your question, please unmute yourself and show your video if you would like. We will triage your questions asked in the Chat and answer them either in the Chat or during the question period. Alternatively, we may ask that you email your question to our event email so we can address your question after this event.
 > I’m going to introduce our presenter today: **[introduce presenter]**
 
-### Preparing to present – Accessibility awareness for speakers
+#### Preparing to present – Accessibility awareness for speakers
 
 - Learn [how to talk about people with disabilities](https://www.canada.ca/en/employment-social-development/programs/disability/arc/words-images.html)
 
@@ -584,15 +585,15 @@ Below you will find an example of an opening statements script template that you
 
 - Important information regarding avatars in virtual events: Avatars must have the option to be disabled for individuals experiencing motion sickness in order to be accessible.
 
-### Host dry-runs (if needed)
+#### Host dry-runs (if needed)
 
 The bigger or the more critical the event is, the better it is to host a dry-run.
 
 If a dry-run is deemed beneficiary, we strongly recommend practice to ensure everyone is on the same page.
 
-## Run the Event: Day of the Event
+### Run the Event: Day of the Event
 
-### Test your set up about 15 to 30 minutes before the event
+#### Test your set up about 15 to 30 minutes before the event
 
 - Have moderators and presenters test their audio and video set up
 
@@ -602,7 +603,7 @@ If a dry-run is deemed beneficiary, we strongly recommend practice to ensure eve
 
 - Ensure that your accommodation service providers are ready
 
-### <span class="mark">Start the event!</span>
+#### <span class="mark">Start the event!</span>
 
 - If you record the event, ensure to inform participants beforehand
 
@@ -624,7 +625,7 @@ If a dry-run is deemed beneficiary, we strongly recommend practice to ensure eve
 
 - Moderators post links embedded in the slideshow, into the chat
 
-#### Recommended Attendee Etiquette
+##### Recommended Attendee Etiquette
 
 Invite participants to:
 
@@ -644,13 +645,13 @@ Invite participants to:
 
 - Speak at a moderate pace and enunciate clearly (if possible)
 
-#### Fix mistakes
+##### Fix mistakes
 
 - If a mistake is made during the event, be there to fix it
 
   - For example, turn on the transcript feature as soon as you realize that you forgot to turn them on
 
-### Wrap up the event
+#### Wrap up the event
 
 - If there are action items, reiterate them at the end of the event and make sure everyone knows who does what
 
@@ -660,9 +661,9 @@ Invite participants to:
 
 - Inform participants about how to give feedback on the presentation and ensure that your feedback tool is accessible
 
-## After the Event
+### After the Event
 
-### Send Recap Content
+#### Send Recap Content
 
 Make sure to distribute content [in an accessible format](#prepare-the-scripts), this is often done through a post-event “Thank you” email:
 
@@ -676,11 +677,11 @@ Make sure to distribute content [in an accessible format](#prepare-the-scripts),
 
 - Additional material
 
-### Respond to Post-Event Questions
+#### Respond to Post-Event Questions
 
 Respond in a timely manner.
 
-### Gather Participants Feedback
+#### Gather Participants Feedback
 
 Ask for participants feedback and offer multiple ways to receive it, like either through email or through a form. It is important to get feedback to keep improving the quality of the events.
 
@@ -708,7 +709,7 @@ Here are some examples of topics and questions that can be asked:
 
   - Having an open-ended question asking for any additional feedback can make attendees comfortable sharing feedback that they feel did not fit any other question
 
-## For Reference: What Will Affect Your Budget
+### For Reference: What Will Affect Your Budget
 
 - [Accommodation services (ASL, LSQ, Language interpreters...)](#prepare-the-scripts)
 
@@ -722,9 +723,9 @@ Here are some examples of topics and questions that can be asked:
 
 - Translations for documents
 
-## For Reference: Virtual Platforms
+### For Reference: Virtual Platforms
 
-### Security Warning: Virtual Event “Bombing”
+#### Security Warning: Virtual Event “Bombing”
 
 Terms like “Zoombombing”, “T-BOMB”, etc. have become popular terms to describe intrusion by strangers on the internet into virtual events. Usually, intruders try to disrupt the event by sharing their camera, making noise in their mic or using the “Share Screen” feature.
 
@@ -740,13 +741,13 @@ Here are a few tips to risk manage these attacks:
 
   - **Note:** This can be problematic if someone loses connection as they cannot re-enter the event until unlocked
 
-### Information about Microsoft Teams
+#### Information about Microsoft Teams
 
-#### Accessibility Standards Compliance
+##### Accessibility Standards Compliance
 
 Filled-in Voluntary Product Accessibility Template (VPAT)s for MS Teams can be found among Microsoft’s [Accessibility Conformance Reports](https://www.microsoft.com/en-us/accessibility/conformance-reports), use the Filter and choose “Teams” for the “Category”.
 
-#### Recommended Events Options
+##### Recommended Events Options
 
 After setting up an event in MS Teams, it is possible to change the [event options](https://support.microsoft.com/en-us/office/participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e#bkmk_about_meeting_options). To access the event options, activate the link at the bottom of the Teams generated event invite.
 
@@ -764,7 +765,7 @@ When possible, we recommend:
 
   - You can always give them permissions during the event
 
-#### Additional Resources for the Organizer
+##### Additional Resources for the Organizer
 
 - Learn [how to make bilingual event invitations](https://163gc.sharepoint.com/sites/Collaboration/SitePages/Bilingual-Meeting-Invitations.aspx) (internal access only)
 
@@ -772,7 +773,7 @@ When possible, we recommend:
 
 - [Best practices for setting up and running a Teams event or Live event for the deaf and hard of hearing](https://support.microsoft.com/en-us/office/best-practices-for-setting-up-and-running-a-teams-meeting-or-live-event-for-the-deaf-and-hard-of-hearing-6d5ff6ac-c6f3-434b-ac95-c6e2e15ff0ac)
 
-#### Copy Paste Information You Can Include into Invitation for Attendees
+##### Copy Paste Information You Can Include into Invitation for Attendees
 
 Please visit the following links to learn more about Microsoft Teams:
 
@@ -823,13 +824,13 @@ Event Features
 **Note:** Participants who enter a Microsoft Teams meeting after 1000 individuals have already joined will have a restricted, view-only experience. For more information on the controls and actions available in this view-only meeting experience, please refer to the following resource: "[View-only meeting experience - Microsoft Teams \| Microsoft
 Learn](https://learn.microsoft.com/en-us/microsoftteams/view-only-meeting-experience)".
 
-### Information about WebEx
+#### Information about WebEx
 
-#### Accessibility Standards Compliance
+##### Accessibility Standards Compliance
 
 Filled in VPATs for WebEx can be found among those for their other products on their [Voluntary Product Accessibility Templates - Cisco page](https://www.cisco.com/c/en/us/about/accessibility/voluntary-product-accessibility-templates.html#~collaboration), under the section “WebEx App”.
 
-#### Copy Paste Information You Can Include into Invitation for Attendees
+##### Copy Paste Information You Can Include into Invitation for Attendees
 
 Please visit the following links to learn more about WebEx:
 
@@ -879,15 +880,15 @@ Event Features
 
 - [Breakout Sessions in Events and Webinars](https://help.webex.com/en-us/article/nroo6fs/Breakout-sessions-in-meetings-and-webinars)
 
-### Information about Zoom
+#### Information about Zoom
 
-#### Accessibility Standards Compliance
+##### Accessibility Standards Compliance
 
 Zoom claims to comply with WCAG 2.1 level AA, Revised Section 508 and the EN 301 549. Filled in VPATs for Zoom can be found on their [Accessibility page](https://explore.zoom.us/en/accessibility/) under the “Accessibility Documents” section.
 
 To file an accessibility complaint, contact <zoomphone-canada-access@zoom.us> or call at (877) 662-1070.
 
-#### Copy Paste Information You Can Include into Invitation for Attendees
+##### Copy Paste Information You Can Include into Invitation for Attendees
 
 Please visit the following links to learn more about Zoom:
 
