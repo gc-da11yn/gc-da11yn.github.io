@@ -1,11 +1,12 @@
 ---
 title: Find out how to make accessible digital forms
 layout: layouts/base.njk
-description:
+description: With this guide, find out what the best format is and other helpful tips for making accessible digital forms.
 subject:
   - howTos
 tags:
   - createDocument
+toggle: ameliorer-l-accessibilite-des-formulaires
 ---
 <h2>The most accessible format for forms: HTML</h2>
 
