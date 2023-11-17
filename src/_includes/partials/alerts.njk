@@ -1,4 +1,9 @@
 {% set otherLang = "fr" if locale == "en" else "en" %}
+
+{% if settings.env === "dev" %}
+	{% include "partials/pageLabel.njk" %}
+{% endif %}
+
 <section class="alert alert-warning mrgn-tp-lg">
 	<h2>{{ alerts[locale].alertHeading }}</h2>
 	<ul>
