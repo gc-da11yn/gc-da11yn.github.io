@@ -3,8 +3,6 @@ title: Bonnes pratiques pour les événements virtuels accessibles
 layout: layouts/base.njk
 description:
 toggle: best-practices-for-accessible-virtual-events
-subject:
-  - accessibilityInTheGovernmentOfCanada
 tags:
   - howTos
 ---
