@@ -1,0 +1,50 @@
+</div> {# closes heading container to allow for colour row #}
+<div class="bg-dark text-white">
+	<section class="container">
+		{% if locale === "en" %}
+			<h2>Subjects and tags</h2>
+		{% else %}
+			<h2>Sujets et étiquettes</h2>
+		{% endif %}
+		<div class="alert alert-warning">
+		{% if locale === "en" %}
+			<p class="text-white">This section is for development only and will not be visible on the live site.</p>
+		{% else %}
+			<p class="text-white">Cette section est réservée au développement et ne sera pas visible sur le site actuel.</p>
+		{% endif %}
+		</div>
+		<div class="row mrgn-bttm-lg">
+			<div class="col-md-6">
+				{% if subject %}
+					<p{% if locale === "fr" %} lang="en"{% endif %}>subject:</p>
+					<ul>
+						<li><span class="label label-success">{{ subject }}</span></li>
+					</ul>
+				{% else %}
+					{% if locale === "en" %}
+						<p>There is no "subject"</p>
+					{% else %}
+						<p>Il n'y a pas de "<span lang="en">subject</span>"</p>
+					{% endif %}
+				{% endif %}
+			</div>
+			<div class="col-md-6">
+				{% if tags %}
+					<p{% if locale === "fr" %} lang="en"{% endif %}>tags:</p>
+					<ul>
+						{% for item in tags %}
+							<li><span class="label label-info">{{ item }}</span></li>
+						{% endfor %}
+					</ul>
+				{% else %}
+					{% if locale === "en" %}
+						<p>There are no "tags"</p>
+					{% else %}
+						<p>Il n'y a pas de "<span lang="en">tags</span>"</p>
+					{% endif %}
+				{% endif %}
+			</div>
+		</div>
+	</section>
+</div>
+<div class="container"> {# opens body container #}
