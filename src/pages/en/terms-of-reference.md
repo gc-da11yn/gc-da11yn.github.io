@@ -29,14 +29,14 @@ tags:
 
 The purpose of this task force is to collaborate on the creation of a structured platform to centralize Government of Canada (<abbr>GC</abbr>) information on accessibility.
 
-The [Access Working Group (<abbr>AWG</abbr>)](/en/about/workinggroups/awg/) would like to enable interdepartmental centralization and sharing of accessibility information produced by <abbr title="Government of Canada">GC</abbr> departments in a central repository and sharing space.
+The Access Working Group (<abbr>AWG</abbr>) would like to enable interdepartmental centralization and sharing of accessibility information produced by <abbr title="Government of Canada">GC</abbr> departments in a central repository and sharing space.
 
 Sharing accessibility resources and work in a central repository would, among other benefits:
 
 - enable <abbr title="Government of Canada">GC</abbr> employees better access to centralized information relating to accessibility;
 - create a space to collaborate between departments in the open;
 - reduce time and money spent duplicating or searching for other <abbr title="Government of Canada">GC</abbr> departments accessibility work; and
-- promote the accessibility work that we do in the [<abbr title="Government of Canada">GC</abbr> on a public space](/en/).
+- promote the accessibility work that we do in the <abbr title="Government of Canada">GC</abbr> on a public space.
 
 ## Key role
 
