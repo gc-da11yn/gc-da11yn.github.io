@@ -175,4 +175,4 @@ d&rsquo;&eacute;v&eacute;nements d&rsquo;envergure.
 
 ## Résumé des conseils d'accessibilité
 
-Voici un résumé de cette page sur les conseils d'accessibilité: [Réunions et événements accessibles - Résumé de la liste de conseils (DOCX, 28 KB)](src_docs\reunions-et-evenements-accessibles-resume-de-la-liste-de-conseils.docx)
+Voici un résumé de cette page sur les conseils d'accessibilité: [Réunions et événements accessibles - Résumé de la liste de conseils (DOCX, 28 KB)](../../docs/reunions-et-evenements-accessibles-resume-de-la-liste-de-conseils.docx)

@@ -115,7 +115,6 @@ description: Cours sur l'accessibilité pour les testeurs d'applications Web
     <div class="panel-body">
         <h3 id="liste" class="mrgn-tp-0">Liste de contrôle des évaluations de la conformité de l'accessibilité (non Web / logiciel)</h3>
         <dl class="dl-horizontal">
-
             <dt>Niveau :</dt>
             <dd>N/A</dd>
             <dt>Fournisseur :</dt>

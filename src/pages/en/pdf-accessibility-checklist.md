@@ -18,23 +18,11 @@ We established a list of tools and resources to help developers verify their doc
 
 ## Tools and Resources
 
-        <ul>
-            <li><a href="http://iservice.prv/eng/imit/catalogue/software_application/foxit_phantomPDF_business.shtml">Foxit
-                    PhantomPDF <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
-                        Internal link</span></a>: ESDC recommended tool to create accessible PDFs. ESDC employees can obtain the
-                software by filling out the <a
-                    href="https://dialogue/grp/EWCS-SCEW/SiteAssets/SitePages/License%20Request%20Forms/Foxit%20PhantomPDF%20Business%20Request%20form.docx">Foxit
-                    PhantomPDF Business Request Form <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
-                        Internal link</span></a> and opening a ticket with the <a
-                    href="http://srmis-sigdi-iagent.prv/">National Service Desk <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
-                        Internal link</span></a><u>. </u></li>
-            <li><a href="http://esdc.prv/en/iitb/es/ts/wscoe/tools/index-eng.shtml#colour">Colour Contrast Analyzer
-                    tool <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
-                        Internal link</span></a>: ESDC recommended tool to verify colour contrast, ESDC employees can obtain the software by
-                opening a ticket with the <a href="http://srmis-sigdi-iagent.prv/">National Service Desk <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
-                    Internal link</span></a><u>.</u>
-            </li>
-        </ul>
+<ul>
+<li><a href="http://iservice.prv/eng/imit/catalogue/software_application/foxit_phantomPDF_business.shtml">Foxit PhantomPDF <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>: ESDC recommended tool to create accessible PDFs. ESDC employees can obtain the software by filling out the <a href="https://dialogue/grp/EWCS-SCEW/SiteAssets/SitePages/License%20Request%20Forms/Foxit%20PhantomPDF%20Business%20Request%20form.docx">Foxit PhantomPDF Business Request Form <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a> and opening a ticket with the <a href="http://srmis-sigdi-iagent.prv/">National Service Desk <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
+Internal link</span></a>.</li>
+<li><a href="http://esdc.prv/en/iitb/es/ts/wscoe/tools/index-eng.shtml#colour">Colour Contrast Analyzer tool <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>: ESDC recommended tool to verify colour contrast, ESDC employees can obtain the software by opening a ticket with the <a href="http://srmis-sigdi-iagent.prv/">National Service Desk <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>.</li>
+</ul>
 
 ### Resources to make Accessible PDFs
 
@@ -57,68 +45,38 @@ For any further questions or comments regarding the PDF Accessibility Checklist,
 
 ## Checklist
 
-            <ul class="list-unstyled mrgn-tp-lg mrgn-lft-lg">
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>1 &ndash; The PDF title is clearly specified and entered correctly using the title entry. This can be found in the PDF internal directory.
-                </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>2 &ndash; The language of the PDF is set in the Lang entry field (English / French).</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>3 &ndash; The language of a passage, phrase, or word that differs from the language of the PDF is specified as the correct language. </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>4 &ndash; Pages are appropriately bookmarked for easier navigation.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>5 &ndash; There are running headers and footers as needed so users know where they are in the PDF at all times.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>6 &ndash; Pages are clearly marked. Eg. 1 – 2 – 3 / A – B – C etc.
-                </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>7 &ndash; The reading order of the PDF is correct.
-                    Screen readers read the contents in the logical order.
-
-                </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>8
-                    &ndash; Using the tab key, the user is able to navigate through the PDF for all input fields, and links, in the correct order.
-                </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>9
-                    &ndash; Page headings with subheadings are included as needed.
-                </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>10
-                    &ndash; Tables are correctly tagged so that they are recognized by assistive technology.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>11 &ndash; Lists of various related items are tagged as lists and list items correctly.  </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>12 &ndash; Visuals that do not add any additional value to the content, and contain no text are marked as decorative and ignored by screen readers.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>13
-                    &ndash; Visuals include a written description of the visual for context. The alternative text of the visual explains where the description is located. Visuals that do not contain written descriptions in the body of the PDF have descriptive alternative text.
-                    </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>14
-                    &ndash; When using colours, shapes, or visual aids to convey a message, there are other written descriptors to get the message across.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>15
-                    &ndash; Text, and images of text have a contrast ratio of at least 4.5:1; except for large text (above size 14 bold, or above size 18) which requires a contrast ratio of 3:1.
-                    This will ensure the colour scheme is optimal for the visually impaired and/or colour blind.
-                    </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>16 &ndash; Links are clearly marked and contain descriptive text. </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>17 &ndash; Form input options are clearly marked and described.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>18 &ndash; Radio buttons allow for one selection – these are clearly
-                    marked as circles.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>19 &ndash; Checkboxes allow for multiple selections – these are clearly
-                    marked as squares.
-                </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>20 &ndash; Links are clearly marked with blue, underlined text.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>21 &ndash; Form controls are properly displayed and indicated on the
-                    form for users to easily access and identify.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>22 &ndash; All fields have a proper name, role, and value attached for
-                    users.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>23 &ndash; All text fields have associated descriptive text.
-                    This allows assistive technology to recognize and
-                    understand the different form fields.</li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>24 &ndash; When a user has failed to input information correctly in a field, there is a clear error indicator that visually and auditorily informs the user of the error, how to correct the error, and properly fill out the field.
-                </li>
-                <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>25 &ndash;
-                    The submit button is clearly marked so that users know
-
-how to submit the form they are filling out.</li>
-
-<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>26 &ndash; Best Practice: when using an acronym ensure that the first
-time it is mentioned in the PDF that it is fully defined.
-Eg. Employment and Social Development Canada (ESDC)
+<ul class="list-unstyled mrgn-tp-lg mrgn-lft-lg">
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>1 &ndash; The PDF title is clearly specified and entered correctly using the title entry. This can be found in the PDF internal directory.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>2 &ndash; The language of the PDF is set in the Lang entry field (English / French).</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>3 &ndash; The language of a passage, phrase, or word that differs from the language of the PDF is specified as the correct language.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>4 &ndash; Pages are appropriately bookmarked for easier navigation.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>5 &ndash; There are running headers and footers as needed so users know where they are in the PDF at all times.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>6 &ndash; Pages are clearly marked. Eg. 1 – 2 – 3 / A – B – C etc.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>7 &ndash; The reading order of the PDF is correct. Screen readers read the contents in the logical order.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>8 &ndash; Using the tab key, the user is able to navigate through the PDF for all input fields, and links, in the correct order.
 </li>
-<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>27 &ndash; Best Practice: the font is sans serif and commonly used.
-(for enhanced visual legibility)
-
-            </ul>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>9 &ndash; Page headings with subheadings are included as needed.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>10 &ndash; Tables are correctly tagged so that they are recognized by assistive technology.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>11 &ndash; Lists of various related items are tagged as lists and list items correctly.  </li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>12 &ndash; Visuals that do not add any additional value to the content, and contain no text are marked as decorative and ignored by screen readers.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>13 &ndash; Visuals include a written description of the visual for context. The alternative text of the visual explains where the description is located. Visuals that do not contain written descriptions in the body of the PDF have descriptive alternative text.
+</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>14 &ndash; When using colours, shapes, or visual aids to convey a message, there are other written descriptors to get the message across.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>15 &ndash; Text, and images of text have a contrast ratio of at least 4.5:1; except for large text (above size 14 bold, or above size 18) which requires a contrast ratio of 3:1. This will ensure the colour scheme is optimal for the visually impaired and/or colour blind.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>16 &ndash; Links are clearly marked and contain descriptive text. </li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>17 &ndash; Form input options are clearly marked and described.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>18 &ndash; Radio buttons allow for one selection – these are clearly marked as circles.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>19 &ndash; Checkboxes allow for multiple selections – these are clearly marked as squares.
+</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>20 &ndash; Links are clearly marked with blue, underlined text.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>21 &ndash; Form controls are properly displayed and indicated on the form for users to easily access and identify.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>22 &ndash; All fields have a proper name, role, and value attached for users.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>23 &ndash; All text fields have associated descriptive text. This allows assistive technology to recognize and understand the different form fields.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>24 &ndash; When a user has failed to input information correctly in a field, there is a clear error indicator that visually and auditorily informs the user of the error, how to correct the error, and properly fill out the field.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>25 &ndash; The submit button is clearly marked so that users know how to submit the form they are filling out.</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>26 &ndash; Best Practice: when using an acronym ensure that the first time it is mentioned in the PDF that it is fully defined. Eg. Employment and Social Development Canada (ESDC)</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>27 &ndash; Best Practice: the font is sans serif and commonly used. (for enhanced visual legibility)</li>
+</ul>
 
 ## Glossary
 
@@ -138,4 +96,4 @@ Eg. Employment and Social Development Canada (ESDC)
 
 **Tags:** The structured, textual representation of the PDF content that is accessed by screen readers, to read the document out-loud.
 
-<p><a class="btn btn-primary" href="../../../docs/PDF_Accessibility_Checklist.pdf" role="button">Download page (PDF, 324 KB)</a></p>
+<p><a class="btn btn-primary" href="{{ rootPath }}docs/PDF_Accessibility_Checklist.pdf" role="button">Download page (PDF, 324 KB)</a></p>

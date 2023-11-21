@@ -4,6 +4,7 @@ description: La description sonore permet à tout utilisateur souffrant d’un h
 subject:
   - accessibilityFundamentals
 tags:
+  - aboutDisabilities
 layout: layouts/base.njk
 audience:
   - Everyone
