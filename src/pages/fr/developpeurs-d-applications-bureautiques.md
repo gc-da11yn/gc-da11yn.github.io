@@ -232,7 +232,6 @@ description: Cours sur l'accessibilité pour les développeurs d'applications de
     <div class="panel-body">
         <h3 id="liste" class="mrgn-tp-0">Liste de contrôle des évaluations de la conformité de l'accessibilité (non Web / logiciel)</h3>
         <dl class="dl-horizontal">
-
             <dt>Niveau :</dt>
             <dd>N/A</dd>
             <dt>Fournisseur :</dt>
@@ -248,6 +247,7 @@ description: Cours sur l'accessibilité pour les développeurs d'applications de
             <dt>Langue :</dt>
             <dd>Français ou Anglais</dd>
         </dl>
-        <p><a href="../../fr/curriculum/a11ycheck-nonweb/" class="btn btn-success">Lire<span class="wb-inv"> Liste de contrôle des évaluations de la conformité de l'accessibilité (non Web / logiciel)</span></a></p>
+        <p>
+        <a href="./liste-de-controle-des-evaluations-de-la-conformite-de-laccessibilite-non-web-logiciel.md" class="btn btn-success">Lire<span class="wb-inv"> Liste de contrôle des évaluations de la conformité de l'accessibilité (non Web / logiciel)</span></a></p>
     </div>
 </div>

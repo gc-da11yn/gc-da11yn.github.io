@@ -52,9 +52,9 @@ Il est recommandé de placer des sous-titres en haut des vidéos ASL et LSQ.
 
 Les équipes de conception ou un entrepreneur peuvent fournir le texte de la légende.
 
-[Directives pour le sous-titrage](\l)
+[Directives pour le sous-titrage](./directives-pour-le-sous-titrage.md)
 
-[Liste de contrôle pour le sous-titrage](#_Captioning_Checklist)
+[Liste de contrôle pour le sous-titrage](./liste-de-controle-pour-le-sous-titrage.md)
 
 ## **Sommaire de la description sonore**
 La description sonore permet à tout utilisateur souffrant d’un handicap visuel ou cognitif de recevoir une expérience très détaillée et descriptive de ce qui se passe à l’écran. Pendant les pauses existantes dans le dialogue, la description sonore fournit des informations sur les actions, les personnages, les changements de scène et le texte à l’écran qui sont importants et qui ne sont pas décrits ou parlés dans la bande sonore principale.
@@ -65,7 +65,7 @@ Cela peut être fait en utilisant :
 - Ajout d’une piste audio distincte qui décrit le contenu visuel. (WCAG 1.2.5 niveau AA);
 - Remarque : Si une description sonore supplémentaire est utilisée pour une vidéo, elle doit être incluse dans la transcription.
 
-[Directives pour la description sonore](#_Audio_Description_Guidelines)
+[Directives pour la description sonore](./directives-pour-la-description-sonore.md)
 
 [Liste de contrôle pour la description sonore](#_Audio_Description_Checklist)
 

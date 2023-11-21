@@ -43,7 +43,7 @@ Transcripts are the text equivalent of an audio or video file. They make it easi
 
 [Transcript Guidelines](#_Transcript_Guidelines_(how)
 
-[Transcript Checklist](#_Transcript_Checklist)
+[Transcript Checklist](./transcript-checklist.md)
 
 ## Captioning summary
 Videos with audio require synchronized captioning (where the text aligns with the spoken words in the audio and when important actions are presented on the screen).
@@ -59,9 +59,9 @@ Open captions are recommended at the top of American Sign Language (ASL) and Lan
 
 Design teams or a contractor can provide the caption text.
 
-[Captioning Guidelines](/en/captioning-guidelines/)
+[Captioning Guidelines](./captioning-guidelines.md)
 
-[Captioning Checklist](/en/captioning-checklist/)
+[Captioning Checklist](./captioning-checklist.md)
 
 ## Audio description summary
 Audio description allows any user with a visual disability or cognitive disability to receive a very detailed and descriptive experience of what is happening on the screen. During existing pauses in dialogue, audio description provides information about actions, characters, scene changes, and on-screen text that are important and are not described or spoken in the main soundtrack.
