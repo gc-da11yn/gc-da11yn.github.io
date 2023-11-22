@@ -1,6 +1,6 @@
 ---
 title:
-otherLanguageOnly: true
+oneLanguage: true
 redirect:
 description:
 toggle:
