@@ -5,7 +5,6 @@ layout: layouts/base.njk
 toggle: contactez-nous
 tags:
   - aboutUs
-  - mainAbout
 ---
 
 ## We would love to hear from you.

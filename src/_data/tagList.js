@@ -1,7 +1,7 @@
 module.exports = {
 	tags: {
 		fr: {
-			aboutDisabilities: "À propos des handicaps",
+			aboutDisabilities: "Types de handicap les plus courants",
 			globalAccessibilityStandards: "Normes d’accessibilité mondiales",
 			createDocument: "Créer un document",
 			createEmails: "Créer un courriel",
@@ -28,7 +28,7 @@ module.exports = {
 				"Comment créer des documents accessibles dans Microsoft 365",
 		},
 		en: {
-			aboutDisabilities: "About Disabilities",
+			aboutDisabilities: "Most Common Types of Disability",
 			globalAccessibilityStandards: "Global Accessibility Standards",
 			createDocument: "Create document",
 			createEmails: "Create emails",

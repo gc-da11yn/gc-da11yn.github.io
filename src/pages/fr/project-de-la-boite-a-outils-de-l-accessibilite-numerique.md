@@ -3,11 +3,8 @@ title: Project de la Boîte à outils de l'accessibilité numérique
 layout: layouts/base.njk
 description: A propos du projet, qui nous sommes et quel est notre but.
 toggle: digital-accessibility-toolkit-project
-subject:
-  - aboutUs
 tags:
-  - aboutTheDigitalTheAccessibilityToolkitProject
-  - mainAbout
+  - aboutUs
 ---
 
 ## Objectif
@@ -17,7 +14,6 @@ Collaborer à la création d’une structure et d’une plateforme pour centrali
 Le <a href="/en/about/workinggroups/awg/" hreflang="en">Groupe de travail sur l’accès (<abbr>GTA</abbr>) (en anglais seulement)</a> aimerait permettre la centralisation interministérielle et le partage de l’information sur l’accessibilité produite par les ministères du GC dans un dépôt central et un espace de partage.
 
 - [Groupe de travail sur la Boîte à outils sur l’accessibilité numérique (<abbr>DAT</abbr>) - Mandat](/fr/mandats/)
-- [Boîte à outils pour l’accessibilité numérique (<abbr>DAT</abbr>)](/fr/)
 - <a href="https://github.com/gc-da11yn/gc-da11yn.github.io" hreflang="en">Boîte à Outils de l'Accessibilité numérique - Dépôt Github (en anglais seulement)</a>
 
 ## Partage

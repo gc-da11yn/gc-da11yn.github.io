@@ -3,11 +3,8 @@ title: Mandats
 layout: layouts/base.njk
 description: Le cadre de référence définit l’objet et la portée du projet de la Boîte à outils de l'accessibilité numérique. Il comprend des informations sur la structures du projet, les rôles clés, les membres, le fonctionnement, etc.
 toggle: terms-of-reference
-subject:
-  - aboutUs
 tags:
-  - aboutTheDigitalTheAccessibilityToolkitProject
-  - mainAbout
+  - aboutUs
 ---
 
 ## Sur cette page
@@ -28,7 +25,7 @@ tags:
 
 L'objectif de ce groupe de travail est de collaborer à la création d'une plateforme structurée pour centraliser les informations du gouvernement du Canada (<abbr>GC</abbr>) sur l'accessibilité.
 
-Le <a href="/en/about/workinggroups/awg/" hreflang="en">Groupe de travail sur l’accès (<abbr>GTA</abbr>) (en anglais seulement)</a> souhaite permettre la centralisation et le partage interministériels de l'information sur l'accessibilité produite par les départements du <abbr title="gouvernement du Canada">GC</abbr> dans un dépôt central et un espace de partage.
+Le Groupe de travail sur l’accès (<abbr>GTA</abbr>) souhaite permettre la centralisation et le partage interministériels de l'information sur l'accessibilité produite par les départements du <abbr title="gouvernement du Canada">GC</abbr> dans un dépôt central et un espace de partage.
 
 - Permettre aux employés du <abbr title="gouvernement du Canada">GC</abbr> d'avoir un meilleur accès aux informations centralisées relatives à l'accessibilité
 - créer un espace de collaboration ouvert entre les ministères ;

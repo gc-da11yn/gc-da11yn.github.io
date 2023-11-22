@@ -11,27 +11,39 @@ audience:
 toggle: deficiences-visuelles
 ---
 
-* <a href="{{ rootPath }}docs/posters/LowVision-en_2023.pdf" id="das6" aria-labelledby="das6 das1">Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)</a>
+* [Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/LowVision-en_2023.pdf)
 * [Designing for users with low vision (HTML)]({{ rootPath }}en/designing-for-users-with-low-vision/)
 
 ## Blindness
 
-**Definition:** Blindness is a sensory disability involving nearly complete vision loss.
-
-**Characteristics:** Some people are completely blind, without the ability to see anything. Others can perceive light versus dark, or the general shapes of large objects, but cannot read text or recognize people by sight.
+<dl>
+  <dt>Definition:</dt>
+  <dd>Blindness is a sensory disability involving nearly complete vision loss.</dd>
+  <dt>Characteristics:</dt>
+  <dd>Some people are completely blind, without the ability to see anything. Others can perceive light versus dark, or the general shapes of large objects, but cannot read text or recognize people by sight.</dd>
+</dl>
 
 ## Colour Blindness
 
-**Definition:** Colour blindness is a sensory disability that impairs a person’s ability to distinguish certain colour combinations.
-
-**Characteristics:** The most common forms of colour-blindness affect an individual’s ability to distinguish reds and greens, although other colours may be affected.
+<dl>
+  <dt>Definition:</dt>
+  <dd>Colour blindness is a sensory disability that impairs a person’s ability to distinguish certain colour combinations.</dd>
+  <dt>Characteristics:</dt>
+  <dd>The most common forms of colour-blindness affect an individual’s ability to distinguish reds and greens, although other colours may be affected.</dd>
+</dl>
 
 ## Low Vision
 
-**Definition:** Low vision is uncorrectable vision loss that interferes with daily activities. It is better defined in terms of function, rather than numerical test results.
+<dl>
+  <dt>Definition:</dt>
+  <dd>
+Low vision is uncorrectable vision loss that interferes with daily activities. It is better defined in terms of function, rather than numerical test results.
 
 - In other words, low vision is “not enough vision to do whatever it is you need to do,” which can vary from person to person.
 - Most eye care professionals prefer to use the term “low vision” to describe permanently reduced vision that cannot be corrected with regular glasses, contact lenses, medicine, or surgery.
+  </dd>
+</dl>
+
 
 ## Adaptive Technologies and Adaptive Strategies
 Here are some commonly used products:

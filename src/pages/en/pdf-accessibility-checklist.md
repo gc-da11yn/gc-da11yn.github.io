@@ -5,9 +5,9 @@ description: Here you can find different questions to help you to know if your p
 internalLinks: true
 toggle: liste-de-verification-de-laccessibilite-des-documents-pdf
 subject:
-  - accessibilityInTheGovernmentOfCanada
+  - howTos
 tags:
-  - createForms
+  - createDocument
 ---
 
 ## Introduction
