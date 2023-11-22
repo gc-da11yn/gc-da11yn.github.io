@@ -4,9 +4,9 @@ layout: layouts/base.njk
 description: Liste de vérification pour vérifier si le contenu d'une page web est accessible ou non
 toggle: web-accessibility-checklist
 subject:
-- learningAndDevelopment
+- howTos
 tags:
-- development
+- testYourProducts
 ---
 
 <ul class="list-unstyled mrgn-tp-lg">
