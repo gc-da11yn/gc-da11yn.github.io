@@ -15,7 +15,7 @@ tags: accessibilityFundamentals
 <div class="row wb-eqht mrgn-tp-lg gc-drmt">
 	{% for item in collections.globalAccessibilityStandards | sort(false, false, 'data.title') | localeMatch(locale) %}
 	<div class="col-md-6">
-		<h2><a href="{{ item.url }}">{{ item.data.title | safe }}</a></h2>
+		<h2><a href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ item.url }}{% endif %}" {% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}" {% endif %}>{{ item.data.title | safe }}{% if item.data.oneLanguage %} {{ landingPage[locale].otherLangOnly }}{% endif %}</a></h2>
 		<p>
 			{% if item.data.description %}
 			{{ item.data.description | safe }}
