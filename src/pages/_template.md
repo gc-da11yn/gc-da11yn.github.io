@@ -2,7 +2,7 @@
 title:
 layout: layouts/base.njk
 description:
-toggle: -additionnelles
+toggle:
 subject:
 tags:
 ---
