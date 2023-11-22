@@ -5,9 +5,7 @@ description: Pour plus d'informations sur les réunions et événements accessib
 internalLinks: true
 toggle: additional-resources
 subject:
-  - howTos
 tags:
-  - hostMeetingsAndEvents
 ---
 
     <li>

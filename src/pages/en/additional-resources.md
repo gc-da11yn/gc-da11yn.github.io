@@ -5,9 +5,7 @@ description: For more information on accessible meetings and events, you can con
 internalLinks: true
 toggle: ressources-additionnelles
 subject:
-  - howTos
 tags:
-  - hostMeetingsAndEvents
 ---
 
     <li>
