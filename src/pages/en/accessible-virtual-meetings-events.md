@@ -4,9 +4,9 @@ layout: layouts/base.njk
 description: In order to assist you in offering a fully accessible virtual meeting/event, whether it is a training session, a meeting, a kiosk or an open door event, the IT Accessibility Office (ITAO) has gathered the most relevant information on the subject.
 toggle: reunions-evenements-virtuels-accessibles
 subject:
-  - aboutUs
+  - howTos
 tags:
-  - createWebContent
+  - hostMeetingsAndEvents
 ---
 
 Virtual meetings and events come in various formats and sizes – from small workshops with participants who know each other to large public meetings you are planning. It is critical to ensure meetings and events are fully accessible from accessing them, to the presentations. By planning ahead, you can build accessibility into all aspects of the meeting. This will allow everyone to participate fully, including people with disabilities.
@@ -15,7 +15,7 @@ Virtual meetings and events come in various formats and sizes – from small wor
 	<section class="col-md-6">
 		<h2 class="h5">
 			<a href="./virtual-meeting-platforms-and-accessibility-features.md">Virtual meeting platforms and accessibility features </a>
-		</h2> 
+		</h2>
 Microsoft Teams and Zoom virtual meeting platforms offer a variety of accessibility features that meet different needs for participating in meetings and chats.
 	</section>
     <section class="col-md-6">

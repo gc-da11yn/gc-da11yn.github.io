@@ -5,7 +5,7 @@ description: With this guide, find out what the best format is and other helpful
 subject:
   - howTos
 tags:
-  - createDocument
+  - createForms
 toggle: ameliorer-l-accessibilite-des-formulaires
 ---
 <h2>The most accessible format for forms: HTML</h2>

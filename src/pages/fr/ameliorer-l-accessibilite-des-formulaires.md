@@ -5,7 +5,7 @@ layout: layouts/base.njk
 subject:
   - howTos
 tags:
-  - createDocument
+  - createForms
 toggle: find-out-how-to-make-accessible-digital-forms
 ---
 

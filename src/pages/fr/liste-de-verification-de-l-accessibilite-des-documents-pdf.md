@@ -5,9 +5,9 @@ description: Vous trouverez ici différentes questions pour vous aider à savoir
 internalLinks: true
 toggle: pdf-accessibility-checklist
 subject:
-  - accessibilityInTheGovernmentOfCanada
+  - howTos
 tags:
-  - createForms
+  - createDocument
 ---
 
 ## Introduction
