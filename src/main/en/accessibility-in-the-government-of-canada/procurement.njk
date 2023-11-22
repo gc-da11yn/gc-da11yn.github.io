@@ -14,15 +14,9 @@ tags:
 {% else %}
 
 <div class="row wb-eqht mrgn-tp-lg gc-drmt">
-	<div class="col-md-6">
-		<h2><a href="https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/" rel="external">Information and Communication Technology (ICT) Requirements Generator (Prototype) for the EN 301 549 (2021)</a></h2>
-		<p>The Information and Communication Technology (ICT) Accessibility Requirements Generator (also known as the wizard) can be used to generate EN 301 549 requirements relevant to your project.</p>
-		<p>This tool does not provide a total copy / paste / translation of either the EN 301 549 (2021) or WCAG 2.1, just the relevant portions required to define the ICT accessibility requirements.</p>
-		<p><a href="https://2018-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/" rel="external">ICT Accessibility Requirements Generator (prototype) for EN 301 549 (2018) - obsolete</a></p>
-	</div>
 	{% for item in collections.procurement | sort(false, false, 'data.title') | localeMatch(locale) %}
 	<div class="col-md-6">
-		<h2><a href="{{ item.url }}">{{ item.data.title | safe }}</a></h2>
+		<h2><a href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ item.url }}{% endif %}"{% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>{{ item.data.title | safe }}{% if item.data.oneLanguage %} {{ landingPage[locale].otherLangOnly }}{% endif %}</a></h2>
 		<p>
 			{% if item.data.description %}
 			{{ item.data.description | safe }}
