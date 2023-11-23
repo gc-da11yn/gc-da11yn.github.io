@@ -16,9 +16,9 @@
     "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
     "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
     "watch:sass": "npm run sass-start -- --watch",
-    "start": "ELEVENTY_ENV=dev npm-run-all sass-start --parallel watch:*",
-    "dev": "ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
-    "build": "npm-run-all sass-build eleventy && npm run cleanHTML markdown-to-html && npm run replaceLink"
+    "start": "cross-env ELEVENTY_ENV=dev npm-run-all sass-start --parallel watch:*",
+    "dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
+    "build": "npm-run-all sass-build eleventy && npm run cleanHTML markdown-to-html && npm run replaceLink" 
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@cspell/dict-fr-fr": "^2.1.2",
+    "cross-env": "^7.0.3",
     "cspell": "^6.18.1",
     "eleventy-plugin-broken-links": "^2.0.3",
     "markdown-it": "^13.0.1",
