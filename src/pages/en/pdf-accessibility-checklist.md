@@ -19,7 +19,7 @@ We established a list of tools and resources to help developers verify their doc
 ## Tools and Resources
 
 <ul>
-<li><a href="http://iservice.prv/eng/imit/catalogue/software_application/foxit_phantomPDF_business.shtml">Foxit PhantomPDF <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>: ESDC recommended tool to create accessible PDFs. ESDC employees can obtain the software by filling out the <a href="https://dialogue/grp/EWCS-SCEW/SiteAssets/SitePages/License%20Request%20Forms/Foxit%20PhantomPDF%20Business%20Request%20form.docx">Foxit PhantomPDF Business Request Form <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a> and opening a ticket with the <a href="http://srmis-sigdi-iagent.prv/">National Service Desk <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
+<li><a href="http://iservice.prv/eng/imit/catalogue/software_application/foxit_phantomPDF_business.shtml">Foxit PDF Editor <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>: ESDC recommended tool to create accessible PDFs. ESDC employees can obtain the software by filling out the <a href="https://dialogue/grp/EWCS-SCEW/SiteAssets/SitePages/License%20Request%20Forms/Foxit%20PhantomPDF%20Business%20Request%20form.docx">Foxit PDF Editor Business Request Form <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a> and opening a ticket with the <a href="http://srmis-sigdi-iagent.prv/">National Service Desk <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
 Internal link</span></a>.</li>
 <li><a href="http://esdc.prv/en/iitb/es/ts/wscoe/tools/index-eng.shtml#colour">Colour Contrast Analyzer tool <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>: ESDC recommended tool to verify colour contrast, ESDC employees can obtain the software by opening a ticket with the <a href="http://srmis-sigdi-iagent.prv/">National Service Desk <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>.</li>
 </ul>
@@ -27,8 +27,8 @@ Internal link</span></a>.</li>
 ### Resources to make Accessible PDFs
 
 - [PDF Techniques for WCAG 2.1](http://www.w3.org/WAI/WCAG21/Techniques/#pdf)
-- [Foxit PhantomPDF Accessibility](https://www.foxitsoftware.com/solution/accessibility/)
-- [Foxit PhantomPDF Instructional Tutorials](https://www.foxitsoftware.com/support/tutorial/?from=foxit%20phantompdf_business&utm_source=client-app)
+- [Foxit PDF Editor Accessibility](https://www.foxitsoftware.com/solution/accessibility/)
+- [Foxit PDF Editor Instructional Tutorials](https://www.foxitsoftware.com/support/tutorial/?from=foxit%20phantompdf_business&utm_source=client-app)
 - [Foxit: Use Action Wizard to automatically make PDFs 508 compliant](https://www.foxitsoftware.com/blog/use-action-wizard-to-automatically-make-pdfs-508-compliant/)
 - [WebAIM: Foxit and PDF Accessibility](https://webaim.org/techniques/foxit/)
 - [Do's and Dont's for Accessible Designs](../en/index.html)

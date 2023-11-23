@@ -24,7 +24,7 @@ Nous avons dressé une liste d’outils et de ressources pour aider les dévelop
         accessibles. Les employ&eacute;s d&rsquo;EDSC peuvent obtenir le logiciel en remplissant le formulaire
         <a
             href="https://dialogue/grp/EWCS-SCEW/SiteAssets/SitePages/License%20Request%20Forms/Foxit%20PhantomPDF%20Business%20Request%20form.docx">Formulaire
-            de demande d&rsquo;affaires Foxit PhantomPDF  <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
+            de demande d&rsquo;affaires Foxit PDF Editor  <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
                 Lien interne</span></a> et en ouvrant un billet aupr&egrave;s d&rsquo;<a
             href="http://srmis-sigdi-iagent.prv/">InfoService national  <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
                 Lien interne</span></a>. </li>
@@ -38,7 +38,7 @@ Nous avons dressé une liste d’outils et de ressources pour aider les dévelop
 ### Ressources permettant de rendre les documents PDF accessibles
 
 - [Techniques relatives aux WCAG 2.1 en format PDF](http://www.w3.org/WAI/WCAG21/Techniques/#pdf) (anglais seulement)
-- [Accessibilité des fichiers PDF Foxit PhantomPDF](https://www.foxitsoftware.com/fr/solution/accessibility/)
+- [Accessibilité des fichiers PDF Foxit PDF Editor](https://www.foxitsoftware.com/fr/solution/accessibility/)
 - [Tutoriels didactiques PhantomPDF de Foxit](https://www.foxitsoftware.com/fr/support/tutorial/?from=foxit%20phantompdf_business&utm_source=client-app)
 - [Foxit : Utilisez l’assistant d’action pour rendre automatiquement les PDF conformes à la norme 508](https://www.foxitsoftware.com/blog/use-action-wizard-to-automatically-make-pdfs-508-compliant/) (anglais seulement)
 - [WebAIM : Accessibilité Foxit et PDF](https://webaim.org/techniques/foxit/) (anglais seulement)
