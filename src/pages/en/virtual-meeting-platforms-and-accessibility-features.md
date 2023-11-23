@@ -4,7 +4,6 @@ layout: layouts/base.njk
 description: The Microsoft Teams and Zoom virtual meeting platforms offer various accessibility features that meet different needs, including for meetings and conversations.
 toggle: plateformes-de-reunions-virtuelles-et-fonctionnalites
 tags:
-  - learningAndDevelopment
 ---
 
 ## Microsoft Teams
