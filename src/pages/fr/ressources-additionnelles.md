@@ -192,7 +192,7 @@ Qui doit utiliser le système de conception de Canada.ca, éléments obligatoire
 
 <div class="gc-srvinfo">
 
-### [Liste des ressources, outils et services d’accessibilité générale](https://intranet.canada.ca/wg-tg/gc-cg/accessible-communications-accessibles/str-sor-fra.asp)
+### [Liste des ressources, outils et services d’accessibilité générale <span class="fas fa-external-link-square-alt" aria-hidden="true"></span><span class="wb-inv">Lien interne</span>](https://intranet.canada.ca/wg-tg/gc-cg/accessible-communications-accessibles/str-sor-fra.asp)
 
 Découvrez les services, les outils et les ressources qui permettent de créer des produits de communication et des activités accessibles.
 
@@ -276,7 +276,7 @@ Afin de vous aider à offrir une réunion ou une activité virtuelle pleinement 
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
 
-### [Des ressources pour Microsoft 365/Teams Lien interne](https://wiki.gccollab.ca/M365/Accueil/Teams)
+### [Des ressources pour Microsoft 365/Teams <span class="fas fa-external-link-square-alt" aria-hidden="true"></span><span class="wb-inv">Lien interne</span>](https://wiki.gccollab.ca/M365/Accueil/Teams)
 
 Une collection de produits de formation MS Teams pour aider les fonctionnaires.
 
@@ -290,7 +290,7 @@ Une planification adéquate de réunions et d’événements est essentielle pou
 </div>
 <div class="col-md-6">
 
-### [Meilleures pratiques pour vos demandes d’interprétation des conférences et d’interprétation en langues des signes et translittération orale](http://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/pratiques-practices-fra.html)
+### [Meilleures pratiques pour vos demandes d’interprétation des conférences et d’interprétation en langues des signes et translittération orale <span class="fas fa-external-link-square-alt" aria-hidden="true"></span><span class="wb-inv">Lien interne</span>](http://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/pratiques-practices-fra.html)
 
 Meilleures pratiques pour vos demandes de conférence et d'interprétation en langue des signes.
 
@@ -304,7 +304,7 @@ de l’École de la fonction publique du Canada
 </div>
 <div class="col-md-6">
 
-### [Planifier des événements inclusifs et accessibles – Guide à l’intention des fonctionnaires fédéraux Lien interne](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-fra.asp)
+### [Planifier des événements inclusifs et accessibles – Guide à l’intention des fonctionnaires fédéraux <span class="fas fa-external-link-square-alt" aria-hidden="true"></span><span class="wb-inv">Lien interne</span>](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-fra.asp)
 
 du Bureau de la condition des personnes handicapée/Emploi et Développement social Canada (EDSC) (Plutôt pour les rencontres en personne)
 
@@ -346,7 +346,7 @@ La mesure d’adaptation la plus courante pour les réunions ou les événements
 </div>
 <div class="col-md-6">
 
-### [Solution de rechange – Mettre en place un service d’interprétation dans le cadre d’une réunion de MS Teams (sharepoint.com)](https://014gc.sharepoint.com/:w:/r/sites/CMC-GCC/_layouts/15/doc2.aspx?sourcedoc=%7B58356E6F-A2D6-499E-BEBC-DD28C2254186%7D&file=Workaround-for-Interpretation-in-Teams_20210226_FR.docx&action=default&mobileredirect=true)
+### [Solution de rechange – Mettre en place un service d’interprétation dans le cadre d’une réunion de MS Teams (sharepoint.com) <span class="fas fa-external-link-square-alt" aria-hidden="true"></span><span class="wb-inv">Lien interne</span>](https://014gc.sharepoint.com/:w:/r/sites/CMC-GCC/_layouts/15/doc2.aspx?sourcedoc=%7B58356E6F-A2D6-499E-BEBC-DD28C2254186%7D&file=Workaround-for-Interpretation-in-Teams_20210226_FR.docx&action=default&mobileredirect=true)
 
 Lien interne : renseignements sur l’interprétation simultanée et les sous-titres fournis par l’équipe Engagement et Communication qui organise l’événement de causeries virtuelles à EDSC.
 
