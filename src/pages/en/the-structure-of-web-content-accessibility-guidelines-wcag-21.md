@@ -4,9 +4,7 @@ layout: layouts/base.njk
 description: Following these guidelines will make content more accessible to a wider range of people with disabilities, including accommodations for blindness and low vision, deafness and hearing loss, limited movement, speech disabilities, photosensitivity, and combinations of these, and some accommodation for learning disabilities and cognitive limitations; but will not address every user need for people with these disabilities.
 toggle: la-structure-des-regles-pour-laccessibilite-des-contenus-web-wcag-21
 subject:
-  - accessibilityInTheGovernmentOfCanada
 tags:
-  - accessibilityStandards
 ---
 
 ## [Principle 1 – Perceivable](https://www.w3.org/TR/WCAG21/#perceivable)
