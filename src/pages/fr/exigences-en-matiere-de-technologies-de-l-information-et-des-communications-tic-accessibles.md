@@ -98,7 +98,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 <ul>
 	<li>REMARQUE: Le fait de limiter la zone et le nombre d&rsquo;&eacute;clairs par seconde peut contribuer &agrave; respecter cette clause.</li>
 </ul>
-<p><strong>4.2.10 Les TIC fournissent des fonctions et/ou une présentation qui simplifient la compréhension, le fonctionnement et l’utilisation. Ceci est essentiel pour les utilisateurs ayant des capacités cognitives, linguistiques ou d’apprentissage limitées et aussi bénéfique à plusieurs autres dans différentes situations.</strong></p>
+<p><strong>4.2.10 Utilisation avec des capacités cognitives, linguistiques ou d’apprentissage limitées:</strong> Les TIC fournissent des fonctions et/ou une présentation qui simplifient la compréhension, le fonctionnement et l’utilisation. Ceci est essentiel pour les utilisateurs ayant des capacités cognitives, linguistiques ou d’apprentissage limitées et aussi bénéfique à plusieurs autres dans différentes situations.</p>
 <ul>
 	<li>REMARQUE 1: Les temporisations ajustables, l’indication et la suggestion d’erreurs, ainsi qu’un ordre de mise au point logique sont des exemples de caractéristiques de conception qui peuvent contribuer au respect de cette clause.</li>
 	<li>REMARQUE 2 : Fournir un audio du texte est un exemple de soutien pour les personnes ayant des capacités de lecture limitées.</li>
