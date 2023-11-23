@@ -1,11 +1,15 @@
 ---
-title: conception universelle pour l’apprentissage (CUA)
+title: Conception universelle pour l’apprentissage (CUA)
 description: La conception universelle pour l’apprentissage (CUA) est un cadre qui évite une « approche unique » du matériel d’apprentissage. Il encourage l’utilisation de multiples façons d’engagement, de représentation, d’action et d’expression peut répondre aux besoins d’un plus grand nombre d’apprenants. Renseignez-vous sur les trois principaux principes, avantages, avantages et conseils de la CUA.
+subject: howTos
+tags: designCourse
+toggle: universal-design-for-learning-udl
+layout: layouts/base.njk
 category:
   - Pratiques exemplaires
   - Rédaction de contenu
   - Conception
-Keywords: 
+Keywords:
   - Conception universelle pour l’apprentissage (CUA)
   - Conception universelle
   - Obstacles
@@ -15,40 +19,13 @@ Keywords:
   - Avantages de la CUA
   - Avantages de la CUA
   - L’inclusion
-layout: layouts/base.njk
 audience:
   - Concepteur d’apprentissage
   - Éducateur / animateur
 ---
 
-## **Brève introduction / Description**
+## Introduction à la conception universelle pour l’apprentissage (CUA)
 
-La conception universelle pour l’apprentissage (CUA) est un cadre qui évite une « approche unique » du matériel d’apprentissage. Il encourage l’utilisation de multiples façons d’engagement, de représentation, d’action et d’expression peut répondre aux besoins d’un plus grand nombre d’apprenants. Renseignez-vous sur les trois principaux principes, avantages, avantages et conseils de la CUA.
-
-## **Catégories**
-
-- Pratiques exemplaires
-- Rédaction de contenu
-- Conception
-
-## **Public cible**
-
-- Concepteur d’apprentissage
-- Éducateur / animateur
-
-## **Mots-clés**
-
-- Conception universelle pour l’apprentissage (CUA)
-- Conception universelle
-- Obstacles
-- L’engagement
-- Représentation
-- L’expression
-- Avantages de la CUA
-- Avantages de la CUA
-- L’inclusion
-
-# Introduction à la conception universelle pour l’apprentissage (CUA)
 Il est important de concevoir des cours et d’adopter un style d’enseignement qui répond aux besoins de personnes ayant des antécédents, des capacités et des styles d’apprentissage différents. Tout le monde apprend différemment, il n’y a donc pas de méthode d’enseignement unique. En utilisant différentes méthodes d’enseignement, nous pouvons répondre aux besoins d’un plus grand nombre d’apprenants. Plutôt que d’utiliser une « approche universelle », fournir de multiples façons d’engagement, de représentation, d’action et d’expression peut répondre aux besoins d’un plus grand nombre d’apprenants.
 
 La conception universelle pour l’apprentissage (CUA) est un cadre qui vient du concept de conception universelle (UD). Vous avez probablement vu des exemples de conception universelle dans votre vie quotidienne, tels que les sous-titrages, les portes automatiques, les rampes et les caractéristiques d’accessibilité des téléphones intelligents. Ces choses aident les personnes handicapées, mais elles peuvent également être utiles pour les personnes qui n’ont pas de handicap.
@@ -60,29 +37,35 @@ En utilisant les principes de la CUA, les enseignants peuvent éduquer efficacem
 ## Il y a trois grands principes de la CUA :
 
 ### 1. Moyens multiples de représentation
+
 Fournir aux apprenants de multiples façons d’accéder à l’information et au contenu. Cela inclut la présentation d’informations dans différents formats tels que le texte, l’audio et la vidéo, et l’offre de différents modes d’interaction tels que les visuels, l’audio et le texte.
 
 ### 2. Moyens d’action et d’expression multiples
+
 Permettre aux apprenants de démontrer ce qu’ils savent de différentes manières. Cela comprend la fourniture d’options permettant aux élèves de s’exprimer par l’écriture, la parole ou d’autres formes de communication.
 
 ### 3. Moyens d’engagement multiples
+
 Fournir aux apprenants de multiples façons de s’engager dans le contenu, les activités et les évaluations. Cela comprend l’offre de choix dans la façon dont ils abordent et interagissent avec le matériel d’apprentissage, ainsi que la création d’opportunités de motivation et d’autoréflexion.
 
-## Les avantages 
+## Les avantages
 
 ### Avantages pour les éducateurs
-(Tels que les facilitateurs, les entraîneurs, les instructeurs de cours et les développeurs)
+
+Tels que les facilitateurs, les entraîneurs, les instructeurs de cours et les développeurs
 
 - L’enseignement inclusif peut améliorer l’apprentissage des élèves.
 - Il réduit la charge de travail liée à l’organisation de logements individuels et spécialisés.
 - Il peut améliorer l’engagement des apprenants, en atteignant un public plus large, ce qui pourrait conduire à de meilleures évaluations de cours.
 
 ### Avantages pour les apprenants
+
 - On consacre moins de temps à trouver des mesures d’adaptation individuelles et plus de temps à se concentrer sur le contenu des cours.
 - Une plus grande inclusion des apprenants de divers horizons et capacités peut conduire à une rétention et à une motivation accrue.
 - Les apprenants ne sont pas considérés comme différents, ce qui peut aider à réduire la stigmatisation et favoriser un environnement d’apprentissage positif.
 
 ## Trucs et astuces pour créer du contenu de cours accessible
+
 Il est important de rendre l’apprentissage accessible à tous, quelles que soient leurs capacités.
 
 Posez-vous quelques questions pour comprendre comment vous pouvez rendre votre cours accessible.
