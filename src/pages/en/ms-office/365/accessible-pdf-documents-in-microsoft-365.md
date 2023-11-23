@@ -54,14 +54,14 @@ fontIcon: fa-file-pdf
 <p>Adobe Acrobat Pro, InDesign, FrameMaker, and LiveCycle Designer will export to tagged PDF, and offer more control over visual styles than Word. (LiveCycle Designer is specifically tailored to creating forms.)</p>
 
 <h3>Other PDF authoring tools</h3>
-<p>Outside of the Adobe family of products as mentioned above, there are several PDF authoring tools out there such as Foxit PhantomPDF and Kofax Power PDF. This document, however, focuses on using Foxit PhantomPDF.</p>
-<p>To create a PDF document using a professional version of Foxit PhantomPDF, you can consult this tutorial about <a href="https://youtu.be/tQYtVLmf2Yo">Creating PDFs</a>.</p>
+<p>Outside of the Adobe family of products as mentioned above, there are several PDF authoring tools out there such as Foxit PDF Editor and Kofax Power PDF. This document, however, focuses on using Foxit PDF Editor.</p>
+<p>To create a PDF document using a professional version of Foxit PDF Editor, you can consult this tutorial about <a href="https://youtu.be/tQYtVLmf2Yo">Creating PDFs</a>.</p>
 
 <h2>Validating and remediating accessibility with PhantomPDF</h2>
-<p>Foxit PhantomPDF is an essential tool for validating and remediating PDF accessibility. The current version as of December 2020 is PhantomPDF Business 10.1. The following information is specific to this version.</p>
+<p>Foxit PDF Editor is an essential tool for validating and remediating PDF accessibility. The current version as of December 2020 is PhantomPDF Business 10.1. The following information is specific to this version.</p>
 
 <h3>Automated validation</h3>
-<p>Foxit PhantomPDF provides a built-in accessibility checker. The checker does not identify all issues, but looks for things such as: missing document title, tags, figures alternative text and other potential issues.</p>
+<p>Foxit PDF Editor provides a built-in accessibility checker. The checker does not identify all issues, but looks for things such as: missing document title, tags, figures alternative text and other potential issues.</p>
 <p>To run the accessibility checker, open your PDF document and <strong>in the Ribbon</strong> select the <strong>Accessibility</strong> tab then select <strong>Full Check</strong>.</p>
 
 <div class="row">
@@ -145,8 +145,8 @@ fontIcon: fa-file-pdf
 	<li><a href="https://www.w3.org/TR/WCAG-TECHS/pdf.html" title="W3C WCAG 2.0 Accessibility Guidelines to Creating PDFs">W3C PDF Techniques for WCAG 2.0</a><br>
 		23 techniques for solving specific WCAG violations, mostly forms and tables (100 pages, 2016)</li>
 	<li><a href="https://webaim.org/techniques/foxit/">WebAIM: Foxit and PDF Accessibility</a><br>
-		An article by WebAIM that outlines how to make accessible PDFs with Foxit PhantomPDF (4 pages, 2019)</li>
+		An article by WebAIM that outlines how to make accessible PDFs with Foxit PDF Editor (4 pages, 2019)</li>
 	<li><a href="http://www.uottawa.ca/respect/sites/www.uottawa.ca.respect/files/fss-fixing-accessibility-errors-in-pdfs.pdf">10 common accessibility errors with solutions</a><br>
 		The product of reviewing over 1500 PDF documents, this guide from the University of Ottawa provides more details including screenshots about solving common issues (24 pages, 2014)</li>
-	<li><a href="https://www.foxitsoftware.com/support/tutorial/">Foxit PhantomPDF Instructional Videos</a></li>
+	<li><a href="https://www.foxitsoftware.com/support/tutorial/">Foxit PDF Editor Instructional Videos</a></li>
 </ul>

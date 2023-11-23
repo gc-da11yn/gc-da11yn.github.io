@@ -32,7 +32,7 @@ toggle: ameliorer-l-accessibilite-des-formulaires
 <p>Fillable pdf forms are widely used because they offer many of the features of HTML forms: form elements like checkboxes, programmatic labels, and even JavaScript validation. If you can’t use an HTML form but need these features, take steps to ensure the PDF is as accessible as the format allows.</p>
 
 <h3>Creating a PDF form</h3>
-<p>While specific tools for creating PDF forms exist (e.g. Adobe LiveCycle), you can use Microsoft Word as a starting point to create a PDF form (See <a href="https://support.microsoft.com/en-us/office/create-accessible-pdfs-064625e0-56ea-4e16-ad71-3aa33bb4b7ed" rel="external">Create accessible PDFs</a>). Do not create the form fields themselves in Word. Rather, just leave blank space to create them in the PDF editor (e.g. Acrobat Pro, Foxit PhantomPDF).</p>
+<p>While specific tools for creating PDF forms exist (e.g. Adobe LiveCycle), you can use Microsoft Word as a starting point to create a PDF form (See <a href="https://support.microsoft.com/en-us/office/create-accessible-pdfs-064625e0-56ea-4e16-ad71-3aa33bb4b7ed" rel="external">Create accessible PDFs</a>). Do not create the form fields themselves in Word. Rather, just leave blank space to create them in the PDF editor (e.g. Acrobat Pro, Foxit PDF Editor).</p>
 <p>First, the Word document must itself be accessible. In addition to following general document accessibility guidelines, avoid common form design errors:</p>
 
 <ol>
@@ -50,7 +50,7 @@ toggle: ameliorer-l-accessibilite-des-formulaires
 </ol>
 
 <p>Once the form template has been created in Word to be as accessible as possible, export it to PDF. Ensure that the options are selected to create Bookmarks from headings and to create tags in the PDF.</p>
-<p>You will then have to create the form fields in the PDF software. Please see this <a href="https://www.adobe.com/accessibility/products/acrobat/creating-accessible-forms.html" rel="external">guide from Adobe on creating accessible forms in Acrobat Pro DC</a>. You must explicitly indicate form field labels as “tooltips”. See also Foxit PhantomPDF <a href="https://www.foxitsoftware.com/support/tutorial/" rel="external">video tutorials</a> and <a href="https://www.foxitsoftware.com/support/usermanuals.php" rel="external">user manuals</a>.</p>
+<p>You will then have to create the form fields in the PDF software. Please see this <a href="https://www.adobe.com/accessibility/products/acrobat/creating-accessible-forms.html" rel="external">guide from Adobe on creating accessible forms in Acrobat Pro DC</a>. You must explicitly indicate form field labels as “tooltips”. See also Foxit PDF Editor <a href="https://www.foxitsoftware.com/support/tutorial/" rel="external">video tutorials</a> and <a href="https://www.foxitsoftware.com/support/usermanuals.php" rel="external">user manuals</a>.</p>
 
 <h2>E-signatures</h2>
 <p>Carefully consider the requirements for a signature. The Treasury Board of Canada Secretariat provides <a href="https://www.canada.ca/en/government/system/digital-government/online-security-privacy/government-canada-guidance-using-electronic-signatures.html" rel="external">guidance on using electronic signatures</a>. Often, asking the user to type their name on a line or insert a signature image is sufficient for a Word or PDF document. The identity verification is accomplished by sending the document as an email attachment. For an HTML form, asking the user to type their name and select a checkbox confirming their identity may also be sufficient.</p>
