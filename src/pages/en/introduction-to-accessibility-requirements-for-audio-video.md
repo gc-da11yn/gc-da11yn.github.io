@@ -43,7 +43,7 @@ Transcripts are the text equivalent of an audio or video file. They make it easi
 
 [Transcript Guidelines](#_Transcript_Guidelines_(how)
 
-[Transcript Checklist](./transcript-checklist.md)
+[Transcript Checklist]({{rootPath}}en/transcript-checklist)
 
 ## Captioning summary
 Videos with audio require synchronized captioning (where the text aligns with the spoken words in the audio and when important actions are presented on the screen).
@@ -59,9 +59,9 @@ Open captions are recommended at the top of American Sign Language (ASL) and Lan
 
 Design teams or a contractor can provide the caption text.
 
-[Captioning Guidelines](./captioning-guidelines.md)
+[Captioning Guidelines]({{rootPath}}en/captioning-guidelines)
 
-[Captioning Checklist](./captioning-checklist.md)
+[Captioning Checklist]({{rootPath}}en/captioning-checklist)
 
 ## Audio description summary
 Audio description allows any user with a visual disability or cognitive disability to receive a very detailed and descriptive experience of what is happening on the screen. During existing pauses in dialogue, audio description provides information about actions, characters, scene changes, and on-screen text that are important and are not described or spoken in the main soundtrack.
@@ -72,11 +72,11 @@ This can be done using:
 - Adding a separate audio track that describes the visual content. (WCAG 1.2.5 level AA).
   - Note: If audio description additional audio track is being used for a video, then these descriptions need to be included in the transcript.
 
-[Audio Description Guidelines](/en/audio-description-guidelines/)
+[Audio Description Guidelines]({{rootPath}}en/audio-description-guidelines)
 
-[Audio Description Checklist](/en/audio-description-checklist/)
+Audio Description Checklist **(Link to come)**
 
-## keyboard access
+## Keyboard Access
 All video controls must be accessible and navigable via the keyboard. It is the responsibility of the developer to ensure that video players are accessible such as:
 
 - Video player can be operated with a keyboard.
@@ -86,6 +86,3 @@ All video controls must be accessible and navigable via the keyboard. It is the 
 - Proper button labels (alt text) are present.
 
 Keyboard access is tested by the developer, design teams or a contractor.
-
-[Keyboard Access Guidelines](#_Time-based_Media_Player)
-

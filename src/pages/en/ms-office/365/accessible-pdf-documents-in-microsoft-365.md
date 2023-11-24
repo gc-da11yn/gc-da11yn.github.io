@@ -115,7 +115,7 @@ fontIcon: fa-file-pdf
 
 <ul>
 	<li><strong>Instructions</strong>: Put instructions at the beginning of the form, rather than in between form fields.</li>
-	<li><strong>Labels</strong>: In PDF documents, there is no way to specify what label applies to what form field, so each form field must also have its label entered into the “Tooltip” field. Radio buttons and check boxes require additional steps; see <a href="https://www.uottawa.ca/respect/accessibility-hub/training/pdf-accessibility-for-pc">University of Ottawa’s PDF accessibility guide</a>, specifically the section “Common PDF accessibility errors with solutions” &gt; “Form fields properties”.</li>
+	<li><strong>Labels</strong>: In PDF documents, there is no way to specify what label applies to what form field, so each form field must also have its label entered into the “Tooltip” field. Radio buttons and check boxes require additional steps.</li>
 	<li><strong>Input format: </strong>Ensure that the correct format is suggested, if one is required.<br>
 		Ex. Date of birth (YYYY-MM-DD). As with all labels, this should be repeated in the tooltip.</li>
 	<li><strong>Required fields: </strong>Indicate which fields are required. Do not rely solely on colour. If an asterisk (*) is used to indicate required fields, include the following text at the start of the form (e.g. * indicates a required field).</li>
@@ -146,7 +146,5 @@ fontIcon: fa-file-pdf
 		23 techniques for solving specific WCAG violations, mostly forms and tables (100 pages, 2016)</li>
 	<li><a href="https://webaim.org/techniques/foxit/">WebAIM: Foxit and PDF Accessibility</a><br>
 		An article by WebAIM that outlines how to make accessible PDFs with Foxit PDF Editor (4 pages, 2019)</li>
-	<li><a href="http://www.uottawa.ca/respect/sites/www.uottawa.ca.respect/files/fss-fixing-accessibility-errors-in-pdfs.pdf">10 common accessibility errors with solutions</a><br>
-		The product of reviewing over 1500 PDF documents, this guide from the University of Ottawa provides more details including screenshots about solving common issues (24 pages, 2014)</li>
 	<li><a href="https://www.foxitsoftware.com/support/tutorial/">Foxit PDF Editor Instructional Videos</a></li>
 </ul>

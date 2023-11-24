@@ -1,6 +1,7 @@
 ---
 title: Directives pour la transcription
-description: Directives sur la manière d’incorporer divers aspects de l’audio et de la vidéo dans une transcription. 
+description: Directives sur la manière d’incorporer divers aspects de l’audio et de la vidéo dans une transcription.
+toggle: transcript-guidelines
 subject:
   - howTos
 tags:
@@ -30,7 +31,7 @@ Utilisez les crochets [ ] pour :
 
 - Informations pertinentes du discours
 
-**Jean** [crie] **:** Je déteste cette tasse! 
+**Jean** [crie] **:** Je déteste cette tasse!
 
 - Données audio non vocales pertinentes (son, action et description)
 
@@ -48,7 +49,7 @@ Pour le texte qui est montré dans la vidéo, il doit être inclus dans la trans
 - Le texte d’une liste dans la vidéo doit être stylisé comme une liste dans la transcription, sauf s’il est omis pour des raisons de redondance.
 
 ### **En-têtes**
-Utiliser des titres pour rendre la transcription plus claire et plus facile à utiliser. Si l’on crée une transcription dans un document Word, il faut veiller à ce que les en-têtes soient logiques. La personne qui code les en-têtes appliquera les bons en-têtes en fonction de la mise en page du document et de la structure de la page Web. 
+Utiliser des titres pour rendre la transcription plus claire et plus facile à utiliser. Si l’on crée une transcription dans un document Word, il faut veiller à ce que les en-têtes soient logiques. La personne qui code les en-têtes appliquera les bons en-têtes en fonction de la mise en page du document et de la structure de la page Web.
 ![Capture d'écran du panneau Styles dans Word avec les rubriques 2, 3, 4, 5 et 6 en surbrillance.](Aspose.Words.c1a42c2b-db06-4c7e-9101-8393e925b377.001.png)
 
 ### **Liens**

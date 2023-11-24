@@ -1,6 +1,7 @@
 ---
 title: Transcript Guidelines
 description: Guidelines on how to incorporate various aspects of audio and video into a transcript.
+toggle: directives-pour-la-transcription
 subject:
   - howTos
 tags:
@@ -34,7 +35,7 @@ Use brackets [ ] for:
 
 - Relevant information about the speech
 
-**Joe** [shouted]**:** I hate this mug! 
+**Joe** [shouted]**:** I hate this mug!
 
 - Relevant non-speech audio (sound, action and description)
 
@@ -53,7 +54,7 @@ For text that is shown in the video, it needs to be included in the transcript.
 - Text in a list in the video needs to be styled as a list in the transcript unless it is omitted for redundancy reasons.
 
 ### **Headings**
-Use headings to make the transcript clearer and more usable. If you create your transcript in a Word document, then keep the headings logical. The person who codes the headings will apply the correct headings based on the layout of the document and the structure of the web page. 
+Use headings to make the transcript clearer and more usable. If you create your transcript in a Word document, then keep the headings logical. The person who codes the headings will apply the correct headings based on the layout of the document and the structure of the web page.
 ![Screenshot of the Styles panel in Word with Headings 2, 3, 4, 5 and 6 highlighted.](Aspose.Words.27eba680-99c7-4305-9b4d-67dbcf0feb2b.001.png)
 
 ### **Links**

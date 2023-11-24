@@ -3,7 +3,7 @@ title: CART Services and Sign Language Interpreters (SLI)
 layout: layouts/base.njk
 description: The most common accommodations for meetings or events are computer-assisted real-time transcription (CART) and interpretation services.
 internalLinks: true
-toggle: aservices-cart-et-interpretes-en-langue-des-signes-sli
+toggle: services-cart-et-interpretes-en-langue-des-signes-sli
 subject:
   - howTos
 tags:
@@ -39,8 +39,6 @@ Important to consider that people who are culturally Deaf, may prefer to have si
 - CART can be offered from the following service providers. Keep in mind there are costs involved with these service providers;
 
 - [CART from the Canadian Hearing Services](https://www.chs.ca/service/captioning-services) – staff at CHS will be able to provide you with information on the logistics in providing CART for audio conferences.
-- CART from [Neesons Court Reporting](https://neesonsreporting.com/neesons-cart-captioning-services/).
-- CART from [National Captioning Canada](https://natcapcan.ca/about-us/).
 - AB Captioning and CART Inc. (contact Sandra German by email at [sandragerman@abccaptioning.com](mailto:sandragerman@abccaptioning.com). They can also be booked by phone at 780-445-4406 and online at [AB Captioning and CART Inc](https://abcaptioning.com/book-a-time-now/).
 - CART from [Sign Language Interpreting Associates Ottawa Inc. (SLIAO)](mailto:https://sliao.ca/services/) (while not necessarily a primary CART provider, they can provide it as part of a larger sign-language service contract).
 
