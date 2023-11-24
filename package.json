@@ -6,6 +6,7 @@
   "scripts": {
     "newFolder": "node scripts/create-new-folder.js",
     "cleanHTML": "node scripts/clean-html.js",
+    "htmlValidator": "node scripts/html-validator.js",
     "replaceLink": "node scripts/replace-links.js",
     "markdown-to-html": "node scripts/markdown-to-html.js",
     "link-check": "node scripts/link-check.js",
@@ -20,7 +21,7 @@
     "start-dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-start --parallel watch:*",
     "start-prod": "cross-env ELEVENTY_ENV=prod npm-run-all sass-start --parallel watch:*",
     "dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
-    "build": "npm-run-all sass-build eleventy && npm run cleanHTML markdown-to-html && npm run replaceLink"
+    "build": "npm-run-all sass-build eleventy && npm run cleanHTML markdown-to-html && npm run replaceLink && npm run htmlValidator"
   },
   "repository": {
     "type": "git",

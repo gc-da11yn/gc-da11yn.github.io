@@ -3,12 +3,15 @@ const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
+const { validate } = require("./scripts/html-validator");
 
 module.exports = function(eleventyConfig) {
 
   let markdownItOptions = {
     html: true, // you can include HTML tags
   };
+
+  eleventyConfig.addLinter("html-validator", htmlValidator.validate);
 
   eleventyConfig.setLibrary(
     "md",
