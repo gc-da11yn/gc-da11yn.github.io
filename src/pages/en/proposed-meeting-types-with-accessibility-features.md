@@ -2,7 +2,7 @@
 title: Proposed Meeting Types with Accessibility Features
 layout: layouts/base.njk
 description: Here are our recommendations for choosing virtual meeting platforms based on the type of meeting or event, number of people, and content shared.
-toggle: types-de-reunion-proposes-avec-fonctionnalites-daccessibilite
+toggle: types-de-reunion-proposes-avec-fonctionnalites-d-accessibilite
 subject:
   - resourcesAndTools
 tags:

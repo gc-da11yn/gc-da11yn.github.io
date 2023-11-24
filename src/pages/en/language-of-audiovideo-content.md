@@ -1,6 +1,7 @@
 ---
 title: Language of Audio/Video Content
 description: When to use sign language interpretation and bilingual videos, tools and samples of accessible videos. 
+toggle: langue-du-contenu-audio-video
 subject:
   - howTos
 tags:
@@ -10,21 +11,20 @@ audience:
   - Everyone
 ---
 
-# **Language of Audio/Video Content**
 The first rule is to avoid bilingual videos.
 
 ## **Sign language interpretation**
 Closed Captions and transcript are enough for a unilingual video with audio to meet WCAG 2.1, but to reach everyone you need to add sign language interpretation (WCAG AAA).
 
 ## **Bilingual videos**
-Bilingual video is a subject to the Official Language Act and needs to include the audio of the speaker's language, interpreted in official languages. 
+Bilingual video is a subject to the Official Language Act and needs to include the audio of the speaker's language, interpreted in official languages.
 
 Closed captions have to be all in the spoken language, and they have to be synchronized with the speech. English speaker - English captions, and vice versa for French.
 
 - Captions are required on videos and need to be synchronized with the audio. English speaker should have English captions and French speaker should have French captions. Captions are used by people who are Deaf, have cognitive difficulties or process written information better than audio and others who cannot hear the audio, for example, in loud (busses) or quiet environments (library), etc. If there are no captions these users will be left out.
 
 ### **Sample accessible video**
-A good example of an accessible video, from the ESDC, Treasury Board of Canada’s live broadcast of the launch of Canada’s first public service accessibility strategy. ASL, LSQ, closed captioning and transcript included. Note that the event was bilingual, but in the end, we changed one bilingual video into two videos: one in French and one in English. 
+A good example of an accessible video, from the ESDC, Treasury Board of Canada’s live broadcast of the launch of Canada’s first public service accessibility strategy. ASL, LSQ, closed captioning and transcript included. Note that the event was bilingual, but in the end, we changed one bilingual video into two videos: one in French and one in English.
 
 Bilingual video, French version: [La première Stratégie sur l’accessibilité de la fonction publique du Canada](https://www.youtube.com/watch?v=acWNxPWQnrE)
 

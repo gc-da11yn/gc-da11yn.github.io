@@ -109,7 +109,7 @@ fontIcon: fa-file-pdf
 <p>La création d’un formulaire PDF accessible est délicate, car les champs de formulaire créés dans d’autres programmes ne sont pas directement exportés dans le fichier PDF. Consultez le <a href="https://helpx.adobe.com/fr/acrobat/11/using/creating-accessible-pdfs.html#workflow_for_creating_accessible_pdfs">Guide sur la création de formulaires accessibles d’Adobe</a>. Quelques conseils généraux&nbsp;:</p>
 <ul>
 	<li><strong>Instructions</strong>&nbsp;: Placez les instructions au début du formulaire, plutôt qu’entre les champs du formulaire.</li>
-	<li><strong>Balises</strong>&nbsp;: Dans les documents PDF, il n’existe aucun moyen de savoir quelle balise s’applique à quel champ de formulaire. Par conséquent, la balise de chaque champ de formulaire doit également être indiquée dans le champ «&#8201;Infobulle&#8201;». Les boutons radio et les cases à cocher exigent des étapes supplémentaires; consultez le <a href="https://www.uottawa.ca/respect/carrefour-accessibilite/formations/accessibilite-pdf-pc">Guide d’accessibilité PDF de l’Université d’Ottawa</a>, particulièrement la section «&#8201;Erreurs communes d’accessibilité PDF avec solutions&#8201;» &gt; «&#8201;Propriétés des champs de formulaire&#8201;».</li>
+	<li><strong>Balises</strong>&nbsp;: Dans les documents PDF, il n’existe aucun moyen de savoir quelle balise s’applique à quel champ de formulaire. Par conséquent, la balise de chaque champ de formulaire doit également être indiquée dans le champ «&#8201;Infobulle&#8201;». Les boutons radio et les cases à cocher exigent des étapes supplémentaires.</li>
 	<li><strong>Format d’entrée des données&nbsp;:</strong> Veillez à ce que le bon format soit suggéré, le cas échéant.<br>
 		P. ex., date de naissance (AAAA-MM-JJ). Comme pour toutes les balises, le format doit être répété dans l’infobulle.</li>
 	<li><strong>Champs obligatoires&nbsp;:</strong> Déterminez les champs obligatoires. Ne comptez pas uniquement sur la couleur. Si un astérisque (*) est utilisé pour indiquer les champs obligatoires, indiquez le texte suivant au début du formulaire (par exemple, * indique un champ obligatoire).</li>
@@ -141,7 +141,5 @@ fontIcon: fa-file-pdf
 		Vingt-trois techniques permettant de résoudre des infractions particulières au WCAG, principalement dans le cadre de formulaires et de tableaux (100 pages, 2016).</li>
 	<li><a href="https://webaim.org/techniques/foxit/">WebAIM&nbsp;: Foxit and PDF Accessibility</a> (en anglais seulement)<br>
 		Un guide pour la création de PDF accessibles avec Foxit PDF Editor par WebAIM (4 pages, 2019).</li>
-	<li><a href="http://www.uottawa.ca/respect/sites/www.uottawa.ca.respect/files/fss-fixing-accessibility-errors-in-pdfs.pdf">10 erreurs fréquentes en matière d’accessibilité avec les solutions</a> (en anglais seulement)<br>
-		Le produit de la révision de plus de 1&#8201;500 documents PDF, ce guide de U Ottawa fournit des détails, y compris des captures d’écran concernant la résolution de problèmes fréquents (24 pages, 2014).</li>
 	<li><a href="https://www.foxitsoftware.com/fr/support/tutorial/">Tutoriels vidéo pour Foxit PDF Editor</a>
 </ul>

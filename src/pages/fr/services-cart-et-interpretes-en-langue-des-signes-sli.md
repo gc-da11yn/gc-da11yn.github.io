@@ -39,10 +39,7 @@ Il est important de prévoir que les personnes culturellement sourdes puissent p
 - La traduction CART est disponible auprès des fournisseurs de service suivants. Gardez à l’esprit que des frais sont associés à ces services.
 
 - [Service CART des Services canadiens de l’ouïe](https://www.chs.ca/fr/service/services-de-sous-titrage) – le personnel des SCO pourra vous fournir des renseignements logistiques relatifs à la prestation de services CART pour des audioconférences.
-- Services CART de [Neesons Court Reporting](https://neesonsreporting.com/neesons-cart-captioning-services/).
-- Services CART de [Neesons Court Reporting](https://neesonsreporting.com/neesons-cart-captioning-services/).
-- Services CART de [National Captioning Canada](https://natcapcan.ca/fr/about-us/).
-- AB Captioning and CART Inc. (Communiquez avec Sandra German par courriel au [sandragerman@abccaptioning.com](mailto:sandragerman@abccaptioning.com). Ces services peuvent également être réservés par téléphone au 780-445-4406 et en ligne [AB Captioning and CART Inc](https://abcaptioning.com/book-a-time-now/).
+- AB Captioning and CART Inc. (Communiquez avec Sandra German par courriel au [sandragerman@abccaptioning.com](mailto:sandragerman@abccaptioning.com). Ces services peuvent également être réservés par téléphone au 780-445-4406 et en ligne [AB Captioning and CART Inc](https://abcaptioning.com).
 - Services CART de[Sign Language Interpreting Associates Ottawa Inc. (SLIAO)](mailto:https://sliao.ca/fr/services/)(même s’il ne s’agit pas nécessairement d’un fournisseur principalement de services CART, ils peuvent les fournir dans le cadre d’un contrat de service de langage des signes plus vaste).
 
 - Les tarifs varient, mais attendez-vous à payer entre 100 $ et 200 $ l’heure, par sténographe ou sous-titreur.
@@ -50,9 +47,7 @@ Il est important de prévoir que les personnes culturellement sourdes puissent p
 
 - Il conviendra de fournir des liens vers l’activité en ligne et les flux simultanés en anglais et en français.
 - Le fournisseur de services CART fournira les liens vers les sous-titres CART à transmettre aux participants.
-- Services CART de [Neesons Court Reporting](https://neesonsreporting.com/neesons-cart-captioning-services/).
-- Services CART de [National Captioning Canada](https://natcapcan.ca/fr/about-us/).
-- AB Captioning and CART Inc. (Communiquez avec Sandra German par courriel au [sandragerman@abccaptioning.com](mailto:sandragerman@abccaptioning.com). Ces services peuvent également être réservés par téléphone au 780-445-4406 et en ligne [AB Captioning and CART Inc](https://abcaptioning.com/book-a-time-now/).
+- AB Captioning and CART Inc. (Communiquez avec Sandra German par courriel au [sandragerman@abccaptioning.com](mailto:sandragerman@abccaptioning.com). Ces services peuvent également être réservés par téléphone au 780-445-4406 et en ligne [AB Captioning and CART Inc](https://abcaptioning.com).
 - Services CART de [Sign Language Interpreting Associates Ottawa Inc. (SLIAO)](mailto:https://sliao.ca/fr/services/)(même s’il ne s’agit pas nécessairement d’un fournisseur principalement de services CART, ils peuvent les fournir dans le cadre d’un contrat de service de langage des signes plus vaste).
 
 - Il est important de discuter de la possibilité d’obtenir les transcriptions du fournisseur de services CART. Les transcriptions doivent être demandées avant l’activité.

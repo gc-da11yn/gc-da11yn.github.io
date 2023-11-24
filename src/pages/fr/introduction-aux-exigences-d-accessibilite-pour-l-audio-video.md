@@ -1,6 +1,7 @@
 ---
 title: Introduction aux exigences d’accessibilité pour l’audio-vidéo
 description: Ce document est une excellente introduction sur la manière de rendre la vidéo accessible à un public de conseillers en communication se situant entre l'auteur Web et l'expert en contenu.
+toggle:
 subject:
   - howTos
 tags:
@@ -52,9 +53,9 @@ Il est recommandé de placer des sous-titres en haut des vidéos ASL et LSQ.
 
 Les équipes de conception ou un entrepreneur peuvent fournir le texte de la légende.
 
-[Directives pour le sous-titrage](./directives-pour-le-sous-titrage.md)
+[Directives pour le sous-titrage]({{rootPath}}fr/directives-pour-le-sous-titrage)
 
-[Liste de contrôle pour le sous-titrage](./liste-de-controle-pour-le-sous-titrage.md)
+[Liste de contrôle pour le sous-titrage]({{rootPath}}fr/liste-de-controle-pour-le-sous-titrage)
 
 ## **Sommaire de la description sonore**
 La description sonore permet à tout utilisateur souffrant d’un handicap visuel ou cognitif de recevoir une expérience très détaillée et descriptive de ce qui se passe à l’écran. Pendant les pauses existantes dans le dialogue, la description sonore fournit des informations sur les actions, les personnages, les changements de scène et le texte à l’écran qui sont importants et qui ne sont pas décrits ou parlés dans la bande sonore principale.
@@ -65,9 +66,9 @@ Cela peut être fait en utilisant :
 - Ajout d’une piste audio distincte qui décrit le contenu visuel. (WCAG 1.2.5 niveau AA);
 - Remarque : Si une description sonore supplémentaire est utilisée pour une vidéo, elle doit être incluse dans la transcription.
 
-[Directives pour la description sonore](./directives-pour-la-description-sonore.md)
+[Directives pour la description sonore]({{rootPath}}fr/directives-pour-la-description-sonore)
 
-[Liste de contrôle pour la description sonore](#_Audio_Description_Checklist)
+Liste de contrôle pour la description sonore - Lien à venir
 
 ## **Accès au clavier**
 Toutes les commandes vidéo doivent être accessibles, et on doit pouvoir y naviguer à l’aide du clavier. Il est de la responsabilité de l’équipe de microédition de s’assurer que les lecteurs vidéo sont accessibles, notamment :
@@ -79,8 +80,3 @@ Toutes les commandes vidéo doivent être accessibles, et on doit pouvoir y navi
 - Les étiquettes des boutons (texte alternatif) sont présentes;
 
 L'accès au clavier est testé par le développeur, les équipes de conception ou un entrepreneur.
-
-[Directives d’accès au clavier](#_Time-based_Media_Player)
-
-[Liste de contrôle d’accès au clavier](#_Time-based_Media_Player_1)
-

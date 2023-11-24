@@ -16,7 +16,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 		<div class="well gc-dwnld">
 			<div class="row">
 				<div class="col-xs-8">
-					<p class="gc-dwnld-txt"> <a href="../../_docs/Annex X - ICT Accessibility Requirements.docx" class="gc-dwnld-info"><i class="fas fa-file-word" aria-hidden="true"></i>ICT Accessibility Requirements.docx (610 <abbr title="KiloByte">KB</abbr>)</a> </p>
+					<p class="gc-dwnld-txt"> <a href="{{ rootPath }}docs/Annex X - ICT Accessibility Requirements.docx" class="gc-dwnld-info"><i class="fas fa-file-word" aria-hidden="true"></i>ICT Accessibility Requirements.docx (610 <abbr title="KiloByte">KB</abbr>)</a> </p>
 				</div>
 			</div>
 		</div>

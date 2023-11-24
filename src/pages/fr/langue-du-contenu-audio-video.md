@@ -1,6 +1,7 @@
 ---
 title: Langue du contenu audio/vidéo
 description: Quand utiliser l'interprétation en langage des signes et les vidéos bilingues, outils et exemples de vidéos accessibles.
+toggle: language-of-audiovideo-content
 subject:
   - howTos
 tags:
@@ -11,7 +12,6 @@ audience:
 ---
 
 
-# **Langue du contenu audio/vidéo**
 La première règle est d'éviter les vidéos bilingues.
 
 ## **Interprétation en langage des signes**

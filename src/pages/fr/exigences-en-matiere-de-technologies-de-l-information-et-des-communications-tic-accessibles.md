@@ -37,9 +37,9 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 <div>
 	<ul>
 		<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a> v3.2.1 <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC</a>(en anglais seulement)</li>
-		<li><a href="https://www.w3.org/Translations/WCAG21-fr-fr/">Règles pour l’accessibilité des contenus Web (WCAG) 2.1 </a>(Recommandations de W3C du 5 juin 2018)</li>
+		<li><a href="https://www.w3.org/Translations/WCAG21-fr/">Règles pour l’accessibilité des contenus Web (WCAG) 2.1 </a>(Recommandations de W3C du 5 juin 2018)</li>
 		<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/">Comprendre les WCAG 2.1</a> (en anglais seulement) </li>
-		<li><a href="http://www.w3.org/WAI/WCAG21/quickref/#top">Comment se conformer aux WCAG 2.1 (Référence rapide)</a> (en anglais seulement)</li>
+		<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#top">Comment se conformer aux WCAG 2.1 (Référence rapide)</a> (en anglais seulement)</li>
 		<li><a href="https://www.itic.org/policy/accessibility/vpat#:~:text=The%20Accessibility%20Conformance%20Report%20%28ACR%29%20based%20on%20the,technology%20%28ICT%29%20products%20and%20services%20with%20accessibility%20features.">ITI VPAT ® EN 301 549 (EU) </a>(en anglais seulement)</li>
 	</ul>
 </div>
@@ -729,7 +729,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>5.1.3.6 Sortie vocale pour les contenus non textuels</strong></p>
-				<p>Lorsque les TIC présentent un contenu non textuel, la solution de rechange pour le contenu non textuel doit être présentée aux utilisateurs par le biais d’une sortie vocale, sauf si le contenu non textuel est purement décoratif ou n’est utilisé que pour le formatage visuel. La sortie vocale pour les contenus non textuels doit suivre les indications relatives à « l’équivalent textuel » décrit dans les <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
+				<p>Lorsque les TIC présentent un contenu non textuel, la solution de rechange pour le contenu non textuel doit être présentée aux utilisateurs par le biais d’une sortie vocale, sauf si le contenu non textuel est purement décoratif ou n’est utilisé que pour le formatage visuel. La sortie vocale pour les contenus non textuels doit suivre les indications relatives à « l’équivalent textuel » décrit dans les <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.5.1.3.6 Sortie vocale pour les contenus non textuels</strong></p>
@@ -741,7 +741,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. Vérifier que la sortie vocale est fournie comme solution de rechange au contenu non textuel.</p>
 				<p>2. Vérifier que le contenu non textuel n’est pas seulement présent à titre décoratif.</p>
 				<p>3. Vérifier que le contenu non textuel n’est pas utilisé uniquement pour le formatage visuel.</p>
-				<p>4. Vérifier que la sortie vocale est conforme aux indications relatives à l’” équivalent textuel » décrit dans les <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
+				<p>4. Vérifier que la sortie vocale est conforme aux indications relatives à l’” équivalent textuel » décrit dans les <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: Les énoncés testables n<sup>os</sup>&nbsp;1, 2, 3 et 4 sont vrais; ou le n<sup>o</sup>&nbsp;1 et le n<sup>o</sup>&nbsp;2 sont faux; ou le n<sup>o</sup>&nbsp;1 et le n<sup>o</sup>&nbsp;3 sont faux.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai et le n<sup>o</sup>&nbsp;2&nbsp;faux; ou le 1 est vrai et le 3 est faux; ou les n<sup>os</sup>&nbsp;1, 2 et 3 sont vrais et le n<sup>o</sup>&nbsp;4 est faux.</p>
@@ -3020,21 +3020,21 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.1.1 Contenu non textuel</strong></p>
-				<p>Lorsque la TIC est une page Web, elle doit satisfaire au critère de succès <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
+				<p>Lorsque la TIC est une page Web, elle doit satisfaire au critère de succès <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Comprendre le critère de succès Contenu non textuel (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Comment satisfaire au critère de succès Contenu non textuel (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Comprendre le critère de succès Contenu non textuel (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Comment satisfaire au critère de succès Contenu non textuel (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Tout <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-non-text-content">contenu non textuel</a> présenté à l’utilisateur comme <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-text-alternative">équivalent textuel</a> à l’exception des situations énumérées ci-dessous.</p>
+				<p>Tout <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-non-text-content">contenu non textuel</a> présenté à l’utilisateur comme <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text-alternative">équivalent textuel</a> à l’exception des situations énumérées ci-dessous.</p>
 				<ul>
-					<li>Composant d’interface ou de saisie: si le contenu non textuel est un composant d’interface ou s’il permet la saisie d’informations par l’utilisateur, c’est qu’il a un <a href="http://www.w3.org/Translations/WCAG21-fr-fr/#dfn-name">nom</a> qui décrit sa fonction. (Se référer au <a href="http://www.w3.org/Translations/WCAG21-fr-fr/#name-role-value">critère de succès 4.1.2</a> pour des exigences supplémentaires à propos des composants d’interface utilisateur ou des contenus qui permettent la saisie d’informations par l’utilisateur.)</li>
-					<li> Média temporel: Si le contenu non textuel est un média temporel, fournissez au moins une description de ce contenu. (Reportez-vous à la <a href="http://www.w3.org/Translations/WCAG21-fr/#time-based-media">Ligne directrice 1.2</a> pour obtenir d’autres exigences relatives aux médias.)</li>
+					<li>Composant d’interface ou de saisie: si le contenu non textuel est un composant d’interface ou s’il permet la saisie d’informations par l’utilisateur, c’est qu’il a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> qui décrit sa fonction. (Se référer au <a href="https://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2</a> pour des exigences supplémentaires à propos des composants d’interface utilisateur ou des contenus qui permettent la saisie d’informations par l’utilisateur.)</li>
+					<li> Média temporel: Si le contenu non textuel est un média temporel, fournissez au moins une description de ce contenu. (Reportez-vous à la <a href="https://www.w3.org/Translations/WCAG21-fr/#time-based-media">Ligne directrice 1.2</a> pour obtenir d’autres exigences relatives aux médias.)</li>
 				</ul>
 				<ul>
-					<li>Test : si le contenu non textuel est un test ou un exercice qui serait invalide s’il était présenté en <a href="http://www.w3.org/Translations/WCAG21-fr-fr/#dfn-text">texte,</a>, fournissez au moins une description de ce contenu.</li>
-					<li>Sensation: Si le contenu non textuel est principalement conçu pour créer une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-specific-sensory-experience">expérience sensorielle précise</a>, fournissez au moins une description de ce contenu.</li>
-					<li><a href="http://www.w3.org/Translations/WCAG21-fr-fr/#dfn-captcha">CAPTCHA</a>: Si du contenu non textuel est utilisé pour confirmer l’accès par une personne plutôt que par un ordinateur, fournissez du texte qui décrit la fonction du contenu et offrez d’autres formes CAPTCHA au moyen de formes de reconnaissance qui utilisent d’autres sens pour tenir compte de divers handicaps.</li>
-					<li>Décoration, format, invisibilité: Si le contenu non textuel est utilisé uniquement aux fins de <a href="http://www.w3.org/Translations/WCAG21-fr-fr/#dfn-pure-decoration">décoration</a> et de formatage, ou n’est pas affiché à l’utilisateur, il peut être mis en œuvre d’une manière qui peut être ignorée par les <a href="http://www.w3.org/Translations/WCAG21-fr-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </li>
+					<li>Test : si le contenu non textuel est un test ou un exercice qui serait invalide s’il était présenté en <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte,</a>, fournissez au moins une description de ce contenu.</li>
+					<li>Sensation: Si le contenu non textuel est principalement conçu pour créer une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-specific-sensory-experience">expérience sensorielle précise</a>, fournissez au moins une description de ce contenu.</li>
+					<li><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captcha">CAPTCHA</a>: Si du contenu non textuel est utilisé pour confirmer l’accès par une personne plutôt que par un ordinateur, fournissez du texte qui décrit la fonction du contenu et offrez d’autres formes CAPTCHA au moyen de formes de reconnaissance qui utilisent d’autres sens pour tenir compte de divers handicaps.</li>
+					<li>Décoration, format, invisibilité: Si le contenu non textuel est utilisé uniquement aux fins de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">décoration</a> et de formatage, ou n’est pas affiché à l’utilisateur, il peut être mis en œuvre d’une manière qui peut être ignorée par les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </li>
 				</ul>
 			</td>
 			<td>
@@ -3044,7 +3044,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3064,14 +3064,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés)</strong></p>
-				<p>Lorsque les TIC sont une page Web, elles doivent satisfaire au critère de succès 1.2.1 <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">Contenu audio ou vidéo seulement (préenregistré) des WCAG 2.1</a>.</p>
+				<p>Lorsque les TIC sont une page Web, elles doivent satisfaire au critère de succès 1.2.1 <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">Contenu audio ou vidéo seulement (préenregistré) des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html">Comprendre le critère de succès seulement audio ou vidéo (pré-enregistré)(en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded">Comment satisfaire au critère de succès Contenu seulement audio ou vidéo (préenregistré)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html">Comprendre le critère de succès seulement audio ou vidéo (pré-enregistré)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded">Comment satisfaire au critère de succès Contenu seulement audio ou vidéo (préenregistré)(en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Pour des médias <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistrés </a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio-only">seulement audio</a> et pré-enregistrés <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-video-only">seulement vidéo</a>, sauf si l’audio ou la vidéo sont un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’ils sont clairement identifiés comme tels:&nbsp;</p>
+				<p>Pour des médias <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistrés </a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio-only">seulement audio</a> et pré-enregistrés <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-video-only">seulement vidéo</a>, sauf si l’audio ou la vidéo sont un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’ils sont clairement identifiés comme tels:&nbsp;</p>
 				<ul>
-					<li>Contenu pré-enregistré seulement audio: fournir une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a>, présentant une information équivalente au contenu seulement audio.</li>
+					<li>Contenu pré-enregistré seulement audio: fournir une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a>, présentant une information équivalente au contenu seulement audio.</li>
 					<li>Contenu pré-enregistré seulement vidéo :fournir, soit une version de remplacement pour un média temporel, soit une piste audio (présentant une information équivalente) pour un contenu pré-enregistré seulement vidéo.</li>
 				</ul>
 			</td>
@@ -3082,7 +3082,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">critère de succès 1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) des WCAG 2.1</a><strong>.</strong></p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">critère de succès 1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) des WCAG 2.1</a><strong>.</strong></p>
 				<p>Résultat.</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3092,10 +3092,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.2.2 Sous-titres (pré-enregistrés)</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés)</a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés)</a>.</p>
 				<p><strong>Critères de succès 1.2.2 Sous-titres (pré-enregistrés) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html">Comprendre le critère Sous-titres (pré-enregistrés)(en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">Comment satisfaire au critère Sous-titres (pré-enregistrés)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html">Comprendre le critère Sous-titres (pré-enregistrés)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">Comment satisfaire au critère Sous-titres (pré-enregistrés)(en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 				<p>Fournir des <a href="https://www.w3.org/Translations/WCAG20-fr/#captionsdef">sous-titres</a> pour tout contenu <a href="https://www.w3.org/Translations/WCAG20-fr/#audiodef">audio </a><a href="https://www.w3.org/Translations/WCAG20-fr/#prerecordeddef">pré-enregistré</a> dans un <a href="https://www.w3.org/Translations/WCAG20-fr/#synchronizedmediadef">média synchronisé</a>, excepté lorsque le média est un <a href="https://www.w3.org/Translations/WCAG20-fr/#multimedia-alt-textdef">média de remplacement pour un texte</a> et qu'il est clairement identifié comme tel.</p>
 			</td>
@@ -3116,12 +3116,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré)</strong></p>
-				<p>Lorsque la TIC est une page Web, elle doit satisfaire au&nbsp;<a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</a></p>
+				<p>Lorsque la TIC est une page Web, elle doit satisfaire au&nbsp;<a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</a></p>
 				<p><strong>Critère de succès 1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html">Comprendre audio-description ou version de remplacement pour un média temporel (préenregistré)(en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">Comment satisfaire au critère Audio-description ou version de remplacement pour un média temporel (pré-enregistré)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html">Comprendre audio-description ou version de remplacement pour un média temporel (préenregistré)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">Comment satisfaire au critère Audio-description ou version de remplacement pour un média temporel (pré-enregistré)(en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Fournir une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a> ou une audio-description ou du contenu vidéo <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistré</a> pour un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>, excepté quand le média est un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel.</p>
+				<p>Fournir une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a> ou une audio-description ou du contenu vidéo <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistré</a> pour un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>, excepté quand le média est un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré)</strong></p>
@@ -3130,7 +3130,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3140,12 +3140,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.2.4 Sous-titres (en direct)</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1 </a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1 </a>.</p>
 				<p><strong>Critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-live.html">Comprendre le critère de succès Sous-titres (en direct)(en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-live">Comment satisfaire au critère de succès Sous-titres (en direct)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html">Comprendre le critère de succès Sous-titres (en direct)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#captions-live">Comment satisfaire au critère de succès Sous-titres (en direct)(en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Fournir des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-audio">audio </a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-live">en direct</a>, sous forme de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>. </p>
+				<p>Fournir des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio">audio </a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-live">en direct</a>, sous forme de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>. </p>
 			</td>
 			<td>
 				<p><strong>C.9.1.2.4 Sous-titres (en direct)</strong></p>
@@ -3154,7 +3154,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3164,12 +3164,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.2.5 Audio-description (pré-enregistrée)</strong></p>
-				<p>Lorsque la TIC est une page Web, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5 Audio-description (pré-enregistré) des WCAG 2.1</a>.&nbsp;</p>
+				<p>Lorsque la TIC est une page Web, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5 Audio-description (pré-enregistré) des WCAG 2.1</a>.&nbsp;</p>
 				<p><strong>Critère de succès 1.2.5 Audio-description (pré-enregistrée) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">Comprendre l’audio-description (pré-enregistrée)(en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">Comment satisfaire au critère Audio-description (pré-enregistrée)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">Comprendre l’audio-description (pré-enregistrée)(en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">Comment satisfaire au critère Audio-description (pré-enregistrée)(en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Fournir une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio-descriptions">audio-description</a> pour tout contenu <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-video">vidéo </a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistré</a>, sous forme de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>. </p>
+				<p>Fournir une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio-descriptions">audio-description</a> pour tout contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-video">vidéo </a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistré</a>, sous forme de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>. </p>
 			</td>
 			<td>
 				<p><strong>C.9.1.2.5 Audio-description (pré-enregistrée)</strong></p>
@@ -3177,7 +3177,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Inspection</p>
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5 Audio-description (pré-enregistrée) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5 Audio-description (pré-enregistrée) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3198,12 +3198,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.3.1 Information et relations</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.1 Information et relations des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendre l’information et les relations (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Comment satisfaire au critère de succès Information et relations (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendre l’information et les relations (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Comment satisfaire au critère de succès Information et relations (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>L’information, la <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-structure">structure</a> et les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-relationships">relations</a> véhiculées par la <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a>peuvent être déterminées par un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a> ou sont disponibles sous forme de texte.</p>
+				<p>L’information, la <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-structure">structure</a> et les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-relationships">relations</a> véhiculées par la <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a>peuvent être déterminées par un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a> ou sont disponibles sous forme de texte.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.3.1 Information et relations</strong></p>
@@ -3212,7 +3212,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 2.1 Information et relations des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 2.1 Information et relations des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3222,12 +3222,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.3.2 Ordre séquentiel logique</strong></p>
-				<p>Dans le cas où la TIC est une page Web, elle satisfait au <a href="http://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est une page Web, elle satisfait au <a href="https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Comprendre l’ordre séquentiel logique (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">Comment satisfaire au critère Ordre séquentiel logique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Comprendre l’ordre séquentiel logique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">Comment satisfaire au critère Ordre séquentiel logique (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Lorsque l’ordre de présentation du contenu affecte sa signification, un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-correct-reading-sequence">ordre de lecture correct</a> peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminé par un programme informatique</a>.</p>
+				<p>Lorsque l’ordre de présentation du contenu affecte sa signification, un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-correct-reading-sequence">ordre de lecture correct</a> peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminé par un programme informatique</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.3.2 Ordre séquentiel logique</strong></p>
@@ -3236,7 +3236,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3246,13 +3246,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.3.3 Caractéristiques sensorielles</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles de WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles de WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Comprendre les caractéristiques sensorielles (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics">Comment satisfaire au critère Caractéristiques sensorielles (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Comprendre les caractéristiques sensorielles (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics">Comment satisfaire au critère Caractéristiques sensorielles (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 				<p>Les instructions données pour la compréhension et l’utilisation du contenu ne doivent pas reposer uniquement sur les caractéristiques sensorielles des éléments comme la forme, la couleur, la taille, l’emplacement visuel, l’orientation ou le son.</p>
-				<p>Remarque: Pour les exigences relatives à la couleur, se reporter à la ligne <a href="http://www.w3.org/Translations/WCAG21-fr/#Distinguable">Règle 1.4</a>.</p>
+				<p>Remarque: Pour les exigences relatives à la couleur, se reporter à la ligne <a href="https://www.w3.org/Translations/WCAG21-fr/#Distinguable">Règle 1.4</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.3.3 Caractéristiques sensorielles</strong></p>
@@ -3261,7 +3261,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3271,12 +3271,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.3.4 Orientation</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.4 Orientation des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Comprendre l’orientation (en anglais seulement)</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#orientation">Comment satisfaire au critère Orientation (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Comprendre l’orientation (en anglais seulement)</a> </p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#orientation">Comment satisfaire au critère Orientation (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Le contenu ne limite pas son affichage et son fonctionnement à une seule orientation d’affichage, comme le portrait ou le paysage, à moins qu’une orientation d’affichage spécifique soit <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a>.</p>
+				<p>Le contenu ne limite pas son affichage et son fonctionnement à une seule orientation d’affichage, comme le portrait ou le paysage, à moins qu’une orientation d’affichage spécifique soit <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a>.</p>
 				<p>Remarque: Parmi les exemples où une orientation particulière de l’affichage peut être essentielle, on retrouve les chèques de banque, une application pour le piano, des diapositives pour un projecteur ou un téléviseur, ou un contenu de réalité virtuelle où l’orientation binaire de l’affichage ne s’applique pas.</p>
 			</td>
 			<td>
@@ -3286,7 +3286,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez si la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez si la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3296,14 +3296,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.3.5 Identifier la finalité de la saisie</strong></p>
-				<p>Lorsque les TIC sont une page Web, elles doivent satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">critère de succès 1.3.5 Finalité d’un champ de saisie des WCAG 2.1</a>.</p>
+				<p>Lorsque les TIC sont une page Web, elles doivent satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">critère de succès 1.3.5 Finalité d’un champ de saisie des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Comprendre la Finalité d’un champ de saisie (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">Comment satisfaire au critère Finalité d’un champ de saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Comprendre la Finalité d’un champ de saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">Comment satisfaire au critère Finalité d’un champ de saisie (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La fonction de chaque champ de saisie recueillant de l’information sur l’utilisateur peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminée par un programme informatique</a> lorsque:</p>
+				<p>La fonction de chaque champ de saisie recueillant de l’information sur l’utilisateur peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminée par un programme informatique</a> lorsque:</p>
 				<ul>
-					<li>Le champ de saisie sert à une fin indiquée dans la section <a href="http://www.w3.org/Translations/WCAG21-fr/#input-purposes">Fonctions de saisie des composants de l’interface utilisateur</a>;</li>
+					<li>Le champ de saisie sert à une fin indiquée dans la section <a href="https://www.w3.org/Translations/WCAG21-fr/#input-purposes">Fonctions de saisie des composants de l’interface utilisateur</a>;</li>
 					<li>Le contenu est mis en œuvre à l’aide de technologies permettant de déterminer la signification attendue des données de saisie des formulaires.</li>
 				</ul>
 			</td>
@@ -3314,7 +3314,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3335,13 +3335,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.4.1 Utilisation de la couleur</strong></p>
-				<p>Dans le cas où la TIC est une page Web, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est une page Web, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Comprendre l’utilisation de la couleur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#use-of-color">Comment satisfaire au critère Utilisation de la couleur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Comprendre l’utilisation de la couleur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#use-of-color">Comment satisfaire au critère Utilisation de la couleur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 				<p>La couleur n’est pas utilisée comme la seule façon de véhiculer de l’information, d’indiquer une action, de solliciter une réponse ou de distinguer un élément visuel.</p>
-				<p>Remarque: Ce critère de succès traite spécifiquement de la perception des couleurs. Les autres formes de perception sont traitées à la <a href="http://www.w3.org/Translations/WCAG21-fr/#adaptable">règle 1.3</a> comme l’accès à la couleur par un programme informatique et les autres formes de codage de la présentation visuelle.</p>
+				<p>Remarque: Ce critère de succès traite spécifiquement de la perception des couleurs. Les autres formes de perception sont traitées à la <a href="https://www.w3.org/Translations/WCAG21-fr/#adaptable">règle 1.3</a> comme l’accès à la couleur par un programme informatique et les autres formes de codage de la présentation visuelle.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.1 Utilisation de la couleur</strong></p>
@@ -3350,7 +3350,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3360,13 +3360,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.4.2 Contrôle du son</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.2 Contrôle du son des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-control.html">Comprendre le contrôle du son (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-control">Comment satisfaire au critère Contrôle du son (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html">Comprendre le contrôle du son (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-control">Comment satisfaire au critère Contrôle du son (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Si du son sur une page Web est audible automatiquement pendant plus de 3 secondes, un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour le mettre en pause, l’arrêter ou pour en contrôler le volume de façon indépendante du niveau de volume du système général.</p>
-				<p>Remarque: puisque tout contenu ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter la page entière, tout le contenu présent dans la page Web (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès. Voir l’<a href="http://www.w3.org/Translations/WCAG21-fr/#cc5">exigence de conformité 5: Non-interférence</a>.</p>
+				<p>Si du son sur une page Web est audible automatiquement pendant plus de 3 secondes, un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour le mettre en pause, l’arrêter ou pour en contrôler le volume de façon indépendante du niveau de volume du système général.</p>
+				<p>Remarque: puisque tout contenu ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter la page entière, tout le contenu présent dans la page Web (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès. Voir l’<a href="https://www.w3.org/Translations/WCAG21-fr/#cc5">exigence de conformité 5: Non-interférence</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.2 Contrôle du son</strong></p>
@@ -3375,7 +3375,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3385,15 +3385,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.4.3 Contraste (minimum)</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum)</a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum)</a>.</p>
 				<p><strong>Critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Comprendre le contraste (minimum) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">Comment satisfaire au critère Contraste (minimum) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Comprendre le contraste (minimum) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">Comment satisfaire au critère Contraste (minimum) (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La présentation visuelle du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> et du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a> a un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 4,5:1, sauf dans les cas suivants:</p>
+				<p>La présentation visuelle du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> et du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a> a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 4,5:1, sauf dans les cas suivants:</p>
 				<ul>
-					<li>Texte agrandi: le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-large-scale">texte agrandi</a> et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1;</li>
-					<li>Texte décoratif: aucune exigence de contraste pour le texte ou le texte sous forme d’image qui fait partie d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> inactif, qui est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">purement décoratif</a>, qui est invisible pour tous ou qui est une partie d’une image contenant un autre contenu significatif. </li>
+					<li>Texte agrandi: le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-large-scale">texte agrandi</a> et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1;</li>
+					<li>Texte décoratif: aucune exigence de contraste pour le texte ou le texte sous forme d’image qui fait partie d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> inactif, qui est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">purement décoratif</a>, qui est invisible pour tous ou qui est une partie d’une image contenant un autre contenu significatif. </li>
 					<li>Logotypes: aucune exigence de contraste pour le texte faisant partie d’un logo ou d’un nom de marque.</li>
 				</ul>
 			</td>
@@ -3404,7 +3404,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3414,12 +3414,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.4.4 Redimensionnement du texte</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte (en direct) des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte (en direct) des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Comprendre le redimensionnement du texte (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#resize-text">Comment satisfaire au critère Redimensionnement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Comprendre le redimensionnement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#resize-text">Comment satisfaire au critère Redimensionnement du texte (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>À l’exception des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> et du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> peut être redimensionné jusqu’à 200% sans l’aide d’une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologie d’assistance</a>et sans perte de contenu ou de fonctionnalité.</p>
+				<p>À l’exception des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> et du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> peut être redimensionné jusqu’à 200% sans l’aide d’une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologie d’assistance</a>et sans perte de contenu ou de fonctionnalité.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.4 Redimensionnement du texte</strong></p>
@@ -3428,7 +3428,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3440,13 +3440,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>9.1.4.5 Texte sous forme d’image</strong></p>
 				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1.</p>
 				<p><strong>Critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1.</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Comprendre le texte sous forme d’image (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Comment satisfaire au critère Texte sous forme d’image (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Comprendre le texte sous forme d’image (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Comment satisfaire au critère Texte sous forme d’image (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Si les technologies utilisées peuvent réaliser la présentation visuelle, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>est utilisé pour véhiculer de l’information plutôt que du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, sauf dans les cas suivants:</p>
+				<p>Si les technologies utilisées peuvent réaliser la présentation visuelle, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>est utilisé pour véhiculer de l’information plutôt que du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, sauf dans les cas suivants:</p>
 				<ul>
-					<li>Personnalisable: Le texte sous forme d’image peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-visually-customized">personnalisé visuellement</a> selon les exigences de l’utilisateur;</li>
-					<li>Essentielle: Une présentation spécifique du texte est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
+					<li>Personnalisable: Le texte sous forme d’image peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-visually-customized">personnalisé visuellement</a> selon les exigences de l’utilisateur;</li>
+					<li>Essentielle: Une présentation spécifique du texte est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
 				</ul>
 				<p>Remarque: Les logotypes sont considérés comme essentiels (le texte qui fait partie d’un logo ou d’un nom de marque).</p>
 			</td>
@@ -3457,7 +3457,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3467,15 +3467,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.4.10 Redistribution</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#reflow">critère de succès 1.4.10 Redistribution des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#reflow">critère de succès 1.4.10 Redistribution des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.10 Redistribution des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/reflow.html">Comprendre le Redistribution (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#reflow">Comment satisfaire au critère Redistribution (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html">Comprendre le Redistribution (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#reflow">Comment satisfaire au critère Redistribution (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
 				<p>Le contenu peut être présenté sans perte d’information ou de fonctionnalité et sans nécessiter de défilement en deux&nbsp;dimensions en ce qui a trait aux éléments suivants:</p>
 				<ul>
-					<li>un contenu à défilement vertical d’une largeur équivalente à 320 <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>;</li>
-					<li>un contenu à défilement horizontal d’une hauteur équivalente à 256 <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>.</li>
+					<li>un contenu à défilement vertical d’une largeur équivalente à 320 <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>;</li>
+					<li>un contenu à défilement horizontal d’une hauteur équivalente à 256 <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>.</li>
 				</ul>
 				<p>Sauf pour les parties du contenu dont l’utilisation ou la compréhension nécessite une mise en page en deux dimensions.</p>
 				<p>Remarque:</p>
@@ -3489,7 +3489,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez si la page Web n’échoue pas au <a href="http://www.w3.org/WAI/WCAG21/Understanding/reflow.html">critère de succès 1.4.10 Redistribution</a> des WCAG 2.1.</p>
+				<p>1. Vérifiez si la page Web n’échoue pas au <a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html">critère de succès 1.4.10 Redistribution</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3499,15 +3499,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.4.11 Contraste du contenu non textuel</strong></p>
-				<p>Lorsque la TIC est une page Web, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
+				<p>Lorsque la TIC est une page Web, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Comprendre le contraste des éléments non textuels (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast">Satisfaire au critère Contraste des éléments non textuels (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Comprendre le contraste des éléments non textuels (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast">Satisfaire au critère Contraste des éléments non textuels (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a> visuelle des éléments suivants a un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 3:1 par rapport aux couleurs adjacentes:</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a> visuelle des éléments suivants a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 3:1 par rapport aux couleurs adjacentes:</p>
 				<ul>
-					<li>Composants de l’interface utilisateur: Les informations visuelles nécessaires à l’identification des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants de l’interface utilisateur</a>et des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-states">états</a>, à l’exception des composants inactifs ou lorsque l’apparence du composant est déterminée par l’agent utilisateur et non modifiée par l’auteur;</li>
-					<li>Objets graphiques: Parties de graphiques nécessaires à la compréhension du contenu, sauf lorsqu’une présentation graphique particulière est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
+					<li>Composants de l’interface utilisateur: Les informations visuelles nécessaires à l’identification des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants de l’interface utilisateur</a>et des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-states">états</a>, à l’exception des composants inactifs ou lorsque l’apparence du composant est déterminée par l’agent utilisateur et non modifiée par l’auteur;</li>
+					<li>Objets graphiques: Parties de graphiques nécessaires à la compréhension du contenu, sauf lorsqu’une présentation graphique particulière est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
 				</ul>
 			</td>
 			<td>
@@ -3517,7 +3517,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3529,10 +3529,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>9.1.4.12 Espacement du texte</strong></p>
 				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au critère de succès 1.4.12&nbsp;Espacement du texte des WCAG 2.1.</p>
 				<p><strong>Critère de succès 1.4.12 Espacement du texte des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Comprendre l’espacement du texte (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#text-spacing">Comment satisfaire au critère Espacement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Comprendre l’espacement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#text-spacing">Comment satisfaire au critère Espacement du texte (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Dans les contenus mis en œuvre à l’aide de langages de balisage qui prennent en charge les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">propriétés de style</a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-style-properties">&nbsp;de texte</a> suivantes, aucune perte de contenu ou de fonctionnalité ne se produit en définissant tous les éléments suivants et en ne modifiant aucune autre propriété de style:</p>
+				<p>Dans les contenus mis en œuvre à l’aide de langages de balisage qui prennent en charge les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">propriétés de style</a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-style-properties">&nbsp;de texte</a> suivantes, aucune perte de contenu ou de fonctionnalité ne se produit en définissant tous les éléments suivants et en ne modifiant aucune autre propriété de style:</p>
 				<ul>
 					<li>La hauteur de ligne (interlignage) définie à au moins 1,5 fois la taille de la police ;</li>
 					<li>L’espacement entre les paragraphes consécutifs défini à au moins 2 fois la taille de la police ; </li>
@@ -3548,7 +3548,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#text-spacing">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#text-spacing">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3558,19 +3558,19 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.1.4.13 Contenu au survol ou au focus</strong></p>
-				<p>Dans le cas où la TIC est une page Web, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est une page Web, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Comprendre le Contenu en mode survol ou focus&nbsp; (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus">Comment satisfaire au critère Contenu en mode survol ou focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Comprendre le Contenu en mode survol ou focus&nbsp; (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus">Comment satisfaire au critère Contenu en mode survol ou focus (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
 				<p>Lorsque la réception puis la suppression du pointeur ou de la Au focus du clavier déclenchent l’affichage et le masquage d’un contenu supplémentaire, ce qui suit est vrai:</p>
 				<ul>
-					<li>Masquer : il existe <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a>ou ne masque ni ne remplace un autre contenu ;</li>
+					<li>Masquer : il existe <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a>ou ne masque ni ne remplace un autre contenu ;</li>
 					<li>Survoler : si le survol du pointeur peut déclencher le contenu additionnel, alors le pointeur peut être déplacé sur le contenu additionnel sans que celui-ci disparaisse ;</li>
 					<li>Persister: le contenu additionnel reste visible jusqu’à ce que le survol ou le focus soit retiré, que l’utilisateur le masque ou que ses informations ne soient plus valables.</li>
 				</ul>
 				<p>Exception: La présentation visuelle du contenu supplémentaire est contrôlée par l’agent utilisateur et n’est pas modifiée par l’auteur.</p>
-				<p>Remarque: Parmi les exemples de contenu additionnel contrôlé par l’agent utilisateur figurent les infobulles du navigateur créées à l’aide de <a href="http://www.w3.org/Translations/html/dom.html#the-title-attribute">attribut titre</a> HTML. </p>
+				<p>Remarque: Parmi les exemples de contenu additionnel contrôlé par l’agent utilisateur figurent les infobulles du navigateur créées à l’aide de <a href="https://www.w3.org/Translations/html/dom.html#the-title-attribute">attribut titre</a> HTML. </p>
 				<p>Remarque: Les infobulles personnalisées, les sous-menus et autres fenêtres non modales qui s’affichent au survol et à la prise de focus sont des exemples de contenu additionnel couvert par ce critère. </p>
 			</td>
 			<td>
@@ -3580,7 +3580,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3602,12 +3602,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.1.1 Clavier</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier de WCAG 2.1</a>. </p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier de WCAG 2.1</a>. </p>
 				<p><strong>Critère de succès 2.1.1 Clavier des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Comprendre le clavier (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#keyboard">Comment satisfaire au critère Clavier (en anglais seulement)</a> </p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Comprendre le clavier (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#keyboard">Comment satisfaire au critère Clavier (en anglais seulement)</a> </p>
 				<p>(Niveau A)</p>
-				<p>Toutes <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">les fonctions</a> du contenu sont utilisables à l’aide d’une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a> sans exiger un rythme de frappe propre à l’utilisateur, sauf lorsque la fonction sous-jacente nécessite une saisie qui dépend du tracé du mouvement effectué par l’utilisateur et pas seulement des points de départ et d’arrivée de ce tracé.</p>
+				<p>Toutes <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">les fonctions</a> du contenu sont utilisables à l’aide d’une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a> sans exiger un rythme de frappe propre à l’utilisateur, sauf lorsque la fonction sous-jacente nécessite une saisie qui dépend du tracé du mouvement effectué par l’utilisateur et pas seulement des points de départ et d’arrivée de ce tracé.</p>
 				<p>Remarque: Cette exception ne concerne que la fonction sous-jacente et non la technique de saisie. Par exemple, lorsqu’on utilise l’écriture manuscrite pour saisir du texte, la technique de saisie (l’écriture manuscrite) nécessite une saisie qui dépend d’un tracé, mais la fonction sous-jacente (la saisie de texte) ne le requiert pas.</p>
 				<p>Remarque: Cela n’interdit pas et ne devrait pas décourager l’utilisation de la souris ou de toute autre méthode de saisie en plus de l’utilisation du clavier.</p>
 			</td>
@@ -3618,7 +3618,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez si la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez si la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3628,13 +3628,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.1.2 Pas de piège au clavier</strong></p>
-				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap">critère de succès 2.1.2 Pas de piège au clavier de WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC utilisée est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap">critère de succès 2.1.2 Pas de piège au clavier de WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.1.2 pas de piège au clavier des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">Comprendre pas de piège au clavier (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">Comment satisfaire au critère pas de piège au clavier (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">Comprendre pas de piège au clavier (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">Comment satisfaire au critère pas de piège au clavier (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Si la Au focus du clavier peut être positionnée sur un élément de la page à l’aide d’une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a>, réciproquement, il peut être déplacé hors de ce même composant simplement à l’aide d’une interface clavier et, si ce déplacement exige plus que l’utilisation d’une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l’utilisateur est informé de la méthode permettant de déplacer la Au focus hors de ce composant.</p>
-				<p>Remarque: puisque tout contenu ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter la page entière, tout le contenu présent dans la page Web (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès. Voir l’<a href="http://www.w3.org/Translations/WCAG21-fr/#cc5">exigence de conformité 5: Non-interférence</a>.</p>
+				<p>Si la Au focus du clavier peut être positionnée sur un élément de la page à l’aide d’une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a>, réciproquement, il peut être déplacé hors de ce même composant simplement à l’aide d’une interface clavier et, si ce déplacement exige plus que l’utilisation d’une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l’utilisateur est informé de la méthode permettant de déplacer la Au focus hors de ce composant.</p>
+				<p>Remarque: puisque tout contenu ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter la page entière, tout le contenu présent dans la page Web (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès. Voir l’<a href="https://www.w3.org/Translations/WCAG21-fr/#cc5">exigence de conformité 5: Non-interférence</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.1.2 Pas de piège au clavier</strong></p>
@@ -3643,7 +3643,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que la page Web n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap">critère de succès 2.1.2 Pas de piège à clavier des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que la page Web n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap">critère de succès 2.1.2 Pas de piège à clavier des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3653,16 +3653,16 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.1.4 Raccourcis clavier utilisant des caractères</strong></p>
-				<p>Lorsque les TIC sont une page Web, elles doivent satisfaire au critère de succès <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#character-key-shortcuts">2.1.4 Raccourcis clavier des caractères des WCAG 2.1</a>.</p>
+				<p>Lorsque les TIC sont une page Web, elles doivent satisfaire au critère de succès <a href="https://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts">2.1.4 Raccourcis clavier des caractères des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.1.4 Raccourcis clavier utilisant des caractères des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">Comprendre les Raccourcis clavier utilisant des caractères (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts">Comment utiliser les Raccourcis clavier utilisant des caractères (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">Comprendre les Raccourcis clavier utilisant des caractères (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts">Comment utiliser les Raccourcis clavier utilisant des caractères (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Si un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-shortcuts">raccourci clavier</a> est mis en œuvre dans le contenu en utilisant uniquement des lettres (y compris les lettres majuscules et minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins un des éléments suivants est vrai:</p>
+				<p>Si un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-shortcuts">raccourci clavier</a> est mis en œuvre dans le contenu en utilisant uniquement des lettres (y compris les lettres majuscules et minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins un des éléments suivants est vrai:</p>
 				<ul>
-					<li>Désactiver: Un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour désactiver le raccourci;</li>
+					<li>Désactiver: Un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour désactiver le raccourci;</li>
 					<li>Réassigner : Un mécanisme est offert pour reprogrammer le raccourci afin d’utiliser un ou plusieurs caractères clavier non imprimables (par exemple Ctrl, Alt, etc.);</li>
-					<li>Actif uniquement au focus : le raccourci clavier pour un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> n’est actif que lorsque ce composant a le focus.</li>
+					<li>Actif uniquement au focus : le raccourci clavier pour un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> n’est actif que lorsque ce composant a le focus.</li>
 				</ul>
 			</td>
 			<td>
@@ -3672,7 +3672,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts">critère de succès 2.1.4 Raccourcis clavier des caractères de WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts">critère de succès 2.1.4 Raccourcis clavier des caractères de WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3693,10 +3693,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.2.1 Réglage du délai</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai de WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai de WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.2.1 Réglage du délai des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html">Comprendre le Réglage du délai (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable">Comment satisfaire au critère Réglage du délai (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html">Comprendre le Réglage du délai (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable">Comment satisfaire au critère Réglage du délai (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 				<p>Pour chaque limite de temps fixée par le contenu, au moins l’un des points suivants est vrai:</p>
 				<ul>
@@ -3704,10 +3704,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 					<li>Ajustement: L’utilisateur a la possibilité d’ajuster la limite de temps avant de l’atteindre dans un intervalle d’au moins dix fois la durée paramétrée par défaut;</li>
 					<li>Extension: L’utilisateur est averti avant que la limite de temps expire et il lui est accordé au moins 20 secondes pour étendre cette limite par une action simple (par exemple, « appuyer sur la barre d’espace ») et l’utilisateur a la possibilité d’étendre la limite de temps au moins dix fois;</li>
 					<li>L’exception du temps réel: La limite de temps est une partie constitutive d’un événement en temps réel (par exemple, une enchère) et aucune solution de rechange n’est possible; ou</li>
-					<li>L’exception de la limite essentielle: La limite de temps est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> et l’étendre invaliderait alors l’activité; ou</li>
+					<li>L’exception de la limite essentielle: La limite de temps est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> et l’étendre invaliderait alors l’activité; ou</li>
 					<li>L’exception des 20 heures: La limite de temps est supérieure à 20 heures.</li>
 				</ul>
-				<p>Remarque: Ce critère de succès permet de veiller à ce que les utilisateurs effectuent les tâches sans qu’une limite de temps n’apporte des changements inattendus dans le contenu ou le contexte. Ce critère de succès doit être considéré conjointement avec le <a href="http://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1,</a> qui impose des limites aux changements de contenu ou de contexte résultant de l’action des utilisateurs.</p>
+				<p>Remarque: Ce critère de succès permet de veiller à ce que les utilisateurs effectuent les tâches sans qu’une limite de temps n’apporte des changements inattendus dans le contenu ou le contexte. Ce critère de succès doit être considéré conjointement avec le <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1,</a> qui impose des limites aux changements de contenu ou de contexte résultant de l’action des utilisateurs.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.2.1 Réglage du délai</strong></p>
@@ -3716,7 +3716,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez si la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez si la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3726,18 +3726,18 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.2.2 Mettre en pause, arrêter, masquer</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer de WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer de WCAG 2.1</a>.</p>
 				<p><strong>Critère de réussite 2.2.2 Mettre en pause, arrêter, masquer des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html">Comprendre le critère de succès Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">Comment satisfaire au critère Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html">Comprendre le critère de succès Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">Comment satisfaire au critère Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Pour déplacer, <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-blinking">faire clignoter</a>, faire défiler ou mettre à jour automatiquement des informations, tous les éléments suivants sont vrais:</p>
+				<p>Pour déplacer, <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-blinking">faire clignoter</a>, faire défiler ou mettre à jour automatiquement des informations, tous les éléments suivants sont vrais:</p>
 				<ul>
-					<li>Déplacement, clignotement, défilement: Pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée en parallèle avec d’autres contenus, il existe un mécanisme permettant à l’utilisateur de mettre en <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-pause">pause</a>, d’arrêter ou de masquer l’information à moins que le déplacement, le clignement ou le défilement fasse partie d’une activité où cela est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel;</a> </li>
+					<li>Déplacement, clignotement, défilement: Pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée en parallèle avec d’autres contenus, il existe un mécanisme permettant à l’utilisateur de mettre en <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-pause">pause</a>, d’arrêter ou de masquer l’information à moins que le déplacement, le clignement ou le défilement fasse partie d’une activité où cela est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel;</a> </li>
 					<li>Mise à jour automatique: Pour toute mise à jour qui (1) démarre automatiquement et (2) est présentée en parallèle avec d’autres contenus, il existe un mécanisme permettant à l’utilisateur de la mettre en pause, de l’arrêter, de la masquer ou de contrôler sa fréquence, sauf si la mise à jour automatique fait partie d’une activité où elle est essentielle.</li>
 				</ul>
-				<p>Remarque: Pour les exigences relatives au contenu clignotant ou flashant, se reporter à la <a href="http://www.w3.org/Translations/WCAG21-fr/#seizures-and-physical-reactions">ligne directrice 2.3</a>. </p>
-				<p>Remarque: puisque tout contenu ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter la page entière, tout le contenu présent dans la page Web (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès. Voir l’<a href="http://www.w3.org/Translations/WCAG21-fr/#cc5">exigence de conformité 5: Non-interférence</a>.</p>
+				<p>Remarque: Pour les exigences relatives au contenu clignotant ou flashant, se reporter à la <a href="https://www.w3.org/Translations/WCAG21-fr/#seizures-and-physical-reactions">ligne directrice 2.3</a>. </p>
+				<p>Remarque: puisque tout contenu ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter la page entière, tout le contenu présent dans la page Web (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès. Voir l’<a href="https://www.w3.org/Translations/WCAG21-fr/#cc5">exigence de conformité 5: Non-interférence</a>.</p>
 				<p>Remarque: Il n’est pas exigé que le contenu mis à jour périodiquement par logiciel ou diffusé en flux à l’agent utilisateur conserve ou présente l’information générée ou reçue entre la mise en pause et la reprise de la présentation, puisque cela peut ne pas être techniquement possible et s’avérer trompeur dans beaucoup de situations. </p>
 				<p>Remarque: Une animation qui se produit dans le cadre d’une phase de préchargement ou d’une situation similaire peut être considérée comme essentielle si l’interaction ne peut pas se produire pendant cette phase pour tous les utilisateurs et si le fait de ne pas indiquer les progrès pouvait dérouter les utilisateurs ou leur faire croire que le contenu était gelé ou séparé.</p>
 			</td>
@@ -3748,7 +3748,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer</a>des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer</a>des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3769,13 +3769,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.3.1 Pas plus de trois flashs ou sous le seuil critique</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold">critère de succès 2.3.1 Pas plus de trois&nbsp;flashs ou sous le seuil critique</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold">critère de succès 2.3.1 Pas plus de trois&nbsp;flashs ou sous le seuil critique</a>.</p>
 				<p><strong>Critère de succès 2.3.1 Pas plus de trois flashs ou sous le seuil critique des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html">Comprendre le critère de succès Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold">Comment satisfaire au critère Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html">Comprendre le critère de succès Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold">Comment satisfaire au critère Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">page Web </a>doit être exempte de tout élément qui flashe plus de trois fois dans n’importe quel intervalle d’une seconde ou ce <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-flashes">flash</a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-general-flash-and-red-flash-thresholds">doit se situer sous le seuil de flash générique et le seuil de flash rouge</a>.</p>
-				<p>Remarque: puisque tout contenu ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter la page entière, tout le contenu présent dans la page Web (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès. Voir l’<a href="http://www.w3.org/Translations/WCAG21-fr/#cc5">exigence de conformité 5: Non-interférence</a>.</p>
+				<p>Une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">page Web </a>doit être exempte de tout élément qui flashe plus de trois fois dans n’importe quel intervalle d’une seconde ou ce <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-flashes">flash</a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-general-flash-and-red-flash-thresholds">doit se situer sous le seuil de flash générique et le seuil de flash rouge</a>.</p>
+				<p>Remarque: puisque tout contenu ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter la page entière, tout le contenu présent dans la page Web (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès. Voir l’<a href="https://www.w3.org/Translations/WCAG21-fr/#cc5">exigence de conformité 5: Non-interférence</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.3.1 Pas plus de trois flashs ou sous le seuil critique</strong></p>
@@ -3784,7 +3784,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold">critère de succès 2.3.1 Pas plus de trois flashs ou sous le seuil critique</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold">critère de succès 2.3.1 Pas plus de trois flashs ou sous le seuil critique</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3805,12 +3805,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.4.1 Contourner des blocs</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#bypass-blocks">critère de succès 2.4.1 Contourner des blocs</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#bypass-blocks">critère de succès 2.4.1 Contourner des blocs</a>.</p>
 				<p><strong>Critère de succès 2.4.1 Contourner des blocs</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html">Comprendre le critère de succès Contourner des blocs (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks">Comment satisfaire au critère de succès Contourner des blocs (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html">Comprendre le critère de succès Contourner des blocs (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks">Comment satisfaire au critère de succès Contourner des blocs (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme </a>permet de contourner les blocs de contenu qui sont répétés sur plusieurs <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">pages Web</a>.</p>
+				<p>Un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme </a>permet de contourner les blocs de contenu qui sont répétés sur plusieurs <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">pages Web</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.1 Contourner des blocs</strong></p>
@@ -3819,7 +3819,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#bypass-blocks">critère de succès 2.4.1 Contourner des blocs des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#bypass-blocks">critère de succès 2.4.1 Contourner des blocs des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3829,12 +3829,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.4.2 Titre de page</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#page-titled">critère de succès 2.4.2 Titre de page</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#page-titled">critère de succès 2.4.2 Titre de page</a>.</p>
 				<p><strong>Critère de succès 2.4.2 Titre de page des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/page-titled.html">Comprendre le critère de succès Titre de page (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#page-titled">Comment satisfaire au critère de succès Titre de page (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html">Comprendre le critère de succès Titre de page (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#page-titled">Comment satisfaire au critère de succès Titre de page (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">pages Web</a> présentent un titre qui décrit leur sujet ou leur but.</p>
+				<p>Les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">pages Web</a> présentent un titre qui décrit leur sujet ou leur but.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.2 Titre de page</strong></p>
@@ -3843,7 +3843,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#page-titled">critère de succès 2.4.2 Titre de page des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#page-titled">critère de succès 2.4.2 Titre de page des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3853,12 +3853,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.4.3 Parcours du focus</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-order">critère de succès 2.4.3 Parcours de la cible de saisie</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-order">critère de succès 2.4.3 Parcours de la cible de saisie</a>.</p>
 				<p><strong>Critère de succès 2.4.3 Parcours du focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Comprendre le critère de succès Parcours du focus (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-order">Comment satisfaire au critère de succès Parcours du focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Comprendre le critère de succès Parcours du focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-order">Comment satisfaire au critère de succès Parcours du focus (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Si une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">page Web</a> peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-navigated-sequentially">parcourue de façon séquentielle</a> et que les séquences de navigation affectent la signification ou l’action, les éléments reçoivent la Au focus dans un ordre qui préserve la signification et l’opérabilité. </p>
+				<p>Si une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">page Web</a> peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-navigated-sequentially">parcourue de façon séquentielle</a> et que les séquences de navigation affectent la signification ou l’action, les éléments reçoivent la Au focus dans un ordre qui préserve la signification et l’opérabilité. </p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.3 Parcours du focus</strong></p>
@@ -3867,7 +3867,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-order">critère de succès 2.4.3 Parcours de la cible de saisie</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-order">critère de succès 2.4.3 Parcours de la cible de saisie</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3877,12 +3877,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.4.4 Fonction du lien (selon le contexte)</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Fonction du lien (selon le contexte)</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Fonction du lien (selon le contexte)</a>.</p>
 				<p><strong>Critère de succès 2.4.4 Fonction du lien (selon le contexte) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">Comprendre le critère de succès Fonction du lien (selon le contexte) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">Comment satisfaire au critère de succès Fonction du lien (selon le contexte) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">Comprendre le critère de succès Fonction du lien (selon le contexte) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">Comment satisfaire au critère de succès Fonction du lien (selon le contexte) (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-purpose-of-each-link">fonction de chaque lien</a> est déterminée par le texte du lien seul ou par le texte du lien associé à un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determined-link-context">contexte du lien déterminé par un programme informatique</a>, sauf si la fonction du lien est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-ambiguous-to-users-in-general">ambiguë pour tout utilisateur</a>.</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-purpose-of-each-link">fonction de chaque lien</a> est déterminée par le texte du lien seul ou par le texte du lien associé à un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determined-link-context">contexte du lien déterminé par un programme informatique</a>, sauf si la fonction du lien est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-ambiguous-to-users-in-general">ambiguë pour tout utilisateur</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.4 Fonction du lien (selon le contexte)</strong></p>
@@ -3891,7 +3891,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4&nbsp;Objectif du lien (selon le contexte) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4&nbsp;Objectif du lien (selon le contexte) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3901,12 +3901,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.4.5 Accès multiples</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#multiple-ways">critère de succès 2.4.5 Accès multiples</a>. </p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#multiple-ways">critère de succès 2.4.5 Accès multiples</a>. </p>
 				<p><strong>Critère de succès 2.4.5 Accès multiples</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html">Comprendre le critère de succès Accès multiples (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#multiple-ways">Comment satisfaire au critère de succès Accès multiples (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html">Comprendre le critère de succès Accès multiples (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#multiple-ways">Comment satisfaire au critère de succès Accès multiples (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">page Web</a> peut être trouvée par plus d’un moyen dans un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-set-of-web-pages">ensemble de pages Web</a> sauf si cette page est le résultat ou une étape d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-processes">processus</a>.</p>
+				<p>Une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">page Web</a> peut être trouvée par plus d’un moyen dans un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-set-of-web-pages">ensemble de pages Web</a> sauf si cette page est le résultat ou une étape d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-processes">processus</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.5 Accès multiples</strong></p>
@@ -3915,7 +3915,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#multiple-ways">critère de succès 2.4.5 Accès multiples</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#multiple-ways">critère de succès 2.4.5 Accès multiples</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3925,12 +3925,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.4.6 En-têtes et étiquettes</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes</a>.</p>
 				<p><strong>Critère de succès 2.4.6&nbsp;En-têtes et étiquettes des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html">Comprendre le critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">Comment satisfaire au critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html">Comprendre le critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">Comment satisfaire au critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Les en-têtes et les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> décrivent le sujet ou le but.</p>
+				<p>Les en-têtes et les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> décrivent le sujet ou le but.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.6 En-têtes et étiquettes</strong></p>
@@ -3939,7 +3939,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3949,10 +3949,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.4.7 Visibilité Au focus</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité de la cible de saisie</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité de la cible de saisie</a>.</p>
 				<p><strong>Critère de succès 2.4.7 Visibilité Au focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Comprendre le critère de succèsdu focus (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-visible">Comment satisfaire au critère de succèsdu focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Comprendre le critère de succèsdu focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-visible">Comment satisfaire au critère de succèsdu focus (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
 				<p>Toute interface utilisable au clavier comporte un mode de fonctionnement où la Au focus est visible.</p>
 			</td>
@@ -3963,7 +3963,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-visible">Critère de succès 2.4.7 Visibilité Au focus</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-visible">Critère de succès 2.4.7 Visibilité Au focus</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -3984,12 +3984,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.5.1 Gestes pour le contrôle du pointeur</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#pointer-gestures">critère de succès 2.5.1 Mouvements du pointeur</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#pointer-gestures">critère de succès 2.5.1 Mouvements du pointeur</a>.</p>
 				<p><strong>Critère de succès 2.5.1 Gestes pour le contrôle du pointeur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Comprendre le critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures">Comment satisfaire au critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Comprendre le critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures">Comment satisfaire au critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Toutes les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui utilisent des mouvements multipoints ou basés sur un tracé pour exécuter une commande peuvent être utilisées avec un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a> sans mouvement basé sur un tracé, à moins qu’un mouvement multipoint ou basé sur un tracé soit <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</p>
+				<p>Toutes les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui utilisent des mouvements multipoints ou basés sur un tracé pour exécuter une commande peuvent être utilisées avec un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a> sans mouvement basé sur un tracé, à moins qu’un mouvement multipoint ou basé sur un tracé soit <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</p>
 				<p>Remarque: cette exigence s’applique au contenu Web qui interprète les actions du pointeur (c.-à-d. qu’elle ne s’applique pas aux actions requises pour faire fonctionner l’agent utilisateur ou la technologie d’assistance).</p>
 			</td>
 			<td>
@@ -3999,7 +3999,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#pointer-gestures">critère de succès 2.5.1 Mouvements du pointeur des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#pointer-gestures">critère de succès 2.5.1 Mouvements du pointeur des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4009,17 +4009,17 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.5.2 Annulation de l’action du pointeur</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation">critère de succès 2.5.2 Annulation de l’action du pointeur</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation">critère de succès 2.5.2 Annulation de l’action du pointeur</a>.</p>
 				<p><strong>Critère de succès 2.5.2 Annulation de l’action du pointeur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html">Comprendre le critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation">Comment satisfaire au critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html">Comprendre le critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation">Comment satisfaire au critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Dans le cas des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui peuvent fonctionner à l’aide d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a>, au moins l’un des éléments suivants est vrai:</p>
+				<p>Dans le cas des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui peuvent fonctionner à l’aide d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a>, au moins l’un des éléments suivants est vrai:</p>
 				<ul>
-					<li>Aucun événement descendant: l’<a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-down-event">événement descendant</a> du pointeur n’est pas utilisé pour exécuter une partie ou la totalité de la fonction ;</li>
-					<li>Abandonner ou Annuler: la fonction se termine avec l’<a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-up-event">événement ascendant</a> et un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour abandonner la fonction avant la fin ou pour annuler la fonction une fois l’exécution de la fonction terminée; </li>
+					<li>Aucun événement descendant: l’<a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-down-event">événement descendant</a> du pointeur n’est pas utilisé pour exécuter une partie ou la totalité de la fonction ;</li>
+					<li>Abandonner ou Annuler: la fonction se termine avec l’<a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-up-event">événement ascendant</a> et un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour abandonner la fonction avant la fin ou pour annuler la fonction une fois l’exécution de la fonction terminée; </li>
 					<li>Inversion de l’événement: l’événement montant inverse tout résultat de l’événement descendant précédent;</li>
-					<li>Essentiel: terminer la fonction sur inversion de l’événement est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</li>
+					<li>Essentiel: terminer la fonction sur inversion de l’événement est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</li>
 				</ul>
 				<p>Remarque: les fonctions qui émulent un appui clavier ou un pavé numérique sont considérées comme essentielles.</p>
 				<p>Remarque: cette exigence s’applique au contenu Web qui interprète les actions du pointeur (c.-à-d. qu’elle ne s’applique pas aux actions requises pour faire fonctionner l’agent utilisateur ou la technologie d’assistance).</p>
@@ -4031,7 +4031,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation">critère de succès 2.5.2 Annulation du pointeur des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation">critère de succès 2.5.2 Annulation du pointeur des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4041,12 +4041,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.5.3 Étiquette dans le nom</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom de WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom de WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.5.3 Étiquette dans le nom</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html">Comprendre le critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#label-in-name">Comment satisfaire au critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html">Comprendre le critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#label-in-name">Comment satisfaire au critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Pour les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface</a> utilisateur dont les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> contiennent du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> ou du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> contient le texte qui est présenté visuellement.</p>
+				<p>Pour les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface</a> utilisateur dont les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> contiennent du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> ou du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> contient le texte qui est présenté visuellement.</p>
 				<p>Remarque: il est grandement conseillé de placer le texte de l’étiquette au début du nom.</p>
 			</td>
 			<td>
@@ -4056,7 +4056,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4066,15 +4066,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.2.5.4 Activation par le mouvement</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement</a>.</p>
 				<p><strong>Critère de succès 2.5.4 Activation par le mouvement</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html">Comprendre le critère de succès Activation par le mouvement (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#motion-actuation">Comment satisfaire au critère de succès Activation par le mouvement (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html">Comprendre le critère de succès Activation par le mouvement (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#motion-actuation">Comment satisfaire au critère de succès Activation par le mouvement (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> activées en déplaçant le périphérique ou par le déplacement de l’utilisateur peuvent aussi être activées par les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface utilisateur</a>, et la réaction au mouvement peut être désactivée afin d’éviter le déclenchement accidentel, sauf lorsque:</p>
+				<p>Les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> activées en déplaçant le périphérique ou par le déplacement de l’utilisateur peuvent aussi être activées par les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface utilisateur</a>, et la réaction au mouvement peut être désactivée afin d’éviter le déclenchement accidentel, sauf lorsque:</p>
 				<ul>
-					<li>Interface prise en charge: le mouvement est utilisé pour faire fonctionner la fonctionnalité au moyen d’une interface <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-accessibility-supported">qui prend en charge l’accessibilité</a>;</li>
-					<li>Essentiel: le mouvement est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a> pour exécuter la fonction, et ce faisant, il invalide l’activité.</li>
+					<li>Interface prise en charge: le mouvement est utilisé pour faire fonctionner la fonctionnalité au moyen d’une interface <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-accessibility-supported">qui prend en charge l’accessibilité</a>;</li>
+					<li>Essentiel: le mouvement est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a> pour exécuter la fonction, et ce faisant, il invalide l’activité.</li>
 				</ul>
 			</td>
 			<td>
@@ -4084,7 +4084,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4106,12 +4106,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.1.1 Langue de la page</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#language-of-page">critère de succès 3.1.1 Langue de la page</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#language-of-page">critère de succès 3.1.1 Langue de la page</a>.</p>
 				<p><strong>Critère de succès 3.1.1 Langue de la page des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Comprendre le critère de succès Langue de la page&nbsp; (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-page">Comment satisfaire au critère de succès Langue de la page (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Comprendre le critère de succès Langue de la page&nbsp; (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-page">Comment satisfaire au critère de succès Langue de la page (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> par défaut de chaque <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">page Web</a> peut être déterminée par un programme informatique.</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> par défaut de chaque <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">page Web</a> peut être déterminée par un programme informatique.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.1.1 Langue de la page</strong></p>
@@ -4120,7 +4120,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#language-of-page">critère de succès 3.1.1 Langue de la page</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#language-of-page">critère de succès 3.1.1 Langue de la page</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4130,12 +4130,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.1.2 Langue d’un passage</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#language-of-parts">critère de succès 3.1.2 Langue d’un passage</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#language-of-parts">critère de succès 3.1.2 Langue d’un passage</a>.</p>
 				<p><strong>Critère de succès 3.1.2 Langue d’un passage de WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html">Comprendre le critère de succès Langue d’un passage (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-parts">Comment satisfaire au critère de succès Langue d’un passage (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html">Comprendre le critère de succès Langue d’un passage (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts">Comment satisfaire au critère de succès Langue d’un passage (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> de chaque passage ou expression du contenu peut être déterminée par <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">un programme informatique</a> sauf pour un nom propre, pour un terme technique, pour un mot dont la langue est indéterminée ou pour un mot ou une expression faisant partie du langage courant de la langue utilisée dans le contexte immédiat.</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> de chaque passage ou expression du contenu peut être déterminée par <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">un programme informatique</a> sauf pour un nom propre, pour un terme technique, pour un mot dont la langue est indéterminée ou pour un mot ou une expression faisant partie du langage courant de la langue utilisée dans le contexte immédiat.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.1.2 Langue d’un passage</strong></p>
@@ -4144,7 +4144,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#language-of-parts">critère de succès 3.1.2 Langue d’un passage</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#language-of-parts">critère de succès 3.1.2 Langue d’un passage</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4165,12 +4165,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.2.1 Au focus</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 Au focus</a>. </p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 Au focus</a>. </p>
 				<p><strong>Critère de succès 3.2.1 Au focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-focus.html">Comprendre le critère de succès Au focus (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-focus">Comment satisfaire au critère de succès Au focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html">Comprendre le critère de succès Au focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#on-focus">Comment satisfaire au critère de succès Au focus (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Quand un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant de l’interface utilisateur</a> reçoit la Au focus, il ne doit pas amorcer un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>.</p>
+				<p>Quand un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant de l’interface utilisateur</a> reçoit la Au focus, il ne doit pas amorcer un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.2.1 Au focus</strong></p>
@@ -4179,7 +4179,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 Au focus</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 Au focus</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4189,12 +4189,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.2.2 À la saisie</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès À la saisie</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès À la saisie</a>.</p>
 				<p><strong>Critère de succès 3.2.2&nbsp;À la saisie des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-input.html">Comprendre le critère de succès À la saisie (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-input">Comment satisfaire au critère de succès À la saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/on-input.html">Comprendre le critère de succès À la saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#on-input">Comment satisfaire au critère de succès À la saisie (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Le changement de paramètre d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> ne doit pas amorcer de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>, à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.</p>
+				<p>Le changement de paramètre d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> ne doit pas amorcer de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>, à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.2.2 À la saisie</strong></p>
@@ -4203,7 +4203,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2 À la saisie</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2 À la saisie</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4213,12 +4213,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.2.3 Navigation cohérente</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#consistent-navigation">critère de succès 3.2.3 Navigation cohérente</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#consistent-navigation">critère de succès 3.2.3 Navigation cohérente</a>.</p>
 				<p><strong>Critère de succès 3.2.3 Navigation cohérente</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html">Comprendre le critère de succès Navigation cohérente (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#consistent-navigation">Comment satisfaire au critère de succès Navigation cohérente (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html">Comprendre le critère de succès Navigation cohérente (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#consistent-navigation">Comment satisfaire au critère de succès Navigation cohérente (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Dans un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">ensemble de pages Web</a>, les mécanismes de navigation qui se répètent sur <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-set-of-web-pages">plusieurs pages Web</a> se présentent dans le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-same-relative-order">même ordre relatif</a>chaque fois qu’ils sont répétés, à moins qu’un changement soit amorcé par l’utilisateur.</p>
+				<p>Dans un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">ensemble de pages Web</a>, les mécanismes de navigation qui se répètent sur <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-set-of-web-pages">plusieurs pages Web</a> se présentent dans le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-same-relative-order">même ordre relatif</a>chaque fois qu’ils sont répétés, à moins qu’un changement soit amorcé par l’utilisateur.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.2.3 Navigation cohérente</strong></p>
@@ -4227,7 +4227,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#consistent-navigation">critère de succès 3.2.3 Navigation cohérente</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#consistent-navigation">critère de succès 3.2.3 Navigation cohérente</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4237,12 +4237,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.2.4 Identification cohérente</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#consistent-identification">critère de succès 3.2.4 Identification cohérente</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#consistent-identification">critère de succès 3.2.4 Identification cohérente</a>.</p>
 				<p><strong>Critère de succès 3.2.4 Identification cohérente</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html">Comprendre le critère de succès Identification cohérente (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#consistent-identification">Comment satisfaire au critère de succès Identification cohérente (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html">Comprendre le critère de succès Identification cohérente (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#consistent-identification">Comment satisfaire au critère de succès Identification cohérente (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Dans un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-set-of-web-pages">ensemble de pages Web</a>, les composants qui ont la même fonction sont identifiés de la même façon.</p>
+				<p>Dans un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-set-of-web-pages">ensemble de pages Web</a>, les composants qui ont la même fonction sont identifiés de la même façon.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.2.4 Identification cohérente</strong></p>
@@ -4251,7 +4251,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#consistent-identification">critère de succès 3.2.4 Identification cohérente</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#consistent-identification">critère de succès 3.2.4 Identification cohérente</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4272,12 +4272,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.3.1 Identification des erreurs</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs</a>.</p>
 				<p><strong>Critère de succès 3.3.1 Identification des erreurs</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-identification.html">Comprendre le critère de succès Identification des erreurs (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-identification">Comment satisfaire au critère de succès Identification des erreurs (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html">Comprendre le critère de succès Identification des erreurs (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#error-identification">Comment satisfaire au critère de succès Identification des erreurs (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Si une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est détectée automatiquement, l’élément en erreur est identifié et l’erreur est décrite à l’utilisateur sous forme de texte.</p>
+				<p>Si une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est détectée automatiquement, l’élément en erreur est identifié et l’erreur est décrite à l’utilisateur sous forme de texte.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.3.1 Identification des erreurs</strong></p>
@@ -4286,7 +4286,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4296,12 +4296,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.3.2 Étiquettes ou instructions</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions</a>.</p>
 				<p><strong>Critère de succès 3.3.2 Étiquettes ou instructions</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">Comprendre le critère de succès Étiquettes ou instructions (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">Comment satisfaire au critère Étiquettes ou instructions (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">Comprendre le critère de succès Étiquettes ou instructions (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">Comment satisfaire au critère Étiquettes ou instructions (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> sont présentées ou des instructions sont fournies quand un contenu requiert une saisie utilisateur.</p>
+				<p>Des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> sont présentées ou des instructions sont fournies quand un contenu requiert une saisie utilisateur.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.3.2 Étiquettes ou instructions</strong></p>
@@ -4310,7 +4310,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4320,12 +4320,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.3.3 Suggestion après une erreur</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur</a>.</p>
 				<p><strong>Critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html">Comprendre le critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-suggestion">Comment satisfaire au critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html">Comprendre le critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion">Comment satisfaire au critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Si une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est automatiquement détectée et que des suggestions de corrections sont connues, ces suggestions sont alors proposées à l’utilisateur à moins que cela puisse compromettre la sécurité ou la finalité du contenu.</p>
+				<p>Si une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est automatiquement détectée et que des suggestions de corrections sont connues, ces suggestions sont alors proposées à l’utilisateur à moins que cela puisse compromettre la sécurité ou la finalité du contenu.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.3.3 Suggestion après une erreur</strong></p>
@@ -4334,7 +4334,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4344,12 +4344,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.3.3.4 Prévention des erreurs (juridiques, financières, de données)</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data">critère de succès 3.3.4 Prévention des erreurs (juridiques, financières, de données)</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data">critère de succès 3.3.4 Prévention des erreurs (juridiques, financières, de données)</a>.</p>
 				<p><strong>Critère de succès 3.3.4 Prévention des erreurs (juridiques, financières, de données) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">Comprendre le critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data">Comment satisfaire au critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a> </p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">Comprendre le critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data">Comment satisfaire au critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a> </p>
 				<p>(Niveau AA)</p>
-				<p>Pour les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">pages Web</a> qui donnent lieu à des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-legal-commitments">engagements juridiques</a> ou à des transactions financières de la part de l’utilisateur qui soit modifient ou effacent des données <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-controllable">contrôlables par l’utilisateur</a> dans des systèmes de stockages de données, soit enregistrent les réponses de l’utilisateur à un test ou un examen, au moins l’une des conditions suivantes est vraie: </p>
+				<p>Pour les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-web-page-s">pages Web</a> qui donnent lieu à des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-legal-commitments">engagements juridiques</a> ou à des transactions financières de la part de l’utilisateur qui soit modifient ou effacent des données <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-controllable">contrôlables par l’utilisateur</a> dans des systèmes de stockages de données, soit enregistrent les réponses de l’utilisateur à un test ou un examen, au moins l’une des conditions suivantes est vraie: </p>
 				<ul>
 					<li>Réversible: les actions d’envoi sont réversibles</li>
 					<li>Vérifiée: les données saisies par l’utilisateur sont vérifiées au niveau des erreurs de saisie et la possibilité est donnée à l’utilisateur de les corriger.</li>
@@ -4363,7 +4363,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data">critère de succès 3.3.4&nbsp;Identification des erreurs</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data">critère de succès 3.3.4&nbsp;Identification des erreurs</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4385,10 +4385,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.4.1.1 Analyse syntaxique</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#parsing">critère de succès 4.1.1 Analyse syntaxique</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#parsing">critère de succès 4.1.1 Analyse syntaxique</a>.</p>
 				<p><strong>Critère de succès 4.1.1 Analyse syntaxique des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Comprendre le critère de succès Analyse syntaxique (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#parsing">Comment satisfaire au critère de succès Analyse syntaxique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Comprendre le critère de succès Analyse syntaxique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#parsing">Comment satisfaire au critère de succès Analyse syntaxique (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 				<p>À moins que les spécifications ne le permettent, dans un contenu implémenté via un langage de balisage, les éléments ont des balises de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications, ils ne contiennent pas d’attributs dupliqués et chaque&nbsp;ID est unique. </p>
 				<p>REMARQUE: Les balises de début et de fin auxquelles il manque un caractère critique, comme une parenthèse fermante ou un guillemet de valeur d’attribut mal appropriée, sont considérées incomplètes.</p>
@@ -4400,7 +4400,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#parsing">critère de succès 4.1.1 Analyse syntaxique</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#parsing">critère de succès 4.1.1 Analyse syntaxique</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4410,12 +4410,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.4.1.2 Nom, rôle et valeur</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2 Nom, rôle et valeur</a>.</p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2 Nom, rôle et valeur</a>.</p>
 				<p><strong>Critère de succès 4.1.2 Nom, rôle et valeur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Comprendre le critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#name-role-value">Comment satisfaire au critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Comprendre le critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#name-role-value">Comment satisfaire au critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Pour tout <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> (comprenant, mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scriptes), le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> et le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-role">rôle</a> peuvent être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminés par un programme informatique</a> ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-set">définis par </a>un programme informatique ; et la notification des changements de ces éléments est disponible aux <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-agents">agents utilisateurs</a>, incluant les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </p>
+				<p>Pour tout <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> (comprenant, mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scriptes), le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> et le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-role">rôle</a> peuvent être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminés par un programme informatique</a> ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-set">définis par </a>un programme informatique ; et la notification des changements de ces éléments est disponible aux <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-agents">agents utilisateurs</a>, incluant les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </p>
 				<p>Remarque: Ce critère de succès s’adresse d’abord aux auteurs de sites Web qui développent ou programment leurs propres composants d’interface utilisateur. Les contrôles HTML standards se conforment déjà à ce critère de succès lorsqu’ils sont utilisés conformément à la spécification.</p>
 			</td>
 			<td>
@@ -4425,7 +4425,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2 Nom, rôle et valeur</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2 Nom, rôle et valeur</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4435,12 +4435,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>9.4.1.3 Messages d’état</strong></p>
-				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#status-messages">critère de succès 4.1.3 Messages d’état</a>. </p>
+				<p>Dans le cas où la technologie est une page Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#status-messages">critère de succès 4.1.3 Messages d’état</a>. </p>
 				<p><strong>Critère de succès 4.1.3 Messages d’état</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/status-messages.html">Comprendre le critère de succès Messages d’état (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#status-messages">Comment satisfaire au critère de succès Messages d’état (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html">Comprendre le critère de succès Messages d’état (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#status-messages">Comment satisfaire au critère de succès Messages d’état (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Dans les contenus implémentés à l’aide d’un langage de balisage, les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-status-messages">messages d’état</a> peuvent être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminés par un programme informatique</a> à l’aide de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-role">rôles</a> ou de propriétés, de sorte qu’ils puissent être présentés à l’utilisateur au moyen de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a> sans Au focus.</p>
+				<p>Dans les contenus implémentés à l’aide d’un langage de balisage, les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-status-messages">messages d’état</a> peuvent être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminés par un programme informatique</a> à l’aide de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-role">rôles</a> ou de propriétés, de sorte qu’ils puissent être présentés à l’utilisateur au moyen de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a> sans Au focus.</p>
 			</td>
 			<td>
 				<p><strong>C.9.4.1.3 Messages d’état</strong></p>
@@ -4449,7 +4449,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est une page Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#status-messages">critère de succès 4.1.3 Messages d’état</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#status-messages">critère de succès 4.1.3 Messages d’état</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4524,7 +4524,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>REMARQUE 2: Un document peut être composé de plusieurs fichiers, comme du contenu vidéo, des sous-titres, etc. La plupart du temps, cela n’est pas apparent pour l’utilisateur final qui parcourt le document/contenu.</p>
 				<p>REMARQUE 3: Les documents nécessitent un agent utilisateur pour que le contenu soit présenté à l’utilisateur. Les exigences relatives aux agents utilisateurs se trouvent à La clause 11.</p>
 				<p>REMARQUE 4: Les exigences relatives au contenu qui fait partie du logiciel se trouvent à la clause 11.</p>
-				<p>REMARQUE 5: Les critères de succès énoncés à la clause 10 visent à s’harmoniser avec la Note du groupe de travail [i.26] produite par le <a href="http://www.w3.org/WAI/GL/WCAG2ICT-TF/">WCAG2ICT Task Force</a> du W3C.</p>
+				<p>REMARQUE 5: Les critères de succès énoncés à la clause 10 visent à s’harmoniser avec la Note du groupe de travail [i.26] produite par le <a href="https://www.w3.org/WAI/GL/WCAG2ICT-TF/">WCAG2ICT Task Force</a> du W3C.</p>
 				<p>REMARQUE 6 : Des clauses « nul » ont été insérées afin de maintenir l’harmonisation avec la numérotation des clauses 9, 10 et 11.</p>
 				<p>REMARQUE 7 : Les exigences de la clause 10 s’appliquent également aux documents qui sont protégés par des mécanismes tels que les signatures numériques, le chiffrement, la protection par mot de passe et les filigranes lorsqu’ils sont présentés à l’utilisateur.</p>
 				<p>REMARQUE 8 : La pratique exemplaire consiste à utiliser WebSchemas/Accessibility 2.0 [i.38] pour fournir des métadonnées sur l’accessibilité du document au sein ou séparément du document.</p>
@@ -4549,20 +4549,20 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.1.1 Contenu non textuel</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel</a>.</p>
 				<p>REMARQUE: Les CAPTCHAS n’apparaissent pas actuellement hors du Web. Cependant, s’ils apparaissent, ce conseil est pertinent.</p>
 				<p><strong>Critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Comprendre le critère de succès Contenu non textuel (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Comment satisfaire au critère de succès Contenu non textuel (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Comprendre le critère de succès Contenu non textuel (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Comment satisfaire au critère de succès Contenu non textuel (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Tout <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-non-text-content">contenu non textuel</a> présenté à l’utilisateur comme <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-text-alternative">équivalent textuel</a> à l’exception des situations énumérées ci-dessous.</p>
+				<p>Tout <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-non-text-content">contenu non textuel</a> présenté à l’utilisateur comme <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text-alternative">équivalent textuel</a> à l’exception des situations énumérées ci-dessous.</p>
 				<ul>
-					<li>Composant d’interface ou de saisie: si le contenu non textuel est un composant d’interface ou s’il permet la saisie d’informations par l’utilisateur, alors il a un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> qui décrit sa fonction. (Se référer au <a href="http://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2</a> pour des exigences supplémentaires à propos des composants d’interface utilisateur ou des contenus qui permettent la saisie d’informations par l’utilisateur.)</li>
-					<li>Média temporel: si le contenu non textuel est un média temporel, alors l’équivalent textuel fournit au moins une identification descriptive du contenu non textuel. (Reportez-vous à la <a href="http://www.w3.org/Translations/WCAG21-fr/#time-based-media">Ligne directrice 1.2</a> pour obtenir d’autres exigences relatives aux médias.)</li>
-					<li>Test: si le contenu non textuel est un test ou un exercice qui serait invalide s’il était présenté en <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>, alors l’équivalent textuel fournit au moins une identification descriptive du contenu non textuel.</li>
-					<li>Contenu sensoriel: si le contenu non textuel vise d’abord à créer une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-specific-sensory-experience">expérience sensorielle spécifique</a>, l’équivalent textuel fournit au moins une identification descriptive de ce contenu non textuel.</li>
-					<li><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captcha">CAPTCHA</a>: si ce contenu non textuel vise à confirmer que le contenu est consulté par une personne plutôt que par un ordinateur, alors un équivalent textuel est fourni pour identifier et décrire la fonction du contenu non textuel, et d’autres formes du CAPTCHA sont proposées pour différents types de perception sensorielle afin d’accommoder différents types de limitations fonctionnelles.</li>
-					<li>Décoration, formatage, invisibilité: si le contenu non textuel est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">purement décoratif</a>, s’il est utilisé seulement pour un formatage visuel ou s’il n’est pas présenté à l’utilisateur, alors il est implémenté de manière à être ignoré par les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>.</li>
+					<li>Composant d’interface ou de saisie: si le contenu non textuel est un composant d’interface ou s’il permet la saisie d’informations par l’utilisateur, alors il a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> qui décrit sa fonction. (Se référer au <a href="https://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2</a> pour des exigences supplémentaires à propos des composants d’interface utilisateur ou des contenus qui permettent la saisie d’informations par l’utilisateur.)</li>
+					<li>Média temporel: si le contenu non textuel est un média temporel, alors l’équivalent textuel fournit au moins une identification descriptive du contenu non textuel. (Reportez-vous à la <a href="https://www.w3.org/Translations/WCAG21-fr/#time-based-media">Ligne directrice 1.2</a> pour obtenir d’autres exigences relatives aux médias.)</li>
+					<li>Test: si le contenu non textuel est un test ou un exercice qui serait invalide s’il était présenté en <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>, alors l’équivalent textuel fournit au moins une identification descriptive du contenu non textuel.</li>
+					<li>Contenu sensoriel: si le contenu non textuel vise d’abord à créer une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-specific-sensory-experience">expérience sensorielle spécifique</a>, l’équivalent textuel fournit au moins une identification descriptive de ce contenu non textuel.</li>
+					<li><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captcha">CAPTCHA</a>: si ce contenu non textuel vise à confirmer que le contenu est consulté par une personne plutôt que par un ordinateur, alors un équivalent textuel est fourni pour identifier et décrire la fonction du contenu non textuel, et d’autres formes du CAPTCHA sont proposées pour différents types de perception sensorielle afin d’accommoder différents types de limitations fonctionnelles.</li>
+					<li>Décoration, formatage, invisibilité: si le contenu non textuel est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">purement décoratif</a>, s’il est utilisé seulement pour un formatage visuel ou s’il n’est pas présenté à l’utilisateur, alors il est implémenté de manière à être ignoré par les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>.</li>
 				</ul>
 			</td>
 			<td>
@@ -4572,7 +4572,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -4593,15 +4593,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés)</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">critère de succès 1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés)</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">critère de succès 1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés)</a>.</p>
 				<p>REMARQUE: Le média de remplacement peut être fourni directement dans le document – ou fourni dans une version de remplacement qui satisfait au critère de succès.</p>
 				<p><strong>Critère de succès 1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html">Comprendre le critère de succès seulement audio et vidéo (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded">Comment satisfaire au critère de succès Contenus seulement audio et seulement vidéo (pré-enregistrés) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html">Comprendre le critère de succès seulement audio et vidéo (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded">Comment satisfaire au critère de succès Contenus seulement audio et seulement vidéo (pré-enregistrés) (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Pour des médias <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistrés seulement audio</a> et <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-video-only">pré-enregistrés seulement vidéo</a>, sauf si l’audio ou la vidéo sont un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’ils sont clairement identifiés comme tels:</p>
+				<p>Pour des médias <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistrés seulement audio</a> et <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-video-only">pré-enregistrés seulement vidéo</a>, sauf si l’audio ou la vidéo sont un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’ils sont clairement identifiés comme tels:</p>
 				<ul>
-					<li>Contenu pré-enregistré seulement audio: fournir une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a>, présentant une information équivalente au contenu seulement audio.</li>
+					<li>Contenu pré-enregistré seulement audio: fournir une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a>, présentant une information équivalente au contenu seulement audio.</li>
 					<li>Contenu pré-enregistré seulement vidéo: fournir, soit une version de remplacement pour un média temporel, soit une piste audio (présentant une information équivalente) pour un contenu pré-enregistré seulement vidéo.</li>
 				</ul>
 			</td>
@@ -4612,7 +4612,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">critère de succès 1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">critère de succès 1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4622,13 +4622,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.2.2 Sous-titres (pré-enregistrés)</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés)</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés)</a>.</p>
 				<p>REMARQUE: La définition de « sous-titres » donnée par les WCAG 2.1 précise que « dans certains pays, les sous-titres sont appelés <em>captions</em> et <em>subtitles »</em>. On les appelle aussi parfois « sous-titres pour malentendants ». Selon la définition des WCAG 2.1, pour satisfaire à ce critère de succès, qu’il s’agisse de captions ou de subtitles, les sous-titres doivent fournir un « visuel synchronisé ou équivalent textuel pour l’information audio avec ou sans paroles nécessaires à la compréhension du contenu d’un média », lorsque l’information sans paroles comprend des « effets sonores, de la musique, des rires, l’identification et le positionnement des interlocuteurs ».</p>
 				<p><strong>Critère de succès 1.2.2 Sous-titres (pré-enregistrés)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html">Comprendre le critère de succès 1.2.2 Sous-titres (pré-enregistrés) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">Comment satisfaire au critère Sous-titres (pré-enregistrés) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html">Comprendre le critère de succès 1.2.2 Sous-titres (pré-enregistrés) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">Comment satisfaire au critère Sous-titres (pré-enregistrés) (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Fournir des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">audio pré-enregistré</a> dans un média <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">synchronisé</a>, excepté lorsque le média est un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel.</p>
+				<p>Fournir des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">audio pré-enregistré</a> dans un média <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">synchronisé</a>, excepté lorsque le média est un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.2.2 Sous-titres (pré-enregistrés)</strong></p>
@@ -4637,7 +4637,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés)</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés)</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4647,14 +4647,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré)</strong></p>
-				<p>Lorsque la technologie n’est pas un document Web, celle­ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3&nbsp;audio-description ou version de remplacement pour un média temporel (pré-enregistré)</a>.</p>
+				<p>Lorsque la technologie n’est pas un document Web, celle­ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3&nbsp;audio-description ou version de remplacement pour un média temporel (pré-enregistré)</a>.</p>
 				<p>REMARQUE 1: La définition des WCAG 2.1 précise qu « audio-description » est également nommée « vidéo-description » et « narration descriptive ».</p>
 				<p>REMARQUE 2: Des pistes audio secondaires ou de remplacement sont couramment utilisées à cette fin. </p>
 				<p><strong>Critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html">Comprendre le critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">Comment satisfaire au critère&nbsp;1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html">Comprendre le critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">Comment satisfaire au critère&nbsp;1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré) (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Fournir une version de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">remplacement pour un média temporel</a> ou une audio-description du contenu <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-video">vidéo</a><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-prerecorded "> pré-enregistré pour un</a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>, excepté quand le média est un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel.</p>
+				<p>Fournir une version de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">remplacement pour un média temporel</a> ou une audio-description du contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-video">vidéo</a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded "> pré-enregistré pour un</a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>, excepté quand le média est un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré)</strong></p>
@@ -4663,7 +4663,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré)</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré)</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4673,13 +4673,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.2.4 Sous-titres (en direct)</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct)</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct)</a>.</p>
 				<p>REMARQUE: La définition de « sous-titres » donnée par les WCAG 2.1 précise que « dans certains pays, les sous-titres sont appelés <em>captions</em> et <em>subtitles</em> ». On les appelle aussi parfois « sous-titres pour malentendants ». Selon la définition des WCAG 2.1, pour satisfaire à ce critère de succès, qu’il s’agisse de captions ou de subtitles, les sous-titres doivent fournir un « visuel synchronisé ou équivalent textuel pour l’information audio avec ou sans paroles nécessaires à la compréhension du contenu d’un média », lorsque l’information sans paroles comprend des « effets sonores, de la musique, des rires, l’identification et le positionnement des interlocuteurs ».</p>
 				<p><strong>Critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-live.html">Comprendre le critère de succès Sous-titres (en direct) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">Comment satisfaire au critère de succès Sous-titres (en direct) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html">Comprendre le critère de succès Sous-titres (en direct) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">Comment satisfaire au critère de succès Sous-titres (en direct) (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Fournir des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-audio">audio </a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-live">en direct</a>, sous forme de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>. </p>
+				<p>Fournir des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio">audio </a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-live">en direct</a>, sous forme de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>. </p>
 			</td>
 			<td>
 				<p><strong>C.10.1.2.4 Sous-titres (en direct)</strong></p>
@@ -4688,7 +4688,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct)</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct)</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4698,14 +4698,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.2.5 Audio-description (pré-enregistrée)</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5&nbsp;audio-description (pré-enregistrée)</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5&nbsp;audio-description (pré-enregistrée)</a>.</p>
 				<p>REMARQUE 1: La définition des WCAG 2.1 précise qu’une «audio-description» est également nommée « vidéo-description » et « narration descriptive ».</p>
 				<p>REMARQUE 2: Des pistes audio secondaires ou de remplacement sont couramment utilisées à cette fin. </p>
 				<p><strong>Critère de succès 1.2.5 audio-description (pré-enregistrée)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">Comprendre le critère de succès audio-description (pré-enregistrée) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">Comment satisfaire au critère audio-description (pré-enregistrée) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">Comprendre le critère de succès audio-description (pré-enregistrée) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">Comment satisfaire au critère audio-description (pré-enregistrée) (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Fournir une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-audio-descriptions">audio-description</a> pour tout contenu <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-video">vidéo</a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded"> pré-enregistré</a>, sous forme de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>.</p>
+				<p>Fournir une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio-descriptions">audio-description</a> pour tout contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-video">vidéo</a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded"> pré-enregistré</a>, sous forme de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.2.5 Audio-description (pré-enregistrée)</strong></p>
@@ -4714,7 +4714,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5 audio-description (pré-enregistrée)</a>des WCAG 2.1.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5 audio-description (pré-enregistrée)</a>des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4735,13 +4735,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.3.1 Information et relations</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations</a>.</p>
 				<p>REMARQUE : Lorsque les documents contiennent des types de structure non standard (rôles), la pratique exemplaire consiste à les faire correspondre à un type de structure standard comme solution de secours pour le lecteur.</p>
 				<p><strong>Critère de succès 1.3.1 Information et relations des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendre le critère de succès Information et relations (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Comment satisfaire au critère de succès Information et relations (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendre le critère de succès Information et relations (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Comment satisfaire au critère de succès Information et relations (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>L’information, la <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-structure">structure</a> et les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-relationships">relations</a> véhiculées par la <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a>peuvent être déterminées par <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">un programme informatique</a> ou sont disponibles sous forme de texte.</p>
+				<p>L’information, la <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-structure">structure</a> et les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-relationships">relations</a> véhiculées par la <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a>peuvent être déterminées par <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">un programme informatique</a> ou sont disponibles sous forme de texte.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.3.1 Information et relations</strong></p>
@@ -4750,7 +4750,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -4760,12 +4760,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.3.2 Ordre séquentiel logique</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Comprendre l’ordre séquentiel logique (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">Comment satisfaire au critère Ordre séquentiel logique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Comprendre l’ordre séquentiel logique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">Comment satisfaire au critère Ordre séquentiel logique (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Lorsque l’ordre de présentation du contenu affecte sa signification, un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-correct-reading-sequence">ordre de lecture correct</a> peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminé par un programme informatique</a>.</p>
+				<p>Lorsque l’ordre de présentation du contenu affecte sa signification, un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-correct-reading-sequence">ordre de lecture correct</a> peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminé par un programme informatique</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.3.2 Ordre séquentiel logique</strong></p>
@@ -4774,7 +4774,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -4784,13 +4784,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.3.3 Caractéristiques sensorielles</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Comprendre les caractéristiques sensorielles (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics">Comment satisfaire au critère Caractéristiques sensorielles (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Comprendre les caractéristiques sensorielles (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics">Comment satisfaire au critère Caractéristiques sensorielles (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 				<p>Les instructions données pour la compréhension et l’utilisation du contenu ne doivent pas reposer uniquement sur les caractéristiques sensorielles des éléments comme la forme, la couleur, la taille, l’emplacement visuel, l’orientation ou le son.</p>
-				<p>Remarque: Pour les exigences liées à la couleur, se référer à la <a href="http://www.w3.org/Translations/WCAG21-fr/#Distinguable">Règle 1.4</a>.</p>
+				<p>Remarque: Pour les exigences liées à la couleur, se référer à la <a href="https://www.w3.org/Translations/WCAG21-fr/#Distinguable">Règle 1.4</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.3.3 Caractéristiques sensorielles</strong></p>
@@ -4799,7 +4799,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -4809,12 +4809,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.3.4 Orientation</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.4 Orientation des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Comprendre l’orientation (en anglais seulement)</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#orientation">Comment satisfaire au critère Orientation (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Comprendre l’orientation (en anglais seulement)</a> </p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#orientation">Comment satisfaire au critère Orientation (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Le contenu ne limite pas son affichage et son fonctionnement à une seule orientation d’affichage, comme le portrait ou le paysage, à moins qu’une orientation d’affichage spécifique soit <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a>.</p>
+				<p>Le contenu ne limite pas son affichage et son fonctionnement à une seule orientation d’affichage, comme le portrait ou le paysage, à moins qu’une orientation d’affichage spécifique soit <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a>.</p>
 				<p>Remarque: Parmi les exemples où une orientation particulière de l’affichage peut être essentielle, on retrouve les chèques de banque, une application de piano, des diapositives pour un projecteur ou un téléviseur, ou un contenu de réalité virtuelle où l’orientation binaire de l’affichage n’est pas applicable.</p>
 			</td>
 			<td>
@@ -4824,7 +4824,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables:</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -4834,14 +4834,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.3.5 Identifier la finalité de la saisie</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Comprendre la Finalité d’un champ de saisie (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">Comment satisfaire au critère Finalité d’un champ de saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Comprendre la Finalité d’un champ de saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">Comment satisfaire au critère Finalité d’un champ de saisie (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La finalité de chaque champ de saisie recueillant des informations sur l’utilisateur peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminée par un programme informatique</a> lorsque:</p>
+				<p>La finalité de chaque champ de saisie recueillant des informations sur l’utilisateur peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminée par un programme informatique</a> lorsque:</p>
 				<ul>
-					<li>Le champ de saisie répond à une finalité identifiée dans la section <a href="http://www.w3.org/Translations/WCAG21-fr/#input-purposes">Fonctions de saisie des composants de l’interface utilisateur</a>; et.</li>
+					<li>Le champ de saisie répond à une finalité identifiée dans la section <a href="https://www.w3.org/Translations/WCAG21-fr/#input-purposes">Fonctions de saisie des composants de l’interface utilisateur</a>; et.</li>
 					<li>Le contenu est implémenté via des technologies permettant d’identifier la finalité de la saisie attendue pour le champ.</li>
 				</ul>
 			</td>
@@ -4852,7 +4852,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -4873,13 +4873,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.4.1 Utilisation de la couleur</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Comprendre l’utilisation de la couleur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#use-of-color">Comment satisfaire au critère Utilisation de la couleur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Comprendre l’utilisation de la couleur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#use-of-color">Comment satisfaire au critère Utilisation de la couleur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 				<p>La couleur n’est pas utilisée comme la seule façon de véhiculer de l’information, d’indiquer une action, de solliciter une réponse ou de distinguer un élément visuel.</p>
-				<p>Remarque&nbsp;: Ce critère de succès traite spécifiquement de la perception des couleurs. Les autres formes de perception sont traitées à la <a href="http://www.w3.org/Translations/WCAG21-fr/#adaptable">règle 1.3</a> comme l’accès à la couleur par un programme informatique et les autres formes de codage de la présentation visuelle.</p>
+				<p>Remarque&nbsp;: Ce critère de succès traite spécifiquement de la perception des couleurs. Les autres formes de perception sont traitées à la <a href="https://www.w3.org/Translations/WCAG21-fr/#adaptable">règle 1.3</a> comme l’accès à la couleur par un programme informatique et les autres formes de codage de la présentation visuelle.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.1 Utilisation de la couleur</strong></p>
@@ -4888,7 +4888,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -4900,12 +4900,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.1.4.2 Contrôle du son</strong></p>
 				<p>Lorsque la TIC est un document hors ligne, elle doit satisfaire au critère de succès indiqué dans le tableau 10.1.</p>
 				<p><strong>Tableau 10.1: Critère de succès du document: Contrôle du son</strong></p>
-				<p>Si la lecture d’un fichier audio tiré d’un document dure plus de 3 secondes, un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour le mettre en pause, l’arrêter ou pour en contrôler le volume de façon indépendante du niveau de volume du système général.</p>
+				<p>Si la lecture d’un fichier audio tiré d’un document dure plus de 3 secondes, un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour le mettre en pause, l’arrêter ou pour en contrôler le volume de façon indépendante du niveau de volume du système général.</p>
 				<p>REMARQUE 1: Puisque toute partie d’un document ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter le document entier, tout le contenu présent dans le document (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès.</p>
-				<p>REMARQUE 2: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>, après remplacement de « sur une page Web » par « sur un document », de « tout contenu » par « toute partie d’un document », de « page entière » par « document entier », de « sur la page Web » par « sur le document », après suppression de « Voir l’exigence de conformité 5: Non-interférence » et après l’ajout de la note 1.</p>
+				<p>REMARQUE 2: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>, après remplacement de « sur une page Web » par « sur un document », de « tout contenu » par « toute partie d’un document », de « page entière » par « document entier », de « sur la page Web » par « sur le document », après suppression de « Voir l’exigence de conformité 5: Non-interférence » et après l’ajout de la note 1.</p>
 				<p><strong>Critère de succès 1.4.2 Contrôle du son des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-control.html">Comprendre le contrôle du son (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-control">Comment satisfaire au critère Contrôle du son (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html">Comprendre le contrôle du son (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-control">Comment satisfaire au critère Contrôle du son (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -4925,15 +4925,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.4.3 Contraste (minimum)</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Comprendre le contraste (minimum)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">Comment satisfaire au critère Contraste (minimum)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Comprendre le contraste (minimum)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">Comment satisfaire au critère Contraste (minimum)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La présentation visuelle du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> et du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a> a un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 4,5:1, sauf dans les cas suivants:</p>
+				<p>La présentation visuelle du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> et du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a> a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 4,5:1, sauf dans les cas suivants:</p>
 				<ul>
-					<li>Texte agrandi: le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-large-scale">texte agrandi</a> et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1;</li>
-					<li>Texte décoratif: aucune exigence de contraste pour le texte ou le texte sous forme d’image qui fait partie d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> inactif, qui est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">purement décoratif</a>, qui est invisible pour tous ou qui est une partie d’une image contenant un autre contenu significatif. </li>
+					<li>Texte agrandi: le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-large-scale">texte agrandi</a> et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1;</li>
+					<li>Texte décoratif: aucune exigence de contraste pour le texte ou le texte sous forme d’image qui fait partie d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> inactif, qui est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">purement décoratif</a>, qui est invisible pour tous ou qui est une partie d’une image contenant un autre contenu significatif. </li>
 					<li>Logotypes: aucune exigence de contraste pour le texte faisant partie d’un logo ou d’un nom de marque.</li>
 				</ul>
 			</td>
@@ -4943,7 +4943,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>· 1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -4953,15 +4953,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.4.4 Redimensionnement du texte</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
 				<p>REMARQUE 1: Les contenus pour lesquels il existe des lecteurs de logiciels, des visualiseurs ou des éditeurs dotés d’une fonction de zoom de 200% répondraient automatiquement à ce critère de succès lorsqu’ils sont utilisés avec ces lecteurs, à moins que le contenu ne fonctionne pas avec le zoom. </p>
 				<p>REMARQUE 2: Ce critère de succès concerne la capacité de permettre aux utilisateurs d’agrandir le texte à l’écran au moins jusqu’à 200% sans avoir besoin d’avoir recours à des technologies d’assistance. Cela signifie que l’application fournit un moyen d’agrandir le texte à 200% (zoom ou autre) sans perte de contenu ou de fonctionnalité ou que l’application fonctionne avec les fonctions de la plateforme qui répondent à cette exigence.</p>
 				<p>REMARQUE 3: La pratique exemplaire consiste à n’utiliser que des polices qui permettent une mise à l’échelle sans perte de qualité (p. ex. une présentation pixellisée). Cela s'applique en particulier aux polices intégrées.</p>
 				<p><strong>Critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Comprendre le redimensionnement du texte (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#resize-text">Comment satisfaire au critère Redimensionnement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Comprendre le redimensionnement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#resize-text">Comment satisfaire au critère Redimensionnement du texte (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>À l’exception des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> et du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> peut être redimensionné jusqu’à 200% sans l’aide d’une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologie d’assistance</a>et sans perte de contenu ou de fonctionnalité.</p>
+				<p>À l’exception des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> et du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> peut être redimensionné jusqu’à 200% sans l’aide d’une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologie d’assistance</a>et sans perte de contenu ou de fonctionnalité.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.4 Redimensionnement du texte</strong></p>
@@ -4970,7 +4970,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -4980,15 +4980,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.4.5 Texte sous forme d’image</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Comprendre le texte sous forme d’image (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Comment satisfaire au critère Texte sous forme d’image (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Comprendre le texte sous forme d’image (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Comment satisfaire au critère Texte sous forme d’image (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Si les technologies utilisées peuvent réaliser la présentation visuelle, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>est utilisé pour véhiculer de l’information plutôt que du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, sauf dans les cas suivants:</p>
+				<p>Si les technologies utilisées peuvent réaliser la présentation visuelle, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>est utilisé pour véhiculer de l’information plutôt que du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, sauf dans les cas suivants:</p>
 				<ul>
-					<li>Personnalisable: Le texte sous forme d’image peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-visually-customized">personnalisé visuellement</a> selon les exigences de l’utilisateur;</li>
-					<li>Essentielle: Une présentation spécifique du texte est <a href="http://www.w3.org/Translations/WCAG21%20-fr/%23dfn-essential">essentielle</a> à l’information véhiculée.</li>
+					<li>Personnalisable: Le texte sous forme d’image peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-visually-customized">personnalisé visuellement</a> selon les exigences de l’utilisateur;</li>
+					<li>Essentielle: Une présentation spécifique du texte est <a href="https://www.w3.org/Translations/WCAG21%20-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
 				</ul>
 				<p>Remarque: Les logotypes sont considérés comme essentiels (le texte qui fait partie d’un logo ou d’un nom de marque).</p>
 			</td>
@@ -4999,7 +4999,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5013,16 +5013,16 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>Tableau 10.2: Critère de succès du document: Redistribution</strong></p>
 				<p>Le contenu peut être présenté sans perte d’information ou de fonctionnalité et sans nécessiter de défilement en deux dimensions en ce qui a trait aux éléments suivants:</p>
 				<ul>
-					<li>Contenu à défilement vertical d’une largeur équivalente à 320 <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>;</li>
-					<li>Contenu à défilement horizontal d’une hauteur équivalente à 256 <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>.</li>
+					<li>Contenu à défilement vertical d’une largeur équivalente à 320 <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>;</li>
+					<li>Contenu à défilement horizontal d’une hauteur équivalente à 256 <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>.</li>
 				</ul>
 				<p>Sauf pour les parties du contenu dont l’utilisation ou la compréhension nécessite une mise en page en deux dimensions.</p>
 				<p>REMARQUE 1: 320 pixels CSS équivalent à une largeur de fenêtre de départ de 1 280 pixels CSS avec un zoom de 400%. Pour les documents qui sont conçus pour défiler horizontalement (par exemple avec du texte vertical), les 256 pixels CSS équivalent à une hauteur de fenêtre de départ de 1 024 pixels avec un zoom de 400%.</p>
 				<p>REMARQUE 2: Les exemples de contenu qui nécessitent une mise en page bidimensionnelle sont les images, les cartes, les diagrammes, les vidéos, les jeux, les présentations, les tableaux de données et les interfaces où il est nécessaire de garder les barres d’outils en vue pendant la manipulation du contenu.</p>
-				<p>REMARQUE 3: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#reflow">critère de succès 1.4.10 Redistribution des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p>
+				<p>REMARQUE 3: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#reflow">critère de succès 1.4.10 Redistribution des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p>
 				<p><strong>Critère de succès 1.4.10 Redistribution des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/reflow.html">Comprendre la Redistribution (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#reflow">Comment satisfaire au critère Redistribution (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html">Comprendre la Redistribution (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#reflow">Comment satisfaire au critère Redistribution (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
 			</td>
 			<td>
@@ -5042,15 +5042,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.4.11 Contraste du contenu non textuel</strong></p>
-				<p>Lorsque la TIC est une page Web, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
+				<p>Lorsque la TIC est une page Web, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Comprendre le contraste des éléments non textuels (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast">Satisfaire au critère Contraste des éléments non textuels (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Comprendre le contraste des éléments non textuels (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast">Satisfaire au critère Contraste des éléments non textuels (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a> visuelle des éléments suivants a un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 3:1 par rapport aux couleurs adjacentes:</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a> visuelle des éléments suivants a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 3:1 par rapport aux couleurs adjacentes:</p>
 				<ul>
-					<li>Composants de l’interface utilisateur: Les informations visuelles nécessaires à l’identification des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants de l’interface utilisateur</a>et des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-states">états</a>, à l’exception des composants inactifs ou lorsque l’apparence du composant est déterminée par l’agent utilisateur et non modifiée par l’auteur;</li>
-					<li>Objets graphiques: Parties de graphiques nécessaires à la compréhension du contenu, sauf lorsqu’une présentation graphique particulière est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
+					<li>Composants de l’interface utilisateur: Les informations visuelles nécessaires à l’identification des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants de l’interface utilisateur</a>et des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-states">états</a>, à l’exception des composants inactifs ou lorsque l’apparence du composant est déterminée par l’agent utilisateur et non modifiée par l’auteur;</li>
+					<li>Objets graphiques: Parties de graphiques nécessaires à la compréhension du contenu, sauf lorsqu’une présentation graphique particulière est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
 				</ul>
 			</td>
 			<td>
@@ -5060,7 +5060,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un document hors ligne qui n’a pas de zone de présentation de contenu de taille fixe qui est essentielle à l’information véhiculée.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5070,12 +5070,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.4.12 Espacement du texte</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne qui est doté d’une interface utilisateur et qui n’a pas de zone de présentation de contenu de taille fixe essentielle à l’information véhiculée, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#text-spacing">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne qui est doté d’une interface utilisateur et qui n’a pas de zone de présentation de contenu de taille fixe essentielle à l’information véhiculée, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#text-spacing">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.12 Espacement du texte des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Comprendre l’espacement du texte (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#text-spacing">Comment satisfaire au critère Espacement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Comprendre l’espacement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#text-spacing">Comment satisfaire au critère Espacement du texte (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Dans les contenus mis en œuvre à l’aide de langages de balisage qui prennent en charge les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">propriétés de style </a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-style-properties">de texte</a> suivantes, aucune perte de contenu ou de fonctionnalité ne se produit en définissant tous les éléments suivants et en ne modifiant aucune autre propriété de style:</p>
+				<p>Dans les contenus mis en œuvre à l’aide de langages de balisage qui prennent en charge les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">propriétés de style </a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-style-properties">de texte</a> suivantes, aucune perte de contenu ou de fonctionnalité ne se produit en définissant tous les éléments suivants et en ne modifiant aucune autre propriété de style:</p>
 				<ul>
 					<li>Hauteur des lignes (interligne) jusqu’à au moins 1,5&nbsp;fois la taille de la police;</li>
 					<li>Espacement des paragraphes suivants jusqu’à au moins 2 fois la taille de la police;</li>
@@ -5091,7 +5091,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#text-spacing">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#text-spacing">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5101,19 +5101,19 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.1.4.13 Contenu au survol ou au focus</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Comprendre le Contenu en mode survol ou focus (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus">Comment satisfaire au critère Contenu en mode survol ou focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Comprendre le Contenu en mode survol ou focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus">Comment satisfaire au critère Contenu en mode survol ou focus (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
 				<p>Lorsque la réception puis la suppression du pointeur ou de la Au focus du clavier déclenchent l’affichage et le masquage d’un contenu supplémentaire, ce qui suit est vrai:</p>
 				<ul>
-					<li>Rejeté: Un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> permet de rejeter le contenu supplémentaire sans déplacer le pointeur ou la Au focus du clavier, à moins que le contenu supplémentaire ne communique une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a>ou n’obscurcisse ou ne remplace pas un autre contenu;</li>
+					<li>Rejeté: Un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> permet de rejeter le contenu supplémentaire sans déplacer le pointeur ou la Au focus du clavier, à moins que le contenu supplémentaire ne communique une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a>ou n’obscurcisse ou ne remplace pas un autre contenu;</li>
 					<li>Stationnaire: Si le survol du pointeur peut déclencher le contenu supplémentaire, alors le pointeur peut être déplacé sur le contenu supplémentaire sans que le contenu supplémentaire disparaisse; </li>
 					<li>Persistant: Le contenu supplémentaire reste visible jusqu’à ce que le déclencheur de survol ou de Au focus soit supprimé, que l’utilisateur le rejette ou que ses informations ne soient plus valables.</li>
 				</ul>
 				<p>Exception: La présentation visuelle du contenu supplémentaire est contrôlée par l’agent utilisateur et n’est pas modifiée par l’auteur.</p>
-				<p>Remarque: Parmi les exemples de contenu supplémentaire contrôlé par l’agent utilisateur figurent les infobulles du navigateur créées à l’aide de l’<a href="http://www.w3.org/Translations/html/dom.html#the-title-attribute">attribut titre</a> HTML. </p>
+				<p>Remarque: Parmi les exemples de contenu supplémentaire contrôlé par l’agent utilisateur figurent les infobulles du navigateur créées à l’aide de l’<a href="https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute">attribut titre</a> HTML. </p>
 				<p>Remarque: Les infobulles, sous-menus et autres fenêtres contextuelles non modales qui s’affichent sur le survol et la Au focus sont des exemples de contenu supplémentaire couvert par ce critère. </p>
 			</td>
 			<td>
@@ -5123,7 +5123,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5145,12 +5145,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.2.1.1 Clavier</strong></p>
-				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>. </p>
+				<p>Dans le cas où la TIC est un document hors ligne, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>. </p>
 				<p><strong>Critère de succès 2.1.1 Clavier des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Comprendre le clavier (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#keyboard">Comment satisfaire au critère Clavier (en anglais seulement)</a> </p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Comprendre le clavier (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#keyboard">Comment satisfaire au critère Clavier (en anglais seulement)</a> </p>
 				<p>(Niveau A)</p>
-				<p>Toutes <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">les fonctions</a> du contenu sont contrôlées par une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a> qui n’exige pas de rythmes de frappe particuliers, sauf lorsque la fonction sous-jacente nécessite des données indiquant la trajectoire donnée par l’utilisateur en plus des points finaux.</p>
+				<p>Toutes <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">les fonctions</a> du contenu sont contrôlées par une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a> qui n’exige pas de rythmes de frappe particuliers, sauf lorsque la fonction sous-jacente nécessite des données indiquant la trajectoire donnée par l’utilisateur en plus des points finaux.</p>
 				<p>Remarque: Cette exception s’applique à la fonction sous-jacente et non à la technique d’entrée. Par exemple, si la saisie se fait par écriture manuscrite, la technique de saisie (écriture manuscrite) nécessitera une saisie qui dépend du tracé, mais non pas de la fonction sous-jacente (saisie de texte).</p>
 				<p>Remarque: Rien de ce qui précède ne vient s’opposer à l’utilisation de la souris ni aux méthodes de saisie autres que l’utilisation du clavier.</p>
 			</td>
@@ -5161,7 +5161,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5173,12 +5173,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.2.1.2 Pas de piège au clavier</strong></p>
 				<p>Lorsque la TIC est un document hors ligne, elle doit satisfaire au critère de succès indiqué dans le tableau 10.3.</p>
 				<p><strong>Tableau 10.3: Critère de succès du document: Pas de piège au clavier</strong></p>
-				<p>Si la Au focus du clavier peut être positionnée sur un élément de la page à l’aide d’une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a>, réciproquement, il peut être déplacé hors de ce même composant simplement à l’aide d’une interface clavier et, si ce déplacement exige plus que l’utilisation d’une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l’utilisateur est informé de la méthode permettant de déplacer la Au focus hors de ce composant.</p>
+				<p>Si la Au focus du clavier peut être positionnée sur un élément de la page à l’aide d’une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a>, réciproquement, il peut être déplacé hors de ce même composant simplement à l’aide d’une interface clavier et, si ce déplacement exige plus que l’utilisation d’une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l’utilisateur est informé de la méthode permettant de déplacer la Au focus hors de ce composant.</p>
 				<p>REMARQUE 1: Puisque toute partie d’un document ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter le document entier, il est nécessaire que tout le contenu présent dans le document (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) satisfasse à ce critère de succès.</p>
 				<p>REMARQUE 2: La méthode standard de sortie pourrait varier d’une plateforme à l’autre. Par exemple, la touche Échap est une méthode standard de sortie sur de nombreuses plateformes de bureau.</p>
 				<p><strong>Critère de succès 2.1.2 Pas de piège au clavier des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">Comprendre pas de piège au clavier (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">Comment satisfaire au critère pas de piège au clavier&nbsp; (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">Comprendre pas de piège au clavier (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">Comment satisfaire au critère pas de piège au clavier&nbsp; (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5198,16 +5198,16 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.2.1.4 Raccourcis clavier utilisant des caractères</strong></p>
-				<p>Lorsque les TIC sont une page Web, elles doivent satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts">critère de succès 2.1.4 Raccourcis clavier des caractères des WCAG 2.1 </a>.</p>
+				<p>Lorsque les TIC sont une page Web, elles doivent satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts">critère de succès 2.1.4 Raccourcis clavier des caractères des WCAG 2.1 </a>.</p>
 				<p><strong>Critère de succès 2.1.4 Raccourcis clavier utilisant des caractères des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">Comprendre les Raccourcis clavier utilisant des caractères</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts">Comment utiliser les Raccourcis clavier utilisant des caractères</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">Comprendre les Raccourcis clavier utilisant des caractères</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts">Comment utiliser les Raccourcis clavier utilisant des caractères</a></p>
 				<p>(Niveau A)</p>
-				<p>Si un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-shortcuts">raccourci clavier</a> est mis en œuvre dans le contenu en utilisant uniquement des lettres (y compris les lettres majuscules et minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins un des éléments suivants est vrai:</p>
+				<p>Si un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-shortcuts">raccourci clavier</a> est mis en œuvre dans le contenu en utilisant uniquement des lettres (y compris les lettres majuscules et minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins un des éléments suivants est vrai:</p>
 				<ul>
-					<li>Désactiver: Un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour désactiver le raccourci;</li>
+					<li>Désactiver: Un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour désactiver le raccourci;</li>
 					<li>Réassigner : Un mécanisme est offert pour remapper le raccourci afin d’utiliser un ou plusieurs caractères clavier non imprimables (par exemple Ctrl, Alt, etc.);</li>
-					<li>Actif uniquement au focus : le raccourci clavier pour un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a>n’est actif que lorsque ce composant a le focus.</li>
+					<li>Actif uniquement au focus : le raccourci clavier pour un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a>n’est actif que lorsque ce composant a le focus.</li>
 				</ul>
 			</td>
 			<td>
@@ -5217,7 +5217,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure:</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts">critère de succès 2.1.4 Raccourcis clavier des caractères des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts">critère de succès 2.1.4 Raccourcis clavier des caractères des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5246,14 +5246,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 					<li>Ajustement: L’utilisateur a la possibilité d’ajuster la limite de temps avant de la rencontrer dans un intervalle d’au moins dix fois la durée paramétrée par défaut; ou</li>
 					<li>Extension: L’utilisateur est averti avant que la limite de temps expire et il lui est accordé au moins 20 secondes pour étendre cette limite par une action simple (par exemple, « appuyer sur la barre d’espace ») et l’utilisateur a la possibilité d’étendre la limite de temps au moins dix&nbsp;fois; ou</li>
 					<li>L’exception du temps réel: La limite de temps est une partie constitutive d’un événement en temps réel (par exemple, une enchère) et aucune solution de rechange n’est possible; ou</li>
-					<li>L’exception de la limite essentielle: La limite de temps est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a>et l’étendre invaliderait alors l’activité; ou</li>
+					<li>L’exception de la limite essentielle: La limite de temps est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a>et l’étendre invaliderait alors l’activité; ou</li>
 					<li>L’exception des 20 heures: La limite de temps est supérieure à 20 heures.</li>
 				</ul>
-				<p>REMARQUE 1: Ce critère de succès permet de s’assurer que les utilisateurs peuvent accomplir les tâches sans changements inattendus dans le contenu ou le contexte résultant d’une limite de temps. Ce critère de succès doit être considéré conjointement avec le <a href="http://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 des WCAG 2.1</a>, qui impose des limites aux changements de contenu ou de contexte résultant de l’action des utilisateurs. </p>
-				<p>REMARQUE 2: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai des WCAG 2.1</a>, après le remplacement de « le contenu » par « documents » et l’ajout des mots « des WCAG 2.1 » après les mots « critère de succès » à la note 1 ci-dessus.</p>
+				<p>REMARQUE 1: Ce critère de succès permet de s’assurer que les utilisateurs peuvent accomplir les tâches sans changements inattendus dans le contenu ou le contexte résultant d’une limite de temps. Ce critère de succès doit être considéré conjointement avec le <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 des WCAG 2.1</a>, qui impose des limites aux changements de contenu ou de contexte résultant de l’action des utilisateurs. </p>
+				<p>REMARQUE 2: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai des WCAG 2.1</a>, après le remplacement de « le contenu » par « documents » et l’ajout des mots « des WCAG 2.1 » après les mots « critère de succès » à la note 1 ci-dessus.</p>
 				<p><strong>Critère de succès 2.2.1 Réglage du délai des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html">Comprendre le Réglage du délai (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable">Comment satisfaire au critère Réglage du délai (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html">Comprendre le Réglage du délai (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable">Comment satisfaire au critère Réglage du délai (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5275,19 +5275,19 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.2.2.2 Mettre en pause, arrêter, masquer</strong></p>
 				<p>Lorsque la TIC est un document hors ligne, elle doit satisfaire au critère de succès indiqué dans le tableau 10.5.</p>
 				<p><strong>Tableau 10.5: Critère de succès du document: Mettre en pause, arrêter, masquer</strong></p>
-				<p>Pour déplacer, <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-blinking">faire clignoter</a>, faire défiler ou mettre à jour automatiquement des informations, tous les éléments suivants sont vrais:</p>
+				<p>Pour déplacer, <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-blinking">faire clignoter</a>, faire défiler ou mettre à jour automatiquement des informations, tous les éléments suivants sont vrais:</p>
 				<ul>
-					<li>Déplacement, clignotement, défilement: Pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée en parallèle avec d’autres contenus, il existe un mécanisme permettant à l’utilisateur de mettre en <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-pause">pause</a>, d’arrêter ou de masquer l’information à moins que le déplacement, le clignement ou le défilement fasse partie d’une activité où cela est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel;</a> et </li>
+					<li>Déplacement, clignotement, défilement: Pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée en parallèle avec d’autres contenus, il existe un mécanisme permettant à l’utilisateur de mettre en <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-pause">pause</a>, d’arrêter ou de masquer l’information à moins que le déplacement, le clignement ou le défilement fasse partie d’une activité où cela est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel;</a> et </li>
 					<li>Mise à jour automatique: Pour toute mise à jour qui (1) démarre automatiquement et (2) est présentée en parallèle avec d’autres contenus, il existe un mécanisme permettant à l’utilisateur de la mettre en pause, de l’arrêter, de la masquer ou de contrôler sa fréquence, sauf si la mise à jour automatique fait partie d’une activité où elle est essentielle.</li>
 				</ul>
-				<p>REMARQUE 1: Pour les exigences relatives au contenu clignotant ou avec flash, se référer à la <a href="http://www.w3.org/Translations/WCAG21-fr/#seizures-and-physical-reactions">règle 2.3 des WCAG 2.1</a>. </p>
+				<p>REMARQUE 1: Pour les exigences relatives au contenu clignotant ou avec flash, se référer à la <a href="https://www.w3.org/Translations/WCAG21-fr/#seizures-and-physical-reactions">règle 2.3 des WCAG 2.1</a>. </p>
 				<p>REMARQUE 2: Puisque toute partie d’un document ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter le document entier, il est nécessaire que tout le contenu présent dans le document (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) satisfasse à ce critère de succès.</p>
 				<p>REMARQUE 3: Le contenu qui est mis à jour périodiquement par un logiciel ou qui est transmis en continu à l’agent utilisateur n’est pas tenu de préserver ou de présenter l’information générée ou reçue entre le début de la pause et la reprise de la présentation, car cela pourrait ne pas être techniquement possible et, dans de nombreuses situations, être trompeur.</p>
 				<p>REMARQUE 4: Une animation qui se produit dans le cadre d’une phase de préchargement ou d’une situation similaire peut être considérée comme essentielle si l’interaction ne peut pas se produire pendant cette phase pour tous les utilisateurs et si le fait de ne pas indiquer les progrès pouvait dérouter les utilisateurs ou leur faire croire que le contenu était gelé ou séparé.</p>
-				<p>REMARQUE 5: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer des WCAG 2.1</a>, après remplacement de « page » et de « page Web » par « document », suppression de « Voir l’exigence de conformité 5: Non-ingérence » dans la note 2 du critère de succès, l’ajout des mots « des WCAG 2.1 » à la suite de « règle 2.3 » à la note 1 et la reformulation de la note 2 de façon à éviter le verbe « devoir ».</p>
+				<p>REMARQUE 5: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer des WCAG 2.1</a>, après remplacement de « page » et de « page Web » par « document », suppression de « Voir l’exigence de conformité 5: Non-ingérence » dans la note 2 du critère de succès, l’ajout des mots « des WCAG 2.1 » à la suite de « règle 2.3 » à la note 1 et la reformulation de la note 2 de façon à éviter le verbe « devoir ».</p>
 				<p><strong>Critère de réussite 2.2.2 Mettre en pause, arrêter, masquer des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html">Comprendre le critère de succès Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">Comment satisfaire au critère Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html">Comprendre le critère de succès Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">Comment satisfaire au critère Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5319,12 +5319,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.2.3.1 Pas plus de trois flashs ou sous le seuil critique</strong></p>
 				<p>Lorsque la TIC est un document hors ligne, elle doit satisfaire au critère de succès indiqué dans le tableau 10.6.</p>
 				<p><strong>Tableau 10.6: Critère de succès du document: Pas plus de trois flashs ou sous le seuil critique</strong></p>
-				<p>Un document doit être exempt de tout élément qui flashe plus de trois fois dans n’importe quel intervalle d’une seconde ou ce <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-flashes">flash</a> doit se situer sous le seuil de flash générique et le seuil de flash rouge.</p>
+				<p>Un document doit être exempt de tout élément qui flashe plus de trois fois dans n’importe quel intervalle d’une seconde ou ce <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-flashes">flash</a> doit se situer sous le seuil de flash générique et le seuil de flash rouge.</p>
 				<p>REMARQUE 1: Puisque toute partie d’un document ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter le document entier, il est nécessaire que tout le contenu présent dans le document (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) satisfasse à ce critère de succès.</p>
-				<p>REMARQUE 2: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold">critère de succès 2.3.1&nbsp;Pas plus de trois flashs ou sous le seuil critique des WCAG 2.1</a> après remplacement de « pages Web » par « documents », de « la page entière » par « le document entier », « la page Web » par « le document », après suppression de « Voir l’exigence de conformité 5: Non-ingérence » et après la reformulation de la note 1 ci-dessus pour éviter le verbe « devoir ». </p>
+				<p>REMARQUE 2: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold">critère de succès 2.3.1&nbsp;Pas plus de trois flashs ou sous le seuil critique des WCAG 2.1</a> après remplacement de « pages Web » par « documents », de « la page entière » par « le document entier », « la page Web » par « le document », après suppression de « Voir l’exigence de conformité 5: Non-ingérence » et après la reformulation de la note 1 ci-dessus pour éviter le verbe « devoir ». </p>
 				<p><strong>Critère de succès 2.3.1 Pas plus de trois flashs ou sous le seuil critique des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html">Comprendre le critère de succès Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold">Comment satisfaire au critère Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html">Comprendre le critère de succès Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold">Comment satisfaire au critère Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5359,10 +5359,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>Tableau 10.7: Critère de succès du document: Titre de document</strong></p>
 				<p>Les documents présentent un titre qui décrit leur sujet ou leur but.</p>
 				<p>REMARQUE 1: Le nom d’un document (p.&nbsp;ex. document, fichier multimédia) peut servir de titre s’il décrit le sujet ou le but.</p>
-				<p>REMARQUE 2: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#page-titled">critère de succès 2.4.2 Titre de page des WCAG 2.1</a> après remplacement de « pages Web » par « documents » et après ajout de la note 1 ci-dessus.</p>
+				<p>REMARQUE 2: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#page-titled">critère de succès 2.4.2 Titre de page des WCAG 2.1</a> après remplacement de « pages Web » par « documents » et après ajout de la note 1 ci-dessus.</p>
 				<p><strong>Critère de succès 2.4.2 Titre de page des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/page-titled.html">Comprendre le critère de succès Titre de page (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#page-titled">Comment satisfaire au critère de succès Titre de page (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html">Comprendre le critère de succès Titre de page (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#page-titled">Comment satisfaire au critère de succès Titre de page (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5384,11 +5384,11 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.2.4.3 Parcours du focus</strong></p>
 				<p>Lorsque la TIC n’est pas un document Web, elle doit satisfaire au critère de succès indiqué dans le tableau 10.8.</p>
 				<p><strong>Tableau 10.8: Critère de succès du document: Parcours du focus</strong></p>
-				<p>Si un document peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-navigated-sequentially">parcourue de façon séquentielle</a> et que les séquences de navigation affectent la signification ou l’action, les éléments reçoivent la Au focus dans un ordre qui préserve la signification et l’opérabilité.</p>
-				<p>REMARQUE: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-order">critère de succès 2.4.3 Parcours de la cible de saisie des WCAG 2.1</a> après remplacement de « page Web » par « document ».</p>
+				<p>Si un document peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-navigated-sequentially">parcourue de façon séquentielle</a> et que les séquences de navigation affectent la signification ou l’action, les éléments reçoivent la Au focus dans un ordre qui préserve la signification et l’opérabilité.</p>
+				<p>REMARQUE: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-order">critère de succès 2.4.3 Parcours de la cible de saisie des WCAG 2.1</a> après remplacement de « page Web » par « document ».</p>
 				<p><strong>Critère de succès 2.4.3 Parcours du focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Comprendre le critère de succès Parcours du focus (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-order">Comment satisfaire au critère de succès Parcours du focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Comprendre le critère de succès Parcours du focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-order">Comment satisfaire au critère de succès Parcours du focus (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5406,12 +5406,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.2.4.4 Fonction du lien (selon le contexte)</strong></p>
-				<p>Dans le cas où la technologie est un document, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Fonction du lien (selon le contexte) des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie est un document, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Fonction du lien (selon le contexte) des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.4.4 Fonction du lien (selon le contexte) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">Comprendre le critère de succès Fonction du lien (selon le contexte)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">Comment satisfaire au critère de succès Fonction du lien (selon le contexte)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">Comprendre le critère de succès Fonction du lien (selon le contexte)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">Comment satisfaire au critère de succès Fonction du lien (selon le contexte)</a></p>
 				<p>(Niveau A)</p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-purpose-of-each-link">fonction de chaque lien</a> est déterminée par le texte du lien seul ou par le texte du lien associé à un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determined-link-context">contexte du lien déterminé par un programme informatique</a>, sauf si la fonction du lien est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-ambiguous-to-users-in-general">ambiguë pour tout utilisateur</a>.</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-purpose-of-each-link">fonction de chaque lien</a> est déterminée par le texte du lien seul ou par le texte du lien associé à un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determined-link-context">contexte du lien déterminé par un programme informatique</a>, sauf si la fonction du lien est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-ambiguous-to-users-in-general">ambiguë pour tout utilisateur</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.4.4 Fonction du lien (selon le contexte)</strong></p>
@@ -5420,7 +5420,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Fonction du lien (selon le contexte) des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Fonction du lien (selon le contexte) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5431,12 +5431,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.2.4.6 En-têtes et étiquettes</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.4.6 En-têtes et étiquettes des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html">Comprendre le critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">Comment satisfaire au critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html">Comprendre le critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">Comment satisfaire au critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Les en-têtes et les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> décrivent le sujet ou le but.</p>
+				<p>Les en-têtes et les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> décrivent le sujet ou le but.</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.4.6 En-têtes et étiquettes</strong></p>
@@ -5445,7 +5445,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5455,10 +5455,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.2.4.7 Visibilité du focus</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité de la cible de saisie des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité de la cible de saisie des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.4.7 Visibilité du focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Comprendre le critère de succès Visibilité du focus</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-visible">Comment satisfaire au critère de succès Visibilité du focus</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Comprendre le critère de succès Visibilité du focus</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-visible">Comment satisfaire au critère de succès Visibilité du focus</a></p>
 				<p>(Niveau AA)</p>
 				<p>Toute interface utilisable au clavier comporte un mode de fonctionnement où la Au focus est visible.</p>
 			</td>
@@ -5469,7 +5469,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité de la cible de saisie des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité de la cible de saisie des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5492,12 +5492,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.2.5.1 Gestes pour le contrôle du pointeur</strong></p>
 				<p>Lorsque la TIC n’est pas un document Web, elle doit satisfaire au critère de succès indiqué dans le tableau 10.9.</p>
 				<p><strong>Tableau 10.9: Critère de succès du document: Gestes pour le contrôle du pointeur</strong></p>
-				<p>Toutes les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui utilisent des mouvements multipoints ou basés sur un tracé pour exécuter une commande peuvent être utilisées avec un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a> sans mouvement basé sur un tracé, à moins qu’un mouvement multipoint ou basé sur un tracé soit <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</p>
+				<p>Toutes les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui utilisent des mouvements multipoints ou basés sur un tracé pour exécuter une commande peuvent être utilisées avec un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a> sans mouvement basé sur un tracé, à moins qu’un mouvement multipoint ou basé sur un tracé soit <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</p>
 				<p>REMARQUE 1: cette exigence s’applique aux documents qui interprètent les actions du pointeur (c.-à-d. qu’elle ne s’applique pas aux actions requises pour faire fonctionner l’agent utilisateur ou la technologie d’assistance).</p>
-				<p>REMARQUE 2: ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#pointer-gestures">critère de succès 2.5.1 Mouvements du pointeur des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par la note 1 ci-dessus.</p>
+				<p>REMARQUE 2: ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#pointer-gestures">critère de succès 2.5.1 Mouvements du pointeur des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par la note 1 ci-dessus.</p>
 				<p><strong>Critère de succès 2.5.1 Gestes pour le contrôle du pointeur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Comprendre le critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures">Comment satisfaire au critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Comprendre le critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures">Comment satisfaire au critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5519,19 +5519,19 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.2.5.2 Annulation de l’action du pointeur</strong></p>
 				<p>Lorsque la TIC n’est pas un document Web, elle doit satisfaire au critère de succès indiqué dans le tableau 10.10.</p>
 				<p><strong>Tableau 10.10: Critère de succès du document: Annulation de l’action du pointeur</strong></p>
-				<p>Dans le cas des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui peuvent fonctionner à l’aide d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a>, au moins l’un des éléments suivants est vrai:</p>
+				<p>Dans le cas des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui peuvent fonctionner à l’aide d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a>, au moins l’un des éléments suivants est vrai:</p>
 				<ul>
-					<li>Aucun événement descendant: l’<a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-down-event">événement descendant</a> n’est pas utilisé pour exécuter une partie de la fonction;</li>
-					<li>Abandonner ou Annuler: la fonction se termine avec l’<a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-up-event">événement ascendant</a> et un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour abandonner la fonction avant la fin ou pour annuler la fonction une fois l’exécution de la fonction terminée; </li>
+					<li>Aucun événement descendant: l’<a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-down-event">événement descendant</a> n’est pas utilisé pour exécuter une partie de la fonction;</li>
+					<li>Abandonner ou Annuler: la fonction se termine avec l’<a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-up-event">événement ascendant</a> et un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour abandonner la fonction avant la fin ou pour annuler la fonction une fois l’exécution de la fonction terminée; </li>
 					<li>Inversion de l’événement: l’événement montant inverse tout résultat de l’événement descendant précédent;</li>
 					<li>Essentiel: terminer la fonction sur inversion de&nbsp;l’événement est essentiel.</li>
 				</ul>
 				<p>REMARQUE 1: les fonctions qui émulent un appui clavier ou un pavé numérique sont considérées comme essentielles.</p>
 				<p>REMARQUE 2: cette exigence s’applique au contenu Web qui interprète les actions du pointeur (c.-à-d. qu’elle ne s’applique pas aux actions requises pour faire fonctionner l’agent utilisateur ou la technologie d’assistance).</p>
-				<p>REMARQUE 3: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation">critère de succès 2.5.2 Annulation du pointeur des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p>
+				<p>REMARQUE 3: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation">critère de succès 2.5.2 Annulation du pointeur des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p>
 				<p><strong>Critère de succès 2.5.2 Annulation de l’action du pointeur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html">Comprendre le critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation">Comment satisfaire au critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html">Comprendre le critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation">Comment satisfaire au critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5551,12 +5551,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.2.5.3 Étiquette dans le nom</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html">Comprendre le critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#label-in-name">Comment satisfaire au critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html">Comprendre le critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#label-in-name">Comment satisfaire au critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Pour les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface utilisateur</a> dont les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> contiennent du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> ou du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> contient le texte qui est présenté visuellement.</p>
+				<p>Pour les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface utilisateur</a> dont les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> contiennent du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> ou du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> contient le texte qui est présenté visuellement.</p>
 				<p>Remarque: il est grandement conseillé de placer le texte de l’étiquette au début du nom.</p>
 			</td>
 			<td>
@@ -5566,7 +5566,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5576,15 +5576,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.2.5.4 Activation par le mouvement</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.5.4 Activation par le mouvement</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html">Comprendre le critère de succès Activation par le mouvement (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#motion-actuation">Comment satisfaire au critère de succès Activation par le mouvement (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html">Comprendre le critère de succès Activation par le mouvement (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#motion-actuation">Comment satisfaire au critère de succès Activation par le mouvement (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctionnalités</a> qui peuvent être activées par un mouvement de l’appareil ou un mouvement de l’utilisateur peuvent également être activées par des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface utilisateur</a>, et la réponse au mouvement peut être désactivée pour éviter une activation accidentelle, sauf dans les cas suivants </p>
+				<p>Les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctionnalités</a> qui peuvent être activées par un mouvement de l’appareil ou un mouvement de l’utilisateur peuvent également être activées par des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface utilisateur</a>, et la réponse au mouvement peut être désactivée pour éviter une activation accidentelle, sauf dans les cas suivants </p>
 				<ul>
-					<li>Interface prise en charge: le mouvement est utilisé pour faire fonctionner la fonctionnalité au moyen d’une interface <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-accessibility-supported">qui prend en charge l’accessibilité</a>;</li>
-					<li>Essentiel: le mouvement est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a> pour exécuter la fonction, et ce faisant, il invalide l’activité.</li>
+					<li>Interface prise en charge: le mouvement est utilisé pour faire fonctionner la fonctionnalité au moyen d’une interface <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-accessibility-supported">qui prend en charge l’accessibilité</a>;</li>
+					<li>Essentiel: le mouvement est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a> pour exécuter la fonction, et ce faisant, il invalide l’activité.</li>
 				</ul>
 			</td>
 			<td>
@@ -5594,7 +5594,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5618,11 +5618,11 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.3.1.1 Langue du document</strong></p>
 				<p>Lorsque la TIC n’est pas un document Web, elle doit satisfaire au critère de succès indiqué dans le tableau 10.11.</p>
 				<p><strong>Tableau 10.11: Critère de succès du document: Langue du document</strong></p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> par défaut de chaque document peut être déterminée par un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a>.</p>
-				<p>REMARQUE: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#language-of-page">critère de succès 3.1.1 Langue de la page des WCAG 2.1</a> après remplacement de « page Web » par « document ».</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> par défaut de chaque document peut être déterminée par un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a>.</p>
+				<p>REMARQUE: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#language-of-page">critère de succès 3.1.1 Langue de la page des WCAG 2.1</a> après remplacement de « page Web » par « document ».</p>
 				<p><strong>Critère de succès 3.1.1 Langue de la page des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Comprendre le critère de succès Langue de la page (en anglais seulement) </a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-page">Comment satisfaire au critère de succès Langue de la page (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Comprendre le critère de succès Langue de la page (en anglais seulement) </a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-page">Comment satisfaire au critère de succès Langue de la page (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5644,13 +5644,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.3.1.2 Langue d’un passage</strong></p>
 				<p>Lorsque la TIC n’est pas un document Web, elle doit satisfaire au critère de succès indiqué dans le tableau 10.12.</p>
 				<p><strong>Tableau 10.12: Critère de succès du document: Langue d’un passage</strong></p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> de chaque passage ou expression du document peut être déterminée par un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a> sauf pour un nom propre, pour un terme technique, pour un mot dont la langue est indéterminée ou pour un mot ou une expression faisant partie du langage courant de la langue utilisée dans le contexte immédiat.</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> de chaque passage ou expression du document peut être déterminée par un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a> sauf pour un nom propre, pour un terme technique, pour un mot dont la langue est indéterminée ou pour un mot ou une expression faisant partie du langage courant de la langue utilisée dans le contexte immédiat.</p>
 				<p>REMARQUE 1: Pour certaines technologies de documentation, il n’existe pas de méthode de technologie d’assistance pouvant indiquer la langue des différents passages ou expressions du document, et il ne serait pas possible de satisfaire au critère de succès en utilisant ces technologies.</p>
 				<p>REMARQUE 2: L’héritage est une méthode courante. Par exemple, un document fournit la langue qu’il utilise et on peut supposer que tous les éléments de texte ou d’un élément d’interface utilisateur de ce document utiliseront la même langue, sauf indication contraire.</p>
-				<p>REMARQUE 3: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#language-of-parts">critère de succès 3.1.2 Langue d’un passage des WCAG 2.1</a> après remplacement de « contenu » par « document » et après ajout des notes 1 et 2 ci-dessus.</p>
+				<p>REMARQUE 3: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#language-of-parts">critère de succès 3.1.2 Langue d’un passage des WCAG 2.1</a> après remplacement de « contenu » par « document » et après ajout des notes 1 et 2 ci-dessus.</p>
 				<p><strong>Critère de succès 3.1.2 Langue d’un passage de WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html">Comprendre le critère de succès Langue d’un passage (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-parts">Comment satisfaire au critère de succès Langue d’un passage (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html">Comprendre le critère de succès Langue d’un passage (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts">Comment satisfaire au critère de succès Langue d’un passage (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
 			</td>
 			<td>
@@ -5681,13 +5681,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.3.2.1 Au focus</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 Au focus des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 Au focus des WCAG 2.1</a>.</p>
 				<p>REMARQUE: Certains documents composés et leurs agents utilisateurs sont conçus pour offrir des fonctions d’affichage et de modification très différentes selon la partie du document composé où les interactions ont lieu (par exemple, une présentation qui contient une feuille de calcul intégrée, dans laquelle les menus et les barres d’outils de l’agent utilisateur changent selon que l’utilisateur interagit avec le contenu de la présentation ou celui de la feuille de calcul intégrée). Si l’utilisateur utilise un mécanisme autre que celui de mettre la Au focus sur la partie du document composite avec laquelle il veut interagir (p. ex. par un choix de menu ou un mouvement spécial de clavier), tout changement de contexte qui en résulterait ne serait pas soumis à ce critère de succès parce qu’il n’a pas été causé par un déplacement de la Au focus.</p>
 				<p><strong>Critère de succès 3.2.1 Au focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-focus.html">Comprendre le critère de succès Au focus (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-focus">Comment satisfaire au critère de succès Au focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html">Comprendre le critère de succès Au focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#on-focus">Comment satisfaire au critère de succès Au focus (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Quand un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant de l’interface utilisateur</a> reçoit la Au focus, il ne doit pas amorcer un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement</a> de contexte.</p>
+				<p>Quand un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant de l’interface utilisateur</a> reçoit la Au focus, il ne doit pas amorcer un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement</a> de contexte.</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.2.1 Au focus</strong></p>
@@ -5696,7 +5696,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez si le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 Au focus des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez si le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 Au focus des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5706,12 +5706,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.3.2.2 À la saisie</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2 À la saisie des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2 À la saisie des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 3.2.2&nbsp;À la saisie des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-input.html">Comprendre le critère de succès À la saisie (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-input">Comment satisfaire au critère de succès À la saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/on-input.html">Comprendre le critère de succès À la saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#on-input">Comment satisfaire au critère de succès À la saisie (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Le changement de paramètre d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> ne doit pas amorcer de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>, à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.</p>
+				<p>Le changement de paramètre d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> ne doit pas amorcer de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>, à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.2.2 À la saisie</strong></p>
@@ -5720,7 +5720,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2 À la saisie des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2 À la saisie des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5741,12 +5741,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.3.3.1 Identification des erreurs</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 3.3.1 Identification des erreurs</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-identification.html">Comprendre le critère de succès Identification des erreurs (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-identification">Comment satisfaire au critère de succès Identification des erreurs (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html">Comprendre le critère de succès Identification des erreurs (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#error-identification">Comment satisfaire au critère de succès Identification des erreurs (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Si une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est détectée automatiquement, l’élément en erreur est identifié et l’erreur est décrite à l’utilisateur sous forme de texte.</p>
+				<p>Si une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est détectée automatiquement, l’élément en erreur est identifié et l’erreur est décrite à l’utilisateur sous forme de texte.</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.3.1 Identification des erreurs</strong></p>
@@ -5755,7 +5755,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5765,12 +5765,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.3.3.2 Étiquettes ou instructions</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 3.3.2 Étiquettes ou instructions</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">Comprendre le critère de succès Étiquettes ou instructions (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">Comment satisfaire au critère Étiquettes ou instructions (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">Comprendre le critère de succès Étiquettes ou instructions (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">Comment satisfaire au critère Étiquettes ou instructions (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> sont présentées ou des instructions sont fournies quand un contenu requiert une saisie utilisateur.</p>
+				<p>Des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> sont présentées ou des instructions sont fournies quand un contenu requiert une saisie utilisateur.</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.3.2 Étiquettes ou instructions</strong></p>
@@ -5779,7 +5779,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5789,12 +5789,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>10.3.3.3 Suggestion après une erreur</strong></p>
-				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la technologie n’est pas un document Web, celle-ci doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html">Comprendre le critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-suggestion">Comment satisfaire au critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html">Comprendre le critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion">Comment satisfaire au critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Si une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est automatiquement détectée et que des suggestions de corrections sont connues, ces suggestions sont alors proposées à l’utilisateur à moins que cela puisse compromettre la sécurité ou la finalité du contenu.</p>
+				<p>Si une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est automatiquement détectée et que des suggestions de corrections sont connues, ces suggestions sont alors proposées à l’utilisateur à moins que cela puisse compromettre la sécurité ou la finalité du contenu.</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.3.3 Suggestion après une erreur</strong></p>
@@ -5803,7 +5803,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC n’est pas un document Web.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</a>.</p>
 				<p>Résultat:</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -5815,14 +5815,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.3.3.4 Prévention des erreurs (juridiques, financières, de données)</strong></p>
 				<p>Lorsque la TIC n’est pas un document Web, elle doit satisfaire au critère de succès indiqué dans le tableau 10.13.</p>
 				<p><strong>Tableau 10.13: Critère de succès du document: Prévention des erreurs (juridiques, financières, de données)</strong></p>
-				<p>Lorsqu’un document donne lieu à des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-legal-commitments">engagements juridiques</a> ou à des transactions financières de la part de l’utilisateur qui soit modifient ou effacent des données <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-controllable">contrôlables par l’utilisateur</a> dans des systèmes de stockages de données, soit enregistrent les réponses de l’utilisateur à un test ou un examen, au moins l’une des conditions suivantes est vraie:</p>
+				<p>Lorsqu’un document donne lieu à des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-legal-commitments">engagements juridiques</a> ou à des transactions financières de la part de l’utilisateur qui soit modifient ou effacent des données <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-controllable">contrôlables par l’utilisateur</a> dans des systèmes de stockages de données, soit enregistrent les réponses de l’utilisateur à un test ou un examen, au moins l’une des conditions suivantes est vraie:</p>
 				<p>1. Réversible: les actions d’envoi sont réversibles</p>
 				<p>2. Vérifiée: les données saisies par l’utilisateur sont vérifiées au niveau des erreurs de saisie et la possibilité est donnée à l’utilisateur de les corriger.</p>
 				<p>3. Confirmée: un mécanisme est disponible pour revoir, confirmer et corriger les informations avant leur soumission finale.</p>
-				<p>REMARQUE: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data">critère de succès 3.3.4 Prévention des erreurs (juridique, financier, de données) des WCAG 2.1</a>après remplacement de « pages Web » par « documents ».</p>
+				<p>REMARQUE: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data">critère de succès 3.3.4 Prévention des erreurs (juridique, financier, de données) des WCAG 2.1</a>après remplacement de « pages Web » par « documents ».</p>
 				<p><strong>Critère de succès 3.3.4 Prévention des erreurs (juridiques, financières, de données) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">Comprendre le critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data">Comment satisfaire au critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a> </p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">Comprendre le critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data">Comment satisfaire au critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a> </p>
 				<p>(Niveau AA)</p>
 			</td>
 			<td>
@@ -5860,10 +5860,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>REMARQUE 1: Les balises de début et de fin auxquelles il manque un caractère critique, comme une parenthèse fermante ou un guillemet de valeur d’attribut mal appropriée, sont considérées incomplètes.</p>
 				<p>REMARQUE 2: Le balisage n’est pas toujours mis à la disposition des technologies d’assistance ou des agents utilisateurs sélectionnables par l’utilisateur tels que les navigateurs. Dans de tels cas, la conformité à cette disposition n’aurait aucune incidence sur l’accessibilité, comme c’est le cas pour le contenu Web lorsqu’il est exposé.</p>
 				<p>REMARQUE 3: Les exemples de balisage qui sont exposés séparément et disponibles pour les technologies d’assistance et les agents utilisateurs comprennent, sans s’y limiter: les documents encodés en HTML, ODF et OOXML. Dans ces exemples, le balisage peut être entièrement analysé de deux façons: a) par des technologies d’assistance qui peuvent ouvrir directement le document, b) par des technologies d’assistance utilisant des API DOM d’agents utilisateurs pour ces formats de document. </p>
-				<p>REMARQUE 4: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#parsing">critère de succès 4.1.1 Analyse syntaxique des WCAG 2.1</a> après remplacement de « Dans le contenu mis en œuvre en utilisant des langages de balisage » par « Lorsqu’un document utilise un langage de balisage de telle sorte que le balisage est visible et mis à la disposition des technologies d’assistance et des fonctions d’accessibilité du logiciel ou à un agent utilisateur sélectionnable par l’utilisateur » et après l’ajout des notes 2 et 3 ci-dessus.</p>
+				<p>REMARQUE 4: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#parsing">critère de succès 4.1.1 Analyse syntaxique des WCAG 2.1</a> après remplacement de « Dans le contenu mis en œuvre en utilisant des langages de balisage » par « Lorsqu’un document utilise un langage de balisage de telle sorte que le balisage est visible et mis à la disposition des technologies d’assistance et des fonctions d’accessibilité du logiciel ou à un agent utilisateur sélectionnable par l’utilisateur » et après l’ajout des notes 2 et 3 ci-dessus.</p>
 				<p><strong>Critère de succès 4.1.1 Analyse syntaxique des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Comprendre le critère de succès Analyse syntaxique (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#parsing">Comment satisfaire au critère de succès Analyse syntaxique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Comprendre le critère de succès Analyse syntaxique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#parsing">Comment satisfaire au critère de succès Analyse syntaxique (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5885,13 +5885,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>10.4.1.2 Nom, rôle et valeur</strong></p>
 				<p>Lorsque la TIC n’est pas un document Web, elle doit satisfaire au critère de succès indiqué dans le tableau 10.15.</p>
 				<p><strong>Tableau 10.15: Critère de succès du document: Nom, rôle et valeur</strong></p>
-				<p>Pour tout <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> (comprenant, mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scriptes), le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> et le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-role">rôle</a> peuvent être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminés par un programme informatique</a> ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-set">définis par </a>un programme informatique ; et la notification des changements de ces éléments est disponible aux <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-agents">agents utilisateurs</a>, incluant les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </p>
+				<p>Pour tout <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> (comprenant, mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scriptes), le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> et le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-role">rôle</a> peuvent être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminés par un programme informatique</a> ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-set">définis par </a>un programme informatique ; et la notification des changements de ces éléments est disponible aux <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-agents">agents utilisateurs</a>, incluant les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </p>
 				<p>REMARQUE 1: Ce critère de succès s’adresse principalement aux développeurs de logiciels qui développent ou utilisent des composants d’interface utilisateur personnalisés. Les composants d’interface utilisateur standard de la plupart des plateformes qui prennent en charge l’accessibilité répondent déjà à ce critère de succès lorsqu’ils sont utilisés conformément aux spécifications.</p>
 				<p>REMARQUE 2: Pour les formats de documents qui prennent en charge l’interopérabilité avec la technologie d’assistance, les composants d’interface utilisateur standard satisfont souvent à ce critère de succès lorsque leur usage est conforme aux indications générales en matière de conception et d’accessibilité pour le format du document.</p>
-				<p>REMARQUE 3: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2 Nom, rôle et valeur des WCAG 2.1</a> après remplacement de la note originale des WCAG 2.1 par note 1 et après ajout de la note 2 ci-dessus.</p>
+				<p>REMARQUE 3: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2 Nom, rôle et valeur des WCAG 2.1</a> après remplacement de la note originale des WCAG 2.1 par note 1 et après ajout de la note 2 ci-dessus.</p>
 				<p><strong>Critère de succès 4.1.2 Nom, rôle et valeur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Comprendre le critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#name-role-value">Comment satisfaire au critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Comprendre le critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#name-role-value">Comment satisfaire au critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -5912,7 +5912,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 			<td>
 				<p><strong>10.4.1.3 Messages d’état</strong></p>
 				<p><strong>Tableau 10.15: Critère de succès du document: Nom, rôle et valeur</strong></p>
-				<p>Lorsque la TIC est un document non Web, elle doit satisfaire <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#status-messages">critère de succès 4.1.3 Messages d’état des WCAG 2.1.</a></p>
+				<p>Lorsque la TIC est un document non Web, elle doit satisfaire <a href="https://www.w3.org/Translations/WCAG21-fr/#status-messages">critère de succès 4.1.3 Messages d’état des WCAG 2.1.</a></p>
 			</td>
 			<td>
 				<p><strong>C.10.4.1.3 Messages d’état</strong></p>
@@ -5921,7 +5921,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un document non Web</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au critère de succès <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#status-messages">4.1.3 Messages</a> d’état des WCAG 2.1.</p>
+				<p>1. Vérifier que le document n’échoue pas au critère de succès <a href="https://www.w3.org/Translations/WCAG21-fr/#status-messages">4.1.3 Messages</a> d’état des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -5981,7 +5981,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				</ul>
 				<p>La clause 9 énonce les exigences de conformité des logiciels qui se trouvent dans des pages Web ou qui sont intégrés dans des pages Web, et qui sont utilisés dans le rendu ou qui sont destinés à être rendus avec la page Web dans laquelle ils sont intégrés.</p>
 				<p>Certaines exigences des clauses 11.1 à 11.5 ont des versions différentes selon que la fonctionnalité est non restreinte ou restreinte. Dans ces cas, La clause correspondante est divisée en deux sous-dispositions.</p>
-				<p>Les critères de succès énoncés dans les clauses 11.1 à 11.5 visent à s’harmoniser avec la Note du groupe de travail [i.26] produite par le&nbsp;<a href="http://www.w3.org/WAI/GL/WCAG2ICT-TF/">WCAG2ICT Task Force</a> du W3C.</p>
+				<p>Les critères de succès énoncés dans les clauses 11.1 à 11.5 visent à s’harmoniser avec la Note du groupe de travail [i.26] produite par le&nbsp;<a href="https://www.w3.org/WAI/GL/WCAG2ICT-TF/">WCAG2ICT Task Force</a> du W3C.</p>
 				<p>REMARQUE 5: Le logiciel qui fournit une interface utilisateur comprend son propre contenu. Voici quelques exemples de contenu présent dans un logiciel: les composants d’interface et le texte d’une barre de menu issus d’une application d’interface utilisateur graphique, les icônes d’une barre d’outils, les invites prononcées dans une interface utilisateur audio, les autres commandes d’interaction utilisateur et les textes, graphiques ou documents qui sont chargés à l'extérieur du logiciel.</p>
 			</td>
 			<td>
@@ -6005,22 +6005,22 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.1.1.1 Contenu non textuel (fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
 				<p>REMARQUE: Les CAPTCHAS n’apparaissent pas actuellement hors du Web. Cependant, s’ils apparaissent, la présente directive est pertinente.</p>
 				<p><strong>Critère de succès 1.1.1&nbsp;Contenu non textuel des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Comprendre le critère de succès Contenu non textuel (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Comment satisfaire au critère de succès Contenu non textuel (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Comprendre le critère de succès Contenu non textuel (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Comment satisfaire au critère de succès Contenu non textuel (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Tout <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-non-text-content">contenu non textuel</a> présenté à l’utilisateur a un <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-text-alternative">équivalent textuel</a>, à l’exception des situations énumérées ci-dessous.</p>
+				<p>Tout <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-non-text-content">contenu non textuel</a> présenté à l’utilisateur a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text-alternative">équivalent textuel</a>, à l’exception des situations énumérées ci-dessous.</p>
 				<ul>
-					<li>Composant d’interface ou de saisie:&nbsp;si le contenu non textuel est un composant d’interface ou s’il permet la saisie d’informations par l’utilisateur, c’est qu’il a un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> qui décrit sa fonction. (Se référer au <a href="http://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2</a> pour des exigences supplémentaires à propos des composants d’interface utilisateur ou des contenus qui permettent la saisie d’informations par l’utilisateur.)</li>
-					<li>Média temporel: Si le contenu non textuel est un média temporel, fournissez au moins une description de ce contenu. (Reportez-vous à la <a href="http://www.w3.org/Translations/WCAG21-fr/#time-based-media">Ligne directrice 1.2</a> pour obtenir d’autres exigences relatives aux médias.)</li>
+					<li>Composant d’interface ou de saisie:&nbsp;si le contenu non textuel est un composant d’interface ou s’il permet la saisie d’informations par l’utilisateur, c’est qu’il a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> qui décrit sa fonction. (Se référer au <a href="https://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2</a> pour des exigences supplémentaires à propos des composants d’interface utilisateur ou des contenus qui permettent la saisie d’informations par l’utilisateur.)</li>
+					<li>Média temporel: Si le contenu non textuel est un média temporel, fournissez au moins une description de ce contenu. (Reportez-vous à la <a href="https://www.w3.org/Translations/WCAG21-fr/#time-based-media">Ligne directrice 1.2</a> pour obtenir d’autres exigences relatives aux médias.)</li>
 				</ul>
 				<ul>
-					<li>Test : si le contenu non textuel est un test ou un exercice qui serait invalide s’il était présenté en <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte,</a>, fournissez au moins une description de ce contenu.</li>
-					<li>Sensation: Si le contenu non textuel est principalement conçu pour créer une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-specific-sensory-experience">expérience sensorielle précise</a>, fournissez au moins une description de ce contenu.</li>
-					<li><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captcha">CAPTCHA</a>: Si du contenu non textuel est utilisé pour confirmer l’accès par une personne plutôt que par un ordinateur, fournissez du texte qui décrit la fonction du contenu et offrez d’autres formes CAPTCHA au moyen de formes de reconnaissance qui utilisent d’autres sens pour tenir compte de divers handicaps.</li>
-					<li>Décoration, format, invisibilité: Si le contenu non textuel est utilisé uniquement aux fins de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">décoration</a> et de formatage, ou n’est pas affiché à l’utilisateur, il peut être mis en œuvre d’une manière qui peut être ignorée par les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </li>
+					<li>Test : si le contenu non textuel est un test ou un exercice qui serait invalide s’il était présenté en <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte,</a>, fournissez au moins une description de ce contenu.</li>
+					<li>Sensation: Si le contenu non textuel est principalement conçu pour créer une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-specific-sensory-experience">expérience sensorielle précise</a>, fournissez au moins une description de ce contenu.</li>
+					<li><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captcha">CAPTCHA</a>: Si du contenu non textuel est utilisé pour confirmer l’accès par une personne plutôt que par un ordinateur, fournissez du texte qui décrit la fonction du contenu et offrez d’autres formes CAPTCHA au moyen de formes de reconnaissance qui utilisent d’autres sens pour tenir compte de divers handicaps.</li>
+					<li>Décoration, format, invisibilité: Si le contenu non textuel est utilisé uniquement aux fins de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">décoration</a> et de formatage, ou n’est pas affiché à l’utilisateur, il peut être mis en œuvre d’une manière qui peut être ignorée par les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </li>
 				</ul>
 			</td>
 			<td>
@@ -6031,7 +6031,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge l’accès aux technologies d’assistance pour la lecture d’écran.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-content">critère de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6055,7 +6055,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. Vérifier que la sortie vocale est fournie comme solution de rechange au contenu non textuel.</p>
 				<p>2. Vérifier que le contenu non textuel n’est pas seulement présent à titre décoratif.</p>
 				<p>3. Vérifier que le contenu non textuel n’est pas utilisé uniquement pour le formatage visuel.</p>
-				<p>4. Vérifier que la sortie vocale est conforme aux indications relatives à l’ équivalent textuel » décrit dans les <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#non-text-content">critères de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
+				<p>4. Vérifier que la sortie vocale est conforme aux indications relatives à l’ équivalent textuel » décrit dans les <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-content">critères de succès 1.1.1 Contenu non textuel des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: Les énoncés testables n<sup>os</sup>&nbsp;1, 2, 3 et 4 sont vrais; ou le n<sup>o</sup>&nbsp;1 et le n<sup>o</sup>&nbsp;2 sont faux; ou le n<sup>o</sup>&nbsp;1 et le n<sup>o</sup>&nbsp;3 sont faux.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai et le n<sup>o</sup>&nbsp;2 est faux; ou le n<sup>o</sup>&nbsp;1 est vrai et le n<sup>o</sup>&nbsp;3&nbsp;est faux; ou les n<sup>os</sup>&nbsp;1, 2 et 3 sont vrais et le n<sup>o</sup>&nbsp;4 est faux.</p>
@@ -6077,15 +6077,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.2.1.1 Contenu seulement audio et seulement vidéo (pré-enregistré – fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non-Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran et où un contenu audio préenregistré n’est pas nécessaire pour permettre l’utilisation des fonctions restreintes des TIC, la technologie remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">Critère de succès 1.2.1 Contenu seulement audio et seulement vidéo (pré-enregistré) des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non-Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran et où un contenu audio préenregistré n’est pas nécessaire pour permettre l’utilisation des fonctions restreintes des TIC, la technologie remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">Critère de succès 1.2.1 Contenu seulement audio et seulement vidéo (pré-enregistré) des WCAG 2.1</a>.</p>
 				<p>REMARQUE: Le média de remplacement peut être fourni directement dans le logiciel – ou fourni dans une version de remplacement qui satisfait au critère de succès.</p>
 				<p><strong>Critère de succès 1.2.1 Contenu seulement audio ou vidéo (pré-enregistré)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html">Comprendre le critère de succès Contenu seulement audio ou vidéo (pré-enregistré) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded">Comment satisfaire au critère de succès Contenu seulement audio ou vidéo (pré-enregistré) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html">Comprendre le critère de succès Contenu seulement audio ou vidéo (pré-enregistré) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded">Comment satisfaire au critère de succès Contenu seulement audio ou vidéo (pré-enregistré) (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Pour des médias <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistrés <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-audio-only">seulement audio</a></a> et <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-video-only">seulement vidéo</a>, les éléments suivants sont vrais, sauf si l’audio ou la vidéo est un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel:</p>
+				<p>Pour des médias <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded">pré-enregistrés <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio-only">seulement audio</a></a> et <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-video-only">seulement vidéo</a>, les éléments suivants sont vrais, sauf si l’audio ou la vidéo est un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel:</p>
 				<ul>
-					<li>Contenu pré-enregistré seulement audio: fournir une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a>, présentant une information équivalente au contenu seulement audio.</li>
+					<li>Contenu pré-enregistré seulement audio: fournir une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a>, présentant une information équivalente au contenu seulement audio.</li>
 					<li>Contenu pré-enregistré seulement vidéo: fournir, soit une version de remplacement pour un média temporel, soit une piste audio (présentant une information équivalente) pour un contenu pré-enregistré seulement vidéo.</li>
 				</ul>
 			</td>
@@ -6098,7 +6098,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>2. Le logiciel prend en charge l’accès aux technologies d’assistance pour la lecture d’écran.</p>
 				<p>3. Un contenu audio pré-enregistré n’est pas nécessaire pour permettre l’utilisation des fonctions restreintes de la TIC.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le document n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">critère de succès 1.2.1 Contenu seulement audio ou vidéo (pré-enregistré) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le document n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded">critère de succès 1.2.1 Contenu seulement audio ou vidéo (pré-enregistré) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -6162,13 +6162,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.2.2 Sous-titres (pré-enregistrés)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés) des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés) des WCAG 2.1</a>.</p>
 				<p>REMARQUE: La définition de « sous-titres » donnée par les WCAG 2.1 précise que « dans certains pays, les sous-titres sont appelés <em>captions</em> et <em>subtitles</em> ». On les appelle aussi parfois « sous-titres pour malentendants ». Selon la définition des WCAG 2.1, pour satisfaire à ce critère de succès, qu’il s’agisse de captions ou de subtitles, les sous-titres doivent fournir un « visuel synchronisé ou équivalent textuel pour l’information audio avec ou sans paroles nécessaires à la compréhension du contenu d’un média », lorsque l’information sans paroles comprend des « effets sonores, de la musique, des rires, l’identification et le positionnement des interlocuteurs ».</p>
 				<p><strong>Critères de succès 1.2.2 Sous-titres (pré-enregistrés) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html">Comprendre les sous-titres (pré-enregistrés) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">Comment satisfaire au critère Sous-titres (pré-enregistrés) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html">Comprendre les sous-titres (pré-enregistrés) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">Comment satisfaire au critère Sous-titres (pré-enregistrés) (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Fournir des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-audio"> audio </a><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-prerecorded ">préenregistré</a> dans un média <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">synchronisé</a>, excepté lorsque le média est un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel. </p>
+				<p>Fournir des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio"> audio </a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded ">préenregistré</a> dans un média <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">synchronisé</a>, excepté lorsque le média est un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel. </p>
 			</td>
 			<td>
 				<p><strong>C.11.1.2.2 Sous-titres (pré-enregistrés)</strong></p>
@@ -6177,7 +6177,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded">critère de succès 1.2.2 Sous-titres (pré-enregistrés) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -6198,14 +6198,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.2.3.1 Audio-description ou version de remplacement pour un média temporel (pré-enregistré et fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</a>.</p>
 				<p>REMARQUE 1: La définition des WCAG 2.1 précise qu’ « audio-description » est également nommée « vidéo-description » et « narration descriptive ».</p>
 				<p>REMARQUE 2: Des pistes audio secondaires ou de remplacement sont couramment utilisées à cette fin. </p>
 				<p><strong>Critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html">Comprendre audio-description ou version de remplacement pour un média temporel (pré-enregistré) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">Comment satisfaire au critère audio-description ou version de remplacement pour un média temporel (pré-enregistré) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html">Comprendre audio-description ou version de remplacement pour un média temporel (pré-enregistré) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">Comment satisfaire au critère audio-description ou version de remplacement pour un média temporel (pré-enregistré) (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Fournir une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a> ou une audio-descriptions du contenu <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-video">vidéo</a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded"> pré-enregistré</a> pour un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>, excepté quand le média est un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel.</p>
+				<p>Fournir une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-alternative-for-time-based-media">version de remplacement pour un média temporel</a> ou une audio-descriptions du contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-video">vidéo</a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded"> pré-enregistré</a> pour un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>, excepté quand le média est un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-media-alternative-for-text">média de remplacement pour un texte</a> et qu’il est clairement identifié comme tel.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.2.3.1 Audio-description ou version de remplacement pour un média temporel (pré-enregistré et fonction non restreinte)</strong></p>
@@ -6215,7 +6215,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge l’accès aux technologies d’assistance pour la lecture d’écran.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded">critère de succès 1.2.3 audio-description ou version de remplacement pour un média temporel (pré-enregistré) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -6246,13 +6246,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.2.4 Sous-titres (en direct)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1</a>.</p>
 				<p>REMARQUE: La définition de « sous-titres » donnée par les WCAG 2.1 précise que « dans certains pays, les sous-titres sont appelés <em>captions</em> et <em>subtitles</em> ». On les appelle aussi parfois « sous-titres pour malentendants ». Selon la définition des WCAG 2.1, pour satisfaire à ce critère de succès, qu’il s’agisse de captions ou de subtitles, les sous-titres doivent fournir un « visuel synchronisé ou équivalent textuel pour l’information audio avec ou sans paroles nécessaires à la compréhension du contenu d’un média », lorsque l’information sans paroles comprend des « effets sonores, de la musique, des rires, l’identification et le positionnement des interlocuteurs ».</p>
 				<p><strong>Critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-live.html">Comprendre le critère de succès Sous-titres (en direct) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-live">Comment satisfaire au critère de succès Sous-titres (en direct) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html">Comprendre le critère de succès Sous-titres (en direct) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#captions-live">Comment satisfaire au critère de succès Sous-titres (en direct) (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Fournir des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-audio">audio </a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-live ">en direct</a>, sous forme de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>. </p>
+				<p>Fournir des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> pour tout contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-audio">audio </a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-live ">en direct</a>, sous forme de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>. </p>
 			</td>
 			<td>
 				<p><strong>C.11.1.2.4 Sous-titres (en direct)</strong></p>
@@ -6261,7 +6261,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#captions-live">critère de succès 1.2.4 Sous-titres (en direct) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -6271,14 +6271,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.2.5 Audio-description (pré-enregistrée)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5 audio-description (pré-enregistrée) des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded">critère de succès 1.2.5 audio-description (pré-enregistrée) des WCAG 2.1</a>.</p>
 				<p>REMARQUE 1: La définition des WCAG 2.1 précise « audio-description » est également nommée « vidéo-description » et « narration descriptive ».</p>
 				<p>REMARQUE 2: Des pistes audio secondaires ou de remplacement sont couramment utilisées à cette fin. </p>
 				<p><strong>Critère de succès 1.2.5 audio-description (pré-enregistrée) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">Comprendre la audio-description (pré-enregistrée) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">Comment satisfaire au critère (en anglais seulement)</a><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">audio-description</a><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded"> (pré-enregistrée)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">Comprendre la audio-description (pré-enregistrée) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">Comment satisfaire au critère (en anglais seulement)</a><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">audio-description</a><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded"> (pré-enregistrée)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Fournir une audio-description pour tout contenu <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-video">vidéo </a><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-prerecorded ">pré-enregistré</a>, sous forme de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>.</p>
+				<p>Fournir une audio-description pour tout contenu <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-video">vidéo </a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-prerecorded ">pré-enregistré</a>, sous forme de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-synchronized-media">média synchronisé</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.2.5 Audio-description (pré-enregistrée)</strong></p>
@@ -6287,7 +6287,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le<a href="http://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded"> critère de succès 1.2.5 audio-description(pré-enregistrée) des WCAG 2.1.</a></p>
+				<p>1. Vérifier que le logiciel n’échoue pas le<a href="https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded"> critère de succès 1.2.5 audio-description(pré-enregistrée) des WCAG 2.1.</a></p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -6309,13 +6309,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.3.1.1 Information et relations (fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations des WCAG 2.1</a>.</p>
 				<p>REMARQUE: Dans le domaine des logiciels, la meilleure façon de déterminer par un programme informatique est d’utiliser les services d’accessibilité fournis par les logiciels de plateforme visant à permettre l’interopérabilité entre les logiciels et les technologies d’assistance et les fonctions d’accessibilité des logiciels. (voir La clause 11.5 Interopérabilité avec la technologie d’assistance).</p>
 				<p><strong>Critère de succès 1.3.1 Information et relations des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendre l’information et les relations (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Comment satisfaire au critère de succès Information et relations (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendre l’information et les relations (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Comment satisfaire au critère de succès Information et relations (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>L’information, la <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-structure">structure</a> et les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-relationships">relations</a> véhiculées par la <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a>peuvent être déterminées par un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a> ou sont disponibles sous forme de texte.</p>
+				<p>L’information, la <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-structure">structure</a> et les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-relationships">relations</a> véhiculées par la <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a>peuvent être déterminées par un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a> ou sont disponibles sous forme de texte.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.1.1 Information et relations (fonction non restreinte)</strong></p>
@@ -6325,7 +6325,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge l’accès aux technologies d’assistance pour la lecture d’écran.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">critère de succès 1.3.1 Information et relations des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6358,12 +6358,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.3.2.1 Ordre séquentiel logique (fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Comprendre l’ordre séquentiel logique (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">Comment satisfaire au critère Ordre séquentiel logique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Comprendre l’ordre séquentiel logique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">Comment satisfaire au critère Ordre séquentiel logique (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Lorsque l’ordre de présentation du contenu affecte sa signification, un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-correct-reading-sequence">ordre de lecture correct</a> peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminé par un programme informatique</a>.</p>
+				<p>Lorsque l’ordre de présentation du contenu affecte sa signification, un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-correct-reading-sequence">ordre de lecture correct</a> peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminé par un programme informatique</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.2.1 Ordre séquentiel logique (fonction non restreinte)</strong></p>
@@ -6373,7 +6373,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge l’accès aux technologies d’assistance pour la lecture d’écran.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">critère de succès 1.3.2 Ordre séquentiel logique des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -6395,10 +6395,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.3.3 Caractéristiques sensorielles</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.3 Caractéristiques sensorielles</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Comprendre les caractéristiques sensorielles (en anglais)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics">Comment satisfaire au critère Caractéristiques sensorielles (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Comprendre les caractéristiques sensorielles (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics">Comment satisfaire au critère Caractéristiques sensorielles (en anglais)</a></p>
 				<p>(Niveau A)</p>
 				<p>Les instructions données pour la compréhension et l’utilisation du contenu ne doivent pas reposer uniquement sur les caractéristiques sensorielles des éléments comme la forme, la couleur, la taille, l’emplacement visuel, l’orientation ou le son.</p>
 			</td>
@@ -6409,7 +6409,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics">critère de succès 1.3.3 Caractéristiques sensorielles des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6419,12 +6419,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.3.4 Orientation</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.3.4 Orientation des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Comprendre l’orientation (en anglais seulement)</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#orientation">Comment satisfaire au critère Orientation (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Comprendre l’orientation (en anglais seulement)</a> </p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#orientation">Comment satisfaire au critère Orientation (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Le contenu ne limite pas son affichage et son fonctionnement à une seule orientation d’affichage, comme le portrait ou le paysage, à moins qu’une orientation d’affichage spécifique soit <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a>.</p>
+				<p>Le contenu ne limite pas son affichage et son fonctionnement à une seule orientation d’affichage, comme le portrait ou le paysage, à moins qu’une orientation d’affichage spécifique soit <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a>.</p>
 				<p>Remarque: Parmi les exemples où une orientation particulière de l’affichage peut être essentielle, on retrouve les chèques de banque, une application pour le piano, des diapositives pour un projecteur ou un téléviseur, ou un contenu de réalité virtuelle où l’orientation binaire de l’affichage n’est pas applicable.</p>
 			</td>
 			<td>
@@ -6435,7 +6435,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge au moins une technologie d’assistance.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#orientation">critère de succès 1.3.4 Orientation des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6456,14 +6456,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.3.5.1 Identifier la finalité de la saisie (fonction non restreinte)</strong></p>
-				<p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit remplir le <a href="http://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>. </p>
+				<p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit remplir le <a href="https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>. </p>
 				<p><strong>Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Comprendre Identifier la finalité de la saisie (en anglais)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">Comment satisfaire à Identifier la finalité de la saisie (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Comprendre Identifier la finalité de la saisie (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">Comment satisfaire à Identifier la finalité de la saisie (en anglais)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La fonction de chaque champ de saisie recueillant de l’information sur l’utilisateur peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminée par un programme informatique</a> lorsque:</p>
+				<p>La fonction de chaque champ de saisie recueillant de l’information sur l’utilisateur peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminée par un programme informatique</a> lorsque:</p>
 				<ul>
-					<li>Le champ de saisie sert à une fin indiquée dans la section <a href="http://www.w3.org/Translations/WCAG21-fr/#input-purposes">Fonctions de saisie des composants de l’interface utilisateur</a>; et</li>
+					<li>Le champ de saisie sert à une fin indiquée dans la section <a href="https://www.w3.org/Translations/WCAG21-fr/#input-purposes">Fonctions de saisie des composants de l’interface utilisateur</a>; et</li>
 					<li>Le contenu est mis en œuvre à l’aide de technologies permettant de déterminer la signification attendue des données de saisie des formulaires.</li>
 				</ul>
 			</td>
@@ -6485,14 +6485,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.3.5.2 Identifier la finalité de la saisie (fonction restreinte)</strong></p>
-				<p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui est restreint aux technologies d’assistance, elle doit prévoir au moins un mode de fonctionnement selon lequel l’utilisateur est présenté, sous forme audio, la finalité de chaque champ de saisie recueillant des renseignements sur l’utilisateur, lorsque ce champ sert une finalité définie à la section <a href="http://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>. </p>
+				<p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui est restreint aux technologies d’assistance, elle doit prévoir au moins un mode de fonctionnement selon lequel l’utilisateur est présenté, sous forme audio, la finalité de chaque champ de saisie recueillant des renseignements sur l’utilisateur, lorsque ce champ sert une finalité définie à la section <a href="https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>. </p>
 				<p><strong>Critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Comprendre Identifier la finalité de la saisie (en anglais)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">Comment satisfaire à Identifier la finalité de la saisie (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Comprendre Identifier la finalité de la saisie (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">Comment satisfaire à Identifier la finalité de la saisie (en anglais)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La fonction de chaque champ de saisie recueillant de l’information sur l’utilisateur peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminée par un programme informatique</a> lorsque:</p>
+				<p>La fonction de chaque champ de saisie recueillant de l’information sur l’utilisateur peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminée par un programme informatique</a> lorsque:</p>
 				<ul>
-					<li>Le champ de saisie sert à une fin indiquée dans la section <a href="http://www.w3.org/Translations/WCAG21-fr/#input-purposes">Fonctions de saisie des composants de l’interface utilisateur</a>; et</li>
+					<li>Le champ de saisie sert à une fin indiquée dans la section <a href="https://www.w3.org/Translations/WCAG21-fr/#input-purposes">Fonctions de saisie des composants de l’interface utilisateur</a>; et</li>
 					<li>Le contenu est implémenté via des technologies permettant d’identifier la finalité de la saisie attendue pour le champ.</li>
 				</ul>
 			</td>
@@ -6507,7 +6507,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Procédure</p>
 				<p>1. Vérifier que la sortie sonore est fournie par le biais d’un mécanisme d’assistance intégré dans les TIC ou offert avec celles-ci.</p>
 				<p>2. Vérifier que la sortie sonore est fournie au moyen d’un casque d’écoute qui peut être branché via une prise audio de 3,5 mm ou une connexion accréditée par l’industrie, et ce, sans exiger l’utilisation de la vision.</p>
-				<p>3. Vérifier que la sortie sonore comprend la finalité de la section <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#identify-input-purpose">Finalité de saisie des composants d’interface utilisateur</a></p>
+				<p>3. Vérifier que la sortie sonore comprend la finalité de la section <a href="https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">Finalité de saisie des composants d’interface utilisateur</a></p>
 				<p>Résultat</p>
 				<p>Réussite : L’énoncé testable (no 1 ou no 2) est vrai et l’énoncé testable no 3 est vrai. </p>
 				<p>Échec : Les énoncés testables (nos 1 et 2) sont faux ou l’énoncé testable no 3 est faux.</p>
@@ -6528,13 +6528,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.4.1 Utilisation de la couleur</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Comprendre l’utilisation de la couleur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#use-of-color">Comment satisfaire au critère Utilisation de la couleur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Comprendre l’utilisation de la couleur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#use-of-color">Comment satisfaire au critère Utilisation de la couleur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 				<p>La couleur n’est pas utilisée comme la seule façon de véhiculer de l’information, d’indiquer une action, de solliciter une réponse ou de distinguer un élément visuel.</p>
-				<p>Remarque: Ce critère de succès traite spécifiquement de la perception des couleurs. Les autres formes de perception sont traitées à la <a href="http://www.w3.org/Translations/WCAG21-fr/#adaptable">règle 1.3</a> comme l’accès à la couleur par un programme informatique et les autres formes de codage de la présentation visuelle.</p>
+				<p>Remarque: Ce critère de succès traite spécifiquement de la perception des couleurs. Les autres formes de perception sont traitées à la <a href="https://www.w3.org/Translations/WCAG21-fr/#adaptable">règle 1.3</a> comme l’accès à la couleur par un programme informatique et les autres formes de codage de la présentation visuelle.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.1 Utilisation de la couleur</strong></p>
@@ -6543,7 +6543,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#use-of-color">critère de succès 1.4.1 Utilisation de la couleur des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -6555,12 +6555,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.1.4.2 Contrôle du son</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le critère de succès indiqué dans le tableau 11.1.</p>
 				<p><strong>Tableau 11.1: Critère de succès du logiciel: Contrôle du son</strong></p>
-				<p>Si la lecture d’un fichier audio tiré d’un document dure plus de 3 secondes, un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour le mettre en pause, l’arrêter ou pour en contrôler le volume de façon indépendante du niveau de volume du système général.</p>
+				<p>Si la lecture d’un fichier audio tiré d’un document dure plus de 3 secondes, un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour le mettre en pause, l’arrêter ou pour en contrôler le volume de façon indépendante du niveau de volume du système général.</p>
 				<p>REMARQUE 1: Puisque toute partie d’un document ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter le document entier, tout le contenu présent dans le document (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès.</p>
-				<p>REMARQUE 2: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>, après remplacement de « sur une page Web » par « sur un document », de « tout contenu » par « toute partie d’un document », de « page entière » par « document entier », de « sur la page Web » par « sur le document », après suppression de « Voir l’exigence de conformité 5: Non-interférence » et après l’ajout de la note 1.</p>
+				<p>REMARQUE 2: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>, après remplacement de « sur une page Web » par « sur un document », de « tout contenu » par « toute partie d’un document », de « page entière » par « document entier », de « sur la page Web » par « sur le document », après suppression de « Voir l’exigence de conformité 5: Non-interférence » et après l’ajout de la note 1.</p>
 				<p><strong>Critère de succès 1.4.2 Contrôle du son des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-control.html">Comprendre le contrôle du son (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-control">Comment satisfaire au critère Contrôle du son (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html">Comprendre le contrôle du son (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-control">Comment satisfaire au critère Contrôle du son (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -6580,15 +6580,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.4.3 Contraste (minimum)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Comprendre le contraste (minimum)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">Comment satisfaire au critère Contraste (minimum)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Comprendre le contraste (minimum)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">Comment satisfaire au critère Contraste (minimum)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La présentation visuelle du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> et du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a> a un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 4,5:1, sauf dans les cas suivants:</p>
+				<p>La présentation visuelle du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> et du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a> a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 4,5:1, sauf dans les cas suivants:</p>
 				<ul>
-					<li>Texte agrandi: le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-large-scale">texte agrandi</a> et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1;</li>
-					<li>Texte décoratif: aucune exigence de contraste pour le texte ou le texte sous forme d’image qui fait partie d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> inactif, qui est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">purement décoratif</a>, qui est invisible pour tous ou qui est une partie d’une image contenant un autre contenu significatif. </li>
+					<li>Texte agrandi: le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-large-scale">texte agrandi</a> et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1;</li>
+					<li>Texte décoratif: aucune exigence de contraste pour le texte ou le texte sous forme d’image qui fait partie d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> inactif, qui est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-pure-decoration">purement décoratif</a>, qui est invisible pour tous ou qui est une partie d’une image contenant un autre contenu significatif. </li>
 					<li>Logotypes: aucune exigence de contraste pour le texte faisant partie d’un logo ou d’un nom de marque.</li>
 				</ul>
 			</td>
@@ -6599,7 +6599,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum">critère de succès 1.4.3 Contraste (minimum) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6620,14 +6620,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.4.4.1 Redimensionnement du texte (fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux fonctions d’élargissement de la plateforme ou de la technologie d’assistance, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux fonctions d’élargissement de la plateforme ou de la technologie d’assistance, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
 				<p>REMARQUE 1: Les contenus pour lesquels il existe des lecteurs de logiciels, des visualiseurs ou des éditeurs dotés d’une fonction de zoom de 200% répondraient automatiquement à ce critère de succès lorsqu’ils sont utilisés avec ces lecteurs, à moins que le contenu ne fonctionne pas avec le zoom. </p>
 				<p>REMARQUE 2: Ce critère de succès concerne la capacité de permettre aux utilisateurs d’agrandir le texte à l’écran au moins jusqu’à 200% sans avoir besoin d’avoir recours à des technologies d’assistance. Cela signifie que l’application fournit un moyen d’agrandir le texte à 200% (zoom ou autre) sans perte de contenu ou de fonctionnalité ou que l’application fonctionne avec les fonctions de la plateforme qui répondent à cette exigence.</p>
 				<p><strong>Critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Comprendre le redimensionnement du texte (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#resize-text">Comment satisfaire au critère Redimensionnement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Comprendre le redimensionnement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#resize-text">Comment satisfaire au critère Redimensionnement du texte (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>À l’exception des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> et du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> peut être redimensionné jusqu’à 200% sans l’aide d’une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologie d’assistance</a>et sans perte de contenu ou de fonctionnalité.</p>
+				<p>À l’exception des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-captions">sous-titres</a> et du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> peut être redimensionné jusqu’à 200% sans l’aide d’une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologie d’assistance</a>et sans perte de contenu ou de fonctionnalité.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.4.1 Redimensionnement du texte (fonction non restreinte)</strong></p>
@@ -6637,7 +6637,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge les fonctions d’élargissement de la plateforme ou de la technologie d’assistance.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#resize-text">critère de succès 1.4.4 Redimensionnement du texte des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6681,14 +6681,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.4.5.1 Texte sous forme d’image (fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
 				<p><strong>Critère 1.4.5 Texte sous forme d’image</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Comprendre le texte sous forme d’image (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Comment satisfaire au critère Texte sous forme d’image (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Comprendre le texte sous forme d’image (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Comment satisfaire au critère Texte sous forme d’image (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Si les technologies utilisées peuvent réaliser la présentation visuelle, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>est utilisé pour véhiculer de l’information plutôt que du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, sauf dans les cas suivants:</p>
-				<p>· Personnalisable: Le texte sous forme d’image peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-visually-customized">personnalisé visuellement</a> selon les exigences de l’utilisateur;</p>
-				<p>· Essentielle: Une présentation spécifique du texte est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</p>
+				<p>Si les technologies utilisées peuvent réaliser la présentation visuelle, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>est utilisé pour véhiculer de l’information plutôt que du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, sauf dans les cas suivants:</p>
+				<p>· Personnalisable: Le texte sous forme d’image peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-visually-customized">personnalisé visuellement</a> selon les exigences de l’utilisateur;</p>
+				<p>· Essentielle: Une présentation spécifique du texte est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</p>
 				<p>Remarque: Les logotypes sont considérés comme essentiels (le texte qui fait partie d’un logo ou d’un nom de marque).</p>
 			</td>
 			<td>
@@ -6699,7 +6699,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge l’accès aux technologies d’assistance pour la lecture d’écran.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6709,15 +6709,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.4.5.2 Texte sous forme d’image (fonction restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui ne prend pas en charge les technologies d’assistance pour la lecture d’écran, il n’est pas nécessaire qu’elle remplisse le <a href="http://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>, car il n’y a pas lieu d’imposer une exigence à toutes les fonctions restreintes que le texte affiché à l’écran soit effectivement représenté en interne sous forme de texte (au sens des WCAG 2.1) puisqu’il n’y a pas d’interopérabilité avec les technologies d’assistance.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui ne prend pas en charge les technologies d’assistance pour la lecture d’écran, il n’est pas nécessaire qu’elle remplisse le <a href="https://www.w3.org/Translations/WCAG21-fr/#images-of-text">critère de succès 1.4.5 Texte sous forme d’image des WCAG 2.1</a>, car il n’y a pas lieu d’imposer une exigence à toutes les fonctions restreintes que le texte affiché à l’écran soit effectivement représenté en interne sous forme de texte (au sens des WCAG 2.1) puisqu’il n’y a pas d’interopérabilité avec les technologies d’assistance.</p>
 				<p><strong>Critère 1.4.5 Texte sous forme d’image</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Comprendre le texte sous forme d’image (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Comment satisfaire au critère Texte sous forme d’image (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Comprendre le texte sous forme d’image (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Comment satisfaire au critère Texte sous forme d’image (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Si les technologies utilisées peuvent réaliser la présentation visuelle, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>est utilisé pour véhiculer de l’information plutôt que du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, sauf dans les cas suivants:</p>
+				<p>Si les technologies utilisées peuvent réaliser la présentation visuelle, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>est utilisé pour véhiculer de l’information plutôt que du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, sauf dans les cas suivants:</p>
 				<ul>
-					<li>Personnalisable: Le texte sous forme d’image peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-visually-customized">personnalisé visuellement</a> selon les exigences de l’utilisateur;</li>
-					<li>Essentielle: Une présentation spécifique du texte est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
+					<li>Personnalisable: Le texte sous forme d’image peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-visually-customized">personnalisé visuellement</a> selon les exigences de l’utilisateur;</li>
+					<li>Essentielle: Une présentation spécifique du texte est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
 				</ul>
 				<p>Remarque: Les logotypes sont considérés comme essentiels (le texte qui fait partie d’un logo ou d’un nom de marque).</p>
 			</td>
@@ -6733,7 +6733,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. Vérifier que la sortie vocale est fournie comme solution de rechange au contenu non textuel. </p>
 				<p>2. Vérifier que le contenu non textuel n’est pas seulement présent à titre décoratif. </p>
 				<p>3. Vérifier que le contenu non textuel n’est pas utilisé uniquement pour le formatage visuel.</p>
-				<p>4. Vérifier que la sortie vocale est conforme aux indications relatives à l’« équivalent textuel » décrit dans le<a href="https://www.w3.org/Translations/WCAG21-fr-fr/#images-of-text"> critère de succès 1.1.1 Contenu non textuel des WCAG 2.1.</a></p>
+				<p>4. Vérifier que la sortie vocale est conforme aux indications relatives à l’« équivalent textuel » décrit dans le<a href="https://www.w3.org/Translations/WCAG21-fr/#images-of-text"> critère de succès 1.1.1 Contenu non textuel des WCAG 2.1.</a></p>
 				<p>Résultat</p>
 				<p>Réussite : Les énoncés testables (nos 1, 2, 3 et 4) sont vrais ou le (no 1 et le no 2) sont faux ou le (no 1 et le no 3) sont faux. </p>
 				<p>Échec : L’énoncé testable (no 1 est vrai et le no 2 est faux); ou (le no 1 est vrai et le no 3 est faux); ou les (nos 1, 2 et 3 sont vrais et le no 4 est faux).</p>
@@ -6747,16 +6747,16 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>Tableau 11.2: Documenter le critère de succès: Redistribution</strong></p>
 				<p>Le contenu peut être présenté sans perte d’information ou de fonctionnalité et sans nécessité de défilement dans les deux dimensions pour :</p>
 				<ul>
-					<li>Contenu à défilement vertical d’une largeur équivalente à 320 <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>;</li>
-					<li>Contenu à défilement horizontal d’une hauteur équivalente à 256 <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>;</li>
+					<li>Contenu à défilement vertical d’une largeur équivalente à 320 <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>;</li>
+					<li>Contenu à défilement horizontal d’une hauteur équivalente à 256 <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-css-pixels">pixels CSS</a>;</li>
 				</ul>
 				<p>Sauf pour les parties du contenu dont l’utilisation ou la compréhension nécessite une mise en page en deux dimensions.</p>
 				<p>REMARQUE 1: 320 pixels CSS équivalent à une largeur de fenêtre de départ de 1 280 pixels CSS avec un zoom de 400%. Pour les logiciels non Web qui sont conçus pour défiler horizontalement (par exemple avec du texte vertical), les 256 pixels CSS équivalent à une hauteur de fenêtre de départ de 1 024 pixels avec un zoom de 400%.</p>
 				<p>REMARQUE 2: Les exemples de contenu qui nécessitent une mise en page bidimensionnelle sont les images, les cartes, les diagrammes, les vidéos, les jeux, les présentations, les tableaux de données et les interfaces où il est nécessaire de garder les barres d’outils en vue pendant la manipulation du contenu.</p>
-				<p>REMARQUE 3: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#reflow">critère de succès 1.4.10 Redisposition des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p>
+				<p>REMARQUE 3: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#reflow">critère de succès 1.4.10 Redisposition des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p>
 				<p><strong>Critère de succès 1.4.10 Redisposition des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/reflow.html">Comprendre la redisposition (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#reflow">Comment satisfaire au critère Redisposition (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html">Comprendre la redisposition (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#reflow">Comment satisfaire au critère Redisposition (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
 			</td>
 			<td>
@@ -6776,15 +6776,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.4.11 Contraste du contenu non textuel</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Comprendre le contraste des éléments non textuels (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast">Satisfaire au critère Contraste des éléments non textuels (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Comprendre le contraste des éléments non textuels (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast">Satisfaire au critère Contraste des éléments non textuels (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a> visuelle des éléments suivants a un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 3:1 par rapport aux couleurs adjacentes:</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-presentation">présentation</a> visuelle des éléments suivants a un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-contrast-ratio">rapport de contraste</a> d’au moins 3:1 par rapport aux couleurs adjacentes:</p>
 				<ul>
-					<li>Composants de l’interface utilisateur: Les informations visuelles nécessaires à l’identification des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants de l’interface utilisateur</a>et des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-states">états</a>, à l’exception des composants inactifs ou lorsque l’apparence du composant est déterminée par l’agent utilisateur et non modifiée par l’auteur;</li>
-					<li>Objets graphiques: Parties de graphiques nécessaires à la compréhension du contenu, sauf lorsqu’une présentation graphique particulière est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
+					<li>Composants de l’interface utilisateur: Les informations visuelles nécessaires à l’identification des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants de l’interface utilisateur</a>et des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-states">états</a>, à l’exception des composants inactifs ou lorsque l’apparence du composant est déterminée par l’agent utilisateur et non modifiée par l’auteur;</li>
+					<li>Objets graphiques: Parties de graphiques nécessaires à la compréhension du contenu, sauf lorsqu’une présentation graphique particulière est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
 				</ul>
 			</td>
 			<td>
@@ -6795,7 +6795,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge au moins une technologie d’assistance.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast">Critère de succès 1.4.11 Contraste du contenu non textuel des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6805,12 +6805,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.4.12 Espacement du texte</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui n’a pas de zone de présentation de contenu de taille fixe essentielle à l’information véhiculée, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#text-spacing">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui n’a pas de zone de présentation de contenu de taille fixe essentielle à l’information véhiculée, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#text-spacing">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.12 Espacement du texte des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Comprendre l’espacement du texte (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#text-spacing">Comment satisfaire au critère Espacement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Comprendre l’espacement du texte (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#text-spacing">Comment satisfaire au critère Espacement du texte (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Dans les contenus mis en œuvre à l’aide de langages de balisage qui prennent en charge les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">propriétés de style</a><a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-style-properties">&nbsp;de texte</a> suivantes, aucune perte de contenu ou de fonctionnalité ne se produit en définissant tous les éléments suivants et en ne modifiant aucune autre propriété de style:</p>
+				<p>Dans les contenus mis en œuvre à l’aide de langages de balisage qui prennent en charge les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">propriétés de style</a><a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-style-properties">&nbsp;de texte</a> suivantes, aucune perte de contenu ou de fonctionnalité ne se produit en définissant tous les éléments suivants et en ne modifiant aucune autre propriété de style:</p>
 				<ul>
 					<li>La hauteur de ligne (interlignage) définie à au moins 1,5 fois la taille de la police ;</li>
 					<li>L’espacement entre les paragraphes consécutifs défini à au moins 2 fois la taille de la police ; </li>
@@ -6825,7 +6825,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Inspection</p>
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">critère de succès 1.4.12 Espacement du texte des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6835,19 +6835,19 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.1.4.13 Contenu au survol ou au focus</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Comprendre le Contenu en mode survol ou focus (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus">Comment satisfaire au critère Contenu en mode survol ou focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Comprendre le Contenu en mode survol ou focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus">Comment satisfaire au critère Contenu en mode survol ou focus (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
 				<p>Lorsque la réception puis la suppression du pointeur ou de la du focus du clavier déclenchent l’affichage et le masquage d’un contenu supplémentaire, ce qui suit est vrai:</p>
 				<ul>
-					<li>Masquer : il existe un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">ou ne masque ni ne remplace un autre contenu </a>;</li>
+					<li>Masquer : il existe un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">ou ne masque ni ne remplace un autre contenu </a>;</li>
 					<li>Survoler : si le survol du pointeur peut déclencher le contenu additionnel, alors le pointeur peut être déplacé sur le contenu additionnel sans que celui-ci disparaisse ;</li>
 					<li>Persister : le contenu additionnel reste visible jusqu’à ce que le survol ou le focus soit retiré, que l’utilisateur le masque ou que ses informations ne soient plus valables.</li>
 				</ul>
 				<p>Exception: La présentation visuelle du contenu supplémentaire est contrôlée par l’agent utilisateur et n’est pas modifiée par l’auteur.</p>
-				<p>Remarque: Parmi les exemples de contenu supplémentaire contrôlé par l’agent utilisateur figurent les infobulles du navigateur créées à l’aide de l’<a href="http://www.w3.org/Translations/html/dom.html#the-title-attribute">attribut titre</a> HTML. </p>
+				<p>Remarque: Parmi les exemples de contenu supplémentaire contrôlé par l’agent utilisateur figurent les infobulles du navigateur créées à l’aide de l’<a href="https://www.w3.org/Translations/html/dom.html#the-title-attribute">attribut titre</a> HTML. </p>
 				<p>Remarque: Les infobulles, sous-menus et autres fenêtres contextuelles non modales qui s’affichent sur le survol et la du focus sont des exemples de contenu supplémentaire couvert par ce critère. </p>
 			</td>
 			<td>
@@ -6857,7 +6857,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas le <a href="http://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas le <a href="https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus">Critère de succès 1.4.13 Contenu au survol ou au focus des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable no&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable no&nbsp;1 est faux.</p>
@@ -6880,13 +6880,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.2.1.1.1 Clavier (fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès à des claviers ou à une interface clavier, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>. </p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès à des claviers ou à une interface clavier, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>. </p>
 				<p>REMARQUE: cela ne signifie pas qu’un logiciel est nécessaire pour prendre directement en charge un clavier ou une « interface clavier ». Cela n’implique pas non plus qu’un logiciel soit requis pour fournir un clavier programmable. Le logiciel de plateforme sous-jacent peut fournir des services de saisie indépendants de dispositifs à des applications qui assurent l’exploitation à l’aide d’un clavier. Le logiciel qui prend en charge l’exploitation par l’intermédiaire de ces services indépendants pourrait être utilisé par un clavier et serait conforme.</p>
 				<p><strong>Critère de succès 2.1.1 Clavier des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Comprendre le clavier (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#keyboard">Comment satisfaire au critère Clavier (en anglais seulement)</a> </p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Comprendre le clavier (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#keyboard">Comment satisfaire au critère Clavier (en anglais seulement)</a> </p>
 				<p>(Niveau A)</p>
-				<p>Toutes <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">les fonctions</a> du contenu sont contrôlées par une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a> qui n’exige pas de rythmes de frappe particuliers, sauf lorsque la fonction sous-jacente nécessite des données indiquant la trajectoire donnée par l’utilisateur en plus des points finaux.</p>
+				<p>Toutes <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">les fonctions</a> du contenu sont contrôlées par une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a> qui n’exige pas de rythmes de frappe particuliers, sauf lorsque la fonction sous-jacente nécessite des données indiquant la trajectoire donnée par l’utilisateur en plus des points finaux.</p>
 				<p>Remarque: Cette exception ne concerne que la fonction sous-jacente et non la technique de saisie. Par exemple, lorsqu’on utilise l’écriture manuscrite pour saisir du texte, la technique de saisie (l’écriture manuscrite) nécessite une saisie qui dépend d’un tracé, mais la fonction sous-jacente (la saisie de texte) ne le requiert pas. </p>
 				<p>Remarque: Cela n’interdit pas et ne devrait pas décourager l’utilisation de la souris ou de toute autre méthode de saisie en plus de l’utilisation du clavier. </p>
 			</td>
@@ -6898,7 +6898,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge les claviers ou une interface clavier.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard">critère de succès 2.1.1 Clavier des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -6930,13 +6930,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.2.1.2 Pas de piège au clavier</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au critère de succès indiqué dans le tableau 11.3.</p>
 				<p><strong>Tableau 11.3: Critère de succès du logiciel: Pas de piège au clavier</strong></p>
-				<p>Si la du focus du clavier peut être positionnée sur un élément du logiciel à l’aide d’une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a>, réciproquement, il peut être déplacé hors de ce même composant simplement à l’aide d’une interface clavier et, si ce déplacement exige plus que l’utilisation d’une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l’utilisateur est informé de la méthode permettant de déplacer la du focus hors de ce composant.</p>
+				<p>Si la du focus du clavier peut être positionnée sur un élément du logiciel à l’aide d’une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-interface">interface clavier</a>, réciproquement, il peut être déplacé hors de ce même composant simplement à l’aide d’une interface clavier et, si ce déplacement exige plus que l’utilisation d’une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l’utilisateur est informé de la méthode permettant de déplacer la du focus hors de ce composant.</p>
 				<p>REMARQUE 1: puisque toute partie d’un logiciel ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter le logiciel entier, il est nécessaire que tout le contenu présent dans le logiciel (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) satisfasse à ce critère de succès.</p>
 				<p>REMARQUE 2: La méthode standard de sortie pourrait varier d’une plateforme à l’autre. Par exemple, la touche Échap est une méthode standard de sortie sur de nombreuses plateformes de bureau.</p>
-				<p>REMARQUE 3: ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap">critère de succès 2.1.2 Pas de piège au clavier des WCAG 2.1</a> à clavier après remplacement de « contenu », « page » et « page Web » par « logiciel », après suppression de « Voir l’exigence de conformité 5: Non-interférence », après l’ajout de la note 2 ci-dessus et la reformulation de la note 1 ci-dessus de manière à éviter le verbe « devoir ».</p>
+				<p>REMARQUE 3: ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap">critère de succès 2.1.2 Pas de piège au clavier des WCAG 2.1</a> à clavier après remplacement de « contenu », « page » et « page Web » par « logiciel », après suppression de « Voir l’exigence de conformité 5: Non-interférence », après l’ajout de la note 2 ci-dessus et la reformulation de la note 1 ci-dessus de manière à éviter le verbe « devoir ».</p>
 				<p><strong>Critère de succès 2.1.2 Pas de piège au clavier des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">Comprendre pas de piège au clavier (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">Comment satisfaire au critère pas de piège au clavier (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">Comprendre pas de piège au clavier (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">Comment satisfaire au critère pas de piège au clavier (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -6969,14 +6969,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.2.1.4.1 Raccourcis clavier utilisant des caractères (fonction non restreinte)</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="https://w3c.github.io/wcag21/guidelines/#character-key-shortcuts">Critère de succès 2.1.4 Raccourcis clavier utilisant des caractères des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.1.4 Raccourcis clavier utilisant des caractères des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">Comprendre les raccourcis clavier des caractères (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts">Comment utiliser les raccourcis clavier des caractères (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">Comprendre les raccourcis clavier des caractères (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts">Comment utiliser les raccourcis clavier des caractères (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Si un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-shortcuts">raccourci clavier</a> est mis en œuvre dans le contenu en utilisant uniquement des lettres (y compris les lettres majuscules et minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins un des éléments suivants est vrai:</p>
+				<p>Si un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-keyboard-shortcuts">raccourci clavier</a> est mis en œuvre dans le contenu en utilisant uniquement des lettres (y compris les lettres majuscules et minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins un des éléments suivants est vrai:</p>
 				<ul>
-					<li>Désactiver: un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour désactiver le raccourci;</li>
+					<li>Désactiver: un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour désactiver le raccourci;</li>
 					<li>Réassigner : Un mécanisme est offert pour reprogrammer le raccourci afin d’utiliser un ou plusieurs caractères clavier non imprimables (par exemple Ctrl, Alt, etc.);</li>
-					<li>Actif uniquement au focus : le raccourci clavier pour un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> n’est actif que lorsque ce composant a le focus.</li>
+					<li>Actif uniquement au focus : le raccourci clavier pour un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> n’est actif que lorsque ce composant a le focus.</li>
 				</ul>
 			</td>
 			<td>
@@ -7037,11 +7037,11 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 					<li>Extension: l’utilisateur est averti avant que la limite de temps expire et il lui est accordé au moins 20 secondes pour étendre cette limite par une action simple (par exemple, « appuyer sur la barre d’espace ») et l’utilisateur a la possibilité d’étendre la limite de temps au moins dix fois.</li>
 					<li>Extension : l’utilisateur est averti avant que la limite de temps n’expire et il lui est accordé au moins 20 secondes pour étendre cette limite par une action simple (par exemple, « appuyer sur la barre d’espace ») et l’utilisateur a la possibilité d’étendre la limite de temps au moins dix fois ; ou</li>
 					<li>L’exception du temps réel : la limite de temps est une partie constitutive d’un événement en temps réel (par exemple, une enchère) et aucune alternative n’est possible ; ou</li>
-					<li>L’exception de la limite essentielle : la limite de temps est <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#dfn-essential">essentielle</a>essentielle et l’étendre invaliderait alors l’activité ; ou</li>
+					<li>L’exception de la limite essentielle : la limite de temps est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a>essentielle et l’étendre invaliderait alors l’activité ; ou</li>
 					<li>L’exception des 20 heures : la limite de temps est supérieure à 20 heures.</li>
 				</ul>
-				<p>REMARQUE 1: Ce critère de succès permet de s’assurer que les utilisateurs peuvent accomplir les tâches sans changements inattendus dans le contenu ou le contexte résultant d’une limite de temps. Ce critère de succès doit être considéré conjointement avec le <a href="http://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 des WCAG 2.1</a>, qui impose des limites aux changements de contenu ou de contexte résultant de l’action des utilisateurs. </p>
-				<p>REMARQUE 2: ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai des WCAG 2.1</a>, après remplacement de « le contenu » par « logiciel » et l’ajout des mots « des WCAG 2.1 » après les mots « critère de succès » à la note 1 ci-dessus.</p>
+				<p>REMARQUE 1: Ce critère de succès permet de s’assurer que les utilisateurs peuvent accomplir les tâches sans changements inattendus dans le contenu ou le contexte résultant d’une limite de temps. Ce critère de succès doit être considéré conjointement avec le <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 des WCAG 2.1</a>, qui impose des limites aux changements de contenu ou de contexte résultant de l’action des utilisateurs. </p>
+				<p>REMARQUE 2: ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai des WCAG 2.1</a>, après remplacement de « le contenu » par « logiciel » et l’ajout des mots « des WCAG 2.1 » après les mots « critère de succès » à la note 1 ci-dessus.</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.2.1 Réglage du délai</strong></p>
@@ -7062,9 +7062,9 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.2.2.2 Mettre en pause, arrêter, masquer</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le critère de succès indiqué dans le tableau 11.5.</p>
 				<p><strong>Tableau 11.5: Critère de succès du logiciel: mettre en pause, arrêter, masquer</strong></p>
-				<p>Pour déplacer, <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-blinking">faire clignoter</a>, faire défiler ou mettre à jour automatiquement des informations, tous les éléments suivants sont vrais:</p>
+				<p>Pour déplacer, <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-blinking">faire clignoter</a>, faire défiler ou mettre à jour automatiquement des informations, tous les éléments suivants sont vrais:</p>
 				<ul>
-					<li>Déplacement, clignotement, défilement: pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée en parallèle avec d’autres contenus, il existe un mécanisme permettant à l’utilisateur de mettre en <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-pause">pause</a>, d’arrêter ou de masquer l’information à moins que le déplacement, le clignement ou le défilement fasse partie d’une activité où cela est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>. </li>
+					<li>Déplacement, clignotement, défilement: pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée en parallèle avec d’autres contenus, il existe un mécanisme permettant à l’utilisateur de mettre en <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-pause">pause</a>, d’arrêter ou de masquer l’information à moins que le déplacement, le clignement ou le défilement fasse partie d’une activité où cela est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>. </li>
 					<li>Mise à jour automatique: pour toute mise à jour qui (1) démarre automatiquement et (2) est présentée en parallèle avec d’autres contenus, il existe un mécanisme permettant à l’utilisateur de la mettre en pause, de l’arrêter, de la masquer ou de contrôler sa fréquence, sauf si la mise à jour automatique fait partie d’une activité où elle est essentielle.</li>
 				</ul>
 				<p>REMARQUE 1: Pour les exigences relatives au contenu clignotant ou avec flash, se référer à la <a href="https://w3c.github.io/wcag21/guidelines/#seizures-and-physical-reactions">règle 2.3 des WCAG 2.1</a>.</p>
@@ -7072,10 +7072,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>REMARQUE 3: Il n’est pas exigé que le contenu mis à jour périodiquement par logiciel ou diffusé en flux à l’agent utilisateur conserve ou présente l’information générée ou reçue entre la mise en pause et la reprise de la présentation, puisque cela peut ne pas être techniquement possible et s’avérer trompeur dans beaucoup de situations. </p>
 				<p>REMARQUE 4: Une animation survenant dans une phase de pré-chargement ou dans une situation similaire peut être considérée comme essentielle si aucune interaction n’est permise à tous les utilisateurs durant cette phase et si l’absence d’indication de progression est susceptible de perturber les utilisateurs ou de leur faire croire que le contenu est figé ou défectueux. </p>
 				<p>REMARQUE 5: cela s’applique à tous les contenus. Tout contenu, informatif ou décoratif, qui est mis à jour automatiquement, clignote ou bouge peut créer un obstacle à l’accessibilité.</p>
-				<p>REMARQUE 6: ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer des WCAG 2.1</a>, après remplacement de « page » et de « page Web » par « logiciel », suppression de « Voir l’exigence de conformité 5: non-ingérence » dans la note 2 du critère de succès, l’ajout des mots « des WCAG 2.1 » à la suite de « règle » à la note 1, la reformulation de la note 2 de façon à éviter le verbe « devoir » et l’ajout de la note 5 ci-dessus. </p>
+				<p>REMARQUE 6: ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer des WCAG 2.1</a>, après remplacement de « page » et de « page Web » par « logiciel », suppression de « Voir l’exigence de conformité 5: non-ingérence » dans la note 2 du critère de succès, l’ajout des mots « des WCAG 2.1 » à la suite de « règle » à la note 1, la reformulation de la note 2 de façon à éviter le verbe « devoir » et l’ajout de la note 5 ci-dessus. </p>
 				<p><strong>Critère de réussite 2.2.2 Mettre en pause, arrêter, masquer des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html">Comprendre le critère de succès Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">Comment satisfaire au critère Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html">Comprendre le critère de succès Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">Comment satisfaire au critère Mettre en pause, arrêter, masquer (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -7108,12 +7108,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.2.3.1 Pas plus de trois flashs ou sous le seuil critique</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le critère de succès indiqué dans le tableau 11.6.</p>
 				<p><strong>Tableau 11.6: Critère de succès du logiciel: Pas plus de trois flashs ou sous le seuil critique</strong></p>
-				<p>Un logiciel doit être exempt de tout élément qui flashe plus de trois fois dans n’importe quel intervalle d’une seconde ou ce <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-flashes">flash</a> doit se situer sous le seuil de flash générique et le seuil de flash rouge.</p>
+				<p>Un logiciel doit être exempt de tout élément qui flashe plus de trois fois dans n’importe quel intervalle d’une seconde ou ce <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-flashes">flash</a> doit se situer sous le seuil de flash générique et le seuil de flash rouge.</p>
 				<p>REMARQUE 1: ce critère de succès s’applique à tout le contenu du logiciel (qu’il existe ou non un autre mode de fonctionnement accessible du logiciel), car toute partie d’un logiciel qui ne satisfait pas à ce critère de succès peut nuire à la capacité de l’utilisateur d’utiliser le logiciel en entier (y compris un élément d’interface utilisateur qui lui permet d’activer le deuxième mode accessible).</p>
-				<p>REMARQUE 2: ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold">critère de succès 2.3.1 Pas plus de trois flashs des WCAG 2.1</a> après remplacement de « pages Web » par « logiciel », de « la page entière » par « le logiciel entier », « la page Web » par « le logiciel », après suppression de « Voir l’exigence de conformité 5: Non-ingérence » et après la reformulation de la note 1 ci-dessus pour éviter le verbe « devoir ».</p>
+				<p>REMARQUE 2: ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold">critère de succès 2.3.1 Pas plus de trois flashs des WCAG 2.1</a> après remplacement de « pages Web » par « logiciel », de « la page entière » par « le logiciel entier », « la page Web » par « le logiciel », après suppression de « Voir l’exigence de conformité 5: Non-ingérence » et après la reformulation de la note 1 ci-dessus pour éviter le verbe « devoir ».</p>
 				<p><strong>Critère de succès 2.3.1 Pas plus de trois flashs ou sous le seuil critique des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html">Comprendre le critère de succès Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold">Comment satisfaire au critère Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html">Comprendre le critère de succès Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold">Comment satisfaire au critère Pas plus de trois flashs ou sous le seuil critique (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -7146,11 +7146,11 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.2.4.3 Parcours du focus</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au critère de succès indiqué dans le tableau 11.7.</p>
 				<p><strong>Tableau 11.7: Critère de succès du logiciel: Parcours du focus</strong></p>
-				<p>Si un logiciel peut être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-navigated-sequentially">parcourue de façon séquentielle</a> et que les séquences de navigation affectent la signification ou l’action, les éléments reçoivent la du focus dans un ordre qui préserve la signification et l’opérabilité.</p>
-				<p>REMARQUE: ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-order">critère de succès 2.4.3 Parcours de la cible de saisie des WCAG 2.1</a> après le remplacement de « page Web » par « logiciel ».</p>
+				<p>Si un logiciel peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-navigated-sequentially">parcourue de façon séquentielle</a> et que les séquences de navigation affectent la signification ou l’action, les éléments reçoivent la du focus dans un ordre qui préserve la signification et l’opérabilité.</p>
+				<p>REMARQUE: ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-order">critère de succès 2.4.3 Parcours de la cible de saisie des WCAG 2.1</a> après le remplacement de « page Web » par « logiciel ».</p>
 				<p><strong>Critère de succès 2.4.3 Parcours du focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Comprendre le critère de succès Parcours du focus (en anglais)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-order">Comment satisfaire au critère de succès Parcours du focus (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Comprendre le critère de succès Parcours du focus (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-order">Comment satisfaire au critère de succès Parcours du focus (en anglais)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -7170,12 +7170,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.2.4.4 Fonction du lien (selon le contexte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Fonction du lien (selon le contexte) des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Fonction du lien (selon le contexte) des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.4.4 Fonction du lien (selon le contexte) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">Comprendre Fonction du lien (selon le contexte) (en anglais)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">Comment satisfaire à Fonction du lien (selon le contexte) (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">Comprendre Fonction du lien (selon le contexte) (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">Comment satisfaire à Fonction du lien (selon le contexte) (en anglais)</a></p>
 				<p>(Niveau A)</p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-purpose-of-each-link">fonction de chaque lien</a> est déterminée par le texte du lien seul ou par le texte du lien associé à un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determined-link-context">contexte du lien déterminé par un programme informatique</a>, sauf si la fonction du lien est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-ambiguous-to-users-in-general">ambiguë pour tout utilisateur</a>.</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-purpose-of-each-link">fonction de chaque lien</a> est déterminée par le texte du lien seul ou par le texte du lien associé à un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determined-link-context">contexte du lien déterminé par un programme informatique</a>, sauf si la fonction du lien est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-ambiguous-to-users-in-general">ambiguë pour tout utilisateur</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.4.4 Fonction du lien (selon le contexte)</strong></p>
@@ -7184,7 +7184,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Objectif du lien (selon le contexte) des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context">critère de succès 2.4.4 Objectif du lien (selon le contexte) des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7194,13 +7194,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.2.4.6 En-têtes et étiquettes</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6 En-têtes et étiquettes des WCAG 2.1</a>.</p>
 				<p>REMARQUE: dans un logiciel, les en-têtes et les étiquettes sont utilisés pour décrire les sections du contenu et les contrôles respectivement. Dans certains cas, il peut être difficile de savoir si un élément de texte statique est un en-tête ou une étiquette. Mais qu’il s’agisse d’une étiquette ou d’un en-tête, l’exigence est la même: s’ils sont présents, ils doivent décrire le sujet ou le but des éléments auxquels ils sont associés.</p>
 				<p><strong>Critère de succès 2.4.6 En-têtes et étiquettes des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html">Comprendre le critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">Comment satisfaire au critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html">Comprendre le critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">Comment satisfaire au critère de succès En-têtes et étiquettes (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Les en-têtes et les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> décrivent le sujet ou le but.</p>
+				<p>Les en-têtes et les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> décrivent le sujet ou le but.</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.4.6 En-têtes et étiquettes</strong></p>
@@ -7209,7 +7209,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6&nbsp;En-têtes et étiquettes des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels">critère de succès 2.4.6&nbsp;En-têtes et étiquettes des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7219,10 +7219,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.2.4.7 Visibilité du focus</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité du focus des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité du focus des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.4.7 Visibilité du focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Comprendre Visibilité du focus (en anglais)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-visible">Comment satisfaire à Visibilité du focus (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Comprendre Visibilité du focus (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-visible">Comment satisfaire à Visibilité du focus (en anglais)</a></p>
 				<p>(Niveau AA)</p>
 				<p>Toute interface utilisable au clavier comporte un mode de fonctionnement où la du focus est visible.</p>
 			</td>
@@ -7233,7 +7233,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité de la cible de saisie des WCAG 2.1</a> des WCAG 2.1.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#focus-visible">critère de succès 2.4.7 Visibilité de la cible de saisie des WCAG 2.1</a> des WCAG 2.1.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7256,12 +7256,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.2.5.1 Gestes pour le contrôle du pointeur</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au critère de succès indiqué dans le tableau 11.8.</p>
 				<p><strong>Tableau 11.8: Critère de succès du logiciel: Gestes pour le contrôle du pointeur</strong></p>
-				<p>Toutes les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui utilisent des mouvements multipoints ou basés sur un tracé pour exécuter une commande peuvent être utilisées avec un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a> sans mouvement basé sur un tracé, à moins qu’un mouvement multipoint ou basé sur un tracé soit <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</p>
+				<p>Toutes les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui utilisent des mouvements multipoints ou basés sur un tracé pour exécuter une commande peuvent être utilisées avec un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a> sans mouvement basé sur un tracé, à moins qu’un mouvement multipoint ou basé sur un tracé soit <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</p>
 				<p>REMARQUE 1: cette exigence s’applique au logiciel non Web qui interprète les actions du pointeur (c.-à-d. qu’elle ne s’applique pas aux actions requises pour faire fonctionner l’agent utilisateur ou la technologie d’assistance).</p>
-				<p>REMARQUE 2: ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#pointer-gestures">critère de succès 2.5.1&nbsp;Mouvements du pointeur des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par la note 1 ci-dessus.</p>
+				<p>REMARQUE 2: ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#pointer-gestures">critère de succès 2.5.1&nbsp;Mouvements du pointeur des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par la note 1 ci-dessus.</p>
 				<p><strong>Critère de succès 2.5.1 Gestes pour le contrôle du pointeur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Comprendre le critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures">Comment satisfaire au critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Comprendre le critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures">Comment satisfaire au critère de succès Gestes pour le contrôle du pointeur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -7284,19 +7284,19 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.2.5.2 Annulation de l’action du pointeur</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le critère de succès indiqué dans le tableau 11.9.</p>
 				<p><strong>Tableau 11.9: Critère de succès du logiciel: Annulation de l’action du pointeur</strong></p>
-				<p>Dans le cas des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui peuvent fonctionner à l’aide d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a>, au moins l’un des éléments suivants est vrai:</p>
+				<p>Dans le cas des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctions</a> qui peuvent fonctionner à l’aide d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-single-pointer">seul pointeur</a>, au moins l’un des éléments suivants est vrai:</p>
 				<ul>
-					<li>Aucun événement descendant: l’<a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-down-event">événement descendant (down-event)</a> du pointeur n’est pas utilisé pour exécuter une partie ou la totalité de la fonction</li>
-					<li>Abandonner ou Annuler: l’achèvement de la fonction se fait sur <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-up-event">l’événement ascendant (up-event)</a> et un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour interrompre la fonction avant l’achèvement ou pour annuler la fonction après l’achèvement ;</li>
+					<li>Aucun événement descendant: l’<a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-down-event">événement descendant (down-event)</a> du pointeur n’est pas utilisé pour exécuter une partie ou la totalité de la fonction</li>
+					<li>Abandonner ou Annuler: l’achèvement de la fonction se fait sur <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-up-event">l’événement ascendant (up-event)</a> et un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-mechanism">mécanisme</a> est disponible pour interrompre la fonction avant l’achèvement ou pour annuler la fonction après l’achèvement ;</li>
 					<li>Inversion de l’événement: l’événement montant inverse tout résultat de l’événement descendant précédent.</li>
-					<li>Essentiel: terminer la fonction sur inversion de l’événement est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</li>
+					<li>Essentiel: terminer la fonction sur inversion de l’événement est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a>.</li>
 				</ul>
 				<p>REMARQUE 1: les fonctions qui émulent un appui clavier ou un pavé numérique sont considérées comme essentielles.</p>
 				<p>REMARQUE 2: cette exigence s’applique au logiciel non Web qui interprète les actions du pointeur (c.-à-d. qu’elle ne s’applique pas aux actions requises pour faire fonctionner l’agent utilisateur ou la technologie d’assistance).</p>
-				<p>REMARQUE 3: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation">critère de succès 2.5.2 Annulation du pointeur des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p>
+				<p>REMARQUE 3: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation">critère de succès 2.5.2 Annulation du pointeur des WCAG 2.1</a> après remplacement des notes originales des WCAG 2.1 par les notes 1 et 2 ci-dessus.</p>
 				<p><strong>Critère de succès 2.5.2 Annulation de l’action du pointeur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html">Comprendre le critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation">Comment satisfaire au critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html">Comprendre le critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation">Comment satisfaire au critère de succès Annulation de l’action du pointeur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -7328,12 +7328,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.2.5.3.1 Étiquette dans le nom (fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html">Comprendre le critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#label-in-name">Comment satisfaire au critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html">Comprendre le critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#label-in-name">Comment satisfaire au critère de succès Étiquette dans le nom (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Pour les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface</a> utilisateur dont les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> contiennent du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> ou du <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> contient le texte qui est présenté visuellement.</p>
+				<p>Pour les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface</a> utilisateur dont les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> contiennent du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a> ou du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> contient le texte qui est présenté visuellement.</p>
 				<p>Remarque: il est grandement conseillé de placer le texte de l’étiquette au début du nom.</p>
 			</td>
 			<td>
@@ -7344,7 +7344,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge au moins une technologie d’assistance.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#label-in-name">critère de succès 2.5.3 Étiquette dans le nom des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7364,15 +7364,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.2.5.4 Activation par le mouvement</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 2.5.4 Activation par le mouvement</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html">Comprendre Activation par le mouvement (en anglais)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#motion-actuation">Comment satisfaire à Activation par le mouvement (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html">Comprendre Activation par le mouvement (en anglais)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#motion-actuation">Comment satisfaire à Activation par le mouvement (en anglais)</a></p>
 				<p>(Niveau A)</p>
-				<p>Les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctionnalités</a> qui peuvent être activées par un mouvement de l’appareil ou un mouvement de l’utilisateur peuvent également être activées par des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface utilisateur</a> et la réponse au mouvement peut être désactivée pour éviter une activation accidentelle, sauf dans les cas suivants </p>
+				<p>Les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-functionality">fonctionnalités</a> qui peuvent être activées par un mouvement de l’appareil ou un mouvement de l’utilisateur peuvent également être activées par des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composants d’interface utilisateur</a> et la réponse au mouvement peut être désactivée pour éviter une activation accidentelle, sauf dans les cas suivants </p>
 				<ul>
-					<li>Interface compatible : le mouvement est utilisé pour activer la fonctionnalité par l’intermédiaire d’une interface <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-accessibility-supported">qui prend en charge l’accessibilité</a>;</li>
-					<li>Essentiel: le mouvement est <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a> pour exécuter la fonction, et ce faisant, il invalide l’activité.</li>
+					<li>Interface compatible : le mouvement est utilisé pour activer la fonctionnalité par l’intermédiaire d’une interface <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-accessibility-supported">qui prend en charge l’accessibilité</a>;</li>
+					<li>Essentiel: le mouvement est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentiel</a> pour exécuter la fonction, et ce faisant, il invalide l’activité.</li>
 				</ul>
 			</td>
 			<td>
@@ -7383,7 +7383,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge au moins une technologie d’assistance.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
+				<p>1. Vérifier que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#motion-actuation">critère de succès 2.5.4 Activation par le mouvement des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7408,12 +7408,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.3.1.1.1 Langue du logiciel (fonction non restreinte)</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le critère de succès indiqué dans le tableau 11.10.</p>
 				<p><strong>Tableau 11.10: Critère de succès du logiciel: langue du logiciel</strong></p>
-				<p>La <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> par défaut du logiciel peut être déterminée par un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a>.</p>
+				<p>La <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-human-language-s">langue</a> par défaut du logiciel peut être déterminée par un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">programme informatique</a>.</p>
 				<p>REMARQUE 1: lorsque les plateformes logicielles fournissent un paramètre « endroit/langue », les applications qui utilisent ce paramètre et rendent leur interface propre à cet « endroit » ou cette « langue » seraient conformes à ce critère de succès. Les applications qui n’utilisent pas le paramètre « endroit/langue » de la plateforme, mais qui utilisent une méthode d’exposition de la langue humaine du logiciel basée sur l’accessibilité seraient également conformes à ce critère de succès. Les applications mises en œuvre dans des technologies où les technologies d’assistance ne peuvent pas déterminer la langue humaine et ne prennent pas en charge le paramètre « endroit/langue » de la plateforme peuvent ne pas être en mesure de satisfaire à ce critère de succès pour cet endroit ou cette langue.</p>
-				<p>REMARQUE 2: ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#language-of-page">critère de succès 3.1.1 Langue de la page des WCAG 2.1</a> après remplacement de « pages Web » par « logiciel » et après l’ajout de la note 1 ci-dessus.</p>
+				<p>REMARQUE 2: ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#language-of-page">critère de succès 3.1.1 Langue de la page des WCAG 2.1</a> après remplacement de « pages Web » par « logiciel » et après l’ajout de la note 1 ci-dessus.</p>
 				<p><strong>Critère de succès 3.1.1&nbsp;Langue de la page des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Comprendre le critère de succès Langue de la page (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-page">Comment satisfaire au critère de succès Langue de la page (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Comprendre le critère de succès Langue de la page (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-page">Comment satisfaire au critère de succès Langue de la page (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -7470,13 +7470,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.3.2.1 Au focus</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-focus">Critère de succès 3.2.1 Au focus des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">Critère de succès 3.2.1 Au focus des WCAG 2.1</a>.</p>
 				<p>REMARQUE: Certains documents composés et leurs agents utilisateurs sont conçus pour offrir des fonctions d’affichage et de modification très différentes selon la partie du document composé où les interactions ont lieu (par exemple, une présentation qui contient une feuille de calcul intégrée, dans laquelle les menus et les barres d’outils de l’agent utilisateur changent selon que l’utilisateur interagit avec le contenu de la présentation ou celui de la feuille de calcul intégrée). Si l’utilisateur utilise un mécanisme autre que celui de mettre la du focus sur la partie du document composite avec laquelle il veut interagir (p. ex. par un choix de menu ou un mouvement spécial de clavier), tout changement de contexte qui en résulterait ne serait pas soumis à ce critère de succès parce qu’il n’a pas été causé par un déplacement du focus.</p>
 				<p><strong>Critère de succès 3.2.1 Au focus des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-focus.html">Comprendre le critère de succès du focus (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-focus">Comment satisfaire au critère de succès du focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html">Comprendre le critère de succès du focus (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#on-focus">Comment satisfaire au critère de succès du focus (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Quand un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant de l’interface utilisateur</a> reçoit la du focus, il ne doit pas amorcer un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>.</p>
+				<p>Quand un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant de l’interface utilisateur</a> reçoit la du focus, il ne doit pas amorcer un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.2.1 Au focus</strong></p>
@@ -7485,7 +7485,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez si le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-focus">Critère de succès 3.2.1 Au focus des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez si le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">Critère de succès 3.2.1 Au focus des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7495,12 +7495,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.3.2.2 À la saisie</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2 À la saisie des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2 À la saisie des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 3.2.2&nbsp;À la saisie des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-input.html">Comprendre le critère de succès À la saisie (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-input">Comment satisfaire au critère de succès À la saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/on-input.html">Comprendre le critère de succès À la saisie (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#on-input">Comment satisfaire au critère de succès À la saisie (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Le changement de paramètre d’un <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> ne doit pas amorcer de <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>, à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.</p>
+				<p>Le changement de paramètre d’un <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> ne doit pas amorcer de <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-change-of-context">changement de contexte</a>, à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.2.2 À la saisie</strong></p>
@@ -7509,7 +7509,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2&nbsp;À la saisie des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#on-input">critère de succès 3.2.2&nbsp;À la saisie des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7531,12 +7531,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.3.3.1.1 Identification d’erreur (fonction non restreinte)</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 3.3.1 Identification des erreurs</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-identification.html">Comprendre le critère de succès Identification des erreurs (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-identification">Comment satisfaire au critère de succès Identification des erreurs (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html">Comprendre le critère de succès Identification des erreurs (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#error-identification">Comment satisfaire au critère de succès Identification des erreurs (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Si une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est détectée automatiquement, l’élément en erreur est identifié et l’erreur est décrite à l’utilisateur sous forme de texte.</p>
+				<p>Si une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est détectée automatiquement, l’élément en erreur est identifié et l’erreur est décrite à l’utilisateur sous forme de texte.</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.3.1.1 Identification d’erreur (fonction non restreinte)</strong></p>
@@ -7546,7 +7546,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>2. Le logiciel prend en charge l’accès aux technologies d’assistance pour la lecture d’écran.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que la page Web n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que la page Web n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7579,12 +7579,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.3.3.2 Étiquettes ou instructions</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 3.3.2 Étiquettes ou instructions</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">Comprendre le critère de succès Étiquettes ou instructions (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">Comment satisfaire au critère Étiquettes ou instructions (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">Comprendre le critère de succès Étiquettes ou instructions (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">Comment satisfaire au critère Étiquettes ou instructions (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
-				<p>Des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> sont présentées ou des instructions sont fournies quand un contenu requiert une saisie utilisateur.</p>
+				<p>Des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-labels">étiquettes</a> sont présentées ou des instructions sont fournies quand un contenu requiert une saisie utilisateur.</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.3.2 Étiquettes ou instructions</strong></p>
@@ -7593,7 +7593,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">critère de succès 3.3.2 Étiquettes ou instructions des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7603,12 +7603,12 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.3.3.3 Suggestion après une erreur</strong></p>
-				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="http://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</a>.</p>
+				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le <a href="https://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</a>.</p>
 				<p><strong>Critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html">Comprendre le critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-suggestion">Comment satisfaire au critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html">Comprendre le critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion">Comment satisfaire au critère de succès Suggestion après une erreur (en anglais seulement)</a></p>
 				<p>(Niveau AA)</p>
-				<p>Si une <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est automatiquement détectée et que des suggestions de corrections sont connues, ces suggestions sont alors proposées à l’utilisateur à moins que cela puisse compromettre la sécurité ou la finalité du contenu.</p>
+				<p>Si une <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-input-error">erreur de saisie</a> est automatiquement détectée et que des suggestions de corrections sont connues, ces suggestions sont alors proposées à l’utilisateur à moins que cela puisse compromettre la sécurité ou la finalité du contenu.</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.3.3 Suggestion après une erreur</strong></p>
@@ -7617,7 +7617,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Conditions préalables</p>
 				<p>1. La TIC est un logiciel non Web qui est doté d’une interface utilisateur.</p>
 				<p>Procédure</p>
-				<p>1. Vérifiez que le logiciel n’échoue pas au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</a>.</p>
+				<p>1. Vérifiez que le logiciel n’échoue pas au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-suggestion">critère de succès 3.3.3 Suggestion après une erreur des WCAG 2.1</a>.</p>
 				<p>Résultat</p>
 				<p>Réussite: L’énoncé testable n<sup>o</sup>&nbsp;1 est vrai.</p>
 				<p>Échec: L’énoncé testable n<sup>o</sup>&nbsp;1 est faux.</p>
@@ -7629,14 +7629,14 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.3.3.4 Prévention des erreurs (juridiques, financières, de données)</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur, elle remplit le critère de succès indiqué dans le tableau 11.11.</p>
 				<p><strong>Tableau 11.11: Critère de succès du logiciel: Prévention des erreurs (juridiques, financières, de données)</strong></p>
-				<p>Pour les logiciels qui donnent lieu à des <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-legal-commitments">engagements juridiques</a> ou à des transactions financières de la part de l’utilisateur qui soit modifient ou effacent des données <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-controllable">contrôlables par l’utilisateur</a> dans des systèmes de stockages de données, soit enregistrent les réponses de l’utilisateur à un test ou un examen, au moins l’une des conditions suivantes est vraie:</p>
+				<p>Pour les logiciels qui donnent lieu à des <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-legal-commitments">engagements juridiques</a> ou à des transactions financières de la part de l’utilisateur qui soit modifient ou effacent des données <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-controllable">contrôlables par l’utilisateur</a> dans des systèmes de stockages de données, soit enregistrent les réponses de l’utilisateur à un test ou un examen, au moins l’une des conditions suivantes est vraie:</p>
 				<p>1. Réversible: les actions d’envoi sont réversibles</p>
 				<p>2. Vérifiée: les données saisies par l’utilisateur sont vérifiées au niveau des erreurs de saisie et la possibilité est donnée à l’utilisateur de les corriger.</p>
 				<p>3. Confirmée: un mécanisme est disponible pour revoir, confirmer et corriger les informations avant leur soumission finale.</p>
-				<p>REMARQUE: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data">critère de succès 3.3.4 Prévention des erreurs (juridique, financier, de données) des WCAG 2.1</a>remplaçant « pages Web » par « logiciel ».</p>
+				<p>REMARQUE: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data">critère de succès 3.3.4 Prévention des erreurs (juridique, financier, de données) des WCAG 2.1</a>remplaçant « pages Web » par « logiciel ».</p>
 				<p><strong>Critère de succès 3.3.4 Prévention des erreurs (juridiques, financières, de données) des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">Comprendre le critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data">Comment satisfaire au critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a> </p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">Comprendre le critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data">Comment satisfaire au critère de succès Prévention des erreurs (juridiques, financières, de données) (en anglais seulement)</a> </p>
 				<p>(Niveau AA)</p>
 			</td>
 			<td>
@@ -7676,10 +7676,10 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>REMARQUE 2: Le balisage n’est pas toujours mis à la disposition des technologies d’assistance ou des agents utilisateurs sélectionnables par l’utilisateur tels que les navigateurs. Dans de tels cas, la conformité à cette disposition n’aurait aucune incidence sur l’accessibilité, comme c’est le cas pour le contenu Web lorsqu’il est exposé.</p>
 				<p>REMARQUE 3: Les exemples de balisage qui sont exposés séparément et disponibles pour les technologies d’assistance et les agents utilisateurs comprennent, sans s’y limiter: les documents encodés en HTML, ODF et OOXML. Dans ces exemples, le balisage peut être entièrement analysé de deux façons: (a) par des technologies d’assistance qui peuvent ouvrir directement le document, (b) par des technologies d’assistance utilisant des API DOM d’agents utilisateurs pour ces formats de document. </p>
 				<p>REMARQUE 4: Les exemples de balisage utilisé à l’interne pour la persistance de l’interface utilisateur du logiciel qui ne sont jamais exposés à la technologie d’assistance comprennent, sans s’y limiter: XUL, GladeXML et FXML. Dans ces exemples, la technologie d’assistance n’interagit qu’avec l’interface utilisateur du logiciel généré.</p>
-				<p>REMARQUE 5: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#parsing">critère de succès 4.1.1 Analyse syntaxique des WCAG 2.1</a> en remplaçant « Dans le contenu mis en œuvre en utilisant des langages de balisage » par « Pour les logiciels qui utilisent des langages de balisage, de manière à ce que le balisage soit exposé et disponible séparément aux technologies d’assistance et aux fonctions d’accessibilité du logiciel ou à un agent utilisateur sélectionnable par l’utilisateur » avec l’ajout des notes 2, 3 et 4 ci-dessus.</p>
+				<p>REMARQUE 5: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#parsing">critère de succès 4.1.1 Analyse syntaxique des WCAG 2.1</a> en remplaçant « Dans le contenu mis en œuvre en utilisant des langages de balisage » par « Pour les logiciels qui utilisent des langages de balisage, de manière à ce que le balisage soit exposé et disponible séparément aux technologies d’assistance et aux fonctions d’accessibilité du logiciel ou à un agent utilisateur sélectionnable par l’utilisateur » avec l’ajout des notes 2, 3 et 4 ci-dessus.</p>
 				<p><strong>Critère de succès 4.1.1 Analyse syntaxique des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Comprendre le critère de succès Analyse syntaxique (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#parsing">Comment satisfaire au critère de succès Analyse syntaxique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Comprendre le critère de succès Analyse syntaxique (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#parsing">Comment satisfaire au critère de succès Analyse syntaxique (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -7724,13 +7724,13 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p><strong>11.4.1.2.1 Nom, rôle et valeur (fonction non restreinte)</strong></p>
 				<p>Dans le cas où la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance, elle remplit le critère de succès indiqué dans le tableau 11.13.</p>
 				<p><strong>Tableau 11.13: Critère de succès du logiciel: Nom, rôle, valeur</strong></p>
-				<p>Pour tout <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> (comprenant, mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scriptes), le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> et le <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-role">rôle</a> peuvent être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminés par un programme informatique</a> ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-set">définis par un programme informatique</a> ; et la notification des changements de ces éléments est disponible aux <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-user-agents">agents utilisateurs</a>, incluant les <a href="http://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </p>
+				<p>Pour tout <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-interface-components">composant d’interface utilisateur</a> (comprenant, mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scriptes), le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-name">nom</a> et le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-role">rôle</a> peuvent être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-determinable">déterminés par un programme informatique</a> ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-programmatically-set">définis par un programme informatique</a> ; et la notification des changements de ces éléments est disponible aux <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-user-agents">agents utilisateurs</a>, incluant les <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-assistive-technologies">technologies d’assistance</a>. </p>
 				<p>REMARQUE 1: Ce critère de succès s’adresse principalement aux développeurs de logiciels qui développent ou utilisent des composants d’interface utilisateur personnalisés. Les composants d’interface utilisateur standard de la plupart des plateformes qui prennent en charge l’accessibilité répondent déjà à ce critère de succès lorsqu’ils sont utilisés conformément aux spécifications.</p>
 				<p>REMARQUE 2: Pour se conformer à ce critère de succès, il est généralement préférable que les interfaces utilisateur des logiciels utilisent les services d’accessibilité fournis par les logiciels de plateforme. Ces services d’accessibilité permettent l’interopérabilité entre les interfaces utilisateur des logiciels et les technologies d’assistance et les caractéristiques d’accessibilité des logiciels de manière normalisée. La plupart des services d’accessibilité de plateforme vont au-delà de l’exposition programmatique du nom et du rôle, et de l’établissement programmatique des états, des propriétés et des valeurs (et de leur notification), et spécifient des informations supplémentaires qui pourraient ou doivent être exposées et/ou établies (p. ex. une liste des actions disponibles pour un composant d’interface utilisateur donné, et un moyen pour exécuter par un programme informatique une des actions indiquées).</p>
-				<p>REMARQUE 3: Ce critère de succès est identique au <a href="http://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2 Nom, rôle et valeur des WCAG 2.1</a> remplaçant la note initiale des WCAG 2.1 par la suivante: « Ce critère de succès s’adresse principalement aux développeurs de logiciels qui développent ou utilisent des composants d’interface utilisateur personnalisés. Les composants d’interface utilisateur standard de la plupart des plateformes qui prennent en charge l’accessibilité répondent déjà à ce critère de succès lorsqu’ils sont utilisés conformément aux spécifications » et l’ajout de la note 2 ci-dessus. </p>
+				<p>REMARQUE 3: Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#name-role-value">critère de succès 4.1.2 Nom, rôle et valeur des WCAG 2.1</a> remplaçant la note initiale des WCAG 2.1 par la suivante: « Ce critère de succès s’adresse principalement aux développeurs de logiciels qui développent ou utilisent des composants d’interface utilisateur personnalisés. Les composants d’interface utilisateur standard de la plupart des plateformes qui prennent en charge l’accessibilité répondent déjà à ce critère de succès lorsqu’ils sont utilisés conformément aux spécifications » et l’ajout de la note 2 ci-dessus. </p>
 				<p><strong>Critère de succès 4.1.2 Nom, rôle et valeur des WCAG 2.1</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Comprendre le critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#name-role-value">Comment satisfaire au critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Comprendre le critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
+				<p><a href="https://www.w3.org/WAI/WCAG21/quickref/#name-role-value">Comment satisfaire au critère de succès Nom, rôle et valeur (en anglais seulement)</a></p>
 				<p>(Niveau A)</p>
 			</td>
 			<td>
@@ -7772,7 +7772,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 		<tr>
 			<td>
 				<p><strong>11.4.1.3.1 Messages d’état (fonction non restreinte)</strong></p>
-				<p>Lorsque la TIC est un document non Web, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#status-messages">critère de succès 4.1.3 Messages d’état des WCAG 2.1.</a></p>
+				<p>Lorsque la TIC est un document non Web, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#status-messages">critère de succès 4.1.3 Messages d’état des WCAG 2.1.</a></p>
 			</td>
 			<td>
 				<p><strong>C.11.4.1.3.1 Messages d’état (fonction non restreinte)</strong></p>
@@ -7786,7 +7786,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Résultat</p>
 				<p>Réussite : L’énoncé testable no 1 est vrai. </p>
 				<p>Échec : L’énoncé testable no 1 est faux.</p>
-				<p>Non applicable : La condition préalable 1 ou 2 n’est pas remplie ou le logiciel non Web ne renferme pas de contenu pertinent pour le <a href="https://www.w3.org/Translations/WCAG21-fr-fr/#status-messages">critère de succès 4.1.3 Messages d’état des WCAG 2.1</a>.</p>
+				<p>Non applicable : La condition préalable 1 ou 2 n’est pas remplie ou le logiciel non Web ne renferme pas de contenu pertinent pour le <a href="https://www.w3.org/Translations/WCAG21-fr/#status-messages">critère de succès 4.1.3 Messages d’état des WCAG 2.1</a>.</p>
 			</td>
 		</tr>
 		<tr>
@@ -8933,62 +8933,62 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 			<tr>
 				<td> 1 </td>
 				<td> Média temporel </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#sign-language-prerecorded">1.2.6</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#sign-language-prerecorded">Langue des signes (pré-enregistrée) </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#sign-language-prerecorded">1.2.6</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#sign-language-prerecorded">Langue des signes (pré-enregistrée) </a> </td>
 			</tr>
 			<tr>
 				<td> 2 </td>
 				<td> Média temporel </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#extended-audio-description-prerecorded">1.2.7</a> </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#extended-audio-description-prerecorded">Audio-description étendue (pré-enregistrée) </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#extended-audio-description-prerecorded">1.2.7</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#extended-audio-description-prerecorded">Audio-description étendue (pré-enregistrée) </a> </td>
 			</tr>
 			<tr>
 				<td> 3 </td>
 				<td> Média temporel </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#media-alternative-prerecorded">1.2.8</a> </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#media-alternative-prerecorded">Version de remplacement pour un média temporel (pré-enregistrée) </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#media-alternative-prerecorded">1.2.8</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#media-alternative-prerecorded">Version de remplacement pour un média temporel (pré-enregistrée) </a> </td>
 			</tr>
 			<tr>
 				<td> 4 </td>
 				<td> Média temporel </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#audio-only-live">1.2.9</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#audio-only-live">Seulement audio (en direct) </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#audio-only-live">1.2.9</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#audio-only-live">Seulement audio (en direct) </a> </td>
 			</tr>
 			<tr>
 				<td> 5 </td>
 				<td> Adaptable </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#identify-purpose">1.3.6</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#identify-purpose">Identifier la fonction </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#identify-purpose">1.3.6</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#identify-purpose">Identifier la fonction </a> </td>
 			</tr>
 			<tr>
 				<td> 6 </td>
 				<td> Distinguable </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#contrast-enhanced">1.4.6</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#contrast-enhanced">Contraste (amélioré)</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#contrast-enhanced">1.4.6</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#contrast-enhanced">Contraste (amélioré)</a> </td>
 			</tr>
 			<tr>
 				<td> 7 </td>
 				<td> Distinguable </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#low-or-no-background-audio">1.4.7</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#low-or-no-background-audio">Arrière-plan sonore de faible volume ou absent </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#low-or-no-background-audio">1.4.7</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#low-or-no-background-audio">Arrière-plan sonore de faible volume ou absent </a> </td>
 			</tr>
 			<tr>
 				<td> 8 </td>
 				<td> Distinguable </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#visual-presentation">1.4.8</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#visual-presentation">Présentation visuelle </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#visual-presentation">1.4.8</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#visual-presentation">Présentation visuelle </a> </td>
 			</tr>
 			<tr>
 				<td> 9 </td>
 				<td> Distinguable </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#images-of-text-no-exception">1.4.9</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#images-of-text-no-exception">Texte sous forme d’image (sans exception) </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#images-of-text-no-exception">1.4.9</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#images-of-text-no-exception">Texte sous forme d’image (sans exception) </a> </td>
 			</tr>
 			<tr>
 				<td> 10 </td>
 				<td> Accessibilité au clavier </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#keyboard-no-exception">2.1.3</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#keyboard-no-exception">Clavier (pas d’exception) </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard-no-exception">2.1.3</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard-no-exception">Clavier (pas d’exception) </a> </td>
 			</tr>
 			<tr>
 				<td> 11 </td>
@@ -8999,104 +8999,104 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 			<tr>
 				<td> 12 </td>
 				<td> Délai suffisant </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#interruptions">2.2.4</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#interruptions">Interruptions </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#interruptions">2.2.4</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#interruptions">Interruptions </a> </td>
 			</tr>
 			<tr>
 				<td> 13 </td>
 				<td> Délai suffisant </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#re-authenticating">2.2.5</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#re-authenticating">Nouvelle authentification</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#re-authenticating">2.2.5</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#re-authenticating">Nouvelle authentification</a> </td>
 			</tr>
 			<tr>
 				<td> 14 </td>
 				<td> Délai suffisant </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#timeouts">2.2.6</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#timeouts">Délais d’expiration</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#timeouts">2.2.6</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#timeouts">Délais d’expiration</a> </td>
 			</tr>
 			<tr>
 				<td> 15 </td>
 				<td> Crises et réactions physiques </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#three-flashes">2.3.2</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#three-flashes">Trois flashs </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#three-flashes">2.3.2</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#three-flashes">Trois flashs </a> </td>
 			</tr>
 			<tr>
 				<td> 16 </td>
 				<td> Crises et réactions physiques </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#animation-from-interactions">2.3.3</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#animation-from-interactions">Animation résultant d’interactions</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#animation-from-interactions">2.3.3</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#animation-from-interactions">Animation résultant d’interactions</a> </td>
 			</tr>
 			<tr>
 				<td> 17 </td>
 				<td> Navigable </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#location">2.4.8</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#location">Localisation</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#location">2.4.8</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#location">Localisation</a> </td>
 			</tr>
 			<tr>
 				<td> 18 </td>
 				<td> Navigable </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#link-purpose-link-only">2.4.9</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#link-purpose-link-only">Fonction du lien (lien uniquement)</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#link-purpose-link-only">2.4.9</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#link-purpose-link-only">Fonction du lien (lien uniquement)</a> </td>
 			</tr>
 			<tr>
 				<td> 19 </td>
 				<td> Navigable </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#section-headings">2.4.10</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#section-headings">En-têtes de section</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#section-headings">2.4.10</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#section-headings">En-têtes de section</a> </td>
 			</tr>
 			<tr>
 				<td> 20 </td>
 				<td> Modalités d’entrée </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#target-size">2.5.5</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#target-size">Taille de la cible</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#target-size">2.5.5</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#target-size">Taille de la cible</a> </td>
 			</tr>
 			<tr>
 				<td> 21 </td>
 				<td> Modalités d’entrée </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#concurrent-input-mechanisms">2.5.6</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#concurrent-input-mechanisms">Modalités d’entrées concurrentes</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#concurrent-input-mechanisms">2.5.6</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#concurrent-input-mechanisms">Modalités d’entrées concurrentes</a> </td>
 			</tr>
 			<tr>
 				<td> 22 </td>
 				<td> Lisible </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#unusual-words">3.1.3</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#unusual-words">Mots rares</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#unusual-words">3.1.3</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#unusual-words">Mots rares</a> </td>
 			</tr>
 			<tr>
 				<td> 23 </td>
 				<td> Lisible </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#abbreviations">3.1.4</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#abbreviations">Abréviations </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#abbreviations">3.1.4</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#abbreviations">Abréviations </a> </td>
 			</tr>
 			<tr>
 				<td> 24 </td>
 				<td> Lisible </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#reading-level">3.1.5</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#reading-level">Niveau de lecture</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#reading-level">3.1.5</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#reading-level">Niveau de lecture</a> </td>
 			</tr>
 			<tr>
 				<td> 25 </td>
 				<td> Lisible </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#pronunciation">3.1.6</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#pronunciation">Prononciation </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#pronunciation">3.1.6</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#pronunciation">Prononciation </a> </td>
 			</tr>
 			<tr>
 				<td> 26 </td>
 				<td> Prévisible </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#change-on-request">3.2.5</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#change-on-request">Changement à la demande</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#change-on-request">3.2.5</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#change-on-request">Changement à la demande</a> </td>
 			</tr>
 			<tr>
 				<td> 27 </td>
 				<td> Assistance à la saisie </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#help">3.3.5</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#help">Aide </a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#help">3.3.5</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#help">Aide </a> </td>
 			</tr>
 			<tr>
 				<td> 28 </td>
 				<td> Assistance à la saisie </td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#error-prevention-all">3.3.6</a></td>
-				<td><a href="https://www.w3.org/Translations/WCAG21-fr-fr/#error-prevention-all">Prévention des erreurs (toutes)</a> </td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#error-prevention-all">3.3.6</a></td>
+				<td><a href="https://www.w3.org/Translations/WCAG21-fr/#error-prevention-all">Prévention des erreurs (toutes)</a> </td>
 			</tr>
 		</tbody>
 	</table>
@@ -9127,11 +9127,11 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 <p lang="en"><strong>[3]</strong> ETSI ES 200 381-2 (V1.1.1) (October 2012): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids; Part 2: Cellular speech terminals".</p>
 <p lang="en"><strong>[4]</strong> W3C Recommendation (December 2008) /ISO/IEC 40500:2012: "Web Content Accessibility Guidelines (WCAG) 2.0".</p>
 <ul>
-	<li>REMARQUE : Disponible à <a href="https://www.w3.org/Translations/WCAG20/" lang="en">WCAG 2.0</a> (en anglais)..</li>
+	<li>REMARQUE : Disponible à <a href="https://www.w3.org/Translations/WCAG20-fr/" lang="en">WCAG 2.0</a></li>
 </ul>
 <p lang="en"><strong>[5]</strong> W3C Proposed Recommendation (June 2018): "Web Content Accessibility Guidelines (WCAG) 2.1".</p>
 <ul>
-	<li>REMARQUE : Disponible à <a href="https://www.w3.org/Translations/WCAG21-fr/" lang="en">WCAG 2.1</a> (en anglais)..</li>
+	<li>REMARQUE : Disponible à <a href="https://www.w3.org/Translations/WCAG21-fr/" lang="en">WCAG 2.1</a></li>
 </ul>
 <h3>2.2 Références informatives</h3>
 <p>Les références sont soit spécifiques (identifiées par la date de publication et/ou le numéro d'édition ou le numéro de version), soit non spécifiques. Pour des références spécifiques, seule la version citée est applicable. En ce qui concerne les références non spécifiques, la dernière version du document cité en référence (y compris les modifications éventuelles) est applicable.</p>
@@ -9166,15 +9166,15 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 <p lang="en"><strong>[i.25]</strong> Section 508 of the United States Rehabilitation Act of 1973, revised 2017. REMARQUE: Disponible à <a href="https://www.section508.gov/manage/laws-and-policies" lang="en">https://www.section508.gov/manage/laws-and-policies</a> .&nbsp;</p>
 <p lang="en"><strong>[i.26]</strong> W3C Working Group Note 5 September 2013: "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)".&nbsp;</p>
 <ul>
-	<li>REMARQUE: Disponible à <a href="http://www.w3.org/Translations/wcag2ict/" lang="en">WCAG2ICT</a>.</li>
+	<li>REMARQUE: Disponible à <a href="https://www.w3.org/TR/wcag2ict-20/" lang="en">WCAG2ICT</a>.</li>
 </ul>
 <p lang="en"><strong>[i.27]</strong> M 554 Commission Implementing Decision C(2017)2585 of 27.4.2017 on a standardisation request to the European standardisation organisations in support of Directive (EU) 2016/2102 of the European Parliament and of the Council on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
 <p lang="en"><strong>[i.28]</strong> Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
 <p lang="en"><strong>[i.29]</strong>ETSI/CEN/CENELEC EN 301 549 (V2.1.2) (August 2018): "Accessibility requirements for ICT products and services".&nbsp;</p>
 <p lang="en"><strong>[i.30]</strong> ETSI/CEN/CENELEC Translations 101 552: "Guidance for the application of conformity assessment to accessibility requirements for public procurement of ICT products and services in Europe".</p>
 <p lang="en"><strong>[i.31]</strong> ISO/IEC TS 20071-25:2017: "Information technology - User interface component accessibility - Part 25: Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text".</p>
-<p><strong>[i.32]</strong> W3C Recommendation (September 2015): "Authoring Tool Accessibility Guidelines (ATAG) 2.0". REMARQUE: Disponible à <a href="http://www.w3.org/Translations/ATAG20/" lang="en">http://www.w3.org/Translations/ATAG20/</a>. </p>
-<p lang="en"><strong>[i.33]</strong> W3C Recommendation (September 2015): "User Agent Accessibility Guidelines (UAAG) 2.0". REMARQUE: Disponible à <a href="http://www.w3.org/Translations/UAAG20/" lang="en">http://www.w3.org/Translations/UAAG20/</a>. </p>
+<p><strong>[i.32]</strong> W3C Recommendation (September 2015): "Authoring Tool Accessibility Guidelines (ATAG) 2.0". REMARQUE: Disponible à <a href="https://www.w3.org/WAI/standards-guidelines/atag/" lang="en">https://www.w3.org/WAI/standards-guidelines/atag/</a>. </p>
+<p lang="en"><strong>[i.33]</strong> W3C Recommendation (September 2015): "User Agent Accessibility Guidelines (UAAG) 2.0". REMARQUE: Disponible à <a href="https://www.w3.org/WAI/standards-guidelines/uaag/" lang="en">https://www.w3.org/WAI/standards-guidelines/uaag/</a>. </p>
 <p lang="en"><strong>[i.34]</strong>ISO 21542:2011: "Building construction - Accessibility and usability of the built environment".</p>
 <p lang="en"><strong>[i.35]</strong>ISO/IEC Guide 71:2014: "Guide for addressing accessibility in standards".</p>
 <p lang="en"><strong>[i.36]</strong>Recommendation ITU-T T.140 (1988): "Protocol for multimedia application text conversation". </p>
@@ -9514,6 +9514,6 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 	<li><a href="https://support.google.com/docs/answer/6199477?hl=fr&ref_topic=6039805">Google Docs – Rendre votre document ou présentation plus accessible</a></li>
 	<li><a href="https://www.youtube.com/watch?v=3f31oufqFSM">Perspectives d'accessibilité Web - Compilation de 10 sujets / vidéos (en anglais seulement)</a></li>
 	<li><a href="https://accessibility.18f.gov/index.html">Guide sur l’accessibilité de 18F (Web) (en anglais seulement)</a></li>
-	<li><a href="http://www.washington.edu/accessibility/">Guides sur l’accessibilité des documents de l’Université de Washington (en anglais seulement)</a> </li>
+	<li><a href="https://www.washington.edu/accessibility/">Guides sur l’accessibilité des documents de l’Université de Washington (en anglais seulement)</a> </li>
 </ul>
 <p>REMARQUE : Le fait de suivre les conseils prodigués dans les liens susmentionnés ne garantit pas la conformité aux normes WCAG 2.1. Les liens sont fournis à titre indicatif seulement.</p>
