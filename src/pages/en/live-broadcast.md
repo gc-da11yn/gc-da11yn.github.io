@@ -1,6 +1,7 @@
 ---
 title: Live Broadcast
 description: Live Broadcasts are defined as a facilitator presenting a PowerPoint via videoconference. Here we have defined each type and their respective accessibility requirements.
+toggle: diffusions-en-direct
 subject:
   - howTos
 tags:

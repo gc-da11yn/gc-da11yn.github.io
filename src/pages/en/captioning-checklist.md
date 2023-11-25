@@ -3,6 +3,7 @@ title: Captioning Checklist
 description: Making sure you did not forget anything with your captions.
 subject:
   - howTos
+toggle: liste-de-controle-pour-le-sous-titrage
 tags:
   - createWebContent
 layout: layouts/base.njk

@@ -1,6 +1,7 @@
 ---
 title: Captioning Guidelines
-description: Captioning is the process of converting the audio content of a video to displaying the text on a screen or monitor 
+description: Captioning is the process of converting the audio content of a video to displaying the text on a screen or monitor
+toggle: directives-pour-le-sous-titrage
 subject:
   - howTos
 tags:
@@ -55,7 +56,7 @@ Captioning and subtitling are different media with deceptively similar appeara
    1. [whispering]
    1. [British accent]
    1. [Vincent, narrating]
-1. Subtitles can be captioned (subtitles first, captions later) but not the other way around. 
+1. Subtitles can be captioned (subtitles first, captions later) but not the other way around.
 
 # *Captioning Checklist**
 Do the captions include:
