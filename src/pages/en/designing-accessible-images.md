@@ -2,6 +2,7 @@
 title: Designing accessible images
 layout: layouts/base.njk
 description: With this diagram, you will learn how to make the best choice for designing accessible images.
+toggle: concevoir-des-images-accessibles
 ---
 <div class="row">
     <div class="col-md-10 col-xs-offset-1"><img src="/img/en/introduction/accessible-image.jpg" class="img-responsive" alt="An infographic on how to use accessible images and use alternative text. Long description below" /></div>

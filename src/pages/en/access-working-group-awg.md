@@ -2,7 +2,6 @@
 title: Access Working Group (AWG)
 layout: layouts/base.njk
 description: The Access Working Group (AWG) was established by the Treasury Board Internet Advisory Committee (parent committee) on August 1, 1997 to engage in collaborative activities between government, private sector and community organizations that have a stake in ensuring equitable access to information and services, especially for, but not limited to persons with disabilities, for the purpose of providing input to Government of Canada (GoC) policy making.
-needsTranslation: true
 internalLinks: true
 toggle: le-groupe-de-travail-sur-l-acces-gta
 ---
