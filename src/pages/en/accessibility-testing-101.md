@@ -2,7 +2,7 @@
 title: Accessibility Testing 101
 layout: layouts/base.njk
 description: For anyone wanting to create accessible content, it is encouraged to use automated accessibility testing tools. These testing tools will help content creators as they build their content by finding errors and offering suggestions to improve the accessibility of their product, application or web site. On this page a list of recommended accessibility testing tools has been made available.
-toggle:
+toggle: test-d-accessibilite-101
 subject: howTos
 tags: testYourProducts
 ---
@@ -128,8 +128,6 @@ Automated tools and validators to identify accessibility issues:
 - Activate something: use the Enter key or space bar
 - To check / uncheck a checkbox: use space bar
 - Move around: use the arrow keys
-
-<p><img class="img-responsive" src="{{ rootPath }}img/en/accessibility-testing-101-1.jpg" alt="" /></p>
 
 Scrub your site for accessibility issues:
 
