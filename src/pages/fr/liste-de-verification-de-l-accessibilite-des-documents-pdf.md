@@ -42,7 +42,7 @@ Nous avons dressé une liste d’outils et de ressources pour aider les dévelop
 - [Tutoriels didactiques PhantomPDF de Foxit](https://www.foxitsoftware.com/fr/support/tutorial/?from=foxit%20phantompdf_business&utm_source=client-app)
 - [Foxit : Utilisez l’assistant d’action pour rendre automatiquement les PDF conformes à la norme 508](https://www.foxitsoftware.com/blog/use-action-wizard-to-automatically-make-pdfs-508-compliant/) (anglais seulement)
 - [WebAIM : Accessibilité Foxit et PDF](https://webaim.org/techniques/foxit/) (anglais seulement)
-- [Choses à faire et à ne pas faire dans la conception accessible](../fr/index.html)
+- [Choses à faire et à ne pas faire dans la conception accessible]({{ rootPath }}fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne)
 
 ## Instructions pour la liste de vérification
 
