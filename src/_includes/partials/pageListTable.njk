@@ -86,7 +86,6 @@
 					<th data-wb-tags="col_2">{% if locale === "en" %}Other language link{% else %}Lien vers d'autres langues{% endif %}</th>
 					<th data-wb-tags="col_3">{{ pageList[locale].tagsText }}</th>
 					<th data-wb-tags="col_4">{{ pageList[locale].subjectsText }}</th>
-					<th data-wb-tags="col_5">{% if locale === "en" %}Description present?{% else %}Description présente ?{% endif %}</th>
 					<th data-wb-tags="col_6">{% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}</th>
 				</tr>
 			</thead>
@@ -120,12 +119,6 @@
 						{% endfor %}
 					</td>
 					<td data-wb-tags="col_4"><span class="label label-success">{{ entry.data.subject }}</span></td>
-					<td data-wb-tags="col_5">{% if entry.data.description %}
-						<span class="glyphicon glyphicon-ok mrgn-rght-sm" aria-hidden="true"></span>{% if locale === "en" %}Present{% else %}Présente{% endif %}
-						{% else %}
-						<span class="glyphicon glyphicon-remove mrgn-rght-sm" aria-hidden="true"></span>{% if locale === "en" %}Needed{% else %}Nécessaire{% endif %}
-						{% endif %}
-					</td>
 					<td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></td>
 				</tr>
 				{% endif %}
