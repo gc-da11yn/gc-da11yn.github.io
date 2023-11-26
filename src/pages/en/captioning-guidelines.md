@@ -11,7 +11,6 @@ audience:
   - Everyone
 ---
 
-# **Captioning Guidelines**
 All videos with audio content must have captions.
 
 Captioning is the process of converting the audio content of a video to displaying the text on a screen or monitor. They make it easier for people who need to access information in audio media but can't hear the content because:
@@ -33,7 +32,8 @@ It is important that the captions are:
 
 [Captions/Subtitles | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/media/av/captions/)
 
-### **Caption vs Subtitle**
+## Caption vs Subtitle
+
 Captioning and subtitling are different media with deceptively similar appearance.
 
 1. Captions are intended for deaf and hard-of-hearing audiences. The assumed audience for subtitling is hearing people who do not understand the language of dialogue.
@@ -41,7 +41,7 @@ Captioning and subtitling are different media with deceptively similar appeara
 1. Captions can explicitly state the speaker’s name:
    1. Cigarette Smoking Man:
    1. [Martin]
-   1. >> Announcer:
+   1. Announcer:
 1. Captions notate sound effects and other dramatically significant audio. Subtitles assume you can hear the phone ringing, the footsteps outside the door, or a thunderclap.
 1. Subtitles are Captions are usually closed, but can be opened by users.
 1. Captions are usually in the same language as the audio. Subtitles are usually a translation.
@@ -58,7 +58,8 @@ Captioning and subtitling are different media with deceptively similar appeara
    1. [Vincent, narrating]
 1. Subtitles can be captioned (subtitles first, captions later) but not the other way around.
 
-# *Captioning Checklist**
+## Captioning Checklist
+
 Do the captions include:
 
 - Speaker identification for multiple speakers?
@@ -80,5 +81,3 @@ Are the captions:
   - Have enough colour contrast (4.5 to 1 for small-scale text, 3:1 for large-scale text) between the video and the captions?
 - Equal:
   - the meaning and intention of the material is completely preserved?
-
-

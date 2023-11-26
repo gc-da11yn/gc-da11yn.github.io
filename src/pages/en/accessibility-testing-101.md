@@ -8,6 +8,7 @@ tags: testYourProducts
 ---
 
 ## On this page
+
 - [Building your toolset](#building-your-toolset)
   - [Tool: WAVE Browser Extensions](#tool-wave-browser-extensions)
   - [Tool: Accessibility Insights for Web](#tool-accessibility-insights-for-web)

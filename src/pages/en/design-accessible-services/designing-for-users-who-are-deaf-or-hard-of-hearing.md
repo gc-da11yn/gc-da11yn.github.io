@@ -5,29 +5,32 @@ description: What to do - and what <strong>not</strong> to do - when designing f
 tags: designingAccessible
 toggle: concevoir-pour-les-utilisateurs-sourds-ou-malentendants
 ---
-<p>Printable posters <span id="das1">(PDF format)</span>:</p>
-<ul>
-	<li><a href="{{ rootPath }}docs/posters/Hearing-en_2023.pdf" id="das4" aria-labelledby="das4 das1">Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a></li></ul>
+
+Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
+
+- [Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/Hearing-en_2023.pdf)
 
 <div class="row">
-	<div class="col-md-6">
+</div> class="col-md-6">
 
-### Do:
+## Do:
 
-*   Write in plain language
-*   Use subtitles or provide transcripts for videos
-*   Use a linear, logical layout
-*   Break up content with sub-headings, images and videos
-*   Let users ask for their preferred communication support when booking appointments
-	</div>
-	<div class="col-md-6">
+- Write in plain language
+- Use subtitles or provide transcripts for videos
+- Use a linear, logical layout
+- Break up content with sub-headings, images and videos
+- Let users ask for their preferred communication support when booking appointments
 
-### Don't:
+</div>
+</div> class="col-md-6">
 
-*   Use complicated words or figures of speech
-*   Put content in audio or video only
-*   Make complex layouts and menus
-*   Make users read long blocks of content
-*   Make telephone the only means of contact for users
-	</div>
+## Don't:
+
+- Use complicated words or figures of speech
+- Put content in audio or video only
+- Make complex layouts and menus
+- Make users read long blocks of content
+- Make telephone the only means of contact for users
+
+</div>
 </div>

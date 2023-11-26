@@ -11,7 +11,6 @@ audience:
   - Everyone
 ---
 
-# Directives pour le sous-titrage
 Toutes les vidéos avec du contenu audio doivent avoir des sous-titres codés.
 
 Le sous-titrage est le processus qui consiste à convertir le contenu audio d’une vidéo pour afficher le texte sur un écran ou un moniteur. Il permet aux personnes qui doivent accéder à l’information au format audio, mais qui ne peuvent entendre le contenu pour les raisons suivantes :
@@ -33,7 +32,8 @@ Il est important que les sous-titres codés soient :
 
 [Captions/Subtitles | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/media/av/captions/) (en anglais)
 
-### **Sous-titres codés et sous-titres**
+## Sous-titres codés et sous-titres
+
 Les sous-titres codés et les sous-titres sont des médias différents dont l’apparence est faussement similaire.
 
 1. Les sous-titres codés sont destinés au public sourd et malentendant. Le public présumé des sous-titres codés est constitué de personnes entendantes qui ne comprennent pas la langue des dialogues.
@@ -41,8 +41,8 @@ Les sous-titres codés et les sous-titres sont des médias différents dont l’
 1. Les sous-titres codés peuvent indiquer explicitement le nom de l’intervenant :
    1. Un homme qui fume des cigarettes;
    1. [Martin];
-   1. >> Annonceur.
-1. Les soustitres codés signalent les effets sonores et autres éléments audio importants. Les soustitres supposent que vous pouvez entendre la sonnerie du téléphone, les pas derrière la porte ou un coup de tonnerre.
+   1. Annonceur.
+1. Les sous-titres codés signalent les effets sonores et autres éléments audio importants. Les sous-titres supposent que vous pouvez entendre la sonnerie du téléphone, les pas derrière la porte ou un coup de tonnerre.
 1. Les sous-titres sont généralement ouverts. Les sous-titres codés sont généralement **dans une fenêtre**.
 1. Les sous-titres codés sont habituellement dans la même langue que le son. Les sous-titres sont généralement une traduction.
 1. Les sous-titres traduisent également les caractères affichés à l’écran dans une autre langue; p. ex. un panneau fixé à une porte, un écran d’ordinateur, un titre de journal ou un générique de début.
@@ -58,7 +58,8 @@ Les sous-titres codés et les sous-titres sont des médias différents dont l’
    1. [Vincent, narrateur]
 1. Un programme sous-titré peut être sous-titré codé (sous-titres d’abord, sous-titres codés ensuite). Les programmes sous-titrés codés ne sont pas sous-titrés après le sous-titrage.
 
-# Liste de contrôle pour le sous-titrage
+## Liste de contrôle pour le sous-titrage
+
 Les sous-titres codés comprennent-ils :
 
 - L’identification du locuteur, notamment pour les locuteurs multiples?
@@ -80,4 +81,3 @@ Les sous-titres codés sont-ils :
   - Avec un contraste des couleurs suffisant (4,5 pour 1) entre la vidéo et les sous-titres codés?
 - Égaux?
   - Le sens et l’intention du matériel sont entièrement préservés?
-

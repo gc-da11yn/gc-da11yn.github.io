@@ -5,30 +5,32 @@ description: What to do - and what <strong>not</strong> to do - when designing f
 tags: designingAccessible
 toggle: concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur
 ---
-<p>Printable posters <span id="das1">(PDF format)</span>:</p>
-<ul>
-		<li><a href="{{ rootPath }}docs/posters/MotorPhysical-en_2023.pdf" id="das7" aria-labelledby="das7 das1">Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a></li></ul>
 
+Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
+
+- [Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/MotorPhysical-en_2023.pdf)
 
 <div class="row">
-	<div class="col-md-6">
+<div class="col-md-6">
 
-### Do:
+## Do:
 
-*   Make large clickable actions
-*   Give clickable elements space
-*   Design for keyboard or speech only use
-*   Design with mobile and touchscreen in mind
-*   Provide shortcuts
-	</div>
-	<div class="col-md-6">
+- Make large clickable actions
+- Give clickable elements space
+- Design for keyboard or speech only use
+- Design with mobile and touchscreen in mind
+- Provide shortcuts
 
-### Don't:
+</div>
+<div class="col-md-6">
 
-*   Demand precision
-*   Bunch interactions together
-*   Make dynamic content that requires a lot of mouse movement
-*   Have short time out windows
-*   Tire users with lots of typing and scrolling
-	</div>
+## Don't:
+
+- Demand precision
+- Bunch interactions together
+- Make dynamic content that requires a lot of mouse movement
+- Have short time out windows
+- Tire users with lots of typing and scrolling
+
+</div>
 </div>

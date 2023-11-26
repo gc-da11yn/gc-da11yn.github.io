@@ -11,8 +11,8 @@ audience:
 toggle: deficiences-visuelles
 ---
 
-* [Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/LowVision-en_2023.pdf)
-* [Designing for users with low vision (HTML)]({{ rootPath }}en/designing-for-users-with-low-vision/)
+- [Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/LowVision-en_2023.pdf)
+- [Designing for users with low vision (HTML)]({{ rootPath }}en/designing-for-users-with-low-vision/)
 
 ## Blindness
 
@@ -37,15 +37,17 @@ toggle: deficiences-visuelles
 <dl>
   <dt>Definition:</dt>
   <dd>
+
 Low vision is uncorrectable vision loss that interferes with daily activities. It is better defined in terms of function, rather than numerical test results.
 
 - In other words, low vision is “not enough vision to do whatever it is you need to do,” which can vary from person to person.
 - Most eye care professionals prefer to use the term “low vision” to describe permanently reduced vision that cannot be corrected with regular glasses, contact lenses, medicine, or surgery.
-  </dd>
+
+</dd>
 </dl>
 
-
 ## Adaptive Technologies and Adaptive Strategies
+
 Here are some commonly used products:
 
 - Screen readers

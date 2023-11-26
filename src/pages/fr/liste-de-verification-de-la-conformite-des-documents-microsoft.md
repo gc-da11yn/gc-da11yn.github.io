@@ -2,7 +2,6 @@
 title: Liste de vérification de la conformité des documents Microsoft
 layout: layouts/base.njk
 description: Vous trouverez ici différentes questions qui vous aideront à savoir si votre document Word est accessible ou non.
-internalLinks: true
 toggle: microsoft-document-compliance-checklist
 subject:
   - howTos
@@ -24,9 +23,9 @@ Si vous répondez « Non » à l’une des questions suivantes, votre document N
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A3 (4.1.1) &ndash; Le document est-il déclaré conforme selon le Vérificateur de l’accessibilité ?<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup></li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A4 (1.3.1) &ndash; Le document est-il libre de commentaires, de suivi des modifications et de surligne?</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A5 (1.3.2) &ndash; L’ordre de présentation du contenu est-il exact et logique?</li>
-<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A6 (1.4.4) &ndash; Est-il possible de redimensionner l’ensemble du texte et demeure-t-il lisible lorsqu’il est grossi à 200 %?</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A6 (1.4.4) &ndash; Est-il possible de redimensionner l’ensemble du texte et demeure-t-il lisible lorsqu’il est grossi à 200&nbsp;%?</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A7 (3.3.2) &ndash; Le document est-il exempt de formulaires électroniques à remplir?</li>
-<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A8 (<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Note de bas de page </span>2</a></sup>) &ndash; Le niveau de lisibilité est-il compatible avec le public cible: maximum grade 8 pour publique générale et maximum grade 10 à l'interne de EDSC?</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A8 &ndash; Le niveau de lisibilité est-il compatible avec le public cible: maximum grade 8 pour publique générale et maximum grade 10 à l'interne de EDSC?<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Note de bas de page </span>2</a></sup></li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A9 (3.4.1) &ndash; Tous les acronymes sont-ils définis dès qu’ils sont mentionnés la première fois dans le document?</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>A10 (1.4.12) &ndash; L'espacement de contenu textuel est-il d'au moins 1.5 (interligne) ?</li>
 </ul>
@@ -99,8 +98,6 @@ Si vous répondez « Non » à l’une des questions suivantes, votre document N
 - Les critères de succès sont présentés en détail dans [How to Meet WCAG 2.1 - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/).
 - Pour en savoir plus sur le langage clair, consultez le [Guide de rédaction du contenu du site Canada.ca](https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html#toc6).
 - Microsoft propose de nombreuses vidéos GRATUITES sur sa chaîne YouTube [MSFTEnable](https://www.youtube.com/user/MSFTEnable) (Vérifié si disponible en français) avec un bon outil d’apprentissage.
-- Pour trouver d’autres outils qui vous aideront à rendre vos documents accessibles, consultez la [trousse d’outils sur l’accessibilité Lien interne](https://www.youtube.com/user/MSFTEnable) que vous trouverez dans le site SharePoint de l’accessibilité des TI (cherchez CHECKLIST \[LISTE DE CONTRÔLE\]).
-- Pour en savoir plus sur nos services, consultez la page [Technologies de l’information et les communications (TIC) accessibles Lien interne](http://iservice.prv/eng/imit/A11Y/index.shtml) sur iService.
 
 <aside class="wb-fnote" role="note">
 <h2 id="fn">Notes de bas de pages</h2>

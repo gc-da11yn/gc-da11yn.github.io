@@ -16,10 +16,10 @@ La description sonore est également utilisée par les personnes voyantes, de so
 La description sonore et la vidéo décrite rendent les programmes télévisés accessibles aux personnes aveugles ou ayant une déficience visuelle :
 
 <dl>
-  <dt>Description sonore</dt>
-  <dd>Elle consiste en une voix hors champ produite par un animateur ou un annonceur qui lit à haute voix le texte de l’émission ou qui décrit les éléments-clés, les images ou les graphiques diffusés à l’écran. Elle est souvent utilisée pour les émissions d’information, notamment les bulletins de nouvelles, les bulletins météorologiques, les résultats sportifs ou les informations financières. La plupart des télédiffuseurs sont tenus d’offrir une description sonore.</dd>
-  <dt>Vidéodescription</dt>
-  <dd>Elle offre une description orale des principaux éléments visuels d’une émission, comme les décors, les costumes ou le langage corporel. La description est ajoutée pendant les pauses dans le dialogue et elle permet au téléspectateur de se représenter mentalement ce qui se passe dans l’émission. La vidéodescription utilise une piste audio distincte.</dd>
+<dt>Description sonore</dt>
+<dd>Elle consiste en une voix hors champ produite par un animateur ou un annonceur qui lit à haute voix le texte de l’émission ou qui décrit les éléments-clés, les images ou les graphiques diffusés à l’écran. Elle est souvent utilisée pour les émissions d’information, notamment les bulletins de nouvelles, les bulletins météorologiques, les résultats sportifs ou les informations financières. La plupart des télédiffuseurs sont tenus d’offrir une description sonore.</dd>
+<dt>Vidéodescription</dt>
+<dd>Elle offre une description orale des principaux éléments visuels d’une émission, comme les décors, les costumes ou le langage corporel. La description est ajoutée pendant les pauses dans le dialogue et elle permet au téléspectateur de se représenter mentalement ce qui se passe dans l’émission. La vidéodescription utilise une piste audio distincte.</dd>
 </dl>
 
 Source : CRTC – Accès à la télévision pour les personnes ayant une déficience visuelle : [Vidéodescription et description sonore](https://crtc.gc.ca/fra/info_sht/b322.htm).
@@ -29,64 +29,67 @@ Remarque : Si une description sonore est utilisée pour une vidéo, elle doit �
 ## Définitions
 
 <dl>
-	<dt>Descripteur</dt>
-	<dd>La personne qui rédige ou génère les descriptions, que ce soit à l’avance ou en direct sur place.</dd>
-	<dt>Narrateur</dt>
-	<dd>La personne qui prononce les descriptions à haute voix. Elle peut être le même que le descripteur et peut théoriquement être une machine utilisant la sortie vocale.</dd>
-	<dt>Production</dt>
-	<dd>L’œuvre d’art unique et discrète décrite, telle qu’une pièce de théâtre, un programme télévisé, un spectacle de danse, un film, une photographie. La description d’une série télévisée complète, en revanche, implique une séquence de productions.</dd>
+<dt>Descripteur</dt>
+<dd>La personne qui rédige ou génère les descriptions, que ce soit à l’avance ou en direct sur place.</dd>
+<dt>Narrateur</dt>
+<dd>La personne qui prononce les descriptions à haute voix. Elle peut être le même que le descripteur et peut théoriquement être une machine utilisant la sortie vocale.</dd>
+<dt>Production</dt>
+<dd>L’œuvre d’art unique et discrète décrite, telle qu’une pièce de théâtre, un programme télévisé, un spectacle de danse, un film, une photographie. La description d’une série télévisée complète, en revanche, implique une séquence de productions.</dd>
 </dl>
 
 ## Norme
 
-<ol>
-	<li>Décrire ce que l’on observe :
-		<dl>
-			<dt>Explication :</dt>
-			<dd>Il s’agit de l’exigence la plus fondamentale de la DA, mais elle est régulièrement ignorée.</dd>
-			<dt>Historique des changements :</dt>
-			<dd>« Décrire ce que l’on voit » est une expression à la mode parmi les descripteurs, mais « Décrire ce que l’on observe » est peut-être légèrement meilleur, car cela incite le descripteur à réfléchir à ce qu’il voit plutôt qu’à noter une description sommaire et par cœur.</dd>
-		</dl>
-	</li>
-	<li>Les descripteurs et les narrateurs servent le public et la production, pas eux-mêmes.
-		<dl>
-			<dt>Explication :</dt>
-			<dd>On ne fournit pas de descriptions pour faire étalage de son vocabulaire ou pour mettre en valeur sa belle voix. On travaille pour la production et le public. Un certain effacement de sa personne est nécessaire.</dd>
-		</dl>
-	</li>
-	<li>Si les limites de temps obligent à être sélectif, décrire d’abord ce qu’il est essentiel de savoir, comme les actions et les détails qui, s’ils étaient omis, prêteraient à confusion ou induiraient le public en erreur.</li>
-	<li>Dans la mesure du possible, décrire les actions et les détails qui permettent de mieux comprendre l’apparence personnelle, le cadre, l’atmosphère et la mise en scène.</li>
-	<li>Les descriptions sont généralement faites pendant les pauses ou les moments de calme. Il est permis de laisser passer des pauses ou des moments de calme sans description. Inversement, étant donné qu’il est plus important de rendre une production compréhensible que de préserver chaque détail de la bande sonore originale, il est permis de décrire par-dessus les dialogues et autres éléments audio lorsque cela est nécessaire.</li>
-	<li>Il faut décrire de la manière la plus cohérente possible, en utilisant les mêmes noms de personnages et la même terminologie tout au long d’une production ou dans plusieurs productions connexes, sauf exception justifiée.</li>
-	<li>Il faut décrire tout état émotionnel évident. Ne pas essayer de décrire ce qui est invisible, comme un état mental, un raisonnement ou une motivation.</li>
-	<li>Faire des descriptions dans un style vocal qui se fond dans le son environnant au moment de la description.
-		<dl>
-			<dt>Explication :</dt>
-			<dd>Nous devrons peut-être ajouter ce qualificatif au principe : « Les descriptions ne doivent pas sembler autonomes, préemballées ou livrées selon un modèle prédéterminé. » Ce principe vise à résoudre le problème des bribes de description enregistrées isolément qui se ressemblent toutes et ne correspondent pas à la production réelle.</dd>
-		</dl>
-	</li>
-	<li>Les voix des narrateurs doivent pouvoir être distinguées des autres voix d’une production, mais elles ne doivent pas être inutilement distrayantes, comme c’est le cas des voix de célébrités reconnaissables.</li>
-	<li>Lire les titres et les crédits dans la mesure du possible, y compris les sous-titres dans une production en langue étrangère.</li>
-	<li>Ne pas censurer. La violence, la sexualité, le langage salé, l’imagerie politique ou toute autre chose qu’un descripteur ou un narrateur peut personnellement détester doivent néanmoins être décrits le cas échéant.
-		<dl>
-			<dt>Explication :</dt>
-			<dd>Les descripteurs et les narrateurs n’ont pas le droit de choisir ce qu’ils décrivent uniquement pour satisfaire leurs préjugés personnels. (Par « langage salé », on entend ici un langage salé visible, comme un autocollant de pare-chocs ou un T-shirt. Les narrateurs peuvent être amenés à prononcer des mots qu’ils n’utiliseraient pas d’ordinaire.)</dd>
-		</dl>
-	</li>
-	<li>Ne pas spécifier un passage exact du temps, sauf si des preuves visuelles indiscutables l’appuient.
-		<dl>
-			<dt>Explication :</dt>
-			<dd>Dire « la nuit », pas « cette nuit », à moins d’être en mesure de prouver par des éléments visibles que c’est cette nuit-là. Faire autrement revient à mentir au public.</dd>
-		</dl>
-	</li>
-	<li>Des descriptions plus détaillées, donnant, par exemple, le contexte de la production ou des définitions de termes, peuvent être fournies dans la mesure du possible, mais doivent se limiter à la production en cours.</li>
-	<li>Décrire dans la langue du public, et non de la production.
-		<dl>
-			<dt>Explication :</dt>
-			<dd>Une émission comportant des segments en français et en anglais doit être décrite en anglais sur une chaîne de télévision de langue anglaise. Une production en langue espagnole sous-titrée en néerlandais devrait être décrite en néerlandais sur une chaîne de télévision néerlandaise, même si le son environnant n’est pas en néerlandais. Les programmes réellement bilingues sur des stations réellement bilingues sont rares, et dans ces cas-là, le descripteur se conformerait quand même à ce principe en décrivant dans l’une ou l’autre de ces langues (ou en passant de l’une à l’autre).</dd>
-		</dl>
-	</li>
-</ol>
+1. Décrire ce que l’on observe :
+
+    <dl>
+    <dt>Explication :</dt>
+    <dd>Il s’agit de l’exigence la plus fondamentale de la DA, mais elle est régulièrement ignorée.</dd>
+    <dt>Historique des changements :</dt>
+    <dd>« Décrire ce que l’on voit » est une expression à la mode parmi les descripteurs, mais « Décrire ce que l’on observe » est peut-être légèrement meilleur, car cela incite le descripteur à réfléchir à ce qu’il voit plutôt qu’à noter une description sommaire et par cœur.</dd>
+    </dl>
+
+2. Les descripteurs et les narrateurs servent le public et la production, pas eux-mêmes.
+
+    <dl>
+    <dt>Explication :</dt>
+    <dd>On ne fournit pas de descriptions pour faire étalage de son vocabulaire ou pour mettre en valeur sa belle voix. On travaille pour la production et le public. Un certain effacement de sa personne est nécessaire.</dd>
+    </dl>
+
+3. Si les limites de temps obligent à être sélectif, décrire d’abord ce qu’il est essentiel de savoir, comme les actions et les détails qui, s’ils étaient omis, prêteraient à confusion ou induiraient le public en erreur.
+4. Dans la mesure du possible, décrire les actions et les détails qui permettent de mieux comprendre l’apparence personnelle, le cadre, l’atmosphère et la mise en scène.
+5. Les descriptions sont généralement faites pendant les pauses ou les moments de calme. Il est permis de laisser passer des pauses ou des moments de calme sans description. Inversement, étant donné qu’il est plus important de rendre une production compréhensible que de préserver chaque détail de la bande sonore originale, il est permis de décrire par-dessus les dialogues et autres éléments audio lorsque cela est nécessaire.
+6. Il faut décrire de la manière la plus cohérente possible, en utilisant les mêmes noms de personnages et la même terminologie tout au long d’une production ou dans plusieurs productions connexes, sauf exception justifiée.
+7. Il faut décrire tout état émotionnel évident. Ne pas essayer de décrire ce qui est invisible, comme un état mental, un raisonnement ou une motivation.
+8. Faire des descriptions dans un style vocal qui se fond dans le son environnant au moment de la description.
+
+    <dl>
+    <dt>Explication :</dt>
+    <dd>Nous devrons peut-être ajouter ce qualificatif au principe : « Les descriptions ne doivent pas sembler autonomes, préemballées ou livrées selon un modèle prédéterminé. » Ce principe vise à résoudre le problème des bribes de description enregistrées isolément qui se ressemblent toutes et ne correspondent pas à la production réelle.</dd>
+    </dl>
+
+9. Les voix des narrateurs doivent pouvoir être distinguées des autres voix d’une production, mais elles ne doivent pas être inutilement distrayantes, comme c’est le cas des voix de célébrités reconnaissables.
+10. Lire les titres et les crédits dans la mesure du possible, y compris les sous-titres dans une production en langue étrangère.
+11. Ne pas censurer. La violence, la sexualité, le langage salé, l’imagerie politique ou toute autre chose qu’un descripteur ou un narrateur peut personnellement détester doivent néanmoins être décrits le cas échéant.
+
+    <dl>
+    <dt>Explication :</dt>
+    <dd>Les descripteurs et les narrateurs n’ont pas le droit de choisir ce qu’ils décrivent uniquement pour satisfaire leurs préjugés personnels. (Par « langage salé », on entend ici un langage salé visible, comme un autocollant de pare-chocs ou un T-shirt. Les narrateurs peuvent être amenés à prononcer des mots qu’ils n’utiliseraient pas d’ordinaire.)</dd>
+    </dl>
+
+12. Ne pas spécifier un passage exact du temps, sauf si des preuves visuelles indiscutables l’appuient.
+
+    <dl>
+    <dt>Explication :</dt>
+    <dd>Dire « la nuit », pas « cette nuit », à moins d’être en mesure de prouver par des éléments visibles que c’est cette nuit-là. Faire autrement revient à mentir au public.</dd>
+    </dl>
+
+13. Des descriptions plus détaillées, donnant, par exemple, le contexte de la production ou des définitions de termes, peuvent être fournies dans la mesure du possible, mais doivent se limiter à la production en cours.
+14. Décrire dans la langue du public, et non de la production.
+
+    <dl>
+    <dt>Explication :</dt>
+    <dd>Une émission comportant des segments en français et en anglais doit être décrite en anglais sur une chaîne de télévision de langue anglaise. Une production en langue espagnole sous-titrée en néerlandais devrait être décrite en néerlandais sur une chaîne de télévision néerlandaise, même si le son environnant n’est pas en néerlandais. Les programmes réellement bilingues sur des stations réellement bilingues sont rares, et dans ces cas-là, le descripteur se conformerait quand même à ce principe en décrivant dans l’une ou l’autre de ces langues (ou en passant de l’une à l’autre).</dd>
+    </dl>
 
 ## Liste de contrôle pour la description sonore
 
@@ -133,10 +136,10 @@ La description audio est-elle :
 
 Les lecteurs multimédias accessibles fournissent une interface utilisateur qui fonctionne sans souris, par le biais d'une interface vocale, lorsque la page est agrandie et avec des lecteurs d'écran. Par exemple, les lecteurs multimédias doivent :
 
-- Fournir un support pour le clavier (dans <a href="" hreflang="en">Comprendre les WCAG : Accessibilité du clavier<small> (en anglais seulment)</small></a>)
-- rendre visible l'indicateur de mise au point du clavier (voir <a href="" hreflang="en">Comprendre les WCAG : Mise au point visible<small> (en anglais seulment)</small></a>)
-- fournir des étiquettes claires (voir Comprendre les <a href="" hreflang="en">WCAG : Étiquettes ou instructions, informations et relations<small> (en anglais seulment)</small></a>)
-- Offrez un contraste suffisant entre les couleurs du texte, des contrôles et des arrière-plans (voir <a href="" hreflang="en">Comprendre les WCAG : Contraste (minimum), Contraste (renforcé), Contraste hors texte<small> (en anglais seulment)</small></a>).
+- Fournir un support pour le clavier (dans <a href="https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible" hreflang="en">Comprendre les WCAG : Accessibilité du clavier<small> (en anglais seulment)</small></a>)
+- rendre visible l'indicateur de mise au point du clavier (voir <a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible" hreflang="en">Comprendre les WCAG : Mise au point visible<small> (en anglais seulment)</small></a>)
+- fournir des étiquettes claires (voir Comprendre les <a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions" hreflang="en">WCAG : Étiquettes ou instructions<small> (en anglais seulment</small>)</a>, <a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships" hreflang="en">informations et relations<small> (en anglais seulment)</small></a>)
+- Offrez un contraste suffisant entre les couleurs du texte, des contrôles et des arrière-plans (voir <a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum" hreflang="en">Comprendre les WCAG : Contraste (minimum)<small> (en anglais seulment)</small></a>, <a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced" hreflang="en">Contraste (renforcé)<small> (en anglais seulment)</small></a>, <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html" hreflang="en">Contraste hors texte<small> (en anglais seulment)</small></a>).
 
 Certains lecteurs multimédias offrent des fonctionnalités d'accessibilité supplémentaires aux utilisateurs, telles que :
 

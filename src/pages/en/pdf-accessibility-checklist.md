@@ -18,11 +18,8 @@ We established a list of tools and resources to help developers verify their doc
 
 ## Tools and Resources
 
-<ul>
-<li><a href="http://iservice.prv/eng/imit/catalogue/software_application/foxit_phantomPDF_business.shtml">Foxit PDF Editor <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>: ESDC recommended tool to create accessible PDFs. ESDC employees can obtain the software by filling out the <a href="https://dialogue/grp/EWCS-SCEW/SiteAssets/SitePages/License%20Request%20Forms/Foxit%20PhantomPDF%20Business%20Request%20form.docx">Foxit PDF Editor Business Request Form <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a> and opening a ticket with the <a href="http://srmis-sigdi-iagent.prv/">National Service Desk <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">
-Internal link</span></a>.</li>
-<li><a href="http://esdc.prv/en/iitb/es/ts/wscoe/tools/index-eng.shtml#colour">Colour Contrast Analyzer tool <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>: ESDC recommended tool to verify colour contrast, ESDC employees can obtain the software by opening a ticket with the <a href="http://srmis-sigdi-iagent.prv/">National Service Desk <i class="fas fa-external-link-square-alt"></i><span class="wb-inv">Internal link</span></a>.</li>
-</ul>
+- [Foxit PDF Editor Internal link](http://iservice.prv/eng/imit/catalogue/software_application/foxit_phantomPDF_business.shtml): ESDC recommended tool to create accessible PDFs. ESDC employees can obtain the software by filling out the [Foxit PDF Editor Business Request Form Internal link](https://dialogue/grp/EWCS-SCEW/SiteAssets/SitePages/License%20Request%20Forms/Foxit%20PhantomPDF%20Business%20Request%20form.docx) and opening a ticket with the [National Service Desk Internal link](http://srmis-sigdi-iagent.prv/).
+- [Colour Contrast Analyzer tool Internal link](http://esdc.prv/en/iitb/es/ts/wscoe/tools/index-eng.shtml#colour): ESDC recommended tool to verify colour contrast, ESDC employees can obtain the software by opening a ticket with the [National Service Desk Internal link](http://srmis-sigdi-iagent.prv/).
 
 ### Resources to make Accessible PDFs
 
@@ -53,21 +50,18 @@ For any further questions or comments regarding the PDF Accessibility Checklist,
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>5 &ndash; There are running headers and footers as needed so users know where they are in the PDF at all times.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>6 &ndash; Pages are clearly marked. Eg. 1 – 2 – 3 / A – B – C etc.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>7 &ndash; The reading order of the PDF is correct. Screen readers read the contents in the logical order.</li>
-<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>8 &ndash; Using the tab key, the user is able to navigate through the PDF for all input fields, and links, in the correct order.
-</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>8 &ndash; Using the tab key, the user is able to navigate through the PDF for all input fields, and links, in the correct order.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>9 &ndash; Page headings with subheadings are included as needed.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>10 &ndash; Tables are correctly tagged so that they are recognized by assistive technology.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>11 &ndash; Lists of various related items are tagged as lists and list items correctly.  </li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>12 &ndash; Visuals that do not add any additional value to the content, and contain no text are marked as decorative and ignored by screen readers.</li>
-<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>13 &ndash; Visuals include a written description of the visual for context. The alternative text of the visual explains where the description is located. Visuals that do not contain written descriptions in the body of the PDF have descriptive alternative text.
-</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>13 &ndash; Visuals include a written description of the visual for context. The alternative text of the visual explains where the description is located. Visuals that do not contain written descriptions in the body of the PDF have descriptive alternative text.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>14 &ndash; When using colours, shapes, or visual aids to convey a message, there are other written descriptors to get the message across.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>15 &ndash; Text, and images of text have a contrast ratio of at least 4.5:1; except for large text (above size 14 bold, or above size 18) which requires a contrast ratio of 3:1. This will ensure the colour scheme is optimal for the visually impaired and/or colour blind.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>16 &ndash; Links are clearly marked and contain descriptive text. </li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>17 &ndash; Form input options are clearly marked and described.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>18 &ndash; Radio buttons allow for one selection – these are clearly marked as circles.</li>
-<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>19 &ndash; Checkboxes allow for multiple selections – these are clearly marked as squares.
-</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>19 &ndash; Checkboxes allow for multiple selections – these are clearly marked as squares.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>20 &ndash; Links are clearly marked with blue, underlined text.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>21 &ndash; Form controls are properly displayed and indicated on the form for users to easily access and identify.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>22 &ndash; All fields have a proper name, role, and value attached for users.</li>
@@ -80,20 +74,23 @@ For any further questions or comments regarding the PDF Accessibility Checklist,
 
 ## Glossary
 
-**Alternative Text:** Text associated with an image that conveys the same essential information as the image.
-
-**Assistive Technology:** Any light-, mid-, or high-tech tool or device which helps people with disabilities perform tasks with greater ease or independence.
-
-**Bookmark:** A type of link with representative text that makes it easier to navigate through documents.
-
-**Descriptive Text:** The text that describes a form field’s contents to a screen reader user. This is also called a "label”.
-
-**Reading Order:** This is the order in which assistive technologies, like screen readers, present the content in a PDF. The tags in the Tags Tree determine this order.
-
-**Running Headers/Footers:** Information that is repeated at the top/bottom of pages in a document. They often contain information such as page number, the name of the document, etc.
-
-**Screen Reader:** A software program used to allow reading of content and navigation of the screen using speech or Braille output. Used primarily by persons who are blind or have low vision.
-
-**Tags:** The structured, textual representation of the PDF content that is accessed by screen readers, to read the document out-loud.
+<dl>
+<dt>Alternative Text:</dt>
+<dd>Text associated with an image that conveys the same essential information as the image.</dd>
+<dt>Assistive Technology:</dt>
+<dd>Any light-, mid-, or high-tech tool or device which helps people with disabilities perform tasks with greater ease or independence.</dd>
+<dt>Bookmark:</dt>
+<dd>A type of link with representative text that makes it easier to navigate through documents.</dd>
+<dt>Descriptive Text:</dt>
+<dd>The text that describes a form field’s contents to a screen reader user. This is also called a "label”.</dd>
+<dt>Reading Order:</dt>
+<dd>This is the order in which assistive technologies, like screen readers, present the content in a PDF. The tags in the Tags Tree determine this order.</dd>
+<dt>Running Headers/Footers:</dt>
+<dd>Information that is repeated at the top/bottom of pages in a document. They often contain information such as page number, the name of the document, etc.</dd>
+<dt>Screen Reader:</dt>
+<dd>A software program used to allow reading of content and navigation of the screen using speech or Braille output. Used primarily by persons who are blind or have low vision.</dd>
+<dt>Tags:</dt>
+<dd>The structured, textual representation of the PDF content that is accessed by screen readers, to read the document out-loud.</dd>
+</dl>
 
 <p><a class="btn btn-primary" href="{{ rootPath }}docs/PDF_Accessibility_Checklist.pdf" role="button">Download page (PDF, 324 KB)</a></p>

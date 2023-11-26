@@ -16,6 +16,7 @@ audience:
 This section contains the guidelines, checklists and examples for each of the factors, transcripts, captions, audio description and keyboard accessibility.
 
 [WebAIM: Caption vs transcript vs audio description](https://webaim.org/techniques/captions/)
+
 ## Transcript Guidelines (how to)
 
 Guidelines on how to incorporate various aspects of audio and video into a transcript.

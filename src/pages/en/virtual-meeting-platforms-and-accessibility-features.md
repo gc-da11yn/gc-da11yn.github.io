@@ -4,6 +4,7 @@ layout: layouts/base.njk
 description: The Microsoft Teams and Zoom virtual meeting platforms offer various accessibility features that meet different needs, including for meetings and conversations.
 toggle: plateformes-de-reunions-virtuelles-et-fonctionnalites
 tags:
+subject:
 ---
 
 ## Microsoft Teams
@@ -14,19 +15,15 @@ Microsoft Teams is the standard meeting platform for virtual meetings.
 
 - [Record a meeting in Teams](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 - [Live closed captioning for meetings](https://support.microsoft.com/en-us/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)
-
 - Captions are available only in English (US) for now.
 - Live captions in French (July 2021)
 - Teams doesn't save captions or create transcripts.
 - There is currently no way to turn on captions automatically or by default and this is most likely by design considering all the various disability groups that could be impacted by having open captions.
-
 - [View and download live transcription in a Teams meeting](https://support.microsoft.com/en-gb/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b)
 - [Blur background or use a background image](https://support.microsoft.com/en-us/office/change-your-background-for-a-teams-meeting-f77a2381-443a-499d-825e-509a140f4780)
 - [Set the noise suppression level to high](https://support.microsoft.com/en-us/office/reduce-background-noise-in-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)
 - [Pin a meeting participant's video](https://support.microsoft.com/en-us/topic/9825091c-0e7d-4c2b-95f5-eba644f19175)
-
 - MS Teams does not allow pinned videos to be resized. Feature request has been sent to Microsoft.
-
 - [Dedicated chats for each meeting](https://support.microsoft.com/en-us/office/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)
 - [Add someone, like a coworker or interpreter, to a call](https://support.microsoft.com/en-us/office/add-someone-to-a-call-in-teams-267fb0c9-275a-4047-8412-7b2654dc29c3)
 

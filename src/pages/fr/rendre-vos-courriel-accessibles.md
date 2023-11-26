@@ -9,7 +9,7 @@ toggle: making-accessible-emails
 ## Sur cette page
 
 - [Format du texte](#format-du-texte)
-- [Message bilingue (le cas échéant)](#message-bilingue-(le-cas-%C3%A9ch%C3%A9ant))
+- [Message bilingue (le cas échéant)](#message-bilingue-le-cas-échéant)
 - [Langage clair](#langage-clair)
 - [Styles](#styles)
 - [Polices de caractères](#polices-de-caractères)
@@ -30,7 +30,7 @@ Le format HTML comporte plusieurs avantages afin de rendre vos courriels plus in
 - **Contenu structuré**: il est possible de structurer et de hiérarchiser le contenu à l’aide de titres, de paragraphes, de listes et de tableaux. Cette structure aide les utilisateurs de technologies adaptées à parcourir facilement le contenu.
 - **Mise en forme du texte** : vous pouvez choisir le style de votre texte en utilisant les styles de texte intégrés, comme des niveaux de titres, les styles Élevé (texte en gras) et Accentuation (texte en italique) pour aider à communiquer le sens de votre message au profit des personnes malvoyantes.
 - **Hyperliens** : cette option permet d’insérer des hyperliens pour fournir un contexte supplémentaire ou des références. La technologie adaptée peut détecter et annoncer les liens, ce qui permet à l’utilisateur d’accéder facilement aux renseignements pertinents.
-- **Texte de remplacement pour les images** : il est possible d’utiliser un [texte de remplacement](#Texte-de-remplacement) à la place d’images, ce qui aide certains utilisateurs à comprendre plus facilement le contenu. La technologie adaptée peut lire le texte de remplacement à voix haute, donnant ainsi un contexte aux images.
+- **Texte de remplacement pour les images** : il est possible d’utiliser un [texte de remplacement](#texte-de-remplacement) à la place d’images, ce qui aide certains utilisateurs à comprendre plus facilement le contenu. La technologie adaptée peut lire le texte de remplacement à voix haute, donnant ainsi un contexte aux images.
 
 L’utilisation du format HTML est conforme aux règles d’accessibilité en vigueur, notamment les normes WCAG et EN 301 549.
 
@@ -90,7 +90,7 @@ Un style est un ensemble d’attributs de mise en forme intégrés que vous pouv
 vous appliquez en une seule étape facile tous les attributs de mise en forme contenus dans le style particulier, et vous obtenez une présentation uniforme dans tout le document.
 
 - N’utilisez pas la mise en forme directe (modification de l’apparence à l’aide des attributs de caractères regroupés sous Police de l’onglet Accueil) pour modifier l’apparence des titres ou du texte normal. Il est préférable de [modifier un style](#modifier-un-style).
-- Évitez d’insérer des espaces supplémentaires ou des retours. Il est préférable de [modifier un style de paragraphe](#Modifier-un-style) pour modifier l’espacement.
+- Évitez d’insérer des espaces supplémentaires ou des retours. Il est préférable de [modifier un style de paragraphe](#modifier-un-style) pour modifier l’espacement.
 - N’utilisez pas les options « Gras » ou « Italique » du groupe Police de l’onglet Accueil. La technologie adaptée n’indiquera pas ces styles pour l’utilisateur. Appliquez plutôt le style **Élevé** au texte que vous souhaitez mettre en gras et le style **Accentuation** au texte que vous souhaitez mettre en italique. Tous les utilisateurs auront ainsi la même information.
 
 ### Utilisation d’un style
