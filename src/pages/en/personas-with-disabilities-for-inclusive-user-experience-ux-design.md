@@ -8,6 +8,7 @@ toggle: personas-handicapes-pour-la-conception-d-une-experience-utilisateur-incl
 ---
 
 ## On this page
+
 - [Creating equal access for everyone](#creating-equal-access-for-everyone)
 - [Understanding adaptive techniques, tools and technology](#understanding-adaptive-techniques-tools-and-technology)
   - [Vision enhancement technology](#vision-enhancement-technology)

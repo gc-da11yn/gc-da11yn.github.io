@@ -8,23 +8,23 @@ tags:
 ---
 
 <div class="row">
-	<div class="col-sm-4">
-		<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Best_Practices_For_Hosting_Accessible_Events_EN.docx">
-			<div class="well gc-dwnld">
-				<div class="row">
-					<div class="col-xs-4">
-						<p><img class="img-responsive thumbnail gc-dwnld-img" src="/img/doc.png" alt="" /></p>
-					</div>
-					<div class="col-xs-8">
-						<p class="gc-dwnld-txt">
-							<span>Best practices for accessible virtual events</span>
-							<span class="gc-dwnld-info">(<abbr title="Microsoft Word Document">Word</abbr>, 71 <abbr title="KiloByte">KB</abbr>)</span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</a>
-	</div>
+<div class="col-sm-4">
+<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Best_Practices_For_Hosting_Accessible_Events_EN.docx">
+<div class="well gc-dwnld">
+<div class="row">
+<div class="col-xs-4">
+<p><img class="img-responsive thumbnail gc-dwnld-img" src="/img/doc.png" alt="" /></p>
+</div>
+<div class="col-xs-8">
+<p class="gc-dwnld-txt">
+<span>Best practices for accessible virtual events</span>
+<span class="gc-dwnld-info">(<abbr title="Microsoft Word Document">Word</abbr>, 71 <abbr title="KiloByte">KB</abbr>)</span>
+</p>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 
 ## On this page
@@ -81,7 +81,7 @@ Before exploring this guide, we invite you to review common complaints about eve
 - Presenters using complex language, speak in abbreviations or jargon that is difficult to understand
 - Confusion regarding event logistics and not knowing how to enable accessibility features
 
-###  Canadian Legal Framework for Events’ Accessibility
+### Canadian Legal Framework for Events’ Accessibility
 
 In Canada, the [*Accessible Canada Act*](https://laws-lois.justice.gc.ca/eng/acts/a-0.6/), along with the [*Canadian Human Rights Act*](https://laws-lois.justice.gc.ca/eng/acts/h-6/page-1.html) and the [*Directive on the duty to accommodate*](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32634), urges us to create accessible events. This legal framework protects the rights of persons with disabilities to ensure their full participation in society.
 
@@ -119,7 +119,7 @@ Ensures the full participation of persons with disabilities by designing all sys
 - The more time you give yourself to plan an event, the better
 - Consider if it would be more productive to replace the event with an email
 
-##  Virtual Events
+## Virtual Events
 
 ### Roadmap
 
@@ -371,6 +371,7 @@ Below you will find an example of an opening statements script template that you
 <div class="well mrgn-tp-lg mrgn-bttm-lg">
 
 Welcome to our **[name of event]** about **[add a quick description of the event]**. My name is **[say name]** and I will be your Host today. **[Host should take some time to [acknowledge First Peoples and traditional territory (see guide)](https://www.caut.ca/content/guide-acknowledging-first-peoples-traditional-territory).]** I will first cover a few housekeeping points about today’s virtual event:
+
 - If you haven’t disconnected from the VPN yet, please do so for optimal experience.
 - Please keep your microphone muted and your video turned off throughout the event.
 - To ask questions, either type into the chat function or wait until we get a question period to use the “raise your hand” feature, the keyboard shortcut is **[give the keyboard shortcut]**. Once you are selected to ask your question, please unmute yourself and show your video if you would like. We will triage your questions asked in the Chat and answer them either in the Chat or during the question period. Alternatively, we may ask that you email your question to our event email so we can address your question after this event.
@@ -419,7 +420,7 @@ If a dry-run is deemed beneficiary, we strongly recommend practice to ensure eve
 #### Start the event!
 
 - If you record the event, ensure to inform participants beforehand
-- If the event is bilingual, follow the recommendations from the section on [bilingual sessions](#_Bilingual_Session)
+- If the event is bilingual, follow the recommendations from the section on [bilingual sessions](#bilingual-best-choice-for-official-languages)
 - Host read scripts to greet participants
 - Introduce the sign language interpreters so that users that rely on them can set up their accommodations by using the platform
   - [Microsoft Teams has an accessibility setting to set up sign language interpreters](https://support.microsoft.com/en-au/office/use-sign-language-view-in-microsoft-teams-c6c11f67-0747-4598-ac27-c90801b94434#:~:text=To%20enable%20Sign%20Language%20View,then%20turn%20on%20Sign%20Language.)

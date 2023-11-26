@@ -11,7 +11,6 @@ audience:
   - Everyone
 ---
 
-# Liste de contrôle pour le sous-titrage
 Les sous-titres codés comprennent-ils :
 
 - L’identification du locuteur, notamment pour les locuteurs multiples?

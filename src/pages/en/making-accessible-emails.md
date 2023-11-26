@@ -7,8 +7,9 @@ toggle: rendre-vos-courriel-accessibles
 ---
 
 ## On this page
+
 - [Format](#format)
-- [Bilingual message (if applicable)](#bilingual-message-(if-applicable))
+- [Bilingual message (if applicable)](#bilingual-message-if-applicable)
 - [Plain language](#plain-language)
 - [Styles](#styles)
 - [Fonts](#fonts)
@@ -31,7 +32,7 @@ Using HTML format has several benefits that make your email messages more inclus
 - **Structured Content**: Allows for organized and hierarchical content using headings,   paragraphs, lists, and tables. This structure helps people using adaptive technologies navigate the content easily.
 - **Text Formatting**: Supports formatting the style of your text. Use the built-in text styles like heading levels, Strong (bold text) or Emphasis (italicized text) to help convey meaning to the text, benefiting individuals with visual impairments.
 - **Hyperlinks**: Allows for the inclusion of hyperlinks, which aids in providing additional context or references. Adaptive technology can detect and announce links, making it convenient for users to access relevant information.
-- **Alternative Text for Images**: Enables the use of [alternative text](#Alt-text) (Alt text) for images, helping some users to understand the content more easily. Adaptive technology can read out the alt text, providing context for images.
+- **Alternative Text for Images**: Enables the use of [alternative text](#alt-text) (Alt text) for images, helping some users to understand the content more easily. Adaptive technology can read out the alt text, providing context for images.
 
 Using HTML format allows you to follow accessibility guidelines like WCAG and EN 301 549.
 
@@ -51,7 +52,7 @@ Whenever possible, avoid creating bilingual emails. Bilingual emails can introdu
 
 If you must use bilingual emails, be sure to make them as accessible as possible.
 
-- [Add a bookmark](#Bookmarks) to let users skip to the section containing their language of choice.
+- [Add a bookmark](#bookmarks) to let users skip to the section containing their language of choice.
 - Include location of language information.
   1. in emails where English is the first language used, include “Le français suit l’anglais” above the English content
   2. in emails where French is the first language used, include “English follows” above the French content
@@ -155,7 +156,7 @@ Avoid changing the default Outlook Theme (Office). Using other themes may introd
 
 ### Headings
 
-- Use Outlook’s [built-in heading styles](#Styles).
+- Use Outlook’s [built-in heading styles](#styles).
 - Organize headings in a logical top-to-bottom and hierarchical order.
   - A **Heading 1** is the email title or main content heading.
   - A **Heading 2** is a major section heading.

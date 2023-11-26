@@ -47,7 +47,6 @@ Fine motor control is a person’s ability to use precision, coordination, dexte
 <dd>Impairments to a person’s ability to walk may be caused by congenital conditions, disease, or injury, such as cerebral palsy, neuromuscular disorders, amputation, arthritis, and back injuries.</dd>
 </dl>
 
-
 ## Muscle Fatigue
 
 <dl>

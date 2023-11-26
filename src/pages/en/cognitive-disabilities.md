@@ -30,10 +30,10 @@ audience:
 toggle: handicaps-cognitifs
 ---
 
-* [Designing for users on the autistic spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/AutismSpect-en_2023.pdf)
-* [Designing for users on the autistic spectrum (HTML)]({{ rootPath }}en/designing-for-users-on-the-autistic-spectrum/)
-* [Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/Cognitive-en_2023.pdf)
-* [Designing principle for users with cognitive disabilities (HTML)]({{ rootPath }}en/designing-for-users-with-cognitive-disabilities/)
+- [Designing for users on the autistic spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/AutismSpect-en_2023.pdf)
+- [Designing for users on the autistic spectrum (HTML)]({{ rootPath }}en/designing-for-users-on-the-autistic-spectrum/)
+- [Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/Cognitive-en_2023.pdf)
+- [Designing principle for users with cognitive disabilities (HTML)]({{ rootPath }}en/designing-for-users-with-cognitive-disabilities/)
 
 ## Intellectual Disabilities
 
@@ -45,9 +45,9 @@ Intellectual disability is characterized by significant limitations both in inte
 
 According to the American Association of Intellectual and Developmental Disabilities, an individual has intellectual disability if they meet three criteria:
 
-* Their IQ is below 70 to 75
-* There are significant limitations in two or more adaptive areas (skills that are needed to live, work, and play in the community, such as communication or selfcare)
-* The condition manifests itself before the age of 18
+- Their IQ is below 70 to 75
+- There are significant limitations in two or more adaptive areas (skills that are needed to live, work, and play in the community, such as communication or selfcare)
+- The condition manifests itself before the age of 18
 
 </dd>
 <dt>Characteristics:</dt>
@@ -55,12 +55,12 @@ According to the American Association of Intellectual and Developmental Disabili
 
 People with an intellectual disability may:
 
-* Sit up, crawl, or walk later than other children
-* Learn to talk later or have trouble understanding and speaking
-* Find it hard to remember things
-* Have trouble understanding social rules and cues
-* Have trouble seeing the results of their actions
-* Have trouble solving problems and decision-making
+- Sit up, crawl, or walk later than other children
+- Learn to talk later or have trouble understanding and speaking
+- Find it hard to remember things
+- Have trouble understanding social rules and cues
+- Have trouble seeing the results of their actions
+- Have trouble solving problems and decision-making
 
 </dd>
 </dl>
@@ -81,9 +81,9 @@ People with adult-onset dyslexia typically develop after a brain injury or in th
 
 Although the disorder differs from person to person, reading disabilities may include:
 
-* An inability to perceive text or to process the meaning of words, phrases and ideas
-* Read at lower levels than expected despite having normal intelligence
-* Difficulty with phonological processing (the manipulation of sounds), spelling, and / or rapid visual-verbal responding
+- An inability to perceive text or to process the meaning of words, phrases and ideas
+- Read at lower levels than expected despite having normal intelligence
+- Difficulty with phonological processing (the manipulation of sounds), spelling, and / or rapid visual-verbal responding
 
 </dd>
 </dl>
@@ -98,21 +98,18 @@ Although the disorder differs from person to person, reading disabilities may in
 
 According to Understood’s What is Dyscalculia and other sources, common signs of dyscalculia include difficulty with:
 
-* Grasping the meaning of quantities or concepts like biggest vs smallest
-* Word problems that require math skills
-* Understanding that the numeral 4 is the same as the word four, and that these both mean four items
-* Basic math concepts, such as addition, subtraction, multiplying, and dividing
-* Remembering math facts, such as multiplication tables
-* Math operations, such as such as carrying, borrowing, and regrouping
-* Time and money, such as estimating time, counting money and making change
-* Spatial reasoning, such as judging speed or distance
-* Sequences of numbers, such as phone numbers and addresses
+- Grasping the meaning of quantities or concepts like biggest vs smallest
+- Word problems that require math skills
+- Understanding that the numeral 4 is the same as the word four, and that these both mean four items
+- Basic math concepts, such as addition, subtraction, multiplying, and dividing
+- Remembering math facts, such as multiplication tables
+- Math operations, such as such as carrying, borrowing, and regrouping
+- Time and money, such as estimating time, counting money and making change
+- Spatial reasoning, such as judging speed or distance
+- Sequences of numbers, such as phone numbers and addresses
 
 </dd>
 </dl>
-
-
-
 
 ## Attention Deficit Hyperactivity Disorder
 
@@ -124,9 +121,9 @@ According to Understood’s What is Dyscalculia and other sources, common signs 
 
 The main symptoms of ADHD are:
 
-* Inattention: difficulty focusing, forgetfulness, distractibility and disorganization
-* Impulsivity: acting without thinking, interrupting others and difficulty waiting for one’s turn
-* Hyperactivity: fidgeting, restlessness, excessive talking, and inability to sit still
+- Inattention: difficulty focusing, forgetfulness, distractibility and disorganization
+- Impulsivity: acting without thinking, interrupting others and difficulty waiting for one’s turn
+- Hyperactivity: fidgeting, restlessness, excessive talking, and inability to sit still
 
 </dd>
 </dl>
@@ -147,13 +144,13 @@ ASD begins in childhood and tends to continue into adolescence and adulthood. Pe
 
 People with ASD may exhibit some of the following traits:
 
-* Difficulty with social interaction: making and maintaining relationships, understanding social cues, and understanding or talking about feelings
-* Communication difficulties: using and understanding language, making eye contact, giving unrelated answers to questions and repeating words or phrases over and over
-* Difficulty with change, such as getting upset by minor changes
-* Narrow interests, such as having obsessive interests
-* Repetitive behaviour, such as flap their hands or lining up objects
-* Unusual motor movements, such as flap their hands and rock their body
-* Sensory sensitivities: unusual reactions to the way things sound, smell, taste, look, or feel
+- Difficulty with social interaction: making and maintaining relationships, understanding social cues, and understanding or talking about feelings
+- Communication difficulties: using and understanding language, making eye contact, giving unrelated answers to questions and repeating words or phrases over and over
+- Difficulty with change, such as getting upset by minor changes
+- Narrow interests, such as having obsessive interests
+- Repetitive behaviour, such as flap their hands or lining up objects
+- Unusual motor movements, such as flap their hands and rock their body
+- Sensory sensitivities: unusual reactions to the way things sound, smell, taste, look, or feel
 
 </dd>
 </dl>
@@ -168,17 +165,17 @@ People with ASD may exhibit some of the following traits:
 
 Some of the signs of NLD include:
 
-* Great vocabulary, verbal expression and reading comprehension
-* Excellent memory recall for details
-* Attention to detail, but missing the big picture
-* Poor abstract reasoning and problem solving
-* Difficulty reading maps, interpreting graphs, and solving puzzles and time management
-* Difficulty with planning, organizing, and managing tasks
-* Physical awkwardness, poor coordination
-* Poor social skills
-* Trouble understanding social cues, body language, sarcasm and humour
-* Trouble adjusting to changes
-* Anxiety, depression, low self-esteem
+- Great vocabulary, verbal expression and reading comprehension
+- Excellent memory recall for details
+- Attention to detail, but missing the big picture
+- Poor abstract reasoning and problem solving
+- Difficulty reading maps, interpreting graphs, and solving puzzles and time management
+- Difficulty with planning, organizing, and managing tasks
+- Physical awkwardness, poor coordination
+- Poor social skills
+- Trouble understanding social cues, body language, sarcasm and humour
+- Trouble adjusting to changes
+- Anxiety, depression, low self-esteem
 
 </dd>
 </dl>
@@ -187,107 +184,107 @@ Some of the signs of NLD include:
 
 From the W3C’s Web Accessibility Initiative and other sources:
 
-* Complex sentences and unusual vocabulary.
-* On websites and other technologies, complex page layouts and navigation.
-* Long passages of text without images, graphs, or illustrations to help explain concepts.
-* Animated, blinking, or flickering images.
-* Audio with no option to turn it off.
-* Web browsers and media players that do not provide a control to turn off animations or audio.
-* Complex visual designs.
-* Social isolation discrimination.
+- Complex sentences and unusual vocabulary.
+- On websites and other technologies, complex page layouts and navigation.
+- Long passages of text without images, graphs, or illustrations to help explain concepts.
+- Animated, blinking, or flickering images.
+- Audio with no option to turn it off.
+- Web browsers and media players that do not provide a control to turn off animations or audio.
+- Complex visual designs.
+- Social isolation discrimination.
 
 ## Reading and Dyslexia Challenges and Solutions
 
 Perceives words as floating and not in a line:
 
-* Can use a special font developed for dyslexia which weights the letters down and makes similar figures appear differently.
-* May be granted additional time to complete tasks.
+- Can use a special font developed for dyslexia which weights the letters down and makes similar figures appear differently.
+- May be granted additional time to complete tasks.
 
 Perceives words differently than others, such as by confusing the letters p, b, d, and q:
 
-* Can change the font, contrast or add an underline to text to keep words in line.
-* May be granted additional time to complete tasks.
+- Can change the font, contrast or add an underline to text to keep words in line.
+- May be granted additional time to complete tasks.
 
 Requires additional time to read and process content:
 
-* Can extend time-outs and return to the same location on the page.
-* Can use voice output technology to reinforce reading content with the audible version. Can use screen readers which highlight the word or phrase being read to assist with tracking.
-* Can use enhanced visible focus indicators to keep track of their position on the page.
-* Can use special programs or dictionaries which present words with pictures.
-* May be granted additional time to complete tasks.
+- Can extend time-outs and return to the same location on the page.
+- Can use voice output technology to reinforce reading content with the audible version. Can use screen readers which highlight the word or phrase being read to assist with tracking.
+- Can use enhanced visible focus indicators to keep track of their position on the page.
+- Can use special programs or dictionaries which present words with pictures.
+- May be granted additional time to complete tasks.
 
 Has the burden of deciphering content from the way it is presented:
 
-* May apply a custom style sheet.
+- May apply a custom style sheet.
 
 May have difficulty solving problems presented through security features such as CAPTCHA:
 
-* Support the ability to change the type of problem presented.
+- Support the ability to change the type of problem presented.
 
 May have difficulty processing content through visual means:
 
-* Can use voice output technology to reinforce reading content with the audible version. May be granted additional time to complete tasks.
+- Can use voice output technology to reinforce reading content with the audible version. May be granted additional time to complete tasks.
 
 Difficulties with spelling:
 
-* Spelling and grammar checker.
-* Dictation.
+- Spelling and grammar checker.
+- Dictation.
 
 ## Math and Computation Challenges and Solutions
 
 Inability to distinguish right from left in graphic images:
 
-* Can read data in a data table or text description as an alternative to graphic representations of data.
-* May be granted additional time to complete tasks.
+- Can read data in a data table or text description as an alternative to graphic representations of data.
+- May be granted additional time to complete tasks.
 
 Inability to perform calculations:
 
-* Can use an online reference sheet with common equations.
-* Can use an onscreen calculator.
-* May be granted additional time to complete tasks.
+- Can use an online reference sheet with common equations.
+- Can use an onscreen calculator.
+- May be granted additional time to complete tasks.
 
 ## Adaptive Technologies and Adaptive Strategies
 
 Here are some commonly used products and strategies:
 
-* Cueing/Memory Aids
-* Software that includes text to speech, word prediction, and spell check
-* For example, Word Q Pro
-* Simplified interfaces
-* For example, Medialexie
-* Simplified content
-* For example, workbooks, picture boards, charts, pencil grip to aid in writing skills, educational toys and games, blocks, models of common objects, letters, and numerals
-* Augmentative and alternative communication (AAC) devices
-* Synchronized speech and highlighting
-* Visual / audio alternatives to text in signage, messages, instructions
-* Direct and immediate help
-* Smart Pens
-* Pens for recording lectures, note taking and improving handwriting.
-* For example, Echo Smart Pen
-* Pens that can scan and store text and transfer it to a word processor.
-* Pens with scanning capabilities for reading comprehension.
-* Digital highlighters that instantly transfer words on paper to a digital device for easy note-taking and deeper comprehension.
-* Personal tutors for students to practice their learning and increase fluency by building new words, recalling learned words, discriminating between words and reading controlled texts.
-* Online grammar checkers
-* Software that includes color highlighters, notetaking, and bookmarking functions
-* Educational Software
-* For example, Kurzweil 3000
-* Speech Recognition
-* Voice Recorders
+- Cueing/Memory Aids
+- Software that includes text to speech, word prediction, and spell check
+- For example, Word Q Pro
+- Simplified interfaces
+- For example, Medialexie
+- Simplified content
+- For example, workbooks, picture boards, charts, pencil grip to aid in writing skills, educational toys and games, blocks, models of common objects, letters, and numerals
+- Augmentative and alternative communication (AAC) devices
+- Synchronized speech and highlighting
+- Visual / audio alternatives to text in signage, messages, instructions
+- Direct and immediate help
+- Smart Pens
+- Pens for recording lectures, note taking and improving handwriting.
+- For example, Echo Smart Pen
+- Pens that can scan and store text and transfer it to a word processor.
+- Pens with scanning capabilities for reading comprehension.
+- Digital highlighters that instantly transfer words on paper to a digital device for easy note-taking and deeper comprehension.
+- Personal tutors for students to practice their learning and increase fluency by building new words, recalling learned words, discriminating between words and reading controlled texts.
+- Online grammar checkers
+- Software that includes color highlighters, notetaking, and bookmarking functions
+- Educational Software
+- For example, Kurzweil 3000
+- Speech Recognition
+- Voice Recorders
 
 Here are links to tutorials:
 
-* [Kurzweil 3000 tutorial](https://www.kurzweiledu.com/products/product-guides.html)
-* [Word Q Pro Tutorial](https://www.quillsoft.ca/tutorials-wordq)
-* <a href="http://medialexie.ca/logiciels-medialexie/" hreflang="fr">Medialexie Tutorial (available in French only)</a>
+- [Kurzweil 3000 tutorial](https://www.kurzweiledu.com/products/product-guides.html)
+- [Word Q Pro Tutorial](https://www.quillsoft.ca/tutorials-wordq)
+- <a href="http://medialexie.ca/logiciels-medialexie/" hreflang="fr">Medialexie Tutorial (available in French only)</a>
 
 ### For Communication:
 
-* Allowing adequate time to exchange information
-* Speaking slowly
-* Checking for understanding
-* Choosing a quiet location for communicating
-* Feedback mechanisms
-* Low-tech message boards
-* Computerized voice output communication aids
-* Synthesized speech
+- Allowing adequate time to exchange information
+- Speaking slowly
+- Checking for understanding
+- Choosing a quiet location for communicating
+- Feedback mechanisms
+- Low-tech message boards
+- Computerized voice output communication aids
+- Synthesized speech

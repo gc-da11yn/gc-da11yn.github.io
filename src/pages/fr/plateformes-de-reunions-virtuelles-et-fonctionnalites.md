@@ -14,19 +14,15 @@ Microsoft Teams est la plateforme de réunion standard pour les réunions virtue
 
 - [Enregistrer une réunion dans Teams](https://support.microsoft.com/fr-fr/office/enregistrer-une-r%C3%A9union-dans-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 - [Sous-titrage en direct pour les réunions](https://support.microsoft.com/fr-fr/office/utiliser-les-sous-titres-en-direct-dans-une-r%C3%A9union-teams-4be2d304-f675-4b57-8347-cbd000a21260)
-
 - Les sous-titres sont disponibles uniquement en anglais (É.-U.) pour le moment.
 - Sous-titrages en direct en français (juillet 2021)
 - Teams ne sauvegarde pas les sous-titres et ne crée pas de transcription.
 - Il n'y a actuellement aucun moyen d'activer les sous-titres automatiquement ou par défaut, ce qui est probablement dû à la conception, compte tenu des différents groupes de handicaps qui pourraient être affectés par l'utilisation de sous-titres ouverts.
-
 - [Afficher la transcription en direct dans une Teams réunion](https://support.microsoft.com/fr-fr/office/afficher-la-transcription-en-direct-dans-une-teams-r%C3%A9union-dc1a8f23-2e20-4684-885e-2152e06a4a8b)
 - [Flouter l’arrière plan ou utiliser une image d’arrière plan](https://support.microsoft.com/fr-fr/office/modifier-l-arri%c3%a8re-plan-pour-une-r%c3%a9union-teams-f77a2381-443a-499d-825e-509a140f4780?ui=fr-FR&rs=fr-CA&ad=CA)
 - [Définir le niveau de suppression du bruit à élevé](https://support.microsoft.com/fr-fr/office/r%c3%a9duire-le-bruit-de-fond-lors-teams-r%c3%a9unions-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d?ui=fr-FR&rs=fr-CA&ad=CA)
 - [Épingler une vidéo d’un participant](https://support.microsoft.com/fr-fr/office/ajuster-votre-affichage-dans-une-r%C3%A9union-teams-9825091c-0e7d-4c2b-95f5-eba644f19175) à la réunion
-
 - MS Teams ne permet pas de redimensionner les vidéos épinglées. Une demande de fonctionnalité a été envoyée à Microsoft.
-
 - [Conversations dédiées pour chaque réunion](https://support.microsoft.com/fr-fr/office/rejoindre-une-r%c3%a9union-dans-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9?ui=fr-FR&rs=fr-CA&ad=CA)
 - [Ajouter quelqu’un, comme un collègue ou un interprète](https://support.microsoft.com/fr-fr/office/ajouter-quelqu-un-%c3%a0-un-appel-dans-teams-267fb0c9-275a-4047-8412-7b2654dc29c3?ui=fr-FR&rs=fr-CA&ad=CA), à un appel
 
@@ -75,7 +71,6 @@ Zoom n'est pas l'outil recommandé pour les réunions internes, mais c'est une o
 - Gérez facilement tous les principaux flux de travail seulement avec votre clavier. Zoom prend également en charge les [raccourcis clavier](https://support.zoom.us/hc/fr/articles/205683899-Hot-Keys-and-Keyboard-for-Zoom) pour naviguer dans les fonctionnalités.
 - Les dernières normes d'accessibilité sont suivies pour garantir que le produit est entièrement accessible aux derniers lecteurs d'écran.
 - Les produits Zoom sont conformes, sauf exceptions, aux normes suivantes:
-
 - Normes WCAG 2.1 AA
 - Normes révisées de la section 508
 - Exigences d’accessibilité EN 301 549
