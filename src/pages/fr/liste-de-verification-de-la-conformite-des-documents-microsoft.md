@@ -9,7 +9,7 @@ tags:
   - createDocument
 ---
 
-Vous trouverez ci-dessous des questions qui vous indiqueront si votre document Microsoft Office est accessible. Les critères de réussite renvoient aux Règles pour l’accessibilité des contenus Web (WCAG) 2.1 : [How to Meet WCAG - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/) (disponible en anglais seulement) et le [Guide de rédaction du contenu du site Canada.ca](https://www.canada.ca/fr/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
+Vous trouverez ci-dessous des questions qui vous indiqueront si votre document Microsoft Office est accessible. Les critères de réussite renvoient aux Règles pour l’accessibilité des contenus Web (WCAG) 2.1 : <a href="http://www.w3.org/WAI/WCAG21/quickref/" hreflang="en">How to Meet WCAG - Quick Reference<small> (en anglais seulement)</small></a> et le [Guide de rédaction du contenu du site Canada.ca](https://www.canada.ca/fr/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
 
 Si une question ne s’applique pas à votre document, indiquez « S.O. » pour « Sans objet ». Par exemple, il n’y a pas de table des matières dans un document Excel.
 

@@ -7,7 +7,7 @@ subject:
 tags:
 ---
 
-## [Principe 1 – Perceptible (disponible seulement en anglais)](https://www.w3.org/TR/WCAG21/#perceivable)
+## <a href="https://www.w3.org/Translations/WCAG21-fr/#perceivable" hreflang="en">Principe 1 – Perceptible</a>
 
 ### Règle 1.1 – Équivalents textuels
 
@@ -41,7 +41,7 @@ tags:
 - 1.4.12 Espacement du texte (Niveau AA)
 - 1.4.13 Contenu ciblé en mode survol (Niveau AA)
 
-## [Principe 2 – Utilisable (disponible seulement en anglais)](https://www.w3.org/TR/WCAG21/#operable)
+## <a href="https://www.w3.org/Translations/WCAG21-fr/#operable" hreflang="en">Principe 2 – Utilisable</a>
 
 ### Règle 2.1 – Accessibilité au clavier
 
@@ -75,7 +75,7 @@ tags:
 - 2.5.3 Étiquette dans le nom (Niveau A)
 - 2.5.4 Activation par le mouvement (Niveau A)
 
-## [Principe 3 – Compréhensible (disponible seulement en anglais)](https://www.w3.org/TR/WCAG21/#understandable)
+## <a href="https://www.w3.org/Translations/WCAG21-fr/#understandable" hreflang="en">Principe 3 – Compréhensible</a>
 
 ### Règle 3.1 – Lisible
 
@@ -96,7 +96,7 @@ tags:
 - 3.3.3 Suggestion d'erreur (Niveau AA)
 - 3.3.4 Prévention des erreurs (juridiques, financières, de données) (Niveau AA)
 
-## [Principe 4 – Robuste (disponible seulement en anglais)](https://www.w3.org/TR/WCAG21/#robust)
+## <a href="https://www.w3.org/Translations/WCAG21-fr/#robust" hreflang="en">Principe 4 – Robuste</a>
 
 ### Règle 4.1 – Compatible
 

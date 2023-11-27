@@ -16,7 +16,7 @@ Un fichier PDF accessible est utilisable par des personnes avec ou sans handicap
 
 Les directives générales relatives à l’accessibilité des documents s’appliquent également aux documents PDF. Cela signifie que le document doit être adéquatement structuré avec des titres, que le contraste est suffisant et que les images comportent un texte de remplacement. Assurez-vous de lire les directives générales relatives à l’accessibilité des documents avant de continuer.
 
-Puisque les documents PDF contiennent souvent des éléments interactifs, comme des formulaires, leur accessibilité doit être évaluée selon les [Règles pour l’accessibilité des contenus Web](https://www.w3.org/TR/WCAG21/) (en anglais seulement). Le respect de ce guide ne garantit pas la conformité à ces directives, mais c’est un bon début.
+Puisque les documents PDF contiennent souvent des éléments interactifs, comme des formulaires, leur accessibilité doit être évaluée selon les [Règles pour l’accessibilité des contenus Web](https://www.w3.org/Translations/WCAG21-fr/). Le respect de ce guide ne garantit pas la conformité à ces directives, mais c’est un bon début.
 
 ## Outils d’édition recommandés
 
@@ -112,7 +112,7 @@ Il est important de préciser un titre évocateur et la langue du document. Dans
 
 Les documents PDF bilingues présentent des problèmes particuliers et doivent être évités, en particulier pour ce qui est des formulaires. Il est préférable d’offrir plusieurs versions du même PDF, une pour chaque langue.
 
-Un passage dans une langue autre que la langue principale du document doit être balisé séparément. Par exemple, un paragraphe anglais dans un document français qui indique que le document est également disponible en anglais. Consultez la page [Préciser la langue d’un passage ou d’une phrase](https://www.w3.org/TR/WCAG20-TECHS/PDF19.html) (en anglais seulement). Vous pouvez choisir le langage du texte dans le sous-menu de l’onglet **Étiquettes** ou dans le panneau **Contenu** dans le panneau de navigation. Afin d’effectuer cette action, ouvrez le menu **Contenu** en cliquant avec le bouton droit sur un élément et choisir **Propriétés**… ensuite choisissez **Langue** dans la boite de dialogue Propriétés d’objet.
+Un passage dans une langue autre que la langue principale du document doit être balisé séparément. Par exemple, un paragraphe anglais dans un document français qui indique que le document est également disponible en anglais. Consultez la page <a href="https://www.w3.org/TR/WCAG20-TECHS/PDF19.html" hreflang="en">Préciser la langue d’un passage ou d’une phrase<small> (en anglais seulement)</small></a>. Vous pouvez choisir le langage du texte dans le sous-menu de l’onglet **Étiquettes** ou dans le panneau **Contenu** dans le panneau de navigation. Afin d’effectuer cette action, ouvrez le menu **Contenu** en cliquant avec le bouton droit sur un élément et choisir **Propriétés**… ensuite choisissez **Langue** dans la boite de dialogue Propriétés d’objet.
 
 ### Documents numérisés&nbsp;: images d’un texte
 
@@ -150,13 +150,12 @@ Les cellules de tableau doivent être associées aux en-têtes du tableau. Comme
 
 L’activation des fonctions d’accessibilité intégrées de Foxit PDF Editor, dans l'onglet **Accessibilité** &gt; **Configuration** &gt; **Assistant de configuration**, vous permet de vérifier manuellement l’ordre de lecture et d’autres problèmes structurels. Consultez [comment rendre facilement accessibles des documents PDF avec l’assistant d’action](https://youtu.be/FK2kWIe6xq0) pour plus d’information.
 
-Vérifiez votre formulaire avec [NVDA (un lecteur d’écran gratuit)](https://www.nvaccess.org/) (en anglais seulement) pour repérer rapidement les problèmes liés à l’ordre des balises et des tabulations. Tentez de remplir le formulaire en n’utilisant que vos oreilles et votre clavier. Cela vous donnera une idée de l’expérience des utilisateurs de lecteurs d’écran.
+Vérifiez votre formulaire avec <a href="https://www.nvaccess.org/" hreflang="en">NVDA (un lecteur d’écran gratuit)<small> (en anglais seulement)</small></a> pour repérer rapidement les problèmes liés à l’ordre des balises et des tabulations. Tentez de remplir le formulaire en n’utilisant que vos oreilles et votre clavier. Cela vous donnera une idée de l’expérience des utilisateurs de lecteurs d’écran.
 
-Outre le vérificateur d’accessibilité intégré de Foxit PDF Editor, un autre outil est le [Vérificateur d’accessibilité PDF gratuit (PAC 3)](https://www.access-for-all.ch/en/pdf-accessibility-checker.html) (en anglais seulement). Bien que ce programme ne vous permette pas, à lui seul, de remédier aux problèmes, il est possible que vous puissiez effectuer vos corrections dans l’outil d’édition au préalable (Word, InDesign, etc.). Il peut également cerner des problèmes que Foxit PDF Editor n’a pas su reconnaître.
+Outre le vérificateur d’accessibilité intégré de Foxit PDF Editor, un autre outil est le <a href="https://www.access-for-all.ch/en/pdf-accessibility-checker.html" hreflang="en">Vérificateur d’accessibilité PDF gratuit (PAC 3)<small> (en anglais seulement)</small></a>. Bien que ce programme ne vous permette pas, à lui seul, de remédier aux problèmes, il est possible que vous puissiez effectuer vos corrections dans l’outil d’édition au préalable (Word, InDesign, etc.). Il peut également cerner des problèmes que Foxit PDF Editor n’a pas su reconnaître.
 
 ## Ressources supplémentaires
 
-- [Techniques PDF de W3C pour WCAG 2.0](https://www.w3.org/TR/WCAG-TECHS/pdf.html) (en anglais seulement) - Vingt-trois techniques permettant de résoudre des infractions particulières au WCAG, principalement dans le cadre de formulaires et de tableaux (100 pages, 2016).
-- [WebAIM : Foxit and PDF Accessibility](https://webaim.org/techniques/foxit/) (en anglais seulement) - Un guide pour la création de PDF accessibles avec Foxit PDF Editor par WebAIM (4 pages, 2019).
-- [10 erreurs fréquentes en matière d’accessibilité avec les solutions](http://www.uottawa.ca/respect/sites/www.uottawa.ca.respect/files/fss-fixing-accessibility-errors-in-pdfs.pdf) (en anglais seulement) - Le produit de la révision de plus de 1 500 documents PDF, ce guide de U Ottawa fournit des détails, y compris des captures d’écran concernant la résolution de problèmes fréquents (24 pages, 2014).
+- <a href="https://www.w3.org/TR/WCAG-TECHS/pdf.html" hreflang="en">Techniques PDF de W3C pour WCAG 2.0<small> (en anglais seulement)</small></a> - Vingt-trois techniques permettant de résoudre des infractions particulières au WCAG, principalement dans le cadre de formulaires et de tableaux (100 pages, 2016).
+- <a href="https://webaim.org/techniques/foxit/" hreflang="en">WebAIM : Foxit and PDF Accessibility<small> (en anglais seulement)</small></a> - Un guide pour la création de PDF accessibles avec Foxit PDF Editor par WebAIM (4 pages, 2019).
 - [Tutoriels vidéo pour Foxit PDF Editor](https://www.foxitsoftware.com/fr/support/tutorial/)
