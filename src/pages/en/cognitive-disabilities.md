@@ -276,7 +276,7 @@ Here are links to tutorials:
 
 - [Kurzweil 3000 tutorial](https://www.kurzweiledu.com/products/product-guides.html)
 - [Word Q Pro Tutorial](https://www.quillsoft.ca/tutorials-wordq)
-- <a href="http://medialexie.ca/logiciels-medialexie/" hreflang="fr">Medialexie Tutorial (available in French only)</a>
+- <a href="http://medialexie.ca/logiciels-medialexie/" hreflang="fr">Medialexie Tutorial <small> (in French only)</small></a>
 
 ### For Communication:
 
