@@ -1,6 +1,5 @@
 ---
 title: Cécité
-layout: layouts/base.njk
 description: Les personnes aveugles présentent des conditions allant de sévère réduction de l'acuité visuelle à la perte totale de vision et de perception de la lumière. Une variété de logiciels et d'équipements sont utilisés afin d'offrir des mesures d'adaptation aux employés aveugles.
 toggle: blindness
 subject:

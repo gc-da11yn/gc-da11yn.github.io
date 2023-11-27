@@ -18,7 +18,6 @@ Keywords:
   - clavier adaptatif
   - dispositif de commutation
   - logiciel de reconnaissance vocale
-layout: layouts/base.njk
 audience:
   - General public
 subject:

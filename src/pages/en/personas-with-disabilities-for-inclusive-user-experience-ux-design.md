@@ -1,6 +1,5 @@
 ---
 title: Personas with Disabilities for inclusive user experience (UX) design
-layout: layouts/base.njk
 description: The case to include disabilities into user personas, the types of technologies they use, and sample personas with disabilities.
 subject: howTos
 tags: designCourse

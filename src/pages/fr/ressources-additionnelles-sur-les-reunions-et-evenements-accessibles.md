@@ -1,6 +1,5 @@
 ---
 title: Ressources additionnelles sur les réunions et événements accessibles
-layout: layouts/base.njk
 description: Pour plus d'informations sur les réunions et événements accessibles, vous pouvez consulter cette liste de liens.
 internalLinks: true
 toggle: additional-resources-on-accessible-meetings-and-events

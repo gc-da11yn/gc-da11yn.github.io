@@ -1,6 +1,5 @@
 ---
 title: Conseils pour la conception de cours en ligne
-layout: layouts/base.njk
 description: Conseils et astuces pour rédiger, concevoir et développer des cours en ligne
 toggle: tips-for-creating-online-courses
 subject: howTos

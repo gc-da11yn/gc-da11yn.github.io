@@ -6,7 +6,6 @@ category:
 Tagging:
   - Fundamentals
   - Disabilities
-layout: layouts/base.njk
 audience:
   - General public
 subject:

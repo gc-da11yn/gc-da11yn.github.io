@@ -1,6 +1,5 @@
 ---
 title: Concevoir pour les utilisateurs avec un handicap physique ou moteur
-layout: layouts/base.njk
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs en situation de handicap physique ou moteur.
 tags: designingAccessible
 toggle: designing-for-users-with-physical-or-motor-disabilities

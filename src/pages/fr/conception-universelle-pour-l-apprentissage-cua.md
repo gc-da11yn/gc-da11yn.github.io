@@ -4,7 +4,6 @@ description: La conception universelle pour l’apprentissage (CUA) est un cadre
 subject: howTos
 tags: designCourse
 toggle: universal-design-for-learning-udl
-layout: layouts/base.njk
 category:
   - Pratiques exemplaires
   - Rédaction de contenu

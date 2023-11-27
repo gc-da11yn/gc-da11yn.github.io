@@ -1,7 +1,6 @@
 ---
 title: Classeurs Excel accessibles dans Microsoft 365
 description: Pratiques accessibles pour la création de documents Microsoft Excel.
-layout: layouts/base.njk
 toggle: accessible-excel-workbooks-in-microsoft-365
 fontIcon: fa-file-excel
 ---

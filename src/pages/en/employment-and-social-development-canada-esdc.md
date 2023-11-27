@@ -1,6 +1,5 @@
 ---
 title: Employment and Social Development Canada (ESDC)
-layout: layouts/base.njk
 description: Employment and Social Development Canada (ESDC) works to improve the standard of living and quality of life for all Canadians. We do this by promoting a labour force that is highly skilled. We also promote an efficient and inclusive labour market. ESDC has multiple teams working in digital accessibility with the goal of creating a barrier free environment for Canadians and employees!
 toggle: employment-and-social-development-canada-esdc
 subject:

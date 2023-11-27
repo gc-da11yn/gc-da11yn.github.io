@@ -1,6 +1,5 @@
 ---
 title: Concevoir pour les utilisateurs dans le spectre autistique
-layout: layouts/base.njk
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs du spectre autistique.
 tags: designingAccessible
 toggle: designing-for-users-on-the-autistic-spectrum

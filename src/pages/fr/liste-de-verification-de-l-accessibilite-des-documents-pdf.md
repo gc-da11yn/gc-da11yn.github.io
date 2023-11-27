@@ -1,6 +1,5 @@
 ---
 title: Liste de vérification de l’accessibilité des documents PDF
-layout: layouts/base.njk
 description: Vous trouverez ici différentes questions pour vous aider à savoir si votre document pdf est accessible ou non.
 internalLinks: true
 toggle: pdf-accessibility-checklist

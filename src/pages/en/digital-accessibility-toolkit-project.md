@@ -1,6 +1,5 @@
 ---
 title: Digital Accessibility Toolkit project
-layout: layouts/base.njk
 description: About the project, who we are and what is our goal.
 toggle: project-de-la-boite-a-outils-de-l-accessibilite-numerique
 tags:

@@ -13,7 +13,6 @@ Keywords:
   - Best Practices
   - Learning Designer
   - Educator
-layout: layouts/base.njk
 audience:
   - Learning designer
   - Educator / facilitator

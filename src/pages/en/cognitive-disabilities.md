@@ -24,7 +24,6 @@ Keywords:
   - Smart pens
   - Asperger Syndrome (AS)
   - Speech recognition software
-layout: layouts/base.njk
 audience:
   - Everyone
 toggle: handicaps-cognitifs

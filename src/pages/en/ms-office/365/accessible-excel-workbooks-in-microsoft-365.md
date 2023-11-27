@@ -1,6 +1,5 @@
 ---
 title: Accessible Excel workbooks in Microsoft 365
-layout: layouts/base.njk
 description: Accessible practices for Microsoft Excel document creation.
 toggle: classeurs-excel-accessibles-dans-microsoft-365
 fontIcon: fa-file-excel

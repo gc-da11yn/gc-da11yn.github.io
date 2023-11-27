@@ -25,7 +25,6 @@ keywords:
   - stylos intelligents
   - syndrome d'Asperger (SA)
   - logiciel de reconnaissance vocale
-layout: layouts/base.njk
 audience:
   - Everyone
 toggle: cognitive-disabilities

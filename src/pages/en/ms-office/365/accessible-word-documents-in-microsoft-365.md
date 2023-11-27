@@ -1,6 +1,5 @@
 ---
 title: Accessible Word documents in Microsoft 365
-layout: layouts/base.njk
 description: Accessible practices for Microsoft Word document creation.
 toggle: documents-word-accessibles-dans-Microsoft-365
 fontIcon: fa-file-word

@@ -1,7 +1,6 @@
 ---
 title: Améliorer l’accessibilité des formulaires
 description: Découvrez comment rendre les formulaires numériques accessibles.
-layout: layouts/base.njk
 subject:
   - howTos
 tags:

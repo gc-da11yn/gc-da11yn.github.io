@@ -1,6 +1,5 @@
 ---
 title: Concevoir pour les utilisateurs sourds ou malentendants
-layout: layouts/base.njk
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs sourds ou malentendants.
 tags: designingAccessible
 toggle: designing-for-users-who-are-deaf-or-hard-of-hearing
