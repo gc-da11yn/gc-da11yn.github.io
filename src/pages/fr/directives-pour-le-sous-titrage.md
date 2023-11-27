@@ -28,9 +28,9 @@ Il est important que les sous-titres codés soient :
 
 <a href="http://www.captioningkey.org/" hreflang="en" lang="en">Captioning Key: Guidelines and Preferred Techniques<small> <span lang="fr">(en anglais seulement)</span></small></a>
 
-<a href="" hreflang="en" lang="en">Best Practices in Online Captioning<small> <span lang="fr">(en anglais seulement)</span></small></a>
+<a href="http://joeclark.org/access/captioning/bpoc/" hreflang="en" lang="en">Best Practices in Online Captioning<small> <span lang="fr">(en anglais seulement)</span></small></a>
 
-<a href="" hreflang="en" lang="en">Captions/Subtitles | Web Accessibility Initiative (WAI) | W3C<small> <span lang="fr">(en anglais seulement)</span></small></a>
+<a href="https://www.w3.org/WAI/media/av/captions/" hreflang="en" lang="en">Captions/Subtitles | Web Accessibility Initiative (WAI) | W3C<small> <span lang="fr">(en anglais seulement)</span></small></a>
 
 ## Sous-titres codés et sous-titres
 
