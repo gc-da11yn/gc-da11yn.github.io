@@ -1,6 +1,5 @@
 ---
 title: Concevoir pour les utilisateurs de revues d’écran
-layout: layouts/base.njk
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs de lecteurs d'écran.
 tags: designingAccessible
 toggle: designing-for-users-of-screen-readers

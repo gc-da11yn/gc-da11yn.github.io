@@ -1,6 +1,5 @@
 ---
 title: Designing accessible images
-layout: layouts/base.njk
 description: With this diagram, you will learn how to make the best choice for designing accessible images.
 toggle: concevoir-des-images-accessibles
 ---

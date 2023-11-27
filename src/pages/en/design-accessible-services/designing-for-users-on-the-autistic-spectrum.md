@@ -1,6 +1,5 @@
 ---
 title: Designing for users on the autistic spectrum
-layout: layouts/base.njk
 description: What to do - and what <strong>not</strong> to do - when designing for users on the autistic spectrum.
 tags: designingAccessible
 toggle: concevoir-pour-les-utilisateurs-dans-le-spectre-autistique

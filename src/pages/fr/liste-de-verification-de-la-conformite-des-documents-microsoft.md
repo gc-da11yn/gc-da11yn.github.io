@@ -1,6 +1,5 @@
 ---
 title: Liste de vérification de la conformité des documents Microsoft
-layout: layouts/base.njk
 description: Vous trouverez ici différentes questions qui vous aideront à savoir si votre document Word est accessible ou non.
 toggle: microsoft-document-compliance-checklist
 subject:

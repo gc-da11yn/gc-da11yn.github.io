@@ -6,7 +6,6 @@ subject:
   - howTos
 tags:
   - createWebContent
-layout: layouts/base.njk
 audience:
   - Everyone
 ---

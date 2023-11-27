@@ -1,7 +1,6 @@
 ---
 title: Learning and Development
 description: Discover a curated collection of learning products to enhance your understanding of accessibility. Whether you're a developer, designer, or enthusiast, explore our links to courses, tutorials, and tools. Join us in creating a more inclusive digital world.
-layout: layouts/base.njk
 toggle: apprentissage-et-perfectionnement
 internalLinks: true
 tags: main

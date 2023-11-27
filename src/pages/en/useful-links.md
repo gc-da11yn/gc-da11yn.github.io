@@ -1,6 +1,5 @@
 ---
 title: Useful Links
-layout: layouts/base.njk
 description: This page contains a list of key links for ESDC's IT Accessibility Office.
 toggle: liens-utiles
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Exigences en matière de technologies de l’information et des communications (TIC) accessibles
-layout: layouts/base.njk
 description: Cette page a pour but de partager une partie du travail effectu&eacute; par la Services partagés Canada (<abbr>SPC</abbr>) pour le pilotage des normes harmonis&eacute;es d'accessibilit&eacute; des technologies de l’information et des communications (<abbr>TIC</abbr>) EN 301 549 (2021). Il ne s'agit pas d'un copier / coller / traduction complet des normes, l'EN 301 549 (2021) ou le <span lang="en">Web Content Accessibility Guidelines</span> (<abbr>WCAG</abbr>) 2.1.
 subject:
   - accessibilityInTheGovernmentOfCanada

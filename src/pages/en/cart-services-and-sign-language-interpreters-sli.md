@@ -1,6 +1,5 @@
 ---
 title: CART Services and Sign Language Interpreters (SLI)
-layout: layouts/base.njk
 description: The most common accommodations for meetings or events are computer-assisted real-time transcription (CART) and interpretation services.
 internalLinks: true
 toggle: services-cart-et-interpretes-en-langue-des-signes-sli

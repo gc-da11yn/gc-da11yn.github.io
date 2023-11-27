@@ -1,6 +1,5 @@
 ---
 title: Accessibility Testing 101
-layout: layouts/base.njk
 description: For anyone wanting to create accessible content, it is encouraged to use automated accessibility testing tools. These testing tools will help content creators as they build their content by finding errors and offering suggestions to improve the accessibility of their product, application or web site. On this page a list of recommended accessibility testing tools has been made available.
 toggle: test-d-accessibilite-101
 subject: howTos

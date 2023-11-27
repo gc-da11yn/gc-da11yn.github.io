@@ -1,6 +1,5 @@
 ---
 title: Do’s and Don’ts for developing online courses
-layout: layouts/base.njk
 description: Do’s and don’ts for writing, designing and developing online courses.
 toggle: a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne
 subject: howTos

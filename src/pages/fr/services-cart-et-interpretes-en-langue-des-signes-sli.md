@@ -1,6 +1,5 @@
 ---
 title: Services CART et interprètes en langue des signes (SLI)
-layout: layouts/base.njk
 description: Les services d'hébergement les plus courants pour les réunions ou les événements sont les services de transcription en temps réel assistés par ordinateur (CART) et d'interprétation.
 internalLinks: true
 toggle: cart-services-and-sign-language-interpreters-sli

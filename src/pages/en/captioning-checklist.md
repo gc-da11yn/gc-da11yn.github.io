@@ -6,7 +6,6 @@ subject:
 toggle: liste-de-controle-pour-le-sous-titrage
 tags:
   - createWebContent
-layout: layouts/base.njk
 audience:
   - Everyone
 ---

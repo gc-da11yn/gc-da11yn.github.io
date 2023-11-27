@@ -4,7 +4,6 @@ description: La description sonore permet à tout utilisateur souffrant d’un h
 subject: howTos
 tags: createWebContent
 toggle: audio-description-guidelines
-layout: layouts/base.njk
 audience:
   - Everyone
 ---

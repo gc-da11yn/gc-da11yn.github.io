@@ -1,6 +1,5 @@
 ---
 title: "What we heard report: Standard on Information and Communication Technology Accessibility (<abbr>SICTA</abbr>)"
-layout: layouts/base.njk
 description: "Between October 31 and November 30, 2022, the Treasury Board of Canada Secretariat - Office of the Chief Information Officer (<abbr>TBS-OCIO</abbr>) Digital Policy & Performance Division undertook a targeted engagement on the <em>Standard on Information and Communication Technology (<abbr>ICT</abbr>) Accessibility</em>. This page details the key themes that emerged and next steps to be taken in relation to the standard."
 toggle: rapport-sur-ce-que-nous-avons-entendu-norme-d-accessibilite-des-technologies-de-l-information-et-des-communications-natic
 subject:

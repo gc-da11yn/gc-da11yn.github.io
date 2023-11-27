@@ -1,6 +1,5 @@
 ---
 title: Personas handicapés pour la conception d'une expérience utilisateur inclusive (EU)
-layout: layouts/base.njk
 description: Le cas d'inclure les handicaps dans les personas des utilisateurs, les types de technologies qu'ils utilisent et les échantillons de personas avec des handicaps.
 subject: howTos
 tags: designCourse

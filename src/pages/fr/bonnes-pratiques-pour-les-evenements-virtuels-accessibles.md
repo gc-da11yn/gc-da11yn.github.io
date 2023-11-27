@@ -1,6 +1,5 @@
 ---
 title: Bonnes pratiques pour les événements virtuels accessibles
-layout: layouts/base.njk
 description: Ce guide porte sur la planification d'événements, englobant un large éventail d'activités telles que des conférences, des réunions et des présentations. Il propose une chronologie suggérée pour organiser votre événement, mais n'insiste pas sur une approche stricte. Avant de plonger dans le guide, nous vous invitons à prendre en compte les problèmes courants rencontrés par les personnes en situation de handicap lors d'événements. L'objectif est de travailler ensemble pour relever ces défis et créer des expériences plus inclusives et accessibles.
 toggle: best-practices-for-accessible-virtual-events
 tags:

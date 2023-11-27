@@ -5,7 +5,6 @@ subject:
   - accessibilityFundamentals
 tags:
   - aboutDisabilities
-layout: layouts/base.njk
 audience:
   - Everyone
 toggle: deficiences-auditives

@@ -1,6 +1,5 @@
 ---
 title: Designing for users with low vision
-layout: layouts/base.njk
 description: What to do - and what <strong>not</strong> to do - when designing for users with low vision.
 tags: designingAccessible
 toggle: concevoir-pour-les-utilisateurs-malvoyants

@@ -1,6 +1,5 @@
 ---
 title: Making Accessible Emails
-layout: layouts/base.njk
 description: Accessible email is important for people with disabilities but also for everyone. Find out how to create an accessible email in outlook.
 tags: howTos
 toggle: rendre-vos-courriel-accessibles
