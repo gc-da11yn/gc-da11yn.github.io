@@ -31,11 +31,12 @@ La diffusion en direct par le Conseil du Trésor du Canada du lancement de la pr
 
 Vidéo bilingue, version française : [La première Stratégie sur l'accessibilité de la fonction publique du Canada](https://www.youtube.com/watch?v=acWNxPWQnrE)
 
-![](RackMultipart20230907-1-i6sme8_html_d90410e30a4d4fb7.png)
+<p><img src="{{ rootPath }}img/fr/langue-du-contenu-audio-video-fr.jpg" class="img-responsive" alt="Capture d'écran de la vidéo avec transcription et sous-titres."></p>
+
 
 Vidéo bilingue, version anglaise : [Canada's First Public Service Accessibility Strategy](https://www.youtube.com/watch?v=zhrz1NIZkjc&list=PLSUro1UBralqyMDgYaLlF7q3gMGEvEyte&index=2)
 
-![](RackMultipart20230907-1-i6sme8_html_8615dc19e863edb.png)
+<p><img src="{{ rootPath }}img/fr/langue-du-contenu-audio-video-en.jpg" class="img-responsive" alt="Capture d'écran de la vidéo comprenant la transcription, les sous-titres et le contenu traduit."></p>
 
 #### Mauvais exemple
 
