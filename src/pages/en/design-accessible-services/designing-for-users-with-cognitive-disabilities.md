@@ -11,7 +11,8 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - [Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/Cognitive-en_2023.pdf)
 
 <div class="row">
-</div> class="col-md-6">
+</div>
+<div class="col-md-6">
 
 ## Do:
 
@@ -23,7 +24,8 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - Use multi-modal materials like audio and video
 
 </div>
-</div> class="col-md-6">
+</div>
+<div class="col-md-6">
 
 ## Don't:
 

@@ -11,7 +11,8 @@ Printable posters(<abbr title="Portable Document Format">PDF</abbr> format):
 - [Designing for users on the autistic spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/AutismSpect-en_2023.pdf)
 
 <div class="row">
-</div> class="col-md-6">
+</div>
+<div class="col-md-6">
 
 ## Do:
 
@@ -22,7 +23,8 @@ Printable posters(<abbr title="Portable Document Format">PDF</abbr> format):
 - Build simple and consistent layouts
 
 </div>
-</div> class="col-md-6">
+</div>
+<div class="col-md-6">
 
 ## Don't:
 
