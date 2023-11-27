@@ -11,7 +11,6 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - [Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/LowVision-en_2023.pdf)
 
 <div class="row">
-</div>
 <div class="col-md-6">
 
 ## Do:
@@ -22,7 +21,6 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - Follow a linear, logical layout
 - Put buttons and notifications in context
 
-</div>
 </div>
 <div class="col-md-6">
 

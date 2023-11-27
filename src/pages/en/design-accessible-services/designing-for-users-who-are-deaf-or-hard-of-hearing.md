@@ -11,7 +11,6 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - [Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/Hearing-en_2023.pdf)
 
 <div class="row">
-</div>
 <div class="col-md-6">
 
 ## Do:
@@ -22,7 +21,6 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - Break up content with sub-headings, images and videos
 - Let users ask for their preferred communication support when booking appointments
 
-</div>
 </div>
 <div class="col-md-6">
 

@@ -22,7 +22,6 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - Write descriptive links and headings
 
 </div>
-
 <div class="col-md-6">
 
 ## Don't:
