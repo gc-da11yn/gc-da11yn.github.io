@@ -110,7 +110,7 @@ Ajoutez d’autres informations pertinentes sur le composant D.
 
 ## Caractéristiques d’accessibilité de Visio
 
-Microsoft a récemment publié un guide sur <a href="https://support.office.com/en-us/article/make-your-visio-diagram-accessible-e2c847a9-f010-4fef-af65-16e252829d44" hreflang="en">Rendre les diagrammes Visio accessibles<small> (en anglais seulement)</small></a>[ (en anglais seulement)]().
+Microsoft a récemment publié un guide sur <a href="https://support.office.com/en-us/article/make-your-visio-diagram-accessible-e2c847a9-f010-4fef-af65-16e252829d44" hreflang="en">Rendre les diagrammes Visio accessibles<small> (en anglais seulement)</small></a>.
 
 Il est important de comprendre <a href="https://support.office.com/en-us/article/use-a-screen-reader-to-read-visio-diagrams-45ff89fc-fcd8-4c99-bc21-70eb9af29a61" hreflang="en">la façon dont un utilisateur de lecteur d’écran lit un diagramme Visio<small> (en anglais seulement)</small></a>
 
