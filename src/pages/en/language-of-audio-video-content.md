@@ -30,11 +30,11 @@ A good example of an accessible video, from the ESDC, Treasury Board of Canada�
 
 Bilingual video, French version: [La première Stratégie sur l’accessibilité de la fonction publique du Canada](https://www.youtube.com/watch?v=acWNxPWQnrE)
 
-![Screenshot of video including transcript and captions.](Aspose.Words.c6fca278-ddce-45d6-9fb3-5674c44807ef.001.png)
+<p><img src="{{ rootPath }}img/en/language-of-audio-video-content-en.jpg" class="img-responsive" alt="Screenshot of video including transcript and captions."></p>
 
 Bilingual video, English version: [Canada’s First Public Service Accessibility Strategy](https://www.youtube.com/watch?v=zhrz1NIZkjc&list=PLSUro1UBralqyMDgYaLlF7q3gMGEvEyte&index=2)
 
-![Screenshot of video including transcript, captions and translated content.](Aspose.Words.c6fca278-ddce-45d6-9fb3-5674c44807ef.002.png)
+<p><img src="{{ rootPath }}img/en/language-of-audio-video-content-fr.jpg" class="img-responsive" alt="Screenshot of video including transcript, captions and translated content."></p>
 
 ### Bad example
 

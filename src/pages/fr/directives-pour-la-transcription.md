@@ -52,7 +52,7 @@ Pour le texte qui est montré dans la vidéo, il doit être inclus dans la trans
 
 Utiliser des titres pour rendre la transcription plus claire et plus facile à utiliser. Si l’on crée une transcription dans un document Word, il faut veiller à ce que les en-têtes soient logiques. La personne qui code les en-têtes appliquera les bons en-têtes en fonction de la mise en page du document et de la structure de la page Web.
 
-![Capture d'écran du panneau Styles dans Word avec les rubriques 2, 3, 4, 5 et 6 en surbrillance.]({{ rootPath }}img/en/transcript-guidelines-1.png)
+![Capture d'écran du panneau Styles dans Word avec les rubriques 2, 3, 4, 5 et 6 en surbrillance.]({{ rootPath }}img/fr/transcript-guidelines-1.jpg)
 
 ## Liens
 
