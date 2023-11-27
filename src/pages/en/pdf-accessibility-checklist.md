@@ -27,7 +27,7 @@ We established a list of tools and resources to help developers verify their doc
 - [Foxit PDF Editor Instructional Tutorials](https://www.foxitsoftware.com/support/tutorial/?from=foxit%20phantompdf_business&utm_source=client-app)
 - [Foxit: Use Action Wizard to automatically make PDFs 508 compliant](https://www.foxitsoftware.com/blog/use-action-wizard-to-automatically-make-pdfs-508-compliant/)
 - [WebAIM: Foxit and PDF Accessibility](https://webaim.org/techniques/foxit/)
-- [Do's and Dont's for Accessible Designs]({{ rootPath }}en/dos-and-donts-for-developing-online-courses)
+- [Do's and Dont's for Accessible Designs]({{ rootPath }}en/do-s-and-don-ts-for-developing-online-courses)
 
 ## PDF Accessibility Checklist Instructions
 
