@@ -11,10 +11,15 @@
 	<title>{% if locale != "fr" %}In development - {% else %}En cours de développement - {% endif %}{{ title | striptags(true) | escape | nl2br }} - {{ metaTitle }}</title>
 	<meta content="width=device-width,initial-scale=1" name="viewport">
 	<meta name="description" content="{{ description | striptags(true) | escape | nl2br }}">
+
+	{% if settings.env == "dev" %}
 	<meta name="robots" content="noindex, nofollow">
+	{% endif %}
+
 	{% if toggle %}
 	<link rel="alternate" hreflang="{{ otherLang }}" href="{{ rootPath }}{{ otherLang }}/{{ toggle }}/index.html" />
 	{% endif %}
+
 	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
 	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
