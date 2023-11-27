@@ -284,8 +284,8 @@ Voici quelques produits couramment utilisés&nbsp;:
 Voici des liens à des tutoriels&nbsp;:
 
 * [Tutoriel Medialexie](http://medialexie.ca/logiciels-medialexie/)
-* [Tutoriel Word Q Pro (en anglais)](https://www.quillsoft.ca/tutorials-wordq)
-* [Tutoriel Kurzweil 3000 (en anglais)](https://www.kurzweiledu.com/products/product-guides.html)
+* <a href="https://www.quillsoft.ca/tutorials-wordq" hreflang="en">Tutoriel Word Q Pro<small> (en anglais seulement)</small></a>
+* <a href="https://www.kurzweiledu.com/products/product-guides.html" hreflang="en">Tutoriel Kurzweil 3000<small> (en anglais seulement)</small></a>
 
 ### Pour la communication&nbsp;:
 

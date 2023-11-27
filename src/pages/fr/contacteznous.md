@@ -17,5 +17,5 @@ Vous pouvez nous contacter via notre adresse courriel :
 
 Cependant, si vous êtes plus à l'aise sur le plan technique et que vous préférez communiquer via GitHub, n'hésitez pas à le faire :
 
-- [Problèmes (Issues)(en anglais seulement)](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/)
-- [Discussions (en anglais seulement)](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions)
+- <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/" hreflang="en">Problèmes (Issues)<small> (en anglais seulement)</small></a>
+- <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions" hreflang="en">Discussions<small> (en anglais seulement)</small></a>

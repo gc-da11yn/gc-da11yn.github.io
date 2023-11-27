@@ -26,11 +26,11 @@ Il est important que les sous-titres codés soient :
 - Équivalents et égaux en contenu à celui de l’audio, y compris l’identification du locuteur et les effets sonores;
 - Accessibles et facilement disponibles pour ceux qui en ont besoin ou qui les veulent.
 
-[Captioning Key:](http://www.captioningkey.org/)[ Guidelines and Preferred Techniques](http://www.captioningkey.org/) (en anglais)
+<a href="http://www.captioningkey.org/" hreflang="en" lang="en">Captioning Key: Guidelines and Preferred Techniques<small> <span lang="fr">(en anglais seulement)</span></small></a>
 
-[Best Practices in Online Captioning](http://joeclark.org/access/captioning/bpoc/) (en anglais)
+<a href="" hreflang="en" lang="en">Best Practices in Online Captioning<small> <span lang="fr">(en anglais seulement)</span></small></a>
 
-[Captions/Subtitles | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/media/av/captions/) (en anglais)
+<a href="" hreflang="en" lang="en">Captions/Subtitles | Web Accessibility Initiative (WAI) | W3C<small> <span lang="fr">(en anglais seulement)</span></small></a>
 
 ## Sous-titres codés et sous-titres
 

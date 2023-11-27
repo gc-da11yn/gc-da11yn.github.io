@@ -11,10 +11,10 @@ tags:
 
 Collaborer à la création d’une structure et d’une plateforme pour centraliser l’information du gouvernement du Canada (<abbr>GC</abbr>) sur l’accessibilité.
 
-Le <a href="/en/about/workinggroups/awg/" hreflang="en">Groupe de travail sur l’accès (<abbr>GTA</abbr>) (en anglais seulement)</a> aimerait permettre la centralisation interministérielle et le partage de l’information sur l’accessibilité produite par les ministères du GC dans un dépôt central et un espace de partage.
+Le Groupe de travail sur l’accès (<abbr>GTA</abbr>) aimerait permettre la centralisation interministérielle et le partage de l’information sur l’accessibilité produite par les ministères du GC dans un dépôt central et un espace de partage.
 
 - [Groupe de travail sur la Boîte à outils sur l’accessibilité numérique (<abbr>DAT</abbr>) - Mandat](/fr/mandats/)
-- <a href="https://github.com/gc-da11yn/gc-da11yn.github.io" hreflang="en">Boîte à Outils de l'Accessibilité numérique - Dépôt Github (en anglais seulement)</a>
+- <a href="https://github.com/gc-da11yn/gc-da11yn.github.io" hreflang="en">Boîte à Outils de l'Accessibilité numérique - Dépôt Github <small>(en anglais seulement)</small></a>
 
 ## Partage
 
@@ -39,7 +39,7 @@ La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) :
 
 ### Rôles et responsabilités
 
-Les rôles clés seront définis sur la base du projet <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping" hreflang="en">Correspondance des rôles et responsabilités en matière d'accessibilité (en anglais seulement)</a> du <span lang="en">World Wide Web Consortium (<abbr>W3C</abbr>)</span>.
+Les rôles clés seront définis sur la base du projet <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping" hreflang="en">Correspondance des rôles et responsabilités en matière d'accessibilité <small>(en anglais seulement)</small></a> du <span lang="en">World Wide Web Consortium (<abbr>W3C</abbr>)</span>.
 
 ### Mandat et autorité de décision
 

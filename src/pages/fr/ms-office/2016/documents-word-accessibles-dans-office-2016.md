@@ -209,4 +209,4 @@ Pour ajouter des hyperliens avec un texte pertinent&nbsp;:
 ## Ressources supplémentaires
 
 - [Microsoft : Rendre vos documents Word accessibles aux personnes atteintes de handicaps](https://support.office.com/fr-fr/article/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-de-handicaps-d9bf3683-87ac-47ea-b91a-78dcacb3c66d)
-- [WebAIM : Créer des documents accessibles dans Microsoft Word (en anglais seulement)](https://webaim.org/techniques/word/)
+- <a href="https://webaim.org/techniques/word/" hreflang="en">WebAIM : Créer des documents accessibles dans Microsoft Word<small> (en anglais seulement)</small></a>

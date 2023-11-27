@@ -29,7 +29,7 @@ tags:
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://blog.timroesner.com/accessibility-best-practices" hreflang="en">Solution de gabarits à déploiement centralisé (SGDC) (Disponible en anglais seulement)</a></td>
+<td><a href="https://blog.timroesner.com/accessibility-best-practices" hreflang="en">Solution de gabarits à déploiement centralisé (SGDC)<small> (en anglais seulement)</small></a></td>
 <td>L’accessibilité est une pierre angulaire importante du développement iOS. Elle permet à tous d’utiliser vos applications, peu importe leurs handicaps. Heureusement, UIKit offre plusieurs API, qui permettent aux développeurs d’offrir un soutien aux technologies des systèmes au sein de leurs applications.</td>
 <td>Développement</td>
 </tr>
@@ -54,12 +54,12 @@ tags:
 <td>Développement</td>
 </tr>
 <tr>
-<td><a href="https://a11y-style-guide.com/style-guide/" hreflang="en">Guide de style A11Y (Disponible en anglais seulement)</a></td>
+<td><a href="https://a11y-style-guide.com/style-guide/" hreflang="en">Guide de style A11Y<small> (en anglais seulement)</small></a></td>
 <td>Cette application est un guide de style vivant ou une bibliothèque de modèles, générée à partir de styles documentés KSS… avec une touche d’accessibilité.</td>
 <td>Guide de style</td>
 </tr>
 <tr>
-<td><a href="https://design-system.service.gov.uk/patterns/dates/" hreflang="en">Demander des dates aux utilisateurs (Disponible en anglais seulement)</a></td>
+<td><a href="https://design-system.service.gov.uk/patterns/dates/" hreflang="en">Demander des dates aux utilisateurs<small> (en anglais seulement)</small></a></td>
 <td>Suivez ce modèle chaque fois que vous avez besoin que les utilisateurs fournissent ou sélectionnent une date dans le cadre de votre service.</td>
 <td>Développement</td>
 </tr>
@@ -69,17 +69,17 @@ tags:
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://accessibility.18f.gov/" hreflang="en">18F Accessibility Guide (Disponible en anglais seulement)</a></td>
+<td><a href="https://accessibility.18f.gov/" hreflang="en">18F Accessibility Guide<small> (en anglais seulement)</small></a></td>
 <td>Guide d’accessibilité élaboré par le gouvernement des États-Unis d’Amérique.</td>
 <td>Développement</td>
 </tr>
 <tr>
-<td><a href="https://davatron5000.github.io/a11y-nutrition-cards/" hreflang="en">Fiches nutritionnelles pour les composantes accessibles (Disponible en anglais seulement)</a></td>
+<td><a href="https://davatron5000.github.io/a11y-nutrition-cards/" hreflang="en">Fiches nutritionnelles pour les composantes accessibles<small> (en anglais seulement)</small></a></td>
 <td>Les fiches nutritionnelles A11Y est une tentative de digérer et de simplifier les attentes en matière d’accessibilité lorsqu’il s’agit de la création de composantes.</td>
 <td>Développement</td>
 </tr>
 <tr>
-<td><a href="https://www.a11yproject.com/" hreflang="en">Le projet A11Y (Disponible en anglais seulement)</a></td>
+<td><a href="https://www.a11yproject.com/" hreflang="en">Le projet A11Y<small> (en anglais seulement)</small></a></td>
 <td>Le projet A11Y est un effort communautaire visant à faciliter l’accessibilité numérique.</td>
 <td>Guide de style</td>
 </tr>
@@ -89,7 +89,7 @@ tags:
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://www.accessibilityassociation.org/" hreflang="en">International Association of Accessibility Professionals (Disponible en anglais seulement) </a></td>
+<td><a href="https://www.accessibilityassociation.org/" hreflang="en">International Association of Accessibility Professionals<small> (en anglais seulement)</small> </a></td>
 <td>Les professionnels de l’accessibilité du monde entier se réunissent pour définir, promouvoir et améliorer la profession de l’accessibilité par le biais du réseautage, de l’éducation et de la certification.</td>
 <td>Apprentissage</td>
 </tr>
@@ -104,7 +104,7 @@ tags:
 <td>Politique</td>
 </tr>
 <tr>
-<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" hreflang="en">EU EN 301 549 (Gestion de l’accessibilité dans les marchés publics des TIC) (Disponible en anglais seulement)</a></td>
+<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" hreflang="en">EU EN 301 549 (Gestion de l’accessibilité dans les marchés publics des TIC)<small> (en anglais seulement)</small></a></td>
 <td>Les exigences en matière d’accessibilité qui conviennent à l’approvisionnement, par les organismes publics, de produits et services de technologies de l’information et des communications (TIC) en Europe.</td>
 <td>Politique</td>
 </tr>
@@ -119,42 +119,42 @@ tags:
 <td>Développement</td>
 </tr>
 <tr>
-<td><a href="https://wiki.gccollab.ca/M365/Home/Accessibility" hreflang="en">Accessibilité de M365 (Disponible en anglais seulement)</a></td>
+<td><a href="https://wiki.gccollab.ca/M365/Home/Accessibility" hreflang="en">Accessibilité de M365<small> (en anglais seulement)</small></a></td>
 <td>Liste des ressources et du matériel d’apprentissage sur l’accessibilité de Microsoft 365 (M365).</td>
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://www.a11yportal.com/" hreflang="en">Portail de l’accessibilité (Disponible en anglais seulement)</a></td>
+<td><a href="https://www.a11yportal.com/" hreflang="en">Portail de l’accessibilité<small> (en anglais seulement)</small></a></td>
 <td>Nous pensons que l’égalité numérique est un droit de l’homme pour les sites Web, les applications mobiles et le contenu numérique. Toutefois, cela ne s’arrête pas là. Nous devons faire cela pour la qualité, l’innovation, la conformité, les relations, l’expérience utilisateur et plus encore.</td>
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://www.tpgi.com/short-note-on-aria-label-aria-labelledby-and-aria-describedby/" hreflang="en">Brève remarque sur aria-label, aria-labelledby et aria-describedby (Disponible en anglais seulement)</a></td>
+<td><a href="https://www.tpgi.com/short-note-on-aria-label-aria-labelledby-and-aria-describedby/" hreflang="en">Brève remarque sur aria-label, aria-labelledby et aria-describedby<small> (en anglais seulement)</small></a></td>
 <td>Faites attention lorsque vous utilisez les caractéristiques aria-label, aria-labelledby et aria-describedby, parce qu’ils ne fonctionnent pas de manière cohérente avec tous les éléments HTML.</td>
 <td>Développement</td>
 </tr>
 <tr>
-<td><a href="https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu" hreflang="en">YouTube : Apple : Accessibilité (Disponible en anglais seulement)</a></td>
+<td><a href="https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu" hreflang="en">YouTube : Apple : Accessibilité<small> (en anglais seulement)</small></a></td>
 <td>De l’utilisation de votre iPhone sans voir l’écran, à l’adaptation des gestes à vos besoins physiques, découvrez comment les fonctionnalités d’accessibilité intégrées à vos appareils Apple peuvent vous aider à en faire plus.</td>
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://kb.iu.edu/d/bgdz" hreflang="en">Considérations relatives aux lecteurs d’écran lors du choix entre Google à IU My Drive et Microsoft OneDrive à IU (Disponible en anglais seulement)</a></td>
+<td><a href="https://kb.iu.edu/d/bgdz" hreflang="en">Considérations relatives aux lecteurs d’écran lors du choix entre Google à IU My Drive et Microsoft OneDrive à IU<small> (en anglais seulement)</small></a></td>
 <td>Le choix entre Google à IU My Drive et Microsoft OneDrive à IU n’est pas simple lorsqu’on considère l’accessibilité relative aux lecteurs d’écran. Les deux présentent des avantages et des inconvénients, qui peuvent varier en fonction de la combinaison du lecteur d’écran et du navigateur utilisé.</td>
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://www.tempertemper.net/" hreflang="en">Le Web, la conception et l’accessibilité (Disponible en anglais seulement)</a></td>
+<td><a href="https://www.tempertemper.net/" hreflang="en">Le Web, la conception et l’accessibilité<small> (en anglais seulement)</small></a></td>
 <td>Je suis Martin, un concepteur d’interface utilisateur et d’interaction, amateur de HTML et de CSS, et cofondateur de Frontend NE. Voici un peu plus d’informations à mon sujet et sur ce que je fais.</td>
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://guia-wcag.com/en/" hreflang="en">Guide d'accessibilité du contenu Web (Disponible en anglais seulement)</a></td>
+<td><a href="https://guia-wcag.com/en/" hreflang="en">Guide d'accessibilité du contenu Web<small> (en anglais seulement)</small></a></td>
 <td>La base fondamentale qui vous permettra de disposer de produits numériques réellement inclusifs et accessibles.</td>
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://de.ryerson.ca/wa/maze.html" hreflang="en">Accessibility Maze : un jeu amusant pour en savoir plus sur l'accessibilité Web (Disponible en anglais seulement)</a></td>
+<td><a href="https://de.ryerson.ca/wa/maze.html" hreflang="en">Accessibility Maze : un jeu amusant pour en savoir plus sur l'accessibilité Web<small> (en anglais seulement)</small></a></td>
 <td>L'Université Ryerson a créé Accessibility Maze, un jeu amusant, pour aider les personnes débutantes en accessibilité Web à s’exercer et apprendre davantage sur les obstacles et les défis auxquels les personnes ayant un handicap sont généralement confrontées lorsqu'elles naviguent dans Internet. Le jeu fournit des leçons rapides sur la façon d'éviter ces obstacles ou de les corriger. </td>
 <td>Apprentissage</td>
 </tr>
@@ -174,7 +174,7 @@ tags:
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://a11ysupport.io/" hreflang="en">Soutien d'accessibilité (Disponible en anglais seulement)</a></td>
+<td><a href="https://a11ysupport.io/" hreflang="en">Soutien d'accessibilité<small> (en anglais seulement)</small></a></td>
 <td>Vérifier si votre code fonctionnera avec les technologies d'assistance.</td>
 <td>Développement</td>
 </tr>

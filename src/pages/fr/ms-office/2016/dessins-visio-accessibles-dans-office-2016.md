@@ -18,7 +18,7 @@ Bon nombre des directives générales relatives à l’accessibilité des docume
 
 Le contraste du texte doit être d’au moins 4,5:1 par rapport à l’arrière-plan. Comme les diagrammes sont souvent visualisés avec un zoom très faible, nous vous recommandons de maintenir, au minimum, ce niveau de contraste pour tous les textes, quelle qu’en soit la taille.
 
-- Pour vérifier le contraste des couleurs, utilisez un outil comme l’[Analyseur de contraste des couleurs (en anglais seulement)](https://developer.paciellogroup.com/resources/contrastanalyser/) ou le [vérificateur de contraste de WebAIM (en anglais seulement)](https://webaim.org/resources/contrastchecker/).
+- Pour vérifier le contraste des couleurs, utilisez un outil comme l’<a href="https://developer.paciellogroup.com/resources/contrastanalyser/" hreflang="en">Analyseur de contraste des couleurs<small> (en anglais seulement)</small></a> ou le <a href="https://webaim.org/resources/contrastchecker/" hreflang="en">vérificateur de contraste de WebAIM<small> (en anglais seulement)</small></a>.
 - Évitez de placer des images d’arrière-plan complexes derrière le texte.
 - Lorsqu’il est nécessaire d’utiliser des images d’arrière-plan complexes ou des fonds à faible contraste, définissez un contour autour du texte offrant un contraste suffisant par rapport à la couleur du texte en premier plan.
 
@@ -30,19 +30,19 @@ Veillez à ce que la couleur ne soit pas le seul moyen utilisé pour transmettre
 
 Selon WCAG&nbsp;2.1, tous les éléments graphiques importants doivent avoir un rapport de contraste de 3:1 par rapport à l’arrière-plan. Lorsque la couleur ou l’ombrage est utilisé pour identifier des zones du graphique, par exemple pour délimiter une boîte intérieure d’une boîte extérieure, les deux couleurs doivent avoir un rapport de contraste de 3:1 (car l’une d’entre elles constitue désormais «&#8201;l’arrière-plan&#8201;»).
 
-Consultez la page [Comprendre le contraste sans texte (en anglais seulement)](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#graphical-objects) pour des exemples d’objets graphiques (icônes), de graphiques et d’infographies, et comment ils réussissent, échouent ou peuvent satisfaire à ce critère.
+Consultez la page <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#graphical-objects" hreflang="en">Comprendre le contraste sans texte<small> (en anglais seulement)</small></a> pour des exemples d’objets graphiques (icônes), de graphiques et d’infographies, et comment ils réussissent, échouent ou peuvent satisfaire à ce critère.
 
 ### Abréviations
 
-Comme les diagrammes sont souvent remplis d’abréviations, la définition de ces abréviations favorise la compréhension de tous les utilisateurs. Consultez les directives sur les [abréviations (en anglais seulement)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html) de WCAG.
+Comme les diagrammes sont souvent remplis d’abréviations, la définition de ces abréviations favorise la compréhension de tous les utilisateurs. Consultez les directives sur les <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html" hreflang="en">abréviations<small> (en anglais seulement)</small></a> de WCAG.
 
 Si possible, selon la disposition, insérez les abréviations la première fois qu’elles apparaissent. - P. ex. Programme d’accessibilité, d’adaptation et de technologie informatique adaptée (AATIA)
 
-Étant donné que les diagrammes sont souvent visualisés dans un ordre non linéaire, il est généralement préférable de [fournir un glossaire (en anglais seulement)](https://www.w3.org/TR/WCAG20-TECHS/G62.html). Le glossaire doit faire partie du texte du document, sous un en-tête comme «&#8201;Glossaire des abréviations&#8201;», de manière à pouvoir le retrouver facilement.
+Étant donné que les diagrammes sont souvent visualisés dans un ordre non linéaire, il est généralement préférable de <a href="https://www.w3.org/TR/WCAG20-TECHS/G62.html" hreflang="en">fournir un glossaire<small> (en anglais seulement)</small></a>. Le glossaire doit faire partie du texte du document, sous un en-tête comme «&#8201;Glossaire des abréviations&#8201;», de manière à pouvoir le retrouver facilement.
 
 ### Texte intégré à des images
 
-À moins que ce ne soit essentiel, [n’intégrez pas de texte à des images (en anglais seulement)](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html).
+À moins que ce ne soit essentiel, <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html" hreflang="en">n’intégrez pas de texte à des images<small> (en anglais seulement)</small></a>.
 
 ## Solutions de remplacement en format texte
 
@@ -56,7 +56,7 @@ Un court texte (65 caractères ou moins) doit répondre à la question «&#8201;
 
 Selon le diagramme, il peut être difficile de fournir une description linéaire textuelle et complète. Imaginez que vous décriviez le diagramme à une personne par téléphone.
 
-La description textuelle longue est utile pour tous les utilisateurs. Rendez-la visible sur la page Web ou le document PDF pour que tout le monde puisse la lire. Consultez la section [Images complexes (en anglais seulement)](https://www.w3.org/WAI/tutorials/images/complex/) pour des recommandations.
+La description textuelle longue est utile pour tous les utilisateurs. Rendez-la visible sur la page Web ou le document PDF pour que tout le monde puisse la lire. Consultez la section <a href="https://www.w3.org/WAI/tutorials/images/complex/" hreflang="en">Images complexes<small> (en anglais seulement)</small></a> pour des recommandations.
 
 #### Exemples
 
@@ -110,9 +110,9 @@ Ajoutez d’autres informations pertinentes sur le composant D.
 
 ## Caractéristiques d’accessibilité de Visio
 
-Microsoft a récemment publié un guide sur [Rendre les diagrammes Visio accessibles (en anglais seulement)](https://support.office.com/en-us/article/make-your-visio-diagram-accessible-e2c847a9-f010-4fef-af65-16e252829d44).
+Microsoft a récemment publié un guide sur <a href="https://support.office.com/en-us/article/make-your-visio-diagram-accessible-e2c847a9-f010-4fef-af65-16e252829d44" hreflang="en">Rendre les diagrammes Visio accessibles<small> (en anglais seulement)</small></a>[ (en anglais seulement)]().
 
-Il est important de comprendre [la façon dont un utilisateur de lecteur d’écran lit un diagramme Visio (en anglais seulement)](https://support.office.com/en-us/article/use-a-screen-reader-to-read-visio-diagrams-45ff89fc-fcd8-4c99-bc21-70eb9af29a61)
+Il est important de comprendre <a href="https://support.office.com/en-us/article/use-a-screen-reader-to-read-visio-diagrams-45ff89fc-fcd8-4c99-bc21-70eb9af29a61" hreflang="en">la façon dont un utilisateur de lecteur d’écran lit un diagramme Visio<small> (en anglais seulement)</small></a>
 
 - Ils utilisent la touche de tabulation pour passer d’une forme à l’autre dans un ordre prédéfini.
 - Les formes sont décrites selon leur texte de remplacement (« alt text »), leur position et leur mise en forme.
@@ -148,5 +148,5 @@ Comme la plupart des produits Office, Visio dispose désormais d’un vérificat
 
 ## Ressources supplémentaires
 
-- [NVDA : Un lecteur d’écran gratuit (pratique pour la mise à l’essai) (en anglais seulement)](https://www.nvaccess.org/about-nvda/)
-- [Règles pour l’accessibilité des contenus Web 2.1 (en anglais seulement)](https://www.w3.org/TR/WCAG21/)
+- <a href="https://www.nvaccess.org/about-nvda/" hreflang="en">NVDA : Un lecteur d’écran gratuit (pratique pour la mise à l’essai)<small> (en anglais seulement)</small></a>
+- [Règles pour l’accessibilité des contenus Web 2.1](https://www.w3.org/Translations/WCAG21-fr/)
