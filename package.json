@@ -59,6 +59,7 @@
   "dependencies": {
     "clean-html": "^2.0.1",
     "esm": "^3.2.25",
+    "html-validate": "^8.7.3",
     "markdown-it-replace-link": "^1.2.0",
     "prompt-sync": "^4.2.0",
     "remark": "^15.0.1",
