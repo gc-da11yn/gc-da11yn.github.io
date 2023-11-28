@@ -6,6 +6,7 @@
   "scripts": {
     "newFolder": "node scripts/create-new-folder.js",
     "cleanHTML": "node scripts/clean-html.js",
+    "html-validate": "node scripts/html-validator.js",
     "htmlValidator": "node scripts/html-validator.js",
     "replaceLink": "node scripts/replace-links.js",
     "markdown-to-html": "node scripts/markdown-to-html.js",

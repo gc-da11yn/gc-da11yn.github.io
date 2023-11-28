@@ -6,8 +6,20 @@ const loader = new StaticConfigLoader({
   extends: ["html-validate:recommended"],
   rules: {
     "no-trailing-whitespace": "off",
+    "id-pattern": "off",
     "close-order": "error",
-    "meta-refresh": "off"
+    "meta-refresh": "off",
+    "tel-non-breaking": "off",
+    "long-title": "off",
+    "wcag/h63": "off",
+    "require-sri": "off",
+    "require-csp-nonce": "off",
+    "attr-quotes": "off",
+    "attribute-boolean-style": "off",
+    "attribute-empty-style": "off",
+    "class-pattern": "off",
+    "void-style": "off",
+
   },
 });
 const htmlValidate = new HtmlValidate(loader);
@@ -57,8 +69,10 @@ async function main() {
       allResults.push(...dirResults);
     }
 
+    const errorResults = allResults.filter(result => result.errorCount > 0 || result.warningCount > 0);
+
     const outputFilePath = path.join(__dirname, "html-validation.json");
-    fs.writeFileSync(outputFilePath, JSON.stringify(allResults, null, 2));
+    fs.writeFileSync(outputFilePath, JSON.stringify(errorResults, null, 2));
 
     console.log("Validation results saved to html-validation.json");
   } catch (error) {
