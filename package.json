@@ -16,9 +16,11 @@
     "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
     "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
     "watch:sass": "npm run sass-start -- --watch",
-    "start": "cross-env ELEVENTY_ENV=dev npm-run-all sass-start --parallel watch:*",
+    "start": "cross-env ELEVENTY_ENV=local npm-run-all sass-start --parallel watch:*",
+    "start-dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-start --parallel watch:*",
+    "start-prod": "cross-env ELEVENTY_ENV=prod npm-run-all sass-start --parallel watch:*",
     "dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
-    "build": "npm-run-all sass-build eleventy && npm run cleanHTML markdown-to-html && npm run replaceLink" 
+    "build": "npm-run-all sass-build eleventy && npm run cleanHTML markdown-to-html && npm run replaceLink"
   },
   "repository": {
     "type": "git",

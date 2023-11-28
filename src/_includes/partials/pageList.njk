@@ -1,5 +1,8 @@
 {% set branch = "new-site-structure" %}
+
+{% if settings.env == "local" %}
 <p><a href="#full-screen" aria-controls="full-screen" class="overlay-lnk btn btn-primary btn-block" role="button">{{ pageList[locale].definitionButtonText }}</a></p>
+
 <section id="full-screen" class="wb-overlay modal-content overlay-def wb-popup-full">
 	<header class="modal-header">
 		<h2>{{ pageList[locale].definitionButtonText }}</h2>
@@ -25,8 +28,25 @@
 		</section>
 	</div>
 </section>
+{% endif %}
 
-<div id="filteredAppsList" class="wb-tagfilter provisional">
+<div id="filteredAppsList" class="wb-tagfilter provisional wb-filter"  data-wb-filter='{
+		"selector": "section",
+		"section": ".wb-tagfilter-items",
+		"uiTemplate": "#searchFilter"
+	}'>
+
+	<div id="searchFilter" class="row mrgn-tp-lg">
+		<div class="col-sm-4 col-md-5 col-lg-4">
+			<div class="form-group">
+				<label for="customSearchUI">{{ pageList[locale].searchText }}</label>
+				<input type="search" class="form-control full-width" id="customSearchUI">
+			</div>
+		</div>
+		<div class="col-sm-12">
+			<p class="h3 wb-fltr-info mrgn-tp-0"><span data-nbitem></span> {{ pageList[locale].resultsText }} <span data-total></span></p>
+		</div>
+	</div>
 
 	<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">{{ pageList[locale].filterButtonText }}</a></p>
 
@@ -36,24 +56,24 @@
 		</header>
 		<div class="modal-body">
 			<fieldset class="brdr-0">
-				<legend><span class="field-name">{{ pageList[locale].subjectsText }}</span></legend>
+				<legend><span class="field-name">{% if settings.env == "local" %}subjet{% else %}{{ pageList[locale].subjectsText }}{% endif %}</span></legend>
 				<ul>
 					{% for item, tag in tagList.subjects[locale] %}
 					<li class="checkbox">
 						<label>
-							<input type="checkbox" name="platform" class="wb-tagfilter-ctrl" value="{{ item }}"> {{ item }}
+							<input type="checkbox" name="platform" class="wb-tagfilter-ctrl" value="{{ item }}"> {{ tag }}
 						</label>
 					</li>
 					{% endfor %}
 				</ul>
 			</fieldset>
 			<fieldset class="brdr-0">
-				<legend><span class="field-name">{{ pageList[locale].tagsText }}</span></legend>
+				<legend><span class="field-name">{% if settings.env == "local" %}tags{% else %}{{ pageList[locale].tagsText }}{% endif %}</span></legend>
 				<ul class="">
 					{% for item, tag in tagList.tags[locale] %}
 					<li class="checkbox">
 						<label>
-							<input type="checkbox" name="platform" class="wb-tagfilter-ctrl" value="{{ item }}"> {{ item }}
+							<input type="checkbox" name="platform" class="wb-tagfilter-ctrl" value="{{ item }}"> {{ tag }}
 						</label>
 					</li>
 					{% endfor %}
@@ -63,26 +83,30 @@
 	</section>
 
 	<div class="wb-eqht-grd row wb-tagfilter-items">
-		{% for entry in entries | sort(false, false, 'data.title') %}
+		{% for entry in entries | sort(false, false, 'page.url') %}
 		{% set newPath = entry.inputPath | replace("\./", "/") %}
+		{% set otherLang = "fr" if locale == "en" else "en" %}
 		{% if entry.data.locale == locale %}
 		{% if entry.data.redirect %}
 		{% else %}
-		<section class="col-md-4" data-wb-tags="{{ entry.data.subject }} {{ entry.data.tags }}">
+		<section class="col-md-6" data-wb-tags="{{ entry.data.subject }} {{ entry.data.tags }}">
 			<h2 class="h4"><a href="{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></h2>
-			{% if entry.data.subject %}
-			<p><strong>{{ pageList[locale].subjectsText | lower }}{% if locale === "fr" %} {% endif %}:</strong> <span class="label label-success">{{ entry.data.subject }}</span></p>
+			{% if settings.env == "local" %}
+				{% if entry.data.subject %}
+					<p><strong>subject{% if locale === "fr" %} {% endif %}:</strong> <span class="label label-success">{{ entry.data.subject }}</span></p>
+				{% endif %}
+				{% if entry.data.tags %}
+				<p><strong>tags{% if locale === "fr" %} {% endif %}:</strong>
+					{% for item in entry.data.tags %}
+					<span class="label label-info">{{ item }}</span>
+					{% endfor %}
+				</p>
+				{% endif %}
 			{% endif %}
-			{% if entry.data.tags %}
-			<p><strong>{{ pageList[locale].tagsText | lower }}{% if locale === "fr" %} {% endif %}:</strong>
-				{% for item in entry.data.tags %}
-				<span class="label label-info">{{ item }}</span>
-				{% endfor %}
-			</p>
-			{% endif %}
-			<p><strong>{{ pageList[locale].descriptionText }}{% if locale === "fr" %} {% endif %}: </strong>{% if entry.data.description %}{{ entry.data.description | striptags(true) | escape | nl2br }}{% else %} <span class="label label-danger">{{ landingPage[locale].descriptionNoneText }}</span>{% endif %}</p>
-			<p><strong>{{ pageList[locale].pathText }}{% if locale === "fr" %} {% endif %}:</strong> <code>{{ entry.url }}</code></p>
-			<p><strong>{{ pageList[locale].filePathText }}{% if locale === "fr" %} {% endif %}:</strong> <code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></p>
+			<p>{% if settings.env == "local" %}<strong>{{ pageList[locale].descriptionText }}{% if locale === "fr" %} {% endif %}: </strong>{% endif %}{% if entry.data.description %}{{ entry.data.description | striptags(true) | escape | nl2br }}{% else %} <span class="label label-danger">{{ landingPage[locale].descriptionNoneText }}</span>{% endif %}</p>
+			{% if settings.env == "local" %}<p><strong>{{ pageList[locale].pathText }}{% if locale === "fr" %} {% endif %}:</strong> <code>{{ entry.url }}</code></p>{% endif %}
+			{% if settings.env == "local" %}<p><strong>{{ pageList[locale].filePathText }}{% if locale === "fr" %} {% endif %}:</strong> <code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></p>{% endif %}
+			{% if settings.env == "local" %}<p><strong>toggle{% if locale === "fr" %} {% endif %}:</strong> <code><a href="{{ rootPath }}{{ otherLang }}/{{ entry.data.toggle }}">{{ entry.data.toggle }}</a></code></p>{% endif %}
 		</section>
 		{% endif %}
 		{% endif %}
