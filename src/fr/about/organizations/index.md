@@ -1,4 +1,4 @@
 ---
-redirect: /fr/les-ministeres-travaillant-dans-le-domaine-de-laccessibilite/
+redirect: /fr/page-deplacee-ou-supprimee/index.html
 layout: layouts/base.njk
 ---

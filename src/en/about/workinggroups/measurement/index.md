@@ -1,4 +1,4 @@
 ---
-redirect: /en/measurement-of-accessible-information-and-communications-technology-ict/
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---

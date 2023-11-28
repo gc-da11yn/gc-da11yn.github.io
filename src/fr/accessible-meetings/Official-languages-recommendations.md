@@ -1,4 +1,4 @@
 ---
-redirect: /fr/recommandations-en-matiere-de-langues-officielles-lo/
+redirect: /fr/page-deplacee-ou-supprimee/index.html
 layout: layouts/base.njk
 ---

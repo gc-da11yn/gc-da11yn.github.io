@@ -1,4 +1,4 @@
 ---
-redirect: /en/government-departments-working-in-accessibility/
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---

@@ -1,4 +1,4 @@
 ---
-redirect: /fr/liste-de-verification-de-laccessibilite-des-documents-pdf/
+redirect: /fr/liste-de-verification-de-l-accessibilite-des-documents-pdf/
 layout: layouts/base.njk
 ---

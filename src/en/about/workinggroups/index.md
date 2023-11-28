@@ -1,4 +1,4 @@
 ---
-redirect: /en/working-groups-on-accessibility-within-the-government-of-canada/
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---

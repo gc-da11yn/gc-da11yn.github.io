@@ -1,4 +1,4 @@
 ---
-redirect: /fr/types-de-reunion-proposes-avec-fonctionnalites-daccessibilite/
+redirect: /fr/page-deplacee-ou-supprimee/index.html
 layout: layouts/base.njk
 ---

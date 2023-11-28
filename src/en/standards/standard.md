@@ -1,4 +1,4 @@
 ---
-redirect: /en/standard-on-information-and-communication-technology-accessibility-ict-accessibility-phase-one
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---

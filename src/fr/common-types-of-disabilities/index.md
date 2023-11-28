@@ -1,4 +1,4 @@
 ---
 layout: layouts/base.njk
-redirect: /fr/types-d-invalidite-les-plus-courants/
+redirect: /fr/types-de-handicap-les-plus-courants/
 ---
