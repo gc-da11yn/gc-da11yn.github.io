@@ -1,4 +1,4 @@
 ---
-redirect: /en/low-vision/
+redirect: /en/visual-impairments/#low-vision
 layout: layouts/base.njk
 ---

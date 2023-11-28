@@ -1,4 +1,4 @@
 ---
-redirect: /fr/groupes-de-travail-sur-laccessibilite-au-sein-du-gouvernement-du-canada/
+redirect: /fr/page-deplacee-ou-supprimee/index.html
 layout: layouts/base.njk
 ---

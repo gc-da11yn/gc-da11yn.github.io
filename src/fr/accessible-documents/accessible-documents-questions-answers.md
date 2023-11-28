@@ -1,4 +1,4 @@
 ---
-redirect: /fr/questions-et-reponses-sur-les-documents-accessibles/
+redirect: /fr/page-deplacee-ou-supprimee/index.html
 layout: layouts/base.njk
 ---

@@ -1,4 +1,4 @@
 ---
-redirect: /fr/logiciel-accessible-pour-ordinateur-de-bureau/
+redirect: /fr/page-deplacee-ou-supprimee/index.html
 layout: layouts/base.njk
 ---

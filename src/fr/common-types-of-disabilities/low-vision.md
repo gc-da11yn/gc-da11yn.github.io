@@ -1,4 +1,4 @@
 ---
-redirect: /fr/basse-vision/
+redirect: /fr/deficiences-visuelles/#basse-vision
 layout: layouts/base.njk
 ---

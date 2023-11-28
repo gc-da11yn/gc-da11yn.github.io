@@ -1,4 +1,4 @@
 ---
-redirect: /en/accessibility-best-practices-for-word-documents/
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---

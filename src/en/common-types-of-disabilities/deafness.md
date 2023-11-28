@@ -1,4 +1,4 @@
 ---
-redirect: /en/hearing-impairment/
+redirect: /en/auditory-disabilities/
 layout: layouts/base.njk
 ---

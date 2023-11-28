@@ -1,4 +1,4 @@
 ---
-redirect: /en/accessible-virtual-meetings-events/
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---
