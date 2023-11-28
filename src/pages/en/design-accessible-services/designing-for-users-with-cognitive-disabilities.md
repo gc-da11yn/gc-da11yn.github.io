@@ -24,7 +24,7 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 </div>
 <div class="col-md-6">
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Don't
+## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don't
 
 - Overload the user with too much info at once
 - Write large walls of complex text
