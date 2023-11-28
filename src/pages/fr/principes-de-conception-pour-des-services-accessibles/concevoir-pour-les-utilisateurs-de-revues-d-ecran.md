@@ -12,7 +12,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 <div class="row">
 <div class="col-md-6">
 
-## À faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
 
 - Décrire les images et fournir des transcriptions pour les vidéos
 - Établir une mise en page linéaire et logique
@@ -23,7 +23,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 </div>
 <div class="col-md-6">
 
-## Chose à ne pas faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
 
 - Afficher l’information que dans une image ou une vidéo
 - Répartir le contenu sur toute la page

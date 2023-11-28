@@ -12,7 +12,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 <div class="row">
 <div class="col-md-6">
 
-## À faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
 
 - Utiliser des couleurs simples
 - Écrire dans un langage clair
@@ -23,7 +23,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 </div>
 <div class="col-md-6">
 
-## Chose à ne pas faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
 
 - Utiliser des couleurs vives et contrastées
 - Utiliser des figures de style et des expressions imagées

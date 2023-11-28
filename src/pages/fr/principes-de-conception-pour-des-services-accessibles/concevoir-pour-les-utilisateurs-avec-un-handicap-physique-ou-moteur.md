@@ -12,7 +12,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 <div class="row">
 <div class="col-md-6">
 
-## À faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
 
 - Réaliser de larges zones d’actions cliquables
 - Donner de l’espace aux éléments cliquables
@@ -23,7 +23,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 </div>
 <div class="col-md-6">
 
-## Chose à ne pas faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
 
 - Exiger de la précision
 - Mélanger les interactions
