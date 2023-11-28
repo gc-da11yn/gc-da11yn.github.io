@@ -6,7 +6,10 @@ subject: howTos
 tags: designCourse
 ---
 
-## Do’s
+<div class="row">
+<div class="col-md-6">
+
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do’s
 
 - Use high-contrast colors (4.5 to 1 for level AA) and test your color scheme by using the high contrast setting of your computer
 - Include videos and audio captions, and a basic or descriptive transcript
@@ -24,7 +27,10 @@ tags: designCourse
 - Use words or the strong style to emphasize key words and important text. Links are naturally underlined.
 - Publish all information on web pages
 
-## Don’ts
+</div>
+<div class="col-md-6">
+
+## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don’ts
 
 - Don’t use bright contrasting colours.
 - Don’t rely solely on visuals in a video to convey information. And don't assume that the screen reader will announce every element that appears on a slide.
@@ -41,3 +47,6 @@ tags: designCourse
 - Don’t centre or justify text
 - Don't italicize, underline, or capitalize to emphasize text. Don't use strong style for complete sentences.
 - Don’t bury information in downloads
+
+</div>
+</div>

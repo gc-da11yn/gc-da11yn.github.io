@@ -12,7 +12,7 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 <div class="row">
 <div class="col-md-6">
 
-## Do:
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do
 
 - Let users have control of the contrast and colours on the screen
 - Align text to the left, keep a consistent layout and use a sans-serif font at a min 12pt
@@ -24,7 +24,7 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 </div>
 <div class="col-md-6">
 
-## Don't:
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Don't
 
 - Overload the user with too much info at once
 - Write large walls of complex text
