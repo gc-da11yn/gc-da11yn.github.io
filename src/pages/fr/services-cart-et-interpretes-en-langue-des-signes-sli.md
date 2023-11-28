@@ -6,7 +6,7 @@ toggle: cart-services-and-sign-language-interpreters-sli
 subject:
   - howTos
 tags:
-  - testYourProducts
+  - accessibleVirtualEvents
 ---
 
 Il est important de prévoir que les personnes culturellement sourdes puissent préférer un service d’interprétation en langue des signes, car leur langue maternelle est probablement la langue des signes des États-Unis (ASL) ou la langue des signes québécoise (LSQ), mais ne le présumez pas. Demandez à ces personnes la mesure d’adaptation qu’elles préfèrent. En effet, des personnes devenues sourdes plus tard dans leur vie peuvent ne pas avoir appris à communiquer avec l’(ASL) ou la LSQ.

@@ -2,8 +2,8 @@
 title: Bonnes pratiques pour les événements virtuels accessibles
 description: Ce guide porte sur la planification d'événements, englobant un large éventail d'activités telles que des conférences, des réunions et des présentations. Il propose une chronologie suggérée pour organiser votre événement, mais n'insiste pas sur une approche stricte. Avant de plonger dans le guide, nous vous invitons à prendre en compte les problèmes courants rencontrés par les personnes en situation de handicap lors d'événements. L'objectif est de travailler ensemble pour relever ces défis et créer des expériences plus inclusives et accessibles.
 toggle: best-practices-for-accessible-virtual-events
-tags:
-  - howTos
+subject: howTos
+tags: accessibleVirtualEvents
 ---
 
 
@@ -305,7 +305,7 @@ Veuillez consulter la [boîte à outils d'accessibilité numérique](https://a11
 
 - Utilisez le [vérificateur d’accessibilité intégré](https://support.microsoft.com/fr-fr/office/am%C3%A9liorer-l-accessibilit%C3%A9-%C3%A0-l-aide-du-v%C3%A9rificateur-d-accessibilit%C3%A9-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f).
 - Choisissez d’envoyer des courriels en format HTML, qui est le plus accessible.
-  - Pour définir le format HTML dans Microsoft Outlook, dans un nouveau courriel qui s’ouvre, allez dans l’onglet Format du Texte \> Groupe Format \> Choisissez « HTML » 
+  - Pour définir le format HTML dans Microsoft Outlook, dans un nouveau courriel qui s’ouvre, allez dans l’onglet Format du Texte \> Groupe Format \> Choisissez « HTML »
     - Raccourci clavier : Alt + X + B
 - Utilisez une taille de police minimale de 12 points.
 
