@@ -12,7 +12,7 @@
 }
 
 
-// Added because GCWeb doesn't cover h2 and li in the doormat styles
+// Added because GCWeb doesn't cover h2, blockquotes and li in the doormat styles
 .gc-drmt {
 
 	h2 {
@@ -25,6 +25,15 @@
 		font-size: 17px;
 		line-height: 1.5em;
 	}
+
+	blockquote {
+		font-size: 17px;
+	}
+
+	footer {
+		font-size: 17px;
+	}
+
 }
 
 // Added because GCWeb doesn't cover links in well.header-rwd
