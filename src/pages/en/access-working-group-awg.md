@@ -93,16 +93,16 @@ Members are expected to:
 
 ## AWG Projects
 
-- [GCPEDIA Accessibility Issues<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/GCPEDIA_Accessibility_Issues)
-- [Review WET features for the February 2012 release (version 2.3)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Access_Working_Group_(CLF)_/_WET_Sub-project_testing_status).
-- [Review WET features for the August 2102 release (version 3.0)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Access_Working_Group_(CLF)_/_WET_Sub-project_testing_status_v3) against these baseline [accessibility technologies<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Accessibility_technologies).
+- [GCPEDIA Accessibility Issues<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/GCPEDIA_Accessibility_Issues)
+- [Review WET features for the February 2012 release (version 2.3)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Access_Working_Group_(CLF)_/_WET_Sub-project_testing_status).
+- [Review WET features for the August 2102 release (version 3.0)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Access_Working_Group_(CLF)_/_WET_Sub-project_testing_status_v3) against these baseline [accessibility technologies<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Accessibility_technologies).
 
 ## Related Communities
 
-- [CLF Centres of Expertise<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/CLF_Centres_of_Expertise)
-- [Technical Working Group (CLF)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Technical_Working_Group_(CLF))
-- [Quality Assurance Working Group (CLF)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Quality_Assurance_Working_Group_(CLF):_Main)
-- [User Experience Working Group (CLF)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/User_experience_working_group_(CLF))
+- [CLF Centres of Expertise<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/CLF_Centres_of_Expertise)
+- [Technical Working Group (CLF)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Technical_Working_Group_(CLF))
+- [Quality Assurance Working Group (CLF)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/Quality_Assurance_Working_Group_(CLF):_Main)
+- [User Experience Working Group (CLF)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/User_experience_working_group_(CLF))
 
 <dl class="dl-horizontal brdr-0">
 <dt>Updated:</dt>
