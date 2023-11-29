@@ -64,8 +64,11 @@ We believe it is important to account for a wide range of human experiences. Thi
 #### <img src="/img/address.svg" width="40" height="40" alt="">  About
 
 **Pronouns:** He/Him
+
 **Age:** 52
+
 **Job:** User Experience (UX).
+
 **Commonly used sites:** IAAP, CSPS.
 
 **Disability:** Deaf since birth
@@ -129,8 +132,11 @@ Category: audio replacement and enhancement.
 #### <img src="/img/address.svg" width="40" height="40" alt="">  About
 
 **Pronouns:** She/Her.
+
 **Age:** 23.
+
 **Job:** Junior accessibility tester.
+
 **Commonly used sites:** W3C and Deque.
 
 **Disability:** Blurred vision with low contrast.
@@ -200,8 +206,11 @@ Category: Vision Enhancements
 #### <img src="/img/address.svg" width="40" height="40" alt="">  About
 
 **Pronouns:** She/Her.
+
 **Age:** 29.
+
 **Job:** Front-end developer.
+
 **Commonly used sites:** : WCAG for developers.
 
 **Disability:** Fibromyalgia.
@@ -275,8 +284,11 @@ Category: Mobility and Dexterity Enhancement.
 #### <img src="/img/address.svg" width="40" height="40" alt="">  About
 
 **Pronouns:** They/Them.
+
 **Age:** 31.
+
 **Job:** Trainer / Educator.
+
 **Commonly used sites:** :AAACT, GcPedia, DAT.
 
 **Disability:** Motor Neurone Disease.
@@ -345,8 +357,11 @@ Category: Mobility Enhancements.
 #### <img src="/img/address.svg" width="40" height="40" alt="">  About
 
 **Pronouns:** He/Him.
+
 **Age:** 48.
+
 **Job:** Manager in communications.
+
 **Commonly used sites:** :Deque.
 
 **Disability:** Autism spectrum disorder, Dyslexia.
@@ -411,8 +426,11 @@ Category: Cognitive and Learning Style Enhancement.
 #### <img src="/img/address.svg" width="40" height="40" alt="">  About
 
 **Pronouns:** She/Her.
+
 **Age:** 62.
+
 **Job:** Administrative Services Officer.
+
 **Commonly used sites:** Salesforce, IAAP, DAT.
 
 **Disability:** ADHD, anxiety-disorder, severe hearing loss, hear sounds but can’t distinguish speech
@@ -476,8 +494,11 @@ Category: Cognitive and Learning Style Enhancement and others.
 #### <img src="/img/address.svg" width="40" height="40" alt="">  About
 
 **Pronouns:** He/Him.
+
 **Age:** 39.
+
 **Job:** Administrative Support and Program Officer.
+
 **Commonly used sites:** GCdocs, GCXchange, DAT.
 
 **Disability:** Muscle fatigue and slurred speech
