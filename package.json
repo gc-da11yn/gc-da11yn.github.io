@@ -18,7 +18,7 @@
     "watch:sass": "npm run sass-start -- --watch",
     "start": "cross-env ELEVENTY_ENV=dev npm-run-all sass-start --parallel watch:*",
     "dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
-    "build": "npm-run-all sass-build eleventy && npm run cleanHTML markdown-to-html && npm run replaceLink" 
+    "build": "npm-run-all sass-build eleventy && npm run cleanHTML markdown-to-html && npm run replaceLink"
   },
   "repository": {
     "type": "git",
@@ -47,7 +47,7 @@
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-attrs": "^4.1.6",
-    "markdown-link-check": "3.0",
+    "markdown-link-check": "^3.11.2",
     "npm-run-all": "^4.1.5",
     "replace-in-file": "^7.0.2",
     "sass": "^1.32.12",
