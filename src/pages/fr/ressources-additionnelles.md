@@ -4,8 +4,7 @@ layout: layouts/base.njk
 description: Ressources et outils utiles en matière d'accessibilité du web pour les employés du gouvernement du Canada.
 internalLinks: true
 toggle: additional-resources
-subject: resourcesAndTools
-tags: resources
+tags: resourcesAndTools
 ---
 
 ## Sur cette page
