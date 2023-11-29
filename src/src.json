@@ -1,4 +1,5 @@
 {
   "date": "git Last Modified",
-  "layout": "layouts/base.njk"
+  "layout": "layouts/base.njk",
+  "gitCreatedDate": "2023-08-01"
 }

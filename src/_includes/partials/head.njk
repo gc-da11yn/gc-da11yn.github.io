@@ -25,6 +25,18 @@
 	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
 	<link rel="stylesheet" href="{{ rootPath }}css/da11yn.css">
 
+	<!-- Meta tags -->
+
+	<meta name="author" content="{{ header[locale].governmentOfCanada }}" />
+	<meta name="dcterms.title" content="{{ title }}" />		
+	<meta name="dcterms.description" content="{{  description }}" />
+	<meta name="dcterms.creator" content="{{ header[locale].governmentOfCanada }}">
+	<meta name="dcterms.language" content="{{ locale }}" />
+	<meta name="dcterms.modified" content="{{ page.date | postDate }}" >
+	<meta name="dcterms.created" content="{{ src.gitCreatedDate }}" >
+	<meta name="dcterms.subject" content="{% if subject %}{{ tagList.subjects[locale][subject] }}; 
+
+	{% endif %}{% for item in tags %}{{ tagList.tags[locale][item] }}; {% endfor %}" />
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>

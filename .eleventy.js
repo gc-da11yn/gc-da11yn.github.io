@@ -3,6 +3,8 @@ const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
+const path = require('path');
+const fs = require('fs');
 
 module.exports = function(eleventyConfig) {
 
@@ -38,6 +40,16 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" })
       .setLocale("en")
       .toFormat("yyyy'-'MM'-'dd");
+  });
+
+  eleventyConfig.addDataExtension('json', (contents) => {
+    return JSON.parse(contents);
+  });
+
+  eleventyConfig.addGlobalData('src', () => {
+    const srcJsonPath = path.resolve(__dirname, 'src', 'src.json');
+    const jsonContent = fs.readFileSync(srcJsonPath, 'utf8');
+    return JSON.parse(jsonContent);
   });
 
 	eleventyConfig.addPassthroughCopy({ "./src/_docs" : "docs" });
