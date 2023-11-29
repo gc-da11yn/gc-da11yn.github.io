@@ -7,7 +7,7 @@ toggle: designing-for-users-with-low-vision
 
 Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
-- [Concevoir pour les utilisateurs malvoyants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 45 <abbr title="kilo-octet">ko</abbr>)]({{ rootPath }}docs/posters/Malvoyants-fr_2023.pdf)
+- <a href="{{ rootPath }}docs/posters/Malvoyants-fr_2023.pdf" download>Concevoir pour les utilisateurs malvoyants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 45 <abbr title="kilo-octet">ko</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

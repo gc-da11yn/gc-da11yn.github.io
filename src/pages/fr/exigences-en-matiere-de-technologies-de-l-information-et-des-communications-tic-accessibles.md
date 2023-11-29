@@ -35,7 +35,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 <h2>Sources utilisées pour compiler le présent document</h2>
 <div>
 	<ul>
-		<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a> v3.2.1 <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC (en anglais seulement)</a></li>
+		<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" download>EN 301 549 v3.2.1 Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC (en anglais seulement)</a></li>
 		<li><a href="https://www.w3.org/Translations/WCAG21-fr/">Règles pour l’accessibilité des contenus Web (WCAG) 2.1 </a>(Recommandations de W3C du 5 juin 2018)</li>
 		<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/">Comprendre les WCAG 2.1 (en anglais seulement)</a> </li>
 		<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#top">Comment se conformer aux WCAG 2.1 (Référence rapide) (en anglais seulement)</a></li>

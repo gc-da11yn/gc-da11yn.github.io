@@ -7,7 +7,7 @@ toggle: concevoir-pour-les-utilisateurs-malvoyants
 
 Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
-- [Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/LowVision-en_2023.pdf)
+- <a href="{{ rootPath }}docs/posters/LowVision-en_2023.pdf" download>Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

@@ -36,7 +36,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 <h2>Sources used to compile this document</h2>
 <div>
 	<ul>
-		<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 v3.2.1 (2021-03) Harmonised European Standard - Accessibility requirements for ICT products and services" (PDF)</a></li>
+		<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" download>EN 301 549 v3.2.1 (2021-03) Harmonised European Standard - Accessibility requirements for ICT products and services" (PDF)</a></li>
 		<li><a href="http://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1 </a>(W3C Recommendation 05 June 2018)</li>
 		<li><a href="http://www.w3.org/WAI/WCAG21/Understanding/">Understanding WCAG 2.1 </a></li>
 		<li><a href="http://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG 2.1 (Quick Reference)</a></li>

@@ -30,9 +30,9 @@ audience:
 toggle: cognitive-disabilities
 ---
 
-* [Concevoir pour les utilisateurs dans le spectre autistique (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)]({{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf)
+* <a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre autistique (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
 * [Concevoir pour les utilisateurs dans le spectre autistique (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-dans-le-spectre-autistique/)
-* [Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)]({{ rootPath }}docs/posters/Cognitif-fr_2023.pdf)</a>
+* <a href="{{ rootPath }}docs/posters/Cognitif-fr_2023.pdf" download>Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a></a>
 * [Principes de conception pour les utilisateurs avec handicap cognitif (HTML)]({{ rootPath }}fr/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif/)
 
 On trouve une vaste gamme de déficience cognitive, telle que l'affaiblissement de la mémoire à court et à long terme et la différence perceptuelle. Les troubles du langage, y compris la dyslexie et les troubles temporaires associés à l'apprentissage de nouvelles langues, sont également des problèmes cognitifs courants. Habituellement, une combinaison de technologie informatique adaptative est utilisé pas les personnes en situation d’handicaps cognitifs.

@@ -101,7 +101,7 @@ tags:
 <td>Policy</td>
 </tr>
 <tr>
-<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EU EN 301 549 (Managing accessibility in the public procurement of ICT)</a></td>
+<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" download>EU EN 301 549 (Managing accessibility in the public procurement of ICT)</a></td>
 <td>Accessibility requirements suitable for public procurement of ICT products and services in Europe.</td>
 <td>Policy</td>
 </tr>

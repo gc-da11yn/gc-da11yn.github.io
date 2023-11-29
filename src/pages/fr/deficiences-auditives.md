@@ -10,9 +10,9 @@ audience:
 toggle: auditory-disabilities
 ---
 
-* [Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)]({{ rootPath }}docs/posters/Sourds-fr_2023.pdf)
+* <a href="{{ rootPath }}docs/posters/Sourds-fr_2023.pdf" download>Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)</a>
 * [Concevoir pour les utilisateurs sourds ou malentendants (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-sourds-ou-malentendants/)
-* [Concevoir pour les utilisateurs de revues d’écran (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 53 <abbr title="kilo-octet">ko</abbr>)]({{ rootPath }}docs/posters/RevuesDecran-fr_2023.pdf)
+* <a href="{{ rootPath }}docs/posters/RevuesDecran-fr_2023.pdf" download>Concevoir pour les utilisateurs de revues d’écran (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 53 <abbr title="kilo-octet">ko</abbr>)</a>
 * [Concevoir pour les utilisateurs de revues d’écran (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-de-revues-d-ecran/)
 
 Les déficiences auditives sont des déficiences sensorielles allant d'une perte auditive partielle à complète. Certaines personnes peuvent aussi avoir une ouïe trop sensible (hyperacousie) dans une ou les deux oreilles.
