@@ -1,4 +1,4 @@
 ---
-redirect: /en/standard-on-information-and-communication-technology-accessibility-ict-phase-one-requirements-backgrounder/
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---

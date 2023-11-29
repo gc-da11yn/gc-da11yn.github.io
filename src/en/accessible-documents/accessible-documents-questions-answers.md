@@ -1,4 +1,4 @@
 ---
-redirect: /en/questions-and-answers-about-accessible-documents/
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---

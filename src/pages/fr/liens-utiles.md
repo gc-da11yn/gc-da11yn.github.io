@@ -106,7 +106,7 @@ tags:
 <td>Politique</td>
 </tr>
 <tr>
-<td><a href="https://intranet.canada.ca/wg-tg/gc-cg/accessible-communications-accessibles/str-sor-fra.asp">Liste des ressources, outils et services d’accessibilité générale</a></td>
+<td><a href="https://intranet.canada.ca/wg-tg/gc-cg/accessible-communications-accessibles/str-sor-fra.asp">Liste des ressources, outils et services d’accessibilité générale<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span></a></a></td>
 <td>Découvrez les services, les outils et les ressources qui permettent de créer des produits de communication et des activités accessibles.</td>
 <td>Liste</td>
 </tr>

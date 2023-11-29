@@ -124,26 +124,26 @@ Automated tools and validators to identify accessibility issues:
 ### Keyboard testing basics
 
 - Go forward: use the tab key
-- Go backwards: use the tab and shift keys
+- Go backwards: use the shift and tab keys
 - Activate something: use the Enter key or space bar
 - To check / uncheck a checkbox: use space bar
-- Move around: use the arrow keys
+- Move around the page and drop-down lists, change the selection of radio buttons: use the arrow keys
 
-Scrub your site for accessibility issues:
+Review or test your site periodically to ensure there are no new errors and the site remains accessible.
 
-- Test all navigation/interactivity of each webpage using only the keyboard and assistive technologies such as JAWS, NVDA, ZoomText.
-- Make sure images contain alt text or are marked as decorative (if no important and/or valuable information is being presented to users).
-  - If an image provides important or valuable information, then proper alt text is required, no more than 150 characters. If the image contents cannot be explained within that limit, then a graphic description underneath the image is required.
+- Test all navigation and interactivity of each webpage using only the keyboard and assistive technologies such as JAWS, NVDA, ZoomText.
+- Make sure images contain alt text or are marked as decorative if no important or valuable information is being presented to users.
+  - If an image provides important or valuable information, then proper alt text is required, no more than 150 characters. If the image contents cannot be explained within that limit, then a graphic description below the image is required.
 - Tab between sections of a webpage to ensure content follows a meaningful top-to-bottom, left-to-right focus order.
-  - Also ensure visible focus surrounds all tabbable / focusable elements.
+  - Also ensure visible focus surrounds all tabbable and focusable elements.
 - Ensure users do not encounter a page trap when using the keyboard.
-- Check if you have bypass links to allow users to skip page content if lengthy and/or repetitive information is presented on each page.
+- Check if you have bypass links to allow users to skip page content if lengthy or repetitive information is presented on each page.
   - For example, “Skip to main navigation”, “Skip to header” and “Skip to footer” links, depending on their need on the page.
 - Test all links presented on each page to ensure they are working (internal, external, downloadable), and each link contains unique link text.
   - If a link opens in a new browser tab or window, it is recommended to inform users that this action will occur within the link text or link title tag, for example “Opens in a new browser tab/window”.
-- Ensure all form elements (radio buttons, checkboxes, edit fields, drop-down lists, etc.) have proper labels.
-  - Also ensure proper error prevention and suggestion is given to users when form errors must be corrected.
-- Make sure videos have descriptive transcripts, and closed captioning is available, and users can turn it on and off.
+- Ensure all form elements such as radio buttons, checkboxes, edit fields, and drop-down lists have proper labels.
+  - Also give proper error prevention and suggestion to users when form errors must be corrected.
+- Make sure videos have descriptive transcripts, and provide closed captioning that users can turn on and off.
 - Ensure page content scales gracefully in all viewports and is usable when zoomed up to 400%.
 - Ensure the HTML and CSS mark-up is correct by validating code through a validation tool such as W3C Validator or CSS HTML Validator.
 - Conduct performance testing on different networks, as sometimes complex content (for example large images or page interactivity and functionality) takes a while to load on slower networks.

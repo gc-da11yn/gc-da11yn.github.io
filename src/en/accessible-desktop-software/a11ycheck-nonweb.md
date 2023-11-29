@@ -1,4 +1,4 @@
 ---
-redirect: /en/accessibility-compliance-assessments-checklist-non-web-software/\
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---

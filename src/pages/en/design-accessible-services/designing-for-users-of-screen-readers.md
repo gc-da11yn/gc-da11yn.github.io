@@ -12,7 +12,7 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 <div class="row">
 <div class="col-md-6">
 
-## Do:
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do
 
 - Describe images and provide transcripts for video
 - Follow a linear logical layout
@@ -23,7 +23,7 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 </div>
 <div class="col-md-6">
 
-## Don't:
+## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don't
 
 - Only show information in an image or video
 - Spread content all over a page

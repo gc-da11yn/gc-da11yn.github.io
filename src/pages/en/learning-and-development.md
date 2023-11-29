@@ -45,4 +45,4 @@ This online self-paced course outlines the disability management process for res
 
 ## Series of workshop, available on GcPedia
 
-- [GC Accessibility Training and Events (gcpedia.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/GC_Accessibility_Training_and_Events_/_Formation_et_événements_du_GC_sur_l'accessibilité?setlang=en&uselang=en)
+- [GC Accessibility Training and Events (gcpedia.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/GC_Accessibility_Training_and_Events_/_Formation_et_événements_du_GC_sur_l'accessibilité?setlang=en&uselang=en)

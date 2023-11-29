@@ -1,4 +1,4 @@
 ---
-redirect: /en/accessibility-best-practices-for-emails/
+redirect: /en/page-moved-or-deleted/index.html
 layout: layouts/base.njk
 ---

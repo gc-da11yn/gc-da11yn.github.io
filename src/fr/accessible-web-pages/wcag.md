@@ -1,4 +1,4 @@
 ---
-redirect: /fr/la-structure-des-regles-pour-laccessibilite-des-contenus-web-wcag-21/
+redirect: /fr/page-deplacee-ou-supprimee/index.html
 layout: layouts/base.njk
 ---

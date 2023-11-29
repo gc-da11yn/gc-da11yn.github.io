@@ -6,7 +6,10 @@ subject: howTos
 tags: designCourse
 ---
 
-## À faire
+<div class="row">
+<div class="col-md-6">
+
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
 
 - Utiliser des couleurs avec un haut contraste (4.5 à 1 pour niveau AA) et tester votre palette de couleurs en utilisant le paramètre de contraste élevé de votre ordinateur
 - Fournir des sous-titres et une transcription (de base ou descriptive) pour les éléments vidéo et audio
@@ -24,7 +27,10 @@ tags: designCourse
 - Utiliser des mots ou le style élevé pour mettre en valeur les mots clés et le texte important. Les liens sont naturellement soulignés.
 - Publier toutes les informations sur les pages web
 
-## À ne pas faire
+</div>
+<div class="col-md-6">
+
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À ne pas faire
 
 - N'utilisez pas des couleurs trop brillantes (fluo)
 - Ne vous fiez pas uniquement aux éléments visuels d'une vidéo pour transmettre de l'information. Ne supposez pas non plus que le lecteur d’écran annoncera tous les éléments qui apparaitront sur une diapositive
@@ -41,3 +47,6 @@ tags: designCourse
 - Ne pas centrer ou justifier le texte
 - Ne mettez pas le texte en italique, en souligné ou en majuscules afin de le mettre en valeur. N'utilisez pas le style élevé pour des phrases complètes.
 - Ne cacher pas l'information dans des documents à télécharger
+
+</div>
+</div>

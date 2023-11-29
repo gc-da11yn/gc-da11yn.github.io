@@ -7,13 +7,12 @@ toggle: designing-for-users-with-cognitive-disabilities
 
 Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
--[Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)]({{ rootPath }}docs/posters/Cognitif-fr_2023.pdf)
-
+- [Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)]({{ rootPath }}docs/posters/Cognitif-fr_2023.pdf)
 
 <div class="row">
 <div class="col-md-6">
 
-## À faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
 
 - Permettez aux utilisateurs de contrôler le contraste et les couleurs sur l'écran
 - Alignez les textes sur la marge gauche, gardez une disposition cohérente et utilisez une police sans empattements à 12 Pts
@@ -25,7 +24,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 </div>
 <div class="col-md-6">
 
-## Chose à ne pas faire :
+## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
 
 - Surcharger les utilisateurs avec trop d'informations en même temps
 - Écrire de pleines pages de texte en grandes colonnes

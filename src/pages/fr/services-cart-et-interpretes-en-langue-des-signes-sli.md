@@ -48,7 +48,7 @@ Les services d’interprètes en langue des signes sont obtenus de deux façons:
 
 ### Bureau de la traduction <li>
 
-- Vous pouvez réserver les services d’interprètes en langue des signes en consultant le site du Bureau de la traduction : [Services d’interprétation en langues des signes et translittération orale.](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/visuelle-visual-fra.html) Lien interne
+- Vous pouvez réserver les services d’interprètes en langue des signes en consultant le site du Bureau de la traduction : [Services d’interprétation en langues des signes et translittération orale<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/visuelle-visual-fra.html).
 - Les services d’interprétation en langue des signes obtenus par l’intermédiaire du Bureau de la traduction de Services publics et Approvisionnement Canada n’entranent aucuns frais (à quelques exceptions près); des frais d’annulation peuvent cependant s’appliquer.
 - Ils doivent être réservés aussitôt que possible, au moins 5 jours ouvrables au préalable pour garantir la disponibilité des interprètes.
 - Un préavis d'au moins **deux jours ouvrables complets** doit être fourni pour annuler l’activité en partie ou en totalité ou si les dates ou l’heure sont modifiées, afin d’éviter que le Bureau ne facture les frais d’interprètes.

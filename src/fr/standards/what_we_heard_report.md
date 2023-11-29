@@ -1,4 +1,4 @@
 ---
-redirect: /fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic/
+redirect: /fr/rapport-sur-ce-que-nous-avons-entendu-norme-d-accessibilite-des-technologies-de-l-information-et-des-communications-natic/
 layout: layouts/base.njk
 ---

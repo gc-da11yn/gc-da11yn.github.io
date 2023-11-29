@@ -1,4 +1,4 @@
 ---
-redirect: /fr/meilleures-pratiques-daccessibilite-pour-les-courriels/
+redirect: /fr/page-deplacee-ou-supprimee/index.html
 layout: layouts/base.njk
 ---

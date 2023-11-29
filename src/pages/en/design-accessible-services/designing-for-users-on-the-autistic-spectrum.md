@@ -12,7 +12,7 @@ Printable posters(<abbr title="Portable Document Format">PDF</abbr> format):
 <div class="row">
 <div class="col-md-6">
 
-## Do:
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do
 
 - Use simple colours
 - Write in plain language
@@ -23,7 +23,7 @@ Printable posters(<abbr title="Portable Document Format">PDF</abbr> format):
 </div>
 <div class="col-md-6">
 
-## Don't:
+## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don't
 
 - Use bright contrasting colours
 - Use figures of speech and idioms

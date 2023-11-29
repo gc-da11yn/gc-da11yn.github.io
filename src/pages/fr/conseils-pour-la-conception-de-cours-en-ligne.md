@@ -23,7 +23,7 @@ tags: designCourse
 - La couleur n‘est pas le seul indicateur pour transmettre l'information
 - Les éléments interactifs sont faciles à identifier visuellement et quand le focus est placé sur les éléments
 - Les options de navigation sont claires et cohérentes dans toutes les sections
-- Les vidéos ne démarrent pas automatiquement- Toutes les commandes vidéo sont visibles en tout temps et correctement étiquetées
+- Les vidéos ne démarrent pas automatiquement. Toutes les commandes vidéo sont visibles en tout temps et correctement étiquetées
 - Les éléments d’un formulaire comportent des étiquettes clairement associées
 - Les rétroactions sont facilement identifiables
 - Les titres et l'espacement sont utilisés pour regrouper le contenu connexe

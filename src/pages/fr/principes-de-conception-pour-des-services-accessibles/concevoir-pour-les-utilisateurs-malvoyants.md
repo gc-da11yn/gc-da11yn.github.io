@@ -12,7 +12,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 <div class="row">
 <div class="col-md-6">
 
-## À faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
 
 - Utiliser de bons contrastes de couleurs et une taille de police lisible
 - Publier toute l’information dans les pages web
@@ -23,7 +23,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 </div>
 <div class="col-md-6">
 
-## Chose à ne pas faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
 
 - Utiliser des contrastes de couleurs faibles et des polices de petite taille
 - Ensevelir l’information dans le contenu téléchargé

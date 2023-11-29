@@ -12,7 +12,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 <div class="row">
 <div class="col-md-6">
 
-## À faire :
+## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
 
 - Écrire dans un langage clair
 - Utiliser des sous-titres ou fournir des transcriptions pour les vidéos
@@ -23,7 +23,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 </div>
 <div class="col-md-6">
 
-## Chose à ne pas faire :
+## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
 
 - Utiliser des mots compliqués ou des figures de style
 - Mettre du contenu audio ou vidéo uniquement

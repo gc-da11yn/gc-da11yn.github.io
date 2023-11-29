@@ -1,4 +1,4 @@
 ---
-redirect: /en/cognition/
+redirect: /en/cognitive-disabilities/
 layout: layouts/base.njk
 ---

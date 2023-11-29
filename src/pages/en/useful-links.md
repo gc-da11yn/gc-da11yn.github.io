@@ -106,7 +106,7 @@ tags:
 <td>Policy</td>
 </tr>
 <tr>
-<td><a href="https://intranet.canada.ca/wg-tg/gc-cg/accessible-communications-accessibles/str-sor-eng.asp">General accessibility services, tools and resources listing</a></td>
+<td><a href="https://intranet.canada.ca/wg-tg/gc-cg/accessible-communications-accessibles/str-sor-eng.asp">General accessibility services, tools and resources listing<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span></a></td>
 <td>Learn about the services, tools and resources for making communications products and activities accessible.</td>
 <td>Listing</td>
 </tr>
