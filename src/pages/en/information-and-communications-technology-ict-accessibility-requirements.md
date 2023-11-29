@@ -8,19 +8,26 @@ tags:
 toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles
 ---
 
-<section>
-	<h2>Download link</h2>
-	<p>Download link for word version of ICT Accessibility Requirements.</p>
-	<div class="row">
-		<div class="well gc-dwnld">
-			<div class="row">
-				<div class="col-xs-8">
-					<p class="gc-dwnld-txt"> <a href="{{ rootPath }}docs/Annex X - ICT Accessibility Requirements.docx" class="gc-dwnld-info"><i class="fas fa-file-word" aria-hidden="true"></i>ICT Accessibility Requirements.docx (610 <abbr title="KiloByte">KB</abbr>)</a> </p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<div class="row">
+<div class="col-sm-6">
+<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Annex X - ICT Accessibility Requirements.docx" download="{{ title | stripTagsSlugify }}">
+<div class="well gc-dwnld">
+<div class="row">
+<div class="col-xs-4">
+<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
+</div>
+<div class="col-xs-8">
+<p class="gc-dwnld-txt">
+<span>{{ title }}</span>
+<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Microsoft Word Document">Word</abbr>, 88 <abbr title="KiloByte">KB</abbr>)</span>
+</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+
 <h2>What is ICT?</h2>
 <p>Information and Communications Technology (ICT) includes hardware, software, voice communication, video capabilities and digital content (including web and non-web-based information).</p>
 <h2>What is ICT accessibility and why is it important?</h2>

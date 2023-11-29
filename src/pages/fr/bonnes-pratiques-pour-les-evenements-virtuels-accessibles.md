@@ -8,23 +8,23 @@ tags: accessibleVirtualEvents
 
 
 <div class="row">
-	<div class="col-sm-4">
-		<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Best_Practices_For_Hosting_Accessible_Events_FR.docx">
-			<div class="well gc-dwnld">
-				<div class="row">
-					<div class="col-xs-4">
-						<p><img class="img-responsive thumbnail gc-dwnld-img" src="/img/doc.png" alt="" /></p>
-					</div>
-					<div class="col-xs-8">
-						<p class="gc-dwnld-txt">
-							<span>Bonnes pratiques pour les événements virtuels accessibles</span>
-							<span class="gc-dwnld-info">(<abbr title="Microsoft Word Document">Word</abbr>, 86 <abbr title="KiloByte">KB</abbr>)</span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</a>
-	</div>
+<div class="col-sm-6">
+<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Best_Practices_For_Hosting_Accessible_Events_FR.docx" download="{{ title | stripTagsSlugify }}">
+<div class="well gc-dwnld">
+<div class="row">
+<div class="col-xs-4">
+<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
+</div>
+<div class="col-xs-8">
+<p class="gc-dwnld-txt">
+<span>{{ title }}</span>
+<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Document Microsoft Word">Word</abbr>, 86 <abbr title="kilo-octet">ko</abbr>)</span>
+</p>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 
 ## Sur cette page
