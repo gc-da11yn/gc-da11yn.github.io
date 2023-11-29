@@ -46,4 +46,4 @@ l'emploi et aux restrictions liées à l'emploi tels que les blessures, les mala
 
 ## Série d'atelier, disponible sur GcPedia
 
-- [Formation et événements du GC sur l'accessibilité ( gcpedia.gc.ca )<span class="fas fa-external-link-square-alt mrgn-lft-sm"></span><span class="wb-inv"> Lien interne</span>](https://www.gcpedia.gc.ca/wiki/GC_Accessibility_Training_and_Events_/_Formation_et_événements_du_GC_sur_l'accessibilité?setlang=fr&uselang=fr)
+- [Formation et événements du GC sur l'accessibilité ( gcpedia.gc.ca )<span class="fas fa-external-link-square-alt mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://www.gcpedia.gc.ca/wiki/GC_Accessibility_Training_and_Events_/_Formation_et_événements_du_GC_sur_l'accessibilité?setlang=fr&uselang=fr)

@@ -46,7 +46,7 @@ SLI are booked two different ways – through the Translation Bureau or external
 
 ### Translation Bureau
 
-- You can book the Sign Language interpreter by visiting the Translation Bureau’s site [Sign language interpretation and oral transliteration services Internal link](http://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/visuelle-visual-eng.html).
+- You can book the Sign Language interpreter by visiting the Translation Bureau’s site [Sign language interpretation and oral transliteration services Internal link<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](http://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/visuelle-visual-eng.html).
 - SLI booked through the Translation Bureau at Public Services and Procurement Canada is at no cost (with some exceptions) however, there may be cancellation fees.
 - These are booked as soon as possible, with at minimum 5 business days advance to ensure availability of interpreters.
 - Notice of at least **two full working days**must be provided if all or part of the event is cancelled or the dates or times are changed to avoid the Bureau charging for the interpreters’ fees.
