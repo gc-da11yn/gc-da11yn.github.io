@@ -157,5 +157,5 @@ An alternative to PhantomPDF’s inbuilt accessibility checker is [Free PDF Acce
 
 - [W3C PDF Techniques for WCAG 2.0](https://www.w3.org/TR/WCAG-TECHS/pdf.html "W3C WCAG 2.0 Accessibility Guidelines to Creating PDFs") - 23 techniques for solving specific WCAG violations, mostly forms and tables (100 pages, 2016)
 - [WebAIM: Foxit and PDF Accessibility](https://webaim.org/techniques/foxit/) - An article by WebAIM that outlines how to make accessible PDFs with Foxit PDF Editor (4 pages, 2019)
-- [10 common accessibility errors with solutions](http://www.uottawa.ca/respect/sites/www.uottawa.ca.respect/files/fss-fixing-accessibility-errors-in-pdfs.pdf) - The product of reviewing over 1500 PDF documents, this guide from the University of Ottawa provides more details including screenshots about solving common issues (24 pages, 2014)
+- <a href="http://www.uottawa.ca/respect/sites/www.uottawa.ca.respect/files/fss-fixing-accessibility-errors-in-pdfs.pdf" download>10 common accessibility errors with solutions</a> - The product of reviewing over 1500 PDF documents, this guide from the University of Ottawa provides more details including screenshots about solving common issues (24 pages, 2014)
 - [Foxit PDF Editor Instructional Videos](https://www.foxitsoftware.com/support/tutorial/)

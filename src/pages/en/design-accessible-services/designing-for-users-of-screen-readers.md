@@ -7,7 +7,7 @@ toggle: concevoir-pour-les-utilisateurs-de-revues-d-ecran
 
 Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
-- [Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/ScreenReader-en_2023.pdf)
+- <a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

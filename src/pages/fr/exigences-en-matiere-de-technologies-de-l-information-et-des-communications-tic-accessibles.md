@@ -8,19 +8,26 @@ tags:
 toggle: information-and-communications-technology-ict-accessibility-requirements
 ---
 
-<section>
-	<h2> Lien de téléchargement</h2>
-	<p> Lien de téléchargement pour la version Word des exigences d'accessibilité des TIC.</p>
-	<div class="row">
-		<div class="well gc-dwnld">
-			<div class="row">
-				<div class="col-xs-8">
-					<p class="gc-dwnld-txt"> <a href="{{ rootPath }}docs/Annexe%20X%20-%20Exigences%20en%20mati%C3%A8re%20de%20TIC%20accessibles.docx" class="gc-dwnld-info"><i class="fas fa-file-word" aria-hidden="true"></i>Exigences en matière de TIC accessibles.docx (636 <abbr title="KiloByte">Ko</abbr>)</a> </p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<div class="row">
+<div class="col-sm-6">
+<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Annexe%20X%20-%20Exigences%20en%20mati%C3%A8re%20de%20TIC%20accessibles.docx" download="{{ title | stripTagsSlugify }}">
+<div class="well gc-dwnld">
+<div class="row">
+<div class="col-xs-4">
+<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
+</div>
+<div class="col-xs-8">
+<p class="gc-dwnld-txt">
+<span>{{ title }}</span>
+<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Document Microsoft Word">Word</abbr>, 636 <abbr title="kilo-octet">ko</abbr>)</span>
+</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+
 <h2>Que sont les TIC?</h2>
 <p>Les technologies de l’information et des communications (TIC) comprennent le matériel, les logiciels, les communications vocales, les capacités vidéo et le contenu numérique (y compris l’information sur le Web et ailleurs).</p>
 <h2>Qu’est-ce que l’accessibilité des TIC et pourquoi est-elle importante?</h2>
@@ -35,7 +42,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 <h2>Sources utilisées pour compiler le présent document</h2>
 <div>
 	<ul>
-		<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a> v3.2.1 <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC (en anglais seulement)</a></li>
+		<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" download>EN 301 549 v3.2.1 Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC (en anglais seulement)</a></li>
 		<li><a href="https://www.w3.org/Translations/WCAG21-fr/">Règles pour l’accessibilité des contenus Web (WCAG) 2.1 </a>(Recommandations de W3C du 5 juin 2018)</li>
 		<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/">Comprendre les WCAG 2.1 (en anglais seulement)</a> </li>
 		<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#top">Comment se conformer aux WCAG 2.1 (Référence rapide) (en anglais seulement)</a></li>

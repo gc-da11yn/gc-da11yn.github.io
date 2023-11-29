@@ -7,7 +7,7 @@ toggle: principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif
 
 Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
-- [Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/Cognitive-en_2023.pdf)
+- <a href="{{ rootPath }}docs/posters/Cognitive-en_2023.pdf" download>Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

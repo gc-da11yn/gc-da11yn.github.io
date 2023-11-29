@@ -77,9 +77,9 @@ Avoid overly complex writing styles.
 ### Resources:
 
 - [Canada.ca Content Style Guide—Plain Language (Canada.ca)](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html#toc6)
-- [Write for your Reader—A plain language handbook (copian.ca)](http://en.copian.ca/library/learning/nwt/writread/writefor.pdf)
-- [Putting plain language into practice (nwtliteracy.ca)](https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf)
-- [Plain Language Audit Tool—A checklist to review documents (nwtliteracy.ca)](https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf)
+- <a href="http://en.copian.ca/library/learning/nwt/writread/writefor.pdf" download>Write for your Reader—A plain language handbook (copian.ca)</a>
+- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf" download>Putting plain language into practice (nwtliteracy.ca)</a>
+- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf" download>Plain Language Audit Tool—A checklist to review documents (nwtliteracy.ca)</a>
 
 ## Styles
 

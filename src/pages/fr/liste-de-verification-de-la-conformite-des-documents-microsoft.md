@@ -8,6 +8,26 @@ tags:
   - createDocument
 ---
 
+<div class="row">
+<div class="col-sm-6">
+<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/MSDocument_COMPLIANCE_CHECKLIST_FR.docx" download="{{ title | stripTagsSlugify }}">
+<div class="well gc-dwnld">
+<div class="row">
+<div class="col-xs-4">
+<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
+</div>
+<div class="col-xs-8">
+<p class="gc-dwnld-txt">
+<span>{{ title }}</span>
+<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Document Microsoft Word">Word</abbr>, 62 <abbr title="kilo-octet">ko</abbr>)</span>
+</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+
 Vous trouverez ci-dessous des questions qui vous indiqueront si votre document Microsoft Office est accessible. Les critères de réussite renvoient aux Règles pour l’accessibilité des contenus Web (WCAG) 2.1 : <a href="http://www.w3.org/WAI/WCAG21/quickref/" hreflang="en">How to Meet WCAG - Quick Reference<small> (en anglais seulement)</small></a> et le [Guide de rédaction du contenu du site Canada.ca](https://www.canada.ca/fr/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
 
 Si une question ne s’applique pas à votre document, indiquez « S.O. » pour « Sans objet ». Par exemple, il n’y a pas de table des matières dans un document Excel.
@@ -113,5 +133,3 @@ Si vous répondez « Non » à l’une des questions suivantes, votre document N
 </dd>
 </dl>
 </aside>
-
-<a class="btn btn-primary" href="{{ rootPath }}docs/MSDocument_COMPLIANCE_CHECKLIST_FR.docx" role="button">Télécharger la page (DOCX, 60 Ko)</a>

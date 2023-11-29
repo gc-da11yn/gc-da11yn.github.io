@@ -10,7 +10,7 @@ audience:
 toggle: visual-impairments
 ---
 
-* [Concevoir pour les utilisateurs malvoyants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 45 <abbr title="kilo-octet">ko</abbr>)]({{ rootPath }}docs/posters/Malvoyants-fr_2023.pdf)
+* <a href="{{ rootPath }}docs/posters/Malvoyants-fr_2023.pdf" download>Concevoir pour les utilisateurs malvoyants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 45 <abbr title="kilo-octet">ko</abbr>)</a>
 * [Concevoir pour les utilisateurs malvoyants (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-malvoyants/)
 
 Les déficiences visuelles sont des déficiences sensorielles qui peuvent aller d'une certaine quantité de perte de vision, perte d'acuité visuelle ou sensibilité accrue ou diminuée à des couleurs, à une perte de vision complète ou non corrigible dans l'un ou les deux yeux.

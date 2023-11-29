@@ -7,7 +7,7 @@ toggle: designing-for-users-on-the-autistic-spectrum
 
 Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
-- [Concevoir pour les utilisateurs dans le spectre autistique (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)]({{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf)
+- <a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre autistique (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

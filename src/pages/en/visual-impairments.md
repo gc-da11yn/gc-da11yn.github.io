@@ -10,7 +10,7 @@ audience:
 toggle: deficiences-visuelles
 ---
 
-- [Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/LowVision-en_2023.pdf)
+- <a href="{{ rootPath }}docs/posters/LowVision-en_2023.pdf" download>Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)</a>
 - [Designing for users with low vision (HTML)]({{ rootPath }}en/designing-for-users-with-low-vision/)
 
 ## Blindness

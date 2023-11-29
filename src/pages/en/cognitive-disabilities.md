@@ -29,9 +29,9 @@ audience:
 toggle: handicaps-cognitifs
 ---
 
-- [Designing for users on the autistic spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/AutismSpect-en_2023.pdf)
+- <a href="{{ rootPath }}docs/posters/AutismSpect-en_2023.pdf" download>Designing for users on the autistic spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
 - [Designing for users on the autistic spectrum (HTML)]({{ rootPath }}en/designing-for-users-on-the-autistic-spectrum/)
-- [Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/Cognitive-en_2023.pdf)
+- <a href="{{ rootPath }}docs/posters/Cognitive-en_2023.pdf" download>Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)</a>
 - [Designing principle for users with cognitive disabilities (HTML)]({{ rootPath }}en/designing-for-users-with-cognitive-disabilities/)
 
 ## Intellectual Disabilities

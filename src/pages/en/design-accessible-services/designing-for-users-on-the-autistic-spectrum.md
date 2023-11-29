@@ -7,7 +7,7 @@ toggle: concevoir-pour-les-utilisateurs-dans-le-spectre-autistique
 
 Printable posters(<abbr title="Portable Document Format">PDF</abbr> format):
 
-- [Designing for users on the autistic spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)]({{ rootPath }}docs/posters/AutismSpect-en_2023.pdf)
+- <a href="{{ rootPath }}docs/posters/AutismSpect-en_2023.pdf" download>Designing for users on the autistic spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">
