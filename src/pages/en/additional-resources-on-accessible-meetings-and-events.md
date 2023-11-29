@@ -3,8 +3,6 @@ title: Additional resources on accessible meetings and events
 description: For more information on accessible meetings and events, you can consult this list of links.
 internalLinks: true
 toggle: ressources-additionnelles-sur-les-reunions-et-evenements-accessibles
-subject:
-tags:
 ---
 
 - [Planning Inclusive and Accessible Events – A Handbook for Federal Public Servants<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-eng.asp) (HTML format) from the Office for Disability Issues at ESDC (More in-person meeting)
