@@ -32,8 +32,8 @@
 	<meta name="dcterms.description" content="{{  description }}" />
 	<meta name="dcterms.creator" content="{{ header[locale].governmentOfCanada }}">
 	<meta name="dcterms.language" content="{{ locale }}" />
-	<meta name="dcterms.modified" content="{{ page.date | postDate }}" >
-	<meta name="dcterms.created" content="{{ src.gitCreatedDate }}" >
+	<meta name="dcterms.created" content="{{ created | postDate  }}" >
+	<meta name="dcterms.modified" content="{{ modified | postDate  }}" >
 	<meta name="dcterms.subject" content="{% if subject %}{{ tagList.subjects[locale][subject] }}; 
 
 	{% endif %}{% for item in tags %}{{ tagList.tags[locale][item] }}; {% endfor %}" />
