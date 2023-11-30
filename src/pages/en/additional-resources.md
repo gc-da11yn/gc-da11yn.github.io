@@ -62,10 +62,14 @@ Best practices to follow for unilingual and bilingual meetings or events for bot
 
 ### [Job aid on planning Accessible Virtual Events](https://www.csps-efpc.gc.ca/Tools/jobaids/access-virtual-events-eng.aspx) from the Canada School of Public Service
 
+This job aid provides best practices on how to plan accessible and inclusive virtual events.
+
 </div>
 <div class="col-md-6">
 
 ### [Planning Inclusive and Accessible Events – A Handbook for Federal Public Servants<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-eng.asp) from the Office for Disability Issues at ESDC (In-person meeting)
+
+Office for Disability Issues (ODI) is proud to present this handbook to colleagues across the Government of Canada to provide guidance on planning inclusive and accessible events.
 
 </div>
 <div class="col-md-6">
@@ -86,7 +90,12 @@ A collection of MS Teams training products to support public servants.
 
 ### [Take advantage of the accessibility features in Microsoft Teams for a better meeting or live event experience - Office Support](https://support.microsoft.com/en-us/office/take-advantage-of-the-accessibility-features-in-microsoft-teams-for-a-better-meeting-or-live-event-experience-eec38ba3-689b-4ab4-8b6a-1c1c30259d86)
 
-[The Association of Translators and Interpreters of Ontario (ATIO) Directory](https://atio.on.ca/directory/)
+For a better Microsoft Teams meeting or live event experience, check out the following accessibility features in Microsoft Teams.
+
+</div>
+<div class="col-md-6">
+
+### [The Association of Translators and Interpreters of Ontario (ATIO) Directory](https://atio.on.ca/directory/)
 
 Find a translator, interpreter or terminologist for meetings and events.
 
@@ -336,6 +345,8 @@ This guideline supports the Government of Canada’s direction to ensure that de
 <div class="col-md-6">
 
 ### [Web Content Accessibility Guidelines (WCAG) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/)
+
+Web Content Accessibility Guidelines (WCAG) 2.1 covers a wide range of recommendations for making Web content more accessible. Following these guidelines will also often make Web content more usable to users in general.
 
 </div>
 </div>

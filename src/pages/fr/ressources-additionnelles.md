@@ -70,7 +70,9 @@ Le Service numérique canadien s’engage à mettre en place des services access
 </div>
 <div class="col-md-6">
 
-### <a href="https://www.microsoft.com/en-ca/Accessibility/windows?SilentAuth=1&activetab=pivot_1%3aprimaryr2" hreflang="en" lang="en">Microsoft Windows 11 Accessibility Features<small lang="fr"> (en anglais seulement)</small></a>
+### <a href="https://www.microsoft.com/fr-ca/windows/accessibility-features?SilentAuth=1&activetab=pivot_1:primaryr2#vision">Microsoft Windows 11 L’accessibilité pour tous</a>
+
+Ressources utiles sur les fonctions d'accessibilité de Microsoft Windows 11.
 
 </div>
 <div class="col-md-6">
@@ -206,6 +208,8 @@ Les exigences en matière d’accessibilité qui conviennent à l’approvisionn
 
 ### [Règles pour l’accessibilité des contenus Web 2.1](https://www.w3.org/Translations/WCAG21-fr/)
 
+Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1 couvrent un large éventail de recommandations pour rendre les contenus Web plus accessibles. Suivre ces règles rendra aussi les contenus Web souvent plus faciles d’utilisation aux utilisateurs en général.
+
 </div>
 <div class="col-md-6">
 
@@ -237,7 +241,9 @@ Améliorer l’accessibilité, les mesures d’adaptation, l’ergonomie, les do
 </div>
 </div>
 
-### Loi sur l'accessibilité du canada :
+### [Loi canadienne sur l’accessibilité - Site Web de la législation](https://laws-lois.justice.gc.ca/fra/lois/a-0.6/)
+
+Source en ligne des lois et règlements consolidés du Canada.
 
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
@@ -252,11 +258,6 @@ Ce glossaire contient 342 concepts et terminologies liés au projet de loi C-81 
 #### <a href="https://www.include-me.ca/federal-accessibility-legislation-alliance/resource/accessible-canada-act-plain-language" hreflang="en">La Loi sur l'accessibilité du Canada en langage clair et simple<small> (en anglais seulement)</small></a>
 
 Ce document aide les gens à comprendre les principaux points du projet de loi C-81 ; une loi visant à assurer un Canada sans obstacles.
-
-</div>
-<div class="col-md-6">
-
-#### [Loi canadienne sur l’accessibilité - Site Web de la législation](https://laws-lois.justice.gc.ca/fra/lois/a-0.6/)
 
 </div>
 </div>
@@ -274,7 +275,6 @@ En tant que fournisseur de services communs du gouvernement du Canada, le SPAC s
 </div>
 
 ## Réunions et événements virtuels accessibles
-
 
 Les réunions et événements virtuels sont caractérisés par différents formats et différentes tailles, allant de petits ateliers comprenant des participants qui se connaissent à de grandes réunions publiques à planifier. Il est essentiel de veiller à ce que ces réunions et événements soient pleinement accessibles, depuis leur accès jusqu’aux présentations. En planifiant, vous pouvez intégrer l’accessibilité à tous les aspects d’une réunion. Cela permet à tout le monde de pleinement participer, y compris les personnes en situation de handicap.
 
@@ -306,12 +306,14 @@ Meilleures pratiques pour vos demandes de conférence et d'interprétation en la
 
 ### [Outil de travail planification d’événements virtuels accessibles](https://www.csps-efpc.gc.ca/Tools/jobaids/access-virtual-events-fra.aspx) de l’École de la fonction publique du Canada
 
+Cet outil de travail présente des pratiques exemplaires pour planifier des événements virtuels accessibles et inclusifs.
+
 </div>
 <div class="col-md-6">
 
-### [Planifier des événements inclusifs et accessibles – Guide à l’intention des fonctionnaires fédéraux <span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-fra.asp)
+### [Planifier des événements inclusifs et accessibles – Guide à l’intention des fonctionnaires fédéraux <span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-fra.asp) du Bureau de la condition des personnes handicapée/Emploi et Développement social Canada (EDSC) (Plutôt pour les rencontres en personne)
 
-Bureau de la condition des personnes handicapée/Emploi et Développement social Canada (EDSC) (Plutôt pour les rencontres en personne)
+Le Bureau de la condition des personnes handicapées (BCPH) est fier de présenter ce guide à des collègues du gouvernement du Canada afin de fournir une orientation sur la planification d’événements inclusifs et accessibles.
 
 </div>
 <div class="col-md-6">
@@ -331,6 +333,8 @@ Pratiques exemplaires à suivre pour les réunions et événements unilingues ou
 <div class="col-md-6">
 
 ### [Recommandations pour la configuration et l’exécution d’une réunion teams ou d’un événement en direct pour les personnes sourdes ou malentendantes](https://support.microsoft.com/fr-fr/topic/recommandations-pour-la-configuration-et-l-ex%C3%A9cution-d-une-r%C3%A9union-teams-ou-d-un-%C3%A9v%C3%A9nement-en-direct-pour-les-personnes-sourdes-ou-malentendantes-6d5ff6ac-c6f3-434b-ac95-c6e2e15ff0ac)
+
+Lors de la configuration et de l’exécution de Microsoft Teams réunions et d’événements en direct, il est important de connaître les bonnes pratiques pour s’assurer que votre contenu est accessible aux sourds et malentendants. Les fonctionnalités telles que les sous-titres en direct et le choix d’un arrière-plan clair sont importantes pour s’assurer que tout le monde peut participer de manière égale.
 
 </div>
 <div class="col-md-6">
