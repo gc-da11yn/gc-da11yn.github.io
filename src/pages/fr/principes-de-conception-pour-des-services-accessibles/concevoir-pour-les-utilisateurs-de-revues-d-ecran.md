@@ -29,7 +29,7 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 - Répartir le contenu sur toute la page
 - Structurer en s’appuyant sur la taille et la position du texte
 - Forcer l’utilisation de la souris ou de l’écran
-- Rédiger des liens et des titres sans valeur ajoutéeContactez-nous
+- Rédiger des liens et des titres sans valeur ajoutée
 
 </div>
 </div>
