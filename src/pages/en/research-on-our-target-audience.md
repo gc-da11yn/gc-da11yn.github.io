@@ -1,8 +1,8 @@
 ---
-title: Persona
+title: Research on our target audience
 description: The main goal of creating these personas was to better understand our target audience. By developing a greater understanding of our users. By developing a greater understanding of our users, we would be able to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit’s website.
 tags: aboutUs
-toggle: persona
+toggle: recherche-sur-notre-audience
 ---
 
 ## The creation of our persona
@@ -55,7 +55,7 @@ We believe it is important to account for a wide range of human experiences. Thi
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronouns</dt>
 <dd>He/Him</dd>
 <dt>Age</dt>
@@ -127,7 +127,7 @@ Category: audio replacement and enhancement.
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronouns</dt>
 <dd>She/Her</dd>
 <dt>Age</dt>
@@ -203,7 +203,7 @@ Category: Vision Enhancements
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronouns </dt>
 <dd>She/Her.</dd>
 <dt>Age </dt>
@@ -278,7 +278,7 @@ Category: Mobility and Dexterity Enhancement.
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronouns </dt>
 <dd>They/Them.</dd>
 <dt>Age </dt>
@@ -352,7 +352,7 @@ Category: Mobility Enhancements.
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronouns </dt>
 <dd>He/Him.</dd>
 <dt>Age </dt>
@@ -423,7 +423,7 @@ Category: Cognitive and Learning Style Enhancement.
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronouns </dt>
 <dd>She/Her.</dd>
 <dt>Age </dt>
@@ -495,7 +495,7 @@ Category: Cognitive and Learning Style Enhancement and others.
 
 #### <span class="far fa-address-card" aria-hidden="true"></span> About
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronouns </dt>
 <dd>He/Him.</dd>
 <dt>Age </dt>

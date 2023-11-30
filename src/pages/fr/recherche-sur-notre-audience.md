@@ -1,8 +1,8 @@
 ---
-title: Persona
+title: Recherche sur notre audience
 description: L’objectif principal de la création de ces persona était de mieux comprendre notre public cible. En développant une meilleure compréhension de nos utilisateurs, nous serons en mesure de construire une architecture de site réactive pour tout le contenu existant et futur hébergé sur le site Web de la boite à outils d’accessibilité numérique.
 tags: aboutUs
-toggle: Persona
+toggle: research-on-our-target-audience
 ---
 
 ## À propos de la création de notre personnage
@@ -55,7 +55,7 @@ Nous croyons qu’il est important de tenir compte d’un large éventail d’ex
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronoms</dt>
 <dd>Il / Lui</dd>
 <dt>Âge</dt>
@@ -127,7 +127,7 @@ Catégorie: remplacement et amélioration audio.
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronoms</dt>
 <dd>Elle / Elle.</dd>
 <dt>Âge </dt>
@@ -203,7 +203,7 @@ Catégorie : Amélioration de la vision
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronoms </dt>
 <dd>Elle / Elle.</dd>
 <dt>Âge </dt>
@@ -278,7 +278,7 @@ Catégorie: Amélioration de la mobilité et de la dextérité.
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronoms </dt>
 <dd>Ils / Eux.</dd>
 <dt>Âge  </dt>
@@ -352,7 +352,7 @@ Catégorie : Amélioration de la mobilité.
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronoms </dt>
 <dd>Il / Lui.</dd>
 <dt>Âge </dt>
@@ -423,7 +423,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage.
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronoms </dt>
 <dd>Elle / Elle.</dd>
 <dt>Âge </dt>
@@ -495,7 +495,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage et autres.
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl>
+<dl class="dl-horizontal brdr-0">
 <dt>Pronoms </dt>
 <dd>Il / Lui.</dd>
 <dt>Âge </dt>
