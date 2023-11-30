@@ -3,8 +3,6 @@ title: Ressources additionnelles sur les réunions et événements accessibles
 description: Pour plus d'informations sur les réunions et événements accessibles, vous pouvez consulter cette liste de liens.
 internalLinks: true
 toggle: additional-resources-on-accessible-meetings-and-events
-subject:
-tags:
 ---
 
 - [Planifier des événements inclusifs et accessibles  – Guide à l’intention des fonctionnaires fédéraux<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-fra.asp) (format HTML) du Bureau de la condition des personnes handicapée/Emploi et Développement social Canada (EDSC) (Plutôt pour les rencontres en personne)
