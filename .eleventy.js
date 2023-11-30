@@ -5,8 +5,24 @@ const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
 const path = require('path');
 const fs = require('fs');
+const { getGitLastUpdatedTimeStamp, getGitFirstAddedTimeStamp } = require('./gitDateHelpers');
 
 module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addPlugin({
+    name: 'gitDateHelpers',
+    configFunction: function(eleventyConfig) {
+      eleventyConfig.addFilter('modified', (data) => {
+        let timestamp = getGitLastUpdatedTimeStamp(data.page.inputPath);
+        return timestamp ? new Date(timestamp) : new Date();
+      });
+
+      eleventyConfig.addFilter('created', (data) => {
+        let timestamp = getGitFirstAddedTimeStamp(data.page.inputPath);
+        return timestamp ? new Date(timestamp) : new Date();
+      });
+    }
+  });
 
   let markdownItOptions = {
     html: true, // you can include HTML tags

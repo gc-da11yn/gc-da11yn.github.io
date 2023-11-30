@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "clean-html": "^2.0.1",
+    "cross-spawn": "^7.0.3",
     "esm": "^3.2.25",
     "markdown-it-replace-link": "^1.2.0",
     "prompt-sync": "^4.2.0",
