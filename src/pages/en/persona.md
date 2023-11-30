@@ -2,6 +2,7 @@
 title: Persona
 description: The main goal of creating these personas was to better understand our target audience. By developing a greater understanding of our users. By developing a greater understanding of our users, we would be able to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit’s website.
 tags: aboutUs
+toggle: persona
 ---
 
 ## The creation of our persona
@@ -91,6 +92,8 @@ Category: audio replacement and enhancement.
 - Other: Transcripts during/post-event.
 
 </div>
+</div>
+<div class="row">
 <div class="col-md-6">
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
@@ -490,7 +493,7 @@ Category: Cognitive and Learning Style Enhancement and others.
 <div class="row">
 <div class="col-md-6">
 
-#### <span class="far fa-address-card" aria-hidden="true" > About
+#### <span class="far fa-address-card" aria-hidden="true"></span> About
 
 <dl>
 <dt>Pronouns </dt>
