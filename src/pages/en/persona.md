@@ -66,10 +66,10 @@ We believe it is important to account for a wide range of human experiences. Thi
 <dt>Disability:</dt>
 <dd>Deaf since birth.
 <p>Example of Temporary or situational</p>
-  <ul>
-    <li>Temporary hearing loss due to an ear infection in the right ear.</li>
-    <li>Construction noise.</li>
-  </ul>
+<ul>
+<li>Temporary hearing loss due to an ear infection in the right ear.</li>
+<li>Construction noise.</li>
+</ul>
 </dd>
 </dl>
 </div>
@@ -136,9 +136,9 @@ Category: audio replacement and enhancement.
 <dt>Disability:</dt>
 <dd>Blurred vision with low contrast.
 <p>Example of Temporary or situational</p>
-  <ul>
-     <li>Brightness from the sun.</li>
-  </ul>
+<ul>
+<li>Brightness from the sun.</li>
+</ul>
 </dd>
 </dl>
 </div>
@@ -164,6 +164,8 @@ Category: Vision Enhancements
 - Screen magnification.
 
 </div>
+</div>
+<div class="row">
 <div class="col-md-6">
 
 ### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
@@ -211,8 +213,8 @@ Category: Vision Enhancements
 <dd>Fibromyalgia.
 <p> Example of Temporary or situational </p>
 <ul>
-    <li>Inflammatory arthritis.</li>
-    <li>Bumpy car ride.</li>
+<li>Inflammatory arthritis.</li>
+<li>Bumpy car ride.</li>
 </ul>
 </dd>
 </dl>
@@ -237,6 +239,8 @@ Category: Mobility and Dexterity Enhancement.
 - Voice recognition software.
 
 </div>
+</div>
+<div class="row">
 <div class="col-md-6">
 
 ### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
@@ -284,8 +288,8 @@ Category: Mobility and Dexterity Enhancement.
 <dd>Motor Neurone Disease.
 <p> Example of Temporary or situational </p>
 <ul>
-  <li>Holding a baby.</li>
-  <li>Fracturing a limb.</li>
+<li>Holding a baby.</li>
+<li>Fracturing a limb.</li>
 </ul>
 </dd>
 </dl>
@@ -309,6 +313,8 @@ Category: Mobility Enhancements.
 - Adaptive keyboards.
 
 </div>
+</div>
+<div class="row">
 <div class="col-md-6">
 
 ### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
@@ -356,7 +362,7 @@ Category: Mobility Enhancements.
 <dd>Autism spectrum disorder, Dyslexia.
 <p> Example of Temporary or situational </p>
 <ul>
-  <li>Sustaining a Concussion.</li>
+<li>Sustaining a Concussion.</li>
 </ul>
 </dd>
 </dl>
@@ -379,6 +385,8 @@ Category: Cognitive and Learning Style Enhancement.
 - Text to speech software.
 
 </div>
+</div>
+<div class="row">
 <div class="col-md-6">
 
 ### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
@@ -425,8 +433,8 @@ Category: Cognitive and Learning Style Enhancement.
 <dd>ADHD, anxiety-disorder, severe hearing loss, hear sounds but can’t distinguish speech
 <p> Example of Temporary or situational </p>
 <ul>
-  <li>Users who aren’t familiar with the internet.</li>
-  <li>Non-native speakers.</li>
+<li>Users who aren’t familiar with the internet.</li>
+<li>Non-native speakers.</li>
 </ul>
 </dd>
 </dl>
@@ -450,6 +458,8 @@ Category: Cognitive and Learning Style Enhancement and others.
 - Password manager.
 
 </div>
+</div>
+<div class="row">
 <div class="col-md-6">
 
 ### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
@@ -495,8 +505,8 @@ Category: Cognitive and Learning Style Enhancement and others.
 <dd>Muscle fatigue and slurred speech.
 <p> Example of Temporary or situational </p>
 <ul>
-  <li>Repetitive stress injury and cannot speak in certain situations due to anxiety.</li>
-  <li>Recovering from a concussion.</li>
+<li>Repetitive stress injury and cannot speak in certain situations due to anxiety.</li>
+<li>Recovering from a concussion.</li>
 </ul>
 </dd>
 </dl>
@@ -522,6 +532,8 @@ Category: Mobility and Speech replacement or enhancements.
 - Templates and organizational tools.
 
 </div>
+</div>
+<div class="row">
 <div class="col-md-6">
 
 ### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
