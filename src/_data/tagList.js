@@ -56,7 +56,7 @@ module.exports = {
 			resourcesAndTools: "Ressources et outils",
 			learningAndDevelopment: "Apprentissage et perfectionnement",
 			accessibilityInTheGovernmentOfCanada:
-				"Accessibilité au gouvernement du Canada",
+				"Accessibilité numérique au gouvernement du Canada",
 			aboutUs: "À propos de nous",
 		},
 		en: {
@@ -65,7 +65,7 @@ module.exports = {
 			resourcesAndTools: "Resources and Tools",
 			learningAndDevelopment: "Learning and Development",
 			accessibilityInTheGovernmentOfCanada:
-				"Accessibility in the Government of Canada",
+				"Digital accessibility in the Government of Canada",
 			aboutUs: "About Us",
 		},
 	},
