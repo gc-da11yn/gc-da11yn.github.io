@@ -1,0 +1,24 @@
+<div class="well provisional well-lg brdr-0 mrgn-tp-lg">
+
+{% if collections.updatesMain === undefined %}
+
+{% else %}
+<section class="container">
+	<h2 class="mrgn-tp-sm">{% if locale === "en" %}Latest updates{% else %}Dernières mises à jour{% endif %}</h2>
+	<p>
+		{% if locale === "en" %}
+		Explore our latest content
+		{% else %}
+		Explorez notre contenu le plus récent.
+		{% endif %}
+	</p>
+	<ul class="row wb-eqht-grd list-unstyled small">
+	{% for item in collections.updatesMain| sort(false, false, 'data.title') | localeMatch(locale) %}
+		<li class="col-xs-12 col-sm-6 mrgn-tp-sm mrgn-bttm-sm"><a href="{{ item.url }}">{{ item.data.title }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"><time>{{ item.date | postDate }}</time></small></a></li>
+	{% endfor %}
+	</ul>
+</section>
+
+{% endif %}
+
+</div>

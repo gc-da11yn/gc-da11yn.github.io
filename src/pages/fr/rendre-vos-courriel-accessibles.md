@@ -1,7 +1,9 @@
 ---
 title: Rendre vos courriel accessibles
 description: Un courriel accessible est important pour les personnes handicapées, mais aussi pour tout le monde. Découvrez comment créer un e-mail accessible dans Outlook.
-tags: howTos
+tags:
+  - howTos
+  - updatesMain
 toggle: making-accessible-emails
 ---
 

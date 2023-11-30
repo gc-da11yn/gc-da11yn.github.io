@@ -30,17 +30,17 @@
 			</div>
 		</div>
 
-		<div class="container">
 			{% include "partials/alerts.njk" %}
+			<div class="container">
 			{% if officeTOC === true %}
 			{% include "partials/office-toc.njk" %}
 			{% endif %}
-			{{ content | safe }}
-			{% if officeTOC === true %}
-			{% include "partials/office-toc.njk" %}
+				{{ content | safe }}
+				{% if officeTOC === true %}
+				{% include "partials/office-toc.njk" %}
+			</div>
 			{% endif %}
 			{% include "partials/pagedetails.njk" %}
-		</div>
 
 	</main>
 

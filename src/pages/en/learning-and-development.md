@@ -3,7 +3,9 @@ title: Learning and Development
 description: Discover a curated collection of learning products to enhance your understanding of accessibility. Whether you're a developer, designer, or enthusiast, explore our links to courses, tutorials, and tools. Join us in creating a more inclusive digital world.
 toggle: apprentissage-et-perfectionnement
 internalLinks: true
-tags: main
+tags:
+  - main
+  - updatesMain
 ---
 
 ## [CSPS Accessibility Learning Series (csps-efpc.gc.ca)](https://www.csps-efpc.gc.ca/accessibility-learning-eng.aspx)
