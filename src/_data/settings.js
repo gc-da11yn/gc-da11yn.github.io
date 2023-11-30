@@ -4,10 +4,10 @@ module.exports = {
 	baseUrl: "/",
 	url: "https://a11y.canada.ca/",
 	en: {
-		metaTitle: "Digital Accessibility Toolkit / Sharing space",
+		metaTitle: "Digital Accessibility Toolkit",
 	},
 	fr: {
 		metaTitle:
-			"Boîte à outils d'accessibilité numérique / Espace de partage",
+			"Boîte à outils d'accessibilité numérique",
 	},
 };
