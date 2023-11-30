@@ -14,12 +14,12 @@ Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PD
 
 ## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
 
-- Permettez aux utilisateurs de contrôler le contraste et les couleurs sur l'écran
-- Alignez les textes sur la marge gauche, gardez une disposition cohérente et utilisez une police sans empattements à 12 Pts
-- Gardez le contenu court,clair et simple
-- Utilisez des images et des diagrammes pour soutenir le texte et les idées complexes
-- Utilisez des couleurs simples et utilisez du papier de couleur comme le jaune ou le rose
-- Utilisez des supports audio et vidéo pour interagir avec les utilisateurs
+- Permettre aux utilisateurs de contrôler le contraste et les couleurs sur l'écran
+- Aligner les textes sur la marge gauche, gardez une disposition cohérente et utilisez une police sans empattements à 12 Pts
+- Garder le contenu court, clair et simple
+- Utiliser des images et des diagrammes pour soutenir le texte et les idées complexes
+- Utiliser des couleurs simples et utilisez du papier de couleur comme le jaune ou le rose
+- Utiliser des supports audio et vidéo pour interagir avec les utilisateurs
 
 </div>
 <div class="col-md-6">
