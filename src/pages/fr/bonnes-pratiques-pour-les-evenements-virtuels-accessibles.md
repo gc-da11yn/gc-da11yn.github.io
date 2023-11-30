@@ -4,6 +4,7 @@ description: Ce guide porte sur la planification d'événements, englobant un la
 toggle: best-practices-for-accessible-virtual-events
 subject: howTos
 tags: accessibleVirtualEvents
+internalLinks: true
 ---
 
 

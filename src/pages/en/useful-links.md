@@ -4,6 +4,7 @@ description: This page contains a list of key links for ESDC's IT Accessibility 
 toggle: liens-utiles
 tags:
   - resourcesAndTools
+internalLinks: true
 ---
 
 <table class="wb-tables table table-striped table-hover">
