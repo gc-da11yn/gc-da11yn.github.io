@@ -49,6 +49,8 @@ We believe it is important to account for a wide range of human experiences. Thi
 - [Valeria – Cognitive and Auditory](#Valeria)
 - [Yosef – Mobility and Speech](#Yosef)
 
+<section class="brdr-tp mrgn-tp-lg">
+
 ### Brandon – Auditory {#Brandon}
 
 <div class="row">
@@ -120,6 +122,8 @@ Category: audio replacement and enhancement.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Alasie - Vision {#Alasie}
 
@@ -196,6 +200,8 @@ Category: Vision Enhancements
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Yenah - Dexterity {#Yenah}
 
@@ -271,6 +277,8 @@ Category: Mobility and Dexterity Enhancement.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Ike - Mobility {#Ike}
 
@@ -345,6 +353,8 @@ Category: Mobility Enhancements.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Damien - Cognitive {#Damien}
 
@@ -416,6 +426,8 @@ Category: Cognitive and Learning Style Enhancement.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Valeria – Cognitive and Auditory {#Valeria}
 
@@ -488,6 +500,8 @@ Category: Cognitive and Learning Style Enhancement and others.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Yosef – Mobility and Speech {#Yosef}
 
@@ -563,3 +577,4 @@ Category: Mobility and Speech replacement or enhancements.
 
 </div>
 </div>
+</section>

@@ -48,6 +48,8 @@ Nous croyons qu’il est important de tenir compte d’un large éventail d’ex
 - [Valeria – Cognitive et auditive](#Valeria)
 - [Yosef – Mobilité et parole](#Yosef)
 
+<section class="brdr-tp mrgn-tp-lg">
+
 ### Brandon - Auditif {#Brandon}
 
 <div class="row">
@@ -119,6 +121,8 @@ Catégorie: remplacement et amélioration audio.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Alasie - Vision {#Alasie}
 
@@ -195,6 +199,8 @@ Catégorie : Amélioration de la vision
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Yenah - Dextérité {#Yenah}
 
@@ -270,6 +276,8 @@ Catégorie: Amélioration de la mobilité et de la dextérité.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Ike - Mobility {#Ike}
 
@@ -344,6 +352,8 @@ Catégorie : Amélioration de la mobilité.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Damien - Cognitive {#Damien}
 
@@ -415,6 +425,8 @@ Catégorie: Amélioration du style cognitif et d’apprentissage.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Valeria – Cognitive and Auditory {#Valeria}
 
@@ -487,6 +499,8 @@ Catégorie: Amélioration du style cognitif et d’apprentissage et autres.
 
 </div>
 </div>
+</section>
+<section class="brdr-tp mrgn-tp-lg">
 
 ### Yosef – Mobilité et parole {#Yosef}
 
@@ -562,3 +576,4 @@ Catégorie : Remplacement ou amélioration de la mobilité et de la parole.
 
 </div>
 </div>
+</section>
