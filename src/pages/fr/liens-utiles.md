@@ -2,8 +2,6 @@
 title: Liens utiles
 description: Cette page contient une liste de liens utiles pour le bureau d'accessibilité informatique de l'ESDC.
 toggle: useful-links
-tags:
-  - resourcesAndTools
 internalLinks: true
 ---
 
