@@ -4,6 +4,7 @@ description: This guide is all about planning events, covering a broad range of 
 toggle: bonnes-pratiques-pour-les-evenements-virtuels-accessibles
 subject: howTos
 tags: accessibleVirtualEvents
+internalLinks: true
 
 ---
 

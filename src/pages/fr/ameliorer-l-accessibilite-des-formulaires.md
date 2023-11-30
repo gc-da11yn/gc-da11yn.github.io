@@ -6,6 +6,7 @@ subject:
 tags:
   - createForms
 toggle: find-out-how-to-make-accessible-digital-forms
+internalLinks: true
 ---
 
 ## Le format de formulaire le plus accessible: HTML
