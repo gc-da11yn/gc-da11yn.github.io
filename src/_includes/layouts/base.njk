@@ -22,8 +22,13 @@
 			</div>
 			<div class="well bg-dark text-white">
 				<div class="container">
-				<p class="h1"><i class="fas fa-bullhorn fa-lg"></i>The new Digital Accessibility Toolkit is coming on <time class="visible-xs-block visible-sm-block visible-md-block visible-lg-block mrgn-tp-md">Sunday, December 3, 2023</time></p>
-				<p>Stay tuned for our revamped site with new accessibility resources to support you at work and in digital spaces.</p>
+					{% if locale === "en" %}
+						<p class="h1"><i class="fas fa-bullhorn fa-lg"></i>The new Digital Accessibility Toolkit is coming on <time class="visible-xs-block visible-sm-block visible-md-block visible-lg-block mrgn-tp-md">Sunday, December 3, 2023</time></p>
+						<p>Stay tuned for our revamped site with new accessibility resources to support you at work and in digital spaces.</p>
+					{% else %}
+						<p class="h1"><i class="fas fa-bullhorn fa-lg"></i>La nouvelle Boîte à outils de l'accessibilité numérique sera en ligne <time class="visible-xs-block visible-sm-block visible-md-block visible-lg-block mrgn-tp-md">Le dimanche 3 décembre 2023</time></p>
+						<p>Restez à l'affut pour découvrir notre site repensé, doté de nouvelles ressources sur l'accessibilité conçues pour vous assister dans votre travail et dans les environnements numériques.</p>
+					{% endif %}
 				</div>
 			</div>
 		</div>
