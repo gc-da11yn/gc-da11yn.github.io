@@ -30,9 +30,9 @@ Notre approche est modulaire: nous avons combiné deux types de persona pour cr�
 ## Types d’incapacités et inclusivité
 
 Dans nos persona, nous avons inclus une variété de handicaps et un éventail de limitations:
-• Invalidités permanentes
-• Limitations temporaires
-• Incapacités et limitations situationnelles
+- Invalidités permanentes
+- Limitations temporaires
+- Incapacités et limitations situationnelles
 
 Nous croyons qu’il est important de tenir compte d’un large éventail d’expériences humaines. C’est pourquoi, pour chaque type d’incapacité, nous avons inclus différentes possibilités d’exclusion.
 

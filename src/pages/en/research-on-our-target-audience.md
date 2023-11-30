@@ -30,9 +30,10 @@ Our approach is modular: we combined two types of persona to create a template t
 ## Disability types and inclusivity
 
 In our personas, we included a variety of disabilities and a spectrum of limitations:
-• Permanent disabilities
-• Temporary limitations
-• Situational disabilities/limitations
+
+- Permanent disabilities
+- Temporary limitations
+- Situational disabilities/limitations
 
 We believe it is important to account for a wide range of human experiences. This is why for each disability type we included different possibilities of exclusion.
 
