@@ -80,9 +80,9 @@ Si le document entier est en anglais mais que certaines sections renferment des 
 ### Resources
 
 - [Guide de rédaction du contenu du site Canada.ca — Langage clair et simple (Canada.ca)](https://conception.canada.ca/guide-redaction/#toc6)
-- <a href="http://en.copian.ca/library/learning/nwt/writread/writefor.pdf" hreflang="en" lang="en">Write for your Reader—A plain language handbook (copian.ca)<small lang="fr"> (en anglais seulement)</small></a>
-- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf" hreflang="en" lang="en">Putting plain language into practice (nwtliteracy.ca)<small lang="fr"> (en anglais seulement)</small></a>
-- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf" hreflang="en" lang="en">Plain Language Audit Tool—A checklist to review documents (nwtliteracy.ca)<small lang="fr"> (en anglais seulement)</small></a>
+- <a href="http://en.copian.ca/library/learning/nwt/writread/writefor.pdf" download hreflang="en" lang="en">Write for your Reader—A plain language handbook (copian.ca)<small lang="fr"> (en anglais seulement)</small></a>
+- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf" download hreflang="en" lang="en">Putting plain language into practice (nwtliteracy.ca)<small lang="fr"> (en anglais seulement)</small></a>
+- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf" download hreflang="en" lang="en">Plain Language Audit Tool—A checklist to review documents (nwtliteracy.ca)<small lang="fr"> (en anglais seulement)</small></a>
 
 ## Styles
 

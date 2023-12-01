@@ -72,10 +72,10 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 
 ## Sources
 
-- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.01_60/en_301549v010101p.pdf" hreflang='en'>Institut européen des normes de télécommunication, *EN 301 549 V1.1.1 (2014-02), 2014</a>
-- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" hreflang='en'>Institut européen des normes de télécommunication, *EN 301 549 V2.1.2 (2018-08), 2018</a>
-- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf" hreflang='en'>Institut européen des normes de télécommunication, *EN 301 549 V3.1.1 (2019-11), 2019</a>
-- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang='en'>Institut européen des normes de télécommunication, EN 301 549 V3.2.1 (2021-03), 2021</a>
+- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.01_60/en_301549v010101p.pdf" hreflang='en' download>Institut européen des normes de télécommunication, *EN 301 549 V1.1.1 (2014-02), 2014</a>
+- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" hreflang='en' download>Institut européen des normes de télécommunication, *EN 301 549 V2.1.2 (2018-08), 2018</a>
+- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf" hreflang='en' download>Institut européen des normes de télécommunication, *EN 301 549 V3.1.1 (2019-11), 2019</a>
+- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang='en' download>Institut européen des normes de télécommunication, EN 301 549 V3.2.1 (2021-03), 2021</a>
 - <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines" hreflang='en'>United States Access Board, <em>Text of the Standards and Guidelines</em>, 2017</a>
 
 ## Tableaux comparatifs

@@ -199,7 +199,7 @@ Cette ligne directrice soutient la direction du gouvernement du Canada pour s’
 </div>
 <div class="col-md-6">
 
-### <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" hreflang="en">EU EN 301 549 (Gestion de l’accessibilité dans les marchés publics des TIC)<small> (en anglais seulement)</small></a>
+### <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" hreflang="en" download>EU EN 301 549 (Gestion de l’accessibilité dans les marchés publics des TIC)<small> (en anglais seulement)</small></a>
 
 Les exigences en matière d’accessibilité qui conviennent à l’approvisionnement, par les organismes publics, de produits et services de technologies de l’information et des communications (TIC) en Europe.
 
