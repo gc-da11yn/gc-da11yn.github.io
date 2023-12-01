@@ -5,7 +5,7 @@ tags: designingAccessible
 toggle: designing-for-users-with-low-vision
 ---
 
-Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
+Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
 - <a href="{{ rootPath }}docs/posters/Malvoyants-fr_2023.pdf" download>Concevoir pour les utilisateurs malvoyants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 45 <abbr title="kilo-octet">ko</abbr>)</a>
 

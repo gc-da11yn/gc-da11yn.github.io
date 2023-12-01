@@ -1,6 +1,6 @@
 ---
 title: Améliorer l’accessibilité des formulaires
-description: Découvrez comment rendre les formulaires numériques accessibles.
+description: Dans cette section, vous trouverez les étapes essentielles pour le développement d’un formulaire accessible.
 subject:
   - howTos
 tags:
