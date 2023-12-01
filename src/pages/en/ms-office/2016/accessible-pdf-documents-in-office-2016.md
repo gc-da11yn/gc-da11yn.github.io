@@ -126,12 +126,12 @@ Creating an accessible PDF form is tricky, as form fields created in other progr
 Some general tips:
 
 - **Instructions**: Put instructions at the beginning of the form, rather than in between form fields.
-- **Labels**: In PDF documents, there is no way to specify what label applies to what form field, so each form field must also have its label entered into the “Tooltip” field. Radio buttons and check boxes require additional steps; see [University of Ottawa’s PDF accessibility guide](https://www.uottawa.ca/respect/accessibility-hub/training/pdf-accessibility-for-pc), specifically the section “Common PDF accessibility errors with solutions” > “Form fields properties”.
+- **Labels**: : In PDF documents, there is no way to specify what label applies to what form field, so each form field must also have its label entered into the “Tooltip” field. Radio buttons and check boxes require additional steps.
 - **Input format:** Ensure that the correct format is suggested, if one is required. - Ex. Date of birth (YYYY-MM-DD). As with all labels, this should be repeated in the tooltip.
 - **Required fields:** Indicate which fields are required. Do not rely solely on colour. If an asterisk (\*) is used to indicate required fields, include the following text at the start of the form (e.g. \* indicates a required field).
 - **Tab order**: Test the form using only the keyboard (using the **Tab** key to move between fields).
-- Ensure that it is obvious (visually) which field is active at all times
-- Ensure that the tab order follows the expected (visual) order
+  - Ensure that it is obvious (visually) which field is active at all times
+  - Ensure that the tab order follows the expected (visual) order
 
 ### Reading order
 
@@ -151,7 +151,7 @@ Enabling PhantomPDF’s built-in accessibility features, located in the Ribbon u
 
 Testing a form with [NVDA (a free screen reader)](https://www.nvaccess.org/) will quickly identify label and tab order issues. Try to fill out the form using nothing but your ears and your keyboard. This will give you an idea of what screen reader users will experience.
 
-An alternative to PhantomPDF’s inbuilt accessibility checker is [Free PDF Accessibility Checker (PAC 3)](https://www.access-for-all.ch/en/pdf-accessibility-checker.html). While this program alone won’t allow you to remediate issues, you may be able to make your fixes upstream in the authoring tool (Word, InDesign, etc.). It may also identify issues that PhantomPDF does not.
+An alternative to PhantomPDF’s inbuilt accessibility checker is [Free PDF Accessibility Checker (PAC) 2021 - PDF/UA Foundation (pdfua.foundation)](https://pdfua.foundation/en/pdf-accessibility-checker-pac/). While this program alone won’t allow you to remediate issues, you may be able to make your fixes upstream in the authoring tool (Word, InDesign, etc.). It may also identify issues that PhantomPDF does not.
 
 ## Additional resources
 

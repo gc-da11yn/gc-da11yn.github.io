@@ -88,7 +88,7 @@ To verify that headings and labels have been properly structured, navigate on th
 
 By default, a screen reader will read the slide title first, followed by other content in elements defined in the slide layout. Then it will read any additional content on the side in the order it was added to the slide. If you add content with this principle in mind, it should be presented to screen reader users in a logical order.
 
-Use the **Selection** **Pane** to set the order in which the screen readers read the slide contents. The Pane will show every object onn the slide. Highlighting an object in the pane will also highlight it in the slide.
+Use the **Selection Pane** to set the order in which the screen readers read the slide contents. The Pane will show every object on the slide. Highlighting an object in the pane will also highlight it in the slide.
 
 To check the reading order:
 
@@ -99,7 +99,7 @@ To change the reading order:
 
 1. On the **Home** tab, in the **Drawing** group, select **Arrange**
 2. In the **Arrange** menu, select **Selection Pane**
-3. In the **Selection** **Pane**, to change the reading order, do one of the following:
+3. In the **Selection Pane**, to change the reading order, do one of the following:
     1. Drag and drop items to the new location
     2. Select the item and then select the Up arrow button (Bring Forward) or Down arrow button (Send Backward)
 

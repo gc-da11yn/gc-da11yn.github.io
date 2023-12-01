@@ -33,7 +33,7 @@ Le Groupe de travail sur l’accès (<abbr>GTA</abbr>) souhaite permettre la cen
 
 ## Rôle essentiel
 
-Le groupe de travail sur la Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) soutient la stratégie d'accessibilité du service public [Objectif 3 : Technologie rendre les technologies de l'information et des communications utilisables par tous](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm/strategie-accessibilite-fonction-publique-technologie.html).
+Le groupe de travail sur la Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) soutient la stratégie d'accessibilité du service public Objectif 3 : [Technologie rendre les technologies de l'information et des communications utilisables par tous](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm/strategie-accessibilite-fonction-publique-technologie.html).
 
 Ce groupe de travail devra:
 

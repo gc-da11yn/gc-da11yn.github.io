@@ -1,6 +1,6 @@
 ---
 title: Accessibility Testing 101
-description: For anyone wanting to create accessible content, it is encouraged to use automated accessibility testing tools. These testing tools will help content creators as they build their content by finding errors and offering suggestions to improve the accessibility of their product, application or web site. On this page a list of recommended accessibility testing tools has been made available.
+description: For anyone wanting to create accessible content, we encourage you to use automated accessibility testing tools. These testing tools will help content creators as they build their content by finding errors and offering suggestions to improve the accessibility of their product, application or web site. On this page a list of recommended accessibility testing tools has been made available
 toggle: test-d-accessibilite-101
 subject: howTos
 tags: testYourProducts
@@ -44,7 +44,7 @@ WAVE Tips and Tricks:
 
 - [Tips for Getting the Most Out of WAVE](https://webaim.org/blog/tips-for-getting-the-most-out-of-wave/)
 
-The WAVE sidebar indicates if WAVE has detected any errors or not. The absence of errors DOES NOT mean your page is accessible or compliant. **RED icons** indicate accessibility errors that need to be fixed. **GREEN icons** indicate accessibility features - things that improve accessibility (though these should be verified). The other icons and indicators, particularly the yellow alert icons, highlight other elements that you should look at. WAVE brings the underlying accessibility information of a page to the forefront so it can be easily evaluated in context.
+The WAVE sidebar indicates if WAVE has detected any errors or not. The absence of errors DOES NOT mean your page is accessible or compliant. **RED icons** indicate accessibility errors that need to be fixed. **GREEN icons** indicate accessibility features&mdash;things that improve accessibility (though these should be verified). The other icons and indicators, particularly the yellow alert icons, highlight other elements that you should look at. WAVE brings the underlying accessibility information of a page to the forefront so it can be easily evaluated in context.
 
 Styles and Code:
 
@@ -57,11 +57,11 @@ Accessibility Insights for Web is an extension for Chrome and Microsoft Edge tha
 The tool supports two primary scenarios:
 
 - FastPass is a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
-  - Automated checks - the tool automatically checks for compliance with approximately 50 accessibility requirements.
-  - Tab stops - the tool provides clear instructions, partial automation, and a visual helper that makes it easy to identify critical accessibility issues related to keyboard access, such as missing tab stops, keyboard traps, and incorrect tab order.
+  - Automated checks&mdash;the tool automatically checks for compliance with approximately 50 accessibility requirements.
+  - Manual tests&mdash;the tool provides step-by-step instructions, examples, and how-to-fix guidance for approximately 20 tests; many tests are “assisted”, which means that the tool identifies the test instances or provides a visual helper.
 - Assessment allows anyone with HTML skills to verify that a web app or web site is compliant with Web Content Accessibility Guidelines (WCAG) 2.1 Level AA.
-  - Automated checks - the tool automatically checks for compliance with approximately 50 accessibility requirements.
-  - Manual tests - the tool provides step-by-step instructions, examples, and how-to-fix guidance for approximately 20 tests; many tests are "assisted", which means that the tool identifies the test instances or provides a visual helper.
+  - Automated checks&mdash;the tool automatically checks for compliance with approximately 50 accessibility requirements.
+  - Manual tests&mdash;the tool provides step-by-step instructions, examples, and how-to-fix guidance for approximately 20 tests; many tests are "assisted", which means that the tool identifies the test instances or provides a visual helper.
 
 This is a tool for all levels, you do not need to know accessibility to use it, it will guide you through each step.
 
@@ -104,8 +104,8 @@ Browsers:
 
 LightHouse Extension Documentation:
 
-- [Lighthouse - Chrome Developers](https://developer.chrome.com/docs/lighthouse/)
-- [Lighthouse tool - Microsoft Edge Development \| Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/lighthouse/lighthouse-tool)
+- [Lighthouses&mdash;Chrome Developers](https://developer.chrome.com/docs/lighthouse/)
+- [Lighthouse tools&mdash;Microsoft Edge Development \| Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/lighthouse/lighthouse-tool)
 
 Additional Help:
 
@@ -133,7 +133,7 @@ Review or test your site periodically to ensure there are no new errors and the 
 
 - Test all navigation and interactivity of each webpage using only the keyboard and assistive technologies such as JAWS, NVDA, ZoomText.
 - Make sure images contain alt text or are marked as decorative if no important or valuable information is being presented to users.
-  - If an image provides important or valuable information, then proper alt text is required, no more than 150 characters. If the image contents cannot be explained within that limit, then a graphic description below the image is required.
+  - If an image provides important or valuable information, then proper alt text is required, no more than 150&nbsp;characters. If the image contents cannot be explained within that limit, then a graphic description below the image is required.
 - Tab between sections of a webpage to ensure content follows a meaningful top-to-bottom, left-to-right focus order.
   - Also ensure visible focus surrounds all tabbable and focusable elements.
 - Ensure users do not encounter a page trap when using the keyboard.
@@ -143,10 +143,10 @@ Review or test your site periodically to ensure there are no new errors and the 
   - If a link opens in a new browser tab or window, it is recommended to inform users that this action will occur within the link text or link title tag, for example “Opens in a new browser tab/window”.
 - Ensure all form elements such as radio buttons, checkboxes, edit fields, and drop-down lists have proper labels.
   - Also give proper error prevention and suggestion to users when form errors must be corrected.
-- Make sure videos have descriptive transcripts, and provide closed captioning that users can turn on and off.
+- Make sure videos have descriptive transcripts and provide closed captioning (users can these on and off).
 - Ensure page content scales gracefully in all viewports and is usable when zoomed up to 400%.
-- Ensure the HTML and CSS mark-up is correct by validating code through a validation tool such as W3C Validator or CSS HTML Validator.
-- Conduct performance testing on different networks, as sometimes complex content (for example large images or page interactivity and functionality) takes a while to load on slower networks.
+- Ensure the HTML and CSS markup is correct by validating code through a validation tool such as W3C Validator or CSS HTML Validator.
+- Conduct performance testing on different networks, as sometimes complex content (for example, large images or page interactivity and functionality) takes a while to load on slower networks.
 - Turn off the speaker, microphone, and use only the keyboard to access the webpage and assess if the experience was the same. Are you able to understand all audio/video content and participate in all activities presented on the page without any loss of information?
 
 ### Additional Resources

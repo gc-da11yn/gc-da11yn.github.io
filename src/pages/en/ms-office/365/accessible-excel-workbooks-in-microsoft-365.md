@@ -25,7 +25,7 @@ The **Accessibility Checker** is also located on the Ribbon under the **Review**
 
 ## Tables
 
-Avoid using complex table structures in all documents. If tables include nested tables, merged cells, split cells and/or blank rows/ columns, they become difficult for screen readers to navigate . When using a table, design it to be as simple as possible. Assign meaningful names to the headers and rows to facilitate user navigation.
+Avoid using complex table structures in all documents. If tables include nested tables, merged cells, split cells and/or blank rows / columns, they become difficult for screen readers to navigate. When using a table, design it to be as simple as possible. Assign meaningful names to the headers and rows to facilitate user navigation.
 
 ## Sheet tabs
 
