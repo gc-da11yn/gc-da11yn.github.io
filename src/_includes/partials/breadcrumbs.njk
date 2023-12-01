@@ -15,7 +15,7 @@
 			</li>
 			{% endif %}
 
-			{% if tags != "main" %}
+			{% if tags[0] != "main" %}
 
 				{% if subject %}
 					<li><a href="/{{ locale }}/{{ tagList.tags[locale][subject] | stripTagsSlugify or tagList.subjects[locale][subject] | stripTagsSlugify }}">{{ tagList.tags[locale][subject] or tagList.subjects[locale][subject] }}</a></li>
@@ -24,7 +24,7 @@
 				{% if tags %}
 					{% for breadcrumb in tags %}
 
-					{% if breadcrumb != "mainAbout" %}
+					{% if breadcrumb != "updatesMain" %}
 					<li>
 						<a href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</a>
 					</li>
