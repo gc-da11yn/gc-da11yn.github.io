@@ -5,7 +5,7 @@ tags: designingAccessible
 toggle: designing-for-users-who-are-deaf-or-hard-of-hearing
 ---
 
-Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
+Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
 - <a href="{{ rootPath }}docs/posters/Sourds-fr_2023.pdf" download>Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)</a>
 

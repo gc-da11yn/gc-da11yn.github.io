@@ -5,7 +5,7 @@ tags: designingAccessible
 toggle: designing-for-users-on-the-autistic-spectrum
 ---
 
-Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
+Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
 - <a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre autistique (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
 

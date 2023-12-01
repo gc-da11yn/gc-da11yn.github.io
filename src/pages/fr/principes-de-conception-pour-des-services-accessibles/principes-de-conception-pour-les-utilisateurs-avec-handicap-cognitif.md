@@ -5,7 +5,7 @@ tags: designingAccessible
 toggle: designing-for-users-with-cognitive-disabilities
 ---
 
-Affiches imprimables format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
+Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
 - <a href="{{ rootPath }}docs/posters/Cognitif-fr_2023.pdf" download>Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
 
