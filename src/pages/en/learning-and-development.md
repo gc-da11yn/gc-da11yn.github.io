@@ -8,19 +8,32 @@ tags:
   - updatesMain
 ---
 
+<div class="gc-srvinfo">
+
 ## [CSPS Accessibility Learning Series (csps-efpc.gc.ca)](https://www.csps-efpc.gc.ca/accessibility-learning-eng.aspx)
 
 This series includes links to foundational courses, videos, job aids, strategies and other resources.
 
+<section>
+
 ### Courses
+
+<div class="row wb-eqht">
+<div class="col-md-6">
 
 #### [Addressing Disability Inclusion and Barriers to Accessibility (INC115) (csps-efpc.gc.ca)](https://catalogue.csps-efpc.gc.ca/product?catalog=INC115&cm_locale=en)
 
 This online self-paced course challenges common assumptions and beliefs about people with disabilities and aims to shift the perspective from the impairment to the barrier. Participants will learn about the different barriers faced by people with disabilities and how to make their workplaces and the services they provide inclusive, accessible and barrier free.
 
+</div>
+<div class="col-md-6">
+
 #### [Disability Management and Workplace Wellness (INC120) (csps-efpc.gc.ca)](https://catalogue.csps-efpc.gc.ca/product?catalog=INC120&cm_locale=en)
 
 This online self-paced course outlines the disability management process for responding to work-related and non-work-related impairments and functional restrictions, including injuries, illnesses, disabilities and other limitations. Participants will learn about the legislative instruments and disability management tools that support workplace wellness for federal government employees, as well as the accommodation measures to consider when creating a remain-at-work or a return-to-work plan.
+
+</div>
+</div>
 
 ### Videos on Disability Inclusion in the Public Service of Canada
 
@@ -38,6 +51,8 @@ This online self-paced course outlines the disability management process for res
 
 - [Promoting Inclusive Workplaces (INC1-J06) - CSPS (csps-efpc.gc.ca)](https://www.csps-efpc.gc.ca/tools/jobaids/promoting-inclusive-workplaces-eng.aspx)
 
+</section>
+
 ## ESDC / IT Accessibility office learning
 
 - [Coaching (bati-itao.github.io)](https://bati-itao.github.io/learning/coaching/index.html)
@@ -48,3 +63,5 @@ This online self-paced course outlines the disability management process for res
 ## Series of workshop, available on GcPedia
 
 - [GC Accessibility Training and Events (gcpedia.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/GC_Accessibility_Training_and_Events_/_Formation_et_événements_du_GC_sur_l'accessibilité?setlang=en&uselang=en)
+
+</div>
