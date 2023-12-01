@@ -30,7 +30,7 @@ tags: designCourse
 </div>
 <div class="col-md-6">
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À ne pas faire
+## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> À ne pas faire
 
 - N'utilisez pas des couleurs trop brillantes (fluo)
 - Ne vous fiez pas uniquement aux éléments visuels d'une vidéo pour transmettre de l'information. Ne supposez pas non plus que le lecteur d’écran annoncera tous les éléments qui apparaitront sur une diapositive
