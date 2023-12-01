@@ -8,6 +8,6 @@ module.exports = {
 	},
 	fr: {
 		metaTitle:
-			"Boîte à outils d'accessibilité numérique",
+			"Boîte à outils de l'accessibilité numérique",
 	},
 };

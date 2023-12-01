@@ -282,7 +282,7 @@ Tout le contenu distribué doit être accessible et dans les deux langues offici
 
 Envisagez de suivre une formation sur l'accessibilité. Lorsque le contenu est élaboré par des personnes qui ont acquis des connaissances en matière d'accessibilité et qui les appliquent dès le départ, cela permet de gagner bien du temps et d'économiser beaucoup d'argent en réduisant la nécessité de prendre des mesures correctives et en évitant les plaintes potentielles.
 
-Veuillez consulter la [boîte à outils d'accessibilité numérique](https://a11y.canada.ca/fr/guides/) pour obtenir des renseignements plus détaillés dans nos guides. En outre, nous vous recommandons de regarder [l'atelier enregistré de l'EFPC intitulé « Rendre ses documents accessibles (INC1-V46) »](https://www.csps-efpc.gc.ca/video/making-documents-accessible-fra.aspx).
+Veuillez consulter la [boîte à outils de l'accessibilité numérique](https://a11y.canada.ca/fr/guides/) pour obtenir des renseignements plus détaillés dans nos guides. En outre, nous vous recommandons de regarder [l'atelier enregistré de l'EFPC intitulé « Rendre ses documents accessibles (INC1-V46) »](https://www.csps-efpc.gc.ca/video/making-documents-accessible-fra.aspx).
 
 ##### Conseil général sur l'accessibilité des documents (s'applique à tous)
 

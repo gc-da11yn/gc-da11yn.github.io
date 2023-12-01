@@ -7,7 +7,7 @@ module.exports = {
 		contextualLink1: "",
 		contextualLink2: "https://a11y.canada.ca/fr/about/organizations/",
 		contextualLink3: "",
-		contextualLinkText1: "Contacter la Boîte à outils d'accessibilité numérique",
+		contextualLinkText1: "Contacter la Boîte à outils de l'accessibilité numérique",
 		contextualLinkText2: "Accessibilité au gouvernement du Canada",
 		contextualLinkText3: "Accessibilité par rôle",
 		departmentsAndAgencies: "Ministères et organismes",
