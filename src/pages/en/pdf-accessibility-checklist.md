@@ -9,9 +9,29 @@ tags:
   - createDocument
 ---
 
+<div class="row">
+<div class="col-sm-6">
+<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/PDF_Accessibility_Checklist.pdf" download="{{ title | stripTagsSlugify }}">
+<div class="well gc-dwnld">
+<div class="row">
+<div class="col-xs-4">
+<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
+</div>
+<div class="col-xs-8">
+<p class="gc-dwnld-txt">
+<span>{{ title }}</span>
+<span class="gc-dwnld-info">(<i class="fas fa-file-pdf mrg-rght-sm" aria-hidden="true"></i> <abbr title="Portable Document Format">PDF</abbr>, 324 <abbr title="KiloByte">KB</abbr>)</span>
+</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+
 ## Introduction
 
-The purpose of the PDF Accessibility Checklist is to support Employment and Social Development Canada (ESDC) PDF document developers ensure that accessibility compliance meets the [Web Content Accessibility Guidelines (WCAG) 2.1](http://www.w3.org/WAI/WCAG21/quickref/) standards. Please note that the checklist only contains WCAG criteria that are related to the most common errors identified in PDF documents.
+The purpose of the PDF Accessibility Checklist is to support Employment and Social Development Canada (ESDC) PDF document developers ensure that accessibility compliance meets the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) standards. Please note that the checklist only contains WCAG criteria that are related to the most common errors identified in PDF documents.
 
 We established a list of tools and resources to help developers verify their document accessibility, as well as the PDF Accessibility Checklist that identifies 27 success criteria that are pertinent to PDFs.
 
@@ -91,5 +111,3 @@ For any further questions or comments regarding the PDF Accessibility Checklist,
 <dt>Tags:</dt>
 <dd>The structured, textual representation of the PDF content that is accessed by screen readers, to read the document out-loud.</dd>
 </dl>
-
-<p><a class="btn btn-primary" href="{{ rootPath }}docs/PDF_Accessibility_Checklist.pdf" role="button">Download page (PDF, 324 KB)</a></p>

@@ -9,9 +9,29 @@ tags:
   - createDocument
 ---
 
+<div class="row">
+<div class="col-sm-6">
+<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Liste_de_verification_de_laccessibilite_des_documents_PDF.pdf" download="{{ title | stripTagsSlugify }}">
+<div class="well gc-dwnld">
+<div class="row">
+<div class="col-xs-4">
+<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
+</div>
+<div class="col-xs-8">
+<p class="gc-dwnld-txt">
+<span>{{ title }}</span>
+<span class="gc-dwnld-info">(<i class="fas fa-file-pdf mrg-rght-sm" aria-hidden="true"></i> <abbr lang="en" title="Portable Document Format">PDF</abbr>, 355 <abbr title="KiloByte">KB</abbr>)</span>
+</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+
 ## Introduction
 
-La liste de vérification de l’accessibilité des documents PDF vise à aider les développeurs de documents PDF d’Emploi et Développement social Canada (EDSC) à s’assurer que l’accessibilité est conforme aux normes [Règles pour l'accessibilité des contenus Web (WCAG) 2.1](http://www.w3.org/WAI/WCAG21/quickref/) (anglais seulement). Veuillez noter que la liste de vérification ne contient que des critères WCAG liés aux erreurs les plus courantes relevées dans les documents PDF.
+La liste de vérification de l’accessibilité des documents PDF vise à aider les développeurs de documents PDF d’Emploi et Développement social Canada (EDSC) à s’assurer que l’accessibilité est conforme aux normes [Règles pour l’accessibilité des contenus Web 2.1](https://www.w3.org/Translations/WCAG21-fr/). Veuillez noter que la liste de vérification ne contient que des critères WCAG liés aux erreurs les plus courantes relevées dans les documents PDF.
 
 Nous avons dressé une liste d’outils et de ressources pour aider les développeurs à vérifier l’accessibilité de leurs documents, ainsi que la liste de vérification de l’accessibilité des documents PDF qui établit 27 critères de réussite pertinents pour les documents PDF.
 
@@ -92,4 +112,3 @@ Pour toute autre question ou commentaire concernant la liste de vérification de
 <dd>Représentation textuelle structurée du contenu PDF auquel ont accès les lecteurs d’écran pour lire le document à haute voix.</dd>
 </dl>
 
-<a class="btn btn-primary" href="{{ rootPath }}docs/Liste_de_verification_de_laccessibilite_des_documents_PDF.pdf" role="button">Télécharger la page (PDF, 355 Ko)</a>
