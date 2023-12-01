@@ -101,5 +101,5 @@ Pour ajouter des hyperliens avec un titre pertinent&nbsp;:
 
 ## Ressources supplémentaires
 
-- [Microsoft : Rendre vos documents Excel accessibles aux personnes atteintes de handicaps](https://support.office.com/en-us/article/make-your-excel-documents-accessible-to-people-with-disabilities-6cc05fc5-1314-48b5-8eb3-683e49b3e593)
+- [Microsoft : Rendre vos documents Excel accessibles aux personnes atteintes de handicaps](https://support.microsoft.com/fr-fr/office/rendre-vos-documents-excel-accessibles-aux-personnes-atteintes-d-un-handicap-6cc05fc5-1314-48b5-8eb3-683e49b3e593?ui=en-us&rs=en-us&ad=us)
 - [Microsoft : Prise en charge de l’accessibilité dans Excel](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-excel-0976b140-7033-4e2d-8887-187280701bf8)

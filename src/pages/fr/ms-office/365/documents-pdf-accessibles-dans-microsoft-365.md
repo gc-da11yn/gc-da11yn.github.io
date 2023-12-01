@@ -33,9 +33,9 @@ Le moyen le plus simple de créer un fichier PDF accessible consiste à commence
 
 Dans la boîte de dialogue, sélectionnez **Options** et cochez les cases suivantes&nbsp;:
 
-- Créer des signets à l’aide de : Titres (ou signets, si vous les avez créés).
-- Propriétés du document.
-- Balises de structure du document.
+- Créer des signets à l’aide de : Titres (ou signets, si vous les avez créés)
+- Propriétés du document
+- Balises de structure du document
 
 <div class="row">
 <div class="col-md-7">
@@ -116,7 +116,7 @@ Il est important de préciser un titre évocateur et la langue du document. Dans
 
 Les documents PDF bilingues présentent des problèmes particuliers et doivent être évités, en particulier pour ce qui est des formulaires. Il est préférable d’offrir plusieurs versions du même PDF, une pour chaque langue.
 
-Un passage dans une langue autre que la langue principale du document doit être balisé séparément. Par exemple, un paragraphe anglais dans un document français qui indique que le document est également disponible en anglais. Consultez la page [Préciser la langue d’un passage ou d’une phrase](https://www.w3.org/TR/WCAG20-TECHS/PDF19.html) (en anglais seulement). Vous pouvez choisir le langage du texte dans le sous-menu de l’onglet **Étiquettes** ou dans le panneau **Contenu** dans le panneau de navigation. Afin d’effectuer cette action, ouvrez le menu **Contenu** en cliquant avec le bouton droit sur un élément et choisir **Propriétés**… ensuite choisissez **Langue** dans la boite de dialogue Propriétés d’objet.
+Un passage dans une langue autre que la langue principale du document doit être balisé séparément. Par exemple, un paragraphe anglais dans un document français qui indique que le document est également disponible en anglais. Consultez la page <a href="https://www.w3.org/TR/WCAG20-TECHS/PDF19.html" hreflang="en">Préciser la langue d’un passage ou d’une phrase<small> (en anglais seulement)</small></a>. Vous pouvez choisir le langage du texte dans le sous-menu de l’onglet **Étiquettes** ou dans le panneau **Contenu** dans le panneau de navigation. Afin d’effectuer cette action, ouvrez le menu **Contenu** en cliquant avec le bouton droit sur un élément et choisir **Propriétés**… ensuite choisissez **Langue** dans la boite de dialogue Propriétés d’objet.
 
 ### Documents numérisés&nbsp;: images d’un texte
 
@@ -156,7 +156,7 @@ L’activation des fonctions d’accessibilité intégrées de Foxit PDF Editor,
 
 Vérifiez votre formulaire avec <a href="https://www.nvaccess.org/" hreflang="en">NVDA (un lecteur d’écran gratuit)<small> (en anglais seulement)</small></a> pour repérer rapidement les problèmes liés à l’ordre des balises et des tabulations. Tentez de remplir le formulaire en n’utilisant que vos oreilles et votre clavier. Cela vous donnera une idée de l’expérience des utilisateurs de lecteurs d’écran.
 
-Outre le vérificateur d’accessibilité intégré de Foxit PDF Editor, un autre outil est le <a href="https://www.access-for-all.ch/en/pdf-accessibility-checker.html" hreflang="en">Vérificateur d’accessibilité PDF gratuit (PAC 3)<small> (en anglais seulement)</small></a>. Bien que ce programme ne vous permette pas, à lui seul, de remédier aux problèmes, il est possible que vous puissiez effectuer vos corrections dans l’outil d’édition au préalable (Word, InDesign, etc.). Il peut également cerner des problèmes que Foxit PDF Editor n’a pas su reconnaître.
+Outre le vérificateur d’accessibilité intégré de Foxit PDF Editor, un autre outil est le <a href="https://pdfua.foundation/fr/pac-2021-le-verificateur-pdf-gratuit/">PAC 2021 - Le vérificateur PDF gratuit - PDF/UA Foundation (pdfua.foundation)<small> (en anglais seulement)</small></a>. Bien que ce programme ne vous permette pas, à lui seul, de remédier aux problèmes, il est possible que vous puissiez effectuer vos corrections dans l’outil d’édition au préalable (Word, InDesign, etc.). Il peut également cerner des problèmes que Foxit PDF Editor n’a pas su reconnaître.
 
 ## Ressources supplémentaires
 

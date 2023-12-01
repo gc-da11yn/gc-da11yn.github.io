@@ -33,12 +33,12 @@ See [Understanding non-text contrast](https://www.w3.org/WAI/WCAG21/Understandin
 
 ### Abbreviations
 
-As diagrams are often dense with abbreviations, defining these abbreviations will aid in understanding for all users. See WCAG’s guidelines for [Abbreviations](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html)
+As diagrams are often dense with abbreviations, defining these abbreviations will aid in understanding for all users. See WCAG’s guidelines for [Abbreviations](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations)
 
 If possible within the layout, you can define abbreviations inline at their first occurrence.
 ex. Accessibility, Accommodations, and Adaptive Computer Technology (AAACT)
 
-Due to diagrams often being viewed in a non-linear order, it is usually preferable to [provide a glossary](https://www.w3.org/TR/WCAG20-TECHS/G62.html). The glossary should be in text within the document, under a heading such as “Glossary of abbreviations” so that it can be easily found.
+Due to diagrams often being viewed in a non-linear order, it is usually preferable to [provide a glossary](https://www.w3.org/WAI/WCAG21/Techniques/general/G62). The glossary should be in text within the document, under a heading such as “Glossary of abbreviations” so that it can be easily found.
 
 ### Text in images
 
@@ -46,7 +46,7 @@ Unless it is essential to do so, [do not embed text inside images](https://www.w
 
 ## Text alternatives
 
-Visio diagrams, by their nature, communicate information visually. Although Visio has some capability for blind users to navigate documents (see “Visio accessibility features” below), a text alternative that doesn’t depend on the visual organization is essential when you are distributing the Visio document as a PDF or image, or embedding the diagram in another document / web page.
+Visio diagrams, by their nature, communicate information visually. Although Visio has some capability for blind users to navigate documents (see “Visio accessibility features” below), a text alternative that doesn’t depend on the visual organization is essential when you are distributing the Visio document as a PDF or image, or embedding the diagram in another document or web page.
 
 ### Short (alt) text summary
 

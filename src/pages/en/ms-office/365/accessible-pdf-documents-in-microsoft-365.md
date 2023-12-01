@@ -98,7 +98,7 @@ Besides general accessibility issues, pay special attention to the following are
 
 An important part of PDF accessibility is “tagging”. Using a recommended authoring tool, tags will be automatically created based on the existing document structure. For instance, a heading created in Microsoft Word will be tagged as a heading in the PDF when you export. These tags are similar to HTML.
 
-To check if a document is tagged, navigate to **File** > **Properties** or press **Control + D** to bring up the document properties, or run the Accessibility Checker. If not tagged, return to your authoring tool (ie.g. Word) if possible, ensure you have structured the document correctly, and export again using the settings given above.
+To check if a document is tagged, navigate to **File** \> **Properties** or press **Control + D** to bring up the document properties, or run the Accessibility Checker. If not tagged, return to your authoring tool (e.g. Word) if possible, ensure you have structured the document correctly, and export again using the settings given above.
 
 To manually set tags, use the [Reading Order tool](https://youtu.be/bi7HEfQj1AQ) (**Accessibility** > **Setup** > **Reading Order**)
 
@@ -135,8 +135,8 @@ Some general tips:
 - **Input format:** Ensure that the correct format is suggested, if one is required. Ex. Date of birth (YYYY-MM-DD). As with all labels, this should be repeated in the tooltip.
 - **Required fields:** Indicate which fields are required. Do not rely solely on colour. If an asterisk (\*) is used to indicate required fields, include the following text at the start of the form (e.g. \* indicates a required field).
 - **Tab order**: Test the form using only the keyboard (using the **Tab** key to move between fields).
-- Ensure that it is obvious (visually) which field is active at all times
-- Ensure that the tab order follows the expected (visual) order
+  - Ensure that it is obvious (visually) which field is active at all times
+  - Ensure that the tab order follows the expected (visual) order
 
 ### Reading order
 
@@ -156,7 +156,7 @@ Enabling PhantomPDF’s built-in accessibility features, located in the Ribbon u
 
 Testing a form with [NVDA (a free screen reader)](https://www.nvaccess.org/) will quickly identify label and tab order issues. Try to fill out the form using nothing but your ears and your keyboard. This will give you an idea of what screen reader users will experience.
 
-An alternative to PhantomPDF’s inbuilt accessibility checker is [Free PDF Accessibility Checker (PAC 3)](https://www.access-for-all.ch/en/pdf-accessibility-checker.html). While this program alone won’t allow you to remediate issues, you may be able to make your fixes upstream in the authoring tool (Word, InDesign, etc.). It may also identify issues that PhantomPDF does not.
+An alternative to PhantomPDF’s inbuilt accessibility checker is [Free PDF Accessibility Checker (PAC) 2021 - PDF/UA Foundation (pdfua.foundation)](https://pdfua.foundation/en/pdf-accessibility-checker-pac/). While this program alone won’t allow you to remediate issues, you may be able to make your fixes upstream in the authoring tool (Word, InDesign, etc.). It may also identify issues that PhantomPDF does not.
 
 ## Additional resources
 

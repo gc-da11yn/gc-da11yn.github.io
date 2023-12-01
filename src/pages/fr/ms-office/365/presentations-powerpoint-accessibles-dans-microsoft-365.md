@@ -21,7 +21,7 @@ Comment utiliser le vérificateur d'accessibilité&nbsp;:
 </div>
 </div>
 
-Le **vérificateur d’accessibilité** peut aussi être accédé dans le ruban du haut sous le l’onglet «&#8201; **Révision** &#8201;» &gt; **Vérifier l'accessibilité**. Ensuite, cocher l’option «&#8201; vérificateur d’accessibilité conserver en cours d’exécution pendant que je travaille &#8201;» afin de vérifier l’accessibilité en temps réel.
+Le **vérificateur d’accessibilité** peut aussi être accédé dans le ruban du haut sous le l’onglet «&#8201;**Révision**&#8201;» &gt; **Vérifier l'accessibilité**. Ensuite, cocher l’option «&#8201;vérificateur d’accessibilité conserver en cours d’exécution pendant que je travaille&#8201;» afin de vérifier l’accessibilité en temps réel.
 
 ## Structure d’un document PowerPoint
 
@@ -204,6 +204,6 @@ Vous pouvez également sélectionner les éléments que vous désirez grouper da
 
 ## Ressources supplémentaires
 
-- [AIM Web : Création de présentations PowerPoint accessibles](https://webaim.org/techniques/powerpoint/") (en anglais seulement)
+- <a href="https://webaim.org/techniques/powerpoint/" hreflang="en">AIM Web : Création de présentations PowerPoint accessibles<small> (en anglais seulement)</small></a>
 - [Microsoft : Rendre vos présentations PowerPoint accessibles aux personnes atteintes de handicaps](https://support.office.com/fr-fr/article/rendre-vos-pr%C3%A9sentations-powerpoint-accessibles-aux-personnes-atteintes-de-handicaps-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25")
 - [Université Queen’s : Liste de vérification pour créer des présentations PowerPoint accessibles](https://www.queensu.ca/accessibility/how-info/accessible-documents/accessible-powerpoint-presentations-checklist") (en anglais seulement)

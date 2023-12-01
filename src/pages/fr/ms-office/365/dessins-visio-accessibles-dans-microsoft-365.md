@@ -17,11 +17,9 @@ Bon nombre des directives générales relatives à l’accessibilité des docume
 
 Le contraste du texte doit être d’au moins 4,5:1 par rapport à l’arrière-plan. Comme les diagrammes sont souvent visualisés avec un zoom très faible, nous vous recommandons de maintenir, au minimum, ce niveau de contraste pour tous les textes, quelle qu’en soit la taille.
 
-Pour vérifier le contraste des couleurs, utilisez un outil comme l’<a href="https://developer.paciellogroup.com/resources/contrastanalyser/" hreflang="en">Analyseur de contraste des couleurs<small> (en anglais seulement)</small></a> ou le <a href="https://webaim.org/resources/contrastchecker/" hreflang="en">vérificateur de contraste de WebAIM<small> (en anglais seulement)</small></a>.
-
-Évitez de placer des images d’arrière-plan complexes derrière le texte.
-
-Lorsqu’il est nécessaire d’utiliser des images d’arrière-plan complexes ou des fonds à faible contraste, définissez un contour autour du texte offrant un contraste suffisant par rapport à la couleur du texte en premier plan.
+- Pour vérifier le contraste des couleurs, utilisez un outil comme l’<a href="https://developer.paciellogroup.com/resources/contrastanalyser/" hreflang="en">Analyseur de contraste des couleurs<small> (en anglais seulement)</small></a> ou le <a href="https://webaim.org/resources/contrastchecker/" hreflang="en">vérificateur de contraste de WebAIM<small> (en anglais seulement)</small></a>.
+- Évitez de placer des images d’arrière-plan complexes derrière le texte.
+- Lorsqu’il est nécessaire d’utiliser des images d’arrière-plan complexes ou des fonds à faible contraste, définissez un contour autour du texte offrant un contraste suffisant par rapport à la couleur du texte en premier plan.
 
 ### Utilisation de la couleur seule pour transmettre de l’information
 
@@ -35,11 +33,11 @@ Consultez la page <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-
 
 ### Abréviations
 
-Comme les diagrammes sont souvent remplis d’abréviations, la définition de ces abréviations favorise la compréhension de tous les utilisateurs. Consultez les directives sur les <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html" hreflang="en">abréviations<small> (en anglais seulement)</small></a> de WCAG.
+Comme les diagrammes sont souvent remplis d’abréviations, la définition de ces abréviations favorise la compréhension de tous les utilisateurs. Consultez les directives sur les <a href="https://www.w3.org/WAI/WCAG21/Understanding/abbreviations" hreflang="en">abréviations<small> (en anglais seulement)</small></a> de WCAG.
 
 Si possible, selon la disposition, insérez les abréviations la première fois qu’elles apparaissent. P. ex. Programme d’accessibilité, d’adaptation et de technologie informatique adaptée (AATIA)
 
-Étant donné que les diagrammes sont souvent visualisés dans un ordre non linéaire, il est généralement préférable de <a href="https://www.w3.org/TR/WCAG20-TECHS/G62.html" hreflang="en">fournir un glossaire<small> (en anglais seulement)</small></a>. Le glossaire doit faire partie du texte du document, sous un en-tête comme « Glossaire des abréviations », de manière à pouvoir le retrouver facilement.
+Étant donné que les diagrammes sont souvent visualisés dans un ordre non linéaire, il est généralement préférable de <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G62" hreflang="en">fournir un glossaire<small> (en anglais seulement)</small></a>. Le glossaire doit faire partie du texte du document, sous un en-tête comme « Glossaire des abréviations », de manière à pouvoir le retrouver facilement.
 
 ### Texte intégré à des images
 
@@ -63,11 +61,9 @@ La description textuelle longue est utile pour tous les utilisateurs. Rendez-la 
 
 Dans le cas d’une carte routière avec itinéraires, la description longue décrit chaque étape permettant de suivre les itinéraires.
 
-<im. src="{{ rootPath }}img/fr/office365/visio-365-001.jpg" alt="Organigramme illustrant le processus de connexion">
+<img src="{{ rootPath }}img/fr/office365/visio-365-001.jpg" alt="Organigramme illustrant le processus de connexion">
 
 Pour transmettre adéquatement à tous les utilisateurs le message d’un organigramme, la description longue utilise des éléments numériques.
-
-<div class="brdr-rds-0 well">
 
 **Organigramme illustrant le processus de connexion&nbsp;:**
 
@@ -78,8 +74,6 @@ Pour transmettre adéquatement à tous les utilisateurs le message d’un organi
   - 2.2 Sinon, passez à l’étape 3.0
 - 3.0 Terminez la connexion
 
-</div>
-
 Pour un diagramme avec composants, la description longue commence par un résumé des composants principaux du diagramme (entre 3 et 10) et de la manière dont ils sont liés. Par la suite, placez les détails, comme le texte complet des composants, sous les en-têtes de chaque composant. Utilisez les divers niveaux de titres pour organiser les sous-composants. Les utilisateurs peuvent ainsi rechercher les composants qui les intéressent tant que le texte est compris dans la page.
 
 ### Représentation hypertexte
@@ -87,8 +81,6 @@ Pour un diagramme avec composants, la description longue commence par un résum�
 À l’aide du format HTML, il est possible d’offrir une description textuelle complète décrivant toutes les relations avec des hyperliens. Pour améliorer la convivialité, prolongez la description longue (décrite ci-dessus pour l’organigramme et le diagramme de composants) avec des liens intégrés à la page, vers des composants connexes. De cette façon, les utilisateurs de lecteurs d’écran ont la possibilité de «&#8201;suivre les flèches&#8201;» plus rapidement.
 
 Exemple d’organigramme de flux de données complexe&nbsp;:
-
-<div class="brdr-rds-0 well">
 
 #### Composant D (en-tête)
 
@@ -103,13 +95,11 @@ Exemple d’organigramme de flux de données complexe&nbsp;:
 
 Ajoutez d’autres informations pertinentes sur le composant D.
 
-</div>
-
 ## Caractéristiques d’accessibilité de Visio
 
-Microsoft a récemment publié un guide sur <a href="https://support.office.com/en-us/article/make-your-visio-diagram-accessible-e2c847a9-f010-4fef-af65-16e252829d44" hreflang="en">Rendre les diagrammes Visio accessibles<small> (en anglais seulement)</small></a>.
+Microsoft a récemment publié un guide sur [Rendre les diagrammes Visio accessibles](https://support.microsoft.com/fr-fr/office/rendre-votre-diagramme-visio-accessible-aux-personnes-atteintes-de-handicaps-e2c847a9-f010-4fef-af65-16e252829d44).
 
-Il est important de comprendre <a href="https://support.office.com/en-us/article/use-a-screen-reader-to-read-visio-diagrams-45ff89fc-fcd8-4c99-bc21-70eb9af29a61" hreflang="en">la façon dont un utilisateur de lecteur d’écran lit un diagramme Visio<small> (en anglais seulement)</small></a>
+Il est important de comprendre [la façon dont un utilisateur de lecteur d’écran lit un diagramme Visio](https://support.microsoft.com/fr-fr/office/rendre-votre-diagramme-visio-accessible-aux-personnes-atteintes-de-handicaps-e2c847a9-f010-4fef-af65-16e252829d44)
 
 - Ils utilisent la touche de tabulation pour passer d’une forme à l’autre dans un ordre prédéfini.
 - Les formes sont décrites selon leur texte de remplacement (« alt text »), leur position et leur mise en forme.
@@ -127,13 +117,13 @@ Créez des connecteurs (flèches, etc.) dans l’ordre que vous voulez qu’ils 
 
 ### Texte de remplacement («&nbsp;alt text&nbsp;»)
 
-Visio offre la possibilité d’ajouter du texte de remplacement à des images, des formes et des pages entières. En règle générale, un texte de remplacement court est suffisant pour une image ou une forme. Une description plus longue convient à une page. Consultez les directives générales relatives à l’accessibilité et la page <a href="https://support.office.com/en-us/article/make-your-visio-diagram-accessible-e2c847a9-f010-4fef-af65-16e252829d44" hreflang="en">Rendre les diagrammes Visio accessibles<small> (en anglais seulement)</small></a>.
+Visio offre la possibilité d’ajouter du texte de remplacement à des images, des formes et des pages entières. En règle générale, un texte de remplacement court est suffisant pour une image ou une forme. Une description plus longue convient à une page. Consultez les directives générales relatives à l’accessibilité et la page [Rendre les diagrammes Visio accessibles](https://support.microsoft.com/fr-fr/office/rendre-votre-diagramme-visio-accessible-aux-personnes-atteintes-de-handicaps-e2c847a9-f010-4fef-af65-16e252829d44).
 
 Pour ajouter un texte de remplacement à une image ou une forme&nbsp;:
 
 - Ouvrez le menu contextuel de l’image ou de la forme en cliquant à droite ou en appuyant sur la touche de l’application.
 - Sélectionnez **Format de la forme**.
-- Sélectionnez (**Taille et propriétés**) et saisissez le texte de remplacement dans la boîte **Description**.
+- Sélectionnez ![]({{ rootPath }}img/en/office365/visio-365-002.gif) (**Taille et propriétés**) et saisissez le texte de remplacement dans la boîte **Description**.
 
 Pour ajouter un texte de remplacement à une page complète, appuyez sur **Maj +&nbsp;F5**. Sélectionnez l’onglet **Texte de remplacement** et inscrivez la **Description**.
 
