@@ -28,25 +28,6 @@
 		</section>
 	</div>
 </section>
-{% endif %}
-
-<div id="filteredAppsList" class="wb-tagfilter provisional wb-filter"  data-wb-filter='{
-		"selector": "section",
-		"section": ".wb-tagfilter-items",
-		"uiTemplate": "#searchFilter"
-	}'>
-
-	<div id="searchFilter" class="row mrgn-tp-lg">
-		<div class="col-sm-4 col-md-5 col-lg-4">
-			<div class="form-group">
-				<label for="customSearchUI">{{ pageList[locale].searchText }}</label>
-				<input type="search" class="form-control full-width" id="customSearchUI">
-			</div>
-		</div>
-		<div class="col-sm-12">
-			<p class="h3 wb-fltr-info mrgn-tp-0"><span data-nbitem></span> {{ pageList[locale].resultsText }} <span data-total></span></p>
-		</div>
-	</div>
 
 	<p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">{{ pageList[locale].filterButtonText }}</a></p>
 
@@ -82,34 +63,82 @@
 		</div>
 	</section>
 
+{% endif %}
+
+<div class="alert alert-warning">
+	{% if locale === "en" %}
+		<p>The list of pages below <strong>does not list</strong> the topic pages. To add those disable the "Hide topic pages" checkbox.</p>
+	{% else %}
+		<p>La liste des pages ci-dessous <strong>ne contient pas</strong> les pages thématiques. Pour les ajouter, désactivez la case à cocher "Cacher des pages de thèmes".</p>
+	{% endif %}
+</div>
+
+<div id="filteredAppsList" class="wb-tagfilter provisional wb-filter" data-wb-filter='{
+		"selector": "section",
+		"section": ".wb-tagfilter-items",
+		"uiTemplate": "#searchFilter"
+	}'>
+
+	<div id="searchFilter" class="row mrgn-tp-lg">
+		<div class="col-sm-4 col-md-5 col-lg-4">
+			<div class="form-group">
+				<label for="customSearchUI">{{ pageList[locale].searchText }}</label>
+				<input type="search" class="form-control full-width" id="customSearchUI">
+			</div>
+		</div>
+		<div class="col-sm-8 col-md-7 col-lg-8">
+			<div class="form-group">
+				<fieldset class="p-0">
+					<legend class="h5 mrgn-tp-0"><span class="field-name">Options</span></legend>
+					<ul class="list-unstyled list-inline">
+						<li class="checkbox">
+							<label>
+								<input type="checkbox" name="subject" class="wb-tagfilter-ctrl" value="notLanding" checked> {% if locale === "en" %}
+									Hide topic pages
+									{% else %}
+									Cacher des pages de thèmes
+								{% endif %}
+							</label>
+						</li>
+					</ul>
+				</fieldset>
+			</div>
+		</div>
+		<div class="col-sm-12">
+			<p class="h3 wb-fltr-info mrgn-tp-0"><span data-nbitem></span> {{ pageList[locale].resultsText }} <span data-total></span></p>
+		</div>
+	</div>
 	<div class="wb-eqht-grd row wb-tagfilter-items">
 		{% for entry in entries | sort(false, false, 'page.url') %}
-		{% set newPath = entry.inputPath | replace("\./", "/") %}
-		{% set otherLang = "fr" if locale == "en" else "en" %}
-		{% if entry.data.locale == locale %}
-		{% if entry.data.redirect %}
-		{% else %}
-		<section class="col-md-6" data-wb-tags="{{ entry.data.subject }} {{ entry.data.tags }}">
-			<h2 class="h4"><a href="{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></h2>
-			{% if settings.env == "local" %}
-				{% if entry.data.subject %}
-					<p><strong>subject{% if locale === "fr" %} {% endif %}:</strong> <span class="label label-success">{{ entry.data.subject }}</span></p>
-				{% endif %}
-				{% if entry.data.tags %}
-				<p><strong>tags{% if locale === "fr" %} {% endif %}:</strong>
-					{% for item in entry.data.tags %}
-					<span class="label label-info">{{ item }}</span>
-					{% endfor %}
-				</p>
+			{% set newPath = entry.inputPath | replace("\./", "/") %}
+			{% set otherLang = "fr" if locale == "en" else "en" %}
+			{% set isLanding = entry.inputPath | replace("/", ",") %}
+			{% if entry.data.locale == locale %}
+				{% if entry.data.redirect %}
+				{% else %}
+					{% if entry.data.tags %}
+						<section class="col-md-6" data-wb-tags="{{ entry.data.subject }} {{ entry.data.tags }}{% for items in isLanding[6] %}{% if items != "m" %} notLanding{% endif %}{% endfor %}">
+							<h2 class="h4"><a href="{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></h2>
+							{% if settings.env == "local" %}
+								{% if entry.data.subject %}
+									<p><strong>subject{% if locale === "fr" %} {% endif %}:</strong> <span class="label label-success">{{ entry.data.subject }}</span></p>
+								{% endif %}
+								{% if entry.data.tags %}
+								<p><strong>tags{% if locale === "fr" %} {% endif %}:</strong>
+									{% for item in entry.data.tags %}
+									<span class="label label-info">{{ item }}</span>
+									{% endfor %}
+								</p>
+								{% endif %}
+							{% endif %}
+							<p>{% if settings.env == "local" %}<strong>{{ pageList[locale].descriptionText }}{% if locale === "fr" %} {% endif %}: </strong>{% endif %}{% if entry.data.description %}{{ entry.data.description | striptags(true) | escape | nl2br }}{% else %} <span class="label label-danger">{{ landingPage[locale].descriptionNoneText }}</span>{% endif %}</p>
+							{% if settings.env == "local" %}<p><strong>{{ pageList[locale].pathText }}{% if locale === "fr" %} {% endif %}:</strong> <code>{{ entry.url }}</code></p>{% endif %}
+							{% if settings.env == "local" %}<p><strong>{{ pageList[locale].filePathText }}{% if locale === "fr" %} {% endif %}:</strong> <code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></p>{% endif %}
+							{% if settings.env == "local" %}<p><strong>toggle{% if locale === "fr" %} {% endif %}:</strong> <code><a href="{{ rootPath }}{{ otherLang }}/{{ entry.data.toggle }}">{{ entry.data.toggle }}</a></code></p>{% endif %}
+						</section>
+					{% endif %}
 				{% endif %}
 			{% endif %}
-			<p>{% if settings.env == "local" %}<strong>{{ pageList[locale].descriptionText }}{% if locale === "fr" %} {% endif %}: </strong>{% endif %}{% if entry.data.description %}{{ entry.data.description | striptags(true) | escape | nl2br }}{% else %} <span class="label label-danger">{{ landingPage[locale].descriptionNoneText }}</span>{% endif %}</p>
-			{% if settings.env == "local" %}<p><strong>{{ pageList[locale].pathText }}{% if locale === "fr" %} {% endif %}:</strong> <code>{{ entry.url }}</code></p>{% endif %}
-			{% if settings.env == "local" %}<p><strong>{{ pageList[locale].filePathText }}{% if locale === "fr" %} {% endif %}:</strong> <code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></p>{% endif %}
-			{% if settings.env == "local" %}<p><strong>toggle{% if locale === "fr" %} {% endif %}:</strong> <code><a href="{{ rootPath }}{{ otherLang }}/{{ entry.data.toggle }}">{{ entry.data.toggle }}</a></code></p>{% endif %}
-		</section>
-		{% endif %}
-		{% endif %}
 		{% endfor %}
 	</div>
 </div>
