@@ -1,8 +1,8 @@
 module.exports = {
 	fr: {
-		about: "À propos la Boîte à outils sur l'accessibilité numérique",
+		about: "À propos la Boîte à outils de l'accessibilité numérique",
 		aboutPara:
-			"En savoir plus sur ce projet et sur la boîte à outils sur l'accessibilité numérique.",
+			"En savoir plus sur ce projet et sur la boîte à outils de l'accessibilité numérique.",
 	},
 
 	en: {

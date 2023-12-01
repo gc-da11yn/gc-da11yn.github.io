@@ -3,7 +3,7 @@ module.exports = {
 		aboutGovernment: "Au sujet du gouvernement",
 		allContacts: "Toutes les coordonnées",
 		allContactsLink: "https://www.canada.ca/fr/contact.html",
-		contextualHeader: "Boîte à outils sur l'accessibilité numérique",
+		contextualHeader: "Boîte à outils de l'accessibilité numérique",
 		contextualLink1: "",
 		contextualLink2: "https://a11y.canada.ca/fr/about/organizations/",
 		contextualLink3: "",
