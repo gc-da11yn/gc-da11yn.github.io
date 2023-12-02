@@ -96,8 +96,7 @@ Les déficiences de lecture peuvent inclure :
 
 <dl>
 <dt>Définition :</dt>
-<dd>Les handicaps mathématiques et informatiques ont un impact sur la capacité d’une personne à apprendre et à communiquer les mathématiques. La dyscalculie implique une incapacité à comprendre l’arithmétique et la façon de calculer. Ce handicap peut être compliqué par la dysgraphie, une incapacité à dessiner ou à copier des figures et des graphiques, et par l’anxiété. La dyscalculie peut être congénitale ou résulte d’une blessure, d’une maladie ou du vieillissement.</dd>
-
+<dd>Les handicaps mathématiques et informatiques ont un impact sur la capacité d’une personne à apprendre et à communiquer les mathématiques. La dyscalculie implique une incapacité à comprendre l’arithmétique et la façon de calculer. Ce handicap peut être compliqué par la dysgraphie, qui peut inclure une incapacité à dessiner ou à copier des figures et des graphiques, et par l’anxiété. La dyscalculie peut être congénitale ou résulte d’une blessure, d’une maladie ou du vieillissement.</dd>
 
 <dt>Caractéristiques :</dt>
 

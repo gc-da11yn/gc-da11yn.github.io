@@ -91,7 +91,7 @@ Although the disorder differs from person to person, reading disabilities may in
 
 <dl>
 <dt>Definition:</dt>
-<dd>Math and computational disabilities impact a person’s ability to learn and communicate math. Dyscalculia involves an inability to understand arithmetic and how to calculate. This disability can be complicated by dysgraphia, an inability to draw or copy figures and graphs, and by anxiety. Dyscalculia may be congenital or result from an injury, disease, or aging.</dd>
+<dd>Math and computational disabilities impact a person’s ability to learn and communicate math. Dyscalculia involves an inability to understand arithmetic and how to calculate. This disability can be complicated by dysgraphia, which can include an inability to draw or copy figures and graphs, and by anxiety. Dyscalculia may be congenital or result from an injury, disease, or aging.</dd>
 <dt>Characteristics:</dt>
 <dd>
 
