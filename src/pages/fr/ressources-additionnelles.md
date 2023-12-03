@@ -63,9 +63,13 @@ Les professionnels de l’accessibilité du monde entier se réunissent pour dé
 </div>
 <div class="col-md-6">
 
+<!-- Enlevée pour l'instant, elle pourrait être reprise
+
 ### [Manuel de l’accessibilité du Service numérique canadien](https://numerique.canada.ca/a11y/)
 
 Le Service numérique canadien s’engage à mettre en place des services accessibles et inclusifs. La mise en place de services accessibles signifie de répondre aux besoins du plus grand nombre de personnes possible.
+
+-->
 
 </div>
 <div class="col-md-6">

@@ -1,9 +1,7 @@
 ---
 title: La structure des règles pour l'accessibilité des contenus web (WCAG) 2.1
 description: Le respect de ces lignes directrices rendra le contenu plus accessible à un plus grand nombre de personnes handicapées, y compris les aménagements pour la cécité et la basse vision, la surdité et la perte d'audition, les mouvements limités, les troubles de la parole, la photosensibilité et les combinaisons de ceux-ci, ainsi que certains aménagements pour les troubles de l'apprentissage et les limitations cognitives ; mais il ne répondra pas à tous les besoins des utilisateurs souffrant de ces handicaps.
-toggle: the-structure-of-web-content-accessibility-guidelines-wcag-21
-subject:
-tags:
+toggle: the-structure-of-web-content-accessibility-guidelines-wcag-2-1
 ---
 
 ## <a href="https://www.w3.org/Translations/WCAG21-fr/#perceivable" hreflang="en">Principe 1 – Perceptible</a>
