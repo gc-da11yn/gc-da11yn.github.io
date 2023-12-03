@@ -50,15 +50,4 @@
 	<p class="mrgn-tp-md">{{ tryText }} <a href="{{ page.url | replace(versionSlug,otherVersionSlug) }}">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
 </div>
 
-		{% if version === "Microsoft 365" %}
-		<div class="alert alert-info">
-			{% if locale === "en" %}
-			<p><a href="https://support.microsoft.com/en-us/office/office-is-now-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office is now Microsoft 365</a>.</p>
-			{% else %}
-			<p><a href="https://support.microsoft.com/fr-fr/office/office-est-désormais-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office est désormais Microsoft 365</a>.</p>
-			{% endif %}
-		</div>
-		{% endif %}
-
-
 {% endif %}

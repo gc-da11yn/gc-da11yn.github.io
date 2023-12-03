@@ -34,6 +34,7 @@
 			<div class="container">
 			{% if officeTOC === true %}
 			{% include "partials/office-toc.njk" %}
+			{% include "partials/office365Notice.njk" %}
 			{% endif %}
 				{{ content | safe }}
 				{% if officeTOC === true %}

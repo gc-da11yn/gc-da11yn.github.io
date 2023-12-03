@@ -1,0 +1,17 @@
+{% if locale === "en" %}
+	{% set indexSlug = "how-to-create-accessible-documents" %}
+	{% set inOffice = "in" %}
+{% else %}
+	{% set indexSlug = "comment-creer-des-documents-accessibles" %}
+	{% set inOffice = "dans" %}
+	{% set tryText = "Ce n\'est pas la version que vous recherchez ? Essayez" %}
+{% endif %}
+{% if tags[1] === "microsoft365" or page.fileSlug === indexSlug + "-" + inOffice + "-microsoft-365" %}
+<div class="alert alert-info">
+	{% if locale === "en" %}
+	<p><a href="https://support.microsoft.com/en-us/office/office-is-now-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office is now Microsoft 365</a>.</p>
+	{% else %}
+	<p><a href="https://support.microsoft.com/fr-fr/office/office-est-désormais-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office est désormais Microsoft 365</a>.</p>
+	{% endif %}
+</div>
+{% endif %}
