@@ -1,11 +1,11 @@
 {% if locale === "en" %}
 	{% set indexSlug = "how-to-create-accessible-documents" %}
 	{% set indexTitle = "How to create accessible documents" %}
-	{% set inOffice = " in" %}
+	{% set inOffice = "in" %}
 {% else %}
 	{% set indexSlug = "comment-creer-des-documents-accessibles" %}
 	{% set indexTitle = "Comment créer des documents accessibles" %}
-	{% set inOffice = " dans" %}
+	{% set inOffice = "dans" %}
 	{% set tryText = "Ce n\'est pas la version que vous recherchez ? Essayez" %}
 {% endif %}
 
@@ -31,7 +31,7 @@
 	<div class="gc-stp-stp">
 		<div class="toc row mrgn-tp-lg">
 			<ul class="wb-eqht-grd">
-				<li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="{{ indexURL }}"{% endif %}>{{ indexTitle }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
+				<li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="{{ indexURL }}"{% endif %}>{{ indexTitle }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"> {{ inOffice }} {{ version }}</small></a></li>
 				{% for item in collections | localeMatch(locale) %}
 					{% set title = item.data.title %}
 					<li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ item.url }}"{% endif %}>
