@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+    <title>En cours de développement - Introduction aux exigences d’accessibilité pour l’audio-vidéo - Boîte à outils de l&#39;accessibilité numérique</title><meta content="width=device-width,initial-scale=1" name="viewport"><meta name="description" content="Ce document est une excellente introduction sur la manière de rendre la vidéo accessible à un public de conseillers en communication se situant entre l&#39;auteur Web et l&#39;expert en contenu."><link rel="alternate" hreflang="en" href="../../en/introduction-to-accessibility-requirements-for-audio-video/index.html"><link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"><link rel="stylesheet" href="../../css/da11yn.css">
+    <!-- Meta tags -->
+    <meta name="author" content="Gouvernement du Canada"><meta name="dcterms.title" content="Introduction aux exigences d’accessibilité pour l’audio-vidéo"><meta name="dcterms.description" content="Ce document est une excellente introduction sur la manière de rendre la vidéo accessible à un public de conseillers en communication se situant entre l&#39;auteur Web et l&#39;expert en contenu."><meta name="dcterms.creator" content="Gouvernement du Canada"><meta name="dcterms.language" content="fr"><meta name="dcterms.created" content="2023-08-01"><meta name="dcterms.modified" content="2023-12-03"><meta name="dcterms.subject" content="Comment faire;Créer du contenu Web; ">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script><script>
+		(function (w) {
+			"use strict";
+			var dl = "dataLayer";
+			if (w.location.hostname === "a11y.canada.ca" || w.location.hostname === "deploy-preview-335--a11ycanada.netlify.app") {
+				w[dl] = w[dl] || [];
+				w.gtag = function () {
+					w[dl].push(arguments);
+				}
+				w.gtag('js', new Date());
+				w.gtag('config', 'G-SM9MSHWDVN');
+			}
+		})(window);
+	</script>
+  </head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <nav>
+      <ul id="wb-tphp">
+        <li class="wb-slc"><a class="wb-sl" href="#wb-cont">Passer au contenu principal</a></li>
+        <li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Passer à « Au sujet du gouvernement »</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div id="wb-bnr" class="container">
+        <div class="row">
+          <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+            <h2 class="wb-inv">Sélection de la langue</h2>
+            <ul class="list-inline mrgn-bttm-0">
+              <li><a lang="en" hreflang="en" href="../../en/introduction-to-accessibility-requirements-for-audio-video/index.html"><span class="hidden-xs" translate="no">English</span><abbr title="English" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">en</abbr></a></li>
+            </ul>
+          </section>
+          <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization"><a href="https://www.canada.ca/fr.html" property="url"><img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-fr.svg" alt="Gouvernement du Canada" property="logo"><span class="wb-inv">/ <span lang="en">Gouvernement du Canada</span></span></a><meta property="name" content="Gouvernement du Canada"><meta property="areaServed" typeof="Country" content="Canada"><link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg"></div><section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4"><h2>Recherche</h2><form action="https://canada.ca/fr/sr/srb.html" method="post" name="cse-search-box" role="search"><div class="form-group wb-srch-qry"><label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label><input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca"><datalist id="wb-srch-q-ac"></datalist></div><div class="form-group submit"><button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Recherche</span></button></div></form></section>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <nav class="gcweb-menu" typeof="SiteNavigationElement">
+              <h2 class="wb-inv">Menu</h2><button type="button" aria-haspopup="true" aria-expanded="false">Menu <span class="wb-inv">principal</span><span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+              <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a></li>
+                <li role="presentation"><a role="menuitem" href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Prestations</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport et infrastructure</a></li>
+                <li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <nav id="wb-bc" property="breadcrumb">
+        <h2>Piste de navigation</h2>
+        <div class="container">
+          <ol class="breadcrumb" typeof="BreadcrumbList">
+            <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://www.canada.ca/fr.html"><span property="name">Canada.ca</span></a><meta property="position" content="1"></li>
+            <li><a href="/fr/">Boîte à outils de l&#39;accessibilité numérique</a></li>
+            <li><a href="/fr/comment-faire">Comment faire</a></li>
+            <li><a href="/fr/creer-du-contenu-web">Créer du contenu Web</a></li>
+          </ol>
+        </div>
+      </nav>
+    </header>
+    <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+      <div class="home"><div class="container p-0 p-sm-3"><div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme"><h1 property="name" id="wb-cont">Introduction aux exigences d’accessibilité pour l’audio-vidéo</h1><p>Ce document est une excellente introduction sur la manière de rendre la vidéo accessible à un public de conseillers en communication se situant entre l'auteur Web et l'expert en contenu.</p></div></div></div>
+      <div class="container">
+        <h2 id="introduction" tabindex="-1">Introduction</h2><p>L’objectif de ce guide est de vous apprendre comment faire en sorte que tous les produits d’apprentissage audio-vidéo soient accessibles à tous les apprenants. Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1 et d’autres directives d’accessibilité font référence aux enregistrements audio-vidéo, en direct ou préenregistrés, en tant que médias temporels.</p><p>Voici des exemples de médias temporels :</p>
+        <ul>
+          <li>Audio seulement</li>
+          <li>Vidéo seulement</li>
+          <li>Audio et vidéo</li>
+          <li>Audio ou vidéo combiné avec interaction</li>
+        </ul>
+        <p>Nous utilisons souvent l’audio et la vidéo pour présenter des informations, donner les cours et faire la démonstration de systèmes. En n’incluant pas les informations appropriées lors du développement d’un objet d’apprentissage multimédia temporel, nous excluons de nombreux apprenants ou, au minimum, nous leur rendons difficile l’accès à la formation dont ils ont besoin pour faire leur travail.</p><h2 id="exigences-g%C3%A9n%C3%A9rales" tabindex="-1">Exigences générales</h2><p>L’accessibilité d’un média temporel dépend en grande partie de la prise en compte des quatre facteurs suivants : transcription, sous-titrage, description audio et accès au clavier**.** Des résumés pour chacun des facteurs sont présentés ici, tandis que des lignes directrices, des listes de contrôle et des échantillons suivent plus loin dans le document.</p><h2 id="r%C3%A9sum%C3%A9-de-la-transcription" tabindex="-1">Résumé de la transcription</h2><p>Les transcriptions sont l’équivalent textuel d’un fichier audio ou vidéo. Elles permettent aux personnes qui ne peuvent voir ou entendre le contenu pour les raisons ci-dessous d’accéder à de l’information à l’aide de médias audio ou visuels. Il convient de s’assurer que toutes les transcriptions comprennent ce qui suit :</p>
+        <ul>
+          <li>Texte à l’écran</li>
+          <li>Dialogue et narration</li>
+          <li>Sons importants (comme une explosion)</li>
+          <li>Action importante (p. ex. des personnes fuyant une explosion ou des personnages portant des déguisements)</li>
+          <li>Description audio/piste audio supplémentaire décrivant toutes les informations visuelles</li>
+          <li>Les transcriptions sont rédigées par l’équipe de conception</li>
+        </ul>
+        <p><a href="../../fr/directives-pour-la-transcription/">Directives pour la transcription</a></p><p><a href="../../fr/liste-de-controle-des-transcriptions">Liste de contrôle la transcription</a></p><h2 id="r%C3%A9sum%C3%A9-du-sous-titrage" tabindex="-1">Résumé du sous-titrage</h2><p>Les vidéos avec du son nécessitent un sous-titrage synchronisé (où le texte s’aligne sur l’action ou les actions à l’écran ou les mots prononcés dans l’audio). La plupart des &quot;sous-titres codés&quot; peuvent être cachés ou affichés par les personnes qui regardent la vidéo. Il peut également s'agir de &quot;sous-titres ouverts&quot; qui sont toujours affichés et ne peuvent pas être désactivés.</p><p>Il est recommandé de placer des sous-titres en haut des vidéos ASL et LSQ.</p><p><strong>Tout ce qui est dit ou entendu dans la vidéo doit être inclus dans le sous-titrage.</strong> Il est important que les sous-titres codés soient :</p>
+        <ul>
+          <li>Synchronisés et apparaissent approximativement en même temps que la bande audio;</li>
+          <li>Équivalents et égaux en contenu à celui de l’audio, y compris l’identification du locuteur et les effets sonores;</li>
+          <li>Accessibles et facilement disponibles pour ceux qui en ont besoin ou qui les veulent.</li>
+        </ul>
+        <p>Les équipes de conception ou un entrepreneur peuvent fournir le texte de la légende.</p><p><a href="../../fr/directives-pour-le-sous-titrage">Directives pour le sous-titrage</a></p><p><a href="../../fr/liste-de-controle-pour-le-sous-titrage">Liste de contrôle pour le sous-titrage</a></p><h2 id="sommaire-de-la-description-sonore" tabindex="-1">Sommaire de la description sonore</h2><p>La description sonore permet à tout utilisateur souffrant d’un handicap visuel ou cognitif de recevoir une expérience très détaillée et descriptive de ce qui se passe à l’écran. Pendant les pauses existantes dans le dialogue, la description sonore fournit des informations sur les actions, les personnages, les changements de scène et le texte à l’écran qui sont importants et qui ne sont pas décrits ou parlés dans la bande sonore principale.</p><p>Cela peut être fait en utilisant :</p>
+        <ul>
+          <li>Les transcriptions et en ajoutant des descriptions des informations visuelles supplémentaires. (WCAG 1.2.3 niveau A);</li>
+          <li>Ajout d’une piste audio distincte qui décrit le contenu visuel. (WCAG 1.2.5 niveau AA);</li>
+          <li>Remarque : Si une description sonore supplémentaire est utilisée pour une vidéo, elle doit être incluse dans la transcription.</li>
+        </ul>
+        <p><a href="../../fr/directives-pour-la-description-sonore">Directives pour la description sonore</a></p><p><a href="../../fr/directives-pour-la-description-sonore#liste-de-contr%C3%B4le-pour-la-description-sonore">Liste de contrôle pour la description sonore</a></p><h2 id="acc%C3%A8s-au-clavier" tabindex="-1">Accès au clavier</h2><p>Toutes les commandes vidéo doivent être accessibles, et on doit pouvoir y naviguer à l’aide du clavier. Il est de la responsabilité de l’équipe de microédition de s’assurer que les lecteurs vidéo sont accessibles, notamment :</p>
+        <ul>
+          <li>Le lecteur vidéo peut être commandé par le clavier;</li>
+          <li>Le lecteur vidéo démarre à la demande de l’apprenant (il ne démarre pas automatiquement);</li>
+          <li>Le lecteur vidéo dispose d’un mécanisme permettant de mettre en pause ou d’arrêter la vidéo;</li>
+          <li>Le volume peut être modifié à l’aide d’une souris et d’un clavier;</li>
+          <li>Les étiquettes des boutons (texte alternatif) sont présentes;</li>
+        </ul>
+        <p>L'accès au clavier est testé par le développeur, les équipes de conception ou un entrepreneur.</p><div class="pagedetails container"><div class="row"><div class="col-sm-6 col-md-5 col-lg-4"><a href="https://www.canada.ca/fr/signaler-probleme.html" class="btn btn-default btn-center">Signaler un problème sur cette page</a></div><div class="wb-share col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5" data-wb-share="{"lnkClass": "btn btn-default btn-block"}"></div></div><dl id="wb-dtmd"><dt>Date de modification :</dt><dd><time property="dateModified" datetime="2023-12-03">2023-12-03</time></dd></dl></div>
+      </div>
+    </main>
+    <aside class="contribute">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5"><h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribuez à ce projet</span><small>sur Github.com</small></h2></div>
+          <div class="col-md-7">
+            <ul class="list-inline">
+              <li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io">Code source <small>(en anglais seulement)</small></a></li>
+              <li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Problèmes <span lang="en">(Issues)</span><small>(en anglais seulement)</small></a></li>
+              <li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions <small>(en anglais seulement)</small></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <footer id="wb-info">
+      <h2 class="wb-inv">À propos de ce site</h2>
+      <div class="gc-main-footer">
+        <div class="container">
+          <nav>
+            <h3>Gouvernement du Canada</h3>
+            <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+              <li><a href="https://www.canada.ca/fr/contact.html">Toutes les coordonnées</a></li>
+              <li><a href="https://www.canada.ca/fr/gouvernement/min.html">Ministères et organismes</a></li>
+              <li><a href="https://www.canada.ca/fr/gouvernement/systeme.html">À propos du gouvernement</a></li>
+            </ul>
+            <h4><span class="wb-inv">Thèmes et sujets</span></h4>
+            <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+              <li><a href="https://www.canada.ca/fr/services/emplois.html">Emplois</a></li>
+              <li><a href="https://www.canada.ca/fr/services/immigration-citoyennete.html">Immigration et citoyenneté</a></li>
+              <li><a href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+              <li><a href="https://www.canada.ca/fr/services/entreprises.html">Entreprises</a></li>
+              <li><a href="https://www.canada.ca/fr/services/prestations.html">Prestations</a></li>
+              <li><a href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
+              <li><a href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
+              <li><a href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+              <li><a href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+              <li><a href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+              <li><a href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+              <li><a href="https://www.canada.ca/fr/services/transport.html">Transport et infrastructure</a></li>
+              <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=fra">Le Canada et le monde</a></li>
+              <li><a href="https://www.canada.ca/fr/services/finance.html">Argent et finance</a></li>
+              <li><a href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+              <li><a href="https://www.canada.ca/fr/services/autochtones.html">Autochtones</a></li>
+              <li><a href="https://www.canada.ca/fr/services/veterans-militaire.html">Vétérans et militaires</a></li>
+              <li><a href="https://www.canada.ca/fr/services/jeunesse.html">Jeunesse</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="gc-sub-footer">
+        <div class="container d-flex align-items-center">
+          <nav>
+            <h3 class="wb-inv">Organisation du gouvernement du Canada</h3>
+            <ul>
+              <li><a href="https://www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
+              <li><a href="https://www.canada.ca/fr/mobile.html">Applications mobiles</a></li>
+              <li><a href="https://www.canada.ca/fr/gouvernement/a-propos.html">À propos de Canada.ca</a></li>
+              <li><a href="https://www.canada.ca/fr/transparence/avis.html">Avis</a></li>
+              <li><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
+            </ul>
+          </nav>
+          <div class="wtrmrk align-self-end"><img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada"></div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script><script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script><script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+  </body>
+</html>

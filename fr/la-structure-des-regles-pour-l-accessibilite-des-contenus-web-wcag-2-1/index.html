@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+    <title>En cours de développement - La structure des règles pour l&#39;accessibilité des contenus web (WCAG) 2.1 - Boîte à outils de l&#39;accessibilité numérique</title><meta content="width=device-width,initial-scale=1" name="viewport"><meta name="description" content="Le respect de ces lignes directrices rendra le contenu plus accessible à un plus grand nombre de personnes handicapées, y compris les aménagements pour la cécité et la basse vision, la surdité et la perte d&#39;audition, les mouvements limités, les troubles de la parole, la photosensibilité et les combinaisons de ceux-ci, ainsi que certains aménagements pour les troubles de l&#39;apprentissage et les limitations cognitives ; mais il ne répondra pas à tous les besoins des utilisateurs souffrant de ces handicaps."><link rel="alternate" hreflang="en" href="../../en/the-structure-of-web-content-accessibility-guidelines-wcag-21/index.html"><link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"><link rel="stylesheet" href="../../css/da11yn.css">
+    <!-- Meta tags -->
+    <meta name="author" content="Gouvernement du Canada"><meta name="dcterms.title" content="La structure des règles pour l&#39;accessibilité des contenus web (WCAG) 2.1"><meta name="dcterms.description" content="Le respect de ces lignes directrices rendra le contenu plus accessible à un plus grand nombre de personnes handicapées, y compris les aménagements pour la cécité et la basse vision, la surdité et la perte d&#39;audition, les mouvements limités, les troubles de la parole, la photosensibilité et les combinaisons de ceux-ci, ainsi que certains aménagements pour les troubles de l&#39;apprentissage et les limitations cognitives ; mais il ne répondra pas à tous les besoins des utilisateurs souffrant de ces handicaps."><meta name="dcterms.creator" content="Gouvernement du Canada"><meta name="dcterms.language" content="fr"><meta name="dcterms.created" content="2023-08-01"><meta name="dcterms.modified" content="2023-12-03"><meta name="dcterms.subject" content="">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script><script>
+		(function (w) {
+			"use strict";
+			var dl = "dataLayer";
+			if (w.location.hostname === "a11y.canada.ca" || w.location.hostname === "deploy-preview-335--a11ycanada.netlify.app") {
+				w[dl] = w[dl] || [];
+				w.gtag = function () {
+					w[dl].push(arguments);
+				}
+				w.gtag('js', new Date());
+				w.gtag('config', 'G-SM9MSHWDVN');
+			}
+		})(window);
+	</script>
+  </head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <nav>
+      <ul id="wb-tphp">
+        <li class="wb-slc"><a class="wb-sl" href="#wb-cont">Passer au contenu principal</a></li>
+        <li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Passer à « Au sujet du gouvernement »</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div id="wb-bnr" class="container">
+        <div class="row">
+          <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+            <h2 class="wb-inv">Sélection de la langue</h2>
+            <ul class="list-inline mrgn-bttm-0">
+              <li><a lang="en" hreflang="en" href="../../en/the-structure-of-web-content-accessibility-guidelines-wcag-21/index.html"><span class="hidden-xs" translate="no">English</span><abbr title="English" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">en</abbr></a></li>
+            </ul>
+          </section>
+          <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization"><a href="https://www.canada.ca/fr.html" property="url"><img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-fr.svg" alt="Gouvernement du Canada" property="logo"><span class="wb-inv">/ <span lang="en">Gouvernement du Canada</span></span></a><meta property="name" content="Gouvernement du Canada"><meta property="areaServed" typeof="Country" content="Canada"><link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg"></div><section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4"><h2>Recherche</h2><form action="https://canada.ca/fr/sr/srb.html" method="post" name="cse-search-box" role="search"><div class="form-group wb-srch-qry"><label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label><input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca"><datalist id="wb-srch-q-ac"></datalist></div><div class="form-group submit"><button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Recherche</span></button></div></form></section>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <nav class="gcweb-menu" typeof="SiteNavigationElement">
+              <h2 class="wb-inv">Menu</h2><button type="button" aria-haspopup="true" aria-expanded="false">Menu <span class="wb-inv">principal</span><span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+              <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a></li>
+                <li role="presentation"><a role="menuitem" href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Prestations</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport et infrastructure</a></li>
+                <li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <nav id="wb-bc" property="breadcrumb">
+        <h2>Piste de navigation</h2>
+        <div class="container">
+          <ol class="breadcrumb" typeof="BreadcrumbList">
+            <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://www.canada.ca/fr.html"><span property="name">Canada.ca</span></a><meta property="position" content="1"></li>
+            <li><a href="/fr/">Boîte à outils de l&#39;accessibilité numérique</a></li>
+          </ol>
+        </div>
+      </nav>
+    </header>
+    <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+      <div class="home"><div class="container p-0 p-sm-3"><div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme"><h1 property="name" id="wb-cont">La structure des règles pour l'accessibilité des contenus web (WCAG) 2.1</h1><p>Le respect de ces lignes directrices rendra le contenu plus accessible à un plus grand nombre de personnes handicapées, y compris les aménagements pour la cécité et la basse vision, la surdité et la perte d'audition, les mouvements limités, les troubles de la parole, la photosensibilité et les combinaisons de ceux-ci, ainsi que certains aménagements pour les troubles de l'apprentissage et les limitations cognitives ; mais il ne répondra pas à tous les besoins des utilisateurs souffrant de ces handicaps.</p></div></div></div>
+      <div class="container">
+        <h2 id="principe-1-%E2%80%93-perceptible" tabindex="-1"><a href="https://www.w3.org/Translations/WCAG21-fr/#perceivable" hreflang="en">Principe 1 – Perceptible</a></h2><h3 id="r%C3%A8gle-1.1-%E2%80%93-%C3%A9quivalents-textuels" tabindex="-1">Règle 1.1 – Équivalents textuels</h3>
+        <ul>
+          <li>1.1.1 Contenu non textuel (Niveau A)</li>
+        </ul>
+        <h3 id="r%C3%A8gle-1.2-%E2%80%93-m%C3%A9dia-temporel" tabindex="-1">Règle 1.2 – Média temporel</h3>
+        <ul>
+          <li>1.2.1 Contenu seulement audio ou vidéo (préenregistré) (Niveau A)</li>
+          <li>1.2.2 Sous-titres (préenregistrés) (Niveau A)</li>
+          <li>1.2.3 Audiodescription ou version de remplacement pour un média temporel (préenregistré) (Niveau A)</li>
+          <li>1.2.4 Sous-titres (en direct) (Niveau AA)</li>
+          <li>1.2.5 Audiodescription (préenregistrée) (Niveau AA)</li>
+        </ul>
+        <h3 id="r%C3%A8gle-1.3-%E2%80%93-adaptable" tabindex="-1">Règle 1.3 – Adaptable</h3>
+        <ul>
+          <li>1.3.1 Information et relations (Niveau A)</li>
+          <li>1.3.2 Ordre séquentiel logique (Niveau A)</li>
+          <li>1.3.3 Caractéristiques sensorielles (Niveau A)</li>
+          <li>1.3.4 Orientation (Niveau AA)</li>
+          <li>1.3.5 Finalité d'un champ de saisie (Niveau AA)</li>
+        </ul>
+        <h3 id="r%C3%A8gle-1.4-%E2%80%93-distinguable" tabindex="-1">Règle 1.4 – Distinguable</h3>
+        <ul>
+          <li>1.4.1 Utilisation de la couleur (Niveau A)</li>
+          <li>1.4.2 Contrôle du son (Niveau A)</li>
+          <li>1.4.3 Contraste (minimum) (Niveau AA)</li>
+          <li>1.4.4 Redimensionnement du texte (Niveau AA)</li>
+          <li>1.4.5 Texte sous forme d'image (Niveau AA)</li>
+          <li>1.4.10 Redisposition (Niveau AA)</li>
+          <li>1.4.11 Contraste des éléments non textuels (Niveau AA)</li>
+          <li>1.4.12 Espacement du texte (Niveau AA)</li>
+          <li>1.4.13 Contenu ciblé en mode survol (Niveau AA)</li>
+        </ul>
+        <h2 id="principe-2-%E2%80%93-utilisable" tabindex="-1"><a href="https://www.w3.org/Translations/WCAG21-fr/#operable" hreflang="en">Principe 2 – Utilisable</a></h2><h3 id="r%C3%A8gle-2.1-%E2%80%93-accessibilit%C3%A9-au-clavier" tabindex="-1">Règle 2.1 – Accessibilité au clavier</h3>
+        <ul>
+          <li>2.1.1 Clavier (Niveau A)</li>
+          <li>2.1.2 Pas de piège au clavier (Niveau A)</li>
+          <li>2.1.4 Raccourcis clavier des caractères (Niveau A)</li>
+        </ul>
+        <h3 id="r%C3%A8gle-2.2-%E2%80%93-d%C3%A9lai-suffisant" tabindex="-1">Règle 2.2 – Délai suffisant</h3>
+        <ul>
+          <li>2.2.1 Réglage du délai (Niveau A)</li>
+          <li>2.2.2 Mettre en pause, arrêter, masquer (Niveau A)</li>
+        </ul>
+        <h3 id="r%C3%A8gle-2.3-%E2%80%93-crises-et-r%C3%A9actions-physiques" tabindex="-1">Règle 2.3 – Crises et réactions physiques</h3>
+        <ul>
+          <li>2.3.1 Pas plus de trois flashs ou sous le seuil critique (Niveau A)</li>
+        </ul>
+        <h3 id="r%C3%A8gle-2.4-%E2%80%93-navigable" tabindex="-1">Règle 2.4 – Navigable</h3>
+        <ul>
+          <li>2.4.1 Contourner des blocs (Niveau A)</li>
+          <li>2.4.2 Titre de page (Niveau A)</li>
+          <li>2.4.3 Parcours de la cible de saisie (Niveau A)</li>
+          <li>2.4.4 Fonction du lien (selon le contexte) (Niveau A)</li>
+          <li>2.4.5 Accès multiples (Niveau AA)</li>
+          <li>2.4.6 En-têtes et étiquettes (Niveau AA)</li>
+          <li>2.4.7 Visibilité de la cible de saisie (Niveau AA)</li>
+        </ul>
+        <h3 id="r%C3%A8gle-2.5-%E2%80%93-modalit%C3%A9s-d'entr%C3%A9e" tabindex="-1">Règle 2.5 – Modalités d'entrée</h3>
+        <ul>
+          <li>2.5.1 Mouvements du pointeur (Niveau A)</li>
+          <li>2.5.2 Annulation du pointeur (Niveau A)</li>
+          <li>2.5.3 Étiquette dans le nom (Niveau A)</li>
+          <li>2.5.4 Activation par le mouvement (Niveau A)</li>
+        </ul>
+        <h2 id="principe-3-%E2%80%93-compr%C3%A9hensible" tabindex="-1"><a href="https://www.w3.org/Translations/WCAG21-fr/#understandable" hreflang="en">Principe 3 – Compréhensible</a></h2><h3 id="r%C3%A8gle-3.1-%E2%80%93-lisible" tabindex="-1">Règle 3.1 – Lisible</h3>
+        <ul>
+          <li>3.1.1 Langue de la page (Niveau A)</li>
+          <li>3.1.2 Langue d'un passage (Niveau AA)</li>
+        </ul>
+        <h3 id="r%C3%A8gle-3.2-%E2%80%93-pr%C3%A9visible" tabindex="-1">Règle 3.2 – Prévisible</h3>
+        <ul>
+          <li>3.2.1 Cible de saisie (Niveau A)</li>
+          <li>3.2.2 À la saisie (Niveau A)</li>
+          <li>3.2.3 Navigation cohérente (Niveau AA)</li>
+          <li>3.2.4 Identification cohérente (Niveau AA)</li>
+        </ul>
+        <h3 id="r%C3%A8gle-3.3-%E2%80%93-assistance-%C3%A0-la-saisie" tabindex="-1">Règle 3.3 – Assistance à la saisie</h3>
+        <ul>
+          <li>3.3.1 Identification des erreurs (Niveau A)</li>
+          <li>3.3.2 Étiquettes ou instructions (Niveau A)</li>
+          <li>3.3.3 Suggestion d'erreur (Niveau AA)</li>
+          <li>3.3.4 Prévention des erreurs (juridiques, financières, de données) (Niveau AA)</li>
+        </ul>
+        <h2 id="principe-4-%E2%80%93-robuste" tabindex="-1"><a href="https://www.w3.org/Translations/WCAG21-fr/#robust" hreflang="en">Principe 4 – Robuste</a></h2><h3 id="r%C3%A8gle-4.1-%E2%80%93-compatible" tabindex="-1">Règle 4.1 – Compatible</h3>
+        <ul>
+          <li>4.1.1 Analyse syntaxique (Niveau A)</li>
+          <li>4.1.2 Nom, rôle et valeur (Niveau A)</li>
+          <li>4.1.3 Messages d'état (Niveau AA)</li>
+        </ul>
+        <div class="pagedetails container"><div class="row"><div class="col-sm-6 col-md-5 col-lg-4"><a href="https://www.canada.ca/fr/signaler-probleme.html" class="btn btn-default btn-center">Signaler un problème sur cette page</a></div><div class="wb-share col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5" data-wb-share="{"lnkClass": "btn btn-default btn-block"}"></div></div><dl id="wb-dtmd"><dt>Date de modification :</dt><dd><time property="dateModified" datetime="2023-12-03">2023-12-03</time></dd></dl></div>
+      </div>
+    </main>
+    <aside class="contribute">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5"><h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribuez à ce projet</span><small>sur Github.com</small></h2></div>
+          <div class="col-md-7">
+            <ul class="list-inline">
+              <li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io">Code source <small>(en anglais seulement)</small></a></li>
+              <li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Problèmes <span lang="en">(Issues)</span><small>(en anglais seulement)</small></a></li>
+              <li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions <small>(en anglais seulement)</small></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <footer id="wb-info">
+      <h2 class="wb-inv">À propos de ce site</h2>
+      <div class="gc-main-footer">
+        <div class="container">
+          <nav>
+            <h3>Gouvernement du Canada</h3>
+            <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+              <li><a href="https://www.canada.ca/fr/contact.html">Toutes les coordonnées</a></li>
+              <li><a href="https://www.canada.ca/fr/gouvernement/min.html">Ministères et organismes</a></li>
+              <li><a href="https://www.canada.ca/fr/gouvernement/systeme.html">À propos du gouvernement</a></li>
+            </ul>
+            <h4><span class="wb-inv">Thèmes et sujets</span></h4>
+            <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+              <li><a href="https://www.canada.ca/fr/services/emplois.html">Emplois</a></li>
+              <li><a href="https://www.canada.ca/fr/services/immigration-citoyennete.html">Immigration et citoyenneté</a></li>
+              <li><a href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+              <li><a href="https://www.canada.ca/fr/services/entreprises.html">Entreprises</a></li>
+              <li><a href="https://www.canada.ca/fr/services/prestations.html">Prestations</a></li>
+              <li><a href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
+              <li><a href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
+              <li><a href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+              <li><a href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+              <li><a href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+              <li><a href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+              <li><a href="https://www.canada.ca/fr/services/transport.html">Transport et infrastructure</a></li>
+              <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=fra">Le Canada et le monde</a></li>
+              <li><a href="https://www.canada.ca/fr/services/finance.html">Argent et finance</a></li>
+              <li><a href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+              <li><a href="https://www.canada.ca/fr/services/autochtones.html">Autochtones</a></li>
+              <li><a href="https://www.canada.ca/fr/services/veterans-militaire.html">Vétérans et militaires</a></li>
+              <li><a href="https://www.canada.ca/fr/services/jeunesse.html">Jeunesse</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="gc-sub-footer">
+        <div class="container d-flex align-items-center">
+          <nav>
+            <h3 class="wb-inv">Organisation du gouvernement du Canada</h3>
+            <ul>
+              <li><a href="https://www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
+              <li><a href="https://www.canada.ca/fr/mobile.html">Applications mobiles</a></li>
+              <li><a href="https://www.canada.ca/fr/gouvernement/a-propos.html">À propos de Canada.ca</a></li>
+              <li><a href="https://www.canada.ca/fr/transparence/avis.html">Avis</a></li>
+              <li><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
+            </ul>
+          </nav>
+          <div class="wtrmrk align-self-end"><img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada"></div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script><script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script><script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+  </body>
+</html>
