@@ -206,4 +206,4 @@ Vous pouvez également sélectionner les éléments que vous désirez grouper da
 
 - <a href="https://webaim.org/techniques/powerpoint/" hreflang="en">AIM Web : Création de présentations PowerPoint accessibles<small> (en anglais seulement)</small></a>
 - [Microsoft : Rendre vos présentations PowerPoint accessibles aux personnes atteintes de handicaps](https://support.office.com/fr-fr/article/rendre-vos-pr%C3%A9sentations-powerpoint-accessibles-aux-personnes-atteintes-de-handicaps-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25")
-- [Université Queen’s : Liste de vérification pour créer des présentations PowerPoint accessibles](https://www.queensu.ca/accessibility/how-info/accessible-documents/accessible-powerpoint-presentations-checklist") (en anglais seulement)
+- <a href="https://www.queensu.ca/accessibility/tutorials/accessible-documents/accessible-powerpoint-presentations-checklist" hreflang="en">Université Queen’s : Liste de vérification pour créer des présentations PowerPoint accessibles<small> (en anglais seulement)</small></a>

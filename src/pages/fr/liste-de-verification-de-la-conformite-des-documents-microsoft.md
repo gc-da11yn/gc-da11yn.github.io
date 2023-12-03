@@ -28,7 +28,7 @@ tags:
 </div>
 </div>
 
-Vous trouverez ci-dessous des questions qui vous indiqueront si votre document Microsoft Office est accessible. Les critères de réussite renvoient aux Règles pour l’accessibilité des contenus Web (WCAG) 2.1 : <a href="http://www.w3.org/WAI/WCAG21/quickref/" hreflang="en">How to Meet WCAG - Quick Reference<small> (en anglais seulement)</small></a> et le [Guide de rédaction du contenu du site Canada.ca](https://www.canada.ca/fr/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
+Vous trouverez ci-dessous des questions qui vous indiqueront si votre document Microsoft Office est accessible. Les critères de réussite renvoient aux Règles pour l’accessibilité des contenus Web (WCAG) 2.1 : <a href="http://www.w3.org/WAI/WCAG21/quickref/" hreflang="en">How to Meet WCAG - Quick Reference<small> (en anglais seulement)</small></a> et le [Guide de rédaction du contenu du site Canada.ca](https://conception.canada.ca/guide-redaction/).
 
 Si une question ne s’applique pas à votre document, indiquez « S.O. » pour « Sans objet ». Par exemple, il n’y a pas de table des matières dans un document Excel.
 
@@ -113,10 +113,10 @@ Si vous répondez « Non » à l’une des questions suivantes, votre document N
 
 ## Ressources
 
-- Les renseignements contenus dans le présent document proviennent de la Division des communications numériques (DCN) : [Making Files Accessible](https://www.hhs.gov/web/section-508/accessibility-checklists/index.html).
-- Les critères de succès sont présentés en détail dans [How to Meet WCAG 2.1 - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/).
-- Pour en savoir plus sur le langage clair, consultez le [Guide de rédaction du contenu du site Canada.ca](https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html#toc6).
-- Microsoft propose de nombreuses vidéos GRATUITES sur sa chaîne YouTube [MSFTEnable](https://www.youtube.com/user/MSFTEnable) (Vérifié si disponible en français) avec un bon outil d’apprentissage.
+- Les renseignements contenus dans le présent document proviennent de la Division des communications numériques (DCN) : <a href="https://www.hhs.gov/web/section-508/accessibility-checklists/index.html" hreflang="en">Making Files Accessible<small> (en anglais seulement)</small></a>
+- Les critères de succès sont présentés en détail dans <a href="http://www.w3.org/WAI/WCAG21/quickref/" hreflang="en">How to Meet WCAG 2.1 - Quick Reference<small> (en anglais seulement)</small></a>.
+- Pour en savoir plus sur le langage clair, consultez le [Guide de rédaction du contenu du site Canada.ca](https://conception.canada.ca/guide-redaction/#toc6).
+- Microsoft propose de nombreuses vidéos GRATUITES sur sa chaîne YouTube <a href="https://www.youtube.com/user/MSFTEnable" hreflang="en">MSFTEnable<small> (en anglais seulement)</small></a> (Vérifié si disponible en français) avec un bon outil d’apprentissage.
 
 <aside class="wb-fnote" role="note">
 <h2 id="fn">Notes de bas de pages</h2>
@@ -128,7 +128,7 @@ Si vous répondez « Non » à l’une des questions suivantes, votre document N
 </dd>
 <dt>Note de bas de page 2</dt>
 <dd id="fn2">
-<p>Vous référer au <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html#toc6">Guide de rédaction du contenu du site Canada.ca – Language clair et simple</a></p>
+<p>Vous référer au <a href="https://conception.canada.ca/guide-redaction/#toc6">Guide de rédaction du contenu du site Canada.ca – Language clair et simple</a></p>
 <p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Retour à la référence de la note de bas de page </span>2</a></p>
 </dd>
 </dl>
