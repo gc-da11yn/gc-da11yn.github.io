@@ -7,17 +7,13 @@ tags:
 ---
 
 ## Sur cette page
+
 - [Objectif](#objectif)
 - [Rôle essentiel](#rôle-essentiel)
 - [Structure de rapport](#structure-de-rapport)
-  - [Mandat et autorité de décision](#mandat-et-autorité-de-décision)
 - [Membres](#membres)
 - [Procédures de fonctionnement et fréquence des réunions](#procédures-de-fonctionnement-et-fréquence-des-réunions)
 - [Portée du projet](#portée-du-projet)
-  - [Phase 1: Architecture du site (détaillée dans un document séparé)](#phase-1-architecture-du-site-détaillée-dans-un-document-séparé)
-  - [Phase 2: Publication](#phase-2-publication)
-  - [Phase 3: Élargir](#phase-3-élargir)
-  - [Phase 4: Cycle de maintenance](#phase-4-cycle-de-maintenance)
 - [Ressources](#ressources)
 
 ## Objectif
@@ -94,7 +90,7 @@ Un bref résumé de l'état d'avancement du projet sera fourni au minimum lors d
 
 Les méthodes de contribution pourraient se faire d'une ou plusieurs des manières suivantes:
 
-1. Forum de <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions" hreflang="en">discussion GitHub</a> ouvert ;
+1. Forum de <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions" hreflang="en">discussion GitHub<small> (en anglais seulement)</small></a> ouvert ;
 
     1. GitHub,
     2. par courriel, ou
@@ -110,7 +106,7 @@ Les termes de référence seront revus au moins une fois par an et ajustés si n
 
 Bien qu'idéalement le projet ait une approche en quatre phases, le groupe de travail se concentrera uniquement sur la phase 1.
 
-### Phase 1: Architecture du site (détaillée dans un document séparé)
+### Phase 1: Architecture du site
 
 Que poster, comment organiser, les procédures de publication, le cycle de maintenance, le processus de documentation.
 

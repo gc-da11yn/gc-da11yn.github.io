@@ -135,5 +135,5 @@ Comme la plupart des produits Office, Visio dispose désormais d’un vérificat
 
 ## Ressources supplémentaires
 
-- <a href="https://www.nvaccess.org/about-nvda/" hreflang="en">NVDA : Un lecteur d’écran gratuit (pratique pour la mise à l’essai)<small> (en anglais seulement)</small></a>
+- <a href="https://www.nvaccess.org" hreflang="en">NVDA : Un lecteur d’écran gratuit (pratique pour la mise à l’essai)<small> (en anglais seulement)</small></a>
 - [Règles pour l’accessibilité des contenus Web 2.1](https://www.w3.org/Translations/WCAG21-fr/)

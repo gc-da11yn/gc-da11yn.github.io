@@ -10,10 +10,10 @@ audience:
 toggle: deficiences-auditives
 ---
 
-* <a href="{{ rootPath }}docs/posters/Hearing-en_2023.pdf" download>Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a>
-* [Designing for users who are deaf or hard of hearing (HTML)]({{ rootPath }}en/designing-for-users-who-are-deaf-or-hard-of-hearing/)
-* <a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
-* [Designing for users of screen readers (HTML)]({{ rootPath }}en/designing-for-users-of-screen-readers/)
+- <a href="{{ rootPath }}docs/posters/Hearing-en_2023.pdf" download>Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a>
+- [Designing for users who are deaf or hard of hearing (HTML)]({{ rootPath }}en/designing-for-users-who-are-deaf-or-hard-of-hearing/)
+- <a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
+- [Designing for users of screen readers (HTML)]({{ rootPath }}en/designing-for-users-of-screen-readers/)
 
 ## Deafness
 
@@ -41,8 +41,8 @@ toggle: deficiences-auditives
 
 According to the American Speech-Language-Hearing Association:
 
-* Auditory processing disorder (APD) is often described as greater than expected difficulty hearing and understanding speech even though no measurable hearing loss exists. Individuals with auditory processing disorders may act as though a hearing loss is present when in fact, hearing sensitivity is often within normal limits. APD is often confused with other disorders such as ADHD, language impairment, learning disabilities, social and emotional delays or cognitive deficits.
-* APD isn’t the inability to hear. It is the inability to interpret, organize, or analyze what is heard. All the parts of the hearing pathway are working well. But parts of the brain are not.
+- Auditory processing disorder (APD) is often described as greater than expected difficulty hearing and understanding speech even though no measurable hearing loss exists. Individuals with auditory processing disorders may act as though a hearing loss is present when in fact, hearing sensitivity is often within normal limits. APD is often confused with other disorders such as as Attention-Deficit Hyperactivity Disorder (ADHD), language impairment, learning disabilities, social and emotional delays or cognitive deficits.
+- <abbr title="Auditory processing disorder">APD</abbr> isn’t the inability to hear. It is the inability to interpret, organize, or analyze what is heard. All the parts of the hearing pathway are working well. But parts of the brain are not.
 
 </dd>
 <dt>Characteristics:</dt>
@@ -50,13 +50,13 @@ According to the American Speech-Language-Hearing Association:
 
 Behaviors can vary depending on the individual and the presence of other disorders. People with Central Auditory Processing Disorder can have difficulty with, among other things:
 
-* Finding the source of a sound
-* Understanding what someone is saying in noisy environments or with competing sounds
-* Following spoken directions
-* Learning songs or instruments
-* Paying attention
-* Responding in a timely way
-* Learning a new language
+- Finding the source of a sound
+- Understanding what someone is saying in noisy environments or with competing sounds
+- Following spoken directions
+- Learning songs or instruments
+- Paying attention
+- Responding in a timely way
+- Learning a new language
 
 </dd>
 
@@ -66,50 +66,50 @@ Behaviors can vary depending on the individual and the presence of other disorde
 
 From the W3C’s Web Accessibility Initiative and other sources:
 
-* People speaking softly, or in large spaces without amplification such as through microphones
-* Unavailability of sign language interpretation.
-* Environments that are loud or present competing sounds
-* Websites and other technologies that require voice for interaction or listening for understanding.
-* Audio in videos and films that are presented without captions or transcripts.
-* Media players that do not support caption, or options to control the volume, or the size and colors of captions.
+- People speaking softly, or in large spaces without amplification such as through microphones
+- Unavailability of sign language interpretation.
+- Environments that are loud or present competing sounds
+- Websites and other technologies that require voice for interaction or listening for understanding.
+- Audio in videos and films that are presented without captions or transcripts.
+- Media players that do not support caption, or options to control the volume, or the size and colors of captions.
 
 ### Deafness and Hard of Hearing Challenges and Solutions
 
 Cannot hear talks, presentations, and performances:
 
-* Provide sign language interpretation
-* Provide live captions on a monitor during the speech.
+- Provide sign language interpretation
+- Provide live captions on a monitor during the speech.
 
 Cannot hear the audio part of videos:
 
-* Provide synchronized captions with videos
-* Provide sign language interpretation
-* Provide a transcript
+- Provide synchronized captions with videos
+- Provide sign language interpretation
+- Provide a transcript
 
 Cannot hear doorbells, alarms, and other alerts:
 
-* Provide alternative visual alerts, such as lights that flash, pulse, dim, or turn on and off.
+- Provide alternative visual alerts, such as lights that flash, pulse, dim, or turn on and off.
 
 ## Adaptive Technologies and Adaptive Strategies
 
 Here are some commonly used products and strategies:
 
-* UbiDuo
-* A solution to help face-to-face communication between deaf/hard-of-hearing and hearing people. This device can help to eliminate feigning, frustration and Communiphobia, as well as promote communication equality. It allows people to share their thoughts and emotions seamlessly in real time.
-* Video conferencing for signing
-* Sign language interpretation
-* Teletype
-* Live captions during meetings and phone calls
-* For example, Communication Access Real-Time Transcription (CART)
-* Captions for videos
-* Transcripts for video or audio
-* Audio controls
-* Assistive listening devices
-* Haptic alerts / feedback
-* Visual labels / notifications / alerts
-* Hearing aids
-* Cochlear implants
-* Voice carryover
-* Frequency Modulation (FM) systems
-* Infrared systems
-* Audio Induction Loop systems
+- UbiDuo
+- A solution to help face-to-face communication between deaf/hard-of-hearing and hearing people. This device can help to eliminate feigning, frustration and Communiphobia, as well as promote communication equality. It allows people to share their thoughts and emotions seamlessly in real time.
+- Video conferencing for signing
+- Sign language interpretation
+- Teletype
+- Live captions during meetings and phone calls
+- For example, Communication Access Real-Time Transcription (CART)
+- Captions for videos
+- Transcripts for video or audio
+- Audio controls
+- Assistive listening devices
+- Haptic alerts / feedback
+- Visual labels / notifications / alerts
+- Hearing aids
+- Cochlear implants
+- Voice carryover
+- Frequency Modulation (FM) systems
+- Infrared systems
+- Audio Induction Loop systems

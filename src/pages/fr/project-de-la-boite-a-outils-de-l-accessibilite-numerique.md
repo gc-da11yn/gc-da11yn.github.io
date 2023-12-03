@@ -41,7 +41,7 @@ La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) :
 
 Les rôles clés seront définis sur la base du projet <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping" hreflang="en">Correspondance des rôles et responsabilités en matière d'accessibilité <small>(en anglais seulement)</small></a> du <span lang="en">World Wide Web Consortium (<abbr>W3C</abbr>)</span>.
 
-### Mandat et autorité de décision
+## Mandat et autorité de décision
 
 La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) est un forum d'élaboration de recommandations dont le mandat est le suivant:
 

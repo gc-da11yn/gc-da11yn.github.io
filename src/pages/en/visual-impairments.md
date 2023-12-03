@@ -16,28 +16,31 @@ toggle: deficiences-visuelles
 ## Blindness
 
 <dl>
-  <dt>Definition:</dt>
-  <dd>Blindness is a sensory disability involving nearly complete vision loss.</dd>
-  <dt>Characteristics:</dt>
-  <dd>Some people are completely blind, without the ability to see anything. Others can perceive light versus dark, or the general shapes of large objects, but cannot read text or recognize people by sight.</dd>
+<dt>Definition:</dt>
+<dd>Blindness is a sensory disability involving nearly complete vision loss.</dd>
+<dt>Characteristics:</dt>
+<dd>Some people are completely blind, without the ability to see anything. Others can perceive light versus dark, or the general shapes of large objects, but cannot read text or recognize people by sight.</dd>
 </dl>
 
 ## Colour Blindness
 
 <dl>
-  <dt>Definition:</dt>
-  <dd>Colour blindness is a sensory disability that impairs a person’s ability to distinguish certain colour combinations.</dd>
-  <dt>Characteristics:</dt>
-  <dd>The most common forms of colour-blindness affect an individual’s ability to distinguish reds and greens, although other colours may be affected.</dd>
+<dt>Definition:</dt>
+<dd>Colour blindness is a sensory disability that impairs a person’s ability to distinguish certain colour combinations.</dd>
+<dt>Characteristics:</dt>
+<dd>The most common forms of colour-blindness affect an individual’s ability to distinguish reds and greens, although other colours may be affected.</dd>
 </dl>
 
 ## Low Vision
 
 <dl>
-  <dt>Definition:</dt>
-  <dd>
+<dt>Definition:</dt>
+<dd>
 
-Low vision is uncorrectable vision loss that interferes with daily activities. It is better defined in terms of function, rather than numerical test results.
+Low vision is uncorrectable vision loss that interferes with daily activities. It is better defined in terms of function, rather than numerical test results.</dd>
+
+<dt>Characteristics:</dt>
+<dd>
 
 - In other words, low vision is “not enough vision to do whatever it is you need to do,” which can vary from person to person.
 - Most eye care professionals prefer to use the term “low vision” to describe permanently reduced vision that cannot be corrected with regular glasses, contact lenses, medicine, or surgery.

@@ -27,8 +27,8 @@ tags:
 toggle: mobility-flexibility-and-body-structure-disabilities
 ---
 
-* <a href="{{ rootPath }}docs/posters/MoteurPhysique-fr_2023.pdf" download>Concevoir pour les utilisateurs avec un handicap physique ou moteur (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 50 <abbr title="kilo-octet">ko</abbr>)</a>
-* [Concevoir pour les utilisateurs avec un handicap physique ou moteur (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/)
+- <a href="{{ rootPath }}docs/posters/MoteurPhysique-fr_2023.pdf" download>Concevoir pour les utilisateurs avec un handicap physique ou moteur (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 50 <abbr title="kilo-octet">ko</abbr>)</a>
+- [Concevoir pour les utilisateurs avec un handicap physique ou moteur (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/)
 
 La mobilité réduite comprend les personnes ayant une perte ou une incapacité d'un membre supérieur ou inférieur, des défis avec dextérité manuelle, handicap de coordination avec différents organes du corps, ou avec une structure squelettique brisée. Les déficiences physiques et motrices limitent le mouvement physique indépendant et délibéré du corps ou d'une ou plusieurs extrémités.
 
@@ -40,7 +40,17 @@ L’altération de la mobilité de la personne peut être temporaire ou permanen
 <dt>Définition :</dt>
 <dd>La motricité fine correspond aux mouvements complexes et détaillés de la main et du poignet nécessaire pour manipuler, contrôler et utiliser des objets, produire une écriture nette et lisible, et s'habiller indépendamment. Le handicap peut être temporaire, récurrente ou permanente.</dd>
 <dt>Caractéristiques :</dt>
-<dd>Par exemple, la difficulté à nouer les lacets, l'incapacité à faire boutons ou des fermetures éclair, des dessins gribouillés, des difficultés à utiliser un clavier, prendre beaucoup de temps pour ramasser de petits objets, manipuler des objets dans la main ou utiliser les deux mains en même temps.</dd>
+<dd>
+
+Le contrôle de la motricité fine est la capacité d'une personne à utiliser la précision, la coordination, la dextérité, la force, le contrôle, l'endurance et la conscience sensorielle. Par exemple,
+
+- La difficulté à nouer les lacets,
+- L'incapacité à faire boutons ou des fermetures éclair,
+- Des dessins gribouillés, des difficultés à utiliser un clavier,
+- Prendre beaucoup de temps pour ramasser de petits objets,
+- Manipuler des objets dans la main ou utiliser les deux mains en même temps.
+
+</dd>
 </dl>
 
 ## La déambulation
@@ -74,23 +84,23 @@ L’altération de la mobilité de la personne peut être temporaire ou permanen
 
 Voici quelques produits et stratégies couramment utilisés :
 
-* Claviers adaptatifs (court, fendu, courbé, à une main, clavier numérique, vertical, clavier étendu avec des sections surélevées entre les touches)
-* Commande vocale
-* Suivi de l'œil
-* Logiciel de reconnaissance vocale (Dragon Naturally Speaking Pro)
-* Logiciel de synthèse vocale (Dragon Medical Practice)
-* Curseurs à bulles et de zone
-* Clavier personnalisable
-* Blocs-notes adaptatifs avec prédiction de mots et fonctions de synthèse vocale
-* Dispositifs de pointage alternatifs
-* Souris ou boule de commande surdimensionnée
-* Appareil de commutation
-  * Bâton buccal
-  * Baguette principale
-  * Accès à un seul commutateur
-  * Contacteur au souffle
-* Affichages de position réglables
-* Contrôles de synchronisation
-* Chaise roulante
-* Conception ergonomique/universelle des produits de consommation
-* Worksafe Sam
+- Claviers adaptatifs (court, fendu, courbé, à une main, clavier numérique, vertical, clavier étendu avec des sections surélevées entre les touches)
+- Commande vocale
+- Suivi de l'œil
+- Logiciel de reconnaissance vocale (Dragon Naturally Speaking Pro)
+- Logiciel de synthèse vocale (Dragon Medical Practice)
+- Curseurs à bulles et de zone
+- Clavier personnalisable
+- Blocs-notes adaptatifs avec prédiction de mots et fonctions de synthèse vocale
+- Dispositifs de pointage alternatifs
+- Souris ou boule de commande surdimensionnée
+- Appareil de commutation
+  - Bâton buccal
+  - Baguette principale
+  - Accès à un seul commutateur
+  - Contacteur au souffle
+- Affichages de position réglables
+- Contrôles de synchronisation
+- Chaise roulante
+- Conception ergonomique/universelle des produits de consommation
+- Worksafe Sam

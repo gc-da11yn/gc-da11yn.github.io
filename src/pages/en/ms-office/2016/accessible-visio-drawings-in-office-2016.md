@@ -33,12 +33,12 @@ See [Understanding non-text contrast](https://www.w3.org/WAI/WCAG21/Understandin
 
 ### Abbreviations
 
-As diagrams are often dense with abbreviations, defining these abbreviations will aid in understanding for all users. See WCAG’s guidelines for [Abbreviations](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html)
+As diagrams are often dense with abbreviations, defining these abbreviations will aid in understanding for all users. See WCAG’s guidelines for [Abbreviations](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations)
 
 If possible within the layout, you can define abbreviations inline at their first occurrence.
 ex. Accessibility, Accommodations, and Adaptive Computer Technology (AAACT)
 
-Due to diagrams often being viewed in a non-linear order, it is usually preferable to [provide a glossary](https://www.w3.org/TR/WCAG20-TECHS/G62.html). The glossary should be in text within the document, under a heading such as “Glossary of abbreviations” so that it can be easily found.
+Due to diagrams often being viewed in a non-linear order, it is usually preferable to [provide a glossary](https://www.w3.org/WAI/WCAG21/Techniques/general/G62). The glossary should be in text within the document, under a heading such as “Glossary of abbreviations” so that it can be easily found.
 
 ### Text in images
 
@@ -148,5 +148,5 @@ In the ribbon toolbar, go to **Review** > **Check Accessibility**. Select each i
 
 ## Additional resources
 
-- [NVDA: Free screen reader](https://www.nvaccess.org/about-nvda/) (useful for testing)
+- [NVDA: Free screen reader](https://www.nvaccess.org) (useful for testing)
 - [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/)

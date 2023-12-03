@@ -9,16 +9,11 @@ tags:
 ## On this page
 
 - [Purpose](#purpose)
-- [Key role](#key-role)
+- [Key roles](#key-roles)
 - [Reporting structure](#reporting-structure)
-  - [Mandate and decision-making authority](#mandate-and-decision-making-authority)
 - [Membership](#membership)
 - [Operating procedures and frequency of meetings](#operating-procedures-and-frequency-of-meetings)
 - [Scope](#scope)
-  - [Phase 1: Site Architecture (detailed in separate document)](#phase-1-site-architecture-detailed-in-separate-document)
-  - [Phase 2: Publishing](#phase-2-publishing)
-  - [Phase 3: Expand](#phase-3-expand)
-  - [Phase 4: Maintenance cycle](#phase-4-maintenance-cycle)
 - [Resources](#resources)
 
 ## Purpose
@@ -34,7 +29,7 @@ Sharing accessibility resources and work in a central repository would, among ot
 - reduce time and money spent duplicating or searching for other <abbr title="Government of Canada">GC</abbr> departments accessibility work; and
 - promote the accessibility work that we do in the <abbr title="Government of Canada">GC</abbr> on a public space.
 
-## Key role
+## Key roles
 
 The Digital Accessibility Toolkit (<abbr>DAT</abbr>) task force supports the Public Service Accessibility Strategy [Goal 3: Technology Make information and communications technology usable by all](https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc/accessibility-strategy-public-service-technology.html).
 
@@ -75,7 +70,7 @@ Members
   - Shared Service Canada (<abbr>SSC</abbr>): Shawn Thompson, Accessibility, Accommodation and Adaptive Computer Technology (<abbr>AAACT</abbr>) Program (Development lead)
   - Canada School of Public Service (<abbr>CSPS</abbr>): Julie Bélisle Boutet, Digital Accessibility in Learning (Content lead)
 - Contributing resources:
-  - Open Government Working Group
+  - Open Government Working Group (<abbr>COGWG</abbr>) 
   - Canadian Digital Services (<abbr>CDS</abbr>)
 - Different subject matter experts, other than accessibility
   - Legal
@@ -99,21 +94,21 @@ A brief summary of the project progress will be provided at minimum at every oth
 
 The methods of contributing could be as done in one or more of the following ways:
 
-1. [Github discussion forum](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) in the open;
+1. [Github discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) in the open;
     1. GitHub,
     2. email, or
     3. anonymously via web form.
 2. Task force meetings
 
-Final decisions will be published on the [Github discussion forum](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
+Final decisions will be published on the [Github discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
 
 The Terms of Reference will be reviewed at minimum annually and adjusted as required.
 
 ## Scope
 
-While ideally the project have a four phases approach, the focus of this task force will be on Phase 1 only as early 2023.
+While ideally the project have a four phases approach, the focus of this task force will be on Phase 1 as early as 2023.
 
-### Phase 1: Site Architecture (detailed in separate document)
+### Phase 1: Site Architecture
 
 What to post, how to organize, publishing procedures, maintenance cycle, documenting process.
 

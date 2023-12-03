@@ -37,7 +37,7 @@ Comme les diagrammes sont souvent remplis d’abréviations, la définition de c
 
 Si possible, selon la disposition, insérez les abréviations la première fois qu’elles apparaissent. - P. ex. Programme d’accessibilité, d’adaptation et de technologie informatique adaptée (AATIA)
 
-Étant donné que les diagrammes sont souvent visualisés dans un ordre non linéaire, il est généralement préférable de <a href="https://www.w3.org/TR/WCAG20-TECHS/G62.html" hreflang="en">fournir un glossaire<small> (en anglais seulement)</small></a>. Le glossaire doit faire partie du texte du document, sous un en-tête comme «&#8201;Glossaire des abréviations&#8201;», de manière à pouvoir le retrouver facilement.
+Étant donné que les diagrammes sont souvent visualisés dans un ordre non linéaire, il est généralement préférable de <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G62" hreflang="en">fournir un glossaire<small> (en anglais seulement)</small></a>. Le glossaire doit faire partie du texte du document, sous un en-tête comme «&#8201;Glossaire des abréviations&#8201;», de manière à pouvoir le retrouver facilement.
 
 ### Texte intégré à des images
 
@@ -111,7 +111,7 @@ Ajoutez d’autres informations pertinentes sur le composant D.
 
 Microsoft a récemment publié un guide sur <a href="https://support.office.com/en-us/article/make-your-visio-diagram-accessible-e2c847a9-f010-4fef-af65-16e252829d44" hreflang="en">Rendre les diagrammes Visio accessibles<small> (en anglais seulement)</small></a>.
 
-Il est important de comprendre <a href="https://support.office.com/en-us/article/use-a-screen-reader-to-read-visio-diagrams-45ff89fc-fcd8-4c99-bc21-70eb9af29a61" hreflang="en">la façon dont un utilisateur de lecteur d’écran lit un diagramme Visio<small> (en anglais seulement)</small></a>
+Il est important de comprendre [la façon dont un utilisateur de lecteur d’écran lit un diagramme Visio](https://support.microsoft.com/fr-fr/office/rendre-votre-diagramme-visio-accessible-aux-personnes-atteintes-de-handicaps-e2c847a9-f010-4fef-af65-16e252829d44).
 
 - Ils utilisent la touche de tabulation pour passer d’une forme à l’autre dans un ordre prédéfini.
 - Les formes sont décrites selon leur texte de remplacement (« alt text »), leur position et leur mise en forme.
@@ -147,5 +147,5 @@ Comme la plupart des produits Office, Visio dispose désormais d’un vérificat
 
 ## Ressources supplémentaires
 
-- <a href="https://www.nvaccess.org/about-nvda/" hreflang="en">NVDA : Un lecteur d’écran gratuit (pratique pour la mise à l’essai)<small> (en anglais seulement)</small></a>
+- <a href="https://www.nvaccess.org" hreflang="en">NVDA : Un lecteur d’écran gratuit (pratique pour la mise à l’essai)<small> (en anglais seulement)</small></a>
 - [Règles pour l’accessibilité des contenus Web 2.1](https://www.w3.org/Translations/WCAG21-fr/)

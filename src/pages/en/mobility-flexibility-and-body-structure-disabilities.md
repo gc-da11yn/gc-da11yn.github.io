@@ -15,8 +15,8 @@ tags:
 toggle: handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle
 ---
 
-* <a href="{{ rootPath }}docs/posters/MotorPhysical-en_2023.pdf" download>Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
-* [Designing for users with physical or motor disabilities (HTML)]({{ rootPath }}en/designing-for-users-with-physical-or-motor-disabilities/)
+- <a href="{{ rootPath }}docs/posters/MotorPhysical-en_2023.pdf" download>Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
+- [Designing for users with physical or motor disabilities (HTML)]({{ rootPath }}en/designing-for-users-with-physical-or-motor-disabilities/)
 
 ## Manual Dexterity/Fine Motor Control
 
@@ -28,11 +28,11 @@ toggle: handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle
 
 Fine motor control is a person’s ability to use precision, coordination, dexterity, strength, control endurance and sensory awareness. Some examples include
 
-* difficulty in manipulating or griping small objects or tools, such as a pencil, with one or both hands
-* Difficulty writing small consistent letters
-* difficulty using a keyboard,
-* inability to do up buttons or zippers (strength)
-* Lack of sensory feedback like touch and pressure
+- Difficulty in manipulating or griping small objects or tools, such as a pencil, with one or both hands
+- Difficulty writing small consistent letters
+- Difficulty using a keyboard,
+- Inability to do up buttons or zippers (strength)
+- Lack of sensory feedback like touch and pressure
 
 </dd>
 </dl>
@@ -68,23 +68,23 @@ Fine motor control is a person’s ability to use precision, coordination, dexte
 
 Here are some commonly used products and strategies:
 
-* Adaptive keyboards (short, split, curved, one-handed, numeric pad, vertical, expanded keyboard with raised sections between keys)
-* Voice control
-* Eye tracking
-* Voice recognition software (Dragon Naturally Speaking Pro)
-* Speech-to-text software (Dragon Medical Practice)
-* Bubble and area cursors
-* Customizable keyboard
-* Adaptive notepads with word prediction and text-to-speech features
-* Alternative pointing devices
-* Oversized mouse or trackball
-* Switch devices
-* Mouth stick
-* Head wand
-* Single-switch access
-* Sip and puﬀ switch
-* Adjustable position displays
-* Timing controls
-* Wheelchair
-* Ergonomic / universal design of consumer products
-* Worksafe SAM
+- Adaptive keyboards (short, split, curved, one-handed, numeric pad, vertical, expanded keyboard with raised sections between keys)
+- Voice control
+- Eye tracking
+- Voice recognition software (Dragon Naturally Speaking Pro)
+- Speech-to-text software (Dragon Medical Practice)
+- Bubble and area cursors
+- Customizable keyboard
+- Adaptive notepads with word prediction and text-to-speech features
+- Alternative pointing devices
+- Oversized mouse or trackball
+- Switch devices
+- Mouth stick
+- Head wand
+- Single-switch access
+- Sip and puﬀ switch
+- Adjustable position displays
+- Timing controls
+- Wheelchair
+- Ergonomic / universal design of consumer products
+- Worksafe SAM
