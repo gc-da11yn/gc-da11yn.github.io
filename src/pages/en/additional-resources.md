@@ -241,9 +241,13 @@ From using your iPhone without seeing the screen, to adapting gestures to your p
 </div>
 <div class="col-md-6">
 
+<!-- Removed for now, might be taking it over
+
 ### [CDS Accessibility Handbook](https://digital.canada.ca/a11y/)
 
 The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible.
+
+ -->
 
 </div>
 <div class="col-md-6">

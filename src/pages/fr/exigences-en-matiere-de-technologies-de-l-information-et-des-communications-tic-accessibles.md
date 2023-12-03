@@ -3576,7 +3576,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 					<li>Persister: le contenu additionnel reste visible jusqu’à ce que le survol ou le focus soit retiré, que l’utilisateur le masque ou que ses informations ne soient plus valables.</li>
 				</ul>
 				<p>Exception: La présentation visuelle du contenu supplémentaire est contrôlée par l’agent utilisateur et n’est pas modifiée par l’auteur.</p>
-				<p>Remarque: Parmi les exemples de contenu additionnel contrôlé par l’agent utilisateur figurent les infobulles du navigateur créées à l’aide de <a href="https://www.w3.org/Translations/html/dom.html#the-title-attribute">attribut titre</a> HTML. </p>
+				<p>Remarque: Parmi les exemples de contenu additionnel contrôlé par l’agent utilisateur figurent les infobulles du navigateur créées à l’aide de <a href="https://html.spec.whatwg.org/multipage/rendering.html#the-title-attribute-2" hreflang="en">attribut titre<small> (en anglais seulement)</small></a> HTML.</p>
 				<p>Remarque: Les infobulles personnalisées, les sous-menus et autres fenêtres non modales qui s’affichent au survol et à la prise de focus sont des exemples de contenu additionnel couvert par ce critère. </p>
 			</td>
 			<td>
@@ -4994,7 +4994,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 				<p>Si les technologies utilisées peuvent réaliser la présentation visuelle, le <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-text">texte</a>est utilisé pour véhiculer de l’information plutôt que du <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-images-of-text">texte sous forme d’image</a>, sauf dans les cas suivants:</p>
 				<ul>
 					<li>Personnalisable: Le texte sous forme d’image peut être <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-visually-customized">personnalisé visuellement</a> selon les exigences de l’utilisateur;</li>
-					<li>Essentielle: Une présentation spécifique du texte est <a href="https://www.w3.org/Translations/WCAG21%20-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
+					<li>Essentielle: Une présentation spécifique du texte est <a href="https://www.w3.org/Translations/WCAG21-fr/#dfn-essential">essentielle</a> à l’information véhiculée.</li>
 				</ul>
 				<p>Remarque: Les logotypes sont considérés comme essentiels (le texte qui fait partie d’un logo ou d’un nom de marque).</p>
 			</td>
