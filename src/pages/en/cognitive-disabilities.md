@@ -248,18 +248,18 @@ Here are some commonly used products and strategies:
 
 - Cueing/Memory Aids
 - Software that includes text to speech, word prediction, and spell check
-- For example, Word Q Pro
+  - For example, Word Q Pro
 - Simplified interfaces
-- For example, Medialexie
+  - For example, Medialexie
 - Simplified content
-- For example, workbooks, picture boards, charts, pencil grip to aid in writing skills, educational toys and games, blocks, models of common objects, letters, and numerals
+  - For example, workbooks, picture boards, charts, pencil grip to aid in writing skills, educational toys and games, blocks, models of common objects, letters, and numerals
 - Augmentative and alternative communication (AAC) devices
 - Synchronized speech and highlighting
 - Visual / audio alternatives to text in signage, messages, instructions
 - Direct and immediate help
 - Smart Pens
 - Pens for recording lectures, note taking and improving handwriting.
-- For example, Echo Smart Pen
+  - For example, Echo Smart Pen
 - Pens that can scan and store text and transfer it to a word processor.
 - Pens with scanning capabilities for reading comprehension.
 - Digital highlighters that instantly transfer words on paper to a digital device for easy note-taking and deeper comprehension.
@@ -267,7 +267,7 @@ Here are some commonly used products and strategies:
 - Online grammar checkers
 - Software that includes color highlighters, notetaking, and bookmarking functions
 - Educational Software
-- For example, Kurzweil 3000
+  - For example, Kurzweil 3000
 - Speech Recognition
 - Voice Recorders
 
