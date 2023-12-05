@@ -1,7 +1,7 @@
 ---
 title: Accessible Word documents in Microsoft 365
 description: Accessible practices for Microsoft Word document creation.
-toggle: documents-word-accessibles-dans-Microsoft-365
+toggle: documents-word-accessibles-dans-microsoft-365
 fontIcon: fa-file-word
 ---
 
