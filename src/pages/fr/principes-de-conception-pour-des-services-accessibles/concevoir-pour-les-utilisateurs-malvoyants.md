@@ -3,6 +3,8 @@ title: Concevoir pour les utilisateurs malvoyants
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs ayant une vision réduite.
 tags: designingAccessible
 toggle: designing-for-users-with-low-vision
+subject:
+  - howTos
 ---
 
 Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):

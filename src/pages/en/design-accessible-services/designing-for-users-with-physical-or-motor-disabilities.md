@@ -3,6 +3,8 @@ title: Designing for users with physical or motor disabilities
 description: What to do - and what <strong>not</strong> to do - when designing for users with physical or motor disabilities.
 tags: designingAccessible
 toggle: concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur
+subject:
+  - howTos
 ---
 
 Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
