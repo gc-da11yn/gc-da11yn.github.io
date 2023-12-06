@@ -334,7 +334,7 @@ Provides rules for managing and coordinating communications, including procedure
 </div>
 <div class="col-md-6">
 
-### [EU EN 301 549 (Managing accessibility in the public procurement of ICT)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pd download)
+### [EU EN 301 549 (Managing accessibility in the public procurement of ICT)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf download)
 
 Accessibility requirements suitable for public procurement of ICT products and services in Europe.
 
