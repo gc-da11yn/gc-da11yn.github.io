@@ -3,6 +3,8 @@ title: Designing for users with low vision
 description: What to do - and what <strong>not</strong> to do - when designing for users with low vision.
 tags: designingAccessible
 toggle: concevoir-pour-les-utilisateurs-malvoyants
+subject:
+  - howTos
 ---
 
 Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
