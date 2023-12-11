@@ -20,7 +20,7 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 - Écrire dans un langage clair
 - Utiliser des phrases simples et des listes à puces
 - Faire des boutons descriptifs
-- Faire des mises en pages simples et homogènes
+- Construire des mises en pages simples et cohérentes
 
 </div>
 <div class="col-md-6">
