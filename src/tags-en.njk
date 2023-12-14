@@ -8,7 +8,7 @@ pagination:
     - nav
     - post
     - posts
-permalink: /tags/{{ tag }}/
+permalink: /en/tags/{{ tag }}/
 layout: layouts/base.njk
 eleventyComputed:
   title: "Tagged “{{ tag }}”"
@@ -17,5 +17,5 @@ eleventyComputed:
 
 <h1>Tagged “{{ tag }}”</h1>
 
-{% set postslist = collections[tag] %}
-{% include "components/postslist.njk" %}
+{% set postslist = collections[tag] | filterByLocale('en') %}
+{% include "partials/postslist.njk" %}

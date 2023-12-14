@@ -13,9 +13,10 @@
                     <!-- Display tags if available -->
                     {% if item.data.tags %}
                         <ul>
-                            {% for tag in item.data.tags %}
-                                <li><a href="/tags/{{ tag | slug }}/index.html">{{ tag }}</a></li>
-                            {% endfor %}
+                    {% for tag in item.data.tags %}
+                        <li><a href="/{{ locale }}/tags/{{ tag | slug }}/index.html">{{ tag }}</a></li>
+                    {% endfor %}
+
                         </ul>
                     {% endif %}
                 </p>

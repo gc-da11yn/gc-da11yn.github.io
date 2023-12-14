@@ -1,0 +1,21 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+permalink: /fr/tags/{{ tag }}/
+layout: layouts/base.njk
+eleventyComputed:
+  title: "Étiqueté “{{ tag }}”"
+  metaDescription: "Tous les articles du blog étiquetés avec “{{ tag }}”"
+---
+
+<h1>Étiqueté “{{ tag }}”</h1>
+
+{% set postslist = collections[tag] | filterByLocale('fr') %}
+{% include "partials/postslist.njk" %}
