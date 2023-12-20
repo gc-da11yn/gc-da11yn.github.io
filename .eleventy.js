@@ -15,6 +15,14 @@ module.exports = function(eleventyConfig) {
     markdownIt(markdownItOptions).use(markdownItAnchor).use(markdownItAttrs)
   );
 
+  eleventyConfig.addFilter("filterByLocale", function(collection, locale) {
+    return collection.filter(item => {
+      // Extract the language from the URL to determine the content's language
+      const pathParts = item.url.split('/'); // Split the URL into parts
+      return pathParts.includes(locale); // Check if the URL contains the language folder
+    });
+  });
+
   const slugifyFilter = eleventyConfig.javascriptFunctions.slugify;
 
   eleventyConfig.addFilter("stripTagsSlugify", (str) => {
