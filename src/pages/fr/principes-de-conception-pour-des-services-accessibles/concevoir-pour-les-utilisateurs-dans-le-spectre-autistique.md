@@ -19,7 +19,7 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 - Utiliser des couleurs simples
 - Écrire dans un langage clair
 - Utiliser des phrases simples et des listes à puces
-- Faire des boutons descriptifs
+- Créer des boutons descriptifs
 - Construire des mises en pages simples et cohérentes
 
 </div>
@@ -31,7 +31,7 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 - Utiliser des figures de style et des expressions imagées
 - Créer des textes très longs
 - Mettre en place des boutons qui ne précisent pas l’action à effectuer
-- Faire des mises en pages complexes et surchargées
+- Consevoir des mises en pages complexes et surchargées
 
 </div>
 </div>
