@@ -1,0 +1,32 @@
+---
+title: Shared Services Canada (SSC)
+description: Shared Services Canada (SSC) is a leader in technology which includes digital accessibility for many of the departments within the Government of Canada.
+toggle: services-partages-canada-spc
+subject:
+  - accessibilityInTheGovernmentOfCanada
+tags:
+  - communityDirectory
+---
+
+{% if collections.ssc === undefined %}
+
+{% include "partials/alert-landingpages.njk" %}
+
+{% else %}
+
+<div class="row wb-eqht mrgn-tp-lg gc-drmt">
+	{% for item in collections.ssc | sort(false, false, 'data.title') | localeMatch(locale) %}
+	<div class="col-md-6">
+		<h2><a href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ item.url }}{% endif %}" {% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}" {% endif %}>{{ item.data.title | safe }}{% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}</a></h2>
+		<p>
+			{% if item.data.description %}
+			{{ item.data.description | safe }}
+			{% else %}
+			{{ landingPage[locale].descriptionNoneText }}
+			{% endif %}
+		</p>
+	</div>
+	{% endfor %}
+</div>
+
+{% endif %}
