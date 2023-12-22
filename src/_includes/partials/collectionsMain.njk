@@ -6,7 +6,7 @@
 			<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
 			<p>
 				{% if item.data.description %}
-				{{ item.data.description }}
+				{{ item.data.description | safe }}
 				{% else %}
 				{{ landingPage[locale].descriptionNoneText }}
 				{% endif %}
