@@ -20,4 +20,4 @@ For public servants with disabilities or injuries, AAACT offers a wide range of 
 
 AAACT serves all GC employees and departments, in person and remotely, in various types of work arrangements.
 
-To learn more about AAACT's services for employees, management and digital accessibility please visit our “[How can AAACT help you?](https://www.canada.ca/en/shared-services/corporate/aaact-program/how-aaact-help-you.html)” services page.
+To learn more about AAACT's services for employees, management and digital accessibility please visit our “[How can AAACT help you?]({{ rootPath }}{{ locale }}/how-can-aaact-help-you)” services page.
