@@ -49,5 +49,7 @@ L'équipe d'accessibilité numérique en apprentissage de l'EFPC, qui fait parti
 
 Pour en savoir plus sur l'inclusion et l'accessibilité, ou pour obtenir de l'aide pour la conception ou le développement de votre apprentissage, veuillez contacter
 
+ <a href="mailto:digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca">digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca
+
 </section>
 </div>

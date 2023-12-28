@@ -48,6 +48,7 @@ The CSPS Digital Accessibility in Learning team, under the User Experience divis
 - Provide coaching and professional development to School employees on accessibility.
 
 To learn more about inclusion and accessibility, or to access help with your learning design or development, please contact the Digital Accessibility team.
+
  <a href="mailto:digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca">digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca</a>
 
 </section>
