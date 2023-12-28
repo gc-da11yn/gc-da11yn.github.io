@@ -50,5 +50,6 @@ The CSPS Digital Accessibility in Learning team, under the User Experience divis
 To learn more about inclusion and accessibility, or to access help with your learning design or development, please contact the Digital Accessibility team.
 
 <digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca>
+
 </section>
 </div>
