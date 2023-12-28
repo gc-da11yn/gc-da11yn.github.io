@@ -1,8 +1,8 @@
 ---
-title: Groupe de rôles d'auteur
+title: Groupe d'auteur
 description: Responsable de la création de tout le texte présenté par le livrable sous toutes les formes (HTML, audio, vidéo). Définit ou sélectionne les normes auxquelles le contenu doit répondre et les processus pour son examen et sa préparation.
 tags: rolesInvolvedInAccessibility
-toggle: author-role-group
+toggle: author-group
 subject:
   - aboutUs
 ---

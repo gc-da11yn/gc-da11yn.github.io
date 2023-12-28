@@ -1,8 +1,8 @@
 ---
-title: Groupe de rôles de test
+title: Groupe de test
 description: Les testeurs d'assurance qualité exécutent des cadres de tests automatisés ou testent manuellement les produits pour confirmer le bon fonctionnement en fonction des exigences fournies.
 tags: rolesInvolvedInAccessibility
-toggle: testing-role-group
+toggle: testing-group
 subject:
   - aboutUs
 ---

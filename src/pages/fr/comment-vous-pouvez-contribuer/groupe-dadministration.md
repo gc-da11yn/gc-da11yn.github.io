@@ -1,8 +1,8 @@
 ---
-title: Groupe de rôles d'administration
+title: Groupe d'administration
 description: Les rôles dans cette section couvrent la gestion du produit et du projet, ainsi que d'autres fonctions bureaucratiques de l'organisation au sens large qui ont souvent un mandat plus large que n'importe quel projet individuel. La plupart des rôles administratifs, tels que définis dans cette ressource, ont très peu, voire rien à voir avec la conception, la mise en œuvre ou le test des principes d'accessibilité pour créer des applications et des sites Web plus inclusifs. Ces rôles, cependant, restent essentiels pour garantir que les membres de l'équipe qui participent activement à rendre le contenu accessible et conforme aux WCAG puissent y parvenir. Cela commence par le fait que les chefs de projet et les propriétaires de produits travaillent main dans la main avec les équipes de conception, de développement et de test, mais aussi avec d’autres rôles de gouvernance contribuant à orienter la culture de l’organisation dans une direction alignée sur les objectifs poursuivis par les directives d’accessibilité.
 tags: rolesInvolvedInAccessibility
-toggle: administration-role-group
+toggle: administration-group
 subject:
   - aboutUs
 ---

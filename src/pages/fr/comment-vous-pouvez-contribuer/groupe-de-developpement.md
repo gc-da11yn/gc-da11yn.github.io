@@ -1,8 +1,8 @@
 ---
-title: Groupe de rôle de développement
+title: Groupe de développement
 description: Supervise la création, le codage et la livraison du produit en fonction des exigences fournies. Responsable de tous les systèmes destinés aux utilisateurs et de support, ainsi que de toute la sélection, de la configuration et du déploiement de l’infrastructure associée.
 tags: rolesInvolvedInAccessibility
-toggle: development-role-group
+toggle: development-group
 subject:
   - aboutUs
 ---

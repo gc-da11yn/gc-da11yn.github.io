@@ -1,8 +1,8 @@
 ---
-title: Groupe de rôles d'analyse
+title: Groupe d'analyse
 description: Rédige les exigences commerciales et/ou les témoignages d'utilisateurs initiaux et veille à ce que le projet offre les avantages commerciaux convenus.
 tags: rolesInvolvedInAccessibility
-toggle: analysis-role-group
+toggle: analysis-group
 subject:
   - aboutUs
 ---

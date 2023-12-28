@@ -1,8 +1,8 @@
 ---
-title: Groupe de rôles de conception
+title: Groupe de conception
 description: Ces rôles définissent « l'apparence et la convivialité » générales des produits couvrant la présentation, la fonctionnalité, les caractéristiques et le fonctionnement. Ils traduisent les contributions des rôles commerciaux en user stories, exigences, spécifications, documentation et directives utilisées par d'autres rôles (principalement le développement) pour créer le produit fini. Cela inclut l’application de la recherche et la compréhension des publics visés pour une expérience de qualité.
 tags: rolesInvolvedInAccessibility
-toggle: design-role-group
+toggle: design-group
 subject:
   - aboutUs
 ---
