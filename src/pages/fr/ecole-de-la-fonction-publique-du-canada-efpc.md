@@ -18,7 +18,7 @@ L'équipe des politiques, des priorités et des partenariats de l'École de la f
 <section class="col-md-6">
 <h2 class="h4">L'&eacute;quipe de l&rsquo;Avenir du travail/Exp&eacute;rience employ&eacute; de l'EFPC</h2>
 
-L’équipe de l’Avenir du travail / Expérience employé de l'EFPC travaille à la création du plan d'accessibilité de l’organisation, comme l'exige la [_Loi sur l'accessibilité du Canada_](https://laws-lois.justice.gc.ca/fra/lois/a-0.6/). Le plan est basé sur la stratégie d'accessibilité actuelle de l'EFPC, tout en s'assurant que l'EFPC est conforme aux nouveaux règlements techniques d'accessibilité du Canada. 
+L’équipe de l’Avenir du travail / Expérience employé de l'EFPC travaille à la création du plan d'accessibilité de l’organisation, comme l'exige la [_Loi sur l'accessibilité du Canada_](https://laws-lois.justice.gc.ca/fra/lois/a-0.6/). Le plan est basé sur la stratégie d'accessibilité actuelle de l'EFPC, tout en s'assurant que l'EFPC est conforme aux nouveaux règlements techniques d'accessibilité du Canada.
 
 L'équipe de l'Avenir du travail coordonnera avec tous les secteurs d'activité de l'EFPC concernés par la politique d'accessibilité, tant du point de vue des employeurs que des fournisseurs de services. De plus, nous mènerons des consultations avec les employés qui s'identifient comme des personnes handicapées pendant le processus de préparation du plan d'accessibilité qui devrait être publié avant décembre 2022.
 
@@ -49,6 +49,6 @@ L'équipe d'accessibilité numérique en apprentissage de l'EFPC, qui fait parti
 
 Pour en savoir plus sur l'inclusion et l'accessibilité, ou pour obtenir de l'aide pour la conception ou le développement de votre apprentissage, veuillez contacter
 
- <a href="mailto:digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca">digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca</a>
+<digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca>
 </section>
 </div>
