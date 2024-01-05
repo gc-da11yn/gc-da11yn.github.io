@@ -21,7 +21,7 @@ Please note that some of the accessibility testing tools listed will require adm
 
 ## Building your toolset
 
-## Tool: WAVE Browser Extensions {#tool-wave-browser-extensions}
+## Tool: WAVE Browser Extensions
 
 WAVE for Chrome, Firefox, and Edge extensions allows you to evaluate web content for accessibility issues directly within your browser. Because the extension runs entirely within your web browser, no information is sent to the WAVE server.
 

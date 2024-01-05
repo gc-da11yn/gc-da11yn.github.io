@@ -60,6 +60,7 @@
     "esm": "^3.2.25",
     "prompt-sync": "^4.2.0",
     "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "tsimportlib": "^0.0.5"
   }
 }
