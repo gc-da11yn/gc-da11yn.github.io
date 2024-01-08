@@ -3,6 +3,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
+const htmlmin = require("html-minifier");
 const { dynamicImport } = require('tsimportlib');
 
 module.exports = function (eleventyConfig) {
@@ -36,6 +37,18 @@ module.exports = function (eleventyConfig) {
   const { DateTime } = require("luxon");
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+   // Minify HTML output
+   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    if (outputPath && outputPath.endsWith(".html")) {
+      return htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+    }
+    return content;
+  });
 
   eleventyConfig.addFilter("localeMatch", function (collection) {
     const { locale } = this.ctx; // avoid retrieving it for each item
