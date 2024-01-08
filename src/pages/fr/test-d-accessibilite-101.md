@@ -8,14 +8,14 @@ tags: testYourProducts
 
 ## Sur cette page
 
-- [Création d’un ensemble d’outils](#création-dun-ensemble-doutils)
-  - [Outil : Extensions de navigateur WAVE](#outil--extensions-de-navigateur-wave)
-  - [Outil : Accessibility Insights for Web](#outil--accessibility-insights-for-web)
-  - [Outil: LightHouse](#outil-lighthouse)
-- [Aide et ressources supplémentaires](#aide-et-ressources-supplémentaires)
+- [Création d’un ensemble d’outils](#creation-d-un-ensemble-d-outils)
+  - [Outil : Extensions de navigateur WAVE](#outil-extensions-de-navigateur-wave)
+  - [Outil : Accessibility Insights for Web](#outil-accessibility-insights-for-web)
+  - [Outil: LightHouse](#outil-light-house)
+- [Aide et ressources supplémentaires](#aide-et-ressources-supplementaires)
   - [Tests clavier et manuels de votre site](#tests-clavier-et-manuels-de-votre-site)
   - [Principes de base des tests au clavier](#principes-de-base-des-tests-au-clavier)
-  - [Ressources supplémentaires](#ressources-supplémentaires)
+  - [Ressources supplémentaires](#ressources-supplementaires)
 
 Veuillez noter que certains des outils de test d’accessibilité répertoriés nécessitent des autorisations administratives pour être installés sur votre appareil.
 
