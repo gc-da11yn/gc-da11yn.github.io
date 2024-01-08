@@ -56,7 +56,6 @@
     "string-strip-html": "^8.5.0"
   },
   "dependencies": {
-    "clean-html": "^2.0.1",
     "esm": "^3.2.25",
     "html-minifier": "^4.0.0",
     "prompt-sync": "^4.2.0",
