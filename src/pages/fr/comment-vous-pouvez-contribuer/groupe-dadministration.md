@@ -1,19 +1,54 @@
 ---
 title: Groupe d'administration
-description: Les rôles dans cette section couvrent la gestion du produit et du projet, ainsi que d'autres fonctions bureaucratiques de l'organisation au sens large qui ont souvent un mandat plus large que n'importe quel projet individuel. La plupart des rôles administratifs, tels que définis dans cette ressource, ont très peu, voire rien à voir avec la conception, la mise en œuvre ou le test des principes d'accessibilité pour créer des applications et des sites Web plus inclusifs. Ces rôles, cependant, restent essentiels pour garantir que les membres de l'équipe qui participent activement à rendre le contenu accessible et conforme aux WCAG puissent y parvenir. Cela commence par le fait que les chefs de projet et les propriétaires de produits travaillent main dans la main avec les équipes de conception, de développement et de test, mais aussi avec d’autres rôles de gouvernance contribuant à orienter la culture de l’organisation dans une direction alignée sur les objectifs poursuivis par les directives d’accessibilité.
+description: Se concentre sur la propriété efficace des produits, la gestion de projet et la gouvernance afin d'améliorer l'accessibilité numérique pour le gouvernement du Canada.
 tags: rolesInvolvedInAccessibility
 toggle: administration-group
 subject:
   - aboutUs
 ---
 
-Les rôles dans cette section couvrent la gestion du produit et du projet, ainsi que d'autres fonctions bureaucratiques de l'organisation au sens large qui ont souvent un mandat plus large que n'importe quel projet individuel. La plupart des rôles administratifs, tels que définis dans cette ressource, ont très peu, voire rien à voir avec la conception, la mise en œuvre ou le test des principes d'accessibilité pour créer des applications et des sites Web plus inclusifs. Ces rôles, cependant, restent essentiels pour garantir que les membres de l'équipe qui participent activement à rendre le contenu accessible et conforme aux WCAG puissent y parvenir. Cela commence par le fait que les chefs de projet et les propriétaires de produits travaillent main dans la main avec les équipes de conception, de développement et de test, mais aussi avec d’autres rôles de gouvernance contribuant à orienter la culture de l’organisation dans une direction alignée sur les objectifs poursuivis par les directives d’accessibilité.
+## Guide complet pour la collaboration GitHub :
 
-## Propriétaire du produit
-Les propriétaires de produits possèdent des produits individuels, définissent leurs caractéristiques et jouent un rôle clé pour définir l'importance de l'accessibilité sur un projet. Il leur incombe de s'assurer que les produits sont construits et livrés de manière à répondre aux besoins de l'entreprise et aux besoins des utilisateurs. Ils doivent avoir une certaine compréhension de base des implications en matière d’accessibilité des exigences d’assurance-chômage qu’ils demandent, telles que le coût et l’infrastructure requise. Mais, comme pour les fonctionnalités en général, ils délèguent les décisions de conception et de mise en œuvre à d’autres rôles. En conséquence, ils ne sont généralement pas directement impliqués et ne sont pas propriétaires du modèle ARRM.
+- **Comprendre le groupe de travail DAT :**
+  - Lire attentivement les [Termes de référence (TdR)](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/TERMS_OF_REFERENCE.md#bo%C3%AEte-%C3%A0-outils-de-laccessibilit%C3%A9-num%C3%A9rique-boan-groupe-de-travail---termes-de-r%C3%A9f%C3%A9rence-tdr) document pour comprendre la mission globale, les objectifs et la portée du groupe de travail DAT.
 
-## Gestion de projet
-Les chefs de projet sont principalement responsables de garder tout ce qui concerne le processus de création d'un produit organisé et sur la bonne voie. Ils ont peu de pouvoir décisionnel ayant un impact direct sur l’accessibilité. La personne qui gère le projet doit s'assurer que l'accessibilité est intégrée dans les estimations, les user stories (si Agile) et les documents d'exigences. Dans les petites équipes, les rôles des propriétaires de produits et des chefs de projet se chevauchent souvent.
+- **Participer activement aux discussions :**
+  - Participer régulièrement au [forum de discussion GitHub](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) pour rester au courant des conversations en cours.
+  - Apportez votre expertise administrative aux discussions, partagez des informations précieuses et collaborez efficacement avec d'autres parties prenantes.
 
-## Gouvernance
-Contrairement à la plupart des autres rôles administratifs, la gouvernance ne fait pas partie d’une équipe de projet individuelle. Leur mandat se concentre sur une vision d’ensemble, souvent sur des initiatives à l’échelle de l’entreprise. Plus important encore pour les projets individuels, les rôles de gouvernance sont délibératifs (souvent basés sur des comités) et ne sont pas liés aux délais d'un projet unique sans influence extérieure de l'exécutif pour encourager une prise de décision à plus grande vitesse.
+- **Fournir des commentaires administratifs :**
+  - Identifiez et documentez les problèmes, les défis ou les domaines d'amélioration liés à l'administration dans le cadre de votre expertise spécifique.
+  - Utiliser les tickets GitHub pour communiquer clairement les problèmes administratifs et proposer des solutions. Respectez les modèles fournis pour plus de cohérence.
+
+- **Participer aux réunions :**
+  - Participer aux réunions hebdomadaires du groupe de travail DAT hébergées sur GitHub ou d'autres plateformes de collaboration.
+  - Contribuez activement aux points de l'ordre du jour, en offrant vos connaissances administratives et en participant à des discussions avec d'autres contributeurs.
+
+- **Contribuer à la gestion de projet via GitHub :**
+  - **Créer des problèmes pour les défis de gestion de projet :**
+    - Utilisez les problèmes GitHub pour signaler méticuleusement des problèmes de gestion de projet spécifiques ou proposer des améliorations dans le domaine des projets DAT.
+    - Expliquer clairement le problème, son impact et suggérer des solutions de gestion de projet viables.
+  - **Soumettre les plans de gestion de projet :**
+    - Si votre groupe a développé des plans de gestion de projet, suivez le [Guide de développement] détaillé (https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/DEVELOPMENT.md#D%C3%A9veloppement).
+    - Lancez des demandes d'extraction pour intégrer de manière transparente vos plans de gestion de projet dans le DAT.
+    - Utilisez le [Modèle de demande de tirage] fourni (https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/pull_request_template.md) pour une soumission standardisée.
+
+- **Rester informé et assister aux réunions :**
+  - Examiner régulièrement les documents partagés sur GitHub pour rester au courant de l'évolution du projet.
+  - Assister régulièrement aux réunions pour comprendre les décisions prises au sein du groupe de travail qui peuvent avoir un impact sur votre rôle administratif.
+
+- **Partager l'expertise administrative :**
+  - Tirez parti de l'expertise collective de votre groupe de rôles d'administration pour fournir des informations nuancées sur la propriété du produit, la gestion de projet et la gouvernance.
+  - Proposer des meilleures pratiques, des lignes directrices ou des informations pertinentes qui peuvent améliorer considérablement l'efficacité des processus administratifs au sein du DAT.
+
+- **Participer à la revue annuelle :**
+  - Participer activement à la révision annuelle des termes de référence.
+  - Fournir des commentaires constructifs sur les ajustements ou améliorations potentiels pour garantir que le groupe de travail s'aligne parfaitement sur l'évolution des besoins.
+
+- **Explorez les collaborations externes dans l'administration :**
+  - Explorer les opportunités de collaboration avec des entités externes ou des juridictions possédant une expertise dans des rôles administratifs.
+  - Partager les connaissances et les apprentissages administratifs avec la communauté au sens large pour favoriser les efforts de collaboration.
+
+- **Promouvoir une administration efficace pour l'accessibilité :**
+  - Défendre avec passion des pratiques administratives qui donnent la priorité à l'accessibilité numérique et s'alignent sur les meilleures pratiques.
+  - Promouvoir l'importance d'une propriété efficace des produits, d'une gestion de projet et d'une gouvernance au sein du gouvernement du Canada (GC) pour garantir le succès des initiatives DAT.

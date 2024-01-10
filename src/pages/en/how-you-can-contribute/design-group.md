@@ -10,7 +10,7 @@ subject:
 ## Comprehensive guide for GitHub collaboration:
 
 - **Understand the DAT Task Force:**
-   - Thoroughly read and comprehend the [Terms of Reference (ToR)](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) document to gain a comprehensive understanding of the purpose, goals, and scope of the DAT Task Force.
+   - Thoroughly read and comprehend the [Terms of Reference (ToR)](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/TERMS_OF_REFERENCE.md) document to gain a comprehensive understanding of the purpose, goals, and scope of the DAT Task Force.
 
 - **Engage in Discussions:**
    - Actively participate in the [GitHub discussion forum](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) to stay informed about ongoing discussions.
@@ -31,7 +31,7 @@ subject:
    - **Submit Visual Design Mockups:**
       - If your group has developed visual designs, follow the [Development Guide](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/DEVELOPMENT.md).
       - Initiate pull requests to seamlessly integrate your visual designs into the DAT.
-      - Refer to the provided [Pull Request Template](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/PULL_REQUEST_TEMPLATE.md) for a standardized submission.
+      - Refer to the provided [Pull Request Template](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/pull_request_template.md) for a standardized submission.
 
 - **Stay Informed:**
    - Regularly review materials shared on GitHub to stay abreast of the evolving progress of the project.

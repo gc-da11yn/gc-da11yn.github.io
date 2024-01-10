@@ -10,21 +10,21 @@ subject:
 ## Comprehensive guide for GitHub collaboration:
 
 - **Familiarize with DAT Task Force Objectives:**
-   - Review the [Terms of Reference (ToR)](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) document to understand the mission, key roles, and focus areas of the DAT Task Force.
+   - Review the [Terms of Reference (ToR)](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/TERMS_OF_REFERENCE.md) document to understand the mission, key roles, and focus areas of the DAT Task Force.
 
 - **Engage in Content Planning:**
    - Participate in discussions related to content structure, topics, and organization on the [GitHub discussion forum](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions).
    - Contribute ideas on what content should be posted, how it should be organized, and the overall publishing strategy.
 
 - **Content Creation:**
-   - Contribute to content creation using the authoring tool, [Netlify CMS](https://www.netlifycms.org/), following guidelines outlined in the [Development Guide](DEVELOPMENT.md).
+   - Contribute to content creation using the authoring tool, [Netlify CMS](https://www.netlifycms.org/), following guidelines outlined in the [Development Guide](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/DEVELOPMENT.md).
    - Ensure content adheres to best practices for accessibility and inclusive design.
 
 - **GitHub Interaction:**
    - Engage with GitHub by creating issues for content-related challenges, improvements, or ideas.
    - Discuss content-related topics openly, ensuring feedback is vetted before posting.
    - Collaborate with other contributors through pull requests and reviews.
-   - Use the provided [Pull Request Template](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/PULL_REQUEST_TEMPLATE.md) when submitting pull requests.
+   - Use the provided [Pull Request Template](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/pull_request_template.md) when submitting pull requests.
 
 - **Attend Task Force Meetings:**
    - Attend weekly DAT Task Force meetings to stay updated on content-related decisions and contribute to discussions.

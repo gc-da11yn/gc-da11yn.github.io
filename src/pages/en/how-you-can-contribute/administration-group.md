@@ -10,7 +10,7 @@ subject:
 ## Comprehensive guide for GitHub collaboration:
 
 - **Understand the DAT Task Force:**
-  - Carefully read the [Terms of Reference (ToR)](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) document to grasp the overall mission, objectives, and scope of the DAT Task Force.
+  - Carefully read the [Terms of Reference (ToR)](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/TERMS_OF_REFERENCE.md) document to grasp the overall mission, objectives, and scope of the DAT Task Force.
 
 - **Engage Actively in Discussions:**
   - Regularly participate in the [GitHub discussion forum](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) to stay up-to-date with ongoing conversations.
@@ -31,7 +31,7 @@ subject:
   - **Submit Project Management Plans:**
     - If your group has developed project management plans, follow the detailed [Development Guide](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/DEVELOPMENT.md).
     - Initiate pull requests to seamlessly integrate your project management plans into the DAT.
-    - Utilize the provided [Pull Request Template](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/PULL_REQUEST_TEMPLATE.md) for a standardized submission.
+    - Utilize the provided [Pull Request Template](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/.github/pull_request_template.md) for a standardized submission.
 
 - **Stay Informed and Attend Meetings:**
   - Regularly review materials shared on GitHub to stay abreast of the evolving progress of the project.
