@@ -1,6 +1,6 @@
 ---
 title: Best practices for accessible virtual events
-description: This guide is all about planning events, covering a broad range of activities like conferences, meetings, and presentations. It suggests a timeline for organizing your event but doesn't insist on a strict approach. Before diving into the guide, there's an invitation to consider common issues faced by people with disabilities at events. The goal is to work together to tackle these challenges and create more inclusive and accessible experiences.
+description: This guide is all about planning events, covering a broad range of activities like conferences, meetings, and presentations. It includes common barriers faced by people with disabilities during events and a suggested timeline for organizing your event. The goal is to work together to create more inclusive and accessible experiences.
 toggle: bonnes-pratiques-pour-les-evenements-virtuels-accessibles
 subject: howTos
 tags:
