@@ -1,13 +1,11 @@
 module.exports = {
 	fr: {
-		reportAProblem: "Signaler un problème sur cette page",
-		reportAProblemURL: "https://www.canada.ca/fr/signaler-probleme.html",
+		pageDetailsHeading: "Détails de la page",
 		dateModified: "Date de modification :",
 	},
 
 	en: {
-		reportAProblem: "Report a problem on this page",
-		reportAProblemURL: "https://www.canada.ca/en/report-problem.html",
+		pageDetailsHeading: "Page details",
 		dateModified: "Date modified:",
 	},
 };
