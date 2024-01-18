@@ -1,5 +1,5 @@
 ---
-title: Information and Communications Technology (ICT) Accessibility Requirements
+title: Information and Communication Technology (ICT) Accessibility Requirements
 description: This page is to share some of the work that Shared Services Canada (<abbr>SSC</abbr>) has done for the piloting of the EN 301 549 (2021) harmonized Information and Communications Technology (<abbr>ICT</abbr>) accessibility standards. This is not a full copy / paste / translation of either the EN 301 549 (2021) or Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1.
 subject:
   - accessibilityInTheGovernmentOfCanada
