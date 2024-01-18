@@ -277,11 +277,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/links/fr/generateur-d-exigences-en-technologies-de-l-information-et-de-la-communication-tic-prototypepour-la-norme-en-301-549-2021/</loc>
-		<lastmod>2023-11-22</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/links/fr/les-normes-daccessibilite-de-la-loi-sur-les-americains-handicapes-ada/</loc>
 		<lastmod>2023-11-22</lastmod>
 	</url>
@@ -1152,11 +1147,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/information-and-communications-technology-ict-accessibility-requirements/</loc>
-		<lastmod>2023-11-29</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
 		<lastmod>2023-11-29</lastmod>
 	</url>
@@ -1649,5 +1639,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/en/cart-services-and-sign-language-interpreters/</loc>
 		<lastmod>2024-01-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/fr/generateur-d-exigences-en-technologies-de-l-information-et-de-la-communication-tic-prototypepour-la-norme-en-301-549-2021/</loc>
+		<lastmod>2024-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
+		<lastmod>2024-01-18</lastmod>
 	</url>
 </urlset>
