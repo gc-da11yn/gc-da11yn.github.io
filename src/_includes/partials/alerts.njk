@@ -16,7 +16,7 @@
 			<li class="mrgn-tp-lg" lang="{{ otherLang }}">{{ alerts[locale].translationText }}</li>
 			{% endif %}
 			{% if internalLinks == true %}
-			<li class="mrgn-tp-lg">{{ alerts[locale].internalLinkText }}<i class="fas fa-external-link-square-alt" aria-hidden="true"> {{ alerts[locale].icon }}</i><span class="wb-inv">{{ alerts[locale].hiddenTextLink }}</span></li>
+			<li class="mrgn-tp-lg">{{ alerts[locale].internalLinkText }}<i class="fas fa-external-link-square-alt" aria-hidden="true"> <span class="mrgn-lft-sm">{{ alerts[locale].icon }}</span cl></i><span class="wb-inv">{{ alerts[locale].hiddenTextLink }}</span></li>
 			{% endif %}
 		</ul>
 	</section>
