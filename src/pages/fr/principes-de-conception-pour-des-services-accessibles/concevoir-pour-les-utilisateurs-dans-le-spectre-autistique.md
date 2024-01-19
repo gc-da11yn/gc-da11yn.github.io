@@ -1,6 +1,6 @@
 ---
-title: Concevoir pour les utilisateurs dans le spectre autistique
-description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs du spectre autistique.
+title: Concevoir pour les utilisateurs dans le spectre de l'autisme
+description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs du spectre de l'autisme.
 tags: designingAccessible
 toggle: designing-for-users-on-the-autistic-spectrum
 subject:
@@ -9,7 +9,7 @@ subject:
 
 Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
-- <a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre autistique (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
+- <a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre de l'autisme (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">
