@@ -1,7 +1,7 @@
 ---
 title: Digital Accessibility Toolkit project
 description: About the project, who we are and what is our goal.
-toggle: project-de-la-boite-a-outils-de-l-accessibilite-numerique
+toggle: projet-de-la-boite-a-outils-de-l-accessibilite-numerique
 tags:
   - aboutUs
 ---
