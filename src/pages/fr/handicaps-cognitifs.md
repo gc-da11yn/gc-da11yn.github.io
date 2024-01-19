@@ -30,7 +30,7 @@ audience:
 toggle: cognitive-disabilities
 ---
 
-- <a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre de l'autisme (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
+- <a href="{{ rootPath }}docs/posters/SpectreAutisme-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre de l'autisme (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
 - [Concevoir pour les utilisateurs dans le spectre de l'autisme (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-dans-le-spectre-autistique/)
 - <a href="{{ rootPath }}docs/posters/Cognitif-fr_2023.pdf" download>Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a></a>
 - [Principes de conception pour les utilisateurs avec handicap cognitif (HTML)]({{ rootPath }}fr/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif/)
