@@ -1312,11 +1312,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/digital-accessibility-toolkit-project/</loc>
-		<lastmod>2023-12-01</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/find-out-how-to-make-accessible-digital-forms/</loc>
 		<lastmod>2023-12-01</lastmod>
 	</url>
@@ -1448,11 +1443,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-microsoft-365/</loc>
-		<lastmod>2023-12-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/project-de-la-boite-a-outils-de-l-accessibilite-numerique/</loc>
 		<lastmod>2023-12-03</lastmod>
 	</url>
 	
@@ -1649,5 +1639,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
 		<lastmod>2024-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/digital-accessibility-toolkit-project/</loc>
+		<lastmod>2024-01-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/projet-de-la-boite-a-outils-de-l-accessibilite-numerique/</loc>
+		<lastmod>2024-01-23</lastmod>
 	</url>
 </urlset>
