@@ -1482,11 +1482,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles/</loc>
-		<lastmod>2023-12-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/la-structure-des-regles-pour-l-accessibilite-des-contenus-web-wcag-2-1/</loc>
 		<lastmod>2023-12-03</lastmod>
 	</url>
@@ -1649,5 +1644,10 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/projet-de-la-boite-a-outils-de-l-accessibilite-numerique/</loc>
 		<lastmod>2024-01-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles/</loc>
+		<lastmod>2024-01-24</lastmod>
 	</url>
 </urlset>
