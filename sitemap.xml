@@ -1382,11 +1382,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/handicaps-cognitifs/</loc>
-		<lastmod>2023-12-02</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/creer-un-document/</loc>
 		<lastmod>2023-12-03</lastmod>
 	</url>
@@ -1447,11 +1442,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/cognitive-disabilities/</loc>
-		<lastmod>2023-12-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-office-2016/</loc>
 		<lastmod>2023-12-03</lastmod>
 	</url>
@@ -1498,11 +1488,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/designing-for-users-of-screen-readers/</loc>
-		<lastmod>2023-12-07</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designing-for-users-on-the-autistic-spectrum/</loc>
 		<lastmod>2023-12-07</lastmod>
 	</url>
 	
@@ -1559,11 +1544,6 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/directives-pour-la-description-sonore/</loc>
 		<lastmod>2023-12-08</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-dans-le-spectre-autistique/</loc>
-		<lastmod>2023-12-20</lastmod>
 	</url>
 	
 	<url>
@@ -1648,6 +1628,26 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<lastmod>2024-01-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/cognitive-disabilities/</loc>
+		<lastmod>2024-01-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/designing-for-users-on-the-autism-spectrum/</loc>
+		<lastmod>2024-01-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/handicaps-cognitifs/</loc>
+		<lastmod>2024-01-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-l-autisme/</loc>
 		<lastmod>2024-01-26</lastmod>
 	</url>
 </urlset>
