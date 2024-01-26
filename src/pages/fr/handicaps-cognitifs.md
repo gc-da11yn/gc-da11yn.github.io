@@ -14,7 +14,7 @@ keywords:
   - troubles du calcul
   - TDAH
   - trouble déficitaire de l'attention avec hyperactivité
-  - troubles du spectre autistique (TSA)
+  - troubles du spectre de l'autisme (TSA)
   - troubles de l'apprentissage non verbal
   - technologies d'adaptation
   - handicaps cognitifs
@@ -30,8 +30,8 @@ audience:
 toggle: cognitive-disabilities
 ---
 
-- <a href="{{ rootPath }}docs/posters/SpectreAutistique-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre autistique (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
-- [Concevoir pour les utilisateurs dans le spectre autistique (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-dans-le-spectre-autistique/)
+- <a href="{{ rootPath }}docs/posters/SpectreAutisme-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre de l'autisme (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
+- [Concevoir pour les utilisateurs dans le spectre de l'autisme (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-l-autisme/)
 - <a href="{{ rootPath }}docs/posters/Cognitif-fr_2023.pdf" download>Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a></a>
 - [Principes de conception pour les utilisateurs avec handicap cognitif (HTML)]({{ rootPath }}fr/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif/)
 
@@ -134,13 +134,13 @@ Les principaux symptômes du TDAH sont&nbsp;:
 </dd>
 </dl>
 
-## Troubles du spectre autistique
+## Troubles du spectre de l'autisme
 
 <dl>
 <dt>Définition :</dt>
 <dd>
 
-Selon l’Organisation mondiale de la santé : Le trouble du spectre autistique (AASD) fait référence à une gamme de conditions caractérisées par un certain degré de comportement social, de communication et de langage altéré, et une gamme étroite d’intérêts et d’activités qui sont à la fois uniques à l’individu et réalisés de manière répétitive.
+Selon l’Organisation mondiale de la santé : Le trouble du spectre de l'autisme (TSA) fait référence à une gamme de conditions caractérisées par un certain degré de comportement social, de communication et de langage altéré, et une gamme étroite d’intérêts et d’activités qui sont à la fois uniques à l’individu et réalisés de manière répétitive.
 
 Les TSA apparaissent dès l’enfance et ont tendance à persister à l’adolescence et à l’âge adulte. Les personnes atteintes de TSA présentent souvent d’autres conditions concomitantes, telles que l’épilepsie, la dépression, l’anxiété et le trouble déficitaire de l’attention avec hyperactivité (TDAH). Le niveau de fonctionnement intellectuel chez les personnes atteintes de TSA est extrêmement variable, s’étendant d’altération profonde à des niveaux supérieurs.
 
