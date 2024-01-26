@@ -10,10 +10,10 @@ tags: resourcesAndTools
 ## Sur cette page
 
 - [Apprentissage](#apprentissage)
-- [Développement](#développement)
+- [Développement](#developpement)
 - [Politique](#politique)
-- [Procurement](#procurement)
-- [Réunions et événements virtuels accessibles](#réunions-et-événements-virtuels-accessibles)
+- [Approvisionnement](#approvisionnement)
+- [Réunions et événements virtuels accessibles](#reunions-et-evenements-virtuels-accessibles)
 - [Services](#services)
 
 ## Apprentissage
@@ -266,7 +266,7 @@ Ce document aide les gens à comprendre les principaux points du projet de loi C
 </div>
 </div>
 
-## Procurement
+## Approvisionnement
 
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
