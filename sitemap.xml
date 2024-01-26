@@ -1487,11 +1487,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
-		<lastmod>2023-12-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/accessible-word-documents-in-microsoft-365/</loc>
 		<lastmod>2023-12-05</lastmod>
 	</url>
@@ -1649,5 +1644,10 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles/</loc>
 		<lastmod>2024-01-24</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<lastmod>2024-01-26</lastmod>
 	</url>
 </urlset>
