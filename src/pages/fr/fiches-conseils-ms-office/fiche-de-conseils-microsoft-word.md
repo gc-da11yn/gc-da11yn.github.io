@@ -5,6 +5,6 @@ toggle: tip-sheet-for-microsoft-word
 subject:
   - howTos
 tags:
-  - createDocument
   - updatesMain
+  - createDocument
 ---
