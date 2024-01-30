@@ -1,0 +1,30 @@
+---
+title: Fiches de conseils pour Microsoft Office
+description: Fiches de conseils pour Microsoft Office.
+toggle: tip-sheets-for-microsoft-office
+tags: howTos
+---
+
+{% if collections.updatesMain === undefined %}
+
+	{% include "partials/alert-landingpages.njk" %}
+
+{% else %}
+
+<div class="row wb-eqht mrgn-tp-lg gc-drmt">
+	{% for item in collections.updatesMain | sort(false, false, 'data.title') | localeMatch(locale) %}
+	{% if item.data.tags[1] != "updatesMain" %}
+	<div class="col-md-6">
+		<h3><a href="{{ item.url }}">{{ item.data.title | safe }}</a></h3>
+		<p>
+			{% if item.data.description %}
+			{{ item.data.description | safe }}
+			{% else %}
+			{{ landingPage[locale].descriptionNoneText }}
+			{% endif %}
+		</p>
+	</div>
+	{% endif %}
+	{% endfor %}
+</div>
+{% endif %}
