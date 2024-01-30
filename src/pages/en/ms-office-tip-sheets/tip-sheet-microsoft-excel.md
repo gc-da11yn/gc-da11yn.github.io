@@ -5,6 +5,6 @@ toggle: feuille-de-conseils-pour-microsoft-excel
 subject:
   - howTos
 tags:
-  - createDocument
   - updatesMain
+  - createDocument
 ---

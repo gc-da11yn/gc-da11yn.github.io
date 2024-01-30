@@ -5,6 +5,6 @@ toggle: feuille-de-conseils-pour-microsoft-word
 subject:
   - howTos
 tags:
-  - createDocument
   - updatesMain
+  - createDocument
 ---

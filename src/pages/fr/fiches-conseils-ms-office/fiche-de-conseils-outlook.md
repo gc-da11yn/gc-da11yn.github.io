@@ -5,6 +5,6 @@ toggle: tip-sheet-for-outlook
 subject:
   - howTos
 tags:
-  - createDocument
   - updatesMain
+  - createDocument
 ---
