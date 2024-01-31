@@ -5,6 +5,6 @@ toggle: tip-sheet-for-microsoft-excel
 subject:
   - howTos
 tags:
-  - updatesMain
+  - msTips
   - createDocument
 ---
