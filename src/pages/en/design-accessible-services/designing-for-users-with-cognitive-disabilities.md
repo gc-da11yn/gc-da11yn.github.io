@@ -1,7 +1,8 @@
 ---
 title: Designing for users with cognitive disabilities
 description: What to do - and what <strong>not</strong> to do - when designing for users with cognitive disabilities.
-tags: designingAccessible
+tags:
+  - designingAccessible
 toggle: principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif
 subject:
   - howTos

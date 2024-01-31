@@ -1,7 +1,8 @@
 ---
 title: Research on our target audience
 description: The main goal of creating these personas was to better understand our target audience. By developing a greater understanding of our users. By developing a greater understanding of our users, we would be able to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit’s website.
-tags: aboutUs
+tags:
+  - aboutUs
 toggle: recherche-sur-notre-audience
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: Personas with Disabilities for inclusive user experience (UX) design
 description: The case to include disabilities into user personas, the types of technologies they use, and sample personas with disabilities.
-subject: howTos
-tags: designCourse
+subject:
+  - howTos
+tags:
+  - designCourse
 toggle: personas-handicapes-pour-la-conception-d-une-experience-utilisateur-inclusive-eu
 ---
 

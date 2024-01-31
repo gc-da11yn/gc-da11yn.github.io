@@ -1,7 +1,8 @@
 ---
 title: Concevoir pour les utilisateurs de revues d’écran
 description: Ce qu’il faut faire — et ce qu’il ne faut pas faire — lors de la conception pour les utilisateurs de lecteurs d’écran.
-tags: designingAccessible
+tags:
+  - designingAccessible
 toggle: designing-for-users-of-screen-readers
 subject:
   - howTos

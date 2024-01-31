@@ -1,7 +1,8 @@
 ---
 title: Recherche sur notre audience
 description: L’objectif principal de la création de ces persona était de mieux comprendre notre public cible. En développant une meilleure compréhension de nos utilisateurs, nous serons en mesure de construire une architecture de site réactive pour tout le contenu existant et futur hébergé sur le site Web de la boite à outils d’accessibilité numérique.
-tags: aboutUs
+tags:
+  - aboutUs
 toggle: research-on-our-target-audience
 ---
 

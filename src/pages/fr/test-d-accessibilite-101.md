@@ -2,8 +2,10 @@
 title: Test d’accessibilité 101
 description: Nous encourageons tous ceux qui souhaitent créer du contenu accessible à utiliser des outils de test d’accessibilité automatisés. Ces outils aident les créateurs de contenu à développer leurs contenus en détectant les erreurs et en proposant des suggestions pour améliorer l’accessibilité de leur produit, de leur application ou de leur site Web. Cette page présente une liste d’outils de test d’accessibilité recommandés.
 toggle: accessibility-testing-101
-subject: howTos
-tags: testYourProducts
+subject:
+  - howTos
+tags:
+  - testYourProducts
 ---
 
 ## Sur cette page
