@@ -5,6 +5,6 @@ toggle: feuille-de-conseils-pour-outlook
 subject:
   - howTos
 tags:
-  - updatesMain
+  - msTips
   - createDocument
 ---
