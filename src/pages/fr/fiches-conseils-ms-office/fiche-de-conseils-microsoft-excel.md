@@ -6,5 +6,4 @@ subject:
   - howTos
 tags:
   - msTips
-  - createDocument
 ---
