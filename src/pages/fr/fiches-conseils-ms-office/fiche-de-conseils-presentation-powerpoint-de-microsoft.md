@@ -5,6 +5,6 @@ toggle: tip-sheet-for-microsoft-powerpoint-presentation
 subject:
   - howTos
 tags:
-  - updatesMain
+  - msTips
   - createDocument
 ---
