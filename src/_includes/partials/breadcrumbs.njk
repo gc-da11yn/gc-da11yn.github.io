@@ -1,3 +1,51 @@
+{#
+
+# Breadcrumbs include
+
+This file controls the breadcrumbs on the site.
+
+## Related files
+
+- src/_includes/partials/header.njk - include file that this file is pulled into
+- src/_data/header.js and src/_data/settings.js - data file that the text can be found in
+- src/_data/tagList.js - data file that has the `subject` and `tags` values
+
+## Logic for breadcrumbs
+
+The first and second level never change, the other levels are based on the frontmatter of the page.
+
+### Output
+
+Canada.ca > Digital Accessibility Toolkit > [subject] > [tags]
+
+Subject and tags are arrays found inside the frontmatter of the pages, which are looped depending on their values.
+
+## Exceptions
+
+- All the main pages linked from the homepage have `tags: main` and don't have a breadcrumb on them
+- The tags `updateMain` is used only for the "Latest updates" section on the main page and is ignored in this logic
+
+## Example
+
+### Frontmatter of page
+
+---
+title: Live Broadcast
+description: Live Broadcasts are defined as a facilitator presenting a PowerPoint via videoconference. Here we have defined each type and their respective accessibility requirements.
+toggle: diffusions-en-direct
+subject:
+  - howTos
+  - createWebContent
+tags:
+  - video (only an example, not actually a value found in tagList.js)
+---
+
+### Breadcrumb path
+
+Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Accessible video
+
+#}
+
 <nav id="wb-bc" property="breadcrumb">
 	<h2>{{ header[locale].breadcrumbsHeading }}</h2>
 	<div class="container">
@@ -18,18 +66,18 @@
 			{% if tags[0] != "main" %}
 
 				{% if subject %}
-					<li><a href="/{{ locale }}/{{ tagList.tags[locale][subject] | stripTagsSlugify or tagList.subjects[locale][subject] | stripTagsSlugify }}">{{ tagList.tags[locale][subject] or tagList.subjects[locale][subject] }}</a></li>
+					{% for breadcrumb in subject %}
+						<li><a href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</a></li>
+					{% endfor %}
 				{% endif %}
 
 				{% if tags %}
 					{% for breadcrumb in tags %}
-
-					{% if breadcrumb != "updatesMain" %}
-					<li>
-						<a href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</a>
-					</li>
-					{% endif %}
-
+						{% if breadcrumb != "updatesMain" %}
+							<li>
+								<a href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</a>
+							</li>
+						{% endif %}
 					{% endfor %}
 				{% endif %}
 
