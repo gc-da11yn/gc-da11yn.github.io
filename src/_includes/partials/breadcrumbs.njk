@@ -4,6 +4,8 @@
 
 This file controls the breadcrumbs on the site.
 
+Will eventually be replaced with [Navigation — Eleventy](https://www.11ty.dev/docs/plugins/navigation/)
+
 ## Related files
 
 - src/_includes/partials/header.njk - include file that this file is pulled into
@@ -50,12 +52,15 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 	<h2>{{ header[locale].breadcrumbsHeading }}</h2>
 	<div class="container">
 		<ol class="breadcrumb" typeof="BreadcrumbList">
+			<!-- First breadcrumb: Canada.ca -->
 			<li property="itemListElement" typeof="ListItem">
 				<a property="item" typeof="WebPage" href="{{ header[locale].governmentOfCanadaURL }}">
 					<span property="name">Canada.ca</span>
 				</a>
 				<meta property="position" content="1">
 			</li>
+
+			<!-- Second breadcrumb: Locale-based home link -->
 			{% set url = page.url | replace("/", "") %}
 			{% if url != locale %}
 				<li property="itemListElement" typeof="ListItem">
@@ -63,8 +68,12 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 					<meta property="position" content="2">
 				</li>
 			{% endif %}
+
+			<!-- Additional breadcrumbs based on tags and subjects -->
 			{% if tags[0] != "main" %}
 				{% set counter = 3 %} {# Start the counter from 3, as 1 and 2 are already used #}
+
+				<!-- Breadcrumbs based on 'subject' -->
 				{% if subject %}
 					{% for breadcrumb in subject %}
 						<li property="itemListElement" typeof="ListItem">
@@ -76,6 +85,8 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 						{% set counter = counter + 1 %}
 					{% endfor %}
 				{% endif %}
+
+				<!-- Breadcrumbs based on 'tags' -->
 				{% if tags %}
 					{% for breadcrumb in tags %}
 						{% if breadcrumb != "updatesMain" %}
