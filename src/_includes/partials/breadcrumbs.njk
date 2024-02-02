@@ -58,32 +58,38 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 			</li>
 			{% set url = page.url | replace("/", "") %}
 			{% if url != locale %}
-			<li>
-				<a href="/{{ locale }}/">{{ settings[locale].metaTitle }}</a>
-			</li>
+				<li property="itemListElement" typeof="ListItem">
+					<a property="item" typeof="WebPage" href="/{{ locale }}/">{{ settings[locale].metaTitle }}</a>
+					<meta property="position" content="2">
+				</li>
 			{% endif %}
-
 			{% if tags[0] != "main" %}
-
+				{% set counter = 3 %} {# Start the counter from 3, as 1 and 2 are already used #}
 				{% if subject %}
 					{% for breadcrumb in subject %}
-						<li><a href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</a></li>
+						<li property="itemListElement" typeof="ListItem">
+							<a property="item" typeof="WebPage" href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
+								<span property="name">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</span>
+							</a>
+							<meta property="position" content="{{ counter }}">
+						</li>
+						{% set counter = counter + 1 %}
 					{% endfor %}
 				{% endif %}
-
 				{% if tags %}
 					{% for breadcrumb in tags %}
 						{% if breadcrumb != "updatesMain" %}
-							<li>
-								<a href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</a>
+							<li property="itemListElement" typeof="ListItem">
+								<a property="item" typeof="WebPage" href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
+									<span property="name">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</span>
+								</a>
+								<meta property="position" content="{{ counter }}">
 							</li>
+							{% set counter = counter + 1 %}
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-
 			{% endif %}
-
 		</ol>
-
 	</div>
 </nav>
