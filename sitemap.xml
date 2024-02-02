@@ -1602,11 +1602,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/links/fr/generateur-d-exigences-en-technologies-de-l-information-et-de-la-communication-tic-prototypepour-la-norme-en-301-549-2021/</loc>
-		<lastmod>2024-01-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
 		<lastmod>2024-01-18</lastmod>
 	</url>
@@ -1649,5 +1644,10 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-l-autisme/</loc>
 		<lastmod>2024-01-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/fr/generateur-d-exigences-en-technologies-de-l-information-et-de-la-communication-tic-prototypepour-la-norme-en-301-549-2021/</loc>
+		<lastmod>2024-02-02</lastmod>
 	</url>
 </urlset>
