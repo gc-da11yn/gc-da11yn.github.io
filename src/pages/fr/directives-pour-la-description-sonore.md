@@ -1,8 +1,10 @@
 ---
 title: Directives pour la description sonore
 description: La description sonore permet à tout utilisateur souffrant d’un handicap visuel ou cognitif de recevoir une expérience très détaillée et descriptive de ce qui se passe à l’écran pour chaque aspect de la vidéo.
-subject: howTos
-tags: createWebContent
+subject:
+  - howTos
+tags:
+  - createWebContent
 toggle: audio-description-guidelines
 audience:
   - Everyone

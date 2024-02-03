@@ -1,7 +1,8 @@
 ---
 title: Principes de conception pour les utilisateurs avec handicap cognitif
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs ayant des troubles cognitifs.
-tags: designingAccessible
+tags:
+  - designingAccessible
 toggle: designing-for-users-with-cognitive-disabilities
 subject:
   - howTos

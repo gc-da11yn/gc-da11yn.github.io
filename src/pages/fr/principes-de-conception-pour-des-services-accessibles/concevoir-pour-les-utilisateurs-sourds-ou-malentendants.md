@@ -1,7 +1,8 @@
 ---
 title: Concevoir pour les utilisateurs sourds ou malentendants
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs sourds ou malentendants.
-tags: designingAccessible
+tags:
+  - designingAccessible
 toggle: designing-for-users-who-are-deaf-or-hard-of-hearing
 subject:
   - howTos

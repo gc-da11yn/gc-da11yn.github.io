@@ -2,8 +2,10 @@
 title: Do’s and Don’ts for developing online courses
 description: Do’s and don’ts for writing, designing and developing online courses.
 toggle: a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne
-subject: howTos
-tags: designCourse
+subject:
+  - howTos
+tags:
+  - designCourse
 ---
 
 <div class="row">

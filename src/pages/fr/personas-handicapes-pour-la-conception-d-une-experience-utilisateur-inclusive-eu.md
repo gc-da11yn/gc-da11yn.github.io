@@ -1,8 +1,10 @@
 ---
 title: Personas handicapés pour la conception d'une expérience utilisateur inclusive (EU)
 description: Le cas d'inclure les handicaps dans les personas des utilisateurs, les types de technologies qu'ils utilisent et les échantillons de personas avec des handicaps.
-subject: howTos
-tags: designCourse
+subject:
+  - howTos
+tags:
+  - designCourse
 toggle: personas-with-disabilities-for-inclusive-user-experience-ux-design
 ---
 

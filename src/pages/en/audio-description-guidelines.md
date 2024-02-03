@@ -1,8 +1,10 @@
 ---
 title: Audio Description Guidelines
 description: Audio description allows any user with a visual disability or cognitive disability to receive a very detailed and descriptive experience of what is happening on the screen for every aspect of the video.
-subject: howTos
-tags: createWebContent
+subject:
+  - howTos
+tags:
+  - createWebContent
 toggle: directives-pour-la-description-sonore
 audience:
   - Everyone

@@ -1,8 +1,10 @@
 ---
 title: Conception universelle pour l’apprentissage (CUA)
 description: La conception universelle pour l’apprentissage (CUA) est un cadre qui évite une « approche unique » du matériel d’apprentissage. Il encourage l’utilisation de multiples façons d’engagement, de représentation, d’action et d’expression peut répondre aux besoins d’un plus grand nombre d’apprenants. Renseignez-vous sur les trois principaux principes, avantages, avantages et conseils de la CUA.
-subject: howTos
-tags: designCourse
+subject:
+  - howTos
+tags:
+  - designCourse
 toggle: universal-design-for-learning-udl
 category:
   - Pratiques exemplaires

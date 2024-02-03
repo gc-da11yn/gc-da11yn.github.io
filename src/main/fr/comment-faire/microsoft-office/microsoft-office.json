@@ -1,5 +1,5 @@
 {
   "officeTOC": true,
-  "subject": "howTos",
+  "subject": ["howTos"],
   "tags": "createDocument"
 }
