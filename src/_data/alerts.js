@@ -17,7 +17,7 @@ module.exports = {
 		// Internal link to GC alert, appears on on all pages that have internalLinks: true in the front matter
 		internalLinkText:
 			"Les liens qui ne fonctionnent que derrière le pare-feu du gouvernement du Canada sont marqués avec ",
-		icon: "icône",
+		icon: "icône ",
 		hiddenTextLink: "lien interne",
 	},
 
@@ -39,7 +39,7 @@ module.exports = {
 		// Internal link to GC alert, appears on on all pages that have internalLinks: true in the front matter
 		internalLinkText:
 			"Links that only work within the Government of Canada firewall are marked with ",
-		icon: "icon",
+		icon: "icon ",
 		hiddenTextLink: "internal link",
 	},
 };
