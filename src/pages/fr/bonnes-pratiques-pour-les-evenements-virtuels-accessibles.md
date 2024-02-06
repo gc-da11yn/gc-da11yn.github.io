@@ -37,16 +37,16 @@ internalLinks: true
 - [Introduction](#introduction)
   - [Problèmes courants signalés par les personnes en situation de handicap](#problemes-courants-signales-par-les-personnes-en-situation-de-handicap)
   - [Mobilité](#mobilite)
-  - [Cadre juridique canadien pour l'accessibilité des événements](#cadre-juridique-canadien-pour-l'accessibilite-des-evenements)
+  - [Cadre juridique canadien pour l'accessibilité des événements](#cadre-juridique-canadien-pour-l-accessibilite-des-evenements)
   - [Faits à retenir](#faits-a-retenir)
 - [Événements virtuels](#evenements-virtuels)
   - [Feuille de route](#feuille-de-route)
-  - [Planification de l’événement : un à deux mois avant la tenue de l'événement (environ)](#planification-de-levenement-un-a-deux-mois-avant-la-tenue-de-l'evenement-environ)
-  - [Préparez-vous : une à deux semaines avant l'événement (environ)](#préparez-vous--une-a-deux-semaines-avant-l'evenement-environ)
-  - [Animez l'événement : jour de l'événement](#animez-l'evenement-jour-de-l'evenement)
-  - [Après l'événement](#apres-levenement)
+  - [Planification de l’événement : un à deux mois avant la tenue de l'événement (environ)](#planification-de-l-evenement-un-a-deux-mois-avant-la-tenue-de-l-evenement-environ)
+  - [Préparez-vous : une à deux semaines avant l'événement (environ)](#preparez-vous-une-a-deux-semaines-avant-l-evenement-environ)
+  - [Animez l'événement : jour de l'événement](#animez-l-evenement-jour-de-l-evenement)
+  - [Après l'événement](#apres-l-evenement)
   - [À titre de référence : Ce qui affectera votre budget](#a-titre-de-reference-ce-qui-affectera-votre-budget)
-  - [À titre de référence : Plateformes virtuelles](#à-titre-de-référence--plateformes-virtuelles)
+  - [À titre de référence : Plateformes virtuelles](#a-titre-de-reference-plateformes-virtuelles)
 
 ## Introduction
 
@@ -337,7 +337,7 @@ Veuillez consulter la [boîte à outils de l'accessibilité numérique](https://
 
 #### Envoie des invitations aux participants
 
-##### Établissez un ordre du jour {#établissez-un-ordre-du-jour}
+##### Établissez un ordre du jour
 
 - Prévoyez des pauses, une pause de cinq à dix minutes est recommandée par heure d'événement
 - Prévoyez des périodes de questions, pas nécessairement à la fin de l'événement, mais après chaque sujet
@@ -347,14 +347,13 @@ Veuillez consulter la [boîte à outils de l'accessibilité numérique](https://
 
 ##### Incluez les renseignements sur l'événement dans l'invitation
 
-Veillez à inclure les renseignements suivants dans votre invitation à
-l'événement :
+Veillez à inclure les renseignements suivants dans votre invitation à l'événement :
 
 - Tout le matériel doit être fourni avant l'événement pour les participants qui pourraient avoir besoin de plus de temps pour le parcourir. Voici quelques exemples de contenu d'événement : courriels, présentations PowerPoint, documents Word et vidéo
 - Envoyez à l'avance le contenu de l'engagement, comme les sondages et les enquêtes, afin de donner aux personnes en situation de handicap le temps de le consulter, d'y accéder et de participer pendant l'événement
 - Décrivez brièvement les objectifs de l'événement et clarifiez les sujets de discussion (par exemple, vous pourriez utiliser une à trois puces)
 - Mentionnez si la session sera enregistrée
-- Partagez l’ébauche de [l’ordre du jour de l’événement](#établissez-un-ordre-du-jour)
+- Partagez l’ébauche de [l’ordre du jour de l’événement](#etablissez-un-ordre-du-jour)
 - Proposez plusieurs moyens de participer à l'événement, tels que :
   - un lien en ligne
   - un numéro d'accès direct
@@ -362,7 +361,7 @@ l'événement :
 - Indiquez les coordonnées des personnes à contacter pour les demandes de mesures d’adaptation et une date limite de soumission
   - Ajoutez des exemples de demandes de mesures d’adaptation, car souvent les personnes qui ont besoin de mesures d’adaptation n'osent pas en faire la demande
   - **Rappel :** Les personnes en situation de handicap ne sont pas tenues de divulguer leur handicap à qui que ce soit
-- Incluez des renseignements sur l’utilisation de la plateforme - consultez la [section sur les plateformes virtuelles pour l'organisation d'événements](#à-titre-de-référence--plateformes-virtuelles)
+- Incluez des renseignements sur l’utilisation de la plateforme - consultez la [section sur les plateformes virtuelles pour l'organisation d'événements](#a-titre-de-reference-plateformes-virtuelles)
 - Fournissez un point de contact pour permettre aux participants de poser des questions et de faire des commentaires à l'avance
 - Évitez les systèmes d'inscription
   - L'inscription peut devenir un obstacle; voyez s'il existe des solutions de rechange pour rendre l'événement plus inclusif. Si l'inscription est obligatoire, collaborez avec le coordinateur de l'événement pour la rendre simple et conforme aux [Règles pour l'accessibilité des contenus Web (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-fr/)
@@ -501,16 +500,16 @@ Voici quelques exemples de sujets qui peuvent être abordés et de questions qui
 
 ### À titre de référence : Ce qui affectera votre budget
 
-- [Services d'adaptation (ASL, LSQ, interprètes de la langue des signes...)](#services-dinterprétation-en-langue-des-signes-asl-lsq)
+- [Services d'adaptation (ASL, LSQ, interprètes de la langue des signes)](#services-dinterprétation-en-langue-des-signes-asl-lsq)
 - Plateforme virtuelle (pourrait devenir un coût si une licence est nécessaire)
 - Présentateurs sous contrat
 - Société de production audiovisuelle
 - Remédiation des documents pour l'accessibilité si cela n'a pas été fait dès le départ
 - Traductions de documents
 
-### À titre de référence : Plateformes virtuelles {#à-titre-de-référence--plateformes-virtuelles}
+### À titre de référence : Plateformes virtuelles {#a-titre-de-reference-plateformes-virtuelles}
 
-#### Avertissement de sécurité : « Bombardement » des événements virtuels
+#### Avertissement de sécurité : « bombardement » des événements virtuels
 
 Des termes comme « bombardement par Zoom », « T-BOMB », etc. sont devenus populaires pour décrire l'intrusion d'étrangers sur l'internet dans des événements virtuels. En général, les intrus tentent de perturber l'événement en partageant leur caméra, en faisant du bruit dans leur micro ou en utilisant la fonction « Partager l'écran ».
 
