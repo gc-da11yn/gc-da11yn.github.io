@@ -42,11 +42,11 @@ Nous avons dressé une liste d’outils et de ressources pour aider les dévelop
 
 ### Ressources permettant de rendre les documents PDF accessibles
 
-- <a href="http://www.w3.org/WAI/WCAG21/Techniques/#pdf" hreflang="en">Techniques relatives aux WCAG 2.1 en format PDF<small> (en anglais seulement)</small></a>
+- <a href="http://www.w3.org/WAI/WCAG21/Techniques/#pdf">Techniques relatives aux WCAG 2.1 en format PDF<small> (en anglais seulement)</small></a>
 - [Accessibilité des fichiers PDF Foxit PDF Editor](https://www.foxitsoftware.com/fr/solution/accessibility/)
 - [Tutoriels didactiques PhantomPDF de Foxit](https://www.foxitsoftware.com/fr/support/tutorial/?from=foxit%20phantompdf_business&utm_source=client-app)
-- <a href="https://www.foxitsoftware.com/blog/use-action-wizard-to-automatically-make-pdfs-508-compliant/" hreflang="en">Foxit : Utilisez l’assistant d’action pour rendre automatiquement les PDF conformes à la norme 508<small> (en anglais seulement)</small></a>
-- <a href="https://webaim.org/techniques/foxit/" hreflang="en">WebAIM : Accessibilité Foxit et PDF<small> (en anglais seulement)</small></a>
+- <a href="https://www.foxitsoftware.com/blog/use-action-wizard-to-automatically-make-pdfs-508-compliant/">Foxit : Utilisez l’assistant d’action pour rendre automatiquement les PDF conformes à la norme 508<small> (en anglais seulement)</small></a>
+- <a href="https://webaim.org/techniques/foxit/">WebAIM : Accessibilité Foxit et PDF<small> (en anglais seulement)</small></a>
 - [Choses à faire et à ne pas faire dans la conception accessible]({{ rootPath }}fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne)
 
 ## Instructions pour la liste de vérification

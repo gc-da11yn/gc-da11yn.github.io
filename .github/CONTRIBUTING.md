@@ -30,8 +30,8 @@ ______________________
 
 Pour contribuer à notre projet, vous pouvez faire l'une des choses suivantes&nbsp;:
 
-- signaler un problème avec le site web, vous pouvez ouvrir un <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose" hreflang="en" lang="en">issue <span lang="fr">(page disponible seulement en anglais)</span></a> et choisir parmi l'un de nos modèles (versions français son disponibles) de questions,
-- participer à une <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions" hreflang="en">discussion</a> ou en lancer une nouvelle, ou
+- signaler un problème avec le site web, vous pouvez ouvrir un <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose" lang="en">issue <span lang="fr">(page disponible seulement en anglais)</span></a> et choisir parmi l'un de nos modèles (versions français son disponibles) de questions,
+- participer à une <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">discussion</a> ou en lancer une nouvelle, ou
 - apporter vous-même une modification au code, vous pouvez essayer de suivre notre [guide de développement](DEVELOPMENT.md#Développement) pour créer un <span lang="en">pull request</span>.
 
 Si c'est la première fois que vous contribuez sur GitHub, ne vous inquiétez pas ! Faites-nous savoir si vous avez des questions, dans la langue de votre choix, dans nos <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions/new?category=q-a">discussion</a>.

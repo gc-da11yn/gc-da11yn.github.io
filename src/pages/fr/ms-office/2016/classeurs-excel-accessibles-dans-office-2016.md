@@ -80,7 +80,7 @@ Pour ajouter une description longue aux diagrammes et aux graphiques&nbsp;:
     3. L’interrelation des éléments dans le bon ordre.
 5. Activez le bouton **Fermer**.
 
-Consultez la page <a href="https://www.w3.org/WAI/tutorials/images/complex/" hreflang="en">Images complexes<small> (en anglais seulement)</small></a> pour d’autres recommandations.
+Consultez la page <a href="https://www.w3.org/WAI/tutorials/images/complex/">Images complexes<small> (en anglais seulement)</small></a> pour d’autres recommandations.
 
 ## Hyperliens
 

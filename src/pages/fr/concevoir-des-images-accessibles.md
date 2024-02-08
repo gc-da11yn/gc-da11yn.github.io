@@ -20,4 +20,4 @@ Images décoratives: Fournissez une alternative textuelle nulle (`alt=""`) lorsq
 - S'il s'agit d'une information émotionnelle ou simple, nous utilisons `alt="\[description\]`".
 - S'il s'agit d'une information complexe, nous utilisons `alt="\[description courte + emplacement de la description longue\]`".
 
-Pour plus d'informations, veuillez consulter le site <a href="https://www.w3.org/WAI/tutorials/images/" hreflang="en">Tutoriel d'images - W3.org<small> (en anglais seulement)</small></a>
+Pour plus d'informations, veuillez consulter le site <a href="https://www.w3.org/WAI/tutorials/images/">Tutoriel d'images - W3.org<small> (en anglais seulement)</small></a>

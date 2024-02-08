@@ -141,9 +141,9 @@ Si la carte indique des directions, le texte alternatif doit le refléter. La de
 
 ## Liens utiles sur le texte alternatif
 
-- <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html" hreflang="en">Contenu non textuel - Comprendre SC 1.1.1 (WCAG)<small> (en anglais seulement)</small></a>
-- <a href="https://html.spec.whatwg.org/multipage/images.html#alt" hreflang="en">Obligation de fournir du texte pour remplacer les images (HTML5)<small> (en anglais seulement)</small></a>
-- <a href="https://www.w3.org/TR/turingtest/" hreflang="en">Inaccessibilité du CAPTCHA (Note du projet du groupe W3C)<small> (en anglais seulement)</small></a>
+- <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">Contenu non textuel - Comprendre SC 1.1.1 (WCAG)<small> (en anglais seulement)</small></a>
+- <a href="https://html.spec.whatwg.org/multipage/images.html#alt">Obligation de fournir du texte pour remplacer les images (HTML5)<small> (en anglais seulement)</small></a>
+- <a href="https://www.w3.org/TR/turingtest/">Inaccessibilité du CAPTCHA (Note du projet du groupe W3C)<small> (en anglais seulement)</small></a>
 - [Images et vidéos (Guide de rédaction de contenu du site Canada.ca)](https://conception.canada.ca/guide-redaction/#toc10)
-- Il peut être difficile de savoir ce qu'il faut mettre dans un texte alternatif, et de savoir quand un texte alternatif est nécessaire et quand il ne l'est pas. <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/" hreflang="en">L'arbre de décision pour texte alternatif du W3C<small> (en anglais seulement)</small></a> peut vous aider à déterminer ce qu'il faut faire dans certaines situations.
+- Il peut être difficile de savoir ce qu'il faut mettre dans un texte alternatif, et de savoir quand un texte alternatif est nécessaire et quand il ne l'est pas. <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">L'arbre de décision pour texte alternatif du W3C<small> (en anglais seulement)</small></a> peut vous aider à déterminer ce qu'il faut faire dans certaines situations.
 - [Guide de rédaction du contenu du site Canada.ca - Ajouter une description longue pour expliquer les images complexes](https://conception.canada.ca/guide-redaction/#wp6-3)

@@ -29,7 +29,7 @@ L’extension WAVE pour Chrome, Firefox et Edge vous permet d’évaluer le cont
 
 Bien que WAVE soit plus efficace lorsqu’il est utilisé par une personne connaissant bien l’accessibilité du web, les personnes qui ne sont pas des experts en accessibilité du web peuvent également en tirer profit.
 
-Si vous ne connaissez pas WAVE, profitez de la <a href="https://youtu.be/ITUDiTgAZY0?si=zZN1yARdVlkk3v50" hreflang="en">vidéo d’introduction à WAVE<small> (en anglais seulement)</small></a>.
+Si vous ne connaissez pas WAVE, profitez de la <a href="https://youtu.be/ITUDiTgAZY0?si=zZN1yARdVlkk3v50">vidéo d’introduction à WAVE<small> (en anglais seulement)</small></a>.
 
 Compatibilité des navigateurs:
 
@@ -39,12 +39,12 @@ Compatibilité des navigateurs:
 
 Documentation supplémentaire sur WAVE:
 
-- <a href="https://wave.webaim.org/api/docs?format=html" hreflang="en">Documentation WAVE (webaim.org)<small> (en anglais seulement)</small></a>
-- <a href="https://wave.webaim.org/help" hreflang="en">Aide WAVE (webaim.org)<small> (en anglais seulement)</small></a>
+- <a href="https://wave.webaim.org/api/docs?format=html">Documentation WAVE (webaim.org)<small> (en anglais seulement)</small></a>
+- <a href="https://wave.webaim.org/help">Aide WAVE (webaim.org)<small> (en anglais seulement)</small></a>
 
 Trucs et astuces sur WAVE:
 
-- <a href="https://webaim.org/blog/tips-for-getting-the-most-out-of-wave/" hreflang="en">Conseils pour tirer le meilleur parti de WAVE<small> (en anglais seulement)</small></a>
+- <a href="https://webaim.org/blog/tips-for-getting-the-most-out-of-wave/">Conseils pour tirer le meilleur parti de WAVE<small> (en anglais seulement)</small></a>
 
 La barre latérale de WAVE indique si WAVE a détecté des erreurs ou non. L’absence d’erreurs ne signifie **pas** que votre page est accessible ou conforme. Les **icônes rouges** indiquent les erreurs d’accessibilité qui doivent être corrigées. Les **icônes vertes** indiquent des caractéristiques d’accessibilité, c’est-à-dire des éléments qui améliorent l’accessibilité (bien qu’il faille les vérifier). Les autres icônes et indicateurs, en particulier les icônes d’alerte jaunes, mettent en évidence d’autres éléments qu’il convient d’examiner. WAVE met en évidence les informations sous-jacentes relatives à l’accessibilité d’une page afin qu’elles puissent être facilement évaluées dans leur contexte.
 
@@ -74,25 +74,25 @@ Compatibilité des navigateurs:
   - [Ajouter à Edge](https://microsoftedge.microsoft.com/addons/detail/wave-evaluation-tool/khapceneeednkiopkkbgkibbdoajpkoj?hl=fr-CA&gl=CA)
 - [Télécharger pour Windows](https://aka.ms/accessibilityinsights-windows/download)
 - Pour Android:
-  - <a href="https://aka.ms/accessibility-insights-for-android/downloads/Windows" hreflang="en">Télécharger pour Windows<small> (en anglais seulement)</small></a>
-  - <a href="https://aka.ms/accessibility-insights-for-android/downloads/MacOS" hreflang="en">Télécharger sur MacOS<small> (en anglais seulement)</small></a>
+  - <a href="https://aka.ms/accessibility-insights-for-android/downloads/Windows">Télécharger pour Windows<small> (en anglais seulement)</small></a>
+  - <a href="https://aka.ms/accessibility-insights-for-android/downloads/MacOS">Télécharger sur MacOS<small> (en anglais seulement)</small></a>
   - [Télécharger sur Linux](https://aka.ms/accessibility-insights-for-android/downloads/Linux)
 
 Documentation sur Accessibility Insights:
 
-- <a href="https://accessibilityinsights.io/docs/web/overview/" hreflang="en">Accessibility Insights pour le Web<small> (en anglais seulement)</small></a>
-- <a href="https://accessibilityinsights.io/docs/windows/overview/" hreflang="en">Accessibility Insights pour Windows<small> (en anglais seulement)</small></a>
+- <a href="https://accessibilityinsights.io/docs/web/overview/">Accessibility Insights pour le Web<small> (en anglais seulement)</small></a>
+- <a href="https://accessibilityinsights.io/docs/windows/overview/">Accessibility Insights pour Windows<small> (en anglais seulement)</small></a>
 
 Conseils et astuces:
 
-- Commencez par regarder une <a href="https://www.youtube.com/watch?v=m1l7ghxOKF0" hreflang="en">vidéo offrant une vue d’ensemble<small> (en anglais seulement)</small></a>
+- Commencez par regarder une <a href="https://www.youtube.com/watch?v=m1l7ghxOKF0">vidéo offrant une vue d’ensemble<small> (en anglais seulement)</small></a>
 - Ou lisez un tutoriel:
-  - <a href="https://accessibilityinsights.io/docs/web/getstarted/fastpass/" hreflang="en">FastPass<small> (en anglais seulement)</small></a>
-  - <a href="https://accessibilityinsights.io/docs/web/getstarted/assessment/" hreflang="en">Assessment<small> (en anglais seulement)</small></a>
+  - <a href="https://accessibilityinsights.io/docs/web/getstarted/fastpass/">FastPass<small> (en anglais seulement)</small></a>
+  - <a href="https://accessibilityinsights.io/docs/web/getstarted/assessment/">Assessment<small> (en anglais seulement)</small></a>
 
 Raccourcis clavier:
 
-- Augmentez votre productivité avec les <a href="https://accessibilityinsights.io/docs/web/reference/keyboard/" hreflang="en">raccourcis clavier pour Accessibility Insights<small> (en anglais seulement)</small></a>
+- Augmentez votre productivité avec les <a href="https://accessibilityinsights.io/docs/web/reference/keyboard/">raccourcis clavier pour Accessibility Insights<small> (en anglais seulement)</small></a>
 
 ### Outil: LightHouse
 
@@ -100,18 +100,18 @@ Lighthouse est un outil automatisé à code source ouvert qui permet d’amélio
 
 Navigateurs:
 
-- <a href="https://developer.chrome.com/docs/lighthouse/overview/#devtools" hreflang="en">Exécuter Lighthouse dans Chrome DevTools<small> (en anglais seulement)</small></a>
-- <a href="https://developer.chrome.com/docs/lighthouse/overview/#extension" hreflang="en">Exécuter Lighthouse en tant qu’extension Chrome<small> (en anglais seulement)</small></a>
+- <a href="https://developer.chrome.com/docs/lighthouse/overview/#devtools">Exécuter Lighthouse dans Chrome DevTools<small> (en anglais seulement)</small></a>
+- <a href="https://developer.chrome.com/docs/lighthouse/overview/#extension">Exécuter Lighthouse en tant qu’extension Chrome<small> (en anglais seulement)</small></a>
 - [Comment utiliser Lighthouse dans Edge](https://learn.microsoft.com/fr-ca/microsoft-edge/devtools-guide-chromium/accessibility/lighthouse)
 
 Documentation sur l’extension LightHouse:
 
-- <a href="https://developer.chrome.com/docs/lighthouse/overview/" hreflang="en">Lighthouse - Chrome Developers<small> (en anglais seulement)</small></a>
+- <a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse - Chrome Developers<small> (en anglais seulement)</small></a>
 - [Outil Lighthouse - Microsoft Edge \| documentation pour développeurs](https://learn.microsoft.com/fr-ca/microsoft-edge/devtools-guide-chromium/lighthouse/lighthouse-tool)
 
 Aide supplémentaire:
 
-- Utilisez le <a href="https://googlechrome.github.io/lighthouse/viewer/" hreflang="en">Lighthouse Viewer<small> (en anglais seulement)</small></a> pour afficher et partager des rapports en ligne.
+- Utilisez le <a href="https://googlechrome.github.io/lighthouse/viewer/">Lighthouse Viewer<small> (en anglais seulement)</small></a> pour afficher et partager des rapports en ligne.
 
 ## Aide et ressources supplémentaires
 
@@ -153,7 +153,7 @@ Examinez ou testez votre site périodiquement pour vous assurer qu’il n’y a 
 
 ### Ressources supplémentaires
 
-- <a href="https://webaim.org/projects/million/" hreflang="en">WebAIM Million<small> (en anglais seulement)</small></a>
-- <a href="https://webaim.org/techniques/keyboard/" hreflang="en">WebAIM: Accessibilité du clavier<small> (en anglais seulement)</small></a>
-- <a href="https://webaim.org/resources/shortcuts/nvda" hreflang="en">WebAIM: Raccourcis clavier pour NVDA<small> (en anglais seulement)</small></a>
-- <a href="https://webaim.org/resources/shortcuts/jaws" hreflang="en">WebAIM: Raccourcis clavier pour JAWS<small> (en anglais seulement)</small></a>
+- <a href="https://webaim.org/projects/million/">WebAIM Million<small> (en anglais seulement)</small></a>
+- <a href="https://webaim.org/techniques/keyboard/">WebAIM: Accessibilité du clavier<small> (en anglais seulement)</small></a>
+- <a href="https://webaim.org/resources/shortcuts/nvda">WebAIM: Raccourcis clavier pour NVDA<small> (en anglais seulement)</small></a>
+- <a href="https://webaim.org/resources/shortcuts/jaws">WebAIM: Raccourcis clavier pour JAWS<small> (en anglais seulement)</small></a>

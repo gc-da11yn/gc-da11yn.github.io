@@ -7,14 +7,14 @@
 			</div>
 			<div class="col-md-7">
 				<ul class="list-inline">
-					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} hreflang="en" {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}{% if locale == "fr" %} <small>(en anglais seulement)</small>{% endif %}</a></li>
-					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} hreflang="en" {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">{{ contribute[locale].report }}{% if locale == "fr" %} <span lang="en">(Issues)</span><small>(en anglais seulement)</small>{% endif %}</a></li>
-					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == fr %} hreflang="en" {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}{% if locale == "fr" %} <small>(en anglais seulement)</small>{% endif %}</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}{% if locale == "fr" %} <small>(en anglais seulement)</small>{% endif %}</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">{{ contribute[locale].report }}{% if locale == "fr" %} <span lang="en">(Issues)</span><small>(en anglais seulement)</small>{% endif %}</a></li>
+					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == fr %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}{% if locale == "fr" %} <small>(en anglais seulement)</small>{% endif %}</a></li>
 				</ul>
 			</div>
 		</div>
 		{% if settings.env == "dev" %}
-			<p>{{ contribute[locale].netlify }} <a{% if locale == "fr" %} hreflang="en" {% endif %} href="https://www.netlify.com">Netlify</a></p>
+			<p>{{ contribute[locale].netlify }} <a{% if locale == "fr" %} {% endif %} href="https://www.netlify.com">Netlify</a></p>
 		{% endif %}
 	</div>
 </aside>
