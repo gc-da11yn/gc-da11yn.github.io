@@ -1,6 +1,6 @@
 ---
 title: Best practices for accessible virtual events
-description: This guide is all about planning events, covering a broad range of activities like conferences, meetings, and presentations. It suggests a timeline for organizing your event but doesn't insist on a strict approach. Before diving into the guide, there's an invitation to consider common issues faced by people with disabilities at events. The goal is to work together to tackle these challenges and create more inclusive and accessible experiences.
+description: This guide is all about planning events, covering a broad range of activities like conferences, meetings, and presentations. It includes common barriers faced by people with disabilities during events and a suggested timeline for organizing your event. The goal is to work together to create more inclusive and accessible experiences.
 toggle: bonnes-pratiques-pour-les-evenements-virtuels-accessibles
 subject:
   - howTos
@@ -8,7 +8,6 @@ tags:
   - accessibleVirtualEvents
   - updatesMain
 internalLinks: true
-
 ---
 
 <div class="row">
@@ -80,7 +79,7 @@ Before exploring this guide, we invite you to review common barriers about event
 - Inconsistent stylings in presentation material and use of irrelevant images causing distractions
 - Nausea from excessive on-screen motion or animations
 - Difficulties focusing on the presentation materials and the speaker simultaneously
-- Unfeasibility of keeping track of a virtual text chat and the presentation at the same time
+- Difficulties keeping track of a virtual text chat and the presentation at the same time
 - Overloading participants with excessive information or lengthy presentations
 - Insufficient time for processing or discussing ideas, limiting meaningful participation for individuals who need extra time to process information
 - Presenters using complex language, speak in abbreviations or jargon that is difficult to understand
@@ -162,7 +161,7 @@ Finally, after the event, you will want to:
 
 ##### One session in French one session in English (best choice for accessibility)
 
-When possible scheduled two separate sessions, one in French and one in English. This is especially good for mandatory and statutory training.
+When possible schedule two separate sessions, one in French and one in English. This is especially good for mandatory and statutory training.
 
 - **Why?** This simplifies the use of interpretation and captioning services. It also avoids excluding unilingual participants. Keep in mind that some people cannot use captions, for example, screen reader users
 
@@ -254,8 +253,6 @@ Captions enables people who are deaf, have a hearing loss and people who have co
 
 - To book CART services, please visit: [CART – Communication Access Realtime Translation \| Canadian Hearing Services (chs.ca)](https://www.chs.ca/service/cart-communication-access-realtime-translation)
 
-**Note:** Booking must be for a minimum of 2 hours, afterwards the requestor is billed in 30-minute increments
-
 **Warning:** Some virtual events platforms offer automated live captions, like [Microsoft Teams Live Captions](https://support.microsoft.com/en-us/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260). Unfortunately, these technologies often make errors which disadvantages users who rely on captions. Automated captions should be used as a last resort only or for events of lower importance. Use Communication Access Realtime Translation (CART) instead.
 
 ##### Simultaneous translation interpretation services
@@ -288,7 +285,7 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/) 
   - Text that is at least 18 point if not bold and at least 14 point if bold
     - Has a contrast ratio of 3:1 with its background
   - All non-text content has a contrast ratio of 3:1 with its background
-- **Font colour:** Set font colour to “automatic” as this makes content accessible to users running specific color settings on their PC (including High Contrast Themes and Settings)
+- **Font colour:** Set font colour to “automatic” as this makes content accessible to users running specific colour settings on their PC (including High Contrast Themes and Settings)
 - **Font type:** Use sans serif fonts like Arial or Verdana for electronic material
 - **Images:** All images need alternative text that convey their purpose; complex images like graphs also require long descriptions
   - Refer to [Images Tutorial \| Web Accessibility Initiative (WAI) \| W3C](https://www.w3.org/WAI/tutorials/images/) for more information on making images accessible
@@ -345,7 +342,7 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/) 
 
 Make sure to include the following information in your event invitation:
 
-- All material should be provided in advance of the event for participants that may need more time to go through them. Examples of event content are Emails, PowerPoints, Word and Video
+- All material should be provided in advance of the event for participants that may need more time to go through them. Examples of event content are emails, PowerPoints, Word and video
 - Send in advance engagement content, like polls and surveys, to give time for people with disabilities to review, access and participate during the event
 - Briefly describe the events objectives and clarify the discussion topics (for example, 1-3 bullet points can be used)
 - Mention if the session will be recorded
@@ -410,7 +407,7 @@ I’m going to introduce our presenter today: **[introduce presenter]**
 
 The bigger or the more critical the event is, the better it is to host a dry-run.
 
-If a dry-run is deemed beneficiary, we strongly recommend practice to ensure everyone is on the same page.
+We strongly recommend practice to ensure everyone is on the same page.
 
 ### Day of the event
 
@@ -495,12 +492,12 @@ Here are some examples of topics and questions that can be asked:
 
 ### For reference: What will affect your budget
 
-- [Accommodation services (ASL, LSQ, Language interpreters)](#sign-language-interpretation-services-asl-lsq)
+- [Accommodation services (ASL Language interpreters)](#sign-language-interpretation-services-asl-lsq)
 - The virtual platform could become a cost if a license is needed
 - Contracted presenters
 - Audio-visual production company
 - Remediating documents for accessibility if it was not done from the start
-- Translations for documents
+- Translations of documents
 
 ### For reference: Virtual platforms
 
@@ -598,7 +595,7 @@ Accessibility
 - [Accessibility overview](https://www.webex.com/accessibility.html)
 - [Bringing accessibility usability and inclusivity to the forefront](https://blog.webex.com/video-conferencing/webex-bringing-accessibility-usability-and-inclusivity-to-the-forefront/)
 - [Keyboard shortcuts](https://help.webex.com/en-us/article/7wr87q/Webex-App-%7C-Keyboard-navigation-and-shortcuts#reference-template_cd5c6c0a-d11f-4880-a487-2155e9153cfc)
-- [How to Navigate Webex With the Screen Reader?](https://help.webex.com/en-us/article/gkxwfe/Webex-App-%7C-Accessibility-features-for-Windows)
+- [How to navigate Webex with the Screen Reader?](https://help.webex.com/en-us/article/gkxwfe/Webex-App-%7C-Accessibility-features-for-Windows)
 - [Manage notifications for screen reader](https://help.webex.com/en-us/article/djaadp/Manage-which-notifications-your-screen-reader-announces)
 - [How to lock video for sign language interpretation?](https://help.webex.com/en-us/article/nptk01h/Lock-participant-video-to-a-specific-location-in-Webex-Meetings,-Webex-Webinars,and-Webex-Events-(classic))
 - [How to activate high contrast mode in windows which will impact WebEx?](https://support.microsoft.com/en-us/windows/turn-high-contrast-mode-on-or-off-in-windows-909e9d89-a0f9-a3a9-b993-7a6dcee85025)
