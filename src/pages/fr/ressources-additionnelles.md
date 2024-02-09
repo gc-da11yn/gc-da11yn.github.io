@@ -22,14 +22,14 @@ tags:
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
 
-### <a href="https://wiki.gccollab.ca/M365/Home/Accessibility" hreflang="en">Accessibilité de M365<small> (en anglais seulement)</small></a>
+### <a href="https://wiki.gccollab.ca/M365/Home/Accessibility">Accessibilité de M365<small> (en anglais seulement)</small></a>
 
 Liste des ressources et du matériel d’apprentissage sur l’accessibilité de Microsoft 365 (M365).
 
 </div>
 <div class="col-md-6">
 
-### <a href="https://kb.iu.edu/d/bgdz" hreflang="en">Considérations relatives aux lecteurs d’écran lors du choix entre Google à IU My Drive et Microsoft OneDrive à IU<small> (en anglais seulement)</small></a>
+### <a href="https://kb.iu.edu/d/bgdz">Considérations relatives aux lecteurs d’écran lors du choix entre Google à IU My Drive et Microsoft OneDrive à IU<small> (en anglais seulement)</small></a>
 
 Le choix entre Google à IU My Drive et Microsoft OneDrive à IU n’est pas simple lorsqu’on considère l’accessibilité relative aux lecteurs d’écran. Les deux présentent des avantages et des inconvénients, qui peuvent varier en fonction de la combinaison du lecteur d’écran et du navigateur utilisé.
 
@@ -50,14 +50,14 @@ Les étapes de base nécessaires à l’accessibilité sont les mêmes, que votr
 </div>
 <div class="col-md-6">
 
-### <a href="https://guia-wcag.com/en/" hreflang="en">Guide d'accessibilité du contenu Web<small> (en anglais seulement)</small></a>
+### <a href="https://guia-wcag.com/en/">Guide d'accessibilité du contenu Web<small> (en anglais seulement)</small></a>
 
 La base fondamentale qui vous permettra de disposer de produits numériques réellement inclusifs et accessibles.
 
 </div>
 <div class="col-md-6">
 
-### <a href="https://www.accessibilityassociation.org/" hreflang="en" lang="en">International Association of Accessibility Professionals<small lang="fr"> (en anglais seulement)</small></a>
+### <a href="https://www.accessibilityassociation.org/" lang="en">International Association of Accessibility Professionals<small lang="fr"> (en anglais seulement)</small></a>
 
 Les professionnels de l’accessibilité du monde entier se réunissent pour définir, promouvoir et améliorer la profession de l’accessibilité par le biais du réseautage, de l’éducation et de la certification.
 
@@ -89,7 +89,7 @@ Dans cet article, Claudio Luis Vera explique ce qu’il faut garder à l’espri
 </div>
 <div class="col-md-6">
 
-### <a href="https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu" hreflang="en">YouTube : Apple : Accessibilité<small> (en anglais seulement)</small></a>
+### <a href="https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu">YouTube : Apple : Accessibilité<small> (en anglais seulement)</small></a>
 
 De l’utilisation de votre iPhone sans voir l’écran, à l’adaptation des gestes à vos besoins physiques, découvrez comment les fonctionnalités d’accessibilité intégrées à vos appareils Apple peuvent vous aider à en faire plus.
 
@@ -115,7 +115,7 @@ Liste de verification develop par ESDC.
 </div>
 <div class="col-md-6">
 
-### <a href="https://wet-boew.github.io/v4.0-ci/demos/wamethod/wamethod-AA-fr.html" hreflang="en">Méthodologie d’évaluation sur l’accessibilité des sites Web (niveau AA)<small> (en anglais seulement)</small></a>
+### <a href="https://wet-boew.github.io/v4.0-ci/demos/wamethod/wamethod-AA-fr.html">Méthodologie d’évaluation sur l’accessibilité des sites Web (niveau AA)<small> (en anglais seulement)</small></a>
 
 Aider à mesurer les critères de succès de niveau A et AA des Règles pour l’accessibilité des contenus Web (WCAG) 2.1.
 
@@ -129,7 +129,7 @@ L’objectif de la SGDC consiste essentiellement à fournir la couche de présen
 </div>
 <div class="col-md-6">
 
-### <a href="https://a11ysupport.io/" hreflang="en">Soutien à l'accessibilité<small> (en anglais seulement)</small></a>
+### <a href="https://a11ysupport.io/">Soutien à l'accessibilité<small> (en anglais seulement)</small></a>
 
 Vérifiez si votre code fonctionnera avec les technologies d'assistance.
 
@@ -190,7 +190,7 @@ Qui doit utiliser le système de conception de Canada.ca, éléments obligatoire
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
 
-### <a href="https://www.w3.org/WAI/standards-guidelines/atag/" hreflang="en" lang="en">Authoring Tool Accessibility Guidelines (ATAG) Overview<small lang="fr"> (en anglais seulement)</small></a> - Initiative pour l'accessibilité du Web (WAI)
+### <a href="https://www.w3.org/WAI/standards-guidelines/atag/" lang="en">Authoring Tool Accessibility Guidelines (ATAG) Overview<small lang="fr"> (en anglais seulement)</small></a> - Initiative pour l'accessibilité du Web (WAI)
 
 Les outils de création sont des logiciels et des services que les "auteurs" (développeurs web, concepteurs, rédacteurs, etc.) utilisent pour produire du contenu web (pages web statiques, applications web dynamiques, etc.)
 
@@ -204,7 +204,7 @@ Cette ligne directrice soutient la direction du gouvernement du Canada pour s’
 </div>
 <div class="col-md-6">
 
-### <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" hreflang="en" download>EU EN 301 549 (Gestion de l’accessibilité dans les marchés publics des TIC)<small> (en anglais seulement)</small></a>
+### <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" download>EU EN 301 549 (Gestion de l’accessibilité dans les marchés publics des TIC)<small> (en anglais seulement)</small></a>
 
 Les exigences en matière d’accessibilité qui conviennent à l’approvisionnement, par les organismes publics, de produits et services de technologies de l’information et des communications (TIC) en Europe.
 
@@ -260,7 +260,7 @@ Ce glossaire contient 342 concepts et terminologies liés au projet de loi C-81 
 </div>
 <div class="col-md-6">
 
-#### <a href="https://www.include-me.ca/federal-accessibility-legislation-alliance/resource/accessible-canada-act-plain-language" hreflang="en">La Loi sur l'accessibilité du Canada en langage clair et simple<small> (en anglais seulement)</small></a>
+#### <a href="https://www.include-me.ca/federal-accessibility-legislation-alliance/resource/accessible-canada-act-plain-language">La Loi sur l'accessibilité du Canada en langage clair et simple<small> (en anglais seulement)</small></a>
 
 Ce document aide les gens à comprendre les principaux points du projet de loi C-81 ; une loi visant à assurer un Canada sans obstacles.
 
