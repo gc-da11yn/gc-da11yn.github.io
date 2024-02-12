@@ -98,8 +98,8 @@ Voici un bref résumé de leur relation avec la gestion des événements :
 
 L'objectif est de faire du Canada un pays exempt obstacles d'ici le 1<sup>er</sup> janvier 2040, en exigeant la reconnaissance, l'élimination et la prévention des obstacles dans les domaines suivants :
 
-- les technologies de l'information et de la communication (TIC), telles que les plateformes d'événements virtuels
-- les communications (y compris les langues officiellement reconnues par les personnes malentendantes au Canada, à savoir l’American Sign Language, la langue des signes québécoise et les langues des signes autochtones)
+- les technologies de l'information et de la communication (TIC), telles que les plateformes d'événements virtuels;
+- les communications (y compris les langues officiellement reconnues par les personnes malentendantes au Canada, à savoir l’American Sign Language, la langue des signes québécoise et les langues des signes autochtones).
 
 #### *Loi canadienne sur les droits de la personne*
 
@@ -141,22 +141,22 @@ Tout d'abord, vous devrez planifier votre événement. Plusieurs décisions devr
 
 Ensuite, vous organiserez votre événement. Nous vous recommandons de faire ce qui suit :
 
-- préparer des scripts pour l'hôte
-- veiller à ce que les présentateurs soient sensibilisés à l'accessibilité
-- si nécessaire, faire un essai
+- préparer des scripts pour l'hôte;
+- veiller à ce que les présentateurs soient sensibilisés à l'accessibilité;
+- si nécessaire, faire un essai.
 
 Troisièmement, vous animerez votre événement. Assurez-vous de faire ce qui suit :
 
-- tester l'équipement et installer les interprètes avant le début de l’événement
-- donner le ton de l’événement en lisant les règles de conduite recommandées aux participants
-- arrêter, reconnaître et rectifier immédiatement les problèmes d'accessibilité
-- clôturer l'événement en informant les participants de la manière dont ils peuvent vous contacter et vous faire part de leurs commentaires
+- tester l'équipement et installer les interprètes avant le début de l’événement;
+- donner le ton de l’événement en lisant les règles de conduite recommandées aux participants;
+- arrêter, reconnaître et rectifier immédiatement les problèmes d'accessibilité;
+- clôturer l'événement en informant les participants de la manière dont ils peuvent vous contacter et vous faire part de leurs commentaires.
 
 Enfin, après l'événement, vous voudrez faire ce qui suit :
 
-- envoyer aux participants du contenu récapitulatif tel que des notes et des enregistrements
-- répondre aux questions posées après l'événement
-- recueillir les commentaires des participants aux fins d’amélioration
+- envoyer aux participants du contenu récapitulatif tel que des notes et des enregistrements;
+- répondre aux questions posées après l'événement;
+- recueillir les commentaires des participants aux fins d’amélioration.
 
 ### Planification de l’événement : un à deux mois avant la tenue de l'événement (environ)
 
@@ -174,17 +174,17 @@ Les événements bilingues sont une option, en particulier pour les conférences
 
 Voici les points à retenir lorsque vous organisez un événement bilingue :
 
-- Tous les documents relatifs à l'événement, tels que les invitations, les ordres du jour, les documents à distribuer, les procès-verbaux, les présentations PowerPoint, etc., sont disponibles en anglais et en français et sont de la même qualité
-- Offrez une traduction simultanée
-  - Idéalement, il devrait y avoir trois canaux audio : anglais, français et multilingue
-  - Le présentateur et l'interprète doivent utiliser le même canal audio pour la même langue. Lorsque le présentateur change de langue, l'interprète entre en ligne et traduit le discours jusqu'à ce que le présentateur change à nouveau de langue
-- Offrez un service de sous-titrage pour les deux langues
-- Planifiez le changement de langue pendant l'événement; essayez de changer de langue entre les sections plutôt qu'à l'intérieur d'une même diapositive afin de faciliter le suivi
-  - Prévenez les participants lorsqu’il y a un changement de langue : annoncez le changement et faites une pause de 5 à 10 secondes pour leur laisser le temps de changer la langue des sous-titres
-- Désignez un gardien de la langue chargé de maintenir l'équilibre entre le français et l'anglais. Cette personne devrait veiller à ce que les deux langues officielles soient utilisées de manière équitable et équilibrée au cours de l'événement
-- Accueillez tous les participants en français et en anglais
-- Rappelez aux participants qu'ils sont libres d'utiliser la langue officielle de leur choix
-- Résumez les remarques de chaque participant dans l'autre langue
+- Tous les documents relatifs à l'événement, tels que les invitations, les ordres du jour, les documents à distribuer, les procès-verbaux, les présentations PowerPoint, etc., sont disponibles en anglais et en français et sont de la même qualité;
+- Offrez une traduction simultanée;
+  - Idéalement, il devrait y avoir trois canaux audio : anglais, français et multilingue;
+  - Le présentateur et l'interprète doivent utiliser le même canal audio pour la même langue. Lorsque le présentateur change de langue, l'interprète entre en ligne et traduit le discours jusqu'à ce que le présentateur change à nouveau de langue;
+- Offrez un service de sous-titrage pour les deux langues;
+- Planifiez le changement de langue pendant l'événement; essayez de changer de langue entre les sections plutôt qu'à l'intérieur d'une même diapositive afin de faciliter le suivi;
+  - Prévenez les participants lorsqu’il y a un changement de langue : annoncez le changement et faites une pause de 5 à 10 secondes pour leur laisser le temps de changer la langue des sous-titres;
+- Désignez un gardien de la langue chargé de maintenir l'équilibre entre le français et l'anglais. Cette personne devrait veiller à ce que les deux langues officielles soient utilisées de manière équitable et équilibrée au cours de l'événement;
+- Accueillez tous les participants en français et en anglai;s
+- Rappelez aux participants qu'ils sont libres d'utiliser la langue officielle de leur choix;
+- Résumez les remarques de chaque participant dans l'autre langue.
 
 ##### Ressources pour les événements bilingues
 
@@ -267,8 +267,8 @@ Le sous-titrage permet aux personnes qui sont sourdes, qui ont subi une perte d�
 Les événements bilingues peuvent constituer un obstacle pour les personnes unilingues en situation de handicap. Pour garantir le plein accès, des traductions vocales simultanées sont nécessaires. Les sous-titres traduits ou le contenu à l'écran ne sont pas accessibles aux utilisateurs non visuels. Par conséquent, ils doivent attendre les changements de langue sans aucun stimulus et s'en remettre uniquement aux résumés des points de discussion dans leur langue.
 
 - Pour réserver des services de traduction simultanée pour les conférences et les événements du GC, veuillez consulter les sites suivants :
-  - Pour le français et l’anglais : [Services d'interprétation des conférences en langues officielles – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/officielle-official-fra.html)
-  - Pour les langues autochtones : [Services d'interprétation des conférences en langues autochtones – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/autochtones-indigenous-fra.html)
+  - Pour le français et l’anglais : [Services d'interprétation des conférences en langues officielles – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/officielle-official-fra.html);
+  - Pour les langues autochtones : [Services d'interprétation des conférences en langues autochtones – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/autochtones-indigenous-fra.html).
 
 **Remarque :** Ceci nécessite une plateforme virtuelle qui offre plusieurs canaux vocaux, un pour chaque langue. Lorsque le présentateur ne parle plus la langue du canal vocal, l'interprète affecté au canal vocal doit prononcer la traduction.
 
@@ -287,18 +287,18 @@ Veuillez consulter la [boîte à outils de l'accessibilité numérique](https://
 ##### Conseil général sur l'accessibilité des documents (s'applique à tous)
 
 - **Contraste des couleurs** : À l'aide d'un outil de vérification du contraste des couleurs comme le <a href="https://www.tpgi.com/color-contrast-checker/" hreflang="en">Colour Contrast Analyser de TPGi<small> (en anglais seulement)</small></a> ou le <a href="https://webaim.org/resources/contrastchecker/" hreflang="en">Contrast Checker de WebAim<small> (en anglais seulement)</small></a>, assurez-vous que :
-  - le texte qui est inférieur à 18 points s'il n'est pas en gras et inférieur à 14 points s'il est en gras
-    - a un rapport de contraste de 4,5:1 avec son arrière-plan
-  - le texte d'au moins 18 points s'il n'est pas en gras et d'au moins 14 points s'il est en gras
-    - a un rapport de contraste de 3:1 avec son arrière-plan
-  - tout le contenu non textuel a un rapport de contraste de 3:1 avec l'arrière-plan
+  - le texte qui est inférieur à 18 points s'il n'est pas en gras et inférieur à 14 points s'il est en gras;
+    - a un rapport de contraste de 4,5:1 avec son arrière-plan;
+  - le texte d'au moins 18 points s'il n'est pas en gras et d'au moins 14 points s'il est en gras;
+    - a un rapport de contraste de 3:1 avec son arrière-plan;
+  - tout le contenu non textuel a un rapport de contraste de 3:1 avec l'arrière-plan.
 - **Couleur de la police :** Réglez la couleur de la police à « automatique » afin que le contenu soit accessible aux utilisateurs qui utilisent des paramètres de couleur précis sur leur PC (y compris les thèmes et paramètres à contraste élevé)
 - **Type de police :** Utilisez des polices sans empattement comme Arial ou Verdana pour les documents électroniques
 - **Images :** Toutes les images doivent être accompagnées d'un texte alternatif qui en explique le but; les images complexes telles que les graphiques nécessitent également de longues descriptions
   - Consultez <a href="https://www.w3.org/WAI/tutorials/images/" hreflang="en">Images Tutorial \| Web Accessibility Initiative (WAI) \| W3C<small> (en anglais seulement)</small></a> pour obtenir plus d'information sur la manière de rendre les images accessibles
 - **Liens :** Tous les liens doivent être intégrés dans un texte descriptif, par exemple :
-  - À ne pas faire : <https://www.w3.org/Translations/WCAG21-fr/>
-  - À faire (le lien est intégré dans le texte) : [Règles pour l’accessibilité des contenus Web (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-fr/)
+  - À ne pas faire : <https://www.w3.org/Translations/WCAG21-fr/>;
+  - À faire (le lien est intégré dans le texte) : [Règles pour l’accessibilité des contenus Web (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-fr/).
 - **Mouvement :** Évitez d'utiliser des animations et des images en mouvement comme les GIF
 - **Langage clair et simple :** Utilisez un langage clair et simple, [tel que décrit dans le Guide de rédaction du contenu du site Canada.ca](https://conception.canada.ca/guide-redaction/#toc6)
 - **Décoration du texte :** Évitez les textes en majuscules, en gras, en italique et soulignés pour attirer l'attention du lecteur. Ces styles rendent le texte plus difficile à lire pour les personnes malvoyantes et les personnes ayant un handicap cognitif, et peuvent être mal interprétés par les lecteurs d'écran
@@ -349,14 +349,14 @@ Veuillez consulter la [boîte à outils de l'accessibilité numérique](https://
 
 Veillez à inclure les renseignements suivants dans votre invitation à l'événement :
 
-- Tout le matériel doit être fourni avant l'événement pour les participants qui pourraient avoir besoin de plus de temps pour le parcourir. Voici quelques exemples de contenu d'événement : courriels, présentations PowerPoint, documents Word et vidéo
-- Envoyez à l'avance le contenu de l'engagement, comme les sondages et les enquêtes, afin de donner aux personnes en situation de handicap le temps de le consulter, d'y accéder et de participer pendant l'événement
-- Décrivez brièvement les objectifs de l'événement et clarifiez les sujets de discussion (par exemple, vous pourriez utiliser une à trois puces)
-- Mentionnez si la session sera enregistrée
-- Partagez l’ébauche de [l’ordre du jour de l’événement](#etablissez-un-ordre-du-jour)
+- Tout le matériel doit être fourni avant l'événement pour les participants qui pourraient avoir besoin de plus de temps pour le parcourir. Voici quelques exemples de contenu d'événement : courriels, présentations PowerPoint, documents Word et vidéo;
+- Envoyez à l'avance le contenu de l'engagement, comme les sondages et les enquêtes, afin de donner aux personnes en situation de handicap le temps de le consulter, d'y accéder et de participer pendant l'événement;
+- Décrivez brièvement les objectifs de l'événement et clarifiez les sujets de discussion (par exemple, vous pourriez utiliser une à trois puces);
+- Mentionnez si la session sera enregistrée;
+- Partagez l’ébauche de [l’ordre du jour de l’événement](#etablissez-un-ordre-du-jour);
 - Proposez plusieurs moyens de participer à l'événement, tels que :
-  - un lien en ligne
-  - un numéro d'accès direct
+  - un lien en ligne;
+  - un numéro d'accès direct.
 - Fournissez des renseignements sur les services d'accessibilité offerts afin que les participants n'aient pas à demander des mesures d’adaptation pour des services prévus (CART, langue des signes, traduction, interprétation...)
 - Indiquez les coordonnées des personnes à contacter pour les demandes de mesures d’adaptation et une date limite de soumission
   - Ajoutez des exemples de demandes de mesures d’adaptation, car souvent les personnes qui ont besoin de mesures d’adaptation n'osent pas en faire la demande
@@ -443,14 +443,14 @@ Si une répétition est jugée souhaitable, nous recommandons vivement de la fai
 
 Invitez les participants à :
 
-- se déconnecter du VPN pour une meilleure expérience
-- désactiver leur microphone lorsqu’ils ne parlent pas
-- garder leur caméra éteinte lorsqu'ils ne parlent pas
-- pour poser des questions, ils peuvent soit taper dans le clavardage, soit utiliser la section des questions et réponses, soit utiliser la fonction « lever la main »
-- indiquer leur nom avant de parler ou de poser une question
+- se déconnecter du VPN pour une meilleure expérience;
+- désactiver leur microphone lorsqu’ils ne parlent pas;
+- garder leur caméra éteinte lorsqu'ils ne parlent pas;
+- pour poser des questions, ils peuvent soit taper dans le clavardage, soit utiliser la section des questions et réponses, soit utiliser la fonction « lever la main »;
+- indiquer leur nom avant de parler ou de poser une question;
   - Pourquoi ? Cela aide les utilisateurs à identifier les autres participants
-- utiliser un langage simple et inclusif (éviter le jargon, les acronymes ou les métaphores)
-- parler à un rythme modéré et énoncer clairement (si possible)
+- utiliser un langage simple et inclusif (éviter le jargon, les acronymes ou les métaphores);
+- parler à un rythme modéré et énoncer clairement (si possible).
 
 ##### Corrigez les erreurs
 
@@ -470,11 +470,11 @@ Invitez les participants à :
 
 Veillez à distribuer le contenu [dans un format accessible](#veillez-à-ce-que-tous-les-supports-de-lévénement-soient-accessibles-tels-que-les-courriels-les-présentations-powerpoint-les-documents-word), ce qui est souvent fait par le biais d'un courriel de remerciement après l'événement :
 
-- résumé de l'événement
-- enregistrements
-- transcription (révisez et corrigez la transcription avant de la rendre accessible)
-- liens partagés dans le clavardage
-- matériel supplémentaire
+- résumé de l'événement;
+- enregistrements;
+- transcription (révisez et corrigez la transcription avant de la rendre accessible);
+- liens partagés dans le clavardage;
+- matériel supplémentaire.
 
 #### Répondez aux questions après l'événement
 
@@ -515,10 +515,10 @@ Des termes comme « bombardement par Zoom », « T-BOMB », etc. sont devenu
 
 Voici quelques conseils pour gérer les risques liés à ces attaques :
 
-- Veillez à ce que les modérateurs sachent comment bannir les participants
-- Si l'événement est public et que tout le monde a le droit d'y participer, il faut s'assurer que les micros des participants restent désactivés, que les caméras restent éteintes et qu'ils ne peuvent pas partager l'écran sans autorisation, afin de protéger l'événement contre les distractions indésirables
-- L'activation de la fonction Salle d’attente peut faciliter le filtrage des participants qui se joignent à l'événement
-- Certaines plateformes virtuelles vous permettent de verrouiller l'événement, de sorte qu'aucun nouveau participant ne puisse y entrer. Cela peut être utile une fois que l'on s'est assuré que toutes les personnes qui devraient être présentes le sont
+- Veillez à ce que les modérateurs sachent comment bannir les participants;
+- Si l'événement est public et que tout le monde a le droit d'y participer, il faut s'assurer que les micros des participants restent désactivés, que les caméras restent éteintes et qu'ils ne peuvent pas partager l'écran sans autorisation, afin de protéger l'événement contre les distractions indésirables;
+- L'activation de la fonction Salle d’attente peut faciliter le filtrage des participants qui se joignent à l'événement;
+- Certaines plateformes virtuelles vous permettent de verrouiller l'événement, de sorte qu'aucun nouveau participant ne puisse y entrer. Cela peut être utile une fois que l'on s'est assuré que toutes les personnes qui devraient être présentes le sont.
   - **Remarque :** Cela peut être problématique si une personne perd la connexion, car elle ne peut pas se réinscrire à l'événement tant que celui-ci n'a pas été déverrouillé
 
 #### Information sur Microsoft Teams
@@ -534,12 +534,12 @@ réunion](https://support.microsoft.com/fr-fr/office/options-de-r%C3%A9union-dan
 
 Dans la mesure du possible, nous recommandons ce qui suit :
 
-- Choisissez « Tout le monde » pour « Qui peut contourner la salle d’attente? »
-  - Nous recommandons de supprimer la salle d’attente dans la mesure du possible, car elle peut être une source de distraction constante pour les participants qui sont informés que quelqu'un attend dans la salle d’attente
-- Choisissez « Non » pour « Annoncer quand les appelants rejoignent ou quittent »
-  - Les annonces peuvent être une source de distraction, en particulier pour les utilisateurs de lecteurs d'écran. En général, il n'y a aucune raison de choisir « oui » pour cette fonction
-- Choisissez « Non » pour « Autoriser le micro pour les participants » et « Autoriser la caméra pour les participants »
-  - Vous pouvez toujours leur donner des autorisations pendant l'événement
+- Choisissez « Tout le monde » pour « Qui peut contourner la salle d’attente? »;
+  - Nous recommandons de supprimer la salle d’attente dans la mesure du possible, car elle peut être une source de distraction constante pour les participants qui sont informés que quelqu'un attend dans la salle d’attente.
+- Choisissez « Non » pour « Annoncer quand les appelants rejoignent ou quittent »;
+  - Les annonces peuvent être une source de distraction, en particulier pour les utilisateurs de lecteurs d'écran. En général, il n'y a aucune raison de choisir « oui » pour cette fonction.
+- Choisissez « Non » pour « Autoriser le micro pour les participants » et « Autoriser la caméra pour les participants »;
+  - Vous pouvez toujours leur donner des autorisations pendant l'événement.
 
 ##### Ressources supplémentaires pour l'organisateur
 
