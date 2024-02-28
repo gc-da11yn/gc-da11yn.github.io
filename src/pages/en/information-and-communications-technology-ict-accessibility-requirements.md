@@ -3022,19 +3022,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.1.1 Non-text content</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#non-text-content">WCAG 2.1 Success Criterion 1.1.1 Non-text content</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.1.1 Non-text content</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Understanding Non-text Content</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-content">How to Meet Non-text Content</a> </p>
-				<p>(Level A)</p>
-				<p>All <a href="http://www.w3.org/TR/WCAG21/#dfn-non-text-content">non-text content</a> that is presented to the user has a <a href="http://www.w3.org/TR/WCAG21/#dfn-text-alternative">text alternative</a> that serves the equivalent purpose, except for the situations listed below.</p>
-				<ul>
-					<li>Controls, Input: If non-text content is a control or accepts user input, then it has a <a href="http://www.w3.org/TR/WCAG21/#dfn-name">name</a> that describes its purpose. (Refer to <a href="http://www.w3.org/TR/WCAG21/#name-role-value">Success Criterion 4.1.2</a> for additional requirements for controls and content that accepts user input.) </li>
-					<li>Time-Based Media: If non-text content is time-based media, then text alternatives at least provide descriptive identification of the non-text content. (Refer to <a href="http://www.w3.org/TR/WCAG21/#time-based-media">Guideline 1.2</a> for additional requirements for media.)</li>
-					<li>Test: If non-text content is a test or exercise that would be invalid if presented in <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a>, then text alternatives at least provide descriptive identification of the non-text content.</li>
-					<li>Sensory: If non-text content is primarily intended to create a <a href="http://www.w3.org/TR/WCAG21/#dfn-specific-sensory-experience">specific sensory experience,</a> then text alternatives at least provide descriptive identification of the non-text content.</li>
-					<li><a href="http://www.w3.org/TR/WCAG21/#dfn-captcha">CAPTCHA</a>: If the purpose of non-text content is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the non-text content are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.</li>
-					<li>Decoration, Formatting, Invisible: If non-text content is <a href="http://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration,</a> is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by <a href="http://www.w3.org/TR/WCAG21/#dfn-assistive-technologies">assistive technology</a>.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.9.1.1.1 Non-text content</strong></p>
@@ -3065,15 +3052,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.2.1 Audio-only and video-only (prerecorded)</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded">WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html">Understanding Audio-only and Video-only (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded">How to Meet Audio-only and Video-only (Prerecorded)</a></p>
-				<p>(Level A)</p>
-				<p>For <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded </a><a href="https://www.w3.org/TR/WCAG21/#dfn-audio-only">audio-only</a> and prerecorded <a href="http://www.w3.org/TR/WCAG21/#dfn-video-only">video-only</a> media, the following are true, except when the audio or video is a <a href="http://www.w3.org/TR/WCAG21/#dfn-media-alternative-for-text">media alternative for text</a> and is clearly labeled as such:</p>
-				<ul>
-					<li>Prerecorded Audio-only: An <a href="http://www.w3.org/TR/WCAG21/#dfn-alternative-for-time-based-media">alternative for time-based media</a> is provided that presents equivalent information for prerecorded audio-only content.</li>
-					<li>Prerecorded Video-only: Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.9.1.2.1 Audio-only and video-only (prerecorded)</strong></p>
@@ -3093,11 +3071,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.2.2 Captions (prerecorded)</strong></p>
 				<p>Where ICT is a web page, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#captions-prerecorded">WCAG 2.1 Success Criterion 1.2.2 Captions (Prerecorded)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.2 Captions (Prerecorded)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html">Understanding Captions (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">How to Meet Captions (Prerecorded)</a></p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-captions">Captions</a> are provided for all <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded </a><a href="http://www.w3.org/TR/WCAG21/#dfn-audio">audio</a> content in <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>, except when the media is a <a href="http://www.w3.org/TR/WCAG21/#dfn-media-alternative-for-text">media alternative for text</a> and is clearly labeled as such.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.2.2 Captions (prerecorded)</strong></p>
@@ -3117,11 +3090,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.2.3 Audio description or media alternative (prerecorded)</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded">WCAG 2.1 Success Criterion 1.2.3 Audio Description or Media Alternative (Prerecorded)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.3 Audio Description or Media Alternative (Prerecorded)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html">Understanding Audio Description or Media Alternative (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">How to Meet Audio Description or Media Alternative (Prerecorded)</a></p>
-				<p>(Level A)</p>
-				<p>An <a href="http://www.w3.org/TR/WCAG21/#dfn-alternative-for-time-based-media">alternative for time-based media</a> or audio description of the <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded </a>video content is provided for <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media"> synchronized media</a>, except when the media is a <a href="http://www.w3.org/TR/WCAG21/#dfn-media-alternative-for-text">media alternative for text</a> and is clearly labeled as such. </p>
 			</td>
 			<td>
 				<p><strong>C.9.1.2.3 Audio description or media alternative (prerecorded)</strong></p>
@@ -3141,11 +3109,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.2.4 Captions (live)</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#captions-live">WCAG 2.1 Success Criterion 1.2.4 Captions (Live)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.4 Captions (Live)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-live.html">Understanding Captions (Live)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-live">How to Meet Captions (Live)</a></p>
-				<p>(Level AA)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-captions">Captions</a> are provided for all <a href="http://www.w3.org/TR/WCAG21/#dfn-live">live </a><a href="http://www.w3.org/TR/WCAG21/#dfn-audio">audio</a> content in <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.2.4 Captions (live)</strong></p>
@@ -3165,11 +3128,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.2.5 Audio description (prerecorded)</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#audio-description-prerecorded">WCAG 2.1 Success Criterion 1.2.5 Audio Description (Prerecorded)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.5 Audio Description (Prerecorded).</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">Understanding Audio Description (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">How to Meet Audio Description (Prerecorded)</a></p>
-				<p>(Level AA)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-audio-descriptions">Audio description</a> is provided for all <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded </a><a href="http://www.w3.org/TR/WCAG21/#dfn-video">video</a> content in <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.2.5 Audio description (prerecorded)</strong></p>
@@ -3200,11 +3158,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.3.1 Info and relationships</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#info-and-relationships">WCAG 2.1 Success Criterion 1.3.1 Info and Relationships</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.1 Info and Relationships</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Understanding Info and Relationships</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">How to Meet Info and Relationships</a></p>
-				<p>(Level A)</p>
-				<p>Information, <a href="http://www.w3.org/TR/WCAG21/#dfn-structure">structure</a>, and <a href="http://www.w3.org/TR/WCAG21/#dfn-relationships">relationships</a> conveyed through <a href="http://www.w3.org/TR/WCAG21/#dfn-presentation">presentation</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a> or are available in text.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.3.1 Info and relationships</strong></p>
@@ -3224,11 +3177,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.3.2 Meaningful sequence</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#meaningful-sequence">WCAG 2.1 Success Criterion 1.3.2 Meaningful Sequence</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.2 Meaningful Sequence</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Understanding Meaningful Sequence</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">How to Meet Meaningful Sequence</a></p>
-				<p>(Level A)</p>
-				<p>When the sequence in which content is presented affects its meaning, a <a href="http://www.w3.org/TR/WCAG21/#dfn-correct-reading-sequence">correct reading sequence</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.3.2 Meaningful sequence</strong></p>
@@ -3248,12 +3196,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.3.3 Sensory characteristics</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#sensory-characteristics">WCAG 2.1 Success Criterion 1.3.3 Sensory Characteristics</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.3 Sensory Characteristics</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Understanding Sensory Characteristics</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics">How to Meet Sensory Characteristics</a></p>
-				<p>(Level A)</p>
-				<p>Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, color, size, visual location, orientation, or sound. </p>
-				<p>Note: For requirements related to color, refer to <a href="http://www.w3.org/TR/WCAG21/#distinguishable">Guideline 1.4</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.3.3 Sensory characteristics</strong></p>
@@ -3273,12 +3215,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.3.4 Orientation</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#orientation">WCAG 2.1 Success Criterion 1.3.4 Orientation</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.4 Orientation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Understanding Orientation</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#orientation">How to Meet Orientation</a></p>
-				<p>(Level AA)</p>
-				<p>Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a>.</p>
-				<p>Note: Examples where a particular display orientation may be essential are a bank check, a piano application, slides for a projector or television, or virtual reality content where binary display orientation is not applicable.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.3.4 Orientation</strong></p>
@@ -3298,15 +3234,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.3.5 Identify input purpose</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#identify-input-purpose">WCAG 2.1 Success Criterion 1.3.5 Identify Input Purpose</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.5 Identify Input Purpose</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Understanding Identify Input Purpose</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">How to Meet Identify Input Purpose</a></p>
-				<p>(Level AA)</p>
-				<p>The purpose of each input field collecting information about the user can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a> when:</p>
-				<ul>
-					<li>The input field serves a purpose identified in the <a href="http://www.w3.org/TR/WCAG21/#input-purposes">Input Purposes for User Interface Components</a> section; and</li>
-					<li>The content is implemented using technologies with support for identifying the expected meaning for form input data.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.9.1.3.5 Identify input purpose</strong></p>
@@ -3337,12 +3264,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.4.1 Use of colour</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#use-of-color">WCAG 2.1 Success Criterion 1.4.1 Use of Color</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.1 Use of Color</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Understanding Use of Color</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#use-of-color">How to Meet Use of Color</a></p>
-				<p>(Level A)</p>
-				<p>Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.</p>
-				<p>Note: This success criterion addresses color perception specifically. Other forms of perception are covered in <a href="http://www.w3.org/TR/WCAG21/#adaptable">Guideline 1.3</a> including programmatic access to color and other visual presentation coding.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.1 Use of colour</strong></p>
@@ -3362,12 +3283,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.4.2 Audio control</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#audio-control">WCAG 2.1 Success Criterion 1.4.2 Audio Control</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.2 Audio Control</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-control.html">Understanding Audio Control</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-control">How to Meet Audio Control</a></p>
-				<p>(Level A)</p>
-				<p>If any audio on a Web page plays automatically for more than 3 seconds, either a <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.</p>
-				<p>Note: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether or not it is used to meet other success criteria) must meet this success criterion. See <a href="http://www.w3.org/TR/WCAG21/#cc5">Conformance Requirement 5: Non-Interference</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.2 Audio control</strong></p>
@@ -3387,16 +3302,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.4.3 Contrast (minimum)</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#contrast-minimum">WCAG 2.1 Success Criterion 1.4.3 Contrast (Minimum)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.3 Contrast (Minimum)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Understanding Contrast (Minimum)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">How to Meet Contrast (Minimum)</a> </p>
-				<p>(Level AA)</p>
-				<p>The visual presentation of <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a> has a <a href="http://www.w3.org/TR/WCAG21/#dfn-contrast-ratio">contrast ratio</a> of at least 4.5:1, except for the following:</p>
-				<ul>
-					<li>Large Text: <a href="http://www.w3.org/TR/WCAG21/#dfn-large-scale">Large-scale text</a> and images of large-scale text have a contrast ratio of at least 3:1;</li>
-					<li>Incidental: Text or images of text that are part of an inactive <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a>, that are <a href="http://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.</li>
-					<li>Logotypes: Text that is part of a logo or brand name has no contrast requirement.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.3 Contrast (minimum)</strong></p>
@@ -3416,11 +3321,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.4.4 Resize text</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#resize-text">WCAG 2.1 Success Criterion 1.4.4 Resize text</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.4 Resize text</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Understanding Resize text</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#resize-text">How to Meet Resize text</a></p>
-				<p>(Level AA)</p>
-				<p>Except for <a href="http://www.w3.org/TR/WCAG21/#dfn-captions">captions</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a>, <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> can be resized without <a href="http://www.w3.org/TR/WCAG21/#dfn-assistive-technologies">assistive technology</a> up to 200 percent without loss of content or functionality.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.4 Resize text</strong></p>
@@ -3440,16 +3340,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.4.5 Images of text</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#images-of-text">WCAG 2.1 Success Criterion 1.4.5 Images of Text</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.5 Images of Text.</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Understanding Images of Text</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#images-of-text">How to Meet Images of Text</a></p>
-				<p>(Level AA)</p>
-				<p>If the technologies being used can achieve the visual presentation, <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> is used to convey information rather than <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a> except for the following: </p>
-				<ul>
-					<li>Customizable: The image of text can be <a href="http://www.w3.org/TR/WCAG21/#dfn-visually-customized">visually customized</a> to the user's requirements;</li>
-					<li>Essential: A particular presentation of text is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> to the information being conveyed.</li>
-				</ul>
-				<p>Note: Logotypes (text that is part of a logo or brand name) are considered essential.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.5 Images of text</strong></p>
@@ -3469,18 +3359,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.4.10 Reflow</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#reflow">WCAG 2.1 Success Criterion 1.4.10 Reflow</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.10 Reflow</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/reflow.html">Understanding Reflow</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#reflow">How to Meet Reflow</a></p>
-				<p>(Level AA)</p>
-				<p>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>
-				<ul>
-					<li>Vertical scrolling content at a width equivalent to 320 <a href="http://www.w3.org/TR/WCAG21/#dfn-css-pixels">CSS pixels</a>;</li>
-					<li>Horizontal scrolling content at a height equivalent to 256 <a href="http://www.w3.org/TR/WCAG21/#dfn-css-pixels">CSS pixels</a>.</li>
-				</ul>
-				<p>Except for parts of the content which require two-dimensional layout for usage or meaning.</p>
-				<p>Note: 320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For web content which are designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1024px at 400% zoom.</p>
-				<p>Note: Examples of content which require two-dimensional layout are images, maps, diagrams, video, games, presentations, data tables, and interfaces where it is necessary to keep toolbars in view while manipulating content.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.10 Reflow</strong></p>
@@ -3500,15 +3378,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.4.11 Non-text contrast</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#non-text-contrast">WCAG 2.1 Success Criterion 1.4.11 Non-text Contrast</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.11 Non-text Contrast</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Understanding Non-text Contrast</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast">How to Meet Non-text Contrast</a> </p>
-				<p>(Level AA)</p>
-				<p>The visual <a href="http://www.w3.org/TR/WCAG21/#dfn-presentation">presentation</a> of the following have a <a href="http://www.w3.org/TR/WCAG21/#dfn-contrast-ratio">contrast ratio</a> of at least 3:1 against adjacent color(s):</p>
-				<ul>
-					<li>User Interface Components: Visual information required to identify <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface components</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</li>
-					<li>Graphical Objects: Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> to the information being conveyed.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.11 Non-text contrast</strong></p>
@@ -3528,18 +3397,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.4.12 Text spacing</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#text-spacing">WCAG 2.1 Success Criterion 1.4.12 Text spacing</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.12 Text spacing</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Understanding Text Spacing</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#text-spacing">How to Meet Text Spacing</a></p>
-				<p>(Level AA)</p>
-				<p>In content implemented using markup languages that support the following <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a><a href="http://www.w3.org/TR/WCAG21/#dfn-style-properties">style properties</a>, no loss of content or functionality occurs by setting all of the following and by changing no other style property:</p>
-				<ul>
-					<li>Line height (line spacing) to at least 1.5 times the font size;</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</li>
-					<li>Spacing following paragraphs to at least 2 times the font size;</li>
-					<li>Letter spacing (tracking) to at least 0.12 times the font size;</li>
-					<li>Word spacing to at least 0.16 times the font size.</li>
-				</ul>
-				<p>Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.12 Text spacing</strong></p>
@@ -3559,19 +3416,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.1.4.13 Content on hover or focus</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#content-on-hover-or-focus">WCAG 2.1 Success Criterion 1.4.13 Content on Hover or Focus</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.13 Content on Hover or Focus</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Understanding Content on Hover or Focus</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus">How to Meet Content on Hover or Focus</a></p>
-				<p>(Level AA)</p>
-				<p>Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>
-				<ul>
-					<li>Dismissable: A <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an <a href="http://www.w3.org/TR/WCAG21/#dfn-input-error">input error</a> or does not obscure or replace other content;</li>
-					<li>Hoverable: If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;</li>
-					<li>Persistent: The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</li>
-				</ul>
-				<p>Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author.</p>
-				<p>Note: Examples of additional content controlled by the user agent include browser tooltips created through use of the HTML <a href="http://www.w3.org/TR/html/dom.html#the-title-attribute">title attribute</a>.</p>
-				<p>Note: Custom tooltips, sub-menus, and other non-modal popups that display on hover and focus are examples of additional content covered by this criterion.</p>
 			</td>
 			<td>
 				<p><strong>C.9.1.4.13 Content on hover or focus</strong></p>
@@ -3604,13 +3448,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.1.1 Keyboard</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#keyboard">WCAG 2.1 Success Criterion 2.1.1 Keyboard</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.1.1 Keyboard</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Understanding Keyboard</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#keyboard">How to Meet Keyboard</a></p>
-				<p>(Level A)</p>
-				<p>All <a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">functionality</a> of the content is operable through a <a href="http://www.w3.org/TR/WCAG21/#dfn-keyboard-interface">keyboard interface</a>without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.</p>
-				<p>Note: This exception relates to the underlying function, not the input technique. For example, if using handwriting to enter text, the input technique (handwriting) requires path-dependent input but the underlying function (text input) does not.</p>
-				<p>Note: This does not forbid and should not discourage providing mouse input or other input methods in addition to keyboard operation.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.1.1 Keyboard</strong></p>
@@ -3630,12 +3467,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.1.2 No keyboard trap</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#no-keyboard-trap">WCAG 2.1 Success Criterion 2.1.2 No Keyboard Trap</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.1.2 No Keyboard Trap</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">Understanding No Keyboard Trap</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">How to Meet No Keyboard Trap</a> </p>
-				<p>(Level A)</p>
-				<p>If keyboard focus can be moved to a component of the page using a <a href="http://www.w3.org/TR/WCAG21/#dfn-keyboard-interface">keyboard interface</a>, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.</p>
-				<p>Note: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See <a href="http://www.w3.org/TR/WCAG21/#cc5">Conformance Requirement 5: Non-Interference</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.1.2 No keyboard trap</strong></p>
@@ -3655,16 +3486,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.1.4 Character key shortcuts</strong></p>
 				<p>Where ICT is a web page, it shall satisfy WCAG 2.1 Success Criterion <a href="http://www.w3.org/TR/WCAG21/#character-key-shortcuts">2.1.4 Character Key Shortcuts</a>. </p>
-				<p><strong>WCAG 2.1 Success Criterion 2.1.4 Character Key Shortcuts</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">Understanding Character Key Shortcuts</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts">How to Meet Character Key Shortcuts</a></p>
-				<p>(Level A)</p>
-				<p>If a <a href="http://www.w3.org/TR/WCAG21/#dfn-keyboard-shortcuts">keyboard shortcut</a> is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:</p>
-				<ul>
-					<li>Turn off: A <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to turn the shortcut off;</li>
-					<li>Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc.);</li>
-					<li>Active only on focus: The keyboard shortcut for a <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a> is only active when that component has focus.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.9.2.1.4 Character key shortcuts</strong></p>
@@ -3695,20 +3516,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.2.1 Timing adjustable</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#timing-adjustable">WCAG 2.1 Success Criterion 2.2.1 Timing Adjustable</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.2.1 Timing Adjustable</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html">Understanding Timing Adjustable</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable">How to Meet Timing Adjustable</a> </p>
-				<p>(Level A)</p>
-				<p>For each time limit that is set by the content, at least one of the following is true:</p>
-				<ul>
-					<li>Turn off: The user is allowed to turn off the time limit before encountering it; or</li>
-					<li>Adjust: The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or</li>
-					<li>Extend: The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, "press the space bar"), and the user is allowed to extend the time limit at least ten times; or</li>
-					<li>Real-time Exception: The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or</li>
-					<li>Essential Exception: The time limit is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> and extending it would invalidate the activity; or</li>
-					<li>20 Hour Exception: The time limit is longer than 20 hours.</li>
-				</ul>
-				<p>Note: This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with <a href="http://www.w3.org/TR/WCAG21/#on-focus">Success Criterion 3.2.1,</a> which puts limits on changes of content or context as a result of user action.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.2.1 Timing adjustable</strong></p>
@@ -3728,17 +3535,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.2.2 Pause, stop, hide</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#pause-stop-hide">WCAG 2.1 Success Criterion 2.2.2 Pause, Stop, Hide</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.2.2 Pause, Stop, Hide</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html">Understanding Pause, Stop, Hide</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">How to Meet Pause, Stop, Hide</a> </p>
-				<p>(Level A)</p>
-				<p>For moving, <a href="http://www.w3.org/TR/WCAG21/#dfn-blinking">blinking</a>, scrolling, or auto-updating information, all of the following are true:</p>
-				<p>· Moving, blinking, scrolling: For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to <a href="http://www.w3.org/TR/WCAG21/#dfn-pause">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential;</a> and</p>
-				<p>· Auto-updating: For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</p>
-				<p>Note: For requirements related to flickering or flashing content, refer to <a href="http://www.w3.org/TR/WCAG21/#seizures-and-physical-reactions">Guideline 2.3</a>.</p>
-				<p>Note: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See <a href="http://www.w3.org/TR/WCAG21/#cc5">Conformance Requirement 5: Non-Interference</a>.</p>
-				<p>Note: Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</p>
-				<p>Note: An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.2.2 Pause, stop, hide</strong></p>
@@ -3769,12 +3565,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.3.1 Three flashes or below threshold</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold">WCAG 2.1 Success Criterion 2.3.1 Three Flashes or Below Threshold</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.3.1 Three Flashes or Below Threshold</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html">Understanding Three Flashes or Below Threshold</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold">How to Meet Three Flashes or Below Threshold</a></p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-web-page-s">Web pages</a> do not contain anything that flashes more than three times in any one second period, or the <a href="http://www.w3.org/TR/WCAG21/#dfn-flashes">flash</a> is below the <a href="http://www.w3.org/TR/WCAG21/#dfn-general-flash-and-red-flash-thresholds">general flash and red flash thresholds</a>.</p>
-				<p>Note: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See <a href="http://www.w3.org/TR/WCAG21/#cc5">Conformance Requirement 5: Non-Interference</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.3.1 Three flashes or below threshold</strong></p>
@@ -3805,11 +3595,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.4.1 Bypass blocks</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#bypass-blocks">WCAG 2.1 Success Criterion 2.4.1 Bypass Blocks</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.1 Bypass Blocks</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html">Understanding Bypass Blocks</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks">How to Meet Bypass Blocks</a></p>
-				<p>(Level A)</p>
-				<p>A <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to bypass blocks of content that are repeated on multiple <a href="http://www.w3.org/TR/WCAG21/#dfn-web-page-s">Web pages</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.1 Bypass blocks</strong></p>
@@ -3829,11 +3614,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.4.2 Page titled</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#page-titled">WCAG 2.1 Success Criterion 2.4.2 Page Titled</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.2 Page Titled</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/page-titled.html">Understanding Page Titled</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#page-titled">How to Meet Page Titled</a></p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-web-page-s">Web pages</a> have titles that describe topic or purpose.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.2 Page titled</strong></p>
@@ -3853,11 +3633,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.4.3 Focus Order</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#focus-order">WCAG 2.1 Success Criterion 2.4.3 Focus Order</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.3 Focus Order</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Understanding Focus Order</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-order">How to Meet Focus Order</a></p>
-				<p>(Level A)</p>
-				<p>If a <a href="http://www.w3.org/TR/WCAG21/#dfn-web-page-s">Web page</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-navigated-sequentially">navigated sequentially</a> and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.3 Focus Order</strong></p>
@@ -3877,11 +3652,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.4.4 Link purpose (in context)</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="https://www.w3.org/TR/WCAG21/#link-purpose-in-context">WCAG 2.1 Success Criterion 2.4.4 Link Purpose (In Context)</a>-</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.4 Link Purpose (In Context)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">Understanding Link Purpose (In Context)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">How to Meet Link Purpose (In Context)</a></p>
-				<p>(Level A)</p>
-				<p>The <a href="http://www.w3.org/TR/WCAG21/#dfn-purpose-of-each-link">purpose of each link</a> can be determined from the link text alone or from the link text together with its <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determined-link-context">programmatically determined link context</a>, except where the purpose of the link would be <a href="http://www.w3.org/TR/WCAG21/#dfn-ambiguous-to-users-in-general">ambiguous to users in general</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.4 Link purpose (in context)</strong></p>
@@ -3900,11 +3670,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.4.5 Multiple ways</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#multiple-ways">WCAG 2.1 Success Criterion 2.4.5 Multiple Ways</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.5 Multiple Ways</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html">Understanding Multiple Ways</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#multiple-ways">How to Meet Multiple Ways</a></p>
-				<p>(Level AA)</p>
-				<p>More than one way is available to locate a <a href="http://www.w3.org/TR/WCAG21/#dfn-web-page-s">Web page</a> within a <a href="http://www.w3.org/TR/WCAG21/#dfn-set-of-web-pages">set of Web pages</a> except where the Web Page is the result of, or a step in, a <a href="http://www.w3.org/TR/WCAG21/#dfn-processes">process</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.5 Multiple ways</strong></p>
@@ -3924,11 +3689,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.4.6 Headings and labels</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#headings-and-labels">WCAG 2.1 Success Criterion 2.4.6 Headings and Labels</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.6 Headings and Labels</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html">Understanding Headings and Labels</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">How to Meet Headings and Labels</a></p>
-				<p>(Level AA)</p>
-				<p>Headings and <a href="http://www.w3.org/TR/WCAG21/#dfn-labels">labels</a> describe topic or purpose. </p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.6 Headings and labels</strong></p>
@@ -3948,11 +3708,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.4.7 Focus visible</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#focus-visible">WCAG 2.1 Success Criterion 2.4.7 Focus Visible</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.7 Focus Visible</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Understanding Focus Visible</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-visible">How to Meet Focus Visible</a></p>
-				<p>(Level AA)</p>
-				<p>Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.4.7 Focus visible</strong></p>
@@ -3983,12 +3738,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.5.1 Pointer gestures</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#pointer-gestures">WCAG 2.1 Success Criterion 2.5.1 Pointer Gestures</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.1 Pointer Gestures</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Understanding Pointer Gestures</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures">How to Meet Pointer Gestures</a> </p>
-				<p>(Level A)</p>
-				<p>All <a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">functionality</a> that uses multipoint or path-based gestures for operation can be operated with a <a href="http://www.w3.org/TR/WCAG21/#dfn-single-pointer">single pointer</a> without a path-based gesture, unless a multipoint or path-based gesture is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a>.</p>
-				<p>Note: This requirement applies to web content that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.5.1 Pointer gestures</strong></p>
@@ -4008,19 +3757,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.5.2 Pointer cancellation</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#pointer-cancellation">WCAG 2.1 Success Criterion 2.5.2 Pointer Cancellation</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.2 Pointer Cancellation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html">Understanding Pointer Cancellation</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation">How to Meet Pointer Cancellation</a></p>
-				<p>(Level A)</p>
-				<p>For <a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">functionality</a> that can be operated using a <a href="http://www.w3.org/TR/WCAG21/#dfn-single-pointer">single pointer</a>, at least one of the following is true:</p>
-				<ul>
-					<li>No Down-Event: The <a href="http://www.w3.org/TR/WCAG21/#dfn-down-event">down-event</a> of the pointer is not used to execute any part of the function;</li>
-					<li>Abort or Undo: Completion of the function is on the <a href="http://www.w3.org/TR/WCAG21/#dfn-up-event">up-event,</a> and a <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to abort the function before completion or to undo the function after completion;</li>
-					<li>Up Reversal: The up-event reverses any outcome of the preceding down-event;</li>
-					<li>Essential: Completing the function on the down-event is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a>.</li>
-				</ul>
-				<p>Note: Functions that emulate a keyboard or numeric keypad key press are considered essential.</p>
-				<p>Note: This requirement applies to web content that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.5.2 Pointer cancellation</strong></p>
@@ -4040,12 +3776,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.5.3 Label in name</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="https://www.w3.org/TR/WCAG21/#label-in-name">WCAG 2.1 Success Criterion 2.5.3 Label in Name</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.3 Label in Name</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html">Understanding Label in Name</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#label-in-name">How to Meet Label in Name</a></p>
-				<p>(Level A)</p>
-				<p>For user <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">interface components</a> with <a href="http://www.w3.org/TR/WCAG21/#dfn-labels">labels</a> that include <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> or <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a>, the <a href="http://www.w3.org/TR/WCAG21/#dfn-name">name</a> contains the text that is presented visually.</p>
-				<p>Note: A best practice is to have the text of the label at the start of the name.</p>
 			</td>
 			<td>
 				<p><strong>C.9.2.5.3 Label in name</strong></p>
@@ -4065,15 +3795,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.2.5.4 Motion actuation</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#motion-actuation">WCAG 2.1 Success Criterion 2.5.4 Motion Actuation</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.4 Motion Actuation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html">Understanding Motion Actuation</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#motion-actuation">How to Meet Motion Actuation</a> </p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">Functionality</a> that can be operated by device motion or user motion can also be operated by <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface components</a> and responding to the motion can be disabled to prevent accidental actuation, except when:</p>
-				<ul>
-					<li>Supported Interface: The motion is used to operate functionality through an <a href="http://www.w3.org/TR/WCAG21/#dfn-accessibility-supported">accessibility supported</a> interface;</li>
-					<li>Essential: The motion is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> for the function and doing so would invalidate the activity.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.9.2.5.4 Motion actuation</strong></p>
@@ -4105,11 +3826,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.1.1 Language of page</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#language-of-page">WCAG 2.1 Success Criterion 3.1.1 Language of Page</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.1.1 Language of Page</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Understanding Language of Page</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-page">How to Meet Language of Page</a> </p>
-				<p>(Level A)</p>
-				<p>The default <a href="http://www.w3.org/TR/WCAG21/#dfn-human-language-s">human language</a> of each <a href="http://www.w3.org/TR/WCAG21/#dfn-web-page-s">Web page</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.1.1 Language of page</strong></p>
@@ -4129,11 +3845,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.1.2 Language of parts</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#language-of-parts">WCAG 2.1 Success Criterion 3.1.2 Language of Parts</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.1.2 Language of Parts</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html">Understanding Language of Parts</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-parts">How to Meet Language of Parts</a> </p>
-				<p>(Level AA)</p>
-				<p>The <a href="http://www.w3.org/TR/WCAG21/#dfn-human-language-s">human language</a> of each passage or phrase in the content can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a> except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.1.2 Language of parts</strong></p>
@@ -4164,11 +3875,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.2.1 On focus</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="https://www.w3.org/TR/WCAG21/#on-focus">WCAG 2.1 Success Criterion 3.2.1 On Focus</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.2.1 On Focus</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-focus.html">Understanding On Focus</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-focus">How to Meet On Focus</a></p>
-				<p>(Level A)</p>
-				<p>When any <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a> receives focus, it does not initiate a <a href="http://www.w3.org/TR/WCAG21/#dfn-change-of-context">change of context</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.2.1 On focus</strong></p>
@@ -4188,11 +3894,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.2.2 On input</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#on-input">WCAG 2.1 Success Criterion 3.2.2 On Input</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.2.2 On Input</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-input.html">Understanding On Input</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-input">How to Meet On Input</a></p>
-				<p>(Level A)</p>
-				<p>Changing the setting of any <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a> does not automatically cause a <a href="http://www.w3.org/TR/WCAG21/#dfn-change-of-context">change of context</a> unless the user has been advised of the behavior before using the component.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.2.2 On input</strong></p>
@@ -4212,11 +3913,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.2.3 Consistent navigation</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#consistent-navigation">WCAG 2.1 Success Criterion 3.2.3 Consistent Navigation</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.2.3 Consistent Navigation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html">Understanding Consistent Navigation</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#consistent-navigation">How to Meet Consistent Navigation</a></p>
-				<p>(Level AA)</p>
-				<p>Navigational mechanisms that are repeated on multiple <a href="http://www.w3.org/TR/WCAG21/#dfn-web-page-s">Web pages</a> within a <a href="http://www.w3.org/TR/WCAG21/#dfn-set-of-web-pages">set of Web pages</a> occur in the <a href="http://www.w3.org/TR/WCAG21/#dfn-same-relative-order">same relative order</a> each time they are repeated, unless a change is initiated by the user.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.2.3 Consistent navigation</strong></p>
@@ -4236,11 +3932,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.2.4 Consistent identification</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#consistent-identification">WCAG 2.1 Success Criterion 3.2.4 Consistent Identification</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.2.4 Consistent Identification</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html">Understanding Consistent Identification</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#consistent-identification">How to Meet Consistent Identification</a></p>
-				<p>(Level AA)</p>
-				<p>Components that have the <a href="http://www.w3.org/TR/WCAG21/#dfn-same-functionality">same functionality</a> within a <a href="http://www.w3.org/TR/WCAG21/#dfn-set-of-web-pages">set of Web pages</a> are identified consistently.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.2.4 Consistent identification</strong></p>
@@ -4271,11 +3962,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.3.1 Error identification</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#error-identification">WCAG 2.1 Success Criterion 3.3.1 Error Identification</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.1 Error Identification</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-identification.html">Understanding Error Identification</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-identification">How to Meet Error Identification</a></p>
-				<p>(Level A)</p>
-				<p>If an <a href="http://www.w3.org/TR/WCAG21/#dfn-input-error">input error</a> is automatically detected, the item that is in error is identified and the error is described to the user in text. </p>
 			</td>
 			<td>
 				<p><strong>C.9.3.3.1 Error identification</strong></p>
@@ -4295,11 +3981,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.3.2 Labels or instructions</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#labels-or-instructions">WCAG 2.1 Success Criterion 3.3.2 Labels or Instructions</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.2 Labels or Instructions</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">Understanding Labels or Instructions</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">How to Meet Labels or Instructions</a></p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-labels">Labels</a> or instructions are provided when content requires user input.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.3.2 Labels or instructions</strong></p>
@@ -4319,11 +4000,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.3.3 Error suggestion</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#error-suggestion">WCAG 2.1 Success Criterion 3.3.3 Error Suggestion</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.3 Error Suggestion</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html">Understanding Error Suggestion</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-suggestion">How to Meet Error Suggestion</a> </p>
-				<p>(Level AA)</p>
-				<p>If an <a href="http://www.w3.org/TR/WCAG21/#dfn-input-error">input error</a> is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.</p>
 			</td>
 			<td>
 				<p><strong>C.9.3.3.3 Error suggestion</strong></p>
@@ -4343,16 +4019,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.3.3.4 Error prevention (legal, financial, data)</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data">WCAG 2.1 Success Criterion 3.3.4 Error Prevention (Legal, Financial, Data)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.4 Error Prevention (Legal, Financial, Data)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">Understanding Error Prevention (Legal, Financial, Data)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data">How to Meet Error Prevention (Legal, Financial, Data)</a></p>
-				<p>(Level AA)</p>
-				<p>For <a href="http://www.w3.org/TR/WCAG21/#dfn-web-page-s">Web pages</a> that cause <a href="http://www.w3.org/TR/WCAG21/#dfn-legal-commitments">legal commitments</a> or financial transactions for the user to occur, that modify or delete <a href="http://www.w3.org/TR/WCAG21/#dfn-user-controllable">user-controllable</a> data in data storage systems, or that submit user test responses, at least one of the following is true:</p>
-				<ul>
-					<li>Reversible: Submissions are reversible.</li>
-					<li>Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</li>
-					<li>Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.9.3.3.4 Error prevention (legal, financial, data)</strong></p>
@@ -4384,12 +4050,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.4.1.1 Parsing</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#parsing">WCAG 2.1 Success Criterion 4.1.1 Parsing</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 4.1.1 Parsing</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Understanding Parsing</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#parsing">How to Meet Parsing</a></p>
-				<p>(Level A)</p>
-				<p>In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.</p>
-				<p>Note: Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.</p>
 			</td>
 			<td>
 				<p><strong>C.9.4.1.1 Parsing</strong></p>
@@ -4409,12 +4069,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.4.1.2 Name, role, value</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#name-role-value">WCAG 2.1 Success Criterion 4.1.2 Name, Role, Value</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 4.1.2 Name, Role, Value</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Understanding Name, Role, Value</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#name-role-value">How to Meet Name, Role, Value</a> </p>
-				<p>(Level A)</p>
-				<p>For all <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface components</a> (including but not limited to: form elements, links and components generated by scripts), the <a href="http://www.w3.org/TR/WCAG21/#dfn-name">name</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-role">role</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a>; states, properties, and values that can be set by the user can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-set">programmatically set</a>; and notification of changes to these items is available to <a href="http://www.w3.org/TR/WCAG21/#dfn-user-agents">user agents</a>, including <a href="http://www.w3.org/TR/WCAG21/#dfn-assistive-technologies">assistive technologies</a>.</p>
-				<p>Note: This success criterion is primarily for Web authors who develop or script their own user interface components. For example, standard HTML controls already meet this success criterion when used according to specification.</p>
 			</td>
 			<td>
 				<p><strong>C.9.4.1.2 Name, role, value</strong></p>
@@ -4434,11 +4088,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>9.4.1.3 Status messages</strong></p>
 				<p>Where ICT is a web page, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#status-messages">WCAG 2.1 Success Criterion 4.1.3 Status Messages</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 4.1.3 Status Messages</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/status-messages.html">Understanding Status Messages</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#status-messages">How to Meet Status Messages</a></p>
-				<p>(Level AA)</p>
-				<p>In content implemented using markup languages, <a href="http://www.w3.org/TR/WCAG21/#dfn-status-messages">status messages</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a> through <a href="http://www.w3.org/TR/WCAG21/#dfn-role">role</a> or properties such that they can be presented to the user by <a href="http://www.w3.org/TR/WCAG21/#dfn-assistive-technologies">assistive technologies</a> without receiving focus.</p>
 			</td>
 			<td>
 				<p><strong>C.9.4.1.3 Status messages</strong></p>
@@ -4548,19 +4197,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>10.1.1.1 Non-text content</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#non-text-content">WCAG 2.1 Success Criterion 1.1.1 Non-text Content</a>.</p>
 				<p>NOTE: CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.1.1 Non-text Content</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Understanding Non-text Content</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-content">How to Meet Non-text Content</a> </p>
-				<p>(Level A)</p>
-				<p>All <a href="http://www.w3.org/TR/WCAG21/#dfn-non-text-content">non-text content</a> that is presented to the user has a <a href="http://www.w3.org/TR/WCAG21/#dfn-text-alternative">text alternative</a> that serves the equivalent purpose, except for the situations listed below.</p>
-				<ul>
-					<li>Controls, Input: If non-text content is a control or accepts user input, then it has a <a href="http://www.w3.org/TR/WCAG21/#dfn-name">name</a> that describes its purpose. (Refer to <a href="http://www.w3.org/TR/WCAG21/#name-role-value">Success Criterion 4.1.2</a> for additional requirements for controls and content that accepts user input.) </li>
-					<li>Time-Based Media: If non-text content is time-based media, then text alternatives at least provide descriptive identification of the non-text content. (Refer <a href="http://www.w3.org/TR/WCAG21/#time-based-media">to Guideline 1.2</a> for additional requirements for media.)</li>
-					<li>Test: If non-text content is a test or exercise that would be invalid if presented in <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a>, then text alternatives at least provide descriptive identification of the non-text content.</li>
-					<li>Sensory: If non-text content is primarily intended to create a <a href="http://www.w3.org/TR/WCAG21/#dfn-specific-sensory-experience">specific sensory experience</a>, then text alternatives at least provide descriptive identification of the non-text content.</li>
-					<li><a href="http://www.w3.org/TR/WCAG21/#dfn-captcha">CAPTCHA</a>: If the purpose of non-text content is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the non-text content are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.</li>
-					<li>Decoration, Formatting, Invisible: If non-text content is <a href="http://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by <a href="http://www.w3.org/TR/WCAG21/#dfn-assistive-technologies">assistive technology</a>.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.10.1.1.1 Non-text content</strong></p>
@@ -4592,15 +4228,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>10.1.2.1 Audio-only and video-only (prerecorded)</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded">WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded)</a>.</p>
 				<p>NOTE: The alternative can be provided directly in the document - or provided in an alternate version that meets the success criterion.</p>
-				<p><strong>Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html">Understanding Audio-only and Video-only (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded">How to Meet Audio-only and Video-only (Prerecorded)</a></p>
-				<p>(Level A)</p>
-				<p>For <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded audio-only</a> and prerecorded <a href="http://www.w3.org/TR/WCAG21/#dfn-video-only">video-only</a> media, the following are true, except when the audio or video is a <a href="http://www.w3.org/TR/WCAG21/#dfn-media-alternative-for-text">media alternative for text</a> and is clearly labeled as such: </p>
-				<ul>
-					<li>Prerecorded Audio-only: An <a href="http://www.w3.org/TR/WCAG21/#dfn-alternative-for-time-based-media">alternative for time-based media</a> is provided that presents equivalent information for prerecorded audio-only content.</li>
-					<li>Prerecorded Video-only: Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.10.1.2.1 Audio-only and video-only (prerecorded)</strong></p>
@@ -4621,11 +4248,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>10.1.2.2 Captions (prerecorded)</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#captions-prerecorded">WCAG 2.1 Success Criterion 1.2.2 Captions (Prerecorded)</a>.</p>
 				<p>NOTE: The WCAG 2.1 definition of "captions" notes that "in some countries, captions are called subtitles". They are also sometimes referred to as "subtitles for the hearing impaired". Per the definition in WCAG 2.1, to meet this success criterion, whether called captions or subtitles, they would have to provide "synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media content" where non-speech information includes "sound effects, music, laughter, speaker identification and location".</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.2 Captions (Prerecorded).</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html">Understanding Captions (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">How to Meet Captions (Prerecorded)</a></p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-captions">Captions</a> are provided for all <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded</a> audio content in <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>, except when the media is a <a href="http://www.w3.org/TR/WCAG21/#dfn-media-alternative-for-text">media alternative for text</a> and is clearly labeled as such.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.2.2 Captions (prerecorded)</strong></p>
@@ -4647,11 +4269,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded">WCAG 2.1 Success Criterion 1.2.3 Audio Description or Media Alternative (Prerecorded)</a>.</p>
 				<p>NOTE 1: The WCAG 2.1 definition of "audio description" says that "audio description" is "Also called 'video description' and 'descriptive narration'".</p>
 				<p>NOTE 2: Secondary or alternate audio tracks are commonly used for this purpose.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.3 Audio Description or Media Alternative (Prerecorded).</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html">Understanding Audio Description or Media Alternative (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">How to Meet Audio Description or Media Alternative (Prerecorded)</a></p>
-				<p>(Level A)</p>
-				<p>An <a href="http://www.w3.org/TR/WCAG21/#dfn-alternative-for-time-based-media">alternative for time-based media</a> or <a href="http://www.w3.org/TR/WCAG21/#dfn-audio-descriptions">audio description</a> of the <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded </a><a href="http://www.w3.org/TR/WCAG21/#dfn-video">video</a> content is provided for <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>, except when the media is a <a href="http://www.w3.org/TR/WCAG21/#dfn-media-alternative-for-text">media alternative for text</a> and is clearly labeled as such.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.2.3 Audio description or media alternative (prerecorded)</strong></p>
@@ -4672,11 +4289,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>10.1.2.4 Captions (live)</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#captions-live">WCAG 2.1 Success Criterion 1.2.4 Captions (Live)</a>.</p>
 				<p>NOTE: The WCAG 2.1 definition of "captions" notes that "in some countries, captions are called subtitles". They are also sometimes referred to as "subtitles for the hearing impaired". Per the definition in WCAG 2.1, to meet this success criterion, whether called captions or subtitles, they would have to provide "synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media content" where non-speech information includes "sound effects, music, laughter, speaker identification and location".</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.4 Captions (Live)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-live.html">Understanding Captions (Live)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">How to Meet Captions (Live)</a></p>
-				<p>(Level AA)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-captions">Captions</a> are provided for all <a href="http://www.w3.org/TR/WCAG21/#dfn-live">live </a><a href="http://www.w3.org/TR/WCAG21/#dfn-audio">audio</a> content in <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.2.4 Captions (live)</strong></p>
@@ -4698,11 +4310,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#audio-description-prerecorded">WCAG 2.1 Success Criterion 1.2.5 Audio Description (Prerecorded)</a>.</p>
 				<p>NOTE 1: The WCAG 2.1 definition of "audio description" says that audio description is "Also called 'video description' and 'descriptive narration'".</p>
 				<p>NOTE 2: Secondary or alternate audio tracks are commonly used for this purpose.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.5 Audio Description (Prerecorded)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">Understanding Audio Description (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">How to Meet Audio Description (Prerecorded)</a></p>
-				<p>(Level AA)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-audio-descriptions">Audio description</a> is provided for all <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded </a><a href="http://www.w3.org/TR/WCAG21/#dfn-video">video</a> content in <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.2.5 Audio description (prerecorded)</strong></p>
@@ -4734,11 +4341,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>10.1.3.1 Info and relationships</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#info-and-relationships">WCAG 2.1 Success Criterion 1.3.1 Info and Relationships</a>.</p>
 				<p>NOTE: Where documents contain non-standard structure types (roles), it is best practice to map them to a standard structure type as a fall-back solution for the reader.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.1 Info and Relationships</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Understanding Info and Relationships</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">How to Meet Info and Relationships</a></p>
-				<p>(Level A)</p>
-				<p>Information, <a href="http://www.w3.org/TR/WCAG21/#dfn-structure">structure</a>, and <a href="http://www.w3.org/TR/WCAG21/#dfn-relationships">relationships</a> conveyed through <a href="http://www.w3.org/TR/WCAG21/#dfn-presentation">presentation</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a> or are available in text.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.3.1 Info and relationships</strong></p>
@@ -4758,11 +4360,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.3.2 Meaningful sequence</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#meaningful-sequence">WCAG 2.1 Success Criterion 1.3.2 Meaningful Sequence</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.2 Meaningful Sequence</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Understanding Meaningful Sequence</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">How to Meet Meaningful Sequence</a></p>
-				<p>(Level A)</p>
-				<p>When the sequence in which content is presented affects its meaning, a <a href="http://www.w3.org/TR/WCAG21/#dfn-correct-reading-sequence">correct reading sequence</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.3.2 Meaningful sequence</strong></p>
@@ -4782,12 +4379,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.3.3 Sensory characteristics</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#sensory-characteristics">WCAG 2.1 Success Criterion 1.3.3 Sensory Characteristics</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.3 Sensory Characteristics.</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Understanding Sensory Characteristics</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics">How to Meet Sensory Characteristics</a></p>
-				<p>(Level A)</p>
-				<p>Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, color, size, visual location, orientation, or sound. </p>
-				<p>Note: For requirements related to color, refer to WCAG 2.1 - <a href="http://www.w3.org/TR/WCAG21/#distinguishable">Guideline 1.4</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.3.3 Sensory characteristics</strong></p>
@@ -4807,12 +4398,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.3.4 Orientation</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#orientation">WCAG 2.1 Success Criterion 1.3.4 Orientation</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.4 Orientation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Understanding Orientation</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#orientation">How to Meet Orientation</a></p>
-				<p>(Level AA)</p>
-				<p>Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a>.</p>
-				<p>Note: Examples where a particular display orientation may be essential are a bank check, a piano application, slides for a projector or television, or virtual reality content where binary display orientation is not applicable.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.3.4 Orientation</strong></p>
@@ -4832,15 +4417,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.3.5 Identify input purpose</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#identify-input-purpose">WCAG 2.1 Success Criterion 1.3.5 Identify Input Purpose</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.5 Identify Input Purpose</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Understanding Identify Input Purpose</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">How to Meet Identify Input Purpose</a></p>
-				<p>(Level AA)</p>
-				<p>The purpose of each input field collecting information about the user can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a> when:</p>
-				<ul>
-					<li>The input field serves a purpose identified in the <a href="http://www.w3.org/TR/WCAG21/#input-purposes">Input Purposes for User Interface Components</a> section; and</li>
-					<li>The content is implemented using technologies with support for identifying the expected meaning for form input data.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.10.1.3.5 Identify input purpose</strong></p>
@@ -4871,12 +4447,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.4.1 Use of colour</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#use-of-color">WCAG 2.1 Success Criterion 1.4.1 Use of Color</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.1 Use of Color.</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Understanding Use of Color</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#use-of-color">How to Meet Use of Color</a></p>
-				<p>(Level A)</p>
-				<p>Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.</p>
-				<p>Note: This success criterion addresses color perception specifically. Other forms of perception are covered in <a href="http://www.w3.org/TR/WCAG21/#adaptable">Guideline 1.3</a> including programmatic access to color and other visual presentation coding.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.1 Use of colour</strong></p>
@@ -4900,10 +4470,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>If any audio in a document plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a>is available to control audio volume independently from the overall system volume level.</p>
 				<p>NOTE 1: Since any part of a document that does not meet this success criterion can interfere with a user's ability to use the whole document, all content in the document (whether or not it is used to meet other success criteria) shall meet this success criterion.</p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#audio-control">WCAG 2.1 Success Criterion 1.4.2 Audio Control</a>, replacing "on a Web page" with "in a document" "any content" with "any part of a document", "whole page" with "whole document", "on the Web page" with "in the document", removing "See Conformance Requirement 5: Non-Interference" and adding note 1.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.2 Audio Control</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-control.html">Understanding Audio Control</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-control">How to Meet Audio Control</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.2 Audio control</strong></p>
@@ -4923,16 +4489,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.4.3 Contrast (minimum)</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#contrast-minimum">WCAG 2.1 Success Criterion 1.4.3 Contrast (Minimum)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.3 Contrast (Minimum)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Understanding Contrast (Minimum)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">How to Meet Contrast (Minimum)</a> </p>
-				<p>(Level AA)</p>
-				<p>The visual presentation of <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a> has a <a href="http://www.w3.org/TR/WCAG21/#dfn-contrast-ratio">contrast ratio</a> of at least 4.5:1, except for the following:</p>
-				<ul>
-					<li>Large Text: <a href="http://www.w3.org/TR/WCAG21/#dfn-large-scale">Large-scale</a> text and images of large-scale text have a contrast ratio of at least 3:1;</li>
-					<li>Incidental: Text or images of text that are part of an inactive <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a>, that are <a href="http://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.</li>
-					<li>Logotypes: Text that is part of a logo or brand name has no contrast requirement.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.3 Contrast (minimum)</strong></p>
@@ -4954,11 +4510,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: Content for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</p>
 				<p>NOTE 2: This success criterion is about the ability to allow users to enlarge the text on screen at least up to 200 % without needing to use assistive technologies. This means that the application provides some means for enlarging the text 200 % (zoom or otherwise) without loss of content or functionality or that the application works with the platform features that meet this requirement. </p>
 				<p>NOTE 3: It is best practice to use only fonts that allow for scaling without loss of quality (e.g. pixelized presentation). This applies in particular to embedded fonts.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.4 Resize Text</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Understanding Resize text</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#resize-text">How to Meet Resize text</a></p>
-				<p>(Level AA)</p>
-				<p>Except for <a href="http://www.w3.org/TR/WCAG21/#dfn-captions">captions</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a>, <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> can be resized without <a href="http://www.w3.org/TR/WCAG21/#dfn-assistive-technologies">assistive technology</a> up to 200 percent without loss of content or functionality.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.4 Resize text</strong></p>
@@ -4978,16 +4529,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.4.5 Images of text</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#images-of-text">WCAG 2.1 Success Criterion 1.4.5 Images of Text</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.5 Images of Text</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Understanding Images of Text</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#images-of-text">How to Meet Images of Text</a></p>
-				<p>(Level AA)</p>
-				<p>If the technologies being used can achieve the visual presentation, <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> is used to convey information rather than <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a> except for the following: </p>
-				<ul>
-					<li>Customizable: The image of text can be <a href="http://www.w3.org/TR/WCAG21/#dfn-visually-customized">visually customized</a> to the user's requirements;</li>
-					<li>Essential: A particular presentation of text is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> to the information being conveyed.</li>
-				</ul>
-				<p>Note: Logotypes (text that is part of a logo or brand name) are considered essential.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.5 Images of text</strong></p>
@@ -5017,10 +4558,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: 320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For documents which are designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1024px at 400% zoom.</p>
 				<p>NOTE 2: Examples of content which require two-dimensional layout are images, maps, diagrams, video, games, presentations, data tables, and interfaces where it is necessary to keep toolbars in view while manipulating content.</p>
 				<p>NOTE 3: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#reflow">WCAG 2.1 Success Criterion 1.4.10 Reflow</a> replacing the original WCAG 2.1 notes with notes 1 and 2, above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.10 Reflow</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/reflow.html">Understanding Reflow</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#reflow">How to Meet Reflow</a></p>
-				<p>(Level AA)</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.10 Reflow</strong></p>
@@ -5040,15 +4577,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.4.11 Non-text contrast</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy <a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">WCAG 2.1 Success Criterion 1.4.11 Non-text Contrast</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.11 Non-text Contrast.</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Understanding Non-text Contrast</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast">How to Meet Non-text Contrast</a> </p>
-				<p>(Level AA)</p>
-				<p>The visual <a href="http://www.w3.org/TR/WCAG21/#dfn-presentation">presentation</a> of the following have a <a href="http://www.w3.org/TR/WCAG21/#dfn-contrast-ratio">contrast ratio</a> of at least 3:1 against adjacent color(s):</p>
-				<ul>
-					<li>User Interface Components: Visual information required to identify <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface components</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</li>
-					<li>Graphical Objects: Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> to the information being conveyed.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.11 Non-text contrast</strong></p>
@@ -5068,18 +4596,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.4.12 Text spacing</strong></p>
 				<p>Where ICT is a non-web document that does not have a fixed size content layout area that is essential to the information being conveyed, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#text-spacing">WCAG 2.1 Success Criterion 1.4.12 Text spacing</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.12 Text spacing</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Understanding Text Spacing</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#text-spacing">How to Meet Text Spacing</a></p>
-				<p>(Level AA)</p>
-				<p>In content implemented using markup languages that support the following <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a><a href="http://www.w3.org/TR/WCAG21/#dfn-style-properties">style properties</a>, no loss of content or functionality occurs by setting all of the following and by changing no other style property:</p>
-				<ul>
-					<li>Line height (line spacing) to at least 1.5 times the font size;</li>
-					<li>Spacing following paragraphs to at least 2 times the font size;</li>
-					<li>Letter spacing (tracking) to at least 0.12 times the font size;</li>
-					<li>Word spacing to at least 0.16 times the font size.</li>
-				</ul>
-				<p>Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.12 Text spacing</strong></p>
@@ -5099,19 +4615,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.1.4.13 Content on hover or focus</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#content-on-hover-or-focus">WCAG 2.1 Success Criterion 1.4.13 Content on Hover or Focus</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.13 Content on Hover or Focus.</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Understanding Content on Hover or Focus</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus">How to Meet Content on Hover or Focus</a></p>
-				<p>(Level AA)</p>
-				<p>Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>
-				<ul>
-					<li>Dismissable: A <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an <a href="http://www.w3.org/TR/WCAG21/#dfn-input-error">input error</a> or does not obscure or replace other content;</li>
-					<li>Hoverable: If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;</li>
-					<li>Persistent: The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</li>
-				</ul>
-				<p>Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author.</p>
-				<p>Note: Examples of additional content controlled by the user agent include browser tooltips created through use of the HTML <a href="http://www.w3.org/TR/html/dom.html#the-title-attribute">title attribute</a>.</p>
-				<p>Note: Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</p>
 			</td>
 			<td>
 				<p><strong>C.10.1.4.13 Content on hover or focus</strong></p>
@@ -5143,13 +4646,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.2.1.1 Keyboard</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#keyboard">WCAG 2.1 Success Criterion 2.1.1 Keyboard</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.1.1 Keyboard</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Understanding Keyboard</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#keyboard">How to Meet Keyboard</a></p>
-				<p>(Level A)</p>
-				<p>All <a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">functionality</a> of the content is operable through a <a href="http://www.w3.org/TR/WCAG21/#dfn-keyboard-interface">keyboard interface </a>without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.</p>
-				<p>Note: This exception relates to the underlying function, not the input technique. For example, if using handwriting to enter text, the input technique (handwriting) requires path-dependent input but the underlying function (text input) does not.</p>
-				<p>Note: This does not forbid and should not discourage providing mouse input or other input methods in addition to keyboard operation.</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.1.1 Keyboard</strong></p>
@@ -5174,10 +4670,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: Since any part of a document that does not meet this success criterion can interfere with a user's ability to use the whole document, it is necessary for all content in the document (whether or not it is used to meet other success criteria) to meet this success criterion.</p>
 				<p>NOTE 2: Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</p>
 				<p>NOTE 3: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#no-keyboard-trap">WCAG 2.1 Success Criterion 2.1.2 No Keyboard Trap</a> replacing "page" and "Web page" with "document", removing "See Conformance Requirement 5: Non-Interference" and with the addition of note 2 above and with note 1 above re-drafted to avoid the use of the word "must".</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.1.2 No Keyboard Trap</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">Understanding No Keyboard Trap</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">How to Meet No Keyboard Trap</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.1.2 No keyboard trap</strong></p>
@@ -5197,16 +4689,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.2.1.4 Character key shortcuts</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#character-key-shortcuts">WCAG 2.1 Success Criterion 2.1.4 Character Key Shortcuts</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.1.4 Character Key Shortcuts</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">Understanding Character Key Shortcuts</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts">How to Meet Character Key Shortcuts</a></p>
-				<p>(Level A)</p>
-				<p>If a <a href="http://www.w3.org/TR/WCAG21/#dfn-keyboard-shortcuts">keyboard shortcut</a> is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:</p>
-				<ul>
-					<li>Turn off: A <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to turn the shortcut off;</li>
-					<li>Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc.);</li>
-					<li>Active only on focus: The keyboard shortcut for a <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a> is only active when that component has focus.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.10.2.1.4 Character key shortcuts</strong></p>
@@ -5249,10 +4731,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				</ul>
 				<p>NOTE 1: This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with <a href="http://www.w3.org/TR/WCAG21/#on-focus">WCAG 2.1 Success Criterion 3.2.1</a>, which puts limits on changes of content or context as a result of user action.</p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#timing-adjustable">WCAG 2.1 Success Criterion 2.2.1 Timing Adjustable</a> replacing "the content" with "documents" and with the words "WCAG 2.1" added before the word "Success Criterion" in note 1 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.2.1 Timing Adjustable</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html">Understanding Timing Adjustable</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable">How to Meet Timing Adjustable</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.2.1 Timing adjustable</strong></p>
@@ -5283,10 +4761,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 3: Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</p>
 				<p>NOTE 4: An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</p>
 				<p>NOTE 5: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#pause-stop-hide">WCAG 2.1 Success Criterion 2.2.2 Pause, Stop, Hide</a> replacing "page" and "Web page" with "document", removing "See Conformance Requirement 5: Non-Interference" in note 2 of the success criterion, with the words "WCAG 2.1" added before the word "Guideline" in note 1 above and with note 2 above re-drafted to avoid the use of the word "must".</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.2.2 Pause, Stop, Hide</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html">Understanding Pause, Stop, Hide</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">How to Meet Pause, Stop, Hide</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.2.2 Pause, stop, hide</strong></p>
@@ -5321,10 +4795,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Documents do not contain anything that flashes more than three times in any one second period, or the <a href="http://www.w3.org/TR/WCAG21/#dfn-flashes">flash</a> is below the <a href="http://www.w3.org/TR/WCAG21/#dfn-general-flash-and-red-flash-thresholds">general flash and red flash thresholds</a>. </p>
 				<p>NOTE 1: Since any part of a document that does not meet this success criterion can interfere with a user's ability to use the whole document, it is necessary for all content in the document (whether it is used to meet other success criteria or not) to meet this success criterion.</p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold">WCAG 2.1 Success Criterion 2.3.1 Three Flashes or Below Threshold</a> replacing "Web pages" with "documents", "the whole page" with "the whole document", "the Web page" with "the document" and removing "See Conformance Requirement 5: Non-Interference" and with note 1 above re-drafted to avoid the use of the word "must".</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.3.1 Three Flashes or Below Threshold</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html">Understanding Three Flashes or Below Threshold</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold">How to Meet Three Flashes or Below Threshold</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.3.1 Three flashes or below threshold</strong></p>
@@ -5359,10 +4829,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Documents have titles that describe topic or purpose.</p>
 				<p>NOTE 1: The name of a document (e.g. document, media file) is a sufficient title if it describes the topic or purpose.</p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#page-titled">WCAG 2.1 Success Criterion 2.4.2 Page Titled</a> replacing "Web pages" with "documents" and with the addition of note 1 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.2 Page Titled</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/page-titled.html">Understanding Page Titled</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#page-titled">How to Meet Page Titled</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.4.2 Document titled</strong></p>
@@ -5385,10 +4851,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>Table 10.8: Document success criterion: Focus order</strong></p>
 				<p>If a document can be <a href="http://www.w3.org/TR/WCAG21/#dfn-navigated-sequentially">navigated sequentially</a> and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.</p>
 				<p>NOTE: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#focus-order">WCAG 2.1 Success Criterion 2.4.3 Focus Order</a> replacing "Web page" with "document".</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.3 Focus Order</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Understanding Focus Order</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-order">How to Meet Focus Order</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.4.3 Focus Order</strong></p>
@@ -5408,11 +4870,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.2.4.4 Link purpose (in context)</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#link-purpose-in-context">WCAG 2.1 Success Criterion 2.4.4 Link Purpose (In Context)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.4 Link Purpose (In Context)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">Understanding Link Purpose (In Context</a>)</p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">How to Meet Link Purpose (In Context)</a></p>
-				<p>(Level A)</p>
-				<p>The <a href="http://www.w3.org/TR/WCAG21/#dfn-purpose-of-each-link">purpose of each link</a> can be determined from the link text alone or from the link text together with its <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determined-link-context">programmatically determined link context</a>, except where the purpose of the link would be <a href="http://www.w3.org/TR/WCAG21/#dfn-ambiguous-to-users-in-general">ambiguous to users in general</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.4.4 Link purpose (in context)</strong></p>
@@ -5432,11 +4889,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.2.4.6 Headings and labels</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#headings-and-labels">WCAG 2.1 Success Criterion 2.4.6 Headings and Labels</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.6 Headings and Labels</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html">Understanding Headings and Labels</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">How to Meet Headings and Labels</a></p>
-				<p>(Level AA)</p>
-				<p>Headings and <a href="http://www.w3.org/TR/WCAG21/#dfn-labels">labels</a> describe topic or purpose </p>
 			</td>
 			<td>
 				<p><strong>C.10.2.4.6 Headings and labels</strong></p>
@@ -5455,12 +4907,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 		<tr>
 			<td>
 				<p><strong>10.2.4.7 Focus visible</strong></p>
-				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#focus-visible">WCAG 2.1 Success Criterion 2.4.7 Focus Visible</a></p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.7 Focus Visible</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Understanding Focus Visible</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-visible">How to Meet Focus Visible</a></p>
-				<p>(Level AA)</p>
-				<p>Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.</p>
+				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#focus-visible">WCAG 2.1 Success Criterion 2.4.7 Focus Visible.</a></p>
 			</td>
 			<td>
 				<p><strong>C.10.2.4.7 Focus visible</strong></p>
@@ -5495,10 +4942,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>All <a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">functionality</a> that uses multipoint or path-based gestures for operation can be operated with a <a href="http://www.w3.org/TR/WCAG21/#dfn-single-pointer">single pointer</a> without a path-based gesture, unless a multipoint or path-based gesture is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a>.</p>
 				<p>NOTE 1: This requirement applies to documents that interpret pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#pointer-gestures">WCAG 2.1 Success Criterion 2.5.1 Pointer Gestures</a> replacing the original WCAG 2.1 note with note 1 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.1 Pointer Gestures</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Understanding Pointer Gestures</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures">How to Meet Pointer Gestures</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.5.1 Pointer gestures</strong></p>
@@ -5529,10 +4972,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: Functions that emulate a keyboard or numeric keypad key press are considered essential.</p>
 				<p>NOTE 2: This requirement applies to a document that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
 				<p>NOTE 3: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#pointer-cancellation">WCAG 2.1 Success Criterion 2.5.2 Pointer Cancellation</a> replacing the original WCAG 2.1 note with notes 1 and 2 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.2 Pointer Cancellation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html">Understanding Pointer Cancellation</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation">How to Meet Pointer Cancellation</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.5.2 Pointer cancellation</strong></p>
@@ -5552,12 +4991,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.2.5.3 Label in name</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#label-in-name">WCAG 2.1 Success Criterion 2.5.3 Label in Name</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.3 Label in Name</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html">Understanding Label in Name</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#label-in-name">How to Meet Label in Name</a></p>
-				<p>(Level A)</p>
-				<p>For <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface components</a> with <a href="http://www.w3.org/TR/WCAG21/#dfn-labels">labels</a> that include <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> or <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text,</a>the <a href="http://www.w3.org/TR/WCAG21/#dfn-name">name</a> contains the text that is presented visually.</p>
-				<p>Note: A best practice is to have the text of the label at the start of the name.</p>
 			</td>
 			<td>
 				<p><strong>C.10.2.5.3 Label in name</strong></p>
@@ -5577,15 +5010,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.2.5.4 Motion actuation</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#motion-actuation">WCAG 2.1 Success Criterion 2.5.4 Motion Actuation</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.4 Motion Actuation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html">Understanding Motion Actuation</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#motion-actuation">How to Meet Motion Actuation</a> </p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">Functionality</a> that can be operated by device motion or user motion can also be operated by <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface components</a> and responding to the motion can be disabled to prevent accidental actuation, except when:</p>
-				<ul>
-					<li>Supported Interface: The motion is used to operate functionality through an <a href="http://www.w3.org/TR/WCAG21/#dfn-accessibility-supported">accessibility supported</a> interface;</li>
-					<li>Essential: The motion is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> for the function and doing so would invalidate the activity.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.10.2.5.4 Motion actuation</strong></p>
@@ -5620,10 +5044,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>Table 10.11: Document success criterion: Language of page</strong></p>
 				<p>The default <a href="http://www.w3.org/TR/WCAG21/#dfn-human-language-s">human language</a> of each document can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a>.</p>
 				<p>NOTE: This success criterion is identical to the <a href="https://www.w3.org/TR/WCAG21/#language-of-page">WCAG 2.1 Success Criterion 3.1.1 Language of Page</a> replacing "web page" with "document".</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.1.1 Language of Page</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Understanding Language of Page</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-page">How to Meet Language of Page</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.1.1 Language of page</strong></p>
@@ -5648,10 +5068,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: There are some document technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the document, and it would not be possible to meet this success criterion with those technologies.</p>
 				<p>NOTE 2: Inheritance is one common method. For example a document provides the language that it is using and it can be assumed that all of the text or user interface elements within that document will be using the same language unless it is indicated.</p>
 				<p>NOTE 3: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#language-of-parts">WCAG 2.1 Success Criterion 3.1.2 Language of Parts</a> replacing "content" with "document" and with the addition of notes 1 and 2 above. </p>
-				<p><strong>WCAG 2.1 Success Criterion 3.1.2 Language of Parts</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html">Understanding Language of Parts</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-parts">How to Meet Language of Parts</a> </p>
-				<p>(Level AA)</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.1.2 Language of parts</strong></p>
@@ -5683,11 +5099,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>10.3.2.1 On focus</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#on-focus">WCAG 2.1 Success Criterion 3.2.1 On Focus</a>.</p>
 				<p>NOTE: Some compound documents and their user agents are designed to provide significantly different viewing and editing functionality depending upon what portion of the compound document is being interacted with (e.g. a presentation that contains an embedded spreadsheet, where the menus and toolbars of the user agent change depending upon whether the user is interacting with the presentation content, or the embedded spreadsheet content). If the user uses a mechanism other than putting focus on that portion of the compound document with which they mean to interact (e.g. by a menu choice or special keyboard gesture), any resulting change of context would not be subject to this success criterion because it was not caused by a change of focus.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.2.1 On Focus</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-focus.html">Understanding On Focus</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-focus">How to Meet On Focus</a></p>
-				<p>(Level A)</p>
-				<p>When any <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a> receives focus, it does not initiate a <a href="http://www.w3.org/TR/WCAG21/#dfn-change-of-context">change of context</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.2.1 On focus</strong></p>
@@ -5707,11 +5118,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.3.2.2 On input</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#on-input">WCAG 2.1 Success Criterion 3.2.2 On Input</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.2.2 On Input</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-input.html">Understanding On Input</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-input">How to Meet On Input</a></p>
-				<p>(Level A)</p>
-				<p>Changing the setting of any <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a> does not automatically cause a <a href="http://www.w3.org/TR/WCAG21/#dfn-change-of-context">change of context</a> unless the user has been advised of the behavior before using the component.</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.2.2 On input</strong></p>
@@ -5742,11 +5148,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.3.3.1 Error identification</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#error-identification">WCAG 2.1 Success Criterion 3.3.1 Error Identification</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.1 Error Identification</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-identification.html">Understanding Error Identification</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-identification">How to Meet Error Identification</a></p>
-				<p>(Level A)</p>
-				<p>If an <a href="http://www.w3.org/TR/WCAG21/#dfn-input-error">input error</a> is automatically detected, the item that is in error is identified and the error is described to the user in text. </p>
 			</td>
 			<td>
 				<p><strong>C.10.3.3.1 Error identification</strong></p>
@@ -5766,11 +5167,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.3.3.2 Labels or instructions</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#labels-or-instructions">WCAG 2.1 Success Criterion 3.3.2 Labels or Instructions</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.2 Labels or Instructions</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">Understanding Labels or Instructions</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">How to Meet Labels or Instructions</a></p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-labels">Labels</a> or instructions are provided when content requires user input.</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.3.2 Labels or instructions</strong></p>
@@ -5790,11 +5186,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>10.3.3.3 Error suggestion</strong></p>
 				<p>Where ICT is a non-web document, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#error-suggestion">WCAG 2.1 Success Criterion 3.3.3 Error Suggestion</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.3 Error Suggestion</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html">Understanding Error Suggestion</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-suggestion">How to Meet Error Suggestion</a> </p>
-				<p>(Level AA)</p>
-				<p>If an <a href="http://www.w3.org/TR/WCAG21/#dfn-input-error">input error</a> is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.3.3 Error suggestion</strong></p>
@@ -5822,10 +5213,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 					<li>Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</li>
 				</ul>
 				<p>NOTE: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data">WCAG 2.1 Success Criterion 3.3.4 Error Prevention (Legal, Financial, Data)</a> replacing "web pages" with "documents".</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.4 Error Prevention (Legal, Financial, Data)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">Understanding Error Prevention (Legal, Financial, Data)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data">How to Meet Error Prevention (Legal, Financial, Data)</a></p>
-				<p>(Level AA)</p>
 			</td>
 			<td>
 				<p><strong>C.10.3.3.4 Error prevention (legal, financial, data)</strong></p>
@@ -5863,10 +5250,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 2: Markup is not always available to assistive technology or to user selectable user agents such as browsers. In such cases, conformance to this provision would have no impact on accessibility as it can for web content where it is exposed.</p>
 				<p>NOTE 3: Examples of markup that is separately exposed and available to assistive technologies and to user agents include but are not limited to: documents encoded in HTML, ODF, and OOXML. In these examples, the markup can be parsed entirely in two ways: (a) by assistive technologies which may directly open the document, (b) by assistive technologies using DOM APIs of user agents for these document formats.</p>
 				<p>NOTE 4: This success criterion is identical to <a href="http://www.w3.org/TR/WCAG21/#parsing">the WCAG 2.1 Success Criterion 4.1.1 Parsing</a> replacing "In content implemented using markup languages" with "For documents that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent" with the addition of notes 2 and 3 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 4.1.1 Parsing</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Understanding Parsing</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#parsing">How to Meet Parsing</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.4.1.1 Parsing</strong></p>
@@ -5891,10 +5274,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most accessibility-supported platforms already meet this success criterion when used according to specification.</p>
 				<p>NOTE 2: For document formats that support interoperability with assistive technology, standard user interface components often meet this success criterion when used according to the general design and accessibility guidance for the document format.</p>
 				<p>NOTE 3: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#name-role-value">WCAG 2.1 Success Criterion 4.1.2 Name, Role, Value</a> replacing the original WCAG 2.1 note with note 1 and with the addition of note 2 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 4.1.2 Name, Role, Value</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Understanding Name, Role, Value</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#name-role-value">How to Meet Name, Role, Value</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.10.4.1.2 Name, role, value</strong></p>
@@ -6008,20 +5387,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>11.1.1.1.1 Non-text content (open functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#non-text-content">WCAG 2.1 Success Criterion 1.1.1 Non-text Content</a>.</p>
 				<p>NOTE: CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.1.1 Non-text Content</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Understanding Non-text Content</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-content">How to Meet Non-text Content</a> </p>
-				<p>(Level A)</p>
-				<p>All <a href="http://www.w3.org/TR/WCAG21/#dfn-non-text-content">non-text content</a> that is presented to the user has a <a href="http://www.w3.org/TR/WCAG21/#dfn-text-alternative">text alternative</a> that serves the equivalent purpose, except for the situations listed below.</p>
-				<ul>
-					<li>Controls, Input: If non-text content is a control or accepts user input, then it has a <a href="http://www.w3.org/TR/WCAG21/#dfn-name">name</a> that describes its purpose. (Refer to <a href="http://www.w3.org/TR/WCAG21/#name-role-value">Success Criterion 4.1.2</a> for additional requirements for controls and content that accepts user input.) </li>
-					<li>Time-Based Media: If non-text content is time-based media, then text alternatives at least provide descriptive identification of the non-text content. (Refer to <a href="http://www.w3.org/TR/WCAG21/#time-based-media">Guideline 1.2</a> for additional requirements for media.)</li>
-					<li>Test: If non-text content is a test or exercise that would be invalid if presented in <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a>, then text alternatives at least provide descriptive identification of the non-text content.</li>
-					<li>Sensory: If non-text content is primarily intended to create a <a href="http://www.w3.org/TR/WCAG21/#dfn-specific-sensory-experience">specific sensory experience,</a> then text alternatives at least provide descriptive identification of the non-text content.</li>
-					<li><a href="http://www.w3.org/TR/WCAG21/#dfn-captcha">CAPTCHA</a>: If the purpose of non-text content is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the non-text content are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.</li>
-					<li>Decoration, Formatting, Invisible: If non-text content is <a href="http://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration,</a> is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by <a href="http://www.w3.org/TR/WCAG21/#dfn-assistive-technologies">assistive technology</a>.</li>
-				</ul>
-			</td>
+      </td>
 			<td>
 				<p><strong>C.11.1.1.1.1 Non-text content (open functionality)</strong></p>
 				<p>Type of assessment</p>
@@ -6163,12 +5529,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>11.1.2.2 Captions (prerecorded)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#captions-prerecorded">WCAG 2.1 Success Criterion 1.2.2 Captions (Prerecorded)</a>.</p>
 				<p>NOTE: The WCAG 2.1 definition of "captions" notes that "in some countries, captions are called subtitles". They are also sometimes referred to as "subtitles for the hearing impaired". Per the definition in WCAG 2.1, to meet this success criterion, whether called captions or subtitles, they would have to provide "synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media content" where non-speech information includes "sound effects, music, laughter, speaker identification and location".</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.2 Captions (Prerecorded)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html">Understanding Captions (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">How to Meet Captions (Prerecorded)</a></p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-captions">Captions</a> are provided for all <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded </a><a href="http://www.w3.org/TR/WCAG21/#dfn-audio">audio</a> content in <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>, except when the media is a <a href="http://www.w3.org/TR/WCAG21/#dfn-media-alternative-for-text">media alternative for text</a> and is clearly labeled as such.</p>
-			</td>
+      </td>
 			<td>
 				<p><strong>C.11.1.2.2 Captions (prerecorded)</strong></p>
 				<p>Type of assessment</p>
@@ -6200,12 +5561,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded">WCAG 2.1 Success Criterion 1.2.3 Audio Description or Media Alternative (Prerecorded)</a>.</p>
 				<p>NOTE 1: The WCAG 2.1 definition of "audio description" says that "audio description" is "also called 'video description' and 'descriptive narration'".</p>
 				<p>NOTE 2: Secondary or alternate audio tracks are commonly used for this purpose.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.3 Audio Description or Media Alternative (Prerecorded)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html">Understanding Audio Description or Media Alternative (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded">How to Meet Audio Description or Media Alternative (Prerecorded)</a></p>
-				<p>(Level A)</p>
-				<p>An <a href="http://www.w3.org/TR/WCAG21/#dfn-alternative-for-time-based-media">alternative for time-based media</a> or audio description of the <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded </a><a href="http://www.w3.org/TR/WCAG21/#dfn-video">video</a> content is provided for <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>, except when the media is a <a href="http://www.w3.org/TR/WCAG21/#dfn-media-alternative-for-text">media alternative for text</a> and is clearly labeled as such.</p>
-			</td>
+      </td>
 			<td>
 				<p><strong>C.11.1.2.3.1 Audio description or media alternative (prerecorded - open functionality)</strong></p>
 				<p>Type of assessment</p>
@@ -6247,11 +5603,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>11.1.2.4 Captions (live)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#captions-live">WCAG 2.1 Success Criterion 1.2.4 Captions (Live)</a>.</p>
 				<p>NOTE: The WCAG 2.1 definition of "captions" notes that "in some countries, captions are called subtitles". They are also sometimes referred to as "subtitles for the hearing impaired". Per the definition in WCAG 2.1, to meet this success criterion, whether called captions or subtitles, they would have to provide "synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media content" where non-speech information includes "sound effects, music, laughter, speaker identification and location".</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.4 Captions (Live)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/captions-live.html">Understanding Captions (Live)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#captions-live">How to Meet Captions (Live)</a></p>
-				<p>(Level AA)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-captions">Captions</a> are provided for all <a href="http://www.w3.org/TR/WCAG21/#dfn-live">live </a><a href="http://www.w3.org/TR/WCAG21/#dfn-audio">audio</a> content in <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.2.4 Captions (live)</strong></p>
@@ -6273,11 +5624,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#audio-description-prerecorded">WCAG 2.1 Success Criterion 1.2.5 Audio Description (Prerecorded)</a>.</p>
 				<p>NOTE 1: The WCAG 2.1 definition of "audio description" says that audio description is "Also called 'video description' and 'descriptive narration'".</p>
 				<p>NOTE 2: Secondary or alternate audio tracks are commonly used for this purpose.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.2.5 Audio Description (Prerecorded).</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html">Understanding Audio Description (Prerecorded)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">How to Meet Audio Description (Prerecorded)</a></p>
-				<p>(Level AA)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-audio-descriptions">Audio description</a> is provided for all <a href="http://www.w3.org/TR/WCAG21/#dfn-prerecorded">prerecorded </a><a href="http://www.w3.org/TR/WCAG21/#dfn-video">video</a> content in <a href="http://www.w3.org/TR/WCAG21/#dfn-synchronized-media">synchronized media</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.2.5 Audio description (prerecorded)</strong></p>
@@ -6310,11 +5656,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>11.1.3.1.1 Info and relationships (open functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#info-and-relationships">WCAG 2.1 Success Criterion 1.3.1 Info and Relationships</a>.</p>
 				<p>NOTE: In software, programmatic determinability is best achieved through the use of accessibility services provided by platform software to enable interoperability between software and assistive technologies and accessibility features of software. (see clause 11.5 Interoperability with assistive technology).</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.1 Info and Relationships</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Understanding Info and Relationships</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">How to Meet Info and Relationships</a></p>
-				<p>(Level A)</p>
-				<p>Information, <a href="http://www.w3.org/TR/WCAG21/#dfn-structure">structure</a>, and <a href="http://www.w3.org/TR/WCAG21/#dfn-relationships">relationships</a> conveyed through <a href="http://www.w3.org/TR/WCAG21/#dfn-presentation">presentation</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a> or are available in text.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.1.1 Info and relationships (open functionality)</strong></p>
@@ -6358,11 +5699,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.3.2.1 Meaningful sequence (open functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#meaningful-sequence">WCAG 2.1 Success Criterion 1.3.2 Meaningful Sequence</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.2 Meaningful Sequence</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Understanding Meaningful Sequence</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">How to Meet Meaningful Sequence</a></p>
-				<p>(Level A)</p>
-				<p>When the sequence in which content is presented affects its meaning, a <a href="http://www.w3.org/TR/WCAG21/#dfn-correct-reading-sequence">correct reading sequence</a> can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.2.1 Meaningful sequence (open functionality)</strong></p>
@@ -6395,11 +5731,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.3.3 Sensory characteristics</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#sensory-characteristics">WCAG 2.1 Success Criterion 1.3.3 Sensory Characteristics</a>.</p>
-				<p><strong>Success Criterion 1.3.3 Sensory Characteristics</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Understanding Sensory Characteristics</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics">How to Meet Sensory Characteristics</a></p>
-				<p>(Level A)</p>
-				<p>Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, color, size, visual location, orientation, or sound. </p>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.3 Sensory characteristics</strong></p>
@@ -6419,12 +5750,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.3.4 Orientation</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#orientation">WCAG 2.1 Success Criterion 1.3.4 Orientation</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.4 Orientation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Understanding Orientation</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#orientation">How to Meet Orientation</a></p>
-				<p>(Level AA)</p>
-				<p>Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a>.</p>
-				<p>Note: Examples where a particular display orientation may be essential are a bank check, a piano application, slides for a projector or television, or virtual reality content where binary display orientation is not applicable.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.4 Orientation</strong></p>
@@ -6455,15 +5780,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.3.5.1 Identify input purpose (open functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#identify-input-purpose">WCAG 2.1 Success Criterion 1.3.5 Identify Input Purpose</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.5 Identify Input Purpose</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Understanding Identify Input Purpose</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">How to Meet Identify Input Purpose</a></p>
-				<p>(Level AA)</p>
-				<p>The purpose of each input field collecting information about the user can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a> when:</p>
-				<ul>
-					<li>The input field serves a purpose identified in the <a href="http://www.w3.org/TR/WCAG21/#input-purposes">Input Purposes for User Interface Components</a> section; and</li>
-					<li>The content is implemented using technologies with support for identifying the expected meaning for form input data.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.5.1 Identify input purpose (open functionality)</strong></p>
@@ -6483,15 +5799,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.3.5.2 Identify input purpose (closed functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface and is closed to assistive technologies, in at least one mode of operation the ICT shall present to the user, in an audio form, the purpose of each input field collecting information about the user when the input field serves a purpose identified in the <a href="https://www.w3.org/TR/WCAG21/#input-purposes">WCAG 2.1 Input Purposes for User Interface Components </a>section.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.3.5 Identify Input Purpose</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Understanding Identify Input Purpose</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose">How to Meet Identify Input Purpose</a></p>
-				<p>(Level AA)</p>
-				<p>The purpose of each input field collecting information about the user can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a> when:</p>
-				<ul>
-					<li>The input field serves a purpose identified in the <a href="http://www.w3.org/TR/WCAG21/#input-purposes">Input Purposes for User Interface Components</a> section; and</li>
-					<li>The content is implemented using technologies with support for identifying the expected meaning for form input data.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.5.2 Identify input purpose (closed functionality)</strong></p>
@@ -6526,12 +5833,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.4.1 Use of colour</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#use-of-color">WCAG 2.1 Success Criterion 1.4.1 Use of Color</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.1 Use of Color</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Understanding Use of Color</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#use-of-color">How to Meet Use of Color</a></p>
-				<p>(Level A)</p>
-				<p>Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.</p>
-				<p>Note: This success criterion addresses color perception specifically. Other forms of perception are covered in <a href="http://www.w3.org/TR/WCAG21/#adaptable">Guideline 1.3</a> including programmatic access to color and other visual presentation coding.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.1 Use of colour</strong></p>
@@ -6555,10 +5856,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>If any audio in a software plays automatically for more than 3 seconds, either a <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.</p>
 				<p>NOTE 1: Since any part of a software that does not meet this success criterion can interfere with a user's ability to use the whole software, all content in the software (whether or not it is used to meet other success criteria) shall meet this success criterion.</p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#audio-control">WCAG 2.1 Success Criterion 1.4.2 Audio Control</a> replacing "on a Web page" with "in a software", "any content" with "any part of a software", "whole page" with "whole software", "on the Web page" with "in the software", removing "See Conformance Requirement 5: Non-Interference" and adding note 1.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.2 Audio Control</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/audio-control.html">Understanding Audio Control</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#audio-control">How to Meet Audio Control</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.2 Audio control</strong></p>
@@ -6578,16 +5875,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.4.3 Contrast (minimum)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#contrast-minimum">WCAG 2.1 Success Criterion 1.4.3 Contrast (Minimum)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.3 Contrast (Minimum)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Understanding Contrast (Minimum)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">How to Meet Contrast (Minimum)</a> </p>
-				<p>(Level AA)</p>
-				<p>The visual presentation of <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a> has a <a href="http://www.w3.org/TR/WCAG21/#dfn-contrast-ratio">contrast ratio</a> of at least 4.5:1, except for the following:</p>
-				<ul>
-					<li>Large Text: <a href="http://www.w3.org/TR/WCAG21/#dfn-large-scale">Large-scale text</a> and images of large-scale text have a contrast ratio of at least 3:1;</li>
-					<li>Incidental: Text or images of text that are part of an inactive <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a>, that are <a href="http://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.</li>
-					<li>Logotypes: Text that is part of a logo or brand name has no contrast requirement.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.3 Contrast (minimum)</strong></p>
@@ -6620,11 +5907,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Where ICT is non-web software that provides a user interface and that supports access to enlargement features of platform or assistive technology, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#resize-text">WCAG 2.1 Success Criterion 1.4.4 Resize Text</a>.</p>
 				<p>NOTE 1: Content for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</p>
 				<p>NOTE 2: This success criterion is about the ability to allow users to enlarge the text on screen at least up to 200 % without needing to use assistive technologies. This means that the application provides some means for enlarging the text 200 % (zoom or otherwise) without loss of content or functionality or that the application works with the platform features that meet this requirement. </p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.4 Resize text</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Understanding Resize text</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#resize-text">How to Meet Resize text</a></p>
-				<p>(Level AA)</p>
-				<p>Except for <a href="http://www.w3.org/TR/WCAG21/#dfn-captions">captions</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a>, <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> can be resized without <a href="http://www.w3.org/TR/WCAG21/#dfn-assistive-technologies">assistive technology</a> up to 200 percent without loss of content or functionality.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.4.1 Resize text (open functionality)</strong></p>
@@ -6679,16 +5961,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.4.5.1 Images of text (open functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#images-of-text">WCAG 2.1 Success Criterion 1.4.5 Images of Text</a>.</p>
-				<p><strong>Criterion 1.4.5 Images of Text.</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Understanding Images of Text</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#images-of-text">How to Meet Images of Text</a> </p>
-				<p>(Level AA)</p>
-				<p>If the technologies being used can achieve the visual presentation, <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> is used to convey information rather than <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a> except for the following: </p>
-				<ul>
-					<li>Customizable: The image of text can be <a href="http://www.w3.org/TR/WCAG21/#dfn-visually-customized">visually customized</a> to the user's requirements;</li>
-					<li>Essential: A particular presentation of text is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> to the information being conveyed.</li>
-				</ul>
-				<p>Note: Logotypes (text that is part of a logo or brand name) are considered essential.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.5.1 Images of text (open functionality)</strong></p>
@@ -6709,16 +5981,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.4.5.2 Images of text (closed functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface which is closed to assistive technologies for screen reading, it does not need to meet the <a href="http://www.w3.org/TR/WCAG21/#images-of-text">WCAG 2.1 Success Criterion 1.4.5 Images of Text</a> because there is no need to impose a requirement on all closed functionality that text displayed on the screen actually be represented internally as text (as defined by WCAG 2.1), given that there is no interoperability with assistive technology.</p>
-				<p><strong>Criterion 1.4.5 Images of Text.</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">Understanding Images of Text</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#images-of-text">How to Meet Images of Text</a> </p>
-				<p>(Level AA)</p>
-				<p>If the technologies being used can achieve the visual presentation, <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> is used to convey information rather than <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a> except for the following: </p>
-				<ul>
-					<li>Customizable: The image of text can be <a href="http://www.w3.org/TR/WCAG21/#dfn-visually-customized">visually customized</a> to the user's requirements;</li>
-					<li>Essential: A particular presentation of text is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> to the information being conveyed.</li>
-				</ul>
-				<p>Note: Logotypes (text that is part of a logo or brand name) are considered essential.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.5.2 Images of text (closed functionality)</strong></p>
@@ -6753,10 +6015,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: 320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For non-web software which are designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1024 px at 400% zoom.</p>
 				<p>NOTE 2: Examples of content which require two-dimensional layout are images, maps, diagrams, video, games, presentations, data tables, and interfaces where it is necessary to keep toolbars in view while manipulating content.</p>
 				<p>NOTE 3: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#reflow">WCAG 2.1 Success Criterion 1.4.10 Reflow</a> replacing the original WCAG 2.1 notes with notes 1 and 2, above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.10 Reflow</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/reflow.html">Understanding Reflow</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#reflow">How to Meet Reflow</a></p>
-				<p>(Level AA)</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.10 Reflow</strong></p>
@@ -6776,15 +6034,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.4.11 Non-text contrast</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#non-text-contrast">WCAG 2.1 Success Criterion 1.4.11 Non-text Contrast</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.11 Non-text Contrast</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Understanding Non-text Contrast</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast">How to Meet Non-text Contrast</a> </p>
-				<p>(Level AA)</p>
-				<p>The visual <a href="http://www.w3.org/TR/WCAG21/#dfn-presentation">presentation</a> of the following have a <a href="http://www.w3.org/TR/WCAG21/#dfn-contrast-ratio">contrast ratio</a> of at least 3:1 against adjacent color(s):</p>
-				<ul>
-					<li>User Interface Components: Visual information required to identify <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface components</a> and <a href="http://www.w3.org/TR/WCAG21/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</li>
-					<li>Graphical Objects: Parts of graphics required to understand the content, except when a particular presentation of graphics is essential to the information being conveyed.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.11 Non-text contrast</strong></p>
@@ -6804,18 +6053,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.4.12 Text spacing</strong></p>
 				<p>Where ICT is non-web software that provides a user interface and that does not have a fixed size content layout area that is essential to the information being conveyed, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#text-spacing">WCAG 2.1 Success Criterion 1.4.12 Text spacing</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.12 Text spacing</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Understanding Text Spacing</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#text-spacing">How to Meet Text Spacing</a></p>
-				<p>(Level AA)</p>
-				<p>In content implemented using markup languages that support the following <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text </a><a href="http://www.w3.org/TR/WCAG21/#dfn-style-properties">style properties</a>, no loss of content or functionality occurs by setting all of the following and by changing no other style property:</p>
-				<ul>
-					<li>Line height (line spacing) to at least 1.5 times the font size;</li>
-					<li>Spacing following paragraphs to at least 2 times the font size;</li>
-					<li>Letter spacing (tracking) to at least 0.12 times the font size;</li>
-					<li>Word spacing to at least 0.16 times the font size.</li>
-				</ul>
-				<p>Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.12 Text spacing</strong></p>
@@ -6835,19 +6072,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.1.4.13 Content on hover or focus</strong></p>
 				<p>Where ICT is a non-web software that provides a user interface, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#content-on-hover-or-focus">WCAG 2.1 Success Criterion 1.4.13 Content on hover or focus</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 1.4.13 Content on Hover or Focus</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Understanding Content on Hover or Focus</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus">How to Meet Content on Hover or Focus</a></p>
-				<p>(Level AA)</p>
-				<p>Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>
-				<ul>
-					<li>Dismissable: A <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an <a href="http://www.w3.org/TR/WCAG21/#dfn-input-error">input error</a> or does not obscure or replace other content;</li>
-					<li>Hoverable: If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;</li>
-					<li>Persistent: The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</li>
-				</ul>
-				<p>Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author.</p>
-				<p>Note: Examples of additional content controlled by the user agent include browser tooltips created through use of the HTML <a href="http://www.w3.org/TR/html/dom.html#the-title-attribute">title attribute</a>.</p>
-				<p>Note: Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.4.13 Content on hover or focus</strong></p>
@@ -6881,13 +6105,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>11.2.1.1.1 Keyboard (open functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface and that supports access to keyboards or a keyboard interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#keyboard">WCAG 2.1 Success Criterion 2.1.1 Keyboard</a>.</p>
 				<p>NOTE: This does not imply that software is required to directly support a keyboard or "keyboard interface". Nor does it imply that software is required to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.1.1 Keyboard</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Understanding Keyboard</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#keyboard">How to Meet Keyboard</a></p>
-				<p>(Level A)</p>
-				<p>All <a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">functionality</a> of the content is operable through a <a href="http://www.w3.org/TR/WCAG21/#dfn-keyboard-interface">keyboard interface </a>without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.</p>
-				<p>Note: This exception relates to the underlying function, not the input technique. For example, if using handwriting to enter text, the input technique (handwriting) requires path-dependent input but the underlying function (text input) does not.</p>
-				<p>Note: This does not forbid and should not discourage providing mouse input or other input methods in addition to keyboard operation.</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.1.1.1 Keyboard (open functionality)</strong></p>
@@ -6933,10 +6150,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: Since any part of a software that does not meet this success criterion can interfere with a user's ability to use the whole software, it is necessary for all content in the software (whether or not it is used to meet other success criteria) to meet this success criterion.</p>
 				<p>NOTE 2: Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</p>
 				<p>NOTE 3: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#no-keyboard-trap">WCAG 2.1 Success Criterion 2.1.2 No Keyboard Trap</a> replacing "content", "page" and "Web page" with "software", removing "See Conformance Requirement 5: Non-Interference" and with the addition of note 2 above " and with note 1 above re-drafted to avoid the use of the word "shall".</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.1.2 No Keyboard Trap</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">Understanding No Keyboard Trap</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">How to Meet No Keyboard Trap</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.1.2 No keyboard trap</strong></p>
@@ -6967,16 +6180,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.2.1.4.1 Character key shortcuts (open functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy <a href="https://w3c.github.io/wcag21/guidelines/#character-key-shortcuts">WCAG 2.1 Success Criterion 2.1.4 Character Key Shortcuts</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.1.4 Character Key Shortcuts</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">Understanding Character Key Shortcuts</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts">How to Meet Character Key Shortcuts</a></p>
-				<p>(Level A)</p>
-				<p>If a <a href="http://www.w3.org/TR/WCAG21/#dfn-keyboard-shortcuts">keyboard shortcut</a> is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:</p>
-				<ul>
-					<li>Turn off: A <a href="http://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to turn the shortcut off;</li>
-					<li>Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc.);</li>
-					<li>Active only on focus: The keyboard shortcut for a <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a> is only active when that component has focus.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.11.2.1.4.1 Character key shortcuts (open functionality)</strong></p>
@@ -7040,10 +6243,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				</ul>
 				<p>NOTE 1: This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with <a href="http://www.w3.org/TR/WCAG21/#on-focus">WCAG 2.1 Success Criterion 3.2.1</a>, which puts limits on changes of content or context as a result of user action. </p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#timing-adjustable">WCAG 2.1 Success Criterion 2.2.1 Timing Adjustable</a> replacing "the content" with "software" and with the words "WCAG 2.1" added before the word "Success Criterion" in note 1 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.2.1 Timing Adjustable</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html">Understanding Timing Adjustable</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable">How to Meet Timing Adjustable</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.2.1 Timing adjustable</strong></p>
@@ -7075,10 +6274,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 4: An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</p>
 				<p>NOTE 5: This is to be applied to all content. Any content, whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</p>
 				<p>NOTE 6: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#pause-stop-hide">WCAG 2.1 Success Criterion 2.2.2 Pause, Stop, Hide</a> replacing "page" and "Web page" with "software", removing "See Conformance Requirement 5: Non-Interference" in note 2 of the success criterion, with the words "WCAG 2.1" added before the word "Guideline" in note 1 above, with note 2 above re-drafted to avoid the use of the word "must" and with the addition of note 5 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.2.2 Pause, Stop, Hide</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html">Understanding Pause, Stop, Hide</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">How to Meet Pause, Stop, Hide</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.2.2 Pause, stop, hide</strong></p>
@@ -7113,10 +6308,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Software does not contain anything that flashes more than three times in any one second period, or the <a href="http://www.w3.org/TR/WCAG21/#dfn-flashes">flash</a> is below the <a href="http://www.w3.org/TR/WCAG21/#dfn-general-flash-and-red-flash-thresholds">general flash and red flash thresholds</a>.</p>
 				<p>NOTE 1: This success criteria is applicable to all content in the software (whether or not there is an alternate accessible mode of operation of the software) since any part of a software that does not meet this success criterion can interfere with a user's ability to use the whole software (including a user interface element that enables the user to activate the alternate accessible mode of operation).</p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold">WCAG 2.1 Success Criterion 2.3.1 Three Flashes or Below Threshold</a> replacing "Web pages" with "software", "the whole page" with "the whole software", "the Web page" with "the software" and removing "See Conformance Requirement 5: Non-Interference" and with note 1 above re-drafted to avoid the use of the word "must".</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.3.1 Three Flashes or Below Threshold</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html">Understanding Three Flashes or Below Threshold</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold">How to Meet Three Flashes or Below Threshold</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.3.1 Three flashes or below threshold</strong></p>
@@ -7150,10 +6341,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>Table 11.7: Software success criterion: Focus order</strong></p>
 				<p>If software can be <a href="http://www.w3.org/TR/WCAG21/#dfn-navigated-sequentially">navigated sequentially</a> and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.</p>
 				<p>NOTE: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#focus-order">WCAG 2.1 Success Criterion 2.4.3 Focus order</a> replacing "Web page" with "software".</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.3 Focus Order</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Understanding Focus Order</a> </p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-order">How to Meet Focus Order</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.4.3 Focus order</strong></p>
@@ -7173,11 +6360,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.2.4.4 Link purpose (in context)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#link-purpose-in-context">WCAG 2.1 Success Criterion 2.4.4 Link Purpose (In Context)</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.4 Link Purpose (In Context)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">Understanding Link Purpose (In Context)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">How to Meet Link Purpose (In Context)</a></p>
-				<p>(Level A)</p>
-				<p>The <a href="http://www.w3.org/TR/WCAG21/#dfn-purpose-of-each-link">purpose of each link</a> can be determined from the link text alone or from the link text together with its <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determined-link-context">programmatically determined link context</a>, except where the purpose of the link would be <a href="http://www.w3.org/TR/WCAG21/#dfn-ambiguous-to-users-in-general">ambiguous to users in general</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.4.4 Link purpose (in context)</strong></p>
@@ -7198,11 +6380,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>11.2.4.6 Headings and labels</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#headings-and-labels">WCAG 2.1 Success Criterion 2.4.6 Headings and Labels</a>.</p>
 				<p>NOTE: In software, headings and labels are used to describe sections of content and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.6 Headings and Labels</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html">Understanding Headings and Labels</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">How to Meet Headings and Labels</a></p>
-				<p>(Level AA)</p>
-				<p>Headings and <a href="http://www.w3.org/TR/WCAG21/#dfn-labels">labels</a> describe topic or purpose. </p>
 			</td>
 			<td>
 				<p><strong>C.11.2.4.6 Headings and labels</strong></p>
@@ -7222,11 +6399,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.2.4.7 Focus visible</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="https://www.w3.org/TR/WCAG21/#focus-visible">WCAG 2.1 Success Criterion 2.4.7 Focus Visible</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.4.7 Focus Visible</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Understanding Focus Visible</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#focus-visible">How to Meet Focus Visible</a></p>
-				<p>(Level AA)</p>
-				<p>Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.4.7 Focus visible</strong></p>
@@ -7261,10 +6433,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>All <a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">functionality</a> that uses multipoint or path-based gestures for operation can be operated with a <a href="http://www.w3.org/TR/WCAG21/#dfn-single-pointer">single pointer</a> without a path-based gesture, unless a multipoint or path-based gesture is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a>.</p>
 				<p>NOTE 1: This requirement applies to non-web software that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#pointer-gestures">WCAG 2.1 Success Criterion 2.5.1 Pointer Gestures</a> replacing the original WCAG 2.1 note with note 1 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.1 Pointer Gestures</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Understanding Pointer Gestures</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures">How to Meet Pointer Gestures</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.5.1 Pointer gestures</strong></p>
@@ -7296,10 +6464,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: Functions that emulate a keyboard or numeric keypad key press are considered essential. </p>
 				<p>NOTE 2: This requirement applies to non-web software that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
 				<p>NOTE 3: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#pointer-cancellation">WCAG 2.1 Success Criterion 2.5.2 Pointer Cancellation</a> replacing the original WCAG 2.1 note with notes 1 and 2 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.2 Pointer Cancellation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html">Understanding Pointer Cancellation</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation">How to Meet Pointer Cancellation</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.5.2 Pointer cancellation</strong></p>
@@ -7331,12 +6495,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.2.5.3.1 Label in name (open functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#label-in-name">WCAG 2.1 Success Criterion 2.5.3 Label in Name</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.3 Label in Name</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html">Understanding Label in Name</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#label-in-name">How to Meet Label in Name</a></p>
-				<p>(Level A)</p>
-				<p>For user <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">interface components</a> with <a href="http://www.w3.org/TR/WCAG21/#dfn-labels">labels</a> that include <a href="http://www.w3.org/TR/WCAG21/#dfn-text">text</a> or <a href="http://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a>, the <a href="http://www.w3.org/TR/WCAG21/#dfn-name">name</a> contains the text that is presented visually.</p>
-				<p>Note: A best practice is to have the text of the label at the start of the name.</p>
 			</td>
 			<td>
 				<p><strong>C.11.2.5.3.1 Label in name (open functionality)</strong></p>
@@ -7376,15 +6534,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.2.5.4 Motion actuation</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy <a href="http://www.w3.org/TR/WCAG21/#motion-actuation">WCAG 2.1 Success Criterion 2.5.4 Motion Actuation</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 2.5.4 Motion Actuation</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html">Understanding Motion Actuation</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#motion-actuation">How to Meet Motion Actuation</a> </p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-functionality">Functionality</a> that can be operated by device motion or user motion can also be operated by <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface components</a> and responding to the motion can be disabled to prevent accidental actuation, except when:</p>
-				<ul>
-					<li>Supported Interface: The motion is used to operate functionality through an <a href="http://www.w3.org/TR/WCAG21/#dfn-accessibility-supported">accessibility supported</a> interface;</li>
-					<li>Essential: The motion is <a href="http://www.w3.org/TR/WCAG21/#dfn-essential">essential</a> for the function and doing so would invalidate the activity.</li>
-				</ul>
 			</td>
 			<td>
 				<p><strong>C.11.2.5.4 Motion actuation</strong></p>
@@ -7422,10 +6571,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>The default <a href="http://www.w3.org/TR/WCAG21/#dfn-human-language-s">human language</a> of software can be <a href="http://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable">programmatically determined</a>.</p>
 				<p>NOTE 1: Where software platforms provide a "locale / language" setting, applications that use that setting and render their interface in that "locale / language" would comply with this success criterion. Applications that do not use the platform "locale / language" setting but instead use an accessibility-supported method for exposing the human language of the software would also comply with this success criterion. Applications implemented in technologies where assistive technologies cannot determine the human language and that do not support the platform "locale / language" setting may not be able to meet this success criterion in that locale / language.</p>
 				<p>NOTE 2: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#language-of-page">WCAG 2.1 Success Criterion 3.1.1 Language of page</a>, replacing "each web page" with "software" and with the addition of note 1 above. </p>
-				<p><strong>WCAG 2.1 Success Criterion 3.1.1 Language of Page</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Understanding Language of Page</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#language-of-page">How to Meet Language of Page</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.1.1.1 Language of software (open functionality)</strong></p>
@@ -7483,11 +6628,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p><strong>11.3.2.1 On focus</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#on-focus">WCAG 2.1 Success Criterion 3.2.1 On Focus</a>. </p>
 				<p>NOTE: Some compound documents and their user agents are designed to provide significantly different viewing and editing functionality depending upon what portion of the compound document is being interacted with (e.g. a presentation that contains an embedded spreadsheet, where the menus and toolbars of the user agent change depending upon whether the user is interacting with the presentation content, or the embedded spreadsheet content). If the user uses a mechanism other than putting focus on that portion of the compound document with which they mean to interact (e.g. by a menu choice or special keyboard gesture), any resulting change of context would not be subject to this success criterion because it was not caused by a change of focus.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.2.1 On Focus</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-focus.html">Understanding On Focus</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-focus">How to Meet On Focus</a></p>
-				<p>(Level A)</p>
-				<p>When any <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a> receives focus, it does not initiate a <a href="http://www.w3.org/TR/WCAG21/#dfn-change-of-context">change of context</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.2.1 On focus</strong></p>
@@ -7507,11 +6647,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.3.2.2 On input</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#on-input">WCAG 2.1 Success Criterion 3.2.2 On Input</a>. </p>
-				<p><strong>WCAG 2.1 Success Criterion 3.2.2 On Input</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/on-input.html">Understanding On Input</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#on-input">How to Meet On Input</a></p>
-				<p>(Level A)</p>
-				<p>Changing the setting of any <a href="http://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a> does not automatically cause a <a href="http://www.w3.org/TR/WCAG21/#dfn-change-of-context">change of context</a> unless the user has been advised of the behavior before using the component.</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.2.2 On input</strong></p>
@@ -7543,11 +6678,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.3.3.1.1 Error identification (open functionality)</strong></p>
 				<p>Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#error-identification">WCAG 2.1 Success Criterion 3.3.1 Error Identification</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.1 Error Identification</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-identification.html">Understanding Error Identification</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-identification">How to Meet Error Identification</a></p>
-				<p>(Level A)</p>
-				<p>If an <a href="http://www.w3.org/TR/WCAG21/#dfn-input-error">input error</a> is automatically detected, the item that is in error is identified and the error is described to the user in text. </p>
 			</td>
 			<td>
 				<p><strong>C.11.3.3.1.1 Error identification (open functionality)</strong></p>
@@ -7591,11 +6721,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.3.3.2 Labels or instructions</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#labels-or-instructions">WCAG 2.1 Success Criterion 3.3.2 Labels or Instructions</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.2 Labels or Instructions</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">Understanding Labels or Instructions</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">How to Meet Labels or Instructions</a></p>
-				<p>(Level A)</p>
-				<p><a href="http://www.w3.org/TR/WCAG21/#dfn-labels">Labels</a> or instructions are provided when content requires user input.</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.3.2 Labels or instructions</strong></p>
@@ -7615,11 +6740,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>11.3.3.3 Error suggestion</strong></p>
 				<p>Where ICT is non-web software that provides a user interface, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#error-suggestion">WCAG 2.1 Success Criterion 3.3.3 Error Suggestion</a>.</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.3 Error Suggestion</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html">Understanding Error Suggestion</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-suggestion">How to Meet Error Suggestion</a> </p>
-				<p>(Level AA)</p>
-				<p>If an <a href="http://www.w3.org/TR/WCAG21/#dfn-input-error">input error</a> is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.3.3 Error suggestion</strong></p>
@@ -7645,10 +6765,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>2. Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</p>
 				<p>3. Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</p>
 				<p>NOTE: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data">WCAG 2.1 Success Criterion 3.3.4 Error Prevention (Legal, Financial, Data</a>) replacing "web pages" with "software".</p>
-				<p><strong>WCAG 2.1 Success Criterion 3.3.4 Error Prevention (Legal, Financial, Data)</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">Understanding Error Prevention (Legal, Financial, Data)</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data">How to Meet Error Prevention (Legal, Financial, Data)</a></p>
-				<p>(Level AA)</p>
 			</td>
 			<td>
 				<p><strong>C.11.3.3.4 Error prevention (legal, financial, data)</strong></p>
@@ -7688,10 +6804,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 3: Examples of markup that is separately exposed and available to assistive technologies and to user agents include but are not limited to: documents encoded in HTML, ODF, and OOXML. In these examples, the markup can be parsed entirely in two ways: (a) by assistive technologies which may directly open the document, (b) by assistive technologies using DOM APIs of user agents for these document formats.</p>
 				<p>NOTE 4: Examples of markup used internally for persistence of the software user interface that are never exposed to assistive technology include but are not limited to: XUL, GladeXML, and FXML. In these examples assistive technology only interacts with the user interface of generated software. </p>
 				<p>NOTE 5: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#parsing">WCAG 2.1 Success Criterion 4.1.1 Parsing</a> replacing "In content implemented using markup languages" with "For software that uses markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent" with the addition of notes 2, 3 and 4 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 4.1.1 Parsing</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Understanding Parsing</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#parsing">How to Meet Parsing</a></p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.4.1.1.1 Parsing (open functionality)</strong></p>
@@ -7739,10 +6851,6 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>NOTE 1: This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most accessibility-supported platforms already meet this success criterion when used according to specification.</p>
 				<p>NOTE 2: For conforming to this success criterion, it is usually best practice for software user interfaces to use the accessibility services provided by platform software. These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardised ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could or should be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</p>
 				<p>NOTE 3: This success criterion is identical to the <a href="http://www.w3.org/TR/WCAG21/#name-role-value">WCAG 2.1 Success Criterion 4.1.2 Name, Role, Value</a> replacing the original WCAG 2.1 note with: "This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most accessibility-supported platforms already meet this success criterion when used according to specification." and the addition of note 2 above.</p>
-				<p><strong>WCAG 2.1 Success Criterion 4.1.2 Name, Role, Value</strong></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Understanding Name, Role, Value</a></p>
-				<p><a href="http://www.w3.org/WAI/WCAG21/quickref/#name-role-value">How to Meet Name, Role, Value</a> </p>
-				<p>(Level A)</p>
 			</td>
 			<td>
 				<p><strong>C.11.4.1.2.1 Name, role, value (open functionality)</strong></p>
