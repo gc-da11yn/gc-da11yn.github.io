@@ -1122,11 +1122,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
-		<lastmod>2024-01-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/digital-accessibility-toolkit-project/</loc>
 		<lastmod>2024-01-23</lastmod>
 	</url>
@@ -1532,11 +1527,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles/</loc>
-		<lastmod>2024-02-09</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/handicaps-cognitifs/</loc>
 		<lastmod>2024-02-09</lastmod>
 	</url>
@@ -1649,5 +1639,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/texte-alternatif-et-description-longue-bonnes-pratiques/</loc>
 		<lastmod>2024-02-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
+		<lastmod>2024-02-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles/</loc>
+		<lastmod>2024-02-29</lastmod>
 	</url>
 </urlset>
