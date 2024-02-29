@@ -10,7 +10,7 @@ toggle: information-and-communications-technology-ict-accessibility-requirements
 
 <div class="row">
 <div class="col-sm-6">
-<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Annexe%20X%20-%20Exigences%20en%20mati%C3%A8re%20de%20TIC%20accessibles.docx" download="{{ title | stripTagsSlugify }}">
+<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/exigences-en-matiere-de-tic-accessibles.docx" download="{{ title | stripTagsSlugify }}">
 <div class="well gc-dwnld">
 <div class="row">
 <div class="col-xs-4">
