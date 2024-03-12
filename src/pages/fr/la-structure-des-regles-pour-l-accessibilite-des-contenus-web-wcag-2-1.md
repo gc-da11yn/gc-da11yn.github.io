@@ -4,7 +4,7 @@ description: Le respect de ces lignes directrices rendra le contenu plus accessi
 toggle: the-structure-of-web-content-accessibility-guidelines-wcag-2-1
 ---
 
-## <a href="https://www.w3.org/Translations/WCAG21-fr/#perceivable" hreflang="en">Principe 1 – Perceptible</a>
+## <a href="https://www.w3.org/Translations/WCAG21-fr/#perceivable">Principe 1 – Perceptible</a>
 
 ### Règle 1.1 – Équivalents textuels
 
@@ -38,7 +38,7 @@ toggle: the-structure-of-web-content-accessibility-guidelines-wcag-2-1
 - 1.4.12 Espacement du texte (Niveau AA)
 - 1.4.13 Contenu ciblé en mode survol (Niveau AA)
 
-## <a href="https://www.w3.org/Translations/WCAG21-fr/#operable" hreflang="en">Principe 2 – Utilisable</a>
+## <a href="https://www.w3.org/Translations/WCAG21-fr/#operable">Principe 2 – Utilisable</a>
 
 ### Règle 2.1 – Accessibilité au clavier
 
@@ -72,7 +72,7 @@ toggle: the-structure-of-web-content-accessibility-guidelines-wcag-2-1
 - 2.5.3 Étiquette dans le nom (Niveau A)
 - 2.5.4 Activation par le mouvement (Niveau A)
 
-## <a href="https://www.w3.org/Translations/WCAG21-fr/#understandable" hreflang="en">Principe 3 – Compréhensible</a>
+## <a href="https://www.w3.org/Translations/WCAG21-fr/#understandable">Principe 3 – Compréhensible</a>
 
 ### Règle 3.1 – Lisible
 
@@ -93,7 +93,7 @@ toggle: the-structure-of-web-content-accessibility-guidelines-wcag-2-1
 - 3.3.3 Suggestion d'erreur (Niveau AA)
 - 3.3.4 Prévention des erreurs (juridiques, financières, de données) (Niveau AA)
 
-## <a href="https://www.w3.org/Translations/WCAG21-fr/#robust" hreflang="en">Principe 4 – Robuste</a>
+## <a href="https://www.w3.org/Translations/WCAG21-fr/#robust">Principe 4 – Robuste</a>
 
 ### Règle 4.1 – Compatible
 

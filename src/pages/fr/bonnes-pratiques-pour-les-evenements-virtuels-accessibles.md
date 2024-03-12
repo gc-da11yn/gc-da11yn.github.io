@@ -189,13 +189,13 @@ Voici les points à retenir lorsque vous organisez un événement bilingue :
 ##### Ressources pour les événements bilingues
 
 - [Pratiques efficaces régissant la présidence des réunions bilingues et des présentations provenant de l’externe](https://www.clo-ocol.gc.ca/fr/outils-ressources/outils-ressources/pratiques-efficaces-regissant-presidence-reunions-bilingues)
-- [Organiser une réunion bilingue - Canada.ca](https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/langues-officielles/milieu-travail/organiser-reunion-bilingue.html)
-- <a href="https://www.mdpi.com/1660-4601/20/3/2302#B7-ijerph-20-02302" hreflang="en" lang="en">Virtual Accessible Bilingual Conference Planning: The Parks Accessibility Conference – MDPI Open Access Journals (mdpi.com)<small lang="fr"> (en anglais seulement)</small></a>
+- [Organiser une réunion bilingue](https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/langues-officielles/milieu-travail/organiser-reunion-bilingue.html)
+- <a href="https://www.mdpi.com/1660-4601/20/3/2302#B7-ijerph-20-02302" lang="en">Virtual Accessible Bilingual Conference Planning: The Parks Accessibility Conference – MDPI Open Access Journals (mdpi.com)<small lang="fr"> (en anglais seulement)</small></a>
+
 
 #### Décidez de la plateforme virtuelle qui accueillera votre événement
 
-Choisissez une plateforme dont l'interface utilisateur est conforme au
-niveau AA de la norme [WCAG 2.1](https://www.w3.org/Translations/WCAG21-fr/). En outre, nous vous recommandons de faire appel à des utilisateurs en situation de handicap pour tester la convivialité de votre plateforme et la manière dont vous avez mis en œuvre votre événement. Pour obtenir des conseils détaillés, reportez-vous à la section <a href="https://www.w3.org/TR/remote-meetings/#selection" hreflang="en" lang="en">Selecting an accessible remote meeting platform<small lang="fr"> (en anglais seulement)</small></a> du guide sur l'accessibilité des réunions à distance de W3C.
+Choisissez une platniveau AA de la norme [WCAG 2.1](https://www.w3.org/Translations/WCAG21-fr/). En outre, nous vous recommandons de faire appel à des utilisateurs en situation de handicap pour tester la convivialité de votre plateforme et la manière dont vous avez mis en œuvre votre événement. Pour obtenir des conseils détaillés, reportez-vous à la section <a href="https://www.w3.org/TR/remote-meetings/#selection" lang="en">Selecting an accessible remote meeting platform<small lang="fr"> (en anglais seulement)</small></a> du guide sur l'accessibilité des réunions à distance de W3C.
 
 #### Attribuez des rôles et des responsabilités au personnel chargé de l'événement
 
@@ -295,7 +295,7 @@ Veuillez consulter la [boîte à outils de l'accessibilité numérique](https://
 - **Couleur de la police :** Réglez la couleur de la police à « automatique » afin que le contenu soit accessible aux utilisateurs qui utilisent des paramètres de couleur précis sur leur PC (y compris les thèmes et paramètres à contraste élevé)
 - **Type de police :** Utilisez des polices sans empattement comme Arial ou Verdana pour les documents électroniques
 - **Images :** Toutes les images doivent être accompagnées d'un texte alternatif qui en explique le but; les images complexes telles que les graphiques nécessitent également de longues descriptions
-  - Consultez <a href="https://www.w3.org/WAI/tutorials/images/" hreflang="en">Images Tutorial \| Web Accessibility Initiative (WAI) \| W3C<small> (en anglais seulement)</small></a> pour obtenir plus d'information sur la manière de rendre les images accessibles
+  - Consultez <a href="https://www.w3.org/WAI/tutorials/images/" lang="en">Images Tutorial \| Web Accessibility Initiative (WAI) \| W3C<small lang="fr"> (en anglais seulement)</small></a> pour obtenir plus d'information sur la manière de rendre les images accessibles
 - **Liens :** Tous les liens doivent être intégrés dans un texte descriptif, par exemple :
   - À ne pas faire : <https://www.w3.org/Translations/WCAG21-fr/>;
   - À faire (le lien est intégré dans le texte) : [Règles pour l’accessibilité des contenus Web (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-fr/).
@@ -434,8 +434,8 @@ Si une répétition est jugée souhaitable, nous recommandons vivement de la fai
 - Présentez les interprètes en langue des signes afin que les utilisateurs qui dépendent d’eux puissent mettre en place leurs mesures d’adaptation en utilisant la plateforme
   - [Microsoft Teams dispose d'un paramètre d'accessibilité permettant de mettre en place des interprètes en langue des signes](https://support.microsoft.com/fr-fr/office/utiliser-la-vue-langue-des-signes-dans-microsoft-teams-c6c11f67-0747-4598-ac27-c90801b94434)
   - [WebEx exige que vous désigniez des interprètes en langue des signes comme panélistes](https://help.webex.com/fr-fr/article/9dqbhw/Organisez-des-r%C3%A9unions,-des-webinaires-et-des-%C3%A9v%C3%A9nements-Webex-pour-lespersonnes-qui-ont-de-l%E2%80%99envergure-ou-sont-mal-malentendantes)
-  - <a href="https://support.zoom.us/hc/en-us/articles/9644962487309-Using-sign-language-interpretation-in-a-meeting-or-webinar" hreflang="en">Zoom dispose d'une vue d'interprétation en langue des signes<small> (en anglais seulement)</small></a>
-- Si vous présentez un PowerPoint sur Teams, vous devez utiliser la fonction <a href="https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-powerpoint-live-in-microsoft-teams/ba-p/2140980" hreflang="en">PowerPoint Live<small> (en anglais seulement)</small></a>
+  - <a href="https://support.zoom.us/hc/en-us/articles/9644962487309-Using-sign-language-interpretation-in-a-meeting-or-webinar">Zoom dispose d'une vue d'interprétation en langue des signes<small> (en anglais seulement)</small></a>
+- Si vous présentez un PowerPoint sur Teams, vous devez utiliser la fonction <a href="https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-powerpoint-live-in-microsoft-teams/ba-p/2140980" lang="en">PowerPoint Live<small lang="fr"> (en anglais seulement)</small></a>
   - Cela permettra aux utilisateurs de lecteurs d'écran de lire le contenu de la présentation PowerPoint
 - Les modérateurs affichent dans le clavardage des liens intégrés dans la présentation
 
@@ -643,9 +643,9 @@ Accessibilité
 
 - [Aperçu de l'accessibilité](https://explore.zoom.us/fr/accessibility/)
 - [Raccourcis clavier](https://support.zoom.us/hc/fr/articles/205683899-Hot-Keys-and-Keyboard-for-Zoom?_ga=2.203993045.494881096.1614756525-359380451.1613573452)
-- <a href="https://support.zoom.us/hc/en-us/articles/360048870451-Using-screen-reader-alerts" hreflang="en">Utiliser les alertes du lecteur d'écran<small> (en anglais seulement)</small></a>
+- <a href="https://support.zoom.us/hc/en-us/articles/360048870451-Using-screen-reader-alerts">Utiliser les alertes du lecteur d'écran<small> (en anglais seulement)</small></a>
 - [Utiliser les sous-titres lors d'une réunion ou d'un webinaire](https://support.zoom.us/hc/fr/articles/207279736-G%C3%A9rer-les-sous-titres-et-la-transcription-en-direct)
-- <a href="https://support.zoom.us/hc/en-us/articles/9644962487309-Using-sign-language-interpretation-in-a-meeting-or-webinar" hreflang="en">Utiliser l'interprétation en langue des signes lors d'une réunion ou d'un webinaire<small> (en anglais seulement)</small></a>
+- <a href="https://support.zoom.us/hc/en-us/articles/9644962487309-Using-sign-language-interpretation-in-a-meeting-or-webinar">Utiliser l'interprétation en langue des signes lors d'une réunion ou d'un webinaire<small> (en anglais seulement)</small></a>
 - [Utiliser la fonctionnalité d’interprétation lors d'une réunion ou d'un webinaire](https://support.zoom.us/hc/fr/articles/360034919791-Using-Language-Interpretation-in-your-meeting-or-webinar)
 
 Réduction des distractions
