@@ -1382,11 +1382,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/designing-for-users-of-screen-readers/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
@@ -1503,11 +1498,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/ameliorer-l-accessibilite-des-formulaires/</loc>
-		<lastmod>2024-02-09</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
 		<lastmod>2024-02-09</lastmod>
 	</url>
 	
@@ -1649,5 +1639,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles/</loc>
 		<lastmod>2024-02-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
+		<lastmod>2024-03-12</lastmod>
 	</url>
 </urlset>
