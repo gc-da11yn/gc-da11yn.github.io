@@ -3,9 +3,13 @@ title: Career development day for students with disabilities at Concordia
 description: At Concordia University's Career Development Day for students with disabilities, Shared Services Canada's Accessibility, Accommodation, and Adaptive Computer Technology (AAACT) service showcased advanced technologies to promote inclusivity and equal opportunities in the workforce.
 ---
 
+<div class="alert alert-danger">
+  <p><strong>This page is a temporary page that is used for information shared at the <a href="https://www.concordia.ca/students/success/career-planning/employers/career-fair/career-development.html">Career Development Day for Students with Disabilities</a> at Concordia University. It is not part of the actual Digital Accessibility Toolkit (DAT) website and might be removed at any time.</strong></p>
+</div>
+
 <dl>
 <dt>Event:</dt>
-<dd><a href="https://www.concordia.ca/students/success/career-planning/employers/career-fair/career-development.html">Career Development Day for Students* with Disabilities</a></dd>
+<dd><a href="https://www.concordia.ca/students/success/career-planning/employers/career-fair/career-development.html">Career Development Day for Students with Disabilities</a></dd>
 <dt>Date:</dt>
 <dd>Wednesday, March 13, 2024</dd>
 <dt>Time:</dt>
