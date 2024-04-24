@@ -1,4 +1,5 @@
-{# {{ footer[locale].aboutThisSite }} #}
+{% set newPath = page.inputPath | replace("\./", "/") %}
+
 <aside class="contribute">
 	<div class="container">
 		<div class="row">
@@ -13,8 +14,14 @@
 				</ul>
 			</div>
 		</div>
+		{# This code block checks if the environment is set to "dev". If it is, it displays a paragraph with a link to Netlify and a link to edit the code for the current page on GitHub. #}
 		{% if settings.env == "dev" %}
 			<p>{{ contribute[locale].netlify }} <a{% if locale == "fr" %} {% endif %} href="https://www.netlify.com">Netlify</a></p>
+			{% if locale === 'en' %}
+				<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Edit code for the <strong>{{ title }}</strong> page</a>.</p>
+			{% else %}
+				<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Modifier le code de la page <strong>{{ title }}</strong></a.></p>
+			{% endif %}
 		{% endif %}
 	</div>
 </aside>
