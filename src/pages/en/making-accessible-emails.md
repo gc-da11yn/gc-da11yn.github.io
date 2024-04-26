@@ -85,7 +85,7 @@ Avoid overly complex writing styles.
 
 ## Styles
 
-A Style is a set of built-in formatting characteristics that you can apply to content in your document including headings. A Style contains formatting information such as font colour and size, whether the text is bold or italic, and paragraph and line spacing. When you apply a Style to text, you are applying all the formatting information contained in that Style to you text in one easy step, and you maintain consistent formatting throughout your document.
+A Style is a set of built-in formatting characteristics that you can apply to content in your document including headings. A Style contains formatting information such as font colour and size, whether the text is bold or italic, and paragraph and line spacing. When you apply a Style to text, you are applying all the formatting information contained in that Style to your text in one easy step, and you maintain consistent formatting throughout your document.
 
 - Do not use direct formatting (changing the appearance using the font attributes in the Font group on the Home tab) to change the appearance of your headings or normal text. Instead, [modify a style](#modify-a-style)
 - Avoid extra spaces or returns for formatting. Instead, [modify paragraph style](#modify-a-style) to add space.
@@ -95,7 +95,7 @@ A Style is a set of built-in formatting characteristics that you can apply to co
 
 The Styles pane is on the Format Text tab. Highlight the text that you want to change, for example, a heading in your message.
 
-To access the Styles pane, select the **expansion arrow** (**Alt, H, F, Y)** and the Styles pane will open. Select **Title**. The text will be formatted to the Title style and highlighted in the Styles pane.
+To access the Styles pane, select the **expansion arrow (Alt, H, F, Y)** and the Styles pane will open. Select **Title**. The text will be formatted to the Title style and highlighted in the Styles pane.
 
 <p><img src="{{ rootPath }}img/en/making-accessible-emails-2.png" alt="" /></p>
 
@@ -105,7 +105,7 @@ To access the Styles pane, select the **expansion arrow** (**Alt, H, F, Y)** and
 
 1. Place your cursor in the text with the style you want to modify.
 2. Press **Ctrl + Shift + S**.
-3. Select **Modify** in the **Apply Styles** dialogue
+3. Select **Modify** in the **Apply Styles** dialogue.
 4. In the **Formatting** group, make any formatting changes you want, such as font style, size, alignment, line spacing, or indentation.
 5. Choose whether the style change applies to the current document or new documents based on this template. It automatically defaults to **Only in this Document**.
 6. Select **OK**.
@@ -133,21 +133,21 @@ Please select a sans-serif, for example: Arial, Calibri, Verdana, etc.
 - using symbols and icons as the only way to communicate information
 - using superscripts and subscripts
 - including math and equations. If you must include this information, make sure to use Mathematical Markup Language (MathML)
-- italicizing more than a few words, as it becomes difficult to read.
+- italicizing more than a few words, as it becomes difficult to read
 - The Government of Canada recommends that [only acts, laws and court cases should be italicized](https://www.noslangues-ourlanguages.gc.ca/en/writing-tips-plus/italics-legal-references)
 - use of visual styles (colour, bolding, etc.) as the only way of conveying information.
 
 ## Use of colour
 
-Don’t use colour by itself to convey information. If using colour to convey meaning, always use one or more additional methods to convey the same information (for example, use patterns, labels, symbols, etc.).
+Don’t use colour by itself to convey information. If using colour to convey meaning, always use one or more additional methods to convey the same information (for example, use patterns, labels, symbols, etc.)
 
 ## Colour contrast
 
 - Ensure sufficient contrast between text and background colours
-- To be accessible, the dark/light contrast between text and background must be greater than or equal to: - 4.5:1 for small text (under 14 points in size) - 3:1 for large text (14 points or larger)
+- To be accessible, the dark/light contrast between text and background must be greater than or equal to: 4.5:1 for small text (under 14 points in size) 3:1 for large text (14 points or larger)
 - Measure the contrast between text and background colours using a tool like [WebAIM’s Colour Contrast Checker](http://webaim.org/resources/contrastchecker)
 - Limit the use of bright, saturated colours
-- Avoid colour for text unless it’s a link
+- Avoid colour for text unless it’s a link.
 
 ## Outlook Themes
 
@@ -159,9 +159,9 @@ Avoid changing the default Outlook Theme (Office). Using other themes may introd
 
 - Use Outlook’s [built-in heading styles](#styles).
 - Organize headings in a logical top-to-bottom and hierarchical order.
-  - A **Heading 1** is the email title or main content heading.
-  - A **Heading 2** is a major section heading.
-  - A **Heading 3** is a subsection of Heading 2, and so on.
+  - A **Heading 1** is the email title or main content heading
+  - A **Heading 2** is a major section heading
+  - A **Heading 3** is a subsection of Heading 2, and so on
 - Break the content into chunks or sections.
 - Add headings by choosing a Heading level from the **Styles** gallery under the **Format Text** tab (**CTRL + Shift + S**).
 
