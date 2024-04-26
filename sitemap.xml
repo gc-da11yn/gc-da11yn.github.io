@@ -952,11 +952,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-microsoft-365/</loc>
-		<lastmod>2023-12-01</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/accessible-powerpoint-presentations-in-microsoft-365/</loc>
 		<lastmod>2023-12-01</lastmod>
 	</url>
@@ -1668,6 +1663,11 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-microsoft-365/</loc>
 		<lastmod>2024-04-26</lastmod>
 	</url>
 </urlset>
