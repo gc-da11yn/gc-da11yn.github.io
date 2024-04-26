@@ -75,6 +75,13 @@ Le Service numérique canadien s’engage à mettre en place des services access
 </div>
 <div class="col-md-6">
 
+### [Le pouvoir des mots et des images](https://www.canada.ca/fr/emploi-developpement-social/programmes/invalidite/cra/mots-images.html)
+
+Suggestions pour la représentation des personnes en situation de handicap. Les personnes en situation de handicap demandent aux Canadiens, et aux médias en particulier, d'utiliser des termes respectueux lorsqu'ils écrivent et parlent d'elles ou des questions qui les concernent. Elles demandent également que les images choisies pour les représenter soient respectueuses et ne renforcent pas des stéréotypes dépassés.
+
+</div>
+<div class="col-md-6">
+
 ### <a href="https://www.microsoft.com/fr-ca/windows/accessibility-features?SilentAuth=1&activetab=pivot_1:primaryr2#vision">Microsoft Windows 11 L’accessibilité pour tous</a>
 
 Ressources utiles sur les fonctions d'accessibilité de Microsoft Windows 11.
