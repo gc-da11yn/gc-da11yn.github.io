@@ -252,11 +252,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/links/_template/</loc>
-		<lastmod>2023-11-22</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/page-list-table/</loc>
 		<lastmod>2023-11-27</lastmod>
 	</url>
@@ -418,36 +413,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/langue-du-contenu-audio-video/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/procurement/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-in-your-role/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/resources/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/tools/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/approvisionnement/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/l-accessibilite-dans-votre-role/</loc>
 		<lastmod>2023-11-27</lastmod>
 	</url>
 	
@@ -922,27 +887,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/outils/</loc>
-		<lastmod>2023-11-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ressources/</loc>
-		<lastmod>2023-11-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/useful-links/</loc>
-		<lastmod>2023-11-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/test-your-products/</loc>
-		<lastmod>2023-11-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/testez-vos-produits/</loc>
 		<lastmod>2023-11-30</lastmod>
 	</url>
 	
@@ -953,11 +898,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/about-us/</loc>
-		<lastmod>2023-12-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/a-propos-de-nous/</loc>
 		<lastmod>2023-12-01</lastmod>
 	</url>
 	
@@ -1222,117 +1162,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/global-accessibility-standards/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-fundamentals/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/most-common-types-of-disability/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-standards/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/community-directory/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/digital-accessibility-in-the-government-of-canada/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-virtual-events/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/create-document/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/create-forms/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/create-web-content/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/design-a-course/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/designing-accessible-services/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/how-to-s/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/resources-and-tools/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/accessibilite-numerique-au-gouvernement-du-canada/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/normes-d-accessibilite/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/repertoire-de-la-communaute/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-un-cours/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/creer-du-contenu-web/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/creer-un-document/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/creer-un-formulaire/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/evenements-virtuels-accessibles/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/comment-faire/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
 	
@@ -1342,22 +1172,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/principes-de-base-de-l-accessibilite/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/normes-d-accessibilite-mondiales/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/types-de-handicap-les-plus-courants/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ressources-et-outils/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
 	
@@ -1649,5 +1464,200 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
 		<lastmod>2024-03-12</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/_template/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/en/community-of-practice-for-accessible-communications/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/fr/communaute-de-pratique-sur-les-communications-accessibles/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/global-accessibility-standards/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-fundamentals/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/most-common-types-of-disability/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-standards/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/community-directory/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/digital-accessibility-in-the-government-of-canada/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/procurement/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-in-your-role/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-virtual-events/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/create-document/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/create-forms/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/create-web-content/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/design-a-course/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/how-to-s/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/test-your-products/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/resources-and-tools/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/resources/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tools/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/a-propos-de-nous/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/approvisionnement/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/accessibilite-numerique-au-gouvernement-du-canada/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/normes-d-accessibilite/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/repertoire-de-la-communaute/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-un-cours/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/creer-du-contenu-web/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/creer-un-document/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/creer-un-formulaire/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/evenements-virtuels-accessibles/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/comment-faire/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/testez-vos-produits/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/l-accessibilite-dans-votre-role/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/principes-de-base-de-l-accessibilite/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/types-de-handicap-les-plus-courants/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources-et-outils/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/outils/</loc>
+		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources/</loc>
+		<lastmod>2024-04-26</lastmod>
 	</url>
 </urlset>
