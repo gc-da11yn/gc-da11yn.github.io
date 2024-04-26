@@ -60,9 +60,9 @@ Outside of the Adobe family of products as mentioned above, there are several PD
 
 To create a PDF document using a professional version of Foxit PDF Editor, you can consult this tutorial about [Creating PDFs](https://youtu.be/tQYtVLmf2Yo).
 
-## Validating and remediating accessibility with PhantomPDF
+## Validating and remediating accessibility with Foxit PDF Editor
 
-Foxit PDF Editor is an essential tool for validating and remediating PDF accessibility. The current version as of December 2020 is PhantomPDF Business 10.1. The following information is specific to this version.
+Foxit PDF Editor is an essential tool for validating and remediating PDF accessibility. The current version as of December 2020 is Foxit PDF Editor Business 10.1. The following information is specific to this version.
 
 ### Automated validation
 
