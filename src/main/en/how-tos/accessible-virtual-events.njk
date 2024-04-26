@@ -16,7 +16,7 @@ tags:
 	{% for item in collections.accessibleVirtualEvents | sort(false, false, 'data.title') | localeMatch(locale) %}
 		{% if item.data.tags[1] != "office2016" and item.data.tags[1] != "microsoft365" %}
 			<div class="col-md-6">
-				<h2><a href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ item.url }}{% endif %}"{% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>{{ item.data.title | safe }}{% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}</a></h2>
+				<h2><a{% if item.data.redirect %} rel="external"{% endif %} href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ item.url }}{% endif %}"{% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>{% if item.data.internal === true %}<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> {{ alerts[locale].hiddenTextLink }}</span>{% endif %}{{ item.data.title | safe }}{% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}</a></h2>
 				<p>
 					{% if item.data.description %}
 					{{ item.data.description | safe }}
