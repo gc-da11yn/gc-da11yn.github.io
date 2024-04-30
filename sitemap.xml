@@ -892,11 +892,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
-		<lastmod>2023-11-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/about-us/</loc>
 		<lastmod>2023-12-01</lastmod>
 	</url>
@@ -1669,5 +1664,10 @@
 	<url>
 		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-microsoft-365/</loc>
 		<lastmod>2024-04-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
+		<lastmod>2024-04-30</lastmod>
 	</url>
 </urlset>
