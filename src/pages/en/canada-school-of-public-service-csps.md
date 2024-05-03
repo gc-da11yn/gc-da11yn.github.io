@@ -32,7 +32,7 @@ The CSPS Digital Academy was established by the Canada School of Public Service 
 <section class="col-md-6">
 <h2 class="h4">Respectful and Inclusive Workplace (RIW) business line</h2>
 
-CSPS’ Respectful and Inclusive Workplace (RIW) business line is responsible for the development and delivery of learning products on accessibility for the federal public servants. RIW works in close collaboration with partners such as the Office of Public Service Accessibility (OPSA), the Office of the Chief Human Resource Officer (OCHRO), the Accessibility, Accommodation and Adaptive Computer Technology (AAACT) team, and many other stakeholders to create informative, innovative, and engaging learning experiences on the topic of accessibility.
+CSPS’ Respectful and Inclusive Workplace (RIW) business line is responsible for the development and delivery of learning products on accessibility for the federal public servants. RIW works in close collaboration with partners such as the Office of Public Service Accessibility (OPSA), the Office of the Chief Human Resource Officer (OCHRO), the Accessibility, Accommodation and Adaptive Computer Technology (<abbr title="Accessibility, Accommodations and Adaptive Computer Technology">AAACT</abbr>) team, and many other stakeholders to create informative, innovative, and engaging learning experiences on the topic of accessibility.
 
 </section>
 <section class="col-md-6">

@@ -67,7 +67,7 @@ Digital Accessibility Toolkit (<abbr>DAT</abbr>) members belong to multiple stak
 Members
 
 - Co-Chair(s):
-  - Shared Service Canada (<abbr>SSC</abbr>): Shawn Thompson, Accessibility, Accommodation and Adaptive Computer Technology (<abbr>AAACT</abbr>) Program (Development lead)
+  - Shared Service Canada (<abbr>SSC</abbr>): Shawn Thompson, Accessibility, Accommodation and Adaptive Computer Technology (<abbr title="Accessibility, Accommodations and Adaptive Computer Technology">AAACT</abbr>) Program (Development lead)
   - Canada School of Public Service (<abbr>CSPS</abbr>): Julie Bélisle Boutet, Digital Accessibility in Learning (Content lead)
 - Contributing resources:
   - Open Government Working Group (<abbr>COGWG</abbr>) 
@@ -80,7 +80,7 @@ Members
   - Development
   - Communications
 - Secretariat services:
-  - Accessibility, Accommodation and Adaptive Computer Technology (<abbr>AAACT</abbr>) program
+  - Accessibility, Accommodation and Adaptive Computer Technology (<abbr title="Accessibility, Accommodations and Adaptive Computer Technology">AAACT</abbr>) program
 
 ## Operating procedures and frequency of meetings
 
