@@ -26,7 +26,7 @@ This document reproduces relevant ICT accessibility requirements from the EN 301
 
 ## Caveat
 
-This document was created by the Shared Services Canada (SSC) Accessibility, Accommodations and Adaptive Computer Technology (<abbr title="Accessibility, Accommodations and Adaptive Computer Technology">AAACT</abbr>) program in February 2020 and updated in October 2022. To the best of our knowledge, this document was accurate as of October 2022. SSC does not warrant any jurisdiction’s reliance on this work. If you have any questions about this document, please [email the AAACT program](mailto:aaact-aatia@ssc-spc.gc.ca?subject=ICT%20Procurement%20-%20standards%20mapping%20document).
+This document was created by the Shared Services Canada (SSC) Accessibility, Accommodations and Adaptive Computer Technology (<abbr>AAACT</abbr>) program in February 2020 and updated in October 2022. To the best of our knowledge, this document was accurate as of October 2022. SSC does not warrant any jurisdiction’s reliance on this work. If you have any questions about this document, please [email the AAACT program](mailto:aaact-aatia@ssc-spc.gc.ca?subject=ICT%20Procurement%20-%20standards%20mapping%20document).
 
 ## Intended Audience
 
