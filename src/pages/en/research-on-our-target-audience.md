@@ -296,7 +296,7 @@ Category: Mobility and Dexterity Enhancement.
 <dt>Job </dt>
 <dd>Trainer / Educator.</dd>
 <dt>Commonly used sites</dt>
-<dd>(<abbr>AAACT</abbr>), GcPedia, DAT.</dd>
+<dd>(<abbr title="Accessibility, Accommodations and Adaptive Computer Technology">AAACT</abbr>), GcPedia, <abbr> title="Digital Accessibility Toolkit">DAT</abbr>.</dd>
 <dt>Disability: </dt>
 <dd>Motor Neurone Disease.
 <p> Example of Temporary or situational </p>
