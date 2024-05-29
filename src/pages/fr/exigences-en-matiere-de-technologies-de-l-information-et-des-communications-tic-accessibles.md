@@ -5,7 +5,7 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
-toggle: information-and-communications-technology-ict-accessibility-requirements
+toggle: information-and-communication-technology-ict-accessibility-requirements/
 ---
 
 <div class="row">
