@@ -46,59 +46,59 @@ Questions regarding the Technical Summary should be sent to AAACT / AATIA (SSC/S
 
 - [4 Functional performance](#4-functional-performance)
 - [5 Generic requirements](#5-generic-requirements)
-- [6 ICT with two-way voice communication](#6-ict-with-two-way-voice-communication)
-- [7 ICT with video capabilities](#7-ict-with-video-capabilities)
+- [6 <abbr title="Information and communication technology">ICT</abbr> with two-way voice communication](#6-ict-with-two-way-voice-communication)
+- [7 <abbr title="Information and communication technology">ICT</abbr> with video capabilities](#7-ict-with-video-capabilities)
 - [8 Hardware](#8-hardware)
 - [9 Web](#9-web)
 - [10 Non-web documents](#10-non-web-documents)
 - [11 Software](#11-software)
 - [12 Documentation and support services](#12-documentation-and-support-services)
-- [13 ICT providing relay or emergency service access](#13-ict-providing-relay-or-emergency-service-access)
+- [13 <abbr title="Information and communication technology">ICT</abbr> providing relay or emergency service access](#13-ict-providing-relay-or-emergency-service-access)
 - [14 Conformance](#14-conformance)
 - [Other Annexes in the EN 301 549](#other-annexes-in-the-en-301-549)
 
 ## 4 Functional performance
 
-Refer to Annex E (informative): Guidance for users of the present document in the EN 301 549 (V3.2.1 (2021-03)) Harmonised European Standard Accessibility requirements for ICT products and services.
+Refer to Annex E (informative): Guidance for users of the present document in the EN 301 549 (V3.2.1 (2021-03)) Harmonised European Standard Accessibility requirements for <abbr title="Information and communication technology">ICT</abbr> products and services.
 
 Clause 4 from the EN 301 549 explains what functionality is needed to enable end users to locate, identify and operate functions in technology, no matter of their abilities. These performance statements themselves do not provide specific criteria, but rather are met when the related criteria in clauses 5 to 13 are met. If all clauses are supported in clauses 5 to 13, it is reasonable to expect that all the needed functionality should be available as well. This summary does not address any Notes, unless it is critical to the understanding of the clause.
 
 - 4.2.1 Usage without vision:
-  - The ICT provides a way to be operated without vision.
+  - The <abbr title="Information and communication technology">ICT</abbr> provides a way to be operated without vision.
 - 4.2.2 Usage with limited vision:
-  - The ICT provides a way for individuals with limited vision to better use their limited vision.
+  - The <abbr title="Information and communication technology">ICT</abbr> provides a way for individuals with limited vision to better use their limited vision.
 - 4.2.3 Usage without perception of colour:
-  - The ICT can be visually used without the ability to see colour.
+  - The <abbr title="Information and communication technology">ICT</abbr> can be visually used without the ability to see colour.
 - 4.2.4 Usage without hearing:
-  - The ICT can be operated without the ability to hear.
+  - The <abbr title="Information and communication technology">ICT</abbr> can be operated without the ability to hear.
 - 4.2.5 Usage with limited hearing:
-  - The ICT provides a way for individuals with limited hearing to better use their limited hearing.
+  - The <abbr title="Information and communication technology">ICT</abbr> provides a way for individuals with limited hearing to better use their limited hearing.
 - 4.2.6 Usage with no or limited vocal capability:
-  - If the ICT has an option to use voice input, then an alternative is provided that does not require voice input.
+  - If the <abbr title="Information and communication technology">ICT</abbr> has an option to use voice input, then an alternative is provided that does not require voice input.
 - 4.2.7 Usage with limited manipulation or strength:
-  - If the ICT has controls which require manual operation, then alternatives are provided that do not require simultaneous actions or hand strength.
+  - If the <abbr title="Information and communication technology">ICT</abbr> has controls which require manual operation, then alternatives are provided that do not require simultaneous actions or hand strength.
 - 4.2.8 Usage with limited reach:
-  - If the ICT is part of the built environment, then all controls need to be in reach of all types of users.
+  - If the <abbr title="Information and communication technology">ICT</abbr> is part of the built environment, then all controls need to be in reach of all types of users.
 - 4.2.9 Minimize photosensitive seizure triggers:
-  - If the ICT has a visual interface, then photosensitive triggers will be minimized.
+  - If the <abbr title="Information and communication technology">ICT</abbr> has a visual interface, then photosensitive triggers will be minimized.
 - 4.2.10 Usage with limited cognition, language or learning:
-  - The ICT provides features and/or presentation that makes it simpler and easier to understand, operate, and use.
+  - The <abbr title="Information and communication technology">ICT</abbr> provides features and/or presentation that makes it simpler and easier to understand, operate, and use.
 - 4.2.11 Privacy:
   - Equitable privacy features are available to all users.
 
 ## 5 Generic requirements
 
-The general requirements from the EN 301 549 contain a few different key categories which can be applied to different types of ICT. Each of the main categories is outlined below.
+The general requirements from the EN 301 549 contain a few different key categories which can be applied to different types of <abbr title="Information and communication technology">ICT</abbr>. Each of the main categories is outlined below.
 
 ### 5.1 Closed functionality
 
-Closed and partially closed systems are types of ICT which restrict the user from being able to install or use their own assistive technology. Closed and partially closed systems need to provide ways for all users to be able to access the system in the absence of supplemental assistive technology.
+Closed and partially closed systems are types of <abbr title="Information and communication technology">ICT</abbr> which restrict the user from being able to install or use their own assistive technology. Closed and partially closed systems need to provide ways for all users to be able to access the system in the absence of supplemental assistive technology.
 
 For example, a user is not able to install or use their own screen reader onto a bank machine or a ticket kiosk at the airport. Therefore, some form of speech output must be provided for those users. Other examples include:
 
-- The ICT provides an option where text is large enough for most users with low vision.
+- The <abbr title="Information and communication technology">ICT</abbr> provides an option where text is large enough for most users with low vision.
 - Important audio output is also available visually as text.
-- The ICT is operable without vision.
+- The <abbr title="Information and communication technology">ICT</abbr> is operable without vision.
 - Speech is not the only mode of input for a function.
 
 ### 5.2 Activation of accessibility features
@@ -107,17 +107,17 @@ If a system has an accessibility feature it needs to be possible to activate it 
 
 ### 5.3 Biometrics
 
-ICT cannot use biological characteristics as the only means of access. For example, fingerprints cannot be the only way to unlock a mobile device.
+<abbr title="Information and communication technology">ICT</abbr> cannot use biological characteristics as the only means of access. For example, fingerprints cannot be the only way to unlock a mobile device.
 
 ### 5.4 Preservation of accessibility information during conversion
 
-When ICT converts information, it should make sure to keep all the relevant details that make the information accessible, as much as the new format allows. For example, when converting a Word document which has an image with alternative text into a PDF, the accessibility information (alt text) should be preserved.
+When <abbr title="Information and communication technology">ICT</abbr> converts information, it should make sure to keep all the relevant details that make the information accessible, as much as the new format allows. For example, when converting a Word document which has an image with alternative text into a PDF, the accessibility information (alt text) should be preserved.
 
 ### 5.5 Operable parts
 
-Operable parts are interactive parts of ICT to activate, deactivate or adjust the ICT. They can be provided in either hardware (a physical knob) or software (a button on a touch screen). Note that operable parts exclude parts involved only in maintenance or repair.
+Operable parts are interactive parts of <abbr title="Information and communication technology">ICT</abbr> to activate, deactivate or adjust the <abbr title="Information and communication technology">ICT</abbr>. They can be provided in either hardware (a physical knob) or software (a button on a touch screen). Note that operable parts exclude parts involved only in maintenance or repair.
 
-ICT with operable parts must:
+<abbr title="Information and communication technology">ICT</abbr> with operable parts must:
 
 - not require pinching, grasping, or twisting of the wrist as the only way to operate. For example, adjusting the temperature by rotating a dial on a touch screen has the alternative of pressing up and down buttons on the touch screen to adjust the temperature.
 - be discernable without requiring vision. For example, the raised tactile marker on a button to convey the information to someone who cannot visually see the button.
@@ -128,7 +128,7 @@ Locking or toggle controls such as a caps lock key on the keyboard can have thei
 
 ### 5.7 Key repeat
 
-Where ICT has a key repeat function (i.e., a function that repeats a key input multiple times), that cannot be turned off, the following two requirements must be met:
+Where <abbr title="Information and communication technology">ICT</abbr> has a key repeat function (i.e., a function that repeats a key input multiple times), that cannot be turned off, the following two requirements must be met:
 
 - The delay before the input is repeated must be adjustable to at least 2 seconds, and
 - the rate that the input is repeated must be adjustable down to 1 character per 2 seconds.
@@ -137,15 +137,15 @@ For example, this would apply to a standard keyboard when you hold down one of t
 
 ### 5.8 Double-strike key acceptance
 
-Where ICT has a keyboard or keypad, the time in which a consecutive key press of the same key is not registered is adjustable up to 0.5 seconds.
+Where <abbr title="Information and communication technology">ICT</abbr> has a keyboard or keypad, the time in which a consecutive key press of the same key is not registered is adjustable up to 0.5 seconds.
 
 ### 5.9 Simultaneous user actions
 
-This section requires that a user does not have to perform simultaneous actions to use the ICT. Examples of simultaneous user actions would be using two hands to open a laptop lid, having to hold down two keys at once, or having to touch a touchscreen with more than one finger.
+This section requires that a user does not have to perform simultaneous actions to use the <abbr title="Information and communication technology">ICT</abbr>. Examples of simultaneous user actions would be using two hands to open a laptop lid, having to hold down two keys at once, or having to touch a touchscreen with more than one finger.
 
-## 6 ICT with two-way voice communication
+## 6 <abbr title="Information and communication technology">ICT</abbr> with two-way voice communication
 
-Clause 6 is focused on ICT which contains two-way audio communication such as a phone call or video call that includes audio.
+Clause 6 is focused on <abbr title="Information and communication technology">ICT</abbr> which contains two-way audio communication such as a phone call or video call that includes audio.
 
 ### 6.1 Audio bandwidth for speech
 
@@ -153,7 +153,7 @@ This is a single clause which states that a call must be able to meet specific m
 
 ### 6.2 Real-Time Text (RTT) functionality
 
-This set of clauses outlines that where the ICT provides two-way voice communication, RTT functionality needs to be provided in systems where it is feasible to do so. For example, this would not require the addition of hardware to ICT in order to enable this functionality. It also outlines specific requirements such as how the RTT should be displayed, interoperability with existing telecommunications technologies and how responsive the RTT is.
+This set of clauses outlines that where the <abbr title="Information and communication technology">ICT</abbr> provides two-way voice communication, RTT functionality needs to be provided in systems where it is feasible to do so. For example, this would not require the addition of hardware to <abbr title="Information and communication technology">ICT</abbr> in order to enable this functionality. It also outlines specific requirements such as how the <abbr title="Real-Time Text">RTT</abbr> should be displayed, interoperability with existing telecommunications technologies and how responsive the RTT is.
 
 ### 6.3 Caller ID
 
@@ -165,19 +165,19 @@ This clause requires that for voice-based services (such as a phone system) ther
 
 ### 6.5 Video Communication
 
-This set of clauses provides requirements for ICT which has two-way audio communication that also contains two-way video communication. It outlines minimum requirements around resolution, frame rate, audio/video synchronization, and indication of audio and sign-language activity.
+This set of clauses provides requirements for <abbr title="Information and communication technology">ICT</abbr> which has two-way audio communication that also contains two-way video communication. It outlines minimum requirements around resolution, frame rate, audio/video synchronization, and indication of audio and sign-language activity.
 
 ### 6.6 Alternatives to video-based services
 
-This clause is specific to ICT with video communication features which also offers answering machine, auto attendant or interactive response facilities. It stipulates that alternatives exist for audio, features which use speech, or visual content.
+This clause is specific to <abbr title="Information and communication technology">ICT</abbr> with video communication features which also offers answering machine, auto attendant or interactive response facilities. It stipulates that alternatives exist for audio, features which use speech, or visual content.
 
-## 7 ICT with video capabilities
+## 7 <abbr title="Information and communication technology">ICT</abbr> with video capabilities
 
-This clause applies to ICT which contains video capabilities, and generally provides requirements related to captioning (such as closed captioning) and audio descriptions.
+This clause applies to <abbr title="Information and communication technology">ICT</abbr> which contains video capabilities, and generally provides requirements related to captioning (such as closed captioning) and audio descriptions.
 
 ### 7.1 Caption processing technology
 
-This set of clauses indicates that ICT should have the ability to display captions when audio and video are synchronized, captions should be synchronized with the video, captions should be customizable, and have a spoken output option. Furthermore, when video is transmitted, converted or recorded, it preserves captioning.
+This set of clauses indicates that <abbr title="Information and communication technology">ICT</abbr> should have the ability to display captions when audio and video are synchronized, captions should be synchronized with the video, captions should be customizable, and have a spoken output option. Furthermore, when video is transmitted, converted or recorded, it preserves captioning.
 
 ### 7.2 Audio description technology
 
@@ -185,7 +185,7 @@ This set of clauses indicates requirements around being able to play audio descr
 
 ### 7.3 User controls for captions and audio description
 
-This clause is applicable to ICT that has the main purpose of playing audio/video content. It requires that the controls for captioning and audio descriptions are as immediately available as the primary controls (for example, the play/pause buttons).
+This clause is applicable to <abbr title="Information and communication technology">ICT</abbr> that has the main purpose of playing audio/video content. It requires that the controls for captioning and audio descriptions are as immediately available as the primary controls (for example, the play/pause buttons).
 
 ## 8 Hardware
 
@@ -197,20 +197,20 @@ This section references that the generic requirements from [clause 5](#5-generic
 
 This section covers requirements which apply to hardware that have speech output and includes specific requirements around volume range, volume increments, and magnetic coupling of wired and wireless devices to work with hearing enhancement technology.
 
-### 8.3 Stationary ICT
+### 8.3 Stationary <abbr title="Information and communication technology">ICT</abbr>
 
-This section is specific to ICT that is built into the physical environment, such as a kiosk for buying a movie ticket. While this is only applicable to ICT which is physically located in the environment, it does not directly set out requirements for where the ICT is located, only that there is sufficient ability to access it. Some of the key requirements from this section:
+This section is specific to <abbr title="Information and communication technology">ICT</abbr> that is built into the physical environment, such as a kiosk for buying a movie ticket. While this is only applicable to <abbr title="Information and communication technology">ICT</abbr> which is physically located in the environment, it does not directly set out requirements for where the <abbr title="Information and communication technology">ICT</abbr> is located, only that there is sufficient ability to access it. Some of the key requirements from this section:
 
 - Controls are physically located in positions which can be reached by everyone (not too high, low or far).
 - Sufficient space exists for knee and toe clearance (especially applicable to people who use a wheelchair).
-- Appropriate ramps exist whenever there is a change in floor level or height which is required to access the ICT.
-- There exists sufficient space around the ICT for everyone to be able to operate it.
-- When ICT contains a display screen, it should be visible to a person sitting in a wheelchair.
-- Installation instructions are provided with the ICT which allows it to be installed accessibly into the physical environment.
+- Appropriate ramps exist whenever there is a change in floor level or height which is required to access the <abbr title="Information and communication technology">ICT</abbr>.
+- There exists sufficient space around the <abbr title="Information and communication technology">ICT</abbr> for everyone to be able to operate it.
+- When <abbr title="Information and communication technology">ICT</abbr> contains a display screen, it should be visible to a person sitting in a wheelchair.
+- Installation instructions are provided with the <abbr title="Information and communication technology">ICT</abbr> which allows it to be installed accessibly into the physical environment.
 
 ### 8.4 Mechanically operable parts
 
-This section outlines requirements for ICT which has controls such as buttons, keys, knobs, etc. The high-level requirements cover:
+This section outlines requirements for <abbr title="Information and communication technology">ICT</abbr> which has controls such as buttons, keys, knobs, etc. The high-level requirements cover:
 
 - Number pads have a tactile indicator on the “5” key
 - Controls that require grasping, pinching or twisting the wrist have accessible alternatives
@@ -225,7 +225,7 @@ This clause indicates that there should be a tactile indication of the way to ac
 
 ### 9.1 to 9.4 – Perceivable, Operable, Understandable and Robust
 
-The first 4 sections of clause 9 requirements are the same as Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 at level A and AA. For more information on <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> you can review it on the W3C [<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 website](https://www.w3.org/TR/WCAG21/).
+The first 4 sections of clause 9 requirements are the same as Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 at level A and AA. For more information on <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> you can review it on the [Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1](https://www.w3.org/TR/WCAG21/)on the World Wide Web Consortium (<abbr>W3C</abbr>) website..
 
 ### 9.5 <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 AAA Success Criteria
 
@@ -243,7 +243,7 @@ This clause indicates that all web pages must meet the following five conformanc
 
 ## 10 Non-web documents
 
-This section outlines the requirements specific to non-web documents such as Word, Excel, PowerPoint, email, PDF, pictures, or video or similar documents that are not embedded in a web page, or are downloadable. These requirements apply to all documents regardless of where they originate (such as those created in a word processor or generated by a web-based reporting tool).
+This section outlines the requirements specific to non-web documents such as Word, Excel, PowerPoint, email, <abbr title="Portable Document Format">PDF</abbr>, pictures, or video or similar documents that are not embedded in a web page, or are downloadable. These requirements apply to all documents regardless of where they originate (such as those created in a word processor or generated by a web-based reporting tool).
 
 ### 10.1 to 10.4 – Perceivable, Operable, Understandable, and Robust
 
@@ -255,7 +255,7 @@ This clause provides the requirement that where a non-web document is or contain
 
 ### 10.6 Audio description timing
 
-This clause indicates that when ICT is or contains video or audio that is synchronized with a second format for presenting information, and also has an audio description, the audio description must not interfere with the audio.
+This clause indicates that when <abbr title="Information and communication technology">ICT</abbr> is or contains video or audio that is synchronized with a second format for presenting information, and also has an audio description, the audio description must not interfere with the audio.
 
 ## 11 Software
 
@@ -277,7 +277,7 @@ The first 4 subsections of the software section are an adaptation of <abbr title
 
 This section of the software requirements contains a number of clauses focused on platforms providing adequate accessibility support, applications that run on the platform use the accessibility services, and that the services are documented. It also provides specific clauses for the types of information which software needs to provide to assistive technologies in a programmatic way. Furthermore, it provides specific clauses for the types of actions and modifications which software must allow these assistive technologies to perform, when permitted by security requirements. These clauses allow technologies such as a screen reader to understand the interface content and be able to present it to the user, as well as interact and modify said content.
 
-In addition to platforms themselves, if the ICT is a form of assistive technology, it must also use the documented accessibility services, where possible.
+In addition to platforms themselves, if the <abbr title="Information and communication technology">ICT</abbr> is a form of assistive technology, it must also use the documented accessibility services, where possible.
 
 The above requirements do not apply to the closed functionality of software that conforms to clause 5.1.
 
@@ -302,7 +302,7 @@ This set of clauses is applicable to both web and non-web authoring tools and is
 
 ### 12.1 Product documentation
 
-This set of clauses indicates that the ICTs documentation provided should list and include information about how to use any accessibility features it contains, and requires that the documentation itself conforms to either clause 9 (Web documents) or clause 10 (Non-web documents).
+This set of clauses indicates that the <abbr title="Information and communication technology">ICT</abbr>s documentation provided should list and include information about how to use any accessibility features it contains, and requires that the documentation itself conforms to either clause 9 (Web documents) or clause 10 (Non-web documents).
 
 ### 12.2 Support services
 
@@ -316,7 +316,7 @@ This set of clauses is primarily for, but not limited to:
 
 It requires that support services can provide information on any documented accessibility services or features and will communicate in a way that meets the needs of the user. Additionally, any documentation provided by support services must be available in a web format that conforms to clause 9 (Web documents) or a non-web format that conforms to clause 10 (Non-web documents).
 
-## 13 ICT providing relay or emergency service access
+## 13 <abbr title="Information and communication technology">ICT</abbr> providing relay or emergency service access
 
 ### 13.1 Relay services requirements
 
@@ -324,23 +324,23 @@ These clauses outline the requirements for relay services, which are meant to ac
 
 ### 13.2 Access to relay services
 
-This clause requires that when ICT supporting two-way communication is intended for use with relay services, access to those services is not blocked.
+This clause requires that when <abbr title="Information and communication technology">ICT</abbr> supporting two-way communication is intended for use with relay services, access to those services is not blocked.
 
 ### 13.3 Access to emergency services
 
-This clause requires that when ICT supporting two-way communication is intended for use with emergency services, access to those services is not blocked.
+This clause requires that when <abbr title="Information and communication technology">ICT</abbr> supporting two-way communication is intended for use with emergency services, access to those services is not blocked.
 
 ## 14 Conformance
 
-This section of the EN 301 549 outlines how this standard should be understood and how ICT can meet it. The high-level information is:
+This section of the EN 301 549 outlines how this standard should be understood and how <abbr title="Information and communication technology">ICT</abbr> can meet it. The high-level information is:
 
-- To meet the standard, ICT must meet all the clauses (as written in the full EN 301 549 standard) which use “shall”, while the clauses that use “should” are recommendations. This technical summary does not use these terms in this regard, and cannot be relied upon for conformance with the EN 301 549 standard.
-- Except for clause 12, all clauses indicate what type or functionality of ICT they apply to.
+- To meet the standard, <abbr title="Information and communication technology">ICT</abbr> must meet all the clauses (as written in the full EN 301 549 standard) which use “shall”, while the clauses that use “should” are recommendations. This technical summary does not use these terms in this regard, and cannot be relied upon for conformance with the EN 301 549 standard.
+- Except for clause 12, all clauses indicate what type or functionality of <abbr title="Information and communication technology">ICT</abbr> they apply to.
 - Clauses which are not applicable do not have to be met to reach full conformance.
-- ICT is often comprised of two or more items of ICT. These items together can complement each other and meet the accessibility requirements when combined. However, if the items all fail any given requirement, then the combined ICT does not meet that requirement.
+- <abbr title="Information and communication technology">ICT</abbr> is often comprised of two or more items of <abbr title="Information and communication technology">ICT</abbr>. These items together can complement each other and meet the accessibility requirements when combined. However, if the items all fail any given requirement, then the combined <abbr title="Information and communication technology">ICT</abbr> does not meet that requirement.
 - No priority is given to one clause over another.
 - No specific sampling methodologies are provided by this standard.
-- The EN 301 549 does not apply when ICT is not working as intended (e.g. is broken), is currently under maintenance, or is in transitional state (such as startup or shutdown) which does not require user interaction. If it is safe to do so, the EN 301 549 encourages ICT to try and meet any requirements they can under these conditions.
+- The EN 301 549 does not apply when <abbr title="Information and communication technology">ICT</abbr> is not working as intended (e.g. is broken), is currently under maintenance, or is in transitional state (such as startup or shutdown) which does not require user interaction. If it is safe to do so, the EN 301 549 encourages <abbr title="Information and communication technology">ICT</abbr> to try and meet any requirements they can under these conditions.
 
 ## Other Annexes in the EN 301 549
 
