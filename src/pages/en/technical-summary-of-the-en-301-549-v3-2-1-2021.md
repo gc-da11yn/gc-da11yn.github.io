@@ -7,6 +7,27 @@ subject:
 tags:
   - procurement
 ---
+
+<div class="row">
+	<div class="col-sm-6">
+		<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/SSC_Technical_Summary_of_the_EN_301_549_v3.2.1_(2021)_30May2024_EN.docx" download="{{ title | stripTagsSlugify }}">
+			<div class="well gc-dwnld">
+				<div class="row">
+					<div class="col-xs-4">
+						<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
+					</div>
+					<div class="col-xs-8">
+						<p class="gc-dwnld-txt">
+							<span>{{ title }}</span>
+							<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Document Microsoft Word">Word</abbr>, 78 <abbr title="KiloByte">KB</abbr>)</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
 ## About this document and Copyright Notice
 
 This document was prepared by the Government of Canada’s (<abbr>GC</abbr>) Shared Services Canada’s (<abbr>SSC</abbr>) Accessibility, Accommodations and Adaptive Computer Technology (<abbr>AAACT</abbr>) team and a small <abbr title="Government of Canada">GC</abbr> working group including membership from the Government of Canada (Shared Services Canada, Canada Revenue Agency, Canada School of Public Service).

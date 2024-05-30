@@ -8,6 +8,26 @@ tags:
   - procurement
 ---
 
+<div class="row">
+	<div class="col-sm-6">
+		<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/SPC_Resume_technique_de_la_norme_EN_301_549__v3.2.1_(2021)_30mai2024_FR.docx" download="{{ title | stripTagsSlugify }}">
+			<div class="well gc-dwnld">
+				<div class="row">
+					<div class="col-xs-4">
+						<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
+					</div>
+					<div class="col-xs-8">
+						<p class="gc-dwnld-txt">
+							<span>{{ title }}</span>
+							<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Document Microsoft Word">Word</abbr>, 74 <abbr title="kilo-octet">ko</abbr>)</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
 ## À propos du présent document et avis de droit d’auteur
 
 Le présent document a été préparé par l’équipe du Programme d’accessibilité, d’adaptation et de technologie informatique adaptée (AATIA) de Services partagés Canada (SPC) du gouvernement du Canada (GC) et par un petit groupe de travail du GC comprenant des membres du gouvernement du Canada (Services partagés Canada, Agence du revenu du Canada, École de la fonction publique du Canada).
