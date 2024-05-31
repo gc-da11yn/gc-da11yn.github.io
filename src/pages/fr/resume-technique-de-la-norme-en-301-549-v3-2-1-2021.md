@@ -10,7 +10,7 @@ tags:
 
 <div class="row">
 	<div class="col-sm-6">
-		<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/SPC_Resume_technique_de_la_norme_EN_301_549__v3.2.1_(2021)_30mai2024_FR.docx" download="{{ title | stripTagsSlugify }}">
+		<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/SPC_Resume_technique_de_la_norme_EN_301_549_v3.2.1_(2021)_31mai2024_FR.docx" download="{{ title | stripTagsSlugify }}">
 			<div class="well gc-dwnld">
 				<div class="row">
 					<div class="col-xs-4">
