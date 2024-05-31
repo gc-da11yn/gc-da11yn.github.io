@@ -346,9 +346,9 @@ This section of the EN 301 549 outlines how this standard should be understood a
 
 Refer to the EN 301 549 for further information on:
 
-- Annex A (informative): Relationship between the present document and the essential requirements of Directive 2016/21
-- Annex B (informative): Relationship between requirements and functional performance statements
-- Annex C (normative): Determination of conformance
-- Annex D (informative): Further resources for cognitive accessibility
-- Annex E (informative): Guidance for users of the present document
-- Annex F (informative): Change history
+- [Annex A (informative): Relationship between the present document and the essential requirements of Directive 2016/21](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=89)
+- [Annex B (informative): Relationship between requirements and functional performance statements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=105)
+- [Annex C (normative): Determination of conformance](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=115)
+- [Annex D (informative): Further resources for cognitive accessibility](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=181)
+- [Annex E (informative): Guidance for users of the present document](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=182)
+- [Annex F (informative): Change history](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=185)

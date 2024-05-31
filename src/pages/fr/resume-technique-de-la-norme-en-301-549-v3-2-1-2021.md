@@ -225,7 +225,7 @@ Cette clause indique qu’il devrait y avoir une indication tactile de la maniè
 
 ### 9.1 à 9.4 – Perceptible, utilisable, compréhensible et robuste
 
-Les quatre premières sections des exigences de la clause 9 sont identiques aux <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 des niveaux A et AA. Pour plus d’informations sur les <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr>, consulter les [Règles pour l’accessibilité des contenus Web (<abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr>) 2.1](https://www.w3.org/Translations/WCAG21-fr/) du W3C.
+Les quatre premières sections des exigences de la clause 9 sont identiques aux Règles pour l’accessibilité des contenus Web 2.1 des niveaux A et AA. Pour plus d’informations sur les <span lang="en">Web Content Accessibility Guidelines <abbr>(WCAG)</abbr></span>, consulter les [Règles pour l’accessibilité des contenus Web (<abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr>) 2.1](https://www.w3.org/Translations/WCAG21-fr/) sur le site du <span lang="en">World Wide Web Consortium (<abbr>W3C</abbr>)</span>.
 
 ### 9.5 Critères de succès de niveau AAA des <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1
 
@@ -346,9 +346,9 @@ Cette section de la norme EN 301 549 décrit comment cette norme devrait être c
 
 Consulter la norme EN 301 549 pour de plus amples renseignements sur ce qui suit :
 
-- Annexe A (informative) : Relation entre le présent document et les exigences essentielles de la directive 2016/21
-- Annexe B (informative) : Relation entre les exigences et les déclarations de rendement fonctionnel
-- Annexe C (normative) : Détermination de la conformité
-- Annexe D (informative) : Autres ressources pour l’accessibilité cognitive
-- Annexe E (informative) : Conseils aux utilisateurs du présent document
-- Annexe F (informative) : Historique des modifications
+- [Annexe A (informative) : Relation entre le présent document et les exigences essentielles de la directive 2016/21](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=89)
+- [Annexe B (informative) : Relation entre les exigences et les déclarations de rendement fonctionnel](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=105)
+- [Annexe C (normative) : Détermination de la conformité](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=115)
+- [Annexe D (informative) : Autres ressources pour l’accessibilité cognitive](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=181)
+- [Annexe E (informative) : Conseils aux utilisateurs du présent document](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=182)
+- [Annexe F (informative) : Historique des modifications](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=185)
