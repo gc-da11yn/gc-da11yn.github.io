@@ -15,7 +15,7 @@ toggle: deficiences-auditives
 - <a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
 - [Designing for users of screen readers (HTML)]({{ rootPath }}en/designing-for-users-of-screen-readers/)
 
-## deafness
+## Deafness
 
 <dl>
 <dt>Definition:</dt>
