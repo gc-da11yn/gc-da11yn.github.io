@@ -30,12 +30,12 @@ internalLinks: true
 <td>Development</td>
 </tr>
 <tr>
-<td><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">Centrally Deployed Templates Solution (CDTS)</a></td>
+<td><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">Centrally Deployed Templates Solution (<abbr>CDTS</abbr>)</a></td>
 <td>The purpose of the <abbr title="Centrally Deployed Templates Solution">CDTS</abbr> is essentially to deliver the presentation layer of the Canada.ca theme or Intranet.canada.ca theme to web assets.</td>
 <td>Development</td>
 </tr>
 <tr>
-<td><a href="https://wet-boew.github.io/v4.0-ci/index-en.html" >Web Experience Toolkit (WET)</a></td>
+<td><a href="https://wet-boew.github.io/v4.0-ci/index-en.html" >Web Experience Toolkit (<abbr>WET</abbr>)</a></td>
 <td>An award-winning front-end framework for building websites that are accessible, usable, interoperable, mobile friendly and multilingual</td>
 <td>Development</td>
 </tr>
@@ -96,7 +96,7 @@ internalLinks: true
 </tr>
 <tr>
 <td><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32620">Guideline on Making Information Technology Usable by All</a></td>
-<td>This guideline supports the Government of Canada’s direction to ensure that departments, agencies and organizations consider accessibility in the acquisition or development of information technology (IT) solutions and equipment to make IT usable by all.</td>
+<td>This guideline supports the Government of Canada’s direction to ensure that departments, agencies and organizations consider accessibility in the acquisition or development of information technology (<abbr>IT</abbr>) solutions and equipment to make IT usable by all.</td>
 <td>Policy</td>
 </tr>
 <tr>
@@ -156,7 +156,7 @@ internalLinks: true
 </tr>
 <tr>
 <td><a href="https://wet-boew.github.io/v4.0-ci/demos/wamethod/wamethod-AA-en.html">Web Accessibility Assessment Methodology (Level AA)</a></td>
-<td>Assist with measuring conformance to the Web Content Accessibility Guidelines (WCAG) 2.1 Level A and Level AA Success Criteria</td>
+<td>Assist with measuring conformance to the Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 Level A and Level AA Success Criteria</td>
 <td>Development</td>
 </tr>
 <tr>

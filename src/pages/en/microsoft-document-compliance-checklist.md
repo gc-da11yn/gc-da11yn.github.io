@@ -104,7 +104,7 @@ If you answer ‘No’ to one of the following questions, then your document IS 
 ## H. Other elements
 
 <ul class="list-unstyled mrgn-tp-lg mrgn-lft-lg">
-    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>H1 (1.3.1) &ndash; Is the table of contents (TOC) generated with the built in office styles? </li>
+    <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>H1 (1.3.1) &ndash; Is the table of contents (<abbr>TOC</abbr>) generated with the built in office styles? </li>
     <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>H2 (1.3.1) &ndash; Are citations and footnotes/endnotes created with the built in office styles?</li>
     <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>H3 (3.1.2) &ndash; Is the language properly set for foreign words or phrases?</li>
     <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>H4 (1.3.1) &ndash; Is information in the header, footer, watermark, speaker notes, etc. available in the main body of the document (except page numbering)?</li>

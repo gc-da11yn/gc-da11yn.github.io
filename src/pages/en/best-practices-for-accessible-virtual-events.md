@@ -325,7 +325,7 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/) 
 - Captions and transcript need to be provided
   - Many video creating services like [Microsoft Stream](https://support.microsoft.com/en-us/office/view-edit-and-manage-video-transcripts-and-captions-3cb9acb6-05b2-4f59-a50d-7df61123aa20) and [YouTube Studio](https://support.google.com/youtube/answer/2734796?hl=en) have functionalities for autogenerating captions and transcripts, before distributing these to your participants, please ensure their accuracy
 - The audio track needs to describe all the meaningful content on screen, and when needed, an audio description should be added
-  - For example: If a user shows how to use a user interface (UI) by sharing their screen they must explain what they are doing for non-visual users to follow, if that is not done, an audio description must be added if the recording is shared
+  - For example: If a user shows how to use a user interface (<abbr>UI</abbr>) by sharing their screen they must explain what they are doing for non-visual users to follow, if that is not done, an audio description must be added if the recording is shared
 - Ensure the video has a pause/play/stop functionality
 
 #### Send invitations to attendees

@@ -15,7 +15,7 @@ toggle: deficiences-auditives
 - <a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
 - [Designing for users of screen readers (HTML)]({{ rootPath }}en/designing-for-users-of-screen-readers/)
 
-## Deafness
+## deafness
 
 <dl>
 <dt>Definition:</dt>
@@ -28,9 +28,9 @@ toggle: deficiences-auditives
 
 <dl>
 <dt>Definition:</dt>
-<dd>Hard of hearing (HOH) refers to people with hearing loss ranging from mild to severe, who still have some useful hearing, and may communicate through sign language, spoken language, or both, understand spoken language in some situations, with or without amplification. Most HOH people can use the phone and use hearing aids.</dd>
+<dd>Hard of hearing (<abbr>HOH</abbr>) refers to people with hearing loss ranging from mild to severe, who still have some useful hearing, and may communicate through sign language, spoken language, or both, understand spoken language in some situations, with or without amplification. Most HOH people can use the phone and use hearing aids.</dd>
 <dt>Characteristics:</dt>
-<dd>Individuals who are hard of hearing have partially-impaired hearing in one or both ears, resulting in a mild-to-moderate hearing loss. There may be enough residual hearing that an auditory device, such as a hearing aid or frequency modulation (FM) system, provides sufficient assistance to process speech. A person who hard of hearing has difficulty with sounds, including the audio part of multimedia materials.</dd>
+<dd>Individuals who are hard of hearing have partially-impaired hearing in one or both ears, resulting in a mild-to-moderate hearing loss. There may be enough residual hearing that an auditory device, such as a hearing aid or frequency modulation (<abbr>FM</abbr>) system, provides sufficient assistance to process speech. A person who hard of hearing has difficulty with sounds, including the audio part of multimedia materials.</dd>
 </dl>
 
 ## Central Auditory Processing Disorder
@@ -41,7 +41,7 @@ toggle: deficiences-auditives
 
 According to the American Speech-Language-Hearing Association:
 
-- Auditory processing disorder (APD) is often described as greater than expected difficulty hearing and understanding speech even though no measurable hearing loss exists. Individuals with auditory processing disorders may act as though a hearing loss is present when in fact, hearing sensitivity is often within normal limits. APD is often confused with other disorders such as as Attention-Deficit Hyperactivity Disorder (ADHD), language impairment, learning disabilities, social and emotional delays or cognitive deficits.
+- Auditory processing disorder (<abbr>APD</abbr>) is often described as greater than expected difficulty hearing and understanding speech even though no measurable hearing loss exists. Individuals with auditory processing disorders may act as though a hearing loss is present when in fact, hearing sensitivity is often within normal limits. APD is often confused with other disorders such as as Attention-Deficit Hyperactivity Disorder (<abbr>ADHD</abbr>), language impairment, learning disabilities, social and emotional delays or cognitive deficits.
 - <abbr title="Auditory processing disorder">APD</abbr> isn’t the inability to hear. It is the inability to interpret, organize, or analyze what is heard. All the parts of the hearing pathway are working well. But parts of the brain are not.
 
 </dd>
@@ -100,7 +100,7 @@ Here are some commonly used products and strategies:
 - Sign language interpretation
 - Teletype
 - Live captions during meetings and phone calls
-- For example, Communication Access Real-Time Transcription (CART)
+- For example, Communication Access Real-Time Transcription (<abbr>CART</abbr>)
 - Captions for videos
 - Transcripts for video or audio
 - Audio controls
@@ -110,6 +110,6 @@ Here are some commonly used products and strategies:
 - Hearing aids
 - Cochlear implants
 - Voice carryover
-- Frequency Modulation (FM) systems
+- Frequency Modulation (<abbr>FM</abbr>) systems
 - Infrared systems
 - Audio Induction Loop systems

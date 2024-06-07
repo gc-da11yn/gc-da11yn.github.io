@@ -65,7 +65,7 @@ We believe it is important to account for a wide range of human experiences. Thi
 <dt>Age</dt>
 <dd>52</dd>
 <dt>Job</dt>
-<dd>User Experience (UX).</dd>
+<dd>User Experience (<abbr>UX</abbr>).</dd>
 <dt>Commonly used sites</dt>
 <dd>IAAP, CSPS.</dd>
 <dt>Disability:</dt>
@@ -180,7 +180,7 @@ Category: Vision Enhancements
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
 
 - Requires access to web and document accessibility guidelines when conducting tests.
-- Adequate testing time for Information and communications technology (ICT) accessibility in the GC.
+- Adequate testing time for Information and communications technology (<abbr>ICT</abbr>) accessibility in the GC.
 - Digital files to be available in accessible formats.
 
 </div>

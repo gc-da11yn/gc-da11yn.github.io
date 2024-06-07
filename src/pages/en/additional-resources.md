@@ -21,7 +21,7 @@ internalLinks: true
 
 Virtual meetings and events come in various formats and sizes – from small workshops with participants who know each other to large public meetings you are planning. It is critical to ensure meetings and events are fully accessible, from accessing them, to the presentations. By planning ahead, you can build accessibility into all aspects of the meeting. This will allow everyone to participate fully, including people with disabilities.
 
-In order to assist you in offering a fully accessible virtual meeting/event, whether it is a training session, a meeting, a kiosk or an open-door event, the IT Accessibility Office (ITAO) has gathered the most relevant information on the subject.
+In order to assist you in offering a fully accessible virtual meeting/event, whether it is a training session, a meeting, a kiosk or an open-door event, the IT Accessibility Office (<abbr>ITAO</abbr>) has gathered the most relevant information on the subject.
 
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
@@ -49,7 +49,7 @@ This page contains an overview of the many accessibility features that make sure
 
 ### [CART services and Sign Language Interpreters (SLI)](https://bati-itao.github.io/resources/CART-services-Sign-Language-Interpreters-en.html)
 
-The most common accommodations for meetings or events are Communication Access Realtime Translation (CART) and interpretation services.
+The most common accommodations for meetings or events are Communication Access Realtime Translation (<abbr>CART</abbr>) and interpretation services.
 
 </div>
 <div class="col-md-6">
@@ -70,7 +70,7 @@ This job aid provides best practices on how to plan accessible and inclusive vir
 
 ### [Planning Inclusive and Accessible Events – A Handbook for Federal Public Servants<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-eng.asp) from the Office for Disability Issues at ESDC (In-person meeting)
 
-Office for Disability Issues (ODI) is proud to present this handbook to colleagues across the Government of Canada to provide guidance on planning inclusive and accessible events.
+Office for Disability Issues (<abbr>ODI</abbr>) is proud to present this handbook to colleagues across the Government of Canada to provide guidance on planning inclusive and accessible events.
 
 </div>
 <div class="col-md-6">
@@ -132,21 +132,21 @@ Check if your code will work with assistive technologies.
 
 ### [Centrally Deployed Templates Solution (CDTS)](https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html)
 
-The purpose of the CDTS is essentially to deliver the presentation layer of the Canada.ca theme or Intranet.canada.ca theme to web assets.
+The purpose of the Centrally Deployed Templates Solution (<abbr>CDTS</abbr> is essentially to deliver the presentation layer of the Canada.ca theme or Intranet.canada.ca theme to web assets.
 
 </div>
 <div class="col-md-6">
 
 ### [How to Meet WCAG (Quickref Reference) (w3.org)](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=1413%2C211)
 
-A customizable quick reference to Web Content Accessibility Guidelines (WCAG) 2 requirements (success criteria) and techniques.
+A customizable quick reference to Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2 requirements (success criteria) and techniques.
 
 </div>
 <div class="col-md-6">
 
 ### [Web Accessibility Assessment Methodology (Level AA)](https://wet-boew.github.io/v4.0-ci/demos/wamethod/wamethod-AA-en.html)
 
-Assist with measuring conformance to the Web Content Accessibility Guidelines (WCAG) 2.1 Level A and Level AA Success Criteria
+Assist with measuring conformance to the Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 Level A and Level AA Success Criteria
 
 </div>
 <div class="col-md-6">
@@ -358,7 +358,7 @@ This guideline supports the Government of Canada’s direction to ensure that de
 
 ### [Web Content Accessibility Guidelines (WCAG) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/)
 
-Web Content Accessibility Guidelines (WCAG) 2.1 covers a wide range of recommendations for making Web content more accessible. Following these guidelines will also often make Web content more usable to users in general.
+Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 covers a wide range of recommendations for making Web content more accessible. Following these guidelines will also often make Web content more usable to users in general.
 
 </div>
 </div>

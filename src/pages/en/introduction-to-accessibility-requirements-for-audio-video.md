@@ -54,7 +54,7 @@ Videos with audio require synchronized captioning (where the text aligns with th
 
 Most “closed captions” can be hidden or shown by people watching the video. They can also be “open captions” that are always displayed and cannot be turned off.
 
-Open captions are recommended at the top of American Sign Language (ASL) and Langue des Signes Québécoise (LSQ) videos.
+Open captions are recommended at the top of American Sign Language (<abbr>ASL</abbr>) and Langue des Signes Québécoise (<abbr>LSQ</abbr>) videos.
 
 **Anything said or heard in the video must be included in the captioning.** It is important that captions are:
 

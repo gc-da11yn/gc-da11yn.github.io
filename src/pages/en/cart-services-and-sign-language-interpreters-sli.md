@@ -1,6 +1,6 @@
 ---
 title: CART Services and Sign Language Interpreters
-description: The most common accommodations for meetings or events are computer-assisted real-time translation (CART) and sign language interpretation services (SLI).
+description: The most common accommodations for meetings or events are computer-assisted real-time translation (CART) and sign language interpretation services (<abbr>SLI</abbr>).
 internalLinks: true
 toggle: services-cart-et-interpretes-en-langue-des-signes-sli
 subject:
@@ -9,7 +9,7 @@ tags:
   - accessibleVirtualEvents
 ---
 
-Important to consider that people who are culturally Deaf, may prefer to have sign language interpreters because their first language is likely American Sign Language (ASL – English) or Langue des signes québécoise (LSQ), but do not assume this. Ask them what their preferred accommodation would be. Indeed, there are people who have become deaf later in life and have not learned to communicate by ASL or LSQ.
+Important to consider that people who are culturally deaf, may prefer to have sign language interpreters because their first language is likely American Sign Language (<abbr>ASL</abbr> – English) or Langue des signes québécoise (<abbr>LSQ</abbr>), but do not assume this. Ask them what their preferred accommodation would be. Indeed, there are people who have become deaf later in life and have not learned to communicate by ASL or LSQ.
 
 ## Communication Access Real-Time (CART)
 

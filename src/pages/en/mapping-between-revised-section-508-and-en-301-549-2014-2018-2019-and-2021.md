@@ -34,7 +34,7 @@ The intended audience is Technical and Contracting Authorities within SSC and th
 
 ## Background
 
-This document deals with technical standards for ICT accessibility. The most common standards are the Web Content Accessibility Guidelines (WCAG), Revised Section 508 and EN 301 549 Harmonized European Standard for ICT Accessibility.
+This document deals with technical standards for ICT accessibility. The most common standards are the Web Content Accessibility Guidelines (<abbr>WCAG</abbr>), Revised Section 508 and EN 301 549 Harmonized European Standard for ICT Accessibility.
 
 The Revised Section 508 (2017) provides the technical standard for the US government to procure accessible products and services. This standard is, by design, closely harmonized with the EN 301 549 (2014) – which drew its requirements largely from the original Section 508 standards and WCAG 2.0. Consequently, these standards are very similar but do contain key differences. The EN 301 549 has been updated four times since the release of the Revised Section 508, introducing further differences between the standards.
 
@@ -42,7 +42,7 @@ The Revised Section 508 (2017) provides the technical standard for the US govern
 
 The purpose of this document is to identify the similarities and differences between Revised Section 508 and the EN 301 549 standards.
 
-As the EN 301 549 standards continue to evolve and release updates, this document shows the progression of the EN 301 549 standards from 2014 through the proceeding updates of 2018, 2019 and 2021. This information is important as the GC is moving towards adopting the EN 301 549 (2021) as its accessibility standard for ICT. The GC, as part of the solicitation process, may ask suppliers to provide accessibility conformance reports based on the Voluntary Product Accessibility Template (VPAT). Each VPAT is based on a specific technical standard – Revised Section 508, EN 301 549, or WCAG. Suppliers, technical authorities and contracting authorities need to understand the differences between these standards to ensure that the accessibility requirements are properly addressed.
+As the EN 301 549 standards continue to evolve and release updates, this document shows the progression of the EN 301 549 standards from 2014 through the proceeding updates of 2018, 2019 and 2021. This information is important as the GC is moving towards adopting the EN 301 549 (2021) as its accessibility standard for ICT. The GC, as part of the solicitation process, may ask suppliers to provide accessibility conformance reports based on the Voluntary Product Accessibility Template (<abbr>VPAT</abbr>). Each VPAT is based on a specific technical standard – Revised Section 508, EN 301 549, or WCAG. Suppliers, technical authorities and contracting authorities need to understand the differences between these standards to ensure that the accessibility requirements are properly addressed.
 
 ## Summary of differences
 

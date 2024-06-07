@@ -29,13 +29,13 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 </div>
 
 <h2>What is ICT?</h2>
-<p>Information and Communications Technology (ICT) includes hardware, software, voice communication, video capabilities and digital content (including web and non-web-based information).</p>
+<p>Information and Communications Technology (<abbr>ICT</abbr>) includes hardware, software, voice communication, video capabilities and digital content (including web and non-web-based information).</p>
 <h2>What is ICT accessibility and why is it important?</h2>
 <p>"ICT accessibility ensures that people with and without disabilities can access the same information, perform the same tasks, and receive the same services using information technology. It is the digital equivalent to accessibility in the physical environment —the curb cuts, ramps, railings, etc., of the digital age. While ICT accessibility can provide usability benefits to everyone who uses ICT, it is a vital necessity to many people with disabilities." - <a href="https://www.nascio.org/Publications/ArtMID/485/userid/4997/ArticleID/127/Accessibility-in-IT-Procurement-Part-1">NASCIO - Accessibility in IT Procurement</a></p>
 <h2>About this document and Copyright Notice</h2>
 <div>
-	<p>This document reproduces relevant ICT accessibility requirements from the EN 301 549 v3.2.1 (2021-03) Harmonised European Standard – Accessibility requirements for ICT products and services (© used under license from European Telecommunications Standards Institute 2021. © Comité Européen de Normalisation 2021. © Comité Européen de Normalisation Électrotechnique 2021. All rights reserved.), which includes the Web Content Accessibility Guidelines (WCAG) 2.1 level AA. Note, where the EN 301 549 references VOID criteria, for the purposes of this document, we have excluded the technical explanation as to why the WCAG criteria no longer apply. Refer to the EN 301 549 (hyperlink below) for this information if necessary.</p>
-	<p>Intellectual Property Rights (IPRs) essential or potentially essential to normative deliverables may have been declared to ETSI. The information pertaining to these essential IPRs, if any, is publicly available for ETSI members and non-members, and can be found in ETSI SR 000 314: "Intellectual Property Rights (IPRs); Essential, or potentially Essential, IPRs notified to ETSI in respect of ETSI standards", which is available from the ETSI Secretariat. Latest updates are available on the ETSI Web server <a href="https://ipr.etsi.org/">(https://ipr.etsi.org/)</a>. Please visit <a href="https://ipr.etsi.org/">ETSI IPR database</a> to search for any IPRs.</p>
+	<p>This document reproduces relevant ICT accessibility requirements from the EN 301 549 v3.2.1 (2021-03) Harmonised European Standard – Accessibility requirements for ICT products and services (© used under license from European Telecommunications Standards Institute 2021. © Comité Européen de Normalisation 2021. © Comité Européen de Normalisation Électrotechnique 2021. All rights reserved.), which includes the Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 level AA. Note, where the EN 301 549 references VOID criteria, for the purposes of this document, we have excluded the technical explanation as to why the WCAG criteria no longer apply. Refer to the EN 301 549 (hyperlink below) for this information if necessary.</p>
+	<p>Intellectual Property Rights (<abbr>IPRs</abbr>) essential or potentially essential to normative deliverables may have been declared to ETSI. The information pertaining to these essential IPRs, if any, is publicly available for ETSI members and non-members, and can be found in ETSI SR 000 314: "Intellectual Property Rights (<abbr>IPRs</abbr>); Essential, or potentially Essential, IPRs notified to ETSI in respect of ETSI standards", which is available from the ETSI Secretariat. Latest updates are available on the ETSI Web server <a href="https://ipr.etsi.org/">(https://ipr.etsi.org/)</a>. Please visit <a href="https://ipr.etsi.org/">ETSI IPR database</a> to search for any IPRs.</p>
 	<p>At first glance, some requirements may appear to be unrelated to this product or service. They have been included for consideration since the full feature set of a Vendor’s product or service may not be known. For example, a video may be embedded into product documentation, so accessibility requirements for video and audio may become relevant.</p>
 	<p>Appendices include definitions, references, and practical guidance on creating accessible documentation.</p>
 	<p>Internal to this document references are included but not always linked (footnotes or otherwise).</p>
@@ -1378,7 +1378,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 		</tr>
 	</tbody>
 </table>
-<h5>6.2 Real-time text (RTT) functionality</h5>
+<h5>6.2 Real-time text (<abbr>RTT</abbr>) functionality</h5>
 <table class="table table-bordered table-striped">
 	<caption>6.2.1 RTT provision</caption>
 	<thead>
@@ -1559,8 +1559,8 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>6.2.3 Interoperability</strong></p>
 				<p>Where ICT with RTT functionality interoperates with other ICT with RTT functionality (as required by clause 6.2.1.1) shall support the applicable RTT interoperability mechanisms described below:</p>
-				<p>1. ICT interoperating with other ICT directly connected over the Public Switched Telephone Network (PSTN) using Recommendation ITU-T V.18 [i.23] or any of its annexes for text telephony signals at the PSTN interface;</p>
-				<p>2. ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using RTT that conforms to IETF RFC 4103 [i.13]. For ICT interoperating with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, the set of protocols specified in ETSI TS 126 114 [i.10], ETSI TS 122 173 [i.11] and ETSI TS 134 229 [i.12] describe how IETF RFC 4103 [i.13] would apply;</p>
+				<p>1. ICT interoperating with other ICT directly connected over the Public Switched Telephone Network (<abbr>PSTN</abbr>) using Recommendation ITU-T V.18 [i.23] or any of its annexes for text telephony signals at the PSTN interface;</p>
+				<p>2. ICT interoperating with other ICT using VOIP with Session Initiation Protocol (<abbr>SIP</abbr>) and using RTT that conforms to IETF RFC 4103 [i.13]. For ICT interoperating with other ICT using the IP Multimedia Sub-System (<abbr>IMS</abbr>) to implement VOIP, the set of protocols specified in ETSI TS 126 114 [i.10], ETSI TS 122 173 [i.11] and ETSI TS 134 229 [i.12] describe how IETF RFC 4103 [i.13] would apply;</p>
 				<p>3. ICT interoperating with other ICT using technologies other than a or b, above, using a relevant and applicable common specification for RTT exchange that is published and available for the environments in which they will be operating. This common specification shall include a method for indicating loss or corruption of characters;</p>
 				<p>4. ICT interoperating with other ICT using a standard for RTT that has been introduced for use in any of the above environments, and is supported by all of the other active ICT that support voice and RTT in that environment.</p>
 				<p>NOTE 1: In practice, new standards are introduced as an alternative codec/protocol that is supported alongside the existing common standard and used when all end-to-end components support it while technology development, combined with other reasons including societal development and cost efficiency, may make others become obsolete.</p>
@@ -1573,11 +1573,11 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Type of assessment</p>
 				<p>Test</p>
 				<p>Pre-conditions</p>
-				<p>1. The ICT provides a means for two-way voice communication over the Public Switched Telephone Network (PSTN).</p>
+				<p>1. The ICT provides a means for two-way voice communication over the Public Switched Telephone Network (<abbr>PSTN</abbr>).</p>
 				<p>2. The ICT provides a means for two-way RTT communication.</p>
 				<p>3. A "V.18 reference terminal" is available.</p>
 				<p>Procedure</p>
-				<p>1. Check that the ICT interoperates over the Public Switched Telephone Network (PSTN), with the V.18 reference terminal connected to the PSTN as described in Recommendation ITU-T V.18 [i.23] or any of its annexes for text telephony signals at the PSTN interface</p>
+				<p>1. Check that the ICT interoperates over the Public Switched Telephone Network (<abbr>PSTN</abbr>), with the V.18 reference terminal connected to the PSTN as described in Recommendation ITU-T V.18 [i.23] or any of its annexes for text telephony signals at the PSTN interface</p>
 				<p>Result</p>
 				<p>Pass: Check 1 is true</p>
 				<p>Fail: Checks 1 is false</p>
@@ -1588,15 +1588,15 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Type of assessment</p>
 				<p>Test</p>
 				<p>Pre-conditions</p>
-				<p>1. The ICT provides a means for two-way voice communication using VOIP with Session Initiation Protocol (SIP).</p>
+				<p>1. The ICT provides a means for two-way voice communication using VOIP with Session Initiation Protocol (<abbr>SIP</abbr>).</p>
 				<p>2. The ICT provides a means for two-way RTT communication.</p>
 				<p>3. An "RTT reference terminal" is available.</p>
 				<p>Procedure</p>
-				<p>1. Check that the ICT interoperates with the "RTT reference terminal" using VOIP with Session Initiation Protocol (SIP) and using RTT that conforms to IETF RFC 4103 [i.13].</p>
-				<p>2. If the ICT interoperates with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, check that it follows the set of protocols in ETSI TS 126 114 [i.10], ETSI TS 122 173 [i.11] and ETSI TS 134 229 [i.12] that specify how IETF RFC 4103 [i.13] applies.</p>
+				<p>1. Check that the ICT interoperates with the "RTT reference terminal" using VOIP with Session Initiation Protocol (<abbr>SIP</abbr>) and using RTT that conforms to IETF RFC 4103 [i.13].</p>
+				<p>2. If the ICT interoperates with other ICT using the IP Multimedia Sub-System (<abbr>IMS</abbr>) to implement VOIP, check that it follows the set of protocols in ETSI TS 126 114 [i.10], ETSI TS 122 173 [i.11] and ETSI TS 134 229 [i.12] that specify how IETF RFC 4103 [i.13] applies.</p>
 				<p>Result</p>
-				<p>Pass: Check 1 is true and, if the ICT interoperates with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, check 2 is true.</p>
-				<p>Fail: Check 1 is false or, if the ICT interoperates with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, check 2 is false.</p>
+				<p>Pass: Check 1 is true and, if the ICT interoperates with other ICT using the IP Multimedia Sub-System (<abbr>IMS</abbr>) to implement VOIP, check 2 is true.</p>
+				<p>Fail: Check 1 is false or, if the ICT interoperates with other ICT using the IP Multimedia Sub-System (<abbr>IMS</abbr>) to implement VOIP, check 2 is false.</p>
 				<p>Not applicable: Pre-condition 1 or 2 is not met</p>
 				<p>Not testable: Pre-condition 3 is not met</p>
 				<p>NOTE: An "RTT reference terminal" is a terminal specifically designed for testing RTT capable devices in a manner that would confirm their functionality and interoperability. These are generally created by a national or international standards entity so that all testing is done with a consistent "RTT reference terminal".</p>
@@ -1604,7 +1604,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				<p>Type of assessment</p>
 				<p>Test</p>
 				<p>Pre-conditions</p>
-				<p>1. The ICT provides a means for two-way voice communication using technologies other than PSTN or VOIP with Session Initiation Protocol (SIP).</p>
+				<p>1. The ICT provides a means for two-way voice communication using technologies other than PSTN or VOIP with Session Initiation Protocol (<abbr>SIP</abbr>).</p>
 				<p>2. The ICT provides a means for two-way RTT communication.</p>
 				<p>3. An "RTT reference terminal" is available for that mode of RTT communication.</p>
 				<p>Procedure</p>
@@ -1717,7 +1717,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 		<tr>
 			<td>
 				<p><strong>6.5.1 General (informative)</strong></p>
-				<p>Clause 6.5 (Video communications) provides performance requirements that support users who communicate using sign language and lip-reading. For these users, good usability is achieved with a resolution of at least Quarter Video Graphics Array (QVGA, 320 x 240), a frame rate of 20 frames per second and over, with a time difference between speech audio and video that does not exceed 100 ms. </p>
+				<p>Clause 6.5 (Video communications) provides performance requirements that support users who communicate using sign language and lip-reading. For these users, good usability is achieved with a resolution of at least Quarter Video Graphics Array (<abbr>QVGA</abbr>, 320 x 240), a frame rate of 20 frames per second and over, with a time difference between speech audio and video that does not exceed 100 ms. </p>
 				<p>Increasing the resolution and frame rate further improves both sign language (especially finger spelling) and lipreading, with frame rate being more important than resolution.</p>
 				<p>Time differences between audio and video (asynchronicity) can have a great impact on lip-reading - with video that lags behind audio having greater negative effect.</p>
 				<p>End-to-end latency can be a problem in video (sign) communication. Overall delay values below 400 ms are preferred, with an increase in preference down to 100 ms. Overall delay depends on multiple factors, including e.g. network delay and video processing. For this reason a testable requirement on minimum values for overall delay cannot be produced.</p>
@@ -1754,8 +1754,8 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<td>
 				<p><strong>6.5.3 Frame rate</strong></p>
 				<p>Where ICT that provides two-way voice communication includes real-time video functionality, the ICT: </p>
-				<p>1. shall support a frame rate of at least 20 frames per second (FPS);</p>
-				<p>2. should preferably support a frame rate of at least 30 frames per second (FPS) with or without sign language in the video stream.</p>
+				<p>1. shall support a frame rate of at least 20 frames per second (<abbr>FPS</abbr>);</p>
+				<p>2. should preferably support a frame rate of at least 30 frames per second (<abbr>FPS</abbr>) with or without sign language in the video stream.</p>
 			</td>
 			<td>
 				<p><strong>C.6.5.3 Frame rate</strong></p>
@@ -2286,7 +2286,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 				</ul>
 			</td>
 			<td>
-				<p><strong>C.8.3.0 General (informative)</strong></p>
+				<p><strong>C.8.3.0 General Finformative)</strong></p>
 				<p>Clause 8.3.0 is advisory only and contains no testable requirements.</p>
 			</td>
 		</tr>
@@ -8294,7 +8294,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 <p><strong>[i.29]</strong>ETSI/CEN/CENELEC EN 301 549 (V2.1.2) (August 2018): "Accessibility requirements for ICT products and services".&nbsp;</p>
 <p><strong>[i.30]</strong> ETSI/CEN/CENELEC TR 101 552: "Guidance for the application of conformity assessment to accessibility requirements for public procurement of ICT products and services in Europe".</p>
 <p><strong>[i.31]</strong> ISO/IEC TS 20071-25:2017: "Information technology - User interface component accessibility - Part 25: Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text".</p>
-<p><strong>[i.32]</strong> W3C Recommendation (September 2015): "Authoring Tool Accessibility Guidelines (ATAG) 2.0". NOTE: Available at <a href="http://www.w3.org/TR/ATAG20/">http://www.w3.org/TR/ATAG20/</a>.</p>
+<p><strong>[i.32]</strong> W3C Recommendation (September 2015): "Authoring Tool Accessibility Guidelines (<abbr>ATAG</abbr>) 2.0". NOTE: Available at <a href="http://www.w3.org/TR/ATAG20/">http://www.w3.org/TR/ATAG20/</a>.</p>
 <p><strong>[i.33]</strong> W3C Recommendation (September 2015): "User Agent Accessibility Guidelines (UAAG) 2.0". NOTE: Available at <a href="http://www.w3.org/TR/UAAG20/">http://www.w3.org/TR/UAAG20/</a>.</p>
 <p><strong>[i.34]</strong>ISO 21542:2011: "Building construction - Accessibility and usability of the built environment".</p>
 <p><strong>[i.35]</strong>ISO/IEC Guide 71:2014: "Guide for addressing accessibility in standards".</p>
@@ -8319,14 +8319,14 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 	<dd>
 		<p>space intended to be occupied by the person, including their Assistive Technology, while they are using the product</p>
 	</dd>
-	<dt>Assistive Listening Devices (ALDs): </dt>
+	<dt>Assistive Listening Devices (<abbr>ALDs</abbr>): </dt>
 	<dd>
 		<p>devices that help separate the sounds, particularly speech, that a person wants to hear from background noise by bringing sound directly into the ear</p>
 		<ul>
 			<li>NOTE: These are often found in meetings and public venues such as plays, concerts and places of worship. They can also be used at home with televisions and other products with auditory output.</li>
 		</ul>
 	</dd>
-	<dt>Assistive Technology (AT): </dt>
+	<dt>Assistive Technology (<abbr>AT</abbr>): </dt>
 	<dd>
 		<p>equipment, product system, hardware, software or service that is used to increase, maintain or improve capabilities of individuals (from ISO/IEC Guide 71:2014 [i.35]) </p>
 		<ul>
@@ -8402,7 +8402,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 	<dd>
 		<p>technology and resources supporting the connection and operation of interconnected ICT</p>
 	</dd>
-	<dt>Information and Communication Technology (ICT): </dt>
+	<dt>Information and Communication Technology (<abbr>ICT</abbr>): </dt>
 	<dd>
 		<p>technology, equipment, or interconnected system or subsystem of equipment for which the principal function is the creation, conversion, duplication, automatic acquisition, storage, analysis, evaluation, manipulation, management, movement, control, display, switching, interchange, transmission, reception, or broadcast of data or information</p>
 		<ul>
@@ -8464,7 +8464,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 			<li>NOTE: WCAG 2.1 uses "determined" where this definition uses "able to be read" (to avoid ambiguity with the word "determined").</li>
 		</ul>
 	</dd>
-	<dt>Real-Time Text (RTT): </dt>
+	<dt>Real-Time Text (<abbr>RTT</abbr>): </dt>
 	<dd>
 		<p>form of a text conversation in point to point situations or in multipoint conferencing where the text being entered is sent in such a way that the communication is perceived by the user as being continuous </p>
 		<ul>

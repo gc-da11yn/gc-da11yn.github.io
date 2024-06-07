@@ -31,7 +31,7 @@ tags:
 
 ## Introduction
 
-The purpose of the PDF Accessibility Checklist is to support Employment and Social Development Canada (ESDC) PDF document developers ensure that accessibility compliance meets the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) standards. Please note that the checklist only contains WCAG criteria that are related to the most common errors identified in PDF documents.
+The purpose of the PDF Accessibility Checklist is to support Employment and Social Development Canada (<abbr>ESDC</abbr>) PDF document developers ensure that accessibility compliance meets the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) standards. Please note that the checklist only contains WCAG criteria that are related to the most common errors identified in PDF documents.
 
 We established a list of tools and resources to help developers verify their document accessibility, as well as the PDF Accessibility Checklist that identifies 27 success criteria that are pertinent to PDFs.
 

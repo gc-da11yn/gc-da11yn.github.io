@@ -1,5 +1,5 @@
 ---
-title: Personas with Disabilities for inclusive user experience (UX) design
+title: Personas with Disabilities for inclusive user experience (<abbr>UX</abbr>) design
 description: The case to include disabilities into user personas, the types of technologies they use, and sample personas with disabilities.
 subject:
   - howTos
@@ -59,7 +59,7 @@ Vision Replacement Technology is used by individuals with some form of visual im
 
 ### Audio enhancement and replacement technology
 
-Audio Enhancement and Replacement Technology is used by individuals with some form of hearing impairment or limitation and some users with speech or communication related impairment. There is a wide variety of needs and requirements in this category of technology. Solutions can be as simple as t-coil hearing aid compatibility to as complex as teletypewriter (TTY) access.
+Audio Enhancement and Replacement Technology is used by individuals with some form of hearing impairment or limitation and some users with speech or communication related impairment. There is a wide variety of needs and requirements in this category of technology. Solutions can be as simple as t-coil hearing aid compatibility to as complex as teletypewriter (<abbr>TTY</abbr>) access.
 
 Systems often must be usable without hearing. Information conveyed by audio alone is not accessible by individuals who are deaf. Systems often must also be usable with limited hearing. People with limited hearing often cannot see well either, especially people who are older. Allowing them to use their residual hearing is therefore important rather than having to rely on sight (e.g. relying on access techniques that would be used by people who are deaf).
 
@@ -94,11 +94,11 @@ Common problems that users experience while browsing the web and accessing infor
 - Moderate; annoying things that are frustrating, but won’t stop someone from using the site.
 - Minor; noisy issues, that might not cause someone a problem, but which damage credibility.
 
-It's not simply just about checklists; inclusion is personal and about people. Following the Web Content Accessibility Guidelines (WCAG) 2.0 will make Web content more accessible, however, the important question is, will the content be usable?
+It's not simply just about checklists; inclusion is personal and about people. Following the Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.0 will make Web content more accessible, however, the important question is, will the content be usable?
 
 ### Involve users throughout your project
 
-Accessibility should be addressed early in the life cycle of the project; starting from project inception and it should be included in the user-centered design (UCD) processes, including user personas. Our personas should include the different ranges of disabilities. Creating a range of personas, including personas of persons with disabilities, will help developers understand accessibility requirements and implement more universally usable solutions.
+Accessibility should be addressed early in the life cycle of the project; starting from project inception and it should be included in the user-centered design (<abbr>UCD</abbr>) processes, including user personas. Our personas should include the different ranges of disabilities. Creating a range of personas, including personas of persons with disabilities, will help developers understand accessibility requirements and implement more universally usable solutions.
 
 ## Incorporating accessibility needs into personas
 
@@ -147,7 +147,7 @@ Designing personas with disabilities requires special attention as there is a lo
 
 ### Trevor is 18 years old
 
-He lives with family and goes to secondary school. He uses desktop computers at school, a laptop at home and a basic mobile phone with Short Message Service (SMS). He likes consistent and familiar places on the web.
+He lives with family and goes to secondary school. He uses desktop computers at school, a laptop at home and a basic mobile phone with Short Message Service (<abbr>SMS</abbr>). He likes consistent and familiar places on the web.
 
 <dl>
 <dt>Disability Category:</dt>
@@ -180,7 +180,7 @@ She graduated from high school and is working on a college degree. She lives in 
 <dt>Attitude:</dt>
 <dd>Wants to do everything for herself; can be impatient</dd>
 <dt>Adaptive Technology:</dt>
-<dd>Augmentative and Alternative Communication (AAC) Communicator with speech generator, iPad, power wheelchair.</dd>
+<dd>Augmentative and Alternative Communication (<abbr>AAC</abbr>) Communicator with speech generator, iPad, power wheelchair.</dd>
 </dl>
 
 ### Francis is a 30 year old war veteran who lives with his girlfriend
@@ -191,7 +191,7 @@ He uses a laptop at home, computers at community centres and libraries, and his 
 <dt>Disability Category:</dt>
 <dd>Cognitive and Learning Style Enhancement<dd>
 <dt>Disabilities:</dt>
-<dd>Post Traumatic Stress Disorder (PTSD). Cognitive impairments</dd>
+<dd>Post Traumatic Stress Disorder (<abbr>PTSD</abbr>). Cognitive impairments</dd>
 <dt>Ability:</dt>
 <dd>Slow writing and slow reading. Longer time to process information.</dd>
 <dt>Aptitude:</dt>
@@ -250,13 +250,13 @@ He is a graphic artist in a small ad agency. He uses an iPad, iPhone and MacBook
 <dt>Disability:</dt>
 <dd>Deaf since birth</dd>
 <dt>Ability:</dt>
-<dd>Native language is American Sign Language (ASL); can speak and read lips; uses SMS/IM, Skype, and video chat</dd>
+<dd>Native language is American Sign Language (<abbr>ASL</abbr>); can speak and read lips; uses SMS/IM, Skype, and video chat</dd>
 <dt>Aptitude:</dt>
 <dd>Good with graphic tools, and prefers visuals to text; poor spelling makes searching more difficult</dd>
 <dt>Attitude:</dt>
 <dd>Can be annoyed about accessibility, such as lack of captions</dd>
 <dt>Adaptive Technology:</dt>
-<dd>Sign language, Communication Access Realtime Translation (CART), captions, video chat.</dd>
+<dd>Sign language, Communication Access Realtime Translation (<abbr>CART</abbr>), captions, video chat.</dd>
 </dl>
 
 ### Nancy is 45 years old.
@@ -358,7 +358,7 @@ She lives in an apartment near one of her daughters and a few of her six grandki
 
 ### John is a 33 year old art school graduate
 
-He works as a graphic artist inside the Communications Branch at Indigenous and Northern Affairs Canada (INAC). He is fluid with the use of Apple products (iPad, iPhone, MacBook Pro). He feels his only disability is that not everyone in the world can sign.
+He works as a graphic artist inside the Communications Branch at Indigenous and Northern Affairs Canada (<abbr>INAC</abbr>). He is fluid with the use of Apple products (iPad, iPhone, MacBook Pro). He feels his only disability is that not everyone in the world can sign.
 
 <dl>
 <dt>Disability Category:</dt>
@@ -415,7 +415,7 @@ She holds a Master’s degree in French Language and works as a translator with 
 
 ### Donald is 21 years old and lives with his family
 
-He has completed secondary school through a specialized program for individuals with Autism and or Attention deficit hyperactivity disorder (ADHD). He learned general computer knowledge in school and has a standard laptop at home and a basic mobile phone with SMS. He was hired as a mailroom assistant with Public Works and Government Services Canada (PWGSC). Donald works best with consistent and familiar routines and processes.
+He has completed secondary school through a specialized program for individuals with Autism and or Attention deficit hyperactivity disorder (<abbr>ADHD</abbr>). He learned general computer knowledge in school and has a standard laptop at home and a basic mobile phone with SMS. He was hired as a mailroom assistant with Public Works and Government Services Canada (<abbr>PWGSC</abbr>). Donald works best with consistent and familiar routines and processes.
 
 <dl>
 <dt>Disability Category:</dt>

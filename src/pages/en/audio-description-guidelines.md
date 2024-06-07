@@ -12,16 +12,16 @@ audience:
 
 Audio description is sometimes known as described video, video description, or visual interpretation.
 
-Audio description allows any user with a visual disability or cognitive disability to receive a very detailed and descriptive experience of what is happening on the screen for every aspect of the video. A number of organizations require Audio description (AD) and Described video (DV), or video description in video, such as the [Canadian Radio-television and Telecommunications Commission](http://www.crtc.gc.ca/eng/info_sht/b322.htm) (CRTC).
+Audio description allows any user with a visual disability or cognitive disability to receive a very detailed and descriptive experience of what is happening on the screen for every aspect of the video. A number of organizations require Audio description (<abbr>AD</abbr>) and Described video (DV), or video description in video, such as the [Canadian Radio-television and Telecommunications Commission](http://www.crtc.gc.ca/eng/info_sht/b322.htm) (CRTC).
 
 Audio description is also used by sighted individuals, so both audio and video elements are needed (for example, someone with some vision loss who can not read the text but wants to see the rest).
 
 Audio description and described video make TV programs accessible for people who are blind or who have visual impairments:
 
 <dl>
-<dt>Audio description (AD):</dt>
+<dt>Audio description (<abbr>AD</abbr>):</dt>
 <dd>Relies on a program host or announcer to provide a voice-over by reading aloud or describing key elements of programming, such as text and graphics that appear on the screen. It is often used for information-based programming, including newscasts, weather reports, sports scores, and financial data. Most broadcasters are required to provide audio description.</dd>
-<dt>Described video (DV), or video description:</dt>
+<dt>Described video (<abbr>DV</abbr>), or video description:</dt>
 <dd>A narrated description of a program's main visual elements, such as settings, costumes, and body language. The description is added during pauses in dialogue and enables people to form a mental picture of what is happening in the program. Described video typically uses a separate audio track.</dd>
 </dl>
 

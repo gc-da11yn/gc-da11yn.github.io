@@ -29,7 +29,7 @@ The ESDC Accessibility Office is responsible for development and implementation 
 <div class="col-md-6">
 <h2 class="h4"><a href="https://bati-itao.github.io">IT Accessibility Office</a></h2>
 
-The IT Accessibility Office (ITAO) remains to be a provider of adaptive technology and an advocate for inclusiveness of people with disabilities in the workplace. We are demonstrated leaders, committed to our accessibility mandate, continuing to provide support to employees with disabilities. In accordance with the _[Accessible Canada Act](https://www.canada.ca/en/employment-social-development/programs/accessible-canada.html)_ and in collaboration with our partners in central agencies, we recommend internationally recognized standards, guidelines and best practices. Our services span over topics such as procurement, training, awareness, product assessments, as well as expert advice on Accessible Information and Communication Technology (ICT).
+The IT Accessibility Office (<abbr>ITAO</abbr>) remains to be a provider of adaptive technology and an advocate for inclusiveness of people with disabilities in the workplace. We are demonstrated leaders, committed to our accessibility mandate, continuing to provide support to employees with disabilities. In accordance with the _[Accessible Canada Act](https://www.canada.ca/en/employment-social-development/programs/accessible-canada.html)_ and in collaboration with our partners in central agencies, we recommend internationally recognized standards, guidelines and best practices. Our services span over topics such as procurement, training, awareness, product assessments, as well as expert advice on Accessible Information and Communication Technology (<abbr>ICT</abbr>).
 
 </div>
 </div>
