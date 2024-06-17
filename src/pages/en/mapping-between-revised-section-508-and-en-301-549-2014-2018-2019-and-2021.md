@@ -26,11 +26,11 @@ This document reproduces relevant ICT accessibility requirements from the EN 301
 
 ## Caveat
 
-This document was created by the Shared Services Canada (SSC) Accessibility, Accommodations and Adaptive Computer Technology (<abbr>AAACT</abbr>) program in February 2020 and updated in October 2022. To the best of our knowledge, this document was accurate as of October 2022. SSC does not warrant any jurisdiction’s reliance on this work. If you have any questions about this document, please [email the AAACT program](mailto:aaact-aatia@ssc-spc.gc.ca?subject=ICT%20Procurement%20-%20standards%20mapping%20document).
+This document was created by the Shared Services Canada (<abbr>SSC</abbr>) Accessibility, Accommodations and Adaptive Computer Technology (<abbr>AAACT</abbr>) program in February 2020 and updated in October 2022. To the best of our knowledge, this document was accurate as of October 2022. SSC does not warrant any jurisdiction’s reliance on this work. If you have any questions about this document, please [email the AAACT program](mailto:aaact-aatia@ssc-spc.gc.ca?subject=ICT%20Procurement%20-%20standards%20mapping%20document).
 
 ## Intended Audience
 
-The intended audience is Technical and Contracting Authorities within SSC and the Government of Canada (GC), as well as Suppliers who are delivering Information and Communications Technology (ICT) products and services.
+The intended audience is Technical and Contracting Authorities within SSC and the Government of Canada (<abbr>GC</abbr>), as well as Suppliers who are delivering Information and Communications Technology (<abbr>ICT</abbr>) products and services.
 
 ## Background
 
@@ -3039,8 +3039,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_1 choice_5">412.7 Video Communication Where ICT provides real-time video functionality, the quality of the video shall be sufficient to support communication using sign language.<a href="#fn24" id="fnref24" role="doc-noteref"><sup>24</sup></a></td>
        <td data-wb-tags="choice_1 choice_2">
          <p>6.5.1 General (informative)</p>
-         <p>Clause 6.5 (Video communications) provides performance requirements that support users who communicate using sign language and lip-reading. For these users, good usability is achieved with Common Intermediate Format (CIF) resolution, a frame rate of 20 frames per second and over, with a time difference between speech audio and video that does not exceed 100 ms.</p>
-         <p>When the resolution is reduced to Quarter Common Intermediate Format (QCIF) and the frame rate drops to 12 frames per second the communication is still usable with some restrictions.</p>
+         <p>Clause 6.5 (Video communications) provides performance requirements that support users who communicate using sign language and lip-reading. For these users, good usability is achieved with Common Intermediate Format (<abbr>CIF</abbr>) resolution, a frame rate of 20 frames per second and over, with a time difference between speech audio and video that does not exceed 100 ms.</p>
+         <p>When the resolution is reduced to Quarter Common Intermediate Format (<abbr>QCIF</abbr>) and the frame rate drops to 12 frames per second the communication is still usable with some restrictions.</p>
          <p>A lower resolution causes less disturbance to the perception of sign language and lip-reading than that caused by a lower frame rate.</p>
          <p>Delay can be a problem in video communication. Overall delay values below 0,4 s are preferred, with an increase in preference down to 0,1 s. Values over 0,8 s are felt to hinder a good sign conversation. Overall delay depends on multiple factors, including e.g. network delay and video processing. For this reason a testable requirement on minimum values for overall delay cannot be produced.</p>
        </td>
@@ -3051,8 +3051,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        </td>
        <td data-wb-tags="choice_2 choice_3">
          <p>6.5.1 General (informative)</p>
-         <p>Clause 6.5 (Video communications) provides performance requirements that support users who communicate using sign language and lip-reading. For these users, good usability is achieved with Common Intermediate Format (CIF) resolution, a frame rate of 20 frames per second and over, with a time difference between speech audio and video that does not exceed 100 ms.</p>
-         <p>When the resolution is reduced to Quarter Common Intermediate Format (QCIF) and the frame rate drops to 12 frames per second the communication is still usable with some restrictions.</p>
+         <p>Clause 6.5 (Video communications) provides performance requirements that support users who communicate using sign language and lip-reading. For these users, good usability is achieved with Common Intermediate Format (<abbr>CIF</abbr>) resolution, a frame rate of 20 frames per second and over, with a time difference between speech audio and video that does not exceed 100 ms.</p>
+         <p>When the resolution is reduced to Quarter Common Intermediate Format (<abbr>QCIF</abbr>) and the frame rate drops to 12 frames per second the communication is still usable with some restrictions.</p>
          <p>A lower resolution causes less disturbance to the perception of sign language and lip-reading than that caused by a lower frame rate.</p>
          <p>Delay can be a problem in video communication. Overall delay values below 0,4 s are preferred, with an increase in preference down to 0,1 s. Values over 0,8 s are felt to hinder a good sign conversation. Overall delay depends on multiple factors, including e.g. network delay and video processing. For this reason a testable requirement on minimum values for overall delay cannot be produced.</p>
        </td>
@@ -3120,8 +3120,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_1 choice_2">
          <p>6.5.3 Frame rate</p>
          <p>Where ICT that provides two-way voice communication includes real-time video functionality, the ICT:</p>
-         <p>a) shall support a frame rate of at least 12 frames per second (FPS);</p>
-         <p>b) should preferably support a frame rate of at least 20 frames per second (FPS) with or without sign language in the video stream.</p>
+         <p>a) shall support a frame rate of at least 12 frames per second (<abbr>FPS</abbr>);</p>
+         <p>b) should preferably support a frame rate of at least 20 frames per second (<abbr>FPS</abbr>) with or without sign language in the video stream.</p>
        </td>
        <td data-wb-tags="choice_1">
          <p>Stylistic rewording</p>
@@ -3131,22 +3131,22 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
        <td data-wb-tags="choice_2 choice_3">
          <p>6.5.3 Frame rate</p>
          <p>Where ICT that provides two-way voice communication includes real-time video functionality, the ICT:</p>
-         <p>a) shall support a frame rate of at least 12 frames per second (FPS);</p>
-         <p>b) should preferably support a frame rate of at least 20 frames per second (FPS) with or without sign language in the video stream.</p>
+         <p>a) shall support a frame rate of at least 12 frames per second (<abbr>FPS</abbr>);</p>
+         <p>b) should preferably support a frame rate of at least 20 frames per second (<abbr>FPS</abbr>) with or without sign language in the video stream.</p>
        </td>
        <td data-wb-tags="choice_2"></td>
        <td data-wb-tags="choice_3 choice_4">
          <p>6.5.3 Frame rate</p>
          <p>Where ICT that provides two-way voice communication includes real-time video functionality, the ICT:</p>
-         <p>a) shall support a frame rate of at least <strong>20</strong> frames per second (FPS);</p>
-         <p>b) should preferably support a frame rate of at least <strong>30</strong> frames per second (FPS) with or without sign language in the video stream.</p>
+         <p>a) shall support a frame rate of at least <strong>20</strong> frames per second (<abbr>FPS</abbr>);</p>
+         <p>b) should preferably support a frame rate of at least <strong>30</strong> frames per second (<abbr>FPS</abbr>) with or without sign language in the video stream.</p>
        </td>
        <td data-wb-tags="choice_3">Functional update</td>
        <td data-wb-tags="choice_4 choice_5">
          <p>6.5.3 Frame rate</p>
          <p>Where ICT that provides two-way voice communication includes real-time video functionality, the ICT:</p>
-         <p>a) shall support a frame rate of at least 20 <strong>F</strong>rames <strong>P</strong>er <strong>S</strong>econd (FPS);</p>
-         <p>b) should preferably support a frame rate of at least 30 <strong>F</strong>rames <strong>P</strong>er <strong>S</strong>econd (FPS) with or without sign language in the video stream.</p>
+         <p>a) shall support a frame rate of at least 20 <strong>F</strong>rames <strong>P</strong>er <strong>S</strong>econd (<abbr>FPS</abbr>);</p>
+         <p>b) should preferably support a frame rate of at least 30 <strong>F</strong>rames <strong>P</strong>er <strong>S</strong>econd (<abbr>FPS</abbr>) with or without sign language in the video stream.</p>
        </td>
        <td data-wb-tags="choice_4">Stylistic change</td>
      </tr>
@@ -3320,7 +3320,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      <tr>
        <td data-wb-tags="choice_1 choice_5">
          <p>414.1.1 Digital Television Tuners</p>
-         <p>Digital television tuners shall provide audio description processing that conforms to ATSC A/53 Digital Television Standard, Part 5 (2014) (incorporated by reference, see 702.2.1). Digital television tuners shall provide processing of audio description when encoded as a Visually Impaired (VI) associated audio service that is provided as a complete program mix containing audio description according to the ATSC A/53 standard.<a href="#fn28" id="fnref28" role="doc-noteref"><sup>28</sup></a></p>
+         <p>Digital television tuners shall provide audio description processing that conforms to ATSC A/53 Digital Television Standard, Part 5 (2014) (incorporated by reference, see 702.2.1). Digital television tuners shall provide processing of audio description when encoded as a Visually Impaired (<abbr>VI</abbr>) associated audio service that is provided as a complete program mix containing audio description according to the ATSC A/53 standard.<a href="#fn28" id="fnref28" role="doc-noteref"><sup>28</sup></a></p>
        </td>
        <td data-wb-tags="choice_1 choice_2">
          <p>7.2.3 Preservation of audio description</p>
@@ -5210,7 +5210,7 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
      <tr>
        <td data-wb-tags="choice_1 choice_5">
          <p>412.8.3 Signal Compatibility</p>
-         <p>ICT shall support all commonly used cross-manufacturer non-proprietary standard TTY signal protocols where the system interoperates with the Public Switched Telephone Network (PSTN).</p>
+         <p>ICT shall support all commonly used cross-manufacturer non-proprietary standard TTY signal protocols where the system interoperates with the Public Switched Telephone Network (<abbr>PSTN</abbr>).</p>
        </td>
        <td data-wb-tags="choice_1 choice_2"></td>
        <td data-wb-tags="choice_1"></td>
@@ -5818,9 +5818,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.2.3 Interoperability</p>
          <p>Where ICT with RTT functionality interoperates with other ICT with RTT functionality (as required by 6.2.1.1) they shall support at least one of the four RTT interoperability mechanisms described below:</p>
          <ol>
-           <li>ICT interoperating over the Public Switched Telephone Network (PSTN), with other ICT that directly connects to the PSTN as described in Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;</li>
-           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using real-time text that conforms to RFC 4103;</li>
-           <li>ICT interoperating with other ICT using RTT that conforms with the IP Multimedia Sub-System (IMS) set of protocols specified in TS 126 114, TS 122 173 and TS 134 229;</li>
+           <li>ICT interoperating over the Public Switched Telephone Network (<abbr>PSTN</abbr>), with other ICT that directly connects to the PSTN as described in Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;</li>
+           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (<abbr>SIP</abbr>) and using real-time text that conforms to RFC 4103;</li>
+           <li>ICT interoperating with other ICT using RTT that conforms with the IP Multimedia Sub-System (<abbr>IMS</abbr>) set of protocols specified in TS 126 114, TS 122 173 and TS 134 229;</li>
            <li>ICT interoperating with other ICT using a relevant and applicable common specification for RTT exchange that is published and available. This common specification shall include a method for indicating loss or corruption of characters.</li>
          </ol>
        </td>
@@ -5829,9 +5829,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.2.3 Interoperability</p>
          <p>Where ICT with RTT functionality interoperates with other ICT with RTT functionality (as required by <strong>clause</strong> 6.2.1.1) they shall support at least one of the four RTT interoperability mechanisms described below:</p>
          <ol>
-           <li>ICT interoperating over the Public Switched Telephone Network (PSTN), with other ICT that directly connects to the PSTN as described in Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;</li>
-           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using real-time text that conforms to <strong>IETF</strong> RFC 4103;</li>
-           <li>ICT interoperating with other ICT using RTT that conforms with the IP Multimedia Sub-System (IMS) set of protocols specified in <strong>ETSI</strong> TS 126 114, <strong>ETSI</strong> TS 122 173 and <strong>ETSI</strong> TS 134 229;</li>
+           <li>ICT interoperating over the Public Switched Telephone Network (<abbr>PSTN</abbr>), with other ICT that directly caonnects to the PSTN as described in Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;</li>
+           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (<abbr>SIP</abbr>) and using real-time text that conforms to <strong>IETF</strong> RFC 4103;</li>
+           <li>ICT interoperating with other ICT using RTT that conforms with the IP Multimedia Sub-System (<abbr>IMS</abbr>) set of protocols specified in <strong>ETSI</strong> TS 126 114, <strong>ETSI</strong> TS 122 173 and <strong>ETSI</strong> TS 134 229;</li>
            <li>ICT interoperating with other ICT using a relevant and applicable common specification for RTT exchange that is published and available. This common specification shall include a method for indicating loss or corruption of characters.</li>
          </ol>
        </td>
@@ -5843,8 +5843,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.2.3 Interoperability</p>
          <p>Where ICT with RTT functionality interoperates with other ICT with RTT functionality (as required by clause 6.2.1.1) they shall support <strong>the applicable</strong> RTT interoperability mechanisms described below:</p>
          <ol>
-           <li>ICT interoperating <strong>with other ICT directly connected to</strong> the Public Switched Telephone Network (PSTN), <strong>using</strong> Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;</li>
-           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using <strong>RTT</strong> that conforms to IETF RFC 4103. <strong>For ICT interoperating with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, the set of protocols specified in ETSI TS 126 114, ETSI TS 122 173 and ETSI TS 134 229 describe how IETF RFC 4103 would apply;</strong></li>
+           <li>ICT interoperating <strong>with other ICT directly connected to</strong> the Public Switched Telephone Network (<abbr>PSTN</abbr>), <strong>using</strong> Recommendation ITU-T V.18 or any of its annexes for text telephony signals at the PSTN interface;</li>
+           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (<abbr>SIP</abbr>) and using <strong>RTT</strong> that conforms to IETF RFC 4103. <strong>For ICT interoperating with other ICT using the IP Multimedia Sub-System (<abbr>IMS</abbr>) to implement VOIP, the set of protocols specified in ETSI TS 126 114, ETSI TS 122 173 and ETSI TS 134 229 describe how IETF RFC 4103 would apply;</strong></li>
            <li>ICT interoperating with other ICT <strong>using technologies other than a or b, above,</strong> using a relevant and applicable common specification for RTT exchange that is published and available <strong>for the environments in which they will be operating.</strong> This common specification shall include a method for indicating loss or corruption of characters.</li>
            <li><strong>ICT interoperating with other ICT using a standard for RTT that has been introduced for use in any of the above environments, and is supported by all of the other active ICT that support voice and RTT in that environment.</strong></li>
          </ol>
@@ -5861,8 +5861,8 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
          <p>6.2.3 Interoperability</p>
          <p>Where ICT with RTT functionality interoperates with other ICT with RTT functionality (as required by clause 6.2.1.1) they shall support the applicable RTT interoperability mechanisms described below:</p>
          <ol>
-           <li>ICT interoperating with other ICT directly connected to the Public Switched Telephone Network (PSTN), using Recommendation ITU-T V.18 [i.23] or any of its annexes for text telephony signals at the PSTN interface;</li>
-           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (SIP) and using RTT that conforms to IETF RFC 4103 [i.13]. For ICT interoperating with other ICT using the IP Multimedia Sub-System (IMS) to implement VOIP, the set of protocols specified in ETSI TS 126 114 [i.10], ETSI TS 122 173 [i.11] and ETSI TS 134 229 [i.12] describe how IETF RFC 4103 [i.13] would apply;</li>
+           <li>ICT interoperating with other ICT directly connected to the Public Switched Telephone Network (<abbr>PSTN</abbr>), using Recommendation ITU-T V.18 [i.23] or any of its annexes for text telephony signals at the PSTN interface;</li>
+           <li>ICT interoperating with other ICT using VOIP with Session Initiation Protocol (<abbr>SIP</abbr>) and using RTT that conforms to IETF RFC 4103 [i.13]. For ICT interoperating with other ICT using the IP Multimedia Sub-System (<abbr>IMS</abbr>) to implement VOIP, the set of protocols specified in ETSI TS 126 114 [i.10], ETSI TS 122 173 [i.11] and ETSI TS 134 229 [i.12] describe how IETF RFC 4103 [i.13] would apply;</li>
            <li>ICT interoperating with other ICT using technologies other than a or b, above, using a relevant and applicable common specification for RTT exchange that is published and available for the environments in which they will be operating. This common specification shall include a method for indicating loss or corruption of characters;</li>
            <li>ICT interoperating with other ICT using a standard for RTT that has been introduced for use in any of the above environments, and is supported by all of the other active ICT that support voice and RTT in that environment.</li>
          </ol>

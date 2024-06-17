@@ -1,6 +1,6 @@
 ---
-title: Employment and Social Development Canada (ESDC)
-description: Employment and Social Development Canada (ESDC) works to improve the standard of living and quality of life for all Canadians. We do this by promoting a labour force that is highly skilled. We also promote an efficient and inclusive labour market. ESDC has multiple teams working in digital accessibility with the goal of creating a barrier free environment for Canadians and employees!
+title: Employment and Social Development Canada (<abbr>ESDC</abbr>)
+description: Employment and Social Development Canada (<abbr>ESDC</abbr>) works to improve the standard of living and quality of life for all Canadians. We do this by promoting a labour force that is highly skilled. We also promote an efficient and inclusive labour market. ESDC has multiple teams working in digital accessibility with the goal of creating a barrier free environment for Canadians and employees!
 toggle: emploi-et-developpement-social-canada-edsc
 subject:
   - accessibilityInTheGovernmentOfCanada
@@ -17,7 +17,7 @@ The Centre of Expertise for Accessible Client Service helps to foster an accessi
 - Adopt inclusive design principles into new or existing program design and service improvement initiatives;
 - Understand the way people live with a disability and the service barriers that create a challenge for them;
 - Identify the accessibility solutions that will make it easier for clients to access our programs and services;
-- Lead on the program and service design and delivery to realize Goal 4 of the [Public Service Accessibility Strategy (PSAS)](https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html).
+- Lead on the program and service design and delivery to realize Goal 4 of the [Public Service Accessibility Strategy (<abbr>PSAS</abbr>)](https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html).
 
 </div>
 <div class="col-md-6">

@@ -47,14 +47,14 @@ This page contains an overview of the many accessibility features that make sure
 </div>
 <div class="col-md-6">
 
-### [CART services and Sign Language Interpreters (SLI)](https://bati-itao.github.io/resources/CART-services-Sign-Language-Interpreters-en.html)
+### [CART services and Sign Language Interpreters (<abbr>SLI</abbr>)](https://bati-itao.github.io/resources/CART-services-Sign-Language-Interpreters-en.html)
 
 The most common accommodations for meetings or events are Communication Access Realtime Translation (<abbr>CART</abbr>) and interpretation services.
 
 </div>
 <div class="col-md-6">
 
-### [Official Languages (OL) recommendations](https://bati-itao.github.io/resources/Official-languages-recommendations-en.html)
+### [Official Languages (<abbr>OL</abbr>) recommendations](https://bati-itao.github.io/resources/Official-languages-recommendations-en.html)
 
 Best practices to follow for unilingual and bilingual meetings or events for both official languages (English and French).
 
@@ -96,7 +96,7 @@ For a better Microsoft Teams meeting or live event experience, check out the fol
 </div>
 <div class="col-md-6">
 
-### [The Association of Translators and Interpreters of Ontario (ATIO) Directory](https://atio.on.ca/directory/)
+### [The Association of Translators and Interpreters of Ontario (<abbr>ATIO</abbr>) Directory](https://atio.on.ca/directory/)
 
 Find a translator, interpreter or terminologist for meetings and events.
 
@@ -130,7 +130,7 @@ Check if your code will work with assistive technologies.
 </div>
 <div class="col-md-6">
 
-### [Centrally Deployed Templates Solution (CDTS)](https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html)
+### [Centrally Deployed Templates Solution (<abbr>CDTS</abbr>)](https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html)
 
 The purpose of the Centrally Deployed Templates Solution (<abbr>CDTS</abbr> is essentially to deliver the presentation layer of the Canada.ca theme or Intranet.canada.ca theme to web assets.
 
@@ -151,7 +151,7 @@ Assist with measuring conformance to the Web Content Accessibility Guidelines (<
 </div>
 <div class="col-md-6">
 
-### [Web Experience Toolkit (WET)](https://wet-boew.github.io/v4.0-ci/index-en.html)
+### [Web Experience Toolkit (<abbr>WET</abbr>)](https://wet-boew.github.io/v4.0-ci/index-en.html)
 
 An award-winning front-end framework for building websites that are accessible, usable, interoperable, mobile friendly and multilingual
 
@@ -295,7 +295,7 @@ The choice between Google at IU My Drive and Microsoft OneDrive at IU is not sim
 </div>
 <div class="col-md-6">
 
-### [The structure of Web Content Accessibility Guidelines (WCAG) 2.1](https://bati-itao.github.io/resources/wcag-en.html)
+### [The structure of Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1](https://bati-itao.github.io/resources/wcag-en.html)
 
 ESDC developed resource of the WCAG 2.1 guidelines structure.
 
@@ -314,7 +314,7 @@ Improving accessibility, accommodations, ergonomics, data, and internships. Acce
 </div>
 <div class="col-md-6">
 
-### [Authoring Tool Accessibility Guidelines (ATAG) Overview](https://www.w3.org/WAI/standards-guidelines/atag/) from the Web Accessibility Initiative (WAI)
+### [Authoring Tool Accessibility Guidelines (<abbr>ATAG</abbr>) Overview](https://www.w3.org/WAI/standards-guidelines/atag/) from the Web Accessibility Initiative (<abbr>WAI</abbr>)
 
 Authoring tools are software and services that “authors” (web developers, designers, writers, etc.) use to produce web content (static web pages, dynamic web applications, etc.).
 
@@ -351,12 +351,12 @@ Accessibility requirements suitable for public procurement of ICT products and s
 
 ### [Guideline on Making Information Technology Usable by All](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32620)
 
-This guideline supports the Government of Canada’s direction to ensure that departments, agencies and organizations consider accessibility in the acquisition or development of information technology (IT) solutions and equipment to make IT usable by all.
+This guideline supports the Government of Canada’s direction to ensure that departments, agencies and organizations consider accessibility in the acquisition or development of information technology (<abbr>IT</abbr>) solutions and equipment to make IT usable by all.
 
 </div>
 <div class="col-md-6">
 
-### [Web Content Accessibility Guidelines (WCAG) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/)
+### [Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/)
 
 Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 covers a wide range of recommendations for making Web content more accessible. Following these guidelines will also often make Web content more usable to users in general.
 
@@ -393,7 +393,7 @@ This glossary contains 342 concepts and terminology related to Bill C-81 in the
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
 
-#### [Accessibility at Public Services and Procurement Canada (PSPC)](https://www.canada.ca/en/public-services-procurement/corporate/accessibility.html)
+#### [Accessibility at Public Services and Procurement Canada (<abbr>PSPC</abbr>)](https://www.canada.ca/en/public-services-procurement/corporate/accessibility.html)
 
 As the Government of Canada’s common service provider, PSPC works to provide excellent service to other federal departments. By aiming to improve access to its programs and services for people with disabilities, PSPC helps federal departments provide high-quality programs and services to all Canadians.
 
@@ -402,6 +402,6 @@ As the Government of Canada’s common service provider, PSPC works to provide e
 
 ## Services
 
-- [Accessibility, Accommodation and Adaptive Computer Technology (AAACT) - Canada.ca](https://www.canada.ca/en/shared-services/corporate/aaact-program.html)
+- [Accessibility, Accommodation and Adaptive Computer Technology (<abbr>AAACT</abbr>) - Canada.ca](https://www.canada.ca/en/shared-services/corporate/aaact-program.html)
 - [Translation, revision and editing services – Language services for federal departments and agencies<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/ministeres-departments/traduction-translation/accueil-home-eng.html)
 - [Conference and sign language interpretation services – Language services for federal departments and agencies<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/accueil-home-eng.html)

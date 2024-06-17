@@ -1,5 +1,5 @@
 ---
-title: Information and Communication Technology (ICT) Accessibility Requirements
+title: Information and Communication Technology (<abbr>ICT</abbr>) Accessibility Requirements
 description: This page is to share some of the work that Shared Services Canada (<abbr>SSC</abbr>) has done for the piloting of the EN 301 549 (2021) harmonized Information and Communications Technology (<abbr>ICT</abbr>) accessibility standards. This is not a full copy / paste / translation of either the EN 301 549 (2021) or Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1.
 subject:
   - accessibilityInTheGovernmentOfCanada
@@ -44,7 +44,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 <div>
 	<ul>
 		<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" download>EN 301 549 v3.2.1 (2021-03) Harmonised European Standard - Accessibility requirements for ICT products and services" (PDF)</a></li>
-		<li><a href="http://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1 </a>(W3C Recommendation 05 June 2018)</li>
+		<li><a href="http://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 </a>(W3C Recommendation 05 June 2018)</li>
 		<li><a href="http://www.w3.org/WAI/WCAG21/Understanding/">Understanding WCAG 2.1 </a></li>
 		<li><a href="http://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG 2.1 (Quick Reference)</a></li>
 		<li><a href="https://www.itic.org/policy/accessibility/vpat#:~:text=The%20Accessibility%20Conformance%20Report%20%28ACR%29%20based%20on%20the,technology%20%28ICT%29%20products%20and%20services%20with%20accessibility%20features."> ITI VPAT® EN 301 549 (EU) version</a></li>
@@ -8246,11 +8246,11 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 <p><strong>[1]</strong> ETSI ETS 300 381 (Edition 1) (December 1994): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids".&nbsp;</p>
 <p><strong>[2]</strong> ETSI ES 200 381-1 (V1.2.1) (October 2012): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids Part 1: Fixed-line speech terminals".&nbsp;</p>
 <p><strong>[3]</strong> ETSI ES 200 381-2 (V1.1.1) (October 2012): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids; Part 2: Cellular speech terminals".</p>
-<p><strong>[4]</strong> W3C Recommendation (December 2008) /ISO/IEC 40500:2012: "Web Content Accessibility Guidelines (WCAG) 2.0".&nbsp;</p>
+<p><strong>[4]</strong> W3C Recommendation (December 2008) /ISO/IEC 40500:2012: "Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.0".&nbsp;</p>
 <ul>
 	<li>NOTE: Available at <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0</a>.</li>
 </ul>
-<p><strong>[5]</strong> W3C Proposed Recommendation (June 2018): "Web Content Accessibility Guidelines (WCAG) 2.1".&nbsp;</p>
+<p><strong>[5]</strong> W3C Proposed Recommendation (June 2018): "Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1".&nbsp;</p>
 <ul>
 	<li>NOTE: Available at <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1</a>.</li>
 </ul>
@@ -8263,22 +8263,22 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 <p><strong>[i.1]</strong> ANSI/IEEE C63.19 (2011): "American National Standard Method of Measurement of Compatibility between Wireless Communication Devices and Hearing Aids".&nbsp;</p>
 <p><strong>[i.2]</strong> ANSI/TIA-4965: "Receive volume control requirements for digital and analogue wireline terminals".&nbsp;</p>
 <p><strong>[i.3]</strong> European Commission M 376-EN: "Standardization Mandate to CEN, CENELEC and ETSI in support of European accessibility requirements for public procurement of products and services in the ICT domain".&nbsp; </p>
-<p><strong>[i.4]</strong> ETSI EG 201 013: "Human Factors (HF); Definitions, abbreviations and symbols".&nbsp; </p>
-<p><strong>[i.5]</strong> ETSI ES 202 975: "Human Factors (HF); Requirements for relay services".&nbsp;</p>
-<p><strong>[i.6]</strong> ETSI ETS 300 767: "Human Factors (HF); Telephone Prepayment Cards; Tactile Identifier".&nbsp;</p>
+<p><strong>[i.4]</strong> ETSI EG 201 013: "Human Factors (<abbr>HF</abbr>); Definitions, abbreviations and symbols".&nbsp; </p>
+<p><strong>[i.5]</strong> ETSI ES 202 975: "Human Factors (<abbr>HF</abbr>); Requirements for relay services".&nbsp;</p>
+<p><strong>[i.6]</strong> ETSI ETS 300 767: "Human Factors (<abbr>HF</abbr>); Telephone Prepayment Cards; Tactile Identifier".&nbsp;</p>
 <p><strong>[i.7]</strong> ETSI CEN/CENELEC/ETSI TR 101 550: "Documents relevant to EN 301 549 "Accessibility requirements suitable for public procurement of ICT products and services in Europe"".&nbsp;</p>
 <p><strong>[i.8]</strong> ETSI CEN/CENELEC/ETSI TR 101 551: "Guidelines on the use of accessibility award criteria suitable for publicly procured ICT products and services in Europe".&nbsp;</p>
-<p><strong>[i.9]</strong> ETSI TR 102 612: "Human Factors (HF); European accessibility requirements for public procurement of products and services in the ICT domain (European Commission Mandate M 376, Phase 1)".&nbsp; </p>
-<p><strong>[i.10]</strong> ETSI TS 126 114: "Universal Mobile Telecommunications System (UMTS); LTE; IP Multimedia Subsystem (IMS); Multimedia telephony; Media handling and interaction (3GPP TS 26.114)".&nbsp;</p>
-<p><strong>[i.11]</strong> ETSI TS 122 173: "Digital cellular telecommunications system (Phase 2+) (GSM); Universal Mobile Telecommunications System (UMTS); LTE; IP Multimedia Core Network Subsystem (IMS) Multimedia Telephony Service and supplementary services; Stage 1 (3GPP TS 22.173)".&nbsp;</p>
-<p><strong>[i.12]</strong> ETSI TS 134 229: "Universal Mobile Telecommunications System (UMTS); LTE; Internet Protocol (IP) multimedia call control protocol based on Session Initiation Protocol (SIP) and Session Description Protocol (SDP); User Equipment (UE) conformance specification (3GPP TS 34.229)".&nbsp;</p>
+<p><strong>[i.9]</strong> ETSI TR 102 612: "Human Factors (<abbr>HF</abbr>); European accessibility requirements for public procurement of products and services in the ICT domain (European Commission Mandate M 376, Phase 1)".&nbsp; </p>
+<p><strong>[i.10]</strong> ETSI TS 126 114: "Universal Mobile Telecommunications System (<abbr>UMTS</abbr>); LTE; IP Multimedia Subsystem (<abbr>IMS</abbr>); Multimedia telephony; Media handling and interaction (3GPP TS 26.114)".&nbsp;</p>
+<p><strong>[i.11]</strong> ETSI TS 122 173: "Digital cellular telecommunications system (Phase 2+) (<abbr>GSM</abbr>); Universal Mobile Telecommunications System (<abbr>UMTS</abbr>); LTE; IP Multimedia Core Network Subsystem (<abbr>IMS</abbr>) Multimedia Telephony Service and supplementary services; Stage 1 (3GPP TS 22.173)".&nbsp;</p>
+<p><strong>[i.12]</strong> ETSI TS 134 229: "Universal Mobile Telecommunications System (<abbr>UMTS</abbr>); LTE; Internet Protocol (<abbr>IP</abbr>) multimedia call control protocol based on Session Initiation Protocol (<abbr>SIP</abbr>) and Session Description Protocol (<abbr>SDP</abbr>); User Equipment (<abbr>UE</abbr>) conformance specification (3GPP TS 34.229)".&nbsp;</p>
 <p><strong>[i.13]</strong> IETF RFC 4103 (2005): "RTP Payload for Text Conversation".</p>
 <p><strong>[i.14]</strong> ISO/IEC 17007:2009: "Conformity assessment - Guidance for drafting normative documents suitable for use for conformity assessment".&nbsp;</p>
 <p><strong>[i.15]</strong> ISO 9241-11:2018:"Ergonomics of human-system interaction - Part 11: Usability: Definitions and concepts".&nbsp;</p>
 <p><strong>[i.16]</strong> ISO 9241-110:2006: "Ergonomics of human-system interaction -- Part 110: Dialogue principles".&nbsp;</p>
 <p><strong>[i.17]</strong> ISO 9241-171:2008: "Ergonomics of human-system interaction-Part 171: Guidance on software accessibility".&nbsp;</p>
 <p><strong>[i.18]</strong> void</p>
-<p><strong>[i.19]</strong> ISO/IEC 13066-1:2011: "Information technology - Interoperability with assistive technology (AT) - Part 1: Requirements and recommendations for interoperability".&nbsp;</p>
+<p><strong>[i.19]</strong> ISO/IEC 13066-1:2011: "Information technology - Interoperability with assistive technology (<abbr>AT</abbr>) - Part 1: Requirements and recommendations for interoperability".&nbsp;</p>
 <p><strong>[i.20]</strong> Recommendation ITU-T E.161 (2001): "Arrangement of digits, letters and symbols on telephones and other devices that can be used for gaining access to a telephone network".&nbsp;</p>
 <p><strong>[i.21]</strong> Recommendation ITU-T G.722 (1988): "7 kHz audio-coding within 64 kbit/s".&nbsp;</p>
 <p><strong>[i.22]</strong> Recommendation ITU-T G.722.2 (2003): "Wideband coding of speech at around 16 kbit/s using Adaptive Multi-Rate Wideband (AMR-WB)".&nbsp;</p>
@@ -8289,13 +8289,13 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 <ul>
 	<li>NOTE: Available at <a href="http://www.w3.org/TR/wcag2ict/">WCAG2ICT</a>.</li>
 </ul>
-<p><strong>[i.27]</strong> M 554 Commission Implementing Decision C(2017)2585 of 27.4.2017 on a standardisation request to the European standardisation organisations in support of Directive (EU) 2016/2102 of the European Parliament and of the Council on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
-<p><strong>[i.28]</strong> Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
+<p><strong>[i.27]</strong> M 554 Commission Implementing Decision C(2017)2585 of 27.4.2017 on a standardisation request to the European standardisation organisations in support of Directive (<abbr>EU</abbr>) 2016/2102 of the European Parliament and of the Council on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
+<p><strong>[i.28]</strong> Directive (<abbr>EU</abbr>) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
 <p><strong>[i.29]</strong>ETSI/CEN/CENELEC EN 301 549 (V2.1.2) (August 2018): "Accessibility requirements for ICT products and services".&nbsp;</p>
 <p><strong>[i.30]</strong> ETSI/CEN/CENELEC TR 101 552: "Guidance for the application of conformity assessment to accessibility requirements for public procurement of ICT products and services in Europe".</p>
 <p><strong>[i.31]</strong> ISO/IEC TS 20071-25:2017: "Information technology - User interface component accessibility - Part 25: Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text".</p>
 <p><strong>[i.32]</strong> W3C Recommendation (September 2015): "Authoring Tool Accessibility Guidelines (<abbr>ATAG</abbr>) 2.0". NOTE: Available at <a href="http://www.w3.org/TR/ATAG20/">http://www.w3.org/TR/ATAG20/</a>.</p>
-<p><strong>[i.33]</strong> W3C Recommendation (September 2015): "User Agent Accessibility Guidelines (UAAG) 2.0". NOTE: Available at <a href="http://www.w3.org/TR/UAAG20/">http://www.w3.org/TR/UAAG20/</a>.</p>
+<p><strong>[i.33]</strong> W3C Recommendation (September 2015): "User Agent Accessibility Guidelines (<abbr>UAAG</abbr>) 2.0". NOTE: Available at <a href="http://www.w3.org/TR/UAAG20/">http://www.w3.org/TR/UAAG20/</a>.</p>
 <p><strong>[i.34]</strong>ISO 21542:2011: "Building construction - Accessibility and usability of the built environment".</p>
 <p><strong>[i.35]</strong>ISO/IEC Guide 71:2014: "Guide for addressing accessibility in standards".</p>
 <p><strong>[i.36]</strong>Recommendation ITU-T T.140 (1988): "Protocol for multimedia application text conversation". </p>
@@ -8627,7 +8627,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 <p>Various software vendors and organizations offer supplementary material that provides instructions for making documents accessible:</p>
 <ul>
 	<li><a href="https://www.adobe.com/accessibility/products/acrobat.html">Adobe PDF accessibility</a></li>
-	<li><a href="https://adod.idrc.ocadu.ca/">Accessible Digital Office Document (ADOD) Project</a></li>
+	<li><a href="https://adod.idrc.ocadu.ca/">Accessible Digital Office Document (<abbr>ADOD</abbr>) Project</a></li>
 	<li><a href="https://support.office.com/en-us/article/make-your-content-accessible-to-everyone-38059c2d-45ef-4830-9797-618f0e96f3ab">Microsoft Accessibility Checker</a></li>
 	<li><a href="https://webaim.org/techniques/word/word2016win">Webaim: Microsoft Word Techniques</a></li>
 	<li><a href="https://webaim.org/techniques/acrobat/">Webaim: PDF Techniques</a></li>

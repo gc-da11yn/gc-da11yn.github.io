@@ -112,7 +112,7 @@ If you answer ‘No’ to one of the following questions, then your document IS 
 
 ## Resources
 
-- This checklist was built using information on [Making Files Accessible](https://www.hhs.gov/web/section-508/accessibility-checklists/index.html) from the Digital Communications Division (DCD).
+- This checklist was built using information on [Making Files Accessible](https://www.hhs.gov/web/section-508/accessibility-checklists/index.html) from the Digital Communications Division (<abbr>DCD</abbr>).
 - Success criteria refer to [How to Meet WCAG 2.1 - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/)
 - For more information on using plain language, refer to [Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
 - Microsoft has numerous FREE videos on their Youtube channel [MSFTEnable](https://www.youtube.com/user/MSFTEnable) with good learning tool.

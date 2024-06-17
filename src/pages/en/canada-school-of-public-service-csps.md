@@ -1,5 +1,5 @@
 ---
-title: Canada School of Public Service (CSPS)
+title: Canada School of Public Service (<abbr>CSPS</abbr>)
 description: The Canada School of Public Service leads the government's enterprise-wide approach to learning by providing a common, standardized curriculum that supports public servants through key career transitions, ensuring that they are equipped to serve Canadians with excellence. Multiple teams at the School support accessibility with the goal of creating a barrier free learning environment for its learners.
 toggle: ecole-de-la-fonction-publique-du-canada-efpc
 subject:
@@ -30,7 +30,7 @@ The CSPS Digital Academy was established by the Canada School of Public Service 
 
 </section>
 <section class="col-md-6">
-<h2 class="h4">Respectful and Inclusive Workplace (RIW) business line</h2>
+<h2 class="h4">Respectful and Inclusive Workplace (<abbr>RIW</abbr>) business line</h2>
 
 CSPS’ Respectful and Inclusive Workplace (<abbr>RIW</abbr>) business line is responsible for the development and delivery of learning products on accessibility for the federal public servants. RIW works in close collaboration with partners such as the Office of Public Service Accessibility (<abbr>OPSA</abbr>), the Office of the Chief Human Resource Officer (<abbr>OCHRO</abbr>), the Accessibility, Accommodation and Adaptive Computer Technology (<abbr>AAACT</abbr>) team, and many other stakeholders to create informative, innovative, and engaging learning experiences on the topic of accessibility.
 

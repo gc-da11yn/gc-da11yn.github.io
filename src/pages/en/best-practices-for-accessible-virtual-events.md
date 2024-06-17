@@ -95,7 +95,7 @@ Here is a short summary of their relationship with handling events:
 
 Aims for a barrier-free Canada by January 1, 2040, requiring the identification, removal and prevention of barriers in areas which include:
 
-- Information and Communication Technologies (ICT) like virtual event platforms
+- Information and Communication Technologies (<abbr>ICT</abbr>) like virtual event platforms
 - and communications (which include officially recognised languages of Deaf people in Canada: American Sign Language, Quebec Sign Language and Indigenous sign languages)
 
 #### *Human Rights Legislation*
@@ -247,13 +247,13 @@ People who are deaf, hard of hearing, or sign language-fluent may struggle with 
 
 - To book sign language interpretation for GC conferences and events, please visit: [Sign language interpretation services – Translation Bureau’s language services and tools (tpsgc-pwgsc.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/signe-sign-eng.html)
 
-##### Communication Access Realtime Translation (CART)
+##### Communication Access Realtime Translation (<abbr>CART</abbr>)
 
 Captions enables people who are deaf, have a hearing loss and people who have cognitive disabilities like auditory processing difficulties, and even people for who French and English might not be their first language, to be able to fully participate in live events.
 
 - To book CART services, please visit: [CART – Communication Access Realtime Translation \| Canadian Hearing Services (chs.ca)](https://www.chs.ca/service/cart-communication-access-realtime-translation)
 
-**Warning:** Some virtual events platforms offer automated live captions, like [Microsoft Teams Live Captions](https://support.microsoft.com/en-us/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260). Unfortunately, these technologies often make errors which disadvantages users who rely on captions. Automated captions should be used as a last resort only or for events of lower importance. Use Communication Access Realtime Translation (CART) instead.
+**Warning:** Some virtual events platforms offer automated live captions, like [Microsoft Teams Live Captions](https://support.microsoft.com/en-us/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260). Unfortunately, these technologies often make errors which disadvantages users who rely on captions. Automated captions should be used as a last resort only or for events of lower importance. Use Communication Access Realtime Translation (<abbr>CART</abbr>) instead.
 
 ##### Simultaneous translation interpretation services
 
@@ -288,10 +288,10 @@ Please refer to the [Digital Accessibility Toolkit](https://a11y.canada.ca/en/) 
 - **Font colour:** Set font colour to “automatic” as this makes content accessible to users running specific colour settings on their PC (including High Contrast Themes and Settings)
 - **Font type:** Use sans serif fonts like Arial or Verdana for electronic material
 - **Images:** All images need alternative text that convey their purpose; complex images like graphs also require long descriptions
-  - Refer to [Images Tutorial \| Web Accessibility Initiative (WAI) \| W3C](https://www.w3.org/WAI/tutorials/images/) for more information on making images accessible
+  - Refer to [Images Tutorial \| Web Accessibility Initiative (<abbr>WAI</abbr>) \| W3C](https://www.w3.org/WAI/tutorials/images/) for more information on making images accessible
 - **Links:** All links must be embedded in descriptive text, for example:
   - Bad: <https://www.w3.org/TR/WCAG21/>
-  - Good (the link is embedded in the text): [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
+  - Good (the link is embedded in the text): [Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1](https://www.w3.org/TR/WCAG21/)
 - **Motion:** Avoid using animations and moving images like GIFs
 - **Plain language:** Use [plain language as outlined in the Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html#toc6)
 - **Text decorations:** Avoid all caps, bold, italic and underlined text to capture the reader’s attention. Those stylings make text more difficult to read for people with low vision and people with cognitive disabilities, and can be read incorrectly by screen readers
@@ -357,7 +357,7 @@ Make sure to include the following information in your event invitation:
 - Include information about how to use the platform, see [section about virtual platforms for hosting events](#for-reference-virtual-platforms)
 - Provide a point of contact to allow attendees to ask questions and comments in advance
 - Avoid registration systems
-  - Registration can become a barrier; see if there are workarounds to make the event more inclusive. If registration is required, work with the event coordinator to make it simple and to meet the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
+  - Registration can become a barrier; see if there are workarounds to make the event more inclusive. If registration is required, work with the event coordinator to make it simple and to meet the [Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1](https://www.w3.org/TR/WCAG21/)
   - If you do not use a registration system, there are other ways to get a list of the participants. For example, [Microsoft Teams allows organizers and co-organizers to download an attendance report](https://support.microsoft.com/en-us/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310) which will list the participants
   - Another possibility is to give out the contact information of the event organizer and let participants request the material
 
@@ -517,7 +517,7 @@ Here are a few tips to risk manage these attacks:
 
 ##### Accessibility standards conformance
 
-Completed Voluntary Product Accessibility Template (VPAT)s for MS Teams can be found among Microsoft’s [Accessibility Conformance Reports](https://www.microsoft.com/en-us/accessibility/conformance-reports), use the Filter and choose “Teams” for the “Category”.
+Completed Voluntary Product Accessibility Template (<abbr>VPAT</abbr>)s for MS Teams can be found among Microsoft’s [Accessibility Conformance Reports](https://www.microsoft.com/en-us/accessibility/conformance-reports), use the Filter and choose “Teams” for the “Category”.
 
 ##### Recommended events options
 
@@ -556,7 +556,7 @@ Accessibility
 - [How to use the sign language view](https://support.microsoft.com/en-us/office/use-sign-language-view-in-microsoft-teams-c6c11f67-0747-4598-ac27-c90801b94434)
 - [How to activate high contrast mode](https://support.microsoft.com/en-us/office/use-color-and-contrast-for-accessibility-in-microsoft-365-bb11486d-fc7d-4cd9-b344-16e2bc2a2387#bkmk_teamsdarkwin11)
 - [How to use language interpretation](https://support.microsoft.com/en-au/office/use-language-interpretation-in-a-teams-meeting-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)
-- [How to turn on Text Telephone (TTY)](https://support.microsoft.com/en-us/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f#ID0EDJ)
+- [How to turn on Text Telephone (<abbr>TTY</abbr>)](https://support.microsoft.com/en-us/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f#ID0EDJ)
 
 Reduce distractions
 
