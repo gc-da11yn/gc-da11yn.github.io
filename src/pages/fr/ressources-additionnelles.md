@@ -108,7 +108,7 @@ De l’utilisation de votre iPhone sans voir l’écran, à l’adaptation des g
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
 
-### [Boîte à outils de l’expérience Web (BOEW)](https://wet-boew.github.io/v4.0-ci/index-fr.html)
+### [Boîte à outils de l’expérience Web (<abbr>BOEW</abbr>)](https://wet-boew.github.io/v4.0-ci/index-fr.html)
 
 Un cadre frontal primé pour la création de sites Web accessibles, utilisables, interopérables, adaptés aux téléphones portables et multilingues.
 
@@ -129,7 +129,7 @@ Aider à mesurer les critères de succès de niveau A et AA des Règles pour l�
 </div>
 <div class="col-md-6">
 
-### [Solution de gabarits à déploiement centralisé (SGDC)](https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html)
+### [Solution de gabarits à déploiement centralisé (<abbr>SGDC</abbr>)](https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html)
 
 L’objectif de la SGDC consiste essentiellement à fournir la couche de présentation du thème de Canada.ca ou du thème d’Intranet.canada.ca aux actifs Web.
 
@@ -351,7 +351,7 @@ Lors de la configuration et de l’exécution de Microsoft Teams réunions et d�
 </div>
 <div class="col-md-6">
 
-### [Répertoire de l’Association des traducteurs et interprètes de l’Ontario (ATIO)](https://atio.on.ca/directory/?lang=fr)
+### [Répertoire de l’Association des traducteurs et interprètes de l’Ontario (<abbr>ATIO</abbr>)](https://atio.on.ca/directory/?lang=fr)
 
 Trouvez un traducteur, un interprète ou un terminologue pour des réunions et des événements.
 
@@ -386,6 +386,6 @@ Cette page contient une vue d'ensemble des nombreuses fonctions d'accessibilité
 
 ## Services
 
-- [Accessibilité, adaptation et technologie informatique adaptée (AATIA)](https://www.canada.ca/fr/services-partages/organisation/programme-aatia.html)
+- [Accessibilité, adaptation et technologie informatique adaptée (<abbr>AATIA</abbr>)](https://www.canada.ca/fr/services-partages/organisation/programme-aatia.html)
 - [Translation Bureau’s language services and tools – PSPC’s GCintranet (tpsgc-pwgsc.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/ministeres-departments/traduction-translation/accueil-home-eng.html)
 - [Services d'interprétation des conférences et d'interprétation en langues des signes<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/accueil-home-fra.html)

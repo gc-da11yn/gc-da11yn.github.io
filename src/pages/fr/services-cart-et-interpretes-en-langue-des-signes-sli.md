@@ -11,7 +11,7 @@ tags:
 
 Il est important de prévoir que les personnes culturellement sourdes puissent préférer un service d’interprétation en langue des signes, car leur langue maternelle est probablement la langue des signes des États-Unis (<abbr>ASL</abbr>) ou la langue des signes québécoise (<abbr>LSQ</abbr>), mais ne le présumez pas. Demandez à ces personnes la mesure d’adaptation qu’elles préfèrent. En effet, des personnes devenues sourdes plus tard dans leur vie peuvent ne pas avoir appris à communiquer avec l’(<abbr>ASL</abbr>) ou la LSQ.
 
-## Traduction en temps réel des communications (CART)
+## Traduction en temps réel des communications (<abbr>CART</abbr>)
 
 - La traduction CART est une traduction en temps réel par un sténographe CART qualifié de la parole en texte de tous les mots prononcés et les sons environnementaux. Contrairement aux autres formes de sous-titrage, la traduction CART vise à capturer tous les sons et permet à l’utilisateur de décider de l’information qui l’intéresse.
 - La traduction CART peut être fournie en anglais et en français.

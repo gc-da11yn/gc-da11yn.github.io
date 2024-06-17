@@ -25,7 +25,7 @@ audience:
   - Éducateur / animateur
 ---
 
-## Introduction à la conception universelle pour l’apprentissage (CUA)
+## Introduction à la conception universelle pour l’apprentissage (<abbr>CUA</abbr>)
 
 Il est important de concevoir des cours et d’adopter un style d’enseignement qui répond aux besoins de personnes ayant des antécédents, des capacités et des styles d’apprentissage différents. Tout le monde apprend différemment, il n’y a donc pas de méthode d’enseignement unique. En utilisant différentes méthodes d’enseignement, nous pouvons répondre aux besoins d’un plus grand nombre d’apprenants. Plutôt que d’utiliser une « approche universelle », fournir de multiples façons d’engagement, de représentation, d’action et d’expression peut répondre aux besoins d’un plus grand nombre d’apprenants.
 
