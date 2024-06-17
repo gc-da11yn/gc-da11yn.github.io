@@ -1,6 +1,6 @@
 ---
-title: Conception universelle pour l’apprentissage (CUA)
-description: La conception universelle pour l’apprentissage (CUA) est un cadre qui évite une « approche unique » du matériel d’apprentissage. Il encourage l’utilisation de multiples façons d’engagement, de représentation, d’action et d’expression peut répondre aux besoins d’un plus grand nombre d’apprenants. Renseignez-vous sur les trois principaux principes, avantages, avantages et conseils de la CUA.
+title: Conception universelle pour l’apprentissage (<abbr>CUA</abbr>)
+description: La conception universelle pour l’apprentissage (<abbr>CUA</abbr>) est un cadre qui évite une « approche unique » du matériel d’apprentissage. Il encourage l’utilisation de multiples façons d’engagement, de représentation, d’action et d’expression peut répondre aux besoins d’un plus grand nombre d’apprenants. Renseignez-vous sur les trois principaux principes, avantages, avantages et conseils de la CUA.
 subject:
   - howTos
 tags:
@@ -11,7 +11,7 @@ category:
   - Rédaction de contenu
   - Conception
 Keywords:
-  - Conception universelle pour l’apprentissage (CUA)
+  - Conception universelle pour l’apprentissage (<abbr>CUA</abbr>)
   - Conception universelle
   - Obstacles
   - L’engagement
@@ -25,13 +25,13 @@ audience:
   - Éducateur / animateur
 ---
 
-## Introduction à la conception universelle pour l’apprentissage (CUA)
+## Introduction à la conception universelle pour l’apprentissage (<abbr>CUA</abbr>)
 
 Il est important de concevoir des cours et d’adopter un style d’enseignement qui répond aux besoins de personnes ayant des antécédents, des capacités et des styles d’apprentissage différents. Tout le monde apprend différemment, il n’y a donc pas de méthode d’enseignement unique. En utilisant différentes méthodes d’enseignement, nous pouvons répondre aux besoins d’un plus grand nombre d’apprenants. Plutôt que d’utiliser une « approche universelle », fournir de multiples façons d’engagement, de représentation, d’action et d’expression peut répondre aux besoins d’un plus grand nombre d’apprenants.
 
-La conception universelle pour l’apprentissage (CUA) est un cadre qui vient du concept de conception universelle (UD). Vous avez probablement vu des exemples de conception universelle dans votre vie quotidienne, tels que les sous-titrages, les portes automatiques, les rampes et les caractéristiques d’accessibilité des téléphones intelligents. Ces choses aident les personnes handicapées, mais elles peuvent également être utiles pour les personnes qui n’ont pas de handicap.
+La conception universelle pour l’apprentissage (<abbr>CUA</abbr>) est un cadre qui vient du concept de conception universelle (<abbr>UD</abbr>). Vous avez probablement vu des exemples de conception universelle dans votre vie quotidienne, tels que les sous-titrages, les portes automatiques, les rampes et les caractéristiques d’accessibilité des téléphones intelligents. Ces choses aident les personnes handicapées, mais elles peuvent également être utiles pour les personnes qui n’ont pas de handicap.
 
-La conception universelle pour l’apprentissage (CUA) aide tous les apprenants à réussir. Il encourage les professionnels de l’enseignement et de l’apprentissage à fournir de multiples façons aux apprenants. Cela aide à éliminer les obstacles qui peuvent empêcher certaines personnes d’apprendre et donne à tous les élèves une chance égale de réussite. De plus, ce cadre est flexible et peut être adapté pour répondre aux besoins de chaque élève. La CUA est utile pour tout le monde.
+La conception universelle pour l’apprentissage (<abbr>CUA</abbr>) aide tous les apprenants à réussir. Il encourage les professionnels de l’enseignement et de l’apprentissage à fournir de multiples façons aux apprenants. Cela aide à éliminer les obstacles qui peuvent empêcher certaines personnes d’apprendre et donne à tous les élèves une chance égale de réussite. De plus, ce cadre est flexible et peut être adapté pour répondre aux besoins de chaque élève. La CUA est utile pour tout le monde.
 
 En utilisant les principes de la CUA, les enseignants peuvent éduquer efficacement un groupe diversifié d’apprenants en rendant l’accès à l’information et la démonstration des connaissances plus flexibles. Cela signifie qu’ils peuvent s’adapter aux forces et aux besoins individuels de chaque apprenant, en éliminant les obstacles à l’apprentissage et en offrant des chances égales de réussite pour tous. La CUA profite donc non seulement aux apprenants vivant avec un handicap ou limitation, mais à tous les apprenants.
 

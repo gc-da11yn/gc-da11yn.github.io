@@ -1,6 +1,6 @@
 ---
-title: Universal Design for Learning (UDL)
-description: Universal Design for Learning (UDL) is a framework that avoids a ‘one-size fits all approach’ to learning materials. It encourages using multiple ways of engagement, representation and action and expression can meet the needs of a larger number of learners. Learn about the three main UDL principles, advantages, benefits and tips.
+title: Universal Design for Learning (<abbr>UDL</abbr>)
+description: Universal Design for Learning (<abbr>UDL</abbr>) is a framework that avoids a ‘one-size fits all approach’ to learning materials. It encourages using multiple ways of engagement, representation and action and expression can meet the needs of a larger number of learners. Learn about the three main UDL principles, advantages, benefits and tips.
 subject:
   - howTos
 tags:
@@ -24,9 +24,9 @@ audience:
 
 It is important to design courses and adopt a teaching style that meets the needs of people with different backgrounds, abilities and learning styles. Everyone learns differently, so there is no one-size-fits-all teaching method. By using different teaching methods, we can meet the needs of a larger number of learners. Rather than using a ‘one-size fits all approach’, providing multiple ways of engagement, representation and action and expression can meet the needs of a larger number of learners.
 
-Universal Design for Learning (UDL) is a framework that comes from the concept of Universal Design (UD). You've probably seen examples of universal design in your daily life, such as closed captions, automatic doors, ramps and accessibility features of smart phones. These things help people with disabilities, but they can also be helpful for people who don't have a disability.
+Universal Design for Learning (<abbr>UDL</abbr>) is a framework that comes from the concept of Universal Design (<abbr>UD</abbr>). You've probably seen examples of universal design in your daily life, such as closed captions, automatic doors, ramps and accessibility features of smart phones. These things help people with disabilities, but they can also be helpful for people who don't have a disability.
 
-Universal Design for Learning (UDL) helps all leaners succeed. It encourages teaching and learning professionals to provide multiple ways for learners. It helps remove barriers that may prevent some people from learning and gives all students an equal chance of success. It is flexible and can be adapted to meet the needs of each student. UDL is useful for everyone.
+Universal Design for Learning (<abbr>UDL</abbr>) helps all leaners succeed. It encourages teaching and learning professionals to provide multiple ways for learners. It helps remove barriers that may prevent some people from learning and gives all students an equal chance of success. It is flexible and can be adapted to meet the needs of each student. UDL is useful for everyone.
 
 Using UDL principles, teachers can effectively educate a diverse group of learners by making access to information and the demonstration of knowledge more flexible. This means they can adapt to each learner's individual strengths and needs, removing barriers to learning and providing equal opportunities for success for all. UDL therefore benefits not only learners with disabilities, but all learners.
 

@@ -29,7 +29,7 @@ Using built-in form elements such as checkboxes in Microsoft Word will result in
 
 ## Difficult and semi-accessible: PDF
 
-Portable Document Format (PDF) is the most common format for forms in the GC. It is also one of the hardest formats to make accessible. In order to preserve the formatting when printing the form, much of the presentation is “baked in” into the file. This significantly limits adaptability when a user is filling a PDF form electronically. For example, most PDF forms do not successfully reflow in response to a smaller viewport, decreasing usability for users with low vision or on mobile devices. User preferences for colors and fonts are rarely reflected. It is also difficult to adapt a pdf form to alternate formats such as large print or braille.
+Portable Document Format (<abbr>PDF</abbr>) is the most common format for forms in the GC. It is also one of the hardest formats to make accessible. In order to preserve the formatting when printing the form, much of the presentation is “baked in” into the file. This significantly limits adaptability when a user is filling a PDF form electronically. For example, most PDF forms do not successfully reflow in response to a smaller viewport, decreasing usability for users with low vision or on mobile devices. User preferences for colors and fonts are rarely reflected. It is also difficult to adapt a pdf form to alternate formats such as large print or braille.
 
 Fillable pdf forms are widely used because they offer many of the features of HTML forms: form elements like checkboxes, programmatic labels, and even JavaScript validation. If you can’t use an HTML form but need these features, take steps to ensure the PDF is as accessible as the format allows.
 

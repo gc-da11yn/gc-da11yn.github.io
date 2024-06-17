@@ -64,7 +64,7 @@ Nous croyons qu’il est important de tenir compte d’un large éventail d’ex
 <dt>Âge</dt>
 <dd>52</dd>
 <dt>Emploi </dt>
-<dd>Expérience utilisateur (UX).</dd>
+<dd>Expérience utilisateur (<abbr>UX</abbr>).</dd>
 <dt>Sites couramment utilisés</dt>
 <dd>IAAP, EFPC.</dd>
 <dt>Handicap :</dt>
@@ -179,7 +179,7 @@ Catégorie : Amélioration de la vision
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Besoins (tâches, environnements)
 
 - Exige l’accès aux lignes directrices sur l’accessibilité du Web et des documents lors de la réalisation des tests.
-- Temps de mise à l’essai adéquat de l’accessibilité des technologies de l’information et des communications (TIC) au sein du GC.
+- Temps de mise à l’essai adéquat de l’accessibilité des technologies de l’information et des communications (<abbr>TIC</abbr>) au sein du GC.
 - Les fichiers numériques seront disponibles dans des formats accessibles.
 
 </div>

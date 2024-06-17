@@ -98,7 +98,7 @@ Voici un bref résumé de leur relation avec la gestion des événements :
 
 L'objectif est de faire du Canada un pays exempt obstacles d'ici le 1<sup>er</sup> janvier 2040, en exigeant la reconnaissance, l'élimination et la prévention des obstacles dans les domaines suivants :
 
-- les technologies de l'information et de la communication (TIC), telles que les plateformes d'événements virtuels;
+- les technologies de l'information et de la communication (<abbr>TIC</abbr>), telles que les plateformes d'événements virtuels;
 - les communications (y compris les langues officiellement reconnues par les personnes malentendantes au Canada, à savoir l’American Sign Language, la langue des signes québécoise et les langues des signes autochtones).
 
 #### *Loi canadienne sur les droits de la personne*
@@ -295,10 +295,10 @@ Veuillez consulter la [boîte à outils de l'accessibilité numérique](https://
 - **Couleur de la police :** Réglez la couleur de la police à « automatique » afin que le contenu soit accessible aux utilisateurs qui utilisent des paramètres de couleur précis sur leur PC (y compris les thèmes et paramètres à contraste élevé)
 - **Type de police :** Utilisez des polices sans empattement comme Arial ou Verdana pour les documents électroniques
 - **Images :** Toutes les images doivent être accompagnées d'un texte alternatif qui en explique le but; les images complexes telles que les graphiques nécessitent également de longues descriptions
-  - Consultez <a href="https://www.w3.org/WAI/tutorials/images/" lang="en">Images Tutorial \| Web Accessibility Initiative (WAI) \| W3C<small lang="fr"> (en anglais seulement)</small></a> pour obtenir plus d'information sur la manière de rendre les images accessibles
+  - Consultez <a href="https://www.w3.org/WAI/tutorials/images/" lang="en">Images Tutorial \| Web Accessibility Initiative (<abbr>WAI</abbr>) \| W3C<small lang="fr"> (en anglais seulement)</small></a> pour obtenir plus d'information sur la manière de rendre les images accessibles
 - **Liens :** Tous les liens doivent être intégrés dans un texte descriptif, par exemple :
   - À ne pas faire : <https://www.w3.org/Translations/WCAG21-fr/>;
-  - À faire (le lien est intégré dans le texte) : [Règles pour l’accessibilité des contenus Web (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-fr/).
+  - À faire (le lien est intégré dans le texte) : [Règles pour l’accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1](https://www.w3.org/Translations/WCAG21-fr/).
 - **Mouvement :** Évitez d'utiliser des animations et des images en mouvement comme les GIF
 - **Langage clair et simple :** Utilisez un langage clair et simple, [tel que décrit dans le Guide de rédaction du contenu du site Canada.ca](https://conception.canada.ca/guide-redaction/#toc6)
 - **Décoration du texte :** Évitez les textes en majuscules, en gras, en italique et soulignés pour attirer l'attention du lecteur. Ces styles rendent le texte plus difficile à lire pour les personnes malvoyantes et les personnes ayant un handicap cognitif, et peuvent être mal interprétés par les lecteurs d'écran
@@ -332,7 +332,7 @@ Veuillez consulter la [boîte à outils de l'accessibilité numérique](https://
 - Les sous-titres et la transcription doivent être fournis
   - De nombreux services de création vidéo tels que [Microsoft Stream](https://support.microsoft.com/fr-fr/office/afficher-modifier-et-g%C3%A9rer-les-transcriptions-et-les-l%C3%A9gendes-vid%C3%A9o-3cb9acb6-05b2-4f59-a50d-7df61123aa20) et [YouTube Studio](https://support.google.com/youtube/answer/2734796?hl=fr&sjid=13499621952846681139-NA) disposent de fonctionnalités permettant de générer automatiquement des sous-titres et des transcriptions. Avant de les distribuer à vos participants, assurez-vous de leur exactitude
 - La piste audio doit décrire tout le contenu significatif à l'écran et, si nécessaire, une description audio devrait être ajoutée
-  - Par exemple : Si un utilisateur montre comment utiliser une interface utilisateur (IU) en partageant son écran, il doit expliquer ce qu'il fait pour que les utilisateurs non visuels puissent suivre; si cela n'est pas fait, une description audio doit être ajoutée si l'enregistrement est partagé
+  - Par exemple : Si un utilisateur montre comment utiliser une interface utilisateur (<abbr>IU</abbr>) en partageant son écran, il doit expliquer ce qu'il fait pour que les utilisateurs non visuels puissent suivre; si cela n'est pas fait, une description audio doit être ajoutée si l'enregistrement est partagé
 - Assurez-vous que la vidéo dispose d'une fonction pause/lecture/arrêt
 
 #### Envoie des invitations aux participants
@@ -364,7 +364,7 @@ Veillez à inclure les renseignements suivants dans votre invitation à l'évén
 - Incluez des renseignements sur l’utilisation de la plateforme - consultez la [section sur les plateformes virtuelles pour l'organisation d'événements](#a-titre-de-reference-plateformes-virtuelles)
 - Fournissez un point de contact pour permettre aux participants de poser des questions et de faire des commentaires à l'avance
 - Évitez les systèmes d'inscription
-  - L'inscription peut devenir un obstacle; voyez s'il existe des solutions de rechange pour rendre l'événement plus inclusif. Si l'inscription est obligatoire, collaborez avec le coordinateur de l'événement pour la rendre simple et conforme aux [Règles pour l'accessibilité des contenus Web (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-fr/)
+  - L'inscription peut devenir un obstacle; voyez s'il existe des solutions de rechange pour rendre l'événement plus inclusif. Si l'inscription est obligatoire, collaborez avec le coordinateur de l'événement pour la rendre simple et conforme aux [Règles pour l'accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1](https://www.w3.org/Translations/WCAG21-fr/)
   - Si vous n'utilisez pas de système d'inscription, il existe d'autres moyens d'obtenir une liste des participants. Par exemple, [Microsoft Teams permet aux organisateurs et aux co-organisateurs de télécharger un rapport de présence](https://support.microsoft.com/fr-fr/office/g%C3%A9rer-les-rapports-de-pr%C3%A9sence-aux-r%C3%A9unions-dans-microsoft-teams-ae7cf170-530c-47d3-84c1-3aedac74d310) qui répertorie les participants
   - Une autre possibilité consiste à donner les coordonnées de l'organisateur de l'événement et à laisser les participants demander le matériel
 
@@ -525,7 +525,7 @@ Voici quelques conseils pour gérer les risques liés à ces attaques :
 
 ##### Conformité aux normes d'accessibilité
 
-Vous trouverez les modèles volontaires d'accessibilité des produits (VPAT) pour MS Teams dans les <a href="https://www.microsoft.com/en-us/accessibility/conformance-reports" hreflang="en">rapports de conformité de l'accessibilité de Microsoft<small> (en anglais seulement)</small></a>, en utilisant le filtre et en choisissant « Teams » comme catégorie.
+Vous trouverez les modèles volontaires d'accessibilité des produits (<abbr>VPAT<abbr>) pour MS Teams dans les <a href="https://www.microsoft.com/en-us/accessibility/conformance-reports" hreflang="en">rapports de conformité de l'accessibilité de Microsoft<small> (en anglais seulement)</small></a>, en utilisant le filtre et en choisissant « Teams » comme catégorie.
 
 ##### Options recommandées pour les événements
 
@@ -565,7 +565,7 @@ Accessibilité
 - [Comment utiliser la vue langue des signes](https://support.microsoft.com/fr-fr/office/utiliser-la-vue-langue-des-signes-dans-microsoft-teams-c6c11f67-0747-4598-ac27-c90801b94434)
 - [Comment activer le mode de contraste](https://support.microsoft.com/fr-fr/office/utiliser-la-couleur-et-le-contraste-pour-l-accessibilit%C3%A9-dans-microsoft-365-bb11486d-fc7d-4cd9-b344-16e2bc2a2387) élevé
 - [Comment utiliser l'interprétation en langue des signes](https://support.microsoft.com/fr-fr/office/utiliser-l-interpr%C3%A9tation-de-la-langue-dans-les-r%C3%A9unions-microsoft-teams-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)
-- [Comment activer le téléscripteur (TTY)](https://support.microsoft.com/fr-fr/office/g%C3%A9rer-vos-param%C3%A8tres-d-appel-dans-microsoft-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [Comment activer le téléscripteur (<abbr>TTY</abbr>)](https://support.microsoft.com/fr-fr/office/g%C3%A9rer-vos-param%C3%A8tres-d-appel-dans-microsoft-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
 Réduction des distractions
 

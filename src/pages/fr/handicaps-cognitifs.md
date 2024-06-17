@@ -14,16 +14,16 @@ keywords:
   - troubles du calcul
   - TDAH
   - trouble déficitaire de l'attention avec hyperactivité
-  - troubles du spectre de l'autisme (TSA)
+  - troubles du spectre de l'autisme (<abbr>TSA</abbr>)
   - troubles de l'apprentissage non verbal
   - technologies d'adaptation
   - handicaps cognitifs
   - déficience cognitive
   - troubles de l'apprentissage
   - synthèse vocale
-  - communication améliorée et alternative (CAA)
+  - communication améliorée et alternative (<abbr>CAA</abbr>)
   - stylos intelligents
-  - syndrome d'Asperger (SA)
+  - syndrome d'Asperger (<abbr>SA</abbr>)
   - logiciel de reconnaissance vocale
 audience:
   - Everyone
@@ -31,9 +31,9 @@ toggle: cognitive-disabilities
 ---
 
 - <a href="{{ rootPath }}docs/posters/SpectreAutisme-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre de l'autisme (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
-- [Concevoir pour les utilisateurs dans le spectre de l'autisme (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-l-autisme/)
+- [Concevoir pour les utilisateurs dans le spectre de l'autisme (<abbr>HTML</abbr>)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-l-autisme/)
 - <a href="{{ rootPath }}docs/posters/Cognitif-fr_2023.pdf" download>Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a></a>
-- [Principes de conception pour les utilisateurs avec handicap cognitif (HTML)]({{ rootPath }}fr/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif/)
+- [Principes de conception pour les utilisateurs avec handicap cognitif (<abbr>HTML</abbr>)]({{ rootPath }}fr/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif/)
 
 On trouve une vaste gamme de déficience cognitive, telle que l’affaiblissement de la mémoire à court et à long terme et la différence perceptuelle. Les troubles du langage, y compris la dyslexie et les troubles temporaires associés à l’apprentissage de nouvelles langues, sont également des problèmes cognitifs courants. Habituellement, une combinaison de technologie informatique adaptative est utilisée pas les personnes en situation de handicaps cognitifs.
 
@@ -121,7 +121,7 @@ D’après le document «&nbsp;Qu’est-ce que la dyscalculie&nbsp;»&nbsp;de Un
 
 <dl>
 <dt>Définition :</dt>
-<dd>Le trouble déficitaire de l’attention avec hyperactivité (TDAH) est un trouble du développement neurologique qui affecte aussi bien les enfants que les adultes. Les symptômes apparaissent généralement vers l’âge de 7 ans. Bien que le TDAH ne disparaisse pas, les gens apprennent à s’adapter. Le TDAH se caractérise par des difficultés d’attention, de l’impulsivité et de l’hyperactivité qui peuvent interférer avec le fonctionnement quotidien et les relations.</dd>
+<dd>Le trouble déficitaire de l’attention avec hyperactivité (<abbr>TDAH</abbr>) est un trouble du développement neurologique qui affecte aussi bien les enfants que les adultes. Les symptômes apparaissent généralement vers l’âge de 7 ans. Bien que le TDAH ne disparaisse pas, les gens apprennent à s’adapter. Le TDAH se caractérise par des difficultés d’attention, de l’impulsivité et de l’hyperactivité qui peuvent interférer avec le fonctionnement quotidien et les relations.</dd>
 <dt>Caractéristiques :</dt>
 <dd>
 
@@ -140,9 +140,9 @@ Les principaux symptômes du TDAH sont&nbsp;:
 <dt>Définition :</dt>
 <dd>
 
-Selon l’Organisation mondiale de la santé : Le trouble du spectre de l'autisme (TSA) fait référence à une gamme de conditions caractérisées par un certain degré de comportement social, de communication et de langage altéré, et une gamme étroite d’intérêts et d’activités qui sont à la fois uniques à l’individu et réalisés de manière répétitive.
+Selon l’Organisation mondiale de la santé : Le trouble du spectre de l'autisme (<abbr>TSA</abbr>) fait référence à une gamme de conditions caractérisées par un certain degré de comportement social, de communication et de langage altéré, et une gamme étroite d’intérêts et d’activités qui sont à la fois uniques à l’individu et réalisés de manière répétitive.
 
-Les TSA apparaissent dès l’enfance et ont tendance à persister à l’adolescence et à l’âge adulte. Les personnes atteintes de TSA présentent souvent d’autres conditions concomitantes, telles que l’épilepsie, la dépression, l’anxiété et le trouble déficitaire de l’attention avec hyperactivité (TDAH). Le niveau de fonctionnement intellectuel chez les personnes atteintes de TSA est extrêmement variable, s’étendant d’altération profonde à des niveaux supérieurs.
+Les TSA apparaissent dès l’enfance et ont tendance à persister à l’adolescence et à l’âge adulte. Les personnes atteintes de TSA présentent souvent d’autres conditions concomitantes, telles que l’épilepsie, la dépression, l’anxiété et le trouble déficitaire de l’attention avec hyperactivité (<abbr>TDAH</abbr>). Le niveau de fonctionnement intellectuel chez les personnes atteintes de TSA est extrêmement variable, s’étendant d’altération profonde à des niveaux supérieurs.
 
 </dd>
 <dt>Caractéristiques :</dt>
@@ -162,7 +162,7 @@ Les personnes atteintes de TSA peuvent présenter des traits suivants :
 </dd>
 </dl>
 
-## Trouble d’apprentissage non verbal (TANV)
+## Trouble d’apprentissage non verbal (<abbr>TANV</abbr>)
 
 <dl>
 <dt>Définition :</dt>
@@ -263,7 +263,7 @@ Voici quelques produits couramment utilisés&nbsp;:
   - Par exemple, Medialexie
 - Contenu simplifié
   - Par exemple, des cahiers d’exercices, des tableaux, des graphiques, des crayons pour faciliter l’écriture, des jouets et des jeux éducatifs, des blocs, des modèles d’objets courants, des lettres, et des chiffres
-- Dispositifs de communication améliorée et alternative (CAA)
+- Dispositifs de communication améliorée et alternative (<abbr>CAA</abbr>)
 - Discours et mise en surbrillance synchronisés
 - Alternatives visuelles/audio au texte dans la signalisation, les messages, les instructions
 - Aide directe et immédiate

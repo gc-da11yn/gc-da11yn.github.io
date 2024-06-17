@@ -80,7 +80,7 @@ Members
   - Development
   - Communications
 - Secretariat services:
-  - Accessibility, Accommodation and Adaptive Computer Technology (<abbr>AAACT</abbr>) program
+  - Accessibility, Accommodation and Adaptive Computer Technology (<abbr title="Accessibility, Accommodations and Adaptive Computer Technology">AAACT</abbr>) program
 
 ## Operating procedures and frequency of meetings
 

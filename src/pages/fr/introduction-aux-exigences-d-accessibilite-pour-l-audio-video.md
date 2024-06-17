@@ -12,7 +12,7 @@ audience:
 
 ## Introduction
 
-L’objectif de ce guide est de vous apprendre comment faire en sorte que tous les produits d’apprentissage audio-vidéo soient accessibles à tous les apprenants. Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1 et d’autres directives d’accessibilité font référence aux enregistrements audio-vidéo, en direct ou préenregistrés, en tant que médias temporels.
+L’objectif de ce guide est de vous apprendre comment faire en sorte que tous les produits d’apprentissage audio-vidéo soient accessibles à tous les apprenants. Les Règles pour l’accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1 et d’autres directives d’accessibilité font référence aux enregistrements audio-vidéo, en direct ou préenregistrés, en tant que médias temporels.
 
 Voici des exemples de médias temporels :
 

@@ -11,9 +11,9 @@ toggle: auditory-disabilities
 ---
 
 - <a href="{{ rootPath }}docs/posters/Sourds-fr_2023.pdf" download>Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)</a>
-- [Concevoir pour les utilisateurs sourds ou malentendants (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-sourds-ou-malentendants/)
+- [Concevoir pour les utilisateurs sourds ou malentendants (<abbr>HTML</abbr>)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-sourds-ou-malentendants/)
 - <a href="{{ rootPath }}docs/posters/RevuesDecran-fr_2023.pdf" download>Concevoir pour les utilisateurs de revues d’écran (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 53 <abbr title="kilo-octet">ko</abbr>)</a>
-- [Concevoir pour les utilisateurs de revues d’écran (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-de-revues-d-ecran/)
+- [Concevoir pour les utilisateurs de revues d’écran (<abbr>HTML</abbr>)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-de-revues-d-ecran/)
 
 Les déficiences auditives sont des déficiences sensorielles allant d'une perte auditive partielle à complète. Certaines personnes peuvent aussi avoir une ouïe trop sensible (hyperacousie) dans une ou les deux oreilles.
 
@@ -32,7 +32,7 @@ Les déficiences auditives sont des déficiences sensorielles allant d'une perte
 <dt>Définition :</dt>
 <dd>Les malentendants font référence aux personnes ayant une perte auditive allant de légère à sévère, qui ont encore une audition utile, et peuvent communiquer par la Langue des signes, langue parlée, ou les deux comprennent la langue parlée dans certaines situations, avec ou sans amplification. La plupart des personnes peuvent utiliser le téléphone et utiliser des appareils auditifs.</dd>
 <dt>Caractéristiques :</dt>
-<dd>Les personnes malentendantes ont d'une déficience auditive partielle dans une ou les deux oreilles, ce qui entraîne une perte auditive légère à modérée. L'audition résiduelle peut être suffisante pour qu'un appareil auditif, tel qu'une aide auditive ou un système de modulation de fréquence (FM), fournisse une assistance suffisante pour traiter la parole. Une personne malentendante a difficulté avec les sons, y compris la composante audio des documents multimédias.</dd>
+<dd>Les personnes malentendantes ont d'une déficience auditive partielle dans une ou les deux oreilles, ce qui entraîne une perte auditive légère à modérée. L'audition résiduelle peut être suffisante pour qu'un appareil auditif, tel qu'une aide auditive ou un système de modulation de fréquence (<abbr>FM</abbr>), fournisse une assistance suffisante pour traiter la parole. Une personne malentendante a difficulté avec les sons, y compris la composante audio des documents multimédias.</dd>
 </dl>
 
 ## Trouble du traitement auditif central
@@ -43,7 +43,7 @@ Les déficiences auditives sont des déficiences sensorielles allant d'une perte
 
 Selon le « American Speech-Language-Hearing Association » :
 
-- Le trouble du traitement auditif (TTA) est souvent décrit comme plus important que prévu difficulté à entendre et à comprendre la parole même si aucune perte audition mesurable existe. Les personnes atteintes de troubles du traitement auditif peuvent agir comme si un une perte auditive est présente alors qu'en fait, la sensibilité auditive est souvent dans des limites normales. Le TTA est souvent confondue avec d'autres troubles tels que le trouble déficitaire de l’attention avec hyperactivité (<abbr>TDAH</abbr>), le langage handicap, troubles d'apprentissage, retards sociaux et émotionnels ou troubles cognitifs déficits.
+- Le trouble du traitement auditif (<abbr>TTA</abbr>) est souvent décrit comme plus important que prévu difficulté à entendre et à comprendre la parole même si aucune perte audition mesurable existe. Les personnes atteintes de troubles du traitement auditif peuvent agir comme si un une perte auditive est présente alors qu'en fait, la sensibilité auditive est souvent dans des limites normales. Le TTA est souvent confondue avec d'autres troubles tels que le trouble déficitaire de l’attention avec hyperactivité (<abbr>TDAH</abbr>), le langage handicap, troubles d'apprentissage, retards sociaux et émotionnels ou troubles cognitifs déficits.
 - Le <abbr title="trouble du traitement auditif">TTA</abbr> n'est pas l'incapacité d'entendre. C'est l'incapacité d'interpréter, d'organiser ou d'analyser ce qui est entendu. Toutes les parties de la voie auditive fonctionnent bien, mais pas celles du cerveau.
 
 </dd>
@@ -101,7 +101,7 @@ Voici quelques produits couramment utilisés :
 - Interprétation en langue des signes
 - Téléscripteur
 - Sous-titrage en direct pendant les réunions et les appels téléphoniques
-- Par exemple, Communication Access Real-Time Transcription (CART)
+- Par exemple, Communication Access Real-Time Transcription (<abbr>CART</abbr>)
 - Sous-titres pour les vidéos
 - Transcriptions vidéo ou audio
 - Commandes audio
@@ -111,6 +111,6 @@ Voici quelques produits couramment utilisés :
 - Prothèses auditives
 - Les implants cochléaires
 - Report de la voix
-- Systèmes de modulation de fréquence (FM)
+- Systèmes de modulation de fréquence (<abbr>FM</abbr>)
 - Systèmes infrarouges
 - Systèmes de boucle d'induction audio

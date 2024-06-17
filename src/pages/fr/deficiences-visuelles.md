@@ -11,7 +11,7 @@ toggle: visual-impairments
 ---
 
 - <a href="{{ rootPath }}docs/posters/Malvoyants-fr_2023.pdf" download>Concevoir pour les utilisateurs malvoyants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 45 <abbr title="kilo-octet">ko</abbr>)</a>
-- [Concevoir pour les utilisateurs malvoyants (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-malvoyants/)
+- [Concevoir pour les utilisateurs malvoyants (<abbr>HTML</abbr>)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-malvoyants/)
 
 ## Cécité
 
@@ -66,4 +66,4 @@ Voici quelques produits couramment utilisés :
 - Logiciels de grossissement d'écran
   - Zoom text
 - Afficheur braille
-- Logiciel de reconnaissance optique de caractères (OCR) qui permet de scanner un texte imprimé et de le convertir en texte numérique
+- Logiciel de reconnaissance optique de caractères (<abbr>OCR</abbr>) qui permet de scanner un texte imprimé et de le convertir en texte numérique

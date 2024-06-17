@@ -75,7 +75,7 @@ Si le document entier est en anglais mais que certaines sections renferment des 
 - Choisissez un vocabulaire simple et évitez les mots complexes ou le langage politique.
 - Utilisez des phrases courtes (de 20 mots ou moins).
 - Utilisez la forme active (par exemple, « ils ont décidé » au lieu de « une décision a été prise »).
-- Définissez les abréviations à leur première occurrence (par exemple, « Services partagés Canada (SPC) »).
+- Définissez les abréviations à leur première occurrence (par exemple, « Services partagés Canada (<abbr>SPC</abbr>) »).
 
 ### Resources
 
@@ -135,7 +135,7 @@ Veillez à utiliser une police de caractères sans empattement comme Arial, Cali
 - d’utiliser des attributs de police décoratifs, comme des lettrines, des effets ou WordArt;
 - d’utiliser des symboles et des icônes comme seul moyen de communiquer l’information;
 - d’utiliser des exposants et des indices;
-- d’inclure des symboles et des équations mathématiques. Si vous devez inclure ces informations, assurez‑vous d’utiliser le langage de balisage mathématique (MathML);
+- d’inclure des symboles et des équations mathématiques. Si vous devez inclure ces informations, assurez‑vous d’utiliser le langage de balisage mathématique (<abbr>MathML</abbr>);
 - de mettre plus de quelques mots en italique pour éviter que le texte soit difficile à lire;
 - le gouvernement du Canada recommande l’emploi de l’italique [uniquement pour les titres de lois, de règlements et de causes judiciaires](https://www.noslangues-ourlanguages.gc.ca/fr/cles-de-la-redaction/titres-de-lois-reglements-accords-chartes-decrets);
 - d’appliquer des styles visuels (couleurs, gras, etc.) comme seul moyen de transmettre des informations.
@@ -250,7 +250,7 @@ Microsoft Office affiche automatiquement les hyperliens sous forme de texte bleu
 **Remarque** : Utilisez uniquement le soulignement pour les hyperliens dans votre contenu numérique.
 
 - Le texte des hyperliens doit être pertinent et indiquer la page de destination (par exemple, « [Soutien fédéral de la croissance et de l’innovation en entreprise pour les technologies propres, 2020](https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2023034-fra.htm) »).
-- Placez le site Web de destination (nom de l&#39;entreprise) à la fin du lien, entre parenthèses; par exemple (Canada.ca). Il s’agit là d’une autre pratique exemplaire pour aider l’utilisateur à savoir où mène l’hyperlien : s’agit‑il d’un site interne du gouvernement du Canada (GC) ou d’un site externe?
+- Placez le site Web de destination (nom de l&#39;entreprise) à la fin du lien, entre parenthèses; par exemple (Canada.ca). Il s’agit là d’une autre pratique exemplaire pour aider l’utilisateur à savoir où mène l’hyperlien : s’agit‑il d’un site interne du gouvernement du Canada (<abbr>GC</abbr>) ou d’un site externe?
 - Évitez d’utiliser « **Cliquez ici** » ou autre texte d’hyperlien ambigu comme « **Lire davantage** » ou « **Continuer »**.
 
 ### Signets

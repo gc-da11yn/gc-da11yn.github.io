@@ -141,7 +141,7 @@ Si la carte indique des directions, le texte alternatif doit le refléter. La de
 
 ## Liens utiles sur le texte alternatif
 
-- <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">Contenu non textuel - Comprendre SC 1.1.1 (WCAG)<small> (en anglais seulement)</small></a>
+- <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">Contenu non textuel - Comprendre SC 1.1.1 (<abbr>WCAG</abbr>)<small> (en anglais seulement)</small></a>
 - <a href="https://html.spec.whatwg.org/multipage/images.html#alt">Obligation de fournir du texte pour remplacer les images (HTML5)<small> (en anglais seulement)</small></a>
 - <a href="https://www.w3.org/TR/turingtest/">Inaccessibilité du CAPTCHA (Note du projet du groupe W3C)<small> (en anglais seulement)</small></a>
 - [Images et vidéos (Guide de rédaction de contenu du site Canada.ca)](https://conception.canada.ca/guide-redaction/#toc10)

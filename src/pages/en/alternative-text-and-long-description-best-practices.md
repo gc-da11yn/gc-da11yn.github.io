@@ -31,7 +31,7 @@ If the image does not convey information or the information is available in the 
 
 For Word and PowerPoint, type ‘Decorative’ in the alt text box. Do not check the box ‘Mark it as decorative’ as some people may use an older version of Word/PowerPoint and the checkbox will not apply.
 
-Marking an image as decorative varies between Learning Management Systems (LMSs). When designing a web product in HTML, W3C recommends using a null (or empty) alt text which is an open and closed quotation mark (`alt=“”`).
+Marking an image as decorative varies between Learning Management Systems (<abbr>LMSs</abbr>). When designing a web product in HTML, W3C recommends using a null (or empty) alt text which is an open and closed quotation mark (`alt=“”`).
 
 ## Meaningful alt text
 

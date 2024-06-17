@@ -108,7 +108,7 @@ De l’utilisation de votre iPhone sans voir l’écran, à l’adaptation des g
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
 
-### [Boîte à outils de l’expérience Web (BOEW)](https://wet-boew.github.io/v4.0-ci/index-fr.html)
+### [Boîte à outils de l’expérience Web (<abbr>BOEW</abbr>)](https://wet-boew.github.io/v4.0-ci/index-fr.html)
 
 Un cadre frontal primé pour la création de sites Web accessibles, utilisables, interopérables, adaptés aux téléphones portables et multilingues.
 
@@ -124,12 +124,12 @@ Liste de verification develop par ESDC.
 
 ### <a href="https://wet-boew.github.io/v4.0-ci/demos/wamethod/wamethod-AA-fr.html">Méthodologie d’évaluation sur l’accessibilité des sites Web (niveau AA)<small> (en anglais seulement)</small></a>
 
-Aider à mesurer les critères de succès de niveau A et AA des Règles pour l’accessibilité des contenus Web (WCAG) 2.1.
+Aider à mesurer les critères de succès de niveau A et AA des Règles pour l’accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1.
 
 </div>
 <div class="col-md-6">
 
-### [Solution de gabarits à déploiement centralisé (SGDC)](https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html)
+### [Solution de gabarits à déploiement centralisé (<abbr>SGDC</abbr>)](https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html)
 
 L’objectif de la SGDC consiste essentiellement à fournir la couche de présentation du thème de Canada.ca ou du thème d’Intranet.canada.ca aux actifs Web.
 
@@ -197,7 +197,7 @@ Qui doit utiliser le système de conception de Canada.ca, éléments obligatoire
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
 
-### <a href="https://www.w3.org/WAI/standards-guidelines/atag/" lang="en">Authoring Tool Accessibility Guidelines (ATAG) Overview<small lang="fr"> (en anglais seulement)</small></a> - Initiative pour l'accessibilité du Web (WAI)
+### <a href="https://www.w3.org/WAI/standards-guidelines/atag/" lang="en">Authoring Tool Accessibility Guidelines (ATAG) Overview<small lang="fr"> (en anglais seulement)</small></a> - Initiative pour l'accessibilité du Web (<abbr>WAI</abbr>)
 
 Les outils de création sont des logiciels et des services que les "auteurs" (développeurs web, concepteurs, rédacteurs, etc.) utilisent pour produire du contenu web (pages web statiques, applications web dynamiques, etc.)
 
@@ -206,21 +206,21 @@ Les outils de création sont des logiciels et des services que les "auteurs" (d�
 
 ### [Directive visant à rendre les technologies de l’information utilisables par tous](https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32620)
 
-Cette ligne directrice soutient la direction du gouvernement du Canada pour s’assurer que les ministères, les agences et les organisations prennent en compte l’accessibilité lors de l’acquisition ou du développement d’équipement et de solutions de la technologie de l’information (TI) pour rendre la TI utilisable par tous.
+Cette ligne directrice soutient la direction du gouvernement du Canada pour s’assurer que les ministères, les agences et les organisations prennent en compte l’accessibilité lors de l’acquisition ou du développement d’équipement et de solutions de la technologie de l’information (<abbr>TI</abbr>) pour rendre la TI utilisable par tous.
 
 </div>
 <div class="col-md-6">
 
 ### <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" download>EU EN 301 549 (Gestion de l’accessibilité dans les marchés publics des TIC)<small> (en anglais seulement)</small></a>
 
-Les exigences en matière d’accessibilité qui conviennent à l’approvisionnement, par les organismes publics, de produits et services de technologies de l’information et des communications (TIC) en Europe.
+Les exigences en matière d’accessibilité qui conviennent à l’approvisionnement, par les organismes publics, de produits et services de technologies de l’information et des communications (<abbr>TIC</abbr>) en Europe.
 
 </div>
 <div class="col-md-6">
 
 ### [Règles pour l’accessibilité des contenus Web 2.1](https://www.w3.org/Translations/WCAG21-fr/)
 
-Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1 couvrent un large éventail de recommandations pour rendre les contenus Web plus accessibles. Suivre ces règles rendra aussi les contenus Web souvent plus faciles d’utilisation aux utilisateurs en général.
+Les Règles pour l’accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1 couvrent un large éventail de recommandations pour rendre les contenus Web plus accessibles. Suivre ces règles rendra aussi les contenus Web souvent plus faciles d’utilisation aux utilisateurs en général.
 
 </div>
 <div class="col-md-6">
@@ -290,7 +290,7 @@ En tant que fournisseur de services communs du gouvernement du Canada, le SPAC s
 
 Les réunions et événements virtuels sont caractérisés par différents formats et différentes tailles, allant de petits ateliers comprenant des participants qui se connaissent à de grandes réunions publiques à planifier. Il est essentiel de veiller à ce que ces réunions et événements soient pleinement accessibles, depuis leur accès jusqu’aux présentations. En planifiant, vous pouvez intégrer l’accessibilité à tous les aspects d’une réunion. Cela permet à tout le monde de pleinement participer, y compris les personnes en situation de handicap.
 
-Afin de vous aider à offrir une réunion ou une activité virtuelle pleinement accessible, qu’il s’agisse d’une séance de formation, d’une réunion, d’un kiosque ou d’une journée portes ouvertes, le Bureau de l’accessibilité des TI (BATI) a rassemblé les renseignements les plus pertinents à ce sujet.
+Afin de vous aider à offrir une réunion ou une activité virtuelle pleinement accessible, qu’il s’agisse d’une séance de formation, d’une réunion, d’un kiosque ou d’une journée portes ouvertes, le Bureau de l’accessibilité des TI (<abbr>BATI</abbr>) a rassemblé les renseignements les plus pertinents à ce sujet.
 
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">
@@ -323,9 +323,9 @@ Cet outil de travail présente des pratiques exemplaires pour planifier des év�
 </div>
 <div class="col-md-6">
 
-### [Planifier des événements inclusifs et accessibles – Guide à l’intention des fonctionnaires fédéraux <span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-fra.asp) du Bureau de la condition des personnes handicapée/Emploi et Développement social Canada (EDSC) (Plutôt pour les rencontres en personne)
+### [Planifier des événements inclusifs et accessibles – Guide à l’intention des fonctionnaires fédéraux <span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-fra.asp) du Bureau de la condition des personnes handicapée/Emploi et Développement social Canada (<abbr>EDSC</abbr>) (Plutôt pour les rencontres en personne)
 
-Le Bureau de la condition des personnes handicapées (BCPH) est fier de présenter ce guide à des collègues du gouvernement du Canada afin de fournir une orientation sur la planification d’événements inclusifs et accessibles.
+Le Bureau de la condition des personnes handicapées (<abbr>BCPH</abbr>) est fier de présenter ce guide à des collègues du gouvernement du Canada afin de fournir une orientation sur la planification d’événements inclusifs et accessibles.
 
 </div>
 <div class="col-md-6">
@@ -351,7 +351,7 @@ Lors de la configuration et de l’exécution de Microsoft Teams réunions et d�
 </div>
 <div class="col-md-6">
 
-### [Répertoire de l’Association des traducteurs et interprètes de l’Ontario (ATIO)](https://atio.on.ca/directory/?lang=fr)
+### [Répertoire de l’Association des traducteurs et interprètes de l’Ontario (<abbr>ATIO</abbr>)](https://atio.on.ca/directory/?lang=fr)
 
 Trouvez un traducteur, un interprète ou un terminologue pour des réunions et des événements.
 
@@ -360,7 +360,7 @@ Trouvez un traducteur, un interprète ou un terminologue pour des réunions et d
 
 ### [Services CART et interprètes en langue des signes](https://bati-itao.github.io/resources/CART-services-Sign-Language-Interpreters-fr.html)
 
-La mesure d’adaptation la plus courante pour les réunions ou les événements est la traduction en temps réel des communications (CART) et les services d’interprétation.
+La mesure d’adaptation la plus courante pour les réunions ou les événements est la traduction en temps réel des communications (<abbr>CART</abbr>) et les services d’interprétation.
 
 </div>
 <div class="col-md-6">
@@ -386,6 +386,6 @@ Cette page contient une vue d'ensemble des nombreuses fonctions d'accessibilité
 
 ## Services
 
-- [Accessibilité, adaptation et technologie informatique adaptée (AATIA)](https://www.canada.ca/fr/services-partages/organisation/programme-aatia.html)
+- [Accessibilité, adaptation et technologie informatique adaptée (<abbr>AATIA</abbr>)](https://www.canada.ca/fr/services-partages/organisation/programme-aatia.html)
 - [Translation Bureau’s language services and tools – PSPC’s GCintranet (tpsgc-pwgsc.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/ministeres-departments/traduction-translation/accueil-home-eng.html)
 - [Services d'interprétation des conférences et d'interprétation en langues des signes<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/accueil-home-fra.html)

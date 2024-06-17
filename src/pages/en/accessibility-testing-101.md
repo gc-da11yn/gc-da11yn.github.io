@@ -61,7 +61,7 @@ The tool supports two primary scenarios:
 - FastPass is a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
   - Automated checks&mdash;the tool automatically checks for compliance with approximately 50 accessibility requirements.
   - Manual tests&mdash;the tool provides step-by-step instructions, examples, and how-to-fix guidance for approximately 20 tests; many tests are “assisted”, which means that the tool identifies the test instances or provides a visual helper.
-- Assessment allows anyone with HTML skills to verify that a web app or web site is compliant with Web Content Accessibility Guidelines (WCAG) 2.1 Level AA.
+- Assessment allows anyone with HTML skills to verify that a web app or web site is compliant with Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 Level AA.
   - Automated checks&mdash;the tool automatically checks for compliance with approximately 50 accessibility requirements.
   - Manual tests&mdash;the tool provides step-by-step instructions, examples, and how-to-fix guidance for approximately 20 tests; many tests are "assisted", which means that the tool identifies the test instances or provides a visual helper.
 

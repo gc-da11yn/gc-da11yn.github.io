@@ -1,6 +1,6 @@
 ---
-title: Emploi et Développement social Canada (EDSC)
-description: Emploi et Développement social Canada (EDSC) travaille à améliorer le niveau de vie et la qualité de vie de tous les Canadiens en faisant la promotion d'une main-d'œuvre mobile et hautement spécialisée ainsi que d'un marché du travail efficace et favorable à l'inclusion. EDSC compte plusieurs équipes travaillant dans le domaine de l'accessibilité numérique dans le but de créer un environnement sans obstacle pour les Canadiens et les employés !
+title: Emploi et Développement social Canada (<abbr>EDSC</abbr>)
+description: Emploi et Développement social Canada (<abbr>EDSC</abbr>) travaille à améliorer le niveau de vie et la qualité de vie de tous les Canadiens en faisant la promotion d'une main-d'œuvre mobile et hautement spécialisée ainsi que d'un marché du travail efficace et favorable à l'inclusion. EDSC compte plusieurs équipes travaillant dans le domaine de l'accessibilité numérique dans le but de créer un environnement sans obstacle pour les Canadiens et les employés !
 toggle: employment-and-social-development-canada-esdc
 subject:
   - accessibilityInTheGovernmentOfCanada
@@ -18,7 +18,7 @@ Le Bureau de l’accessibilité de EDSC est responsable de l’élaboration et d
 <div class="col-md-6">
 <h2 class="h3"><a href="https://bati-itao.github.io/index-fr.html">Bureau de l&rsquo;accessibilité des TI</a></h2>
 
-Le Bureau de l’accessibilité des TI (BATI) demeure un fournisseur de la technologie adaptative, ainsi qu’un défenseur de l’inclusion des personnes ayant un handicap en milieu de travail. Nous sommes des chefs reconnus, engagés dans notre mandat d’accessibilité, et continuons à offrir du soutien aux employés ayant un handicap. Conformément à la [_Loi canadienne sur l’accessibilité_](https://www.canada.ca/fr/emploi-developpement-social/programmes/canada-accessible.html), et en collaboration avec nos partenaires des agences centrales nous recommandons des normes, des lignes directrices et des pratiques exemplaires reconnues à l'échelle internationale. L'éventail de nos services couvre des sujets tels que l'approvisionnement, la formation, la sensibilisation, l'évaluation de produits ainsi que des conseils d’experts sur l’Accessibilité en Technologie de l’information et des communications (TIC).
+Le Bureau de l’accessibilité des TI (<abbr>BATI</abbr>) demeure un fournisseur de la technologie adaptative, ainsi qu’un défenseur de l’inclusion des personnes ayant un handicap en milieu de travail. Nous sommes des chefs reconnus, engagés dans notre mandat d’accessibilité, et continuons à offrir du soutien aux employés ayant un handicap. Conformément à la [_Loi canadienne sur l’accessibilité_](https://www.canada.ca/fr/emploi-developpement-social/programmes/canada-accessible.html), et en collaboration avec nos partenaires des agences centrales nous recommandons des normes, des lignes directrices et des pratiques exemplaires reconnues à l'échelle internationale. L'éventail de nos services couvre des sujets tels que l'approvisionnement, la formation, la sensibilisation, l'évaluation de produits ainsi que des conseils d’experts sur l’Accessibilité en Technologie de l’information et des communications (<abbr>TIC</abbr>).
 
 </div>
 <div class="col-md-6">

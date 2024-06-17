@@ -12,17 +12,17 @@ Keywords:
   - Dyscalculia
   - Math disabilities
   - Computational disabilities
-  - ADHD (Attention Deficit Hyperactivity Disorder)
-  - Autism spectrum disorders (ASD)
+  - Attention Deficit Hyperactivity Disorder (<abbr>ADHD</abbr>)
+  - Autism spectrum disorders (<abbr>ASD</abbr>)
   - Non-verbal learning disability
   - Adaptive technologies
   - Cognitive disabilities
   - Cognitive impairment
   - Learning disability
   - Text to speech
-  - Augmentative and alternative communication (AAC)
+  - Augmentative and alternative communication (<abbr>AAC</abbr>)
   - Smart pens
-  - Asperger Syndrome (AS)
+  - Asperger Syndrome (<abbr>AS</abbr>)
   - Speech recognition software
 audience:
   - Everyone
@@ -114,7 +114,7 @@ According to Understood’s What is Dyscalculia and other sources, common signs 
 
 <dl>
 <dt>Definition:</dt>
-<dd>Attention Deficit Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects both children and adults. Symptoms usually appear by age 7. While people do not outgrow ADHD, they do learn to adapt. ADHD is characterized by difficulties with attention, impulsivity and hyperactivity that can interfere with daily functioning and relationships.</dd>
+<dd>Attention Deficit Hyperactivity Disorder (<abbr>ADHD</abbr>) is a neurodevelopmental disorder that affects both children and adults. Symptoms usually appear by age 7. While people do not outgrow ADHD, they do learn to adapt. ADHD is characterized by difficulties with attention, impulsivity and hyperactivity that can interfere with daily functioning and relationships.</dd>
 <dt>Characteristics:</dt>
 <dd>
 
@@ -133,9 +133,9 @@ The main symptoms of ADHD are:
 <dt>Definition:</dt>
 <dd>
 
-According to the World Health Organization: Autism spectrum disorders (ASD) refers to a range of conditions marked by some degree of impairment in social behaviour, communication and language, and a narrow range of interests and activities that are both unique to the individual and carried out repetitively.
+According to the World Health Organization: Autism spectrum disorders (<abbr>ASD</abbr>) refers to a range of conditions marked by some degree of impairment in social behaviour, communication and language, and a narrow range of interests and activities that are both unique to the individual and carried out repetitively.
 
-ASD begins in childhood and tends to continue into adolescence and adulthood. People with ASD often have co-occurring conditions, such as epilepsy, depression, anxiety and attention deficit hyperactivity disorder (ADHD). The level of intellectual functioning in individuals with ASDs is extremely variable, extending from profound impairment to superior levels.
+ASD begins in childhood and tends to continue into adolescence and adulthood. People with ASD often have co-occurring conditions, such as epilepsy, depression, anxiety and attention deficit hyperactivity disorder (<abbr>ADHD</abbr>). The level of intellectual functioning in individuals with ASDs is extremely variable, extending from profound impairment to superior levels.
 
 </dd>
 <dt>Characteristics:</dt>
@@ -158,7 +158,7 @@ People with ASD may exhibit some of the following traits:
 
 <dl>
 <dt>Definition:</dt>
-<dd>According to the University of Michigan, Michigan Medicine resource, Your Child Development and Behavior Resources, Non-verbal Learning Disability (NLD): Nonverbal Learning Disability is very much like Asperger Syndrome (AS), in which people with the syndrome have normal intelligence and language development, but have trouble with social skills, sensory input, and making transitions. AS and NLD are generally thought to describe the same kind of disorder but to differ in severity, with AS describing more severe symptoms.</dd>
+<dd>According to the University of Michigan, Michigan Medicine resource, Your Child Development and Behavior Resources, Non-verbal Learning Disability (<abbr>NLD</abbr>): Nonverbal Learning Disability is very much like Asperger Syndrome (<abbr>AS</abbr>), in which people with the syndrome have normal intelligence and language development, but have trouble with social skills, sensory input, and making transitions. AS and NLD are generally thought to describe the same kind of disorder but to differ in severity, with AS describing more severe symptoms.</dd>
 <dt>Characteristics:</dt>
 <dd>
 

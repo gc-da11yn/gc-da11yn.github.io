@@ -1,6 +1,6 @@
 ---
-title: Access Working Group (AWG)
-description: The Access Working Group (AWG) was established by the Treasury Board Internet Advisory Committee (parent committee) on August 1, 1997 to engage in collaborative activities between government, private sector and community organizations that have a stake in ensuring equitable access to information and services, especially for, but not limited to persons with disabilities, for the purpose of providing input to Government of Canada (GoC) policy making.
+title: Access Working Group (<abbr>AWG</abbr>)
+description: The Access Working Group (<abbr>AWG</abbr>) was established by the Treasury Board Internet Advisory Committee (parent committee) on August 1, 1997 to engage in collaborative activities between government, private sector and community organizations that have a stake in ensuring equitable access to information and services, especially for, but not limited to persons with disabilities, for the purpose of providing input to Government of Canada (<abbr>GoC</abbr>) policy making.
 internalLinks: true
 toggle: le-groupe-de-travail-sur-l-acces-gta
 ---
@@ -18,7 +18,7 @@ toggle: le-groupe-de-travail-sur-l-acces-gta
 
 ## Mandate
 
-The mandate of the AWG is to provide feedback and proposed solutions to common Government of Canada Web accessibility issues for the Treasury Board Secretariat, Web Managers Council (WMC) and other web, accessibility, procurement and policy groups. The AWG will focus on inclusion by design and full accessibility, meaning that the AWG is not just looking for technically accessible solutions, but ones that are also fully usable for persons with disabilities. (Updated 2016-07-05)
+The mandate of the AWG is to provide feedback and proposed solutions to common Government of Canada Web accessibility issues for the Treasury Board Secretariat, Web Managers Council (<abbr>WMC</abbr>) and other web, accessibility, procurement and policy groups. The AWG will focus on inclusion by design and full accessibility, meaning that the AWG is not just looking for technically accessible solutions, but ones that are also fully usable for persons with disabilities. (Updated 2016-07-05)
 
 ## Roles
 

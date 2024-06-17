@@ -50,7 +50,7 @@ La barre latérale de WAVE indique si WAVE a détecté des erreurs ou non. L’a
 
 Styles et code:
 
-WAVE permet de désactiver les feuilles de style en cascade (CSS) des pages. Les mises en page complexes basées sur les feuilles de style en cascade peuvent devenir difficiles à lire, en particulier après l’intégration des icônes WAVE, de sorte que la désactivation des styles peut simplifier la présentation de la page. La désactivation des styles vous permet également de voir l’ordre de lecture et de navigation sous-jacent; c’est-à-dire l’ordre dans lequel les utilisateurs, de clavier (seulement) et de lecteurs d’écran, accèdent à la page. Pour visualiser le code correspondant à une icône WAVE particulière, vous pouvez sélectionner l’onglet Code au bas de la page pour visualiser le balisage/DOM sous-jacent de votre page.
+WAVE permet de désactiver les feuilles de style en cascade (<abbr>CSS</abbr>) des pages. Les mises en page complexes basées sur les feuilles de style en cascade peuvent devenir difficiles à lire, en particulier après l’intégration des icônes WAVE, de sorte que la désactivation des styles peut simplifier la présentation de la page. La désactivation des styles vous permet également de voir l’ordre de lecture et de navigation sous-jacent; c’est-à-dire l’ordre dans lequel les utilisateurs, de clavier (seulement) et de lecteurs d’écran, accèdent à la page. Pour visualiser le code correspondant à une icône WAVE particulière, vous pouvez sélectionner l’onglet Code au bas de la page pour visualiser le balisage/DOM sous-jacent de votre page.
 
 ### Outil : Accessibility Insights for Web
 
@@ -61,7 +61,7 @@ L’outil prend en charge deux scénarios principaux:
 - « FastPass » est un processus léger en deux étapes qui aide les développeurs à identifier les problèmes d’accessibilité courants et à fort impact en moins de cinq minutes.
   - Vérifications automatisées — l’outil vérifie automatiquement la conformité à environ 50 exigences en matière d’accessibilité.
   - Arrêts de tabulation — l’outil fournit des instructions claires, une automatisation partielle et une aide visuelle qui facilitent l’identification des problèmes d’accessibilité critiques liés à l’accès au clavier, tels que les arrêts de tabulation manquants, les pièges à clavier et l’ordre incorrect des tabulations.
-- « Assessment » permet à toute personne ayant des compétences en HTML de vérifier qu’une application Web ou un site Web est conforme aux directives d’accessibilité au contenu web (WCAG) 2.1 niveau AA.
+- « Assessment » permet à toute personne ayant des compétences en HTML de vérifier qu’une application Web ou un site Web est conforme aux directives d’accessibilité au contenu web (<abbr>WCAG</abbr>) 2.1 niveau AA.
   - Contrôles automatisés — l’outil vérifie automatiquement la conformité à environ 50 exigences d’accessibilité.
   - Tests manuels — l’outil fournit des instructions étape par étape, des exemples et des conseils sur la manière de résoudre les problèmes pour environ 20 tests; de nombreux tests sont « assistés », ce qui signifie que l’outil identifie les instances de test ou fournit une aide visuelle.
 

@@ -38,7 +38,7 @@ Microsoft Teams est la plateforme de réunion standard pour les réunions virtue
 - [Agrandir le contenu de l’écran](https://support.microsoft.com/fr-fr/office/tirez-parti-des-fonctionnalit%c3%a9s-d-accessibilit%c3%a9-de-microsoft-teams-pour-une-exp%c3%a9rience-de-r%c3%a9union-ou-d-%c3%a9v%c3%a9nement-en-direct-plus-agr%c3%a9able-eec38ba3-689b-4ab4-8b6a-1c1c30259d86?ui=fr-FR&rs=fr-CA&ad=CA#bkmk_magnify_win)
 - [Thème foncé, clair et à contraste élevé](https://support.microsoft.com/fr-fr/office/modifier-les-param%c3%a8tres-dans-teams-b506e8f1-1a96-4cf1-8c6b-b6ed4f424bc7?ui=fr-FR&rs=fr-CA&ad=CA#bkmk_howdoienablehighcontrastmode)
 - [Zoom avant et arrière dans Teams](https://support.microsoft.com/fr-fr/office/effectuer-un-zoom-avant-et-arri%C3%A8re-dans-teams-dc3cd3d8-efb5-4995-8b31-434b3943ba52)
-- [Utiliser un téléscripteur (TTY)](https://support.microsoft.com/fr-fr/office/g%c3%a9rer-les-param%c3%a8tres-d-appel-dans-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=fr-FR&rs=fr-CA&ad=CA)
+- [Utiliser un téléscripteur (<abbr>TTY</abbr>)](https://support.microsoft.com/fr-fr/office/g%c3%a9rer-les-param%c3%a8tres-d-appel-dans-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=fr-FR&rs=fr-CA&ad=CA)
 - [Rechercher des messages et plus](https://support.microsoft.com/fr-fr/office/rechercher-des-messages-et-d-autres-personnes-dans-teams-4a351520-33f4-42ab-a5ee-5fc0ab88b263?ui=fr-FR&rs=fr-CA&ad=CA) encore
 - Compatible avec les technologies d'assistance, telles que
 

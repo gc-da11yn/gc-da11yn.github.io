@@ -1,5 +1,5 @@
 ---
-title: Exigences en matière de technologies de l’information et des communications (TIC) accessibles
+title: Exigences en matière de technologies de l’information et des communications (<abbr>TIC</abbr>) accessibles
 description: Cette page a pour but de partager une partie du travail effectu&eacute; par Services partagés Canada (<abbr>SPC</abbr>) pour le pilotage des normes harmonis&eacute;es d'accessibilit&eacute; des technologies de l’information et des communications (<abbr>TIC</abbr>) EN 301 549 (2021). Il ne s'agit pas d'un copier / coller / traduction complet des normes, l'EN 301 549 (2021) ou le <span lang="en">Web Content Accessibility Guidelines</span> (<abbr>WCAG</abbr>) 2.1.
 subject:
   - accessibilityInTheGovernmentOfCanada
@@ -29,13 +29,13 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 </div>
 
 <h2>Que sont les TIC?</h2>
-<p>Les technologies de l’information et des communications (TIC) comprennent le matériel, les logiciels, les communications vocales, les capacités vidéo et le contenu numérique (y compris l’information sur le Web et ailleurs).</p>
+<p>Les technologies de l’information et des communications (<abbr>TIC</abbr>) comprennent le matériel, les logiciels, les communications vocales, les capacités vidéo et le contenu numérique (y compris l’information sur le Web et ailleurs).</p>
 <h2>Qu’est-ce que l’accessibilité des TIC et pourquoi est-elle importante?</h2>
 <p>« L’accessibilité des TIC permet aux personnes handicapées et non handicapées d’accéder aux mêmes informations, d’accomplir les mêmes tâches et de recevoir les mêmes services grâce aux technologies de l’information. C’est l’équivalent numérique de l’accessibilité dans l’environnement physique – les bateaux de trottoir, les rampes d’accès, les garde-corps, etc. L’accessibilité des TIC peut offrir des avantages en termes d’ergonomie à tous ceux qui utilisent les TIC, mais elle est essentielle pour de nombreuses personnes handicapées. » - <a href="https://www.nascio.org/Publications/ArtMID/485/userid/4997/ArticleID/127/Accessibility-in-IT-Procurement-Part-1">NASCIO - Accessibilité en matière d’acquisition de TI (en anglais seulement)</a>.</p>
 <h2>À propos du présent document et avis de droit d’auteur</h2>
 <div>
-	<p>Ce document reproduit les exigences pertinentes du EN 301 549 v3.2.1 (2021-03) norme européenne harmonisée « Exigences en accessibilité pour les produits et services en TIC », disponible en anglais seulement, (© utilisé sous la licence de l’Institut Européen de Normalisation des Télécommunications 2021. © Comité Européen de Normalisation 2021. © Comité Européen de Normalisation Électrotechnique 2021. Tous droits réservés.), ce qui inclut les Règles pour l'accessibilité des contenus Web (WCAG) 2.1 de niveau AA.</p>
-	<p>Les droits de propriété intellectuelle (DPI) essentiels ou potentiellement essentiels aux livrables normatifs peuvent avoir été déclarés à l'ETSI. Les informations relatives à ces DPI essentiels, le cas échéant, sont accessibles au public pour les membres et les non-membres de l'ETSI, dans ETSI SR 000 314 : « Intellectual Property Rights (IPRs); Essential, or potentially Essential, IPRs notified to ETSI in respect of ETSI standards », disponible auprès du secrétariat de l'ETSI. Les dernières mises à jour sont disponibles sur le serveur Web ETSI <a href="https://ipr.etsi.org/">(https://ipr.etsi.org/) (en anglais seulement)</a>. Veuillez consulter la <a href="https://ipr.etsi.org/">base de données ETSI IPR (en anglais seulement)</a> pour la recherche de DPI.</p>
+	<p>Ce document reproduit les exigences pertinentes du EN 301 549 v3.2.1 (2021-03) norme européenne harmonisée « Exigences en accessibilité pour les produits et services en TIC », disponible en anglais seulement, (© utilisé sous la licence de l’Institut Européen de Normalisation des Télécommunications 2021. © Comité Européen de Normalisation 2021. © Comité Européen de Normalisation Électrotechnique 2021. Tous droits réservés.), ce qui inclut les Règles pour l'accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1 de niveau AA.</p>
+	<p>Les droits de propriété intellectuelle (<abbr>DPI</abbr>) essentiels ou potentiellement essentiels aux livrables normatifs peuvent avoir été déclarés à l'ETSI. Les informations relatives à ces DPI essentiels, le cas échéant, sont accessibles au public pour les membres et les non-membres de l'ETSI, dans ETSI SR 000 314 : « Intellectual Property Rights (<abbr>IPRs</abbr>); Essential, or potentially Essential, IPRs notified to ETSI in respect of ETSI standards », disponible auprès du secrétariat de l'ETSI. Les dernières mises à jour sont disponibles sur le serveur Web ETSI <a href="https://ipr.etsi.org/">(https://ipr.etsi.org/) (en anglais seulement)</a>. Veuillez consulter la <a href="https://ipr.etsi.org/">base de données ETSI IPR (en anglais seulement)</a> pour la recherche de DPI.</p>
 	<p>Le présent document contient des exigences qui, à première vue, peuvent sembler sans rapport avec ce produit ou de service. Elles ont été incluses aux fins de considération puisqu’il est impossible de savoir ce qui pourrait être inclus dans le produit ou service d’un fournisseur. Par exemple, une vidéo peut être intégrée à la documentation d’un produit et les exigences en matière d’accessibilité pour la vidéo et l’audio peuvent devenir pertinentes.</p>
 	<p>Les annexes comprennent des définitions, des références et un guide pratique portant sur la création d’une documentation accessible.</p>
 </div>
@@ -43,10 +43,10 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 <div>
 	<ul>
 		<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" download>EN 301 549 v3.2.1 Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC (en anglais seulement)</a></li>
-		<li><a href="https://www.w3.org/Translations/WCAG21-fr/">Règles pour l’accessibilité des contenus Web (WCAG) 2.1 </a>(Recommandations de W3C du 5 juin 2018)</li>
+		<li><a href="https://www.w3.org/Translations/WCAG21-fr/">Règles pour l’accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1 </a>(Recommandations de W3C du 5 juin 2018)</li>
 		<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/">Comprendre les WCAG 2.1 (en anglais seulement)</a> </li>
 		<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#top">Comment se conformer aux WCAG 2.1 (Référence rapide) (en anglais seulement)</a></li>
-		<li><a href="https://www.itic.org/policy/accessibility/vpat#:~:text=The%20Accessibility%20Conformance%20Report%20%28ACR%29%20based%20on%20the,technology%20%28ICT%29%20products%20and%20services%20with%20accessibility%20features.">ITI VPAT ® EN 301 549 (EU) (en anglais seulement)</a></li>
+		<li><a href="https://www.itic.org/policy/accessibility/vpat#:~:text=The%20Accessibility%20Conformance%20Report%20%28ACR%29%20based%20on%20the,technology%20%28ICT%29%20products%20and%20services%20with%20accessibility%20features.">ITI VPAT ® EN 301 549 (<abbr>EU</abbr>) (en anglais seulement)</a></li>
 	</ul>
 </div>
 <h2>Sur cette page</h2>
@@ -1378,7 +1378,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 		</tr>
 	</tbody>
 </table>
-<h5>6.2 Fonctionnalité de texte en temps réel (TTR)</h5>
+<h5>6.2 Fonctionnalité de texte en temps réel (<abbr>TTR</abbr>)</h5>
 <table class="table table-bordered table-striped">
 	<caption>6.2.1 Fourniture du TTR</caption>
 	<thead>
@@ -1558,8 +1558,8 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 			<td>
 				<p><strong>6.2.3 Interopérabilité</strong></p>
 				<p>Lorsque les TIC dotées d’une fonction de TTR fonctionnent avec d’autres TIC dotées d’une fonction de TTR (comme l’exige la clause 6.2.1.1), elles doivent prendre en charge au moins un des quatre mécanismes d’interopérabilité de TTR décrits ci-dessous:</p>
-				<p>1. l’interopérabilité des TIC sur le réseau téléphonique public commuté (RTPC), avec d’autres TIC qui se raccordent directement au RTPC, comme le décrit la Recommandation V.18[i.23] de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTPC;</p>
-				<p>2. l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initialisation de session (PIS) et du TTR conforme à RFC 4103 [i.13] de l’IETF. Pour l’interopérabilité des TIC avec d’autres TIC utilisant le sous-système multimédia IP (IMS) pour mettre en œuvre VoIP, l’ensemble des protocoles spécifiés dans TS 126 114 [i.10], TS 122 173 [i.11] et TS 134 229 [i.12] de l’ETSI décrivent la façon dont RFC 4103 [i.13] de l’IETF s’appliquerait;</p>
+				<p>1. l’interopérabilité des TIC sur le réseau téléphonique public commuté (<abbr>RTPC</abbr>), avec d’autres TIC qui se raccordent directement au RTPC, comme le décrit la Recommandation V.18[i.23] de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTPC;</p>
+				<p>2. l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (<abbr>VoIP</abbr>) dotée du protocole d’initialisation de session (<abbr>PIS</abbr>) et du TTR conforme à RFC 4103 [i.13] de l’IETF. Pour l’interopérabilité des TIC avec d’autres TIC utilisant le sous-système multimédia IP (<abbr>IMS</abbr>) pour mettre en œuvre VoIP, l’ensemble des protocoles spécifiés dans TS 126 114 [i.10], TS 122 173 [i.11] et TS 134 229 [i.12] de l’ETSI décrivent la façon dont RFC 4103 [i.13] de l’IETF s’appliquerait;</p>
 				<p>3. l’interopérabilité des TIC avec d’autres TIC utilisant des technologies autres que a ou b, ci-dessus, utilisant une spécification commune pertinente et applicable pour les échanges de TTR qui est publiée et accessible pour les environnements dans lesquels elles fonctionneront. Cette spécification commune doit comprendre une méthode permettant d’indiquer la perte ou la corruption de caractères</p>
 				<p>4. l’interopérabilité des TIC avec d’autres TIC utilisant une norme pour TTR qui a été mise en place aux fins d’utilisation dans un des environnements susmentionnés, et qui est compatible avec toutes les autres TIC actives qui prennent en charge la capacité vocale et le TTR dans l’environnement en question.</p>
 			</td>
@@ -1569,11 +1569,11 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 				<p>Type d’évaluation</p>
 				<p>Test</p>
 				<p>Conditions préalables</p>
-				<p>1. Vérifier l’interopérabilité des TIC avec le réseau téléphonique public commuté (RTPC), le terminal de référence V.18 étant raccordé au RTPC comme il est décrit dans la Recommandation V.18 [i.23] de UIT-T ou l’une de ses annexes pour les signaux de téléphonie à l’interface RTPC.</p>
-				<p>2. Vérifier que les TIC fonctionnent avec d’autres TIC à l’aide de la technologie VoIP dotée du protocole d’initiation de session (PIS) et du texte en temps réel conforme à RFC 4103[i.13]de l’IETF;</p>
-				<p>3. Vérifier que les TIC fonctionnent avec d’autres TIC dotées de TTR conformes aux protocoles du sous-système multimédia IP (IMS) conformément aux spécifications TS 126 114[i.10], TS 122 173[i.11] et TS 134 229[i.12] de l’ETSI;</p>
+				<p>1. Vérifier l’interopérabilité des TIC avec le réseau téléphonique public commuté (<abbr>RTPC</abbr>), le terminal de référence V.18 étant raccordé au RTPC comme il est décrit dans la Recommandation V.18 [i.23] de UIT-T ou l’une de ses annexes pour les signaux de téléphonie à l’interface RTPC.</p>
+				<p>2. Vérifier que les TIC fonctionnent avec d’autres TIC à l’aide de la technologie VoIP dotée du protocole d’initiation de session (<abbr>PIS</abbr>) et du texte en temps réel conforme à RFC 4103[i.13]de l’IETF;</p>
+				<p>3. Vérifier que les TIC fonctionnent avec d’autres TIC dotées de TTR conformes aux protocoles du sous-système multimédia IP (<abbr>IMS</abbr>) conformément aux spécifications TS 126 114[i.10], TS 122 173[i.11] et TS 134 229[i.12] de l’ETSI;</p>
 				<p>Procédure</p>
-				<p>1. Vérifier l’interopérabilité des TIC avec le réseau téléphonique public commuté (RTPC), le terminal de référence V.18 étant raccordé au RTPC comme il est décrit dans la Recommandation V.18 [i.23] de UIT-T ou l’une de ses annexes pour les signaux de téléphonie à l’interface RTPC.</p>
+				<p>1. Vérifier l’interopérabilité des TIC avec le réseau téléphonique public commuté (<abbr>RTPC</abbr>), le terminal de référence V.18 étant raccordé au RTPC comme il est décrit dans la Recommandation V.18 [i.23] de UIT-T ou l’une de ses annexes pour les signaux de téléphonie à l’interface RTPC.</p>
 				<p>Résultat</p>
 				<p>Réussite : L’énoncé testable no 1 est vrai. </p>
 				<p>Échec : L’énoncé testable no 1 est faux.</p>
@@ -1584,15 +1584,15 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 				<p>Type d’évaluation</p>
 				<p>Test</p>
 				<p>Conditions préalables</p>
-				<p>1. Les TCI fournissent un moyen de communication vocale bidirectionnelle à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initialisation de session (PIS).</p>
+				<p>1. Les TCI fournissent un moyen de communication vocale bidirectionnelle à l’aide de la technologie Voix sur IP (<abbr>VoIP</abbr>) dotée du protocole d’initialisation de session (<abbr>PIS</abbr>).</p>
 				<p>2. Les TIC fournissent un moyen de communication bidirectionnelle par TTR.</p>
 				<p>3. Un « terminal de TTR de référence » est disponible.</p>
 				<p>Procédure</p>
-				<p>1. Vérifier l’interopérabilité des TIC avec le « terminal de TTR de référence » à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initialisation de session (PIS) et du TTR conforme à RFC 4103 [i.13] de l’IETF.</p>
-				<p>2. Si les TIC interopèrent avec d’autres TIC utilisant le sous-système multimédia IP (IMS) pour mettre en œuvre VoIP, vérifier qu’elles respectent l’ensemble des protocoles spécifiés dans TS 126 114 [i.10], TS 122 173 [i.11] et TS 134 229 [i.12] de l’ETSI décrivant la façon dont RFC 4103 [i.13] de l’IETF s’applique.</p>
+				<p>1. Vérifier l’interopérabilité des TIC avec le « terminal de TTR de référence » à l’aide de la technologie Voix sur IP (<abbr>VoIP</abbr>) dotée du protocole d’initialisation de session (<abbr>PIS</abbr>) et du TTR conforme à RFC 4103 [i.13] de l’IETF.</p>
+				<p>2. Si les TIC interopèrent avec d’autres TIC utilisant le sous-système multimédia IP (<abbr>IMS</abbr>) pour mettre en œuvre VoIP, vérifier qu’elles respectent l’ensemble des protocoles spécifiés dans TS 126 114 [i.10], TS 122 173 [i.11] et TS 134 229 [i.12] de l’ETSI décrivant la façon dont RFC 4103 [i.13] de l’IETF s’applique.</p>
 				<p>Résultat</p>
-				<p>Réussite : L’énoncé testable no 1 est vrai et si les TIC interopèrent avec d’autres TIC utilisant le sous-système multimédia IP (IMS) pour mettre en œuvre VoIP, l’énoncé testable no 2 est vrai.</p>
-				<p>Échec : L’énoncé testable no 1 est faux ou, si les TIC interopèrent avec d’autres TIC utilisant le sous-système multimédia IP (IMS) pour mettre en œuvre VoIP, l’énoncé testable no 2 est faux.</p>
+				<p>Réussite : L’énoncé testable no 1 est vrai et si les TIC interopèrent avec d’autres TIC utilisant le sous-système multimédia IP (<abbr>IMS</abbr>) pour mettre en œuvre VoIP, l’énoncé testable no 2 est vrai.</p>
+				<p>Échec : L’énoncé testable no 1 est faux ou, si les TIC interopèrent avec d’autres TIC utilisant le sous-système multimédia IP (<abbr>IMS</abbr>) pour mettre en œuvre VoIP, l’énoncé testable no 2 est faux.</p>
 				<p>Non applicable: La condition préalable 1 ou 2 n’est pas remplie.</p>
 				<p>Non testable : La condition préalable 3 n’est pas remplie.</p>
 				<p>REMARQUE : Un « terminal de TTR de référence » est un terminal spécialement conçu pour tester les dispositifs de TTR de manière à confirmer leur fonctionnalité et leur interopérabilité. Ces terminaux sont généralement créés par une entité de normalisation nationale ou internationale afin que tous les tests soient effectués avec un « terminal de TTR de référence » compatible.</p>
@@ -1600,7 +1600,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 				<p>Type d’évaluation</p>
 				<p>Test</p>
 				<p>Conditions préalables</p>
-				<p>1. Les TCI fournissent un moyen de communication vocale bidirectionnelle à l’aide de technologies autres que le RTPC ou Voix sur IP (VoIP) dotée du protocole d’initialisation de session (PIS).</p>
+				<p>1. Les TCI fournissent un moyen de communication vocale bidirectionnelle à l’aide de technologies autres que le RTPC ou Voix sur IP (<abbr>VoIP</abbr>) dotée du protocole d’initialisation de session (<abbr>PIS</abbr>).</p>
 				<p>2. Les TIC fournissent un moyen de communication bidirectionnelle par TTR.</p>
 				<p>3. Un « terminal de TTR de référence » est disponible pour ce mode de communication par TTR.</p>
 				<p>Procédure</p>
@@ -1750,8 +1750,8 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 			<td>
 				<p><strong>6.5.3 Vitesse de défilement des images</strong></p>
 				<p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles:</p>
-				<p>1. doivent prendre en charge une vitesse de défilement d’au moins 20 images par seconde (IPS);</p>
-				<p>2. doivent de préférence prendre en charge une vitesse de défilement d’au moins 30 images par seconde (IPS) avec ou sans langage gestuel dans le flux vidéo.</p>
+				<p>1. doivent prendre en charge une vitesse de défilement d’au moins 20 images par seconde (<abbr>IPS</abbr>);</p>
+				<p>2. doivent de préférence prendre en charge une vitesse de défilement d’au moins 30 images par seconde (<abbr>IPS</abbr>) avec ou sans langage gestuel dans le flux vidéo.</p>
 			</td>
 			<td>
 				<p><strong>C.6.5.3 Vitesse de défilement des images</strong></p>
@@ -5501,7 +5501,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 		<tr>
 			<td>
 				<p><strong>11.1.2.1.2.2 Contenu pré-enregistré seulement vidéo (fonction restreinte)</strong></p>
-				<p>Dans le cas où la technologie d’information et de communications (TIC) est un logiciel non Web qui est doté d’une interface utilisateur et qui ne prend pas en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit l’exigence 5.1.3.7 (sortie vocale pour information vidéo).</p>
+				<p>Dans le cas où la technologie d’information et de communications (<abbr>TIC</abbr>) est un logiciel non Web qui est doté d’une interface utilisateur et qui ne prend pas en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit l’exigence 5.1.3.7 (sortie vocale pour information vidéo).</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.2.1.2.2 Contenu pré-enregistré seulement vidéo (fonction restreinte)</strong></p>
@@ -5581,7 +5581,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 		<tr>
 			<td>
 				<p><strong>11.1.2.3.2 Audio-description ou version de remplacement pour un média temporel (pré-enregistré et fonction restreinte)</strong></p>
-				<p>Dans le cas où la technologie d’information et de communications (TIC) est un logiciel non Web qui est doté d’une interface utilisateur et qui ne prend pas en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit l’exigence 5.1.3.7 (sortie vocale pour information vidéo).</p>
+				<p>Dans le cas où la technologie d’information et de communications (<abbr>TIC</abbr>) est un logiciel non Web qui est doté d’une interface utilisateur et qui ne prend pas en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit l’exigence 5.1.3.7 (sortie vocale pour information vidéo).</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.2.3.2 Audio-description ou version de remplacement pour un média temporel (pré-enregistré et fonction restreinte)</strong></p>
@@ -8257,11 +8257,11 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 <p lang="en"><strong>[1]</strong> ETSI ETS 300 381 (Edition 1) (December 1994): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids".</p>
 <p lang="en"><strong>[2]</strong> ETSI ES 200 381-1 (V1.2.1) (October 2012): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids Part 1: Fixed-line speech terminals".</p>
 <p lang="en"><strong>[3]</strong> ETSI ES 200 381-2 (V1.1.1) (October 2012): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids; Part 2: Cellular speech terminals".</p>
-<p lang="en"><strong>[4]</strong> W3C Recommendation (December 2008) /ISO/IEC 40500:2012: "Web Content Accessibility Guidelines (WCAG) 2.0".</p>
+<p lang="en"><strong>[4]</strong> W3C Recommendation (December 2008) /ISO/IEC 40500:2012: "Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.0".</p>
 <ul>
 	<li>REMARQUE : Disponible à <a href="https://www.w3.org/Translations/WCAG20-fr/" lang="en">WCAG 2.0</a></li>
 </ul>
-<p lang="en"><strong>[5]</strong> W3C Proposed Recommendation (June 2018): "Web Content Accessibility Guidelines (WCAG) 2.1".</p>
+<p lang="en"><strong>[5]</strong> W3C Proposed Recommendation (June 2018): "Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1".</p>
 <ul>
 	<li>REMARQUE : Disponible à <a href="https://www.w3.org/Translations/WCAG21-fr/" lang="en">WCAG 2.1</a></li>
 </ul>
@@ -8274,22 +8274,22 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 <p lang="en"><strong>[i.1]</strong> ANSI/IEEE C63.19 (2011): "American National Standard Method of Measurement of Compatibility between Wireless Communication Devices and Hearing Aids".&nbsp;</p>
 <p lang="en"><strong>[i.2]</strong> ANSI/TIA-4965: "Receive volume control requirements for digital and analogue wireline terminals".&nbsp;</p>
 <p lang="en"><strong>[i.3]</strong> European Commission M 376-EN: "Standardization Mandate to CEN, CENELEC and ETSI in support of European accessibility requirements for public procurement of products and services in the ICT domain".&nbsp; </p>
-<p lang="en"><strong>[i.4]</strong> ETSI EG 201 013: "Human Factors (HF); Definitions, abbreviations and symbols".&nbsp; </p>
-<p lang="en"><strong>[i.5]</strong> ETSI ES 202 975: "Human Factors (HF); Requirements for relay services".&nbsp;</p>
-<p lang="en"><strong>[i.6]</strong> ETSI ETS 300 767: "Human Factors (HF); Telephone Prepayment Cards; Tactile Identifier".&nbsp;</p>
+<p lang="en"><strong>[i.4]</strong> ETSI EG 201 013: "Human Factors (<abbr>HF</abbr>); Definitions, abbreviations and symbols".&nbsp; </p>
+<p lang="en"><strong>[i.5]</strong> ETSI ES 202 975: "Human Factors (<abbr>HF</abbr>); Requirements for relay services".&nbsp;</p>
+<p lang="en"><strong>[i.6]</strong> ETSI ETS 300 767: "Human Factors (<abbr>HF</abbr>); Telephone Prepayment Cards; Tactile Identifier".&nbsp;</p>
 <p lang="en"><strong>[i.7]</strong> ETSI CEN/CENELEC/ETSI Translations 101 550: "Documents relevant to EN 301 549 "Accessibility requirements suitable for public procurement of ICT products and services in Europe"".&nbsp;</p>
 <p lang="en"><strong>[i.8]</strong> ETSI CEN/CENELEC/ETSI Translations 101 551: "Guidelines on the use of accessibility award criteria suitable for publicly procured ICT products and services in Europe".&nbsp;</p>
-<p lang="en"><strong>[i.9]</strong> ETSI Translations 102 612: "Human Factors (HF); European accessibility requirements for public procurement of products and services in the ICT domain (European Commission Mandate M 376, Phase 1)".&nbsp; </p>
-<p lang="en"><strong>[i.10]</strong> ETSI TS 126 114: "Universal Mobile Telecommunications System (UMTS); LTE; IP Multimedia Subsystem (IMS); Multimedia telephony; Media handling and interaction (3GPP TS 26.114)".&nbsp;</p>
-<p lang="en"><strong>[i.11]</strong> ETSI TS 122 173: "Digital cellular telecommunications system (Phase 2+) (GSM); Universal Mobile Telecommunications System (UMTS); LTE; IP Multimedia Core Network Subsystem (IMS) Multimedia Telephony Service and supplementary services; Stage 1 (3GPP TS 22.173)".&nbsp;</p>
-<p lang="en"><strong>[i.12]</strong> ETSI TS 134 229: "Universal Mobile Telecommunications System (UMTS); LTE; Internet Protocol (IP) multimedia call control protocol based on Session Initiation Protocol (SIP) and Session Description Protocol (SDP); User Equipment (UE) conformance specification (3GPP TS 34.229)".&nbsp;</p>
+<p lang="en"><strong>[i.9]</strong> ETSI Translations 102 612: "Human Factors (<abbr>HF</abbr>); European accessibility requirements for public procurement of products and services in the ICT domain (European Commission Mandate M 376, Phase 1)".&nbsp; </p>
+<p lang="en"><strong>[i.10]</strong> ETSI TS 126 114: "Universal Mobile Telecommunications System (<abbr>UMTS</abbr>); LTE; IP Multimedia Subsystem (<abbr>IMS</abbr>); Multimedia telephony; Media handling and interaction (3GPP TS 26.114)".&nbsp;</p>
+<p lang="en"><strong>[i.11]</strong> ETSI TS 122 173: "Digital cellular telecommunications system (Phase 2+) (<abbr>GSM</abbr>); Universal Mobile Telecommunications System (<abbr>UMTS</abbr>); LTE; IP Multimedia Core Network Subsystem (<abbr>IMS</abbr>) Multimedia Telephony Service and supplementary services; Stage 1 (3GPP TS 22.173)".&nbsp;</p>
+<p lang="en"><strong>[i.12]</strong> ETSI TS 134 229: "Universal Mobile Telecommunications System (<abbr>UMTS</abbr>); LTE; Internet Protocol (<abbr>IP</abbr>) multimedia call control protocol based on Session Initiation Protocol (<abbr>SIP</abbr>) and Session Description Protocol (<abbr>SDP</abbr>); User Equipment (<abbr>UE</abbr>) conformance specification (3GPP TS 34.229)".&nbsp;</p>
 <p lang="en"><strong>[i.13]</strong> IETF RFC 4103 (2005): "RTP Payload for Text Conversation".</p>
 <p lang="en"><strong>[i.14]</strong> ISO/IEC 17007:2009: "Conformity assessment - Guidance for drafting normative documents suitable for use for conformity assessment".&nbsp;</p>
 <p lang="en"><strong>[i.15]</strong> ISO 9241-11:2018:"Ergonomics of human-system interaction - Part 11: Usability: Definitions and concepts".&nbsp;</p>
 <p lang="en"><strong>[i.16]</strong> ISO 9241-110:2006: "Ergonomics of human-system interaction -- Part 110: Dialogue principles".&nbsp;</p>
 <p lang="en"><strong>[i.17]</strong> ISO 9241-171:2008: "Ergonomics of human-system interaction-Part 171: Guidance on software accessibility".&nbsp;</p>
 <p lang="en"><strong>[i.18]</strong> void</p>
-<p lang="en"><strong>[i.19]</strong> ISO/IEC 13066-1:2011: "Information technology - Interoperability with assistive technology (AT) - Part 1: Requirements and recommendations for interoperability".&nbsp;</p>
+<p lang="en"><strong>[i.19]</strong> ISO/IEC 13066-1:2011: "Information technology - Interoperability with assistive technology (<abbr>AT</abbr>) - Part 1: Requirements and recommendations for interoperability".&nbsp;</p>
 <p lang="en"><strong>[i.20]</strong> Recommendation ITU-T E.161 (2001): "Arrangement of digits, letters and symbols on telephones and other devices that can be used for gaining access to a telephone network".&nbsp;</p>
 <p lang="en"><strong>[i.21]</strong> Recommendation ITU-T G.722 (1988): "7 kHz audio-coding within 64 kbit/s".&nbsp;</p>
 <p lang="en"><strong>[i.22]</strong> Recommendation ITU-T G.722.2 (2003): "Wideband coding of speech at around 16 kbit/s using Adaptive Multi-Rate Wideband (AMR-WB)".&nbsp;</p>
@@ -8300,13 +8300,13 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 <ul>
 	<li>REMARQUE: Disponible à <a href="https://www.w3.org/TR/wcag2ict-20/" lang="en">WCAG2ICT</a>.</li>
 </ul>
-<p lang="en"><strong>[i.27]</strong> M 554 Commission Implementing Decision C(2017)2585 of 27.4.2017 on a standardisation request to the European standardisation organisations in support of Directive (EU) 2016/2102 of the European Parliament and of the Council on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
-<p lang="en"><strong>[i.28]</strong> Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
+<p lang="en"><strong>[i.27]</strong> M 554 Commission Implementing Decision C(2017)2585 of 27.4.2017 on a standardisation request to the European standardisation organisations in support of Directive (<abbr>EU</abbr>) 2016/2102 of the European Parliament and of the Council on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
+<p lang="en"><strong>[i.28]</strong> Directive (<abbr>EU</abbr>) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies.&nbsp;</p>
 <p lang="en"><strong>[i.29]</strong>ETSI/CEN/CENELEC EN 301 549 (V2.1.2) (August 2018): "Accessibility requirements for ICT products and services".&nbsp;</p>
 <p lang="en"><strong>[i.30]</strong> ETSI/CEN/CENELEC Translations 101 552: "Guidance for the application of conformity assessment to accessibility requirements for public procurement of ICT products and services in Europe".</p>
 <p lang="en"><strong>[i.31]</strong> ISO/IEC TS 20071-25:2017: "Information technology - User interface component accessibility - Part 25: Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text".</p>
-<p><strong>[i.32]</strong> W3C Recommendation (September 2015): "Authoring Tool Accessibility Guidelines (ATAG) 2.0". REMARQUE: Disponible à <a href="https://www.w3.org/WAI/standards-guidelines/atag/" lang="en">https://www.w3.org/WAI/standards-guidelines/atag/</a>. </p>
-<p lang="en"><strong>[i.33]</strong> W3C Recommendation (September 2015): "User Agent Accessibility Guidelines (UAAG) 2.0". REMARQUE: Disponible à <a href="https://www.w3.org/WAI/standards-guidelines/uaag/" lang="en">https://www.w3.org/WAI/standards-guidelines/uaag/</a>. </p>
+<p><strong>[i.32]</strong> W3C Recommendation (September 2015): "Authoring Tool Accessibility Guidelines (<abbr>ATAG</abbr>) 2.0". REMARQUE: Disponible à <a href="https://www.w3.org/WAI/standards-guidelines/atag/" lang="en">https://www.w3.org/WAI/standards-guidelines/atag/</a>. </p>
+<p lang="en"><strong>[i.33]</strong> W3C Recommendation (September 2015): "User Agent Accessibility Guidelines (<abbr>UAAG</abbr>) 2.0". REMARQUE: Disponible à <a href="https://www.w3.org/WAI/standards-guidelines/uaag/" lang="en">https://www.w3.org/WAI/standards-guidelines/uaag/</a>. </p>
 <p lang="en"><strong>[i.34]</strong>ISO 21542:2011: "Building construction - Accessibility and usability of the built environment".</p>
 <p lang="en"><strong>[i.35]</strong>ISO/IEC Guide 71:2014: "Guide for addressing accessibility in standards".</p>
 <p lang="en"><strong>[i.36]</strong>Recommendation ITU-T T.140 (1988): "Protocol for multimedia application text conversation". </p>
@@ -8330,14 +8330,14 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 	<dd>
 		<p>l’espace destiné à être occupé par la personne, y compris sa technologie d’assistance, pendant qu’elle utilise le produit</p>
 	</dd>
-	<dt>Aide de suppléance à l’audition (ASA): </dt>
+	<dt>Aide de suppléance à l’audition (<abbr>ASA</abbr>): </dt>
 	<dd>
 		<p>appareils qui aident à séparer les sons, en particulier la parole, qu’une personne veut entendre du bruit de fond en apportant le son directement dans l'oreille.</p>
 		<ul>
 			<li>REMARQUET: On les trouve souvent dans les réunions et les lieux publics tels que les théâtres, les concerts et les lieux de culte. Ils peuvent également être utilisés à la maison avec les téléviseurs et autres produits à sortie sonore</li>
 		</ul>
 	</dd>
-	<dt>Technologie d’aide (TA): </dt>
+	<dt>Technologie d’aide (<abbr>TA</abbr>): </dt>
 	<dd>
 		<p>équipement, système, matériel informatique, logiciel ou service utilisé pour augmenter, maintenir ou améliorer les capacités des individus (d’après la norme ISO/CEI Guide 71:2014 [i.35]). </p>
 		<ul>
@@ -8413,7 +8413,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 	<dd>
 		<p>technologie et ressources permettant la connexion et le fonctionnement de TIC interconnectées.</p>
 	</dd>
-	<dt>Technologies de l’information et des communications (TIC): </dt>
+	<dt>Technologies de l’information et des communications (<abbr>TIC</abbr>): </dt>
 	<dd>
 		<p>technologie, équipement ou système ou sous-système interconnecté d’équipements dont la fonction principale est la création, la conversion, la duplication, l’acquisition automatique, le stockage, l’analyse, l’évaluation, la manipulation, la gestion, le déplacement, le contrôle, l’affichage, la commutation, l’échange, la transmission, la réception ou la diffusion de données ou d’informations. </p>
 		<ul>
@@ -8475,7 +8475,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 			<li>REMARQUE: La directive WCAG 2.1 utilise l’adjectif “déterminé » alors que la présente définition utilise l’expression “capable d’être lu » (pour éviter toute ambiguïté avec le mot “déterminé »).</li>
 		</ul>
 	</dd>
-	<dt>Texte en Temps Réel (TTR):</dt>
+	<dt>Texte en Temps Réel (<abbr>TTR</abbr>):</dt>
 	<dd>
 		<p>form of a text conversation in point to point situations or in multipoint conferencing where the text being entered is sent in such a way that the communication is perceived by the user as being continuous </p>
 		<ul>
@@ -8556,7 +8556,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 	<dt>ANSI</dt>
 	<dd lang="en">American National Standards Institute/ Loi sur les Américains en situation de handicap</dd>
 	<dt>AT</dt>
-	<dd lang="en">Assistive Technology/ Technologie d’Assistance (TA)</dd>
+	<dd lang="en">Assistive Technology/ Technologie d’Assistance (<abbr>TA</abbr>)</dd>
 	<dt>ATAG </dt>
 	<dd lang="en">Authoring Tool Accessibility Guidelines (of W3C)/ Règles d'accessibilité pour les outils d'édition (du W3C)</dd>
 	<dt>CEN </dt>
@@ -8576,7 +8576,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 	<dt>HTTP</dt>
 	<dd lang="en">HyperText Transfer Protocol (pas de terme en français)</dd>
 	<dt>ICT</dt>
-	<dd lang="en">Information and Communication Technology/ Technologies de l’information et des communications (TIC)</dd>
+	<dd lang="en">Information and Communication Technology/ Technologies de l’information et des communications (<abbr>TIC</abbr>)</dd>
 	<dt>IETF</dt>
 	<dd lang="en">Internet Engineering Task Force (pas de terme en français)</dd>
 	<dt>IMS</dt>
@@ -8638,14 +8638,14 @@ toggle: information-and-communication-technology-ict-accessibility-requirements/
 <p>Divers organismes et fournisseurs de logiciels offrent du matériel supplémentaire proposant des instructions en vue de rendre les documents accessibles:</p>
 <ul>
 	<li><a href="https://www.adobe.com/accessibility/products/acrobat.html">Fonction d’accessibilité du format de fichier PDF d’Adobe (en anglais seulement)</a></li>
-	<li><a href="https://adod.idrc.ocadu.ca/">Accessible Digital Office Document (ADOD) Project (en anglais seulement)</a></li>
+	<li><a href="https://adod.idrc.ocadu.ca/">Accessible Digital Office Document (<abbr>ADOD</abbr>) Project (en anglais seulement)</a></li>
 	<li><a href="https://support.office.com/fr-fr/article/rendre-votre-contenu-accessible-à-tous-38059c2d-45ef-4830-9797-618f0e96f3ab?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR">Centre d’accessibilité Microsoft</a></li>
 	<li><a href="https://webaim.org/techniques/word/word2016win">Formation Webaim: Techniques pour Microsoft Word (en anglais seulement)</a></li>
 	<li><a href="https://webaim.org/techniques/acrobat/">Formation Webaim: Techniques pour PDF (en anglais seulement)</a></li>
 	<li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html#toc5"> Guide de rédaction du contenu du site Canada.ca</a></li>
 	<li><a href="https://support.google.com/docs/answer/6199477?hl=fr&ref_topic=6039805">Google Docs – Rendre votre document ou présentation plus accessible</a></li>
 	<li><a href="https://www.youtube.com/watch?v=3f31oufqFSM">Perspectives d'accessibilité Web - Compilation de 10 sujets / vidéos (en anglais seulement)</a></li>
-	<li><a href="https://accessibility.18f.gov/index.html">Guide sur l’accessibilité de 18F (Web) (en anglais seulement)</a></li>
+	<li><a href="https://accessibility.18f.gov/index.html">Guide sur l’accessibilité de 18F (<abbr>Web</abbr>) (en anglais seulement)</a></li>
 	<li><a href="https://www.washington.edu/accessibility/">Guides sur l’accessibilité des documents de l’Université de Washington (en anglais seulement)</a> </li>
 </ul>
 <p>REMARQUE : Le fait de suivre les conseils prodigués dans les liens susmentionnés ne garantit pas la conformité aux normes WCAG 2.1. Les liens sont fournis à titre indicatif seulement.</p>

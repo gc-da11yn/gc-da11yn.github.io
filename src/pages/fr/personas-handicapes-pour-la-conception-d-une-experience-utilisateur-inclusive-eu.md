@@ -1,5 +1,5 @@
 ---
-title: Personas handicapés pour la conception d'une expérience utilisateur inclusive (EU)
+title: Personas handicapés pour la conception d'une expérience utilisateur inclusive (<abbr>EU</abbr>)
 description: Le cas d'inclure les handicaps dans les personas des utilisateurs, les types de technologies qu'ils utilisent et les échantillons de personas avec des handicaps.
 subject:
   - howTos
@@ -62,7 +62,7 @@ La technologie de substitution de la vision est utilisée par les personnes souf
 
 ### Technologie d’amélioration et de substitution de l’audio
 
-La technologie d’amélioration et de substitution de l’audio est utilisée par les personnes souffrant d’une forme de trouble auditif et par certains utilisateurs souffrant d’un trouble de la parole. Cette catégorie de technologie englobe divers besoins et exigences. Les solutions peuvent être aussi simples que la compatibilité avec un appareil auditif doté d’un capteur téléphonique, ou aussi complexes que l’accès à un téléimprimeur (TTY).
+La technologie d’amélioration et de substitution de l’audio est utilisée par les personnes souffrant d’une forme de trouble auditif et par certains utilisateurs souffrant d’un trouble de la parole. Cette catégorie de technologie englobe divers besoins et exigences. Les solutions peuvent être aussi simples que la compatibilité avec un appareil auditif doté d’un capteur téléphonique, ou aussi complexes que l’accès à un téléimprimeur (<abbr>TTY</abbr>).
 
 Il faut souvent que les systèmes d’information soient utilisables sans pouvoir les entendre. L’information communiquée par des fonctions audio seulement est inaccessible pour les personnes sourdes. De plus, il faut que les systèmes d’information soient utilisables par des personnes ayant une déficience auditive. Souvent, ces personnes ont également une déficience visuelle, surtout chez les personnes plus âgées. Il est donc important de permettre à ces personnes de se fier à l’audition résiduelle plutôt qu’à la vision (c.-à-d. les méthodes d’accès utilisées par des personnes sourdes).
 
@@ -103,7 +103,7 @@ Il ne s’agit pas tout simplement de listes de vérification; dans l’inclusio
 
 ### Faire participer les utilisateurs aux projets
 
-L’accessibilité est une question à aborder au début du cycle de vie du projet. Dès le lancement d’un projet, elle doit faire partie des processus de conception centrée sur l’utilisateur (CCU). L’une des méthodes de CCU consiste en l’utilisation de personas. La création de personas diverses permettra aux concepteurs de logiciels de comprendre les besoins en matière d’accessibilité et de mettre en place des solutions plus inclusives.
+L’accessibilité est une question à aborder au début du cycle de vie du projet. Dès le lancement d’un projet, elle doit faire partie des processus de conception centrée sur l’utilisateur (<abbr>CCU</abbr>). L’une des méthodes de CCU consiste en l’utilisation de personas. La création de personas diverses permettra aux concepteurs de logiciels de comprendre les besoins en matière d’accessibilité et de mettre en place des solutions plus inclusives.
 
 ## Intégration des besoins en matière d’accessibilité aux personas
 
@@ -152,7 +152,7 @@ La création de personas handicapés nécessite une attention particulière comp
 
 ### Thomas
 
-Il a 18 ans, vit avec sa famille et fréquente l’école secondaire. Il utilise les ordinateurs à l’école, un ordinateur portable chez lui et un téléphone mobile de base offrant le service d’envoi de messages courts (SMS). Il aime les sites Web constants et qui lui sont familiers.
+Il a 18 ans, vit avec sa famille et fréquente l’école secondaire. Il utilise les ordinateurs à l’école, un ordinateur portable chez lui et un téléphone mobile de base offrant le service d’envoi de messages courts (<abbr>SMS</abbr>). Il aime les sites Web constants et qui lui sont familiers.
 
 <dl>
 <dt>Catégorie de handicap<dt>
@@ -185,7 +185,7 @@ Elle a 24 ans, est diplômée de l’école secondaire et travaille sur un dipl
 <dt>Attitude<dt>
 <dd>Elle veut tout faire elle-même et parfois, elle est impatiente.</dd>
 <dt>Technologie adaptée<dt>
-<dd>Elle utilise un outil de communication augmentatif et alternatif (CAA) avec un générateur de parole, un iPad et un fauteuil roulant motorisé.</dd>
+<dd>Elle utilise un outil de communication augmentatif et alternatif (<abbr>CAA</abbr>) avec un générateur de parole, un iPad et un fauteuil roulant motorisé.</dd>
 </dl>
 
 ### Francis
@@ -196,7 +196,7 @@ Ancien combattant, il a 30 ans et il vit avec sa copine. Il utilise un ordinate
 <dt>Catégorie de handicap<dt>
 <dd>Amélioration du style cognitif et d’apprentissage</dd>
 <dt>Handicap<dt>
-<dd>Il est atteint du trouble de stress post-traumatique (TSPT) et de déficiences cognitives.</dd>
+<dd>Il est atteint du trouble de stress post-traumatique (<abbr>TSPT</abbr>) et de déficiences cognitives.</dd>
 <dt>Capacités<dt>
 <dd>Il lit et écrit lentement; il a besoin de plus de temps pour traiter l’information.</dd>
 <dt>Aptitudes<dt>
@@ -255,7 +255,7 @@ Il a 38 ans et a fréquenté une école des beaux-arts. Il travaille comme grap
 <dt>Handicap<dt>
 <dd>Il est sourd de naissance.</dd>
 <dt>Capacités<dt>
-<dd>Sa langue maternelle est le langage gestuel américain (ASL). Il sait parler et lire sur les lèvres. Il utilise le service d’envoi de messages courts (SMS), la messagerie instantanée (IM), le logiciel Skype et le vidéoclavardage.</dd>
+<dd>Sa langue maternelle est le langage gestuel américain (<abbr>ASL</abbr>). Il sait parler et lire sur les lèvres. Il utilise le service d’envoi de messages courts (<abbr>SMS</abbr>), la messagerie instantanée (<abbr>IM</abbr>), le logiciel Skype et le vidéoclavardage.</dd>
 <dt>Aptitudes<dt>
 <dd>Il est habile avec des outils graphiques et préfère le visuel au texte. Il a une mauvaise orthographe, ce qui rend les recherches plus difficiles.</dd>
 <dt>Attitude<dt>
@@ -272,7 +272,7 @@ Elle a 45 ans et depuis quatre ans, elle exploite des technologies informatique
 <dt>Catégorie de handicap<dt>
 <dd>Substitution audio et de la vision.</dd>
 <dt>Handicap<dt>
-<dd>Elle est sourde et aveugle et elle ne parle pas. Ses compétences en langage gestuel (ASL) sont limitées.</dd>
+<dd>Elle est sourde et aveugle et elle ne parle pas. Ses compétences en langage gestuel (<abbr>ASL</abbr>) sont limitées.</dd>
 <dt>Capacités<dt>
 <dd>Elle sait lire le braille abrégé et elle utilise un téléphone muni d’un TTY Braille.</dd>
 <dt>Attitude<dt>
@@ -363,7 +363,7 @@ Elle a 74 ans et son mari est décédé il y a un an. Elle habite un appartemen
 
 ### Jean-Marc
 
-Il a 33 ans et il est diplômé d’une école des beaux-arts. Il travaille comme graphiste à la Direction générale des communications d’Affaires autochtones et du Nord Canada (AAND). Il utilise couramment les produits Apple (iPad, iPhone, MacBook Pro). Il est d’avis que son unique handicap est le fait que ce n’est pas tout le monde qui communique en langage gestuel.
+Il a 33 ans et il est diplômé d’une école des beaux-arts. Il travaille comme graphiste à la Direction générale des communications d’Affaires autochtones et du Nord Canada (<abbr>AAND</abbr>). Il utilise couramment les produits Apple (iPad, iPhone, MacBook Pro). Il est d’avis que son unique handicap est le fait que ce n’est pas tout le monde qui communique en langage gestuel.
 
 <dl>
 <dt>Catégorie de handicap<dt>
@@ -371,7 +371,7 @@ Il a 33 ans et il est diplômé d’une école des beaux-arts. Il travaille com
 <dt>Handicap<dt>
 <dd>Il est sourd de naissance.</dd>
 <dt>Capacités<dt>
-<dd>Sa langue maternelle est le langage gestuel américain (ASL). Il sait parler et lire sur les lèvres. Il utilise le service d’envoi de messages courts (SMS), la messagerie instantanée (IM), le logiciel Skype et le vidéoclavardage.</dd>
+<dd>Sa langue maternelle est le langage gestuel américain (<abbr>ASL</abbr>). Il sait parler et lire sur les lèvres. Il utilise le service d’envoi de messages courts (<abbr>SMS</abbr>), la messagerie instantanée (<abbr>IM</abbr>), le logiciel Skype et le vidéoclavardage.</dd>
 <dt>Aptitudes<dt>
 <dd>Il est habile avec des outils graphiques et des logiciels, très cultivé en informatique et il préfère le visuel au texte. Il a une mauvaise orthographe et sa grammaire anglaise laisse à désirer, ce qui rend difficile la recherche de soutien sur le Web.</dd>
 <dt>Attitude<dt>
@@ -420,7 +420,7 @@ Elle a 35 ans et elle est traductrice. Elle a fait une maîtrise en langue fran
 
 ### Denis
 
-Il a 21 ans et il vit avec sa famille. Il a terminé ses études secondaires en suivant un programme spécialisé pour personnes autistes ou atteintes du trouble déficitaire de l’attention avec hyperactivité (TDAH). Il a acquis ses connaissances informatiques générales à l’école. Chez lui, il a un ordinateur portable standard et un téléphone mobile de base avec service d’envoi de messages courts (SMS). Il a été embauché comme préposé aux services de courrier à Services publics et Approvisionnement Canada (SPAC). Denis travaille mieux dans un environnement où la routine et les processus sont constants et familiers.
+Il a 21 ans et il vit avec sa famille. Il a terminé ses études secondaires en suivant un programme spécialisé pour personnes autistes ou atteintes du trouble déficitaire de l’attention avec hyperactivité (<abbr>TDAH</abbr>). Il a acquis ses connaissances informatiques générales à l’école. Chez lui, il a un ordinateur portable standard et un téléphone mobile de base avec service d’envoi de messages courts (<abbr>SMS</abbr>). Il a été embauché comme préposé aux services de courrier à Services publics et Approvisionnement Canada (<abbr>SPAC</abbr>). Denis travaille mieux dans un environnement où la routine et les processus sont constants et familiers.
 
 <dl>
 <dt>Catégorie de handicap<dt>

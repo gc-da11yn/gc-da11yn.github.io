@@ -25,12 +25,12 @@ internalLinks: true
 <td>Apprentissage</td>
 </tr>
 <tr>
-<td><a href="https://blog.timroesner.com/accessibility-best-practices">Solution de gabarits à déploiement centralisé (SGDC)<small> (en anglais seulement)</small></a></td>
+<td><a href="https://blog.timroesner.com/accessibility-best-practices">Solution de gabarits à déploiement centralisé (<abbr>SGDC</abbr>)<small> (en anglais seulement)</small></a></td>
 <td>L’accessibilité est une pierre angulaire importante du développement iOS. Elle permet à tous d’utiliser vos applications, peu importe leurs handicaps. Heureusement, UIKit offre plusieurs API, qui permettent aux développeurs d’offrir un soutien aux technologies des systèmes au sein de leurs applications.</td>
 <td>Développement</td>
 </tr>
 <tr>
-<td><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html">Solution de gabarits à déploiement centralisé (SGDC)</a></td>
+<td><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html">Solution de gabarits à déploiement centralisé (<abbr>SGDC</abbr>)</a></td>
 <td>L’objectif de la SGDC consiste essentiellement à fournir la couche de présentation du thème de Canada.ca ou du thème d’Intranet.canada.ca aux actifs Web.</td>
 <td>Développement</td>
 </tr>
@@ -96,12 +96,12 @@ internalLinks: true
 </tr>
 <tr>
 <td><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32620">Directive visant à rendre les technologies de l’information utilisables par tous</a></td>
-<td>Cette ligne directrice soutient la direction du gouvernement du Canada pour s’assurer que les ministères, les agences et les organisations prennent en compte l’accessibilité lors de l’acquisition ou du développement d’équipement et de solutions de la technologie de l’information (TI) pour rendre la TI utilisable par tous.</td>
+<td>Cette ligne directrice soutient la direction du gouvernement du Canada pour s’assurer que les ministères, les agences et les organisations prennent en compte l’accessibilité lors de l’acquisition ou du développement d’équipement et de solutions de la technologie de l’information (<abbr>TI</abbr>) pour rendre la TI utilisable par tous.</td>
 <td>Politique</td>
 </tr>
 <tr>
 <td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EU EN 301 549 (Gestion de l’accessibilité dans les marchés publics des TIC)<small> (en anglais seulement)</small></a></td>
-<td>Les exigences en matière d’accessibilité qui conviennent à l’approvisionnement, par les organismes publics, de produits et services de technologies de l’information et des communications (TIC) en Europe.</td>
+<td>Les exigences en matière d’accessibilité qui conviennent à l’approvisionnement, par les organismes publics, de produits et services de technologies de l’information et des communications (<abbr>TIC</abbr>) en Europe.</td>
 <td>Politique</td>
 </tr>
 <tr>
@@ -156,7 +156,7 @@ internalLinks: true
 </tr>
 <tr>
 <td><a href="https://wet-boew.github.io/v4.0-ci/demos/wamethod/wamethod-AA-fr.html">Méthodologie d’évaluation sur l’accessibilité des sites Web (niveau AA)</a></td>
-<td>Aider à mesurer les critères de succès de niveau A et AA des Règles pour l’accessibilité des contenus Web (WCAG) 2.1 (anglais seulement).</td>
+<td>Aider à mesurer les critères de succès de niveau A et AA des Règles pour l’accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1 (anglais seulement).</td>
 <td>Développement</td>
 </tr>
 <tr>

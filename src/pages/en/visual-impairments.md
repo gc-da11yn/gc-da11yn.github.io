@@ -64,4 +64,4 @@ Here are some commonly used products:
 - Screen magnifiers
   - Zoom text
 - Braille display
-- Optical character recognition (OCR) software which can scan printed text and convert it into digital text
+- Optical character recognition (<abbr>OCR</abbr>) software which can scan printed text and convert it into digital text
