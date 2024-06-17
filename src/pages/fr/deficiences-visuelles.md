@@ -66,4 +66,4 @@ Voici quelques produits couramment utilisés :
 - Logiciels de grossissement d'écran
   - Zoom text
 - Afficheur braille
-- Logiciel de reconnaissance optique de caractères (OCR) qui permet de scanner un texte imprimé et de le convertir en texte numérique
+- Logiciel de reconnaissance optique de caractères (<abbr>OCR</abbr>) qui permet de scanner un texte imprimé et de le convertir en texte numérique

@@ -31,7 +31,7 @@ tags:
 
 ## Introduction
 
-La liste de vérification de l’accessibilité des documents PDF vise à aider les développeurs de documents PDF d’Emploi et Développement social Canada (EDSC) à s’assurer que l’accessibilité est conforme aux normes [Règles pour l’accessibilité des contenus Web 2.1](https://www.w3.org/Translations/WCAG21-fr/). Veuillez noter que la liste de vérification ne contient que des critères WCAG liés aux erreurs les plus courantes relevées dans les documents PDF.
+La liste de vérification de l’accessibilité des documents PDF vise à aider les développeurs de documents PDF d’Emploi et Développement social Canada (<abbr>EDSC</abbr>) à s’assurer que l’accessibilité est conforme aux normes [Règles pour l’accessibilité des contenus Web 2.1](https://www.w3.org/Translations/WCAG21-fr/). Veuillez noter que la liste de vérification ne contient que des critères WCAG liés aux erreurs les plus courantes relevées dans les documents PDF.
 
 Nous avons dressé une liste d’outils et de ressources pour aider les développeurs à vérifier l’accessibilité de leurs documents, ainsi que la liste de vérification de l’accessibilité des documents PDF qui établit 27 critères de réussite pertinents pour les documents PDF.
 
@@ -87,7 +87,7 @@ Pour toute autre question ou commentaire concernant la liste de vérification de
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>23 &ndash; Tous es champs de texte comportent un texte descriptif connexe. ela permet à la technologie d’assistance de reconnaître et de comprendre les différents champs de ormulaire.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>24 &ndash; orsqu’un utilisateur n’a pas entré correctement l’information dans un champ, un indicateur d’erreur lair lui signale l’erreur de manière visuelle ou sonore, ainsi que la façon de la corriger et de emplir correctement le champ.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>25 &ndash; Le bouton Soumettre est clairement marqué pour que les utilisateurs sachent comment soumettre le ormulaire qu’ils remplissent.</li>
-<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>26 &ndash; Meilleure pratique : lorsque vous utilisez un acronyme, assurez-vous qu’il est entièrement défini la remière fois qu’il est mentionné dans le document PDF. . ex. Emploi et Développement social Canada (EDSC)</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>26 &ndash; Meilleure pratique : lorsque vous utilisez un acronyme, assurez-vous qu’il est entièrement défini la remière fois qu’il est mentionné dans le document PDF. . ex. Emploi et Développement social Canada (<abbr>EDSC</abbr>)</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>27 &ndash; Meilleure pratique : la police est sans empattement et est couramment utilisée (pour améliorer la isibilité visuelle).
 </ul>
 

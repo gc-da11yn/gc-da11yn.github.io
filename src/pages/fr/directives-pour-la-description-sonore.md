@@ -10,7 +10,7 @@ audience:
   - Everyone
 ---
 
-La description sonore (DS) est parfois appelée vidéo décrite (VD), vidéodescription ou interprétation visuelle. Elle permet à tout utilisateur souffrant d’un handicap visuel ou cognitif de recevoir une expérience très détaillée et descriptive de ce qui se passe à l’écran pour chaque aspect de la vidéo. Un certain nombre d’organismes exigent la description sonore et la vidéo décrite, ou la description vidéo dans la vidéo, comme le [CRTC](https://crtc.gc.ca/fra/info_sht/b322.htm).
+La description sonore (<abbr>DS</abbr>) est parfois appelée vidéo décrite (<abbr>VD</abbr>), vidéodescription ou interprétation visuelle. Elle permet à tout utilisateur souffrant d’un handicap visuel ou cognitif de recevoir une expérience très détaillée et descriptive de ce qui se passe à l’écran pour chaque aspect de la vidéo. Un certain nombre d’organismes exigent la description sonore et la vidéo décrite, ou la description vidéo dans la vidéo, comme le [CRTC](https://crtc.gc.ca/fra/info_sht/b322.htm).
 
 La description sonore est également utilisée par les personnes voyantes, de sorte que les éléments audio et vidéo sont tous deux nécessaires (p. ex. une personne souffrant d’une légère perte de vision qui n’a pas pu lire le texte, mais souhaite voir le reste).
 

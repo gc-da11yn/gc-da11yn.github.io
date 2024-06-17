@@ -1,6 +1,6 @@
 ---
 title: Mise en correspondance entre l’article 508 révisé (<span lang='en'>Revised Section 508</span>) et la norme EN 301 549 (2014, 2018, 2019 et 2021)
-description: "Comme <a href='https://www.etsi.org/human-factors-accessibility/en-301-549-v3-the-harmonized-european-standard-for-ict-accessibility' hreflang='en'>les normes EN 301 549 <small>(en anglais seulement)</small></a> continuent, d’évoluer et de publier des mises à jour, le présent document montre la progression des normes EN 301 549 depuis 2014, jusqu’aux mises à jour de 2018, 2019 et 2021. Ces renseignements sont importants, car le <abbr title='Government du Canada'>GC</abbr> se dirige vers l’adoption de la norme EN 301 549 (2021)) comme norme d’accessibilité pour les <abbr title='Technologies de l’information et de la communication'>TIC</abbr>. Le <abbr title='Government du Canada'>GC</abbr>, dans le cadre du processus d’invitation à soumissionner, peut demander aux fournisseurs de fournir des rapports de conformité en matière d’accessibilité basés sur le modèle d’accessibilité volontaire des produits <span lang='en'>Voluntary Product Accessibility Template - (VPAT)</span>. Chaque <abbr title='Voluntary Product Accessibility Template' lang='en'>VPAT</abbr> est fondé sur une norme technique précise – l’article 508 révisé, la norme EN 301 549 ou les <a href='https://www.w3.org/TR/WCAG/' hreflang='en'><span lang='en'>Web Content Accessibility Guidelines (<abbr>WCAG</abbr>)</span> <small>(en anglais seulement)</small></a>. Les fournisseurs, les responsables techniques et les autorités contractantes doivent comprendre les différences entre ces normes pour s’assurer que les exigences d’accessibilité sont abordées comme il se doit."
+description: "Comme <a href='https://www.etsi.org/human-factors-accessibility/en-301-549-v3-the-harmonized-european-standard-for-ict-accessibility' hreflang='en'>les normes EN 301 549 <small>(en anglais seulement)</small></a> continuent, d’évoluer et de publier des mises à jour, le présent document montre la progression des normes EN 301 549 depuis 2014, jusqu’aux mises à jour de 2018, 2019 et 2021. Ces renseignements sont importants, car le <abbr title='Government du Canada'>GC</abbr> se dirige vers l’adoption de la norme EN 301 549 (2021)) comme norme d’accessibilité pour les <abbr title='Technologies de l’information et de la communication'>TIC</abbr>. Le <abbr title='Government du Canada'>GC</abbr>, dans le cadre du processus d’invitation à soumissionner, peut demander aux fournisseurs de fournir des rapports de conformité en matière d’accessibilité basés sur le modèle d’accessibilité volontaire des produits <span lang='en'>Voluntary Product Accessibility Template - (<abbr>VPAT</abbr>)</span>. Chaque <abbr title='Voluntary Product Accessibility Template' lang='en'>VPAT</abbr> est fondé sur une norme technique précise – l’article 508 révisé, la norme EN 301 549 ou les <a href='https://www.w3.org/TR/WCAG/' hreflang='en'><span lang='en'>Web Content Accessibility Guidelines (<abbr>WCAG</abbr>)</span> <small>(en anglais seulement)</small></a>. Les fournisseurs, les responsables techniques et les autorités contractantes doivent comprendre les différences entre ces normes pour s’assurer que les exigences d’accessibilité sont abordées comme il se doit."
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
@@ -26,11 +26,11 @@ Ce document reproduit les exigences pertinentes en matière d’accessibilité d
 
 ## Avertissement
 
-Ce document a été créé en février 2020 et mis à jour en octobre 2022 par le programme d’accessibilité, d’adaptation et de technologie informatique adaptée (AATIA) appartenant au ministère des Services partagés Canada (SPC). Au mieux de notre connaissance, il était exact en date d’octobre 2022. SPC ne garantit pas qu'une autorité compétente quelconque se fiera à ce travail. Si vous avez des questions au sujet de ce document, veuillez [envoyer un courriel au programme d’AATIA](mailto:aaact-aatia@ssc-spc.gc.ca?subject=ICT%20Procurement%20-%20standards%20mapping%20document).
+Ce document a été créé en février 2020 et mis à jour en octobre 2022 par le programme d’accessibilité, d’adaptation et de technologie informatique adaptée (<abbr>AATIA</abbr>) appartenant au ministère des Services partagés Canada (<abbr>SPC</abbr>). Au mieux de notre connaissance, il était exact en date d’octobre 2022. SPC ne garantit pas qu'une autorité compétente quelconque se fiera à ce travail. Si vous avez des questions au sujet de ce document, veuillez [envoyer un courriel au programme d’AATIA](mailto:aaact-aatia@ssc-spc.gc.ca?subject=ICT%20Procurement%20-%20standards%20mapping%20document).
 
 ## Public visé
 
-Le public visé comprend les responsables techniques et les autorités contractantes au sein de SPC et du gouvernement du Canada (GC), ainsi que les fournisseurs qui offrent des produits et des services de technologie de l’information et des communications (TIC).
+Le public visé comprend les responsables techniques et les autorités contractantes au sein de SPC et du gouvernement du Canada (<abbr>GC</abbr>), ainsi que les fournisseurs qui offrent des produits et des services de technologie de l’information et des communications (<abbr>TIC</abbr>).
 
 ## Contexte
 
@@ -3207,8 +3207,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>6.5.3 Vitesse de défilement des images</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
 <ol>
-<li>doivent prendre en charge une vitesse de défilement d’au moins 12 images par seconde (IPS);</li>
-<li>doivent de préférence prendre en charge une vitesse de défilement d’au moins 20 images par seconde (IPS) avec ou sans langage gestuel dans le flux vidéo.</li>
+<li>doivent prendre en charge une vitesse de défilement d’au moins 12 images par seconde (<abbr>IPS</abbr>);</li>
+<li>doivent de préférence prendre en charge une vitesse de défilement d’au moins 20 images par seconde (<abbr>IPS</abbr>) avec ou sans langage gestuel dans le flux vidéo.</li>
 </ol>
 </td>
 <td data-wb-tags="choice_1">
@@ -3220,8 +3220,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>6.5.3 Vitesse de défilement des images</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
 <ol>
-<li>doivent prendre en charge une vitesse de défilement d’au moins 12 images par seconde (IPS);</li>
-<li>doivent de préférence prendre en charge une vitesse de défilement d’au moins 20 images par seconde (IPS) avec ou sans langage gestuel dans le flux vidéo.</li>
+<li>doivent prendre en charge une vitesse de défilement d’au moins 12 images par seconde (<abbr>IPS</abbr>);</li>
+<li>doivent de préférence prendre en charge une vitesse de défilement d’au moins 20 images par seconde (<abbr>IPS</abbr>) avec ou sans langage gestuel dans le flux vidéo.</li>
 </ol>
 </td>
 <td data-wb-tags="choice_2"></td>
@@ -3229,8 +3229,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>6.5.3 Vitesse de défilement des images</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
 <ol>
-<li>doivent prendre en charge une vitesse de défilement d’au moins <strong>20</strong> images par seconde (IPS);</li>
-<li>doivent de préférence prendre en charge une vitesse de défilement d’au moins <strong>30</strong> images par seconde (IPS) avec ou sans langage gestuel dans le flux vidéo.</li>
+<li>doivent prendre en charge une vitesse de défilement d’au moins <strong>20</strong> images par seconde (<abbr>IPS</abbr>);</li>
+<li>doivent de préférence prendre en charge une vitesse de défilement d’au moins <strong>30</strong> images par seconde (<abbr>IPS</abbr>) avec ou sans langage gestuel dans le flux vidéo.</li>
 </ol>
 </td>
 <td data-wb-tags="choice_3">Changement fonctionnel</td>
@@ -3238,8 +3238,8 @@ REMARQUE : La Recommandation UIT-T F.703 définit et donne les exigences relati
 <p>6.5.3 Vitesse de défilement des images</p>
 <p>Lorsque les TIC permettant la communication vocale bidirectionnelle comprennent une fonctionnalité vidéo en temps réel, elles :</p>
 <ol>
-<li>doivent prendre en charge une vitesse de défilement d’au moins <strong>20</strong> images par seconde (IPS);</li>
-<li>doivent de préférence prendre en charge une vitesse de défilement d’au moins <strong>30</strong> images par seconde (IPS) avec ou sans langage gestuel dans le flux vidéo.</li>
+<li>doivent prendre en charge une vitesse de défilement d’au moins <strong>20</strong> images par seconde (<abbr>IPS</abbr>);</li>
+<li>doivent de préférence prendre en charge une vitesse de défilement d’au moins <strong>30</strong> images par seconde (<abbr>IPS</abbr>) avec ou sans langage gestuel dans le flux vidéo.</li>
 </ol>
 </td>
 <td data-wb-tags="choice_4">Reformulation stylistique</td>
@@ -5409,7 +5409,7 @@ REMARQUE 1 :</p>
 <tr>
 <td data-wb-tags="choice_1 choice_5">
 <p>412.8.3 Compatibilité du signal</p>
-<p>Les TIC doivent prendre en charge tous les protocoles de signaux ATS standard librement accessibles et couramment utilisés par différents fabricants lorsque le système interagit avec le réseau téléphonique commuté (RTC).</p>
+<p>Les TIC doivent prendre en charge tous les protocoles de signaux ATS standard librement accessibles et couramment utilisés par différents fabricants lorsque le système interagit avec le réseau téléphonique commuté (<abbr>RTC</abbr>).</p>
 </td>
 <td data-wb-tags="choice_1 choice_2"></td>
 <td data-wb-tags="choice_1"></td>
@@ -6019,9 +6019,9 @@ REMARQUE 1 :</p>
 <p>6.2.3 Interopérabilité</p>
 <p>Lorsque les TIC dotées d’une fonction de TTR fonctionnent avec d’autres TIC dotées d’une fonction de TTR (comme l’exige 6.2.1.1), elles doivent prendre en charge au moins un des quatre mécanismes d’interopérabilité de TTR décrits ci-dessous :</p>
 <ol>
-<li>l’interopérabilité des TIC sur le réseau téléphonique commuté (RTC), avec d’autres TIC qui se raccordent directement au RTC, comme le décrit la Recommandation V.18 de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</li>
-<li>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initiation de session (SIP) et du texte en temps réel conforme à RFC 4103;</li>
-<li>l’interopérabilité des TIC avec d’autres TIC dotées de TTR conformes aux protocoles du sous-système multimédia IP (IMS) conformément aux spécifications TS 126 114, TS 122 173 et TS 134 229;</li>
+<li>l’interopérabilité des TIC sur le réseau téléphonique commuté (<abbr>RTC</abbr>), avec d’autres TIC qui se raccordent directement au RTC, comme le décrit la Recommandation V.18 de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</li>
+<li>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (<abbr>VoIP</abbr>) dotée du protocole d’initiation de session (<abbr>SIP</abbr>) et du texte en temps réel conforme à RFC 4103;</li>
+<li>l’interopérabilité des TIC avec d’autres TIC dotées de TTR conformes aux protocoles du sous-système multimédia IP (<abbr>IMS</abbr>) conformément aux spécifications TS 126 114, TS 122 173 et TS 134 229;</li>
 <li>l’interopérabilité des TIC avec d’autres TIC utilisant une spécification commune pertinente et applicable pour les échanges de TTR qui est publiée et accessible. Cette spécification commune comprend une méthode permettant d’indiquer la perte ou la corruption de caractères.</li>
 </ol>
 </td>
@@ -6030,9 +6030,9 @@ REMARQUE 1 :</p>
 <p>6.2.3 Interopérabilité</p>
 <p>Lorsque les TIC dotées d’une fonction de TTR fonctionnent avec d’autres TIC dotées d’une fonction de TTR (comme l’exige la <strong>clause</strong> 6.2.1.1), elles doivent prendre en charge au moins un des quatre mécanismes d’interopérabilité de TTR décrits ci-dessous :</p>
 <ol>
-<li>l’interopérabilité des TIC sur le réseau téléphonique commuté (RTC), avec d’autres TIC qui se raccordent directement au RTC, comme le décrit la Recommandation V.18 de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</li>
-<li>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initiation de session (SIP) et du texte en temps réel conforme à RFC 4103 <strong>de l’IETF</strong>;</li>
-<li>l’interopérabilité des TIC avec d’autres TIC dotées de TTR conformes aux protocoles du sous-système multimédia IP (IMS) conformément aux spécifications TS 126 114, TS 122 173 et TS 134 229 <strong>de l’ETSI;</strong></li>
+<li>l’interopérabilité des TIC sur le réseau téléphonique commuté (<abbr>RTC</abbr>), avec d’autres TIC qui se raccordent directement au RTC, comme le décrit la Recommandation V.18 de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</li>
+<li>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (<abbr>VoIP</abbr>) dotée du protocole d’initiation de session (<abbr>SIP</abbr>) et du texte en temps réel conforme à RFC 4103 <strong>de l’IETF</strong>;</li>
+<li>l’interopérabilité des TIC avec d’autres TIC dotées de TTR conformes aux protocoles du sous-système multimédia IP (<abbr>IMS</abbr>) conformément aux spécifications TS 126 114, TS 122 173 et TS 134 229 <strong>de l’ETSI;</strong></li>
 <li>l’interopérabilité des TIC avec d’autres TIC utilisant une spécification commune pertinente et applicable pour les échanges de TTR qui est publiée et accessible. Cette spécification commune comprend une méthode permettant d’indiquer la perte ou la corruption de caractères.</li>
 </ol>
 </td>
@@ -6044,8 +6044,8 @@ REMARQUE 1 :</p>
 <p>6.2.3 Interopérabilité</p>
 <p>Lorsque les TIC dotées d’une fonction de TTR fonctionnent avec d’autres TIC dotées d’une fonction de TTR (comme l’exige la clause 6.2.1.1), elles doivent prendre en charge au moins un des quatre mécanismes d’interopérabilité de TTR <strong>applicables</strong> décrits ci-dessous :</p>
 <ol>
-<li>l’interopérabilité des TIC <strong>avec d’autres TIC raccordées directement au</strong> réseau téléphonique commuté (RTC), <strong>utilisant</strong> la Recommandation V.18 de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</li>
-<li>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initiation de session (SIP) et du <strong>TTR</strong> en temps réel conforme à RFC 4103. <strong>Pour l’interopérabilité des TIC avec d’autres TIC utilisant le sous-système multimédia IP (IMS) pour mettre en œuvre VoIP, l’ensemble des protocoles spécifiés dans TS 126 114, TS 122 173 et TS 134 229 de l’ETSI décrivent la façon dont RFC 4103 de l’IETF s’appliquerait;</strong></li>
+<li>l’interopérabilité des TIC <strong>avec d’autres TIC raccordées directement au</strong> réseau téléphonique commuté (<abbr>RTC</abbr>), <strong>utilisant</strong> la Recommandation V.18 de l’UIT-T ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</li>
+<li>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (<abbr>VoIP</abbr>) dotée du protocole d’initiation de session (<abbr>SIP</abbr>) et du <strong>TTR</strong> en temps réel conforme à RFC 4103. <strong>Pour l’interopérabilité des TIC avec d’autres TIC utilisant le sous-système multimédia IP (<abbr>IMS</abbr>) pour mettre en œuvre VoIP, l’ensemble des protocoles spécifiés dans TS 126 114, TS 122 173 et TS 134 229 de l’ETSI décrivent la façon dont RFC 4103 de l’IETF s’appliquerait;</strong></li>
 <li>l’interopérabilité des TIC avec d’autres TIC <strong>utilisant des technologies autres que a ou b, ci-dessus,</strong> utilisant une spécification commune pertinente et applicable pour les échanges de TTR qui est publiée et accessible <strong>pour les environnements dans lesquels ils fonctionneront.</strong> Cette spécification commune comprend une méthode permettant d’indiquer la perte ou la corruption de caractères.</li>
 <li><strong>l’interopérabilité des TIC avec d’autres TIC utilisant une norme pour TTR qui a été mise en place aux fins d’utilisation dans un des environnements susmentionnés, et qui est compatible avec toutes les autres TIC actives qui prennent en charge la capacité vocale et le TTR dans l’environnement en question.</strong></li>
 </ol>
@@ -6062,8 +6062,8 @@ REMARQUE 1 :</p>
 <p>6.2.3 Interopérabilité</p>
 <p>Lorsque les TIC dotées d’une fonction de TTR fonctionnent avec d’autres TIC dotées d’une fonction de TTR (comme l’exige la clause 6.2.1.1), elles doivent prendre en charge au moins un des quatre mécanismes d’interopérabilité de TTR applicables décrits ci-dessous :</p>
 <ol>
-<li>l’interopérabilité des TIC avec d’autres TIC raccordées directement au réseau téléphonique commuté (RTC), utilisant la Recommandation V.18 de l’UIT-T [i.23] ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</li>
-<li>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (VoIP) dotée du protocole d’initiation de session (SIP) et du TTR en temps réel conforme à RFC 4103 [i.13] . Pour l’interopérabilité des TIC avec d’autres TIC utilisant le sous-système multimédia IP (IMS) pour mettre en œuvre VoIP, l’ensemble des protocoles spécifiés dans TS 126 114 [i.10], TS 122 173 [i.11] et TS 134 229 [i.12] de l’ETSI décrivent la façon dont RFC 4103 [i.13] de l’IETF s’appliquerait;</li>
+<li>l’interopérabilité des TIC avec d’autres TIC raccordées directement au réseau téléphonique commuté (<abbr>RTC</abbr>), utilisant la Recommandation V.18 de l’UIT-T [i.23] ou l’une de ses annexes pour les signaux de téléphonie texte à l’interface du RTC;</li>
+<li>l’interopérabilité des TIC avec d’autres TIC à l’aide de la technologie Voix sur IP (<abbr>VoIP</abbr>) dotée du protocole d’initiation de session (<abbr>SIP</abbr>) et du TTR en temps réel conforme à RFC 4103 [i.13] . Pour l’interopérabilité des TIC avec d’autres TIC utilisant le sous-système multimédia IP (<abbr>IMS</abbr>) pour mettre en œuvre VoIP, l’ensemble des protocoles spécifiés dans TS 126 114 [i.10], TS 122 173 [i.11] et TS 134 229 [i.12] de l’ETSI décrivent la façon dont RFC 4103 [i.13] de l’IETF s’appliquerait;</li>
 <li>l’interopérabilité des TIC avec d’autres TIC utilisant des technologies autres que a ou b, ci-dessus, utilisant une spécification commune pertinente et applicable pour les échanges de TTR qui est publiée et accessible pour les environnements dans lesquels ils fonctionneront. Cette spécification commune comprend une méthode permettant d’indiquer la perte ou la corruption de caractères;</li>
 <li>l’interopérabilité des TIC avec d’autres TIC utilisant une norme pour TTR qui a été mise en place aux fins d’utilisation dans un des environnements susmentionnés, et qui est compatible avec toutes les autres TIC actives qui prennent en charge la capacité vocale et le TTR dans l’environnement en question.</li>
 </ol>
