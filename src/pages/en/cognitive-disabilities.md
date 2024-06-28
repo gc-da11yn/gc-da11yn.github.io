@@ -253,7 +253,7 @@ Here are some commonly used products and strategies:
   - For example, Medialexie
 - Simplified content
   - For example, workbooks, picture boards, charts, pencil grip to aid in writing skills, educational toys and games, blocks, models of common objects, letters, and numerals
-- Augmentative and alternative communication (AAC) devices
+- Augmentative and alternative communication (<abbr>AAC</abbr>) devices
 - Synchronized speech and highlighting
 - Visual / audio alternatives to text in signage, messages, instructions
 - Direct and immediate help

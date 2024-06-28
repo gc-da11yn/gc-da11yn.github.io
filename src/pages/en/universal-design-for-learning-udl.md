@@ -20,7 +20,7 @@ audience:
   - Educator / facilitator
 ---
 
-## Introduction to Universal Design for Learning (UDL)
+## Introduction to Universal Design for Learning (<abbr>UDL</abbr>)
 
 It is important to design courses and adopt a teaching style that meets the needs of people with different backgrounds, abilities and learning styles. Everyone learns differently, so there is no one-size-fits-all teaching method. By using different teaching methods, we can meet the needs of a larger number of learners. Rather than using a ‘one-size fits all approach’, providing multiple ways of engagement, representation and action and expression can meet the needs of a larger number of learners.
 

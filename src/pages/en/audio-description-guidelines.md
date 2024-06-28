@@ -12,7 +12,7 @@ audience:
 
 Audio description is sometimes known as described video, video description, or visual interpretation.
 
-Audio description allows any user with a visual disability or cognitive disability to receive a very detailed and descriptive experience of what is happening on the screen for every aspect of the video. A number of organizations require Audio description (<abbr>AD</abbr>) and Described video (DV), or video description in video, such as the [Canadian Radio-television and Telecommunications Commission](http://www.crtc.gc.ca/eng/info_sht/b322.htm) (CRTC).
+Audio description allows any user with a visual disability or cognitive disability to receive a very detailed and descriptive experience of what is happening on the screen for every aspect of the video. A number of organizations require Audio description (<abbr>AD</abbr>) and Described video (<abbr>DV</abbr>), or video description in video, such as the [Canadian Radio-television and Telecommunications Commission](http://www.crtc.gc.ca/eng/info_sht/b322.htm) (<abbr>CRTC</abbr)).
 
 Audio description is also used by sighted individuals, so both audio and video elements are needed (for example, someone with some vision loss who can not read the text but wants to see the rest).
 

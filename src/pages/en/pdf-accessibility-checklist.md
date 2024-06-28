@@ -31,7 +31,7 @@ tags:
 
 ## Introduction
 
-The purpose of the PDF Accessibility Checklist is to support Employment and Social Development Canada (<abbr>ESDC</abbr>) PDF document developers ensure that accessibility compliance meets the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) standards. Please note that the checklist only contains WCAG criteria that are related to the most common errors identified in PDF documents.
+The purpose of the PDF Accessibility Checklist is to support Employment and Social Development Canada (<abbr>ESDC</abbr>) PDF document developers ensure that accessibility compliance meets the [Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1](https://www.w3.org/TR/WCAG21/) standards. Please note that the checklist only contains WCAG criteria that are related to the most common errors identified in PDF documents.
 
 We established a list of tools and resources to help developers verify their document accessibility, as well as the PDF Accessibility Checklist that identifies 27 success criteria that are pertinent to PDFs.
 
@@ -87,7 +87,7 @@ For any further questions or comments regarding the PDF Accessibility Checklist,
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>23 &ndash; All text fields have associated descriptive text. This allows assistive technology to recognize and understand the different form fields.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>24 &ndash; When a user has failed to input information correctly in a field, there is a clear error indicator that visually and auditorily informs the user of the error, how to correct the error, and properly fill out the field.</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>25 &ndash; The submit button is clearly marked so that users know how to submit the form they are filling out.</li>
-<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>26 &ndash; Best Practice: when using an acronym ensure that the first time it is mentioned in the PDF that it is fully defined. Eg. Employment and Social Development Canada (ESDC)</li>
+<li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>26 &ndash; Best Practice: when using an acronym ensure that the first time it is mentioned in the PDF that it is fully defined. Eg. Employment and Social Development Canada (<abbr>ESDC</abbr>)</li>
 <li class="mrgn-bttm-md"><span class="far fa-square mrgn-rght-md" aria-hidden="true"></span>27 &ndash; Best Practice: the font is sans serif and commonly used. (for enhanced visual legibility)</li>
 </ul>
 

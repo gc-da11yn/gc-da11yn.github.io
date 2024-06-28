@@ -39,7 +39,7 @@ Microsoft Teams is the standard meeting platform for virtual meetings.
 - [Magnify screen content](https://support.microsoft.com/en-us/office/take-advantage-of-the-accessibility-features-in-microsoft-teams-for-a-better-meeting-or-live-event-experience-eec38ba3-689b-4ab4-8b6a-1c1c30259d86#bkmk_magnify_win)
 - [Dark, light, and high contrast theme](https://support.microsoft.com/en-us/office/change-settings-in-teams-b506e8f1-1a96-4cf1-8c6b-b6ed4f424bc7)
 - [Zoom in and out of Teams](https://support.microsoft.com/en-us/topic/dc3cd3d8-efb5-4995-8b31-434b3943ba52)
-- [Use text telephone (TTY)](https://support.microsoft.com/en-us/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [Use text telephone (<abbr>TTY</abbr>)](https://support.microsoft.com/en-us/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Search for messages and more](https://support.microsoft.com/en-us/office/search-for-messages-and-more-in-teams-4a351520-33f4-42ab-a5ee-5fc0ab88b263)
 - Compatible with assistive technologies, like
 

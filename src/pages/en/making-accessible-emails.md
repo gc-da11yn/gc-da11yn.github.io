@@ -74,7 +74,7 @@ Avoid overly complex writing styles.
 - Choose simple vocabulary and avoid complex words and/or policy language
 - Use short sentences (20 words or fewer).
 - Use an active voice (for example, “they decided,” not, “a decision was made”).
-- Define abbreviations the first time you use them (for example, “Shared Services Canada (SSC)”).
+- Define abbreviations the first time you use them (for example, “Shared Services Canada (<abbr>SSC</abbr>)”).
 
 ### Resources:
 
@@ -132,7 +132,7 @@ Please select a sans-serif, for example: Arial, Calibri, Verdana, etc.
 - using decorative font attributes, such as drop caps, text effects or WordArt
 - using symbols and icons as the only way to communicate information
 - using superscripts and subscripts
-- including math and equations. If you must include this information, make sure to use Mathematical Markup Language (MathML)
+- including math and equations. If you must include this information, make sure to use Mathematical Markup Language (<abbr>MathML</abbr>)
 - italicizing more than a few words, as it becomes difficult to read
 - The Government of Canada recommends that [only acts, laws and court cases should be italicized](https://www.noslangues-ourlanguages.gc.ca/en/writing-tips-plus/italics-legal-references)
 - use of visual styles (colour, bolding, etc.) as the only way of conveying information.
@@ -245,7 +245,7 @@ Microsoft Office automatically formats link text as underlined and blue. This he
 
 - Always provide meaningful link text so that users know where the link will take them. (For example, “[Federal business innovation and growth support for clean technology, 2020](https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2023034-eng.htm).”
 
-- Put the destination website (company name) at the end of the link in parentheses, for example (Canada.ca). This is another best practice for helping the user know where a link takes them—is it an internal Government of Canada (GC) website or is it an external website?
+- Put the destination website (company name) at the end of the link in parentheses, for example (Canada.ca). This is another best practice for helping the user know where a link takes them—is it an internal Government of Canada (<abbr>GC</abbr>) website or is it an external website?
 - Avoid using “**Click here**” or other ambiguous link texts such as “**Read more**” or “**Continue**.”
 
 ### Bookmarks
