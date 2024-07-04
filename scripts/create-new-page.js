@@ -5,11 +5,33 @@ const slugify = require("slugify");
 
 const prompt = ps();
 
-// Get user input
-const titleEN = prompt("What is the *English* title value of your page?: ");
+// Function to get a unique slugified file name
+function getUniqueFileName(directory, title) {
+	let slug = slugify(title, { lower: true });
+	let fileName = `${slug}.md`;
+	while (fs.existsSync(path.join(directory, fileName))) {
+		console.log(`The file ${path.join(directory, fileName)} already exists.`);
+		title = prompt(`Please provide a new title for your page: `);
+		slug = slugify(title, { lower: true });
+		fileName = `${slug}.md`;
+	}
+	return { title, fileName };
+}
+
+// Get user input for English
+let titleEN = prompt("What is the *English* title value of your page?: ");
 const descriptionEN = prompt("What is the *English* description value of your page?: ");
-const titleFR = prompt("What is the *French* title value of your page?: ");
+const enResult = getUniqueFileName(path.join("src", "pages", "en"), titleEN);
+titleEN = enResult.title;
+const fileNameEN = enResult.fileName;
+
+// Get user input for French
+let titleFR = prompt("What is the *French* title value of your page?: ");
 const descriptionFR = prompt("What is the *French* description value of your page?: ");
+const frResult = getUniqueFileName(path.join("src", "pages", "fr"), titleFR);
+titleFR = frResult.title;
+const fileNameFR = frResult.fileName;
+
 const hasInternalLinks = prompt("Are there any internal to GC links in the content? (yes/no): ").toLowerCase() === "yes";
 
 // Log the input to verify it's correct
@@ -18,10 +40,6 @@ console.log("English Description:", descriptionEN);
 console.log("French Title:", titleFR);
 console.log("French Description:", descriptionFR);
 console.log("Has Internal Links:", hasInternalLinks);
-
-// Slugify the titles for file names
-const fileNameEN = slugify(titleEN, { lower: true }) + ".md";
-const fileNameFR = slugify(titleFR, { lower: true }) + ".md";
 
 // Prepare front matter content
 let mdContentEN = `---
