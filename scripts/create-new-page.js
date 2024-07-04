@@ -10,32 +10,43 @@ const titleEN = prompt("What is the *English* title value of your page?: ");
 const descriptionEN = prompt("What is the *English* description value of your page?: ");
 const titleFR = prompt("What is the *French* title value of your page?: ");
 const descriptionFR = prompt("What is the *French* description value of your page?: ");
+const hasInternalLinks = prompt("Are there any internal to GC links in the content? (yes/no): ").toLowerCase() === "yes";
 
 // Log the input to verify it's correct
 console.log("English Title:", titleEN);
 console.log("English Description:", descriptionEN);
 console.log("French Title:", titleFR);
 console.log("French Description:", descriptionFR);
+console.log("Has Internal Links:", hasInternalLinks);
 
 // Slugify the titles for file names
 const fileNameEN = slugify(titleEN, { lower: true }) + ".md";
 const fileNameFR = slugify(titleFR, { lower: true }) + ".md";
 
 // Prepare front matter content
-const mdContentEN = `---
+let mdContentEN = `---
 title: ${titleEN}
 description: ${descriptionEN}
 layout: layouts/base.njk
-toggle: /fr/${fileNameFR}
----
-`;
-const mdContentFR = `---
+toggle: /fr/${fileNameFR}`;
+if (hasInternalLinks) {
+	mdContentEN += `
+internalLinks: true`;
+}
+mdContentEN += `
+---`;
+
+let mdContentFR = `---
 title: ${titleFR}
 description: ${descriptionFR}
 layout: layouts/base.njk
-toggle: /en/${fileNameEN}
----
-`;
+toggle: /en/${fileNameEN}`;
+if (hasInternalLinks) {
+	mdContentFR += `
+internalLinks: true`;
+}
+mdContentFR += `
+---`;
 
 // Define file paths
 const filePathEN = path.join("src", "pages", "en", fileNameEN);
