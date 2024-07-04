@@ -96,13 +96,11 @@ The `npm run dev` command will build the site into the `_site` folder and set th
 
 The `npm run eleventy` command builds the HTML pages from the `src` folder into the `_site`.
 
-#### Creating a new folder and the files needed
+#### Creating a new page
 
-To create a new folder for the site in both the `src/en` and `src/fr` directories along with the basic files needed for a page in these folders you can use `npm run new-folder`.
+To create a new page for the site in both the `src/pages/en` and `src/pages/fr` directories you can use `npm run newPage`.
 
-The script will need the name of the folder, the English title of the page, the French title of the page, the English description of the page, the French description of the page.
-
-The script will create the json file for the breadcrumbs, an index.md, and the english and french folders.
+The script will ask you for the English title and a description of the page, then the French title and description, and then if the page has any links that are internal to the Government of Canada firewall.
 
 #### Checking the spelling on the site
 
@@ -150,6 +148,7 @@ To trigger the `isDraft` variable in the front matter, you have to set its value
 If you don't include the `isDraft` variable in the front matter of your Markdown file, then the "Draft" message will not be included in the alert message by default. This is because the `isDraft` variable is used to control whether or not the "Draft" message is included, and if it is not specified in the front matter, it will default to false.
 
 ### needsTranslation
+
 #### What is the function of needsTranslation
 
 The `needsTranslation` variable is used to indicate whether or not the content needs to be translated to another language. When this is set to `true` a note is added to the page that tells the reader that the content is only available in one language. When this is set, the language toggle link is also removed from the page
@@ -169,6 +168,7 @@ To trigger the `needsTranslation` variable in the front matter, you have to set 
 If you don't include the `needsTranslation` variable in the front matter of your Markdown file, then the "needsTranslation" message will not be included in the alert message by default. This is because the `needsTranslation` variable is used to control whether or not the "needsTranslation" message is included, and if it is not specified in the front matter, it will default to `false`.
 
 ### internalLinks
+
 #### What is the function of internalLinks
 
 This needs to be set to `true` on all pages that have links that point to content that can only be accessed from behind the Government of Canada firewall.
@@ -182,6 +182,7 @@ To trigger the `internalLinks` variable in the front matter, you have to set its
     internalLinks:true
     ---
     ```
+
 #### How to run markdown-link-checker to check for broken or dead links on the console
 
 The markdown-link-checker is an implemented plugin from [markdown-link-checker](https://www.npmjs.com/package/markdown-link-check) that automatically scans and checks for working and dead links. The code used in this project is a modified version from [canada.ca link checker](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/link-check.js). We are currently using version 3.0.
@@ -193,7 +194,9 @@ Tip: Keep in mind it might lag, but just give it a few seconds to finish
 #### What happens when internalLinks is not included
 
 If you don't include the `internalLinks` variable in the front matter of your Markdown file, then the "internalLinks" message will not be included in the alert message by default. This is because the `internalLinks` variable is used to control whether or not the "internalLinks" message is included, and if it is not specified in the front matter, it will default to `false`.
+
 ______________________
+
 <div lang="fr">
 
 # Développement
@@ -262,7 +265,7 @@ Une fois que vous avez rencontré [les conditions préalables](#Exigences), suiv
 
   `Successfully rebased and updated refs/heads/main.`
 
- 6. Installez les modules Node.js du projet en tapant `npm install` dans votre application de ligne de commande. Une liste      des modules devrait être affichée après leur téléchargement et leur installation.
+ 6. Installez les modules Node.js du projet en tapant `npm install` dans votre application de ligne de commande. Une liste des modules devrait être affichée après leur téléchargement et leur installation.
 
 ## Exécution du site Web
 
@@ -288,14 +291,11 @@ La commande `npm run dev` va construire le site dans le dossier `_site` et défi
 
 La commande `npm run eleventy` construit les pages HTML du dossier `src` dans le dossier `_site`.
 
-#### Création d'un nouveau dossier et des fichiers requis
+#### Création d'un nouveau page
 
+Pour créer une nouvelle page pour le site dans les répertoires `src/pages/en` et `src/pages/fr`, vous pouvez utiliser `npm run newPage`.
 
-Pour créer un nouveau dossier pour le site dans les répertoires `src/en` et `src/fr` ainsi que les fichiers de base nécessaires pour une page dans ces dossiers, vous pouvez utiliser `npm run new-folder`.
-
-Le script aura besoin du nom du dossier, du titre anglais de la page, du titre français de la page, de la description anglaise de la page, de la description française de la page.
-
-Le script créera le fichier json pour les breadcrumbs, un index.md, et les dossiers anglais et français.
+Le script vous demandera le titre anglais et une description de la page, puis le titre et la description en français, et enfin si la page contient des liens internes au pare-feu du gouvernement du Canada.
 
 #### Vérification de l'orthographe sur le site
 
@@ -324,6 +324,7 @@ Vous pouvez demander à Node.js d'arrêter de s'exécuter en appuyant simultané
 Nous avons trois types d'alertes qui peuvent être utilisées individuellement ou ensemble dans votre page Web, selon vos besoins et leur logique peut être trouvée dans. [alerte inclure](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/src/_includes/partials/alerts.njk)
 
 ### isDraft
+
 #### Quelle est la fonction de isDraft
 
 La variable `isDraft` est utilisée pour contrôler si un message d'alerte inclut ou non un message `isDraft`. Si la variable `isDraft` est définie sur `true`, le message d'alerte inclura le message indiquant que le contenu est toujours à l'état de brouillon et qu'il n'est pas final. S'il n'est pas du tout inclus, le message "Brouillon" sera exclu.
@@ -343,6 +344,7 @@ Pour déclencher la variable `isDraft` dans le front matter, vous devez définir
 Si vous n'incluez pas la variable `isDraft` dans le front matter de votre fichier Markdown, le message "Draft" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `isDraft` est utilisée pour contrôler si oui ou non le message "Brouillon" est inclus, et s'il n'est pas spécifié dans l'avant-propos, il sera faux par défaut.
 
 ### needsTranslation
+
 #### Quelle est la fonction de needsTranslation
 
 La variable `needsTranslation` est utilisée pour indiquer si le contenu doit ou non être traduit dans une autre langue. Lorsque cette option est définie sur `true`, une note est ajoutée à la page pour indiquer au lecteur que le contenu n'est disponible que dans une seule langue. Lorsque cette option est définie, le lien de basculement de langue est également supprimé de la page
@@ -362,6 +364,7 @@ Pour déclencher la variable `needsTranslation` dans le front matter, vous devez
 Si vous n'incluez pas la variable `needsTranslation` dans le front matter de votre fichier Markdown, le message "needsTranslation" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `needsTranslation` est utilisée pour contrôler si le message "needsTranslation" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à `false`.
 
 ### internalLinks
+
 #### Quelle est la fonction de internalLinks
 
 Cela doit être défini sur vrai sur toutes les pages qui ont des liens pointant vers du contenu accessible uniquement à partir de derrière le pare-feu du gouvernement du Canada.
@@ -387,5 +390,5 @@ Astuce : Gardez à l'esprit qu'il peut y avoir un décalage, mais donnez-lui que
 #### Que se passe-t-il lorsque internalLinks n'est pas inclus
 
 Si vous n'incluez pas la variable `internalLinks` dans l'avant-propos de votre fichier Markdown, le message "internalLinks" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `internalLinks` est utilisée pour contrôler si le message "internalLinks" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à `false`.
-</div>
 
+</div>
