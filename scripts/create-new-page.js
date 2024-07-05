@@ -5,14 +5,21 @@ const slugify = require("slugify");
 
 const prompt = ps();
 
+// Configure slugify to match Eleventy's default behavior
+const slugifyOptions = {
+	lower: true,
+	strict: true,
+	remove: /[*+~.()'"!:@]/g
+};
+
 // Function to get a unique slugified file name
 function getUniqueFileName(directory, title) {
-	let slug = slugify(title, { lower: true });
+	let slug = slugify(title, slugifyOptions);
 	let fileName = `${slug}.md`;
 	while (fs.existsSync(path.join(directory, fileName))) {
 		console.log(`The file ${path.join(directory, fileName)} already exists.`);
 		title = prompt(`Please provide a new title for your page: `);
-		slug = slugify(title, { lower: true });
+		slug = slugify(title, slugifyOptions);
 		fileName = `${slug}.md`;
 	}
 	return { title, fileName };
@@ -41,10 +48,10 @@ console.log("French Title:", titleFR);
 console.log("French Description:", descriptionFR);
 console.log("Has Internal Links:", hasInternalLinks);
 
-// Prepare front matter content
+// Prepare front matter content with quoted values
 let mdContentEN = `---
-title: ${titleEN}
-description: ${descriptionEN}
+title: "${titleEN}"
+description: "${descriptionEN}"
 layout: layouts/base.njk
 toggle: /fr/${fileNameFR}`;
 if (hasInternalLinks) {
@@ -55,8 +62,8 @@ mdContentEN += `
 ---`;
 
 let mdContentFR = `---
-title: ${titleFR}
-description: ${descriptionFR}
+title: "${titleFR}"
+description: "${descriptionFR}"
 layout: layouts/base.njk
 toggle: /en/${fileNameEN}`;
 if (hasInternalLinks) {
