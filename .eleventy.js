@@ -74,7 +74,7 @@ module.exports = function (eleventyConfig) {
     },
     templateFormats : ["html", "md", "njk", "css"],
     htmlTemplateEngine : "njk",
-    markdownTemplate : "njk",
+    markdownTemplateEngine : "njk",
     setUseGitIgnore : false
   };
 };
