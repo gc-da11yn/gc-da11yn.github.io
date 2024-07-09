@@ -5,6 +5,6 @@ toggle: feuille-de-conseils-pour-microsoft-excel
 subject:
   - howTos
   - createDocument
-tags:
-  - msTips
+# tags:
+#   - msTips
 ---
