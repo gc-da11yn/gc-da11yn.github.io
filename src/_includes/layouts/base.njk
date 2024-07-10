@@ -5,37 +5,43 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ locale }}" dir="ltr">
 
-{% include "partials/head.njk" %}
+	{% include "partials/head.njk" %}
 
-<body vocab="http://schema.org/" typeof="WebPage">
+	<body vocab="http://schema.org/" typeof="WebPage">
 
-	{% include "partials/skipnav.njk" %}
+		{% include "partials/skipnav.njk" %}
 
-	{% include "partials/header.njk"  %}
+		{% include "partials/header.njk" %}
 
-	<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
 
-		<div class="home">
-			<div class="container p-0 p-sm-3">
-				<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
-					<h1 property="name" id="wb-cont">
-						{{ title | safe }}
-					</h1>
-					{% if description %}
+			<div class="home">
+				<div class="container p-0 p-sm-3">
+					<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
+						<h1 property="name" id="wb-cont">
+							{{ title | safe }}
+						</h1>
+						{% if description %}
 						<p>{{ description | safe }}</p>
-					{% else %}
+						{% else %}
 						<p><strong>{{ landingPage[locale].descriptionNoneText }}</strong></p>
-					{% endif %}
+						{% endif %}
+					</div>
 				</div>
 			</div>
-		</div>
 
 			{% include "partials/alerts.njk" %}
 			<div class="container">
-			{% if officeTOC === true %}
-			{% include "partials/office-toc.njk" %}
-			{% include "partials/office365Notice.njk" %}
-			{% endif %}
+				{% if officeTOC === true %}
+				{% include "partials/office-toc.njk" %}
+				{% include "partials/office365Notice.njk" %}
+				{% endif %}
+
+
+{% include "partials/onThisPage.njk" %}
+
+
+
 				{{ content | safe }}
 				{% if officeTOC === true %}
 				{% include "partials/office-toc.njk" %}
@@ -43,16 +49,17 @@
 			{% endif %}
 			{% include "partials/pagedetails.njk" %}
 
-	</main>
+		</main>
 
-	{% include "partials/contribute.njk" %}
+		{% include "partials/contribute.njk" %}
 
-	{% include "partials/footer.njk" %}
+		{% include "partials/footer.njk" %}
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-	<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-	<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
-</body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+	</body>
+
 </html>
 
 {% endif %}

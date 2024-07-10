@@ -129,6 +129,7 @@ You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd
 We have three types of alerts that can be used either individually or together in your webpage, as per your needs and their logic can be found in [alert include](https://github.com/gc-da11yn/gc-da11yn.github.io/blob/main/src/_includes/partials/alerts.njk)
 
 ### isDraft
+
 #### What is the function of isDraft
 
 The `isDraft` variable is used to control whether or not an alert message includes a `isDraft` message. If the `isDraft` variable is set to `true`, the alert message will include the message that the content is still in draft and is not final. If it is  included not at all, the "Draft" message will be excluded
@@ -183,17 +184,31 @@ To trigger the `internalLinks` variable in the front matter, you have to set its
     ---
     ```
 
-#### How to run markdown-link-checker to check for broken or dead links on the console
+#### What happens when internalLinks is not included
+
+If you don't include the `internalLinks` variable in the front matter of your Markdown file, then the "internalLinks" message will not be included in the alert message by default. This is because the `internalLinks` variable is used to control whether or not the "internalLinks" message is included, and if it is not specified in the front matter, it will default to `false`.
+
+## On this page / Table of content (TOC)
+
+We have implemented an automatic generation of a "On this page" section for pages that have `toc: true` set in their front matter. This list includes headings at levels 2 and 3.
+
+To enable the TOC on a specific page, add the following to the front matter of the Markdown file:
+
+    ``` yaml
+    ---
+    toc: true
+    ---
+    ```
+
+## markdown-link-checker
+
+### How to run markdown-link-checker to check for broken or dead links on the console
 
 The markdown-link-checker is an implemented plugin from [markdown-link-checker](https://www.npmjs.com/package/markdown-link-check) that automatically scans and checks for working and dead links. The code used in this project is a modified version from [canada.ca link checker](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/link-check.js). We are currently using version 3.0.
 
 To run the plugin simply type 'npm run link-check' in your terminal. The links will load in the terminal but they will also be generated inside a 'broken-links.json' in the root directory.
 
 Tip: Keep in mind it might lag, but just give it a few seconds to finish
-
-#### What happens when internalLinks is not included
-
-If you don't include the `internalLinks` variable in the front matter of your Markdown file, then the "internalLinks" message will not be included in the alert message by default. This is because the `internalLinks` variable is used to control whether or not the "internalLinks" message is included, and if it is not specified in the front matter, it will default to `false`.
 
 ______________________
 
@@ -379,7 +394,25 @@ Pour déclencher la variable `internalLinks` dans le front matter, vous devez d�
     ---
     ```
 
-#### Comment exécuter markdown-link-checker pour vérifier les liens brisés ou morts sur la console ?
+#### Que se passe-t-il lorsque internalLinks n'est pas inclus
+
+Si vous n'incluez pas la variable `internalLinks` dans l'avant-propos de votre fichier Markdown, le message "internalLinks" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `internalLinks` est utilisée pour contrôler si le message "internalLinks" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à `false`.
+
+## Sur cette page / Table des matières (TOC)
+
+Nous avons mis en place une génération automatique d'une section "Sur cette page" pour les pages qui ont `toc: true` défini dans leur front matter. Cette liste inclut les titres des niveaux 2 et 3.
+
+Pour activer la TOC sur une page spécifique, ajoutez ce qui suit au front matter du fichier Markdown :
+
+    ``` yaml
+    ---
+    toc: true
+    ---
+    ```
+
+## markdown-link-checker
+
+### Comment exécuter markdown-link-checker pour vérifier les liens brisés ou morts sur la console ?
 
 Le markdown-link-checker est un plugin implémenté à partir de [markdown-link-checker] (https://www.npmjs.com/package/markdown-link-check) qui analyse et vérifie automatiquement les liens actifs et morts. Le code utilisé dans ce projet est une version modifiée de [canada.ca link checker](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/link-check.js). Nous utilisons actuellement la version 3.0.
 
@@ -387,8 +420,5 @@ Pour lancer le plugin, tapez simplement 'npm run link-check' dans votre terminal
 
 Astuce : Gardez à l'esprit qu'il peut y avoir un décalage, mais donnez-lui quelques secondes pour terminer.
 
-#### Que se passe-t-il lorsque internalLinks n'est pas inclus
-
-Si vous n'incluez pas la variable `internalLinks` dans l'avant-propos de votre fichier Markdown, le message "internalLinks" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `internalLinks` est utilisée pour contrôler si le message "internalLinks" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à `false`.
 
 </div>
