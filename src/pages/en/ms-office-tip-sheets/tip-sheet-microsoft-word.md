@@ -98,7 +98,7 @@ Make sure there is sufficient contrast between the text and the background.
 Information must be conveyed using more than colour alone. For example, add a border or a different shape.
 
 **Things to avoid** :
-- background images
+background images
 
 ## Languages
 Create separate documents for each language to maximize accessibility. If you must create a multilingual document, use **Word for desktop** to set the proofing language:

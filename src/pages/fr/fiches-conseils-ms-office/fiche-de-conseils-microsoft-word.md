@@ -95,7 +95,7 @@ Assurez-vous que le contraste entre le texte et l’arrière-plan soit suffisant
 Les renseignements doivent être transmis par d’autres moyens que la couleur seulement. Par exemple, ajoutez une bordure ou une forme différente.
 
 **Ce qu’il faut éviter :**
--	les images d’arrière-plan.
+les images d’arrière-plan.
 
 ## Langues
 Créez des documents distincts pour chaque langue afin d’optimiser l’accessibilité. Si vous devez créer un document multilingue, utilisez **Word pour bureau** pour définir la langue de vérification :
