@@ -38,10 +38,10 @@ When pasting content from another source:
 - Avoid directly formatting text (commands in the **Message** tab > **Basic Text** group, or **Format Text** tab > **Font** group).
 
 ## Links
-- Provide explicit names for links. For example, “discover offers” instead of “click here” or “learn more.”
+Provide explicit names for links. For example, “discover offers” instead of “click here” or “learn more.”
 
 ## Lists
-- For lists, use bullets or numbered lists from **Home** tab > **Basic Text** group > **Bullets** menu.
+For lists, use bullets or numbered lists from **Home** tab > **Basic Text** group > **Bullets** menu.
 
 ## Images
 Images must have the **Layout Option** set as **In Line with Text** (unless decorative). Select image > press <kbd>Shift</kbd> + <kbd>F10</kbd> (or right-click) > select **Wrap Text** > select **In Line with Text**.   
@@ -85,7 +85,7 @@ Make sure there is sufficient contrast between the text and the background.
 Information must be conveyed using more than colour alone. For example, add a border or a different shape.     
 
 **Things to avoid** :
-- background images
+background images
 
 ## Languages
 - Write separate English and French email messages.

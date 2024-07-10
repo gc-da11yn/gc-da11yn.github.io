@@ -36,10 +36,10 @@ Pour coller du contenu provenant d’une autre source :
 - Éviter de formater le texte directement  (les commandes de l’onglet **Message** > groupe **Texte simple**, ou l’onglet **Format du texte** > groupe **Police**).
 
 ## Liens
-- Donnez des noms précis aux liens. Par exemple, « découvrez les offres » au lieu de « cliquez ici » ou « en savoir plus ».
+Donnez des noms précis aux liens. Par exemple, « découvrez les offres » au lieu de « cliquez ici » ou « en savoir plus ».
 
 ## Listes
-- Pour les listes, utilisez des listes à puces ou des listes numérotées à partir de l’onglet **Accueil** > du groupe **Texte simple** > et du menu **Puces**.
+Pour les listes, utilisez des listes à puces ou des listes numérotées à partir de l’onglet **Accueil** > du groupe **Texte simple** > et du menu **Puces**.
 
 ## Images
 L’**Option de mise en page** des images doit être définie sur **Aligné sur le texte** (à moins qu’elles ne soient décoratives). Sélectionnez l’image > appuyez sur les touches <kbd>Maj</kbd> + <kbd>F10</kbd> (ou cliquez avec le bouton droit de la souris) > sélectionnez **Habiller le texte** > sélectionnez **Aligné sur le texte**.
@@ -83,7 +83,7 @@ Assurez-vous que le contraste entre le texte et l’arrière-plan soit suffisant
 Les renseignements doivent être transmis par d’autres moyens que la couleur seulement. Par exemple, ajoutez une bordure ou une forme différente.
 
 **Ce qu’il faut éviter** :
-- les images d’arrière-plan.
+les images d’arrière-plan.
 
 ## Langues
 - Rédigez des courriels distincts en français et en anglais.
