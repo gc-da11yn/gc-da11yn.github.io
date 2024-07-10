@@ -52,7 +52,7 @@ Styles and Code:
 
 WAVE provides functionality for disabling page CSS (Cascading Style Sheets) styles. Complex, CSS-powered layouts may become difficult to read, especially after the WAVE icons have been embedded, so disabling styles can simplify the page presentation. Disabling styles also allow you to view the underlying reading and navigation order, the order in which keyboard-only and screen reader users will access the page. To view the relevant code for a particular WAVE icon, you can select the Code tab at the bottom of the page to view the underlying markup/DOM of your page.
 
-### Tool: Accessibility Insights for Web {#tool-accessibility-insights-for-web}
+### Tool: Accessibility Insights for Web
 
 Accessibility Insights for Web is an extension for Chrome and Microsoft Edge that helps developers find and fix accessibility issues in web apps and sites.
 
@@ -94,7 +94,7 @@ Keyboard Shortcuts:
 
 - Increase your productivity with [Keyboard Shortcuts for Accessibility Insights for Web.](https://accessibilityinsights.io/docs/web/reference/keyboard/)
 
-### Tool: LightHouse {#tool-lighthouse}
+### Tool: LightHouse
 
 Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO, and more. A very useful tool for Multimedia Developers and Web Accessibility Testers.
 

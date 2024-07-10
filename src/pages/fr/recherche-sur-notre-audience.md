@@ -41,17 +41,17 @@ Nous croyons qu’il est important de tenir compte d’un large éventail d’ex
 
 5 grands types d’incapacité et 2 types d’incapacité combinés
 
-- [Brandon – Auditif](#Brandon)
-- [Alasie – Vision](#Alasie)
-- [Yenah – Dextérité](#Yenah)
-- [Ike – Mobilité](#Ike)
-- [Damien – Cognitif](#Damien)
-- [Valeria – Cognitive et auditive](#Valeria)
-- [Yosef – Mobilité et parole](#Yosef)
+  - [Brandon - Auditif](#brandon-auditif)
+  - [Alasie - Vision](#alasie-vision)
+  - [Yenah - Dextérité](#yenah-dexterite)
+  - [Ike - Mobility](#ike-mobility)
+  - [Damien - Cognitive](#damien-cognitive)
+  - [Valeria – Cognitive et Auditory](#valeria-cognitive-et-auditive)
+  - [Yosef – Mobilité et parole](#yosef-mobilite-et-parole)
 
 <section class="brdr-tp mrgn-tp-lg">
 
-### Brandon - Auditif {#Brandon}
+### Brandon - Auditif
 
 <div class="row">
 <div class="col-md-6">
@@ -125,7 +125,7 @@ Catégorie: remplacement et amélioration audio.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Alasie - Vision {#Alasie}
+### Alasie - Vision
 
 <div class="row">
 <div class="col-md-6">
@@ -203,7 +203,7 @@ Catégorie : Amélioration de la vision
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Yenah - Dextérité {#Yenah}
+### Yenah - Dextérité
 
 <div class="row">
 <div class="col-md-6">
@@ -280,7 +280,7 @@ Catégorie: Amélioration de la mobilité et de la dextérité.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Ike - Mobility {#Ike}
+### Ike - Mobility
 
 <div class="row">
 <div class="col-md-6">
@@ -356,7 +356,7 @@ Catégorie : Amélioration de la mobilité.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Damien - Cognitive {#Damien}
+### Damien - Cognitive
 
 <div class="row">
 <div class="col-md-6">
@@ -429,7 +429,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Valeria – Cognitive and Auditory {#Valeria}
+### Valeria – Cognitive et auditive
 
 <div class="row">
 <div class="col-md-6">
@@ -503,7 +503,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage et autres.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Yosef – Mobilité et parole {#Yosef}
+### Yosef – Mobilité et parole
 
 <div class="row">
 <div class="col-md-6">
