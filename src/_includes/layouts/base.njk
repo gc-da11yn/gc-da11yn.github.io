@@ -37,10 +37,9 @@
 				{% include "partials/office365Notice.njk" %}
 				{% endif %}
 
-
-{% include "partials/onThisPage.njk" %}
-
-
+				{% if toc or tocSimple %}
+				{% include "partials/onThisPage.njk" %}
+				{% endif %}
 
 				{{ content | safe }}
 				{% if officeTOC === true %}

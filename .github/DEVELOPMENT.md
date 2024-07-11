@@ -188,17 +188,35 @@ To trigger the `internalLinks` variable in the front matter, you have to set its
 
 If you don't include the `internalLinks` variable in the front matter of your Markdown file, then the "internalLinks" message will not be included in the alert message by default. This is because the `internalLinks` variable is used to control whether or not the "internalLinks" message is included, and if it is not specified in the front matter, it will default to `false`.
 
-## On this page / Table of content (TOC)
+## On this page / Table of Contents (TOC)
 
-We have implemented an automatic generation of a "On this page" section for pages that have `toc: true` set in their front matter. This list includes headings at levels 2 and 3.
+We have implemented an automatic generation of a "On this page" section for pages that have `toc: true` or `tocSimple: true` set in their front matter.
 
-To enable the TOC on a specific page, add the following to the front matter of the Markdown file:
+### Full TOC (`toc: true`)
 
-    ``` yaml
+If `toc: true` is set in the front matter, the table of contents will include headings at levels 2 and 3. This is useful for providing a detailed overview of the page content.
+
+To enable the full TOC on a specific page, add the following to the front matter of the Markdown file:
+
+    ```yaml
     ---
     toc: true
     ---
     ```
+
+#### Simple TOC (tocSimple: true)
+
+If `tocSimple: true` is set in the front matter, the table of contents will only include headings at level 2. This is useful for a more concise overview without listing subheadings.
+
+To enable the simple TOC on a specific page, add the following to the front matter of the Markdown file:
+
+    ```yaml
+    ---
+    tocSimple: true
+    ---
+    ```
+
+This configuration will automatically generate a "On this page" section at the beginning of the content, listing the specified headings based on the toc or tocSimple setting.
 
 ## markdown-link-checker
 
@@ -400,15 +418,33 @@ Si vous n'incluez pas la variable `internalLinks` dans l'avant-propos de votre f
 
 ## Sur cette page / Table des matières (TOC)
 
-Nous avons mis en place une génération automatique d'une section "Sur cette page" pour les pages qui ont `toc: true` défini dans leur front matter. Cette liste inclut les titres des niveaux 2 et 3.
+Nous avons mis en place une génération automatique d'une section "Sur cette page" pour les pages qui ont `toc: true` ou `tocSimple: true` définies dans leur front matter.
 
-Pour activer la TOC sur une page spécifique, ajoutez ce qui suit au front matter du fichier Markdown :
+### TOC complet (`toc: true`)
 
-    ``` yaml
+Si `toc: true` est défini dans le front matter, la table des matières inclura les titres aux niveaux 2 et 3. Cela est utile pour fournir un aperçu détaillé du contenu de la page.
+
+Pour activer le TOC complet sur une page spécifique, ajoutez ce qui suit dans le front matter du fichier Markdown :
+
+    ```yaml
     ---
     toc: true
     ---
     ```
+
+### TOC simple (`tocSimple: true`)
+
+Si `tocSimple: true` est défini dans le front matter, la table des matières n'inclura que les titres de niveau 2. Cela est utile pour un aperçu plus concis sans lister les sous-titres.
+
+Pour activer le TOC simple sur une page spécifique, ajoutez ce qui suit dans le front matter du fichier Markdown :
+
+    ```yaml
+    ---
+    tocSimple: true
+    ---
+    ```
+
+Cette configuration générera automatiquement une section "Sur cette page" au début du contenu, listant les titres spécifiés en fonction du paramètre `toc` ou `tocSimple`.
 
 ## markdown-link-checker
 
