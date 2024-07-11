@@ -9,7 +9,7 @@ tags:
   - accessibleVirtualEvents
 ---
 
-Important to consider that people who are culturally Deaf, may prefer to have sign language interpreters because their first language is likely American Sign Language (<abbr>ASL</abbr>) or <span =lang="fr">Langue des signes québécoise (<abbr>LSQ</abbr>)</span>, but do not assume this. Ask them what their preferred accommodation would be. Indeed, there are people who have become deaf later in life and have not learned to communicate by ASL or LSQ.
+Important to consider that people who are culturally Deaf, may prefer to have sign language interpreters because their first language is likely American Sign Language (<abbr>ASL</abbr>) or <span lang="fr">Langue des signes québécoise (<abbr>LSQ</abbr>)</span>, but do not assume this. Ask them what their preferred accommodation would be. Indeed, there are people who have become deaf later in life and have not learned to communicate by ASL or LSQ.
 
 ## Communication Access Real-Time (<abbr>CART</abbr>)
 
@@ -30,9 +30,6 @@ Important to consider that people who are culturally Deaf, may prefer to have si
 - While this service is available, it should not be relied on as the only means of getting information as it is can often incorrectly caption speech, and the text disappears quickly.
 - It is also restricted to one language at a time, and does not work if speakers are switching between languages.
 - CART can be offered from the following service providers. Keep in mind there are costs involved with these service providers;
-- [CART from the Canadian Hearing Services](https://www.chs.ca/service/captioning-services) – staff at CHS will be able to provide you with information on the logistics in providing CART for audio conferences.
-- AB Captioning and CART Inc. (contact Sandra German by email at [sandragerman@abccaptioning.com](mailto:sandragerman@abccaptioning.com). They can also be booked by phone at 780-445-4406 and online at [AB Captioning and CART Inc](https://www.abcaptioning.com/book-a-cart-captioner).
-- CART from [Sign Language Interpreting Associates Ottawa Inc. (SLIAO)](mailto:https://sliao.ca/services/) (while not necessarily a primary CART provider, they can provide it as part of a larger sign-language service contract).
 - Rates vary but expect to pay between $100-$200 per hour, per stenographer/captioner.
 - Either a single contract for both English and French services, or two separate contracts from the provider will be required.
 - Links to the online event and the simultaneous English/French streams to be provided.
