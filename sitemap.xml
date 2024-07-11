@@ -1577,11 +1577,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/services-cart-et-interpretes-en-langue-des-signes-sli/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/statistique-canada-statcan/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
@@ -1618,11 +1613,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/canada-school-of-public-service-csps/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/cart-services-and-sign-language-interpreters/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
 	
@@ -1679,5 +1669,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/en/virtual-meeting-platforms-and-accessibility-features/</loc>
 		<lastmod>2024-06-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/cart-services-and-sign-language-interpreters/</loc>
+		<lastmod>2024-07-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/services-cart-et-interpretes-en-langue-des-signes-sli/</loc>
+		<lastmod>2024-07-11</lastmod>
 	</url>
 </urlset>
