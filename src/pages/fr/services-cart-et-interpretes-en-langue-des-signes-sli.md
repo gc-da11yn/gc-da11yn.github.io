@@ -30,9 +30,6 @@ Il est important de prévoir que les personnes culturellement sourdes puissent p
 - Même si ce service est disponible, il ne convient pas de s’y fier comme seul moyen d’obtenir de l’information, car ces sous-titres peuvent souvent être incorrects et le texte disparaît rapidement.
 - Cette fonctionnalité se limite également à une seule langue simultanément et ne fonctionne pas si les présentateurs passent d’une langue à une autre.
 - La traduction CART est disponible auprès des fournisseurs de service suivants. Gardez à l’esprit que des frais sont associés à ces services.
-- [Service CART des Services canadiens de l’ouïe](https://www.chs.ca/fr/service/services-de-sous-titrage) – le personnel des SCO pourra vous fournir des renseignements logistiques relatifs à la prestation de services CART pour des audioconférences.
-- AB Captioning and CART Inc. (Communiquez avec Sandra German par courriel au [sandragerman@abccaptioning.com](mailto:sandragerman@abccaptioning.com). Ces services peuvent également être réservés par téléphone au 780-445-4406 et en ligne [AB Captioning and CART Inc](https://abcaptioning.com).
-- Services CART de[Sign Language Interpreting Associates Ottawa Inc. (SLIAO)](mailto:https://sliao.ca/fr/services/)(même s’il ne s’agit pas nécessairement d’un fournisseur principalement de services CART, ils peuvent les fournir dans le cadre d’un contrat de service de langage des signes plus vaste).
 - Les tarifs varient, mais attendez-vous à payer entre 100 $ et 200 $ l’heure, par sténographe ou sous-titreur.
 - Soit un seul contrat pour des services en anglais et en français, soit deux contrats distincts du fournisseur seront nécessaires.
 - Il conviendra de fournir des liens vers l’activité en ligne et les flux simultanés en anglais et en français.
