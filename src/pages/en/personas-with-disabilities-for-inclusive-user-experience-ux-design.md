@@ -6,23 +6,8 @@ subject:
 tags:
   - designCourse
 toggle: personas-handicapes-pour-la-conception-d-une-experience-utilisateur-inclusive-eu
+tocSimple: true
 ---
-
-## On this page
-
-- [Creating equal access for everyone](#creating-equal-access-for-everyone)
-- [Understanding adaptive techniques, tools and technology](#understanding-adaptive-techniques-tools-and-technology)
-  - [Vision enhancement technology](#vision-enhancement-technology)
-  - [Vision replacement technology](#vision-replacement-technology)
-  - [Audio enhancement and replacement technology](#audio-enhancement-and-replacement-technology)
-  - [Mobility and dexterity enhancement and replacement technology](#mobility-and-dexterity-enhancement-and-replacement-technology)
-  - [Cognitive and learning style enhancement technology](#cognitive-and-learning-style-enhancement-technology)
-- [Breaking down usability barriers](#breaking-down-usability-barriers)
-  - [Involve users throughout your project](#involve-users-throughout-your-project)
-- [Incorporating accessibility needs into personas](#incorporating-accessibility-needs-into-personas)
-- [Sample of general personas with disabilities](#sample-of-general-personas-with-disabilities)
-- [Sample of Government of Canada (<abbr>GC</abbr>) employee personas with disabilities](#sample-of-government-of-canada-gc-employee-personas-with-disabilities)
-- [References](#references)
 
 The purpose of this document is to assist the user in understanding how to build personas with disabilities. Personas are fictional characters created to represent different user types that may use a site, brand, or product in their own particular ways. Developers often design websites and web applications, both desktop and mobile, to their own liking which can potentially cause barriers for some users. It is important to plan for a diverse group of users with a wide range of abilities, technical levels, functional capabilities and familiarity with processes or activities. One important aspect of Inclusive Design is to include people with disabilities in the early design stage and throughout all steps in the software development life-cycle. This will help increase the accessibility and usability components of the end product and better ensure inclusive best practices. This document is a collection of material from a variety of sources geared towards assembling a cohesive view towards inclusion by design.
 

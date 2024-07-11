@@ -6,26 +6,8 @@ subject:
 tags:
   - designCourse
 toggle: personas-with-disabilities-for-inclusive-user-experience-ux-design
+tocSimple: true
 ---
-
-## Sur cette page
-
-- [Sur cette page](#sur-cette-page)
-- [Créer l’égalité d’accès pour tous](#créer-légalité-daccès-pour-tous)
-- [Comprendre les techniques, les outils et la technologie d’adaptation](#comprendre-les-techniques-les-outils-et-la-technologie-dadaptation)
-  - [Technologie d’amélioration de la vision](#technologie-damélioration-de-la-vision)
-  - [Technologie de substitution de la vision](#technologie-de-substitution-de-la-vision)
-  - [Technologie d’amélioration et de substitution de l’audio](#technologie-damélioration-et-de-substitution-de-laudio)
-  - [Technologie d’amélioration et de substitution de la mobilité et de la dextérité](#technologie-damélioration-et-de-substitution-de-la-mobilité-et-de-la-dextérité)
-  - [Technologie d’amélioration du style cognitif et d’apprentissage](#technologie-damélioration-du-style-cognitif-et-dapprentissage)
-- [Élimination des obstacles à la facilité d’utilisation](#élimination-des-obstacles-à-la-facilité-dutilisation)
-  - [Faire participer les utilisateurs aux projets](#faire-participer-les-utilisateurs-aux-projets)
-- [Intégration des besoins en matière d’accessibilité aux personas](#intégration-des-besoins-en-matière-daccessibilité-aux-personas)
-- [Exemple de personas généraux handicapés](#exemple-de-personas-généraux-handicapés)
-- [Exemple de personas d’employés handicapées du gouvernement du Canada](#exemple-de-personas-demployés-handicapées-du-gouvernement-du-canada)
-- [Références](#références)
-
-
 
 Le présent document a pour but _d’aider_ l’utilisateur à comprendre la manière de créer des personas handicapés. Des personas sont des personnages fictifs créés pour représenter divers types d’utilisateurs dont l’utilisation d’un site, d’une marque ou d’un produit serait unique. Souvent, les développeurs conçoivent des sites Web, des applications Web de bureau et mobiles à leurs propres goûts, ce qui peut éventuellement créer des obstacles pour certains utilisateurs. Il est important de planifier pour un groupe diversifié d’utilisateurs présentant un vaste éventail de capacités et d’incapacités, de niveaux techniques, de capacités fonctionnelles et de degrés de familiarité avec les processus ou les activités. Un aspect important de la conception inclusive consiste à inclure les personnes handicapées dès la première étape de la conception, puis à toutes les étapes du cycle de vie du développement logiciel. On contribuera ainsi à élever l’accessibilité et la convivialité du produit final et à mieux assurer l’inclusion de tous. Le présent document est un recueil de données provenant de diverses sources et visant à créer une vision cohérente de la conception inclusive.
 

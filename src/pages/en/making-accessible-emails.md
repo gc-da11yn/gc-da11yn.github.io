@@ -5,24 +5,8 @@ tags:
   - howTos
   - updatesMain
 toggle: rendre-vos-courriel-accessibles
+tocSimple: true
 ---
-
-## On this page
-
-- [Format](#format)
-- [Bilingual message (if applicable)](#bilingual-message-if-applicable)
-- [Plain language](#plain-language)
-- [Styles](#styles)
-- [Fonts](#fonts)
-- [Use of colour](#use-of-colour)
-- [Colour contrast](#colour-contrast)
-- [Outlook Themes](#outlook-themes)
-- [Semantic structure](#semantic-structure)
-- [Accessible images](#accessible-images)
-- [Using tables](#using-tables)
-- [Meaningful links](#meaningful-links)
-- [Accessible email signatures](#accessible-email-signatures)
-- [Testing for accessibility](#testing-for-accessibility)
 
 ## Format
 

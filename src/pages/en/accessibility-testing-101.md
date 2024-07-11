@@ -6,24 +6,14 @@ subject:
   - howTos
 tags:
   - testYourProducts
+toc: true
 ---
-
-## On this page
-
-- [Building your toolset](#building-your-toolset)
-  - [Tool: WAVE Browser Extensions](#tool-wave-browser-extensions)
-  - [Tool: Accessibility Insights for Web](#tool-accessibility-insights-for-web)
-  - [Tool: LightHouse](#tool-lighthouse)
-- [Additional Help and Resources](#additional-help-and-resources)
-  - [Keyboard and Manual testing of your site](#keyboard-and-manual-testing-of-your-site)
-  - [Keyboard testing basics](#keyboard-testing-basics)
-  - [Additional Resources](#additional-resources)
-
-Please note that some of the accessibility testing tools listed will require administrative permissions to install on your device.
 
 ## Building your toolset
 
-## Tool: WAVE Browser Extensions
+Please note that some of the accessibility testing tools listed will require administrative permissions to install on your device.
+
+### Tool: WAVE Browser Extensions
 
 WAVE for Chrome, Firefox, and Edge extensions allows you to evaluate web content for accessibility issues directly within your browser. Because the extension runs entirely within your web browser, no information is sent to the WAVE server.
 

@@ -6,16 +6,8 @@ internalLinks: true
 toggle: additional-resources
 tags:
   - resourcesAndTools
+tocSimple: true
 ---
-
-## Sur cette page
-
-- [Apprentissage](#apprentissage)
-- [Développement](#developpement)
-- [Politique](#politique)
-- [Approvisionnement](#approvisionnement)
-- [Réunions et événements virtuels accessibles](#reunions-et-evenements-virtuels-accessibles)
-- [Services](#services)
 
 ## Apprentissage
 
