@@ -9,7 +9,7 @@ tags:
   - accessibleVirtualEvents
 ---
 
-Important to consider that people who are culturally Deaf, may prefer to have sign language interpreters because their first language is likely American Sign Language (<abbr>ASL</abbr>) or <span =lang="fr">Langue des signes québécoise (<abbr>LSQ</abbr>)</span>, but do not assume this. Ask them what their preferred accommodation would be. Indeed, there are people who have become deaf later in life and have not learned to communicate by ASL or LSQ.
+Important to consider that people who are culturally Deaf, may prefer to have sign language interpreters because their first language is likely American Sign Language (<abbr>ASL</abbr>) or <span lang="fr">Langue des signes québécoise (<abbr>LSQ</abbr>)</span>, but do not assume this. Ask them what their preferred accommodation would be. Indeed, there are people who have become deaf later in life and have not learned to communicate by ASL or LSQ.
 
 ## Communication Access Real-Time (<abbr>CART</abbr>)
 
