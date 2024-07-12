@@ -105,6 +105,11 @@ les images d’arrière-plan.
     4.	à partir de **Outlook pour ordinateur de bureau**, définissez la langue de vérification en fonction du contenu du paragraphe.
 - Avant d’envoyer un courriel, définissez toujours la langue de vérification pour chaque paragraphe.
 
+## Signature de courriel
+**Évitez** d'utiliser des images dans votre signature. N'utilisez pas d'images de texte.
+
+Suivez les directives de votre organisation en matière de signature.
+
 ## Vérification de l’accessibilité
 Pour utiliser le vérificateur d’accessibilité, sélectionnez :
 1.	l’onglet **Révision**;

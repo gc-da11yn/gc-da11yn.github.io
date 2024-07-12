@@ -107,6 +107,11 @@ background images
     4.	From **Outlook for desktop** set the proofing language according to the paragraph content.
 - Before sending an email, always set the proofing language by paragraph.
 
+## Email signatures
+**Avoid** using images as part of your signature. Do not use images of text.
+
+Follow your organization's signature guidelines.
+
 ## Accessibility check
 To run the accessibility checker, select:
 1.	**Review** tab
