@@ -1537,11 +1537,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/mise-en-correspondance-entre-l-article-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/personas-handicapes-pour-la-conception-d-une-experience-utilisateur-inclusive-eu/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
@@ -1637,11 +1632,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/pdf-accessibility-checklist/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
@@ -1678,6 +1668,16 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-la-conformite-des-documents-microsoft/</loc>
+		<lastmod>2024-07-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021/</loc>
+		<lastmod>2024-07-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/mise-en-correspondance-entre-l-article-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021/</loc>
 		<lastmod>2024-07-15</lastmod>
 	</url>
 </urlset>
