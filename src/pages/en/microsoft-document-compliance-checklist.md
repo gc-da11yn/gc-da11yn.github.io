@@ -8,7 +8,7 @@ tags:
   - createDocument
 ---
 
-<div class="row">
+<!-- <div class="row">
 <div class="col-sm-6">
 <a class="gc-dwnld-lnk" href="{{ rootPath }}docs/MSDocument_COMPLIANCE_CHECKLIST.docx" download="{{ title | stripTagsSlugify }}">
 <div class="well gc-dwnld">
@@ -26,7 +26,7 @@ tags:
 </div>
 </a>
 </div>
-</div>
+</div> -->
 
 Below are questions that will help you establish if your Microsoft Office document is accessible. We provide the Success Criteria in reference with WCAG 2.1: [How to Meet WCAG - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/) and the [Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
 
