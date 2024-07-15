@@ -144,6 +144,13 @@ A customizable quick reference to Web Content Accessibility Guidelines (<abbr>WC
 </div>
 <div class="col-md-6">
 
+### [Inclusive writing – Guidelines and resources](https://www.noslangues-ourlanguages.gc.ca/en/writing-tips-plus/inclusive-writing-guidelines-resources)
+
+Consult in-depth articles on the principles and techniques of inclusive writing in English, and access other resources on the topic.
+
+</div>
+<div class="col-md-6">
+
 ### [Web Accessibility Assessment Methodology (Level AA)](https://wet-boew.github.io/v4.0-ci/demos/wamethod/wamethod-AA-en.html)
 
 Assist with measuring conformance to the Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1 Level A and Level AA Success Criteria

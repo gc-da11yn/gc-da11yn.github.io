@@ -115,6 +115,13 @@ Un cadre frontal primé pour la création de sites Web accessibles, utilisables,
 </div>
 <div class="col-md-6">
 
+### [Écriture inclusive – Lignes directrices et ressources](https://www.noslangues-ourlanguages.gc.ca/fr/cles-de-la-redaction/ecriture-inclusive-lignes-directrices-ressources)
+
+Consultez des articles approfondis sur des principes et des procédés permettant d’écrire de façon inclusive en français et accédez à d’autres ressources portant sur ce sujet
+
+</div>
+<div class="col-md-6">
+
 ### [Liste de vérification pour l’accessibilité Web](https://bati-itao.github.io/resources/a11ycheck-fr.html)
 
 Liste de verification develop par ESDC.
