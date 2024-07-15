@@ -29,7 +29,6 @@ Important to consider that people who are culturally Deaf, may prefer to have si
 - Available in both English and French.
 - While this service is available, it should not be relied on as the only means of getting information as it is can often incorrectly caption speech, and the text disappears quickly.
 - It is also restricted to one language at a time, and does not work if speakers are switching between languages.
-- CART can be offered from the following service providers. Keep in mind there are costs involved with these service providers;
 - Rates vary but expect to pay between $100-$200 per hour, per stenographer/captioner.
 - Either a single contract for both English and French services, or two separate contracts from the provider will be required.
 - Links to the online event and the simultaneous English/French streams to be provided.

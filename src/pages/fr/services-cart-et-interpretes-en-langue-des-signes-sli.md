@@ -29,7 +29,6 @@ Il est important de prévoir que les personnes culturellement sourdes puissent p
 - Disponibles en français et en anglais.
 - Même si ce service est disponible, il ne convient pas de s’y fier comme seul moyen d’obtenir de l’information, car ces sous-titres peuvent souvent être incorrects et le texte disparaît rapidement.
 - Cette fonctionnalité se limite également à une seule langue simultanément et ne fonctionne pas si les présentateurs passent d’une langue à une autre.
-- La traduction CART est disponible auprès des fournisseurs de service suivants. Gardez à l’esprit que des frais sont associés à ces services.
 - Les tarifs varient, mais attendez-vous à payer entre 100 $ et 200 $ l’heure, par sténographe ou sous-titreur.
 - Soit un seul contrat pour des services en anglais et en français, soit deux contrats distincts du fournisseur seront nécessaires.
 - Il conviendra de fournir des liens vers l’activité en ligne et les flux simultanés en anglais et en français.
