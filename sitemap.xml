@@ -1562,11 +1562,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/statistique-canada-statcan/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
@@ -1583,11 +1578,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/additional-resources-on-accessible-meetings-and-events/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
 	
@@ -1679,5 +1669,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/mise-en-correspondance-entre-l-article-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021/</loc>
 		<lastmod>2024-07-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
+		<lastmod>2024-07-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<lastmod>2024-07-16</lastmod>
 	</url>
 </urlset>
