@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
   const eleventySlugify = eleventyConfig.getFilter('slug');
 
   let markdownItOptions = {
-    html: true, // you can include HTML tags
+    html: true, // Enable HTML tags in Markdown
   };
 
   const md = markdownIt(markdownItOptions)
@@ -126,6 +126,11 @@ module.exports = function (eleventyConfig) {
       }
       return item;
     });
+  });
+
+  // Add custom Markdown filter for Nunjucks
+  eleventyConfig.addNunjucksFilter("markdown", function (value) {
+    return md.render(value);
   });
 
   return {
