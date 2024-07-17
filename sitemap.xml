@@ -1612,11 +1612,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
-		<lastmod>2024-07-11</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/personas-with-disabilities-for-inclusive-user-experience-ux-design/</loc>
 		<lastmod>2024-07-11</lastmod>
 	</url>
@@ -1628,11 +1623,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/personas-handicapes-pour-la-conception-d-une-experience-utilisateur-inclusive-eu/</loc>
-		<lastmod>2024-07-11</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/rendre-vos-courriel-accessibles/</loc>
 		<lastmod>2024-07-11</lastmod>
 	</url>
 	
@@ -1678,6 +1668,16 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
 		<lastmod>2024-07-17</lastmod>
 	</url>
 </urlset>
