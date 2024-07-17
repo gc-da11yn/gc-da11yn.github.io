@@ -5,7 +5,7 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
-toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles
+toggle: exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles
 ---
 
 <div class="row">
@@ -18,7 +18,7 @@ toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communicati
 </div>
 <div class="col-xs-8">
 <p class="gc-dwnld-txt">
-<span>{{ title }}</span>
+<span>{{ title | safe }}</span>
 <span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Microsoft Word Document">Word</abbr>, 88 <abbr title="KiloByte">KB</abbr>)</span>
 </p>
 </div>

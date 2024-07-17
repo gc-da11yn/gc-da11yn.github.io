@@ -20,7 +20,7 @@ internalLinks: true
 </div>
 <div class="col-xs-8">
 <p class="gc-dwnld-txt">
-<span>{{ title }}</span>
+<span>{{ title | safe }}</span>
 <span class="gc-dwnld-info">(<abbr title="Microsoft Word Document">Word</abbr>, 71 <abbr title="KiloByte">KB</abbr>)</span>
 </p>
 </div>

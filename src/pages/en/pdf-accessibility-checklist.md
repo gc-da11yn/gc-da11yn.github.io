@@ -2,7 +2,7 @@
 title: PDF Accessibility Checklist
 description: Here you can find different questions to help you to know if your pdf document is accessible or not.
 internalLinks: true
-toggle: liste-de-verification-de-l-accessibilite-des-documents-pdf
+toggle: liste-de-verification-de-laccessibilite-des-documents-pdf
 subject:
   - howTos
 tags:
@@ -19,7 +19,7 @@ tags:
 </div>
 <div class="col-xs-8">
 <p class="gc-dwnld-txt">
-<span>{{ title }}</span>
+<span>{{ title | safe }}</span>
 <span class="gc-dwnld-info">(<i class="fas fa-file-pdf mrg-rght-sm" aria-hidden="true"></i> <abbr title="Portable Document Format">PDF</abbr>, 324 <abbr title="KiloByte">KB</abbr>)</span>
 </p>
 </div>
