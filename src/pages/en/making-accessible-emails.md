@@ -4,7 +4,7 @@ description: Accessible email is important for people with disabilities but also
 tags:
   - howTos
   - updatesMain
-toggle: rendre-vos-courriel-accessibles
+toggle: rendre-vos-courriels-accessibles
 tocSimple: true
 ---
 
