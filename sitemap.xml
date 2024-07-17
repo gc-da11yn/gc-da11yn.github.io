@@ -262,16 +262,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/comment-creer-des-documents-accessibles-dans-microsoft-365/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/comment-creer-des-documents-accessibles-dans-office-2016/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/pages/_template/</loc>
 		<lastmod>2023-11-27</lastmod>
 	</url>
@@ -889,16 +879,6 @@
 	<url>
 		<loc>https://a11y.canada.ca/en/accessible-word-documents-in-microsoft-365/</loc>
 		<lastmod>2023-12-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/how-to-create-accessible-documents-in-office-2016/</loc>
-		<lastmod>2023-12-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/how-to-create-accessible-documents-in-microsoft-365/</loc>
-		<lastmod>2023-12-20</lastmod>
 	</url>
 	
 	<url>
@@ -1678,6 +1658,26 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/resume-technique-de-la-norme-en-301-549-v321-2021/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/how-to-create-accessible-documents-in-microsoft-365/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/how-to-create-accessible-documents-in-office-2016/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/comment-creer-des-documents-accessibles-dans-microsoft-365/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/comment-creer-des-documents-accessibles-dans-office-2016/</loc>
 		<lastmod>2024-07-17</lastmod>
 	</url>
 </urlset>
