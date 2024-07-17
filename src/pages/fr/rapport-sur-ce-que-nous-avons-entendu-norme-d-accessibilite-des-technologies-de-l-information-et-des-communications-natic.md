@@ -19,7 +19,7 @@ tags:
           </div>
           <div class="col-xs-8">
             <p class="gc-dwnld-txt">
-              <span>{{ title }}</span>
+              <span>{{ title | safe }}</span>
               <span class="gc-dwnld-info">(<abbr lang="en" title="PowerPoint Presentations">PPT</abbr>, 149 <abbr title="KiloByte">Ko</abbr>)</span>
             </p>
           </div>
