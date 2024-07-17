@@ -5,7 +5,7 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
-toggle: exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles
+toggle: exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles
 ---
 
 <div class="row">

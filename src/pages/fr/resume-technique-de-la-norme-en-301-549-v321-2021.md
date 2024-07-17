@@ -1,7 +1,7 @@
 ---
 title: Résumé technique de la norme EN 301 549 v3.2.1 (2021)
 description: Ce résumé technique fournit au lecteur un résumé simplifié des exigences techniques de la norme EN 301 549 (V3.2.1 (2021-03) Norme européenne harmonisée relative à l'accessibilité des produits et services <abbr title="technologies de l'information et de la communication">TIC</abbr>. Chaque clause ou groupe de clauses connexes a été reformulé en langage clair et des exemples ont été ajoutés pour aider les lecteurs à comprendre les exigences à un niveau élevé. Ce document est particulièrement utile pour ceux qui souhaitent comprendre les exigences de la norme EN 301 549 sans avoir à lire l'intégralité de la norme.
-toggle: technical-summary-of-the-en-301-549-v3-2-1-2021
+toggle: technical-summary-of-the-en-301-549-v321-2021
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
