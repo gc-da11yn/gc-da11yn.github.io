@@ -5,9 +5,6 @@
   "main": ".eleventy.js",
   "scripts": {
     "newPage": "node scripts/create-new-page.js",
-    "cleanHTML": "node scripts/clean-html.js",
-    "replaceLink": "node scripts/replace-links.js",
-    "markdown-to-html": "node scripts/markdown-to-html.js",
     "link-check": "node scripts/link-check.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "spellcheck": "cspell --no-progress -u \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
