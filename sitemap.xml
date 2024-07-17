@@ -332,11 +332,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/diffusions-en-direct/</loc>
 		<lastmod>2023-11-27</lastmod>
 	</url>
@@ -353,11 +348,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/liste-de-controle-pour-le-sous-titrage/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic/</loc>
 		<lastmod>2023-11-27</lastmod>
 	</url>
 	
@@ -1392,16 +1382,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/technical-summary-of-the-en-301-549-v321-2021/</loc>
-		<lastmod>2024-05-31</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/resume-technique-de-la-norme-en-301-549-v321-2021/</loc>
-		<lastmod>2024-05-31</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/access-working-group-awg/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
@@ -1482,11 +1462,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/handicaps-cognitifs/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
@@ -1508,11 +1483,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/liens-utiles/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-laccessibilite-des-documents-pdf/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
 	
@@ -1567,16 +1537,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/pdf-accessibility-checklist/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/universal-design-for-learning-udl/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
@@ -1587,17 +1547,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
-		<lastmod>2024-07-10</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/research-on-our-target-audience/</loc>
-		<lastmod>2024-07-10</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
 		<lastmod>2024-07-10</lastmod>
 	</url>
 	
@@ -1642,16 +1592,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
-		<lastmod>2024-07-15</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-la-conformite-des-documents-microsoft/</loc>
-		<lastmod>2024-07-15</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
 		<lastmod>2024-07-17</lastmod>
 	</url>
@@ -1678,6 +1618,66 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/pdf-accessibility-checklist/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/technical-summary-of-the-en-301-549-v321-2021/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-la-conformite-des-documents-microsoft/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-laccessibilite-des-documents-pdf/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/resume-technique-de-la-norme-en-301-549-v321-2021/</loc>
 		<lastmod>2024-07-17</lastmod>
 	</url>
 </urlset>
