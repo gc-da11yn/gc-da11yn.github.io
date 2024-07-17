@@ -297,7 +297,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessible-powerpoint-presentations-in-office-2016/</loc>
+		<loc>https://a11y.canada.ca/en/accessible-power-point-presentations-in-office-2016/</loc>
 		<lastmod>2023-11-27</lastmod>
 	</url>
 	
@@ -862,7 +862,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessible-powerpoint-presentations-in-microsoft-365/</loc>
+		<loc>https://a11y.canada.ca/en/accessible-power-point-presentations-in-microsoft-365/</loc>
 		<lastmod>2023-12-01</lastmod>
 	</url>
 	
@@ -1147,7 +1147,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/presentations-powerpoint-accessibles-dans-office-2016/</loc>
+		<loc>https://a11y.canada.ca/fr/presentations-power-point-accessibles-dans-office-2016/</loc>
 		<lastmod>2024-02-09</lastmod>
 	</url>
 	
@@ -1172,7 +1172,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/presentations-powerpoint-accessibles-dans-microsoft-365/</loc>
+		<loc>https://a11y.canada.ca/fr/presentations-power-point-accessibles-dans-microsoft-365/</loc>
 		<lastmod>2024-02-09</lastmod>
 	</url>
 	
@@ -1407,11 +1407,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-testing-101/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/alternative-text-and-long-description-best-practices/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
@@ -1432,17 +1427,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/research-on-our-target-audience/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/statistics-canada-statcan/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/terms-of-reference/</loc>
+		<loc>https://a11y.canada.ca/en/statistics-canada-stat-can/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
 	
@@ -1463,11 +1448,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/ameliorer-l-accessibilite-des-formulaires/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
 	
@@ -1537,22 +1517,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/personas-handicapes-pour-la-conception-d-une-experience-utilisateur-inclusive-eu/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/plateformes-de-reunions-virtuelles-et-fonctionnalites/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/recherche-sur-notre-audience/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/rendre-vos-courriel-accessibles/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
 	
@@ -1562,12 +1527,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/statistique-canada-statcan/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/test-d-accessibilite-101/</loc>
+		<loc>https://a11y.canada.ca/fr/statistique-canada-stat-can/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
 	
@@ -1583,11 +1543,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/audio-description-guidelines/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
 	
@@ -1617,17 +1572,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/pdf-accessibility-checklist/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/personas-with-disabilities-for-inclusive-user-experience-ux-design/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
 	
@@ -1639,6 +1584,61 @@
 	<url>
 		<loc>https://a11y.canada.ca/en/virtual-meeting-platforms-and-accessibility-features/</loc>
 		<lastmod>2024-06-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
+		<lastmod>2024-07-10</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/research-on-our-target-audience/</loc>
+		<lastmod>2024-07-10</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
+		<lastmod>2024-07-10</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/recherche-sur-notre-audience/</loc>
+		<lastmod>2024-07-10</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-testing-101/</loc>
+		<lastmod>2024-07-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
+		<lastmod>2024-07-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/personas-with-disabilities-for-inclusive-user-experience-ux-design/</loc>
+		<lastmod>2024-07-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/terms-of-reference/</loc>
+		<lastmod>2024-07-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/personas-handicapes-pour-la-conception-d-une-experience-utilisateur-inclusive-eu/</loc>
+		<lastmod>2024-07-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/rendre-vos-courriel-accessibles/</loc>
+		<lastmod>2024-07-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/test-d-accessibilite-101/</loc>
+		<lastmod>2024-07-11</lastmod>
 	</url>
 	
 	<url>
@@ -1662,22 +1662,22 @@
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
+		<lastmod>2024-07-17</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/en/mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021/</loc>
-		<lastmod>2024-07-15</lastmod>
+		<lastmod>2024-07-17</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/mise-en-correspondance-entre-l-article-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021/</loc>
-		<lastmod>2024-07-15</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
-		<lastmod>2024-07-16</lastmod>
+		<lastmod>2024-07-17</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
-		<lastmod>2024-07-16</lastmod>
+		<lastmod>2024-07-17</lastmod>
 	</url>
 </urlset>
