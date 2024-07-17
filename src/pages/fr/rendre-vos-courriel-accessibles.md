@@ -5,22 +5,8 @@ tags:
   - howTos
   - updatesMain
 toggle: making-accessible-emails
+tocSimple: true
 ---
-
-## Sur cette page
-
-- [Format du texte](#format-du-texte)
-- [Message bilingue (le cas échéant)](#message-bilingue-le-cas-échéant)
-- [Langage clair](#langage-clair)
-- [Styles](#styles)
-- [Polices de caractères](#polices-de-caractères)
-- [Utilisation de la couleur](#utilisation-de-la-couleur)
-- [Contraste de couleurs](#contraste-de-couleurs)
-- [Thèmes Outlook](#thèmes-outlook)
-- [Structure sémantique](#structure-sémantique)
-- [Images accessibles](#images-accessibles)
-- [Utilisation de tableaux](#utilisation-de-tableaux)
-- [Hyperliens pertinents](#hyperliens-pertinents)
 
 ## Format du texte
 

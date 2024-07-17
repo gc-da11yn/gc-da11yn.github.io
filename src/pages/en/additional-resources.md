@@ -6,16 +6,8 @@ toggle: ressources-additionnelles
 tags:
   - resourcesAndTools
 internalLinks: true
+tocSimple: true
 ---
-
-## On this page
-
-- [Accessible meetings and events](#accessible-meetings-and-events)
-- [Development](#development)
-- [Learning](#learning)
-- [Policy](#policy)
-- [Procurement](#procurement)
-- [Services](#services)
 
 ## Accessible meetings and events
 

@@ -1,0 +1,27 @@
+{% if headings %}
+<aside>
+	<h2>{{ onThisPage[locale].heading }}</h2>
+	<ul>
+		{% set current_level = 2 %}
+		{% for heading in headings %}
+		{% if heading.level == 'h2' %}
+		{% if current_level > 2 %}</ul>
+	</li>{% else %}{% if loop.index != 1 %}</li>{% endif %}{% endif %}
+	<li><a href="#{{ heading.id }}">{{ heading.text }}</a>
+		{% set current_level = 2 %}
+		{% if loop.last %}</li>{% endif %}
+	{% elseif heading.level == 'h3' and not tocSimple %}
+	{% if current_level < 3 %}
+	  <ul>
+		{% set current_level = 3 %}
+		{% endif %}
+		<li><a href="#{{ heading.id }}">{{ heading.text }}</a></li>
+		{% if loop.last %}</ul>
+		</li>{% endif %}
+		{% endif %}
+		{% endfor %}
+		{% if current_level > 2 %}</ul>
+		</li>{% endif %}
+		</ul>
+</aside>
+{% endif %}

@@ -4,17 +4,8 @@ description: Terms of Reference define the purpose and scope of the Digital Acce
 toggle: mandats
 tags:
   - aboutUs
+toc: true
 ---
-
-## On this page
-
-- [Purpose](#purpose)
-- [Key roles](#key-roles)
-- [Reporting structure](#reporting-structure)
-- [Membership](#membership)
-- [Operating procedures and frequency of meetings](#operating-procedures-and-frequency-of-meetings)
-- [Scope](#scope)
-- [Resources](#resources)
 
 ## Purpose
 

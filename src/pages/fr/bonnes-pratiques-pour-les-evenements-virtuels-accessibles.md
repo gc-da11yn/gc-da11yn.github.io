@@ -168,7 +168,7 @@ Dans la mesure du possible, prévoyez deux sessions distinctes, l'une en frança
 
 - **Pourquoi?** Cela simplifie l'utilisation des services d'interprétation et de sous-titrage. Cela évite également d'exclure les participants unilingues. N'oubliez pas que certaines personnes ne peuvent pas utiliser les sous-titres, par exemple les utilisateurs de lecteurs d'écran
 
-##### Événement bilingue (meilleur choix pour les langues officielles) {#événement-bilingue-meilleur-choix-pour-les-langues-officielles}
+##### Événement bilingue (meilleur choix pour les langues officielles)
 
 Les événements bilingues sont une option, en particulier pour les conférences et les événements hebdomadaires ou pour l’ensemble du personnel.
 
@@ -246,7 +246,7 @@ Des mesures d’adaptation peuvent être nécessaires pour remplir les obligatio
 
 **Remarque :** Veuillez fournir à l'avance le matériel de présentation (PowerPoint, Word, courriel, vidéos préenregistrées) aux fournisseurs de services. En raison de la forte demande, nous vous conseillons de soumettre vos demandes au moins quatre semaines avant l'événement.
 
-##### Services d'interprétation en langue des signes (ASL, LSQ) {#services-dinterprétation-en-langue-des-signes-asl-lsq}
+##### Services d'interprétation en langue des signes (ASL, LSQ)
 
 Les personnes qui sont sourdes, malentendantes ou qui maîtrisent la langue des signes peuvent avoir des difficultés avec les sous-titres écrits, car il s'agit de leur deuxième langue. L'interprétation en langue des signes améliore également l'expérience en transmettant l'intonation, l'émotion et des renseignements audio importants.
 
@@ -262,7 +262,7 @@ Le sous-titrage permet aux personnes qui sont sourdes, qui ont subi une perte d�
 
 **Mise en garde :** Certaines plateformes d'événements virtuels proposent des sous-titres automatisés en direct, comme les [sous-titres en direct dans Microsoft Teams](https://support.microsoft.com/fr-fr/office/utiliser-des-sous-titres-en-direct-dans-les-r%C3%A9unions-microsoft-teams-4be2d304-f675-4b57-8347-cbd000a21260). Malheureusement, ces technologies commettent souvent des erreurs, ce qui désavantage les utilisateurs qui comptent sur les sous-titres. Les sous-titres automatiques ne devraient être utilisés qu'en dernier recours ou pour des événements de moindre importance. Utilisez plutôt les services de sous-titrage CART.
 
-##### Services d’interprétation et de traduction simultanée {#custom-id}
+##### Services d’interprétation et de traduction simultanée
 
 Les événements bilingues peuvent constituer un obstacle pour les personnes unilingues en situation de handicap. Pour garantir le plein accès, des traductions vocales simultanées sont nécessaires. Les sous-titres traduits ou le contenu à l'écran ne sont pas accessibles aux utilisateurs non visuels. Par conséquent, ils doivent attendre les changements de langue sans aucun stimulus et s'en remettre uniquement aux résumés des points de discussion dans leur langue.
 
@@ -272,7 +272,7 @@ Les événements bilingues peuvent constituer un obstacle pour les personnes uni
 
 **Remarque :** Ceci nécessite une plateforme virtuelle qui offre plusieurs canaux vocaux, un pour chaque langue. Lorsque le présentateur ne parle plus la langue du canal vocal, l'interprète affecté au canal vocal doit prononcer la traduction.
 
-#### Veillez à ce que tous les supports de l'événement soient accessibles (tels que les courriels, les présentations PowerPoint, les documents Word...) {#veillez-à-ce-que-tous-les-supports-de-lévénement-soient-accessibles-tels-que-les-courriels-les-présentations-powerpoint-les-documents-word}
+#### Veillez à ce que tous les supports de l'événement soient accessibles (tels que les courriels, les présentations PowerPoint, les documents Word...)
 
 Tout le contenu distribué doit être accessible et dans les deux langues officielles. Dans la mesure du possible, privilégiez les formats plus accessibles tels que HTML, Word, PowerPoint, ePub plutôt que les formats moins accessibles tels que PDF.
 
@@ -429,7 +429,7 @@ Si une répétition est jugée souhaitable, nous recommandons vivement de la fai
 #### Commencez l'événement!
 
 - Si vous enregistrez l'événement, veillez à en informer les participants à l'avance
-- Si l'événement est bilingue, suivez les recommandations de la [section sur les évènements bilingues](#événement-bilingue-meilleur-choix-pour-les-langues-officielles)
+- Si l'événement est bilingue, suivez les recommandations de la [section sur les évènements bilingues](#evenement-bilingue-meilleur-choix-pour-les-langues-officielles)
 - L'hôte lit les textes pour accueillir les participants
 - Présentez les interprètes en langue des signes afin que les utilisateurs qui dépendent d’eux puissent mettre en place leurs mesures d’adaptation en utilisant la plateforme
   - [Microsoft Teams dispose d'un paramètre d'accessibilité permettant de mettre en place des interprètes en langue des signes](https://support.microsoft.com/fr-fr/office/utiliser-la-vue-langue-des-signes-dans-microsoft-teams-c6c11f67-0747-4598-ac27-c90801b94434)
@@ -507,7 +507,7 @@ Voici quelques exemples de sujets qui peuvent être abordés et de questions qui
 - Remédiation des documents pour l'accessibilité si cela n'a pas été fait dès le départ
 - Traductions de documents
 
-### À titre de référence : Plateformes virtuelles {#a-titre-de-reference-plateformes-virtuelles}
+### À titre de référence : Plateformes virtuelles
 
 #### Avertissement de sécurité : « bombardement » des événements virtuels
 

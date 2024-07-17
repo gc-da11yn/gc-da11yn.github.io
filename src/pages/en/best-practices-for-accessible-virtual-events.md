@@ -165,7 +165,7 @@ When possible schedule two separate sessions, one in French and one in English. 
 
 - **Why?** This simplifies the use of interpretation and captioning services. It also avoids excluding unilingual participants. Keep in mind that some people cannot use captions, for example, screen reader users
 
-##### Bilingual (best choice for official languages requirement) {#bilingual-best-choice-for-official-languages}
+##### Bilingual (best choice for official languages requirement)
 
 Bilingual events are an option, especially for conferences and all-staff / weekly events.
 
@@ -421,7 +421,7 @@ We strongly recommend practice to ensure everyone is on the same page.
 #### Start the event!
 
 - If you record the event, ensure to inform participants beforehand
-- If the event is bilingual, follow the recommendations from the section on [bilingual sessions](#bilingual-best-choice-for-official-languages)
+- If the event is bilingual, follow the recommendations from the section on [bilingual sessions](#bilingual-best-choice-for-official-languages-requirement)
 - Host reads scripts to greet participants
 - Introduce the sign language interpreters so that users that rely on them can set up their accommodations by using the platform
   - [Microsoft Teams has an accessibility setting to set up sign language interpreters](https://support.microsoft.com/en-au/office/use-sign-language-view-in-microsoft-teams-c6c11f67-0747-4598-ac27-c90801b94434#:~:text=To%20enable%20Sign%20Language%20View,then%20turn%20on%20Sign%20Language.)

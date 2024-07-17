@@ -20,6 +20,7 @@
     "start-dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-start --parallel watch:*",
     "start-prod": "cross-env ELEVENTY_ENV=prod npm-run-all sass-start --parallel watch:*",
     "dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "build": "npm-run-all sass-build eleventy"
   },
   "repository": {

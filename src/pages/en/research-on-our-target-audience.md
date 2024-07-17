@@ -42,17 +42,17 @@ We believe it is important to account for a wide range of human experiences. Thi
 
 5 broad disability types and 2 combined disability types
 
-- [Brandon – Auditory](#Brandon)
-- [Alasie – Vision](#Alasie)
-- [Yenah – Dexterity](#Yenah)
-- [Ike – Mobility](#Ike)
-- [Damien – Cognitive](#Damien)
-- [Valeria – Cognitive and Auditory](#Valeria)
-- [Yosef – Mobility and Speech](#Yosef)
+  - [Brandon – Auditory](#brandon-auditory)
+  - [Alasie - Vision](#alasie-vision)
+  - [Yenah - Dexterity](#yenah-dexterity)
+  - [Ike - Mobility](#ike-mobility)
+  - [Damien - Cognitive](#damien-cognitive)
+  - [Valeria – Cognitive and Auditory](#valeria-cognitive-and-auditory)
+  - [Yosef – Mobility and Speech](#yosef-mobility-and-speech)
 
 <section class="brdr-tp mrgn-tp-lg">
 
-### Brandon – Auditory {#Brandon}
+### Brandon – Auditory
 
 <div class="row">
 <div class="col-md-6">
@@ -126,7 +126,7 @@ Category: audio replacement and enhancement.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Alasie - Vision {#Alasie}
+### Alasie - Vision
 
 <div class="row">
 <div class="col-md-6">
@@ -204,7 +204,7 @@ Category: Vision Enhancements
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Yenah - Dexterity {#Yenah}
+### Yenah - Dexterity
 
 <div class="row">
 <div class="col-md-6">
@@ -281,7 +281,7 @@ Category: Mobility and Dexterity Enhancement.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Ike - Mobility {#Ike}
+### Ike - Mobility
 
 <div class="row">
 <div class="col-md-6">
@@ -357,7 +357,7 @@ Category: Mobility Enhancements.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Damien - Cognitive {#Damien}
+### Damien - Cognitive
 
 <div class="row">
 <div class="col-md-6">
@@ -430,7 +430,7 @@ Category: Cognitive and Learning Style Enhancement.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Valeria – Cognitive and Auditory {#Valeria}
+### Valeria – Cognitive and Auditory
 
 <div class="row">
 <div class="col-md-6">
@@ -504,7 +504,7 @@ Category: Cognitive and Learning Style Enhancement and others.
 </section>
 <section class="brdr-tp mrgn-tp-lg">
 
-### Yosef – Mobility and Speech {#Yosef}
+### Yosef – Mobility and Speech
 
 <div class="row">
 <div class="col-md-6">

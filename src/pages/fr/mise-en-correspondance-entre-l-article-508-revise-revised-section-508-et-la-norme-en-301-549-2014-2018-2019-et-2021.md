@@ -6,19 +6,8 @@ subject:
 tags:
   - procurement
 toggle: mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021
+tocSimple: true
 ---
-
-## Sur cette page
-
-- [Avis de droit d’auteur](#avis-de-droit-dauteur)
-- [Avertissement](#avertissement)
-- [Public visé](#public-visé)
-- [Contexte](#contexte)
-- [But](#but)
-- [Résumé des différences](#résumé-des-différences)
-- [Sources](#sources)
-- [Glossaire](#glossaire)
-- [Tableaux comparatifs](#tableaux-comparatifs)
 
 ## Avis de droit d’auteur
 

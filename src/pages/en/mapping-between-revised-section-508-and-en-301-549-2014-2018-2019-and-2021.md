@@ -6,19 +6,8 @@ subject:
 tags:
   - procurement
 toggle: mise-en-correspondance-entre-l-article-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021
+tocSimple: true
 ---
-
-## On this page
-
-- [Copyright Notice](#copyright-notice)
-- [Caveat](#caveat)
-- [Intended Audience](#intended-audience)
-- [Background](#background)
-- [Purpose](#purpose)
-- [Summary of differences](#summary-of-differences)
-- [Sources](#sources)
-- [Glossary](#glossary)
-- [Comparison tables](#comparison-tables)
 
 ## Copyright Notice
 
