@@ -5,9 +5,6 @@
   "main": ".eleventy.js",
   "scripts": {
     "newPage": "node scripts/create-new-page.js",
-    "cleanHTML": "node scripts/clean-html.js",
-    "replaceLink": "node scripts/replace-links.js",
-    "markdown-to-html": "node scripts/markdown-to-html.js",
     "link-check": "node scripts/link-check.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "spellcheck": "cspell --no-progress -u \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
@@ -47,6 +44,7 @@
     "cross-env": "^7.0.3",
     "cspell": "^6.18.1",
     "eleventy-plugin-broken-links": "^2.0.3",
+    "js-beautify": "^1.15.1",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-attrs": "^4.1.6",
@@ -54,12 +52,10 @@
     "npm-run-all": "^4.1.5",
     "replace-in-file": "^7.0.2",
     "sass": "^1.32.12",
-    "slugify": "^1.6.6",
     "string-strip-html": "^8.5.0"
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "html-minifier": "^4.0.0",
     "prompt-sync": "^4.2.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",

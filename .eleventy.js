@@ -3,10 +3,12 @@ const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
-const htmlmin = require("html-minifier");
-const slugify = require('@sindresorhus/slugify');
+const beautify = require('js-beautify').html;
+const { DateTime } = require('luxon');
 
 module.exports = function (eleventyConfig) {
+  const eleventySlugify = eleventyConfig.getFilter('slug');
+
   let markdownItOptions = {
     html: true, // you can include HTML tags
   };
@@ -14,7 +16,7 @@ module.exports = function (eleventyConfig) {
   const md = markdownIt(markdownItOptions)
     .use(markdownItAttrs)
     .use(markdownItAnchor, {
-      slugify: s => slugify(s, { lower: true, strict: true, locale: 'fr' }),
+      slugify: s => eleventySlugify(s, { lower: true, strict: true, locale: 'fr' }),
       permalink: false, // Disable permalinks
     });
 
@@ -30,7 +32,7 @@ module.exports = function (eleventyConfig) {
       const level = token.tag;
       const rawText = tokens[tokens.indexOf(token) + 1].content;
       const text = stripHtml(rawText).result; // Strip HTML tags from the heading text
-      const id = slugify(text, { lower: true, strict: true, locale: 'fr' });
+      const id = eleventySlugify(text, { lower: true, strict: true, locale: 'fr' });
       return { level, text, id };
     });
 
@@ -68,24 +70,23 @@ module.exports = function (eleventyConfig) {
     return tocHTML;
   });
 
-  const slugifyFilter = eleventyConfig.javascriptFunctions.slugify;
-
   eleventyConfig.addFilter("stripTagsSlugify", (str) => {
     if (!str) return;
-    return slugify(stripHtml(str).result, { lower: true, strict: true, locale: 'fr' });
+    return eleventySlugify(stripHtml(str).result, { lower: true, strict: true, locale: 'fr' });
   });
-
-  const { DateTime } = require("luxon");
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
-  // Minify HTML output
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+  // Format HTML output
+  eleventyConfig.addTransform("htmlbeautify", function (content, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
-      return htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
+      return beautify(content, {
+        indent_size: 2,
+        indent_char: ' ',
+        preserve_newlines: false,
+        max_preserve_newlines: 1,
+        wrap_line_length: 0,
+        end_with_newline: true,
       });
     }
     return content;
@@ -118,7 +119,7 @@ module.exports = function (eleventyConfig) {
           const level = token.tag;
           const rawText = tokens[tokens.indexOf(token) + 1].content;
           const text = stripHtml(rawText).result; // Strip HTML tags from the heading text
-          const id = slugify(text, { lower: true, strict: true, locale: 'fr' });
+          const id = eleventySlugify(text, { lower: true, strict: true, locale: 'fr' });
           return { level, text, id };
         });
         item.data.headings = headings;
