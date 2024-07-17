@@ -44,6 +44,7 @@
     "cross-env": "^7.0.3",
     "cspell": "^6.18.1",
     "eleventy-plugin-broken-links": "^2.0.3",
+    "js-beautify": "^1.15.1",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-attrs": "^4.1.6",
@@ -55,7 +56,6 @@
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "html-minifier": "^4.0.0",
     "prompt-sync": "^4.2.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",

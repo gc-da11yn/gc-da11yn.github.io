@@ -3,7 +3,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
-const htmlmin = require('html-minifier');
+const beautify = require('js-beautify').html;
 const { DateTime } = require('luxon');
 
 module.exports = function (eleventyConfig) {
@@ -77,13 +77,16 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
-  // Minify HTML output
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+  // Format HTML output
+  eleventyConfig.addTransform("htmlbeautify", function (content, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
-      return htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
+      return beautify(content, {
+        indent_size: 2,
+        indent_char: ' ',
+        preserve_newlines: false,
+        max_preserve_newlines: 1,
+        wrap_line_length: 0,
+        end_with_newline: true,
       });
     }
     return content;
