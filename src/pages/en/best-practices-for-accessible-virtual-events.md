@@ -186,13 +186,13 @@ When organizing a bilingual event, you will want to ensure:
 
 ##### Resources for bilingual events
 
-- [Effective practices for chairing bilingual events and externally sourced presentations - Office of the Commissioner of Official Languages of Canada (clo-ocol.gc.ca)](https://www.clo-ocol.gc.ca/en/tools-resources/tools-resources/effective-practices-chairing-bilingual-meetings-externally-sourced)
-- [How to hold bilingual events - Canada.ca](https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/official-languages/workplace/how-to-hold-bilingual-meetings.html)
-- [Virtual Accessible Bilingual Conference Planning: The Parks Accessibility Conference – MDPI Open Access Journals (mdpi.com)](https://www.mdpi.com/1660-4601/20/3/2302#B7-ijerph-20-02302)
+- [Effective practices for chairing bilingual events and externally sourced presentations](https://www.clo-ocol.gc.ca/en/tools-resources/tools-resources/effective-practices-chairing-bilingual-meetings-externally-sourced)
+- [How to hold bilingual events](https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/official-languages/workplace/how-to-hold-bilingual-meetings.html)
+- [Virtual Accessible Bilingual Conference Planning: The Parks Accessibility Conference – MDPI Open Access Journals](https://www.mdpi.com/1660-4601/20/3/2302#B7-ijerph-20-02302)
 
 #### Decide which virtual platform to host your event
 
-Please choose a platform whose user interface that conforms to level AA of the [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/). Additionally, we recommend reaching out to users with disabilities to test the usability of your platform and the way you’ve implemented your event. Refer to [Selecting an accessible remote meeting platform from the Accessibility of Remote Meetings W3C Group Note (w3.org)](https://www.w3.org/TR/remote-meetings/#selection) for detailed guidance.
+Please choose a platform whose user interface that conforms to level AA of the [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/). Additionally, we recommend reaching out to users with disabilities to test the usability of your platform and the way you’ve implemented your event. Refer to [Selecting an accessible remote meeting platform from the Accessibility of Remote Meetings W3C Group Note](https://www.w3.org/TR/remote-meetings/#selection) for detailed guidance.
 
 #### Assign roles and responsibilities to your event staff
 
@@ -245,13 +245,13 @@ Accommodations may be necessary to fulfill the obligations outlines in the [Dire
 
 People who are deaf, hard of hearing, or sign language-fluent may struggle with written captions as it's their second language. Sign language interpretation also enhances the experience by conveying intonation, emotion, and meaningful audio information.
 
-- To book sign language interpretation for GC conferences and events, please visit: [Sign language interpretation services – Translation Bureau’s language services and tools (tpsgc-pwgsc.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/signe-sign-eng.html)
+- To book sign language interpretation for GC conferences and events, please visit: [Sign language interpretation services<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/signe-sign-eng.html)
 
 ##### Communication Access Realtime Translation (<abbr>CART</abbr>)
 
 Captions enables people who are deaf, have a hearing loss and people who have cognitive disabilities like auditory processing difficulties, and even people for who French and English might not be their first language, to be able to fully participate in live events.
 
-- To book CART services, please visit: [CART – Communication Access Realtime Translation \| Canadian Hearing Services (chs.ca)](https://www.chs.ca/service/cart-communication-access-realtime-translation)
+- To book CART services, please visit: [CART – Communication Access Realtime Translation](https://www.chs.ca/service/cart-communication-access-realtime-translation)
 
 **Warning:** Some virtual events platforms offer automated live captions, like [Microsoft Teams Live Captions](https://support.microsoft.com/en-us/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260). Unfortunately, these technologies often make errors which disadvantages users who rely on captions. Automated captions should be used as a last resort only or for events of lower importance. Use Communication Access Realtime Translation (<abbr>CART</abbr>) instead.
 
@@ -260,8 +260,8 @@ Captions enables people who are deaf, have a hearing loss and people who have co
 Bilingual events can be a barrier for unilingual individuals with disabilities. To ensure full accessibility, simultaneous voiced translations are necessary. Translated captions or on-screen content alone cannot be accessed by non-visual users. As a result, they must wait for language switches without any stimuli and rely solely on summaries of the talking points in their language.
 
 - To book simultaneous translation for GC conferences and events please visit:
-  - For English and French: [Official language conference interpretation services – Translation Bureau’s language services and tools – PSPC’s GCintranet (tpsgc-pwgsc.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/officielle-official-eng.html)
-  - For Indigenous languages: [Indigenous language conference interpretation services – Translation Bureau’s language services and tools – PSPC’s GCintranet (tpsgc-pwgsc.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/autochtones-indigenous-eng.html)
+  - For English and French: [Official language conference interpretation services<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/officielle-official-eng.html)
+  - For Indigenous languages: [Indigenous language conference interpretation services<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/autochtones-indigenous-eng.html)
 
 **Note:** This requires a virtual platform that offers multiple voice channels, one for each language. When the presenter is no longer speaking the voice channel’s language, the interpreter assigned to the voice channel must speak the translation.
 
