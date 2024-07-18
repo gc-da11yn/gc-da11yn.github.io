@@ -190,7 +190,7 @@ Voici les points à retenir lorsque vous organisez un événement bilingue :
 
 - [Pratiques efficaces régissant la présidence des réunions bilingues et des présentations provenant de l’externe](https://www.clo-ocol.gc.ca/fr/outils-ressources/outils-ressources/pratiques-efficaces-regissant-presidence-reunions-bilingues)
 - [Organiser une réunion bilingue](https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/langues-officielles/milieu-travail/organiser-reunion-bilingue.html)
-- <a href="https://www.mdpi.com/1660-4601/20/3/2302#B7-ijerph-20-02302" lang="en">Virtual Accessible Bilingual Conference Planning: The Parks Accessibility Conference – MDPI Open Access Journals (mdpi.com)<small lang="fr"> (en anglais seulement)</small></a>
+- <a href="https://www.mdpi.com/1660-4601/20/3/2302#B7-ijerph-20-02302" lang="en">Virtual Accessible Bilingual Conference Planning: The Parks Accessibility Conference<small lang="fr"> (en anglais seulement)</small></a>
 
 
 #### Décidez de la plateforme virtuelle qui accueillera votre événement
@@ -581,7 +581,7 @@ Fonctionnalités pour événements
 - [Ajuster l'affichage comme l'épinglage d'une vidéo](https://support.microsoft.com/fr-fr/office/ajuster-votre-affichage-dans-une-r%C3%A9union-teams-9825091c-0e7d-4c2b-95f5-eba644f19175)
 - [Comment utiliser les salles pour petits groupes](https://support.microsoft.com/fr-fr/office/utiliser-des-salles-pour-petits-groupes-dans-les-r%C3%A9unions-microsoft-teams-7de1f48a-da07-466c-a5ab-4ebace28e461)
 
-**Remarque :** Les participants qui entrent dans une réunion Microsoft Teams après que 1 000 personnes se sont déjà jointes auront une expérience restreinte, en lecture seule. Pour obtenir de plus amples renseignements sur les contrôles et les actions disponibles dans cette expérience de réunion en lecture seule, veuillez consulter la ressource suivante : « [Expérience de réunion en lecture seule de Teams - Microsoft Teams \| Microsoft Learn ](https://learn.microsoft.com/fr-ca/microsoftteams/view-only-meeting-experience)»
+**Remarque :** Les participants qui entrent dans une réunion Microsoft Teams après que 1 000 personnes se sont déjà jointes auront une expérience restreinte, en lecture seule. Pour obtenir de plus amples renseignements sur les contrôles et les actions disponibles dans cette expérience de réunion en lecture seule, veuillez consulter la ressource suivante : « [Expérience de réunion en lecture seule de Teams](https://learn.microsoft.com/fr-ca/microsoftteams/view-only-meeting-experience)»
 
 #### Information sur WebEx
 
