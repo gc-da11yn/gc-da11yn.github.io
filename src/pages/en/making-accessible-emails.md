@@ -14,10 +14,10 @@ Outlook offers three format options: HTML, Plain Text and Rich Text. Of these th
 
 Using HTML format has several benefits that make your email messages more inclusive:
 
-- **Structured Content**: Allows for organized and hierarchical content using headings,   paragraphs, lists, and tables. This structure helps people using adaptive technologies navigate the content easily.
-- **Text Formatting**: Supports formatting the style of your text. Use the built-in text styles like heading levels, Strong (bold text) or Emphasis (italicized text) to help convey meaning to the text, benefiting individuals with visual impairments.
+- **Structured content**: Allows for organized and hierarchical content using headings,   paragraphs, lists, and tables. This structure helps people using adaptive technologies navigate the content easily.
+- **Text formatting**: Supports formatting the style of your text. Use the built-in text styles like heading levels, Strong (bold text) or Emphasis (italicized text) to help convey meaning to the text, benefiting individuals with visual impairments.
 - **Hyperlinks**: Allows for the inclusion of hyperlinks, which aids in providing additional context or references. Adaptive technology can detect and announce links, making it convenient for users to access relevant information.
-- **Alternative Text for Images**: Enables the use of [alternative text](#alt-text) (Alt text) for images, helping some users to understand the content more easily. Adaptive technology can read out the alt text, providing context for images.
+- **Alternative text for images**: Enables the use of [alternative text](#alt-text) (Alt text) for images, helping some users to understand the content more easily. Adaptive technology can read out the alt text, providing context for images.
 
 Using HTML format allows you to follow accessibility guidelines like WCAG and EN 301 549.
 
@@ -62,10 +62,10 @@ Avoid overly complex writing styles.
 
 ### Resources:
 
-- [Canada.ca Content Style Guide—Plain Language (Canada.ca)](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html#toc6)
-- <a href="http://en.copian.ca/library/learning/nwt/writread/writefor.pdf" download>Write for your Reader—A plain language handbook (copian.ca)</a>
-- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf" download>Putting plain language into practice (nwtliteracy.ca)</a>
-- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf" download>Plain Language Audit Tool—A checklist to review documents (nwtliteracy.ca)</a>
+- [Canada.ca Content Style Guide—Plain Language](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html#toc6)
+- <a href="http://en.copian.ca/library/learning/nwt/writread/writefor.pdf" download>Write for your Reader—A plain language handbook</a>
+- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf" download>Putting plain language into practice</a>
+- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf" download>Plain Language Audit Tool—A checklist to review documents</a>
 
 ## Styles
 
@@ -81,9 +81,9 @@ The Styles pane is on the Format Text tab. Highlight the text that you want to c
 
 To access the Styles pane, select the **expansion arrow (Alt, H, F, Y)** and the Styles pane will open. Select **Title**. The text will be formatted to the Title style and highlighted in the Styles pane.
 
-<p><img src="{{ rootPath }}img/en/making-accessible-emails-2.png" alt="" /></p>
-
 <p><img src="{{ rootPath }}img/en/making-accessible-emails-3.png" alt="" /></p>
+
+<p><img src="{{ rootPath }}img/en/making-accessible-emails-4.png" alt="" /></p>
 
 ### Modify a style
 
