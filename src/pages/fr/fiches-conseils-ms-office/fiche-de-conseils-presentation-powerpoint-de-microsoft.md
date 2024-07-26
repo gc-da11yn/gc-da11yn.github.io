@@ -71,7 +71,6 @@ Les images complexes (comme des graphiques et des tableaux) doivent être accomp
 -	les objets groupés.
 
 ## Tableaux
--	Insérez des tableaux dans les espaces réservés de type **Table**.
 -	Utilisez les tableaux uniquement pour les données.
 -	Définissez tous les tableaux. Sélectionnez l’onglet **Création de tableau** > le groupe **Options de style de tableau** (si cela est nécessaire) > **Cochez** toutes les options pertinentes. **Ligne d’en-tête** est obligatoire.
 

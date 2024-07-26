@@ -69,7 +69,6 @@ Complex images (like graphs and charts) require an alternative text and a long d
 - grouped objects.
 
 ## Tables
--	Insert tables into **Table** content placeholders.
 -	Use tables for data only.
 -	Define all tables. Select **Table Design** tab > **Table Style Options** group (if necessary) > **Check** all relevant options. **Header Row** is mandatory.
 
