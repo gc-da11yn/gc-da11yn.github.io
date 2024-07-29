@@ -1592,16 +1592,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
-		<lastmod>2024-07-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
-		<lastmod>2024-07-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
 		<lastmod>2024-07-17</lastmod>
 	</url>
@@ -1679,5 +1669,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
 		<lastmod>2024-07-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
+		<lastmod>2024-07-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
+		<lastmod>2024-07-29</lastmod>
 	</url>
 </urlset>
