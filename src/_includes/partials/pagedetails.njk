@@ -1,13 +1,8 @@
-
+{# Date modified component: https://wet-boew.github.io/GCWeb/sites/date-modified/date-modified-en.html #}
 <section class="pagedetails container">
 	<h2 class="wb-inv">{{ pagedetails[locale].pageDetailsHeading }}</h2>
-	<div class="row">
-		<div class="wb-share col-sm-4 col-md-3 col-sm-push-8 col-md-push-9" data-wb-share='{ "lnkClass": "btn btn-default btn-block" }'></div>
-		<div class="col-sm-6 col-md-5 col-lg-4 col-sm-pull-4 col-md-pull-3">
-			<dl id="wb-dtmd">
-				<dt>{{ pagedetails[locale].dateModified }}</dt>
-				<dd><time property="dateModified" datetime="{{ page.date | postDate }}">{{ page.date | postDate }}</time></dd>
-			</dl>
-		</div>
-	</div>
+	<dl id="wb-dtmd">
+		<dt>{{ pagedetails[locale].dateModified }}</dt>
+		<dd><time property="dateModified">{{ page.date | postDate }}</time></dd>
+	</dl>
 </section>
