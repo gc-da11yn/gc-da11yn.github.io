@@ -85,7 +85,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements
 	<li>REMARQUE 2 : Permettre l'utilisation d’aides de suppléance à l’audition, tel que des casques avec annulation du bruit (connectés par câble, Bluetooth ou WLAN) peuvent contribuer au respect de cette clause.</li>
 	<li>REMARQUE 3: Les utilisateurs ayant une audition limit&eacute;e peuvent &eacute;galement b&eacute;n&eacute;ficier d&rsquo;un acc&egrave;s non auditif (voir la clause 4.2.4).</li>
 </ul>
-<p><strong>4.2.6 Utilisation sans capacit&eacute; vocale:&nbsp;</strong>Lorsque les TIC n&eacute;cessitent la contribution vocale des utilisateurs, certains utilisateurs auront besoin des TIC pour fournir au moins un mode de fonctionnement qui n&rsquo;exige pas d&rsquo;entr&eacute;e vocale. Ceci est essentiel pour les utilisateurs sans capacité vocale ou ayant une capacité vocale limitée et est bénéfique à plusieurs autres dans différentes situations.</p>
+<p><strong>4.2.6 Utilisation sans capacité vocale ou avec une capacité vocale limitée:&nbsp;</strong>Lorsque les TIC n&eacute;cessitent la contribution vocale des utilisateurs, certains utilisateurs auront besoin des TIC pour fournir au moins un mode de fonctionnement qui n&rsquo;exige pas d&rsquo;entr&eacute;e vocale. Ceci est essentiel pour les utilisateurs sans capacité vocale ou ayant une capacité vocale limitée et est bénéfique à plusieurs autres dans différentes situations.</p>
 <ul>
 	<li>REMARQUE 1: La sortie vocale comprend la parole et d’autres sons générés oralement, comme des sifflements et des clics.</li>
 	<li>REMARQUE 2: Le clavier, le stylo ou les interfaces utilisateur tactiles peuvent contribuer au respect de cette clause.</li>
