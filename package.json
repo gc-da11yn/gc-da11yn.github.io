@@ -5,9 +5,9 @@
   "main": ".eleventy.js",
   "scripts": {
     "newPage": "node scripts/create-new-page.js",
-    "link-checker": "node scripts/link-checker.js",
-    "link-check": "npm-run-all --parallel start link-checker",
+    "link-check": "node scripts/link-checker.js",
     "serve:port": "node scripts/serve-with-port.js",
+    "serve-only": "npx eleventy && npx eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "spellcheck": "cspell --no-progress -u \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
     "eleventy": "npx eleventy",
@@ -16,8 +16,8 @@
     "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
     "watch:sass": "npm run sass-start -- --watch",
     "start": "cross-env ELEVENTY_ENV=local npm-run-all sass-start serve:port --parallel watch:*",
-    "start-dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-start --parallel watch:*",
-    "start-prod": "cross-env ELEVENTY_ENV=prod npm-run-all sass-start --parallel watch:*",
+    "start-dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-start serve:port --parallel watch:*",
+    "start-prod": "cross-env ELEVENTY_ENV=prod npm-run-all sass-start serve:port --parallel watch:*",
     "dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "build": "npm-run-all sass-build eleventy"
