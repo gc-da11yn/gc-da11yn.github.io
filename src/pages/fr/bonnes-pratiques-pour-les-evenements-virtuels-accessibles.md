@@ -37,14 +37,14 @@ internalLinks: true
 - [Introduction](#introduction)
   - [Problèmes courants signalés par les personnes en situation de handicap](#problemes-courants-signales-par-les-personnes-en-situation-de-handicap)
   - [Mobilité](#mobilite)
-  - [Cadre juridique canadien pour l'accessibilité des événements](#cadre-juridique-canadien-pour-l-accessibilite-des-evenements)
+  - [Cadre juridique canadien pour l'accessibilité des événements](#cadre-juridique-canadien-pour-laccessibilite-des-evenements)
   - [Faits à retenir](#faits-a-retenir)
 - [Événements virtuels](#evenements-virtuels)
   - [Feuille de route](#feuille-de-route)
-  - [Planification de l’événement : un à deux mois avant la tenue de l'événement (environ)](#planification-de-l-evenement-un-a-deux-mois-avant-la-tenue-de-l-evenement-environ)
-  - [Préparez-vous : une à deux semaines avant l'événement (environ)](#preparez-vous-une-a-deux-semaines-avant-l-evenement-environ)
-  - [Animez l'événement : jour de l'événement](#animez-l-evenement-jour-de-l-evenement)
-  - [Après l'événement](#apres-l-evenement)
+  - [Planification de l’événement : un à deux mois avant la tenue de l'événement (environ)](#planification-de-levenement-un-a-deux-mois-avant-la-tenue-de-levenement-environ)
+  - [Préparez-vous : une à deux semaines avant l'événement (environ)](#preparez-vous-une-a-deux-semaines-avant-levenement-environ)
+  - [Animez l'événement : jour de l'événement](#animez-levenement-jour-de-levenement)
+  - [Après l'événement](#apres-levenement)
   - [À titre de référence : Ce qui affectera votre budget](#a-titre-de-reference-ce-qui-affectera-votre-budget)
   - [À titre de référence : Plateformes virtuelles](#a-titre-de-reference-plateformes-virtuelles)
 
@@ -468,7 +468,7 @@ Invitez les participants à :
 
 #### Envoyez le contenu de la récapitulation
 
-Veillez à distribuer le contenu [dans un format accessible](#veillez-à-ce-que-tous-les-supports-de-lévénement-soient-accessibles-tels-que-les-courriels-les-présentations-powerpoint-les-documents-word), ce qui est souvent fait par le biais d'un courriel de remerciement après l'événement :
+Veillez à distribuer le contenu [dans un format accessible](#veillez-a-ce-que-tous-les-supports-de-levenement-soient-accessibles-tels-que-les-courriels-les-presentations-powerpoint-les-documents-word), ce qui est souvent fait par le biais d'un courriel de remerciement après l'événement :
 
 - résumé de l'événement;
 - enregistrements;
@@ -500,7 +500,7 @@ Voici quelques exemples de sujets qui peuvent être abordés et de questions qui
 
 ### À titre de référence : Ce qui affectera votre budget
 
-- [Services d'adaptation (ASL, LSQ, interprètes de la langue des signes)](#services-dinterprétation-en-langue-des-signes-asl-lsq)
+- [Services d'interprétation en langue des signes (ASL, LSQ)](#services-dinterpretation-en-langue-des-signes-asl-lsq)
 - Plateforme virtuelle (pourrait devenir un coût si une licence est nécessaire)
 - Présentateurs sous contrat
 - Société de production audiovisuelle

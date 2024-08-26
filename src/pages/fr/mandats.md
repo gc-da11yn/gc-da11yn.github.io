@@ -4,17 +4,8 @@ description: Le cadre de référence définit l’objet et la portée du projet 
 toggle: terms-of-reference
 tags:
   - aboutUs
+toc: true
 ---
-
-## Sur cette page
-
-- [Objectif](#objectif)
-- [Rôle essentiel](#rôle-essentiel)
-- [Structure de rapport](#structure-de-rapport)
-- [Membres](#membres)
-- [Procédures de fonctionnement et fréquence des réunions](#procédures-de-fonctionnement-et-fréquence-des-réunions)
-- [Portée du projet](#portée-du-projet)
-- [Ressources](#ressources)
 
 ## Objectif
 

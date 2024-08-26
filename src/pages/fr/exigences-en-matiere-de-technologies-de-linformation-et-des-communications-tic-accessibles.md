@@ -56,7 +56,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements
 	<li><a href="#partieb">Partie B - Exigences en mati&egrave;re d&rsquo;accessibilit&eacute; fonctionnelle</a></li>
 	<li><a href="#annexea">Annexe - Tableaux et figures (de la norme EN 301 549)</a></li>
 	<li><a href="#annexeb">Annexe - R&eacute;f&eacute;rences (de la norme EN 301 549</a> </li>
-	<li><a href="#annexec">Annexe - D&eacute;finitions et abr&eacute;viations (de la norme EN 301 549)</a></li>
+	<li><a href="#annexDef">Annexe - D&eacute;finitions et abr&eacute;viations (de la norme EN 301 549)</a></li>
 </ul>
 <h2 id="partiea">Partie A - &Eacute;nonc&eacute;s de rendement fonctionnel</h2>
 <p>Il s&rsquo;agit d&rsquo;&eacute;nonc&eacute;s explicatifs (non testables) qui pr&eacute;sentent les aspects essentiels que le produit ou le service offert doit fournir pour &ecirc;tre jug&eacute; accessible.</p>
@@ -543,9 +543,9 @@ toggle: information-and-communication-technology-ict-accessibility-requirements
 </section>
 <p>Se trouve dans cette section</p>
 <ul>
-	<li><a href="#generiques">5 Exigences génériques</a></li>
+	<li><a href="#requirements">5 Exigences génériques</a></li>
 	<li><a href="#bidirectionnelle">6 Les TIC permettent la communication vocale bidirectionnelle.</a></li>
-	<li><a href="#video">7 TIC avec capacités vidéo</a></li>
+	<li><a href="#capabilities">7 TIC avec capacités vidéo</a></li>
 	<li><a href="#materiel">8 Matériel</a></li>
 	<li><a href="#web">9 Web</a></li>
 	<li><a href="#nonweb">10 Contenu non Web</a></li>
@@ -8246,7 +8246,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements
 	<li>pendant les parties du démarrage, de l’arrêt et d’autres transitions d’état qui peuvent être effectuées sans interaction avec l’utilisateur.</li>
 </ul>
 <p>REMARQUE 3 : Même dans les situations ci-dessus, la pratique exemplaire consiste à appliquer les exigences du présent document chaque fois qu’il est possible de le faire en toute sécurité.</p>
-<h2>Annexe - Références (de la norme EN 301 549 – en anglais seulement) </h2>
+<h2 id ="annexeb">Annexe - Références (de la norme EN 301 549 – en anglais seulement) </h2>
 <h3>2.1 Références normatives</h3>
 <p>Les références sont spécifiques, identifiées par leur date de publication et/ou leur numéro d'édition ou leur numéro de version. Seule la version citée est applicable.</p>
 <p>Les documents cités en référence qui ne sont pas disponibles publiquement à l'emplacement prévu peuvent se trouver à <a href="https://docbox.etsi.org/Reference" lang="en">ETSI References in docbox</a> (en anglais seulement). </p>
