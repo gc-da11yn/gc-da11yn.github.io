@@ -56,8 +56,6 @@ Il est recommandé de placer des sous-titres en haut des vidéos ASL et LSQ.
 
 Les équipes de conception ou un entrepreneur peuvent fournir le texte de la légende.
 
-[Directives pour le sous-titrage]({{ rootPath }}fr/directives-pour-le-sous-titrage)
-
 [Liste de contrôle pour le sous-titrage]({{ rootPath }}fr/liste-de-controle-pour-le-sous-titrage)
 
 ## Sommaire de la description sonore

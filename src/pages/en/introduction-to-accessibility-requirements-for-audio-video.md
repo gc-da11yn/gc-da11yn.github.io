@@ -1,7 +1,7 @@
 ---
 title: Introduction to accessibility requirements for audio-video
 description: This document is a great introduction on how to make accessible video for a communication advisor audience which are in between the web author and the content expert.
-toggle: introduction-aux-exigences-d-accessibilite-pour-l-audio-video
+toggle: introduction-aux-exigences-daccessibilite-pour-laudio-video
 subject:
   - howTos
 tags:
@@ -63,8 +63,6 @@ Open captions are recommended at the top of American Sign Language (<abbr>ASL</a
 - accessible and readily available to those who need or want them.
 
 Design teams or a contractor can provide the caption text.
-
-[Captioning Guidelines]({{ rootPath }}en/captioning-guidelines)
 
 [Captioning Checklist]({{ rootPath }}en/captioning-checklist)
 
