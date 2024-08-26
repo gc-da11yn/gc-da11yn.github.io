@@ -11,6 +11,13 @@ const baseUrl = `http://localhost:${port}/en/index.html`;
 
 let brokenLinks = [];
 
+// Helper function to check if a broken link or anchor is already in the list
+function isDuplicate(page, link) {
+	return brokenLinks.some(
+		(entry) => entry.page === page && entry.link === link
+	);
+}
+
 // Function to fetch HTML and check for broken anchors
 async function fetchAndCheckAnchors(url) {
 	try {
@@ -26,13 +33,15 @@ async function fetchAndCheckAnchors(url) {
 
 			if (!targetElement) {
 				console.log(`Broken anchor found: ${targetId} on page ${url}`);
-				brokenLinks.push({
-					page: url,
-					link: `#${targetId}`,
-					linkText: anchor.textContent.trim(),
-					status: 'Broken Anchor',
-					statusText: `Anchor #${targetId} not found on page`
-				});
+				if (!isDuplicate(url, `#${targetId}`)) {
+					brokenLinks.push({
+						page: url,
+						link: `#${targetId}`,
+						linkText: anchor.textContent.trim(),
+						status: 'Broken Anchor',
+						statusText: `Anchor #${targetId} not found on page`
+					});
+				}
 			}
 		});
 	} catch (error) {
@@ -52,13 +61,15 @@ const siteChecker = new blc.SiteChecker(
 	{
 		link: async (result) => {
 			if (result.broken) {
-				brokenLinks.push({
-					page: result.base.original,
-					link: result.url.original,
-					linkText: result.html.text || "N/A",
-					status: result.status,
-					statusText: result.statusText
-				});
+				if (!isDuplicate(result.base.original, result.url.original)) {
+					brokenLinks.push({
+						page: result.base.original,
+						link: result.url.original,
+						linkText: result.html.text || "N/A",
+						status: result.status,
+						statusText: result.statusText
+					});
+				}
 			}
 
 			// Check anchor links on each page that was successfully loaded
