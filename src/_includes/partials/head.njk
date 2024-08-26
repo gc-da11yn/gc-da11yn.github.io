@@ -16,6 +16,9 @@
 	<meta name="robots" content="noindex, nofollow">
 	{% endif %}
 
+	<meta data-source="{{ page.inputPath }}" />
+
+
 	{% if toggle %}
 	<link rel="alternate" hreflang="{{ otherLang }}" href="{{ rootPath }}{% if toggle != "fr" and toggle != "en" %}{{ otherLang }}/{% endif %}{{ toggle }}/index.html" />
 	{% endif %}

@@ -11,21 +11,22 @@ const baseUrl = `http://localhost:${port}/en/index.html`;
 
 let brokenLinks = [];
 
-// Helper function to check if a broken link or anchor is already in the list
-function isDuplicate(page, link) {
-	return brokenLinks.some(
-		(entry) => entry.page === page && entry.link === link
-	);
-}
-
-// Function to fetch HTML and check for broken anchors
-async function fetchAndCheckAnchors(url) {
+// Function to fetch HTML and check for broken anchors and metadata
+async function fetchAndCheckPage(url) {
 	try {
 		const response = await axios.get(url);
 		const html = response.data;
 		const dom = new JSDOM(html);
 		const document = dom.window.document;
 
+		// Extract the source file path from the metadata
+		const sourceFileMeta = document.querySelector('meta[data-source]');
+		let sourceFile = sourceFileMeta ? sourceFileMeta.getAttribute('data-source') : 'Unknown source file';
+
+		// Prepend file:// to the sourceFile path
+		sourceFile = `file://${path.resolve(sourceFile)}`;
+
+		// Check for broken anchors
 		const anchors = Array.from(document.querySelectorAll('a[href^="#"]'));
 		anchors.forEach(anchor => {
 			const targetId = anchor.getAttribute('href').substring(1);
@@ -39,7 +40,8 @@ async function fetchAndCheckAnchors(url) {
 						link: `#${targetId}`,
 						linkText: anchor.textContent.trim(),
 						status: 'Broken Anchor',
-						statusText: `Anchor #${targetId} not found on page`
+						statusText: `Anchor #${targetId} not found on page`,
+						sourceFile: sourceFile
 					});
 				}
 			}
@@ -47,6 +49,13 @@ async function fetchAndCheckAnchors(url) {
 	} catch (error) {
 		console.error(`Error fetching ${url}: ${error.message}`);
 	}
+}
+
+// Helper function to check if a broken link or anchor is already in the list
+function isDuplicate(page, link) {
+	return brokenLinks.some(
+		(entry) => entry.page === page && entry.link === link
+	);
 }
 
 // Create the SiteChecker instance for general link checking
@@ -61,20 +70,24 @@ const siteChecker = new blc.SiteChecker(
 	{
 		link: async (result) => {
 			if (result.broken) {
+				await fetchAndCheckPage(result.url.resolved); // Fetch the page and check for broken anchors and metadata
 				if (!isDuplicate(result.base.original, result.url.original)) {
+					const pageUrl = result.base.original;
+					const sourceFile = `file://${path.resolve(result.base.original)}`; // Prepend file:// to the source file path
 					brokenLinks.push({
-						page: result.base.original,
+						page: pageUrl,
 						link: result.url.original,
 						linkText: result.html.text || "N/A",
 						status: result.status,
-						statusText: result.statusText
+						statusText: result.statusText,
+						sourceFile: sourceFile
 					});
 				}
 			}
 
 			// Check anchor links on each page that was successfully loaded
 			if (result.http.response && result.http.response.statusCode === 200) {
-				await fetchAndCheckAnchors(result.url.resolved);
+				await fetchAndCheckPage(result.url.resolved);
 			}
 		},
 		end: () => {
