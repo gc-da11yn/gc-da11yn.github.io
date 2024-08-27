@@ -5,7 +5,7 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
-toggle: mise-en-correspondance-entre-l-article-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021
+toggle: mise-en-correspondance-entre-larticle-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021
 tocSimple: true
 ---
 
@@ -135,9 +135,9 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
 	</header>
 	<div class="modal-body">
 
-- [Chapter 2: Scoping Requirements](#chapter-2%3A-scoping-requirements)
-- [Chapter 3: Functional Performance Statements](#chapter-3%3A-functional-performance-statements)
-- [Chapter 4: Hardware](#chapter-4%3A-hardware)
+- [Chapter 2: Scoping Requirements](#chapter-2-scoping-requirements)
+- [Chapter 3: Functional Performance Statements](#chapter-3-functional-performance-statements)
+- [Chapter 4: Hardware](#chapter-4-hardware)
   - [402 Closed Functionality](#402-closed-functionality)
   - [403 Biometrics](#403-biometrics)
   - [404 Preservation of Information Provided for Accessibility](#404-preservation-of-information-provided-for-accessibility)
@@ -151,12 +151,12 @@ The EN 301 549 V3.2.1 (2021) document was developed from EN 301 549 V2.1.2 (2018
   - [413 Closed Caption Processing Technologies](#413-closed-caption-processing-technologies)
   - [414 Audio Description Processing Technologies](#414-audio-description-processing-technologies)
   - [415 User Controls for Captions and Audio Descriptions](#415-user-controls-for-captions-and-audio-descriptions)
-- [Chapter 5: Software](#chapter-5%3A-software)
+- [Chapter 5: Software](#chapter-5-software)
   - [501 General](#501-general)
   - [502 Interoperability with Assistive Technology](#502-interoperability-with-assistive-technology)
   - [503 Applications](#503-applications)
   - [504 Authoring Tools](#504-authoring-tools)
-- [Chapter 6: Support Documentation and Services](#chapter-6%3A-support-documentation-and-services)
+- [Chapter 6: Support Documentation and Services](#chapter-6-support-documentation-and-services)
   - [602 Support Documentation](#602-support-documentation)
   - [603 Support Services](#603-support-services)
 - [Provisions Not Mapped](#provisions-not-mapped)

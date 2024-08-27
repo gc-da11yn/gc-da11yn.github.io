@@ -243,3 +243,6 @@ $RECYCLE.BIN/
 
 # .markdown-link-check results file
 broken-links.json
+
+# Temporary file that lists the active port being used by Eleventy
+.eleventy-port

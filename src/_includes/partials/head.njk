@@ -16,8 +16,11 @@
 	<meta name="robots" content="noindex, nofollow">
 	{% endif %}
 
+	<meta data-source="{{ page.inputPath }}" />
+
+
 	{% if toggle %}
-	<link rel="alternate" hreflang="{{ otherLang }}" href="{{ rootPath }}{{ otherLang }}/{{ toggle }}/index.html" />
+	<link rel="alternate" hreflang="{{ otherLang }}" href="{{ rootPath }}{% if toggle != "fr" and toggle != "en" %}{{ otherLang }}/{% endif %}{{ toggle }}/index.html" />
 	{% endif %}
 
 	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">

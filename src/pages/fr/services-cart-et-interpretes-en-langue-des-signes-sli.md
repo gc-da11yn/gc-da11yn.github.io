@@ -1,8 +1,8 @@
 ---
-title: Services CART et interprètes en langue des signes (<abbr>SLI</abbr>)
+title: Services CART et interprètes en langue des signes
 description: Les services d'hébergement les plus courants pour les réunions ou les événements sont les services de transcription en temps réel assistés par ordinateur (<abbr>CART</abbr>) et d'interprétation.
 internalLinks: true
-toggle: cart-services-and-sign-language-interpreters-sli
+toggle: cart-services-and-sign-language-interpreters
 subject:
   - howTos
 tags:

@@ -5,7 +5,7 @@ subject:
   - howTos
 tags:
   - designCourse
-toggle: personas-handicapes-pour-la-conception-d-une-experience-utilisateur-inclusive-eu
+toggle: personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu
 tocSimple: true
 ---
 

@@ -135,32 +135,32 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 	</header>
 	<div class="modal-body">
 
-- [Chapitre 2 – Exigences relatives à la portée](#chapitre-2--exigences-relatives-à-la-portée)
-- [Chapitre 3 – Critères de rendement fonctionnel](#chapitre-3--critères-de-rendement-fonctionnel)
-- [Chapitre 4 – Matériel](#chapitre-4--matériel)
+- [Chapitre 2 – Exigences relatives à la portée](#chapitre-2-exigences-relatives-a-la-portee)
+- [Chapitre 3 – Critères de rendement fonctionnel](#chapitre-3-criteres-de-rendement-fonctionnel)
+- [Chapitre 4 – Matériel](#chapitre-4-materiel)
   - [402 Fonctions restreintes](#402-fonctions-restreintes)
-  - [403 Données biométriques](#403-données-biométriques)
-  - [404 Préservation des renseignements fournis pour l’accessibilité](#404-préservation-des-renseignements-fournis-pour-laccessibilité)
-  - [405 Confidentialité](#405-confidentialité)
+  - [403 Données biométriques](#403-donnees-biometriques)
+  - [404 Préservation des renseignements fournis pour l’accessibilité](#404-preservation-des-renseignements-fournis-pour-laccessibilite)
+  - [405 Confidentialité](#405-confidentialite)
   - [406 Raccordements standard](#406-raccordements-standard)
-  - [407 Pièces manœuvrables](#407-pièces-manœuvrables)
-  - [408 Écran d’affichage](#408-écran-daffichage)
-  - [409 Indicateurs d’état](#409-indicateurs-détat)
+  - [407 Pièces manœuvrables](#407-pieces-manoeuvrables)
+  - [408 Écran d’affichage](#408-ecran-daffichage)
+  - [409 Indicateurs d’état](#409-indicateurs-detat)
   - [410 Codage par couleurs](#410-codage-par-couleurs)
   - [412 TIC avec communication vocale bidirectionnelle](#412-tic-avec-communication-vocale-bidirectionnelle)
-  - [413 Technologies de traitement des sous-titres codés](#413-technologies-de-traitement-des-sous-titres-codés)
+  - [413 Technologies de traitement des sous-titres codés](#413-technologies-de-traitement-des-sous-titres-codes)
   - [414 Technologies de traitement de la description audio](#414-technologies-de-traitement-de-la-description-audio)
   - [415 Commandes de l’utilisateur pour les sous-titres et les descriptions audio](#415-commandes-de-lutilisateur-pour-les-sous-titres-et-les-descriptions-audio)
-- [Chapitre 5 - Logiciels](#chapitre-5---logiciels)
-  - [501 Généralités](#501-généralités)
-  - [502 Interopérabilité avec technologie d’assistance](#502-interopérabilité-avec-technologie-dassistance)
+- [Chapitre 5 - Logiciels](#chapitre-5-logiciels)
+  - [501 Généralités](#501-generalites)
+  - [502 Interopérabilité avec technologie d’assistance](#502-interoperabilite-avec-technologie-dassistance)
   - [503 Applications](#503-applications)
   - [504 Outils-auteurs](#504-outils-auteurs)
-- [Chapitre 6 – Documentation et services de soutien](#chapitre-6--documentation-et-services-de-soutien)
+- [Chapitre 6 – Documentation et services de soutien](#chapitre-6-documentation-et-services-de-soutien)
   - [602 Documentation de soutien](#602-documentation-de-soutien)
 - [603 Services de soutien](#603-services-de-soutien)
 - [Dispositions non mises en correspondance](#dispositions-non-mises-en-correspondance)
-  - [Article 508 révisé](#article-508-révisé)
+  - [Article 508 révisé](#article-508-revise)
   - [EN 301 549](#en-301-549)
 
 	</div>
@@ -595,6 +595,7 @@ Le document EN 301 549 V3.2.1 (2021) a été élaboré à partir de la norme EN 
 </table>
 
 <p><a href="#left-panel" aria-controls="left-panel" class="overlay-lnk btn btn-primary btn-block" role="button">Liste des tableaux</a></p>
+
 ### Chapitre 4 – Matériel
 
 #### 402 Fonctions restreintes
@@ -8139,43 +8140,47 @@ REMARQUE 2 : Le système peut être spécifié comme devant fonctionner avec de
 ## Notes de bas de page
 
 <ol>
-<li id="fn1"><p>Les critères de rendement fonctionnel 302.7 et 302.8 de l’article 508 et les énoncés de rendement fonctionnel 4.2.7 et 4.2.8 de la norme EN 301 549 inclusivement visent les mêmes exigences, même s’ils sont regroupés légèrement différemment dans chaque norme.<a href="#fnref1" class="footnote-back" role="doc-backlink"><small>Return to reference 1</small></a></p></li>
-<li id="fn2"><p>Les critères de rendement fonctionnel 302.7 et 302.8 de l’article 508 et les énoncés de rendement fonctionnel 4.2.7 et 4.2.8 de la norme EN 301 549 inclusivement visent les mêmes exigences, même s’ils sont regroupés légèrement différemment dans chaque norme.<a href="#fnref2" class="footnote-back" role="doc-backlink"><small>Return to reference 2</small></a></p></li>
+<li id="fn1"><p>Les critères de rendement fonctionnel 302.7 et 302.8 de l’article 508 et les énoncés de rendement fonctionnel 4.2.7 et 4.2.8 de la norme EN 301 549 inclusivement visent les mêmes exigences, même s’ils sont regroupés légèrement différemment dans chaque norme.<a href="#fnref1" class="footnote-back" role="doc-backlink"><small>Retour à la référence 1</small></a></p></li>
+<li id="fn2"><p>Les critères de rendement fonctionnel 302.7 et 302.8 de l’article 508 et les énoncés de rendement fonctionnel 4.2.7 et 4.2.8 de la norme EN 301 549 inclusivement visent les mêmes exigences, même s’ils sont regroupés légèrement différemment dans chaque norme.<a href="#fnref2" class="footnote-back" role="doc-backlink"><small>Retour à la référence 2</small></a></p></li>
 <li id="fn3">
-<p>L’article 508 précise que le mode de fonctionnement non visuel doit être une sortie vocale.<a href="#fnref3" class="footnote-back" role="doc-backlink"><small>Return to reference 3</small></a></p>
+<p>L’article 508 précise que le mode de fonctionnement non visuel doit être une sortie vocale.<a href="#fnref3" class="footnote-back" role="doc-backlink"><small>Retour à la référence 3</small></a></p>
 </li>
-<li id="fn4"><p>L’article 508 fait référence à une configuration de clavier spécifique qui n’est pas nécessairement pertinente à toutes les langues.<a href="#fnref4" class="footnote-back" role="doc-backlink"><small>Return to reference 4</small></a></p></li>
-<li id="fn5"><p>L’article 508 contient des exigences supplémentaires relatives à la superposition des touches alphabétiques sur les touches numériques.<a href="#fnref5" class="footnote-back" role="doc-backlink"><small>Return to reference 5</small></a></p></li>
-<li id="fn6"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref6" class="footnote-back" role="doc-backlink"><small>Return to reference 6</small></a></p></li>
-<li id="fn7"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref7" class="footnote-back" role="doc-backlink"><small>Return to reference 7</small></a></p></li>
-<li id="fn7b"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref7b" class="footnote-back" role="doc-backlink"><small>Return to reference 7b</small></a></p></li>
-<li id="fn8"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref8" class="footnote-back" role="doc-backlink"><small>Return to reference 8</small></a></p></li>
-<li id="fn9"><p>La norme EN 301 549 V3.1.1 (2019-11) contient une erreur: «Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait […] » Les 685 mm auraient dû être convertis en 27 po. Ce document démontre l’erreur dans la documentation originale de la norme EN.<a href="#fnref9" class="footnote-back" role="doc-backlink"><small>Return to reference 9</small></a></p></li>
-<li id="fn10"><p>La norme EN 301 549 V3.1.1 (2019-11) contient une erreur: «Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait […] » Les 685 mm auraient dû être convertis en 27 po. Ce document démontre l’erreur dans la documentation originale de la norme EN.<a href="#fnref10" class="footnote-back" role="doc-backlink"><small>Return to reference 10</small></a></p></li>
-<li id="fn11"><p>L’article 508 fait référence à la norme 47 CFR 68.317 (une réglementation américaine), tandis que la norme EN 301 549 fait référence au niveau spécifique de gain de volume requis.<a href="#fnref11" class="footnote-back" role="doc-backlink"><small>Return to reference 11</small></a></p></li>
-<li id="fn12"><p>La norme EN 301 549 comprend des exigences plus spécifiques en matière de gain de volume.<a href="#fnref12" class="footnote-back" role="doc-backlink"><small>Return to reference 12</small></a></p></li>
-<li id="fn13"><p>Chacune fait référence à des normes locales pertinentes.<a href="#fnref13" class="footnote-back" role="doc-backlink"><small>Return to reference 13</small></a></p></li>
-<li id="fn14"><p>Chacune fait référence à des normes locales pertinentes.<a href="#fnref14" class="footnote-back" role="doc-backlink"><small>Return to reference 14</small></a></p></li>
-<li id="fn15"><p>Les exigences de la norme EN 301 549 n’ont qu’une valeur informative et font référence à une limite de fréquence supérieure plutôt qu’à la norme de l’UTI.<a href="#fnref15" class="footnote-back" role="doc-backlink"><small>Return to reference 15</small></a></p></li>
-<li id="fn16"><p>La norme EN 301 549 fournit les exigences relatives au TTR, dont il est question ci-dessous.<a href="#fnref16" class="footnote-back" role="doc-backlink"><small>Return to reference 16</small></a></p></li>
-<li id="fn17"><p>La norme EN 301 549 précise qu’elle doit être offerte « en mode textuel et dans au moins un autre mode » tandis que l’article 508 précise qu’elle doit être « visible et audible ».<a href="#fnref17" class="footnote-back" role="doc-backlink"><small>Return to reference 17</small></a></p></li>
-<li id="fn18"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref18" class="footnote-back" role="doc-backlink"><small>Return to reference 18</small></a></p></li>
-<li id="fn19"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref19" class="footnote-back" role="doc-backlink"><small>Return to reference 19</small></a></p></li>
-<li id="fn20"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref20" class="footnote-back" role="doc-backlink"><small>Return to reference 20</small></a></p></li>
-<li id="fn21"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref21" class="footnote-back" role="doc-backlink"><small>Return to reference 21</small></a></p></li>
-<li id="fn22"><p>L’article 508 fait référence aux normes locales spécifiques relatives aux syntoniseurs de télévision numérique.<a href="#fnref22" class="footnote-back" role="doc-backlink"><small>Return to reference 22</small></a></p></li>
-<li id="fn23"><p>L’article 508 met l’accent sur les pièces manœuvrables tandis que la norme EN 301 549 met l’accent sur le niveau d’interaction.<a href="#fnref23" class="footnote-back" role="doc-backlink"><small>Return to reference 23</small></a></p></li>
-<li id="fn24"><p>L’article 508 met l’accent sur les pièces manœuvrables tandis que la norme EN 301 549 met l’accent sur le niveau d’interaction.<a href="#fnref24" class="footnote-back" role="doc-backlink"><small>Return to reference 24</small></a></p></li>
-<li id="fn25"><p>L’article 508 mentionne spécifiquement les touches; tandis que la norme EN 301 549 a une portée plus large et doit inclure les touches.<a href="#fnref25" class="footnote-back" role="doc-backlink"><small>Return to reference 25</small></a></p></li>
-<li id="fn26"><p>L’article 508 exige que le délai soit réglé jusqu’à 2 secondes, tandis que la norme EN 301 549 exige le réglage du délai jusqu’à 0,5 seconde.<a href="#fnref26" class="footnote-back" role="doc-backlink"><small>Return to reference 26</small></a></p></li>
-<li id="fn27"><p>La norme EN 301 549 considère la réponse minutée comme un problème logiciel. Voir 11.2.1.17 (réglable du délai).<a href="#fnref27" class="footnote-back" role="doc-backlink"><small>Return to reference 27</small></a></p></li>
-<li id="fn28"><p>Les clauses des normes EN 301 549 V1.1.1 (2014) et V2.1.2 (2018) de la série 407.8 sont des recommandations (« devrait » par opposition à « doit »). Toutefois, les dispositions de la norme 301 549 V3.1.1 (2019) sont des exigences (« doit » par opposition à « devrait »).<a href="#fnref28" class="footnote-back" role="doc-backlink"><small>Return to reference 28</small></a></p></li>
-<li id="fn29"><p>La norme EN 301 549 considère les problèmes liés au clignotement et à la photosensibilité comme des critères de rendement fonctionnel (voir 4.2.9) et un critère logiciel (voir 11.2.1.19)<a href="#fnref29" class="footnote-back" role="doc-backlink"><small>Return to reference 29</small></a></p></li>
-<li id="fn30"><p>La norme EN 301 549 considère les problèmes liés à la transmission des renseignements par multiples modalités comme des problèmes logiciels (voir 11.2.1.9)<a href="#fnref30" class="footnote-back" role="doc-backlink"><small>Return to reference 30</small></a></p></li>
-<li id="fn31"><p>Aucune clause correspondante dans la norme EN 301 549. Certains aspects sont abordés dans les articles 5.1.5, 7.1.1, 7.1.2, 7.3, 11.2.1.2, 11.2.1.3 et 11.2.1.5 de la norme EN 301 549 (2014).<a href="#fnref31" class="footnote-back" role="doc-backlink"><small>Return to reference 31</small></a></p></li>
+
+<!-- Can't find reference need to open new issue
+<li id="fn4"><p>L’article 508 fait référence à une configuration de clavier spécifique qui n’est pas nécessairement pertinente à toutes les langues.<a href="#fnref4" class="footnote-back" role="doc-backlink"><small>Retour à la référence 4</small></a></p></li>
+-->
+
+<li id="fn5"><p>L’article 508 contient des exigences supplémentaires relatives à la superposition des touches alphabétiques sur les touches numériques.<a href="#fnref5" class="footnote-back" role="doc-backlink"><small>Retour à la référence 5</small></a></p></li>
+<li id="fn6"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref6" class="footnote-back" role="doc-backlink"><small>Retour à la référence 6</small></a></p></li>
+<li id="fn7"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref7" class="footnote-back" role="doc-backlink"><small>Retour à la référence 7</small></a></p></li>
+<li id="fn7b"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref7b" class="footnote-back" role="doc-backlink"><small>Retour à la référence 7b</small></a></p></li>
+<li id="fn8"><p>Certaines différences quant à la méthode de calcul de l’espace pour les genoux et les pieds.<a href="#fnref8" class="footnote-back" role="doc-backlink"><small>Retour à la référence 8</small></a></p></li>
+<li id="fn9"><p>La norme EN 301 549 V3.1.1 (2019-11) contient une erreur: «Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait […] » Les 685 mm auraient dû être convertis en 27 po. Ce document démontre l’erreur dans la documentation originale de la norme EN.<a href="#fnref9" class="footnote-back" role="doc-backlink"><small>Retour à la référence 9</small></a></p></li>
+<li id="fn10"><p>La norme EN 301 549 V3.1.1 (2019-11) contient une erreur: «Lorsqu’un obstacle fait partie intégrante des TIC, un espace sous l’obstacle entre 230 mm (9 po) et 685 mm (25 po) au-dessus du plancher est considéré comme un espace libre pour les genoux et il devrait […] » Les 685 mm auraient dû être convertis en 27 po. Ce document démontre l’erreur dans la documentation originale de la norme EN.<a href="#fnref10" class="footnote-back" role="doc-backlink"><small>Retour à la référence 10</small></a></p></li>
+<li id="fn11"><p>L’article 508 fait référence à la norme 47 CFR 68.317 (une réglementation américaine), tandis que la norme EN 301 549 fait référence au niveau spécifique de gain de volume requis.<a href="#fnref11" class="footnote-back" role="doc-backlink"><small>Retour à la référence 11</small></a></p></li>
+<li id="fn12"><p>La norme EN 301 549 comprend des exigences plus spécifiques en matière de gain de volume.<a href="#fnref12" class="footnote-back" role="doc-backlink"><small>Retour à la référence 12</small></a></p></li>
+<li id="fn13"><p>Chacune fait référence à des normes locales pertinentes.<a href="#fnref13" class="footnote-back" role="doc-backlink"><small>Retour à la référence 13</small></a></p></li>
+<li id="fn14"><p>Chacune fait référence à des normes locales pertinentes.<a href="#fnref14" class="footnote-back" role="doc-backlink"><small>Retour à la référence 14</small></a></p></li>
+<li id="fn15"><p>Les exigences de la norme EN 301 549 n’ont qu’une valeur informative et font référence à une limite de fréquence supérieure plutôt qu’à la norme de l’UTI.<a href="#fnref15" class="footnote-back" role="doc-backlink"><small>Retour à la référence 15</small></a></p></li>
+<li id="fn16"><p>La norme EN 301 549 fournit les exigences relatives au TTR, dont il est question ci-dessous.<a href="#fnref16" class="footnote-back" role="doc-backlink"><small>Retour à la référence 16</small></a></p></li>
+<li id="fn17"><p>La norme EN 301 549 précise qu’elle doit être offerte « en mode textuel et dans au moins un autre mode » tandis que l’article 508 précise qu’elle doit être « visible et audible ».<a href="#fnref17" class="footnote-back" role="doc-backlink"><small>Retour à la référence 17</small></a></p></li>
+<li id="fn18"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref18" class="footnote-back" role="doc-backlink"><small>Retour à la référence 18</small></a></p></li>
+<li id="fn19"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref19" class="footnote-back" role="doc-backlink"><small>Retour à la référence 19</small></a></p></li>
+<li id="fn20"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref20" class="footnote-back" role="doc-backlink"><small>Retour à la référence 20</small></a></p></li>
+<li id="fn21"><p>La norme EN 301 549 contient des exigences plus spécifiques.<a href="#fnref21" class="footnote-back" role="doc-backlink"><small>Retour à la référence 21</small></a></p></li>
+<li id="fn22"><p>L’article 508 fait référence aux normes locales spécifiques relatives aux syntoniseurs de télévision numérique.<a href="#fnref22" class="footnote-back" role="doc-backlink"><small>Retour à la référence 22</small></a></p></li>
+<li id="fn23"><p>L’article 508 met l’accent sur les pièces manœuvrables tandis que la norme EN 301 549 met l’accent sur le niveau d’interaction.<a href="#fnref23" class="footnote-back" role="doc-backlink"><small>Retour à la référence 23</small></a></p></li>
+<li id="fn24"><p>L’article 508 met l’accent sur les pièces manœuvrables tandis que la norme EN 301 549 met l’accent sur le niveau d’interaction.<a href="#fnref24" class="footnote-back" role="doc-backlink"><small>Retour à la référence 24</small></a></p></li>
+<li id="fn25"><p>L’article 508 mentionne spécifiquement les touches; tandis que la norme EN 301 549 a une portée plus large et doit inclure les touches.<a href="#fnref25" class="footnote-back" role="doc-backlink"><small>Retour à la référence 25</small></a></p></li>
+<li id="fn26"><p>L’article 508 exige que le délai soit réglé jusqu’à 2 secondes, tandis que la norme EN 301 549 exige le réglage du délai jusqu’à 0,5 seconde.<a href="#fnref26" class="footnote-back" role="doc-backlink"><small>Retour à la référence 26</small></a></p></li>
+<li id="fn27"><p>La norme EN 301 549 considère la réponse minutée comme un problème logiciel. Voir 11.2.1.17 (réglable du délai).<a href="#fnref27" class="footnote-back" role="doc-backlink"><small>Retour à la référence 27</small></a></p></li>
+<li id="fn28"><p>Les clauses des normes EN 301 549 V1.1.1 (2014) et V2.1.2 (2018) de la série 407.8 sont des recommandations (« devrait » par opposition à « doit »). Toutefois, les dispositions de la norme 301 549 V3.1.1 (2019) sont des exigences (« doit » par opposition à « devrait »).<a href="#fnref28" class="footnote-back" role="doc-backlink"><small>Retour à la référence 28</small></a></p></li>
+<li id="fn29"><p>La norme EN 301 549 considère les problèmes liés au clignotement et à la photosensibilité comme des critères de rendement fonctionnel (voir 4.2.9) et un critère logiciel (voir 11.2.1.19)<a href="#fnref29" class="footnote-back" role="doc-backlink"><small>Retour à la référence 29</small></a></p></li>
+<li id="fn30"><p>La norme EN 301 549 considère les problèmes liés à la transmission des renseignements par multiples modalités comme des problèmes logiciels (voir 11.2.1.9)<a href="#fnref30" class="footnote-back" role="doc-backlink"><small>Retour à la référence 30</small></a></p></li>
+<li id="fn31"><p>Aucune clause correspondante dans la norme EN 301 549. Certains aspects sont abordés dans les articles 5.1.5, 7.1.1, 7.1.2, 7.3, 11.2.1.2, 11.2.1.3 et 11.2.1.5 de la norme EN 301 549 (2014).<a href="#fnref31" class="footnote-back" role="doc-backlink"><small>Retour à la référence 31</small></a></p></li>
 <li id="fn32"><p>Aucune clause correspondante dans la norme EN 301 549. Certains aspects sont abordés dans les articles 5.1.3, 7.2.2 et 11.3 de la norme</p>
-<p>EN 301 549 (2014).<a href="#fnref32" class="footnote-back" role="doc-backlink"><small>Return to reference 32</small></a></p></li>
-<li id="fn33"><p>Aucune clause correspondante dans la norme EN 301 549. La question de l’interopérabilité avec les technologies d’assistance est abordée à l’article 11.3 de la norme EN 301 549 (2014).<a href="#fnref33" class="footnote-back" role="doc-backlink"><small>Return to reference 33</small></a></p></li>
-<li id="fn34"><p>Aucune clause correspondante dans la norme EN 301 549, mais la clause 11.6.3 couvre la même exigence sans préciser PDF.<a href="#fnref34" class="footnote-back" role="doc-backlink"><small>Return to reference 34</small></a></p></li>
+<p>EN 301 549 (2014).<a href="#fnref32" class="footnote-back" role="doc-backlink"><small>Retour à la référence 32</small></a></p></li>
+<li id="fn33"><p>Aucune clause correspondante dans la norme EN 301 549. La question de l’interopérabilité avec les technologies d’assistance est abordée à l’article 11.3 de la norme EN 301 549 (2014).<a href="#fnref33" class="footnote-back" role="doc-backlink"><small>Retour à la référence 33</small></a></p></li>
+<li id="fn34"><p>Aucune clause correspondante dans la norme EN 301 549, mais la clause 11.6.3 couvre la même exigence sans préciser PDF.<a href="#fnref34" class="footnote-back" role="doc-backlink"><small>Retour à la référence 34</small></a></p></li>
 </ol>
 </section>

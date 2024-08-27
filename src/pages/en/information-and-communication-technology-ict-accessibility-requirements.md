@@ -8235,7 +8235,7 @@ toggle: exigences-en-matiere-de-technologies-de-linformation-et-des-communicatio
 	<li>during those parts of start-up, shutdown, and other state transitions that can be completed without user interaction.</li>
 </ul>
 <p>NOTE 3: Even in the above situations, it is best practice to apply requirements in the present document wherever it is feasible and safe to do so.</p>
-<h2>Annex - References (from EN 301 549)</h2>
+<h2 id="annexRef">Annex - References (from EN 301 549)</h2>
 <h3>2.1 Normative references&nbsp;</h3>
 <p>References are specific, identified by date of publication and/or edition number or version number. Only the cited version applies.&nbsp;</p>
 <p>Referenced documents which are not found to be publicly available in the expected location might be found at <a href="https://docbox.etsi.org/Reference">ETSI References in docbox</a>.&nbsp; </p>

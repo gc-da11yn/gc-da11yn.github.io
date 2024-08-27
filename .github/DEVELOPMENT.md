@@ -58,15 +58,17 @@ It will create a version controlled copy of the website in the directory you ent
 
 `git fetch --all`
 
-Ensure your local working copy include all the recent changesgit rebase upstream/main.
+Ensure your local working copy includes all the recent changes by running:
 
-5a. Be attentive to rebase conflict, in such situation you can rollback by running
+`git rebase upstream/main`
+
+5a. Be attentive to rebase conflict, in such situations, you can rollback by running
 
 `git rebase --abort`
 
 and then use a different strategy to update your working copy.
 
-5b. You will see the following message if it went well
+5b. You will see the following message if it went well:
 
 `Successfully rebased and updated refs/heads/main.`
 
@@ -108,11 +110,45 @@ The `npm run spellcheck` command runs a spell checker on all the markdown and HT
 
 The script will then display possible spelling errors in the terminal.
 
-#### Bulding the site for testing locally
+#### Building the site for testing locally
 
-The `npm run start` command is used to build the `_site` folder with all the files (HTML, CSS, JS and images) needed to host the site.
+The `npm run start` command is used to build the `_site` folder with all the files (HTML, CSS, JS, and images) needed to host the site.
 
-The script also runs a websever on your machine for you to view the site locally, usually set at _http://localhost:8081_ or the nearest unused port to **8081**, if it's in use.
+The script also runs a web server on your machine for you to view the site locally, usually set at _http://localhost:8081_ or the nearest unused port to **8081**, if it's in use.
+
+#### Checking for Broken Links
+
+To check for broken links, you'll need to follow these two steps:
+
+##### Step 1: Start the Eleventy Server
+
+First, start the Eleventy server by running the following command:
+
+   ```bash
+   npm start
+   ```
+
+This command will:
+
+- Build and serve the Eleventy site on a dynamically chosen port.
+- Save the port number in a .eleventy-port file.
+
+Make sure the server is running properly before proceeding to the next step.
+
+##### Step 2: Run the Link Checker
+
+After the server is up and running, you can run the link checker to ensure all links are valid:
+
+  ```bash
+  npm run link-check
+  ```
+
+This command will:
+
+- Read the port number from the .eleventy-port file.
+- Check for broken links on the served site using that port.
+
+Make sure to use this process to ensure all links are valid before deploying any changes.
 
 ### Updating the website
 
@@ -138,7 +174,7 @@ The `isDraft` variable is used to control whether or not an alert message includ
 
 To trigger the `isDraft` variable in the front matter, you have to set its value to `true`. Here's an example of front matter that sets the `isDraft` variable to `true`:
 
-    ```
+    ```yaml
     ---
     isDraft: true
     ---
@@ -158,9 +194,9 @@ The `needsTranslation` variable is used to indicate whether or not the content n
 
 To trigger the `needsTranslation` variable in the front matter, you have to set its value to `true`, if the content needs to be translated. Here's an example of front matter that sets the `needsTranslation` variable to `true`:
 
-    ```
+    ```yaml
     ---
-    needsTranslation:true
+    needsTranslation: true
     ---
     ```
 
@@ -178,9 +214,9 @@ This needs to be set to `true` on all pages that have links that point to conten
 
 To trigger the `internalLinks` variable in the front matter, you have to set its value to `true`, if the website contains internal links that can only be accessed by government of canada. Here's an example of front matter that sets the `internalLinks` variable to `true`:
 
-    ```
+    ```yaml
     ---
-    internalLinks:true
+    internalLinks: true
     ---
     ```
 
@@ -217,16 +253,6 @@ To enable the simple TOC on a specific page, add the following to the front matt
     ```
 
 This configuration will automatically generate a "On this page" section at the beginning of the content, listing the specified headings based on the toc or tocSimple setting.
-
-## markdown-link-checker
-
-### How to run markdown-link-checker to check for broken or dead links on the console
-
-The markdown-link-checker is an implemented plugin from [markdown-link-checker](https://www.npmjs.com/package/markdown-link-check) that automatically scans and checks for working and dead links. The code used in this project is a modified version from [canada.ca link checker](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/link-check.js). We are currently using version 3.0.
-
-To run the plugin simply type 'npm run link-check' in your terminal. The links will load in the terminal but they will also be generated inside a 'broken-links.json' in the root directory.
-
-Tip: Keep in mind it might lag, but just give it a few seconds to finish
 
 ______________________
 
@@ -324,7 +350,7 @@ La commande `npm run dev` va construire le site dans le dossier `_site` et défi
 
 La commande `npm run eleventy` construit les pages HTML du dossier `src` dans le dossier `_site`.
 
-#### Création d'un nouveau page
+#### Création d'une nouvelle page
 
 Pour créer une nouvelle page pour le site dans les répertoires `src/pages/en` et `src/pages/fr`, vous pouvez utiliser `npm run newPage`.
 
@@ -341,6 +367,41 @@ Le script affichera alors les éventuelles erreurs d'orthographe dans le termina
 La commande `npm run start` est utilisée pour construire le dossier `_site` avec tous les fichiers (HTML, CSS, JS et images) nécessaires pour héberger le site.
 
 Le script exécute également un websever sur votre machine pour vous permettre de visualiser le site localement, généralement sur _http://localhost:8081_ ou sur le port inutilisé le plus proche de **8081**, s'il est utilisé.
+
+
+##### Vérification des liens brisés
+
+Pour vérifier les liens brisés, vous devez suivre ces deux étapes :
+
+###### Étape 1 : Démarrer le serveur Eleventy
+
+Tout d'abord, démarrez le serveur Eleventy en exécutant la commande suivante :
+
+   ```bash
+   npm start
+   ```
+
+Cette commande va :
+
+- Construire et servir le site Eleventy sur un port choisi dynamiquement.
+- Sauvegarder le numéro de port dans un fichier `.eleventy-port`.
+
+Assurez-vous que le serveur fonctionne correctement avant de passer à l'étape suivante.
+
+###### Étape 2 : Exécuter le vérificateur de liens
+
+Une fois le serveur en marche, vous pouvez exécuter le vérificateur de liens pour vous assurer que tous les liens sont valides :
+
+  ```bash
+  npm run link-check
+  ```
+
+Cette commande va :
+
+- Lire le numéro de port à partir du fichier `.eleventy-port`.
+- Vérifier les liens brisés sur le site servi en utilisant ce port.
+
+Assurez-vous d'utiliser ce processus pour vérifier que tous les liens sont valides avant de déployer des modifications.
 
 ### Mise à jour du site Web
 
@@ -366,7 +427,7 @@ La variable `isDraft` est utilisée pour contrôler si un message d'alerte inclu
 
 Pour déclencher la variable `isDraft` dans le front matter, vous devez définir sa valeur sur `true`. Voici un exemple d'avant-propos qui définit la variable `isDraft` sur `true`:
 
-    ```
+    ```yaml
     ---
     isDraft:true
     ---
@@ -386,7 +447,7 @@ La variable `needsTranslation` est utilisée pour indiquer si le contenu doit ou
 
 Pour déclencher la variable `needsTranslation` dans le front matter, vous devez définir sa valeur sur `true`, si le contenu doit être traduit. Voici un exemple d'avant-propos qui définit la variable `needsTranslation` sur `true`:
 
-    ```
+    ```yaml
     ---
     needsTranslation:true
     ---
@@ -406,7 +467,7 @@ Cela doit être défini sur vrai sur toutes les pages qui ont des liens pointant
 
 Pour déclencher la variable `internalLinks` dans le front matter, vous devez définir sa valeur sur `true`, si le site Web contient des liens internes qui ne peuvent être consultés que par le gouvernement du canada. Voici un exemple d'avant-propos qui définit la variable `internalLinks` sur `true`:
 
-    ```
+    ```yaml
     ---
     internalLinks:true
     ---
@@ -445,16 +506,5 @@ Pour activer le TOC simple sur une page spécifique, ajoutez ce qui suit dans le
     ```
 
 Cette configuration générera automatiquement une section "Sur cette page" au début du contenu, listant les titres spécifiés en fonction du paramètre `toc` ou `tocSimple`.
-
-## markdown-link-checker
-
-### Comment exécuter markdown-link-checker pour vérifier les liens brisés ou morts sur la console ?
-
-Le markdown-link-checker est un plugin implémenté à partir de [markdown-link-checker] (https://www.npmjs.com/package/markdown-link-check) qui analyse et vérifie automatiquement les liens actifs et morts. Le code utilisé dans ce projet est une version modifiée de [canada.ca link checker](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/link-check.js). Nous utilisons actuellement la version 3.0.
-
-Pour lancer le plugin, tapez simplement 'npm run link-check' dans votre terminal. Les liens se chargeront dans le terminal mais ils seront également générés dans un fichier 'broken-links.json' dans le répertoire racine.
-
-Astuce : Gardez à l'esprit qu'il peut y avoir un décalage, mais donnez-lui quelques secondes pour terminer.
-
 
 </div>

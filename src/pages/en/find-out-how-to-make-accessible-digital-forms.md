@@ -5,7 +5,7 @@ subject:
   - howTos
 tags:
   - createForms
-toggle: ameliorer-l-accessibilite-des-formulaires
+toggle: ameliorer-laccessibilite-des-formulaires
 internalLinks: true
 ---
 ## The most accessible format for forms: HTML
