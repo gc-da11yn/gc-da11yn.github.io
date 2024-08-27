@@ -23,9 +23,9 @@ The intended audience is Technical and Contracting Authorities within SSC and th
 
 ## Background
 
-This document deals with technical standards for ICT accessibility. The most common standards are the Web Content Accessibility Guidelines (<abbr>WCAG</abbr>), Revised Section 508 and EN 301 549 Harmonized European Standard for ICT Accessibility.
+This document deals with technical standards for ICT accessibility. The most common standards are the Web Content Accessibility Guidelines (<abbr>WCAG</abbr>), Revised Section 508 and EN 301 549 Harmonised European Standard for ICT Accessibility.
 
-The Revised Section 508 (2017) provides the technical standard for the US government to procure accessible products and services. This standard is, by design, closely harmonized with the EN 301 549 (2014) – which drew its requirements largely from the original Section 508 standards and WCAG 2.0. Consequently, these standards are very similar but do contain key differences. The EN 301 549 has been updated four times since the release of the Revised Section 508, introducing further differences between the standards.
+The Revised Section 508 (2017) provides the technical standard for the US government to procure accessible products and services. This standard is, by design, closely harmonised with the EN 301 549 (2014) – which drew its requirements largely from the original Section 508 standards and WCAG 2.0. Consequently, these standards are very similar but do contain key differences. The EN 301 549 has been updated four times since the release of the Revised Section 508, introducing further differences between the standards.
 
 ## Purpose
 
@@ -45,7 +45,7 @@ While Revised Section 508 and EN 301 549 include WCAG leveled requirements, thes
 
 ### Revised Section 508 to EN 301 549 (2014)
 
-These standards are closely harmonized. Some requirements vary in specificity, with the EN 301 549 usually taking a more general approach. Revised Section 508 requirements may refer to specific US standards, while the EN 301 549 either includes the relevant specifications within the document or refers to international standards. Some general requirements of Revised Section 508 are only addressed in the Software chapter of the EN 301 549, so the Software requirements may need to be included even for hardware devices which have displays.
+These standards are closely harmonised. Some requirements vary in specificity, with the EN 301 549 usually taking a more general approach. Revised Section 508 requirements may refer to specific US standards, while the EN 301 549 either includes the relevant specifications within the document or refers to international standards. Some general requirements of Revised Section 508 are only addressed in the Software chapter of the EN 301 549, so the Software requirements may need to be included even for hardware devices which have displays.
 
 ### EN 301 549 (2014) to EN 301 549 (2018)
 
