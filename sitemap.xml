@@ -867,22 +867,12 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/links/en/en-301-549-the-harmonized-european-standard-for-ict-accessibility/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/links/en/information-and-communication-technology-ict-requirements-generator-prototype-for-the-en-301-549-2021/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://a11y.canada.ca/links/en/section-508-of-the-rehabilitation-act-of-1973/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/links/en/standard-on-web-accessibility/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
 	
@@ -898,11 +888,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/links/en/web-content-accessibility-guidelines-wcag/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/links/fr/en-301-549-norme-europeenne-harmonisee-pour-l-accessibilite-tic/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
 	
@@ -1417,11 +1402,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/technical-summary-of-the-en-301-549-v321-2021/</loc>
-		<lastmod>2024-07-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta/</loc>
 		<lastmod>2024-07-17</lastmod>
 	</url>
@@ -1652,16 +1632,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
 		<lastmod>2024-08-26</lastmod>
 	</url>
@@ -1677,7 +1647,37 @@
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/links/en/en-301-549-the-harmonised-european-standard-for-ict-accessibility/</loc>
+		<lastmod>2024-08-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/en/standard-on-web-accessibility/</loc>
+		<lastmod>2024-08-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/fr/en-301-549-norme-europeenne-harmonisee-pour-l-accessibilite-tic/</loc>
+		<lastmod>2024-08-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
+		<lastmod>2024-08-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021/</loc>
+		<lastmod>2024-08-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/technical-summary-of-the-en-301-549-v321-2021/</loc>
+		<lastmod>2024-08-28</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/fr/mise-en-correspondance-entre-larticle-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021/</loc>
-		<lastmod>2024-08-26</lastmod>
+		<lastmod>2024-08-28</lastmod>
 	</url>
 </urlset>
