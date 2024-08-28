@@ -11,7 +11,7 @@ tocSimple: true
 
 ## Avis de droit d’auteur
 
-Ce document reproduit les exigences pertinentes en matière d’accessibilité des TIC du EN 301 549 norme européenne harmonisée « Exigences en accessibilité pour les produits et services en TIC », disponible en anglais seulement, (© utilisé sous la licence de l’Institut Européen de Normalisation des Télécommunications 2014, 2018, 2019 et 2021. © Comité Européen de Normalisation 2014, 2018, 2019 et 2021. © Comité Européen de Normalisation Électrotechnique 2014, 2018, 2019, 2021. Tous droits réservés.)
+Ce document reproduit les exigences pertinentes en matière d’accessibilité des TIC du EN 301 549 norme européenne harmonisée Exigences en accessibilité pour les produits et services en TIC, disponible en anglais seulement, (© utilisé sous la licence de l’Institut Européen de Normalisation des Télécommunications 2014, 2018, 2019 et 2021. © Comité Européen de Normalisation 2014, 2018, 2019 et 2021. © Comité Européen de Normalisation Électrotechnique 2014, 2018, 2019, 2021. Tous droits réservés.)
 
 ## Avertissement
 
