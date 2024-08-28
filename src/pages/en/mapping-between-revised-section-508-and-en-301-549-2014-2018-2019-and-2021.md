@@ -11,7 +11,7 @@ tocSimple: true
 
 ## Copyright Notice
 
-This document reproduces relevant ICT accessibility requirements from the EN 301 549 Harmonised European Standard "Accessibility requirements for ICT products and services" (© used under license from European Telecommunications Standards Institute 2014, 2018, 2019 and 2021. © Comité Européen de Normalisation 2014, 2018, 2019, 2021. © Comité Européen de Normalisation Électrotechnique 2014, 2018, 2019 and 2021. All rights reserved.)
+This document reproduces relevant ICT accessibility requirements from the EN 301 549 Harmonised European Standard Accessibility requirements for ICT products and services (© used under license from European Telecommunications Standards Institute 2014, 2018, 2019 and 2021. © Comité Européen de Normalisation 2014, 2018, 2019, 2021. © Comité Européen de Normalisation Électrotechnique 2014, 2018, 2019 and 2021. All rights reserved.)
 
 ## Caveat
 
