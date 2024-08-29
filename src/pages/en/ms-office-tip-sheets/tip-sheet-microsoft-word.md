@@ -2,11 +2,6 @@
 title: Tip sheet for Microsoft Word
 description: Tip sheet for Microsoft Word
 toggle: feuille-de-conseils-pour-microsoft-word
-subject:
-  - howTos
-  - createDocument
-tags:
-  - msTips
 ---
 
 # Create accessible documents in Word
@@ -31,11 +26,11 @@ When pasting content from another source:
 -	Each heading must be unique and descriptive.
 
 ## Formatting content
--	Format content by applying **Styles**; instead of the direct formatting commands in the **Fonts** group, for example:   
+-	Format content by applying **Styles**; instead of the direct formatting commands in the **Fonts** group, for example:
     -	apply **Strong** style; instead of **Bold**;
     -	apply *Emphasis* style; instead of *Italic*.
 -	Select simple sans-serif fonts, like Arial, from the **Design** tab > **Fonts** menu.
--	On the **Home** tab’s **Styles** group, select font type ending with:   
+-	On the **Home** tab’s **Styles** group, select font type ending with:
     -	“(Heading)” for **Heading** styles;
     -	“(Body)” for all **other** styles.
 -	Format **Styles** to **Align Left**; instead of **Center**, **Right** or **Justify**.
@@ -72,7 +67,7 @@ Complex images (like graphs and charts) require **Alt Text** and a **Long descri
 
 **Things to avoid** :
 -	Images of text
--	SmartArt 
+-	SmartArt
 -	grouped objects
 
 ## Tables
@@ -103,7 +98,7 @@ background images
 ## Languages
 Create separate documents for each language to maximize accessibility. If you must create a multilingual document, use **Word for desktop** to set the proofing language:
 1.	Select all paragraphs (press <kbd>Ctrl</kbd> + <kbd>A</kbd>);
-2.	Press <kbd>Alt</kbd>, <kbd>R</kbd>, **(ZL)**, <kbd>U</kbd>, <kbd>L</kbd> or   
+2.	Press <kbd>Alt</kbd>, <kbd>R</kbd>, **(ZL)**, <kbd>U</kbd>, <kbd>L</kbd> or
 select **Review** tab > **Language** group (if necessary) > **Language** menu > **Set proofing language**.
 
 Set the language of paragraphs based on their language.
@@ -118,7 +113,7 @@ To run the accessibility checker, select:
 The accessibility checker is a great start, but it won’t catch every issue.
 
 ## Word to PDF
-**Note:** Most PDF files are not accessible. When possible, share your Word document. 
+**Note:** Most PDF files are not accessible. When possible, share your Word document.
 
 If you must create a PDF version of your document:
 1.	Press <kbd>Alt</kbd>, <kbd>F</kbd>, <kbd>E</kbd>, <kbd>A</kbd> or select **File** tab > **Export** menu > **Create PDF/XPS Document** submenu > **Create PDF/XPS**

@@ -2,11 +2,6 @@
 title: Feuille de conseils pour Outlook
 description: Feuille de conseils pour Outlook
 toggle: tip-sheet-for-outlook
-subject:
-  - howTos
-  - createDocument
-tags:
-  - msTips
 ---
 
 # Créer des courriels accessibles dans Outlook
@@ -101,7 +96,7 @@ les images d’arrière-plan.
           <li><strong>Emplacement dans ce document;</strong></li>
           <li>votre signet;</li>
           <li>OK.</li>
-        </ol>	
+        </ol>
     4.	à partir de **Outlook pour ordinateur de bureau**, définissez la langue de vérification en fonction du contenu du paragraphe.
 - Avant d’envoyer un courriel, définissez toujours la langue de vérification pour chaque paragraphe.
 

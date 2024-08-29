@@ -2,11 +2,6 @@
 title: Feuille de conseils pour Microsoft Word
 description: Feuille de conseils pour Microsoft Word
 toggle: tip-sheet-for-microsoft-word
-subject:
-  - howTos
-  - createDocument
-tags:
-  - msTips
 ---
 
 # Créer des documents accessibles dans Word
@@ -31,11 +26,11 @@ Pour coller du contenu provenant d’une autre source :
 -	Chaque titre doit être unique et descriptif.
 
 ## Formatage du contenu
--	Formatez le contenu en appliquant **Styles**, au lieu des commandes de formatage direct dans le groupe **Police**, par exemple :   
+-	Formatez le contenu en appliquant **Styles**, au lieu des commandes de formatage direct dans le groupe **Police**, par exemple :
     -	appliquez le style **Élevé** au lieu de **Gras**;
     -	appliquez le style *Accentuation* au lieu de *Italique*.
 -	Sélectionnez des polices simples sans empattement, comme Arial, à partir de l’onglet **Dessin** > du menu **Polices**.
--	À l’onglet **Accueil** dans le groupe **Styles**, sélectionnez la police qui se termine par :   
+-	À l’onglet **Accueil** dans le groupe **Styles**, sélectionnez la police qui se termine par :
     -	« (En-têtes) » pour les styles **Titre**;
     -	« (Corps) » pour tous les **autres styles**.
 -	Formatez les **styles** pour qu’ils soient **alignés à gauche**, plutôt qu’au **centre**, **à droite** ou **justifiés**.
@@ -100,7 +95,7 @@ les images d’arrière-plan.
 ## Langues
 Créez des documents distincts pour chaque langue afin d’optimiser l’accessibilité. Si vous devez créer un document multilingue, utilisez **Word pour bureau** pour définir la langue de vérification :
 1.	sélectionnez tous les paragraphes (appuyez sur <kbd>Ctrl</kbd> + <kbd>A</kbd>);
-2.	appuyez sur <kbd>Alt</kbd>, <kbd>R</kbd>, (ZL), <kbd>J</kbd>, <kbd>L</kbd> ou   
+2.	appuyez sur <kbd>Alt</kbd>, <kbd>R</kbd>, (ZL), <kbd>J</kbd>, <kbd>L</kbd> ou
 sélectionnez l’onglet **Révision** > le groupe **Langue** (si cela est nécessaire) > le menu **Langue** > **Définir la langue de vérification**.
 
 Définissez la langue des paragraphes en fonction de leur langue.

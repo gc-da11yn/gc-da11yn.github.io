@@ -2,11 +2,6 @@
 title: Tip sheet for Outlook
 description: Tips sheet for Outlook
 toggle: feuille-de-conseils-pour-outlook
-subject:
-  - howTos
-  - createDocument
-tags:
-  - msTips
 ---
 
 # Create accessible emails in Outlook
@@ -44,18 +39,18 @@ Provide explicit names for links. For example, “discover offers” instead of 
 For lists, use bullets or numbered lists from **Home** tab > **Basic Text** group > **Bullets** menu.
 
 ## Images
-Images must have the **Layout Option** set as **In Line with Text** (unless decorative). Select image > press <kbd>Shift</kbd> + <kbd>F10</kbd> (or right-click) > select **Wrap Text** > select **In Line with Text**.   
+Images must have the **Layout Option** set as **In Line with Text** (unless decorative). Select image > press <kbd>Shift</kbd> + <kbd>F10</kbd> (or right-click) > select **Wrap Text** > select **In Line with Text**.
 
-All images require descriptive alternative text (Alt Text). It must convey the meaning of the image. If an image is decorative, type “Decorative”.  
+All images require descriptive alternative text (Alt Text). It must convey the meaning of the image. If an image is decorative, type “Decorative”.
 
 To access the **Alt Text** panel:
 1.	select image
 2.	press <kbd>Shift</kbd> + <kbd>F10</kbd> (or right-click)
-3.	select **View Alt Text**.   
+3.	select **View Alt Text**.
 
-**Note**: Alt text should be fewer than 120 characters.   
+**Note**: Alt text should be fewer than 120 characters.
 
-Complex images (like graphs and charts) require **Alt Text** and a **Long description** containing all the image information, such as data and trends. 
+Complex images (like graphs and charts) require **Alt Text** and a **Long description** containing all the image information, such as data and trends.
 
 **Things to avoid** :
 - images of text or signatures.
@@ -79,10 +74,10 @@ Complex images (like graphs and charts) require **Alt Text** and a **Long descri
 - Follow your department's guidelines for signature requirements.
 
 ## Colour and contrast
-When composing an email, stick to the **Automatic** colour and **Theme Accent** colours. This way recipients can easily reduce barriers by applying custom colours that meet their needs (using **Format Text** tab > **Styles** group > **Change Styles** menu > **Colors** sub-menu).     
+When composing an email, stick to the **Automatic** colour and **Theme Accent** colours. This way recipients can easily reduce barriers by applying custom colours that meet their needs (using **Format Text** tab > **Styles** group > **Change Styles** menu > **Colors** sub-menu).
 
 Make sure there is sufficient contrast between the text and the background.
-Information must be conveyed using more than colour alone. For example, add a border or a different shape.     
+Information must be conveyed using more than colour alone. For example, add a border or a different shape.
 
 **Things to avoid** :
 background images
@@ -103,7 +98,7 @@ background images
           <li><strong>Place in this document;</strong></li>
           <li>your bookmark;</li>
           <li>OK.</li>
-        </ol>	
+        </ol>
     4.	From **Outlook for desktop** set the proofing language according to the paragraph content.
 - Before sending an email, always set the proofing language by paragraph.
 
@@ -117,6 +112,6 @@ To run the accessibility checker, select:
 1.	**Review** tab
 2.	**Accessibility** group
 3.	**Check accessibility**
-4.	Check the **Keep accessibility checker running while I work** option. 
+4.	Check the **Keep accessibility checker running while I work** option.
 
 The accessibility checker is a great start, but it won’t catch every issue.

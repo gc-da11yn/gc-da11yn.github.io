@@ -2,11 +2,6 @@
 title: Tip sheet for Microsoft PowerPoint Presentation
 description: Tip sheet for Microsoft PowerPoint Presentation
 toggle: feuille-de-conseils-pour-la-presentation-microsoft-powerpoint
-subject:
-  - howTos
-  - createDocument
-tags:
-  - msTips
 ---
 # Create accessible presentations in PowerPoint
 Version 1.3 | March 2024
@@ -63,7 +58,7 @@ To access the **Alt Text** panel:
 
 Complex images (like graphs and charts) require an alternative text and a long description containing all the image information, such as data and trends.
 
-**Things to avoid :**: 
+**Things to avoid :**:
 - images of text;
 - SmartArt;
 - grouped objects.
