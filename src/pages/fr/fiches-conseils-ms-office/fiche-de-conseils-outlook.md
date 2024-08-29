@@ -1,6 +1,6 @@
 ---
 title: Feuille de conseils pour Outlook
-description: Feuille de conseils pour Outlook
+description: Référence simple pour la création d’un courrier électronique accessible dans Outlook.Feuille de conseils pour Outlook.
 toggle: tip-sheet-for-outlook
 ---
 

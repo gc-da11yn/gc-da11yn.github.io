@@ -1,6 +1,6 @@
 ---
 title: Tip sheet for Outlook
-description: Tips sheet for Outlook
+description: Simple reference for creating accessible emails in Outlook.
 toggle: feuille-de-conseils-pour-outlook
 ---
 
