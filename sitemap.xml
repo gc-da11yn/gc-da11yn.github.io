@@ -1687,11 +1687,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-powerpoint-presentation/</loc>
-		<lastmod>2024-08-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-word/</loc>
 		<lastmod>2024-08-30</lastmod>
 	</url>
@@ -1718,6 +1713,11 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-la-presentation-microsoft-powerpoint/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-powerpoint-presentation/</loc>
 		<lastmod>2024-08-30</lastmod>
 	</url>
 </urlset>
