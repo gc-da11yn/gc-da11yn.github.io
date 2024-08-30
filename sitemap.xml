@@ -1397,11 +1397,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
-		<lastmod>2024-07-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta/</loc>
 		<lastmod>2024-07-17</lastmod>
 	</url>
@@ -1528,11 +1523,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/language-of-audiovideo-content/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/pdf-accessibility-checklist/</loc>
 		<lastmod>2024-08-26</lastmod>
 	</url>
 	
@@ -1679,5 +1669,55 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/mise-en-correspondance-entre-larticle-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021/</loc>
 		<lastmod>2024-08-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheets-for-microsoft-office/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/fiches-de-conseils-pour-microsoft-office/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-powerpoint-presentation/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-word/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-outlook/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/pdf-accessibility-checklist/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-microsoft-word/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-outlook/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-la-presentation-microsoft-powerpoint/</loc>
+		<lastmod>2024-08-30</lastmod>
 	</url>
 </urlset>
