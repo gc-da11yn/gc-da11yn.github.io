@@ -837,11 +837,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-office-2016/</loc>
-		<lastmod>2023-12-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/guides/</loc>
 		<lastmod>2023-12-03</lastmod>
 	</url>
@@ -1342,11 +1337,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/audio-description-guidelines/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/canada-school-of-public-service-csps/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
@@ -1687,16 +1677,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-word/</loc>
-		<lastmod>2024-08-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/tip-sheet-for-outlook/</loc>
-		<lastmod>2024-08-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/pdf-accessibility-checklist/</loc>
 		<lastmod>2024-08-30</lastmod>
 	</url>
@@ -1717,7 +1697,27 @@
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/en/audio-description-guidelines/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-powerpoint-presentation/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-word/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-outlook/</loc>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-office-2016/</loc>
 		<lastmod>2024-08-30</lastmod>
 	</url>
 </urlset>
