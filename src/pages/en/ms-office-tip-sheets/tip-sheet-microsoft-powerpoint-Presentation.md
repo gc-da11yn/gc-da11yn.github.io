@@ -58,7 +58,7 @@ To access the **Alt Text** panel:
 
 Complex images (like graphs and charts) require an alternative text and a long description containing all the image information, such as data and trends.
 
-**Things to avoid :**:
+**Things to avoid:**:
 - images of text;
 - SmartArt;
 - grouped objects.
@@ -67,7 +67,7 @@ Complex images (like graphs and charts) require an alternative text and a long d
 -	Use tables for data only.
 -	Define all tables. Select **Table Design** tab > **Table Style Options** group (if necessary) > **Check** all relevant options. **Header Row** is mandatory.
 
-**Things to avoid :**
+**Things to avoid:**
 -	the **Draw Table** tool
 -	screenshots or an image of a table
 -	merged or split cells
@@ -94,7 +94,7 @@ When adding colours to a presentation, stick to the **Automatic** colour and **T
 Make sure there is sufficient contrast between the text and the background.
 Information must be conveyed using more than colour alone. For example, add a border or a different shape.
 
-**Things to avoid :**
+**Things to avoid:**
 -	background images
 -	placing text on top of an image.
 

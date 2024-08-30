@@ -52,7 +52,7 @@ To access the **Alt Text** panel:
 
 Complex images (like graphs and charts) require **Alt Text** and a **Long description** containing all the image information, such as data and trends.
 
-**Things to avoid** :
+**Things to avoid**:
 - images of text or signatures.
 - SmartArt
 - grouped objects
@@ -61,7 +61,7 @@ Complex images (like graphs and charts) require **Alt Text** and a **Long descri
 - Use tables for data only.
 - Define all tables. Select **Table Design** tab > **Table Style Options** group (if necessary) > **Check** all relevant options. **Header Row** is mandatory.
 
-**Things to avoid** :
+**Things to avoid**:
 - the **Draw Table** tool
 - screenshots or images of tables
 - merged or split cells
@@ -79,7 +79,7 @@ When composing an email, stick to the **Automatic** colour and **Theme Accent** 
 Make sure there is sufficient contrast between the text and the background.
 Information must be conveyed using more than colour alone. For example, add a border or a different shape.
 
-**Things to avoid** :
+**Things to avoid**:
 background images
 
 ## Languages

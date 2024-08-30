@@ -1,4 +1,4 @@
 {
-    "permalink" : "/{{ locale }}/{{ title | stripTagsSlugify }}/",
-    "locale" : "en"
+    "permalink": "/{{ locale }}/{{ title | stripTagsSlugify }}/",
+    "locale": "en"
 }

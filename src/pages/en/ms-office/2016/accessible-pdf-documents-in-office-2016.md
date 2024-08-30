@@ -126,7 +126,7 @@ Creating an accessible PDF form is tricky, as form fields created in other progr
 Some general tips:
 
 - **Instructions**: Put instructions at the beginning of the form, rather than in between form fields.
-- **Labels**: : In PDF documents, there is no way to specify what label applies to what form field, so each form field must also have its label entered into the “Tooltip” field. Radio buttons and check boxes require additional steps.
+- **Labels**: In PDF documents, there is no way to specify what label applies to what form field, so each form field must also have its label entered into the “Tooltip” field. Radio buttons and check boxes require additional steps.
 - **Input format:** Ensure that the correct format is suggested, if one is required. - Ex. Date of birth (YYYY-MM-DD). As with all labels, this should be repeated in the tooltip.
 - **Required fields:** Indicate which fields are required. Do not rely solely on colour. If an asterisk (\*) is used to indicate required fields, include the following text at the start of the form (e.g. \* indicates a required field).
 - **Tab order**: Test the form using only the keyboard (using the **Tab** key to move between fields).

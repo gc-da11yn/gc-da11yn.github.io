@@ -25,7 +25,7 @@ Audio description and described video make TV programs accessible for people who
 <dd>A narrated description of a program's main visual elements, such as settings, costumes, and body language. The description is added during pauses in dialogue and enables people to form a mental picture of what is happening in the program. Described video typically uses a separate audio track.</dd>
 </dl>
 
-Source: [TV access for people who are blind or partially sighted : Described video and audio description | CRTC](https://crtc.gc.ca/eng/info_sht/b322.htm)
+Source: [TV access for people who are blind or partially sighted: Described video and audio description | CRTC](https://crtc.gc.ca/eng/info_sht/b322.htm)
 
 Note: If audio description is being used for a video, then the descriptions need to be included in the transcript.
 

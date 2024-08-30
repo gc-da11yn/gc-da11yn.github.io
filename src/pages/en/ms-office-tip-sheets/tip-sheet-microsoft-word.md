@@ -65,7 +65,7 @@ To access the **Alt Text** panel:
 
 Complex images (like graphs and charts) require **Alt Text** and a **Long description** containing all the image information, such as data and trends.
 
-**Things to avoid** :
+**Things to avoid**:
 -	Images of text
 -	SmartArt
 -	grouped objects
@@ -75,7 +75,7 @@ Complex images (like graphs and charts) require **Alt Text** and a **Long descri
 -	Define all tables. Select **Table Design** tab > **Table Style Options** group (if necessary) > **Check** all relevant options. **Header Row** is mandatory.
 -	Instead of adding alternative text to **Table Properties** dialogue box, insert your title in the line above the table. Select **References** tab > **Insert Caption** > change the label option to “**Table**” > then enter the title after the number.
 
-**Things to avoid** :
+**Things to avoid**:
 - the **Draw Table** tool
 -	screenshots or images of tables
 -	merged or split cells
@@ -92,7 +92,7 @@ When adding colours to a document, stick to the **Automatic** colour and **Theme
 Make sure there is sufficient contrast between the text and the background.
 Information must be conveyed using more than colour alone. For example, add a border or a different shape.
 
-**Things to avoid** :
+**Things to avoid**:
 background images
 
 ## Languages
