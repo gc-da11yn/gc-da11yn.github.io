@@ -8477,7 +8477,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements
 	</dd>
 	<dt>Texte en Temps Réel (<abbr>TTR</abbr>):</dt>
 	<dd>
-		<p>form of a text conversation in point to point situations or in multipoint conferencing where the text being entered is sent in such a way that the communication is perceived by the user as being continuous </p>
+		<p>forme de conversation textuelle dans des situations point à point ou lors de conférences multipoint où le texte saisi est envoyé de manière à ce que la communication soit perçue par l'utilisateur comme étant continue</p>
 		<ul>
 			<li>REMARQUE 1 : Les utilisateurs percevront la communication comme continue si le délai entre la création du texte par l’expéditeur et sa réception par le destinataire est inférieur à 500 ms. Toutefois, le délai réel dépendra du réseau de communication.</li>
 			<li>REMARQUE 2 : La création de texte différera selon que le système permet d’entrer le texte mot par mot (p. ex., la conversion de la voix en texte et la saisie du texte prédictif) ou d’entrer un caractère à la fois. La création de texte sera différente selon qu’il s’agit de systèmes où le texte est saisi mot par mot (p. ex. les systèmes de transmission automatique de la parole et de texte prédictif) ou de systèmes où chaque caractère est généré séparément (par exemple, la saisie sur un clavier physique). </li>
