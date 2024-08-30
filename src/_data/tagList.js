@@ -20,6 +20,7 @@ module.exports = {
 			contactUs: "Contactez-nous",
 			accessibilityInYourRole: "L'accessibilité dans votre rôle",
 			mainAbout: "Section à propos de nous sur la page d'accueil",
+			msTips : "Fiches de conseils pour Microsoft Office",
 			office2016:
 				"Comment créer des documents accessibles dans Office 2016",
 			microsoft365:
@@ -46,6 +47,7 @@ module.exports = {
 			accessibilityInYourRole: "Accessibility in your role",
 			mainAbout: "About us section on homepage",
 			office2016: "How to create accessible documents in Office 2016",
+			msTips: "Tip sheets for Microsoft Office",
 			microsoft365: "How to create accessible documents in Microsoft 365",
 		},
 	},
