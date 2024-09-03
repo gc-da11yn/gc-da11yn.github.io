@@ -1,3 +1,7 @@
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+const nunjucks = require('nunjucks');  // Import Nunjucks for rendering
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
@@ -5,6 +9,11 @@ const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
 const beautify = require('js-beautify').html;
 const { DateTime } = require('luxon');
+const changedPageUrls = [];
+
+// ANSI escape codes for blue underline
+const blueUnderline = '\x1b[4;34m';  // Underline and blue font
+const resetColor = '\x1b[0m';        // Reset font to default
 
 module.exports = function (eleventyConfig) {
   const eleventySlugify = eleventyConfig.getFilter('slug');
@@ -131,6 +140,69 @@ module.exports = function (eleventyConfig) {
   // Add custom Markdown filter for Nunjucks
   eleventyConfig.addNunjucksFilter("markdown", function (value) {
     return md.render(value);
+  });
+
+  let changedFilesMap = new Map();
+  let changedFilePaths = new Set();
+  let gitChangedUrls = [];
+  let domain = 'http://localhost';
+  let port = '8080'; // Default port
+
+  // Read the .eleventy-port file to get the correct port
+  if (fs.existsSync('.eleventy-port')) {
+    port = fs.readFileSync('.eleventy-port', 'utf8').trim();
+  }
+
+  // Capture changed files before the build starts (Method 1: Eleventy watch)
+  eleventyConfig.on('beforeWatch', (changedFiles) => {
+    changedFiles.forEach(file => {
+      console.log(`Changed source file: ${file}`);
+      changedFilesMap.set(file, null); // Track the file
+    });
+  });
+
+  // Capture both committed and uncommitted changes using Git (Method 2: Git diff)
+  eleventyConfig.on('beforeBuild', () => {
+    const gitChangedFiles = execSync('git diff --name-only HEAD').toString().trim().split('\n');
+
+    gitChangedFiles.forEach((file) => {
+      // Check if the file is contained within the 'src/main' or 'src/pages' directories
+      // and is an .md or .njk file
+      if ((file.startsWith('src/main/') || file.startsWith('src/pages/')) && (file.endsWith('.md') || file.endsWith('.njk'))) {
+        // Track the file
+        changedFilePaths.add(file);
+      }
+    });
+  });
+
+  // Hook into the HTML generation process (logging to the console)
+  eleventyConfig.addTransform("captureGeneratedUrl", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith('.html')) {
+      const inputPath = path.relative('./', this.page.inputPath);
+
+      // Check if this file was changed based on Git diff
+      if (changedFilePaths.has(inputPath)) {
+        const fullUrl = `${domain}:${port}${this.page.url}`;
+
+        // Log the URL in blue and underlined
+        console.log(`${blueUnderline}Captured URL: ${fullUrl}${resetColor}`);
+
+        gitChangedUrls.push(fullUrl); // Store the URL to log later
+      }
+    }
+    return content;
+  });
+
+  eleventyConfig.on('afterBuild', () => {
+    if (gitChangedUrls.length > 0) {
+      // Log the changed URLs at the end of the build
+      console.log('Changed file URLs:');
+      gitChangedUrls.forEach(url => {
+        console.log(`${blueUnderline}${url}${resetColor}`);
+      });
+      gitChangedUrls = []; // Clear the list for the next watch cycle
+    }
+    changedFilePaths.clear(); // Clear the set for the next watch cycle
   });
 
   return {
