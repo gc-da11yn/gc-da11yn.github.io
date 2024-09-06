@@ -12,7 +12,7 @@ const { DateTime } = require('luxon');
 const changedPageUrls = [];
 
 // ANSI escape codes for blue underline
-const blueUnderline = '\x1b[4;34m';  // Underline and blue font
+const underline = '\x1b[4m';  // Underline font
 const resetColor = '\x1b[0m';        // Reset font to default
 
 module.exports = function (eleventyConfig) {
@@ -137,6 +137,19 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // Custom collection for changed pages
+  eleventyConfig.addCollection('changedPages', function (collectionApi) {
+    const changedUrlsForTemplate = [];
+    collectionApi.getAll().forEach(item => {
+      const normalizedInputPath = path.relative('./', item.inputPath);
+      if (changedFilePaths.has(normalizedInputPath)) {
+        const fullUrl = `${domain}:${port}${item.url}`;
+        changedUrlsForTemplate.push(fullUrl);
+      }
+    });
+    return changedUrlsForTemplate; // Returning the changed URLs for the template
+  });
+
   // Add custom Markdown filter for Nunjucks
   eleventyConfig.addNunjucksFilter("markdown", function (value) {
     return md.render(value);
@@ -161,15 +174,14 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  // Capture both committed and uncommitted changes using Git (Method 2: Git diff)
+  // Capture both committed and uncommitted changes using Git
   eleventyConfig.on('beforeBuild', () => {
     const gitChangedFiles = execSync('git diff --name-only HEAD').toString().trim().split('\n');
 
     gitChangedFiles.forEach((file) => {
-      // Check if the file is contained within the 'src/main' or 'src/pages' directories
-      // and is an .md or .njk file
-      if ((file.startsWith('src/main/') || file.startsWith('src/pages/')) && (file.endsWith('.md') || file.endsWith('.njk'))) {
-        // Track the file
+      // Track .md or .njk files in the 'src/main' or 'src/pages' directories
+      if ((file.startsWith('src/main/') || file.startsWith('src/pages/')) &&
+        (file.endsWith('.md') || file.endsWith('.njk'))) {
         changedFilePaths.add(file);
       }
     });
@@ -185,7 +197,7 @@ module.exports = function (eleventyConfig) {
         const fullUrl = `${domain}:${port}${this.page.url}`;
 
         // Log the URL in blue and underlined
-        console.log(`${blueUnderline}Captured URL: ${fullUrl}${resetColor}`);
+        console.log(`${underline}Captured URL: ${fullUrl}${resetColor}`);
 
         gitChangedUrls.push(fullUrl); // Store the URL to log later
       }
@@ -194,15 +206,18 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.on('afterBuild', () => {
-    if (gitChangedUrls.length > 0) {
-      // Log the changed URLs at the end of the build
-      console.log('Changed file URLs:');
-      gitChangedUrls.forEach(url => {
-        console.log(`${blueUnderline}${url}${resetColor}`);
-      });
-      gitChangedUrls = []; // Clear the list for the next watch cycle
+    const changedFilesCount = changedFilePaths.size;
+
+    if (changedFilesCount > 0) {
+      // Display summary and link to review page in the console
+      console.log(`\n${changedFilesCount} page(s) changed.`);
+      console.log(`Review the changed pages here: ${underline}${domain}:${port}/en/pages-to-review/${resetColor}\n`);
+    } else {
+      console.log('No pages to review.\n');
     }
-    changedFilePaths.clear(); // Clear the set for the next watch cycle
+
+    // Clear the set for the next watch cycle
+    changedFilePaths.clear();
   });
 
   return {

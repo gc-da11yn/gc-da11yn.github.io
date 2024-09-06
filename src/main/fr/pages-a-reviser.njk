@@ -1,0 +1,15 @@
+---
+title: Pages à réviser
+toggle: pages-to-review
+---
+
+{%- if collections.changedPages.length > 0 -%}
+	<p>Il s'agit de pages modifiées qui doivent être révisées :</p>
+	<ul>
+		{% for page in collections.changedPages %}
+		<li><a href="{{ page }}">{{ page }}</a></li>
+		{% endfor %}
+	</ul>
+{%- else -%}
+	<p>Aucune page n'a été modifiée.</p>
+{%- endif -%}
