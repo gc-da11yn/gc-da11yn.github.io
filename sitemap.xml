@@ -1617,11 +1617,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/mandats/</loc>
 		<lastmod>2024-08-26</lastmod>
 	</url>
@@ -1719,5 +1714,10 @@
 	<url>
 		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-office-2016/</loc>
 		<lastmod>2024-08-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
+		<lastmod>2024-09-09</lastmod>
 	</url>
 </urlset>
