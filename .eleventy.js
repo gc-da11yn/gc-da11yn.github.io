@@ -139,15 +139,18 @@ module.exports = function (eleventyConfig) {
 
   // Custom collection for changed pages
   eleventyConfig.addCollection('changedPages', function (collectionApi) {
-    const changedUrlsForTemplate = [];
+    const changedPages = [];
     collectionApi.getAll().forEach(item => {
       const normalizedInputPath = path.relative('./', item.inputPath);
       if (changedFilePaths.has(normalizedInputPath)) {
-        const fullUrl = `${item.url}`; // Use relative URLs
-        changedUrlsForTemplate.push(fullUrl);
+        // Store both the URL and title for each changed page
+        changedPages.push({
+          url: item.url,
+          title: item.data.title || item.fileSlug // fallback to fileSlug if no title
+        });
       }
     });
-    return changedUrlsForTemplate; // Return changed URLs for the template
+    return changedPages; // Returning the changed URLs and titles for the template
   });
 
   // Add custom Markdown filter for Nunjucks

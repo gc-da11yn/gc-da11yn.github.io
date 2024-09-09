@@ -7,7 +7,7 @@ toggle: pages-to-review
 	<p>Il s'agit de pages modifiées qui doivent être révisées :</p>
 	<ul>
 		{% for page in collections.changedPages %}
-		<li><a href="{{ page }}">{{ page }}</a></li>
+		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
 		{% endfor %}
 	</ul>
 {%- else -%}
