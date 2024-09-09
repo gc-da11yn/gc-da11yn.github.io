@@ -4,12 +4,16 @@ toggle: pages-a-reviser
 ---
 
 {%- if collections.changedPages.length > 0 -%}
-	<p>These are changed pages that need to be reviewed:</p>
-	<ul>
-		{% for page in collections.changedPages %}
-		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-		{% endfor %}
-	</ul>
+<p>These are changed pages that need to be reviewed:</p>
+<ul>
+	{% for page in collections.changedPages %}
+	{% if page.locale != locale %}
+	<li><a href="{{ page.url }}" lang="{{ page.locale }}">{{ page.title }}</a></li>
+	{% else %}
+	<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+</ul>
 {%- else -%}
-	<p>There are no pages that have changes.</p>
+<p>There are no pages that have changes.</p>
 {%- endif -%}

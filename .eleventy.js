@@ -143,14 +143,15 @@ module.exports = function (eleventyConfig) {
     collectionApi.getAll().forEach(item => {
       const normalizedInputPath = path.relative('./', item.inputPath);
       if (changedFilePaths.has(normalizedInputPath)) {
-        // Store both the URL and title for each changed page
+        // Store both the URL, title, and locale for each changed page
         changedPages.push({
           url: item.url,
-          title: item.data.title || item.fileSlug // fallback to fileSlug if no title
+          title: item.data.title || item.fileSlug, // fallback to fileSlug if no title
+          locale: item.data.locale || 'en' // default to 'en' if no locale is set
         });
       }
     });
-    return changedPages; // Returning the changed URLs and titles for the template
+    return changedPages; // Returning the changed URLs, titles, and locales for the template
   });
 
   // Add custom Markdown filter for Nunjucks

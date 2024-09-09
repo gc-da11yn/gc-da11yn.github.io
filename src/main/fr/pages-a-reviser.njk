@@ -6,9 +6,14 @@ toggle: pages-to-review
 {%- if collections.changedPages.length > 0 -%}
 	<p>Il s'agit de pages modifiées qui doivent être révisées :</p>
 	<ul>
-		{% for page in collections.changedPages %}
-		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-		{% endfor %}
+	{% for page in collections.changedPages %}
+	{% if page.locale != locale %}
+	<li><a href="{{ page.url }}" lang="{{ page.locale }}">{{ page.title }}</a></li>
+	{% else %}
+	<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+
 	</ul>
 {%- else -%}
 	<p>Aucune page n'a été modifiée.</p>
