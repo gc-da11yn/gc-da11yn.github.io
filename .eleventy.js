@@ -143,11 +143,11 @@ module.exports = function (eleventyConfig) {
     collectionApi.getAll().forEach(item => {
       const normalizedInputPath = path.relative('./', item.inputPath);
       if (changedFilePaths.has(normalizedInputPath)) {
-        const fullUrl = `${domain}:${port}${item.url}`;
+        const fullUrl = `${item.url}`; // Use relative URLs
         changedUrlsForTemplate.push(fullUrl);
       }
     });
-    return changedUrlsForTemplate; // Returning the changed URLs for the template
+    return changedUrlsForTemplate; // Return changed URLs for the template
   });
 
   // Add custom Markdown filter for Nunjucks
@@ -161,9 +161,23 @@ module.exports = function (eleventyConfig) {
   let domain = 'http://localhost';
   let port = '8080'; // Default port
 
-  // Read the .eleventy-port file to get the correct port
+  // Detect GitHub Codespaces
+  if (process.env.CODESPACES && process.env.CODESPACE_NAME) {
+    // Use the correct format for Codespaces URLs with the .app domain
+    domain = `https://${process.env.CODESPACE_NAME}-${port}.app.github.dev`;
+  }
+
+  // Detect Netlify Deploy Preview
+  if (process.env.DEPLOY_URL) {
+    domain = process.env.DEPLOY_URL;
+  }
+
+  // Read the .eleventy-port file to get the correct port for local development
   if (fs.existsSync('.eleventy-port')) {
     port = fs.readFileSync('.eleventy-port', 'utf8').trim();
+    if (domain === 'http://localhost') {
+      domain = `${domain}:${port}`; // Apply the port for localhost
+    }
   }
 
   // Capture changed files before the build starts (Method 1: Eleventy watch)
@@ -209,15 +223,14 @@ module.exports = function (eleventyConfig) {
     const changedFilesCount = changedFilePaths.size;
 
     if (changedFilesCount > 0) {
-      // Display summary and link to review page in the console
+      // Log summary and provide the correct link based on the environment
       console.log(`\n${changedFilesCount} page(s) changed.`);
-      console.log(`Review the changed pages here: ${underline}${domain}:${port}/en/pages-to-review/${resetColor}\n`);
+      console.log(`Review the changed pages here: ${underline}${domain}/en/pages-to-review/${resetColor}\n`);
     } else {
       console.log('No pages to review.\n');
     }
 
-    // Clear the set for the next watch cycle
-    changedFilePaths.clear();
+    changedFilePaths.clear(); // Clear the set for the next watch cycle
   });
 
   return {
