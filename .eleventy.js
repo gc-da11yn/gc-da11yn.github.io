@@ -192,14 +192,25 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  // Capture both committed and uncommitted changes using Git
+  // Capture both committed and uncommitted changes using Git (Method 2: Git diff)
   eleventyConfig.on('beforeBuild', () => {
-    const gitChangedFiles = execSync('git diff --name-only HEAD').toString().trim().split('\n');
+    // Fetch the `main` branch from the upstream repository directly
+    const upstreamUrl = 'https://github.com/gc-da11yn/gc-da11yn.github.io';
+
+    try {
+      execSync(`git fetch ${upstreamUrl} main:upstream-main --depth=1`);
+    } catch (err) {
+      console.error('Error fetching the upstream main branch', err);
+    }
+
+    // Get the diff between the current branch and `upstream-main`
+    const gitChangedFiles = execSync('git diff upstream-main --name-only').toString().trim().split('\n');
 
     gitChangedFiles.forEach((file) => {
-      // Track .md or .njk files in the 'src/main' or 'src/pages' directories
-      if ((file.startsWith('src/main/') || file.startsWith('src/pages/')) &&
-        (file.endsWith('.md') || file.endsWith('.njk'))) {
+      // Check if the file is contained within the 'src/main' or 'src/pages' directories
+      // and is an .md or .njk file
+      if ((file.startsWith('src/main/') || file.startsWith('src/pages/')) && (file.endsWith('.md') || file.endsWith('.njk'))) {
+        // Track the file
         changedFilePaths.add(file);
       }
     });
