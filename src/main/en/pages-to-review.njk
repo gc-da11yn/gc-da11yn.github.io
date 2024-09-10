@@ -1,0 +1,22 @@
+---
+title: Pages to review
+toggle: pages-a-reviser
+description: On this page, you’ll find a list of pages that have been modified and require review. These changes reflect the differences between the current branch and the main branch.
+---
+
+{%- if collections.changedPages.length > 0 -%}
+<p>These are changed pages that need to be reviewed:</p>
+<ul>
+	{% for page in collections.changedPages %}
+	{% if page.locale != locale %}
+	<li><a href="{{ page.url }}" lang="{{ page.locale }}">{{ page.title }}</a></li>
+	{% else %}
+	<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+</ul>
+{%- else -%}
+<p>There are no pages that have changes.</p>
+{%- endif -%}
+
+<p>If you see links to pages you haven't changed, it may be because there were changes on the <code>upstream / main</code> branch. To update your current branch to the latest, use <a href="https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase"><code>git rebase</code></a>.</p>

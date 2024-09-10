@@ -1,3 +1,7 @@
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+const nunjucks = require('nunjucks');  // Import Nunjucks for rendering
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
@@ -5,6 +9,11 @@ const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
 const beautify = require('js-beautify').html;
 const { DateTime } = require('luxon');
+const changedPageUrls = [];
+
+// ANSI escape codes for blue underline
+const underline = '\x1b[4m';  // Underline font
+const resetColor = '\x1b[0m';        // Reset font to default
 
 module.exports = function (eleventyConfig) {
   const eleventySlugify = eleventyConfig.getFilter('slug');
@@ -128,9 +137,115 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // Custom collection for changed pages
+  eleventyConfig.addCollection('changedPages', function (collectionApi) {
+    const changedPages = [];
+    collectionApi.getAll().forEach(item => {
+      const normalizedInputPath = path.relative('./', item.inputPath);
+      if (changedFilePaths.has(normalizedInputPath)) {
+        // Store both the URL, title, and locale for each changed page
+        changedPages.push({
+          url: item.url,
+          title: item.data.title || item.fileSlug, // fallback to fileSlug if no title
+          locale: item.data.locale || 'en' // default to 'en' if no locale is set
+        });
+      }
+    });
+    return changedPages; // Returning the changed URLs, titles, and locales for the template
+  });
+
   // Add custom Markdown filter for Nunjucks
   eleventyConfig.addNunjucksFilter("markdown", function (value) {
     return md.render(value);
+  });
+
+  let changedFilesMap = new Map();
+  let changedFilePaths = new Set();
+  let gitChangedUrls = [];
+  let domain = 'http://localhost';
+  let port = '8080'; // Default port
+
+  // Detect GitHub Codespaces
+  if (process.env.CODESPACES && process.env.CODESPACE_NAME) {
+    // Use the correct format for Codespaces URLs with the .app domain
+    domain = `https://${process.env.CODESPACE_NAME}-${port}.app.github.dev`;
+  }
+
+  // Detect Netlify Deploy Preview
+  if (process.env.DEPLOY_URL) {
+    domain = process.env.DEPLOY_URL;
+  }
+
+  // Read the .eleventy-port file to get the correct port for local development
+  if (fs.existsSync('.eleventy-port')) {
+    port = fs.readFileSync('.eleventy-port', 'utf8').trim();
+    if (domain === 'http://localhost') {
+      domain = `${domain}:${port}`; // Apply the port for localhost
+    }
+  }
+
+  // Capture changed files before the build starts (Method 1: Eleventy watch)
+  eleventyConfig.on('beforeWatch', (changedFiles) => {
+    changedFiles.forEach(file => {
+      console.log(`Changed source file: ${file}`);
+      changedFilesMap.set(file, null); // Track the file
+    });
+  });
+
+  // Capture both committed and uncommitted changes using Git (Method 2: Git diff)
+  eleventyConfig.on('beforeBuild', () => {
+    // Fetch the `main` branch from the upstream repository directly
+    const upstreamUrl = 'https://github.com/gc-da11yn/gc-da11yn.github.io';
+
+    try {
+      execSync(`git fetch ${upstreamUrl} main:upstream-main --depth=1`);
+    } catch (err) {
+      console.error('Error fetching the upstream main branch', err);
+    }
+
+    // Get the diff between the current branch and `upstream-main`
+    const gitChangedFiles = execSync('git diff upstream-main --name-only').toString().trim().split('\n');
+
+    gitChangedFiles.forEach((file) => {
+      // Check if the file is contained within the 'src/main' or 'src/pages' directories
+      // and is an .md or .njk file
+      if ((file.startsWith('src/main/') || file.startsWith('src/pages/')) && (file.endsWith('.md') || file.endsWith('.njk'))) {
+        // Track the file
+        changedFilePaths.add(file);
+      }
+    });
+  });
+
+  // Hook into the HTML generation process (logging to the console)
+  eleventyConfig.addTransform("captureGeneratedUrl", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith('.html')) {
+      const inputPath = path.relative('./', this.page.inputPath);
+
+      // Check if this file was changed based on Git diff
+      if (changedFilePaths.has(inputPath)) {
+        const fullUrl = `${domain}:${port}${this.page.url}`;
+
+        // Log the URL in blue and underlined
+        console.log(`${underline}Captured URL: ${fullUrl}${resetColor}`);
+
+        gitChangedUrls.push(fullUrl); // Store the URL to log later
+      }
+    }
+    return content;
+  });
+
+  eleventyConfig.on('afterBuild', () => {
+    const changedFilesCount = changedFilePaths.size;
+
+    if (changedFilesCount > 0) {
+      // Log summary and provide the correct link based on the environment
+      console.log(`\n${changedFilesCount} page(s) changed.`);
+      console.log(`Review the changed pages here: ${underline}${domain}/en/pages-to-review/${resetColor}\n`);
+    } else {
+      console.log('No pages to review.\n');
+    }
+
+    changedFilePaths.clear(); // Clear the set for the next watch cycle
   });
 
   return {

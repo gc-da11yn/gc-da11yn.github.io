@@ -1,0 +1,23 @@
+---
+title: Pages à réviser
+toggle: pages-to-review
+description: Sur cette page, vous trouverez une liste des pages qui ont été modifiées et qui nécessitent une révision. Ces modifications reflètent les différences entre la branche actuelle et la branche principale.
+---
+
+{%- if collections.changedPages.length > 0 -%}
+	<p>Il s'agit de pages modifiées qui doivent être révisées :</p>
+	<ul>
+	{% for page in collections.changedPages %}
+	{% if page.locale != locale %}
+	<li><a href="{{ page.url }}" lang="{{ page.locale }}">{{ page.title }}</a></li>
+	{% else %}
+	<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+
+	</ul>
+{%- else -%}
+	<p>Aucune page n'a été modifiée.</p>
+{%- endif -%}
+
+<p>Si vous voyez des liens vers des pages que vous n'avez pas modifiées, c'est peut-être parce qu'il y a eu des changements sur la branche <code>upstream / main</code>. Pour mettre à jour votre branche actuelle avec les dernières modifications, utilisez <a href="https://www.atlassian.com/fr/git/tutorials/rewriting-history/git-rebase"><code>git rebase</code></a>.</p>
