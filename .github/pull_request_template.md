@@ -1,4 +1,5 @@
 @netlify /en/pages-to-review/
+@netlify /fr/pages-a-reviser/
 
 <div lang="fr">
 
