@@ -1,3 +1,5 @@
+Do not delete the following line
+
 @netlify /en/pages-to-review/
 
 <div lang="fr">
