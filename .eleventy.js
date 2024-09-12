@@ -198,7 +198,7 @@ module.exports = function (eleventyConfig) {
     const upstreamUrl = 'https://github.com/gc-da11yn/gc-da11yn.github.io';
 
     try {
-      execSync(`git fetch ${upstreamUrl} main:upstream-main --depth=1`);
+      execSync(`git fetch ${upstreamUrl} main:upstream-main --force --depth=1`);
     } catch (err) {
       console.error('Error fetching the upstream main branch', err);
     }
@@ -207,13 +207,19 @@ module.exports = function (eleventyConfig) {
     const gitChangedFiles = execSync('git diff upstream-main --name-only').toString().trim().split('\n');
 
     gitChangedFiles.forEach((file) => {
-      // Check if the file is contained within the 'src/main' or 'src/pages' directories
-      // and is an .md or .njk file
-      if ((file.startsWith('src/main/') || file.startsWith('src/pages/')) && (file.endsWith('.md') || file.endsWith('.njk'))) {
+      if ((file.startsWith('src/main/') || file.startsWith('src/pages/')) &&
+        (file.endsWith('.md') || file.endsWith('.njk'))) {
         // Track the file
         changedFilePaths.add(file);
       }
     });
+
+    // Clean up: delete the upstream-main branch after the diff
+    try {
+      execSync('git branch -D upstream-main');
+    } catch (err) {
+      console.error('Error deleting the upstream-main branch', err);
+    }
   });
 
   // Hook into the HTML generation process (logging to the console)
