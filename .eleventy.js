@@ -13,7 +13,10 @@ const changedPageUrls = [];
 
 // ANSI escape codes for blue underline
 const underline = '\x1b[4m';  // Underline font
-const resetColor = '\x1b[0m';        // Reset font to default
+const resetColor = '\x1b[0m'; // Reset font to default
+
+// Check if we are in watch mode (development)
+const isWatchMode = process.env.ELEVENTY_WATCH === 'true';
 
 module.exports = function (eleventyConfig) {
   const eleventySlugify = eleventyConfig.getFilter('slug');
@@ -229,29 +232,65 @@ module.exports = function (eleventyConfig) {
 
       // Check if this file was changed based on Git diff
       if (changedFilePaths.has(inputPath)) {
-        const fullUrl = `${domain}:${port}${this.page.url}`;
+        // Adjust URL generation to prevent double port addition
+        let fullUrl = domain;
 
-        // Log the URL in blue and underlined
-        console.log(`${underline}Captured URL: ${fullUrl}${resetColor}`);
+        // Only add the port if it's localhost and it hasn't been added already
+        if (domain.includes('localhost') && !domain.includes(`:${port}`)) {
+          fullUrl += `:${port}`;
+        }
 
-        gitChangedUrls.push(fullUrl); // Store the URL to log later
+        // Append the page URL
+        fullUrl += this.page.url;
+
+        if (isWatchMode) {
+          // Log individual URLs for each changed page in dev mode
+          console.log(`${underline}Captured URL: ${fullUrl}${resetColor}`);
+        } else {
+          // Log file paths in production mode
+          console.log(`${underline}Changed file: ${inputPath}${resetColor}`);
+        }
+
+        // Track the URL or file path for summary logging later
+        gitChangedUrls.push(isWatchMode ? fullUrl : inputPath);
       }
     }
     return content;
   });
 
+  // After build, log a summary and provide a link to the review page in local development
   eleventyConfig.on('afterBuild', () => {
     const changedFilesCount = changedFilePaths.size;
 
     if (changedFilesCount > 0) {
-      // Log summary and provide the correct link based on the environment
+      // Log the summary of changed pages
       console.log(`\n${changedFilesCount} page(s) changed.`);
-      console.log(`Review the changed pages here: ${underline}${domain}/en/pages-to-review/${resetColor}\n`);
+
+      // Log individual URLs or file paths, depending on mode
+      gitChangedUrls.forEach((changedItem) => {
+        console.log(`${underline}${changedItem}${resetColor}`);
+      });
+
+      // Add a blank line after the list of changed pages
+      console.log('');
+
+      // Only log the review page link in local development mode
+      if (isWatchMode) {
+        let reviewPageLink = `${domain}`;
+        if (domain.includes('localhost') && !domain.includes(`:${port}`)) {
+          reviewPageLink += `:${port}`;
+        }
+        reviewPageLink += '/en/pages-to-review/';
+
+        console.log(`\nReview the changed pages here: ${underline}${reviewPageLink}${resetColor}\n`);
+      }
     } else {
       console.log('No pages to review.\n');
     }
 
-    changedFilePaths.clear(); // Clear the set for the next watch cycle
+    // Clear the set for the next watch cycle
+    changedFilePaths.clear();
+    gitChangedUrls = [];
   });
 
   return {
