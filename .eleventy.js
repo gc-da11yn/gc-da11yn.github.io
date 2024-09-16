@@ -109,10 +109,20 @@ module.exports = function (eleventyConfig) {
     return collection.filter((item) => item.data.locale === locale);
   });
 
+  // Specific postDate filter for blog posts or other content with strict formatting
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" })
       .setLocale("en")
       .toFormat("yyyy'-'MM'-'dd");
+  });
+
+  // Format date filter to display full date
+  eleventyConfig.addFilter("formatDate", function (dateObj) {
+    const locale = this.ctx.locale || 'en';  // Use the locale from the context, default to 'en'
+
+    return DateTime.fromJSDate(dateObj, { zone: "utc" })
+      .setLocale(locale)
+      .toLocaleString(DateTime.DATE_MED);  // Use DATE_MED to exclude the day of the week
   });
 
   eleventyConfig.addPassthroughCopy({ "./src/_docs": "docs" });
