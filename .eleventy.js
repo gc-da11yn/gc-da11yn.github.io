@@ -120,9 +120,31 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("formatDate", function (dateObj) {
     const locale = this.ctx.locale || 'en';  // Use the locale from the context, default to 'en'
 
-    return DateTime.fromJSDate(dateObj, { zone: "utc" })
+    let luxonDate;
+
+    // Check if the dateObj is an ISO string and parse it to a DateTime object
+    if (typeof dateObj === 'string') {
+      luxonDate = DateTime.fromISO(dateObj);  // Handle ISO strings
+    } else if (dateObj instanceof Date) {
+      luxonDate = DateTime.fromJSDate(dateObj);  // Handle JS Date objects
+    } else {
+      return "Invalid Date";  // Return fallback if neither works
+    }
+
+    return luxonDate.setLocale(locale).toLocaleString(DateTime.DATE_HUGE);  // Use DATE_HUGE for formatting
+  });
+
+  // Format year and month to display "Month Year" in the correct locale
+  eleventyConfig.addFilter("formatYearMonth", function (dateString) {
+    const locale = this.ctx.locale || 'en';  // Use the locale from the context, default to 'en'
+
+    return DateTime.fromFormat(dateString, 'yyyy-MM')
       .setLocale(locale)
-      .toLocaleString(DateTime.DATE_MED);  // Use DATE_MED to exclude the day of the week
+      .toFormat('LLLL yyyy');  // Use LLLL for full month name
+  });
+
+  eleventyConfig.addFilter("percentage", function (value) {
+    return (parseFloat(value) * 100).toFixed(2) + '%';
   });
 
   eleventyConfig.addPassthroughCopy({ "./src/_docs": "docs" });
