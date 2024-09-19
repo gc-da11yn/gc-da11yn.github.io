@@ -1,0 +1,33 @@
+---
+title: Analytique de l’utilisation du site Web
+description: Fournit un aperçu des données d’utilisation du site, telles que le nombre de sessions, d’utilisateurs, de pages vues et les taux de rebond. Il met également en évidence les appareils les plus utilisés et les principaux pays d’origine des visiteurs du site. Les données sont régulièrement mises à jour pour refléter l’activité récente, ce qui nous aide à comprendre comment les utilisateurs interagissent avec le site et à améliorer l’expérience globale.
+toggle: website-usage-analytics
+tags: aboutUs
+---
+
+{% for month, results in analytics %}
+<section>
+<h2>{{ month | formatYearMonth }}</h2>
+<p>
+	Le site a enregistré <strong>{{ results.results[0].sessions }}</strong> visites, avec
+	<strong>{{ results.results[0].newUsers }}</strong> utilisateurs et
+	<strong>{{ results.results[0].screenPageViews }}</strong> pages vues.
+	Le taux de rebond moyen est de <strong>{{ results.results[0].bounceRate }}%</strong>, et la durée moyenne des sessions est de
+	<strong>{{ results.results[0].avgSessionDuration }} minutes</strong>.
+</p>
+<p>
+	Les appareils les plus utilisés sont les ordinateurs de bureau
+	(<strong>{{ results.results[0].topDevices[0].device }} - {{ results.results[0].topDevices[0].percentage }}%</strong>),
+	suivis par les appareils mobiles
+	(<strong>{{ results.results[0].topDevices[1].device }} - {{ results.results[0].topDevices[1].percentage }}%</strong>)
+	et les tablettes
+	(<strong>{{ results.results[0].topDevices[2].device }} - {{ results.results[0].topDevices[2].percentage }}%</strong>).
+</p>
+<p>
+	Les trois principaux pays des visiteurs sont :
+	<strong>{{ results.results[0].topCountries[0] }}</strong>,
+	<strong>{{ results.results[0].topCountries[1] }}</strong> et
+	<strong>{{ results.results[0].topCountries[2] }}</strong>.
+</p>
+</section>
+{% endfor %}

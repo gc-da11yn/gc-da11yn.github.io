@@ -1,0 +1,33 @@
+---
+title: Website usage analytics
+description: Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience.
+toggle: analytique-de-lutilisation-du-site-web
+tags: aboutUs
+---
+
+{% for month, results in analytics %}
+<section>
+<h2>{{ month | formatYearMonth }}</h2>
+<p>
+	The site recorded <strong>{{ results.results[0].sessions }}</strong> visits, with
+	<strong>{{ results.results[0].newUsers }}</strong> users and
+	<strong>{{ results.results[0].screenPageViews }}</strong> pageviews.
+	The average bounce rate is <strong>{{ results.results[0].bounceRate }}%</strong>, and the average session duration is
+	<strong>{{ results.results[0].avgSessionDuration }} minutes</strong>.
+</p>
+<p>
+	The most used devices are desktop computers
+	(<strong>{{ results.results[0].topDevices[0].device }} - {{ results.results[0].topDevices[0].percentage }}%</strong>),
+	followed by mobile devices
+	(<strong>{{ results.results[0].topDevices[1].device }} - {{ results.results[0].topDevices[1].percentage }}%</strong>)
+	and tablets
+	(<strong>{{ results.results[0].topDevices[2].device }} - {{ results.results[0].topDevices[2].percentage }}%</strong>).
+</p>
+<p>
+	The top three countries of visitors are:
+	<strong>{{ results.results[0].topCountries[0] }}</strong>,
+	<strong>{{ results.results[0].topCountries[1] }}</strong>, and
+	<strong>{{ results.results[0].topCountries[2] }}</strong>.
+</p>
+</section>
+{% endfor %}
