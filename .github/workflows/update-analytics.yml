@@ -1,0 +1,34 @@
+name: Update Analytics Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
+
+jobs:
+  update-analytics:
+    runs-on: ubuntu-latest
+
+    environment: github-pages  # Specify the environment where your secrets are stored
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run analytics update
+        run: npm run analytics
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          PROPERTY_ID: ${{ secrets.PROPERTY_ID }}
+
+      - name: Build the site
+        run: npm run build  # Run the build after updating the analytics
