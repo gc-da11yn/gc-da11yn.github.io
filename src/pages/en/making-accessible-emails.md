@@ -46,7 +46,10 @@ If you must use bilingual emails, be sure to make them as accessible as possible
 
 If you set an entire document to English but there are some sections that have text written in French, English screen readers will try to pronounce the French information, resulting in gibberish sounds.
 
-- Perform language markup to help screen readers read French text properly. Use this for changing the proofing language of sections of a document 1. Set Proofing Language (**Alt, V, U, L**). 2. Highlight the text that you want set to a different language. 3. Select the Review tab; then select **Language** > **Set Proofing Language.**
+- Perform language markup to help screen readers read French text properly. Use this for changing the proofing language of sections of a document.
+  1. Set Proofing Language (**Alt, V, U, L**).
+  2. Highlight the text that you want set to a different language.
+  3. Select the Review tab; then select **Language** > **Set Proofing Language.**
 
 ## Plain language
 
