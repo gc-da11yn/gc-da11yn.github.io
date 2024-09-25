@@ -4,7 +4,9 @@ description: Provides an overview of website usage data, such as the number of v
 toggle: analytique-de-lutilisation-du-site-web-visualisation-des-donnees
 ---
 
-<p><a href="{{ rootPath }}en/website-usage-analytics">Check out this information in simple text</a></p>
+<p><a href="{{ rootPath }}en/website-usage-analytics"><i class="fas fa-align-left mrgn-rght-md" aria-hidden="true"></i>Check out this information in simple text</a></p>
+
+{% include "partials/analytics-toc.njk" %}
 
 <div class="row">
 	{% for month, results in analytics %}

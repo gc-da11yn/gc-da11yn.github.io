@@ -5,12 +5,15 @@ toggle: analytique-de-lutilisation-du-site-web
 tags: aboutUs
 ---
 
-<p><a href="{{ rootPath }}en/website-usage-analytics-data-view">Check out this information in a data view</a></p>
+
+<p><a href="{{ rootPath }}en/website-usage-analytics-data-view"><i class="fas fa-server mrgn-rght-md" aria-hidden="true"></i>Check out this information in a data view</a></p>
+
+{% include "partials/analytics-toc.njk" %}
 
 {% for month, results in analytics %}
 <section class="mrgn-tp-lg mrgn-bttm-lg">
 	<div class="well">
-	<h2 class="mrgn-tp-sm">{{ month | formatYearMonth }}</h2>
+	<h2 class="mrgn-tp-sm" id="{{ month }}">{{ month | formatYearMonth }}</h2>
 	<p>
 		The site recorded <strong>{{ results.results[0].sessions }}</strong> visits, with
 		<strong>{{ results.results[0].newUsers }}</strong> users and
