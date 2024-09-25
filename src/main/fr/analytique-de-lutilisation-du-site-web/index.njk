@@ -12,7 +12,7 @@ tags: aboutUs
 {% for month, results in analytics %}
 <section class="mrgn-tp-lg mrgn-bttm-lg">
 	<div class="well">
-		<h2 class="mrgn-tp-sm">{{ month | formatYearMonth }}</h2>
+		<h2 class="mrgn-tp-sm" id="{{ month }}">{{ month | formatYearMonth }}</h2>
 		<p>
 			Le site a enregistré <strong>{{ results.results[0].sessions }}</strong> visites, avec
 			<strong>{{ results.results[0].newUsers }}</strong> utilisateurs et
