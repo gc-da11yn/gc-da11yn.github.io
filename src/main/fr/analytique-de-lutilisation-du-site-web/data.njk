@@ -4,7 +4,9 @@ description: Fournit un aperçu des données d'utilisation du site, telles que l
 toggle: website-usage-analytics-data-view
 ---
 
-<p><a href="{{ rootPath }}fr/analytique-de-lutilisation-du-site-web">Consultez ces informations sous forme de texte simple</a></p>
+<p><a href="{{ rootPath }}fr/analytique-de-lutilisation-du-site-web"><i class="fas fa-align-left mrgn-rght-md" aria-hidden="true"></i>Consultez ces informations sous forme de texte simple</a></p>
+
+{% include "partials/analytics-toc.njk" %}
 
 <div class="row">
 	{% for month, results in analytics %}
