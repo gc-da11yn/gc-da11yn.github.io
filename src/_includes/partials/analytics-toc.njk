@@ -4,7 +4,7 @@
 	<h2>{{ onThisPage }}</h2>
 	<ul class="list-col-xs-2 list-col-md-3 lst-spcd-2">
 	{% for month, results in analytics %}
-		<li><a href="{{ month }}">{{ month | formatYearMonth }}</a></li>
+		<li><a href="#{{ month }}">{{ month | formatYearMonth }}</a></li>
 	{% endfor %}
 	</ul>
 </section>
