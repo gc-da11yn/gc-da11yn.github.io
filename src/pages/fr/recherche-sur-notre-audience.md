@@ -1,6 +1,6 @@
 ---
 title: Recherche sur notre audience
-description: L’objectif principal de la création de ces persona était de mieux comprendre notre public cible. En développant une meilleure compréhension de nos utilisateurs, nous serons en mesure de construire une architecture de site réactive pour tout le contenu existant et futur hébergé sur le site Web de la boite à outils d’accessibilité numérique.
+description: En développant une meilleure compréhension de nos utilisateurs, nous serons en mesure de construire une architecture de site réactive pour tout le contenu existant et futur hébergé sur le site Web de la boite à outils d’accessibilité numérique.
 tags:
   - aboutUs
 toggle: research-on-our-target-audience
@@ -37,7 +37,7 @@ Dans nos persona, nous avons inclus une variété de handicaps et un éventail d
 
 Nous croyons qu’il est important de tenir compte d’un large éventail d’expériences humaines. C’est pourquoi, pour chaque type d’incapacité, nous avons inclus différentes possibilités d’exclusion.
 
-## Sept (7) Persona
+## Sept (7) Personas
 
 5 grands types d’incapacité et 2 types d’incapacité combinés
 
