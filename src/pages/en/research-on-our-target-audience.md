@@ -1,6 +1,6 @@
 ---
 title: Research on our target audience
-description: The main goal of creating these personas was to better understand our target audience. By developing a greater understanding of our users. By developing a greater understanding of our users, we would be able to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit’s website.
+description: By developing a greater understanding of our users, we hope to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit’s website.
 tags:
   - aboutUs
 toggle: recherche-sur-notre-audience
@@ -8,7 +8,7 @@ toggle: recherche-sur-notre-audience
 
 ## The creation of our persona
 
-The main goal of creating these personas was to better understand our target audience. By developing a greater understanding of our users. By developing a greater understanding of our users, we would be able to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit’s website.
+The main goal of creating these personas was to better understand our target audience.
 
 To do this we must:
 
@@ -18,7 +18,7 @@ To do this we must:
 
 ## Framework
 
-Our approach is modular: we combined two types of persona to create a template that better represents our target audience. We used the two following framework:
+Our approach is modular: we combined two types of persona to create a template that better represents our target audience. We used the two following frameworks:
 
 ### Target user persona
 
@@ -38,7 +38,7 @@ In our personas, we included a variety of disabilities and a spectrum of limitat
 
 We believe it is important to account for a wide range of human experiences. This is why for each disability type we included different possibilities of exclusion.
 
-## Seven (7) Persona
+## Seven (7) Personas
 
 5 broad disability types and 2 combined disability types
 
