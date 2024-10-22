@@ -147,9 +147,15 @@ module.exports = function (eleventyConfig) {
     return (parseFloat(value) * 100).toFixed(2) + '%';
   });
 
+  eleventyConfig.addFilter("recentMonths", function (analytics) {
+    const sortedMonths = Object.entries(analytics).sort(([a], [b]) => b.localeCompare(a)); // Reverse sort by month key
+    return sortedMonths.slice(0, 3); // Get the last three months
+  });
+
   eleventyConfig.addPassthroughCopy({ "./src/_docs": "docs" });
   eleventyConfig.addPassthroughCopy({ "./src/_images": "img" });
   eleventyConfig.addPassthroughCopy({ "./src/CNAME": "CNAME" });
+  eleventyConfig.addPassthroughCopy({ "./src/_scripts": "js" });
 
   eleventyConfig.addCollection("allHeadings", function (collectionApi) {
     return collectionApi.getAll().map(item => {

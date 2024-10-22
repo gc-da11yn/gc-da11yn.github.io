@@ -1,0 +1,40 @@
+<table id="dat-analytics" class="wb-charts wb-charts-bar table">
+	<caption>Website Analytics (last three months)</caption>
+
+	<!-- Table header with months as column headers -->
+	<thead>
+		<tr>
+			<td></td> <!-- Empty corner cell -->
+			{% for month, results in analytics | recentMonths %}
+			<th>{{ month | formatYearMonth }}</th> <!-- Keep the full year-month format -->
+			{% endfor %}
+		</tr>
+	</thead>
+
+	<!-- Table body with metrics as row headers -->
+	<tbody>
+		<!-- Sessions Row -->
+		<tr>
+			<th>Sessions (Visits)</th>
+			{% for month, results in analytics | recentMonths %}
+			<td>{{ results.results[0].sessions }}</td>
+			{% endfor %}
+		</tr>
+
+		<!-- Users Row -->
+		<tr>
+			<th>Users</th>
+			{% for month, results in analytics | recentMonths %}
+			<td>{{ results.results[0].newUsers }}</td>
+			{% endfor %}
+		</tr>
+
+		<!-- Pageviews Row -->
+		<tr>
+			<th>Pageviews</th>
+			{% for month, results in analytics | recentMonths %}
+			<td>{{ results.results[0].screenPageViews }}</td>
+			{% endfor %}
+		</tr>
+	</tbody>
+</table>
