@@ -9668,7 +9668,7 @@ Les documents de référence suivants ne sont pas nécessaires pour l’applicat
 	</li>
 	<li><strong>[i.26]</strong> W3C Working Group Note 5 September 2013: "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)".
 		<ul>
-			<li>REMARQUE : Disponible à <a href="http://www.w3.org/TR/wcag2ict/">WCAG2ICT<<small> (en anglais)</small>/a>.</li>
+			<li>REMARQUE : Disponible à <a href="http://www.w3.org/TR/wcag2ict/">WCAG2ICT<small> (en anglais)</small></a>.</li>
 		</ul>
 	</li>
 	<li><strong>[i.27]</strong> M 554 Commission Implementing Decision C(2017)2585 of 27.4.2017 on a standardisation request to the European standardisation organisations in support of Directive (EU) 2016/2102 of the European Parliament and of the Council on the accessibility of the websites and mobile applications of public sector bodies.</li>
