@@ -18,9 +18,9 @@
 		{% if settings.env == "dev" %}
 			<p>{{ contribute[locale].netlify }} <a{% if locale == "fr" %} {% endif %} href="https://www.netlify.com">Netlify</a></p>
 			{% if locale === 'en' %}
-				<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Edit code for the <strong>{{ title }}</strong> page</a>.</p>
+				<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Edit code for the <strong>{{ title | safe }}</strong> page</a>.</p>
 			{% else %}
-				<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Modifier le code de la page <strong>{{ title }}</strong></a.></p>
+				<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Modifier le code de la page <strong>{{ title| safe }}</strong></a>.</p>
 			{% endif %}
 		{% endif %}
 	</div>
