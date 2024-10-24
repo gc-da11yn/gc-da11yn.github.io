@@ -588,7 +588,7 @@ Les exigences en matière d’accessibilité fonctionnelle suivantes s’appliqu
 	<li><a href="#13">13 TIC assurant l’accès aux services de relais ou d’urgence</a></li>
 </ul>
 
-<table class="wb-tables table table-striped table-hover" data-wb-tables='{ "ordering" : false, "scrolly" : true, "pageLength" : -1, "lengthMenu" : [10, 25, 50] }'>
+<table class="table table-striped table-hover">
 	<thead>
 		<tr>
 			<th>

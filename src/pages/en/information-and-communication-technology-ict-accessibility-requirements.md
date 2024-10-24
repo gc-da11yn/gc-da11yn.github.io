@@ -589,7 +589,7 @@ The following Functional Accessibility Requirements are applicable to the Functi
 - [Annex – Chapter 14 Conformance](#annex-chapter-14-conformance)
 
 
-<table class="wb-tables table table-striped table-hover" data-wb-tables='{ "ordering" : false, "scrolly" : true, "pageLength" : -1, "lengthMenu" : [10, 25, 50] }'>
+<table class="table table-striped table-hover">
 	<thead>
 		<tr>
 			<th>
