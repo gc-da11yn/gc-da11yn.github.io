@@ -1,0 +1,51 @@
+---
+title: Analytique de l'utilisation du site web - Visualisation des données
+description: Fournit un aperçu des données d'utilisation du site, telles que le nombre de visites, d'utilisateurs, de pages vues et de taux de rebond. Il met également en évidence les appareils les plus fréquemment utilisés et les principaux pays d'où proviennent les visiteurs du site. Les données sont régulièrement mises à jour pour refléter l'activité la plus récente, nous aidant ainsi à comprendre comment les gens interagissent avec le site et à améliorer l'expérience globale.
+toggle: website-usage-analytics-data-view
+tags: aboutUs
+eleventyExcludeFromCollections: true
+---
+
+{% include "partials/analytics-chart.njk" %}
+
+<p class="mrgn-tp-lg"><a href="{{ rootPath }}fr/analytique-de-lutilisation-du-site-web"><i class="fas fa-align-left mrgn-rght-md" aria-hidden="true"></i>Consultez ces informations sous forme de texte simple</a></p>
+
+{% include "partials/analytics-toc.njk" %}
+
+<div class="row">
+	{% for month, results in analytics %}
+	<section class="col-md-6 mrgn-tp-md mrgn-bttm-md">
+		<div class="well">
+			<h2 class="mrgn-tp-sm" id="{{ month }}">{{ month | formatYearMonth }}</h2>
+			<dl>
+				<dt>Visites :</dt>
+				<dd>{{ results.results[0].sessions }}</dd>
+				<dt>Utilisateurs :</dt>
+				<dd>{{ results.results[0].newUsers }}</dd>
+				<dt>Pages vues :</dt>
+				<dd>{{ results.results[0].screenPageViews }}</dd>
+				<dt>Taux de rebond :</dt>
+				<dd>{{ results.results[0].bounceRate }}%</dd>
+				<dt>Durée moyenne des sessions :</dt>
+				<dd>{{ results.results[0].avgSessionDuration }} minutes</dd>
+				<dt>Appareils les plus utilisés :</dt>
+				<dd>
+					<ul>
+						{% for device in results.results[0].topDevices %}
+						<li>{{ device.device }} - {{ device.percentage }}%</li>
+						{% endfor %}
+					</ul>
+				</dd>
+				<dt>Top 3 des pays :</dt>
+				<dd>
+					<ol>
+						{% for country in results.results[0].topCountries %}
+						<li>{{ country }}</li>
+						{% endfor %}
+					</ol>
+				</dd>
+			</dl>
+		</div>
+	</section>
+	{% endfor %}
+</div>

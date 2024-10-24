@@ -1,0 +1,40 @@
+<table id="dat-analytics" class="wb-charts wb-charts-bar table">
+	<caption>{% if locale === "en" %}Website Analytics (last three months){% else %}Analyse du site web (trois derniers mois){% endif %}</caption>
+
+	<!-- Table header with months as column headers -->
+	<thead>
+		<tr>
+			<td></td> <!-- Empty corner cell -->
+			{% for month, results in analytics | recentMonths %}
+			<th>{{ month | formatYearMonth }}</th> <!-- Keep the full year-month format -->
+			{% endfor %}
+		</tr>
+	</thead>
+
+	<!-- Table body with metrics as row headers -->
+	<tbody>
+		<!-- Sessions Row -->
+		<tr>
+			<th>{% if locale === "en" %}Sessions (Visits){% else %}Sessions (visites){% endif %}</th>
+			{% for month, results in analytics | recentMonths %}
+			<td>{{ results.results[0].sessions }}</td>
+			{% endfor %}
+		</tr>
+
+		<!-- Users Row -->
+		<tr>
+			<th>{% if locale === "en" %}Users{% else %}Utilisateurs{% endif %}</th>
+			{% for month, results in analytics | recentMonths %}
+			<td>{{ results.results[0].newUsers }}</td>
+			{% endfor %}
+		</tr>
+
+		<!-- Pageviews Row -->
+		<tr>
+			<th>{% if locale === "en" %}Pageviews{% else %}Pages vues{% endif %}</th>
+			{% for month, results in analytics | recentMonths %}
+			<td>{{ results.results[0].screenPageViews }}</td>
+			{% endfor %}
+		</tr>
+	</tbody>
+</table>

@@ -57,6 +57,16 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
 		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+
+		{%- if js === "chart" -%}
+
+		<script>
+			window["wb-charts"] = {
+				plugins: ["https://gitcdn.link/repo/winne27/flot-valuelabels/master/jquery.flot.valuelabels.min.js"]
+			};
+		</script>
+		<script src="/js/chart.js"></script>
+		{%- endif -%}
 	</body>
 
 </html>

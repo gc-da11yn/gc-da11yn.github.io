@@ -4,6 +4,7 @@
   "description": "A sharing space for resources created by employees of the Government of Canada (GC) to promote in the open. Following the Treasury Board of Canada Secretariat's Directive on Open Government.",
   "main": ".eleventy.js",
   "scripts": {
+    "analytics": "node scripts/fetch-analytics.js",
     "newPage": "node scripts/create-new-page.js",
     "link-check": "node scripts/link-checker.js",
     "serve:port": "node scripts/serve-with-port.js",
@@ -18,7 +19,7 @@
     "start": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=local npm-run-all sass-start serve:port --parallel watch:*",
     "start-dev": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=dev npm-run-all sass-start serve:port --parallel watch:*",
     "start-prod": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=prod npm-run-all sass-start serve:port --parallel watch:*",
-    "dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
+    "dev": "cross-env ELEVENTY_ENV=dev npm-run-all analytics sass-build --parallel eleventy",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "build": "npm-run-all sass-build eleventy"
   },
@@ -47,7 +48,9 @@
     "broken-link-checker": "^0.7.8",
     "cross-env": "^7.0.3",
     "cspell": "^6.18.1",
+    "dotenv": "^16.4.5",
     "eleventy-plugin-broken-links": "^2.0.3",
+    "googleapis": "^144.0.0",
     "js-beautify": "^1.15.1",
     "jsdom": "^25.0.0",
     "markdown-it": "^13.0.1",

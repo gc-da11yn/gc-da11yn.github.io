@@ -1,0 +1,41 @@
+---
+title: Website usage analytics
+description: Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience.
+toggle: analytique-de-lutilisation-du-site-web
+tags: aboutUs
+---
+
+{% include "partials/analytics-chart.njk" %}
+
+<p class="mrgn-tp-lg"><a href="{{ rootPath }}en/website-usage-analytics-data-view"><i class="fas fa-server mrgn-rght-md" aria-hidden="true"></i>Check out this information in a data view</a></p>
+
+{% include "partials/analytics-toc.njk" %}
+
+{% for month, results in analytics %}
+<section class="mrgn-tp-lg mrgn-bttm-lg">
+	<div class="well">
+	<h2 class="mrgn-tp-sm" id="{{ month }}">{{ month | formatYearMonth }}</h2>
+	<p>
+		The site recorded <strong>{{ results.results[0].sessions }}</strong> visits, with
+		<strong>{{ results.results[0].newUsers }}</strong> users and
+		<strong>{{ results.results[0].screenPageViews }}</strong> page views.
+		The average bounce rate is <strong>{{ results.results[0].bounceRate }}%</strong>, and the average session duration is
+		<strong>{{ results.results[0].avgSessionDuration }} minutes</strong>.
+	</p>
+	<p>
+		The most used devices are desktop computers
+		(<strong>{{ results.results[0].topDevices[0].device }} - {{ results.results[0].topDevices[0].percentage }}%</strong>),
+		followed by mobile devices
+		(<strong>{{ results.results[0].topDevices[1].device }} - {{ results.results[0].topDevices[1].percentage }}%</strong>)
+		and tablets
+		(<strong>{{ results.results[0].topDevices[2].device }} - {{ results.results[0].topDevices[2].percentage }}%</strong>).
+	</p>
+	<p>The top three countries by visitors are:</p>
+	<ol>
+		<li><strong>{{ results.results[0].topCountries[0] }}</strong>,</li>
+		<li><strong>{{ results.results[0].topCountries[1] }}</strong>, and</li>
+		<li><strong>{{ results.results[0].topCountries[2] }}</strong>.</li>
+	</ol>
+	</div>
+</section>
+{% endfor %}
