@@ -19,7 +19,7 @@ toggle: exigences-en-matiere-de-technologies-de-linformation-et-des-communicatio
 <div class="col-xs-8">
 <p class="gc-dwnld-txt">
 <span>{{ title | safe }}</span>
-<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Microsoft Word Document">Word</abbr>, 88 <abbr title="KiloByte">KB</abbr>)</span>
+<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Microsoft Word Document">Word</abbr>, 563 <abbr title="KiloByte">KB</abbr>)</span>
 </p>
 </div>
 </div>
@@ -8703,7 +8703,7 @@ The following referenced documents are necessary for the application of the pres
   </li>
 </ul>
 
-References are either specific (identified by date of publication and/or edition number or version number) or non-specific. For specific references, only the cited version applies. For non-specific references, the latest version of the referenced document (including any amendments) applies. 
+References are either specific (identified by date of publication and/or edition number or version number) or non-specific. For specific references, only the cited version applies. For non-specific references, the latest version of the referenced document (including any amendments) applies.
 
 NOTE: While any hyperlinks included in this clause were valid at the time of publication, ETSI cannot guarantee their long-term validity.
 
