@@ -5,7 +5,9 @@ toggle: website-usage-analytics
 tags: aboutUs
 ---
 
-<p><a href="{{ rootPath }}fr/analytique-de-lutilisation-du-site-web-visualisation-des-donnees"><i class="fas fa-server mrgn-rght-md" aria-hidden="true"></i>Consultez ces informations sous forme de données</a></p>
+{% include "partials/analytics-chart.njk" %}
+
+<p class="mrgn-tp-lg"><a href="{{ rootPath }}fr/analytique-de-lutilisation-du-site-web-visualisation-des-donnees"><i class="fas fa-server mrgn-rght-md" aria-hidden="true"></i>Consultez ces informations sous forme de données</a></p>
 
 {% include "partials/analytics-toc.njk" %}
 

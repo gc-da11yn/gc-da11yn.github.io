@@ -2,9 +2,13 @@
 title: Website usage analytics - Data view
 description: Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience.
 toggle: analytique-de-lutilisation-du-site-web-visualisation-des-donnees
+tags: aboutUs
+eleventyExcludeFromCollections: true
 ---
 
-<p><a href="{{ rootPath }}en/website-usage-analytics"><i class="fas fa-align-left mrgn-rght-md" aria-hidden="true"></i>Check out this information in simple text</a></p>
+{% include "partials/analytics-chart.njk" %}
+
+<p class="mrgn-tp-lg"><a href="{{ rootPath }}en/website-usage-analytics"><i class="fas fa-align-left mrgn-rght-md" aria-hidden="true"></i>Check out this information in simple text</a></p>
 
 {% include "partials/analytics-toc.njk" %}
 

@@ -1,5 +1,5 @@
 <table id="dat-analytics" class="wb-charts wb-charts-bar table">
-	<caption>Website Analytics (last three months)</caption>
+	<caption>{% if locale === "en" %}Website Analytics (last three months){% else %}Analyse du site web (trois derniers mois){% endif %}</caption>
 
 	<!-- Table header with months as column headers -->
 	<thead>
@@ -15,7 +15,7 @@
 	<tbody>
 		<!-- Sessions Row -->
 		<tr>
-			<th>Sessions (Visits)</th>
+			<th>{% if locale === "en" %}Sessions (Visits){% else %}Sessions (visites){% endif %}</th>
 			{% for month, results in analytics | recentMonths %}
 			<td>{{ results.results[0].sessions }}</td>
 			{% endfor %}
@@ -23,7 +23,7 @@
 
 		<!-- Users Row -->
 		<tr>
-			<th>Users</th>
+			<th>{% if locale === "en" %}Users{% else %}Utilisateurs{% endif %}</th>
 			{% for month, results in analytics | recentMonths %}
 			<td>{{ results.results[0].newUsers }}</td>
 			{% endfor %}
@@ -31,7 +31,7 @@
 
 		<!-- Pageviews Row -->
 		<tr>
-			<th>Pageviews</th>
+			<th>{% if locale === "en" %}Pageviews{% else %}Pages vues{% endif %}</th>
 			{% for month, results in analytics | recentMonths %}
 			<td>{{ results.results[0].screenPageViews }}</td>
 			{% endfor %}
