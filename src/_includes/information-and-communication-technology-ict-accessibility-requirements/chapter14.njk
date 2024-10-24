@@ -1,0 +1,47 @@
+{% if locale === "en" %}
+
+## Annex – Chapter 14 Conformance
+
+Conformance to the present document is achieved by meeting all the applicable requirements, these are clauses containing the word "shall". Those clauses containing the word "should" are recommendations and are not required for conformance.
+
+All clauses except those in clause 12 are self-scoping. This means they are introduced with the phrase 'Where ICT \<pre-condition\>'. A requirement is met when the pre-condition is true and the corresponding test (in Annex C) is passed. When one of the pre-conditions is false the requirement is not applicable. Consequently, the result of the tests in Annex C can be: not applicable, pass, fail, or (in exceptional circumstances) not testable.
+
+ICT is often comprised of an assembly of two or more items of ICT. In some cases, two or more interoperable items of ICT may together meet more requirements of the standard when one item complements the functionality of the other and the sum together meets more of the accessibility requirements. However, combining two items of ICT, both of which fail to meet any particular requirement, will not lead to a combined ICT system that meets that requirement.
+
+The present document does not prioritize requirements.
+
+NOTE 1: Conformance with the accessibility requirements could be affected by subsequent implementation or maintenance.
+
+NOTE 2: Sampling is frequently required on complex ICT when there are too many instances of the object to be tested. The present document cannot recommend specific ICT evaluation sampling techniques as these are context specific.
+
+The inherent nature of certain situations makes it impossible to make reliable and definitive statements that accessibility requirements have been met. In those situations therefore, the requirements in the present document are not applicable:
+
+- when the product is in a failure, repair or maintenance state where the ordinary set of input or output functions are not available;
+- during those parts of start-up, shutdown, and other state transitions that can be completed without user interaction.
+
+NOTE 3: Even in the above situations, it is best practice to apply requirements in the present document wherever it is feasible and safe to do so.
+
+{% else %}
+
+## Annexe – Chapitre 14 - Conformité
+
+La conformité au présent document est obtenue en respectant toutes les exigences applicables, c’est-à-dire les clauses contenant le mot « doit ». Les clauses contenant le mot « devrait » sont des recommandations et ne sont pas requises pour la conformité.
+
+Toutes les clauses, à l’exception de la clause 12, comprennent une autoévaluation de la portée. Cela signifie qu’elles sont introduites par la locution « Lorsque les TIC \<condition préalable\> ». Une exigence est respectée lorsque la condition préalable est vraie et que le test correspondant (en annexe C) est réussi. Lorsque l’une des conditions préalables est fausse, l’exigence est non applicable. Par conséquent, le résultat des tests de l’annexe C peut être : non applicable, réussite, échec ou (dans des circonstances exceptionnelles) non testable.
+
+	Les TIC sont souvent constituées d’un assemblage de deux ou plusieurs éléments de TIC. Dans certains cas, au moins deux éléments interopérables de TIC peuvent, ensemble, répondre à davantage d’exigences de la norme lorsqu’un élément complète la fonctionnalité de l’autre et que l’ensemble répond à davantage d’exigences d’accessibilité. Toutefois, la combinaison de deux éléments de TIC, qui ne réussissent pas à satisfaire à une exigence particulière, n’aboutira pas à un système de TIC combiné qui répond à cette exigence.
+
+	Le présent document n’établit pas l’ordre de priorité des exigences.
+
+	REMARQUE 1 : Une mise en œuvre ou une maintenance ultérieure pourrait avoir une incidence sur la conformité aux exigences d’accessibilité.
+
+	REMARQUE 2 : Un échantillonnage est souvent nécessaire pour les TIC complexes lorsqu’il y a trop d’instances de l’objet à tester. Le présent document ne peut pas recommander de techniques d’échantillonnage précises pour l’évaluation des TIC car celles-ci sont propres au contexte.
+
+	La nature inhérente de certaines situations fait qu’il est impossible de faire des déclarations fiables et définitives sur le respect des exigences d’accessibilité. Par conséquent, dans ces situations, les exigences du présent document sont sans objet :
+
+	- lorsque le produit se trouve dans un état de défaillance, de réparation ou de maintenance où l’ensemble ordinaire des fonctions d’entrée ou de sortie n’est pas disponible;
+	- pendant les parties du démarrage, de l’arrêt et d’autres transitions d’état qui peuvent être effectuées sans interaction avec l’utilisateur.
+
+	REMARQUE 3 : Même dans les situations ci-dessus, la pratique exemplaire consiste à appliquer les exigences du présent document chaque fois qu’il est possible de le faire en toute sécurité.
+
+{% endif %}
