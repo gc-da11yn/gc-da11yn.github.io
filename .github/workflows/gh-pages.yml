@@ -12,11 +12,12 @@ jobs:
   update-analytics:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    environment: github-pages  # Specify the environment here
     steps:
       - uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v4
         with:
           node-version: '20.x'
 
@@ -33,6 +34,7 @@ jobs:
   deploy:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
+    environment: github-pages  # Specify the environment here
     steps:
       - uses: actions/checkout@v4
         with:
@@ -59,6 +61,11 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          PROPERTY_ID: ${{ secrets.PROPERTY_ID }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
