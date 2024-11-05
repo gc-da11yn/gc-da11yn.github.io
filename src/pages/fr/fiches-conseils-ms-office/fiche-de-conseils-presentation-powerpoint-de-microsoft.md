@@ -1,6 +1,6 @@
 ---
 title: Feuille de conseils pour la présentation Microsoft PowerPoint
-description: Référencez facilement les meilleures pratiques accessibles pour la création PowerPoint.Feuille de conseils pour la présentation Microsoft PowerPoint.
+description: Référencez facilement les meilleures pratiques accessibles pour la création PowerPoint.
 toggle: tip-sheet-for-microsoft-powerpoint-presentation
 ---
 
