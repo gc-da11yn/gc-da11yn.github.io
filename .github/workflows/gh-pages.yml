@@ -1,28 +1,87 @@
 name: Deploy and Update Analytics
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight UTC
   workflow_dispatch:  # Allows manual triggering
-  pull_request:
-    types: [closed]
-    branches:
-      - main
 
 jobs:
-  update-analytics-and-deploy:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.ref == 'refs/heads/main')
+  deploy:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
-    environment: github-pages  # Specify the environment here
+    permissions:
+      contents: write  # Ensure GitHub Actions can push to the repository
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: 'main'
+          fetch-depth: '0'
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
 
-      - run: npm install
+      - name: Reconfigure git to use HTTP authentication
+        run: >
+          git config --global url."https://github.com/".insteadOf
+          ssh://git@github.com/
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          publish_branch: gh-pages
+
+  update-analytics:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Ensure GitHub Actions can push to the repository
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 'main'
+          fetch-depth: '0'
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+
+      - name: Reconfigure git to use HTTP authentication
+        run: >
+          git config --global url."https://github.com/".insteadOf
+          ssh://git@github.com/
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm ci
 
       - name: Run analytics update
         run: npm run analytics
