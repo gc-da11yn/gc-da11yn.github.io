@@ -1,0 +1,1064 @@
+{
+    "2024-11": {
+      "results": [
+        {
+          "sessions": 1144,
+          "newUsers": 574,
+          "screenPageViews": 1974,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 1144,
+          "countries": {
+            "Canada": 1055,
+            "United States": 34,
+            "United Kingdom": 6,
+            "Barbados": 5,
+            "Australia": 4,
+            "France": 5,
+            "Kuwait": 3,
+            "Belgium": 3,
+            "Brazil": 2,
+            "Indonesia": 2,
+            "Morocco": 2,
+            "Portugal": 2,
+            "Sweden": 2,
+            "China": 2,
+            "Finland": 1,
+            "Germany": 1,
+            "Greece": 1,
+            "Hong Kong": 1,
+            "India": 2,
+            "Ireland": 1,
+            "Italy": 1,
+            "Japan": 1,
+            "Mexico": 1,
+            "Netherlands": 1,
+            "Nigeria": 1,
+            "South Korea": 1,
+            "Spain": 1,
+            "Taiwan": 1,
+            "Tunisia": 1,
+            "Vietnam": 1
+          },
+          "devices": {
+            "desktop": 1091,
+            "mobile": 50,
+            "tablet": 3
+          },
+          "bounceRate": "0.49",
+          "avgSessionDuration": "3.17",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "United Kingdom"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "95.37"
+            },
+            {
+              "device": "mobile",
+              "percentage": "4.37"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.26"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 566,
+      "totalAvgSessionDurationSum": 217336.648521
+    },
+    "2024-10": {
+      "results": [
+        {
+          "sessions": 7796,
+          "newUsers": 3973,
+          "screenPageViews": 14415,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 7796,
+          "countries": {
+            "Canada": 7168,
+            "United States": 252,
+            "India": 32,
+            "United Kingdom": 29,
+            "France": 28,
+            "Spain": 24,
+            "Australia": 20,
+            "Brazil": 18,
+            "Germany": 16,
+            "South Korea": 10,
+            "China": 13,
+            "Portugal": 11,
+            "Netherlands": 8,
+            "Belgium": 7,
+            "New Zealand": 8,
+            "Sweden": 7,
+            "Bangladesh": 7,
+            "Ukraine": 6,
+            "Italy": 5,
+            "Mexico": 6,
+            "Colombia": 6,
+            "Poland": 5,
+            "Russia": 4,
+            "South Africa": 7,
+            "United Arab Emirates": 4,
+            "Côte d’Ivoire": 3,
+            "Denmark": 3,
+            "Ireland": 4,
+            "Japan": 3,
+            "Nigeria": 4,
+            "Philippines": 4,
+            "Romania": 3,
+            "Austria": 2,
+            "Czechia": 2,
+            "Jamaica": 2,
+            "Kenya": 3,
+            "Lithuania": 2,
+            "Mauritius": 2,
+            "Morocco": 2,
+            "Nepal": 2,
+            "Norway": 2,
+            "Senegal": 2,
+            "Slovenia": 2,
+            "Taiwan": 3,
+            "Thailand": 2,
+            "Togo": 2,
+            "Tunisia": 2,
+            "Türkiye": 2,
+            "(not set)": 1,
+            "Argentina": 1,
+            "Armenia": 1,
+            "Belarus": 1,
+            "Burkina Faso": 1,
+            "Chile": 1,
+            "Costa Rica": 1,
+            "Cyprus": 1,
+            "Egypt": 1,
+            "Estonia": 1,
+            "Finland": 1,
+            "Greece": 1,
+            "Guinea": 1,
+            "Hong Kong": 1,
+            "Hungary": 1,
+            "Indonesia": 2,
+            "Iran": 1,
+            "Israel": 1,
+            "Jordan": 1,
+            "Liberia": 1,
+            "Luxembourg": 1,
+            "Mali": 1,
+            "Oman": 1,
+            "Pakistan": 1,
+            "Puerto Rico": 1,
+            "Qatar": 1,
+            "Saudi Arabia": 1,
+            "Serbia": 1,
+            "Sri Lanka": 1,
+            "Switzerland": 2,
+            "Tanzania": 1,
+            "Vietnam": 1,
+            "Yemen": 1,
+            "Zambia": 1,
+            "Zimbabwe": 1
+          },
+          "devices": {
+            "desktop": 7507,
+            "mobile": 267,
+            "tablet": 22
+          },
+          "bounceRate": "0.47",
+          "avgSessionDuration": "3.44",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "India"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "96.29"
+            },
+            {
+              "device": "mobile",
+              "percentage": "3.42"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.28"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 3649,
+      "totalAvgSessionDurationSum": 1609352.3010429996
+    },
+    "2024-09": {
+      "results": [
+        {
+          "sessions": 6423,
+          "newUsers": 3318,
+          "screenPageViews": 11716,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 6423,
+          "countries": {
+            "Canada": 5882,
+            "United States": 195,
+            "France": 54,
+            "India": 49,
+            "United Kingdom": 19,
+            "Spain": 14,
+            "China": 11,
+            "Germany": 11,
+            "Argentina": 9,
+            "Italy": 9,
+            "Australia": 14,
+            "Brazil": 7,
+            "Mexico": 9,
+            "Netherlands": 8,
+            "Philippines": 7,
+            "Colombia": 11,
+            "Morocco": 6,
+            "Singapore": 6,
+            "Latvia": 5,
+            "Indonesia": 4,
+            "Sweden": 4,
+            "Thailand": 4,
+            "(not set)": 4,
+            "Austria": 3,
+            "Greece": 3,
+            "Israel": 3,
+            "Japan": 3,
+            "Nigeria": 3,
+            "Poland": 3,
+            "Portugal": 3,
+            "Saudi Arabia": 4,
+            "Bangladesh": 2,
+            "Belgium": 3,
+            "Chile": 2,
+            "Côte d’Ivoire": 2,
+            "Egypt": 4,
+            "Hong Kong": 2,
+            "Ireland": 3,
+            "Jamaica": 2,
+            "New Zealand": 2,
+            "Slovakia": 2,
+            "South Korea": 2,
+            "Sri Lanka": 2,
+            "Switzerland": 2,
+            "Vietnam": 2,
+            "Algeria": 1,
+            "Botswana": 1,
+            "Burkina Faso": 1,
+            "Costa Rica": 1,
+            "Czechia": 1,
+            "Finland": 1,
+            "Georgia": 1,
+            "Iran": 1,
+            "Kyrgyzstan": 1,
+            "Laos": 1,
+            "Lithuania": 1,
+            "Malawi": 1,
+            "Martinique": 1,
+            "Nepal": 1,
+            "Nicaragua": 1,
+            "Oman": 1,
+            "Pakistan": 1,
+            "Romania": 1,
+            "Taiwan": 1,
+            "Tunisia": 1,
+            "Türkiye": 1,
+            "Ukraine": 1,
+            "United Arab Emirates": 2
+          },
+          "devices": {
+            "desktop": 6142,
+            "mobile": 263,
+            "tablet": 18
+          },
+          "bounceRate": "0.48",
+          "avgSessionDuration": "3.44",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "France"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "95.63"
+            },
+            {
+              "device": "mobile",
+              "percentage": "4.09"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.28"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 3088,
+      "totalAvgSessionDurationSum": 1325449.4635369992
+    },
+    "2024-08": {
+      "results": [
+        {
+          "sessions": 5511,
+          "newUsers": 2572,
+          "screenPageViews": 10532,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 5511,
+          "countries": {
+            "Canada": 5055,
+            "United States": 172,
+            "United Kingdom": 32,
+            "India": 30,
+            "France": 23,
+            "Australia": 18,
+            "South Korea": 10,
+            "Belgium": 7,
+            "Germany": 8,
+            "Italy": 7,
+            "Bangladesh": 5,
+            "China": 5,
+            "Colombia": 5,
+            "Egypt": 5,
+            "Philippines": 7,
+            "Portugal": 5,
+            "Thailand": 5,
+            "Ireland": 4,
+            "Morocco": 4,
+            "Nigeria": 4,
+            "Argentina": 4,
+            "Brazil": 4,
+            "Denmark": 3,
+            "Ethiopia": 3,
+            "Finland": 3,
+            "Lithuania": 3,
+            "Netherlands": 4,
+            "Spain": 3,
+            "Sweden": 4,
+            "Costa Rica": 2,
+            "Czechia": 2,
+            "Côte d’Ivoire": 3,
+            "Ecuador": 2,
+            "Greece": 2,
+            "Iran": 2,
+            "Jordan": 3,
+            "Madagascar": 2,
+            "New Zealand": 2,
+            "North Macedonia": 2,
+            "Pakistan": 2,
+            "Senegal": 2,
+            "Slovakia": 2,
+            "Switzerland": 3,
+            "Taiwan": 2,
+            "United Arab Emirates": 2,
+            "Algeria": 1,
+            "American Samoa": 1,
+            "Austria": 1,
+            "Benin": 1,
+            "Cook Islands": 1,
+            "Ghana": 1,
+            "Haiti": 1,
+            "Hong Kong": 2,
+            "Israel": 1,
+            "Japan": 1,
+            "Malaysia": 1,
+            "Maldives": 1,
+            "Malta": 1,
+            "Mauritius": 1,
+            "Mexico": 2,
+            "Myanmar (Burma)": 1,
+            "Nepal": 1,
+            "New Caledonia": 1,
+            "Norway": 2,
+            "Romania": 1,
+            "Russia": 1,
+            "Samoa": 1,
+            "Saudi Arabia": 1,
+            "Singapore": 2,
+            "South Africa": 1,
+            "Sri Lanka": 1,
+            "Türkiye": 2,
+            "Ukraine": 1,
+            "Yemen": 1
+          },
+          "devices": {
+            "desktop": 5221,
+            "mobile": 275,
+            "tablet": 15
+          },
+          "bounceRate": "0.49",
+          "avgSessionDuration": "3.27",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "United Kingdom"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "94.74"
+            },
+            {
+              "device": "mobile",
+              "percentage": "4.99"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.27"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 2678,
+      "totalAvgSessionDurationSum": 1082063.3388289995
+    },
+    "2024-07": {
+      "results": [
+        {
+          "sessions": 6679,
+          "newUsers": 2958,
+          "screenPageViews": 12281,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 6679,
+          "countries": {
+            "Canada": 6138,
+            "United States": 165,
+            "United Kingdom": 55,
+            "France": 40,
+            "Germany": 35,
+            "India": 32,
+            "Costa Rica": 17,
+            "Italy": 14,
+            "Belgium": 11,
+            "Brazil": 9,
+            "Australia": 11,
+            "Indonesia": 7,
+            "Portugal": 7,
+            "Poland": 6,
+            "China": 5,
+            "Greece": 5,
+            "Nigeria": 6,
+            "Spain": 6,
+            "Sweden": 5,
+            "Türkiye": 5,
+            "Vietnam": 6,
+            "Egypt": 6,
+            "Iran": 4,
+            "Japan": 4,
+            "Malaysia": 4,
+            "Philippines": 4,
+            "South Korea": 4,
+            "Thailand": 4,
+            "United Arab Emirates": 4,
+            "Cyprus": 3,
+            "Ireland": 4,
+            "Netherlands": 3,
+            "South Africa": 3,
+            "Benin": 3,
+            "Georgia": 2,
+            "Hong Kong": 2,
+            "Mongolia": 2,
+            "Morocco": 3,
+            "New Zealand": 2,
+            "Pakistan": 2,
+            "Switzerland": 2,
+            "(not set)": 2,
+            "Afghanistan": 1,
+            "Algeria": 1,
+            "Argentina": 1,
+            "Austria": 1,
+            "Bahrain": 1,
+            "Bulgaria": 1,
+            "Cameroon": 1,
+            "Colombia": 1,
+            "Côte d’Ivoire": 1,
+            "Hungary": 1,
+            "Israel": 1,
+            "Kazakhstan": 1,
+            "Latvia": 1,
+            "Lebanon": 1,
+            "Lithuania": 1,
+            "Luxembourg": 1,
+            "Mexico": 1,
+            "Norway": 1,
+            "Peru": 1,
+            "Puerto Rico": 1,
+            "Saudi Arabia": 1,
+            "Singapore": 1,
+            "Slovakia": 1,
+            "Sri Lanka": 1,
+            "Taiwan": 1,
+            "Uganda": 1,
+            "Ukraine": 1
+          },
+          "devices": {
+            "desktop": 6445,
+            "mobile": 226,
+            "tablet": 8
+          },
+          "bounceRate": "0.51",
+          "avgSessionDuration": "3.33",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "United Kingdom"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "96.50"
+            },
+            {
+              "device": "mobile",
+              "percentage": "3.38"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.12"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 3404.0000000000005,
+      "totalAvgSessionDurationSum": 1333400.8836750002
+    },
+    "2024-06": {
+      "results": [
+        {
+          "sessions": 7943,
+          "newUsers": 3561,
+          "screenPageViews": 14228,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 7943,
+          "countries": {
+            "Canada": 7360,
+            "United States": 155,
+            "United Kingdom": 62,
+            "France": 64,
+            "India": 43,
+            "Germany": 26,
+            "Australia": 19,
+            "New Zealand": 16,
+            "Italy": 14,
+            "Belgium": 11,
+            "Japan": 11,
+            "Spain": 12,
+            "Sweden": 8,
+            "Netherlands": 8,
+            "Luxembourg": 6,
+            "Philippines": 6,
+            "Indonesia": 5,
+            "Madagascar": 4,
+            "Mexico": 5,
+            "Morocco": 8,
+            "Pakistan": 5,
+            "Singapore": 4,
+            "Switzerland": 5,
+            "Vietnam": 4,
+            "Algeria": 4,
+            "Brazil": 3,
+            "Chile": 3,
+            "China": 5,
+            "Colombia": 3,
+            "Latvia": 3,
+            "South Korea": 5,
+            "Austria": 2,
+            "Costa Rica": 2,
+            "Czechia": 2,
+            "Finland": 2,
+            "Nigeria": 4,
+            "Poland": 2,
+            "Portugal": 2,
+            "Romania": 2,
+            "Türkiye": 2,
+            "(not set)": 1,
+            "Bangladesh": 2,
+            "Benin": 1,
+            "Bulgaria": 1,
+            "Cambodia": 1,
+            "Cuba": 1,
+            "Cyprus": 1,
+            "Denmark": 1,
+            "Dominican Republic": 1,
+            "Egypt": 1,
+            "Ethiopia": 1,
+            "Greece": 1,
+            "Guadeloupe": 1,
+            "Hong Kong": 2,
+            "Hungary": 1,
+            "Iceland": 1,
+            "Iran": 1,
+            "Ireland": 1,
+            "Israel": 1,
+            "Jordan": 1,
+            "Kenya": 1,
+            "New Caledonia": 1,
+            "Norway": 1,
+            "Peru": 1,
+            "Russia": 1,
+            "Saudi Arabia": 1,
+            "Senegal": 1,
+            "South Africa": 1,
+            "Taiwan": 1,
+            "Tunisia": 1,
+            "United Arab Emirates": 1,
+            "Uruguay": 1,
+            "Yemen": 1,
+            "Zambia": 1
+          },
+          "devices": {
+            "desktop": 7659,
+            "mobile": 269,
+            "tablet": 15
+          },
+          "bounceRate": "0.50",
+          "avgSessionDuration": "3.24",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "France"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "96.42"
+            },
+            {
+              "device": "mobile",
+              "percentage": "3.39"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.19"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 3984,
+      "totalAvgSessionDurationSum": 1545082.2209450006
+    },
+    "2024-05": {
+      "results": [
+        {
+          "sessions": 8346,
+          "newUsers": 3798,
+          "screenPageViews": 16507,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 8346,
+          "countries": {
+            "Canada": 7807,
+            "United States": 167,
+            "France": 47,
+            "India": 36,
+            "Colombia": 22,
+            "United Kingdom": 19,
+            "Australia": 18,
+            "Japan": 14,
+            "Italy": 12,
+            "Germany": 12,
+            "China": 10,
+            "Spain": 9,
+            "New Zealand": 8,
+            "Switzerland": 8,
+            "Mexico": 8,
+            "South Korea": 7,
+            "Tanzania": 7,
+            "Austria": 6,
+            "Brazil": 6,
+            "Indonesia": 8,
+            "Taiwan": 6,
+            "Belgium": 5,
+            "Bulgaria": 5,
+            "Côte d’Ivoire": 5,
+            "Pakistan": 5,
+            "Morocco": 6,
+            "Poland": 5,
+            "Czechia": 3,
+            "Ethiopia": 3,
+            "Ireland": 4,
+            "Netherlands": 5,
+            "Sweden": 4,
+            "Ukraine": 3,
+            "(not set)": 2,
+            "Chile": 2,
+            "Denmark": 2,
+            "Egypt": 2,
+            "Finland": 2,
+            "Lebanon": 2,
+            "Malta": 2,
+            "Portugal": 2,
+            "Singapore": 2,
+            "South Africa": 2,
+            "Sri Lanka": 2,
+            "Thailand": 3,
+            "Algeria": 1,
+            "Argentina": 1,
+            "Belize": 1,
+            "Cambodia": 1,
+            "Ecuador": 1,
+            "Greece": 1,
+            "Hong Kong": 1,
+            "Hungary": 1,
+            "Iceland": 1,
+            "Iran": 1,
+            "Israel": 1,
+            "Kazakhstan": 1,
+            "Luxembourg": 1,
+            "Malaysia": 1,
+            "Maldives": 1,
+            "Namibia": 1,
+            "Norway": 1,
+            "Peru": 1,
+            "Philippines": 1,
+            "Russia": 2,
+            "Saudi Arabia": 1,
+            "Serbia": 1,
+            "Togo": 1,
+            "Tunisia": 1,
+            "Turkmenistan": 1,
+            "Türkiye": 1,
+            "United Arab Emirates": 2,
+            "Zambia": 1,
+            "Zimbabwe": 1
+          },
+          "devices": {
+            "desktop": 8119,
+            "mobile": 219,
+            "tablet": 8
+          },
+          "bounceRate": "0.45",
+          "avgSessionDuration": "3.78",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "France"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "97.28"
+            },
+            {
+              "device": "mobile",
+              "percentage": "2.62"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.10"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 3725,
+      "totalAvgSessionDurationSum": 1892536.5328699998
+    },
+    "2024-04": {
+      "results": [
+        {
+          "sessions": 6118,
+          "newUsers": 2527,
+          "screenPageViews": 11986,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 6118,
+          "countries": {
+            "Canada": 5862,
+            "United States": 87,
+            "France": 46,
+            "United Kingdom": 19,
+            "India": 13,
+            "Spain": 7,
+            "Ukraine": 6,
+            "Australia": 5,
+            "Netherlands": 5,
+            "Switzerland": 4,
+            "Egypt": 3,
+            "Israel": 3,
+            "Pakistan": 3,
+            "South Africa": 3,
+            "Vietnam": 3,
+            "Belgium": 3,
+            "Brazil": 3,
+            "Cambodia": 2,
+            "China": 2,
+            "Côte d’Ivoire": 2,
+            "Ethiopia": 2,
+            "Finland": 2,
+            "Indonesia": 2,
+            "Ireland": 2,
+            "Italy": 2,
+            "Malaysia": 2,
+            "Philippines": 4,
+            "Russia": 2,
+            "South Korea": 2,
+            "(not set)": 1,
+            "Austria": 1,
+            "Cameroon": 1,
+            "Colombia": 1,
+            "Congo - Kinshasa": 1,
+            "Denmark": 1,
+            "Germany": 1,
+            "Iraq": 1,
+            "Kenya": 1,
+            "Lithuania": 1,
+            "New Zealand": 1,
+            "Norway": 1,
+            "Portugal": 1,
+            "Thailand": 2,
+            "Tunisia": 1,
+            "United Arab Emirates": 1
+          },
+          "devices": {
+            "desktop": 5967,
+            "mobile": 148,
+            "tablet": 3
+          },
+          "bounceRate": "0.46",
+          "avgSessionDuration": "3.55",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "France"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "97.53"
+            },
+            {
+              "device": "mobile",
+              "percentage": "2.42"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.05"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 2811,
+      "totalAvgSessionDurationSum": 1303094.916899
+    },
+    "2024-03": {
+      "results": [
+        {
+          "sessions": 5192,
+          "newUsers": 2166,
+          "screenPageViews": 10811,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 5192,
+          "countries": {
+            "Canada": 5023,
+            "United States": 79,
+            "France": 18,
+            "United Kingdom": 12,
+            "India": 7,
+            "Morocco": 5,
+            "Germany": 4,
+            "Taiwan": 4,
+            "Italy": 3,
+            "Austria": 2,
+            "Bangladesh": 2,
+            "China": 2,
+            "Dominican Republic": 2,
+            "Egypt": 2,
+            "Estonia": 2,
+            "Luxembourg": 2,
+            "Poland": 2,
+            "Romania": 2,
+            "South Korea": 2,
+            "Spain": 2,
+            "Algeria": 1,
+            "Australia": 1,
+            "Cambodia": 1,
+            "Cameroon": 2,
+            "Ghana": 1,
+            "Indonesia": 1,
+            "Ireland": 1,
+            "Japan": 1,
+            "Kenya": 1,
+            "Netherlands": 1,
+            "Réunion": 1,
+            "Sweden": 1,
+            "Ukraine": 1,
+            "Vietnam": 1
+          },
+          "devices": {
+            "desktop": 5101,
+            "mobile": 88,
+            "tablet": 3
+          },
+          "bounceRate": "0.49",
+          "avgSessionDuration": "4.15",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "France"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "98.25"
+            },
+            {
+              "device": "mobile",
+              "percentage": "1.69"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.06"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 2531,
+      "totalAvgSessionDurationSum": 1291886.986178
+    },
+    "2024-02": {
+      "results": [
+        {
+          "sessions": 7008,
+          "newUsers": 2951,
+          "screenPageViews": 14894,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 7008,
+          "countries": {
+            "Canada": 6847,
+            "United States": 99,
+            "Germany": 8,
+            "Brazil": 6,
+            "China": 5,
+            "India": 5,
+            "Finland": 4,
+            "United Kingdom": 6,
+            "Australia": 3,
+            "France": 3,
+            "Philippines": 3,
+            "Austria": 2,
+            "Belgium": 2,
+            "Hong Kong": 2,
+            "Luxembourg": 2,
+            "Pakistan": 2,
+            "Argentina": 1,
+            "Ghana": 1,
+            "Ireland": 1,
+            "Norway": 1,
+            "South Africa": 1,
+            "Spain": 1,
+            "Sweden": 1,
+            "United Arab Emirates": 1,
+            "Vietnam": 1
+          },
+          "devices": {
+            "desktop": 6891,
+            "mobile": 108,
+            "tablet": 9
+          },
+          "bounceRate": "0.48",
+          "avgSessionDuration": "3.73",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "Germany"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "98.33"
+            },
+            {
+              "device": "mobile",
+              "percentage": "1.54"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.13"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 3343,
+      "totalAvgSessionDurationSum": 1567943.6728060003
+    },
+    "2024-01": {
+      "results": [
+        {
+          "sessions": 6684,
+          "newUsers": 2739,
+          "screenPageViews": 15109,
+          "totalBounceRate": 0,
+          "totalAvgSessionDuration": 0,
+          "totalSessions": 6684,
+          "countries": {
+            "Canada": 6526,
+            "United States": 96,
+            "United Kingdom": 16,
+            "France": 5,
+            "Italy": 3,
+            "Netherlands": 3,
+            "Singapore": 3,
+            "South Korea": 3,
+            "Türkiye": 5,
+            "Algeria": 2,
+            "Australia": 2,
+            "Belgium": 2,
+            "China": 2,
+            "Germany": 4,
+            "Morocco": 2,
+            "Poland": 2,
+            "Austria": 1,
+            "Ghana": 1,
+            "Libya": 1,
+            "Pakistan": 1,
+            "Romania": 1,
+            "Rwanda": 1,
+            "Switzerland": 1,
+            "Syria": 1
+          },
+          "devices": {
+            "desktop": 6561,
+            "mobile": 113,
+            "tablet": 10
+          },
+          "bounceRate": "0.47",
+          "avgSessionDuration": "3.88",
+          "topCountries": [
+            "Canada",
+            "United States",
+            "United Kingdom"
+          ],
+          "topDevices": [
+            {
+              "device": "desktop",
+              "percentage": "98.16"
+            },
+            {
+              "device": "mobile",
+              "percentage": "1.69"
+            },
+            {
+              "device": "tablet",
+              "percentage": "0.15"
+            }
+          ]
+        }
+      ],
+      "totalBounceRateSum": 3120,
+      "totalAvgSessionDurationSum": 1554262.7618329995
+    }
+  }
