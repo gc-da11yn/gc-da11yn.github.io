@@ -1,4 +1,4 @@
-# Analytics file created on build
+# Ignore analytics.json to prevent frequent commits
 src/_data/analytics.json
 
 # Logs

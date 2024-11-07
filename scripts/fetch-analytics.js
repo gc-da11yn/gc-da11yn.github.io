@@ -1,3 +1,8 @@
+// Generate analytics.json script
+// Note: This script requires Google Analytics API keys to successfully run.
+// If you intend to update or regenerate the analytics.json file, ensure you have the following keys available in your local .env file:
+// GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN, PROPERTY_ID
+
 const { google } = require('googleapis');
 const analyticsData = google.analyticsdata('v1beta');
 require('dotenv').config();
