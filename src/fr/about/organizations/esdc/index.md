@@ -1,4 +1,0 @@
----
-redirect: /fr/employment-and-social-development-canada-esdc/
-layout: layouts/base.njk
----
