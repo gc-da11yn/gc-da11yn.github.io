@@ -40,9 +40,9 @@ Once you have met [the prerequisites](#requirements), follow these steps to inst
 
 1. Fork the repository via the Github web by clicking the "Fork" button in the top right corner.
 
-2. After you created your fork from the Github web site. Clone your fork repository by entering this command into your command line application: Replace "$githubUsername" by your github username.
+2. After you created your fork from the Github web site. Clone your fork repository by entering this command into your command line application: Replace "githubUsername" by your github username.
 
-`git clone https://github.com/$githubUsername/gc-da11yn.github.io.git`
+`git clone https://github.com/githubUsername/gc-da11yn.github.io.git`
 
 It will create a version controlled copy of the website in the directory you entered the command in.
 
@@ -294,9 +294,9 @@ Une fois que vous avez rencontré [les conditions préalables](#Exigences), suiv
 
 1. Fork le dépôt via le Github web en cliquant sur le bouton "Fork" dans le coin supérieur droit.
 
-2. Après avoir créé votre fork à partir du site web Github, clonez votre dépôt de fork en entrant cette commande dans votre application de ligne de commande : Remplacez "$githubUsername" par votre nom d'utilisateur Github.
+2. Après avoir créé votre fork à partir du site web Github, clonez votre dépôt de fork en entrant cette commande dans votre application de ligne de commande : Remplacez "githubUsername" par votre nom d'utilisateur Github.
 
-`git clone https://github.com/$githubUsername/gc-da11yn.github.io.git`
+`git clone https://github.com/githubUsername/gc-da11yn.github.io.git`
 
  Cela créera une copie sous contrôle de version du site Web dans le répertoire dans lequel vous avez entré la commande.
 
