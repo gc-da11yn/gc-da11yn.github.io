@@ -1,7 +1,8 @@
 ---
-title: PDF accessibility checklist
-description: Here you can find different questions to help you to know if your pdf document is accessible or not.
+title: <abbr>PDF</abbr> accessibility checklist
+description: Here you can find different questions to help you to know if your pdf document is accessible or not. Hello world including <strong>MACists</strong>.
 internalLinks: true
+tocSimple: true
 toggle: liste-de-verification-de-laccessibilite-des-documents-pdf
 subject:
   - howTos
@@ -29,7 +30,7 @@ tags:
 </div>
 </div>
 
-## Introduction
+## Introduction this change
 
 The purpose of the PDF Accessibility Checklist is to support Employment and Social Development Canada (<abbr>ESDC</abbr>) PDF document developers ensure that accessibility compliance meets the [Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.1](https://www.w3.org/TR/WCAG21/) standards. Please note that the checklist only contains WCAG criteria that are related to the most common errors identified in PDF documents.
 
