@@ -8,9 +8,9 @@ tags:
 
 ## Objectif
 
-Collaborer à la création d’une structure et d’une plateforme pour centraliser l’information du gouvernement du Canada (<abbr>GC</abbr>) sur l’accessibilité.
+Collaborer à la création d’une structure et d’une plateforme pour centraliser l’information du gouvernement du Canada (<abbr title="gouvernement du Canada">GC</abbr>) sur l’accessibilité.
 
-Le Groupe de travail sur l’accès (<abbr>GTA</abbr>) aimerait permettre la centralisation interministérielle et le partage de l’information sur l’accessibilité produite par les ministères du GC dans un dépôt central et un espace de partage.
+Le Groupe de travail sur l’accès (<abbr>GTA</abbr>) aimerait permettre la centralisation interministérielle et le partage de l’information sur l’accessibilité produite par les ministères du <abbr title="gouvernement du Canada">GC</abbr> dans un dépôt central et un espace de partage.
 
 - [Groupe de travail sur la Boîte à outils sur l’accessibilité numérique (<abbr>DAT</abbr>) - Mandat](/fr/mandats/)
 - <a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Boîte à Outils de l'Accessibilité numérique - Dépôt Github <small>(en anglais seulement)</small></a>
@@ -23,7 +23,7 @@ La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) mettra l�
 - Centralisation de l’information relative à l’accessibilité;
 - Collaboration collaboration ouverte entre les ministères;
 - Réduire le temps et l’argent consacrés à la duplication ou à la recherche de travaux d’accessibilité d’autres ministères du gouvernement du Canada; et
-- Promouvoir le travail d’accessibilité que nous faisons au GC sur un espace public.
+- Promouvoir le travail d’accessibilité que nous faisons au <abbr title="gouvernement du Canada">GC</abbr> sur un espace public.
 - Travailler dans un cadre de partage et d'ouverture
 
 ## Rôle clé du groupe de travail
@@ -33,7 +33,7 @@ La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) tirera pa
 La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) :
 
 1. Appuyer le pilier 3 de la Stratégie pour l’accessibilité dans la fonction publique [La technologie rend les technologies de l’information et des communications utilisables par tous](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm/strategie-accessibilite-fonction-publique-technologie.html) ;
-2. Formuler des recommandations pour la création des ressources et des travaux sur l’accessibilité à partir du dépôt central du gouvernement du Canada (<abbr>GC</abbr>) ;
+2. Formuler des recommandations pour la création des ressources et des travaux sur l’accessibilité à partir du dépôt central du gouvernement du Canada (<abbr title="gouvernement du Canada">GC</abbr>) ;
 3. Soutenir la mise en œuvre à travers diverses phases de travail ; et
 4. Discuter et lancer des activités de soutien pour déterminer l’information ou le matériel qu’il conviendrait de partager.
 
@@ -45,7 +45,7 @@ Les rôles clés seront définis sur la base du projet <a href="https://www.w3.o
 
 La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) est un forum d'élaboration de recommandations dont le mandat est le suivant:
 
-- positionner le gouvernement du Canada (<abbr>GC</abbr>) pour qu'il respecte ou dépasse les obligations en matière de technologie de l'information et des communications de la Loi sur l'accessibilité du Canada et l'objectif de la Stratégie d'accessibilité pour la fonction publique du Canada de «&nbsp;[rendre les technologies de l'information et des communications utilisables par tous](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm/strategie-accessibilite-fonction-publique-technologie.html)&nbsp;»
+- positionner le gouvernement du Canada (<abbr title="gouvernement du Canada">GC</abbr>) pour qu'il respecte ou dépasse les obligations en matière de technologie de l'information et des communications de la Loi sur l'accessibilité du Canada et l'objectif de la Stratégie d'accessibilité pour la fonction publique du Canada de «&nbsp;[rendre les technologies de l'information et des communications utilisables par tous](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm/strategie-accessibilite-fonction-publique-technologie.html)&nbsp;»
 - Faire des recommandations pour un dépôt central du <abbr title="gouvernement du Canada">GC</abbr> afin de partager l'information sur l'accessibilité créée par les divers ministères du <abbr title="gouvernement du Canada">GC</abbr>, en réduisant au minimum le chevauchement des tâches entre les ministères ;
 - améliorer l'uniformité de l'accessibilité et déterminer les meilleures pratiques pour l'information sur l'accessibilité des technologies de l'information et des communications (<abbr>TIC</abbr>) ;
 - sensibiliser les départements participants par le biais du groupe de travail sur l'accès et du groupe de travail interministériel sur les technologies de l'information et des communications.
