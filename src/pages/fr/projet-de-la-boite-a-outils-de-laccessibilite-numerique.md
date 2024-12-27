@@ -8,9 +8,9 @@ tags:
 
 ## Objectif
 
-Collaborer à la création d’une structure et d’une plateforme pour centraliser l’information du gouvernement du Canada (<abbr title="gouvernement du Canada">GC</abbr>) sur l’accessibilité.
+Collaborer à la création d’une structure et d’une plateforme pour centraliser l’information du gouvernement du Canada (<abbr>GC</abbr>) sur l’accessibilité.
 
-Le Groupe de travail sur l’accès (<abbr>GTA</abbr>) aimerait permettre la centralisation interministérielle et le partage de l’information sur l’accessibilité produite par les ministères du <abbr title="gouvernement du Canada">GC</abbr> dans un dépôt central et un espace de partage.
+Le Groupe de Travail sur l’Accès (<abbr>GTA</abbr>) aimerait permettre la centralisation interministérielle et le partage de l’information sur l’accessibilité produite par les ministères du <abbr title="gouvernement du Canada">GC</abbr> dans un dépôt central et un espace de partage.
 
 - [Groupe de travail sur la Boîte à outils sur l’accessibilité numérique (<abbr>DAT</abbr>) - Mandat](/fr/mandats/)
 - <a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Boîte à Outils de l'Accessibilité numérique - Dépôt Github <small>(en anglais seulement)</small></a>
@@ -21,7 +21,7 @@ La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) mettra l�
 
 - Partager les ressources d’accessibilité et travailler dans un référentiel central;
 - Centralisation de l’information relative à l’accessibilité;
-- Collaboration collaboration ouverte entre les ministères;
+- Collaboration ouverte entre les ministères;
 - Réduire le temps et l’argent consacrés à la duplication ou à la recherche de travaux d’accessibilité d’autres ministères du gouvernement du Canada; et
 - Promouvoir le travail d’accessibilité que nous faisons au <abbr title="gouvernement du Canada">GC</abbr> sur un espace public.
 - Travailler dans un cadre de partage et d'ouverture
