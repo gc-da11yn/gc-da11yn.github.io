@@ -23,7 +23,7 @@ La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) mettra l�
 - Centralisation de l’information relative à l’accessibilité;
 - Collaboration ouverte entre les ministères;
 - Réduire le temps et l’argent consacrés à la duplication ou à la recherche de travaux d’accessibilité d’autres ministères du gouvernement du Canada;
-- Promouvoir le travail d’accessibilité que nous faisons au <abbr title="gouvernement du Canada">GC</abbr> sur un espace public; et
+- Promouvoir le travail d’accessibilité que nous faisons au <abbr title="gouvernement du Canada">GC</abbr> sur un espace public;
 - Travailler dans un cadre de partage et d'ouverture.
 
 ## Rôle clé du groupe de travail
