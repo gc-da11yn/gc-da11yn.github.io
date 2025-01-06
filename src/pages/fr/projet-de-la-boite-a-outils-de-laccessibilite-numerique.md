@@ -34,8 +34,7 @@ La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) va égale
 
 1. Appuyer l'Objectif 3 de la Stratégie sur l’accessibilité au sein de la fonction publique du Canada :[Rendre les technologies de l’information et des communications accessibles à tous](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm/strategie-accessibilite-fonction-publique-technologie.html) ;
 2. Formuler des recommandations pour la création des ressources et des travaux sur l’accessibilité à partir du dépôt central du gouvernement du Canada (<abbr>GC</abbr>) ;
-3. Soutenir la mise en œuvre à travers diverses phases de travail ; <!-- removed "et" to respect GC's writing guidelines https://www.noslangues-ourlanguages.gc.ca/fr/cles-de-la-redaction/point-virgule  -->
-4. Discuter et lancer des activités de soutien pour déterminer l’information ou le matériel qu’il conviendrait de partager.
+3. Soutenir la mise en œuvre à travers diverses phases de travail ;
 
 ### Rôles et responsabilités
 
