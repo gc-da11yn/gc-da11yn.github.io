@@ -60,7 +60,7 @@ The Canada wordmark and related graphics associated with this distribution are p
 
 Ce projet en est aux premiers stades de développement et de planification, toutes les informations ne sont pas disponibles dans les deux langues officielles.
 
-### Qu'est-ce projet?
+### Quel est ce projet?
 
 C'est un **espace de partage** pour les ressources créées par les employés du gouvernement du Canada (GC) à promouvoir dans le cadre de la transparence. Suite à la [Directive sur le gouvernement ouvert du Secrétariat du Conseil du Trésor du Canada](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=28108).
 
