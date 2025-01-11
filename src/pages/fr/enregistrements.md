@@ -23,6 +23,6 @@ audience:
 
 ## Vidéo standard enregistrée (avec un animateur visible)
 
-- Créer une [version accessible de PowerPoint](https://a11y.canada.ca/fr/guides/office365/accessible-powerpoint-documents-365/). Si le présentateur dit chaque mot sur chaque diapositive, on peut l’ignorer, mais ce n’est pas recommandé;
+- Créer une [version accessible de PowerPoint](https://a11y.canada.ca/fr/presentations-powerpoint-accessibles-dans-microsoft-365/index.html). Si le présentateur dit chaque mot sur chaque diapositive, on peut l’ignorer, mais ce n’est pas recommandé;
 - Fournir un sous-titrage de ce que dit le présentateur et inclure un texte descriptif pour toutes les actions et/ou sons pertinents et importants;
 - Fournir une transcription écrite de ce qui a été dit et inclure un texte descriptif de tous les sons et/ou actions **pertinents et importants**.
