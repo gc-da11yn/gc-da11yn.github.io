@@ -1,0 +1,30 @@
+{% set normalizedUnit = download.unitMap[hasDocument.sizeUnit | lower] or hasDocument.sizeUnit %}
+{% set translations = download[locale] %}
+<div class="row">
+	<div class="col-sm-6">
+		<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/{{ hasDocument.filename }}" download="{{ title | stripTagsSlugify }}">
+			<div class="well gc-dwnld">
+				<div class="row">
+					<div class="col-xs-4">
+						<p>
+							<img
+								 class="img-responsive thumbnail gc-dwnld-img"
+								 src="{{ rootPath }}img/doc.png"
+								 alt="" />
+						</p>
+					</div>
+					<div class="col-xs-8">
+						<p class="gc-dwnld-txt">
+							<span>{{ title | safe }}</span>
+							<span class="gc-dwnld-info">
+								(<i class="fas fa-file-{{ hasDocument.type | lower }} mrg-rght-sm" aria-hidden="true"></i>
+								{{ hasDocument.sizeNumber }}
+								<abbr title="{{ translations.sizeUnits[normalizedUnit] }}">{{ translations.localizedUnits[normalizedUnit] }}</abbr>)
+							</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
