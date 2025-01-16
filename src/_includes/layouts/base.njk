@@ -37,6 +37,10 @@
 				{% include "partials/office365Notice.njk" %}
 				{% endif %}
 
+				{% if hasDocument %}
+				{% include "partials/download.njk" %}
+				{% endif %}
+
 				{% if toc or tocSimple %}
 				{% include "partials/onThisPage.njk" %}
 				{% endif %}
@@ -44,8 +48,8 @@
 				{{ content | safe }}
 				{% if officeTOC === true %}
 				{% include "partials/office-toc.njk" %}
+				{% endif %}
 			</div>
-			{% endif %}
 			{% include "partials/pagedetails.njk" %}
 
 		</main>

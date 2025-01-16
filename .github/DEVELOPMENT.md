@@ -254,6 +254,32 @@ To enable the simple TOC on a specific page, add the following to the front matt
 
 This configuration will automatically generate a "On this page" section at the beginning of the content, listing the specified headings based on the toc or tocSimple setting.
 
+## Download Component
+
+The `hasDocument` frontmatter key allows you to include a downloadable document component on your page. This component provides information about the file, including its size, type, and filename.
+
+The logic for this component is located in the following file: `src/_includes/partials/download.njk`.
+
+To enable the download component on a page, include the `hasDocument` object in the frontmatter with the following keys:
+
+- `filename`: The name of the file to be downloaded, including the extension. Example: `"example_document.docx"`. Documents should be put in `src/_docs/`.
+- `sizeNumber`: The file size as a number. Example: `563`.
+- `sizeUnit`: The unit for the file size. Acceptable values are case-insensitive:
+  - For English: `KB`, `MB`
+  - For French: `ko`, `Mo`
+- `type`: (Optional) The type of document, such as `word` or `pdf`. If not specified, it defaults to the generic file type.
+
+**Example Frontmatter:**
+
+```yaml
+hasDocument:
+  filename: "example_document.docx"
+  sizeNumber: 563
+  sizeUnit: KB
+  type: word
+```
+
+The file size and unit will automatically adapt to the current language (`locale`) set for the page.
 ______________________
 
 <div lang="fr">
@@ -308,7 +334,7 @@ Une fois que vous avez rencontré [les conditions préalables](#Exigences), suiv
 
  `git remote add upstream https://github.com/gc-da11yn/gc-da11yn.github.io.git`
 
- 5. Récupérez toutes les dernières modifications. Cela fera en sorte que votre instance locale soit au courant de toutes       les modifications récentes apportées à l'upstream du projet, mais rien ne sera mis à jour dans votre code.
+ 5. Récupérez toutes les dernières modifications. Cela fera en sorte que votre instance locale soit au courant de toutes les modifications récentes apportées à l'upstream du projet, mais rien ne sera mis à jour dans votre code.
 
  `git fetch --all`
 
@@ -506,5 +532,32 @@ Pour activer le TOC simple sur une page spécifique, ajoutez ce qui suit dans le
     ```
 
 Cette configuration générera automatiquement une section "Sur cette page" au début du contenu, listant les titres spécifiés en fonction du paramètre `toc` ou `tocSimple`.
+
+## Composant de téléchargement
+
+La clé `hasDocument` dans le front matter vous permet d'ajouter un composant de document téléchargeable sur votre page. Ce composant fournit des informations sur le fichier, y compris sa taille, son type et son nom.
+
+La logique de ce composant se trouve dans le fichier suivant : `src/_includes/partials/download.njk`.
+
+Pour activer le composant de téléchargement sur une page, incluez l'objet `hasDocument` dans le frontmatter avec les clés suivantes :
+
+- `filename` : Le nom du fichier à télécharger, y compris l'extension. Exemple : `"example_document.docx"`. Les documents doivent être placés dans `src/_docs/`.
+- `sizeNumber` : La taille du fichier en tant que nombre. Exemple : `563`.
+- `sizeUnit` : L'unité de la taille du fichier. Les valeurs acceptables ne tiennent pas compte de la casse :
+  - Pour l'anglais : `KB`, `MB`
+  - Pour le français : `ko`, `Mo`
+- `type` : (Optionnel) Le type de document, tel que `word` ou `pdf`. Si ce n'est pas spécifié, il sera défini par défaut sur le type de fichier générique.
+
+**Exemple de front matter :**
+
+```yaml
+hasDocument:
+  filename: "example_document.docx"
+  sizeNumber: 563
+  sizeUnit: KB
+  type: word
+```
+
+La taille et l'unité du fichier s'adapteront automatiquement à la langue actuelle (`locale`) définie pour la page.
 
 </div>
