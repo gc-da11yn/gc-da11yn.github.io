@@ -23,8 +23,6 @@ audience:
 
 ## Recorded Standard Video – With a Visible Facilitator
 
-- Create an [accessible version of PowerPoint](https://a11y.canada.ca/en/guides/office365/accessible-powerpoint-documents-365/). If the presenter says each word on each slide, this can be skipped, but not recommended.
+- Create an [accessible version of PowerPoint](https://a11y.canada.ca/en/accessible-powerpoint-presentations-in-microsoft-365/). If the presenter says each word on each slide, this can be skipped, but not recommended.
 - Provide closed captioning of what the presenter says and include descriptive text for all relevant and important actions and/or sounds.
 - Provide a written transcript of what was said and include descriptive text of all **relevant and important** sounds and/or actions.
-
-
