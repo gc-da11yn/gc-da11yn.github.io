@@ -9,6 +9,7 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
+  - updatesMain
 hasDocument:
   type: word
   sizeNumber: 77

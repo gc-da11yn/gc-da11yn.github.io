@@ -5,7 +5,6 @@ toggle: learning-and-development
 internalLinks: true
 tags:
   - main
-  - updatesMain
 ---
 
 <div class="gc-srvinfo">
