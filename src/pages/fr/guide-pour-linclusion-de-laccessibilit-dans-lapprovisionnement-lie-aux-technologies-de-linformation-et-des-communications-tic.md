@@ -1,6 +1,6 @@
 ---
 title: "Guide pour l’inclusion de l’accessibilité dans l’approvisionnement lié aux technologies de l’information et des communications (TIC)"
-description: "Le cadre pour intégrer l'accessibilité dans les approvisionnements liés aux technologies de l'information et des communications (TIC) au sein du gouvernement du Canada met l'accent sur l'utilisation de la norme EN 301 549 norme européenne harmonisée pour l'accessibilité TIC pour assurer l'inclusivité et l'utilisabilité des produits et services TIC, en allant au-delà des exigences minimales des WCAG 2.1. Conçu pour les ministères, organismes et fournisseurs, ce cadre décrit des étapes pratiques, des rôles et des ressources pour promouvoir l'accessibilité, en accord avec la Loi canadienne sur l'accessibilité et en favorisant un environnement numérique sans barrières."
+description: "Le gouvernement du Canada (GC) recommande que la norme EN 301 549 (CAN/ASC - EN 301 549:2024 Exigences d’accessibilité pour les produits et services TIC (EN 301 549:2021, IDT)), qui comprend les Règles pour l’accessibilité des contenus Web (WCAG), soit utilisée pour inclure les exigences d'accessibilité des technologies de l'information et de la communication (TIC) dans les approvisionnements qui comportent des éléments de TIC. Le Guide pour l’inclusion de l’accessibilité dans l’approvisionnement lié aux technologies de l’information et des communications (TIC) fournit aux ministères, aux agences et aux fournisseurs du gouvernement du Canada des étapes pratiques et des ressources pour comprendre et inclure la norme EN 301 549 dans les exigences d'approvisionnement. L'application de la norme EN 301 549 est conforme aux objectifs de la Loi canadienne sur l’accessibilité et favorise un environnement numérique sans obstacle."
 layout: layouts/base.njk
 toggle: guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement
 toc: true
@@ -278,7 +278,7 @@ Les fournisseurs peuvent également consulter la [Boîte à outils de l’access
 
 ### Services partagés Canada
 
-- Les autorités contractantes de SPC peuvent s’adresser à l’équipe de la **Politique d’approvisionnement appliquée** (PAA) pour toute question d’approvisionnement. Contact : APP / PAA (SSC/SPC) <app-paa@ssc-spc.gc.ca>.
+- Les autorités contractantes de SPC peuvent s’adresser à l’équipe des **initiatives stratégiques (IS)** pour toute question d’approvisionnement. Contact : SI / IS (SSC/SPC) <eitpstrategicinitiatives.initiativesstrategiquesatie@ssc-spc.gc.ca.>.
 
 ### Services publics et Approvisionnement Canada (SPAC)
 

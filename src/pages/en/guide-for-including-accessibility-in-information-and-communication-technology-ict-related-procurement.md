@@ -278,7 +278,7 @@ Suppliers may also consult the [Digital Accessibility Toolkit](/en/index.html). 
 
 ### Shared Services Canada
 
-- SSC Contracting Authorities can reach out to **Applied Procurement Policy** (APP) with any procurement questions. Contact: APP / PAA (SSC/SPC) <app-paa@ssc-spc.gc.ca>
+- SSC Contracting Authorities can reach out to **Strategic Initiatives (SI)** with any procurement questions. Contact: SI / IS (SSC/SPC) <eitpstrategicinitiatives.initiativesstrategiquesatie@ssc-spc.gc.ca>
 
 ### Public Services and Procurement Canada (PSPC)
 
