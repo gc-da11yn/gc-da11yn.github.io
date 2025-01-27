@@ -239,7 +239,7 @@ module.exports = function (eleventyConfig) {
     const upstreamUrl = 'https://github.com/gc-da11yn/gc-da11yn.github.io';
 
     try {
-      execSync(`git fetch ${upstreamUrl} main:upstream-main --force --depth=1`);
+      execSync(`git fetch ${upstreamUrl} main:upstream-main --force`);
     } catch (err) {
       console.error('Error fetching the upstream main branch', err);
     }
