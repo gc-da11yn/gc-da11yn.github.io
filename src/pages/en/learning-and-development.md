@@ -5,7 +5,6 @@ toggle: apprentissage-et-perfectionnement
 internalLinks: true
 tags:
   - main
-  - updatesMain
 ---
 
 <div class="gc-srvinfo">
