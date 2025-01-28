@@ -20,7 +20,7 @@ async function fetchAnalyticsData() {
 			auth,
 			property: `properties/${process.env.PROPERTY_ID}`,
 			requestBody: {
-				dateRanges: [{ startDate: '2024-01-01', endDate: '2024-12-31' }],
+				dateRanges: [{ startDate: '2025-01-01', endDate: '2025-12-31' }],
 				dimensions: [
 					{ name: 'year' },  // Fetch year
 					{ name: 'month' },  // Fetch month
