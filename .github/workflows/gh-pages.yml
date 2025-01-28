@@ -55,6 +55,7 @@ jobs:
   update-analytics:
     if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
+    environment: github-pages
     permissions:
       contents: write  # Ensure GitHub Actions can push to the repository
     steps:
@@ -83,13 +84,18 @@ jobs:
 
       - run: npm ci
 
+      - name: Create .env File
+        run: |
+          echo GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }} >> .env
+          echo GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }} >> .env
+          echo GOOGLE_REFRESH_TOKEN=${{ secrets.GOOGLE_REFRESH_TOKEN }} >> .env
+          echo PROPERTY_ID=${{ secrets.PROPERTY_ID }} >> .env
+
       - name: Run analytics update
         run: npm run analytics
-        env:
-          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
-          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
-          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-          PROPERTY_ID: ${{ secrets.PROPERTY_ID }}
+
+      - name: Remove .env File
+        run: rm .env
 
       - name: Build site
         run: npm run build
