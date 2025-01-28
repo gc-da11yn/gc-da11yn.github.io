@@ -1002,16 +1002,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/website-usage-analytics/</loc>
-		<lastmod>2024-10-24</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web/</loc>
-		<lastmod>2024-10-24</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
 		<lastmod>2024-11-25</lastmod>
 	</url>
@@ -1059,5 +1049,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
 		<lastmod>2025-01-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/website-usage-analytics/</loc>
+		<lastmod>2025-01-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web/</loc>
+		<lastmod>2025-01-28</lastmod>
 	</url>
 </urlset>
