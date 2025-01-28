@@ -1,0 +1,45 @@
+---
+title: Analytique de l'utilisation du site web - 2024
+description: Fournit un aperçu complet des données d’utilisation du site web pour l’année 2024, y compris le nombre de visites, d’utilisateurs, de pages vues et les taux de rebond. Cette page met en évidence des informations clés telles que les appareils les plus fréquemment utilisés et les principaux pays d’où les utilisateurs ont accédé au site tout au long de l’année. Les données archivées offrent des informations précieuses sur le comportement et les tendances des utilisateurs en 2024, nous aidant à analyser les interactions passées et à améliorer l’expérience du site web.
+toggle: website-usage-analytics-2024
+tags: aboutUs
+eleventyExcludeFromCollections: true
+---
+
+<div class="row">
+	{% for month, results in analytics2024 %}
+	<section class="col-md-6 mrgn-tp-md mrgn-bttm-md">
+		<div class="well">
+			<h2 class="mrgn-tp-sm" id="{{ month }}">{{ month | formatYearMonth }}</h2>
+			<dl>
+				<dt>Visites :</dt>
+				<dd>{{ results.results[0].sessions }}</dd>
+				<dt>Utilisateurs :</dt>
+				<dd>{{ results.results[0].newUsers }}</dd>
+				<dt>Pages vues :</dt>
+				<dd>{{ results.results[0].screenPageViews }}</dd>
+				<dt>Taux de rebond :</dt>
+				<dd>{{ results.results[0].bounceRate }}%</dd>
+				<dt>Durée moyenne des sessions :</dt>
+				<dd>{{ results.results[0].avgSessionDuration }} minutes</dd>
+				<dt>Appareils les plus utilisés :</dt>
+				<dd>
+					<ul>
+						{% for device in results.results[0].topDevices %}
+						<li>{{ device.device }} - {{ device.percentage }}%</li>
+						{% endfor %}
+					</ul>
+				</dd>
+				<dt>Top 3 des pays :</dt>
+				<dd>
+					<ol>
+						{% for country in results.results[0].topCountries %}
+						<li>{{ country }}</li>
+						{% endfor %}
+					</ol>
+				</dd>
+			</dl>
+		</div>
+	</section>
+	{% endfor %}
+</div>
