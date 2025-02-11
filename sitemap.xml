@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/</loc>
-		<lastmod>2023-11-08</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/page-list-table/</loc>
 		<lastmod>2023-11-27</lastmod>
 	</url>
@@ -88,11 +83,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/about-us/</loc>
-		<lastmod>2023-12-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/</loc>
 		<lastmod>2023-12-01</lastmod>
 	</url>
 	
@@ -1059,5 +1049,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web/</loc>
 		<lastmod>2025-01-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/</loc>
+		<lastmod>2025-02-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/</loc>
+		<lastmod>2025-02-11</lastmod>
 	</url>
 </urlset>
