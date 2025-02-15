@@ -1,0 +1,24 @@
+{#
+  Sa11y, the accessibility quality assurance assistant.
+  Project website: https://sa11y.netlify.app
+
+  This code block checks if the environment is set to "dev". If it is, it displays Sa11y in the bottom right corner.
+  The code is served from the jsDelivr CDN.
+
+  - To update Sa11y, grab the latest release tag from https://github.com/ryersondmp/sa11y/releases
+  - To customize, refer to props: https://sa11y.netlify.app/developers/props/
+ #}
+
+{% set sa11yVersion = "4.0.9" %}
+
+{% if settings.env == "dev" %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ryersondmp/sa11y@{{sa11yVersion}}/dist/css/sa11y.min.css"/>
+<script src="https://cdn.jsdelivr.net/combine/gh/ryersondmp/sa11y@{{sa11yVersion}}/dist/js/lang/{{locale}}.umd.js,gh/ryersondmp/sa11y@{{sa11yVersion}}/dist/js/sa11y.umd.min.js"></script>
+<script>
+Sa11y.Lang.addI18n(Sa11yLang{{ locale | capitalize }}.strings);
+const sa11y = new Sa11y.Sa11y({
+  checkRoot: "body",
+  developerChecksOnByDefault: true,
+});
+</script>
+{% endif %}
