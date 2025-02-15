@@ -100,7 +100,7 @@ Raccourcis clavier:
 
 - Augmentez votre productivité avec les <a href="https://accessibilityinsights.io/docs/web/reference/keyboard/">raccourcis clavier pour Accessibility Insights<small> (en anglais seulement)</small></a>
 
-### Outil: LightHouse
+### Outil: Lighthouse
 
 Lighthouse est un outil automatisé à code source ouvert qui permet d’améliorer la qualité des pages web. Il peut être exécuté sur n’importe quelle page web, qu’elle soit publique ou qu’elle nécessite une authentification. Il propose des audits pour les performances, l’accessibilité, les applications web progressives, le référencement, etc. Un outil très utile pour les développeurs multimédias et les testeurs d’accessibilité du web.
 
