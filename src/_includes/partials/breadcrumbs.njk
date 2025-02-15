@@ -70,7 +70,7 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 			{% endif %}
 
 			<!-- Additional breadcrumbs based on tags and subjects -->
-			{% if tags[0] != "main" %}
+			{% if tags[0] != "main" and url != locale %}
 				{% set counter = 3 %} {# Start the counter from 3, as 1 and 2 are already used #}
 
 				<!-- Breadcrumbs based on 'subject' -->
