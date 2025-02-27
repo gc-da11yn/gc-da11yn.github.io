@@ -152,11 +152,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/links/en/information-and-communication-technology-ict-requirements-generator-prototype-for-the-en-301-549-2021/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/links/en/section-508-of-the-rehabilitation-act-of-1973/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
@@ -173,11 +168,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/links/en/web-content-accessibility-guidelines-wcag/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/links/fr/generateur-d-exigences-en-technologies-de-l-information-et-de-la-communication-tic-prototypepour-la-norme-en-301-549-2021/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
 	
@@ -1059,5 +1049,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/</loc>
 		<lastmod>2025-02-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/en/information-and-communication-technology-ict-requirements-generator-prototype-for-the-en-301-549-2021/</loc>
+		<lastmod>2025-02-27</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/fr/generateur-d-exigences-en-technologies-de-l-information-et-de-la-communication-tic-prototypepour-la-norme-en-301-549-2021/</loc>
+		<lastmod>2025-02-27</lastmod>
 	</url>
 </urlset>
