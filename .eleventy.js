@@ -10,6 +10,7 @@ const { stripHtml } = require('string-strip-html');
 const beautify = require('js-beautify').html;
 const { DateTime } = require('luxon');
 const changedPageUrls = [];
+const getSlugify = (eleventyConfig) => eleventyConfig.getFilter("slugify");
 
 // ANSI escape codes for blue underline
 const underline = '\x1b[4m';  // Underline font
@@ -19,7 +20,7 @@ const resetColor = '\x1b[0m'; // Reset font to default
 const isWatchMode = process.env.ELEVENTY_WATCH === 'true';
 
 module.exports = function (eleventyConfig) {
-  const eleventySlugify = eleventyConfig.getFilter('slug');
+  const slugify = getSlugify(eleventyConfig);
 
   let markdownItOptions = {
     html: true, // Enable HTML tags in Markdown
@@ -28,7 +29,7 @@ module.exports = function (eleventyConfig) {
   const md = markdownIt(markdownItOptions)
     .use(markdownItAttrs)
     .use(markdownItAnchor, {
-      slugify: s => eleventySlugify(s, { lower: true, strict: true, locale: 'fr' }),
+      slugify: s => slugify(s, { lower: true, strict: true, locale: 'fr' }),
       permalink: false, // Disable permalinks
     });
 
@@ -44,7 +45,7 @@ module.exports = function (eleventyConfig) {
       const level = token.tag;
       const rawText = tokens[tokens.indexOf(token) + 1].content;
       const text = stripHtml(rawText).result; // Strip HTML tags from the heading text
-      const id = eleventySlugify(text, { lower: true, strict: true, locale: 'fr' });
+      const id = slugify(text, { lower: true, strict: true, locale: 'fr' });
       return { level, text, id };
     });
 
@@ -84,7 +85,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("stripTagsSlugify", (str) => {
     if (!str) return;
-    return eleventySlugify(stripHtml(str).result, { lower: true, strict: true, locale: 'fr' });
+    return slugify(stripHtml(str).result, { lower: true, strict: true, locale: 'fr' });
   });
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -169,7 +170,7 @@ module.exports = function (eleventyConfig) {
           const level = token.tag;
           const rawText = tokens[tokens.indexOf(token) + 1].content;
           const text = stripHtml(rawText).result; // Strip HTML tags from the heading text
-          const id = eleventySlugify(text, { lower: true, strict: true, locale: 'fr' });
+          const id = slugify(text, { lower: true, strict: true, locale: 'fr' });
           return { level, text, id };
         });
         item.data.headings = headings;
