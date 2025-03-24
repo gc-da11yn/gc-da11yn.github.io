@@ -18,5 +18,8 @@ Sa11y.Lang.addI18n(Sa11yLang{{ locale | capitalize }}.strings);
 const sa11y = new Sa11y.Sa11y({
   checkRoot: "body",
   developerChecksOnByDefault: true,
+  contrastIgnore: '.gc-main-footer',
+  imageIgnore: 'img[src*="sig-blk-en.svg"]',
+  containerIgnore: '#wb-srch-q',
 });
 </script>
