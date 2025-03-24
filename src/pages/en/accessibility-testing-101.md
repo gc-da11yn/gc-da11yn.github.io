@@ -17,7 +17,7 @@ Please note that some of the accessibility testing tools listed will require adm
 
 ### Tool: Sa11y
 
-Sa11y is an accessibility checker designed for **content authors** and has a focus on content related issues and successes. It visually highlights issues at the source with a simple tooltip on how to fix them. Sa11y includes some developer related checks, but it is not a comprehensive code analysis tool, nor is it a web accessibility overlay. Get started by reading the [Overview of Sa11y](https://sa11y.netlify.app/overview/) or [How to Use Sa11y.](https://sa11y.netlify.app/get-started/how-to-use/)
+Sa11y is an accessibility checker designed for **content authors** and has a focus on content related issues and successes. It visually highlights issues at the source with a simple tooltip on how to fix them. Sa11y includes some developer related checks, but it is not a comprehensive code analysis tool, nor is it a web accessibility overlay. Get started by reading the [Overview of Sa11y](https://sa11y.netlify.app/overview/) or [How to Use Sa11y](https://sa11y.netlify.app/get-started/how-to-use/).
 
 Sa11y is typically installed as a website plugin, but the [Sa11y Bookmarklet](https://sa11y.netlify.app/bookmarklet/) also works on any desktop browser and most web pages.
 
