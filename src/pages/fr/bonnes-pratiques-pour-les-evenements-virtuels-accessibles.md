@@ -33,7 +33,6 @@ internalLinks: true
 
 ## Sur cette page
 
-- [Sur cette page](#sur-cette-page)
 - [Introduction](#introduction)
   - [Problèmes courants signalés par les personnes en situation de handicap](#problemes-courants-signales-par-les-personnes-en-situation-de-handicap)
   - [Mobilité](#mobilite)
@@ -468,7 +467,7 @@ Invitez les participants à :
 
 #### Envoyez le contenu de la récapitulation
 
-Veillez à distribuer le contenu [dans un format accessible](#veillez-a-ce-que-tous-les-supports-de-levenement-soient-accessibles-tels-que-les-courriels-les-presentations-powerpoint-les-documents-word), ce qui est souvent fait par le biais d'un courriel de remerciement après l'événement :
+Veillez à distribuer le contenu dans un format accessible, ce qui est souvent fait par le biais d'un courriel de remerciement après l'événement :
 
 - résumé de l'événement;
 - enregistrements;

@@ -137,7 +137,7 @@ Nous recommandons également aux propriétaires fonctionnels d’inclure toutes 
   - de se réapprovisionner en solution accessible.
 - les biens et services ont une conception inclusive et sont accessibles par défaut.
 
-Consultez [Où trouver de l’aide et des ressources](#où-trouver-de-laide-et-des-ressources) pour de l’aide.
+Consultez [Où trouver de l’aide et des ressources](#ou-trouver-de-laide-et-des-ressources) pour de l’aide.
 
 ### Rôles et responsabilités
 
@@ -172,7 +172,7 @@ les ministères et organismes sont fortement encouragés à obtenir l’approbat
 
 <div class="well well-sm">
 
-**Remarque :** Lorsque la seule composante TIC est des documents non destinés au Web (p. ex., Word, PowerPoint, PDF, etc.), il n’est pas exigé de demander un RCA. Pour de plus amples renseignements sur le RCA, veuillez consulter [Quels renseignements le rapport de conformité de l’accessibilité (RCA) devrait-il contenir?](#quels-renseignements-un-rapport-de-conformité-de-laccessibilité-rca-devrait-il-contenir)
+**Remarque :** Lorsque la seule composante TIC est des documents non destinés au Web (p. ex., Word, PowerPoint, PDF, etc.), il n’est pas exigé de demander un RCA. Pour de plus amples renseignements sur le RCA, veuillez consulter [Quels renseignements le rapport de conformité de l’accessibilité (RCA) devrait-il contenir?](#quels-renseignements-un-rapport-de-conformite-de-laccessibilite-rca-devrait-il-contenir)
 
 </div>
 
@@ -217,7 +217,7 @@ les ministères et organismes sont fortement encouragés à obtenir l’approbat
     <div class="well well-sm mrgn-tp-md">
       <p><strong>Remarque :</strong> Les autorités contractantes peuvent également fournir un lien hypertexte vers&nbsp;:</p>
         <ul>
-          <li><a href="/fr/exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles/">les exigences d’accessibilité des technologies de l’information et des communications (TIC)</a></li>
+          <li><a href="/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/">les exigences d’accessibilité des technologies de l’information et des communications (TIC)</a></li>
           <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">pdf de la norme EN 301 549 V3.2.1</a> <small>(en anglais seulement)</small></li>
           <li><a href="https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic">CAN/ASC – EN 301 549:2024 Exigences d’accessibilité pour les produits et services TIC (EN 301 549:2021, IDT)</a></li>
         </ul>
@@ -244,7 +244,7 @@ Dans la mesure du possible, les exigences d’accessibilité des TIC devraient �
 
 Conformément à la Directive sur la gestion de l’approvisionnement, le propriétaire fonctionnel doit fournir une justification écrite lorsqu’il n’inclut pas les exigences d’accessibilité dans l’approvisionnement. Cette justification devrait clairement expliquer les raisons et doit être conservée dans le dossier d’achat.
 
-Consultez [Où trouver de l’aide et des ressources](#où-trouver-de-laide-et-des-ressources) pour savoir :
+Consultez [Où trouver de l’aide et des ressources](#ou-trouver-de-laide-et-des-ressources) pour savoir :
 
 - quand l’accessibilité ne s’applique peut-être pas;
 - quand utiliser une approche progressive.
@@ -272,7 +272,7 @@ Les fournisseurs peuvent également consulter la [Boîte à outils de l’access
 - Les renseignements accessibles au public comprennent :
   - la [Boîte à outils de l’accessibilité numérique](/fr/accessibilite-numerique-au-gouvernement-du-canada/index.html) – un site Web externe pour :
     - [générer les exigences de la norme EN 301 549 (2021)](https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/fr) qui sont pertinentes pour l’approvisionnement;
-    - [examiner toutes les exigences pertinentes d’accessibilité des TIC de la norme EN 501 349 (2021)](/fr/exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles/index.html) (2021) pour les produits et services TIC;
+    - [examiner toutes les exigences pertinentes d’accessibilité des TIC de la norme EN 501 349 (2021)](/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/) (2021) pour les produits et services TIC;
     - faire référence à d’autres orientations en matière d’accessibilité, notamment en ce qui concerne l’accessibilité des documents.
 - **Programme d’accessibilité, d’adaptation et de technologie informatique adaptée de SPC** – approvisionnements de SPC ou d’un autre ministère ou organisme gouvernemental. Contact : AAACT / AATIA (SSC/SPC) <aaact-aatia@ssc-spc.gc.ca>. AATIA peut vous aider à intégrer la norme EN 301 549 dans les approvisionnements liés aux TIC.
 
@@ -300,7 +300,7 @@ Pour toute demande de renseignement ou tout commentaire au sujet du présent Gui
 
 #### Hyperliens externes de SPC
 
-- [Exigences d’accessibilité des TIC de SPC (fondées sur la norme EN 301 549 (2021))](/fr/exigences-en-matiere-de-technologies-de-l-information-et-des-communications-tic-accessibles/index.html)
+- [Exigences d’accessibilité des TIC de SPC (fondées sur la norme EN 301 549 (2021))](/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/)
 
 #### Autres hyperliens sur l’accessibilité internationale
 
@@ -410,7 +410,7 @@ Si les utilisateurs n’utilisent pas le modèle de l’industrie, nous vous rec
 		<dt>Note de bas de page 2</dt>
 		<dd id="fn2">
 			<p>Copié du site Web de l’Information Technology Industry Council (ITI) <a href="https://www.itic.org/policy/accessibility/vpat">VPAT<sup>®</sup> – Information Technology Industry Council (itic.org)</a>.</p>
-			<p class="fn-rtn"><a href="#fn2-1-rf"><span class="wb-inv">Retour à la <span>première</span> référence de la note de bas de page </span>2</a></p>
+			<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Retour à la <span>première</span> référence de la note de bas de page </span>2</a></p>
 		</dd>
 		<dt>Note de bas de page 3</dt>
 		<dd id="fn3">
@@ -420,7 +420,7 @@ Si les utilisateurs n’utilisent pas le modèle de l’industrie, nous vous rec
 		<dt>Note de bas de page 4</dt>
 		<dd id="fn4">
 			<p>Copié de la norme EN 301 549 V3.2.1 (2021-03), 3 Définition des termes, symboles et abréviations, page 17</p>
-			<p class="fn-rtn"><a href="#fn4-1-rf"><span class="wb-inv">Retour à la <span>première</span> référence de la note de bas de page </span>4</a></p>
+			<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Retour à la <span>première</span> référence de la note de bas de page </span>4</a></p>
 		</dd>
 	</dl>
 </aside>
