@@ -63,7 +63,7 @@ module.exports = {
 		},
 		en: {
 			accessibilityFundamentals: "Accessibility Fundamentals",
-			howTos: "How to’s",
+			howTos: "How-tos",
 			resourcesAndTools: "Resources and Tools",
 			learningAndDevelopment: "Learning and Development",
 			accessibilityInTheGovernmentOfCanada:
