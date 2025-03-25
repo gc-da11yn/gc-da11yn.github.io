@@ -103,30 +103,36 @@ function isDuplicate(page, link) {
 // Create the SiteChecker instance for general link checking
 const siteChecker = new blc.SiteChecker(
 	{
-		excludeExternalLinks: true,  // Only check internal links
-		filterLevel: 3,  // Check all links including anchors
-		recurse: true,  // Follow links to other pages within the same domain
-		maxSockets: 10,  // Number of concurrent requests
-		maxRetries: 2,  // Retry broken links twice before reporting
+		excludeExternalLinks: true,
+		filterLevel: 3,
+		recurse: true,
+		maxSockets: 10,
+		maxRetries: 2,
 	},
 	{
 		link: async (result) => {
-			// Fetch the page and extract the correct source file path before checking broken links
-			const sourceFile = await fetchSourceFile(result.base.resolved);
+			// Skip sample links with just `#`
+			if (result.url.original === "#") {
+				return;
+			}
 
 			if (result.broken) {
-				if (!isDuplicate(result.base.original, result.url.original)) {
-					const pageUrl = result.base.original;
+				const sourceFile = await fetchSourceFile(result.url.resolved);
 
-					brokenLinks.push({
-						page: pageUrl,
-						link: result.url.original,
-						linkText: result.html.text || "N/A",
-						status: result.status,
-						statusText: result.statusText,
-						sourceFile: sourceFile
-					});
+				let existingPage = brokenLinks.find(entry => entry.page === result.base.original);
+				if (!existingPage) {
+					existingPage = {
+						page: result.base.original,
+						sourceFile: sourceFile,
+						links: []
+					};
+					brokenLinks.push(existingPage);
 				}
+
+				existingPage.links.push({
+					link: result.url.original,
+					linkText: result.html.text || "N/A"
+				});
 			}
 
 			// Check anchor links on each successfully loaded page
@@ -136,8 +142,12 @@ const siteChecker = new blc.SiteChecker(
 		},
 		end: () => {
 			if (brokenLinks.length > 0) {
-				// Group links by page
+				// Ensure links exist before grouping
 				const groupedLinks = brokenLinks.reduce((acc, item) => {
+					if (!item.links || item.links.length === 0) {
+						return acc; // Skip empty entries
+					}
+
 					let existingPage = acc.find(entry => entry.page === item.page);
 					if (!existingPage) {
 						existingPage = {
@@ -147,15 +157,17 @@ const siteChecker = new blc.SiteChecker(
 						};
 						acc.push(existingPage);
 					}
-					existingPage.links.push({
-						link: item.link,
-						linkText: item.linkText
-					});
+
+					// Ensure item.links is an array and not empty before accessing it
+					if (Array.isArray(item.links) && item.links.length > 0) {
+						existingPage.links.push(...item.links);
+					}
+
 					return acc;
 				}, []);
 
 				// Add count at the beginning
-				const outputData = [{ linksFound: brokenLinks.length }, ...groupedLinks];
+				const outputData = [{ linksFound: groupedLinks.length }, ...groupedLinks];
 
 				// Write the JSON output
 				const outputFilePath = path.join(__dirname, '..', 'broken-links.json');
@@ -165,7 +177,7 @@ const siteChecker = new blc.SiteChecker(
 				console.log('No broken links found.');
 			}
 			console.log('Site link check complete.');
-		},
+		}
 	}
 );
 
