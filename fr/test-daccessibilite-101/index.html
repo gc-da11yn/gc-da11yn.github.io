@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+  <title>Test d’accessibilité 101 - Boîte à outils de l&#39;accessibilité numérique</title>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta name="description" content="Nous encourageons tous ceux qui souhaitent créer du contenu accessible à utiliser des outils de test d’accessibilité automatisés. Ces outils aident les créateurs de contenu à développer leurs contenus en détectant les erreurs et en proposant des suggestions pour améliorer l’accessibilité de leur produit, de leur application ou de leur site Web. Cette page présente une liste d’outils de test d’accessibilité recommandés.">
+  <meta name="source-file" content="./src/pages/fr/test-daccessibilite-101.md">
+  <link rel="alternate" hreflang="en" href="../../en/accessibility-testing-101/index.html" />
+  <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
+  <link rel="stylesheet" href="../../css/da11yn.css">
+  <!-- Meta tags -->
+  <meta name="author" content="Gouvernement du Canada" />
+  <meta name="dcterms.title" content="Test d’accessibilité 101" />
+  <meta name="dcterms.description" content="Nous encourageons tous ceux qui souhaitent créer du contenu accessible à utiliser des outils de test d’accessibilité automatisés. Ces outils aident les créateurs de contenu à développer leurs contenus en détectant les erreurs et en proposant des suggestions pour améliorer l’accessibilité de leur produit, de leur application ou de leur site Web. Cette page présente une liste d’outils de test d’accessibilité recommandés." />
+  <meta name="dcterms.creator" content="Gouvernement du Canada">
+  <meta name="dcterms.language" content="fr" />
+  <meta name="dcterms.created" content="2023-08-01">
+  <meta name="dcterms.modified" content="2024-08-26">
+  <meta name="dcterms.subject" content="Comment faire;Testez vos produits; " />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+  <script>
+    (function(w) {
+      "use strict";
+      var dl = "dataLayer";
+      if (w.location.hostname === "a11y.canada.ca" || w.location.hostname === "deploy-preview-335--a11ycanada.netlify.app") {
+        w[dl] = w[dl] || [];
+        w.gtag = function() {
+          w[dl].push(arguments);
+        }
+        w.gtag('js', new Date());
+        w.gtag('config', 'G-SM9MSHWDVN');
+      }
+    })(window);
+
+  </script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+  <nav>
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Passer à « Au sujet du gouvernement »</a>
+      </li>
+    </ul>
+  </nav>
+  <header>
+    <div id="wb-bnr" class="container">
+      <div class="row">
+        <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+          <h2 class="wb-inv">Sélection de la langue</h2>
+          <ul class="list-inline mrgn-bttm-0">
+            <li>
+              <a lang="en" hreflang="en" href="../../en/accessibility-testing-101/index.html">
+                <span class="hidden-xs" translate="no">English</span>
+                <abbr title="English" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> en</abbr>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+          <a href="https://www.canada.ca/fr.html" property="url">
+            <img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-fr.svg" alt="Gouvernement du Canada" property="logo" />
+            <span class="wb-inv"> / <span lang="en">Gouvernement du Canada</span></span>
+          </a>
+          <meta property="name" content="Gouvernement du Canada">
+          <meta property="areaServed" typeof="Country" content="Canada" />
+          <link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
+        </div>
+        <section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+          <h2>Recherche</h2>
+          <form action="https://canada.ca/fr/sr/srb.html" method="get" name="cse-search-box" role="search">
+            <div class="form-group wb-srch-qry">
+              <label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label>
+              <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca" />
+              <datalist id="wb-srch-q-ac"></datalist>
+            </div>
+            <div class="form-group submit">
+              <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+                <span class="glyphicon-search glyphicon"></span>
+                <span class="wb-inv">Recherche</span>
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <nav class="gcweb-menu" typeof="SiteNavigationElement">
+            <h2 class="wb-inv">Menu</h2>
+            <button type="button" aria-haspopup="true" aria-expanded="false"> Menu <span class="wb-inv">principal </span>
+              <span class="expicon glyphicon glyphicon-chevron-down"></span>
+            </button>
+            <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://voyage.gc.ca/">Voyage et tourisme</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Prestations</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/sante.html">Santé</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/impots.html">Impôts</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport et infrastructure</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/science.html">Science et innovation</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <nav id="wb-bc" property="breadcrumb">
+      <h2>Piste de navigation</h2>
+      <div class="container">
+        <ol class="breadcrumb" typeof="BreadcrumbList">
+          <!-- First breadcrumb: Canada.ca -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="https://www.canada.ca/fr.html">
+              <span property="name">Canada.ca</span>
+            </a>
+            <meta property="position" content="1">
+          </li>
+          <!-- Second breadcrumb: Locale-based home link -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="/fr/">Boîte à outils de l&#39;accessibilité numérique</a>
+            <meta property="position" content="2">
+          </li>
+          <!-- Additional breadcrumbs based on tags and subjects -->
+          <!-- Breadcrumbs based on 'subject' -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="/fr/comment-faire">
+              <span property="name">Comment faire</span>
+            </a>
+            <meta property="position" content="3">
+          </li>
+          <!-- Breadcrumbs based on 'tags' -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="/fr/testez-vos-produits">
+              <span property="name">Testez vos produits</span>
+            </a>
+            <meta property="position" content="4">
+          </li>
+        </ol>
+      </div>
+    </nav>
+  </header>
+  <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+    <div class="home">
+      <div class="container p-0 p-sm-3">
+        <div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
+          <h1 property="name" id="wb-cont"> Test d’accessibilité 101 </h1>
+          <p>Nous encourageons tous ceux qui souhaitent créer du contenu accessible à utiliser des outils de test d’accessibilité automatisés. Ces outils aident les créateurs de contenu à développer leurs contenus en détectant les erreurs et en proposant des suggestions pour améliorer l’accessibilité de leur produit, de leur application ou de leur site Web. Cette page présente une liste d’outils de test d’accessibilité recommandés.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <aside>
+        <h2>Sur cette page</h2>
+        <ul>
+          <li><a href="#creation-dun-ensemble-doutils">Création d’un ensemble d’outils</a>
+            <ul>
+              <li><a href="#outil-extensions-de-navigateur-wave">Outil : Extensions de navigateur WAVE</a></li>
+              <li><a href="#outil-accessibility-insights-for-web">Outil : Accessibility Insights for Web</a></li>
+              <li><a href="#outil-lighthouse">Outil: LightHouse</a></li>
+            </ul>
+          </li>
+          <li><a href="#aide-et-ressources-supplementaires">Aide et ressources supplémentaires</a>
+            <ul>
+              <li><a href="#tests-clavier-et-manuels-de-votre-site">Tests clavier et manuels de votre site</a></li>
+              <li><a href="#principes-de-base-des-tests-au-clavier">Principes de base des tests au clavier</a></li>
+              <li><a href="#ressources-supplementaires">Ressources supplémentaires</a></li>
+            </ul>
+          </li>
+        </ul>
+        </li>
+        </ul>
+      </aside>
+      <p>Veuillez noter que certains des outils de test d’accessibilité répertoriés nécessitent des autorisations administratives pour être installés sur votre appareil.</p>
+      <h2 id="creation-dun-ensemble-doutils" tabindex="-1">Création d’un ensemble d’outils</h2>
+      <h3 id="outil-extensions-de-navigateur-wave" tabindex="-1">Outil : Extensions de navigateur WAVE</h3>
+      <p>L’extension WAVE pour Chrome, Firefox et Edge vous permet d’évaluer le contenu web pour les problèmes d’accessibilité directement dans votre navigateur. Comme l’extension fonctionne entièrement dans votre navigateur web, aucune information n’est envoyée au serveur WAVE.</p>
+      <p>Bien que WAVE soit plus efficace lorsqu’il est utilisé par une personne connaissant bien l’accessibilité du web, les personnes qui ne sont pas des experts en accessibilité du web peuvent également en tirer profit.</p>
+      <p>Si vous ne connaissez pas WAVE, profitez de la <a href="https://youtu.be/ITUDiTgAZY0?si=zZN1yARdVlkk3v50">vidéo d’introduction à WAVE<small> (en anglais seulement)</small></a>.</p>
+      <p>Compatibilité des navigateurs:</p>
+      <ul>
+        <li><a href="https://microsoftedge.microsoft.com/addons/detail/wave-evaluation-tool/khapceneeednkiopkkbgkibbdoajpkoj?hl=fr-CA&amp;gl=CA">WAVE pour le navigateur Edge sur Modules complémentaires Edge</a></li>
+        <li><a href="https://addons.mozilla.org/fr/firefox/addon/wave-accessibility-tool/">WAVE pour le navigateur Firefox sur Mozilla Add-ons</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">WAVE pour le navigateur Chrome sur le Chrome Web Store</a></li>
+      </ul>
+      <p>Documentation supplémentaire sur WAVE:</p>
+      <ul>
+        <li><a href="https://wave.webaim.org/api/docs?format=html">Documentation WAVE (webaim.org)<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://wave.webaim.org/help">Aide WAVE (webaim.org)<small> (en anglais seulement)</small></a></li>
+      </ul>
+      <p>Trucs et astuces sur WAVE:</p>
+      <ul>
+        <li><a href="https://webaim.org/blog/tips-for-getting-the-most-out-of-wave/">Conseils pour tirer le meilleur parti de WAVE<small> (en anglais seulement)</small></a></li>
+      </ul>
+      <p>La barre latérale de WAVE indique si WAVE a détecté des erreurs ou non. L’absence d’erreurs ne signifie <strong>pas</strong> que votre page est accessible ou conforme. Les <strong>icônes rouges</strong> indiquent les erreurs d’accessibilité qui doivent être corrigées. Les <strong>icônes vertes</strong> indiquent des caractéristiques d’accessibilité, c’est-à-dire des éléments qui améliorent l’accessibilité (bien qu’il faille les vérifier). Les autres icônes et indicateurs, en particulier les icônes d’alerte jaunes, mettent en évidence d’autres éléments qu’il convient d’examiner. WAVE met en évidence les informations sous-jacentes relatives à l’accessibilité d’une page afin qu’elles puissent être facilement évaluées dans leur contexte.</p>
+      <p>Styles et code:</p>
+      <p>WAVE permet de désactiver les feuilles de style en cascade (<abbr>CSS</abbr>) des pages. Les mises en page complexes basées sur les feuilles de style en cascade peuvent devenir difficiles à lire, en particulier après l’intégration des icônes WAVE, de sorte que la désactivation des styles peut simplifier la présentation de la page. La désactivation des styles vous permet également de voir l’ordre de lecture et de navigation sous-jacent; c’est-à-dire l’ordre dans lequel les utilisateurs, de clavier (seulement) et de lecteurs d’écran, accèdent à la page. Pour visualiser le code correspondant à une icône WAVE particulière, vous pouvez sélectionner l’onglet Code au bas de la page pour visualiser le balisage/DOM sous-jacent de votre page.</p>
+      <h3 id="outil-accessibility-insights-for-web" tabindex="-1">Outil : Accessibility Insights for Web</h3>
+      <p>« Accessibility Insights for Web » est une extension pour Chrome et Microsoft Edge qui aide les développeurs à trouver et à résoudre les problèmes d’accessibilité dans les applications et les sites Web.</p>
+      <p>L’outil prend en charge deux scénarios principaux:</p>
+      <ul>
+        <li>« FastPass » est un processus léger en deux étapes qui aide les développeurs à identifier les problèmes d’accessibilité courants et à fort impact en moins de cinq minutes. <ul>
+            <li>Vérifications automatisées — l’outil vérifie automatiquement la conformité à environ 50 exigences en matière d’accessibilité.</li>
+            <li>Arrêts de tabulation — l’outil fournit des instructions claires, une automatisation partielle et une aide visuelle qui facilitent l’identification des problèmes d’accessibilité critiques liés à l’accès au clavier, tels que les arrêts de tabulation manquants, les pièges à clavier et l’ordre incorrect des tabulations.</li>
+          </ul>
+        </li>
+        <li>« Assessment » permet à toute personne ayant des compétences en HTML de vérifier qu’une application Web ou un site Web est conforme aux directives d’accessibilité au contenu web (<abbr>WCAG</abbr>) 2.1 niveau AA. <ul>
+            <li>Contrôles automatisés — l’outil vérifie automatiquement la conformité à environ 50 exigences d’accessibilité.</li>
+            <li>Tests manuels — l’outil fournit des instructions étape par étape, des exemples et des conseils sur la manière de résoudre les problèmes pour environ 20 tests; de nombreux tests sont « assistés », ce qui signifie que l’outil identifie les instances de test ou fournit une aide visuelle.</li>
+          </ul>
+        </li>
+      </ul>
+      <p>Il s’agit d’un outil pour tous les niveaux, vous n’avez pas besoin de connaître l’accessibilité pour l’utiliser, il vous guidera à chaque étape.</p>
+      <p>Compatibilité des navigateurs:</p>
+      <ul>
+        <li>Pour le web: <ul>
+            <li><a href="https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni">Ajouter à Chrome</a></li>
+            <li><a href="https://microsoftedge.microsoft.com/addons/detail/wave-evaluation-tool/khapceneeednkiopkkbgkibbdoajpkoj?hl=fr-CA&amp;gl=CA">Ajouter à Edge</a></li>
+          </ul>
+        </li>
+        <li><a href="https://aka.ms/accessibilityinsights-windows/download">Télécharger pour Windows</a></li>
+        <li>Pour Android: <ul>
+            <li><a href="https://aka.ms/accessibility-insights-for-android/downloads/Windows">Télécharger pour Windows<small> (en anglais seulement)</small></a></li>
+            <li><a href="https://aka.ms/accessibility-insights-for-android/downloads/MacOS">Télécharger sur MacOS<small> (en anglais seulement)</small></a></li>
+            <li><a href="https://aka.ms/accessibility-insights-for-android/downloads/Linux">Télécharger sur Linux</a></li>
+          </ul>
+        </li>
+      </ul>
+      <p>Documentation sur Accessibility Insights:</p>
+      <ul>
+        <li><a href="https://accessibilityinsights.io/docs/web/overview/">Accessibility Insights pour le Web<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://accessibilityinsights.io/docs/windows/overview/">Accessibility Insights pour Windows<small> (en anglais seulement)</small></a></li>
+      </ul>
+      <p>Conseils et astuces:</p>
+      <ul>
+        <li>Commencez par regarder une <a href="https://www.youtube.com/watch?v=m1l7ghxOKF0">vidéo offrant une vue d’ensemble<small> (en anglais seulement)</small></a></li>
+        <li>Ou lisez un tutoriel: <ul>
+            <li><a href="https://accessibilityinsights.io/docs/web/getstarted/fastpass/">FastPass<small> (en anglais seulement)</small></a></li>
+            <li><a href="https://accessibilityinsights.io/docs/web/getstarted/assessment/">Assessment<small> (en anglais seulement)</small></a></li>
+          </ul>
+        </li>
+      </ul>
+      <p>Raccourcis clavier:</p>
+      <ul>
+        <li>Augmentez votre productivité avec les <a href="https://accessibilityinsights.io/docs/web/reference/keyboard/">raccourcis clavier pour Accessibility Insights<small> (en anglais seulement)</small></a></li>
+      </ul>
+      <h3 id="outil-lighthouse" tabindex="-1">Outil: LightHouse</h3>
+      <p>Lighthouse est un outil automatisé à code source ouvert qui permet d’améliorer la qualité des pages web. Il peut être exécuté sur n’importe quelle page web, qu’elle soit publique ou qu’elle nécessite une authentification. Il propose des audits pour les performances, l’accessibilité, les applications web progressives, le référencement, etc. Un outil très utile pour les développeurs multimédias et les testeurs d’accessibilité du web.</p>
+      <p>Navigateurs:</p>
+      <ul>
+        <li><a href="https://developer.chrome.com/docs/lighthouse/overview/#devtools">Exécuter Lighthouse dans Chrome DevTools<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://developer.chrome.com/docs/lighthouse/overview/#extension">Exécuter Lighthouse en tant qu’extension Chrome<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://learn.microsoft.com/fr-ca/microsoft-edge/devtools-guide-chromium/accessibility/lighthouse">Comment utiliser Lighthouse dans Edge</a></li>
+      </ul>
+      <p>Documentation sur l’extension LightHouse:</p>
+      <ul>
+        <li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse - Chrome Developers<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://learn.microsoft.com/fr-ca/microsoft-edge/devtools-guide-chromium/lighthouse/lighthouse-tool">Outil Lighthouse - Microsoft Edge | documentation pour développeurs</a></li>
+      </ul>
+      <p>Aide supplémentaire:</p>
+      <ul>
+        <li>Utilisez le <a href="https://googlechrome.github.io/lighthouse/viewer/">Lighthouse Viewer<small> (en anglais seulement)</small></a> pour afficher et partager des rapports en ligne.</li>
+      </ul>
+      <h2 id="aide-et-ressources-supplementaires" tabindex="-1">Aide et ressources supplémentaires</h2>
+      <h3 id="tests-clavier-et-manuels-de-votre-site" tabindex="-1">Tests clavier et manuels de votre site</h3>
+      <p>Outils automatisés et validateurs pour identifier les problèmes d’accessibilité :</p>
+      <ul>
+        <li>Valideur W3C</li>
+        <li>Valideur CSS HTML</li>
+        <li>axe DevTools</li>
+      </ul>
+      <h3 id="principes-de-base-des-tests-au-clavier" tabindex="-1">Principes de base des tests au clavier</h3>
+      <ul>
+        <li>Aller vers l’avant : utiliser la touche de tabulation</li>
+        <li>Reculer : utiliser les touches Majuscule et Tabulation</li>
+        <li>Activer quelque chose: utiliser la touche Entrée ou la barre d’espacement</li>
+        <li>Pour cocher / décocher une case à cocher: utilisez la barre d’espacement</li>
+        <li>Se déplacer dans la page et les listes déroulantes, modifier la sélection des boutons radio: utiliser les touches fléchées</li>
+      </ul>
+      <p>Examinez ou testez votre site périodiquement pour vous assurer qu’il n’y a pas de nouvelles erreurs et qu’il reste accessible.</p>
+      <ul>
+        <li>Testez la navigation et l’interactivité de chaque page web en utilisant uniquement le clavier et des technologies d’assistance telles que JAWS, NVDA, ZoomText.</li>
+        <li>Assurez-vous que les images contiennent un texte alternatif ou qu’elles sont marquées comme décoratives si aucune information importante ou utile n’est présentée aux utilisateurs. <ul>
+            <li>Si une image fournit des informations importantes ou utiles, elle doit être accompagnée d’un texte alternatif approprié, ne dépassant pas 150 caractères. Si le contenu de l’image ne peut être expliqué dans cette limite, une description graphique doit figurer sous l’image.</li>
+          </ul>
+        </li>
+        <li>Utilisez la touche de tabulation entre les sections d’une page web pour s’assurer que le contenu suit un ordre significatif de haut en bas et de gauche à droite. <ul>
+            <li>Veillez également à ce qu’une mise en évidence visible entoure tous les éléments pouvant faire l’objet d’une tabulation ou d’un focus.</li>
+          </ul>
+        </li>
+        <li>Veillez à ce que les utilisateurs ne rencontrent pas de « piège » lorsqu’ils utilisent le clavier.</li>
+        <li>Vérifiez si vous disposez de liens de contournement permettant aux utilisateurs de sauter le contenu d’une page si des informations longues ou répétitives sont présentées sur chaque page. <ul>
+            <li>Par exemple, les liens « Passer à la navigation principale », « Passer à l’en-tête » et « Passer au pied de page », en fonction de leur utilité sur la page.</li>
+          </ul>
+        </li>
+        <li>Testez tous les liens présentés sur chaque page pour vous assurer qu’ils fonctionnent (internes, externes, téléchargeables) et que chaque lien contient un texte unique. <ul>
+            <li>Si un lien s’ouvre dans un nouvel onglet ou une nouvelle fenêtre du navigateur, il est recommandé d’informer les utilisateurs de cette action dans le texte du lien ou dans la balise de titre du lien, par exemple« S’ouvre dans un nouvel onglet ou une nouvelle fenêtre du navigateur&quot;.</li>
+          </ul>
+        </li>
+        <li>Veillez à ce que tous les éléments de formulaire tels que les boutons radio, les cases à cocher, les champs d’édition et les listes déroulantes soient correctement étiquetés. <ul>
+            <li>Prévenir les erreurs et suggérer aux utilisateurs de corriger les erreurs de formulaire.</li>
+          </ul>
+        </li>
+        <li>Veillez à ce que les vidéos soient accompagnées de transcriptions descriptives et proposez des sous-titres codés que les utilisateurs peuvent activer ou désactiver.</li>
+        <li>Veillez à ce que le contenu de la page s’adapte de façon harmonieuse à toutes les fenêtres de visualisation et soit utilisable avec un zoom de 400 %.</li>
+        <li>S’assurer que le balisage HTML et CSS est correct en validant le code à l’aide d’un outil de validation tel que W3C Validator ou CSS HTML Validator.</li>
+        <li>Effectuez des tests de performance sur différents réseaux, car il arrive que des contenus complexes (par exemple des images de grande taille ou des pages interactives et fonctionnelles) mettent du temps à se charger sur des réseaux plus lents.</li>
+        <li>Désactivez le haut-parleur et le microphone et utilisez uniquement le clavier pour accéder à la page web et évaluez si l’expérience est la même. Êtes-vous en mesure de comprendre tout le contenu audio/vidéo et de participer à toutes les activités présentées sur la page sans aucune perte d’information?</li>
+      </ul>
+      <h3 id="ressources-supplementaires" tabindex="-1">Ressources supplémentaires</h3>
+      <ul>
+        <li><a href="https://webaim.org/projects/million/">WebAIM Million<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://webaim.org/techniques/keyboard/">WebAIM: Accessibilité du clavier<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://webaim.org/resources/shortcuts/nvda">WebAIM: Raccourcis clavier pour NVDA<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://webaim.org/resources/shortcuts/jaws">WebAIM: Raccourcis clavier pour JAWS<small> (en anglais seulement)</small></a></li>
+      </ul>
+    </div>
+    <section class="pagedetails container">
+      <h2 class="wb-inv">Détails de la page</h2>
+      <dl id="wb-dtmd">
+        <dt>Date de modification :</dt>
+        <dd><time property="dateModified">2024-08-26</time></dd>
+      </dl>
+    </section>
+  </main>
+  <aside class="contribute">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribuez à ce projet</span><small>sur Github.com</small></h2>
+        </div>
+        <div class="col-md-7">
+          <ul class="list-inline">
+            <li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Code source <small>(en anglais seulement)</small></a></li>
+            <li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Problèmes <span lang="en">(Issues)</span><small>(en anglais seulement)</small></a></li>
+            <li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions <small>(en anglais seulement)</small></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <footer id="wb-info">
+    <h2 class="wb-inv">À propos de ce site</h2>
+    <div class="gc-main-footer">
+      <div class="container">
+        <nav>
+          <h3>Gouvernement du Canada</h3>
+          <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+            <li><a href="https://www.canada.ca/fr/contact.html">Toutes les coordonnées</a></li>
+            <li><a href="https://www.canada.ca/fr/gouvernement/min.html">Ministères et organismes</a></li>
+            <li><a href="https://www.canada.ca/fr/gouvernement/systeme.html">À propos du gouvernement</a></li>
+          </ul>
+          <h4><span class="wb-inv">Thèmes et sujets</span></h4>
+          <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+            <li><a href="https://www.canada.ca/fr/services/emplois.html">Emplois</a></li>
+            <li><a href="https://www.canada.ca/fr/services/immigration-citoyennete.html">Immigration et citoyenneté</a></li>
+            <li><a href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+            <li><a href="https://www.canada.ca/fr/services/entreprises.html">Entreprises</a></li>
+            <li><a href="https://www.canada.ca/fr/services/prestations.html">Prestations</a></li>
+            <li><a href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
+            <li><a href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
+            <li><a href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+            <li><a href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+            <li><a href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+            <li><a href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+            <li><a href="https://www.canada.ca/fr/services/transport.html">Transport et infrastructure</a></li>
+            <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=fra">Le Canada et le monde</a></li>
+            <li><a href="https://www.canada.ca/fr/services/finance.html">Argent et finance</a></li>
+            <li><a href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+            <li><a href="https://www.canada.ca/fr/services/autochtones.html">Autochtones</a></li>
+            <li><a href="https://www.canada.ca/fr/services/veterans-militaire.html">Vétérans et militaires</a></li>
+            <li><a href="https://www.canada.ca/fr/services/jeunesse.html">Jeunesse</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="gc-sub-footer">
+      <div class="container d-flex align-items-center">
+        <nav>
+          <h3 class="wb-inv">Organisation du gouvernement du Canada</h3>
+          <ul>
+            <li><a href="https://www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
+            <li><a href="https://www.canada.ca/fr/mobile.html">Applications mobiles</a></li>
+            <li><a href="https://www.canada.ca/fr/gouvernement/a-propos.html">À propos de Canada.ca</a></li>
+            <li><a href="https://www.canada.ca/fr/transparence/avis.html">Avis</a></li>
+            <li><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
+          </ul>
+        </nav>
+        <div class="wtrmrk align-self-end">
+          <img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+  <title>Résumé technique de la norme EN 301 549 v3.2.1 (2021) - Boîte à outils de l&#39;accessibilité numérique</title>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta name="description" content="Ce résumé technique fournit au lecteur un résumé simplifié des exigences techniques de la norme EN 301 549 (V3.2.1 (2021-03) Norme européenne harmonisée relative à l&#39;accessibilité des produits et services TIC. Chaque clause ou groupe de clauses connexes a été reformulé en langage clair et des exemples ont été ajoutés pour aider les lecteurs à comprendre les exigences à un niveau élevé. Ce document est particulièrement utile pour ceux qui souhaitent comprendre les exigences de la norme EN 301 549 sans avoir à lire l&#39;intégralité de la norme.">
+  <meta name="source-file" content="./src/pages/fr/resume-technique-de-la-norme-en-301-549-v321-2021.md">
+  <link rel="alternate" hreflang="en" href="../../en/technical-summary-of-the-en-301-549-v321-2021/index.html" />
+  <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
+  <link rel="stylesheet" href="../../css/da11yn.css">
+  <!-- Meta tags -->
+  <meta name="author" content="Gouvernement du Canada" />
+  <meta name="dcterms.title" content="Résumé technique de la norme EN 301 549 v3.2.1 (2021)" />
+  <meta name="dcterms.description" content="Ce résumé technique fournit au lecteur un résumé simplifié des exigences techniques de la norme EN 301 549 (V3.2.1 (2021-03) Norme européenne harmonisée relative à l&#39;accessibilité des produits et services &lt;abbr title=&quot;technologies de l&#39;information et de la communication&quot;&gt;TIC&lt;/abbr&gt;. Chaque clause ou groupe de clauses connexes a été reformulé en langage clair et des exemples ont été ajoutés pour aider les lecteurs à comprendre les exigences à un niveau élevé. Ce document est particulièrement utile pour ceux qui souhaitent comprendre les exigences de la norme EN 301 549 sans avoir à lire l&#39;intégralité de la norme." />
+  <meta name="dcterms.creator" content="Gouvernement du Canada">
+  <meta name="dcterms.language" content="fr" />
+  <meta name="dcterms.created" content="2023-08-01">
+  <meta name="dcterms.modified" content="2024-07-17">
+  <meta name="dcterms.subject" content="Accessibilité numérique au gouvernement du Canada;Approvisionnement; " />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+  <script>
+    (function(w) {
+      "use strict";
+      var dl = "dataLayer";
+      if (w.location.hostname === "a11y.canada.ca" || w.location.hostname === "deploy-preview-335--a11ycanada.netlify.app") {
+        w[dl] = w[dl] || [];
+        w.gtag = function() {
+          w[dl].push(arguments);
+        }
+        w.gtag('js', new Date());
+        w.gtag('config', 'G-SM9MSHWDVN');
+      }
+    })(window);
+
+  </script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+  <nav>
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Passer à « Au sujet du gouvernement »</a>
+      </li>
+    </ul>
+  </nav>
+  <header>
+    <div id="wb-bnr" class="container">
+      <div class="row">
+        <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+          <h2 class="wb-inv">Sélection de la langue</h2>
+          <ul class="list-inline mrgn-bttm-0">
+            <li>
+              <a lang="en" hreflang="en" href="../../en/technical-summary-of-the-en-301-549-v321-2021/index.html">
+                <span class="hidden-xs" translate="no">English</span>
+                <abbr title="English" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> en</abbr>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+          <a href="https://www.canada.ca/fr.html" property="url">
+            <img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-fr.svg" alt="Gouvernement du Canada" property="logo" />
+            <span class="wb-inv"> / <span lang="en">Gouvernement du Canada</span></span>
+          </a>
+          <meta property="name" content="Gouvernement du Canada">
+          <meta property="areaServed" typeof="Country" content="Canada" />
+          <link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
+        </div>
+        <section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+          <h2>Recherche</h2>
+          <form action="https://canada.ca/fr/sr/srb.html" method="get" name="cse-search-box" role="search">
+            <div class="form-group wb-srch-qry">
+              <label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label>
+              <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca" />
+              <datalist id="wb-srch-q-ac"></datalist>
+            </div>
+            <div class="form-group submit">
+              <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+                <span class="glyphicon-search glyphicon"></span>
+                <span class="wb-inv">Recherche</span>
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <nav class="gcweb-menu" typeof="SiteNavigationElement">
+            <h2 class="wb-inv">Menu</h2>
+            <button type="button" aria-haspopup="true" aria-expanded="false"> Menu <span class="wb-inv">principal </span>
+              <span class="expicon glyphicon glyphicon-chevron-down"></span>
+            </button>
+            <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://voyage.gc.ca/">Voyage et tourisme</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Prestations</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/sante.html">Santé</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/impots.html">Impôts</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport et infrastructure</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/fr/services/science.html">Science et innovation</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <nav id="wb-bc" property="breadcrumb">
+      <h2>Piste de navigation</h2>
+      <div class="container">
+        <ol class="breadcrumb" typeof="BreadcrumbList">
+          <!-- First breadcrumb: Canada.ca -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="https://www.canada.ca/fr.html">
+              <span property="name">Canada.ca</span>
+            </a>
+            <meta property="position" content="1">
+          </li>
+          <!-- Second breadcrumb: Locale-based home link -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="/fr/">Boîte à outils de l&#39;accessibilité numérique</a>
+            <meta property="position" content="2">
+          </li>
+          <!-- Additional breadcrumbs based on tags and subjects -->
+          <!-- Breadcrumbs based on 'subject' -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="/fr/accessibilite-numerique-au-gouvernement-du-canada">
+              <span property="name">Accessibilité numérique au gouvernement du Canada</span>
+            </a>
+            <meta property="position" content="3">
+          </li>
+          <!-- Breadcrumbs based on 'tags' -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="/fr/approvisionnement">
+              <span property="name">Approvisionnement</span>
+            </a>
+            <meta property="position" content="4">
+          </li>
+        </ol>
+      </div>
+    </nav>
+  </header>
+  <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+    <div class="home">
+      <div class="container p-0 p-sm-3">
+        <div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
+          <h1 property="name" id="wb-cont"> Résumé technique de la norme EN 301 549 v3.2.1 (2021) </h1>
+          <p>Ce résumé technique fournit au lecteur un résumé simplifié des exigences techniques de la norme EN 301 549 (V3.2.1 (2021-03) Norme européenne harmonisée relative à l'accessibilité des produits et services <abbr title="technologies de l'information et de la communication">TIC</abbr>. Chaque clause ou groupe de clauses connexes a été reformulé en langage clair et des exemples ont été ajoutés pour aider les lecteurs à comprendre les exigences à un niveau élevé. Ce document est particulièrement utile pour ceux qui souhaitent comprendre les exigences de la norme EN 301 549 sans avoir à lire l'intégralité de la norme.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <a class="gc-dwnld-lnk" href="../../docs/SPC_Resume_technique_de_la_norme_EN_301_549_v3.2.1_(2021)_31mai2024_FR.docx" download="resume-technique-de-la-norme-en-301-549-v321-2021">
+            <div class="well gc-dwnld">
+              <div class="row">
+                <div class="col-xs-4">
+                  <p><img class="img-responsive thumbnail gc-dwnld-img" src="../../img/doc.png" alt="" /></p>
+                </div>
+                <div class="col-xs-8">
+                  <p class="gc-dwnld-txt">
+                    <span>Résumé technique de la norme EN 301 549 v3.2.1 (2021)</span>
+                    <span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Document Microsoft Word">Word</abbr>, 74 <abbr title="kilo-octet">ko</abbr>)</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2 id="a-propos-du-present-document-et-avis-de-droit-dauteur" tabindex="-1">À propos du présent document et avis de droit d’auteur</h2>
+      <p>Le présent document a été préparé par l’équipe du Programme d’accessibilité, d’adaptation et de technologie informatique adaptée (AATIA) de Services partagés Canada (SPC) du gouvernement du Canada (GC) et par un petit groupe de travail du GC comprenant des membres du gouvernement du Canada (Services partagés Canada, Agence du revenu du Canada, École de la fonction publique du Canada).</p>
+      <p>Le présent document vise à fournir un bref survol technique de haut niveau des sujets clés de la norme EN 301 549 (2021). L’objectif est de permettre au lecteur de comprendre les exigences contenues dans la norme EN 301 549 ainsi que les types de technologies de l'information et de la communication (<abbr>TIC</abbr>) auxquels chaque section s’applique.</p>
+      <p>Pour bien comprendre chaque clause, il est essentiel de consulter la norme EN 301 549 (2021) dans son intégralité. Ce document ne vise en aucun cas à remplacer le document EN 301 549, mais plutôt à compléter et à améliorer la compréhension générale des exigences, en particulier pour les personnes qui ont besoin de comprendre les ramifications techniques de l’utilisation de la norme EN 301 549 dans le cadre d’une politique.</p>
+      <p>Ce document n’est fourni qu’à titre d’information.</p>
+      <p>Ce document a été rédigé par SPC. C’est un résumé technique (le « résumé technique ») de la norme <a href="https://www.etsi.org/standards#page=1&amp;search=EN%20301%20549&amp;title=1&amp;etsiNumber=1&amp;content=1&amp;version=0&amp;onApproval=1&amp;published=1&amp;withdrawn=1&amp;historical=1&amp;isCurrent=1&amp;superseded=1&amp;startDate=1988-01-15&amp;endDate=2021-07-22&amp;harmonized=0&amp;keyword=&amp;TB=&amp;stdType=&amp;frequency=&amp;mandate=&amp;collection=&amp;sort=1">EN 301 549 (V3.2.1 (2021-03) Norme européenne harmonisée « Exigences en matière d’accessibilité applicables aux produits et services liés aux <abbr title="technologies de l'information et de la communication">TIC</abbr> »<small> (en anglais seulement)</small></a> (© Institut européen des normes de télécommunication 2021. © Comité Européen de Normalisation. © Comité Européen de Normalisation Électrotechnique. Tous droits réservés) et il en reproduit des extraits. Les utilisateurs du résumé technique peuvent en télécharger une copie pour leur usage personnel et non commercial. Les utilisateurs ne peuvent pas traduire, modifier ou distribuer le résumé technique.</p>
+      <p>Prière d’envoyer les questions concernant le résumé technique à AAACT / AATIA (SSC/SPC) <a href="mailto:aaact-aatia@ssc-spc.gc.ca">aaact-aatia@ssc-spc.gc.ca</a>.</p>
+      <h2 id="sur-cette-page" tabindex="-1">Sur cette page</h2>
+      <ul>
+        <li><a href="#4-rendement-fonctionnel">4 Rendement fonctionnel</a></li>
+        <li><a href="#5-exigences-generiques">5 Exigences génériques</a></li>
+        <li><a href="#6-tic-permettant-la-communication-vocale-bidirectionnelle">6 <abbr title="technologies de l'information et de la communication">TIC</abbr> permettant la communication vocale bidirectionnelle</a></li>
+        <li><a href="#7-tic-avec-capacites-video">7 <abbr title="technologies de l'information et de la communication">TIC</abbr> avec capacités vidéo</a></li>
+        <li><a href="#8-materiel">8 Matériel</a></li>
+        <li><a href="#9-web">9 Web</a></li>
+        <li><a href="#10-documents-non-destines-au-web">10 Documents non destinés au Web</a></li>
+        <li><a href="#11-logiciels">11 Logiciels</a></li>
+        <li><a href="#12-documentation-et-services-de-soutien">12 Documentation et services de soutien</a></li>
+        <li><a href="#13-tic-assurant-lacces-aux-services-de-relais-ou-durgence">13 <abbr title="technologies de l'information et de la communication">TIC</abbr> assurant l’accès aux services de relais ou d’urgence</a></li>
+        <li><a href="#14-conformite">14 Conformité</a></li>
+        <li><a href="#autres-annexes-dans-la-norme-en-301-549">Autres annexes dans la norme EN 301 549</a></li>
+      </ul>
+      <h2 id="4-rendement-fonctionnel" tabindex="-1">4 Rendement fonctionnel</h2>
+      <p>Consulter l’annexe E (informative) : Conseils pour les utilisateurs du présent document dans la norme EN 301 549 (V3.2.1 (2021-03)) Norme européenne harmonisée « Exigences en matière d’accessibilité applicables aux produits et services liés aux <abbr title="technologies de l'information et de la communication">TIC</abbr> » (en anglais seulement).</p>
+      <p>La clause 4 de la norme EN 301 549 explique quelles fonctionnalités sont requises pour permettre aux utilisateurs finaux de localiser, d’identifier et d’utiliser les fonctions de la technologie, quelles que soient leurs capacités. Ces énoncés de rendement eux-mêmes ne fournissent pas de critères précis, mais sont plutôt respectés lorsque les critères connexes des clauses 5 à 13 sont respectés. Si toutes les clauses sont prises en charge dans les clauses 5 à 13, on peut raisonnablement s’attendre à ce que toutes les fonctionnalités requises soient également disponibles. Le présent résumé n’aborde aucune note, à moins qu’elle ne soit essentielle à la compréhension de la clause.</p>
+      <ul>
+        <li>4.2.1 Utilisation sans vision : <ul>
+            <li>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> peuvent être utilisées sans la capacité de voir.</li>
+          </ul>
+        </li>
+        <li>4.2.2 Utilisation avec vision limitée : <ul>
+            <li>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> offrent aux personnes ayant une vision limitée un moyen de mieux utiliser leur vision limitée.</li>
+          </ul>
+        </li>
+        <li>4.2.3 Utilisation sans perception des couleurs : <ul>
+            <li>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> peuvent être utilisées visuellement sans la capacité de voir les couleurs.</li>
+          </ul>
+        </li>
+        <li>4.2.4 Utilisation sans audition : <ul>
+            <li>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> peuvent être utilisées sans la capacité d’entendre.</li>
+          </ul>
+        </li>
+        <li>4.2.5 Utilisation avec audition limitée : <ul>
+            <li>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> offrent aux personnes ayant une audition limitée un moyen de mieux utiliser leur audition limitée.</li>
+          </ul>
+        </li>
+        <li>4.2.6 Utilisation sans capacité vocale ou avec une capacité vocale limitée : <ul>
+            <li>Si les <abbr title="technologies de l'information et de la communication">TIC</abbr> offrent l’option d’utiliser l’entrée vocale, une solution de rechange est fournie qui ne requiert pas l’entrée vocale.</li>
+          </ul>
+        </li>
+        <li>4.2.7 Utilisation avec une capacité de manipulation ou de force limitée : <ul>
+            <li>Si les <abbr title="technologies de l'information et de la communication">TIC</abbr> ont des commandes qui nécessitent une opération manuelle, des solutions de rechange sont proposées qui ne nécessitent pas d’actions simultanées ou de force manuelle.</li>
+          </ul>
+        </li>
+        <li>4.2.8 Utilisation à portée limitée : <ul>
+            <li>Si les <abbr title="technologies de l'information et de la communication">TIC</abbr> font partie de l’environnement bâti, toutes les commandes doivent alors être accessibles à tous les types d’utilisateurs.</li>
+          </ul>
+        </li>
+        <li>4.2.9 Minimiser les déclencheurs de convulsions liées à une condition photosensible : <ul>
+            <li>Si les <abbr title="technologies de l'information et de la communication">TIC</abbr> comportent une interface visuelle, les déclencheurs de convulsions liées à une condition photosensible seront minimisés.</li>
+          </ul>
+        </li>
+        <li>4.2.10 Utilisation avec des capacités cognitives, linguistiques ou d’apprentissage limitées : <ul>
+            <li>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> fournissent des fonctions et/ou une présentation qui simplifient et facilitent la compréhension, le fonctionnement et l’utilisation.</li>
+          </ul>
+        </li>
+        <li>4.2.11 Confidentialité : <ul>
+            <li>Des fonctions de confidentialité équitables sont à la disposition de tous les utilisateurs.</li>
+          </ul>
+        </li>
+      </ul>
+      <h2 id="5-exigences-generiques" tabindex="-1">5 Exigences génériques</h2>
+      <p>Les exigences générales de la norme EN 301 549 contiennent quelques catégories clés différentes qui peuvent être appliquées à différents types de <abbr title="technologies de l'information et de la communication">TIC</abbr>. Chacune des catégories principales est décrite ci-dessous.</p>
+      <h3 id="51-fonction-restreinte" tabindex="-1">5.1 Fonction restreinte</h3>
+      <p>Les systèmes fermés et partiellement fermés sont des types de <abbr title="technologies de l'information et de la communication">TIC</abbr> qui empêchent l’utilisateur d’installer ou d’utiliser sa propre technologie d’assistance. Les systèmes fermés et partiellement fermés doivent offrir à tous les utilisateurs des moyens d’accéder au système en l’absence de technologie d’assistance supplémentaire.</p>
+      <p>Par exemple, un utilisateur n’est pas en mesure d’installer ou d’utiliser son propre lecteur d’écran sur un guichet bancaire ou un kiosque à billets à l’aéroport. Par conséquent, une certaine forme de sortie vocale doit être fournie à ces utilisateurs. Voici d’autres exemples :</p>
+      <ul>
+        <li>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> fournissent une option où le texte est suffisamment grand pour être utilisé par la plupart des utilisateurs ayant une basse vision.</li>
+        <li>Une sortie audio importante est également disponible visuellement sous forme de texte.</li>
+        <li>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> peuvent être utilisées sans vision.</li>
+        <li>La parole n’est pas le seul mode d’entrée pour une fonction.</li>
+      </ul>
+      <h3 id="52-activation-des-caracteristiques-daccessibilite" tabindex="-1">5.2 Activation des caractéristiques d’accessibilité</h3>
+      <p>Si un système est doté d’une fonction d’accessibilité, celle-ci doit pouvoir être activée par les utilisateurs qui en ont besoin. Par exemple, la vue ne doit pas être nécessaire pour activer l’équivalent vocal de ce qui est affiché à l’écran.</p>
+      <h3 id="53-donnees-biometriques" tabindex="-1">5.3 Données biométriques</h3>
+      <p>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> ne peuvent pas utiliser les caractéristiques biologiques comme seul moyen d’accès. Par exemple, les empreintes digitales ne peuvent pas être le seul moyen de déverrouiller un appareil mobile.</p>
+      <h3 id="54-preservation-des-renseignements-sur-laccessibilite-pendant-la-conversion" tabindex="-1">5.4 Préservation des renseignements sur l’accessibilité pendant la conversion</h3>
+      <p>Lorsque les <abbr title="technologies de l'information et de la communication">TIC</abbr> convertissent des renseignements, elles devraient veiller à conserver tous les détails pertinents qui rendent l’information accessible, dans la mesure où le nouveau format le permet. Par exemple, lors de la conversion en PDF d’un document Word contenant une image avec un texte alternatif, les renseignements relatifs à l’accessibilité (texte alternatif) devraient être conservés.</p>
+      <h3 id="55-pieces-manoeuvrables" tabindex="-1">5.5 Pièces manœuvrables</h3>
+      <p>Les pièces manœuvrables sont des pièces interactives des <abbr title="technologies de l'information et de la communication">TIC</abbr> qui permettent d’activer, de désactiver ou d’ajuster les <abbr title="technologies de l'information et de la communication">TIC</abbr>. Elles peuvent être fournies sous forme de matériel (un bouton physique) ou de logiciel (un bouton sur un écran tactile). Il convient de noter que les pièces manœuvrables excluent les pièces utilisées uniquement pour l’entretien ou la réparation.</p>
+      <p>Les pièces manœuvrables des <abbr title="technologies de l'information et de la communication">TIC</abbr> :</p>
+      <ul>
+        <li>ne doivent pas nécessiter un serrage, un pincement ou une torsion du poignet pour fonctionner. Par exemple, le réglage de la température peut se faire en appuyant sur les boutons haut et bas de l’écran tactile plutôt qu’en tournant un cadran sur un écran tactile;</li>
+        <li>doivent être perceptibles sans nécessiter de vision, par exemple, la marque tactile en relief sur un bouton pour transmettre l’information à une personne qui ne peut pas voir le bouton.</li>
+      </ul>
+      <h3 id="56-commandes-de-verrouillage-ou-de-basculement" tabindex="-1">5.6 Commandes de verrouillage ou de basculement</h3>
+      <p>L’état des commandes de verrouillage ou de basculement, telles que la touche de verrouillage des majuscules sur le clavier, peut être déterminé à la fois visuellement et non visuellement, par exemple par le toucher ou le son.</p>
+      <h3 id="57-repetition-des-touches" tabindex="-1">5.7 Répétition des touches</h3>
+      <p>Lorsque les <abbr title="technologies de l'information et de la communication">TIC</abbr> sont dotées d’une fonction de répétition des touches (c.-à-d. une fonction qui répète plusieurs fois l’entrée d’une touche), qui ne peut pas être désactivée, les deux exigences suivantes doivent être respectées :</p>
+      <ul>
+        <li>le délai de répétition des touches doit être réglable à au moins 2 secondes;</li>
+        <li>la fréquence de répétition des touches doit être réglable à 1 caractère par 2 secondes.</li>
+      </ul>
+      <p>Par exemple, cela s’appliquerait à un clavier standard lorsque l’on maintient l’une des touches alphabétiques enfoncée et que la lettre est tapée de manière répétée.</p>
+      <h3 id="58-acceptation-de-la-double-frappe" tabindex="-1">5.8 Acceptation de la double frappe</h3>
+      <p>Lorsque les <abbr title="technologies de l'information et de la communication">TIC</abbr> sont dotées d’un clavier ou d’un pavé numérique, le délai pendant lequel une pression consécutive sur la même touche n’est pas enregistré est réglable jusqu’à 0,5 seconde.</p>
+      <h3 id="59-actions-simultanees-de-la-part-de-lutilisateur" tabindex="-1">5.9 Actions simultanées de la part de l’utilisateur</h3>
+      <p>Cette section exige qu’un utilisateur n’ait pas à effectuer des actions simultanées pour utiliser les <abbr title="technologies de l'information et de la communication">TIC</abbr>. Devoir utiliser ses deux mains pour ouvrir le couvercle d’un ordinateur portable, devoir appuyer simultanément sur deux touches ou devoir toucher un écran tactile avec plus d’un doigt sont des exemples d’actions simultanées de la part de l’utilisateur.</p>
+      <h2 id="6-tic-permettant-la-communication-vocale-bidirectionnelle" tabindex="-1">6 <abbr title="technologies de l'information et de la communication">TIC</abbr> permettant la communication vocale bidirectionnelle</h2>
+      <p>La clause 6 est axée sur les <abbr title="technologies de l'information et de la communication">TIC</abbr> qui contiennent des communications audio bidirectionnelles, telles qu’un appel téléphonique ou un appel vidéo comprenant du son.</p>
+      <h3 id="61-largeur-de-bande-sonore-pour-la-parole" tabindex="-1">6.1 Largeur de bande sonore pour la parole</h3>
+      <p>Il s’agit d’une clause unique qui stipule qu’un appel doit pouvoir répondre à des paramètres précis de qualité audio afin qu’il soit plus facile d’entendre ce qui est dit.</p>
+      <h3 id="62-fonctionnalite-de-texte-en-temps-reel-ttr" tabindex="-1">6.2 Fonctionnalité de texte en temps réel (<abbr>TTR</abbr>)</h3>
+      <p>Cet ensemble de clauses souligne que lorsque les <abbr title="technologies de l'information et de la communication">TIC</abbr> fournissent une communication vocale bidirectionnelle, la fonctionnalité <abbr title="texte en temps réel">TTR</abbr> doit être fournie dans les systèmes où il est possible de le faire. Par exemple, il ne serait pas nécessaire d’ajouter du matériel aux <abbr title="technologies de l'information et de la communication">TIC</abbr> pour permettre cette fonctionnalité. Il décrit également des exigences précises telles que la manière dont le TTR devrait être affiché, l’interopérabilité avec les technologies de télécommunication existantes et la réactivité du TTR.</p>
+      <h3 id="63-identification-de-lappelant" tabindex="-1">6.3 Identification de l’appelant</h3>
+      <p>Cette clause indique que l’identification de l’appelant ou des fonctions similaires devraient être disponibles sous forme de texte et être compréhensibles par une technologie d’assistance.</p>
+      <h3 id="64-autres-solutions-de-services-vocaux" tabindex="-1">6.4 Autres solutions de services vocaux</h3>
+      <p>Cette clause exige que dans le cas des services vocaux (tels qu’un système téléphonique), il y ait un moyen d’accéder à des fonctions, telles que la messagerie vocale et les fonctions qui requièrent une interaction vocale, sans utiliser l’ouïe ou la parole.</p>
+      <h3 id="65-communication-video" tabindex="-1">6.5 Communication vidéo</h3>
+      <p>Cet ensemble de clauses fournit des exigences pour les <abbr title="technologies de l'information et de la communication">TIC</abbr> qui permettent une communication audio bidirectionnelle permettant également une communication vidéo bidirectionnelle. Il décrit les exigences minimales en matière de résolution, de fréquence d’images, de synchronisation audio/vidéo et d’indication de l’activité audio et de la langue des signes.</p>
+      <h3 id="66-autres-solutions-de-services-video" tabindex="-1">6.6 Autres solutions de services vidéo</h3>
+      <p>Cette clause est propre aux <abbr title="technologies de l'information et de la communication">TIC</abbr> dotées de fonctions de communication vidéo qui offrent également des fonctions de répondeur, de standard automatique ou de moyens de réponse interactifs. Elle stipule qu’il existe des solutions de rechange pour le contenu audio, les fonctions qui utilisent la parole ou le contenu visuel.</p>
+      <h2 id="7-tic-avec-capacites-video" tabindex="-1">7 <abbr title="technologies de l'information et de la communication">TIC</abbr> avec capacités vidéo</h2>
+      <p>Cette clause s’applique aux <abbr title="technologies de l'information et de la communication">TIC</abbr> qui contiennent des capacités vidéo et prévoit généralement des exigences relatives au sous-titrage (comme le sous-titrage codé) et aux descriptions audio.</p>
+      <h3 id="71-technologie-de-traitement-des-sous-titres" tabindex="-1">7.1 Technologie de traitement des sous-titres</h3>
+      <p>Cet ensemble de clauses indique que les <abbr title="technologies de l'information et de la communication">TIC</abbr> devraient pouvoir afficher des sous-titres lorsque l’audio et la vidéo sont synchronisés, que les sous-titres devraient être synchronisés avec la vidéo, que les sous-titres devraient être personnalisables et disposer d’une option de sortie vocale. En outre, lorsque la vidéo est transmise, convertie ou enregistrée, elle conserve le sous-titrage.</p>
+      <h3 id="72-technologie-de-description-audio" tabindex="-1">7.2 Technologie de description audio</h3>
+      <p>Cet ensemble de clauses indique les exigences relatives à la lecture des descriptions audio, notamment la synchronisation avec la vidéo et la préservation de la description audio lors de la transmission, de la conversion ou de l’enregistrement.</p>
+      <h3 id="73-commandes-de-lutilisateur-pour-les-sous-titres-et-les-descriptions-audio" tabindex="-1">7.3 Commandes de l’utilisateur pour les sous-titres et les descriptions audio</h3>
+      <p>Cette clause s’applique aux <abbr title="technologies de l'information et de la communication">TIC</abbr> dont l’objectif principal est la lecture de contenus audio/vidéo. Elle exige que les commandes de sous-titrage et de description audio soient tout aussi immédiatement disponibles que les commandes principales (par exemple, les boutons lecture/pause).</p>
+      <h2 id="8-materiel" tabindex="-1">8 Matériel</h2>
+      <h3 id="81-generalites" tabindex="-1">8.1 Généralités</h3>
+      <p>Cette section mentionne que les exigences génériques de la <a href="#5-exigences-generiques">clause 5</a> sont applicables, qu’il faut utiliser des connexions standard lors de la connexion de périphériques, par exemple via USB ou Bluetooth, et que la couleur n’est pas le seul moyen de transmettre de l’information ou des actions.</p>
+      <h3 id="82-produits-materiels-avec-sortie-vocale" tabindex="-1">8.2 Produits matériels avec sortie vocale</h3>
+      <p>Cette section couvre les exigences qui s’appliquent au matériel doté d’une sortie vocale et comprend des exigences précises concernant la plage de volume, les accroissements en volume et le couplage magnétique des appareils avec ou sans fil pour fonctionner avec la technologie d’amélioration de l’audition.</p>
+      <h3 id="83-tic-fixes" tabindex="-1">8.3 <abbr title="technologies de l'information et de la communication">TIC</abbr> fixes</h3>
+      <p>Cette section est propre aux <abbr title="technologies de l'information et de la communication">TIC</abbr> qui sont intégrées dans l’environnement physique, telles qu’un kiosque permettant d’acheter un billet de cinéma. Bien qu’elle ne s’applique qu’aux <abbr title="technologies de l'information et de la communication">TIC</abbr> situées physiquement dans l’environnement, elle n’énonce pas directement d’exigences quant à l’emplacement des <abbr title="technologies de l'information et de la communication">TIC</abbr>, mais seulement quant à la possibilité d’y accéder. Voici quelques-unes des exigences clés de cette section :</p>
+      <ul>
+        <li>Les commandes sont physiquement situées à des endroits accessibles à tous (ni trop haut, ni trop bas, ni trop loin).</li>
+        <li>Il y a suffisamment d’espace pour le dégagement des genoux et des orteils (en particulier pour les personnes en fauteuil roulant).</li>
+        <li>Des rampes appropriées existent chaque fois qu’un changement de niveau ou de hauteur du sol est nécessaire pour accéder aux <abbr title="technologies de l'information et de la communication">TIC</abbr>.</li>
+        <li>Il y a suffisamment d’espace autour des <abbr title="technologies de l'information et de la communication">TIC</abbr> pour que chacun puisse les utiliser.</li>
+        <li>Lorsque les <abbr title="technologies de l'information et de la communication">TIC</abbr> comportent un écran d’affichage, celui-ci devrait être visible pour une personne assise dans un fauteuil roulant.</li>
+        <li>Des instructions d’installation sont fournies avec les <abbr title="technologies de l'information et de la communication">TIC</abbr>, ce qui permet de les installer de manière accessible dans l’environnement physique.</li>
+      </ul>
+      <h3 id="84-pieces-mecaniquement-manoeuvrables" tabindex="-1">8.4 Pièces mécaniquement manœuvrables</h3>
+      <p>La présente section décrit les exigences relatives aux <abbr title="technologies de l'information et de la communication">TIC</abbr> dotées de commandes telles que des boutons, des touches, des molettes, etc. Les exigences de haut niveau stipulent ce qui suit :</p>
+      <ul>
+        <li>Les pavés numériques sont dotés d’un indicateur tactile sur la touche « 5 ».</li>
+        <li>Les commandes qui nécessitent un serrage, un pincement ou une torsion du poignet ont des solutions de rechange accessibles.</li>
+        <li>Les commandes sont faciles à actionner.</li>
+        <li>Les touches, les billets et les cartes de transport ont une direction perceptible au toucher si nécessaire.</li>
+      </ul>
+      <h3 id="85-indication-tactile-du-mode-vocal" tabindex="-1">8.5 Indication tactile du mode vocal</h3>
+      <p>Cette clause indique qu’il devrait y avoir une indication tactile de la manière d’activer le mode de sortie vocale, par exemple en braille sur un bouton.</p>
+      <h2 id="9-web" tabindex="-1">9 Web</h2>
+      <h3 id="91-a-94-perceptible-utilisable-comprehensible-et-robuste" tabindex="-1">9.1 à 9.4 – Perceptible, utilisable, compréhensible et robuste</h3>
+      <p>Les quatre premières sections des exigences de la clause 9 sont identiques aux Règles pour l’accessibilité des contenus Web 2.1 des niveaux A et AA. Pour plus d’informations sur les <span lang="en">Web Content Accessibility Guidelines <abbr>(WCAG)</abbr></span>, consulter les <a href="https://www.w3.org/Translations/WCAG21-fr/">Règles pour l’accessibilité des contenus Web (<abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr>) 2.1</a> sur le site du <span lang="en">World Wide Web Consortium (<abbr>W3C</abbr>)</span>.</p>
+      <h3 id="95-criteres-de-succes-de-niveau-aaa-des-wcag-21" tabindex="-1">9.5 Critères de succès de niveau AAA des <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1</h3>
+      <p>Cette clause encourage les développeurs et les spécialistes de l’accessibilité des approvisionnements à essayer de respecter les critères de niveau AAA des <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1, dans la mesure du possible, ce qui est en harmonie avec les conseils donnés dans les <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 concernant la conformité à ces critères.</p>
+      <h3 id="96-exigences-de-conformite-aux-wcag" tabindex="-1">9.6 Exigences de conformité aux <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr></h3>
+      <p>Cette clause indique que toutes les pages Web doivent satisfaire aux cinq exigences de conformité suivantes des <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 de niveau AA :</p>
+      <ul>
+        <li>Niveau de conformité</li>
+        <li>Pages complètes</li>
+        <li>Processus complets</li>
+        <li>Usage des technologies selon des méthodes exclusivement compatibles avec l’accessibilité</li>
+        <li>Non-interférence</li>
+      </ul>
+      <h2 id="10-documents-non-destines-au-web" tabindex="-1">10 Documents non destinés au Web</h2>
+      <p>Cette section décrit les exigences propres aux documents non destinés au Web tels que Word, Excel, PowerPoint, courrier électronique, <abbr lang="en" title="Portable Document Format">PDF</abbr>, images ou vidéos ou documents similaires qui ne sont pas intégrés dans une page Web ou qui peuvent être téléchargés. Ces exigences s’appliquent à tous les documents, quelle que soit leur origine (par exemple, ceux créés dans un système de traitement de texte ou générés par un outil de rapport Web).</p>
+      <h3 id="101-a-104-perceptible-utilisable-comprehensible-et-robuste" tabindex="-1">10.1 à 10.4 – Perceptible, utilisable, compréhensible et robuste</h3>
+      <p>Ces quatre sections sont pour la plupart identiques aux <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 des niveaux A et AA. Les critères ont été modifiés pour faire référence à un « document non destiné au Web » plutôt qu’à un « Web/page Web/site Web » afin de les rendre plus applicables, mais les exigences sont essentiellement les mêmes que pour les versions Web, à quelques exceptions près où des notes supplémentaires ont été ajoutées pour clarifier l’applicabilité des critères précis des <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr>.</p>
+      <h3 id="105-positionnement-des-sous-titres" tabindex="-1">10.5 Positionnement des sous-titres</h3>
+      <p>Cette clause stipule que lorsqu’un document non destiné au Web contient de la vidéo ou de l’audio synchronisé avec un second format de présentation de l’information, et qu’il est sous-titré, les sous-titres eux-mêmes ne devraient pas masquer des informations importantes dans la vidéo.</p>
+      <h3 id="106-synchronisation-de-laudiodescription" tabindex="-1">10.6 Synchronisation de l’audiodescription</h3>
+      <p>Cette clause indique que lorsque les <abbr title="technologies de l'information et de la communication">TIC</abbr> contiennent de la vidéo ou de l’audio qui est synchronisé avec un second format de présentation de l’information, et qu’elles ont également une audiodescription, l’audiodescription ne doit pas interférer avec l’audio.</p>
+      <h2 id="11-logiciels" tabindex="-1">11 Logiciels</h2>
+      <p>La section des logiciels est le plus grand bloc d’exigences et couvre un large éventail de logiciels non destinés au Web, y compris :</p>
+      <ul>
+        <li>un système d’exploitation;</li>
+        <li>les applications mobiles ou de bureau natives, telles que les applications d’une suite bureautique, ou un navigateur Web;</li>
+        <li>les logiciels installés sur des systèmes fermés tels que des kiosques;</li>
+        <li>les outils-auteurs;</li>
+        <li>la technologie d’assistance.</li>
+      </ul>
+      <p>Les logiciels qui ne contiennent pas d’interface utilisateur ne sont pas soumis à ces exigences.</p>
+      <h3 id="111-a-114-perceptible-utilisable-comprehensible-et-robuste" tabindex="-1">11.1 à 11.4 – Perceptible, utilisable, compréhensible et robuste</h3>
+      <p>Les quatre premières sous-sections de la section sur les logiciels sont une adaptation des <abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 des niveaux A et AA pour prendre en charge les logiciels. Les mêmes critères de base s’appliquent aux systèmes ouverts et fermés. Dans certains cas, cependant, des clauses supplémentaires ont été ajoutées pour spécifier l’applicabilité aux systèmes fermés, selon les besoins.</p>
+      <h3 id="115-interoperabilite-avec-la-technologie-dassistance" tabindex="-1">11.5 Interopérabilité avec la technologie d’assistance</h3>
+      <p>Cette section des exigences relatives aux logiciels contient un certain nombre de clauses axées sur les plates-formes offrant un soutien adéquat en matière d’accessibilité, sur les applications fonctionnant sur la plate-forme qui utilisent les services d’accessibilité et sur le fait que ces services sont documentés. Elle contient également des clauses précises concernant les types d’informations que les logiciels doivent fournir aux technologies d’assistance de manière programmatique. En outre, elle prévoit des clauses particulières pour les types d’actions et de modifications que les logiciels doivent permettre à ces technologies d’assistance d’effectuer, lorsque les exigences de sécurité le permettent. Ces clauses permettent à des technologies telles qu’un lecteur d’écran de comprendre le contenu de l’interface et de le présenter à l’utilisateur, ainsi que d’interagir avec ce contenu et de le modifier.</p>
+      <p>Outre les plates-formes elles-mêmes, si les <abbr title="technologies de l'information et de la communication">TIC</abbr> sont une forme de technologie d’assistance, elles doivent également utiliser les services d’accessibilité documentés, dans la mesure du possible.</p>
+      <p>Les exigences ci-dessus ne s’appliquent pas à la fonction restreinte d’un logiciel conforme à la clause 5.1.</p>
+      <h3 id="116-utilisation-documentee-de-laccessibilite" tabindex="-1">11.6 Utilisation documentée de l’accessibilité</h3>
+      <p>Cet ensemble de clauses prévoit que la technologie d’assistance, en tant que partie documentée du logiciel de la plate-forme, devrait être accessible à l’utilisateur sans assistance et que les logiciels fonctionnant sur la plate-forme ne peuvent pas interrompre son utilisation, à moins que l’utilisateur ne le demande. Par exemple, si la plate-forme fournit une technologie d’assistance telle qu’un lecteur d’écran, l’utilisateur final devrait pouvoir l’activer sans que les autres logiciels ne puissent interrompre ou désactiver le lecteur d’écran, à moins que l’utilisateur ne le demande.</p>
+      <h3 id="117-preferences-de-lutilisateur" tabindex="-1">11.7 Préférences de l’utilisateur</h3>
+      <p>Cette clause indique que lorsque l’utilisateur a effectué des sélections précises dans son système d’exploitation (logiciel de plate-forme), telles que l’unité de mesure, la couleur, le contraste, la taille et le type de police, et les indicateurs du curseur de saisie, elles seront utilisées dans le logiciel fonctionnant sur la plate-forme, à moins que l’utilisateur ne les ait modifiées. Par exemple, un utilisateur configure le système d’exploitation de son ordinateur pour qu’il utilise un thème à fort contraste. Lorsqu’il ouvre l’application de traitement de texte, celle-ci ne remplace ni ne perturbe le thème à fort contraste défini au niveau de la plate-forme. Si l’utilisateur souhaite modifier les paramètres visuels de l’application de traitement de texte, il peut le faire sans affecter les fonctions d’accessibilité globales du système d’exploitation.</p>
+      <h3 id="118-outils-auteurs" tabindex="-1">11.8 Outils-auteurs</h3>
+      <p>Cet ensemble de clauses s’applique aux outils-auteurs Web et non destinés au Web et à tout outil permettant à l’utilisateur de concevoir du contenu, par exemple, Microsoft Word ou un système de gestion de contenu Web. Les principales exigences sont les suivantes :</p>
+      <ul>
+        <li>Les outils-auteurs sont dotés de fonctions qui permettent de créer un contenu accessible conforme à la clause 9 (documents Web) ou à la clause 10 (documents non destinés au Web), selon le cas.</li>
+        <li>Lorsqu’un outil-auteur offre des fonctions qui transforment la structure ou le format d’un contenu, les informations nécessaires à l’accessibilité sont préservées dans la mesure où le format de sortie le permet.</li>
+        <li>Les outils-auteurs dotés de contrôles automatisés de l’accessibilité proposeront à l’utilisateur des suggestions pour remédier aux problèmes d’accessibilité constatés lors l’utilisation de ces contrôles automatisés de l’accessibilité.</li>
+        <li>Pour les outils qui disposent de modèles, au moins un des modèles devrait être accessible conformément à la clause 9 (documents Web) ou 10 (documents non destinés au Web), selon le cas, et désigné comme un modèle accessible.</li>
+      </ul>
+      <h2 id="12-documentation-et-services-de-soutien" tabindex="-1">12 Documentation et services de soutien</h2>
+      <h3 id="121-documentation-du-produit" tabindex="-1">12.1 Documentation du produit</h3>
+      <p>Cet ensemble de clauses indique que la documentation fournie sur les <abbr title="technologies de l'information et de la communication">TIC</abbr> devrait énumérer et inclure des informations sur la manière d’utiliser toutes les caractéristiques d’accessibilité qu’elle contient, et exige que la documentation elle-même soit conforme à la clause 9 (documents Web) ou à la clause 10 (documents non destinés au Web).</p>
+      <h3 id="122-services-de-soutien" tabindex="-1">12.2 Services de soutien</h3>
+      <p>Cet ensemble de clauses concerne principalement, mais non exclusivement :</p>
+      <ul>
+        <li>les centres d’assistance;</li>
+        <li>les centres d’appel;</li>
+        <li>le soutien technique;</li>
+        <li>les services de relais;</li>
+        <li>les services de formation.</li>
+      </ul>
+      <p>Il exige que les services de soutien puissent fournir des renseignements sur tous les services ou caractéristiques d’accessibilité documentés et qu’ils communiquent d’une manière qui réponde aux besoins de l’utilisateur. En outre, toute documentation fournie par les services de soutien doit être disponible dans un format Web conforme à la clause 9 (documents Web) ou dans un format autre qu’un format Web conforme à la clause 10 (documents non destinés au Web).</p>
+      <h2 id="13-tic-assurant-lacces-aux-services-de-relais-ou-durgence" tabindex="-1">13 <abbr title="technologies de l'information et de la communication">TIC</abbr> assurant l’accès aux services de relais ou d’urgence</h2>
+      <h3 id="131-exigences-en-matiere-de-services-de-relais" tabindex="-1">13.1 Exigences en matière de services de relais</h3>
+      <p>Ces clauses décrivent les exigences relatives aux services de relais, qui sont censés servir d’intermédiaires pour convertir la parole, le texte ou la langue des signes afin de répondre aux besoins des différents utilisateurs/opérateurs. Ces services sont normalement fournis par des humains. Ces services fournissent du texte, des langues des signes, de la lecture labiale, des sous-titres audio téléphoniques et de l’interprétation de la parole à la parole pour permettre une communication impliquant au moins un utilisateur parlant. Par exemple, un service de sous-titrage téléphonique aide les utilisateurs sourds ou malentendants pendant les conversations parlées en fournissant des sous-titres textuels.</p>
+      <h3 id="132-acces-aux-services-de-relais" tabindex="-1">13.2 Accès aux services de relais</h3>
+      <p>Cette clause exige que, lorsque les <abbr title="technologies de l'information et de la communication">TIC</abbr> prenant en charge la communication bidirectionnelle sont destinées à être utilisées avec des services de relais, l’accès à ces services ne soit pas bloqué.</p>
+      <h3 id="133-acces-aux-services-durgence" tabindex="-1">13.3 Accès aux services d’urgence</h3>
+      <p>Cette clause exige que, lorsque les <abbr title="technologies de l'information et de la communication">TIC</abbr> prenant en charge la communication bidirectionnelle sont destinées à être utilisées avec des services d’urgence, l’accès à ces services ne soit pas bloqué.</p>
+      <h2 id="14-conformite" tabindex="-1">14 Conformité</h2>
+      <p>Cette section de la norme EN 301 549 décrit comment cette norme devrait être comprise et comment les <abbr title="technologies de l'information et de la communication">TIC</abbr> peuvent y répondre. L’information de haut niveau est la suivante :</p>
+      <ul>
+        <li>Pour satisfaire à la norme, les <abbr title="technologies de l'information et de la communication">TIC</abbr> doivent satisfaire à toutes les clauses (telles que rédigées dans la norme EN 301 549 complète) qui utilisent le terme « doit », tandis que les clauses qui utilisent le terme « devrait » sont des recommandations. Le présent résumé technique n’utilise pas ces termes à cet égard et on ne peut pas s’y fier pour la conformité à la norme EN 301 549.</li>
+        <li>À l’exception de la clause 12, toutes les clauses indiquent à quel type ou fonctionnalité de <abbr title="technologies de l'information et de la communication">TIC</abbr> elles s’appliquent.</li>
+        <li>Les clauses qui ne sont pas applicables n’ont pas besoin d’être respectées pour atteindre la pleine conformité.</li>
+        <li>Les <abbr title="technologies de l'information et de la communication">TIC</abbr> sont souvent composées de deux ou plusieurs éléments de <abbr title="technologies de l'information et de la communication">TIC</abbr>. Ces éléments peuvent se compléter et répondre aux exigences d’accessibilité lorsqu’ils sont combinés. Toutefois, si les éléments ne satisfont pas tous à une exigence donnée, alors les <abbr title="technologies de l'information et de la communication">TIC</abbr> combinées ne satisfont pas à cette exigence.</li>
+        <li>Aucune priorité n’est donnée à une clause par rapport à une autre.</li>
+        <li>Aucune méthodologie d’échantillonnage particulière n’est prévue par cette norme.</li>
+        <li>La norme EN 301 549 ne s’applique pas lorsque les <abbr title="technologies de l'information et de la communication">TIC</abbr> ne fonctionnent pas comme prévu (par exemple, en cas de bris), lorsqu’elles font l’objet d’une maintenance ou lorsqu’elles sont dans un état transitoire (tel que le démarrage ou l’arrêt) qui ne nécessite pas d’interaction de la part de l’utilisateur. S’il est possible de le faire en toute sécurité, la norme EN 301 549 encourage les <abbr title="technologies de l'information et de la communication">TIC</abbr> à essayer de répondre à toutes les exigences possibles dans ces conditions.</li>
+      </ul>
+      <h2 id="autres-annexes-dans-la-norme-en-301-549" tabindex="-1">Autres annexes dans la norme EN 301 549</h2>
+      <p>Consulter la norme EN 301 549 pour de plus amples renseignements sur ce qui suit :</p>
+      <ul>
+        <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=89">Annexe A (informative) : Relation entre le présent document et les exigences essentielles de la directive 2016/21<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=105">Annexe B (informative) : Relation entre les exigences et les déclarations de rendement fonctionnel<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=115">Annexe C (normative) : Détermination de la conformité<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=181">Annexe D (informative) : Autres ressources pour l’accessibilité cognitive<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=182">Annexe E (informative) : Conseils aux utilisateurs du présent document<small> (en anglais seulement)</small></a></li>
+        <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=185">Annexe F (informative) : Historique des modifications<small> (en anglais seulement)</small></a></li>
+      </ul>
+    </div>
+    <section class="pagedetails container">
+      <h2 class="wb-inv">Détails de la page</h2>
+      <dl id="wb-dtmd">
+        <dt>Date de modification :</dt>
+        <dd><time property="dateModified">2024-07-17</time></dd>
+      </dl>
+    </section>
+  </main>
+  <aside class="contribute">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribuez à ce projet</span><small>sur Github.com</small></h2>
+        </div>
+        <div class="col-md-7">
+          <ul class="list-inline">
+            <li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Code source <small>(en anglais seulement)</small></a></li>
+            <li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Problèmes <span lang="en">(Issues)</span><small>(en anglais seulement)</small></a></li>
+            <li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions <small>(en anglais seulement)</small></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <footer id="wb-info">
+    <h2 class="wb-inv">À propos de ce site</h2>
+    <div class="gc-main-footer">
+      <div class="container">
+        <nav>
+          <h3>Gouvernement du Canada</h3>
+          <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+            <li><a href="https://www.canada.ca/fr/contact.html">Toutes les coordonnées</a></li>
+            <li><a href="https://www.canada.ca/fr/gouvernement/min.html">Ministères et organismes</a></li>
+            <li><a href="https://www.canada.ca/fr/gouvernement/systeme.html">À propos du gouvernement</a></li>
+          </ul>
+          <h4><span class="wb-inv">Thèmes et sujets</span></h4>
+          <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+            <li><a href="https://www.canada.ca/fr/services/emplois.html">Emplois</a></li>
+            <li><a href="https://www.canada.ca/fr/services/immigration-citoyennete.html">Immigration et citoyenneté</a></li>
+            <li><a href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+            <li><a href="https://www.canada.ca/fr/services/entreprises.html">Entreprises</a></li>
+            <li><a href="https://www.canada.ca/fr/services/prestations.html">Prestations</a></li>
+            <li><a href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
+            <li><a href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
+            <li><a href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+            <li><a href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+            <li><a href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+            <li><a href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+            <li><a href="https://www.canada.ca/fr/services/transport.html">Transport et infrastructure</a></li>
+            <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=fra">Le Canada et le monde</a></li>
+            <li><a href="https://www.canada.ca/fr/services/finance.html">Argent et finance</a></li>
+            <li><a href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+            <li><a href="https://www.canada.ca/fr/services/autochtones.html">Autochtones</a></li>
+            <li><a href="https://www.canada.ca/fr/services/veterans-militaire.html">Vétérans et militaires</a></li>
+            <li><a href="https://www.canada.ca/fr/services/jeunesse.html">Jeunesse</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="gc-sub-footer">
+      <div class="container d-flex align-items-center">
+        <nav>
+          <h3 class="wb-inv">Organisation du gouvernement du Canada</h3>
+          <ul>
+            <li><a href="https://www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
+            <li><a href="https://www.canada.ca/fr/mobile.html">Applications mobiles</a></li>
+            <li><a href="https://www.canada.ca/fr/gouvernement/a-propos.html">À propos de Canada.ca</a></li>
+            <li><a href="https://www.canada.ca/fr/transparence/avis.html">Avis</a></li>
+            <li><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
+          </ul>
+        </nav>
+        <div class="wtrmrk align-self-end">
+          <img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+</body>
+
+</html>
