@@ -11,7 +11,50 @@ const baseUrl = `http://localhost:${port}/en/index.html`;
 
 let brokenLinks = [];
 
-// Function to fetch HTML and check for broken anchors and metadata
+// Function to fetch HTML and extract source file metadata
+async function fetchSourceFile(url) {
+	try {
+		// If the URL ends in a folder path, assume it's an HTML page (e.g., /fr/page/ → /fr/page/index.html)
+		if (url.endsWith('/')) {
+			url += 'index.html';
+		}
+
+		// Ignore non-HTML files (like images, CSS, JS, etc.)
+		if (!url.endsWith('.html') && !url.includes('?')) {
+			return "Non-HTML file";
+		}
+
+		const response = await axios.get(url);
+		const html = response.data;
+		const dom = new JSDOM(html);
+		const document = dom.window.document;
+
+		// Extract the correct source file path from <meta name="source-file">
+		const sourceFileMeta = document.querySelector('meta[name="source-file"]');
+		let sourceFile = sourceFileMeta ? sourceFileMeta.getAttribute('content') : null;
+
+		if (sourceFile) {
+			// Ensure it's a valid file path (remove "./" if present)
+			sourceFile = sourceFile.replace(/^\.\/+/, '');
+
+			// Convert the relative path to an absolute path based on your repo structure
+			const absolutePath = path.resolve('/Users/shawn.thompson/_git/gc-da11yn.github.io', sourceFile);
+
+			// Convert absolute path to a file:// URL
+			return `file://${absolutePath}`;
+		} else {
+			console.warn(`⚠️  No source file meta tag found for ${url}`);
+			return "Unknown source file";
+		}
+	} catch (error) {
+		console.error(`Error fetching source file from ${url}: ${error.message}`);
+		return "Unknown source file";
+	}
+}
+
+
+
+// Function to check for broken anchors and extract metadata
 async function fetchAndCheckPage(url) {
 	try {
 		const response = await axios.get(url);
@@ -19,12 +62,8 @@ async function fetchAndCheckPage(url) {
 		const dom = new JSDOM(html);
 		const document = dom.window.document;
 
-		// Extract the source file path from the metadata
-		const sourceFileMeta = document.querySelector('meta[data-source]');
-		let sourceFile = sourceFileMeta ? sourceFileMeta.getAttribute('data-source') : 'Unknown source file';
-
-		// Prepend file:// to the sourceFile path
-		sourceFile = `file://${path.resolve(sourceFile)}`;
+		// Get source file from meta tag
+		let sourceFile = await fetchSourceFile(url);
 
 		// Check for broken anchors
 		const anchors = Array.from(document.querySelectorAll('a[href^="#"]'));
@@ -46,8 +85,11 @@ async function fetchAndCheckPage(url) {
 				}
 			}
 		});
+
+		return sourceFile;
 	} catch (error) {
 		console.error(`Error fetching ${url}: ${error.message}`);
+		return "Unknown source file";
 	}
 }
 
@@ -69,11 +111,13 @@ const siteChecker = new blc.SiteChecker(
 	},
 	{
 		link: async (result) => {
+			// Fetch the page and extract the correct source file path before checking broken links
+			const sourceFile = await fetchSourceFile(result.base.resolved);
+
 			if (result.broken) {
-				await fetchAndCheckPage(result.url.resolved); // Fetch the page and check for broken anchors and metadata
 				if (!isDuplicate(result.base.original, result.url.original)) {
 					const pageUrl = result.base.original;
-					const sourceFile = `file://${path.resolve(result.base.original)}`; // Prepend file:// to the source file path
+
 					brokenLinks.push({
 						page: pageUrl,
 						link: result.url.original,
@@ -85,15 +129,37 @@ const siteChecker = new blc.SiteChecker(
 				}
 			}
 
-			// Check anchor links on each page that was successfully loaded
+			// Check anchor links on each successfully loaded page
 			if (result.http.response && result.http.response.statusCode === 200) {
 				await fetchAndCheckPage(result.url.resolved);
 			}
 		},
 		end: () => {
 			if (brokenLinks.length > 0) {
+				// Group links by page
+				const groupedLinks = brokenLinks.reduce((acc, item) => {
+					let existingPage = acc.find(entry => entry.page === item.page);
+					if (!existingPage) {
+						existingPage = {
+							page: item.page,
+							sourceFile: item.sourceFile,
+							links: []
+						};
+						acc.push(existingPage);
+					}
+					existingPage.links.push({
+						link: item.link,
+						linkText: item.linkText
+					});
+					return acc;
+				}, []);
+
+				// Add count at the beginning
+				const outputData = [{ linksFound: brokenLinks.length }, ...groupedLinks];
+
+				// Write the JSON output
 				const outputFilePath = path.join(__dirname, '..', 'broken-links.json');
-				fs.writeFileSync(outputFilePath, JSON.stringify(brokenLinks, null, 2));
+				fs.writeFileSync(outputFilePath, JSON.stringify(outputData, null, 2));
 				console.log(`Broken links found! See ${outputFilePath} for details.`);
 			} else {
 				console.log('No broken links found.');
