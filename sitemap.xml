@@ -112,17 +112,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessible-visio-drawings-in-microsoft-365/</loc>
-		<lastmod>2023-12-01</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/mobility-flexibility-and-body-structure-disabilities/</loc>
-		<lastmod>2023-12-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-visio-drawings-in-office-2016/</loc>
 		<lastmod>2023-12-03</lastmod>
 	</url>
 	
@@ -292,11 +282,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-office-2016/</loc>
-		<lastmod>2024-02-09</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/documents-pdf-accessibles-dans-office-2016/</loc>
 		<lastmod>2024-02-09</lastmod>
 	</url>
@@ -313,11 +298,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/classeurs-excel-accessibles-dans-microsoft-365/</loc>
-		<lastmod>2024-02-09</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-microsoft-365/</loc>
 		<lastmod>2024-02-09</lastmod>
 	</url>
 	
@@ -842,11 +822,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/mandats/</loc>
 		<lastmod>2024-08-26</lastmod>
 	</url>
@@ -952,17 +927,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-outlook/</loc>
-		<lastmod>2024-10-11</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-microsoft-word/</loc>
-		<lastmod>2024-10-11</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-microsoft-outlook/</loc>
 		<lastmod>2024-10-11</lastmod>
 	</url>
 	
@@ -1022,16 +987,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
-		<lastmod>2025-01-23</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
-		<lastmod>2025-01-23</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/website-usage-analytics/</loc>
 		<lastmod>2025-01-28</lastmod>
 	</url>
@@ -1059,5 +1014,50 @@
 	<url>
 		<loc>https://a11y.canada.ca/links/fr/generateur-d-exigences-en-technologies-de-l-information-et-de-la-communication-tic-prototypepour-la-norme-en-301-549-2021/</loc>
 		<lastmod>2025-02-27</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
+		<lastmod>2025-03-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-outlook/</loc>
+		<lastmod>2025-03-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-visio-drawings-in-office-2016/</loc>
+		<lastmod>2025-03-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-visio-drawings-in-microsoft-365/</loc>
+		<lastmod>2025-03-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
+		<lastmod>2025-03-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-microsoft-outlook/</loc>
+		<lastmod>2025-03-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
+		<lastmod>2025-03-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-office-2016/</loc>
+		<lastmod>2025-03-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-microsoft-365/</loc>
+		<lastmod>2025-03-25</lastmod>
 	</url>
 </urlset>
