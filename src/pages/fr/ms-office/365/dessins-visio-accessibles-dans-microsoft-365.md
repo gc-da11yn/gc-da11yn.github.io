@@ -86,12 +86,12 @@ Exemple d’organigramme de flux de données complexe&nbsp;:
 
 #### Sources de données&nbsp;:
 
-- [Composant A](#composantA) (liens vers numéro d’en-tête du composant A)
-- [Composant B](#composantB) (liens vers numéro d’en-tête du composant B)
+- [Composant A](#) (liens vers numéro d’en-tête du composant A)
+- [Composant B](#) (liens vers numéro d’en-tête du composant B)
 
 #### Flux de données vers&nbsp;:
 
-- [Connecteur 1](#composantC">Composant C (liens vers numéro d’en-tête du composant C) à
+- [Composant C](#) (liens vers numéro d’en-tête du composant C) à [Connecteur 1](#) (liens vers numéro d’en-tête du connecteur 1)
 
 Ajoutez d’autres informations pertinentes sur le composant D.
 

@@ -217,7 +217,7 @@ departments and agencies are strongly encouraged to seek approval of the justifi
     <div class="well well-sm mrgn-tp-md">
       <p><strong>Note:</strong> Alternatively, they can provide a hyperlink to either the:</p>
       <ul>
-        <li><a href="/en/guides/ict-requirements/">Information and Communications Technology (ICT) Accessibility Requirements</a></li>
+        <li><a href="/en/information-and-communication-technology-ict-accessibility-requirements/">Information and Communications Technology (ICT) Accessibility Requirements</a></li>
         <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 pdf</a> or</li>
         <li><a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&utm_medium=email&utm_campaign=ICTstandard&utm_id=ICT+standard+adoption">CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)</a>.</li>
       </ul>
@@ -410,7 +410,7 @@ If users are not using the industry template, we recommend that you do further r
 		<dt>Footnote 2</dt>
 		<dd id="fn2">
 			<p>Copied from the Information Technology Industry Council (ITI) website <a href="https://www.itic.org/policy/accessibility/vpat">VPAT<sup>®</sup> - Information Technology Industry Council (itic.org)</a>.</p>
-			<p class="fn-rtn"><a href="#fn2-1-rf"><span class="wb-inv">Return to <span>first</span> footnote </span>2<span class="wb-inv"> referrer</span></a></p>
+			<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Return to footnote </span>2<span class="wb-inv"> referrer</span></a></p>
 		</dd>
 		<dt>Footnote 3</dt>
 		<dd id="fn3">
@@ -420,7 +420,7 @@ If users are not using the industry template, we recommend that you do further r
 		<dt>Footnote 4</dt>
 		<dd id="fn4">
 			<p>Copied from the EN 301 549 V3.2.1 (2021-03), 3 Definition of terms, symbols and abbreviations, page 17</p>
-			<p class="fn-rtn"><a href="#fn4-1-rf"><span class="wb-inv">Return to <span>first</span> footnote </span>4<span class="wb-inv"> referrer</span></a></p>
+			<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Return to footnote </span>4<span class="wb-inv"> referrer</span></a></p>
 		</dd>
 	</dl>
 </aside>

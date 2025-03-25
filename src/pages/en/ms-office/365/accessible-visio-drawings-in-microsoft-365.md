@@ -91,12 +91,12 @@ Example for complex data flow diagram:
 
 ##### Data Sources:
 
-- [Component A](#componentA) (links to #id of Component A header)
-- [Component B](#componentB) (links to #id of Component B header)
+- [Component A](#) (links to #id of Component A header)
+- [Component B](#) (links to #id of Component B header)
 
 ##### Data Flows to:
 
-- [Component C](#componentC) (links to #id of Component C header) through [Connector 1](#connector1) (links to #id of Connector 1 header)
+- [Component C](#) (links to #id of Component C header) through [Connector 1](#) (links to #id of Connector 1 header)
 
 Follow with other relevant information about component D.
 
