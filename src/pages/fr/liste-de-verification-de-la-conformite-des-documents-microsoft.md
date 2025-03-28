@@ -6,6 +6,11 @@ subject:
   - howTos
 tags:
   - createDocument
+hasDocument:
+  filename: "liste_conformite_microsoft.docx"
+  sizeNumber: 15.3
+  sizeUnit: "KB"
+  type: "word"
 ---
 
 <!-- <div class="row">

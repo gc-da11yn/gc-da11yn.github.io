@@ -7,6 +7,11 @@ subject:
 tags:
   - accessibleVirtualEvents
   - updatesMain
+hasDocument:
+  filename: "bonnes_pratiques_evenements_virtuels.docx"
+  sizeNumber: 57.4
+  sizeUnit: "KB"
+  type: "word"
 internalLinks: true
 ---
 

@@ -7,6 +7,11 @@ subject:
   - howTos
 tags:
   - createDocument
+hasDocument:
+  filename: "pdf_accessibility_checklist.docx"
+  sizeNumber: 10.8
+  sizeUnit: "KB"
+  type: "word"
 ---
 
 <div class="row">
