@@ -7,6 +7,11 @@ subject:
   - howTos
 tags:
   - createDocument
+hasDocument:
+  filename: "liste_accessibilite_pdf.docx"
+  sizeNumber: 12.5
+  sizeUnit: "KB"
+  type: "word"
 ---
 
 <div class="row">

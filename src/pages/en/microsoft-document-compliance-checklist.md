@@ -6,6 +6,11 @@ subject:
   - howTos
 tags:
   - createDocument
+hasDocument:
+  filename: "microsoft_document_compliance_checklist.docx"
+  sizeNumber: 13.6
+  sizeUnit: "KB"
+  type: "word"
 ---
 
 <!-- <div class="row">

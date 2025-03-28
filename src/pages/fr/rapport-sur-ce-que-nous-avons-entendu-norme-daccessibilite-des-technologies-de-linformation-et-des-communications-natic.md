@@ -6,6 +6,11 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - accessibilityStandards
+hasDocument:
+  filename: "norme_daccessibilite_des_technologies_de_linformation_et_des_communications.docx"
+  sizeNumber: 10.3
+  sizeUnit: "KB"
+  type: "word"
 ---
 
 <div class="row">

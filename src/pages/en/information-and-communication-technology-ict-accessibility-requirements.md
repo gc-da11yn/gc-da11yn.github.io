@@ -5,6 +5,11 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
+hasDocument:
+  filename: "ict_accessibility_requirements.docx"
+  sizeNumber: 447
+  sizeUnit: "KB"
+  type: "word"
 toggle: exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles
 ---
 

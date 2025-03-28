@@ -7,6 +7,11 @@ subject:
 tags:
   - accessibleVirtualEvents
   - updatesMain
+hasDocument:
+  filename: "best_practices_for_accessible_virtual_events.docx"
+  sizeNumber: 45.0
+  sizeUnit: "KB"
+  type: "word"
 internalLinks: true
 ---
 
