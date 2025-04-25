@@ -1,8 +1,8 @@
 ---
-title: Accessibility remediation roadmap template instructions
+title: Accessibility remediation roadmap template
 description: This Accessibility Remediation Roadmap template is designed primarily for use in procurements or projects where accessibility conformance is required to be reached over time. The template outlines the essential information the Government of Canada would expect in an Accessibility Remediation Roadmap to understand and address deficiencies listed in an Accessibility Conformance Report (ACR).
 layout: layouts/base.njk
-toggle: instructions-pour-le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite
+toggle: le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite
 toc: true
 subject:
   - accessibilityInTheGovernmentOfCanada
