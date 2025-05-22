@@ -71,6 +71,9 @@
 		</script>
 		<script src="/js/chart.js"></script>
 		{%- endif -%}
+{%- if settings.env == "dev" or settings.env == "local" -%}
+    {% include "partials/sa11y.njk" %}
+{%- endif -%}
 	</body>
 
 </html>
