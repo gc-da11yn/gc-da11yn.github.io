@@ -6,6 +6,11 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
+hasDocument:
+  filename: "2021_technical_summary_en_301_549.docx"
+  sizeNumber: 30.8
+  sizeUnit: "KB"
+  type: "word"
 ---
 
 <div class="row">
