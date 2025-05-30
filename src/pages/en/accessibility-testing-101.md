@@ -1,6 +1,6 @@
 ---
 title: Accessibility Testing 101
-description: For anyone wanting to create accessible content, we encourage you to use automated accessibility testing tools. These testing tools will help content creators as they build their content by finding errors and offering suggestions to improve the accessibility of their product, application or web site. On this page a list of recommended accessibility testing tools has been made available
+description: For anyone wanting to create accessible content, we encourage you to use automated accessibility testing tools. These testing tools will help content creators as they build their content by finding errors and offering suggestions to improve the accessibility of their product, application or web site. On this page a list of recommended accessibility testing tools has been made available.
 toggle: test-daccessibilite-101
 subject:
   - howTos
@@ -11,7 +11,23 @@ toc: true
 
 ## Building your toolset
 
+The resources on this page do not imply any endorsement or affiliation.
+
 Please note that some of the accessibility testing tools listed will require administrative permissions to install on your device.
+
+### Tool: Sa11y
+
+Sa11y is an accessibility checker designed for **content authors** and has a focus on content related issues and successes. It visually highlights issues at the source with a simple tooltip on how to fix them. Sa11y includes some developer related checks, but it is not a comprehensive code analysis tool, nor is it a web accessibility overlay. Get started by reading the [Overview of Sa11y](https://sa11y.netlify.app/overview/) or [How to Use Sa11y](https://sa11y.netlify.app/get-started/how-to-use/).
+
+Sa11y is typically installed as a website plugin, but the [Sa11y Bookmarklet](https://sa11y.netlify.app/bookmarklet/) also works on any desktop browser and most web pages.
+
+Sa11y Tips and Tricks:
+- Sa11y helps create high-quality, accessible content and includes an Outline and Images panel to review the page's heading structure and image alt text.
+- The readability feature estimates the page's readability score.
+- The colour filters feature is useful for ensuring data visualizations and graphs are accessible.
+- Developers can toggle the "Developer checks" toggle for a more thorough review of the page.
+
+Sa11y is a free, open-source tool that runs in your web browser and doesn’t send any data to servers. It is created and maintained by Toronto Metropolitan University in Ontario, Canada.
 
 ### Tool: WAVE Browser Extensions
 
@@ -84,7 +100,7 @@ Keyboard Shortcuts:
 
 - Increase your productivity with [Keyboard Shortcuts for Accessibility Insights for Web.](https://accessibilityinsights.io/docs/web/reference/keyboard/)
 
-### Tool: LightHouse
+### Tool: Lighthouse
 
 Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO, and more. A very useful tool for Multimedia Developers and Web Accessibility Testers.
 
