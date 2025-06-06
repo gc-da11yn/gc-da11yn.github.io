@@ -1,12 +1,12 @@
 ---
 title: Exigences en matière de technologies de l’information et des communications (<abbr>TIC</abbr>) accessibles
-description: Cette page a pour but de partager une partie du travail effectu&eacute; par Services partagés Canada (<abbr>SPC</abbr>) pour le pilotage des normes harmonis&eacute;es d'accessibilit&eacute; des technologies de l’information et des communications (<abbr>TIC</abbr>) EN 301 549 (2021). Il ne s'agit pas d'un copier / coller / traduction complet des normes, l'EN 301 549 (2021) ou le <span lang="en">Web Content Accessibility Guidelines</span> (<abbr>WCAG</abbr>) 2.1.
+description: Cette page a pour but de partager une partie du travail effectué par Services partagés Canada (<abbr>SPC</abbr>) pour le pilotage de la norme CAN/ASC - EN 301 549:2024 / EN 301 549 V3.2.1 (2021-03) européenne harmonisée d'accessibilité des technologies de l’information et des communications <abbr>(TIC</abbr>). Il ne s'agit pas d'un copier / coller / traduction complet des normes, le CAN/ASC - EN 301 549:2024 / EN 301 549 V3.2.1 (2021-03) ou les Règles pour l’accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1.
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
 hasDocument:
-  filename: "exigences-en-matiere-de-tic-accessibles.docx"
+  filename: "AnnexeX-ExigencesenmatieredeTICaccessibles.docx"
   sizeNumber: 544
   sizeUnit: "KB"
   type: "word"
