@@ -267,7 +267,7 @@ To enable the download component on a page, include the `hasDocument` object in 
 - `sizeUnit`: The unit for the file size. Acceptable values are case-insensitive:
   - For English: `KB`, `MB`
   - For French: `ko`, `Mo`
-- `type`: (Optional) The type of document, such as `word` or `pdf`. If not specified, it defaults to the generic file type.
+- `type`: (Optional) The type of document, such as `word`, `powerpoint`, or `pdf`. If not specified, it defaults to the generic file type.
 
 **Example Frontmatter:**
 
@@ -546,7 +546,7 @@ Pour activer le composant de téléchargement sur une page, incluez l'objet `has
 - `sizeUnit` : L'unité de la taille du fichier. Les valeurs acceptables ne tiennent pas compte de la casse :
   - Pour l'anglais : `KB`, `MB`
   - Pour le français : `ko`, `Mo`
-- `type` : (Optionnel) Le type de document, tel que `word` ou `pdf`. Si ce n'est pas spécifié, il sera défini par défaut sur le type de fichier générique.
+- `type` : (Optionnel) Le type de document, tel que `word`, `powerpoint` ou `pdf`. Si ce n'est pas spécifié, il sera défini par défaut sur le type de fichier générique.
 
 **Exemple de front matter :**
 

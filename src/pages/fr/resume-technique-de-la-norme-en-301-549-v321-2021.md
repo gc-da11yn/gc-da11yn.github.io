@@ -6,27 +6,12 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
+hasDocument:
+  filename: "SPC_Resume_technique_de_la_norme_EN_301_549_v3.2.1_(2021)_31mai2024_FR.docx"
+  sizeNumber: 37.9
+  sizeUnit: "KB"
+  type: "word"
 ---
-
-<div class="row">
-	<div class="col-sm-6">
-		<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/SPC_Resume_technique_de_la_norme_EN_301_549_v3.2.1_(2021)_31mai2024_FR.docx" download="{{ title | stripTagsSlugify }}">
-			<div class="well gc-dwnld">
-				<div class="row">
-					<div class="col-xs-4">
-						<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
-					</div>
-					<div class="col-xs-8">
-						<p class="gc-dwnld-txt">
-							<span>{{ title | safe }}</span>
-							<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Document Microsoft Word">Word</abbr>, 74 <abbr title="kilo-octet">ko</abbr>)</span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>
 
 ## À propos du présent document et avis de droit d’auteur
 
