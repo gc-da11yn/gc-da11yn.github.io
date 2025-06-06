@@ -17,7 +17,7 @@
 						<p class="gc-dwnld-txt">
 							<span>{{ title | safe }}</span>
 							<span class="gc-dwnld-info">
-								(<i class="fas fa-file-{{ hasDocument.type | lower }} mrg-rght-sm" aria-hidden="true"></i>
+								(<i class="fas fa-file-{{ hasDocument.type | lower }} mrg-rght-sm" aria-hidden="true"><span class="wb-inv">{{ translations.type[hasDocument.type] }}</span></i>
 								{{ hasDocument.sizeNumber }}
 								<abbr title="{{ translations.sizeUnits[normalizedUnit] }}">{{ translations.localizedUnits[normalizedUnit] }}</abbr>)
 							</span>

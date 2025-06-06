@@ -1,6 +1,10 @@
 module.exports = {
 	en: {
-		type: "Microsoft Word Document",
+		type: {
+			"word": "Microsoft Word document",
+			"pdf": "PDF Document",
+			"powerpoint": "Microsoft PowerPoint presentation"
+		},
 		altText: "Document Icon",
 		sizeUnits: {
 			KB: "KiloByte",
@@ -13,7 +17,11 @@ module.exports = {
 		downloadText: "Download the document",
 	},
 	fr: {
-		type: "Document Microsoft Word",
+		type: {
+			"word": "Document Microsoft Word",
+			"pdf": "Document PDF",
+			"powerpoint": "Présentation Microsoft PowerPoint"
+		},
 		altText: "Icône de document",
 		sizeUnits: {
 			KB: "kilo-octet",
