@@ -7,31 +7,11 @@ subject:
 tags:
   - createDocument
 hasDocument:
-  filename: "liste_conformite_microsoft.docx"
+  filename: "MSDocument_COMPLIANCE_CHECKLIST_FR.docx"
   sizeNumber: 15.3
   sizeUnit: "KB"
   type: "word"
 ---
-
-<!-- <div class="row">
-<div class="col-sm-6">
-<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/MSDocument_COMPLIANCE_CHECKLIST_FR.docx" download="{{ title | stripTagsSlugify }}">
-<div class="well gc-dwnld">
-<div class="row">
-<div class="col-xs-4">
-<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
-</div>
-<div class="col-xs-8">
-<p class="gc-dwnld-txt">
-<span>{{ title | safe }}</span>
-<span class="gc-dwnld-info">(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"></i> <abbr title="Document Microsoft Word">Word</abbr>, 62 <abbr title="kilo-octet">ko</abbr>)</span>
-</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div> -->
 
 Vous trouverez ci-dessous des questions qui vous indiqueront si votre document Microsoft Office est accessible. Les critères de réussite renvoient aux Règles pour l’accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1 : <a href="http://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG - Quick Reference<small> (en anglais seulement)</small></a> et le [Guide de rédaction du contenu du site Canada.ca](https://conception.canada.ca/guide-redaction/).
 

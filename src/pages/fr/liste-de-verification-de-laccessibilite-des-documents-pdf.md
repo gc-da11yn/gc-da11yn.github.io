@@ -8,31 +8,11 @@ subject:
 tags:
   - createDocument
 hasDocument:
-  filename: "liste_accessibilite_pdf.docx"
+  filename: "Liste_de_verification_de_laccessibilite_des_documents_PDF.pdf"
   sizeNumber: 12.5
   sizeUnit: "KB"
-  type: "word"
+  type: "pdf"
 ---
-
-<div class="row">
-<div class="col-sm-6">
-<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Liste_de_verification_de_laccessibilite_des_documents_PDF.pdf" download="{{ title | stripTagsSlugify }}">
-<div class="well gc-dwnld">
-<div class="row">
-<div class="col-xs-4">
-<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
-</div>
-<div class="col-xs-8">
-<p class="gc-dwnld-txt">
-<span>{{ title | safe }}</span>
-<span class="gc-dwnld-info">(<i class="fas fa-file-pdf mrg-rght-sm" aria-hidden="true"></i> <abbr lang="en" title="Portable Document Format">PDF</abbr>, 355 <abbr title="KiloByte">KB</abbr>)</span>
-</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
 
 ## Introduction
 

@@ -7,33 +7,11 @@ subject:
 tags:
   - accessibilityStandards
 hasDocument:
-  filename: "norme_daccessibilite_des_technologies_de_linformation_et_des_communications.docx"
+  filename: "sitka-wwhr-fr.pptx"
   sizeNumber: 10.3
   sizeUnit: "KB"
-  type: "word"
+  type: "powerpoint"
 ---
-
-<div class="row">
-
-  <div class="col-md-4 col-md-push-8 mrgn-tp-lg">
-    <a class="gc-dwnld-lnk" href="{{ rootPath }}docs/sitka-wwhr-fr.pptx">
-      <div class="well gc-dwnld">
-        <div class="row">
-          <div class="col-xs-4">
-            <p><img class="img-responsive thumbnail gc-dwnld-img" src="/img/doc.png" alt=""></p>
-          </div>
-          <div class="col-xs-8">
-            <p class="gc-dwnld-txt">
-              <span>{{ title | safe }}</span>
-              <span class="gc-dwnld-info">(<abbr lang="en" title="PowerPoint Presentations">PPT</abbr>, 149 <abbr title="KiloByte">Ko</abbr>)</span>
-            </p>
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-
-<div class="col-md-8 col-md-pull-4">
 
 **Mars 2023**
 
@@ -44,10 +22,6 @@ Entre le 31 octobre et le 30 novembre 2022, la Division de la Politique sur le n
 Cette page offre un résumé des principaux thèmes et points de rétroaction de l’engagement, ainsi que les mesures prises par le <abbr title="Secrétariat du Conseil du Trésor du Canada">SCT</abbr> pour les aborder.
 
 Les commentaires des participants ont joué un rôle déterminant dans le développement de la norme, et cette page représente une occasion de partager certains de ces commentaires avec nos partenaires de l’industrie et la communauté du gouvernement du Canada (<abbr>GC</abbr>).
-
-</div>
-
-</div>
 
 ## Contexte
 

@@ -8,32 +8,12 @@ tags:
   - accessibleVirtualEvents
   - updatesMain
 hasDocument:
-  filename: "best_practices_for_accessible_virtual_events.docx"
+  filename: "Best_Practices_For_Hosting_Accessible_Events_EN.docx"
   sizeNumber: 45.0
   sizeUnit: "KB"
   type: "word"
 internalLinks: true
 ---
-
-<div class="row">
-<div class="col-sm-6">
-<a class="gc-dwnld-lnk" href="{{ rootPath }}docs/Best_Practices_For_Hosting_Accessible_Events_EN.docx" download="{{ title | stripTagsSlugify }}">
-<div class="well gc-dwnld">
-<div class="row">
-<div class="col-xs-4">
-<p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ rootPath }}img/doc.png" alt="" /></p>
-</div>
-<div class="col-xs-8">
-<p class="gc-dwnld-txt">
-<span>{{ title | safe }}</span>
-<span class="gc-dwnld-info">(<abbr title="Microsoft Word Document">Word</abbr>, 71 <abbr title="KiloByte">KB</abbr>)</span>
-</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
 
 ## On this page
 
