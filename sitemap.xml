@@ -952,16 +952,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/links/en/information-and-communication-technology-ict-requirements-generator-prototype-for-the-en-301-549-2021/</loc>
-		<lastmod>2025-02-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/links/fr/generateur-d-exigences-en-technologies-de-l-information-et-de-la-communication-tic-prototypepour-la-norme-en-301-549-2021/</loc>
-		<lastmod>2025-02-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
 		<lastmod>2025-03-25</lastmod>
 	</url>
@@ -1022,11 +1012,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
 		<lastmod>2025-06-06</lastmod>
 	</url>
@@ -1047,11 +1032,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-la-conformite-des-documents-microsoft/</loc>
 		<lastmod>2025-06-06</lastmod>
 	</url>
@@ -1068,6 +1048,26 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/resume-technique-de-la-norme-en-301-549-v321-2021/</loc>
+		<lastmod>2025-06-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/en/information-and-communication-technology-ict-requirements-generator-prototype-for-the-en-301-549-2021/</loc>
+		<lastmod>2025-06-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/fr/generateur-d-exigences-en-technologies-de-l-information-et-de-la-communication-tic-prototypepour-la-norme-en-301-549-2021/</loc>
+		<lastmod>2025-06-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
+		<lastmod>2025-06-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
 		<lastmod>2025-06-06</lastmod>
 	</url>
 </urlset>
