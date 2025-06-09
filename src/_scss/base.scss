@@ -1,5 +1,5 @@
 // Base Da11yN styles
 
-@import "./contribute";
-@import "./banner.scss";
-@import "./custom.scss";
+@use "contribute";
+@use "banner.scss";
+@use "custom.scss";
