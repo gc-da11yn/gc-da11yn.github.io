@@ -157,9 +157,9 @@ An award-winning front-end framework for building websites that are accessible, 
 </div>
 <div class="col-md-6">
 
-### [Web Accessibility Checklist](https://bati-itao.github.io/resources/a11ycheck-en.html)
+### [Easy Checks for Web Accessibility](https://bati-itao.github.io/resources/a11ycheck-en.html)
 
-Accessibility checklist developed by ESDC.
+Spot & fix basic accessibility issues! Tool developed by ESDC - IT Accessibility Office (<abbr>ITAO</abbr>).
 
 </div>
 </div>

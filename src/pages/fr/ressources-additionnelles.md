@@ -114,9 +114,9 @@ Consultez des articles approfondis sur des principes et des procédés permettan
 </div>
 <div class="col-md-6">
 
-### [Liste de vérification pour l’accessibilité Web](https://bati-itao.github.io/resources/a11ycheck-fr.html)
+### [Vérifications faciles pour l’accessibilité du Web](https://bati-itao.github.io/resources/a11ycheck-fr.html)
 
-Liste de verification develop par ESDC.
+Repérer & corriger les problèmes d’accessibilité de base! Outil développé par EDSC - le bureau d’accessibilité TI (<abbr>BATI</abbr>).
 
 </div>
 <div class="col-md-6">
