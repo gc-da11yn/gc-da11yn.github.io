@@ -1,10 +1,13 @@
+{%- set idUpdates = "updates" if locale === "en" else
+"actualites" -%}
+
 <div class="well provisional well-lg brdr-0 mrgn-tp-lg">
 
 {% if collections.updatesMain === undefined %}
 
 {% else %}
 <section class="container">
-	<h2 class="mrgn-tp-sm">{% if locale === "en" %}Latest updates{% else %}Dernières mises à jour{% endif %}</h2>
+	<h2 id="{{ idUpdates }}" class="mrgn-tp-sm">{% if locale === "en" %}Latest updates{% else %}Dernières mises à jour{% endif %}</h2>
 	<p>
 		{% if locale === "en" %}
 		Explore our latest content
