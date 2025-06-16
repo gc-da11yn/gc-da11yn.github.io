@@ -9,6 +9,10 @@
 
 	<body vocab="http://schema.org/" typeof="WebPage">
 
+		{%- if archived -%}
+			{%- include "partials/archived.njk" -%}
+		{%- endif -%}
+
 		{% include "partials/skipnav.njk" %}
 
 		{% include "partials/header.njk" %}
@@ -19,6 +23,9 @@
 				<div class="container p-0 p-sm-3">
 					<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
 						<h1 property="name" id="wb-cont">
+							{%- if archived -%}
+								{{ archived[locale].archivedTitle }}
+							{%- endif -%}
 							{{ title | safe }}
 						</h1>
 						{% if description %}

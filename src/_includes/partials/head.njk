@@ -8,7 +8,22 @@
 	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 	{% set metaTitle = settings[locale].metaTitle %}
-	<title>{% if settings.env == "dev" %}{% if locale != "fr" %}In development - {% else %}En cours de développement - {% endif %}{% endif %}{{ title | striptags(true) | escape | nl2br }}{% if tags !="home" %} - {{ metaTitle }}{% endif %}</title>
+	<title>
+		{%- if settings.env == "dev" -%}
+			{%- if locale != "fr" -%}
+				In development -
+			{%- else -%}
+				En cours de développement -
+			{%- endif -%}
+		{%- endif -%}
+		{%- if archived -%}
+			{{ archived[locale].archivedTitle }}
+		{%- endif -%}
+		{{ title | striptags(true) | escape | nl2br }}
+		{%- if tags !="home" -%}
+			- {{ metaTitle }}
+		 {%- endif -%}
+	</title>
 	<meta content="width=device-width,initial-scale=1" name="viewport">
 	<meta name="description" content="{{ description | striptags(true) | escape | nl2br }}">
 
@@ -31,7 +46,11 @@
 	<!-- Meta tags -->
 
 	<meta name="author" content="{{ header[locale].governmentOfCanada }}" />
-	<meta name="dcterms.title" content="{{ title }}" />
+	<meta name="dcterms.title" content="
+	{%- if archived -%}
+		{{ archived[locale].archivedTitle }}
+	{%- endif -%}
+	{{ title | striptags(true) | escape | nl2br }}" />
 	<meta name="dcterms.description" content="{{  description }}" />
 	<meta name="dcterms.creator" content="{{ header[locale].governmentOfCanada }}">
 	<meta name="dcterms.language" content="{{ locale }}" />
