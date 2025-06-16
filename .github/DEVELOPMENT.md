@@ -204,6 +204,33 @@ To trigger the `needsTranslation` variable in the front matter, you have to set 
 
 If you don't include the `needsTranslation` variable in the front matter of your Markdown file, then the "needsTranslation" message will not be included in the alert message by default. This is because the `needsTranslation` variable is used to control whether or not the "needsTranslation" message is included, and if it is not specified in the front matter, it will default to `false`.
 
+### archive
+
+#### What is the function of archive
+
+The `archive` variable is used to indicate that a page is no longer maintained and should be treated as archived content. When this variable is set to `true`, the following changes occur:
+
+- An archived dismissible banner is automatically added to the top of the page.
+- The page is removed from collections, such as `collections.pages`, so it won’t appear in menus or page listings.
+- "Achived: " is added to the page’s `<title>` and `<h1>` to clearly indicate its status.
+- The `url` remains unchanged, so existing links to the page continue to work.
+
+The banner also includes a reminder for users to remove bookmarks or links to the page and to check the homepage for future updates.
+
+#### How to trigger archive
+
+To trigger the `archive` variable in the front matter, set its value to `true`. Here's an example of front matter that sets the `archive` variable to `true`:
+
+    ```yaml
+    ---
+    archive: true
+    ---
+    ```
+
+#### What happens when archive is not included
+
+If the `archive` variable is not included in the front matter, the page will be treated as active. It will not display the archived warning, will remain in collections, and its title and heading will remain unchanged.
+
 ### internalLinks
 
 #### What is the function of internalLinks
@@ -482,6 +509,33 @@ Pour déclencher la variable `needsTranslation` dans le front matter, vous devez
 #### Que se passe-t-il lorsque needsTranslation n'est pas inclus
 
 Si vous n'incluez pas la variable `needsTranslation` dans le front matter de votre fichier Markdown, le message "needsTranslation" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `needsTranslation` est utilisée pour contrôler si le message "needsTranslation" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à `false`.
+
+### archive
+
+#### Quelle est la fonction de archive
+
+La variable `archive` est utilisée pour indiquer qu'une page n'est plus maintenue et doit être considérée comme du contenu archivé. Lorsque cette variable est définie à `true`, les changements suivants s’appliquent :
+
+- Une bannière d’archivage fermable est automatiquement ajoutée en haut de la page.
+- La page est retirée des collections, telles que `collections.pages`, ce qui empêche son affichage dans les menus ou les listes de pages.
+- « Archivé : » est ajouté au `<title>` et au `<h1>` de la page pour indiquer clairement son statut.
+- L’`url` reste inchangée, de sorte que les liens existants vers la page continuent de fonctionner.
+
+La bannière comprend également un rappel pour que les utilisateurs suppriment leurs favoris ou liens vers la page, et consultent la page d’accueil pour toute mise à jour future.
+
+#### Comment déclencher archive
+
+Pour déclencher la variable `archive` dans les métadonnées (front matter), vous devez définir sa valeur à `true`. Voici un exemple :
+
+    ```yaml
+    ---
+    archive: true
+    ---
+    ```
+
+#### Que se passe-t-il lorsque archive n’est pas inclus
+
+Si la variable `archive` n’est pas incluse dans les métadonnées, la page sera considérée comme active. Elle n’affichera pas l’avertissement d’archivage, restera présente dans les collections, et son titre ainsi que son en-tête ne seront pas modifiés.
 
 ### internalLinks
 
