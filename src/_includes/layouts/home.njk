@@ -1,53 +1,34 @@
 {% if redirect %}
-{% include "partials/redirect.njk" %}
+	{% include "partials/redirect.njk" %}
 {% else %}
 
-<!DOCTYPE html>
-<html class="no-js" lang="{{ locale }}" dir="ltr">
+{% extends "layouts/base.njk" %}
 
-{% include "partials/head.njk" %}
+{% block content %}
 
-<body vocab="http://schema.org/" typeof="WebPage">
-
-	{% include "partials/skipnav.njk" %}
-
-	{% include "partials/header.njk"  %}
-
-	<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-
-		<div class="home">
-			<div class="container p-0 p-sm-3">
-				<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
-					<h1 property="name" id="wb-cont">
-						{{ title | safe }}
-					</h1>
-					<p>{{ description | safe }}</p>
-				</div>
-			</div>
+<div class="banner home">
+	<div class="container p-0 p-sm-3">
+		<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
+			<h1 property="name" id="wb-cont">
+				{{ title | safe }}
+			</h1>
+			<p>{{ description | safe }}</p>
 		</div>
+	</div>
+</div>
 
-		{% include "partials/alerts.njk" %}
-		<div class="container">
-			<h2>{{ home[locale].explore }}</h2>
-			{{ content | safe }}
-		</div>
-		{% include "partials/collectionsMain.njk" %}
-		{% include "partials/updatesMain.njk" %}
-		{% include "partials/about.njk" %}
-		{% include "partials/pagedetails.njk" %}
-	</main>
+{% include "partials/alerts.njk" %}
 
-	{% include "partials/contribute.njk" %}
+<section class="container">
+	<h2>{{ home[locale].explore }}</h2>
+	{{ content | safe }}
+	{% include "partials/collectionsMain.njk" %}
+</section>
 
-	{% include "partials/footer.njk" %}
+{% include "partials/updatesMain.njk" %}
+{% include "partials/about.njk" %}
+{% include "partials/pagedetails.njk" %}
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-	<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-	<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
-{%- if settings.env == "dev" or settings.env == "local" -%}
-    {% include "partials/sa11y.njk" %}
-{%- endif -%}
-</body>
-</html>
+{% endblock %}
 
 {% endif %}

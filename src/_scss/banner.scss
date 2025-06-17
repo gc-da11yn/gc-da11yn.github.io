@@ -1,7 +1,7 @@
 // Banner styles
 $theme-color: #31393A;
 
-.home {
+.banner {
 	background: no-repeat center center;
 	background-size: cover;
 	background-image: url("../img/banner.png");
@@ -17,8 +17,8 @@ $theme-color: #31393A;
 
 		h1 {
 			width: 100%;
+			font-weight: 500;
+			margin-top: 10px;
 		}
 	}
 }
-
-
