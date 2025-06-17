@@ -21,7 +21,7 @@
   <meta name="dcterms.creator" content="Government of Canada">
   <meta name="dcterms.language" content="en" />
   <meta name="dcterms.created" content="2023-08-01">
-  <meta name="dcterms.modified" content="2025-03-24">
+  <meta name="dcterms.modified" content="2025-06-17">
   <meta name="dcterms.subject" content="How-tos;Test your products; " />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
@@ -204,10 +204,10 @@
         <ul>
           <li><a href="#building-your-toolset">Building your toolset</a>
             <ul>
-              <li><a href="#tool-sa11y">Tool: Sa11y</a></li>
-              <li><a href="#tool-wave-browser-extensions">Tool: WAVE Browser Extensions</a></li>
               <li><a href="#tool-accessibility-insights-for-web">Tool: Accessibility Insights for Web</a></li>
               <li><a href="#tool-lighthouse">Tool: Lighthouse</a></li>
+              <li><a href="#tool-sa11y">Tool: Sa11y</a></li>
+              <li><a href="#tool-wave-browser-extensions">Tool: WAVE Browser Extensions</a></li>
             </ul>
           </li>
           <li><a href="#additional-help-and-resources">Additional Help and Resources</a>
@@ -224,39 +224,6 @@
       <h2 id="building-your-toolset" tabindex="-1">Building your toolset</h2>
       <p>The resources on this page do not imply any endorsement or affiliation.</p>
       <p>Please note that some of the accessibility testing tools listed will require administrative permissions to install on your device.</p>
-      <h3 id="tool-sa11y" tabindex="-1">Tool: Sa11y</h3>
-      <p>Sa11y is an accessibility checker designed for <strong>content authors</strong> and has a focus on content related issues and successes. It visually highlights issues at the source with a simple tooltip on how to fix them. Sa11y includes some developer related checks, but it is not a comprehensive code analysis tool, nor is it a web accessibility overlay. Get started by reading the <a href="https://sa11y.netlify.app/overview/">Overview of Sa11y</a> or <a href="https://sa11y.netlify.app/get-started/how-to-use/">How to Use Sa11y</a>.</p>
-      <p>Sa11y is typically installed as a website plugin, but the <a href="https://sa11y.netlify.app/bookmarklet/">Sa11y Bookmarklet</a> also works on any desktop browser and most web pages.</p>
-      <p>Sa11y Tips and Tricks:</p>
-      <ul>
-        <li>Sa11y helps create high-quality, accessible content and includes an Outline and Images panel to review the page's heading structure and image alt text.</li>
-        <li>The readability feature estimates the page's readability score.</li>
-        <li>The colour filters feature is useful for ensuring data visualizations and graphs are accessible.</li>
-        <li>Developers can toggle the &quot;Developer checks&quot; toggle for a more thorough review of the page.</li>
-      </ul>
-      <p>Sa11y is a free, open-source tool that runs in your web browser and doesn’t send any data to servers. It is created and maintained by Toronto Metropolitan University in Ontario, Canada.</p>
-      <h3 id="tool-wave-browser-extensions" tabindex="-1">Tool: WAVE Browser Extensions</h3>
-      <p>WAVE for Chrome, Firefox, and Edge extensions allows you to evaluate web content for accessibility issues directly within your browser. Because the extension runs entirely within your web browser, no information is sent to the WAVE server.</p>
-      <p>While WAVE is most effective when used by someone knowledgeable about web accessibility, people who are not web accessibility experts can also benefit from WAVE.</p>
-      <p>If you are new to WAVE, take advantage of the <a href="https://www.youtube.com/watch?v=ITUDiTgAZY0&amp;t=7s">Introduction to WAVE video</a>.</p>
-      <p>Browser Compatibility:</p>
-      <ul>
-        <li><a href="https://microsoftedge.microsoft.com/addons/detail/wave-evaluation-tool/khapceneeednkiopkkbgkibbdoajpkoj">WAVE Edge Extension at Edge Add-ons</a></li>
-        <li><a href="https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/">WAVE Firefox Extension at Mozilla Add-ons</a></li>
-        <li><a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">WAVE Chrome Extension at the Google Web Store</a></li>
-      </ul>
-      <p>Additional WAVE Documentation:</p>
-      <ul>
-        <li><a href="https://wave.webaim.org/api/docs?format=html">WAVE Documentation (webaim.org)</a></li>
-        <li><a href="https://wave.webaim.org/help">WAVE Help (webaim.org)</a></li>
-      </ul>
-      <p>WAVE Tips and Tricks:</p>
-      <ul>
-        <li><a href="https://webaim.org/blog/tips-for-getting-the-most-out-of-wave/">Tips for Getting the Most Out of WAVE</a></li>
-      </ul>
-      <p>The WAVE sidebar indicates if WAVE has detected any errors or not. The absence of errors DOES NOT mean your page is accessible or compliant. <strong>RED icons</strong> indicate accessibility errors that need to be fixed. <strong>GREEN icons</strong> indicate accessibility features—things that improve accessibility (though these should be verified). The other icons and indicators, particularly the yellow alert icons, highlight other elements that you should look at. WAVE brings the underlying accessibility information of a page to the forefront so it can be easily evaluated in context.</p>
-      <p>Styles and Code:</p>
-      <p>WAVE provides functionality for disabling page CSS (Cascading Style Sheets) styles. Complex, CSS-powered layouts may become difficult to read, especially after the WAVE icons have been embedded, so disabling styles can simplify the page presentation. Disabling styles also allow you to view the underlying reading and navigation order, the order in which keyboard-only and screen reader users will access the page. To view the relevant code for a particular WAVE icon, you can select the Code tab at the bottom of the page to view the underlying markup/DOM of your page.</p>
       <h3 id="tool-accessibility-insights-for-web" tabindex="-1">Tool: Accessibility Insights for Web</h3>
       <p>Accessibility Insights for Web is an extension for Chrome and Microsoft Edge that helps developers find and fix accessibility issues in web apps and sites.</p>
       <p>The tool supports two primary scenarios:</p>
@@ -323,6 +290,39 @@
       <ul>
         <li>Use the <a href="https://googlechrome.github.io/lighthouse/viewer/">Lighthouse Viewer</a> to view and share reports online.</li>
       </ul>
+      <h3 id="tool-sa11y" tabindex="-1">Tool: Sa11y</h3>
+      <p>Sa11y is an accessibility checker designed for <strong>content authors</strong> and has a focus on content related issues and successes. It visually highlights issues at the source with a simple tooltip on how to fix them. Sa11y includes some developer related checks, but it is not a comprehensive code analysis tool, nor is it a web accessibility overlay. Get started by reading the <a href="https://sa11y.netlify.app/overview/">Overview of Sa11y</a> or <a href="https://sa11y.netlify.app/get-started/how-to-use/">How to Use Sa11y</a>.</p>
+      <p>Sa11y is typically installed as a website plugin, but the <a href="https://sa11y.netlify.app/bookmarklet/">Sa11y Bookmarklet</a> also works on any desktop browser and most web pages.</p>
+      <p>Sa11y Tips and Tricks:</p>
+      <ul>
+        <li>Sa11y helps create high-quality, accessible content and includes an Outline and Images panel to review the page's heading structure and image alt text.</li>
+        <li>The readability feature estimates the page's readability score.</li>
+        <li>The colour filters feature is useful for ensuring data visualizations and graphs are accessible.</li>
+        <li>Developers can toggle the &quot;Developer checks&quot; toggle for a more thorough review of the page.</li>
+      </ul>
+      <p>Sa11y is a free, open-source tool that runs in your web browser and doesn’t send any data to servers. It is created and maintained by Toronto Metropolitan University in Ontario, Canada.</p>
+      <h3 id="tool-wave-browser-extensions" tabindex="-1">Tool: WAVE Browser Extensions</h3>
+      <p>WAVE for Chrome, Firefox, and Edge extensions allows you to evaluate web content for accessibility issues directly within your browser. Because the extension runs entirely within your web browser, no information is sent to the WAVE server.</p>
+      <p>While WAVE is most effective when used by someone knowledgeable about web accessibility, people who are not web accessibility experts can also benefit from WAVE.</p>
+      <p>If you are new to WAVE, take advantage of the <a href="https://www.youtube.com/watch?v=ITUDiTgAZY0&amp;t=7s">Introduction to WAVE video</a>.</p>
+      <p>Browser Compatibility:</p>
+      <ul>
+        <li><a href="https://microsoftedge.microsoft.com/addons/detail/wave-evaluation-tool/khapceneeednkiopkkbgkibbdoajpkoj">WAVE Edge Extension at Edge Add-ons</a></li>
+        <li><a href="https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/">WAVE Firefox Extension at Mozilla Add-ons</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">WAVE Chrome Extension at the Google Web Store</a></li>
+      </ul>
+      <p>Additional WAVE Documentation:</p>
+      <ul>
+        <li><a href="https://wave.webaim.org/api/docs?format=html">WAVE Documentation (webaim.org)</a></li>
+        <li><a href="https://wave.webaim.org/help">WAVE Help (webaim.org)</a></li>
+      </ul>
+      <p>WAVE Tips and Tricks:</p>
+      <ul>
+        <li><a href="https://webaim.org/blog/tips-for-getting-the-most-out-of-wave/">Tips for Getting the Most Out of WAVE</a></li>
+      </ul>
+      <p>The WAVE sidebar indicates if WAVE has detected any errors or not. The absence of errors DOES NOT mean your page is accessible or compliant. <strong>RED icons</strong> indicate accessibility errors that need to be fixed. <strong>GREEN icons</strong> indicate accessibility features—things that improve accessibility (though these should be verified). The other icons and indicators, particularly the yellow alert icons, highlight other elements that you should look at. WAVE brings the underlying accessibility information of a page to the forefront so it can be easily evaluated in context.</p>
+      <p>Styles and Code:</p>
+      <p>WAVE provides functionality for disabling page CSS (Cascading Style Sheets) styles. Complex, CSS-powered layouts may become difficult to read, especially after the WAVE icons have been embedded, so disabling styles can simplify the page presentation. Disabling styles also allow you to view the underlying reading and navigation order, the order in which keyboard-only and screen reader users will access the page. To view the relevant code for a particular WAVE icon, you can select the Code tab at the bottom of the page to view the underlying markup/DOM of your page.</p>
       <h2 id="additional-help-and-resources" tabindex="-1">Additional Help and Resources</h2>
       <h3 id="keyboard-and-manual-testing-of-your-site" tabindex="-1">Keyboard and Manual testing of your site</h3>
       <p>Automated tools and validators to identify accessibility issues:</p>
@@ -381,7 +381,7 @@
       <h2 class="wb-inv">Page details</h2>
       <dl id="wb-dtmd">
         <dt>Date modified:</dt>
-        <dd><time property="dateModified">2025-03-24</time></dd>
+        <dd><time property="dateModified">2025-06-17</time></dd>
       </dl>
     </section>
   </main>
