@@ -677,11 +677,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-testing-101/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/designing-for-users-of-screen-readers/</loc>
 		<lastmod>2024-08-26</lastmod>
 	</url>
@@ -732,11 +727,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/web-accessibility-checklist/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne/</loc>
 		<lastmod>2024-08-26</lastmod>
 	</url>
@@ -772,11 +762,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-verification-pour-laccessibilite-web/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu/</loc>
 		<lastmod>2024-08-26</lastmod>
 	</url>
@@ -793,11 +778,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/seance-de-mobilisation-ciblee-lebauche-de-la-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-tic/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/test-daccessibilite-101/</loc>
 		<lastmod>2024-08-26</lastmod>
 	</url>
 	
@@ -964,6 +944,26 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/</loc>
 		<lastmod>2025-02-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/web-accessibility-checklist/</loc>
+		<lastmod>2025-02-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-verification-pour-laccessibilite-web/</loc>
+		<lastmod>2025-02-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/test-daccessibilite-101/</loc>
+		<lastmod>2025-02-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-testing-101/</loc>
+		<lastmod>2025-03-24</lastmod>
 	</url>
 	
 	<url>
