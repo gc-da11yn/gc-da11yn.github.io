@@ -1,0 +1,15 @@
+{# Top banner #}
+<div class="wb-inview show-none" aria-hidden="true" data-inview="top-bar">
+	<section class="gc-archv">
+		<div class="container">
+			{%- include "partials/archived-text.njk" -%}
+		</div>
+	</section>
+</div>
+
+{# Replaces banner with sticky top banner #}
+<section id="top-bar" class="gc-archv wb-overlay modal-content overlay-def wb-bar-t" role="alert">
+	<div class="container">
+	{%- include "partials/archived-text.njk" -%}
+	</div>
+</section>
