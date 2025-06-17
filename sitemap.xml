@@ -77,6 +77,16 @@
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/fr/page-deplacee-ou-supprimee/</loc>
+		<lastmod>2023-11-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/sitemap.xml</loc>
+		<lastmod>2023-11-28</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/en/contact-us/</loc>
 		<lastmod>2023-11-30</lastmod>
 	</url>
@@ -597,6 +607,11 @@
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/en/page-moved-or-deleted/</loc>
+		<lastmod>2024-06-28</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/en/virtual-meeting-platforms-and-accessibility-features/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
@@ -807,16 +822,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021/</loc>
-		<lastmod>2024-08-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/mise-en-correspondance-entre-larticle-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021/</loc>
-		<lastmod>2024-08-28</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/tip-sheets-for-microsoft-office/</loc>
 		<lastmod>2024-08-30</lastmod>
 	</url>
@@ -922,12 +927,32 @@
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/en/website-usage-analytics-data-view/</loc>
+		<lastmod>2025-01-28</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/en/website-usage-analytics/</loc>
 		<lastmod>2025-01-28</lastmod>
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web-visualisation-des-donnees/</loc>
+		<lastmod>2025-01-28</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web/</loc>
+		<lastmod>2025-01-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/website-usage-analytics-2024/</loc>
+		<lastmod>2025-01-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web-2024/</loc>
 		<lastmod>2025-01-28</lastmod>
 	</url>
 	
