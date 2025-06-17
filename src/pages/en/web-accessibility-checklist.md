@@ -1,6 +1,6 @@
 ---
 title: Web Accessibility Checklist
-description: Checklist to verify the web page content if it is accessible or not
+description: Checklist to verify the web page content if it is accessible or not.
 toggle: liste-de-verification-pour-laccessibilite-web
 subject:
 - howTos

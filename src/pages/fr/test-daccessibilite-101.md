@@ -9,9 +9,25 @@ tags:
 toc: true
 ---
 
+## Création d’un ensemble d’outils
+
+Les ressources sur cette page n’impliquent aucune approbation ni affiliation.
+
 Veuillez noter que certains des outils de test d’accessibilité répertoriés nécessitent des autorisations administratives pour être installés sur votre appareil.
 
-## Création d’un ensemble d’outils
+### Outil : Sa11y
+
+Sa11y est un vérificateur d’accessibilité conçu pour les **auteurs de contenu** et met l’accent sur les problèmes et réussites liés au contenu. Il met en évidence les problèmes directement à la source avec une info-bulle simple expliquant comment les corriger. Sa11y inclut certaines vérifications destinées aux développeurs, mais ce n’est ni un outil d’analyse de code complet ni une superposition d’accessibilité pour le web. Commencez en lisant l’[Aperçu de Sa11y](https://sa11y.netlify.app/overview/) ou [Comment utiliser Sa11y](https://sa11y.netlify.app/get-started/how-to-use/).
+
+Sa11y est généralement installé comme un plugin de site web, mais le [bookmarklet Sa11y](https://sa11y.netlify.app/bookmarklet/) fonctionne aussi sur n’importe quel navigateur de bureau et la plupart des pages web.
+
+Conseils et astuces Sa11y :
+- Sa11y aide à créer un contenu accessible de haute qualité et comprend un panneau Plan et Images pour examiner la structure des titres et le texte alternatif des images.
+- La fonction lisibilité estime le niveau de lisibilité de la page.
+- La fonction filtres de couleur est utile pour s’assurer que les visualisations de données et les graphiques sont accessibles.
+- Les développeurs peuvent activer l’option "Vérifications pour développeurs" pour un examen plus approfondi de la page.
+
+Sa11y est un outil gratuit et open-source qui fonctionne directement dans votre navigateur web sans envoyer de données vers des serveurs. Il est créé et maintenu par l'Université métropolitaine de Toronto en Ontario, Canada.
 
 ### Outil : Extensions de navigateur WAVE
 
@@ -84,7 +100,7 @@ Raccourcis clavier:
 
 - Augmentez votre productivité avec les <a href="https://accessibilityinsights.io/docs/web/reference/keyboard/">raccourcis clavier pour Accessibility Insights<small> (en anglais seulement)</small></a>
 
-### Outil: LightHouse
+### Outil: Lighthouse
 
 Lighthouse est un outil automatisé à code source ouvert qui permet d’améliorer la qualité des pages web. Il peut être exécuté sur n’importe quelle page web, qu’elle soit publique ou qu’elle nécessite une authentification. Il propose des audits pour les performances, l’accessibilité, les applications web progressives, le référencement, etc. Un outil très utile pour les développeurs multimédias et les testeurs d’accessibilité du web.
 
