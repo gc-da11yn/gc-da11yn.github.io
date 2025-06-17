@@ -17,7 +17,7 @@
 			{%- endif -%}
 		{%- endif -%}
 		{%- if archived -%}
-			{{ archived[locale].archivedTitle }}
+			{{ archiveStrings[locale].archivedTitle }}
 		{%- endif -%}
 		{{ title | striptags(true) | escape | nl2br }}
 		{%- if tags !="home" -%}
@@ -48,7 +48,7 @@
 	<meta name="author" content="{{ header[locale].governmentOfCanada }}" />
 	<meta name="dcterms.title" content="
 	{%- if archived -%}
-		{{ archived[locale].archivedTitle }}
+		{{ archiveStrings[locale].archivedTitle }}
 	{%- endif -%}
 	{{ title | striptags(true) | escape | nl2br }}" />
 	<meta name="dcterms.description" content="{{  description }}" />

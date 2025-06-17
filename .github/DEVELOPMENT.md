@@ -204,11 +204,11 @@ To trigger the `needsTranslation` variable in the front matter, you have to set 
 
 If you don't include the `needsTranslation` variable in the front matter of your Markdown file, then the "needsTranslation" message will not be included in the alert message by default. This is because the `needsTranslation` variable is used to control whether or not the "needsTranslation" message is included, and if it is not specified in the front matter, it will default to `false`.
 
-### archive
+### archived
 
-#### What is the function of archive
+#### What is the function of archived
 
-The `archive` variable is used to indicate that a page is no longer maintained and should be treated as archived content. When this variable is set to `true`, the following changes occur:
+The `archived` variable is used to indicate that a page is no longer maintained and should be treated as archived content. When this variable is set to `true`, the following changes occur:
 
 - An archived dismissible banner is automatically added to the top of the page.
 - The page is removed from collections, such as `collections.pages`, so it won’t appear in menus or page listings.
@@ -219,17 +219,17 @@ The banner also includes a reminder for users to remove bookmarks or links to th
 
 #### How to trigger archive
 
-To trigger the `archive` variable in the front matter, set its value to `true`. Here's an example of front matter that sets the `archive` variable to `true`:
+To trigger the `archived` variable in the front matter, set its value to `true`. Here's an example of front matter that sets the `archived` variable to `true`:
 
     ```yaml
     ---
-    archive: true
+    archived: true
     ---
     ```
 
 #### What happens when archive is not included
 
-If the `archive` variable is not included in the front matter, the page will be treated as active. It will not display the archived warning, will remain in collections, and its title and heading will remain unchanged.
+If the `archived` variable is not included in the front matter, the page will be treated as active. It will not display the archived warning, will remain in collections, and its title and heading will remain unchanged.
 
 ### internalLinks
 
@@ -510,11 +510,11 @@ Pour déclencher la variable `needsTranslation` dans le front matter, vous devez
 
 Si vous n'incluez pas la variable `needsTranslation` dans le front matter de votre fichier Markdown, le message "needsTranslation" ne sera pas inclus dans le message d'alerte par défaut. C'est parce que la variable `needsTranslation` est utilisée pour contrôler si le message "needsTranslation" est inclus ou non, et s'il n'est pas spécifié dans l'avant-propos, il sera par défaut à `false`.
 
-### archive
+### archived
 
-#### Quelle est la fonction de archive
+#### Quelle est la fonction de archived
 
-La variable `archive` est utilisée pour indiquer qu'une page n'est plus maintenue et doit être considérée comme du contenu archivé. Lorsque cette variable est définie à `true`, les changements suivants s’appliquent :
+La variable `archived` est utilisée pour indiquer qu'une page n'est plus maintenue et doit être considérée comme du contenu archivé. Lorsque cette variable est définie à `true`, les changements suivants s’appliquent :
 
 - Une bannière d’archivage fermable est automatiquement ajoutée en haut de la page.
 - La page est retirée des collections, telles que `collections.pages`, ce qui empêche son affichage dans les menus ou les listes de pages.
@@ -525,17 +525,17 @@ La bannière comprend également un rappel pour que les utilisateurs suppriment 
 
 #### Comment déclencher archive
 
-Pour déclencher la variable `archive` dans les métadonnées (front matter), vous devez définir sa valeur à `true`. Voici un exemple :
+Pour déclencher la variable `archived` dans les métadonnées (front matter), vous devez définir sa valeur à `true`. Voici un exemple :
 
     ```yaml
     ---
-    archive: true
+    archived: true
     ---
     ```
 
 #### Que se passe-t-il lorsque archive n’est pas inclus
 
-Si la variable `archive` n’est pas incluse dans les métadonnées, la page sera considérée comme active. Elle n’affichera pas l’avertissement d’archivage, restera présente dans les collections, et son titre ainsi que son en-tête ne seront pas modifiés.
+Si la variable `archived` n’est pas incluse dans les métadonnées, la page sera considérée comme active. Elle n’affichera pas l’avertissement d’archivage, restera présente dans les collections, et son titre ainsi que son en-tête ne seront pas modifiés.
 
 ### internalLinks
 
