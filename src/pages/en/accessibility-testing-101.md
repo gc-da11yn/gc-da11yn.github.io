@@ -15,49 +15,6 @@ The resources on this page do not imply any endorsement or affiliation.
 
 Please note that some of the accessibility testing tools listed will require administrative permissions to install on your device.
 
-### Tool: Sa11y
-
-Sa11y is an accessibility checker designed for **content authors** and has a focus on content related issues and successes. It visually highlights issues at the source with a simple tooltip on how to fix them. Sa11y includes some developer related checks, but it is not a comprehensive code analysis tool, nor is it a web accessibility overlay. Get started by reading the [Overview of Sa11y](https://sa11y.netlify.app/overview/) or [How to Use Sa11y](https://sa11y.netlify.app/get-started/how-to-use/).
-
-Sa11y is typically installed as a website plugin, but the [Sa11y Bookmarklet](https://sa11y.netlify.app/bookmarklet/) also works on any desktop browser and most web pages.
-
-Sa11y Tips and Tricks:
-- Sa11y helps create high-quality, accessible content and includes an Outline and Images panel to review the page's heading structure and image alt text.
-- The readability feature estimates the page's readability score.
-- The colour filters feature is useful for ensuring data visualizations and graphs are accessible.
-- Developers can toggle the "Developer checks" toggle for a more thorough review of the page.
-
-Sa11y is a free, open-source tool that runs in your web browser and doesn’t send any data to servers. It is created and maintained by Toronto Metropolitan University in Ontario, Canada.
-
-### Tool: WAVE Browser Extensions
-
-WAVE for Chrome, Firefox, and Edge extensions allows you to evaluate web content for accessibility issues directly within your browser. Because the extension runs entirely within your web browser, no information is sent to the WAVE server.
-
-While WAVE is most effective when used by someone knowledgeable about web accessibility, people who are not web accessibility experts can also benefit from WAVE.
-
-If you are new to WAVE, take advantage of the [Introduction to WAVE video](https://www.youtube.com/watch?v=ITUDiTgAZY0&t=7s).
-
-Browser Compatibility:
-
-- [WAVE Edge Extension at Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/wave-evaluation-tool/khapceneeednkiopkkbgkibbdoajpkoj)
-- [WAVE Firefox Extension at Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
-- [WAVE Chrome Extension at the Google Web Store](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
-
-Additional WAVE Documentation:
-
-- [WAVE Documentation (webaim.org)](https://wave.webaim.org/api/docs?format=html)
-- [WAVE Help (webaim.org)](https://wave.webaim.org/help)
-
-WAVE Tips and Tricks:
-
-- [Tips for Getting the Most Out of WAVE](https://webaim.org/blog/tips-for-getting-the-most-out-of-wave/)
-
-The WAVE sidebar indicates if WAVE has detected any errors or not. The absence of errors DOES NOT mean your page is accessible or compliant. **RED icons** indicate accessibility errors that need to be fixed. **GREEN icons** indicate accessibility features&mdash;things that improve accessibility (though these should be verified). The other icons and indicators, particularly the yellow alert icons, highlight other elements that you should look at. WAVE brings the underlying accessibility information of a page to the forefront so it can be easily evaluated in context.
-
-Styles and Code:
-
-WAVE provides functionality for disabling page CSS (Cascading Style Sheets) styles. Complex, CSS-powered layouts may become difficult to read, especially after the WAVE icons have been embedded, so disabling styles can simplify the page presentation. Disabling styles also allow you to view the underlying reading and navigation order, the order in which keyboard-only and screen reader users will access the page. To view the relevant code for a particular WAVE icon, you can select the Code tab at the bottom of the page to view the underlying markup/DOM of your page.
-
 ### Tool: Accessibility Insights for Web
 
 Accessibility Insights for Web is an extension for Chrome and Microsoft Edge that helps developers find and fix accessibility issues in web apps and sites.
@@ -118,6 +75,50 @@ LightHouse Extension Documentation:
 Additional Help:
 
 - Use the [Lighthouse Viewer](https://googlechrome.github.io/lighthouse/viewer/) to view and share reports online.
+
+### Tool: Sa11y
+
+Sa11y is an accessibility checker designed for **content authors** and has a focus on content related issues and successes. It visually highlights issues at the source with a simple tooltip on how to fix them. Sa11y includes some developer related checks, but it is not a comprehensive code analysis tool, nor is it a web accessibility overlay. Get started by reading the [Overview of Sa11y](https://sa11y.netlify.app/overview/) or [How to Use Sa11y](https://sa11y.netlify.app/get-started/how-to-use/).
+
+Sa11y is typically installed as a website plugin, but the [Sa11y Bookmarklet](https://sa11y.netlify.app/bookmarklet/) also works on any desktop browser and most web pages.
+
+Sa11y Tips and Tricks:
+
+- Sa11y helps create high-quality, accessible content and includes an Outline and Images panel to review the page's heading structure and image alt text.
+- The readability feature estimates the page's readability score.
+- The colour filters feature is useful for ensuring data visualizations and graphs are accessible.
+- Developers can toggle the "Developer checks" toggle for a more thorough review of the page.
+
+Sa11y is a free, open-source tool that runs in your web browser and doesn’t send any data to servers. It is created and maintained by Toronto Metropolitan University in Ontario, Canada.
+
+### Tool: WAVE Browser Extensions
+
+WAVE for Chrome, Firefox, and Edge extensions allows you to evaluate web content for accessibility issues directly within your browser. Because the extension runs entirely within your web browser, no information is sent to the WAVE server.
+
+While WAVE is most effective when used by someone knowledgeable about web accessibility, people who are not web accessibility experts can also benefit from WAVE.
+
+If you are new to WAVE, take advantage of the [Introduction to WAVE video](https://www.youtube.com/watch?v=ITUDiTgAZY0&t=7s).
+
+Browser Compatibility:
+
+- [WAVE Edge Extension at Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/wave-evaluation-tool/khapceneeednkiopkkbgkibbdoajpkoj)
+- [WAVE Firefox Extension at Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
+- [WAVE Chrome Extension at the Google Web Store](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+
+Additional WAVE Documentation:
+
+- [WAVE Documentation (webaim.org)](https://wave.webaim.org/api/docs?format=html)
+- [WAVE Help (webaim.org)](https://wave.webaim.org/help)
+
+WAVE Tips and Tricks:
+
+- [Tips for Getting the Most Out of WAVE](https://webaim.org/blog/tips-for-getting-the-most-out-of-wave/)
+
+The WAVE sidebar indicates if WAVE has detected any errors or not. The absence of errors DOES NOT mean your page is accessible or compliant. **RED icons** indicate accessibility errors that need to be fixed. **GREEN icons** indicate accessibility features&mdash;things that improve accessibility (though these should be verified). The other icons and indicators, particularly the yellow alert icons, highlight other elements that you should look at. WAVE brings the underlying accessibility information of a page to the forefront so it can be easily evaluated in context.
+
+Styles and Code:
+
+WAVE provides functionality for disabling page CSS (Cascading Style Sheets) styles. Complex, CSS-powered layouts may become difficult to read, especially after the WAVE icons have been embedded, so disabling styles can simplify the page presentation. Disabling styles also allow you to view the underlying reading and navigation order, the order in which keyboard-only and screen reader users will access the page. To view the relevant code for a particular WAVE icon, you can select the Code tab at the bottom of the page to view the underlying markup/DOM of your page.
 
 ## Additional Help and Resources
 
