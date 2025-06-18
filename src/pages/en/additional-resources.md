@@ -234,6 +234,13 @@ GitHub recommended courses, webinars, educational videos, and more, offered in w
 </div>
 <div class="col-md-6">
 
+### [Accessibility Learning Series](https://www.csps-efpc.gc.ca/accessibility-learning-eng.aspx)
+
+Everyone has a role to play in creating a barrier-free public service, and the Accessibility Learning Series will help you understand how you can be more inclusive every day by eliminating and preventing new barriers for people with disabilities.
+
+</div>
+<div class="col-md-6">
+
 ### [ESDC Accessible Documents](https://bati-itao.github.io/resources/accessible-documents-en.html)
 
 The core steps needed for accessibility are the same regardless of whether your document is in HTML, Microsoft Word, Adobe PDF, or another document format. We have gathered resources to assist you and ensure that everyone, including persons with disabilities, can read and understand your documents.

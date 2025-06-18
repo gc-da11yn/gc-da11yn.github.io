@@ -88,6 +88,13 @@ Dans cet article, Claudio Luis Vera explique ce qu’il faut garder à l’espri
 </div>
 <div class="col-md-6">
 
+### [Série d'apprentissage sur l'accessibilité](https://www.csps-efpc.gc.ca/accessibility-learning-fra.aspx)
+
+Chaque fonctionnaire a un rôle à jouer dans la création d'une fonction publique sans obstacles, et la série d'apprentissage sur l'accessibilité vous aidera à comprendre comment vous pouvez favoriser l'inclusion au quotidien en éliminant les obstacles ou en évitant d'en créer de nouveaux pour les personnes en situation de handicap.
+
+</div>
+<div class="col-md-6">
+
 ### <a href="https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu">YouTube : Apple : Accessibilité<small> (en anglais seulement)</small></a>
 
 De l’utilisation de votre iPhone sans voir l’écran, à l’adaptation des gestes à vos besoins physiques, découvrez comment les fonctionnalités d’accessibilité intégrées à vos appareils Apple peuvent vous aider à en faire plus.
