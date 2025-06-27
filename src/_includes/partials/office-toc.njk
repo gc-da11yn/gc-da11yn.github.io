@@ -31,10 +31,10 @@
     <div class="gc-stp-stp">
         <div class="toc row mrgn-tp-lg">
             <ul class="wb-eqht-grd">
-                <li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="{{ indexURL }}"{% endif %}>{{ indexTitle }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"> {{ inOffice }} {{ version }}</small></a></li>
+                <li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="{{ pathPrefix }}{{ indexURL }}"{% endif %}>{{ indexTitle }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"> {{ inOffice }} {{ version }}</small></a></li>
                 {% for item in collections | localeMatch(locale) %}
                     {% set title = item.data.title %}
-                    <li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ item.url }}"{% endif %}>
+                    <li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ pathPrefix }}{{ item.url }}"{% endif %}>
                         {% if item.data.fontIcon %}
                             <i class="fas fa-lg {{ item.data.fontIcon }}" aria-hidden="true"></i>
                         {% endif %}
@@ -47,7 +47,7 @@
     <div class="well">
         {% set versionSlug = version | slugify %}
         {% set otherVersionSlug = otherVersion | slugify %}
-        <p class="mrgn-tp-md">{{ tryText }} <a href="{{ page.url | replace(versionSlug,otherVersionSlug) }}">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
+        <p class="mrgn-tp-md">{{ tryText }} <a href="{{ pathPrefix }}{{ page.url | replace(versionSlug,otherVersionSlug) }}">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
     </div>
 
 {% endif %}

@@ -11,7 +11,7 @@ Microsoft Office (Word, Excel, Power Point) provides a built-in accessibility va
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/excel-01.jpg" alt="Screenshot of Check for Issues menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/excel-01.jpg" alt="Screenshot of Check for Issues menu">
 </div>
 </div>
 
@@ -61,7 +61,7 @@ To assign alternative text to images:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/excel-02.jpg" alt="Screenshot of Format Picture sidebar" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/excel-02.jpg" alt="Screenshot of Format Picture sidebar" />
 </div>
 </div>
 
@@ -95,7 +95,7 @@ To add hyperlinks with meaningful text:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/excel-03.jpg" alt="Screenshot of Insert Hyperlink dialog" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/excel-03.jpg" alt="Screenshot of Insert Hyperlink dialog" />
 </div>
 </div>
 

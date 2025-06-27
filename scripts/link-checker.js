@@ -128,7 +128,10 @@ const siteChecker = new blc.SiteChecker(
 					};
 					brokenLinks.push(existingPage);
 				}
-
+				// Ensure links array exists (defensive)
+				if (!Array.isArray(existingPage.links)) {
+					existingPage.links = [];
+				}
 				existingPage.links.push({
 					link: result.url.original,
 					linkText: result.html.text || "N/A"

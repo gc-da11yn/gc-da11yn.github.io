@@ -217,7 +217,7 @@ departments and agencies are strongly encouraged to seek approval of the justifi
     <div class="well well-sm mrgn-tp-md">
       <p><strong>Note:</strong> Alternatively, they can provide a hyperlink to either the:</p>
       <ul>
-        <li><a href="/en/information-and-communication-technology-ict-accessibility-requirements/">Information and Communications Technology (ICT) Accessibility Requirements</a></li>
+        <li><a href="{{ pathPrefix }}/en/information-and-communication-technology-ict-accessibility-requirements/">Information and Communications Technology (ICT) Accessibility Requirements</a></li>
         <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 pdf</a> or</li>
         <li><a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&utm_medium=email&utm_campaign=ICTstandard&utm_id=ICT+standard+adoption">CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)</a>.</li>
       </ul>
@@ -253,7 +253,7 @@ Refer to the [Where to find help and resources](#where-to-find-help-and-resource
 
 Suppliers should expect ICT-related procurements to include relevant accessibility clauses from the EN 301 549 (2021) as per the Guideline on Making Information Technology Usable by All.
 
-Suppliers may also consult the [Digital Accessibility Toolkit](/en/index.html). This publicly-available resource was created by federal public servants, and provides:
+Suppliers may also consult the [Digital Accessibility Toolkit]({{ pathPrefix }}/en/index.html). This publicly-available resource was created by federal public servants, and provides:
 
 - resources to learn more about the EN 301 549 (2021); and
 - how-to guides and tools to build capacity in creating accessible content and digital solutions.
@@ -270,9 +270,9 @@ Suppliers may also consult the [Digital Accessibility Toolkit](/en/index.html). 
 ### Tools and resources for the GC and externally:
 
 - information available publicly includes:
-  - the [Digital Accessibility Toolkit](/en/digital-accessibility-in-the-government-of-canada/) - an external facing website to:
+  - the [Digital Accessibility Toolkit]({{ pathPrefix }}/en/digital-accessibility-in-the-government-of-canada/) - an external facing website to:
     - [generate EN 301 549 (2021) requirements](https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/) that are relevant to the procurement; and
-    - review all relevant [EN 501 349 (2021) ICT accessibility requirements](/en/information-and-communication-technology-ict-accessibility-requirements/) for ICT products and services;
+    - review all relevant [EN 501 349 (2021) ICT accessibility requirements]({{ pathPrefix }}/en/information-and-communication-technology-ict-accessibility-requirements/) for ICT products and services;
     - reference other accessibility guidance including concerning document accessibility.
 - **SSC Accessibility Accommodations and Adaptive Technology Program** - SSC or Other Government Department and agency procurements. Contact: AAACT / AATIA (SSC/SPC) <aaact-aatia@ssc-spc.gc.ca> AAACT can help you to incorporate the EN 301 549 into ICT-related procurements.
 
@@ -300,7 +300,7 @@ Please direct any enquiries or comments about this Guide to:
 
 #### SSC external hyperlinks
 
-- [SSC ICT Accessibility Requirements (Based on EN 301 549 (2021))](/en/information-and-communication-technology-ict-accessibility-requirements/)
+- [SSC ICT Accessibility Requirements (Based on EN 301 549 (2021))]({{ pathPrefix }}/en/information-and-communication-technology-ict-accessibility-requirements/)
 
 #### Other international accessibility hyperlinks
 

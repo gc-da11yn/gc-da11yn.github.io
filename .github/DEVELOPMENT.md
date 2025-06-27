@@ -156,6 +156,14 @@ Saving project files will make Node.js regenerate the website to reflect the cha
 
 Make sure you edit the files in the `src/` subdirectory. Any edits made in the `_site` subdirectory will be overwritten by the next change to any file in `src/` and all your hard work will be lost!
 
+### About `{{ pathPrefix }}`
+
+The `{{ pathPrefix }}` variable is used throughout the site to ensure all internal links and asset URLs work correctly, whether the site is deployed as the main repository or as a fork (such as on GitHub Pages).
+
+On the main site, `{{ pathPrefix }}` is an empty string (""), so URLs are relative to the root.
+
+On a fork, `{{ pathPrefix }}` is set to the repository name (e.g., "`/gc-da11yn.github.io`"), so all links and assets are correctly prefixed. Always use `{{ pathPrefix }}` for internal links and assets in templates and markdown files to ensure robust navigation in all deployment scenarios.
+
 ### Quitting
 
 You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd>C</kbd> keys at the same time in your command line application, or by closing the command line application window or tab.
@@ -461,6 +469,14 @@ Assurez-vous d'utiliser ce processus pour vérifier que tous les liens sont vali
 En sauvegardant les fichiers du projet, Node.js régénérera le site Web pour refléter les changements que vous avez effectués. Votre application de ligne de commande affichera de nouveaux messages pour refléter cela, y compris toute erreur que vous pourriez accidentellement faire. Ne vous inquiétez pas ! Comme le site utilise la version de contrôle, vous ne risquez pas de casser sérieusement quoi que ce soit. Si vous corrigez l'erreur, Node.js devrait continuer à fonctionner.
 
 Assurez-vous d'éditer les fichiers dans le sous-répertoire `src/`. Toute modification faite dans le sous-répertoire `_site` sera écrasée par la prochaine modification d'un fichier dans `src/` et tout votre travail sera perdu !
+
+### À propos de `{{ pathPrefix }}`
+
+La variable `{{ pathPrefix }}` est utilisée sur tout le site pour garantir que tous les liens internes et les ressources fonctionnent correctement, que le site soit déployé sur le dépôt principal ou sur un fork (par exemple sur GitHub Pages).
+
+Sur le site principal, `{{ pathPrefix }}` est une chaîne vide (""), donc les URLs sont relatives à la racine.
+
+Sur un fork, `{{ pathPrefix }}` prend le nom du dépôt (ex. : "`/gc-da11yn.github.io`"), ce qui permet de préfixer correctement tous les liens et ressources. Utilisez toujours `{{ pathPrefix }}` pour les liens internes et les ressources dans les modèles et fichiers markdown afin d’assurer une navigation robuste dans tous les scénarios de déploiement.
 
 ### Quitter
 

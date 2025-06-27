@@ -12,7 +12,7 @@ Collaborate on the creation of a platform to centralize Government of Canada (<a
 
 The Access Working Group (<abbr>AWG</abbr>) would like to enable interdepartmental centralization and sharing of accessibility information produced by <abbr title="Government of Canada">GC</abbr> departments in a central repository sharing space and in the open.
 
-- [Digital Accessibility Toolkit (<abbr>DAT</abbr>) Task Force - Terms of Reference](/en/terms-of-reference/)
+- [Digital Accessibility Toolkit (<abbr>DAT</abbr>) Task Force - Terms of Reference]({{ pathPrefix }}/en/terms-of-reference/)
 - [Digital Accessibility Toolkit - Github repository](https://github.com/gc-da11yn/gc-da11yn.github.io)
 
 ## Sharing
