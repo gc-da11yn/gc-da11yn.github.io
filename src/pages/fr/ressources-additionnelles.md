@@ -102,6 +102,18 @@ De l’utilisation de votre iPhone sans voir l’écran, à l’adaptation des g
 </div>
 </div>
 
+## Approvisionnement
+
+<div class="row wb-eqht gc-srvinfo">
+<div class="col-md-6">
+
+### [Accessibilité à Services publics et Approvisionnement Canada](https://www.canada.ca/fr/services-publics-approvisionnement/organisation/accessibilite.html)
+
+En tant que fournisseur de services communs du gouvernement du Canada, le SPAC s'efforce d'offrir un excellent service aux autres ministères fédéraux. En cherchant à améliorer l'accès à ses programmes et services pour les personnes handicapées, SPAC aide les ministères fédéraux à offrir des programmes et services de haute qualité à tous les Canadiens.
+
+</div>
+</div>
+
 ## Développement
 
 <div class="row wb-eqht gc-srvinfo">
@@ -276,18 +288,6 @@ Ce glossaire contient 342 concepts et terminologies liés au projet de loi C-81 
 #### <a href="https://www.include-me.ca/federal-accessibility-legislation-alliance/resource/accessible-canada-act-plain-language">La Loi sur l'accessibilité du Canada en langage clair et simple<small> (en anglais seulement)</small></a>
 
 Ce document aide les gens à comprendre les principaux points du projet de loi C-81 ; une loi visant à assurer un Canada sans obstacles.
-
-</div>
-</div>
-
-## Approvisionnement
-
-<div class="row wb-eqht gc-srvinfo">
-<div class="col-md-6">
-
-### [Accessibilité à Services publics et Approvisionnement Canada](https://www.canada.ca/fr/services-publics-approvisionnement/organisation/accessibilite.html)
-
-En tant que fournisseur de services communs du gouvernement du Canada, le SPAC s'efforce d'offrir un excellent service aux autres ministères fédéraux. En cherchant à améliorer l'accès à ses programmes et services pour les personnes handicapées, SPAC aide les ministères fédéraux à offrir des programmes et services de haute qualité à tous les Canadiens.
 
 </div>
 </div>
