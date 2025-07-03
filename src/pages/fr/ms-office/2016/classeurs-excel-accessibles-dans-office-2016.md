@@ -11,7 +11,7 @@ Microsoft Office (Word, Excel, PowerPoint) comporte un programme intégré de v�
 
 <div class="row">
 <div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/excel-01.jpg" alt="Capture d’écran de menu vérification de l’accessibilité" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/excel-01.jpg" alt="Capture d’écran de menu vérification de l’accessibilité" />
 </div>
 </div>
 
@@ -61,7 +61,7 @@ Pour attribuer du texte de remplacement aux images&nbsp;:
 
 <div class="row">
 <div class="col-md-9">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/excel-02.jpg" alt="Capture d’écran de Outil Format de l’image" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/excel-02.jpg" alt="Capture d’écran de Outil Format de l’image" />
 </div>
 </div>
 
@@ -95,7 +95,7 @@ Pour ajouter des hyperliens avec un titre pertinent&nbsp;:
 
 <div class="row">
 <div class="col-md-9">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/excel-03.jpg" alt="Capture d’écran de Insérer un lien hypertexte" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/excel-03.jpg" alt="Capture d’écran de Insérer un lien hypertexte" />
 </div>
 </div>
 

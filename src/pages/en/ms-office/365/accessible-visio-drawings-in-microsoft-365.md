@@ -64,7 +64,7 @@ For a road map with directions, the long description should describe each step t
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/visio-365-001.gif" alt="Flowchart illustrating the login process">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/visio-365-001.gif" alt="Flowchart illustrating the login process">
 </div>
 </div>
 
@@ -128,7 +128,7 @@ To add alt text to an image or shape:
 
 - Open the context menu for the image or shape by right-clicking or pressing the application key
 - Select **Format Shape**.
-- Select ![]({{ rootPath }}img/en/office365/visio-365-002.gif) **Size & Properties** and enter the alternate text under **Description**.
+- Select ![]({{ pathPrefix }}/img/en/office365/visio-365-002.gif) **Size & Properties** and enter the alternate text under **Description**.
 
 To add alt text to entire page, press **Shift+F5**. Select the **Alt Text** tab and enter the **Description**.
 

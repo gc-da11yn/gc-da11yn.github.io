@@ -17,7 +17,7 @@ How to use the Accessibility Checker:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/word-365-001.jpg" alt="Screenshot of &quot;Check for issues&quot; menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-001.jpg" alt="Screenshot of &quot;Check for issues&quot; menu">
 </div>
 </div>
 
@@ -43,7 +43,7 @@ How to create a template:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/word-365-002.jpg" alt="Screenshot of saving as a template">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-002.jpg" alt="Screenshot of saving as a template">
 </div>
 </div>
 
@@ -67,7 +67,7 @@ Ensure headings are denoted through structure and not only denoted implicitly (b
 
 <div class="row">
 <div class="col-md-6">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/word-365-003.jpg" alt="Screenshot of Styles toolbar">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-003.jpg" alt="Screenshot of Styles toolbar">
 </div>
 </div>
 
@@ -96,7 +96,7 @@ To use headers and footers in Word:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/word-365-004.jpg" alt="Screenshot of Insert Header pop-up">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-004.jpg" alt="Screenshot of Insert Header pop-up">
 </div>
 </div>
 
@@ -113,7 +113,7 @@ To insert columns:
 
 <div class="row">
 <div class="col-md-6">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/word-365-005.jpg" alt="Screenshot of Columns menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-005.jpg" alt="Screenshot of Columns menu">
 </div>
 </div>
 
@@ -130,7 +130,7 @@ To create a list:
 
 <div class="row">
 <div class="col-md-6">
-mg  src="{{ rootPath }}img/en/office365/word-365-006.jpg" alt="Screenshot of Paragraph toolbar">
+mg  src="{{ pathPrefix }}/img/en/office365/word-365-006.jpg" alt="Screenshot of Paragraph toolbar">
 </div>
 </div>
 
@@ -160,7 +160,7 @@ To assign alternative text to images:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/word-365-007.jpg" alt="Screenshot of Format Picture menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-007.jpg" alt="Screenshot of Format Picture menu">
 </div>
 </div>
 
@@ -174,7 +174,7 @@ To add a long description to diagrams and chart, first add concise alt text (e.g
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/word-365-008.jpg" alt="Screenshot of Format Chart Area menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-008.jpg" alt="Screenshot of Format Chart Area menu">
 </div>
 </div>
 
@@ -191,7 +191,7 @@ To add hyperlinks with meaningful text:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/word-365-009.jpg" alt="Screenshot of Edit Hyperlink">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-009.jpg" alt="Screenshot of Edit Hyperlink">
 </div>
 </div>
 

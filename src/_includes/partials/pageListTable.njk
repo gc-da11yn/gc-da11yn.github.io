@@ -108,7 +108,7 @@
 					<a href="{{ entry.url }}">{{ entry.data.title | safe }}</a></td>
 					<td data-wb-tags="col_2">
 						{% if entry.data.toggle %}
-						<a href="/{{ otherLocale }}/{{ entry.data.toggle }}" hreflang="{{ otherLang }}">{% if locale === "en" %}French version{% else %}Version anglaise{% endif %} <span class="wb-inv">{% if locale === "en" %}of{% else %}de{% endif %} {{ entry.data.title | safe }}</span></a>
+						<a href="{{ pathPrefix }}{{ otherLocale }}/{{ entry.data.toggle }}" hreflang="{{ otherLang }}">{% if locale === "en" %}French version{% else %}Version anglaise{% endif %} <span class="wb-inv">{% if locale === "en" %}of{% else %}de{% endif %} {{ entry.data.title | safe }}</span></a>
 						{% else %}
 						<strong>{{ missingToggle }}</strong>
 						{% endif %}

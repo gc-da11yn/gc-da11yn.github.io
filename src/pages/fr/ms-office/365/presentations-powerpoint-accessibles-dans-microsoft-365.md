@@ -17,7 +17,7 @@ Comment utiliser le vérificateur d'accessibilité&nbsp;:
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/powerpoint-365-001.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-001.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
 </div>
 </div>
 
@@ -40,7 +40,7 @@ Donnez à chaque diapositive un titre unique. Les personnes malvoyantes, ayant d
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/powerpoint-365-002.jpg" alt="Capture d’écran de l'onglet Accueil dans le groupe Diapositives" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-002.jpg" alt="Capture d’écran de l'onglet Accueil dans le groupe Diapositives" />
 </div>
 </div>
 
@@ -52,7 +52,7 @@ Pour qu'un titre soit invisible sur la diapositive, mais qu'il soit lu par les l
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/powerpoint-365-003.jpg" alt="Capture d’écran de Menu Organiser" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-003.jpg" alt="Capture d’écran de Menu Organiser" />
 </div>
 </div>
 
@@ -105,7 +105,7 @@ Pour changer l’ordre de lecture :
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/powerpoint-365-004.jpg" alt="Capture d’écran de Menu Organiser" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-004.jpg" alt="Capture d’écran de Menu Organiser" />
 </div>
 </div>
 
@@ -144,7 +144,7 @@ Les présentations PowerPoint comportent généralement des images. Les images o
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/powerpoint-365-005.jpg" alt="Capture d’écran de Outil Format de l’image" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-005.jpg" alt="Capture d’écran de Outil Format de l’image" />
 </div>
 </div>
 

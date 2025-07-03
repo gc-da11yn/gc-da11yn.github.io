@@ -27,7 +27,7 @@ Le moyen le plus simple de créer un fichier PDF accessible consiste à commence
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/pdf-365-001.jpg" alt="Capture écran qui démontre le processus d'exportation d'un PDF dans Word. Fichier > Exporter > Créer un document PDF/XPS > Créer PDF/XPS">
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/pdf-365-001.jpg" alt="Capture écran qui démontre le processus d'exportation d'un PDF dans Word. Fichier > Exporter > Créer un document PDF/XPS > Créer PDF/XPS">
 </div>
 </div>
 
@@ -39,7 +39,7 @@ Dans la boîte de dialogue, sélectionnez **Options** et cochez les cases suivan
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/pdf-365-002.jpg" alt="Capture écran qui démontre le bouton « Options » activé lors du processus d'exportation de PDF dans Word.">
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/pdf-365-002.jpg" alt="Capture écran qui démontre le bouton « Options » activé lors du processus d'exportation de PDF dans Word.">
 </div>
 </div>
 
@@ -72,7 +72,7 @@ Pour se servir du vérificateur d’accessibilité, ouvrir votre document PDF et
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/pdf-365-003.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/pdf-365-003.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
 </div>
 </div>
 
@@ -80,7 +80,7 @@ Sous **Options de rapport**, désélectionner « Créer un rapport d’accessibi
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/pdf-365-004.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/pdf-365-004.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
 </div>
 </div>
 

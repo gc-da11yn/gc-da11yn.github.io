@@ -2,8 +2,6 @@
 	"en" %}
 {% set otherLanguage = "Français" if locale == "en" else
 	"English" %}
-{% set toggleURL = page.filePathStem | replace("/en/", "fr/")if locale == "en" else
-	page.filePathStem | replace("/fr/", "en/") %}
 <header>
 	<div id="wb-bnr" class="container">
 		<div class="row">

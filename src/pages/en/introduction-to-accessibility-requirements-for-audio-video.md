@@ -44,9 +44,9 @@ Transcripts are the text equivalent of an audio or video file. They make it easi
 - important actions (for example, people running away from an explosion or characters wearing disguises), and
 - audio description (additional audio track describing all visual information).
 
-[Transcript Guidelines]({{ rootPath }}en/transcript-guidelines/)
+[Transcript Guidelines]({{ pathPrefix }}/en/transcript-guidelines/)
 
-[Transcript Checklist]({{ rootPath }}en/transcript-checklist)
+[Transcript Checklist]({{ pathPrefix }}/en/transcript-checklist)
 
 ## Captioning summary
 
@@ -64,7 +64,7 @@ Open captions are recommended at the top of American Sign Language (<abbr>ASL</a
 
 Design teams or a contractor can provide the caption text.
 
-[Captioning Checklist]({{ rootPath }}en/captioning-checklist)
+[Captioning Checklist]({{ pathPrefix }}/en/captioning-checklist)
 
 ## Audio description summary
 
@@ -76,9 +76,9 @@ This can be done using:
 - Adding a separate audio track that describes the visual content. (WCAG 1.2.5 level AA).
   - Note: If audio description additional audio track is being used for a video, then these descriptions need to be included in the transcript.
 
-[Audio Description Guidelines]({{ rootPath }}en/audio-description-guidelines)
+[Audio Description Guidelines]({{ pathPrefix }}/en/audio-description-guidelines)
 
-[Audio Description Checklist]({{ rootPath }}en/audio-description-guidelines#audio-description-checklist)
+[Audio Description Checklist]({{ pathPrefix }}/en/audio-description-guidelines#audio-description-checklist)
 
 ## Keyboard Access
 

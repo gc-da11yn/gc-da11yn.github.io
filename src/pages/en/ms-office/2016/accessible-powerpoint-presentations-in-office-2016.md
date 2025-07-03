@@ -11,7 +11,7 @@ The Microsoft Office suite (Word, Excel, Power Point) provides a built-in access
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/powerpoint-01.jpg" alt="Screenshot of Check for Issues menu" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/powerpoint-01.jpg" alt="Screenshot of Check for Issues menu" />
 </div>
 </div>
 
@@ -117,7 +117,7 @@ PowerPoint presentations usually include images. Images need equivalent alternat
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/powerpoint-02.jpg" alt="Screenshot of Format Picture tool">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/powerpoint-02.jpg" alt="Screenshot of Format Picture tool">
 </div>
 </div>
 
@@ -180,7 +180,7 @@ Alternatively, you can do one of the following after selecting the element you w
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/powerpoint-03.jpg" alt="Screenshot of Group menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/powerpoint-03.jpg" alt="Screenshot of Group menu">
 </div>
 </div>
 

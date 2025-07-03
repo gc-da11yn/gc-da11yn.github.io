@@ -29,7 +29,7 @@ Pour rédiger vos courriels en format HTML :
 4. dans la liste déroulante **Composition des messages** (**Alt + É**), choisissez **HTML;**
 5. sélectionnez **OK**.
 
-<p><img src="{{ rootPath }}img/fr/rendre-vos-courriel-accessibles-1.png" alt="" /></p>
+<p><img src="{{ pathPrefix }}/img/fr/rendre-vos-courriel-accessibles-1.png" alt="" /></p>
 
 ## Message bilingue (le cas échéant)
 
@@ -86,9 +86,9 @@ Le volet Styles se trouve sur l’onglet Format du texte. Mettez en évidence le
 
 Pour ouvrir le volet Styles, cliquez sur la **flèche d’expansion** (**Alt, X, S)**. Sélectionnez **Titre**. Le style Titre sera mis en évidence dans la liste et sera appliqué au texte sélectionné.
 
-<p><img src="{{ rootPath }}img/fr/rendre-vos-courriel-accessibles-2.png" alt="" /></p>
+<p><img src="{{ pathPrefix }}/img/fr/rendre-vos-courriel-accessibles-2.png" alt="" /></p>
 
-<p><img src="{{ rootPath }}img/fr/rendre-vos-courriel-accessibles-4.png" alt="" /></p>
+<p><img src="{{ pathPrefix }}/img/fr/rendre-vos-courriel-accessibles-4.png" alt="" /></p>
 
 ### Modifier un style
 

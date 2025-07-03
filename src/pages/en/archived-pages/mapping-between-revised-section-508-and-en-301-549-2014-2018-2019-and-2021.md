@@ -15,7 +15,7 @@ We are currently reassessing the structure and accuracy of this resource. If we 
 
 This decision was made in alignment with internal accessibility teams, and the document has also been removed from GCPedia and the Shared Services Canada (SSC) SharePoint site.
 
-We recommend removing any bookmarks or links you may have to this page, as the previous content is no longer available or accurate. If a new version is published, a link will be shared in the [Latest updates](/en/#updates) section on our homepage.
+We recommend removing any bookmarks or links you may have to this page, as the previous content is no longer available or accurate. If a new version is published, a link will be shared in the [Latest updates]({{ pathPrefix }}/en/#updates) section on our homepage.
 
 In the meantime, we encourage you to refer directly to the official standards for the most current guidance:
 

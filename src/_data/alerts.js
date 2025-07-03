@@ -1,3 +1,5 @@
+const pathPrefix = require('./pathPrefix')();
+
 module.exports = {
 	fr: {
 		// Alert section heading
@@ -5,7 +7,7 @@ module.exports = {
 
 		// Under construction alert, appears on all pages of the site while site is ramping up on content
 		underConstText:
-			'<p>Vous êtes en train d\'explorer un site web qui n\'a pas encore été officiellement lancé. Si vous souhaitez nous faire part de vos commentaires, n\'hésitez pas à consulter notre page <a href="/fr/contactez-nous/">Contactez-nous</a>.</p><p>Pour consulter la version actuelle de ce site web, veuillez visiter le site <a href=\"https://a11y.canada.ca/fr\">a11y.canada.ca</a>.</p>',
+			`<p>Vous êtes en train d'explorer un site web qui n'a pas encore été officiellement lancé. Si vous souhaitez nous faire part de vos commentaires, n'hésitez pas à consulter notre page <a href=${pathPrefix}fr/contactez-nous/">Contactez-nous</a>.</p><p>Pour consulter la version actuelle de ce site web, veuillez visiter le site <a href="https://a11y.canada.ca/fr">a11y.canada.ca</a>.</p>`,
 
 		// Draft alert, appears on on all pages that have isDraft: true in the front matter
 		draftText: "Le contenu de ces pages est à l'état de projet.",
@@ -27,7 +29,7 @@ module.exports = {
 
 		// Under construction alert, appears on all pages of the site while site is ramping up on content
 		underConstText:
-			'<p>You are currently exploring a website that has not been officially launched yet. If you wish to provide feedback, please don\'t hesitate to checkout our <a href="/en/contact-us/">contact us</a> page.</p> <p>To view the current version of this website, please visit <a href="https://a11y.canada.ca/en">a11y.canada.ca</a>.</p>',
+			`<p>You are currently exploring a website that has not been officially launched yet. If you wish to provide feedback, please don't hesitate to checkout our <a href=${pathPrefix}en/contact-us/">contact us</a> page.</p> <p>To view the current version of this website, please visit <a href="https://a11y.canada.ca/en">a11y.canada.ca</a>.</p>`,
 
 		// Draft alert, appears on on all pages that have isDraft: true in the front matter
 		draftText: "The content on this pages in draft form.",

@@ -7,7 +7,7 @@
 	<div class="row wb-eqht mrgn-tp-lg gc-srvinfo">
 		{% for item in collections.aboutUs| sort(false, false, 'data.title') | localeMatch(locale) %}
 		<section class="col-md-4">
-			<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+			<h3><a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a></h3>
 			<p>
 			{% if item.data.description %}
 			{{ item.data.description }}

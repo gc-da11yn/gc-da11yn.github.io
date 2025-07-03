@@ -15,7 +15,7 @@ Nous réévaluons actuellement la structure et l’exactitude de cette ressource
 
 Cette décision a été prise en coordination avec les équipes internes en accessibilité. Le document a également été retiré de GCpédia et du site SharePoint de Services partagés Canada (SPC).
 
-Nous vous recommandons de supprimer tout signet ou lien vers cette page, car le contenu précédent n’est plus disponible ni exact. Si une nouvelle version est publiée, un lien sera ajouté à la section [Dernières mises à jour](/fr/#actualites) sur notre page d’accueil.
+Nous vous recommandons de supprimer tout signet ou lien vers cette page, car le contenu précédent n’est plus disponible ni exact. Si une nouvelle version est publiée, un lien sera ajouté à la section [Dernières mises à jour]({{ pathPrefix }}/fr/#actualites) sur notre page d’accueil.
 
 Entre-temps, nous vous encourageons à consulter directement les normes officielles pour obtenir les renseignements les plus à jour :
 

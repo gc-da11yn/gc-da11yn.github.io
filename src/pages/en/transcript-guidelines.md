@@ -62,7 +62,7 @@ For text that is shown in the video, it needs to be included in the transcript.
 
 Use headings to make the transcript clearer and more usable. If you create your transcript in a Word document, then keep the headings logical. The person who codes the headings will apply the correct headings based on the layout of the document and the structure of the web page.
 
-![Screenshot of the Styles panel in Word with Headings 2, 3, 4, 5 and 6 highlighted.]({{rootPath}}img/en/transcript-guidelines-1.png)
+![Screenshot of the Styles panel in Word with Headings 2, 3, 4, 5 and 6 highlighted.]({{ pathPrefix }}/img/en/transcript-guidelines-1.png)
 
 ### Links
 

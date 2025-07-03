@@ -76,7 +76,7 @@
 				plugins: ["https://gitcdn.link/repo/winne27/flot-valuelabels/master/jquery.flot.valuelabels.min.js"]
 			};
 		</script>
-		<script src="/js/chart.js"></script>
+		<script src="{{ pathPrefix }}js/chart.js"></script>
 		{%- endif -%}
 {%- if settings.env == "dev" or settings.env == "local" -%}
     {% include "partials/sa11y.njk" %}

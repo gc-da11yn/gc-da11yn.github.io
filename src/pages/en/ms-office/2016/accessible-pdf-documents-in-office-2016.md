@@ -27,7 +27,7 @@ The easiest way to create an accessible PDF is to begin with an accessible Word 
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/pdf-01.jpg" alt="Screenshot of Export dialog in Word">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/pdf-01.jpg" alt="Screenshot of Export dialog in Word">
 </div>
 </div>
 
@@ -41,7 +41,7 @@ The remaining boxes should be unchecked.
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/pdf-02.jpg" alt="Screenshot of PDF export options in Word">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/pdf-02.jpg" alt="Screenshot of PDF export options in Word">
 </div>
 </div>
 
@@ -67,7 +67,7 @@ To run the accessibility checker, open your PDF document and **in the Ribbon** s
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/pdf-03.png" alt="Screenshot of Accessibility Checker in Phantom PDF">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/pdf-03.png" alt="Screenshot of Accessibility Checker in Phantom PDF">
 </div>
 </div>
 
@@ -75,7 +75,7 @@ Under **Report Options** uncheck "**Create accessibility report**" if you do not
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/pdf-04.png" alt="Screenshot of the Accessibility Checker options menu in Phantom PDF">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/pdf-04.png" alt="Screenshot of the Accessibility Checker options menu in Phantom PDF">
 </div>
 </div>
 

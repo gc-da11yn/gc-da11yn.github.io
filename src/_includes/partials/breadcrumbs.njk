@@ -64,7 +64,7 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 			{% set url = page.url | replace("/", "") %}
 			{% if url != locale %}
 				<li property="itemListElement" typeof="ListItem">
-					<a property="item" typeof="WebPage" href="/{{ locale }}/">{{ settings[locale].metaTitle }}</a>
+					<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/">{{ settings[locale].metaTitle }}</a>
 					<meta property="position" content="2">
 				</li>
 			{% endif %}
@@ -77,7 +77,7 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 				{% if subject %}
 					{% for breadcrumb in subject %}
 						<li property="itemListElement" typeof="ListItem">
-							<a property="item" typeof="WebPage" href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
+							<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
 								<span property="name">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</span>
 							</a>
 							<meta property="position" content="{{ counter }}">
@@ -91,7 +91,7 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 					{% for breadcrumb in tags %}
 						{% if breadcrumb != "updatesMain" %}
 							<li property="itemListElement" typeof="ListItem">
-								<a property="item" typeof="WebPage" href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
+								<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
 									<span property="name">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</span>
 								</a>
 								<meta property="position" content="{{ counter }}">

@@ -17,7 +17,7 @@
 	</p>
 	<ul class="row wb-eqht-grd list-unstyled small">
 	{% for item in collections.updatesMain | sort(attribute='date', reverse=true) | localeMatch(locale) %}
-		<li class="col-xs-12 col-sm-6 mrgn-tp-sm mrgn-bttm-sm"><a href="{{ item.url }}">{{ item.data.title }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"><time>{{ item.date | postDate }}</time></small></a></li>
+		<li class="col-xs-12 col-sm-6 mrgn-tp-sm mrgn-bttm-sm"><a href="{{ pathPrefix }}{{ item.url }} ">{{ item.data.title }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"><time>{{ item.date | postDate }}</time></small></a></li>
 	{% endfor %}
 	</ul>
 </section>

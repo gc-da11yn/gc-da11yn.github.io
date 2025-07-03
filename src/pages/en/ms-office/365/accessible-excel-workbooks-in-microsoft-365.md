@@ -17,7 +17,7 @@ How to use the Accessibility Checker:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/excel-365-001.jpg" alt="Screenshot of Check for Issues menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/excel-365-001.jpg" alt="Screenshot of Check for Issues menu">
 </div>
 </div>
 
@@ -62,7 +62,7 @@ To assign alternative text to images:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/excel-365-002.jpg" alt="Screenshot of Format Picture sidebar" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/excel-365-002.jpg" alt="Screenshot of Format Picture sidebar" />
 </div>
 </div>
 
@@ -87,7 +87,7 @@ To add hyperlinks with meaningful text:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/excel-365-003.jpg" alt="Screenshot of Insert Hyperlink dialog" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/excel-365-003.jpg" alt="Screenshot of Insert Hyperlink dialog" />
 </div>
 </div>
 
