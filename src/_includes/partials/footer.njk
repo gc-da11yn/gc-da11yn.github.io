@@ -3,8 +3,8 @@
 	<h2 class="wb-inv">{{ footer[locale].aboutThisSite }}</h2>
 	<div class="gc-main-footer">
 		<div class="container">
-			<nav>
-				<h3>{{ footer[locale].governmentOfCanadan }}</h3>
+			<nav aria-labelledby="governmentOfCanadan">
+				<h3 id="governmentOfCanadan">{{ footer[locale].governmentOfCanadan }}</h3>
 				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="{{ footer[locale].allContactsLink }}">{{ footer[locale].allContacts }}</a></li>
 					<li><a href="{{ footer[locale].departmentsAndAgenciesURL }}">{{ footer[locale].departmentsAndAgencies }}</a></li>
 					<li><a href="{{ footer[locale].aboutGovernmentURL }}">{{ footer[locale].aboutGovernment }}</a></li></ul>
@@ -27,14 +27,15 @@
 					<li><a href="{{ footer[locale].indigenousURL }}">{{ footer[locale].indigenous }}</a></li>
 					<li><a href="{{ footer[locale].veteransURL }}">{{ footer[locale].veterans }}</a></li>
 					<li><a href="{{ footer[locale].youthURL }}">{{ footer[locale].youth }}</a></li>
+					<li><a href="{{ footer[locale].lifeEventsURL }}">{{ footer[locale].lifeEvents }}</a></li>
 				</ul>
 			</nav>
 		</div>
 	</div>
 	<div class="gc-sub-footer">
 		<div class="container d-flex align-items-center">
-			<nav>
-				<h3 class="wb-inv">{{ footer[locale].governmentCorporateHeading }}</h3>
+			<nav aria-labelledby="governmentCorporateHeading">
+				<h3 class="wb-inv" id="governmentCorporateHeading">{{ footer[locale].governmentCorporateHeading }}</h3>
 				<ul>
 					<li><a href="{{ footer[locale].socialURL }}">{{ footer[locale].social }}</a></li>
 					<li><a href="{{ footer[locale].mobileURL }}">{{ footer[locale].mobile }}</a></li>
