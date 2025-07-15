@@ -12,7 +12,7 @@ Collaborer à la création d’une structure et d’une plateforme pour centrali
 
 Le Groupe de travail sur l’accès (<abbr>GTA</abbr>) aimerait permettre la centralisation interministérielle et le partage de l’information sur l’accessibilité produite par les ministères du <abbr title="gouvernement du Canada">GC</abbr> dans un dépôt central et un espace de partage.
 
-- [Groupe de travail sur la Boîte à outils sur l’accessibilité numérique (<abbr>DAT</abbr>) - Mandat](/fr/mandats/)
+- [Groupe de travail sur la Boîte à outils sur l’accessibilité numérique (<abbr>DAT</abbr>) - Mandat]({{ pathPrefix }}/fr/mandats/)
 - <a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Boîte à Outils de l'Accessibilité numérique - Dépôt Github <small>(en anglais seulement)</small></a>
 
 ## Partage

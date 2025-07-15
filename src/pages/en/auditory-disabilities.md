@@ -10,10 +10,10 @@ audience:
 toggle: deficiences-auditives
 ---
 
-- <a href="{{ rootPath }}docs/posters/Hearing-en_2023.pdf" download>Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a>
-- [Designing for users who are deaf or hard of hearing (HTML)]({{ rootPath }}en/designing-for-users-who-are-deaf-or-hard-of-hearing/)
-- <a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
-- [Designing for users of screen readers (HTML)]({{ rootPath }}en/designing-for-users-of-screen-readers/)
+- <a href="{{ pathPrefix }}/docs/posters/Hearing-en_2023.pdf" download>Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a>
+- [Designing for users who are deaf or hard of hearing (HTML)]({{ pathPrefix }}/en/designing-for-users-who-are-deaf-or-hard-of-hearing/)
+- <a href="{{ pathPrefix }}/docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
+- [Designing for users of screen readers (HTML)]({{ pathPrefix }}/en/designing-for-users-of-screen-readers/)
 
 ## Deafness
 

@@ -29,7 +29,7 @@ To send your emails using HTML format:
 4. go to **Compose messages** drop-down list (**Alt + C**) and choose **HTML**
 5. select **OK**.
 
-<p><img src="{{ rootPath }}img/en/making-accessible-emails-1.png" alt="" /></p>
+<p><img src="{{ pathPrefix }}/img/en/making-accessible-emails-1.png" alt="" /></p>
 
 ## Bilingual message (if applicable)
 
@@ -84,9 +84,9 @@ The Styles pane is on the Format Text tab. Highlight the text that you want to c
 
 To access the Styles pane, select the **expansion arrow (Alt, H, F, Y)** and the Styles pane will open. Select **Title**. The text will be formatted to the Title style and highlighted in the Styles pane.
 
-<p><img src="{{ rootPath }}img/en/making-accessible-emails-3.png" alt="" /></p>
+<p><img src="{{ pathPrefix }}/img/en/making-accessible-emails-3.png" alt="" /></p>
 
-<p><img src="{{ rootPath }}img/en/making-accessible-emails-4.png" alt="" /></p>
+<p><img src="{{ pathPrefix }}/img/en/making-accessible-emails-4.png" alt="" /></p>
 
 ### Modify a style
 

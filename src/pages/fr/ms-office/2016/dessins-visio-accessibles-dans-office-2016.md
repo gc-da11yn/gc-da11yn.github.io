@@ -63,7 +63,7 @@ Dans le cas d’une carte routière avec itinéraires, la description longue dé
 
 <div class="row">
 <div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/visio-01.jpg" alt="Organigramme illustrant le processus de connexion">
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/visio-01.jpg" alt="Organigramme illustrant le processus de connexion">
 </div>
 </div>
 
@@ -135,7 +135,7 @@ Pour ajouter un texte de remplacement à une image ou une forme&nbsp;:
 
 - Ouvrez le menu contextuel de l’image ou de la forme en cliquant à droite ou en appuyant sur la touche de l’application.
 - Sélectionnez **Format de la forme**.
-- Sélectionnez ![icône taille et propriétés]({{ rootPath }}img/fr/office2016/visio-02.gif) (**Taille et propriétés**) et saisissez le texte de remplacement dans la boîte **Description**.
+- Sélectionnez ![icône taille et propriétés]({{ pathPrefix }}/img/fr/office2016/visio-02.gif) (**Taille et propriétés**) et saisissez le texte de remplacement dans la boîte **Description**.
 
 Pour ajouter un texte de remplacement à une page complète, appuyez sur **Maj + F5**. Sélectionnez l’onglet **Texte de remplacement** et inscrivez la **Description**.
 

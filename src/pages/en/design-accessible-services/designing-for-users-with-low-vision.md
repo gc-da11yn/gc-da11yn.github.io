@@ -10,7 +10,7 @@ subject:
 
 Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
-- <a href="{{ rootPath }}docs/posters/LowVision-en_2023.pdf" download>Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)</a>
+- <a href="{{ pathPrefix }}/docs/posters/LowVision-en_2023.pdf" download>Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

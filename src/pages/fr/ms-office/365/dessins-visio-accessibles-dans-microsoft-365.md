@@ -61,7 +61,7 @@ La description textuelle longue est utile pour tous les utilisateurs. Rendez-la 
 
 Dans le cas d’une carte routière avec itinéraires, la description longue décrit chaque étape permettant de suivre les itinéraires.
 
-<img src="{{ rootPath }}img/fr/office365/visio-365-001.jpg" alt="Organigramme illustrant le processus de connexion">
+<img src="{{ pathPrefix }}/img/fr/office365/visio-365-001.jpg" alt="Organigramme illustrant le processus de connexion">
 
 Pour transmettre adéquatement à tous les utilisateurs le message d’un organigramme, la description longue utilise des éléments numériques.
 
@@ -123,7 +123,7 @@ Pour ajouter un texte de remplacement à une image ou une forme&nbsp;:
 
 - Ouvrez le menu contextuel de l’image ou de la forme en cliquant à droite ou en appuyant sur la touche de l’application.
 - Sélectionnez **Format de la forme**.
-- Sélectionnez ![]({{ rootPath }}img/en/office365/visio-365-002.gif) (**Taille et propriétés**) et saisissez le texte de remplacement dans la boîte **Description**.
+- Sélectionnez ![]({{ pathPrefix }}/img/en/office365/visio-365-002.gif) (**Taille et propriétés**) et saisissez le texte de remplacement dans la boîte **Description**.
 
 Pour ajouter un texte de remplacement à une page complète, appuyez sur **Maj +&nbsp;F5**. Sélectionnez l’onglet **Texte de remplacement** et inscrivez la **Description**.
 
