@@ -862,11 +862,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/mobility-flexibility-and-body-structure-disabilities/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
@@ -1087,12 +1082,17 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
-		<lastmod>2025-06-27</lastmod>
+		<loc>https://a11y.canada.ca/</loc>
+		<lastmod>2025-07-17</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/</loc>
-		<lastmod>2025-07-17</lastmod>
+		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
+		<lastmod>2025-07-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
+		<lastmod>2025-07-18</lastmod>
 	</url>
 </urlset>
