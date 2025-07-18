@@ -66,7 +66,6 @@ Si le document entier est en anglais mais que certaines sections renferment des 
 ### Resources
 
 - [Guide de rédaction du contenu du site Canada.ca — Langage clair et simple](https://conception.canada.ca/guide-redaction/#toc6)
-- <a href="http://en.copian.ca/library/learning/nwt/writread/writefor.pdf" download lang="en">Write for your Reader—A plain language handbook<small lang="fr"> (en anglais seulement)</small></a>
 - <a href="https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf" download lang="en">Putting plain language into practice<small lang="fr"> (en anglais seulement)</small></a>
 - <a href="https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf" download lang="en">Plain Language Audit Tool—A checklist to review documents<small lang="fr"> (en anglais seulement)</small></a>
 
