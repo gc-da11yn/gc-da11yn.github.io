@@ -44,12 +44,24 @@ Si vous devez utiliser des courriels bilingues, veillez à ce qu’ils soient au
 
 ### Définir une langue
 
-Si le document entier est en anglais mais que certaines sections renferment des passages en français, le lecteur d’écran configuré pour le texte anglais essaiera de prononcer les termes français et le résultat ressemblera à du charabia.
+Commencez par définir la langue principale du document :
 
-- Effectuez le marquage de la langue pour aider les lecteurs d’écran à lire correctement le texte en français. Utilisez cette fonction pour modifier la langue de vérification de certaines sections d’un document :
-    1. définissez la langue de vérification (**Alt, R, J, L**);
-    2. mettez en évidence le texte pour lequel vous voulez définir une langue différente;
-    3. sélectionnez l’onglet Révision, puis sélectionnez **Langue** &gt; **Définir la langue de vérification**.
+1.	Allez à l’onglet **Révision** dans le Ruban.
+2.	Ouvrez le bouton **Langue** , puis sélectionnez **Définir la langue de vérification (Alt, R, J, L)**.
+3.	Dans la boîte de dialogue « Langue », assurez-vous de régler le bouton radio **Modifier la langue de vérification pour** sur **Document actif**.
+4.	Dans la liste des langues disponibles, sélectionnez la langue principale utilisée dans le document.
+
+Si certaines sections du document sont écrites dans une autre langue, les lecteurs d’écran configurés pour la langue principale risquent de mal prononcer le texte dans l’autre langue ainsi le résultat ressemblera à du charabia.
+
+Pour que les lecteurs d’écran reconnaissent et prononcent correctement le texte dans différentes langues, effectuez un balisage de langue et ajustez la langue de vérification pour ces sections spécifiques. Voici comment procéder :
+
+1.	Surlignez le texte que vous souhaitez définir dans une autre langue.
+2.	Allez à l’onglet **Révision**.
+3.	Ouvrez le bouton **Langue**, puis choisissez **Définir la langue de vérification (Alt, R, J, L).**
+4.	Dans la boîte de dialogue « Langue », assurez-vous de régler le bouton radio **Modifier la langue de vérification pour** sur **Texte sélectionné**.
+5.	Dans la liste des langues disponibles, sélectionnez la langue appropriée pour le texte surligné.
+
+En suivant ces étapes, vous permettrez une reconnaissance linguistique précise pour les lecteurs d’écran et les correcteurs orthographiques, améliorant ainsi l’accessibilité et l’exactitude de votre document.
 
 ## Langage clair
 
