@@ -21,7 +21,7 @@
   <meta name="dcterms.creator" content="Government of Canada">
   <meta name="dcterms.language" content="en" />
   <meta name="dcterms.created" content="2023-08-01">
-  <meta name="dcterms.modified" content="2025-07-18">
+  <meta name="dcterms.modified" content="2025-07-21">
   <meta name="dcterms.subject" content="; ; " />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
@@ -255,15 +255,23 @@
         </li>
       </ul>
       <h3 id="setting-a-language" tabindex="-1">Setting a language</h3>
-      <p>If you set an entire document to English but there are some sections that have text written in French, English screen readers will try to pronounce the French information, resulting in gibberish sounds.</p>
-      <ul>
-        <li>Perform language markup to help screen readers read French text properly. Use this for changing the proofing language of sections of a document. <ol>
-            <li>Set Proofing Language (<strong>Alt, V, U, L</strong>).</li>
-            <li>Highlight the text that you want set to a different language.</li>
-            <li>Select the Review tab; then select <strong>Language</strong> &gt; <strong>Set Proofing Language.</strong></li>
-          </ol>
-        </li>
-      </ul>
+      <p>Start by setting the document’s primary language:</p>
+      <ol>
+        <li>Go to the <strong>Review</strong> tab on the Ribbon.</li>
+        <li>Open the <strong>Language</strong> button, then <strong>select Set Proofing Language (Alt, R, U, L)</strong>.</li>
+        <li>In the “Language” dialog box, make sure to set the <strong>Change proofing language for</strong> radio button to <strong>Current document</strong>.</li>
+        <li>From the list of available languages, select the main language used in the document.</li>
+      </ol>
+      <p>If certain sections of the document are written in a different language, screen readers configured for the primary language may mispronounce the text in the other language, resulting in unintelligible output.</p>
+      <p>To ensure screen readers properly recognize and pronounce text in different languages, perform language markup and adjust the proofing language for those specific sections. Here’s how to do it:</p>
+      <ol>
+        <li>Highlight the text that you want to set to a different language.</li>
+        <li>Go to the <strong>Review</strong> tab.</li>
+        <li>Open the <strong>Language</strong> button, then choose <strong>Set Proofing Language (Alt, R, U, L)</strong>.</li>
+        <li>In the “Language” dialog box, make sure to set the <strong>Change proofing language for</strong> radio button to <strong>Selected text</strong>.</li>
+        <li>From the list of available languages, select the appropriate one for the highlighted text.</li>
+      </ol>
+      <p>By applying these steps, you enable accurate language recognition for both screen readers and spellcheckers, enhancing accessibility and accuracy in your document.</p>
       <h2 id="plain-language" tabindex="-1">Plain language</h2>
       <p>Avoid overly complex writing styles.</p>
       <ul>
@@ -482,7 +490,7 @@
       <h2 class="wb-inv">Page details</h2>
       <dl id="wb-dtmd">
         <dt>Date modified:</dt>
-        <dd><time property="dateModified">2025-07-18</time></dd>
+        <dd><time property="dateModified">2025-07-21</time></dd>
       </dl>
     </section>
   </main>
