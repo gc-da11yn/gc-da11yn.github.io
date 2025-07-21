@@ -40,7 +40,7 @@ Si vous devez utiliser des courriels bilingues, veillez à ce qu’ils soient au
 - L’ajout d’un [signet](#signets) permet à l’utilisateur de passer directement au texte rédigé dans la langue de son choix.
 - Indiquez où se trouve le texte dans l’autre langue :
   1. dans les courriels où l’anglais est la première langue utilisée, faites précéder le texte en anglais de la mention « Le français suit l’anglais »;
-  2. dans les courriels où le français est la première langue utilisée, faites précéder letexte en français de la mention « English follows ».
+  2. dans les courriels où le français est la première langue utilisée, faites précéder le texte en français de la mention « English follows ».
 
 ### Définir une langue
 
