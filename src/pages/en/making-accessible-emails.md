@@ -44,12 +44,22 @@ If you must use bilingual emails, be sure to make them as accessible as possible
 
 ### Setting a language
 
-If you set an entire document to English but there are some sections that have text written in French, English screen readers will try to pronounce the French information, resulting in gibberish sounds.
+Start by setting the document’s primary language:
+  1.	Go to the **Review** tab on the Ribbon.
+  2.	Open the **Language** button, then **select Set Proofing Language (Alt, R, U, L)**.
+  3.	In the “Language” dialog box, make sure to set the **Change proofing language for** radio button to **Current document**.
+  4.	From the list of available languages, select the main language used in the document.
 
-- Perform language markup to help screen readers read French text properly. Use this for changing the proofing language of sections of a document.
-  1. Set Proofing Language (**Alt, V, U, L**).
-  2. Highlight the text that you want set to a different language.
-  3. Select the Review tab; then select **Language** > **Set Proofing Language.**
+If certain sections of the document are written in a different language, screen readers configured for the primary language may mispronounce the text in the other language, resulting in unintelligible output.
+
+To ensure screen readers properly recognize and pronounce text in different languages, perform language markup and adjust the proofing language for those specific sections. Here’s how to do it:
+  1.	Highlight the text that you want to set to a different language.
+  2.	Go to the **Review** tab.
+  3.	Open the **Language** button, then choose **Set Proofing Language (Alt, R, U, L)**.
+  4.	In the “Language” dialog box, make sure to set the **Change proofing language for** radio button to **Selected text**.
+  5.	From the list of available languages, select the appropriate one for the highlighted text.
+
+By applying these steps, you enable accurate language recognition for both screen readers and spellcheckers, enhancing accessibility and accuracy in your document.
 
 ## Plain language
 
