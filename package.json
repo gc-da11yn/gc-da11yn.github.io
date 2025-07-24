@@ -16,7 +16,7 @@
     "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
     "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
     "watch:sass": "npm run sass-start -- --watch",
-    "start": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=local npm-run-all sass-start serve:port --parallel watch:*",
+    "start": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=local npm-run-all --parallel watch:* serve:port",
     "start-dev": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=dev npm-run-all sass-start serve:port --parallel watch:*",
     "start-prod": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=prod npm-run-all sass-start serve:port --parallel watch:*",
     "dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
