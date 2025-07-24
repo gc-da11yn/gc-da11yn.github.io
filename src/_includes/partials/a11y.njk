@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="c-a11y-summary">
+		<p class="c-a11y-summary__explanation"><abbr><a href="#a11y-disclaimer-lightbox" aria-controls="a11y-disclaimer-lightbox" role="button" class="wb-lbx lbx-modal a11y-disclaimer-link">{{ a11y[locale].abbreviation }}</a></abbr> {{ a11y[locale].standsFor }} <span class="u-text-transform-uppercase c-a11y-summary__accessibility">{{ a11y[locale].accessibility }}<span></span></span><img class="c-a11y-summary__11-characters" alt="{{ a11y[locale].altText }}" src="/img/{{ locale }}/11-characters-{{ locale }}.svg"></p>
+		<p class="c-a11y-summary__mission">{{ a11y[locale].mission | safe }}</p>
+	</div>
+</div>
+
+<section id="a11y-disclaimer-lightbox" class="mfp-hide modal-dialog modal-content overlay-def">
+	<header class="modal-header">
+		<h2 class="modal-title">{{ a11y[locale].abbreviation }}</h2>
+	</header>
+	<div class="modal-body">
+		<p>{{ a11y[locale].a11yDisclaimer | safe }}</p>
+	</div>
+</section>

@@ -1,0 +1,120 @@
+// Define the var() mixin
+@mixin var($property, $variable) {
+	#{$property}: $variable;
+}
+
+// Variables used in this file
+$border-thicker: 4px;
+$font-size-heading-tiny: 1.1rem;
+$font-size-heading-medium: 1.5rem;
+$font-size-heading-larger: 2rem;
+$font-size-heading-large: 2.5rem;
+$font-size-body: 1rem;
+$font-size-body-medium: 1.2rem;
+$font-tracking-slight: 0.02em;
+$font-tracking-loose: 0.08em;
+
+// Example color variables for var() mixin usage
+$hero-content-background: #f8f9fa;
+$hero-content-accent: #26374a;
+
+// A11Y Banner
+//
+// The A11Y Banner boldly and directly explains what the neuronym "A11Y" is, as
+// well as the site's mission. It is meant to be placed inside the homepage's
+// hero component.
+//
+// Style guide: Components.banner-a11y
+.c-a11y-summary {
+	@include var(background-color, hero-content-background);
+	border-top: $border-thicker solid;
+	@include var(border-color, hero-content-accent);
+	padding: 1.5rem;
+	margin: 1rem 0;
+
+	.u-text-transform-uppercase {
+		text-transform: uppercase;
+	}
+
+	a.a11y-disclaimer-link {
+		text-decoration: none;
+		border-bottom: 2px dashed currentColor;
+		transition: all 0.2s ease;
+
+		&:hover,
+		&:focus {
+			border-bottom: 2px solid currentColor;
+			background-color: rgba(255, 255, 0, 0.3); // Light yellow highlight
+			outline: 3px solid currentColor;
+			outline-offset: 3px;
+		}
+	}
+
+	// Breakpoints - CHANGED: Replaced mappy-bp with standard media queries
+	@media (min-width: 576px) { // palm-small breakpoint
+		margin: 3rem 0;
+	}
+
+	@media (min-width: 992px) { // palm-large breakpoint
+		padding: 2rem 7rem 2.75rem;
+	}
+}
+
+.c-a11y-summary__explanation {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+
+	// Breakpoints - CHANGED: Replaced mappy-bp with standard media queries
+	@media (min-width: 480px) { // wrist-large breakpoint
+		font-size: $font-size-heading-tiny;
+	}
+
+	@media (min-width: 768px) { // palm-medium breakpoint
+		font-size: $font-size-heading-medium;
+	}
+
+	@media (min-width: 992px) { // palm-large breakpoint
+		font-size: $font-size-heading-larger;
+	}
+}
+
+.c-a11y-summary__accessibility {
+	display: block;
+	font-size: $font-size-heading-medium;
+	letter-spacing: $font-tracking-slight;
+
+	// Breakpoints - CHANGED: Replaced mappy-bp with standard media queries
+	@media (min-width: 480px) { // wrist-large breakpoint
+		letter-spacing: $font-tracking-loose;
+	}
+
+	@media (min-width: 992px) { // palm-large breakpoint
+		font-size: $font-size-heading-large;
+	}
+}
+
+.c-a11y-summary__11-characters {
+	font-size: $font-size-heading-tiny;
+	width: 10rem;
+
+	// Breakpoints - CHANGED: Replaced mappy-bp with standard media queries
+	@media (min-width: 480px) { // wrist-large breakpoint
+		width: 11.45rem;
+	}
+
+	@media (min-width: 768px) { // palm-medium breakpoint
+		width: 18.5rem;
+	}
+}
+
+.c-a11y-summary__mission {
+	font-size: $font-size-body;
+	margin-top: 2rem;
+	text-align: center;
+
+	// Breakpoints - CHANGED: Replaced mappy-bp with standard media queries
+	@media (min-width: 768px) { // palm-medium breakpoint
+		font-size: $font-size-body-medium;
+	}
+}
