@@ -12,9 +12,7 @@
 					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">{{ contribute[locale].report }}</a></li>
 					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == fr %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}</a></li>
 				</ul>
-				<div class="col-md-12">
-					<p>{{ contribute[locale].emailText }}<a class="nowrap" href="mailto:{{ contribute.email }}?subject={{ contribute[locale].emailSubject }}">{{ contribute.email }}</a></p>
-				</div>
+				<p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:{{ contribute.email }}?subject={{ contribute[locale].emailSubject }}">{{ contribute[locale].emailText }}</a></p>
 			</div>
 		</div>
 		{# This code block checks if the environment is set to "dev". If it is, it displays a paragraph with a link to Netlify and a link to edit the code for the current page on GitHub. #}
