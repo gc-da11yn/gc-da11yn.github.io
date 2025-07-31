@@ -1,9 +1,9 @@
 .contribute {
 	background-color: black;
-	color: white;
+	color: #fff;
+	padding-bottom: 25px !important;
 
 	ul {
-		padding-bottom: 2em;
 
 		@media only screen and (min-width: 992px) {
 			padding-top: 4em;
@@ -11,8 +11,8 @@
 	}
 
 	li {
-	padding-bottom: 15px;
-}
+		padding-bottom: 15px;
+	}
 
 	small {
 		display: block;

@@ -8,10 +8,11 @@
 			</div>
 			<div class="col-md-7">
 				<ul class="list-inline">
-					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}{% if locale == "fr" %} <small>(en anglais seulement)</small>{% endif %}</a></li>
-					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">{{ contribute[locale].report }}{% if locale == "fr" %} <span lang="en">(Issues)</span><small>(en anglais seulement)</small>{% endif %}</a></li>
-					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == fr %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}{% if locale == "fr" %} <small>(en anglais seulement)</small>{% endif %}</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">{{ contribute[locale].report }}</a></li>
+					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == fr %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}</a></li>
 				</ul>
+				<p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:{{ contribute.email }}?subject={{ contribute[locale].emailSubject }}">{{ contribute[locale].emailText }}</a></p>
 			</div>
 		</div>
 		{# This code block checks if the environment is set to "dev". If it is, it displays a paragraph with a link to Netlify and a link to edit the code for the current page on GitHub. #}
