@@ -13,7 +13,7 @@ hasDocument:
   type: "word"
 ---
 
-Below are questions that will help you establish if your Microsoft 365 document is accessible. We provide the Success Criteria in reference with WCAG 2.1: [How to Meet WCAG - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/) and the [Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
+Below are questions that will help you assess whether your Microsoft 365 document is accessible, including Word, Excel, and PowerPoint files. We provide the Success Criteria in reference with WCAG 2.1: [How to Meet WCAG - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/) and the [Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
 
 Remember to answer NA (not applicable) if a question is not relevant to your document. For example, there is no table of content in Excel documents.
 
