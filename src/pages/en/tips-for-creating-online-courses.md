@@ -1,6 +1,12 @@
 ---
 title: Tips for creating online courses
 description: Tips and tricks for writing, designing and developing online courses.
+role:
+  - author
+  - designer
+  - development
+  - testing
+  - administration
 toggle: conseils-pour-la-conception-de-cours-en-ligne
 subject:
   - howTos

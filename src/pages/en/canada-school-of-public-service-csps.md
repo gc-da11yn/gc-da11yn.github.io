@@ -1,6 +1,13 @@
 ---
 title: Canada School of Public Service (<abbr>CSPS</abbr>)
 description: The Canada School of Public Service leads the government's enterprise-wide approach to learning by providing a common, standardized curriculum that supports public servants through key career transitions, ensuring that they are equipped to serve Canadians with excellence. Multiple teams at the School support accessibility with the goal of creating a barrier free learning environment for its learners.
+role:
+  - analysis
+  - author
+  - designer
+  - development
+  - testing
+  - administration
 toggle: ecole-de-la-fonction-publique-du-canada-efpc
 subject:
   - accessibilityInTheGovernmentOfCanada

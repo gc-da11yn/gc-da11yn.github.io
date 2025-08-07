@@ -1,6 +1,10 @@
 ---
 title: Transcript Checklist
 description: A tool to make sure you did not forget anything.
+role:
+  - author
+  - development
+  - testing
 toggle: liste-de-controle-des-transcriptions
 subject:
   - howTos

@@ -7,6 +7,13 @@ tags:
   - aboutDisabilities
 audience:
   - Everyone
+role: 
+  - analysis
+  - author
+  - designer
+  - development
+  - testing
+  - administration
 toggle: deficiences-auditives
 ---
 

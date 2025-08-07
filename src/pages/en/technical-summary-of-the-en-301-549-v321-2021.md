@@ -6,6 +6,13 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
+role:
+  - analysis
+  - author
+  - designer
+  - development
+  - testing
+  - administration
 hasDocument:
   filename: "SSC_Technical_Summary_of_the_EN_301_549_v3.2.1_(2021)_31May2024_EN.docx"
   sizeNumber: 30.8

@@ -1,6 +1,13 @@
 ---
 title: Microsoft document compliance checklist
 description: Here you can find different questions to help you to know if your Word document is accessible or not.
+role:
+  - analysis
+  - author
+  - designer
+  - development
+  - testing
+  - administration
 toggle: liste-de-verification-de-la-conformite-des-documents-microsoft
 subject:
   - howTos

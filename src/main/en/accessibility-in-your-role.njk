@@ -1,29 +1,32 @@
 ---
-title: Accessibility in your role
+title: Accessibility in Your Role
 description: We all have a role to play in accessibility. Learn more about job-specific accessibility tips and how to integrate them into your day-to-day work.
-toggle: l-accessibilite-dans-votre-role
+role:
+  - analysis
+  - author
+  - designer
+  - development
+  - testing
+  - administration
 tags:
+  - main
 ---
 
-{% if collections.accessibilityInYourRole === undefined %}
-
-	{% include "partials/alert-landingpages.njk" %}
-
-{% else %}
+<h1>Accessibility in Your Role</h1>
+<p>We all have a role to play when it comes to accessibility. Learn more about accessibility tips specific to your job and how to incorporate them into your daily work.</p>
 
 <div class="row wb-eqht mrgn-tp-lg gc-drmt">
-	{% for item in collections.accessibilityInYourRole | sort(false, false, 'data.title') | localeMatch(locale) %}
-	<div class="col-md-6">
-		<h2><a{% if item.data.redirect %} rel="external"{% endif %} href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ pathPrefix }}{{ item.url }} {% endif %}"{% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>{% if item.data.internal === true %}<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> {{ alerts[locale].hiddenTextLink }}</span>{% endif %}{{ item.data.title | safe }}{% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}</a></h2>
-		<p>
-			{% if item.data.description %}
-			{{ item.data.description | safe }}
-			{% else %}
-			{{ landingPage[locale].descriptionNoneText }}
-			{% endif %}
-		</p>
-	</div>
-	{% endfor %}
+  {% for role in [
+    { name: "Analysis", url: "/en/roles/analysis/" },
+    { name: "Author", url: "/en/roles/author/" },
+    { name: "Designer", url: "/en/roles/designer/" },
+    { name: "Development", url: "/en/roles/development/" },
+    { name: "Testing", url: "/en/roles/testing/" },
+    { name: "Administration", url: "/en/roles/administration/" }
+  ] %}
+    <div class="col-md-4">
+      <h2><a href="{{ role.url }}">{{ role.name }}</a></h2>
+      <p>Tips and resources for {{ role.name | lower }}s.</p>
+    </div>
+  {% endfor %}
 </div>
-
-{% endif %}

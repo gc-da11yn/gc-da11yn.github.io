@@ -1,6 +1,13 @@
 ---
 title: Designing for users of screen readers
 description: What to do - and what <strong>not</strong> to do - when designing for users of screen readers.
+role:
+  - analysis
+  - author
+  - designer
+  - development
+  - testing
+  - administration
 tags:
   - designingAccessible
 toggle: concevoir-pour-les-utilisateurs-de-revues-decran

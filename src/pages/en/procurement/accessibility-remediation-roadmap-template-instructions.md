@@ -9,6 +9,13 @@ subject:
 tags:
   - procurement
   - updatesMain
+role:
+  - analysis
+  - author
+  - designer
+  - development
+  - testing
+  - administration
 hasDocument:
   type: word
   sizeNumber: 54

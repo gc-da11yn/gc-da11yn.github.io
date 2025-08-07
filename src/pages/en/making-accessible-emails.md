@@ -1,6 +1,13 @@
 ---
 title: Making Accessible Emails
 description: Accessible email is important for people with disabilities but also for everyone. Find out how to create an accessible email in outlook.
+role:
+  - analysis
+  - author
+  - designer
+  - development
+  - testing
+  - administration
 tags:
   - howTos
   - updatesMain

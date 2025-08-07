@@ -1,6 +1,11 @@
 ---
 title: Designing accessible images
 description: With this diagram, you will learn how to make the best choice for designing accessible images.
+role:
+  - author
+  - designer
+  - development
+  - testing
 toggle: concevoir-des-images-accessibles
 ---
 
