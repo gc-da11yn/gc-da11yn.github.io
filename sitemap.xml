@@ -97,11 +97,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/links/fr/la-loi-sur-l-accessibilite-pour-les-personnes-handicapees-de-l-ontario-2005/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/links/fr/les-normes-daccessibilite-de-la-loi-sur-les-americains-handicapes-ada/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
@@ -1094,5 +1089,10 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
 		<lastmod>2025-07-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/fr/la-loi-sur-l-accessibilite-pour-les-personnes-handicapees-de-l-ontario-2005/</loc>
+		<lastmod>2025-08-15</lastmod>
 	</url>
 </urlset>
