@@ -62,13 +62,13 @@ La [Ligne directrice sur l’utilisabilité de la technologie de l’information
 
 <div class="well well-sm">
 
-**Remarque :** La norme CAN/ASC est une copie de la norme EN 301 549 v.3.2.1 (2021-03) <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC<small> (en anglais seulement)</small></a>.
+**Remarque :** La norme CAN/ASC est une copie de la norme EN 301 549 v.3.2.1 (2021-03) <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC <span lang="fr">(en anglais seulement)</span></a>.
 
 </div>
 
 ## À propos de la norme EN 301 549
 
-Bien que le présent Guide fasse référence à la « norme EN 301 549 (2021) », son nom au complet est « <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 (2021-03) Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC<small> (en anglais seulement)</small></a> ». La norme EN 301 549 (2021) définit les exigences d’accessibilité pour les produits et services TIC.
+Bien que le présent Guide fasse référence à la « norme EN 301 549 (2021) », son nom au complet est « <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 (2021-03) Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC <span lang="fr">(en anglais seulement)</span></a> ». La norme EN 301 549 (2021) définit les exigences d’accessibilité pour les produits et services TIC.
 
 La norme EN 301 549 (2021) s’applique à presque chaque approvisionnement en TIC, tel que les suivants :
 
@@ -126,7 +126,7 @@ Les progrès constants de la technologie obligent le GC à utiliser une norme pl
 
 - de mettre en œuvre la norme EN 301 549 (2021) jusqu’à ce qu’une norme EN 301 549 mise à jour soit publiée et qu’une directive indique de passer à la prochaine version;
 - de ne pas utiliser seulement une version quelconque des WCAG, mais d’utiliser plutôt la norme EN 301 549 (2021) qui comprend les WCAG 2.1;
-- d’utiliser la norme EN 301 549 (2021) et les <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2<small> (en anglais seulement)</small></a>.
+- d’utiliser la norme EN 301 549 (2021) et les <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2 <span lang="fr">(en anglais seulement)</span></a>.
 
 ### Intégrez la norme EN 301 549 (2021) en tant que pratique exemplaire
 
@@ -168,7 +168,7 @@ les ministères et organismes sont fortement encouragés à obtenir l’approbat
 - organiser des journées de l’industrie à un stade précoce de la procédure d’approvisionnement lié aux TIC afin de permettre aux fournisseurs de poser des questions au sujet :
   - des exigences d’accessibilité des TIC;
   - d’autres exigences clés.
-- exiger que tous les fournisseurs des TIC présentent, dans un format accessible, un rapport de conformité de l’accessibilité (RCA), de préférence en utilisant le modèle volontaire d’accessibilité des produits (<a href="https://www.itic.org/policy/accessibility/vpat">VPAT<sup>®</sup><small> (en anglais seulement)</small></a>) ou un format comparable.
+- exiger que tous les fournisseurs des TIC présentent, dans un format accessible, un rapport de conformité de l’accessibilité (RCA), de préférence en utilisant le modèle volontaire d’accessibilité des produits (<a href="https://www.itic.org/policy/accessibility/vpat">VPAT<sup>®</sup> <span lang="fr">(en anglais seulement)</span></a>) ou un format comparable.
 
 <div class="well well-sm">
 
@@ -218,7 +218,7 @@ les ministères et organismes sont fortement encouragés à obtenir l’approbat
       <p><strong>Remarque :</strong> Les autorités contractantes peuvent également fournir un lien hypertexte vers&nbsp;:</p>
         <ul>
           <li><a href="{{ pathPrefix }}/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/">les exigences d’accessibilité des technologies de l’information et des communications (TIC)</a></li>
-          <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">pdf de la norme EN 301 549 V3.2.1</a> <small>(en anglais seulement)</small></li>
+          <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">pdf de la norme EN 301 549 V3.2.1</a> <span lang="fr">(en anglais seulement)</span></li>
           <li><a href="https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic">CAN/ASC – EN 301 549:2024 Exigences d’accessibilité pour les produits et services TIC (EN 301 549:2021, IDT)</a></li>
         </ul>
     </div>
@@ -304,8 +304,8 @@ Pour toute demande de renseignement ou tout commentaire au sujet du présent Gui
 
 #### Autres hyperliens sur l’accessibilité internationale
 
-- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549 V3.2.1 (2021-03) Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC<small> (en anglais seulement)</small></a>
-- <a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html">Convention relative aux droits des personnes en situation de handicap des Nations Unies<small> (en anglais seulement)</small></a>
+- <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549 V3.2.1 (2021-03) Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC <span lang="fr">(en anglais seulement)</span></a>
+- <a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html">Convention relative aux droits des personnes en situation de handicap des Nations Unies <span lang="fr">(en anglais seulement)</span></a>
 - [Règles pour l’accessibilité des contenus Web (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-fr/) – <span lang="en">World Wide Web Consortium (W3C)</span>
 
 #### Gouvernement du Canada
@@ -384,7 +384,7 @@ En plus des définitions ci-dessous, vous trouverez des définitions utiles à l
 
 ## Quels renseignements un rapport de conformité de l’accessibilité (RCA) devrait-il contenir?
 
-Nous recommandons aux fournisseurs d’utiliser le modèle industriel créé par l’Information Technology Industry Council (ITI). Le « Voluntary Product Accessibility Template » (modèle volontaire d’accessibilité des produits) et le « VPAT » sont des marques de service déposées de l’Information Technology Industry Council (ITI). Pour de plus amples renseignements, veuillez consulter le <a href="https://www.itic.org/policy/accessibility">site Web de l’ITI<small> (en anglais seulement)</small></a>.
+Nous recommandons aux fournisseurs d’utiliser le modèle industriel créé par l’Information Technology Industry Council (ITI). Le « Voluntary Product Accessibility Template » (modèle volontaire d’accessibilité des produits) et le « VPAT » sont des marques de service déposées de l’Information Technology Industry Council (ITI). Pour de plus amples renseignements, veuillez consulter le <a href="https://www.itic.org/policy/accessibility">site Web de l’ITI <span lang="fr">(en anglais seulement)</span></a>.
 
 Voici certains des renseignements qui devraient être inclus lors de l’utilisation d’un support de remplacement. Cette liste n’est pas exhaustive et ne devrait pas être considérée comme la seule source d’information à fournir dans un bon RCA. Le RCA devrait :
 

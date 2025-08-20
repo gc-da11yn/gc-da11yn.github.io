@@ -462,5 +462,5 @@ Il faut garder à l’esprit la diversité des gens. Soyez attentifs à ne pas t
 
 1. [Politique sur l'obligation de prendre des mesures d'adaptation pour les personnes handicapées dans la fonction publique fédérale](https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12541)
 2. [Persona (ergonomie)](https://fr.wikipedia.org/wiki/Persona_(ergonomie))
-3. <a href="http://www.uiaccess.com/accessucd/personas.html" lang="en">Accessibility in User-Centered Design: Personas<small lang="fr"> (en anglais seulement)</small></a>
+3. <a href="http://www.uiaccess.com/accessucd/personas.html" lang="en">Accessibility in User-Centered Design: Personas <span lang="fr">(en anglais seulement)</span></a>
 4. [Norme sur l’optimisation des sites Web et des applications pour appareils mobiles](https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=27088)

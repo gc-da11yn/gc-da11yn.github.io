@@ -19,7 +19,7 @@ Nous vous recommandons de supprimer tout signet ou lien vers cette page, car le 
 
 Entre-temps, nous vous encourageons à consulter directement les normes officielles pour obtenir les renseignements les plus à jour :
 
-- [Normes révisées de la section 508 (É.-U.)<small lang="fr"> (en anglais seulement)</small>](https://www.access-board.gov/ict/)
+- [Normes révisées de la section 508 (É.-U.) <span lang="fr">(en anglais seulement)</span>](https://www.access-board.gov/ict/)
 - [CAN/ASC - EN 301 549:2024 Exigences en matière d’accessibilité des produits et services TIC (EN 301 549:2021, IDT)](https://accessibilite.canada.ca/elaboration-normes-accessibilite/canasc-en-301-5492024-exigences-daccessibilite-pour-les-produits-et-services-de-tic)
 
 Nous vous remercions de votre compréhension. Cette page sera mise à jour si une nouvelle version du document de correspondance devient disponible.
