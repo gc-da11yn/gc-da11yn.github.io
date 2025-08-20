@@ -275,7 +275,7 @@ Here are links to tutorials:
 
 - [Kurzweil 3000 tutorial](https://www.kurzweiledu.com/products/product-guides.html)
 - [Word Q Pro Tutorial](https://www.quillsoft.ca/tutorials-wordq)
-- <a href="https://ecolebranchee.com/medialexie-une-solution-aux-troubles-du-langage/">Medialexie Tutorial <small> (in French only)</small></a>
+- <a href="https://ecolebranchee.com/medialexie-une-solution-aux-troubles-du-langage/">Medialexie Tutorial <span lang="en">(in French only)</span></a>
 
 ### For Communication:
 

@@ -30,7 +30,7 @@ Ce groupe de travail devra:
 
 La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) permettra d'utiliser l'expertise en matière d'accessibilité dans l'ensemble du gouvernement, de présenter les meilleures pratiques et de promouvoir la conception inclusive et l'accessibilité par défaut.
 
-Les rôles clés seront définis sur la base du projet <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping">Correspondance des rôles et responsabilités en matière d'accessibilité <small>(en anglais seulement)</small></a> du <span lang="en">World Wide Web Consortium (<abbr>W3C</abbr>)</span>.
+Les rôles clés seront définis sur la base du projet <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping">Correspondance des rôles et responsabilités en matière d'accessibilité <span lang="fr">(en anglais seulement)</span></a> du <span lang="en">World Wide Web Consortium (<abbr>W3C</abbr>)</span>.
 
 ## Structure de rapport
 
@@ -81,7 +81,7 @@ Un bref résumé de l'état d'avancement du projet sera fourni au minimum lors d
 
 Les méthodes de contribution pourraient se faire d'une ou plusieurs des manières suivantes:
 
-1. Forum de <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">discussion GitHub<small> (en anglais seulement)</small></a> ouvert ;
+1. Forum de <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">discussion GitHub <span lang="fr">(en anglais seulement)</span></a> ouvert ;
 
     1. GitHub,
     2. par courriel, ou
@@ -115,8 +115,8 @@ Mise en place d'un cycle de maintenance approprié, comprenant l'examen du conte
 
 ## Ressources
 
-- <a href="https://github.com/alphagov">Service Numérique Gouvernemental <small>(en anglais seulement)</small></a> Projets sur GitHub
-- <a href="https://www.a11yproject.com/">Le Projet A11Y <small>(en anglais seulement)</small></a>
-- <a href="https://accessibility-manual.dwp.gov.uk/">Manuel d'accessibilité du DWP <small>(en anglais seulement)</small></a>
-- <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping">Projet ARRM - Cartographie des rôles et responsabilités en matière d'accessibilité <small>(en anglais seulement)</small></a>
+- <a href="https://github.com/alphagov">Service Numérique Gouvernemental <span lang="fr">(en anglais seulement)</span></a> Projets sur GitHub
+- <a href="https://www.a11yproject.com/">Le Projet A11Y <span lang="fr">(en anglais seulement)</span></a>
+- <a href="https://accessibility-manual.dwp.gov.uk/">Manuel d'accessibilité du DWP <span lang="fr">(en anglais seulement)</span></a>
+- <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping">Projet ARRM - Cartographie des rôles et responsabilités en matière d'accessibilité <span lang="fr">(en anglais seulement)</span></a>
 - [Guide de style du contenu de Canada.ca](https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html)
