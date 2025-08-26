@@ -47,11 +47,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/contact-us/</loc>
-		<lastmod>2023-11-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/liste-des-pages-tableau/</loc>
 		<lastmod>2023-12-01</lastmod>
 	</url>
@@ -138,11 +133,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/links/fr/norme-sur-l-accessibilite-des-sites-web/</loc>
-		<lastmod>2024-02-09</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/contactez-nous/</loc>
 		<lastmod>2024-02-09</lastmod>
 	</url>
 	
@@ -1094,5 +1084,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/links/fr/la-loi-sur-l-accessibilite-pour-les-personnes-handicapees-de-l-ontario-2005/</loc>
 		<lastmod>2025-08-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/contact-us/</loc>
+		<lastmod>2025-08-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/contactez-nous/</loc>
+		<lastmod>2025-08-26</lastmod>
 	</url>
 </urlset>
