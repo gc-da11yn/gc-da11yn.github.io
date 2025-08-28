@@ -1,0 +1,26 @@
+---
+title: Accessibility in your role
+description: We all have a role to play in accessibility. Learn more about job-specific accessibility tips and how to integrate them into your day-to-day work.
+permalink: '/{{ locale }}/roles/'
+toggle: roles
+tags:
+  - main
+---
+
+{% include "partials/alert-landingpages.njk" %}
+
+<div class="row mrgn-tp-lg gc-drmt">
+	{% for roleGroup in groupPairsEn %}
+	<div class="col-md-6">
+		<h2>
+			<a href="{{ pathPrefix }}{{ permalinkPrefix }}{{ locale }}/roles/{{ roleGroup[0] }}/">{{ roleGroup[1] }}</a>
+		</h2>
+		<ul class="list-inline">
+			{% for roleLabel in roleGroup[3] %}
+			<li class="label label-success m-1">{{ roleLabel }}</li>
+			{% endfor %}
+		</ul>
+		<p>{{ roleGroup[2] }}</p>
+	</div>
+	{% endfor %}
+</div>
