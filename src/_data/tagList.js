@@ -6,7 +6,7 @@ module.exports = {
 			createDocument: "Créer un document",
 			createEmails: "Créer un courriel",
 			createForms: "Créer un formulaire",
-			createWebContent: "Créer du contenu Web",
+			createWebContent: "Créer du contenu web",
 			designCourse: "Concevoir un cours",
 			designingAccessible:
 				"Principes de conception pour des services accessibles",
@@ -27,8 +27,8 @@ module.exports = {
 				"Comment créer des documents accessibles dans Microsoft 365",
 		},
 		en: {
-			aboutDisabilities: "Most Common Types of Disability",
-			globalAccessibilityStandards: "Global Accessibility Standards",
+			aboutDisabilities: "Most common types of disability",
+			globalAccessibilityStandards: "Global accessibility standards",
 			createDocument: "Create document",
 			createEmails: "Create emails",
 			createForms: "Create forms",
@@ -37,12 +37,12 @@ module.exports = {
 			designingAccessible: "Designing accessible services",
 			accessibleVirtualEvents: "Accessible virtual events",
 			testYourProducts: "Test your products",
-			accessibilityAct: "Accessibility Act",
+			accessibilityAct: "Accessibility act",
 			procurement: "Procurement",
 			accessibilityStandards: "Accessibility standards",
-			communityDirectory: "Community Directory",
+			communityDirectory: "Community directory",
 			aboutTheDigitalTheAccessibilityToolkitProject:
-				"About the Digital the accessibility toolkit project",
+				"About the Digital the Accessibility Toolkit project",
 			contactUs: "Contact us",
 			accessibilityInYourRole: "Accessibility in your role",
 			mainAbout: "About us section on homepage",
@@ -60,15 +60,17 @@ module.exports = {
 			accessibilityInTheGovernmentOfCanada:
 				"Accessibilité numérique au gouvernement du Canada",
 			aboutUs: "À propos de nous",
+			roles: "Accessibilité dans votre rôle",
 		},
 		en: {
-			accessibilityFundamentals: "Accessibility Fundamentals",
+			accessibilityFundamentals: "Accessibility fundamentals",
 			howTos: "How-tos",
-			resourcesAndTools: "Resources and Tools",
-			learningAndDevelopment: "Learning and Development",
+			resourcesAndTools: "Resources and tools",
+			learningAndDevelopment: "Learning and development",
 			accessibilityInTheGovernmentOfCanada:
 				"Digital accessibility in the Government of Canada",
-			aboutUs: "About Us",
+			aboutUs: "About us",
+			roles: "Accessibility in your role",
 		},
 	},
 };
