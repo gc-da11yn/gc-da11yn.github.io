@@ -5,6 +5,9 @@ tags:
   - howTos
   - updatesMain
 toggle: rendre-vos-courriels-accessibles
+role:
+  - contentAuthoring
+  - contentPublishing
 tocSimple: true
 ---
 

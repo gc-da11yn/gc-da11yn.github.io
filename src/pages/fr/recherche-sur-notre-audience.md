@@ -4,6 +4,8 @@ description: En développant une meilleure compréhension de nos utilisateurs, n
 tags:
   - aboutUs
 toggle: research-on-our-target-audience
+role:
+  - uxResearch
 ---
 
 ## À propos de la création de notre personnage

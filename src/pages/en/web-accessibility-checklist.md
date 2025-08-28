@@ -2,6 +2,9 @@
 title: Web Accessibility Checklist
 description: Checklist to verify the web page content if it is accessible or not.
 toggle: liste-de-verification-pour-laccessibilite-web
+role:
+  - qaAutomated
+  - qaManual
 subject:
 - howTos
 tags:

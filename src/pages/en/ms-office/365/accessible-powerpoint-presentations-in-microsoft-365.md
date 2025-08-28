@@ -2,6 +2,9 @@
 title: Accessible PowerPoint presentations in Microsoft 365
 description: Accessible practices for Microsoft PowerPoint document creation.
 toggle: presentations-powerpoint-accessibles-dans-microsoft-365
+role:
+  - contentAuthoring
+  - contentPublishing
 fontIcon: fa-file-powerpoint
 ---
 

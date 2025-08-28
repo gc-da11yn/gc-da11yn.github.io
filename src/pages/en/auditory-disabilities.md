@@ -8,6 +8,9 @@ tags:
 audience:
   - Everyone
 toggle: deficiences-auditives
+role:
+  - uxResearch
+  - uxDesign
 ---
 
 - <a href="{{ pathPrefix }}/docs/posters/Hearing-en_2023.pdf" download>Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a>

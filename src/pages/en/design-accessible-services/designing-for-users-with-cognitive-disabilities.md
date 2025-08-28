@@ -4,6 +4,8 @@ description: What to do - and what <strong>not</strong> to do - when designing f
 tags:
   - designingAccessible
 toggle: principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif
+role:
+  - uxDesign
 subject:
   - howTos
 ---

@@ -1,6 +1,9 @@
 ---
 title: Accessibility Testing 101
 description: For anyone wanting to create accessible content, we encourage you to use automated accessibility testing tools. These testing tools will help content creators as they build their content by finding errors and offering suggestions to improve the accessibility of their product, application or web site. On this page a list of recommended accessibility testing tools has been made available.
+role:
+  - contentAuthoring
+  - qaAutomated
 toggle: test-daccessibilite-101
 subject:
   - howTos

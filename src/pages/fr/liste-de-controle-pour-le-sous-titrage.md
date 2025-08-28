@@ -2,6 +2,8 @@
 title: Liste de contrôle pour le sous-titrage
 description: Pour ne rien oublier avec votre sous-titrage.
 toggle: captioning-checklist
+role:
+  - contentPublishing
 subject:
   - howTos
 tags:

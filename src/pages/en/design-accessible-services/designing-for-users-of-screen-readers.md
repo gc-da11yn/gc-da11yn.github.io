@@ -4,6 +4,10 @@ description: What to do - and what <strong>not</strong> to do - when designing f
 tags:
   - designingAccessible
 toggle: concevoir-pour-les-utilisateurs-de-revues-decran
+role:
+  - uxDesign
+  - visualDesign
+  - frontEndDev
 subject:
   - howTos
 ---

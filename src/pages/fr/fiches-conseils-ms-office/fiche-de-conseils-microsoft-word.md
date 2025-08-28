@@ -1,5 +1,11 @@
 ---
 title: Feuille de conseils pour Microsoft Word
+description: Référence rapide aux meilleures pratiques d'accessibilité pour les documents Word.
+toggle: tip-sheet-for-microsoft-word
+role:
+  - contentAuthoring
+  - contentPublishing
+---itle: Feuille de conseils pour Microsoft Word
 description: Référence rapide aux meilleures pratiques d’accessibilité pour les documents Word.
 toggle: tip-sheet-for-microsoft-word
 ---

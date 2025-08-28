@@ -11,6 +11,9 @@ hasDocument:
   sizeUnit: "KB"
   type: "word"
 toggle: exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles
+role:
+  - governance
+  - frontEndDev
 ---
 
 {% include "information-and-communication-technology-ict-accessibility-requirements/intro.njk" %}

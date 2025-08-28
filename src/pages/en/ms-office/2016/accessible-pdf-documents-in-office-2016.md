@@ -2,6 +2,9 @@
 title: Accessible PDF documents in Office 2016
 description: Accessible practices for PDF document creation.
 toggle: documents-pdf-accessibles-dans-office-2016
+role:
+  - contentAuthoring
+  - contentPublishing
 fontIcon: fa-file-pdf
 ---
 
