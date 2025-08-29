@@ -239,6 +239,21 @@ module.exports = function (eleventyConfig) {
     return md.render(value);
   });
 
+  // Add split filter for Nunjucks
+  eleventyConfig.addNunjucksFilter("split", function (str, separator) {
+    if (typeof str !== 'string') return [];
+    return str.split(separator || ' ');
+  });
+
+  // Add wordCount filter for convenience
+  eleventyConfig.addNunjucksFilter("wordCount", function (content) {
+    if (!content) return 0;
+    const text = typeof content === 'string' ? content : String(content);
+    const stripped = stripHtml(text).result;
+    const words = stripped.trim().split(/\s+/);
+    return words.length === 1 && words[0] === '' ? 0 : words.length;
+  });
+
   let changedFilesMap = new Map();
   let changedFilePaths = new Set();
   let gitChangedUrls = [];
@@ -368,6 +383,26 @@ module.exports = function (eleventyConfig) {
     // Clear the set for the next watch cycle
     changedFilePaths.clear();
     gitChangedUrls = [];
+  });
+
+  // Add computed data for git creation dates
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    gitCreated: (data) => {
+      if (data.page && data.page.inputPath) {
+        try {
+          const gitCommand = `git log --format="%ai" --reverse "${data.page.inputPath}" | head -1`;
+          const result = execSync(gitCommand, { encoding: 'utf8' }).trim();
+
+          if (result) {
+            return new Date(result);
+          }
+        } catch (error) {
+          // Silently handle errors - some files might not have git history
+          // console.error(`Error getting git creation date for ${data.page.inputPath}:`, error.message);
+        }
+      }
+      return null;
+    }
   });
 
   return {
