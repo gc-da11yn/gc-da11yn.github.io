@@ -83,9 +83,9 @@ Numéro de téléphone :
 
 ### Norme d’accessibilité cible
 
-À partir de janvier 2025, le gouvernement du Canada met en œuvre la [norme CAN/ASC – EN 301 549:2024](https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic) / [EN 301 549 V3.2.1 (2021-03)<small> (<abbr title="Portable Document Format">PDF</abbr>, 2.3 <abbr title="Megabite">MB</abbr>), (en anglais seulement)</small>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf).
+À partir de janvier 2025, le gouvernement du Canada met en œuvre la [norme CAN/ASC – EN 301 549:2024](https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic) / [EN 301 549 V3.2.1 (2021-03) <span lang="fr">(en anglais seulement)</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf).
 
-La [norme CAN/ASC – EN 301 549:2024](https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic) est l’adoption par Normes d’accessibilité Canada de la norme [EN 301 549 – V3.2.1 (2021-03)<small> (<abbr title="Portable Document Format">PDF</abbr>, 2.3 <abbr title="Megabite">MB</abbr>), (en anglais seulement)</small>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) comme norme nationale du Canada et est identique à la version officielle publiée par l’Institut Européen de Normalisation des Télécommunications (ETSI). La norme sur les exigences d’accessibilité CAN/ASC – EN 301 549:2024 est disponible en format HTML en français et en anglais.
+La [norme CAN/ASC – EN 301 549:2024](https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic) est l’adoption par Normes d’accessibilité Canada de la norme [EN 301 549 – V3.2.1 (2021-03) <span lang="fr">(en anglais seulement)</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) comme norme nationale du Canada et est identique à la version officielle publiée par l’Institut Européen de Normalisation des Télécommunications (ETSI). La norme sur les exigences d’accessibilité CAN/ASC – EN 301 549:2024 est disponible en format HTML en français et en anglais.
 
 Ce modèle peut être utilisé pour des versions ultérieures de la norme EN 301 549 et/ou d’autres normes d’accessibilité des TIC. Le gouvernement du Canada indiquera la norme d’accessibilité des TIC applicable pour laquelle la conformité est demandée.
 
@@ -330,7 +330,7 @@ Le fournisseur accepte de corriger toutes les lacunes en matière d’accessibil
 </thead>
 <tbody>
 <tr>
-<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=46">EN 9.1.4.3 Contraste (Minimum)<small> (<abbr title="Portable Document Format">PDF</abbr>, 2.3 <abbr title="Megabite">MB</abbr>), (en anglais seulement)</small></a></td>
+<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=46">EN 9.1.4.3 Contraste (Minimum) <span lang="fr">(en anglais seulement)</span></a></td>
 <td>Le menu principal manque de contraste.</td>
 <td>Les étiquettes dans le menu principal ne présentent pas un rapport de contraste de 4,5:1.</td>
 <td>Faible</td>
@@ -340,7 +340,7 @@ Le fournisseur accepte de corriger toutes les lacunes en matière d’accessibil
 <td>Un schéma à contraste élevé peut être utilisé. Les instructions seront fournies aux utilisateurs.</td>
 </tr>
 <tr>
-<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=47">EN 9.2.1.1 Clavier<small> (<abbr title="Portable Document Format">PDF</abbr>, 2.3 <abbr title="Megabite">MB</abbr>), (en anglais seulement)</small></a></td>
+<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=47">EN 9.2.1.1 Clavier <span lang="fr">(en anglais seulement)</span></a></td>
 <td>Le menu principal n’est pas accessible par le clavier.</td>
 <td>Le menu principal de la page n’est pas focalisable à l’aide d’un clavier.</td>
 <td>Élevée</td>
@@ -350,7 +350,7 @@ Le fournisseur accepte de corriger toutes les lacunes en matière d’accessibil
 <td>Des liens directs vers chaque page du menu principal seront fournis à tous les utilisateurs.</td>
 </tr>
 <tr>
-<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=47">EN 9.2.1.1 Clavier<small> (<abbr title="Portable Document Format">PDF</abbr>, 2.3 <abbr title="Megabite">MB</abbr>), (en anglais seulement)</small></a></td>
+<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=47">EN 9.2.1.1 Clavier <span lang="fr">(en anglais seulement)</span></a></td>
 <td>La zone de liste déroulante n’est pas accessible au clavier.</td>
 <td>Les 23 zones de liste déroulante ne sont pas accessibles au clavier et ne peuvent pas être consultées par les utilisateurs n’ayant accès qu’au clavier.</td>
 <td>Élevée</td>

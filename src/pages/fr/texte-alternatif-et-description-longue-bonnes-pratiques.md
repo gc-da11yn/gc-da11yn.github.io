@@ -78,7 +78,7 @@ En fonction du graphique et des informations qu'il tente de transmettre, la desc
 Lorsqu'on utilise un organigramme ou une carte conceptuelle pour montrer un processus ou la relation entre des concepts, la description longue peut être rédigée sous la forme d'une liste. Voici deux exemples de descriptions longues pour les organigrammes:
 
 - [Diagramme de processus pour la réalisation des plans d'achats écologiques - Achats écologiques - Achats et ventes - TPSGC (tpsgc-pwgsc.gc.ca)](https://www.tpsgc-pwgsc.gc.ca/app-acq/ae-gp/opp-pfc-fra.html)
-- [Accessibilité à Penn State | Organigrammes et cartes conceptuelles (psu.edu) (en anglais seulement)](https://accessibility.psu.edu/images/flowcharts/)
+- [Accessibilité à Penn State | Organigrammes et cartes conceptuelles (psu.edu) <span lang="fr">(en anglais seulement)</span>](https://accessibility.psu.edu/images/flowcharts/)
 
 ### Tableaux
 
@@ -141,9 +141,9 @@ Si la carte indique des directions, le texte alternatif doit le refléter. La de
 
 ## Liens utiles sur le texte alternatif
 
-- <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">Contenu non textuel - Comprendre SC 1.1.1 (<abbr>WCAG</abbr>)<small> (en anglais seulement)</small></a>
-- <a href="https://html.spec.whatwg.org/multipage/images.html#alt">Obligation de fournir du texte pour remplacer les images (HTML5)<small> (en anglais seulement)</small></a>
-- <a href="https://www.w3.org/TR/turingtest/">Inaccessibilité du CAPTCHA (Note du projet du groupe W3C)<small> (en anglais seulement)</small></a>
+- <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">Contenu non textuel - Comprendre SC 1.1.1 (<abbr>WCAG</abbr>) <span lang="fr">(en anglais seulement)</span></a>
+- <a href="https://html.spec.whatwg.org/multipage/images.html#alt">Obligation de fournir du texte pour remplacer les images (HTML5) <span lang="fr">(en anglais seulement)</span></a>
+- <a href="https://www.w3.org/TR/turingtest/">Inaccessibilité du CAPTCHA (Note du projet du groupe W3C) <span lang="fr">(en anglais seulement)</span></a>
 - [Images et vidéos (Guide de rédaction de contenu du site Canada.ca)](https://conception.canada.ca/guide-redaction/#toc10)
-- Il peut être difficile de savoir ce qu'il faut mettre dans un texte alternatif, et de savoir quand un texte alternatif est nécessaire et quand il ne l'est pas. <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">L'arbre de décision pour texte alternatif du W3C<small> (en anglais seulement)</small></a> peut vous aider à déterminer ce qu'il faut faire dans certaines situations.
+- Il peut être difficile de savoir ce qu'il faut mettre dans un texte alternatif, et de savoir quand un texte alternatif est nécessaire et quand il ne l'est pas. <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">L'arbre de décision pour texte alternatif du W3C <span lang="fr">(en anglais seulement)</span></a> peut vous aider à déterminer ce qu'il faut faire dans certaines situations.
 - [Guide de rédaction du contenu du site Canada.ca - Ajouter une description longue pour expliquer les images complexes](https://conception.canada.ca/guide-redaction/#wp6-3)

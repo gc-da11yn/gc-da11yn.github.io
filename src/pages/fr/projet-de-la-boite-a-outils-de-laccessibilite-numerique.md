@@ -13,7 +13,7 @@ Collaborer à la création d’une structure et d’une plateforme pour centrali
 Le Groupe de travail sur l’accès (<abbr>GTA</abbr>) aimerait permettre la centralisation interministérielle et le partage de l’information sur l’accessibilité produite par les ministères du <abbr title="gouvernement du Canada">GC</abbr> dans un dépôt central et un espace de partage.
 
 - [Groupe de travail sur la Boîte à outils sur l’accessibilité numérique (<abbr>DAT</abbr>) - Mandat]({{ pathPrefix }}/fr/mandats/)
-- <a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Boîte à Outils de l'Accessibilité numérique - Dépôt Github <small>(en anglais seulement)</small></a>
+- <a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Boîte à Outils de l'Accessibilité numérique - Dépôt Github <span lang="fr">(en anglais seulement)</span></a>
 
 ## Partage
 
@@ -38,7 +38,7 @@ La Boîte à Outils de l'Accessibilité numérique (<abbr>BOAN</abbr>) va égale
 
 ### Rôles et responsabilités
 
-Les rôles clés seront définis sur la base du projet <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping">Cartographie des rôles et responsabilités en matière d'accessibilité <small>(en anglais seulement)</small></a> du <span lang="en">World Wide Web Consortium (<abbr>W3C</abbr>)</span>.
+Les rôles clés seront définis sur la base du projet <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping">Cartographie des rôles et responsabilités en matière d'accessibilité <span lang="fr">(en anglais seulement)</span></a> du <span lang="en">World Wide Web Consortium (<abbr>W3C</abbr>)</span>.
 
 ## Mandat et autorité de décision
 

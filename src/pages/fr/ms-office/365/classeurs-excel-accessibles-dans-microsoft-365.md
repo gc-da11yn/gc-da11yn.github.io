@@ -41,7 +41,7 @@ Choisissez des polices et des styles faciles à lire.
 
 ### Utilisation de la couleur
 
-Utilisez un <a href="https://webaim.org/resources/contrastchecker/">outil de vérification du contraste<small> (en anglais seulement)</small></a> pour vérifier le contraste du texte (en premier plan) par rapport à l’arrière-plan. Pour la plupart des textes, le rapport de contraste doit être de 4,5:1. Pour les polices de grandes tailles et en caractère gras (caractère gras de 14 points ou régulier de 18 points), cette exigence est assouplie à 3:1. Comme il est très probable que la feuille soit visualisée à un zoom faible (pour en voir plus), tout le texte doit respecter un rapport minimum de 4,5:1. Visez l’exigence WCAG AAA de 7:1.
+Utilisez un <a href="https://webaim.org/resources/contrastchecker/">outil de vérification du contraste <span lang="fr">(en anglais seulement)</span></a> pour vérifier le contraste du texte (en premier plan) par rapport à l’arrière-plan. Pour la plupart des textes, le rapport de contraste doit être de 4,5:1. Pour les polices de grandes tailles et en caractère gras (caractère gras de 14 points ou régulier de 18 points), cette exigence est assouplie à 3:1. Comme il est très probable que la feuille soit visualisée à un zoom faible (pour en voir plus), tout le texte doit respecter un rapport minimum de 4,5:1. Visez l’exigence WCAG AAA de 7:1.
 
 **Évitez d’utiliser** uniquement la couleur pour donner un sens ou une importance à un mot, une cellule ou un bloc de texte. Il est possible d’ajouter un motif à la couleur pour les utilisateurs daltoniens. Les champs obligatoires doivent être identifiés par un astérisque (*) et le mot «&nbsp;requis&nbsp;» plutôt qu’inscrits en rouge.
 
@@ -72,7 +72,7 @@ Veillez à ce que les images et les graphiques complexes comportent de longues d
 
 Pour ajouter une description longue aux diagrammes et aux graphiques, décrire l’objet de façon concise (voir l’exemple du diagramme avec titre) comme est définis ci-dessus. Ensuite, inclure une description plus longue et détaillée en dessous de l’objet
 
-Consultez la page <a href="https://www.w3.org/WAI/tutorials/images/complex/">Images complexes<small> (en anglais seulement)</small></a> pour d’autres recommandations.
+Consultez la page <a href="https://www.w3.org/WAI/tutorials/images/complex/">Images complexes <span lang="fr">(en anglais seulement)</span></a> pour d’autres recommandations.
 
 ## Hyperliens
 

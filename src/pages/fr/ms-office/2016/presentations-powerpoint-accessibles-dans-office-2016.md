@@ -186,6 +186,6 @@ Vous pouvez également effectuer l’une des opérations suivantes après avoir 
 
 ## Ressources supplémentaires
 
-- <a href="https://webaim.org/techniques/powerpoint/">AIM Web : Création de présentations PowerPoint accessibles<small> (en anglais seulement)</small></a>
+- <a href="https://webaim.org/techniques/powerpoint/">AIM Web : Création de présentations PowerPoint accessibles <span lang="fr">(en anglais seulement)</span></a>
 - [Microsoft : Rendre vos présentations PowerPoint accessibles aux personnes atteintes de handicaps](https://support.office.com/fr-fr/article/rendre-vos-pr%C3%A9sentations-powerpoint-accessibles-aux-personnes-atteintes-de-handicaps-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25)
-- <a href="https://www.queensu.ca/accessibility/how-info/accessible-documents/accessible-powerpoint-presentations-checklist">Université Queen’s : Liste de vérification pour créer des présentations PowerPoint accessibles<small> (en anglais seulement)</small></a>
+- <a href="https://www.queensu.ca/accessibility/how-info/accessible-documents/accessible-powerpoint-presentations-checklist">Université Queen’s : Liste de vérification pour créer des présentations PowerPoint accessibles <span lang="fr">(en anglais seulement)</span></a>

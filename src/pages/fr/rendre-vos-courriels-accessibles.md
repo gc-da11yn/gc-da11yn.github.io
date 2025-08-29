@@ -78,8 +78,8 @@ En suivant ces étapes, vous permettrez une reconnaissance linguistique précise
 ### Resources
 
 - [Guide de rédaction du contenu du site Canada.ca — Langage clair et simple](https://conception.canada.ca/guide-redaction/#toc6)
-- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf" download lang="en">Putting plain language into practice<small lang="fr"> (en anglais seulement)</small></a>
-- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf" download lang="en">Plain Language Audit Tool—A checklist to review documents<small lang="fr"> (en anglais seulement)</small></a>
+- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf" download lang="en">Putting plain language into practice <span lang="fr">(en anglais seulement)</span></a>
+- <a href="https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf" download lang="en">Plain Language Audit Tool—A checklist to review documents <span lang="fr">(en anglais seulement)</span></a>
 
 ## Styles
 
@@ -147,7 +147,7 @@ N’utilisez pas la couleur comme seul moyen de transmettre de l’information. 
 - Pour être accessible, le contraste (texte foncé sur fond clair ou texte clair sur fond foncé) doit être supérieur ou égal à :
   - 4,5:1 pour le texte de petite taille (moins de 14 points);
   - 3:1 pour le texte de grande taille (14 points ou plus).
-- Mesurez le contraste entre les couleurs de texte et d’arrière‑plan à l’aide d’un outil comme le <a href="http://webaim.org/resources/contrastchecker" lang="en">WebAIM’s Colour Contrast Checker<small lang="fr"> (en anglais seulement)</small></a>.
+- Mesurez le contraste entre les couleurs de texte et d’arrière‑plan à l’aide d’un outil comme le <a href="http://webaim.org/resources/contrastchecker" lang="en">WebAIM’s Colour Contrast Checker <span lang="fr">(en anglais seulement)</span></a>.
 - Limitez l’utilisation de couleurs vives et saturées.
 - Évitez la couleur pour le texte sauf s’il s’agit d’un hyperlien.
 

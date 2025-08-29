@@ -4240,7 +4240,7 @@ toggle: information-and-communication-technology-ict-accessibility-requirements
 				<p>REMARQUE 2 : Un document peut être composé de plusieurs fichiers, comme du contenu vidéo et des sous-titres. La plupart du temps, cela n’est pas apparent pour l’utilisateur final qui parcourt le document/contenu. </p>
 				<p>REMARQUE 3 : Les documents nécessitent un agent utilisateur pour que le contenu soit présenté à l’utilisateur. Les exigences relatives aux agents utilisateurs se trouvent à la clause 11. </p>
 				<p>REMARQUE 4 : Les exigences relatives au contenu qui fait partie du logiciel se trouvent à la clause 11. </p>
-				<p>REMARQUE 5 : Les critères de succès énoncés à la clause 10 visent à s’harmoniser avec la Note du groupe de travail [i.26] produite par le <a href="http://www.w3.org/WAI/GL/WCAG2ICT-TF/">WCAG2ICT Task Force<small> (en anglais seulement)</small></a> du W3C. </p>
+				<p>REMARQUE 5 : Les critères de succès énoncés à la clause 10 visent à s’harmoniser avec la Note du groupe de travail [i.26] produite par le <a href="http://www.w3.org/WAI/GL/WCAG2ICT-TF/">WCAG2ICT Task Force <span lang="fr">(en anglais seulement)</span></a> du W3C. </p>
 				<p>REMARQUE 6  : Des clauses « nul » ont été insérées afin de maintenir l’harmonisation avec la numérotation des clauses 9, 10 et 11.</p>
 				<p>REMARQUE 7  : Les exigences de la clause 10 s’appliquent également aux documents qui sont protégés par des mécanismes tels que les signatures numériques, le chiffrement, la protection par mot de passe et les filigranes lorsqu’ils sont présentés à l’utilisateur.</p>
 				<p>REMARQUE 8  : La pratique exemplaire consiste à utiliser WebSchemas/Accessibility 2.0 [i.38] pour fournir des métadonnées sur l’accessibilité du document au sein ou séparément du document.</p>
@@ -8662,13 +8662,13 @@ toggle: information-and-communication-technology-ict-accessibility-requirements
 {% include "information-and-communication-technology-ict-accessibility-requirements/table9-1.njk" %}
 {% include "information-and-communication-technology-ict-accessibility-requirements/chapter14.njk" %}
 
-## Annexe - Références (de la norme EN 301 549 –<small> (en anglais seulement)</small>)
+## Annexe - Références (de la norme EN 301 549 – <span lang="fr">(en anglais seulement)</span>)
 
 ### 2.1 Références normatives
 
 Les références sont spécifiques, identifiées par leur date de publication et/ou leur numéro d'édition ou leur numéro de version. Seule la version citée est applicable.
 
-Les documents cités en référence qui ne sont pas disponibles publiquement à l'emplacement prévu peuvent se trouver à <a href="https://docbox.etsi.org/Reference">ETSI References in docbox<small> (en anglais seulement)</small></a>.
+Les documents cités en référence qui ne sont pas disponibles publiquement à l'emplacement prévu peuvent se trouver à <a href="https://docbox.etsi.org/Reference">ETSI References in docbox <span lang="fr">(en anglais seulement)</span></a>.
 
 REMARQUE : Bien que les hyperliens inclus dans cette clause soient valides au moment de la publication, ETSI ne peut en garantir la validité à long terme.
 
