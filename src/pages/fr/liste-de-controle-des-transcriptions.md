@@ -2,6 +2,8 @@
 title: Liste de contrôle des transcriptions
 description: Outil pour s’assurer de rien oublier.
 toggle: transcript-checklist
+role:
+  - contentPublishing
 subject:
   - howTos
 tags:

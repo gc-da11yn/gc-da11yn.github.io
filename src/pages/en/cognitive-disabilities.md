@@ -27,6 +27,9 @@ Keywords:
 audience:
   - Everyone
 toggle: handicaps-cognitifs
+role:
+  - uxResearch
+  - uxDesign
 ---
 
 - <a href="{{ pathPrefix }}/docs/posters/AutismSpect-en_2023.pdf" download>Designing for users on the autism spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>

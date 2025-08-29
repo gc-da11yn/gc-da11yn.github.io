@@ -1,0 +1,96 @@
+---
+tags: role
+pagination:
+  data: rolePairs         # global (see below)
+  size: 1
+  alias: rolePair         # [roleKey, roleMeta]
+permalink: "/{{ locale }}/roles/{{ rolePair[0] }}/"
+eleventyComputed:
+  title: "{{ roles.labels[locale][rolePair[0]] }}"
+  description: "{{ roles.arrm[locale][rolePair[0]].description if roles.arrm[locale][rolePair[0]] else 'Resources and guidance for ' + roles.labels[locale][rolePair[0]] | lower + ' roles in digital accessibility.' }}"
+  toggle: "roles/{{ rolePair[0] }}"
+---
+{% set lang = locale or 'en' %}
+{% set rolesData = roles %}
+{% set roleKey = rolePair[0] %}
+{% set groupKey = rolesData.roles[roleKey].group %}
+{% set groupName = rolesData.groups[lang][groupKey] %}
+
+<div class="mrgn-bttm-lg">
+  <p>
+    <span class="label label-success">{{ rolesData.labels[lang][roleKey] }}</span>
+    <span class="mrgn-lft-sm">Part of the <a href="{{ pathPrefix }}{{ permalinkPrefix }}{{ locale }}/roles/{{ groupKey }}/">{{ groupName }}</a></span>
+  </p>
+</div>
+
+{% if rolesData.arrm[lang][roleKey] %}
+<section class="mrgn-bttm-xl">
+  {% if rolesData.arrm[lang][roleKey].keyDeliverables %}
+  <h4>Key deliverable examples:</h4>
+  <ul>
+    {% for deliverable in rolesData.arrm[lang][roleKey].keyDeliverables %}
+    <li>{{ deliverable }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if rolesData.arrm[lang][roleKey].tasks %}
+  <h4>Tasks include:</h4>
+  <ul>
+    {% for task in rolesData.arrm[lang][roleKey].tasks %}
+    <li>{{ task }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  <h4>Example job titles for this role:</h4>
+  <ul>
+    {% for title in rolesData.arrm[lang][roleKey].jobTitles %}
+    <li>{{ title }}</li>
+    {% endfor %}
+  </ul>
+
+  {% if rolesData.arrm[lang][roleKey].groupDescription %}
+  <h4>Role group description:</h4>
+  <p>{{ rolesData.arrm[lang][roleKey].groupDescription }}</p>
+  {% endif %}
+
+  <p><small>This role description is adapted from the <a href="https://www.w3.org/WAI/planning/arrm/roles/" rel="external">W3C WAI Accessibility Roles and Responsibilities Mapping (ARRM)</a>. You are welcome to use this information as is, or change it for your situation.</small></p>
+</section>
+{% endif %}
+
+{% set items = collections.rolePages
+  | byAnyRole([roleKey])
+  | localeMatch(locale)
+  | sort(false, false, 'data.title') %}
+
+{% if items.length %}
+<section class="mrgn-bttm-xl">
+  <h2>Resources and guidance</h2>
+  <div class="row wb-eqht mrgn-tp-lg gc-drmt">
+  {% for item in items %}
+    <div class="col-md-6">
+      <h2 class="h4">
+        <a{% if item.data.redirect %} rel="external"{% endif %}
+           href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ pathPrefix }}{{ item.url }}{% endif %}"
+           {% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>
+          {% if item.data.internal === true %}
+            <span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span>
+            <span class="wb-inv"> {{ alerts[locale].hiddenTextLink }}</span>
+          {% endif %}
+          {{ item.data.title | safe }}
+          {% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}
+        </a>
+      </h2>
+      <p>
+        {% if item.data.description %}
+          {{ item.data.description | safe }}
+        {% else %}
+          {{ landingPage[locale].descriptionNoneText }}
+        {% endif %}
+      </p>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+{% endif %}

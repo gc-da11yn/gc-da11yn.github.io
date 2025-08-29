@@ -6,6 +6,9 @@ subject:
 tags:
   - designCourse
 toggle: universal-design-for-learning-udl
+role:
+  - contentAuthoring
+  - uxDesign
 category:
   - Pratiques exemplaires
   - Rédaction de contenu

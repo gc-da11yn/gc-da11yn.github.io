@@ -4,6 +4,8 @@ description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> fair
 tags:
   - designingAccessible
 toggle: designing-for-users-with-cognitive-disabilities
+role:
+  - uxDesign
 subject:
   - howTos
 ---

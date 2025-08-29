@@ -1,0 +1,19 @@
+---
+tags: roleGroup
+pagination:
+  data: groupPairsFr
+  size: 1
+  alias: groupPair
+permalink: "/{{ locale }}/roles/{{ groupPair[0] }}/"
+eleventyComputed:
+  title: "{{ groupPair[1] }}"
+  description: "{{ groupPair[2] }}"
+  toggle: "roles/{{ groupPair[0] }}"
+---
+{% set lang = locale or 'fr' %}
+{% set rolesData = roles %}
+{% set groupKey = groupPair[0] %}
+{% set groupRoleKeys = groupKey | roleKeysForGroup(rolesData) %}
+
+{% include "partials/role-mini-toc.njk" %}
+{% include "partials/role-group-sections.njk" %}

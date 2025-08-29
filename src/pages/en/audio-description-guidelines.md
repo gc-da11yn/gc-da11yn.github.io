@@ -6,6 +6,9 @@ subject:
 tags:
   - createWebContent
 toggle: directives-pour-la-description-sonore
+role:
+  - contentAuthoring
+  - contentPublishing
 audience:
   - Everyone
 ---

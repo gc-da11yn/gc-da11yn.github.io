@@ -5,6 +5,9 @@ tags:
   - howTos
   - updatesMain
 toggle: making-accessible-emails
+role:
+  - contentAuthoring
+  - contentPublishing
 tocSimple: true
 ---
 

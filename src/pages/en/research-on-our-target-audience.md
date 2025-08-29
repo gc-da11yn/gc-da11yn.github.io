@@ -4,6 +4,8 @@ description: By developing a greater understanding of our users, we hope to buil
 tags:
   - aboutUs
 toggle: recherche-sur-notre-audience
+role:
+  - uxResearch
 ---
 
 ## The creation of our persona

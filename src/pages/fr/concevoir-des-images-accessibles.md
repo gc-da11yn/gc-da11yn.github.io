@@ -2,9 +2,12 @@
 title: Concevoir des images accessibles
 description: Grâce à ce diagramme, vous apprendrez à faire le meilleur choix pour concevoir des images accessibles.
 toggle: designing-accessible-images
+role:
+  - visualDesign
+  - contentAuthoring
 ---
 
-<img src="{{ pathPrefix }}img/fr/introduction/image-accessible.jpg" class="img-responsive" alt="Une infographie sur la façon d'utiliser des images accessibles et d'utiliser le texte alternatif. Longue description ci-dessous" />
+<img src="{{ pathPrefix }}/img/fr/introduction/image-accessible.jpg" class="img-responsive" alt="Une infographie sur la façon d'utiliser des images accessibles et d'utiliser le texte alternatif. Longue description ci-dessous" />
 
 ## L'objectif des images
 

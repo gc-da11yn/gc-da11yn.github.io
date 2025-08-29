@@ -9,6 +9,10 @@ subject:
 tags:
   - procurement
   - updatesMain
+role:
+  - businessAnalysis
+  - projectManagement
+  - governance
 hasDocument:
   type: word
   sizeNumber: 78

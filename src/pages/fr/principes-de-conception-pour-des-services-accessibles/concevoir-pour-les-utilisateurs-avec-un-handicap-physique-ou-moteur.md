@@ -4,6 +4,9 @@ description: Ce qu’il faut faire — et ce qu’il ne faut <strong>pas</strong
 tags:
   - designingAccessible
 toggle: designing-for-users-with-physical-or-motor-disabilities
+role:
+  - uxDesign
+  - frontEndDev
 subject:
   - howTos
 ---
