@@ -4,11 +4,10 @@ layout: false
 eleventyExcludeFromCollections: true
 date: "git Last Modified"
 ---
-{% set roles_data = roles %}
-{% macro csv(val) -%}
+{%- set roles_data = roles -%}
+{%- macro csv(val) -%}
   "{{ (val | default('') | string | replace('"', '""')) }}"
 {%- endmacro -%}
-
 {%- macro listify(val) -%}
   {%- if val is defined and val is not none -%}
     {%- if val is string -%}
@@ -40,16 +39,15 @@ date: "git Last Modified"
 
 {%- macro getContentType(inputPath) -%}
   {%- if '/main/' in inputPath -%}
-    Landing Page
+    Page d'atterrissage
   {%- elif '/pages/' in inputPath -%}
-    Content Page
+    Page de contenu
   {%- elif '/links/' in inputPath -%}
-    Link
+    Lien
   {%- else -%}
     Page
   {%- endif -%}
 {%- endmacro -%}
-
 Titre,URL,Rôles (clés),Sujets,Étiquettes,Basculer,Mise en page,Date de modification,Date de création,Type de contenu,Source
 {% for item in (collections.all | localeMatch('fr')) %}
 {%- if item.data.permalink != false and not item.data.redirect and not item.inputPath.endsWith('.csv.njk') -%}
