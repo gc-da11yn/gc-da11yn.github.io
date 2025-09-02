@@ -4,11 +4,10 @@ layout: false
 eleventyExcludeFromCollections: true
 date: "git Last Modified"
 ---
-{% set roles_data = roles %}
-{% macro csv(val) -%}
+{%- set roles_data = roles -%}
+{%- macro csv(val) -%}
   "{{ (val | default('') | string | replace('"', '""')) }}"
 {%- endmacro -%}
-
 {%- macro listify(val) -%}
   {%- if val is defined and val is not none -%}
     {%- if val is string -%}
@@ -49,7 +48,6 @@ date: "git Last Modified"
     Page
   {%- endif -%}
 {%- endmacro -%}
-
 Title,URL,Roles (keys),Subjects,Tags,Toggle,Layout,Date Modified,Date Created,Content Type,Source
 {% for item in (collections.all | localeMatch('en')) %}
 {%- if item.data.permalink != false and not item.data.redirect and not item.inputPath.endsWith('.csv.njk') -%}

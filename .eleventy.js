@@ -104,6 +104,17 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  // Add UTF-8 BOM to CSV files for proper Excel encoding
+  eleventyConfig.addTransform("csvUtf8Bom", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith(".csv")) {
+      // For Excel compatibility, we need to ensure the content is properly encoded
+      // Try a different approach with UTF-8 BOM and ensure content is UTF-8
+      const utf8Bom = '\uFEFF'; // Use Unicode BOM character instead of bytes
+      return utf8Bom + content;
+    }
+    return content;
+  });
+
   eleventyConfig.addFilter("localeMatch", function (collection) {
     const { locale } = this.ctx; // avoid retrieving it for each item
     return collection.filter((item) => item.data.locale === locale);
