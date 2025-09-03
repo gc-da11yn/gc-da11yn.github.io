@@ -1,4 +1,5 @@
 {% set branch = "main" %}
+{% from "macros/contentType.njk" import getContentType %}
 
 </div>
 <div class="container-fluid">
@@ -65,11 +66,6 @@
 					</li>
 					<li class="checkbox">
 						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_2" checked> {% if locale === "en" %}Other language link{% else %}Lien vers d'autres langues{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
 							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_3" checked> {{ pageList[locale].tagsText }}
 						</label>
 					</li>
@@ -126,7 +122,6 @@
 			<thead>
 				<tr>
 					<th data-wb-tags="col_1">{% if locale === "en" %}Title{% else %}Titre{% endif %}</th>
-					<th data-wb-tags="col_2">{% if locale === "en" %}Other language link{% else %}Lien vers d'autres langues{% endif %}</th>
 					<th data-wb-tags="col_3">{{ pageList[locale].tagsText }}</th>
 					<th data-wb-tags="col_4">{{ pageList[locale].subjectsText }}</th>
 					<th data-wb-tags="col_5">{% if locale === "en" %}Role{% else %}Rôle{% endif %}</th>
@@ -148,31 +143,6 @@
 					{% else %}
 					{% set missingToggle = "Version anglais manquante" %}
 				{% endif %}
-				{% if '/main/' in entry.inputPath %}
-					{% if locale === "en" %}
-						{% set contentType = "Landing Page" %}
-					{% else %}
-						{% set contentType = "Page d'atterrissage" %}
-					{% endif %}
-				{% elif '/pages/' in entry.inputPath %}
-					{% if locale === "en" %}
-						{% set contentType = "Content Page" %}
-					{% else %}
-						{% set contentType = "Page de contenu" %}
-					{% endif %}
-				{% elif '/links/' in entry.inputPath %}
-					{% if locale === "en" %}
-						{% set contentType = "Link" %}
-					{% else %}
-						{% set contentType = "Lien" %}
-					{% endif %}
-				{% else %}
-					{% if locale === "en" %}
-						{% set contentType = "Page" %}
-					{% else %}
-						{% set contentType = "Page" %}
-					{% endif %}
-				{% endif %}
 				{% if entry.data.locale == locale %}
 				{% if entry.data.redirect %}
 				{% elif entry.inputPath.endsWith('.csv.njk') %}
@@ -180,13 +150,6 @@
 				<tr{% for items in isLanding[6] %}{% if items === "m" %} class="success" data-wb-tags="isLanding"{% else %} data-wb-tags="isPage"{% endif %}{% endfor %}>
 					<td data-wb-tags="col_1">
 					<a href="{{ entry.url }}">{{ entry.data.title | safe }}</a></td>
-					<td data-wb-tags="col_2">
-						{% if entry.data.toggle %}
-						<a href="{{ pathPrefix }}{{ otherLocale }}/{{ entry.data.toggle }}" hreflang="{{ otherLang }}">{% if locale === "en" %}French version{% else %}Version anglaise{% endif %} <span class="wb-inv">{% if locale === "en" %}of{% else %}de{% endif %} {{ entry.data.title | safe }}</span></a>
-						{% else %}
-						<strong>{{ missingToggle }}</strong>
-						{% endif %}
-					</td>
 					<td data-wb-tags="col_3">
 						{% for item in entry.data.tags %}
 						<span class="label label-info">{{ item }}</span>
@@ -204,7 +167,7 @@
 					<td data-wb-tags="col_6">{{ entry.data.layout or "" }}</td>
 					<td data-wb-tags="col_7">{{ entry.date | postDate if entry.date else "" }}</td>
 					<td data-wb-tags="col_8">{{ entry.data.gitCreated | postDate if entry.data.gitCreated else "" }}</td>
-					<td data-wb-tags="col_9">{{ contentType }}</td>
+					<td data-wb-tags="col_9">{{ getContentType(entry.inputPath, locale) }}</td>
 					<td data-wb-tags="col_10"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></td>
 				</tr>
 				{% endif %}
