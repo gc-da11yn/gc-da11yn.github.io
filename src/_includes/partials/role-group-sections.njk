@@ -7,10 +7,11 @@
 | localeMatch(locale)
 | sort(false, false, 'data.title') %}
 
-{% if items.length %}
 <section class="mrgn-bttm-xl">
 	<h2 id="{{ anchor }}">{{ label }}</h2>
-	<p><a href="{{ pathPrefix }}{{ permalinkPrefix }}{{ locale }}/roles/{{ rk }}/">{% if lang == 'fr' %}Aller à la page {{ label | lower }} <small class="text-muted">({{ items.length }})</small>{% else %}Go to {{ label | lower }} page <small class="text-muted">({{ items.length }})</small>{% endif %}</a></p>
+	<p><a href="{{ pathPrefix }}{{ permalinkPrefix }}{{ locale }}/roles/{{ rk }}/">{% if lang == 'fr' %}Aller à la page {{ label | lower }}{% else %}Go to {{ label | lower }} page{% endif %}</a>{% if items.length %} <small class="text-muted">({{ items.length }})</small>{% endif %}</p>
+
+	{% if items.length %}
 	<div class="row wb-eqht mrgn-tp-lg gc-drmt">
 		{% for item in items %}
 		<div class="col-md-6">
@@ -36,6 +37,9 @@
 		</div>
 		{% endfor %}
 	</div>
+	{% else %}
+	{% set variant = "group" %}
+	{% include "partials/role-content-coming-soon.njk" %}
+	{% endif %}
 </section>
-{% endif %}
 {% endfor %}

@@ -9,12 +9,10 @@
 		| byAnyRole([rk])
 		| localeMatch(locale)
 		| sort(false, false, 'data.title') %}
-		{% if items.length %}
 		<li class="list-inline-item">
 			<a href="#{{ anchor }}">{{ label }}</a>
-			<small class="text-muted">({{ items.length }})</small>
+			{% if items.length %}<small class="text-muted">({{ items.length }})</small>{% endif %}
 		</li>
-		{% endif %}
 		{% endfor %}
 	</ul>
 </aside>

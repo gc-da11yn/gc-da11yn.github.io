@@ -1,5 +1,6 @@
 ---
 tags: role
+eleventyExcludeFromCollections: true
 pagination:
   data: rolePairs
   size: 1
@@ -92,5 +93,10 @@ eleventyComputed:
     </div>
   {% endfor %}
   </div>
+</section>
+{% else %}
+<section class="mrgn-bttm-xl">
+  <h2>Ressources et conseils</h2>
+  {% include "partials/role-content-coming-soon.njk" %}
 </section>
 {% endif %}
