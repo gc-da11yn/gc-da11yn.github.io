@@ -472,22 +472,12 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/technical-summary-of-the-en-301-549-v321-2021/</loc>
 		<lastmod>2025-06-06</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-la-conformite-des-documents-microsoft/</loc>
 		<lastmod>2025-06-06</lastmod>
 	</url>
 	
@@ -1079,6 +1069,16 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
 		<lastmod>2025-07-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
+		<lastmod>2025-08-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-la-conformite-des-documents-microsoft/</loc>
+		<lastmod>2025-08-02</lastmod>
 	</url>
 	
 	<url>
