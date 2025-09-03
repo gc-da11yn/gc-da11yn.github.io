@@ -4,6 +4,7 @@ layout: false
 eleventyExcludeFromCollections: true
 date: "git Last Modified"
 ---
+{%- from "macros/contentType.njk" import getContentType -%}
 {%- set roles_data = roles -%}
 {%- macro csv(val) -%}
   "{{ (val | default('') | string | replace('"', '""')) }}"
@@ -36,18 +37,6 @@ date: "git Last Modified"
     {%- endif -%}
   {%- endif -%}
 {%- endmacro -%}
-
-{%- macro getContentType(inputPath) -%}
-  {%- if '/main/' in inputPath -%}
-    Landing Page
-  {%- elif '/pages/' in inputPath -%}
-    Content Page
-  {%- elif '/links/' in inputPath -%}
-    Link
-  {%- else -%}
-    Page
-  {%- endif -%}
-{%- endmacro -%}
 Title,URL,Roles (keys),Subjects,Tags,Toggle,Layout,Date Modified,Date Created,Content Type,Source
 {% for item in (collections.all | localeMatch('en')) %}
 {%- if item.data.permalink != false and not item.data.redirect and not item.inputPath.endsWith('.csv.njk') -%}
@@ -59,6 +48,6 @@ Title,URL,Roles (keys),Subjects,Tags,Toggle,Layout,Date Modified,Date Created,Co
 {%- set layoutVal = item.data.layout -%}
 {%- set modifiedVal = item.date | postDate -%}
 {%- set createdVal = item.data.gitCreated | postDate if item.data.gitCreated else settings.dateCreated -%}
-{{ csv(item.data.title | striptags) }},{{ csv(urlVal) }},{{ csv(listify(roleVal)) }},{{ csv(listify(subjectsVal)) }},{{ csv(listify(tagsVal)) }},{{ csv(toggleVal) }},{{ csv(layoutVal) }},{{ csv(modifiedVal) }},{{ csv(createdVal) }},{{ csv(getContentType(item.inputPath)) }},{{ csv(item.inputPath) }}
+{{ csv(item.data.title | striptags) }},{{ csv(urlVal) }},{{ csv(listify(roleVal)) }},{{ csv(listify(subjectsVal)) }},{{ csv(listify(tagsVal)) }},{{ csv(toggleVal) }},{{ csv(layoutVal) }},{{ csv(modifiedVal) }},{{ csv(createdVal) }},{{ csv(getContentType(item.inputPath, "en")) }},{{ csv(item.inputPath) }}
 {% endif -%}
 {%- endfor %}
