@@ -118,7 +118,7 @@
 			</fieldset>
 		</div>
 
-		<table class="wb-tagfilter-items table table-bordered wb-tables table-hover filterEmphasis provisional">
+		<table class="wb-tagfilter-items table table-bordered wb-tables table-striped table-hover filterEmphasis provisional">
 			<thead>
 				<tr>
 					<th data-wb-tags="col_1">{% if locale === "en" %}Title{% else %}Titre{% endif %}</th>
@@ -138,16 +138,11 @@
 				{% set otherLocale = "fr" if locale === "en" else "en" %}
 				{% set toggleURL = entry.inputPath | replace("\./src/" + locale + "/", "/" + otherLocale + "/") %}
 				{% set isLanding = entry.inputPath | replace("/", ",") %}
-				{% if locale === "en" %}
-					{% set missingToggle = "Missing french version" %}
-					{% else %}
-					{% set missingToggle = "Version anglais manquante" %}
-				{% endif %}
 				{% if entry.data.locale == locale %}
 				{% if entry.data.redirect %}
 				{% elif entry.inputPath.endsWith('.csv.njk') %}
 				{% else %}
-				<tr{% for items in isLanding[6] %}{% if items === "m" %} class="success" data-wb-tags="isLanding"{% else %} data-wb-tags="isPage"{% endif %}{% endfor %}>
+				<tr{% for items in isLanding[6] %}{% if items === "m" %} data-wb-tags="isLanding"{% else %} data-wb-tags="isPage"{% endif %}{% endfor %}>
 					<td data-wb-tags="col_1">
 					<a href="{{ entry.url }}">{{ entry.data.title | safe }}</a></td>
 					<td data-wb-tags="col_3">
