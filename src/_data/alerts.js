@@ -21,6 +21,11 @@ module.exports = {
 			"Les liens qui ne fonctionnent que derrière le pare-feu du gouvernement du Canada sont marqués avec ",
 		icon: "icône ",
 		hiddenTextLink: "lien interne",
+
+		// Role content coming soon alert, appears on role pages when no content is tagged with that role
+		roleContentComingSoon: "Bientôt disponible !",
+		roleContentComingSoonText: "Actuellement, aucun contenu n'a été assigné à ce rôle. Une fois que le contenu sera étiqueté avec ce rôle, il sera listé sur cette page.",
+		roleContentComingSoonTextGroup: "Actuellement, aucun contenu n'a été assigné à ce rôle. Une fois que le contenu sera étiqueté avec ce rôle, il sera listé ici.",
 	},
 
 	en: {
@@ -43,5 +48,10 @@ module.exports = {
 			"Links that only work within the Government of Canada firewall are marked with ",
 		icon: "icon ",
 		hiddenTextLink: "internal link",
+
+		// Role content coming soon alert, appears on role pages when no content is tagged with that role
+		roleContentComingSoon: "Coming soon!",
+		roleContentComingSoonText: "Currently no content has been assigned to this role. Once content is tagged with this role, it will be listed on this page.",
+		roleContentComingSoonTextGroup: "Currently no content has been assigned to this role. Once content is tagged with this role, it will be listed here.",
 	},
 };
