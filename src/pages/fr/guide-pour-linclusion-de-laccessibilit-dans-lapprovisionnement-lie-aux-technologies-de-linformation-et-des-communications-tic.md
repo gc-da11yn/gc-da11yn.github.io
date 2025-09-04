@@ -7,6 +7,10 @@ toc: true
 internalLinks: true
 subject:
   - accessibilityInTheGovernmentOfCanada
+role:
+  - businessAnalysis
+  - governance
+  - projectManagement
 tags:
   - procurement
   - updatesMain

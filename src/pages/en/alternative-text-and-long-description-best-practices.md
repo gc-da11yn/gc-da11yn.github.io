@@ -3,6 +3,8 @@ title: Alternative text and long description – Best practices
 layout: layouts/base.njk
 description: Alternative text (or alt text) is text that describes and conveys the meaning of a visual non-text item like an image, flowchart, graph and so on. This document will guide you to determine the type of alt text needed and provide you with tips on writing an alt text and long descriptions for simple and complex images, like charts, maps and so on.
 toggle: texte-alternatif-et-description-longue-bonnes-pratiques
+role:
+  - contentAuthoring
 subject:
   - howTos
 tags:

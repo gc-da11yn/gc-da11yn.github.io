@@ -2,9 +2,12 @@
 title: Designing accessible images
 description: With this diagram, you will learn how to make the best choice for designing accessible images.
 toggle: concevoir-des-images-accessibles
+role:
+  - visualDesign
+  - contentAuthoring
 ---
 
-<img src="{{ pathPrefix }}img/en/introduction/accessible-image.jpg" class="img-responsive" alt="An infographic on how to use accessible images and use alternative text. Long description below" />
+<img src="{{ pathPrefix }}/img/en/introduction/accessible-image.jpg" class="img-responsive" alt="An infographic on how to use accessible images and use alternative text. Long description below" />
 
 ## The purpose of images
 

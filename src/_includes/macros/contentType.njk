@@ -1,0 +1,11 @@
+{%- macro getContentType(inputPath, locale) -%}
+  {%- if '/main/' in inputPath -%}
+    {%- if locale === "en" -%}Landing Page{%- else -%}Page d'atterrissage{%- endif -%}
+  {%- elif '/pages/' in inputPath -%}
+    {%- if locale === "en" -%}Content Page{%- else -%}Page de contenu{%- endif -%}
+  {%- elif '/links/' in inputPath -%}
+    {%- if locale === "en" -%}Link{%- else -%}Lien{%- endif -%}
+  {%- else -%}
+    Page
+  {%- endif -%}
+{%- endmacro -%}

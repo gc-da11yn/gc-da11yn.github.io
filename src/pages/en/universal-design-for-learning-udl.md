@@ -6,6 +6,9 @@ subject:
 tags:
   - designCourse
 toggle: conception-universelle-pour-lapprentissage-cua
+role:
+  - contentAuthoring
+  - uxDesign
 category:
   - Best practices
   - Writing content

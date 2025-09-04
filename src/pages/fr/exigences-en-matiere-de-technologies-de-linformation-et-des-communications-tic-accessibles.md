@@ -11,6 +11,9 @@ hasDocument:
   sizeUnit: "KB"
   type: "word"
 toggle: information-and-communication-technology-ict-accessibility-requirements
+role:
+  - governance
+  - frontEndDev
 ---
 
 {% include "information-and-communication-technology-ict-accessibility-requirements/intro.njk" %}

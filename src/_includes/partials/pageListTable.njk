@@ -1,14 +1,27 @@
 {% set branch = "main" %}
+{% from "macros/contentType.njk" import getContentType %}
 
 </div>
 <div class="container-fluid">
 	<p><a href="#full-screen" aria-controls="full-screen" class="overlay-lnk btn btn-primary btn-block" role="button">{{ pageList[locale].definitionButtonText }}</a></p>
+
+	<!-- CSV Download Button -->
+	<div class="mrgn-bttm-md">
+		<a href="{{ pathPrefix }}/docs/pages-{{ locale }}.csv" download class="btn btn-default">
+			<i class="fas fa-download" aria-hidden="true"></i>
+			{% if locale === "en" %}
+				Download CSV Export
+			{% else %}
+				Télécharger l'export CSV
+			{% endif %}
+		</a>
+	</div>
 	<section id="full-screen" class="wb-overlay modal-content overlay-def wb-popup-full">
 		<header class="modal-header">
 			<h2>{{ pageList[locale].definitionButtonText }}</h2>
 		</header>
 		<div class="row modal-body">
-			<section class="col-md-6">
+			<section class="col-md-4">
 				<h3>{{ pageList[locale].subjectsText }}</h3>
 				{% for item, tag in tagList.subjects[locale] %}
 				<dl>
@@ -17,7 +30,7 @@
 				</dl>
 				{% endfor %}
 			</section>
-			<section class="col-md-6">
+			<section class="col-md-4">
 				<h3>{{ pageList[locale].tagsText }}</h3>
 				{% for item, tag in tagList.tags[locale] %}
 				<dl>
@@ -25,6 +38,17 @@
 					<dd>{{ tag }}</dd>
 				</dl>
 				{% endfor %}
+			</section>
+			<section class="col-md-4">
+				<h3>{% if locale === "en" %}Roles{% else %}Rôles{% endif %}</h3>
+				{% if roles and roles.labels and roles.labels[locale] %}
+				{% for roleKey, roleLabel in roles.labels[locale] %}
+				<dl>
+					<dt><span class="label label-warning">{{ roleKey }}</span></dt>
+					<dd>{{ roleLabel }}</dd>
+				</dl>
+				{% endfor %}
+				{% endif %}
 			</section>
 		</div>
 	</section>
@@ -42,11 +66,6 @@
 					</li>
 					<li class="checkbox">
 						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_2" checked> {% if locale === "en" %}Other language link{% else %}Lien vers d'autres langues{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
 							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_3" checked> {{ pageList[locale].tagsText }}
 						</label>
 					</li>
@@ -57,12 +76,32 @@
 					</li>
 					<li class="checkbox">
 						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_5" checked> {% if locale === "en" %}Description present?{% else %}Description présente ?{% endif %}
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_5" checked> {% if locale === "en" %}Role{% else %}Rôle{% endif %}
 						</label>
 					</li>
 					<li class="checkbox">
 						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_6" checked> {% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_6" checked> {% if locale === "en" %}Layout{% else %}Mise en page{% endif %}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_7" checked> {% if locale === "en" %}Date Modified{% else %}Date de modification{% endif %}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_8" checked> {% if locale === "en" %}Date Created{% else %}Date de création{% endif %}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_9" checked> {% if locale === "en" %}Content Type{% else %}Type de contenu{% endif %}
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_10" checked> {% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}
 						</label>
 					</li>
 					<li class="checkbox">
@@ -79,14 +118,18 @@
 			</fieldset>
 		</div>
 
-		<table class="wb-tagfilter-items table table-bordered">
+		<table class="wb-tagfilter-items table table-bordered wb-tables table-hover filterEmphasis provisional">
 			<thead>
 				<tr>
 					<th data-wb-tags="col_1">{% if locale === "en" %}Title{% else %}Titre{% endif %}</th>
-					<th data-wb-tags="col_2">{% if locale === "en" %}Other language link{% else %}Lien vers d'autres langues{% endif %}</th>
 					<th data-wb-tags="col_3">{{ pageList[locale].tagsText }}</th>
 					<th data-wb-tags="col_4">{{ pageList[locale].subjectsText }}</th>
-					<th data-wb-tags="col_6">{% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}</th>
+					<th data-wb-tags="col_5">{% if locale === "en" %}Role{% else %}Rôle{% endif %}</th>
+					<th data-wb-tags="col_6">{% if locale === "en" %}Layout{% else %}Mise en page{% endif %}</th>
+					<th data-wb-tags="col_7">{% if locale === "en" %}Date Modified{% else %}Date de modification{% endif %}</th>
+					<th data-wb-tags="col_8">{% if locale === "en" %}Date Created{% else %}Date de création{% endif %}</th>
+					<th data-wb-tags="col_9">{% if locale === "en" %}Content Type{% else %}Type de contenu{% endif %}</th>
+					<th data-wb-tags="col_10">{% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -102,24 +145,30 @@
 				{% endif %}
 				{% if entry.data.locale == locale %}
 				{% if entry.data.redirect %}
+				{% elif entry.inputPath.endsWith('.csv.njk') %}
 				{% else %}
 				<tr{% for items in isLanding[6] %}{% if items === "m" %} class="success" data-wb-tags="isLanding"{% else %} data-wb-tags="isPage"{% endif %}{% endfor %}>
 					<td data-wb-tags="col_1">
 					<a href="{{ entry.url }}">{{ entry.data.title | safe }}</a></td>
-					<td data-wb-tags="col_2">
-						{% if entry.data.toggle %}
-						<a href="{{ pathPrefix }}{{ otherLocale }}/{{ entry.data.toggle }}" hreflang="{{ otherLang }}">{% if locale === "en" %}French version{% else %}Version anglaise{% endif %} <span class="wb-inv">{% if locale === "en" %}of{% else %}de{% endif %} {{ entry.data.title | safe }}</span></a>
-						{% else %}
-						<strong>{{ missingToggle }}</strong>
-						{% endif %}
-					</td>
 					<td data-wb-tags="col_3">
 						{% for item in entry.data.tags %}
 						<span class="label label-info">{{ item }}</span>
 						{% endfor %}
 					</td>
 					<td data-wb-tags="col_4"><span class="label label-success">{{ entry.data.subject }}</span></td>
-					<td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></td>
+					<td data-wb-tags="col_5">
+						{% if entry.data.role %}
+						{% set roleList = entry.data.role if entry.data.role is iterable and entry.data.role is not string else [entry.data.role] %}
+						{% for roleItem in roleList %}
+						<span class="label label-warning">{{ roleItem }}</span>
+						{% endfor %}
+						{% endif %}
+					</td>
+					<td data-wb-tags="col_6">{{ entry.data.layout or "" }}</td>
+					<td data-wb-tags="col_7">{{ entry.date | postDate if entry.date else "" }}</td>
+					<td data-wb-tags="col_8">{{ entry.data.gitCreated | postDate if entry.data.gitCreated else "" }}</td>
+					<td data-wb-tags="col_9">{{ getContentType(entry.inputPath, locale) }}</td>
+					<td data-wb-tags="col_10"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></td>
 				</tr>
 				{% endif %}
 				{% endif %}

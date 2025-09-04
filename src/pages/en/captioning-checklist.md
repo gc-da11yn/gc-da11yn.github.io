@@ -4,6 +4,8 @@ description: Making sure you did not forget anything with your captions.
 subject:
   - howTos
 toggle: liste-de-controle-pour-le-sous-titrage
+role:
+  - contentPublishing
 tags:
   - createWebContent
 audience:

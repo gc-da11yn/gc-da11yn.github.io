@@ -2,6 +2,9 @@
 title: Classeurs Excel accessibles dans Office 2016
 description: Pratiques accessibles pour la création de documents Microsoft Excel 2016.
 toggle: accessible-excel-workbooks-in-office-2016
+role:
+  - contentAuthoring
+  - contentPublishing
 fontIcon: fa-file-excel
 ---
 

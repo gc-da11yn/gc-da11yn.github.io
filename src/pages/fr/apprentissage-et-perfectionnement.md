@@ -2,6 +2,9 @@
 title: Apprentissage et perfectionnement
 description: Découvrez une collection de produits d'apprentissage pour améliorer votre compréhension de l'accessibilité. Que vous soyez développeur, concepteur ou passionné, explorez nos liens vers des cours, des tutoriels et des outils. Rejoignez-nous pour créer un monde numérique plus inclusif.
 toggle: learning-and-development
+role:
+  - governance
+  - contentAuthoring
 internalLinks: true
 tags:
   - main

@@ -13,6 +13,9 @@ subject:
 tags:
   - aboutDisabilities
 toggle: handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle
+role:
+  - uxResearch
+  - uxDesign
 ---
 
 - <a href="{{ pathPrefix }}/docs/posters/MotorPhysical-en_2023.pdf" download>Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>

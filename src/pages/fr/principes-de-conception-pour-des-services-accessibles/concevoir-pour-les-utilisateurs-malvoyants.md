@@ -4,6 +4,9 @@ description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> fair
 tags:
   - designingAccessible
 toggle: designing-for-users-with-low-vision
+role:
+  - uxDesign
+  - visualDesign
 subject:
   - howTos
 ---

@@ -4,6 +4,10 @@ description: Ce qu’il faut faire — et ce qu’il ne faut pas faire — lors 
 tags:
   - designingAccessible
 toggle: designing-for-users-of-screen-readers
+role:
+  - uxDesign
+  - visualDesign
+  - frontEndDev
 subject:
   - howTos
 ---
