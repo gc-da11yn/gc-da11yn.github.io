@@ -1,7 +1,7 @@
 ---
 title: Directives pour la transcription
 description: Directives sur la manière d’incorporer divers aspects de l’audio et de la vidéo dans une transcription.
-toggle: transcript-guidelines
+toggle: Transcript Guidelines
 subject:
   - howTos
 tags:

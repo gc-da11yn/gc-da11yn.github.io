@@ -1,7 +1,7 @@
 ---
 title: Emploi et Développement social Canada (<abbr>EDSC</abbr>)
 description: Emploi et Développement social Canada (<abbr>EDSC</abbr>) travaille à améliorer le niveau de vie et la qualité de vie de tous les Canadiens en faisant la promotion d'une main-d'œuvre mobile et hautement spécialisée ainsi que d'un marché du travail efficace et favorable à l'inclusion. EDSC compte plusieurs équipes travaillant dans le domaine de l'accessibilité numérique dans le but de créer un environnement sans obstacle pour les Canadiens et les employés !
-toggle: employment-and-social-development-canada-esdc
+toggle: Employment and Social Development Canada (<abbr>ESDC</abbr>)
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:

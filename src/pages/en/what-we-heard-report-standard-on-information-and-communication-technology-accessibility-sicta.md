@@ -1,16 +1,16 @@
 ---
-title: "What we heard report: Standard on Information and Communication Technology Accessibility (<abbr>SICTA</abbr>)"
-description: "Between October 31 and November 30, 2022, the Treasury Board of Canada Secretariat - Office of the Chief Information Officer (<abbr>TBS-OCIO</abbr>) Digital Policy & Performance Division undertook a targeted engagement on the <em>Standard on Information and Communication Technology (<abbr>ICT</abbr>) Accessibility</em>. This page details the key themes that emerged and next steps to be taken in relation to the standard."
-toggle: rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic
+title: 'What we heard report: Standard on Information and Communication Technology Accessibility (<abbr>SICTA</abbr>)'
+description: Between October 31 and November 30, 2022, the Treasury Board of Canada Secretariat - Office of the Chief Information Officer (<abbr>TBS-OCIO</abbr>) Digital Policy & Performance Division undertook a targeted engagement on the <em>Standard on Information and Communication Technology (<abbr>ICT</abbr>) Accessibility</em>. This page details the key themes that emerged and next steps to be taken in relation to the standard.
+toggle: "Rapport sur ce que nous avons entendu\_: Norme d’accessibilité des technologies de l’information et des communications (<abbr>NATIC</abbr>)"
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - accessibilityStandards
 hasDocument:
-  filename: "sitka-wwhr-en.pptx"
+  filename: sitka-wwhr-en.pptx
   sizeNumber: 135
-  sizeUnit: "KB"
-  type: "powerpoint"
+  sizeUnit: KB
+  type: powerpoint
 ---
 
 **March 2023**

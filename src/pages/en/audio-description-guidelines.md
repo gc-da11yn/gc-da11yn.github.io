@@ -5,7 +5,7 @@ subject:
   - howTos
 tags:
   - createWebContent
-toggle: directives-pour-la-description-sonore
+toggle: Directives pour la description sonore
 audience:
   - Everyone
 ---

@@ -1,7 +1,7 @@
 ---
 title: Transcript Guidelines
 description: Guidelines on how to incorporate various aspects of audio and video into a transcript.
-toggle: directives-pour-la-transcription
+toggle: Directives pour la transcription
 subject:
   - howTos
 tags:

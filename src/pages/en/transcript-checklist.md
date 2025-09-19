@@ -1,7 +1,7 @@
 ---
 title: Transcript Checklist
 description: A tool to make sure you did not forget anything.
-toggle: liste-de-controle-des-transcriptions
+toggle: Liste de contrôle des transcriptions
 subject:
   - howTos
 tags:

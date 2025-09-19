@@ -24,7 +24,7 @@ subject:
   - accessibilityFundamentals
 tags:
   - aboutDisabilities
-toggle: mobility-flexibility-and-body-structure-disabilities
+toggle: Mobility, Flexibility, and Body Structure Disabilities
 ---
 
 - <a href="{{ pathPrefix }}/docs/posters/MoteurPhysique-fr_2023.pdf" download>Concevoir pour les utilisateurs avec un handicap physique ou moteur (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 50 <abbr title="kilo-octet">ko</abbr>)</a>

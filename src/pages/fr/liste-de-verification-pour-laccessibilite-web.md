@@ -1,11 +1,11 @@
 ---
 title: Liste de vérification pour l'accessibilité Web
 description: Liste de vérification pour vérifier si le contenu d'une page web est accessible ou non.
-toggle: web-accessibility-checklist
+toggle: Web Accessibility Checklist
 subject:
-- howTos
+  - howTos
 tags:
-- testYourProducts
+  - testYourProducts
 ---
 
 <ul class="list-unstyled mrgn-tp-lg">

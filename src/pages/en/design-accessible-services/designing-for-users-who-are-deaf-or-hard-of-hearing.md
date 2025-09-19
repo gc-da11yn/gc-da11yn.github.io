@@ -3,7 +3,7 @@ title: Designing for users who are deaf or hard of hearing
 description: What to do - and what <strong>not</strong> to do - when designing for users who are deaf or hard of hearing.
 tags:
   - designingAccessible
-toggle: concevoir-pour-les-utilisateurs-sourds-ou-malentendants
+toggle: Concevoir pour les utilisateurs sourds ou malentendants
 subject:
   - howTos
 ---

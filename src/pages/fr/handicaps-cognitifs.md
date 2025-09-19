@@ -27,7 +27,7 @@ keywords:
   - logiciel de reconnaissance vocale
 audience:
   - Everyone
-toggle: cognitive-disabilities
+toggle: Cognitive Disabilities
 ---
 
 - <a href="{{ pathPrefix }}/docs/posters/SpectreAutisme-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre de l'autisme (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>

@@ -4,7 +4,7 @@ description: Un courriel accessible est important pour les personnes handicapée
 tags:
   - howTos
   - updatesMain
-toggle: making-accessible-emails
+toggle: Making Accessible Emails
 tocSimple: true
 ---
 

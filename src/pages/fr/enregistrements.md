@@ -1,7 +1,7 @@
 ---
 title: Enregistrements
 description: Les enregistrements appartiennent généralement à l’une des deux catégories suivantes un événement animé en personne (vidéo standard) ou une présentation uniquement audio. Nous avons défini ci-dessous chaque type et ses exigences respectives en matière d’accessibilité.
-toggle: recordings
+toggle: Recordings
 subject:
   - howTos
 tags:

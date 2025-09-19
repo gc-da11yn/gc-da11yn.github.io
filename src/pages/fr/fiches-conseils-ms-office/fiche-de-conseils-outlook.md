@@ -1,7 +1,7 @@
 ---
 title: Feuille de conseils pour Microsoft Outlook
 description: Référence simple pour la création d’un courrier électronique accessible dans Outlook.
-toggle: tip-sheet-for-microsoft-outlook
+toggle: Tip sheet for Microsoft Outlook
 ---
 
 # Créer des courriels accessibles dans Outlook

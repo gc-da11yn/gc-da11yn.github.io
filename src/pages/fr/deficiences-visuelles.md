@@ -7,7 +7,7 @@ tags:
   - aboutDisabilities
 audience:
   - Everyone
-toggle: visual-impairments
+toggle: Visual Impairments
 ---
 
 - <a href="{{ pathPrefix }}/docs/posters/Malvoyants-fr_2023.pdf" download>Concevoir pour les utilisateurs malvoyants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 45 <abbr title="kilo-octet">ko</abbr>)</a>

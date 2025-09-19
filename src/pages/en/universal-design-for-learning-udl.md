@@ -5,7 +5,7 @@ subject:
   - howTos
 tags:
   - designCourse
-toggle: conception-universelle-pour-lapprentissage-cua
+toggle: Conception universelle pour l’apprentissage (<abbr>CUA</abbr>)
 category:
   - Best practices
   - Writing content

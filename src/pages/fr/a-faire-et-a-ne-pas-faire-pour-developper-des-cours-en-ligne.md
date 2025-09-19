@@ -1,7 +1,7 @@
 ---
 title: À faire et à ne pas faire pour développer des cours en ligne
 description: Choses à faire et à ne pas faire pour rédiger, concevoir et développer des cours en ligne
-toggle: dos-and-donts-for-developing-online-courses
+toggle: Do’s and Don’ts for developing online courses
 subject:
   - howTos
 tags:

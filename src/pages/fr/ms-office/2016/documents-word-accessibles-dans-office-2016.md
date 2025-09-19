@@ -1,7 +1,7 @@
 ---
 title: Documents Word accessibles dans Office 2016
 description: Pratiques accessibles pour la création de documents Microsoft Word 2016.
-toggle: accessible-word-documents-in-office-2016
+toggle: Accessible Word documents in Office 2016
 fontIcon: fa-file-word
 ---
 

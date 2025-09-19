@@ -7,7 +7,7 @@ tags:
   - aboutDisabilities
 audience:
   - Everyone
-toggle: deficiences-visuelles
+toggle: Déficiences visuelles
 ---
 
 - <a href="{{ pathPrefix }}/docs/posters/LowVision-en_2023.pdf" download>Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)</a>

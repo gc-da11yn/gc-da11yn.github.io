@@ -1,7 +1,7 @@
 ---
 title: Contact us
 description: Interested in learning more? Reach out and get connected to our team.
-toggle: contactez-nous
+toggle: Contactez-nous
 tags:
   - aboutUs
 ---

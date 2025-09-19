@@ -1,16 +1,16 @@
 ---
 title: Technical Summary of the EN 301 549 v3.2.1 (2021)
 description: This technical summary provides the reader a simplified summary of the technical requirements from the EN 301 549 V3.2.1 (2021-03) Harmonised European Standard Accessibility requirements for <abbr title="Information and communication technology">ICT</abbr> products and services. Each clause or group of related clauses have been re-worded in plain language and examples have been added to help readers understand the requirements at a high-level. This document is especially useful for those who would like an understanding of the EN 301 549’s requirements without having to read through the full standard.
-toggle: resume-technique-de-la-norme-en-301-549-v321-2021
+toggle: Résumé technique de la norme EN 301 549 v3.2.1 (2021)
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - procurement
 hasDocument:
-  filename: "SSC_Technical_Summary_of_the_EN_301_549_v3.2.1_(2021)_31May2024_EN.docx"
+  filename: SSC_Technical_Summary_of_the_EN_301_549_v3.2.1_(2021)_31May2024_EN.docx
   sizeNumber: 30.8
-  sizeUnit: "KB"
-  type: "word"
+  sizeUnit: KB
+  type: word
 ---
 
 ## About this document and Copyright Notice

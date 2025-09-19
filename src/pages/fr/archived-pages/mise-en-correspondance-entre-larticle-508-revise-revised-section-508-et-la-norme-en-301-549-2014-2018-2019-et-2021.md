@@ -1,7 +1,7 @@
 ---
 title: Mise en correspondance entre l’article 508 révisé (<span lang='en'>Revised Section 508</span>) et la norme EN 301 549 (2014, 2018, 2019 et 2021)
 description: Cette ressource a été retirée en raison d’erreurs connues. Nous évaluons les prochaines étapes et pourrions publier une version mise à jour une fois que la norme EN 301 549:2025 sera finalisée.
-toggle: mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021
+toggle: Mapping between Revised Section 508 and EN 301 549 (2014, 2018, 2019 and 2021)
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
