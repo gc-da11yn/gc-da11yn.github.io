@@ -51,17 +51,17 @@ The build system tracks changed files using git diff against upstream/main:
 ---
 title: "Page Title"
 description: "Page description for meta tags"
-toggle: french-page-slug    # Links to other language version
-subject:                    # Category classification
+toggle: "French Page Title"    # Use actual page title - automatically converted to URL slug
+subject:                       # Category classification
   - howTos
   - createWebContent
-tags:                       # Topic tags
+tags:                         # Topic tags (include 'home' for homepage special handling)
   - video
   - accessibility
-internalLinks: true         # Shows GC firewall warning
-isDraft: true              # Shows draft notice
-needsTranslation: true     # Hides language toggle, shows translation notice
-archived: true             # Archives page, removes from collections
+internalLinks: true           # Shows GC firewall warning
+isDraft: true                # Shows draft notice
+needsTranslation: true       # Hides language toggle, shows translation notice
+archived: true               # Archives page, removes from collections
 ---
 ```
 
@@ -100,12 +100,25 @@ Always use `{{ pathPrefix }}` for internal links:
 ```
 
 ### Cross-Language Navigation
-Language toggle in header uses `toggle` frontmatter:
+Language toggle in header uses `toggle` frontmatter with enhanced implementation:
 ```njk
-{% if toggle %}
-<a href="{{ pathPrefix }}/{{ otherLang }}/{{ toggle }}/">{{ otherLanguage }}</a>
+{% if needsTranslation != true and toggle %}
+{% set otherLangSlug = toggle | stripTagsSlugify %}
+{# Special handling for home pages #}
+{% if tags and 'home' in tags %}
+	{% set toggleUrl = pathPrefix + "/" + otherLang + "/" %}
+{% else %}
+	{% set toggleUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
+{% endif %}
+<a href="{{ toggleUrl }}">{{ otherLanguage }}</a>
 {% endif %}
 ```
+
+**Key Features:**
+- Uses `stripTagsSlugify` filter on toggle values for automatic URL generation
+- Special handling for home pages (tagged with 'home') to prevent double language codes
+- Content creators can use actual page titles instead of manually creating slugs
+- Supports both regular pages (`/fr/a-propos-de-nous/`) and home pages (`/fr/`)
 
 ## Data Management
 
