@@ -31,6 +31,14 @@ Always use the automated script: `npm run newPage`
 - Sets up `toggle` links between language versions
 - **⚠️ NEEDS REVISION**: Script functionality needs improvement and refinement
 
+### Documenting Major Changes
+For significant architectural changes, template updates, or workflow modifications:
+- Create detailed implementation documentation in `docs/implementation/`
+- Use descriptive filenames (e.g., `language-toggle-improvement.md`)
+- Include overview, changes made, testing results, and benefits
+- Document both English and French sections when applicable
+- Reference implementation docs in commit messages and PR descriptions
+
 ### Essential npm Scripts
 - `npm start` - Development server with hot reload and change detection
 - `npm run build` - Production build
