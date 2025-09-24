@@ -34,7 +34,8 @@ Always use the automated script: `npm run newPage`
 ### Essential npm Scripts
 - `npm start` - Development server with hot reload and change detection
 - `npm run build` - Production build
-- `npm run link-check` - Validates all internal/external links (**⚠️ NEEDS REVISION**: Works but needs automation improvements)
+- `npm run link-check` - Interactive link checker with menu options (RECOMMENDED)
+- `npm run link-check-quick` - Quick automated link checking for CI/CD and development workflows
 - `npm run spellcheck` - Runs cspell on markdown content
 - `npm run analytics` - Updates Google Analytics data (**⚠️ NEEDS REVISION**: Currently not working properly)
 
@@ -118,6 +119,42 @@ Language toggle in header uses `toggle` frontmatter:
 - Pages automatically excluded from collections if `archived: true`
 - Subject and tag-based filtering via `tagList.js` data file
 - Changed pages collection for development workflow
+
+## Quality Assurance & Testing
+
+### Link Checking System
+Multiple link checking options available for different use cases:
+
+#### Interactive Link Checker (Primary Tool)
+- **Command**: `npm run link-check`
+- **Features**: Menu-driven interface for checking different environments
+- **Environments**: Live site (a11y.canada.ca), Netlify deploy previews, localhost, custom URLs
+- **Options**: Configure external link checking, starting paths, page limits
+- **Output**: Real-time progress, colored terminal output, timestamped JSON reports
+
+#### Quick Link Checker (Automation & CI/CD)
+- **Commands**:
+  - `npm run link-check-quick` - Check localhost changed files only
+- **Purpose**: Automated testing, CI/CD pipelines, scripted workflows
+- **Features**: No interactive prompts, direct execution, focuses on git-changed files
+
+#### Link Check Technical Architecture
+- **Sitemap-based checking**: Uses `sitemap.xml` to get complete list of site pages for efficient full-site validation
+- **Changed-files checking**: Uses `git diff` against upstream/main to check only modified pages since last commit
+- **Crawler fallback**: Falls back to crawling from homepage when sitemap unavailable or for external sites
+- **Server auto-management**: Detects existing localhost server via `.eleventy-port` file or starts `npm run start-prod`
+
+#### Link Check Results
+- **Output Files**: Timestamped JSON reports (e.g., `broken-links.json`)
+- **Content**: Source file paths, link URLs, error details, link text context
+- **Features**: Checks regular links, anchor fragments (#links), and resource files
+- **Resource Validation**: Detects broken `src` attributes for images, CSS, JavaScript, media files, and other embedded resources
+
+### Development Workflows for Link Checking
+- **Local Development**: Use interactive checker or localhost option
+- **Pull Request Reviews**: Check deploy previews using PR number
+- **Pre-deployment**: Always verify live site after major updates
+- **CI/CD Integration**: Use quick checker commands in automated pipelines
 
 ## Deployment & Environment
 

@@ -118,37 +118,67 @@ The script also runs a web server on your machine for you to view the site local
 
 #### Checking for Broken Links
 
-To check for broken links, you'll need to follow these two steps:
+We have several link checking options available for different use cases:
 
-##### Step 1: Start the Eleventy Server
+##### Interactive Link Checker (Recommended)
 
-First, start the Eleventy server by running the following command:
+The interactive link checker provides a menu-driven interface to check different environments:
 
-   ```bash
-   npm start
-   ```
+```bash
+npm run link-check
+```
 
-This command will:
+This will prompt you to choose from:
+- **Localhost - Changed files only** (fastest for development)
+- **Localhost - Full check** (complete local site scan)
+- **PR Preview - Full check** (check Netlify deploy previews)
+- **Live site - Full check** (production website validation)
+- **Custom URL - Full check** (any external site)
 
-- Build and serve the Eleventy site on a dynamically chosen port.
-- Save the port number in a .eleventy-port file.
+##### Quick Link Checker (For Automation)
 
-Make sure the server is running properly before proceeding to the next step.
+For development workflows and GitHub Actions, use the quick link checker that focuses on changed files only:
 
-##### Step 2: Run the Link Checker
+```bash
+npm run link-check-quick
+```
 
-After the server is up and running, you can run the link checker to ensure all links are valid:
+##### How It Works
 
-  ```bash
-  npm run link-check
-  ```
+The link checking system uses two methods depending on the environment:
 
-This command will:
+1. **Sitemap-based checking** (preferred for performance):
+   - Uses `sitemap.xml` to get complete list of site pages
+   - Fetches each page and validates all links within it
+   - Much faster than crawling as it has the definitive page list
+   - Used for: localhost full check, PR previews, live site checking
 
-- Read the port number from the .eleventy-port file.
-- Check for broken links on the served site using that port.
+2. **Changed files checking** (fastest for development):
+   - Uses `git diff` to detect only modified pages since last commit
+   - Only checks links within changed pages
+   - Used for: localhost changed files option
 
-Make sure to use this process to ensure all links are valid before deploying any changes.
+3. **Crawler-based checking** (fallback):
+   - Discovers pages by following links from homepage
+   - Used when sitemap.xml is unavailable or for external sites
+   - Used for: custom URL checking, sitemap fallback scenarios
+
+##### Results and Output
+
+All link checkers will:
+
+- Display real-time progress with page and link counters
+- Show broken links with source file paths (when available)
+- Generate timestamped JSON reports (e.g., `broken-links.json`)
+- Check both regular links and anchor links (#fragments)
+- Validate image sources, stylesheets, and script files
+
+##### Tips for Link Checking
+
+- **For development**: Use `npm run link-check` and select localhost changed files option
+- **For comprehensive testing**: Use localhost full check or live site options
+- **For CI/CD pipelines**: Use `npm run link-check-quick` for fast automated checking
+- **For pull request reviews**: Use PR preview option with deploy preview number
 
 ### Updating the website
 
