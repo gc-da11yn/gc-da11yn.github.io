@@ -6,7 +6,8 @@
   "scripts": {
     "analytics": "node scripts/fetch-analytics.js",
     "newPage": "node scripts/create-new-page.js",
-    "link-check": "node scripts/link-checker.js",
+    "link-check": "node scripts/interactive-link-checker.js",
+    "link-check-quick": "node scripts/quick-link-checker.js",
     "serve:port": "node scripts/serve-with-port.js",
     "serve-only": "npx eleventy && npx eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -64,6 +65,7 @@
     "string-strip-html": "^8.5.0"
   },
   "dependencies": {
+    "chalk": "^5.6.2",
     "esm": "^3.2.25",
     "prompt-sync": "^4.2.0",
     "remark": "^15.0.1",
