@@ -2,6 +2,8 @@
 title: École de la fonction publique du Canada (<abbr>EFPC</abbr>)
 description: L'&Eacute;cole de la fonction publique du Canada&nbsp;dirige l'approche pangouvernementale en mati&egrave;re d'apprentissage en offrant un programme de cours commun normalis&eacute; qui appuie les fonctionnaires aux points tournants de leur carri&egrave;re, afin d'assurer qu'ils sont outill&eacute;s pour servir les Canadiens en respectant les plus hauts crit&egrave;res d'excellence. Plusieurs &eacute;quipes de l&rsquo;&Eacute;cole soutiennent l'accessibilit&eacute; num&eacute;rique dans le but de cr&eacute;er un environnement d'apprentissage sans obstacles pour ses apprenants.
 toggle: canada-school-of-public-service-csps
+role:
+  - governance
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:

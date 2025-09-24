@@ -6,6 +6,9 @@ subject:
 tags:
   - designCourse
 toggle: personas-with-disabilities-for-inclusive-user-experience-ux-design
+role:
+  - uxResearch
+  - uxDesign
 tocSimple: true
 ---
 

@@ -6,6 +6,9 @@ subject:
 tags:
   - createWebContent
 toggle: audio-description-guidelines
+role:
+  - contentAuthoring
+  - contentPublishing
 audience:
   - Everyone
 ---

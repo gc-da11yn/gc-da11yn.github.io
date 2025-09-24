@@ -4,6 +4,8 @@ description: What to do - and what <strong>not</strong> to do - when designing f
 tags:
   - designingAccessible
 toggle: concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme
+role:
+  - uxDesign
 subject:
   - howTos
 ---

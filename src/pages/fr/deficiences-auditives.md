@@ -8,6 +8,9 @@ tags:
 audience:
   - Everyone
 toggle: auditory-disabilities
+role:
+  - uxResearch
+  - uxDesign
 ---
 
 - <a href="{{ pathPrefix }}/docs/posters/Sourds-fr_2023.pdf" download>Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)</a>

@@ -6,6 +6,9 @@ subject:
 tags:
   - designCourse
 toggle: personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu
+role:
+  - uxResearch
+  - uxDesign
 tocSimple: true
 ---
 

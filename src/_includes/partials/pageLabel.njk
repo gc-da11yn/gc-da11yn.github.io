@@ -1,9 +1,9 @@
 <div class="bg-dark text-white mrgn-bttm-lg">
 	<section class="container">
 		{% if locale === "en" %}
-			<h2>Subjects and tags</h2>
+			<h2>Subjects, tags and roles</h2>
 		{% else %}
-			<h2>Sujets et étiquettes</h2>
+			<h2>Sujets, étiquettes et rôles</h2>
 		{% endif %}
 		<div class="alert alert-warning">
 		{% if locale === "en" %}
@@ -13,7 +13,7 @@
 		{% endif %}
 		</div>
 		<div class="row mrgn-bttm-lg">
-			<div class="col-md-6">
+			<div class="col-md-4">
 				{% if subject %}
 					<p{% if locale === "fr" %} lang="en"{% endif %}>subject:</p>
 					<ul>
@@ -27,7 +27,7 @@
 					{% endif %}
 				{% endif %}
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-4">
 				{% if tags %}
 					<p{% if locale === "fr" %} lang="en"{% endif %}>tags:</p>
 					<ul>
@@ -40,6 +40,22 @@
 						<p>There are no "tags"</p>
 					{% else %}
 						<p>Il n'y a pas de "<span lang="en">tags</span>"</p>
+					{% endif %}
+				{% endif %}
+			</div>
+			<div class="col-md-4">
+				{% if role %}
+					<p{% if locale === "fr" %} lang="en"{% endif %}>roles:</p>
+					<ul>
+						{% for item in role %}
+							<li><span class="label label-info">{{ item }}</span></li>
+						{% endfor %}
+					</ul>
+				{% else %}
+					{% if locale === "en" %}
+						<p>There are no "roles"</p>
+					{% else %}
+						<p>Il n'y a pas de "<span lang="en">rôles</span>"</p>
 					{% endif %}
 				{% endif %}
 			</div>
