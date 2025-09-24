@@ -462,37 +462,66 @@ Le script exécute également un websever sur votre machine pour vous permettre 
 
 ##### Vérification des liens brisés
 
-Pour vérifier les liens brisés, vous devez suivre ces deux étapes :
+Nous avons plusieurs options de vérification des liens disponibles pour différents cas d'usage :
 
-###### Étape 1 : Démarrer le serveur Eleventy
+###### Vérificateur interactif (recommandé)
 
-Tout d'abord, démarrez le serveur Eleventy en exécutant la commande suivante :
+```bash
+npm run link-check
+```
 
-   ```bash
-   npm start
-   ```
+Offre un menu interactif avec 5 options :
 
-Cette commande va :
+1. **Localhost (fichiers modifiés uniquement)** - Vérifie seulement les pages modifiées depuis le dernier commit
+2. **Localhost (vérification complète)** - Vérifie toutes les pages sur votre serveur local
+3. **Aperçu de demande de tirage Netlify** - Vérifie un déploiement d'aperçu en utilisant le numéro PR
+4. **Site en direct** - Vérifie le site de production (a11y.canada.ca)
+5. **URL personnalisée** - Vérifie n'importe quel site web
 
-- Construire et servir le site Eleventy sur un port choisi dynamiquement.
-- Sauvegarder le numéro de port dans un fichier `.eleventy-port`.
+###### Vérificateur rapide (pour l'automatisation)
 
-Assurez-vous que le serveur fonctionne correctement avant de passer à l'étape suivante.
+```bash
+npm run link-check-quick
+```
 
-###### Étape 2 : Exécuter le vérificateur de liens
+Vérifie directement les fichiers modifiés sur localhost - idéal pour les pipelines CI/CD et les flux de développement.
 
-Une fois le serveur en marche, vous pouvez exécuter le vérificateur de liens pour vous assurer que tous les liens sont valides :
+###### Comment ça fonctionne
 
-  ```bash
-  npm run link-check
-  ```
+Le système de vérification des liens utilise trois méthodes selon l'environnement :
 
-Cette commande va :
+1. **Vérification basée sur le sitemap** (préférée pour les performances) :
+   - Utilise `sitemap.xml` pour obtenir la liste complète des pages du site
+   - Récupère chaque page et valide tous les liens qu'elle contient
+   - Beaucoup plus rapide que le crawling car elle a la liste définitive des pages
+   - Utilisée pour : vérification complète localhost, aperçus PR, vérification du site en direct
 
-- Lire le numéro de port à partir du fichier `.eleventy-port`.
-- Vérifier les liens brisés sur le site servi en utilisant ce port.
+2. **Vérification des fichiers modifiés** (plus rapide pour le développement) :
+   - Utilise `git diff` pour détecter seulement les pages modifiées depuis le dernier commit
+   - Vérifie seulement les liens dans les pages modifiées
+   - Utilisée pour : option localhost fichiers modifiés
 
-Assurez-vous d'utiliser ce processus pour vérifier que tous les liens sont valides avant de déployer des modifications.
+3. **Vérification basée sur le crawler** (solution de secours) :
+   - Découvre les pages en suivant les liens depuis la page d'accueil
+   - Utilisée quand sitemap.xml n'est pas disponible ou pour des sites externes
+   - Utilisée pour : vérification d'URLs personnalisées, scénarios de secours du sitemap
+
+###### Résultats et sortie
+
+Tous les vérificateurs de liens vont :
+
+- Afficher le progrès en temps réel avec des compteurs de pages et de liens
+- Montrer les liens brisés avec les chemins des fichiers sources (quand disponible)
+- Générer des rapports JSON horodatés (ex. `broken-links.json`)
+- Vérifier les liens réguliers et les liens d'ancrage (#fragments)
+- Valider les sources d'images, feuilles de style et fichiers de script
+
+###### Conseils pour la vérification des liens
+
+- **Développement local** : Utilisez le vérificateur interactif ou l'option localhost
+- **Revues de demandes de tirage** : Vérifiez les aperçus de déploiement en utilisant le numéro PR
+- **Pré-déploiement** : Toujours vérifier le site en direct après des mises à jour majeures
+- **Intégration CI/CD** : Utilisez les commandes de vérification rapide dans les pipelines automatisés
 
 ### Mise à jour du site Web
 
