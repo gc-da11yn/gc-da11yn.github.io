@@ -17,31 +17,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/captioning-checklist/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/transcript-checklist/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/diffusions-en-direct/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-controle-des-transcriptions/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-controle-pour-le-sous-titrage/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/sitemap.xml</loc>
 		<lastmod>2023-11-28</lastmod>
 	</url>
@@ -122,16 +97,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/tips-for-creating-online-courses/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/conseils-pour-la-conception-de-cours-en-ligne/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/links/fr/norme-sur-l-accessibilite-des-sites-web/</loc>
 		<lastmod>2024-02-09</lastmod>
 	</url>
@@ -162,86 +127,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/alternative-text-and-long-description-best-practices/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/statistics-canada-statcan/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/the-structure-of-web-content-accessibility-guidelines-wcag-21/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/useful-links/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/directives-pour-la-description-sonore/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ecole-de-la-fonction-publique-du-canada-efpc/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/emploi-et-developpement-social-canada-edsc/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/la-structure-des-regles-pour-laccessibilite-des-contenus-web-wcag-21/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liens-utiles/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/plateformes-de-reunions-virtuelles-et-fonctionnalites/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/statistique-canada-statcan/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/texte-alternatif-et-description-longue-bonnes-pratiques/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/canada-school-of-public-service-csps/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/employment-and-social-development-canada-esdc/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/virtual-meeting-platforms-and-accessibility-features/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/terms-of-reference/</loc>
-		<lastmod>2024-07-11</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/how-to-create-accessible-documents-in-microsoft-365/</loc>
 		<lastmod>2024-07-17</lastmod>
 	</url>
@@ -262,61 +147,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/dos-and-donts-for-developing-online-courses/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/find-out-how-to-make-accessible-digital-forms/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/personas-with-disabilities-for-inclusive-user-experience-ux-design/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/targeted-engagement-draft-standard-on-information-and-communication-technology-ict-accessibility/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/universal-design-for-learning-udl/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ameliorer-laccessibilite-des-formulaires/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/conception-universelle-pour-lapprentissage-cua/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/seance-de-mobilisation-ciblee-lebauche-de-la-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-tic/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/mandats/</loc>
-		<lastmod>2024-08-26</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/links/en/en-301-549-the-harmonised-european-standard-for-ict-accessibility/</loc>
 		<lastmod>2024-08-28</lastmod>
 	</url>
@@ -332,21 +162,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/audio-description-guidelines/</loc>
-		<lastmod>2024-08-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-powerpoint-presentation/</loc>
-		<lastmod>2024-08-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-word/</loc>
-		<lastmod>2024-08-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/pages-to-review/</loc>
 		<lastmod>2024-09-10</lastmod>
 	</url>
@@ -354,56 +169,6 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/pages-a-reviser/</loc>
 		<lastmod>2024-09-10</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/research-on-our-target-audience/</loc>
-		<lastmod>2024-09-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/recherche-sur-notre-audience/</loc>
-		<lastmod>2024-09-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/additional-resources-on-accessible-meetings-and-events/</loc>
-		<lastmod>2024-09-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ressources-additionnelles-sur-les-reunions-et-evenements-accessibles/</loc>
-		<lastmod>2024-09-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-microsoft-word/</loc>
-		<lastmod>2024-10-11</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-la-presentation-microsoft-powerpoint/</loc>
-		<lastmod>2024-10-11</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/recordings/</loc>
-		<lastmod>2025-01-11</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/enregistrements/</loc>
-		<lastmod>2025-01-11</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/learning-and-development/</loc>
-		<lastmod>2025-01-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/apprentissage-et-perfectionnement/</loc>
-		<lastmod>2025-01-22</lastmod>
 	</url>
 	
 	<url>
@@ -417,71 +182,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/</loc>
-		<lastmod>2025-02-11</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/</loc>
-		<lastmod>2025-02-11</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/web-accessibility-checklist/</loc>
-		<lastmod>2025-02-15</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-verification-pour-laccessibilite-web/</loc>
-		<lastmod>2025-02-15</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-outlook/</loc>
-		<lastmod>2025-03-25</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-microsoft-outlook/</loc>
-		<lastmod>2025-03-25</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-remediation-roadmap-template/</loc>
-		<lastmod>2025-04-25</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite/</loc>
-		<lastmod>2025-04-25</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/technical-summary-of-the-en-301-549-v321-2021/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/resume-technique-de-la-norme-en-301-549-v321-2021/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/links/en/information-and-communication-technology-ict-requirements-generator-prototype-for-the-en-301-549-2021/</loc>
 		<lastmod>2025-06-06</lastmod>
 	</url>
@@ -492,42 +192,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-testing-101/</loc>
-		<lastmod>2025-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/test-daccessibilite-101/</loc>
-		<lastmod>2025-06-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/404.html</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/about-us/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
 	
@@ -552,11 +217,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/most-common-types-of-disability/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/accessibility-standards/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
@@ -573,11 +233,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/procurement/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-in-your-role/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
 	
@@ -627,32 +282,12 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/resources-and-tools/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/resources/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/tools/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web-visualisation-des-donnees/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/a-propos-de-nous/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
 	
@@ -722,11 +357,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/laccessibilite-dans-votre-role/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/principes-de-base-de-laccessibilite/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
@@ -737,338 +367,8 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/types-de-handicap-les-plus-courants/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ressources-et-outils/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/outils/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ressources/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/auditory-disabilities/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/cognitive-disabilities/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designing-for-users-of-screen-readers/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designing-for-users-on-the-autism-spectrum/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designing-for-users-who-are-deaf-or-hard-of-hearing/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designing-for-users-with-cognitive-disabilities/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designing-for-users-with-low-vision/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designing-for-users-with-physical-or-motor-disabilities/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designing-accessible-images/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/digital-accessibility-toolkit-project/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/introduction-to-accessibility-requirements-for-audio-video/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/language-of-audiovideo-content/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/live-broadcast/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/mobility-flexibility-and-body-structure-disabilities/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-excel-workbooks-in-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-powerpoint-presentations-in-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-visio-drawings-in-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-word-documents-in-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-excel-workbooks-in-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-powerpoint-presentations-in-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-visio-drawings-in-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessible-word-documents-in-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/page-moved-or-deleted/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/pdf-accessibility-checklist/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/transcript-guidelines/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/visual-impairments/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-des-images-accessibles/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/deficiences-auditives/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/deficiences-visuelles/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/directives-pour-la-transcription/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/handicaps-cognitifs/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/introduction-aux-exigences-daccessibilite-pour-laudio-video/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/langue-du-contenu-audiovideo/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-laccessibilite-des-documents-pdf/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/classeurs-excel-accessibles-dans-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/documents-pdf-accessibles-dans-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/documents-word-accessibles-dans-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/presentations-powerpoint-accessibles-dans-office-2016/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/classeurs-excel-accessibles-dans-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/documents-pdf-accessibles-dans-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/documents-word-accessibles-dans-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/presentations-powerpoint-accessibles-dans-microsoft-365/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/page-deplacee-ou-supprimee/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-de-revues-decran/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-malvoyants/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-sourds-ou-malentendants/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/</loc>
 		<lastmod>2025-07-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
-		<lastmod>2025-07-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
-		<lastmod>2025-07-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
-		<lastmod>2025-08-02</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-la-conformite-des-documents-microsoft/</loc>
-		<lastmod>2025-08-02</lastmod>
 	</url>
 	
 	<url>
@@ -1077,12 +377,712 @@
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/en/about-us/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/most-common-types-of-disability/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-in-your-role/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/resources-and-tools/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/resources/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tools/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/a-propos-de-nous/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/laccessibilite-dans-votre-role/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/types-de-handicap-les-plus-courants/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources-et-outils/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/outils/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-testing-101/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/additional-resources-on-accessible-meetings-and-events/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/alternative-text-and-long-description-best-practices/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/audio-description-guidelines/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/auditory-disabilities/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/canada-school-of-public-service-csps/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/captioning-checklist/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/cognitive-disabilities/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/en/contact-us/</loc>
-		<lastmod>2025-08-26</lastmod>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/designing-for-users-of-screen-readers/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/designing-for-users-on-the-autism-spectrum/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/designing-for-users-who-are-deaf-or-hard-of-hearing/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/designing-for-users-with-cognitive-disabilities/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/designing-for-users-with-low-vision/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/designing-for-users-with-physical-or-motor-disabilities/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/designing-accessible-images/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/digital-accessibility-toolkit-project/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/dos-and-donts-for-developing-online-courses/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/employment-and-social-development-canada-esdc/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/find-out-how-to-make-accessible-digital-forms/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/introduction-to-accessibility-requirements-for-audio-video/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/language-of-audiovideo-content/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/learning-and-development/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/live-broadcast/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/microsoft-document-compliance-checklist/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/mobility-flexibility-and-body-structure-disabilities/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-powerpoint-presentation/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-word/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheet-for-microsoft-outlook/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-excel-workbooks-in-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-powerpoint-presentations-in-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-visio-drawings-in-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-word-documents-in-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-excel-workbooks-in-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-pdf-documents-in-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-powerpoint-presentations-in-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-visio-drawings-in-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-word-documents-in-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/page-moved-or-deleted/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/pdf-accessibility-checklist/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/personas-with-disabilities-for-inclusive-user-experience-ux-design/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-remediation-roadmap-template/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/recordings/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/research-on-our-target-audience/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/statistics-canada-statcan/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/targeted-engagement-draft-standard-on-information-and-communication-technology-ict-accessibility/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/technical-summary-of-the-en-301-549-v321-2021/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/terms-of-reference/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/the-structure-of-web-content-accessibility-guidelines-wcag-21/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tips-for-creating-online-courses/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/transcript-checklist/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/transcript-guidelines/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/universal-design-for-learning-udl/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/useful-links/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/virtual-meeting-platforms-and-accessibility-features/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/visual-impairments/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/web-accessibility-checklist/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ameliorer-laccessibilite-des-formulaires/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/apprentissage-et-perfectionnement/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/conception-universelle-pour-lapprentissage-cua/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-des-images-accessibles/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/conseils-pour-la-conception-de-cours-en-ligne/</loc>
+		<lastmod>2025-09-19</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/contactez-nous/</loc>
-		<lastmod>2025-08-26</lastmod>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/deficiences-auditives/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/deficiences-visuelles/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/diffusions-en-direct/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/directives-pour-la-description-sonore/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/directives-pour-la-transcription/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ecole-de-la-fonction-publique-du-canada-efpc/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/emploi-et-developpement-social-canada-edsc/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/enregistrements/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-microsoft-word/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-microsoft-outlook/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-la-presentation-microsoft-powerpoint/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/handicaps-cognitifs/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/introduction-aux-exigences-daccessibilite-pour-laudio-video/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/la-structure-des-regles-pour-laccessibilite-des-contenus-web-wcag-21/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/langue-du-contenu-audiovideo/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liens-utiles/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-controle-des-transcriptions/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-controle-pour-le-sous-titrage/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-la-conformite-des-documents-microsoft/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-laccessibilite-des-documents-pdf/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-verification-pour-laccessibilite-web/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/mandats/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/classeurs-excel-accessibles-dans-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/documents-pdf-accessibles-dans-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/documents-word-accessibles-dans-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/presentations-powerpoint-accessibles-dans-office-2016/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/classeurs-excel-accessibles-dans-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/documents-pdf-accessibles-dans-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/documents-word-accessibles-dans-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/presentations-powerpoint-accessibles-dans-microsoft-365/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/page-deplacee-ou-supprimee/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/plateformes-de-reunions-virtuelles-et-fonctionnalites/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-de-revues-decran/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-malvoyants/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-sourds-ou-malentendants/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/recherche-sur-notre-audience/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources-additionnelles-sur-les-reunions-et-evenements-accessibles/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/resume-technique-de-la-norme-en-301-549-v321-2021/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/seance-de-mobilisation-ciblee-lebauche-de-la-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-tic/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/statistique-canada-statcan/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/test-daccessibilite-101/</loc>
+		<lastmod>2025-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/texte-alternatif-et-description-longue-bonnes-pratiques/</loc>
+		<lastmod>2025-09-19</lastmod>
 	</url>
 </urlset>
