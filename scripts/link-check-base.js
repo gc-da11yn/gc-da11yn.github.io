@@ -8,6 +8,7 @@
 
 const blc = require('broken-link-checker');
 const fs = require('fs');
+const path = require('path');
 const axios = require('axios');
 const { JSDOM } = require('jsdom');
 const { spawn } = require('child_process');
@@ -25,6 +26,9 @@ const colors = {
 
 let brokenLinks = [];
 let devServerProcess = null;
+let serverStartedByUs = false;
+let serverPort = null;
+let cleanupCalled = false;
 
 // Check if server is running on given port
 async function checkServerRunning(port) {
@@ -36,14 +40,32 @@ async function checkServerRunning(port) {
     }
 }
 
+// Clean build directory for fresh start
+function cleanBuildDirectory() {
+    const sitePath = path.join(process.cwd(), '_site');
+    try {
+        if (fs.existsSync(sitePath)) {
+            console.log(colors.yellow('🧹 Cleaning _site directory for fresh build...'));
+            fs.rmSync(sitePath, { recursive: true, force: true });
+            console.log(colors.green('✅ Build directory cleaned'));
+        }
+    } catch (error) {
+        console.log(colors.yellow(`⚠️ Warning: Could not clean _site directory: ${error.message}`));
+    }
+}
+
 // Start the development server
 function startDevServer() {
     return new Promise((resolve, reject) => {
         console.log(colors.cyan('🚀 Starting development server...'));
 
+        // Clean build directory before starting server
+        cleanBuildDirectory();
+
         devServerProcess = spawn('npm', ['run', 'start-prod'], {
             stdio: ['ignore', 'pipe', 'pipe'],
-            shell: false
+            shell: false,
+            detached: true  // Create new process group for easier cleanup
         });
 
         devServerProcess.stdout.on('data', (data) => {
@@ -66,6 +88,7 @@ function startDevServer() {
                     const filePort = fs.readFileSync('.eleventy-port', 'utf8').trim();
                     if (await checkServerRunning(filePort)) {
                         clearInterval(checkInterval);
+                        serverPort = filePort; // Store the port we're using
                         console.log(colors.green(`✅ Server ready on port ${filePort}`));
                         resolve(filePort);
                     }
@@ -85,16 +108,48 @@ function startDevServer() {
 
 // Cleanup function to kill the dev server
 function cleanup() {
-    if (devServerProcess && !devServerProcess.killed) {
-        console.log(colors.yellow('🧹 Stopping development server...'));
-        devServerProcess.kill('SIGTERM');
-
-        setTimeout(() => {
-            if (devServerProcess && !devServerProcess.killed) {
-                devServerProcess.kill('SIGKILL');
-            }
-        }, 5000);
+    if (cleanupCalled || !serverStartedByUs) {
+        return; // Prevent multiple cleanup calls or don't kill servers we didn't start
     }
+
+    cleanupCalled = true;
+    console.log(colors.yellow('🧹 Stopping development server...'));
+
+    // Simple approach: kill by port and process
+    if (serverPort) {
+        try {
+            // Kill eleventy processes on our port
+            const { spawn } = require('child_process');
+            spawn('pkill', ['-f', `eleventy.*${serverPort}`], { stdio: 'ignore' });
+        } catch (error) {
+            // Ignore errors
+        }
+    }
+
+    // Also try to kill our process if we have it
+    if (devServerProcess && !devServerProcess.killed) {
+        try {
+            devServerProcess.kill('SIGTERM');
+        } catch (error) {
+            // Ignore errors
+        }
+    }
+
+    // Clean up port file if we started the server
+    setTimeout(() => {
+        if (fs.existsSync('.eleventy-port')) {
+            try {
+                fs.unlinkSync('.eleventy-port');
+            } catch (error) {
+                // Ignore cleanup errors
+            }
+        }
+        // Reset for next use
+        cleanupCalled = false;
+        serverStartedByUs = false;
+        devServerProcess = null;
+        serverPort = null;
+    }, 1000);
 }
 
 // Get sitemap URLs
@@ -112,8 +167,8 @@ async function getSitemapUrls(baseUrl) {
         while ((match = urlPattern.exec(response.data)) !== null) {
             let url = match[1];
 
-            // Replace domain with baseUrl for consistency
-            if (baseUrl.includes('localhost')) {
+            // Replace domain with baseUrl for consistency (needed for localhost, preview, etc.)
+            if (baseUrl.includes('localhost') || baseUrl.includes('netlify.app')) {
                 url = url.replace(/https?:\/\/[^\/]+/, baseUrl);
             }
 
@@ -384,8 +439,9 @@ async function runLinkCheck(mode, options = {}) {
     let baseUrl;
     let checkUrls = null;
 
-    // Reset broken links array
+    // Reset state for new check
     brokenLinks = [];
+    cleanupCalled = false;
 
     try {
         switch (mode.type) {
@@ -398,10 +454,16 @@ async function runLinkCheck(mode, options = {}) {
                 checkUrls = getChangedPagesUrls(baseUrl);
                 if (!checkUrls || checkUrls.length === 0) {
                     console.log(colors.yellow('ℹ️ No changed pages detected. Nothing to check.'));
+                    if (serverStartedByUs) {
+                        cleanup();
+                    }
                     return;
                 }
 
                 await checkSpecificUrls(checkUrls, options);
+                if (serverStartedByUs) {
+                    cleanup();
+                }
                 break;
 
             case 'localhost-full':
@@ -421,6 +483,9 @@ async function runLinkCheck(mode, options = {}) {
                         maxSocketsPerHost: 2,
                         rateLimit: 100
                     });
+                }
+                if (serverStartedByUs) {
+                    cleanup();
                 }
                 break;
 
@@ -484,6 +549,9 @@ async function runLinkCheck(mode, options = {}) {
 
     } catch (error) {
         console.error(colors.red(`❌ Error: ${error.message}`));
+        if (serverStartedByUs) {
+            cleanup();
+        }
         throw error;
     }
 }
@@ -503,29 +571,35 @@ async function ensureLocalhostServer() {
     // Check if server is already running
     if (expectedPort && await checkServerRunning(expectedPort)) {
         console.log(colors.green(`💻 Using existing server on localhost:${expectedPort}`));
+        serverStartedByUs = false; // We didn't start this one
         return expectedPort;
     } else {
         console.log(colors.yellow('🔍 Server not detected, starting development server...'));
+        serverStartedByUs = true; // We're starting this one
         return await startDevServer();
     }
 }
 
-// Process handlers for cleanup
-process.on('SIGINT', () => {
-    console.log(colors.yellow('\n👋 Link check cancelled by user'));
-    cleanup();
-    process.exit(0);
-});
+// Process handlers for cleanup (only set once)
+if (!global._linkCheckHandlersSet) {
+    global._linkCheckHandlersSet = true;
 
-process.on('SIGTERM', () => {
-    console.log(colors.yellow('\n🛑 Process terminated'));
-    cleanup();
-    process.exit(0);
-});
+    process.on('SIGINT', () => {
+        console.log(colors.yellow('\n👋 Link check cancelled by user'));
+        cleanup();
+        process.exit(0);
+    });
 
-process.on('beforeExit', () => {
-    cleanup();
-});
+    process.on('SIGTERM', () => {
+        console.log(colors.yellow('\n🛑 Process terminated'));
+        cleanup();
+        process.exit(0);
+    });
+
+    process.on('beforeExit', () => {
+        cleanup();
+    });
+}
 
 module.exports = {
     runLinkCheck,
