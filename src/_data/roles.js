@@ -23,13 +23,13 @@ module.exports = {
 			businessAnalysis: "Business analysis",
 			contentAuthoring: "Content authoring",
 			contentPublishing: "Content publishing",
-			uxResearch: "User experience research",
-			uxDesign: "User experience design",
+			uxResearch: "User experience (UX) research",
+			uxDesign: "User experience (UX) design",
 			visualDesign: "Visual design",
 			frontEndDev: "Front-end development",
 			backEndDev: "Back-end development",
-			qaAutomated: "Automated QA testing",
-			qaManual: "Manual QA testing",
+			qaAutomated: "Automated Quality Assurance (QA) testing",
+			qaManual: "Manual Quality Assurance (QA) testing",
 			productOwnership: "Product ownership",
 			projectManagement: "Project management",
 			governance: "Governance",
@@ -38,14 +38,14 @@ module.exports = {
 			businessAnalysis: "Analyse d'affaires",
 			contentAuthoring: "Rédaction de contenu",
 			contentPublishing: "Publication de contenu",
-			uxResearch: "Recherche UX",
-			uxDesign: "Conception UX",
+			uxResearch: "Recherche d'expérience utilisateur (EU)",
+			uxDesign: "Conception d'expérience utilisateur (EU)",
 			visualDesign: "Conception visuelle",
 			frontEndDev: "Développement front-end",
 			backEndDev: "Développement back-end",
-			qaAutomated: "Tests AQ automatisés",
-			qaManual: "Tests AQ manuels",
-			productOwnership: "Propriété du produit",
+			qaAutomated: "Tests d'assurance qualité (AQ) automatisés",
+			qaManual: "Tests d'assurance qualité (AQ) manuels",
+			productOwnership: "Responsabilité du produit",
 			projectManagement: "Gestion de projet",
 			governance: "Gouvernance",
 		},
@@ -97,7 +97,7 @@ module.exports = {
 				groupDescription: "This role includes content strategy and content authoring, including audio/video production. Responsible for creating all text presented by the deliverable in all forms (HTML, audio, video). Defines or selects the standards the content should meet and processes for its review and preparation."
 			},
 			uxResearch: {
-				title: "User Experience Researcher",
+				title: "User experience (UX) Researcher",
 				description: "UX Researchers conduct both exploratory and generative research with end users (e.g. user interviews, ethnographic research, etc.) to gather their feedback. The responsibility of this role is to continuously feed user feedback to those creating products. They test existing concepts and summarize user insights to inform the assets that will be built by the roles in UX Design, Visual Design, Front-end Development and Content Authoring.",
 				keyDeliverables: ["Findings from moderated and unmoderated versions of user research studies", "usability testing and user interviews (i.e. a moderator or facilitator was present during the test, or the end user was alone)"],
 				tasks: ["Conducting user research with a partial prototype", "concept", "or completed product"],
@@ -105,7 +105,7 @@ module.exports = {
 				groupDescription: "This group includes user research, user experience (UX), and presentation decisions. Some roles within this group define the user experience of a product, designing its behaviors and interactions with the end user and/or their assistive technologies. Some roles provide the general \"look and feel\" of the products and features, covering presentation, fonts and colors. Others outline the functionality of features, and their operation through assistive technologies (ATs). They translate input from business roles into user stories, requirements, specifications, documentation, and guidelines used by other roles (mainly Development) to build the finished product. This includes applying user research that has been conducted and an understanding of the intended audiences for a quality experience."
 			},
 			uxDesign: {
-				title: "User Experience Design",
+				title: "User experience (UX) Design",
 				description: "UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.",
 				keyDeliverables: ["User journeys", "wireframes", "prototypes", "interaction guidelines", "information architecture"],
 				tasks: ["User workflow / process maps", "designing user experiences", "user task and workflow mapping", "creating and maintaining user personas"],
@@ -135,13 +135,13 @@ module.exports = {
 				groupDescription: "Oversees the creation, coding and delivery of the product based upon the requirements provided. Responsible for all user-facing and supporting systems, along with all related infrastructure selection, setup and deployment."
 			},
 			qaAutomated: {
-				title: "Automated QA Testing",
+				title: "Automated Quality Assurance (QA) testing",
 				description: "Quality Assurance (QA) automation frameworks typically run against products in order to test features and functionality that would otherwise fall to a manual QA tester. For the purpose of this resource, a QA Tester performing automated tests is responsible for running tests within an automation framework that covers accessibility features and requirements. This can be accomplished either through automation of functional tests, and/or the inclusion of an accessibility testing library within the framework. QA Testers responsible for automated testing may also typically run automated accessibility testing tools, such as browser extensions or add-ons. It is expected that automated tools will uncover about 30 to 35% of potential accessibility issues on a screen. The rest will be identified through the team's manual accessibility testing methodology.",
 				jobTitles: ["QA Automation Engineer", "Quality Engineer", "Automation Engineer"],
 				groupDescription: "QA Testers run automated test frameworks or manually test products to confirm correct operation based upon provided requirement. Quality Assurance (QA) Testers typically don't contribute directly to the design and development phases of a product. They may have the opportunity to review and sign off on designs before they are implemented. The main accessibility role of a QA Tester in the accessibility lifecycle is to understand the accessibility requirements that exist and to run tests to ensure the product or feature conforms to those requirements. The testing roles have been split between automated and manual, but a number of QA professionals will do both."
 			},
 			qaManual: {
-				title: "Manual QA Testing",
+				title: "Manual Quality Assurance (QA) testing",
 				description: "Quality Assurance Testers responsible for manual testing will typically handle the testing that cannot be covered through the use of automated tools. They will typically be resources that are more knowledgeable about accessibility, with a deeper understanding of the requirements, and some experience operating assistive technologies for testing, such as screen readers. They will typically run a series of test cases to validate the degree of inclusion of the components of a screen and will be charged with making sure that the overall user experience is positive for people with disabilities. It is expected that manual testing will build on top of an automated testing process, in order to cover the remaining 65 to 70% of potential accessibility issues on any given screen.",
 				jobTitles: ["QA Analyst", "QA Specialist", "User Acceptance Tester", "Functional Tester"],
 				groupDescription: "QA Testers run automated test frameworks or manually test products to confirm correct operation based upon provided requirement. Quality Assurance (QA) Testers typically don't contribute directly to the design and development phases of a product. They may have the opportunity to review and sign off on designs before they are implemented. The main accessibility role of a QA Tester in the accessibility lifecycle is to understand the accessibility requirements that exist and to run tests to ensure the product or feature conforms to those requirements. The testing roles have been split between automated and manual, but a number of QA professionals will do both."
@@ -190,7 +190,7 @@ module.exports = {
 			},
 			uxResearch: {
 				title: "Recherche d'expérience utilisateur",
-				description: "Les chercheurs UX mènent des recherches exploratoires et génératives avec les utilisateurs finaux (par exemple, entretiens utilisateur, recherche ethnographique, etc.) pour recueillir leurs commentaires. La responsabilité de ce rôle est de fournir continuellement les commentaires des utilisateurs à ceux qui créent les produits. Ils testent les concepts existants et résument les insights utilisateur pour informer les actifs qui seront construits par les rôles en conception UX, conception visuelle, développement front-end et création de contenu.",
+				description: "Les chercheurs UX mènent des recherches exploratoires et génératives avec les utilisateurs finaux (par exemple, entretiens utilisateur, recherche ethnographique, etc.) pour recueillir leurs commentaires. La responsabilité de ce rôle est de fournir continuellement les commentaires des utilisateurs à ceux qui créent les produits. Ils testent les concepts existants et résument les insights utilisateur pour informer les actifs qui seront construits par les rôles en Conception d'expérience utilisateur (EU), conception visuelle, Développement front-end et création de contenu.",
 				keyDeliverables: ["Résultats d'études de recherche utilisateur modérées et non modérées", "tests d'utilisabilité et entretiens utilisateur (c'est-à-dire qu'un modérateur ou facilitateur était présent pendant le test, ou l'utilisateur final était seul)"],
 				tasks: ["Mener des recherches utilisateur avec un prototype partiel", "concept", "ou produit terminé"],
 				jobTitles: ["Chercheur utilisateur", "UXR (Chercheur d'expérience utilisateur)", "Analyste d'utilisabilité"],
@@ -198,7 +198,7 @@ module.exports = {
 			},
 			uxDesign: {
 				title: "Conception d'expérience utilisateur",
-				description: "Les concepteurs UX peuvent potentiellement couvrir de nombreux domaines connexes, de la conceptualisation du parcours utilisateur au développement front-end partiel. Aux fins de cette ressource, la conception UX est définie par ses responsabilités principales, telles que l'architecture de l'information, la création de wireframes (maquettes d'écran de faible fidélité), et la création de prototypes qui définissent les interactions.",
+				description: "Les concepteurs UX peuvent potentiellement couvrir de nombreux domaines connexes, de la conceptualisation du parcours utilisateur au Développement front-end partiel. Aux fins de cette ressource, la Conception d'expérience utilisateur (EU) est définie par ses responsabilités principales, telles que l'architecture de l'information, la création de wireframes (maquettes d'écran de faible fidélité), et la création de prototypes qui définissent les interactions.",
 				keyDeliverables: ["Parcours utilisateur", "wireframes", "prototypes", "directives d'interaction", "architecture de l'information"],
 				tasks: ["Cartes de flux de travail / processus utilisateur", "conception d'expériences utilisateur", "cartographie des tâches et flux de travail utilisateur", "création et maintenance de personas utilisateur"],
 				jobTitles: ["Concepteur d'expérience utilisateur (UX)", "Concepteur de produit", "Concepteur web", "Concepteur de service"],
@@ -206,7 +206,7 @@ module.exports = {
 			},
 			visualDesign: {
 				title: "Conception visuelle",
-				description: "Les concepteurs visuels se concentrent largement sur l'apparence et la sensation d'un produit, tel qu'un utilisateur final l'expérimenterait, visuellement ou autrement. Cela inclut la spécification de la conception originale des éléments d'interface et de la mise en page, le choix des polices et couleurs, et plus encore. Alors que la conception UX se concentre sur comment quelque chose fonctionne, la conception visuelle se concentre sur comment cela apparaît et se ressent.",
+				description: "Les concepteurs visuels se concentrent largement sur l'apparence et la sensation d'un produit, tel qu'un utilisateur final l'expérimenterait, visuellement ou autrement. Cela inclut la spécification de la conception originale des éléments d'interface et de la mise en page, le choix des polices et couleurs, et plus encore. Alors que la Conception d'expérience utilisateur (EU) se concentre sur comment quelque chose fonctionne, la conception visuelle se concentre sur comment cela apparaît et se ressent.",
 				keyDeliverables: ["Guides de style", "compositions de page", "maquettes de conception", "fichiers d'image"],
 				tasks: ["Style visuel", "logos et image de marque", "animation", "et conception d'iconographie"],
 				jobTitles: ["Concepteur visuel", "Concepteur d'interface utilisateur (UI)", "Concepteur d'interaction", "Graphiste"],
@@ -214,7 +214,7 @@ module.exports = {
 			},
 			frontEndDev: {
 				title: "Développement front-end",
-				description: "Le développement front-end construit typiquement les parties d'un produit qui seront interagies par l'utilisateur - spécifiquement, l'interface utilisateur. Aux fins de cette ressource, le développement front-end fait référence à l'implémentation ou codification de la conception en modèles fonctionnels pour un produit utilisant des technologies telles que HTML, CSS et JavaScript.",
+				description: "Le Développement front-end construit typiquement les parties d'un produit qui seront interagies par l'utilisateur - spécifiquement, l'interface utilisateur. Aux fins de cette ressource, le Développement front-end fait référence à l'implémentation ou codification de la conception en modèles fonctionnels pour un produit utilisant des technologies telles que HTML, CSS et JavaScript.",
 				keyDeliverables: ["Fichiers HTML et CSS", "scripts côté client", "bibliothèques et frameworks JavaScript"],
 				tasks: ["Bibliothèques de modèles et prototypes", "fonctionnalités de modèles", "structures de documents HTML et widgets sémantiquement riches", "utiliser et adapter des frameworks et systèmes de gestion de contenu"],
 				jobTitles: ["Développeur front-end", "Développeur web", "Développeur full-stack", "Développeur UI/UX", "Développeur JavaScript", "Ingénieur UI/UX"],
@@ -227,19 +227,19 @@ module.exports = {
 				groupDescription: "Supervise la création, le codage et la livraison du produit basé sur les exigences fournies. Responsable de tous les systèmes orientés utilisateur et de support, ainsi que de toute la sélection, configuration et déploiement d'infrastructure connexe."
 			},
 			qaAutomated: {
-				title: "Tests AQ automatisés",
+				title: "Tests d'assurance qualité (AQ) automatisés",
 				description: "Les frameworks d'automatisation d'assurance qualité (AQ) s'exécutent typiquement contre les produits afin de tester les fonctionnalités et la fonctionnalité qui autrement incomberaient à un testeur AQ manuel. Aux fins de cette ressource, un testeur AQ effectuant des tests automatisés est responsable d'exécuter des tests dans un framework d'automatisation qui couvre les fonctionnalités et exigences d'accessibilité. Ceci peut être accompli soit par l'automatisation de tests fonctionnels, et/ou l'inclusion d'une bibliothèque de tests d'accessibilité dans le framework. Les testeurs AQ responsables des tests automatisés peuvent aussi typiquement exécuter des outils de tests d'accessibilité automatisés, tels que des extensions de navigateur ou des modules complémentaires. Il est attendu que les outils automatisés découvriront environ 30 à 35% des problèmes d'accessibilité potentiels sur un écran. Le reste sera identifié à travers la méthodologie de tests d'accessibilité manuels de l'équipe.",
 				jobTitles: ["Ingénieur d'automatisation AQ", "Ingénieur qualité", "Ingénieur d'automatisation"],
 				groupDescription: "Les testeurs AQ exécutent des frameworks de tests automatisés ou testent manuellement les produits pour confirmer le fonctionnement correct basé sur les exigences fournies. Les testeurs d'assurance qualité (AQ) ne contribuent typiquement pas directement aux phases de conception et développement d'un produit. Ils peuvent avoir l'opportunité de réviser et approuver les conceptions avant qu'elles soient implémentées. Le rôle principal d'accessibilité d'un testeur AQ dans le cycle de vie d'accessibilité est de comprendre les exigences d'accessibilité qui existent et d'exécuter des tests pour s'assurer que le produit ou la fonctionnalité se conforme à ces exigences. Les rôles de test ont été divisés entre automatisé et manuel, mais un nombre de professionnels AQ feront les deux."
 			},
 			qaManual: {
-				title: "Tests AQ manuels",
+				title: "Tests d'assurance qualité (AQ) manuels",
 				description: "Les testeurs d'assurance qualité responsables des tests manuels géreront typiquement les tests qui ne peuvent pas être couverts par l'utilisation d'outils automatisés. Ils seront typiquement des ressources qui sont plus connaissantes sur l'accessibilité, avec une compréhension plus profonde des exigences, et une certaine expérience d'utilisation des technologies d'assistance pour les tests, telles que les lecteurs d'écran. Ils exécuteront typiquement une série de cas de test pour valider le degré d'inclusion des composants d'un écran et seront chargés de s'assurer que l'expérience utilisateur globale est positive pour les personnes handicapées. Il est attendu que les tests manuels s'appuieront sur un processus de tests automatisés, afin de couvrir les 65 à 70% restants des problèmes d'accessibilité potentiels sur tout écran donné.",
 				jobTitles: ["Analyste AQ", "Spécialiste AQ", "Testeur d'acceptation utilisateur", "Testeur fonctionnel"],
 				groupDescription: "Les testeurs AQ exécutent des frameworks de tests automatisés ou testent manuellement les produits pour confirmer le fonctionnement correct basé sur les exigences fournies. Les testeurs d'assurance qualité (AQ) ne contribuent typiquement pas directement aux phases de conception et développement d'un produit. Ils peuvent avoir l'opportunité de réviser et approuver les conceptions avant qu'elles soient implémentées. Le rôle principal d'accessibilité d'un testeur AQ dans le cycle de vie d'accessibilité est de comprendre les exigences d'accessibilité qui existent et d'exécuter des tests pour s'assurer que le produit ou la fonctionnalité se conforme à ces exigences. Les rôles de test ont été divisés entre automatisé et manuel, mais un nombre de professionnels AQ feront les deux."
 			},
 			productOwnership: {
-				title: "Propriété du produit",
+				title: "Responsabilité du produit",
 				description: "Les propriétaires de produit possèdent des produits individuels et définissent leurs fonctionnalités et sont clés pour définir l'importance de l'accessibilité sur un projet. C'est leur travail de s'assurer que les produits sont construits et livrés d'une manière qui répond aux besoins d'affaires et aux besoins des utilisateurs. Ils devraient avoir une certaine compréhension de base des implications d'accessibilité des exigences UI qu'ils demandent, telles que le coût et l'infrastructure requise. Mais, comme avec les fonctionnalités en général, ils délèguent les décisions de conception et d'implémentation à d'autres rôles. En conséquence, ils ne sont typiquement pas directement impliqués et n'ont pas de propriété dans le modèle ARRM.",
 				jobTitles: ["Gestionnaire de produit", "Propriétaire de produit", "Gestionnaire de version", "Propriétaire d'affaires"],
 				groupDescription: "Les rôles de cette section couvrent la gestion du produit et du projet, ainsi que d'autres fonctions bureaucratiques de l'organisation plus large qui ont souvent un mandat plus large que tout projet individuel. La plupart des rôles administratifs, tels que définis dans cette ressource, ont très peu, voire rien, à voir avec la conception, l'implémentation, ou les tests des principes d'accessibilité pour créer des applications et sites web plus inclusifs. Ces rôles, cependant, sont toujours instrumentaux pour s'assurer que les membres d'équipe qui participent activement à rendre le contenu accessible et conforme aux WCAG peuvent réussir à le faire. Cela commence avec les gestionnaires de projet et propriétaires de produit travaillant main dans la main avec les équipes de conception, développement et test, mais aussi d'autres rôles de gouvernance contribuant à orienter la culture de l'organisation dans une direction qui est alignée avec les objectifs poursuivis par les directives d'accessibilité."
