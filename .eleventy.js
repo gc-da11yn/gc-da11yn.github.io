@@ -104,6 +104,17 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  // Add UTF-8 BOM to CSV files for proper Excel encoding
+  eleventyConfig.addTransform("csvUtf8Bom", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith(".csv")) {
+      // For Excel compatibility, we need to ensure the content is properly encoded
+      // Try a different approach with UTF-8 BOM and ensure content is UTF-8
+      const utf8Bom = '\uFEFF'; // Use Unicode BOM character instead of bytes
+      return utf8Bom + content;
+    }
+    return content;
+  });
+
   eleventyConfig.addFilter("localeMatch", function (collection) {
     const { locale } = this.ctx; // avoid retrieving it for each item
     return collection.filter((item) => item.data.locale === locale);
@@ -195,9 +206,63 @@ module.exports = function (eleventyConfig) {
     return changedPages; // Returning the changed URLs, titles, and locales for the template
   });
 
+  // Get the role keys that belong to a given group
+  eleventyConfig.addFilter("roleKeysForGroup", function (groupKey, rolesData) {
+    if (!groupKey || !rolesData || !rolesData.roles) return [];
+    return Object.entries(rolesData.roles)
+      .filter(([, meta]) => meta.group === groupKey)
+      .map(([key]) => key);
+  });
+
+  // Given a list of role keys, return all pages that match ANY of them
+  eleventyConfig.addFilter("byAnyRole", function (collection, roleKeys) {
+    if (!collection || !roleKeys || !roleKeys.length) return [];
+    return collection.filter((item) => {
+      const r = item.data.role;
+      if (!r) return false;
+      const arr = Array.isArray(r) ? r : [r];
+      return arr.some((k) => roleKeys.includes(k));
+    });
+  });
+
+  // Collection of all pages that have at least one role
+  eleventyConfig.addCollection("rolePages", (api) =>
+    api.getAll().filter((item) => !!item.data.role)
+  );
+
+  // Custom collection for role groups to work around pagination tag issues
+  eleventyConfig.addCollection("roleGroup", (api) => {
+    // Find all pages generated from the roles-group.njk template OR
+    // pages with URLs matching role group patterns
+    return api.getAll().filter((item) => {
+      // Check if the page was generated from the roles-group template
+      const fromRoleGroupTemplate = item.inputPath && item.inputPath.includes('roles-group.njk');
+
+      // Check if URL matches role group pattern (e.g., /en/roles/business/, /fr/roles/design/)
+      const matchesRoleGroupPattern = item.url && item.url.match(/^\/(en|fr)\/roles\/(administration|author|business|design|development|testing)\/$/);
+
+      return fromRoleGroupTemplate || matchesRoleGroupPattern;
+    });
+  });
+
   // Add custom Markdown filter for Nunjucks
   eleventyConfig.addNunjucksFilter("markdown", function (value) {
     return md.render(value);
+  });
+
+  // Add split filter for Nunjucks
+  eleventyConfig.addNunjucksFilter("split", function (str, separator) {
+    if (typeof str !== 'string') return [];
+    return str.split(separator || ' ');
+  });
+
+  // Add wordCount filter for convenience
+  eleventyConfig.addNunjucksFilter("wordCount", function (content) {
+    if (!content) return 0;
+    const text = typeof content === 'string' ? content : String(content);
+    const stripped = stripHtml(text).result;
+    const words = stripped.trim().split(/\s+/);
+    return words.length === 1 && words[0] === '' ? 0 : words.length;
   });
 
   let changedFilesMap = new Map();
@@ -329,6 +394,26 @@ module.exports = function (eleventyConfig) {
     // Clear the set for the next watch cycle
     changedFilePaths.clear();
     gitChangedUrls = [];
+  });
+
+  // Add computed data for git creation dates
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    gitCreated: (data) => {
+      if (data.page && data.page.inputPath) {
+        try {
+          const gitCommand = `git log --format="%ai" --reverse "${data.page.inputPath}" | head -1`;
+          const result = execSync(gitCommand, { encoding: 'utf8' }).trim();
+
+          if (result) {
+            return new Date(result);
+          }
+        } catch (error) {
+          // Silently handle errors - some files might not have git history
+          // console.error(`Error getting git creation date for ${data.page.inputPath}:`, error.message);
+        }
+      }
+      return null;
+    }
   });
 
   // Ignore template files from being built

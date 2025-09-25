@@ -1,0 +1,8 @@
+{#
+  Role content coming soon alert
+  Usage: {% include "partials/role-content-coming-soon.njk" %}
+  Optional parameter: variant="group" for group pages (changes the text slightly)
+#}
+<div class="alert alert-info">
+  <p><strong>{{ alerts[locale].roleContentComingSoon }}</strong> {% if variant == "group" %}{{ alerts[locale].roleContentComingSoonTextGroup }}{% else %}{{ alerts[locale].roleContentComingSoonText }}{% endif %}</p>
+</div>

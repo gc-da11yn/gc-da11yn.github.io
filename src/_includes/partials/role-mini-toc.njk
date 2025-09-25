@@ -1,0 +1,18 @@
+{# expects: lang, locale, rolesData, groupRoleKeys, collections #}
+<aside>
+	<h2>{{ onThisPage[locale].heading }}</h2>
+	<ul class="mrgn-bttm-lg">
+		{% for rk in groupRoleKeys %}
+		{% set label = rolesData.labels[lang][rk] or rk %}
+		{% set anchor = label | stripTagsSlugify %}
+		{% set items = collections.rolePages
+		| byAnyRole([rk])
+		| localeMatch(locale)
+		| sort(false, false, 'data.title') %}
+		<li class="list-inline-item">
+			<a href="#{{ anchor }}">{{ label }}</a>
+			{% if items.length %}<small class="text-muted">({{ items.length }})</small>{% endif %}
+		</li>
+		{% endfor %}
+	</ul>
+</aside>

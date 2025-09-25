@@ -1,0 +1,53 @@
+---
+permalink: "/docs/pages-fr.csv"
+layout: false
+eleventyExcludeFromCollections: true
+date: "git Last Modified"
+---
+{%- from "macros/contentType.njk" import getContentType -%}
+{%- set roles_data = roles -%}
+{%- macro csv(val) -%}
+  "{{ (val | default('') | string | replace('"', '""')) }}"
+{%- endmacro -%}
+{%- macro listify(val) -%}
+  {%- if val is defined and val is not none -%}
+    {%- if val is string -%}
+      {{ val }}
+    {%- elif val is iterable -%}
+      {{ val | join('; ') }}
+    {%- endif -%}
+  {%- endif -%}
+{%- endmacro -%}
+
+{%- macro roleLabels(val, locale) -%}
+  {%- if val is defined and val is not none -%}
+    {%- if val is string -%}
+      {{ roles_data.labels[locale][val] or val }}
+    {%- elif val is iterable -%}
+      {%- set labelList = "" -%}
+      {%- for item in val -%}
+        {%- set label = roles_data.labels[locale][item] or item -%}
+        {%- if loop.first -%}
+          {%- set labelList = label -%}
+        {%- else -%}
+          {%- set labelList = labelList + "; " + label -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {{ labelList }}
+    {%- endif -%}
+  {%- endif -%}
+{%- endmacro -%}
+Titre,URL,Rôles (clés),Sujets,Étiquettes,Basculer,Mise en page,Date de modification,Date de création,Type de contenu,Source
+{% for item in (collections.all | localeMatch('fr')) %}
+{%- if item.data.permalink != false and not item.data.redirect and not item.inputPath.endsWith('.csv.njk') -%}
+{%- set roleVal = item.data.role -%}
+{%- set subjectsVal = item.data.subjects or item.data.subject -%}
+{%- set tagsVal = item.data.tags -%}
+{%- set toggleVal = item.data.toggle -%}
+{%- set urlVal = item.url -%}
+{%- set layoutVal = item.data.layout -%}
+{%- set modifiedVal = item.date | postDate -%}
+{%- set createdVal = item.data.gitCreated | postDate if item.data.gitCreated else settings.dateCreated -%}
+{{ csv(item.data.title | striptags) }},{{ csv(urlVal) }},{{ csv(listify(roleVal)) }},{{ csv(listify(subjectsVal)) }},{{ csv(listify(tagsVal)) }},{{ csv(toggleVal) }},{{ csv(layoutVal) }},{{ csv(modifiedVal) }},{{ csv(createdVal) }},{{ csv(getContentType(item.inputPath, "fr")) }},{{ csv(item.inputPath) }}
+{% endif -%}
+{%- endfor %}
