@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+  <title>User experience (UX) design- Digital Accessibility Toolkit</title>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta name="description" content="UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.">
+  <meta name="source-file" content="./src/main/en/role.njk">
+  <link rel="alternate" hreflang="fr" href="/fr/rolesuxdesign/index.html" />
+  <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
+  <link rel="stylesheet" href="/css/da11yn.css">
+  <!-- Meta tags -->
+  <meta name="author" content="Government of Canada" />
+  <meta name="dcterms.title" content="User experience (UX) design" />
+  <meta name="dcterms.description" content="UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions." />
+  <meta name="dcterms.creator" content="Government of Canada">
+  <meta name="dcterms.language" content="en" />
+  <meta name="dcterms.created" content="2023-08-01">
+  <meta name="dcterms.modified" content="2025-09-03">
+  <meta name="dcterms.subject" content="; " />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+  <script>
+    (function(w) {
+      "use strict";
+      if (w.location.hostname === "a11y.canada.ca") {
+        w.dataLayer = w.dataLayer || [];
+        w.gtag = function() {
+          w.dataLayer.push(arguments);
+        };
+        w.gtag('js', new Date());
+        w.gtag('config', 'G-SM9MSHWDVN');
+      }
+    })(window);
+
+  </script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+  <nav>
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
+      </li>
+    </ul>
+  </nav>
+  <header>
+    <div id="wb-bnr" class="container">
+      <div class="row">
+        <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+          <h2 class="wb-inv">Language selection</h2>
+          <ul class="list-inline mrgn-bttm-0">
+            <li>
+              <a lang="fr" hreflang="fr" href="/fr/rolesuxdesign/">
+                <span class="hidden-xs" translate="no">Français</span>
+                <abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> fr</abbr>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+          <a href="https://www.canada.ca/en.html" property="url">
+            <img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" />
+            <span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+          </a>
+          <meta property="name" content="Government of Canada">
+          <meta property="areaServed" typeof="Country" content="Canada" />
+          <link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
+        </div>
+        <section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+          <h2>Search</h2>
+          <form action="https://canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search">
+            <div class="form-group wb-srch-qry">
+              <label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+              <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca" />
+              <datalist id="wb-srch-q-ac"></datalist>
+            </div>
+            <div class="form-group submit">
+              <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+                <span class="glyphicon-search glyphicon"></span>
+                <span class="wb-inv">Search</span>
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <nav class="gcweb-menu" typeof="SiteNavigationElement">
+            <h2 class="wb-inv">Menu</h2>
+            <button type="button" aria-haspopup="true" aria-expanded="false">
+              <span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+            </button>
+            <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <nav id="wb-bc" property="breadcrumb">
+      <h2>Breadcrumb Navigation</h2>
+      <div class="container">
+        <ol class="breadcrumb" typeof="BreadcrumbList">
+          <!-- First breadcrumb: Canada.ca -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html">
+              <span property="name">Canada.ca</span>
+            </a>
+            <meta property="position" content="1">
+          </li>
+          <!-- Second breadcrumb: Locale-based home link -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="/en/">Digital Accessibility Toolkit</a>
+            <meta property="position" content="2">
+          </li>
+          <!-- Additional breadcrumbs based on tags and subjects -->
+          <!-- Special handling for role-based pages -->
+          <!-- Add "Accessibility in Your Role" breadcrumb -->
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="/en/roles/">
+              <span property="name"></span>
+            </a>
+            <meta property="position" content="3">
+          </li>
+          <!-- For individual role pages, add the role group breadcrumb -->
+        </ol>
+      </div>
+    </nav>
+  </header>
+  <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+    <div class="home">
+      <div class="container p-0 p-sm-3">
+        <div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
+          <h1 property="name" id="wb-cont">User experience (UX) design </h1>
+          <p>UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="mrgn-bttm-lg">
+        <p>
+          <span class="label label-success">User experience (UX) design</span>
+          <span class="mrgn-lft-sm">Part of the <a href="/en/roles/design/">Design role group</a></span>
+        </p>
+      </div>
+      <section class="mrgn-bttm-xl">
+        <h4>Key deliverable examples:</h4>
+        <ul>
+          <li>User journeys</li>
+          <li>wireframes</li>
+          <li>prototypes</li>
+          <li>interaction guidelines</li>
+          <li>information architecture</li>
+        </ul>
+        <h4>Tasks include:</h4>
+        <ul>
+          <li>User workflow / process maps</li>
+          <li>designing user experiences</li>
+          <li>user task and workflow mapping</li>
+          <li>creating and maintaining user personas</li>
+        </ul>
+        <h4>Example job titles for this role:</h4>
+        <ul>
+          <li>User Experience (UX) Designer</li>
+          <li>Product Designer</li>
+          <li>Web Designer</li>
+          <li>Service Designer</li>
+        </ul>
+        <h4>Role group description:</h4>
+        <p>This group includes user research, user experience (UX), and presentation decisions. Some roles within this group define the user experience of a product, designing its behaviors and interactions with the end user and/or their assistive technologies. Some roles provide the general &quot;look and feel&quot; of the products and features, covering presentation, fonts and colors. Others outline the functionality of features, and their operation through assistive technologies (ATs). They translate input from business roles into user stories, requirements, specifications, documentation, and guidelines used by other roles (mainly Development) to build the finished product. This includes applying user research that has been conducted and an understanding of the intended audiences for a quality experience.</p>
+        <p><small>This role description is adapted from the <a href="https://www.w3.org/WAI/planning/arrm/roles/" rel="external">W3C WAI Accessibility Roles and Responsibilities Mapping (ARRM)</a>. You are welcome to use this information as is, or change it for your situation.</small></p>
+      </section>
+      <section class="mrgn-bttm-xl">
+        <h2>Resources and guidance</h2>
+        <div class="alert alert-info">
+          <p><strong>Coming soon!</strong> Currently no content has been assigned to this role. Once content is tagged with this role, it will be listed on this page.</p>
+        </div>
+      </section>
+    </div>
+    <section class="pagedetails container">
+      <h2 class="wb-inv">Page details</h2>
+      <dl id="wb-dtmd">
+        <dt>Date modified:</dt>
+        <dd><time property="dateModified">2025-09-03</time></dd>
+      </dl>
+    </section>
+  </main>
+  <aside class="contribute">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribute to this project</span><small>on Github.com</small></h2>
+        </div>
+        <div class="col-md-7">
+          <ul class="list-inline">
+            <li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Source code</a></li>
+            <li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Issues</a></li>
+            <li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions</a></li>
+          </ul>
+          <p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca?subject=Contribute%20to%20the%20Digital%20Accessibility%20Toolkit">Reach the Digital Accessibility Toolkit by email</a></p>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <footer id="wb-info">
+    <h2 class="wb-inv">About this site</h2>
+    <div class="gc-main-footer">
+      <div class="container">
+        <nav>
+          <h3>Government of Canada</h3>
+          <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+            <li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+            <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+            <li><a href="https://www.canada.ca/en/government/system.html">About government</a></li>
+          </ul>
+          <h4><span class="wb-inv">Themes and topics</span></h4>
+          <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+            <li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+            <li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+            <li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+            <li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+            <li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+            <li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+            <li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+            <li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+            <li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+            <li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+            <li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+            <li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+            <li><a href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+            <li><a href="https://www.canada.ca/en/services/finance.html">Money and finance</a></li>
+            <li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+            <li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous peoples</a></li>
+            <li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
+            <li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="gc-sub-footer">
+      <div class="container d-flex align-items-center">
+        <nav>
+          <h3 class="wb-inv">Government of Canada Corporate</h3>
+          <ul>
+            <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+            <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+            <li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
+            <li><a href="https://www.canada.ca/en/transparency/terms.htm">Terms and conditions</a></li>
+            <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+          </ul>
+        </nav>
+        <div class="wtrmrk align-self-end">
+          <img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+</body>
+
+</html>

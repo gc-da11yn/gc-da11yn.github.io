@@ -367,17 +367,32 @@
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/docs/pages-en.csv</loc>
+		<lastmod>2025-09-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/docs/pages-fr.csv</loc>
+		<lastmod>2025-09-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/roles/</loc>
+		<lastmod>2025-09-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/roles/</loc>
+		<lastmod>2025-09-04</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/en/about-us/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/most-common-types-of-disability/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-in-your-role/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -408,11 +423,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/laccessibilite-dans-votre-role/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
