@@ -32,8 +32,15 @@
 	<meta name="source-file" content="{{ page.inputPath }}">
 
 
-	{% if toggle %}
-	<link rel="alternate" hreflang="{{ otherLang }}" href="{{ pathPrefix }}/{% if toggle != "fr" and toggle != "en" %}{{ otherLang }}/{% endif %}{{ toggle }}/index.html" />
+	{% if needsTranslation != true and toggle %}
+	{% set otherLangSlug = toggle | stripTagsSlugify %}
+	{# Special handling for home pages #}
+	{% if tags and 'home' in tags %}
+		{% set toggleUrl = pathPrefix + "/" + otherLang + "/" %}
+	{% else %}
+		{% set toggleUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
+	{% endif %}
+		<link rel="alternate" hreflang="{{ otherLang }}" href="{{ toggleUrl }}index.html" />
 	{% endif %}
 
 	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
