@@ -1,16 +1,16 @@
 ---
-title: "Rapport sur ce que nous avons entendu : Norme d’accessibilité des technologies de l’information et des communications (<abbr>NATIC</abbr>)"
-description: "Entre le 31 octobre et le 30 novembre 2022, la Division de la politique numérique et de la performance du Secrétariat du Conseil du Trésor du Canada - Bureau du dirigeant principal de l'information (<abbr>SCT-BDPI</abbr>) a entrepris un engagement ciblé sur la <em>Norme d'accessibilité des technologies de l'information et de la communication (<abbr>TIC</abbr>)</em>. Cette page détaille les principaux thèmes qui ont émergé et les prochaines étapes à suivre en ce qui concerne la norme."
-toggle: what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta
+title: "Rapport sur ce que nous avons entendu\_: Norme d’accessibilité des technologies de l’information et des communications (<abbr>NATIC</abbr>)"
+description: Entre le 31 octobre et le 30 novembre 2022, la Division de la politique numérique et de la performance du Secrétariat du Conseil du Trésor du Canada - Bureau du dirigeant principal de l'information (<abbr>SCT-BDPI</abbr>) a entrepris un engagement ciblé sur la <em>Norme d'accessibilité des technologies de l'information et de la communication (<abbr>TIC</abbr>)</em>. Cette page détaille les principaux thèmes qui ont émergé et les prochaines étapes à suivre en ce qui concerne la norme.
+toggle: 'What we heard report: Standard on Information and Communication Technology Accessibility (<abbr>SICTA</abbr>)'
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - accessibilityStandards
 hasDocument:
-  filename: "sitka-wwhr-fr.pptx"
+  filename: sitka-wwhr-fr.pptx
   sizeNumber: 10.3
-  sizeUnit: "KB"
-  type: "powerpoint"
+  sizeUnit: KB
+  type: powerpoint
 ---
 
 **Mars 2023**

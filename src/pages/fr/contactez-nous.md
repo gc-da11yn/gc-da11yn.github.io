@@ -1,7 +1,7 @@
 ---
 title: Contactez-nous
 description: Vous souhaitez en savoir plus ? Prenez contact avec notre équipe.
-toggle: contact-us
+toggle: Contact us
 tags:
   - aboutUs
 ---

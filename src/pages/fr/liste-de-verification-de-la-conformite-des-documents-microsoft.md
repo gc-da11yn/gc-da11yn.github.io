@@ -1,16 +1,16 @@
 ---
 title: Liste de vérification de la conformité des documents Microsoft
 description: Vous trouverez ici différentes questions qui vous aideront à savoir si votre document Microsoft 365 est accessible ou non.
-toggle: microsoft-document-compliance-checklist
+toggle: Microsoft document compliance checklist
 subject:
   - howTos
 tags:
   - createDocument
 hasDocument:
-  filename: "MSDocument_COMPLIANCE_CHECKLIST_FR.docx"
+  filename: MSDocument_COMPLIANCE_CHECKLIST_FR.docx
   sizeNumber: 15.3
-  sizeUnit: "KB"
-  type: "word"
+  sizeUnit: KB
+  type: word
 ---
 
 Vous trouverez ci-dessous des questions pour vous aider à évaluer l’accessibilité de votre document Microsoft 365 : Word, Excel ou PowerPoint. Les critères de réussite renvoient aux Règles pour l’accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1 : <a href="http://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG - Quick Reference<small> (en anglais seulement)</small></a> et le [Guide de rédaction du contenu du site Canada.ca](https://conception.canada.ca/guide-redaction/).

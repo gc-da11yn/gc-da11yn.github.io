@@ -6,11 +6,11 @@ subject:
 tags:
   - procurement
 hasDocument:
-  filename: "AnnexX-ICTAccessibilityRequirements.docx"
+  filename: AnnexX-ICTAccessibilityRequirements.docx
   sizeNumber: 447
-  sizeUnit: "KB"
-  type: "word"
-toggle: exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles
+  sizeUnit: KB
+  type: word
+toggle: Exigences en matière de technologies de l’information et des communications (<abbr>TIC</abbr>) accessibles
 ---
 
 {% include "information-and-communication-technology-ict-accessibility-requirements/intro.njk" %}

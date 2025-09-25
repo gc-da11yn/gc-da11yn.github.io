@@ -5,7 +5,7 @@ subject:
   - howTos
 tags:
   - createForms
-toggle: find-out-how-to-make-accessible-digital-forms
+toggle: Find out how to make accessible digital forms
 internalLinks: true
 ---
 

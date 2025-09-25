@@ -2,7 +2,7 @@
 title: Additional resources on accessible meetings and events
 description: For more information on accessible meetings and events, you can consult this list of links.
 internalLinks: true
-toggle: ressources-additionnelles-sur-les-reunions-et-evenements-accessibles
+toggle: Ressources additionnelles sur les réunions et événements accessibles
 ---
 
 - [Guide to Planning Inclusive meetings](https://www.canada.ca/en/employment-social-development/programs/disability/arc/inclusive-meetings.html#h2.1-h3.1) (HTML format) from Canada.ca

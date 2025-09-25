@@ -1,10 +1,17 @@
 {# Language toggle #}
 {% if needsTranslation != true and toggle %}
+{% set otherLangSlug = toggle | stripTagsSlugify %}
+{# Special handling for home pages #}
+{% if tags and 'home' in tags %}
+	{% set toggleUrl = pathPrefix + "/" + otherLang + "/" %}
+{% else %}
+	{% set toggleUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
+{% endif %}
 <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
 	<h2 class="wb-inv">{{ header[locale].languageSelections }}</h2>
 	<ul class="list-inline mrgn-bttm-0">
 		<li>
-			<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ pathPrefix }}/{% if toggle != "fr" and toggle != "en" %}{{ otherLang }}/{% endif %}{{ toggle }}/">
+			<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ toggleUrl }}">
 				<span class="hidden-xs" translate="no">{{ otherLanguage }}</span>
 				<abbr title="{{ otherLanguage }}" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> {{ otherLang }}</abbr>
 			</a>

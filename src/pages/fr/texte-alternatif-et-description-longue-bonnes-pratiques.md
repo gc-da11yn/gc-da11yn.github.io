@@ -2,7 +2,7 @@
 title: Texte alternatif et description longue - Bonnes pratiques
 layout: layouts/base.njk
 description: Un texte alternatif (ou texte alt) est un texte qui décrit et transmet la signification d'un élément visuel non textuel tel qu'une image, un organigramme, un graphique, etc. Ce document vous aidera à déterminer le type de texte alternatif nécessaire et vous donnera des conseils pour rédiger un texte alternatif et des descriptions longues pour des images simples et complexes, telles que des graphiques, des cartes, etc.
-toggle: alternative-text-and-long-description-best-practices
+toggle: Alternative text and long description – Best practices
 subject:
   - howTos
 tags:

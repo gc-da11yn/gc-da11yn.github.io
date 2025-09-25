@@ -5,7 +5,7 @@ subject:
   - howTos
 tags:
   - designCourse
-toggle: personas-with-disabilities-for-inclusive-user-experience-ux-design
+toggle: Personas with Disabilities for inclusive user experience (<abbr>UX</abbr>) design
 tocSimple: true
 ---
 

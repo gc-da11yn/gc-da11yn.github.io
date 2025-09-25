@@ -1,7 +1,7 @@
 ---
 title: Page déplacée ou supprimée
 description: The page you are looking for has moved or been deleted.
-toggle: page-moved-or-deleted
+toggle: Page moved or deleted
 eleventyExcludeFromCollections: true
 ---
 

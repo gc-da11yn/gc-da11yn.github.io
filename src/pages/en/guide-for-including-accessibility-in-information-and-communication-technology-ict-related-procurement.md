@@ -1,8 +1,8 @@
 ---
-title: "Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement"
-description: "The framework for integrating accessibility into Information and Communication Technology (ICT)-related procurements within the Government of Canada (GC) emphasizes leveraging the EN 301 549 standard to ensure inclusivity and usability across ICT products and services, exceeding the minimum requirements of WCAG 2.1. Designed for GC departments, agencies, and suppliers, it outlines practical steps, roles, and resources to promote accessibility, aligning with the Accessible Canada Act and fostering a barrier-free digital environment."
+title: Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement
+description: The framework for integrating accessibility into Information and Communication Technology (ICT)-related procurements within the Government of Canada (GC) emphasizes leveraging the EN 301 549 standard to ensure inclusivity and usability across ICT products and services, exceeding the minimum requirements of WCAG 2.1. Designed for GC departments, agencies, and suppliers, it outlines practical steps, roles, and resources to promote accessibility, aligning with the Accessible Canada Act and fostering a barrier-free digital environment.
 layout: layouts/base.njk
-toggle: guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic
+toggle: Guide pour l’inclusion de l’accessibilité dans l’approvisionnement lié aux technologies de l’information et des communications (TIC)
 toc: true
 internalLinks: true
 subject:

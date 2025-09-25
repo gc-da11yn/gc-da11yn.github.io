@@ -3,7 +3,7 @@ title: Concevoir pour les utilisateurs dans le spectre de l'autisme
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs du spectre de l'autisme.
 tags:
   - designingAccessible
-toggle: designing-for-users-on-the-autism-spectrum
+toggle: Designing for users on the autism spectrum
 subject:
   - howTos
 ---

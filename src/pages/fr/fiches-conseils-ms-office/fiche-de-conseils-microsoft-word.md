@@ -1,7 +1,7 @@
 ---
 title: Feuille de conseils pour Microsoft Word
 description: Référence rapide aux meilleures pratiques d’accessibilité pour les documents Word.
-toggle: tip-sheet-for-microsoft-word
+toggle: Tip sheet for Microsoft Word
 ---
 
 # Créer des documents accessibles dans Word

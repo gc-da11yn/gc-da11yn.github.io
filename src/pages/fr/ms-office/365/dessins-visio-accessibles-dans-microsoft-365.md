@@ -1,7 +1,7 @@
 ---
 title: Dessins Visio accessibles dans Microsoft 365
 description: Pratiques accessibles pour la création de diagrammes Microsoft Visio.
-toggle: accessible-visio-drawings-in-microsoft-365
+toggle: Accessible Visio drawings in Microsoft 365
 fontIcon: fa-project-diagram
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: Virtual Meeting Platforms and Accessibility Features
 description: The Microsoft Teams and Zoom virtual meeting platforms offer various accessibility features that meet different needs, including for meetings and conversations.
-toggle: plateformes-de-reunions-virtuelles-et-fonctionnalites
-tags:
-subject:
+toggle: Plateformes de réunions virtuelles et fonctionnalités
+tags: null
+subject: null
 ---
 
 ## Microsoft Teams

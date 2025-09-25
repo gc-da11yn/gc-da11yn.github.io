@@ -31,11 +31,18 @@ Always use the automated script: `npm run newPage`
 - Sets up `toggle` links between language versions
 - **⚠️ NEEDS REVISION**: Script functionality needs improvement and refinement
 
+### Documenting Major Changes
+For significant architectural changes, template updates, or workflow modifications:
+- Create detailed implementation documentation in `docs/implementation/`
+- Use descriptive filenames (e.g., `language-toggle-improvement.md`)
+- Include overview, changes made, testing results, and benefits
+- Document both English and French sections when applicable
+- Reference implementation docs in commit messages and PR descriptions
+
 ### Essential npm Scripts
 - `npm start` - Development server with hot reload and change detection
 - `npm run build` - Production build
-- `npm run link-check` - Interactive link checker with menu options (RECOMMENDED)
-- `npm run link-check-quick` - Quick automated link checking for CI/CD and development workflows
+- `npm run link-check` - Validates all internal/external links (**⚠️ NEEDS REVISION**: Works but needs automation improvements)
 - `npm run spellcheck` - Runs cspell on markdown content
 - `npm run analytics` - Updates Google Analytics data (**⚠️ NEEDS REVISION**: Currently not working properly)
 
@@ -52,17 +59,17 @@ The build system tracks changed files using git diff against upstream/main:
 ---
 title: "Page Title"
 description: "Page description for meta tags"
-toggle: french-page-slug    # Links to other language version
-subject:                    # Category classification
+toggle: "French Page Title"    # Use actual page title - automatically converted to URL slug
+subject:                       # Category classification
   - howTos
   - createWebContent
-tags:                       # Topic tags
+tags:                         # Topic tags (include 'home' for homepage special handling)
   - video
   - accessibility
-internalLinks: true         # Shows GC firewall warning
-isDraft: true              # Shows draft notice
-needsTranslation: true     # Hides language toggle, shows translation notice
-archived: true             # Archives page, removes from collections
+internalLinks: true           # Shows GC firewall warning
+isDraft: true                # Shows draft notice
+needsTranslation: true       # Hides language toggle, shows translation notice
+archived: true               # Archives page, removes from collections
 ---
 ```
 
@@ -101,12 +108,25 @@ Always use `{{ pathPrefix }}` for internal links:
 ```
 
 ### Cross-Language Navigation
-Language toggle in header uses `toggle` frontmatter:
+Language toggle in header uses `toggle` frontmatter with enhanced implementation:
 ```njk
-{% if toggle %}
-<a href="{{ pathPrefix }}/{{ otherLang }}/{{ toggle }}/">{{ otherLanguage }}</a>
+{% if needsTranslation != true and toggle %}
+{% set otherLangSlug = toggle | stripTagsSlugify %}
+{# Special handling for home pages #}
+{% if tags and 'home' in tags %}
+	{% set toggleUrl = pathPrefix + "/" + otherLang + "/" %}
+{% else %}
+	{% set toggleUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
+{% endif %}
+<a href="{{ toggleUrl }}">{{ otherLanguage }}</a>
 {% endif %}
 ```
+
+**Key Features:**
+- Uses `stripTagsSlugify` filter on toggle values for automatic URL generation
+- Special handling for home pages (tagged with 'home') to prevent double language codes
+- Content creators can use actual page titles instead of manually creating slugs
+- Supports both regular pages (`/fr/a-propos-de-nous/`) and home pages (`/fr/`)
 
 ## Data Management
 

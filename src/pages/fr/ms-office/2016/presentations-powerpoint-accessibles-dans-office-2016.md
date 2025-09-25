@@ -1,7 +1,7 @@
 ---
 title: Présentations PowerPoint accessibles dans Office 2016
 description: Pratiques accessibles pour la création de documents Microsoft PowerPoint 2016.
-toggle: accessible-powerpoint-presentations-in-office-2016
+toggle: Accessible PowerPoint presentations in Office 2016
 fontIcon: fa-file-powerpoint
 ---
 

@@ -2,16 +2,16 @@
 title: Liste de vérification de l’accessibilité des documents PDF
 description: Vous trouverez ici différentes questions pour vous aider à savoir si votre document pdf est accessible ou non.
 internalLinks: true
-toggle: pdf-accessibility-checklist
+toggle: PDF accessibility checklist
 subject:
   - howTos
 tags:
   - createDocument
 hasDocument:
-  filename: "Liste_de_verification_de_laccessibilite_des_documents_PDF.pdf"
+  filename: Liste_de_verification_de_laccessibilite_des_documents_PDF.pdf
   sizeNumber: 12.5
-  sizeUnit: "KB"
-  type: "pdf"
+  sizeUnit: KB
+  type: pdf
 ---
 
 ## Introduction
