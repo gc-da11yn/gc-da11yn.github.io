@@ -167,8 +167,8 @@ async function getSitemapUrls(baseUrl) {
         while ((match = urlPattern.exec(response.data)) !== null) {
             let url = match[1];
 
-            // Replace domain with baseUrl for consistency
-            if (baseUrl.includes('localhost')) {
+            // Replace domain with baseUrl for consistency (needed for localhost, preview, etc.)
+            if (baseUrl.includes('localhost') || baseUrl.includes('netlify.app')) {
                 url = url.replace(/https?:\/\/[^\/]+/, baseUrl);
             }
 

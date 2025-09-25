@@ -331,6 +331,10 @@ module.exports = function (eleventyConfig) {
     gitChangedUrls = [];
   });
 
+  // Ignore template files from being built
+  eleventyConfig.ignores.add("src/pages/_template.md");
+  eleventyConfig.ignores.add("src/links/_template.md");
+
   return {
     dir: {
       input: "src",
