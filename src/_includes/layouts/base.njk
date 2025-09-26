@@ -19,7 +19,9 @@
 
 		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
 
-			<div class="home">
+		{% block content %}
+
+			<div class="banner">
 				<div class="container p-0 p-sm-3">
 					<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
 						<h1 property="name" id="wb-cont">
@@ -49,6 +51,7 @@
 			</div>
 
 			{% include "partials/alerts.njk" %}
+
 			<div class="container">
 				{% if officeTOC === true %}
 				{% include "partials/office-toc.njk" %}
@@ -68,8 +71,10 @@
 				{% include "partials/office-toc.njk" %}
 				{% endif %}
 			</div>
+
 			{% include "partials/pagedetails.njk" %}
 
+		{% endblock %}
 		</main>
 
 		{% include "partials/contribute.njk" %}
@@ -87,11 +92,14 @@
 				plugins: ["https://gitcdn.link/repo/winne27/flot-valuelabels/master/jquery.flot.valuelabels.min.js"]
 			};
 		</script>
+
 		<script src="{{ pathPrefix }}js/chart.js"></script>
+
 		{%- endif -%}
-{%- if settings.env == "dev" or settings.env == "local" -%}
-    {% include "partials/sa11y.njk" %}
-{%- endif -%}
+
+		{%- if settings.env == "dev" or settings.env == "local" -%}
+			{% include "partials/sa11y.njk" %}
+		{%- endif -%}
 	</body>
 
 </html>
