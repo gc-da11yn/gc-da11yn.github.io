@@ -9,6 +9,7 @@ const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { stripHtml } = require('string-strip-html');
 const beautify = require('js-beautify').html;
 const { DateTime } = require('luxon');
+const { getChangedPagesForBuild } = require('./scripts/build-changed-pages');
 const changedPageUrls = [];
 
 // ANSI escape codes for blue underline
@@ -266,7 +267,8 @@ module.exports = function (eleventyConfig) {
   });
 
   let changedFilesMap = new Map();
-  let changedFilePaths = new Set();
+  let changedFilePaths = new Set(); // Track changed file paths for collections and transforms
+  let changedPages = [];
   let gitChangedUrls = [];
   let domain = 'http://localhost';
   let port = '8080'; // Default port
@@ -298,33 +300,24 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  // Capture both committed and uncommitted changes using Git (Method 2: Git diff)
+  // Get changed pages using optimized git operations (Method 2: Optimized Git diff)
   eleventyConfig.on('beforeBuild', () => {
-    // Fetch the `main` branch from the upstream repository directly
-    const upstreamUrl = 'https://github.com/gc-da11yn/gc-da11yn.github.io';
+    // Use the optimized build-changed-pages script
+    changedPages = getChangedPagesForBuild({
+      useCache: true,
+      skipFetch: isWatchMode  // Skip network fetch in development watch mode
+    });
 
-    try {
-      execSync(`git fetch ${upstreamUrl} main:upstream-main --force`);
-    } catch (err) {
-      console.error('Error fetching the upstream main branch', err);
-    }
-
-    // Get the diff between the current branch and `upstream-main`
-    const gitChangedFiles = execSync('git diff upstream-main --name-only').toString().trim().split('\n');
-
-    gitChangedFiles.forEach((file) => {
-      if ((file.startsWith('src/main/') || file.startsWith('src/pages/')) &&
-        (file.endsWith('.md') || file.endsWith('.njk'))) {
-        // Track the file
-        changedFilePaths.add(file);
+    // Populate changedFilePaths Set for use by collections and transforms
+    changedFilePaths.clear();
+    changedPages.forEach(page => {
+      if (page.inputPath) {
+        changedFilePaths.add(page.inputPath);
       }
     });
 
-    // Clean up: delete the upstream-main branch after the diff
-    try {
-      execSync('git branch -D upstream-main');
-    } catch (err) {
-      console.error('Error deleting the upstream-main branch', err);
+    if (changedPages.length > 0 && !isWatchMode) {
+      console.log(`📄 Detected ${changedPages.length} changed page(s) for review`);
     }
   });
 
