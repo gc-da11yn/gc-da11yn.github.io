@@ -270,7 +270,7 @@ module.exports = function (eleventyConfig) {
   let changedFilePaths = new Set(); // Track changed file paths for collections and transforms
   let changedPages = [];
   let gitChangedUrls = [];
-  let domain = 'http://localhost';
+  let domain = 'https://a11y.canada.ca'; // Default to production
   let port = '8080'; // Default port
 
   // Detect GitHub Codespaces
@@ -287,10 +287,11 @@ module.exports = function (eleventyConfig) {
   // Read the .eleventy-port file to get the correct port for local development
   if (fs.existsSync('.eleventy-port')) {
     port = fs.readFileSync('.eleventy-port', 'utf8').trim();
-    if (domain === 'http://localhost') {
-      domain = `${domain}:${port}`; // Apply the port for localhost
-    }
+    domain = `http://localhost:${port}`;
   }
+
+  // Add domain as global data for templates
+  eleventyConfig.addGlobalData("siteDomain", domain);
 
   // Capture changed files before the build starts (Method 1: Eleventy watch)
   eleventyConfig.on('beforeWatch', (changedFiles) => {
