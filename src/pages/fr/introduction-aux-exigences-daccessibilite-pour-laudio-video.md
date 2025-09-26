@@ -1,7 +1,7 @@
 ---
 title: Introduction aux exigences d’accessibilité pour l’audio-vidéo
 description: Ce document est une excellente introduction sur la manière de rendre la vidéo accessible à un public de conseillers en communication se situant entre l'auteur Web et l'expert en contenu.
-toggle: introduction-to-accessibility-requirements-for-audio-video
+toggle: Introduction to accessibility requirements for audio-video
 subject:
   - howTos
 tags:
@@ -38,9 +38,9 @@ Les transcriptions sont l’équivalent textuel d’un fichier audio ou vidéo. 
 - Description audio/piste audio supplémentaire décrivant toutes les informations visuelles
 - Les transcriptions sont rédigées par l’équipe de conception
 
-[Directives pour la transcription]({{ rootPath }}fr/directives-pour-la-transcription/)
+[Directives pour la transcription]({{ pathPrefix }}/fr/directives-pour-la-transcription/)
 
-[Liste de contrôle la transcription]({{ rootPath }}fr/liste-de-controle-des-transcriptions)
+[Liste de contrôle la transcription]({{ pathPrefix }}/fr/liste-de-controle-des-transcriptions)
 
 ## Résumé du sous-titrage
 
@@ -56,7 +56,7 @@ Il est recommandé de placer des sous-titres en haut des vidéos ASL et LSQ.
 
 Les équipes de conception ou un entrepreneur peuvent fournir le texte de la légende.
 
-[Liste de contrôle pour le sous-titrage]({{ rootPath }}fr/liste-de-controle-pour-le-sous-titrage)
+[Liste de contrôle pour le sous-titrage]({{ pathPrefix }}/fr/liste-de-controle-pour-le-sous-titrage)
 
 ## Sommaire de la description sonore
 
@@ -68,9 +68,9 @@ Cela peut être fait en utilisant :
 - Ajout d’une piste audio distincte qui décrit le contenu visuel. (WCAG 1.2.5 niveau AA);
 - Remarque : Si une description sonore supplémentaire est utilisée pour une vidéo, elle doit être incluse dans la transcription.
 
-[Directives pour la description sonore]({{rootPath}}fr/directives-pour-la-description-sonore)
+[Directives pour la description sonore]({{ pathPrefix }}/fr/directives-pour-la-description-sonore)
 
-[Liste de contrôle pour la description sonore]({{rootPath}}fr/directives-pour-la-description-sonore#liste-de-contr%C3%B4le-pour-la-description-sonore)
+[Liste de contrôle pour la description sonore]({{ pathPrefix }}/fr/directives-pour-la-description-sonore#liste-de-contr%C3%B4le-pour-la-description-sonore)
 
 ## Accès au clavier
 

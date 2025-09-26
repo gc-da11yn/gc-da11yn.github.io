@@ -3,14 +3,14 @@ title: Concevoir pour les utilisateurs avec un handicap physique ou moteur
 description: Ce qu’il faut faire — et ce qu’il ne faut <strong>pas</strong> faire — lors de la conception pour les utilisateurs en situation de handicap physique ou moteur.
 tags:
   - designingAccessible
-toggle: designing-for-users-with-physical-or-motor-disabilities
+toggle: Designing for users with physical or motor disabilities
 subject:
   - howTos
 ---
 
 Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
-- <a href="{{ rootPath }}docs/posters/MoteurPhysique-fr_2023.pdf" download>Concevoir pour les utilisateurs avec un handicap physique ou moteur (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 50 <abbr title="kilo-octet">ko</abbr>)</a>
+- <a href="{{ pathPrefix }}/docs/posters/MoteurPhysique-fr_2023.pdf" download>Concevoir pour les utilisateurs avec un handicap physique ou moteur (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 50 <abbr title="kilo-octet">ko</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

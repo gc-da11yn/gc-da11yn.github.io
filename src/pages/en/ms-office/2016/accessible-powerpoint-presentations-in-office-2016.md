@@ -1,7 +1,7 @@
 ---
 title: Accessible PowerPoint presentations in Office 2016
 description: Accessible practices for Microsoft PowerPoint 2016 document creation.
-toggle: presentations-powerpoint-accessibles-dans-office-2016
+toggle: Présentations PowerPoint accessibles dans Office 2016
 fontIcon: fa-file-powerpoint
 ---
 
@@ -11,7 +11,7 @@ The Microsoft Office suite (Word, Excel, Power Point) provides a built-in access
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/powerpoint-01.jpg" alt="Screenshot of Check for Issues menu" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/powerpoint-01.jpg" alt="Screenshot of Check for Issues menu" />
 </div>
 </div>
 
@@ -117,7 +117,7 @@ PowerPoint presentations usually include images. Images need equivalent alternat
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/powerpoint-02.jpg" alt="Screenshot of Format Picture tool">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/powerpoint-02.jpg" alt="Screenshot of Format Picture tool">
 </div>
 </div>
 
@@ -180,7 +180,7 @@ Alternatively, you can do one of the following after selecting the element you w
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/powerpoint-03.jpg" alt="Screenshot of Group menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/powerpoint-03.jpg" alt="Screenshot of Group menu">
 </div>
 </div>
 

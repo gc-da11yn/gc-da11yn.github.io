@@ -5,7 +5,7 @@ subject:
   - howTos
 tags:
   - designCourse
-toggle: universal-design-for-learning-udl
+toggle: Universal Design for Learning (<abbr>UDL</abbr>)
 category:
   - Pratiques exemplaires
   - Rédaction de contenu

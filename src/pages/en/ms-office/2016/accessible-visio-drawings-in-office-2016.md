@@ -1,7 +1,7 @@
 ---
 title: Accessible Visio drawings in Office 2016
 description: Accessible practices for Microsoft Visio 2016 diagram creation.
-toggle: dessins-visio-accessibles-dans-office-2016
+toggle: Dessins Visio accessibles dans Office 2016
 fontIcon: fa-project-diagram
 ---
 
@@ -64,7 +64,7 @@ For a road map with directions, the long description should describe each step t
 
 <div class="row">
 <div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/visio-01.gif" alt="Flowchart illustrating the login process">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/visio-01.gif" alt="Flowchart illustrating the login process">
 </div>
 </div>
 
@@ -136,7 +136,7 @@ To add alt text to an image or shape:
 
 - Open the context menu for the image or shape by right-clicking or pressing the application key
 - Select **Format Shape**.
-- Select ![]({{ rootPath }}img/en/office2016/visio-02.gif) **Size & Properties** and enter the alternate text under **Description**.
+- Select ![]({{ pathPrefix }}/img/en/office2016/visio-02.gif) **Size & Properties** and enter the alternate text under **Description**.
 
 To add alt text to entire page, press **Shift+F5**. Select the **Alt Text** tab and enter the **Description**.
 

@@ -24,11 +24,11 @@ subject:
   - accessibilityFundamentals
 tags:
   - aboutDisabilities
-toggle: mobility-flexibility-and-body-structure-disabilities
+toggle: Mobility, Flexibility, and Body Structure Disabilities
 ---
 
-- <a href="{{ rootPath }}docs/posters/MoteurPhysique-fr_2023.pdf" download>Concevoir pour les utilisateurs avec un handicap physique ou moteur (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 50 <abbr title="kilo-octet">ko</abbr>)</a>
-- [Concevoir pour les utilisateurs avec un handicap physique ou moteur (HTML)]({{ rootPath }}fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/)
+- <a href="{{ pathPrefix }}/docs/posters/MoteurPhysique-fr_2023.pdf" download>Concevoir pour les utilisateurs avec un handicap physique ou moteur (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 50 <abbr title="kilo-octet">ko</abbr>)</a>
+- [Concevoir pour les utilisateurs avec un handicap physique ou moteur (HTML)]({{ pathPrefix }}/fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/)
 
 La mobilité réduite comprend les personnes ayant une perte ou une incapacité d'un membre supérieur ou inférieur, des défis avec dextérité manuelle, handicap de coordination avec différents organes du corps, ou avec une structure squelettique brisée. Les déficiences physiques et motrices limitent le mouvement physique indépendant et délibéré du corps ou d'une ou plusieurs extrémités.
 

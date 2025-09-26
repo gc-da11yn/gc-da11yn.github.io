@@ -5,7 +5,7 @@ subject:
   - howTos
 tags:
   - createWebContent
-toggle: audio-description-guidelines
+toggle: Audio Description Guidelines
 audience:
   - Everyone
 ---

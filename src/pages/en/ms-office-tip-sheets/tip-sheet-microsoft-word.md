@@ -1,7 +1,7 @@
 ---
 title: Tip sheet for Microsoft Word
 description: Quick reference to accessible best practices for Word documents.
-toggle: feuille-de-conseils-pour-microsoft-word
+toggle: Feuille de conseils pour Microsoft Word
 ---
 
 # Create accessible documents in Word

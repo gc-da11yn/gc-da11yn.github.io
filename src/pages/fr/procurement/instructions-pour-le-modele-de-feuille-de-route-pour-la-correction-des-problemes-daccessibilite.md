@@ -2,7 +2,7 @@
 title: Le modèle de feuille de route pour la correction des problèmes d’accessibilité
 description: Le présent modèle de feuille de route pour la correction des problèmes d’accessibilité est conçu principalement pour être utilisé dans le cadre des approvisionnements ou de projets où la conformité de l’accessibilité doit être atteinte au fil du temps. Ce modèle présente les renseignements essentiels que le gouvernement du Canada s’attendrait de retrouver dans une feuille de route pour la correction des problèmes d’accessibilité afin de comprendre et de traiter les lacunes énumérées dans un rapport de conformité de l’accessibilité (RCA).
 layout: layouts/base.njk
-toggle: accessibility-remediation-roadmap-template
+toggle: Accessibility remediation roadmap template
 toc: true
 subject:
   - accessibilityInTheGovernmentOfCanada

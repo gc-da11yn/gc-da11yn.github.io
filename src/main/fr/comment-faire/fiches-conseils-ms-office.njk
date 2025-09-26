@@ -17,7 +17,7 @@ tags:
 	{% for item in collections.msTips | sort(false, false, 'data.title') | localeMatch(locale) %}
 	{% if item.data.tags[1] != "msTips" %}
 	<div class="col-md-6">
-		<h3><a href="{{ item.url }}">{{ item.data.title | safe }}</a></h3>
+		<h3><a href="{{ pathPrefix }}{{ item.url }} ">{{ item.data.title | safe }}</a></h3>
 		<p>
 			{% if item.data.description %}
 			{{ item.data.description | safe }}

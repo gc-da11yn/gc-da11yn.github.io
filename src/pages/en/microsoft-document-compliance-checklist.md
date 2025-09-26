@@ -1,19 +1,19 @@
 ---
 title: Microsoft document compliance checklist
-description: Here you can find different questions to help you to know if your Word document is accessible or not.
-toggle: liste-de-verification-de-la-conformite-des-documents-microsoft
+description: Here you can find different questions to help you to know if your Microsoft 365 document is accessible or not.
+toggle: Liste de vérification de la conformité des documents Microsoft
 subject:
   - howTos
 tags:
   - createDocument
 hasDocument:
-  filename: "MSDocument_COMPLIANCE_CHECKLIST.docx"
+  filename: MSDocument_COMPLIANCE_CHECKLIST.docx
   sizeNumber: 13.6
-  sizeUnit: "KB"
-  type: "word"
+  sizeUnit: KB
+  type: word
 ---
 
-Below are questions that will help you establish if your Microsoft Office document is accessible. We provide the Success Criteria in reference with WCAG 2.1: [How to Meet WCAG - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/) and the [Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
+Below are questions to help you assess the accessibility of your Microsoft 365 document: Word, Excel, or PowerPoint. We provide the Success Criteria in reference with WCAG 2.1: [How to Meet WCAG - Quick Reference](http://www.w3.org/WAI/WCAG21/quickref/) and the [Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html).
 
 Remember to answer NA (not applicable) if a question is not relevant to your document. For example, there is no table of content in Excel documents.
 

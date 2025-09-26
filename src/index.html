@@ -1,1 +1,116 @@
-<meta http-equiv="refresh" content="0; URL={{ rootPath }}en/" />
+---
+title:
+  en: Digital Accessibility Toolkit
+  fr: Boîte à outils de l'accessibilité numérique
+description:
+  en: Digital Accessibility Toolkit. We offer a variety of learning materials and resources to help you learn and implement accessibility in your digital projects.
+  fr: La Boîte à outils de l'accessibilité numérique. Nous offrons une variété de matériel d'apprentissage et de ressources pour vous aider à apprendre et à mettre en œuvre l'accessibilité dans vos projets numériques.
+layout: false
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>{{ title.en }} / {{ title.fr }}</title>
+
+		<!-- Meta tags -->
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta name="source-file" content="./src/index.html">
+		<meta name="description" content="{{ description.en }}">
+
+		<!-- Dublin Core Metadata -->
+		<meta name="dcterms.description" content="{{ description.en }}">
+		<meta name="dcterms.creator" content="Government of Canada">
+		<meta name="dcterms.title" content="{{ title.en }}">
+		<meta name="dcterms.issued" title="W3CDTF" content="2025-07-15">
+		<meta name="dcterms.modified" title="W3CDTF" content="2025-07-15">
+		<meta name="dcterms.subject" content="Accessibility">
+		<meta name="dcterms.language" title="ISO639-2" content="eng">
+
+		<meta property="dcterms:issued" content="2025-07-15">
+		<meta property="dcterms:modified" content="2025-07-15">
+		<meta property="dcterms:title" content="{{ title.en }}">
+		<meta property="dcterms:creator" content="Government of Canada">
+
+		<meta property="dcterms:subject" title="gccore" content="Accessibility">
+		<meta property="dcterms:description" content="{{ description.en }}">
+
+		<meta property="dcterms:title" lang="fr" content="{{ title.fr }}">
+		<meta property="dcterms:creator" lang="fr" content="Gouvernement du Canada">
+		<meta property="dcterms:subject" lang="fr" title="gccore" content="accessibilité">
+		<meta property="dcterms:description" lang="fr" content="{{ description.fr }}">
+
+		<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
+		<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/messages.min.css">
+		<link rel="stylesheet" href="{{ pathPrefix }}/css/da11yn.css">
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+		<script>
+			(function (w) {
+				"use strict";
+				if (w.location.hostname === "a11y.canada.ca") {
+					w.dataLayer = w.dataLayer || [];
+					w.gtag = function () {
+						w.dataLayer.push(arguments);
+					};
+					w.gtag('js', new Date());
+					w.gtag('config', 'G-SM9MSHWDVN');
+				}
+			})(window);
+
+		</script>
+	</head>
+
+
+	<body class="splash" vocab="http://schema.org/" resource="#wb-webpage" typeof="WebPage">
+		<div id="bg" data-wb-randomize='{ "shuffle": true, "selector": "img", "toggle": "hide" }'><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-1.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-2.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-3.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-4.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-5.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-6.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-7.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-8.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-9.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-10.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-11.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-12.jpg" alt=""></div>
+		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+			<div class="sp-hb">
+				<div class="sp-bx col-xs-12">
+					<h1 property="name" class="wb-inv">{{ title.en }} / <span lang="fr">{{ title.fr }}</span></h1>
+					<div class="row">
+						<div class="col-xs-11 col-md-8" property="publisher" resource="#wb-publisher" typeof="GovernmentOrganization">
+							<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/sig-blk-en.svg" width="283" alt="Government of Canada" property="logo"><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+							<meta property="name" content="Government of Canada">
+							<meta property="name" lang="fr" content="Gouvernement du Canada">
+							<meta property="areaServed" typeof="Country" content="Canada">
+						</div>
+					</div>
+					<div class="row">
+						<section class="col-xs-6 text-right">
+							<h2 class="h6">{{ title.en }}</h2>
+							<p><a href="{{ pathPrefix }}/en/" class="btn btn-primary" translate="no">English</a></p>
+						</section>
+						<section class="col-xs-6" lang="fr">
+							<h2 class="h6">{{ title.fr | safe }}</h2>
+							<p><a href="{{ pathPrefix }}/fr/" class="btn btn-primary" translate="no">Français</a></p>
+						</section>
+					</div>
+
+				</div>
+				<div class="sp-bx-bt col-xs-12">
+					<div class="row">
+						<div class="col-xs-7 col-md-8">
+							<a href="https://www.canada.ca/en/transparency/terms.html" class="sp-lk">Terms and conditions</a> <span class="glyphicon glyphicon-asterisk"></span> <a href="https://www.canada.ca/fr/transparence/avis.html" class="sp-lk" lang="fr">Avis</a>
+						</div>
+						<div class="col-xs-5 col-md-4 text-right mrgn-bttm-md">
+							<img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" width="127" alt="Symbol of the Government of Canada"><span class="wb-inv"> / <span lang="fr">Symbole du gouvernement du Canada</span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+	</body>
+</html>

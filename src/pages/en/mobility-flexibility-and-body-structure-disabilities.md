@@ -12,11 +12,11 @@ subject:
   - accessibilityFundamentals
 tags:
   - aboutDisabilities
-toggle: handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle
+toggle: Handicaps de mobilité, de flexibilité et de structure corporelle
 ---
 
-- <a href="{{ rootPath }}docs/posters/MotorPhysical-en_2023.pdf" download>Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
-- [Designing for users with physical or motor disabilities (HTML)]({{ rootPath }}en/designing-for-users-with-physical-or-motor-disabilities/)
+- <a href="{{ pathPrefix }}/docs/posters/MotorPhysical-en_2023.pdf" download>Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
+- [Designing for users with physical or motor disabilities (HTML)]({{ pathPrefix }}/en/designing-for-users-with-physical-or-motor-disabilities/)
 
 ## Manual Dexterity/Fine Motor Control
 

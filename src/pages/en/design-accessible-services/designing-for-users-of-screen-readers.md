@@ -3,14 +3,14 @@ title: Designing for users of screen readers
 description: What to do - and what <strong>not</strong> to do - when designing for users of screen readers.
 tags:
   - designingAccessible
-toggle: concevoir-pour-les-utilisateurs-de-revues-decran
+toggle: Concevoir pour les utilisateurs de revues d’écran
 subject:
   - howTos
 ---
 
 Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
-- <a href="{{ rootPath }}docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
+- <a href="{{ pathPrefix }}/docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

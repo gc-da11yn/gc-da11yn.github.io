@@ -1,39 +1,17 @@
 ---
-title: "What we heard report: Standard on Information and Communication Technology Accessibility (<abbr>SICTA</abbr>)"
-description: "Between October 31 and November 30, 2022, the Treasury Board of Canada Secretariat - Office of the Chief Information Officer (<abbr>TBS-OCIO</abbr>) Digital Policy & Performance Division undertook a targeted engagement on the <em>Standard on Information and Communication Technology (<abbr>ICT</abbr>) Accessibility</em>. This page details the key themes that emerged and next steps to be taken in relation to the standard."
-toggle: rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic
+title: 'What we heard report: Standard on Information and Communication Technology Accessibility (<abbr>SICTA</abbr>)'
+description: Between October 31 and November 30, 2022, the Treasury Board of Canada Secretariat - Office of the Chief Information Officer (<abbr>TBS-OCIO</abbr>) Digital Policy & Performance Division undertook a targeted engagement on the <em>Standard on Information and Communication Technology (<abbr>ICT</abbr>) Accessibility</em>. This page details the key themes that emerged and next steps to be taken in relation to the standard.
+toggle: "Rapport sur ce que nous avons entendu\_: Norme d’accessibilité des technologies de l’information et des communications (<abbr>NATIC</abbr>)"
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
   - accessibilityStandards
 hasDocument:
-  filename: "standard_on_information_and_communication_technology_accessibility.docx"
-  sizeNumber: 8.57
-  sizeUnit: "KB"
-  type: "word"
+  filename: sitka-wwhr-en.pptx
+  sizeNumber: 135
+  sizeUnit: KB
+  type: powerpoint
 ---
-
-<div class="row">
-
-  <div class="col-md-4 col-md-push-8 mrgn-tp-lg">
-    <a class="gc-dwnld-lnk" href="{{ rootPath }}docs/sitka-wwhr-en.pptx">
-      <div class="well gc-dwnld">
-        <div class="row">
-          <div class="col-xs-4">
-            <p><img class="img-responsive thumbnail gc-dwnld-img" src="/img/doc.png" alt=""></p>
-          </div>
-          <div class="col-xs-8">
-            <p class="gc-dwnld-txt">
-              <span>{{ title | safe }}</span>
-              <span class="gc-dwnld-info">(<abbr title="PowerPoint Presentations">PPT</abbr>, 135 <abbr title="KiloByte">KB</abbr>)</span>
-            </p>
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-
-<div class="col-md-8 col-md-pull-4">
 
 **March 2023**
 
@@ -45,16 +23,12 @@ The following provides a summary of the key themes and points of feedback from t
 
 Participant feedback has been instrumental in the further development of the standard, and this page represents an opportunity to share some of it with our industry partners and the <abbr title="Government of Canada">GC</abbr> community.
 
-</div>
-
-</div>
-
 ## Context
 
 The <em>Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility</em> will come into effect under the *Policy on Service and Digital* in Summer 2023, replacing the *Standard on Web Accessibility*
 
 - The main objective of this engagement was to gather feedback, insights, and comments on phase one of the Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility, while identifying potential gaps
-- The Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility contains requirements for making all <abbr title="Information and Communication Technology">ICT</abbr> that is developed, procured, or owned by the <abbr title="Government of Canada">GC</abbr> accessible. 
+- The Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility contains requirements for making all <abbr title="Information and Communication Technology">ICT</abbr> that is developed, procured, or owned by the <abbr title="Government of Canada">GC</abbr> accessible.
   - Consistent with the Policy and Directive on Service and Digital and leading practices from other jurisdictions (*EN 301 549* v3.2.1).
   - Operationalizes the principle of "nothing without us"
   - Builds on lessons learned
@@ -82,7 +56,7 @@ The purpose of the Standard on <abbr title="Information and Communication Techno
 
 ### Feedback:
 
-- Respondents indicated that the **effective date should be included in the standard** so that they don’t have go back and forth to look for the timelines and the associated requirements. 
+- Respondents indicated that the **effective date should be included in the standard** so that they don’t have go back and forth to look for the timelines and the associated requirements.
 - Respondents also noted the current format **“effective date + x month”** can be confusing to them. Conformance timelines should be stated clearly.
 
 ### How we adapted:

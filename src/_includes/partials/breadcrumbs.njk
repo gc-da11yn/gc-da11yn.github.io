@@ -64,7 +64,7 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 			{% set url = page.url | replace("/", "") %}
 			{% if url != locale %}
 				<li property="itemListElement" typeof="ListItem">
-					<a property="item" typeof="WebPage" href="/{{ locale }}/">{{ settings[locale].metaTitle }}</a>
+					<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/">{{ settings[locale].metaTitle }}</a>
 					<meta property="position" content="2">
 				</li>
 			{% endif %}
@@ -73,32 +73,59 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 			{% if tags[0] != "main" and url != locale %}
 				{% set counter = 3 %} {# Start the counter from 3, as 1 and 2 are already used #}
 
-				<!-- Breadcrumbs based on 'subject' -->
-				{% if subject %}
-					{% for breadcrumb in subject %}
-						<li property="itemListElement" typeof="ListItem">
-							<a property="item" typeof="WebPage" href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
-								<span property="name">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</span>
-							</a>
-							<meta property="position" content="{{ counter }}">
-						</li>
-						{% set counter = counter + 1 %}
-					{% endfor %}
-				{% endif %}
+				<!-- Special handling for role-based pages -->
+				{% if page.url.startsWith('/' + locale + '/roles/') and page.url != '/' + locale + '/roles/' %}
+					<!-- Add "Accessibility in Your Role" breadcrumb -->
+					<li property="itemListElement" typeof="ListItem">
+						<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/roles/">
+							<span property="name">{{ tagList.subjects[locale].roles }}</span>
+						</a>
+						<meta property="position" content="{{ counter }}">
+					</li>
+					{% set counter = counter + 1 %}
 
-				<!-- Breadcrumbs based on 'tags' -->
-				{% if tags %}
-					{% for breadcrumb in tags %}
-						{% if breadcrumb != "updatesMain" %}
+					<!-- For individual role pages, add the role group breadcrumb -->
+					{% if pagination and pagination.items %}
+						{% set currentRole = pagination.items[pagination.pageNumber] %}
+						{% if currentRole.key and roles.roles[currentRole.key] %}
+							{% set groupKey = roles.roles[currentRole.key].group %}
 							<li property="itemListElement" typeof="ListItem">
-								<a property="item" typeof="WebPage" href="/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
+								<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/roles/{{ groupKey }}/">
+									<span property="name">{{ roles.groups[locale][groupKey] }}</span>
+								</a>
+								<meta property="position" content="{{ counter }}">
+							</li>
+						{% endif %}
+					{% endif %}
+				{% else %}
+					<!-- Existing breadcrumbs logic for non-role pages -->
+					<!-- Breadcrumbs based on 'subject' -->
+					{% if subject %}
+						{% for breadcrumb in subject %}
+							<li property="itemListElement" typeof="ListItem">
+								<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
 									<span property="name">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</span>
 								</a>
 								<meta property="position" content="{{ counter }}">
 							</li>
 							{% set counter = counter + 1 %}
-						{% endif %}
-					{% endfor %}
+						{% endfor %}
+					{% endif %}
+
+					<!-- Breadcrumbs based on 'tags' -->
+					{% if tags %}
+						{% for breadcrumb in tags %}
+							{% if breadcrumb != "updatesMain" %}
+								<li property="itemListElement" typeof="ListItem">
+									<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
+										<span property="name">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</span>
+									</a>
+									<meta property="position" content="{{ counter }}">
+								</li>
+								{% set counter = counter + 1 %}
+							{% endif %}
+						{% endfor %}
+					{% endif %}
 				{% endif %}
 			{% endif %}
 		</ol>

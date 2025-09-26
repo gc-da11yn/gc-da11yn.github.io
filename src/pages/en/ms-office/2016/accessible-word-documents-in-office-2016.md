@@ -1,7 +1,7 @@
 ---
 title: Accessible Word documents in Office 2016
 description: Accessible practices for Microsoft Word 2016 document creation.
-toggle: documents-word-accessibles-dans-office-2016
+toggle: Documents Word accessibles dans Office 2016
 fontIcon: fa-file-word
 ---
 
@@ -11,7 +11,7 @@ Microsoft Office (Word, Excel, Power Point) provides a built-in accessibility va
 
 <div class="row">
 <div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/word-01.jpg" alt="Screenshot of &quot;Check for issues&quot; menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-01.jpg" alt="Screenshot of &quot;Check for issues&quot; menu">
 </div>
 </div>
 
@@ -41,7 +41,7 @@ How to create a template:
 
 <div class="row">
 <div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/word-02.jpg" alt="Screenshot of saving as a template">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-02.jpg" alt="Screenshot of saving as a template">
 </div>
 </div>
 
@@ -66,7 +66,7 @@ Ensure headings are denoted through structure and not only denoted implicitly (b
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/word-03.jpg" alt="Screenshot of Styles toolbar">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-03.jpg" alt="Screenshot of Styles toolbar">
 </div>
 </div>
 
@@ -95,7 +95,7 @@ To use headers and footers in Word:
 
 <div class="row">
 <div class="col-md-9">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/word-04.jpg" alt="Screenshot of Insert Header pop-up">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-04.jpg" alt="Screenshot of Insert Header pop-up">
 </div>
 </div>
 
@@ -110,7 +110,7 @@ To insert columns:
 3. Select the desired number of columns from the grid
 4. As you type, the current column will fill and spill into the next
 
-![Screenshot of Columns menu]({{ rootPath }}img/en/office2016/word-05.jpg)
+![Screenshot of Columns menu]({{ pathPrefix }}/img/en/office2016/word-05.jpg)
 
 ### Lists
 
@@ -125,7 +125,7 @@ To create a list:
 
 <div class="row">
 <div class="col-md-6">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/word-06.jpg" alt="Screenshot of Paragraph toolbar">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-06.jpg" alt="Screenshot of Paragraph toolbar">
 </div>
 </div>
 
@@ -156,7 +156,7 @@ To assign alternative text to images:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/word-07.jpg" alt="Screenshot of Format Picture menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-07.jpg" alt="Screenshot of Format Picture menu">
 </div>
 </div>
 
@@ -177,7 +177,7 @@ To add a long description to diagrams and chart:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/word-08.jpg" alt="Screenshot of Format Chart Area menu">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-08.jpg" alt="Screenshot of Format Chart Area menu">
 </div>
 </div>
 
@@ -194,7 +194,7 @@ To add hyperlinks with meaningful text:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office2016/word-09.jpg" alt="Screenshot of Edit Hyperlink">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-09.jpg" alt="Screenshot of Edit Hyperlink">
 </div>
 </div>
 

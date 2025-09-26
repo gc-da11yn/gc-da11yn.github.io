@@ -3,14 +3,14 @@ title: Principes de conception pour les utilisateurs avec handicap cognitif
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs ayant des troubles cognitifs.
 tags:
   - designingAccessible
-toggle: designing-for-users-with-cognitive-disabilities
+toggle: Designing for users with cognitive disabilities
 subject:
   - howTos
 ---
 
 Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
-- <a href="{{ rootPath }}docs/posters/Cognitif-fr_2023.pdf" download>Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
+- <a href="{{ pathPrefix }}/docs/posters/Cognitif-fr_2023.pdf" download>Principes de conception pour les utilisateurs avec handicap cognitif (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

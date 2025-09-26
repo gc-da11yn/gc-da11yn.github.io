@@ -1,7 +1,7 @@
 ---
 title: Documents Word accessibles dans Microsoft 365
 description: Pratiques accessibles pour la création de documents Microsoft Word.
-toggle: accessible-word-documents-in-microsoft-365
+toggle: Accessible Word documents in Microsoft 365
 fontIcon: fa-file-word
 ---
 
@@ -19,7 +19,7 @@ Comment utiliser le vérificateur d’accessibilité&nbsp;:
 
 <div class="row">
 <div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/word-365-001.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-001.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
 </div>
 </div>
 
@@ -49,7 +49,7 @@ Comment créer un modèle&nbsp;:
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/word-365-002.jpg" alt="Capture d’écran de comment enregistrer sous un modèle" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-002.jpg" alt="Capture d’écran de comment enregistrer sous un modèle" />
 </div>
 </div>
 
@@ -75,7 +75,7 @@ Veillez à dénoter les titres par le biais de la structure utilisée et non seu
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/word-365-003.jpg" alt="Capture d’écran de barre latérale de styles" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-003.jpg" alt="Capture d’écran de barre latérale de styles" />
 </div>
 </div>
 
@@ -106,7 +106,7 @@ Pour utiliser les en-têtes et les pieds de page dans Word&nbsp;:
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/word-365-004.jpg" alt="Capture d’écran de insérer un message d’avertissement à un en-tête" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-004.jpg" alt="Capture d’écran de insérer un message d’avertissement à un en-tête" />
 </div>
 </div>
 
@@ -123,7 +123,7 @@ Pour insérer des colonnes&nbsp;:
 
 <div class="row">
 <div class="col-md-10 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/word-365-005.jpg" alt="Capture d’écran de menu des colonnes" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-005.jpg" alt="Capture d’écran de menu des colonnes" />
 </div>
 </div>
 
@@ -142,7 +142,7 @@ Pour créer une liste&nbsp;:
 
 <div class="row">
 <div class="col-md-12 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/word-365-006.jpg" alt="Capture d’écran de barre d’outils des paragraphes" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-006.jpg" alt="Capture d’écran de barre d’outils des paragraphes" />
 </div>
 </div>
 
@@ -172,7 +172,7 @@ Pour incorporer du texte de remplacement aux images&nbsp;:
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/word-365-007.jpg" alt="Capture d’écran de outil Format de l’image" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-007.jpg" alt="Capture d’écran de outil Format de l’image" />
 </div>
 </div>
 
@@ -186,7 +186,7 @@ Pour ajouter une description longue aux diagrammes et aux graphiques,, d’abord
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/word-365-008.jpg" alt="Capture d’écran du Menu Format de la zone de graphique" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-008.jpg" alt="Capture d’écran du Menu Format de la zone de graphique" />
 </div>
 </div>
 
@@ -203,7 +203,7 @@ Pour ajouter des hyperliens avec un texte pertinent&nbsp;:
 
 <div class="row">
 <div class="col-md-12 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office365/word-365-009.jpg" alt="Capture d’écran de Modifier le lien hypertexte" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-009.jpg" alt="Capture d’écran de Modifier le lien hypertexte" />
 </div>
 </div>
 

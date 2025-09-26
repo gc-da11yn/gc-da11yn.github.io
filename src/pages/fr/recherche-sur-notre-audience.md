@@ -3,7 +3,7 @@ title: Recherche sur notre audience
 description: En développant une meilleure compréhension de nos utilisateurs, nous serons en mesure de construire une architecture de site réactive pour tout le contenu existant et futur hébergé sur le site Web de la boite à outils d’accessibilité numérique.
 tags:
   - aboutUs
-toggle: research-on-our-target-audience
+toggle: Research on our target audience
 ---
 
 ## À propos de la création de notre personnage

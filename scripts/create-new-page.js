@@ -53,7 +53,7 @@ let mdContentEN = `---
 title: "${titleEN}"
 description: "${descriptionEN}"
 layout: layouts/base.njk
-toggle: /fr/${fileNameFR}`;
+toggle: "${titleFR}"`;
 if (hasInternalLinks) {
 	mdContentEN += `
 internalLinks: true`;
@@ -65,7 +65,7 @@ let mdContentFR = `---
 title: "${titleFR}"
 description: "${descriptionFR}"
 layout: layouts/base.njk
-toggle: /en/${fileNameEN}`;
+toggle: "${titleEN}"`;
 if (hasInternalLinks) {
 	mdContentFR += `
 internalLinks: true`;

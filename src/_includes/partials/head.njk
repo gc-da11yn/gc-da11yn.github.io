@@ -1,7 +1,5 @@
 {% set otherLang = "fr" if locale == "en" else
 	"en" %}
-{% set toggleURL = page.filePathStem | replace("/en/", "fr/")if locale == "en" else
-	page.filePathStem | replace("/fr/", "en/") %}
 <head>
 	<meta charset="utf-8">
 
@@ -34,14 +32,21 @@
 	<meta name="source-file" content="{{ page.inputPath }}">
 
 
-	{% if toggle %}
-	<link rel="alternate" hreflang="{{ otherLang }}" href="{{ rootPath }}{% if toggle != "fr" and toggle != "en" %}{{ otherLang }}/{% endif %}{{ toggle }}/index.html" />
+	{% if needsTranslation != true and toggle %}
+	{% set otherLangSlug = toggle | stripTagsSlugify %}
+	{# Special handling for home pages #}
+	{% if tags and 'home' in tags %}
+		{% set toggleUrl = pathPrefix + "/" + otherLang + "/" %}
+	{% else %}
+		{% set toggleUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
+	{% endif %}
+		<link rel="alternate" hreflang="{{ otherLang }}" href="{{ toggleUrl }}index.html" />
 	{% endif %}
 
 	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
 	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
-	<link rel="stylesheet" href="{{ rootPath }}css/da11yn.css">
+	<link rel="stylesheet" href="{{ pathPrefix }}/css/da11yn.css">
 
 	<!-- Meta tags -->
 
@@ -63,12 +68,11 @@
 	<script>
 		(function (w) {
 			"use strict";
-			var dl = "dataLayer";
-			if (w.location.hostname === "a11y.canada.ca" || w.location.hostname === "deploy-preview-335--a11ycanada.netlify.app") {
-				w[dl] = w[dl] || [];
+			if (w.location.hostname === "a11y.canada.ca") {
+				w.dataLayer = w.dataLayer || [];
 				w.gtag = function () {
-					w[dl].push(arguments);
-				}
+					w.dataLayer.push(arguments);
+				};
 				w.gtag('js', new Date());
 				w.gtag('config', 'G-SM9MSHWDVN');
 			}

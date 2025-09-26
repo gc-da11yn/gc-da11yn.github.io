@@ -35,6 +35,17 @@
 						{% else %}
 						<p><strong>{{ landingPage[locale].descriptionNoneText }}</strong></p>
 						{% endif %}
+						{%- if role -%}
+						<hr />
+						<h2 class="h6">Related roles:</h2>
+						<ul class="list-inline">
+							{% for key in role %}
+							<li class="label label-success">
+								{{ roles.labels[locale][key] or key }}
+							</li>
+							{% endfor %}
+						</ul>
+						{%- endif -%}
 					</div>
 				</div>
 			</div>
@@ -82,7 +93,8 @@
 			};
 		</script>
 
-		<script src="/js/chart.js"></script>
+		<script src="{{ pathPrefix }}js/chart.js"></script>
+
 		{%- endif -%}
 
 		{%- if settings.env == "dev" or settings.env == "local" -%}

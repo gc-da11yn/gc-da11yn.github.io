@@ -2,7 +2,7 @@
 title: Additional Resources
 layout: layouts/base.njk
 description: Resources and useful tools for web accessibility for employees of the Government of Canada.
-toggle: ressources-additionnelles
+toggle: Ressources additionnelles
 tags:
   - resourcesAndTools
 internalLinks: true
@@ -230,6 +230,13 @@ Suggestions for the portrayal of people with disabilities. People with disabilit
 ### [Accessibility Courses](https://github.com/accessibility/a11y-courses)
 
 GitHub recommended courses, webinars, educational videos, and more, offered in web accessibility.
+
+</div>
+<div class="col-md-6">
+
+### [Accessibility Learning Series](https://www.csps-efpc.gc.ca/accessibility-learning-eng.aspx)
+
+Everyone has a role to play in creating a barrier-free public service, and the Accessibility Learning Series will help you understand how you can be more inclusive every day by eliminating and preventing new barriers for people with disabilities.
 
 </div>
 <div class="col-md-6">

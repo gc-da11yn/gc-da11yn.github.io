@@ -3,14 +3,14 @@ title: Concevoir pour les utilisateurs sourds ou malentendants
 description: Ce qu'il faut faire - et ce qu'il ne faut <strong>pas</strong> faire - lors de la conception pour les utilisateurs sourds ou malentendants.
 tags:
   - designingAccessible
-toggle: designing-for-users-who-are-deaf-or-hard-of-hearing
+toggle: Designing for users who are deaf or hard of hearing
 subject:
   - howTos
 ---
 
 Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
-- <a href="{{ rootPath }}docs/posters/Sourds-fr_2023.pdf" download>Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)</a>
+- <a href="{{ pathPrefix }}/docs/posters/Sourds-fr_2023.pdf" download>Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

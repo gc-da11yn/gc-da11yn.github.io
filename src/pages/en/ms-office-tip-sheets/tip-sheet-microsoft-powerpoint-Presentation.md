@@ -1,7 +1,7 @@
 ---
 title: Tip sheet for Microsoft PowerPoint Presentation
 description: Easily reference accessible best practices for PowerPoint creation.
-toggle: feuille-de-conseils-pour-la-presentation-microsoft-powerpoint
+toggle: Feuille de conseils pour la présentation Microsoft PowerPoint
 ---
 # Create accessible presentations in PowerPoint
 Version 1.3 | March 2024

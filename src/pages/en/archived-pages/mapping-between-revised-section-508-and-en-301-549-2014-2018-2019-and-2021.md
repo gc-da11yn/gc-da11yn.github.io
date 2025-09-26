@@ -1,7 +1,7 @@
 ---
 title: Mapping between Revised Section 508 and EN 301 549 (2014, 2018, 2019 and 2021)
 description: This resource has been removed due to known errors. We are evaluating next steps and may release an updated version once the EN 301 549:2025 standard is finalized.
-toggle: mise-en-correspondance-entre-larticle-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021
+toggle: Mise en correspondance entre l’article 508 révisé (<span lang='en'>Revised Section 508</span>) et la norme EN 301 549 (2014, 2018, 2019 et 2021)
 subject:
   - accessibilityInTheGovernmentOfCanada
 tags:
@@ -15,7 +15,7 @@ We are currently reassessing the structure and accuracy of this resource. If we 
 
 This decision was made in alignment with internal accessibility teams, and the document has also been removed from GCPedia and the Shared Services Canada (SSC) SharePoint site.
 
-We recommend removing any bookmarks or links you may have to this page, as the previous content is no longer available or accurate. If a new version is published, a link will be shared in the [Latest updates](/en/#updates) section on our homepage.
+We recommend removing any bookmarks or links you may have to this page, as the previous content is no longer available or accurate. If a new version is published, a link will be shared in the [Latest updates]({{ pathPrefix }}/en/#updates) section on our homepage.
 
 In the meantime, we encourage you to refer directly to the official standards for the most current guidance:
 

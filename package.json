@@ -6,7 +6,8 @@
   "scripts": {
     "analytics": "node scripts/fetch-analytics.js",
     "newPage": "node scripts/create-new-page.js",
-    "link-check": "node scripts/link-checker.js",
+    "link-check": "node scripts/interactive-link-checker.js",
+    "link-check-quick": "node scripts/quick-link-checker.js",
     "serve:port": "node scripts/serve-with-port.js",
     "serve-only": "npx eleventy && npx eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +17,7 @@
     "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
     "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
     "watch:sass": "npm run sass-start -- --watch",
-    "start": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=local npm-run-all sass-start serve:port --parallel watch:*",
+    "start": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=local npm-run-all --parallel watch:* serve:port",
     "start-dev": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=dev npm-run-all sass-start serve:port --parallel watch:*",
     "start-prod": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=prod npm-run-all sass-start serve:port --parallel watch:*",
     "dev": "cross-env ELEVENTY_ENV=dev npm-run-all sass-build --parallel eleventy",
@@ -45,7 +46,7 @@
     "@11ty/eleventy-navigation": "^0.3.3",
     "@cspell/dict-fr-fr": "^2.1.2",
     "axios": "^1.7.5",
-    "broken-link-checker": "^0.6.7",
+    "broken-link-checker": "^0.7.8",
     "cross-env": "^7.0.3",
     "cspell": "^6.18.1",
     "dotenv": "^16.4.5",
@@ -64,6 +65,7 @@
     "string-strip-html": "^8.5.0"
   },
   "dependencies": {
+    "chalk": "^5.6.2",
     "esm": "^3.2.25",
     "prompt-sync": "^4.2.0",
     "remark": "^15.0.1",

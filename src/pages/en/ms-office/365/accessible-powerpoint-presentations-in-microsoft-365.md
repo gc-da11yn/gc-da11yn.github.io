@@ -1,7 +1,7 @@
 ---
 title: Accessible PowerPoint presentations in Microsoft 365
 description: Accessible practices for Microsoft PowerPoint document creation.
-toggle: presentations-powerpoint-accessibles-dans-microsoft-365
+toggle: Présentations PowerPoint accessibles dans Microsoft 365
 fontIcon: fa-file-powerpoint
 ---
 
@@ -17,7 +17,7 @@ How to use the Accessibility Checker:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/powerpoint-365-001.jpg" alt="Screenshot of Check for Issues menu" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-001.jpg" alt="Screenshot of Check for Issues menu" />
 </div>
 </div>
 
@@ -40,7 +40,7 @@ Give every slide a unique title. People who have vision loss or learning / cogni
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/powerpoint-365-002.jpg" alt="Screenshot of Slides group in Home tab" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-002.jpg" alt="Screenshot of Slides group in Home tab" />
 </div>
 </div>
 
@@ -52,7 +52,7 @@ To make a title invisible on the slide, but still voiced by screen readers:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/powerpoint-365-003.jpg" alt="Screenshot of Arrange menu" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-003.jpg" alt="Screenshot of Arrange menu" />
 </div>
 </div>
 
@@ -105,7 +105,7 @@ To change the reading order:
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/powerpoint-365-004.jpg" alt="Screenshot of Arrange menu" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-004.jpg" alt="Screenshot of Arrange menu" />
 </div>
 </div>
 
@@ -144,7 +144,7 @@ PowerPoint presentations usually include images. Images need equivalent alternat
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/en/office365/powerpoint-365-005.jpg" alt="Screenshot of Format Picture tool">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-005.jpg" alt="Screenshot of Format Picture tool">
 </div>
 </div>
 

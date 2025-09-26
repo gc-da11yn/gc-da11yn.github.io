@@ -4,7 +4,7 @@ description: Un courriel accessible est important pour les personnes handicapée
 tags:
   - howTos
   - updatesMain
-toggle: making-accessible-emails
+toggle: Making Accessible Emails
 tocSimple: true
 ---
 
@@ -29,7 +29,7 @@ Pour rédiger vos courriels en format HTML :
 4. dans la liste déroulante **Composition des messages** (**Alt + É**), choisissez **HTML;**
 5. sélectionnez **OK**.
 
-<p><img src="{{ rootPath }}img/fr/rendre-vos-courriel-accessibles-1.png" alt="" /></p>
+<p><img src="{{ pathPrefix }}/img/fr/rendre-vos-courriel-accessibles-1.png" alt="" /></p>
 
 ## Message bilingue (le cas échéant)
 
@@ -40,16 +40,28 @@ Si vous devez utiliser des courriels bilingues, veillez à ce qu’ils soient au
 - L’ajout d’un [signet](#signets) permet à l’utilisateur de passer directement au texte rédigé dans la langue de son choix.
 - Indiquez où se trouve le texte dans l’autre langue :
   1. dans les courriels où l’anglais est la première langue utilisée, faites précéder le texte en anglais de la mention « Le français suit l’anglais »;
-  2. dans les courriels où le français est la première langue utilisée, faites précéder letexte en français de la mention « English follows ».
+  2. dans les courriels où le français est la première langue utilisée, faites précéder le texte en français de la mention « English follows ».
 
 ### Définir une langue
 
-Si le document entier est en anglais mais que certaines sections renferment des passages en français, le lecteur d’écran configuré pour le texte anglais essaiera de prononcer les termes français et le résultat ressemblera à du charabia.
+Commencez par définir la langue principale du document :
 
-- Effectuez le marquage de la langue pour aider les lecteurs d’écran à lire correctement le texte en français. Utilisez cette fonction pour modifier la langue de vérification de certaines sections d’un document :
-    1. définissez la langue de vérification (**Alt, R, J, L**);
-    2. mettez en évidence le texte pour lequel vous voulez définir une langue différente;
-    3. sélectionnez l’onglet Révision, puis sélectionnez **Langue** &gt; **Définir la langue de vérification**.
+1.	Allez à l’onglet **Révision** dans le Ruban.
+2.	Ouvrez le bouton **Langue** , puis sélectionnez **Définir la langue de vérification (Alt, R, J, L)**.
+3.	Dans la boîte de dialogue « Langue », assurez-vous de régler le bouton radio **Modifier la langue de vérification pour** sur **Document actif**.
+4.	Dans la liste des langues disponibles, sélectionnez la langue principale utilisée dans le document.
+
+Si certaines sections du document sont écrites dans une autre langue, les lecteurs d’écran configurés pour la langue principale risquent de mal prononcer le texte dans l’autre langue ainsi le résultat ressemblera à du charabia.
+
+Pour que les lecteurs d’écran reconnaissent et prononcent correctement le texte dans différentes langues, effectuez un balisage de langue et ajustez la langue de vérification pour ces sections spécifiques. Voici comment procéder :
+
+1.	Surlignez le texte que vous souhaitez définir dans une autre langue.
+2.	Allez à l’onglet **Révision**.
+3.	Ouvrez le bouton **Langue**, puis choisissez **Définir la langue de vérification (Alt, R, J, L).**
+4.	Dans la boîte de dialogue « Langue », assurez-vous de régler le bouton radio **Modifier la langue de vérification pour** sur **Texte sélectionné**.
+5.	Dans la liste des langues disponibles, sélectionnez la langue appropriée pour le texte surligné.
+
+En suivant ces étapes, vous permettrez une reconnaissance linguistique précise pour les lecteurs d’écran et les correcteurs orthographiques, améliorant ainsi l’accessibilité et l’exactitude de votre document.
 
 ## Langage clair
 
@@ -66,7 +78,6 @@ Si le document entier est en anglais mais que certaines sections renferment des 
 ### Resources
 
 - [Guide de rédaction du contenu du site Canada.ca — Langage clair et simple](https://conception.canada.ca/guide-redaction/#toc6)
-- <a href="http://en.copian.ca/library/learning/nwt/writread/writefor.pdf" download lang="en">Write for your Reader—A plain language handbook<small lang="fr"> (en anglais seulement)</small></a>
 - <a href="https://www.nwtliteracy.ca/sites/default/files/resources/practice.pdf" download lang="en">Putting plain language into practice<small lang="fr"> (en anglais seulement)</small></a>
 - <a href="https://www.nwtliteracy.ca/sites/default/files/resources/136648a_nwt_literacy_audit_tool.pdf" download lang="en">Plain Language Audit Tool—A checklist to review documents<small lang="fr"> (en anglais seulement)</small></a>
 
@@ -86,9 +97,9 @@ Le volet Styles se trouve sur l’onglet Format du texte. Mettez en évidence le
 
 Pour ouvrir le volet Styles, cliquez sur la **flèche d’expansion** (**Alt, X, S)**. Sélectionnez **Titre**. Le style Titre sera mis en évidence dans la liste et sera appliqué au texte sélectionné.
 
-<p><img src="{{ rootPath }}img/fr/rendre-vos-courriel-accessibles-2.png" alt="" /></p>
+<p><img src="{{ pathPrefix }}/img/fr/rendre-vos-courriel-accessibles-2.png" alt="" /></p>
 
-<p><img src="{{ rootPath }}img/fr/rendre-vos-courriel-accessibles-4.png" alt="" /></p>
+<p><img src="{{ pathPrefix }}/img/fr/rendre-vos-courriel-accessibles-4.png" alt="" /></p>
 
 ### Modifier un style
 

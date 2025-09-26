@@ -1,7 +1,7 @@
 ---
 title: Documents PDF accessibles dans Office 2016
 description: Pratiques accessibles pour la création de documents PDF 2016.
-toggle: accessible-pdf-documents-in-office-2016
+toggle: Accessible PDF documents in Office 2016
 fontIcon: fa-file-pdf
 ---
 
@@ -27,7 +27,7 @@ Le moyen le plus simple de créer un fichier PDF accessible consiste à commence
 
 <div class="row">
 <div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/pdf-01.jpg" alt="Capture d’écran de exporter le texte en format Word">
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/pdf-01.jpg" alt="Capture d’écran de exporter le texte en format Word">
 </div>
 </div>
 
@@ -41,7 +41,7 @@ Les cases restantes doivent être décochées.
 
 <div class="row">
 <div class="col-md-9">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/pdf-02.jpg" alt="Capture d’écran de Options d’exportation du format PDF au format Word">
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/pdf-02.jpg" alt="Capture d’écran de Options d’exportation du format PDF au format Word">
 </div>
 </div>
 
@@ -67,7 +67,7 @@ Pour se servir du vérificateur d’accessibilité, ouvrir votre document PDF et
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/pdf-03.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/pdf-03.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
 </div>
 </div>
 
@@ -75,7 +75,7 @@ Sous **Options de rapport**, désélectionner « Créer un rapport d’accessibi
 
 <div class="row">
 <div class="col-md-7">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/pdf-04.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/pdf-04.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
 </div>
 </div>
 

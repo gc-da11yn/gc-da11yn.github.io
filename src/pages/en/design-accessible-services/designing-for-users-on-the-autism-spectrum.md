@@ -3,14 +3,14 @@ title: Designing for users on the autism spectrum
 description: What to do - and what <strong>not</strong> to do - when designing for users on the autism spectrum.
 tags:
   - designingAccessible
-toggle: concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme
+toggle: Concevoir pour les utilisateurs dans le spectre de l'autisme
 subject:
   - howTos
 ---
 
 Printable posters(<abbr title="Portable Document Format">PDF</abbr> format):
 
-- <a href="{{ rootPath }}docs/posters/AutismSpect-en_2023.pdf" download>Designing for users on the autism spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
+- <a href="{{ pathPrefix }}/docs/posters/AutismSpect-en_2023.pdf" download>Designing for users on the autism spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

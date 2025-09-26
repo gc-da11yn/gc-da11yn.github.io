@@ -1,3 +1,5 @@
+const pathPrefix = require('./pathPrefix')();
+
 module.exports = {
 	fr: {
 		// Alert section heading
@@ -5,7 +7,7 @@ module.exports = {
 
 		// Under construction alert, appears on all pages of the site while site is ramping up on content
 		underConstText:
-			'<p>Vous êtes en train d\'explorer un site web qui n\'a pas encore été officiellement lancé. Si vous souhaitez nous faire part de vos commentaires, n\'hésitez pas à consulter notre page <a href="/fr/contactez-nous/">Contactez-nous</a>.</p><p>Pour consulter la version actuelle de ce site web, veuillez visiter le site <a href=\"https://a11y.canada.ca/fr\">a11y.canada.ca</a>.</p>',
+			`<p>Vous êtes en train d'explorer un site web qui n'a pas encore été officiellement lancé. Si vous souhaitez nous faire part de vos commentaires, n'hésitez pas à consulter notre page <a href=${pathPrefix}fr/contactez-nous/">Contactez-nous</a>.</p><p>Pour consulter la version actuelle de ce site web, veuillez visiter le site <a href="https://a11y.canada.ca/fr">a11y.canada.ca</a>.</p>`,
 
 		// Draft alert, appears on on all pages that have isDraft: true in the front matter
 		draftText: "Le contenu de ces pages est à l'état de projet.",
@@ -19,6 +21,11 @@ module.exports = {
 			"Les liens qui ne fonctionnent que derrière le pare-feu du gouvernement du Canada sont marqués avec ",
 		icon: "icône ",
 		hiddenTextLink: "lien interne",
+
+		// Role content coming soon alert, appears on role pages when no content is tagged with that role
+		roleContentComingSoon: "Bientôt disponible !",
+		roleContentComingSoonText: "Actuellement, aucun contenu n'a été assigné à ce rôle. Une fois que le contenu sera étiqueté avec ce rôle, il sera listé sur cette page.",
+		roleContentComingSoonTextGroup: "Actuellement, aucun contenu n'a été assigné à ce rôle. Une fois que le contenu sera étiqueté avec ce rôle, il sera listé ici.",
 	},
 
 	en: {
@@ -27,7 +34,7 @@ module.exports = {
 
 		// Under construction alert, appears on all pages of the site while site is ramping up on content
 		underConstText:
-			'<p>You are currently exploring a website that has not been officially launched yet. If you wish to provide feedback, please don\'t hesitate to checkout our <a href="/en/contact-us/">contact us</a> page.</p> <p>To view the current version of this website, please visit <a href="https://a11y.canada.ca/en">a11y.canada.ca</a>.</p>',
+			`<p>You are currently exploring a website that has not been officially launched yet. If you wish to provide feedback, please don't hesitate to checkout our <a href=${pathPrefix}en/contact-us/">contact us</a> page.</p> <p>To view the current version of this website, please visit <a href="https://a11y.canada.ca/en">a11y.canada.ca</a>.</p>`,
 
 		// Draft alert, appears on on all pages that have isDraft: true in the front matter
 		draftText: "The content on this pages in draft form.",
@@ -41,5 +48,10 @@ module.exports = {
 			"Links that only work within the Government of Canada firewall are marked with ",
 		icon: "icon ",
 		hiddenTextLink: "internal link",
+
+		// Role content coming soon alert, appears on role pages when no content is tagged with that role
+		roleContentComingSoon: "Coming soon!",
+		roleContentComingSoonText: "Currently no content has been assigned to this role. Once content is tagged with this role, it will be listed on this page.",
+		roleContentComingSoonTextGroup: "Currently no content has been assigned to this role. Once content is tagged with this role, it will be listed here.",
 	},
 };

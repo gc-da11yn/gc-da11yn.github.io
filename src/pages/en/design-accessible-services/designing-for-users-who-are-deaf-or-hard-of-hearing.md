@@ -3,14 +3,14 @@ title: Designing for users who are deaf or hard of hearing
 description: What to do - and what <strong>not</strong> to do - when designing for users who are deaf or hard of hearing.
 tags:
   - designingAccessible
-toggle: concevoir-pour-les-utilisateurs-sourds-ou-malentendants
+toggle: Concevoir pour les utilisateurs sourds ou malentendants
 subject:
   - howTos
 ---
 
 Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
-- <a href="{{ rootPath }}docs/posters/Hearing-en_2023.pdf" download>Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a>
+- <a href="{{ pathPrefix }}/docs/posters/Hearing-en_2023.pdf" download>Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

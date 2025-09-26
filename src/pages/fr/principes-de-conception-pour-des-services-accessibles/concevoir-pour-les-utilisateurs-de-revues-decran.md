@@ -3,14 +3,14 @@ title: Concevoir pour les utilisateurs de revues d’écran
 description: Ce qu’il faut faire — et ce qu’il ne faut pas faire — lors de la conception pour les utilisateurs de lecteurs d’écran.
 tags:
   - designingAccessible
-toggle: designing-for-users-of-screen-readers
+toggle: Designing for users of screen readers
 subject:
   - howTos
 ---
 
 Affiches imprimables en format (<abbr lang="en" title="Portable Document Format">PDF</abbr>):
 
-- <a href="{{ rootPath }}docs/posters/RevuesDecran-fr_2023.pdf" download>Concevoir pour les utilisateurs de revues d’écran (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 53 <abbr title="kilo-octet">ko</abbr>)</a>
+- <a href="{{ pathPrefix }}/docs/posters/RevuesDecran-fr_2023.pdf" download>Concevoir pour les utilisateurs de revues d’écran (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 53 <abbr title="kilo-octet">ko</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

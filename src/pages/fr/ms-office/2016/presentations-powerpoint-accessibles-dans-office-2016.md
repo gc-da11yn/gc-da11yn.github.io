@@ -1,7 +1,7 @@
 ---
 title: Présentations PowerPoint accessibles dans Office 2016
 description: Pratiques accessibles pour la création de documents Microsoft PowerPoint 2016.
-toggle: accessible-powerpoint-presentations-in-office-2016
+toggle: Accessible PowerPoint presentations in Office 2016
 fontIcon: fa-file-powerpoint
 ---
 
@@ -11,7 +11,7 @@ La suite Microsoft Office (Word, Excel, PowerPoint) comporte un programme intég
 
 <div class="row">
 <div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/powerpoint-01.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/powerpoint-01.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
 </div>
 </div>
 
@@ -117,7 +117,7 @@ Les présentations PowerPoint comportent généralement des images. Les images o
 
 <div class="row">
 <div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/powerpoint-02.jpg" alt="Capture d’écran de Outil Format de l’image" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/powerpoint-02.jpg" alt="Capture d’écran de Outil Format de l’image" />
 </div>
 </div>
 
@@ -180,7 +180,7 @@ Vous pouvez également effectuer l’une des opérations suivantes après avoir 
 
 <div class="row">
 <div class="col-md-9">
-<img class="img-responsive" src="{{ rootPath }}img/fr/office2016/powerpoint-03.jpg" alt="Capture d’écran de Menu Grouper" />
+<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/powerpoint-03.jpg" alt="Capture d’écran de Menu Grouper" />
 </div>
 </div>
 

@@ -3,14 +3,14 @@ title: Designing for users with cognitive disabilities
 description: What to do - and what <strong>not</strong> to do - when designing for users with cognitive disabilities.
 tags:
   - designingAccessible
-toggle: principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif
+toggle: Principes de conception pour les utilisateurs avec handicap cognitif
 subject:
   - howTos
 ---
 
 Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
-- <a href="{{ rootPath }}docs/posters/Cognitive-en_2023.pdf" download>Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)</a>
+- <a href="{{ pathPrefix }}/docs/posters/Cognitive-en_2023.pdf" download>Design principles for users with cognitive disabilities (<abbr title="Portable Document Format">PDF</abbr>, 74 <abbr title="KiloByte">KB</abbr>)</a>
 
 <div class="row">
 <div class="col-md-6">

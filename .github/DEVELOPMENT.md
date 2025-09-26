@@ -118,43 +118,81 @@ The script also runs a web server on your machine for you to view the site local
 
 #### Checking for Broken Links
 
-To check for broken links, you'll need to follow these two steps:
+We have several link checking options available for different use cases:
 
-##### Step 1: Start the Eleventy Server
+##### Interactive Link Checker (Recommended)
 
-First, start the Eleventy server by running the following command:
+The interactive link checker provides a menu-driven interface to check different environments:
 
-   ```bash
-   npm start
-   ```
+```bash
+npm run link-check
+```
 
-This command will:
+This will prompt you to choose from:
+- **Localhost - Changed files only** (fastest for development)
+- **Localhost - Full check** (complete local site scan)
+- **PR Preview - Full check** (check Netlify deploy previews)
+- **Live site - Full check** (production website validation)
+- **Custom URL - Full check** (any external site)
 
-- Build and serve the Eleventy site on a dynamically chosen port.
-- Save the port number in a .eleventy-port file.
+##### Quick Link Checker (For Automation)
 
-Make sure the server is running properly before proceeding to the next step.
+For development workflows and GitHub Actions, use the quick link checker that focuses on changed files only:
 
-##### Step 2: Run the Link Checker
+```bash
+npm run link-check-quick
+```
 
-After the server is up and running, you can run the link checker to ensure all links are valid:
+##### How It Works
 
-  ```bash
-  npm run link-check
-  ```
+The link checking system uses two methods depending on the environment:
 
-This command will:
+1. **Sitemap-based checking** (preferred for performance):
+   - Uses `sitemap.xml` to get complete list of site pages
+   - Fetches each page and validates all links within it
+   - Much faster than crawling as it has the definitive page list
+   - Used for: localhost full check, PR previews, live site checking
 
-- Read the port number from the .eleventy-port file.
-- Check for broken links on the served site using that port.
+2. **Changed files checking** (fastest for development):
+   - Uses `git diff` to detect only modified pages since last commit
+   - Only checks links within changed pages
+   - Used for: localhost changed files option
 
-Make sure to use this process to ensure all links are valid before deploying any changes.
+3. **Crawler-based checking** (fallback):
+   - Discovers pages by following links from homepage
+   - Used when sitemap.xml is unavailable or for external sites
+   - Used for: custom URL checking, sitemap fallback scenarios
+
+##### Results and Output
+
+All link checkers will:
+
+- Display real-time progress with page and link counters
+- Show broken links with source file paths (when available)
+- Generate timestamped JSON reports (e.g., `broken-links.json`)
+- Check both regular links and anchor links (#fragments)
+- Validate image sources, stylesheets, and script files
+
+##### Tips for Link Checking
+
+- **For development**: Use `npm run link-check` and select localhost changed files option
+- **For comprehensive testing**: Use localhost full check or live site options
+- **For CI/CD pipelines**: Use `npm run link-check-quick` for fast automated checking
+- **For pull request reviews**: Use PR preview option with deploy preview number
 
 ### Updating the website
 
 Saving project files will make Node.js regenerate the website to reflect the changes you made. Your command line application will display some new messaging to reflect this, including any errors you might accidentally make. Don't worry! Since the site uses version control, you're not in danger of seriously breaking anything. If you fix the error, Node.js should continue to run.
 
 Make sure you edit the files in the `src/` subdirectory. Any edits made in the `_site` subdirectory will be overwritten by the next change to any file in `src/` and all your hard work will be lost!
+
+### About `{{ pathPrefix }}`
+
+The `{{ pathPrefix }}` variable is used throughout the site to ensure all internal links and asset URLs work correctly, whether the site is deployed as the main repository or as a fork (such as on GitHub Pages).
+
+On the main site, `{{ pathPrefix }}` is an empty string (""), so URLs are relative to the root.
+
+On a fork, `{{ pathPrefix }}` is set to the repository name (e.g., "`/gc-da11yn.github.io`"), so all links and assets are correctly prefixed. Always use `{{ pathPrefix }}` for internal links and assets in templates and markdown files to ensure robust navigation in all deployment scenarios.
 
 ### Quitting
 
@@ -307,6 +345,131 @@ hasDocument:
 ```
 
 The file size and unit will automatically adapt to the current language (`locale`) set for the page.
+
+## Language Toggle (toggle)
+
+The `toggle` frontmatter property is used to create language switching links between English and French versions of pages. This system allows users to easily navigate between language versions of the same content.
+
+### How the toggle Property Works
+
+The `toggle` property should contain the **exact title** of the corresponding page in the other language. The system automatically converts this title into a proper URL slug using the `stripTagsSlugify` filter.
+
+#### Example Usage
+
+**English Page (`src/pages/en/about-us.md`):**
+
+```yaml
+---
+title: "About Us"
+toggle: "À propos de nous"
+---
+```
+
+**French Page (`src/pages/fr/a-propos-de-nous.md`):**
+
+```yaml
+---
+title: "À propos de nous"
+toggle: "About Us"
+---
+```
+
+### URL Generation Process
+
+The language toggle system automatically generates URLs based on page type and content:
+
+1. **Regular Pages**: Uses the toggle title converted to a slug
+   - English toggle: "À propos de nous" → `/fr/a-propos-de-nous/`
+   - French toggle: "About Us" → `/en/about-us/`
+
+2. **Home Pages**: Special handling for pages tagged with `home`
+   - English home toggle → `/fr/`
+   - French home toggle → `/en/`
+
+### Technical Implementation
+
+The language toggle is handled in `src/_includes/partials/lang.njk`:
+
+```njk
+{% if needsTranslation != true and toggle %}
+{% set otherLangSlug = toggle | stripTagsSlugify %}
+{# Special handling for home pages #}
+{% if tags and 'home' in tags %}
+    {% set toggleUrl = pathPrefix + "/" + otherLang + "/" %}
+{% else %}
+    {% set toggleUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
+{% endif %}
+<!-- Language toggle link generated here -->
+{% endif %}
+```
+
+### Key Features
+
+- **Automatic Slug Generation**: The `stripTagsSlugify` filter automatically converts page titles to URL-safe slugs
+- **Accent Handling**: Converts accented characters (é→e, à→a, ç→c, etc.)
+- **Case Conversion**: Converts to lowercase
+- **Space Replacement**: Replaces spaces with hyphens
+- **Special Character Removal**: Removes punctuation and special characters
+
+### Best Practices
+
+1. **Use Exact Titles**: Always use the exact title of the target page as it appears in that page's frontmatter
+2. **Keep Titles Consistent**: Make sure both language versions reference each other correctly
+3. **Home Page Tagging**: Include `home` in the tags array for home pages to ensure proper URL generation
+4. **Path Prefix Compatibility**: The system works with both main site deployment and GitHub Pages forks
+
+### Special Cases
+
+#### Home Pages
+
+Pages tagged with `home` receive special treatment:
+
+- Toggle URLs go directly to language root (`/fr/` or `/en/`)
+- Prevents double language codes in URLs
+
+#### Pages Without Translation
+
+Use `needsTranslation: true` to:
+
+- Hide the language toggle link
+- Display a notice that content is only available in one language
+
+### Examples
+
+**Regular Content Page:**
+
+```yaml
+---
+title: "Creating Accessible Documents"
+toggle: "Créer des documents accessibles"
+tags: [documents, accessibility]
+---
+```
+
+_Generated toggle URL: `/fr/creer-des-documents-accessibles/`_
+
+**Home Page:**
+
+```yaml
+---
+title: "Digital Accessibility Toolkit"
+toggle: "Boîte à outils d'accessibilité numérique"
+tags: [home]
+---
+```
+
+_Generated toggle URL: `/fr/`_
+
+**Single Language Page:**
+
+```yaml
+---
+title: "Temporary Content"
+needsTranslation: true
+---
+```
+
+_No toggle link displayed, shows translation notice instead_
 ______________________
 
 <div lang="fr">
@@ -424,43 +587,80 @@ Le script exécute également un websever sur votre machine pour vous permettre 
 
 ##### Vérification des liens brisés
 
-Pour vérifier les liens brisés, vous devez suivre ces deux étapes :
+Nous avons plusieurs options de vérification des liens disponibles pour différents cas d'usage :
 
-###### Étape 1 : Démarrer le serveur Eleventy
+###### Vérificateur interactif (recommandé)
 
-Tout d'abord, démarrez le serveur Eleventy en exécutant la commande suivante :
+```bash
+npm run link-check
+```
 
-   ```bash
-   npm start
-   ```
+Offre un menu interactif avec 5 options :
 
-Cette commande va :
+1. **Localhost (fichiers modifiés uniquement)** - Vérifie seulement les pages modifiées depuis le dernier commit
+2. **Localhost (vérification complète)** - Vérifie toutes les pages sur votre serveur local
+3. **Aperçu de demande de tirage Netlify** - Vérifie un déploiement d'aperçu en utilisant le numéro PR
+4. **Site en direct** - Vérifie le site de production (a11y.canada.ca)
+5. **URL personnalisée** - Vérifie n'importe quel site web
 
-- Construire et servir le site Eleventy sur un port choisi dynamiquement.
-- Sauvegarder le numéro de port dans un fichier `.eleventy-port`.
+###### Vérificateur rapide (pour l'automatisation)
 
-Assurez-vous que le serveur fonctionne correctement avant de passer à l'étape suivante.
+```bash
+npm run link-check-quick
+```
 
-###### Étape 2 : Exécuter le vérificateur de liens
+Vérifie directement les fichiers modifiés sur localhost - idéal pour les pipelines CI/CD et les flux de développement.
 
-Une fois le serveur en marche, vous pouvez exécuter le vérificateur de liens pour vous assurer que tous les liens sont valides :
+###### Comment ça fonctionne
 
-  ```bash
-  npm run link-check
-  ```
+Le système de vérification des liens utilise trois méthodes selon l'environnement :
 
-Cette commande va :
+1. **Vérification basée sur le sitemap** (préférée pour les performances) :
+   - Utilise `sitemap.xml` pour obtenir la liste complète des pages du site
+   - Récupère chaque page et valide tous les liens qu'elle contient
+   - Beaucoup plus rapide que le crawling car elle a la liste définitive des pages
+   - Utilisée pour : vérification complète localhost, aperçus PR, vérification du site en direct
 
-- Lire le numéro de port à partir du fichier `.eleventy-port`.
-- Vérifier les liens brisés sur le site servi en utilisant ce port.
+2. **Vérification des fichiers modifiés** (plus rapide pour le développement) :
+   - Utilise `git diff` pour détecter seulement les pages modifiées depuis le dernier commit
+   - Vérifie seulement les liens dans les pages modifiées
+   - Utilisée pour : option localhost fichiers modifiés
 
-Assurez-vous d'utiliser ce processus pour vérifier que tous les liens sont valides avant de déployer des modifications.
+3. **Vérification basée sur le crawler** (solution de secours) :
+   - Découvre les pages en suivant les liens depuis la page d'accueil
+   - Utilisée quand sitemap.xml n'est pas disponible ou pour des sites externes
+   - Utilisée pour : vérification d'URLs personnalisées, scénarios de secours du sitemap
+
+###### Résultats et sortie
+
+Tous les vérificateurs de liens vont :
+
+- Afficher le progrès en temps réel avec des compteurs de pages et de liens
+- Montrer les liens brisés avec les chemins des fichiers sources (quand disponible)
+- Générer des rapports JSON horodatés (ex. `broken-links.json`)
+- Vérifier les liens réguliers et les liens d'ancrage (#fragments)
+- Valider les sources d'images, feuilles de style et fichiers de script
+
+###### Conseils pour la vérification des liens
+
+- **Développement local** : Utilisez le vérificateur interactif ou l'option localhost
+- **Revues de demandes de tirage** : Vérifiez les aperçus de déploiement en utilisant le numéro PR
+- **Pré-déploiement** : Toujours vérifier le site en direct après des mises à jour majeures
+- **Intégration CI/CD** : Utilisez les commandes de vérification rapide dans les pipelines automatisés
 
 ### Mise à jour du site Web
 
 En sauvegardant les fichiers du projet, Node.js régénérera le site Web pour refléter les changements que vous avez effectués. Votre application de ligne de commande affichera de nouveaux messages pour refléter cela, y compris toute erreur que vous pourriez accidentellement faire. Ne vous inquiétez pas ! Comme le site utilise la version de contrôle, vous ne risquez pas de casser sérieusement quoi que ce soit. Si vous corrigez l'erreur, Node.js devrait continuer à fonctionner.
 
 Assurez-vous d'éditer les fichiers dans le sous-répertoire `src/`. Toute modification faite dans le sous-répertoire `_site` sera écrasée par la prochaine modification d'un fichier dans `src/` et tout votre travail sera perdu !
+
+### À propos de `{{ pathPrefix }}`
+
+La variable `{{ pathPrefix }}` est utilisée sur tout le site pour garantir que tous les liens internes et les ressources fonctionnent correctement, que le site soit déployé sur le dépôt principal ou sur un fork (par exemple sur GitHub Pages).
+
+Sur le site principal, `{{ pathPrefix }}` est une chaîne vide (""), donc les URLs sont relatives à la racine.
+
+Sur un fork, `{{ pathPrefix }}` prend le nom du dépôt (ex. : "`/gc-da11yn.github.io`"), ce qui permet de préfixer correctement tous les liens et ressources. Utilisez toujours `{{ pathPrefix }}` pour les liens internes et les ressources dans les modèles et fichiers markdown afin d’assurer une navigation robuste dans tous les scénarios de déploiement.
 
 ### Quitter
 
@@ -613,5 +813,130 @@ hasDocument:
 ```
 
 La taille et l'unité du fichier s'adapteront automatiquement à la langue actuelle (`locale`) définie pour la page.
+
+## Basculement de langue (toggle)
+
+La propriété `toggle` dans le front matter est utilisée pour créer des liens de basculement de langue entre les versions anglaise et française des pages. Ce système permet aux utilisateurs de naviguer facilement entre les versions linguistiques du même contenu.
+
+### Comment fonctionne la propriété toggle
+
+La propriété `toggle` doit contenir le **titre exact** de la page correspondante dans l'autre langue. Le système convertit automatiquement ce titre en un slug d'URL approprié en utilisant le filtre `stripTagsSlugify`.
+
+#### Exemple d'utilisation
+
+**Page anglaise (`src/pages/en/about-us.md`) :**
+
+```yaml
+---
+title: "About Us"
+toggle: "À propos de nous"
+---
+```
+
+**Page française (`src/pages/fr/a-propos-de-nous.md`) :**
+
+```yaml
+---
+title: "À propos de nous"
+toggle: "About Us"
+---
+```
+
+### Processus de génération d'URL
+
+Le système de basculement de langue génère automatiquement des URL basées sur le type de page et le contenu :
+
+1. **Pages régulières** : Utilise le titre de basculement converti en slug
+   - Basculement anglais : "À propos de nous" → `/fr/a-propos-de-nous/`
+   - Basculement français : "About Us" → `/en/about-us/`
+
+2. **Pages d'accueil** : Traitement spécial pour les pages étiquetées avec `home`
+   - Basculement page d'accueil anglaise → `/fr/`
+   - Basculement page d'accueil française → `/en/`
+
+### Implémentation technique
+
+Le basculement de langue est géré dans `src/_includes/partials/lang.njk` :
+
+```njk
+{% if needsTranslation != true and toggle %}
+{% set otherLangSlug = toggle | stripTagsSlugify %}
+{# Traitement spécial pour les pages d'accueil #}
+{% if tags and 'home' in tags %}
+    {% set toggleUrl = pathPrefix + "/" + otherLang + "/" %}
+{% else %}
+    {% set toggleUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
+{% endif %}
+<!-- Lien de basculement de langue généré ici -->
+{% endif %}
+```
+
+### Fonctionnalités clés
+
+- **Génération automatique de slug** : Le filtre `stripTagsSlugify` convertit automatiquement les titres de page en slugs sécurisés pour les URL
+- **Gestion des accents** : Convertit les caractères accentués (é→e, à→a, ç→c, etc.)
+- **Conversion de casse** : Convertit en minuscules
+- **Remplacement d'espaces** : Remplace les espaces par des tirets
+- **Suppression de caractères spéciaux** : Supprime la ponctuation et les caractères spéciaux
+
+### Meilleures pratiques
+
+1. **Utiliser des titres exacts** : Toujours utiliser le titre exact de la page cible tel qu'il apparaît dans le front matter de cette page
+2. **Maintenir la cohérence des titres** : S'assurer que les deux versions linguistiques se référencent correctement
+3. **Étiquetage des pages d'accueil** : Inclure `home` dans le tableau des étiquettes pour les pages d'accueil afin d'assurer une génération d'URL appropriée
+4. **Compatibilité avec le préfixe de chemin** : Le système fonctionne avec le déploiement du site principal et les forks GitHub Pages
+
+### Cas particuliers
+
+#### Pages d'accueil
+
+Les pages étiquetées avec `home` reçoivent un traitement spécial :
+
+- Les URL de basculement vont directement à la racine de la langue (`/fr/` ou `/en/`)
+- Empêche les doubles codes de langue dans les URL
+
+#### Pages sans traduction
+
+Utiliser `needsTranslation: true` pour :
+
+- Masquer le lien de basculement de langue
+- Afficher un avis indiquant que le contenu n'est disponible que dans une seule langue
+
+### Exemples
+
+**Page de contenu régulière :**
+
+```yaml
+---
+title: "Créer des documents accessibles"
+toggle: "Creating Accessible Documents"
+tags: [documents, accessibility]
+---
+```
+
+_URL de basculement générée : `/en/creating-accessible-documents/`_
+
+**Page d'accueil :**
+
+```yaml
+---
+title: "Boîte à outils d'accessibilité numérique"
+toggle: "Digital Accessibility Toolkit"
+tags: [home]
+---
+```
+
+_URL de basculement générée : `/en/`_
+
+**Page en une seule langue :**
+
+```yaml
+---
+title: "Contenu temporaire"
+needsTranslation: true
+---
+```
+
+_Aucun lien de basculement affiché, affiche plutôt un avis de traduction_
 
 </div>

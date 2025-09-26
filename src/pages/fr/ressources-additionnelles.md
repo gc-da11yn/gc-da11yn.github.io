@@ -3,7 +3,7 @@ title: Ressources additionnelles
 layout: layouts/base.njk
 description: Ressources et outils utiles en matière d'accessibilité du web pour les employés du gouvernement du Canada.
 internalLinks: true
-toggle: additional-resources
+toggle: Additional Resources
 tags:
   - resourcesAndTools
 tocSimple: true
@@ -88,9 +88,28 @@ Dans cet article, Claudio Luis Vera explique ce qu’il faut garder à l’espri
 </div>
 <div class="col-md-6">
 
+### [Série d'apprentissage sur l'accessibilité](https://www.csps-efpc.gc.ca/accessibility-learning-fra.aspx)
+
+Chaque fonctionnaire a un rôle à jouer dans la création d'une fonction publique sans obstacles, et la série d'apprentissage sur l'accessibilité vous aidera à comprendre comment vous pouvez favoriser l'inclusion au quotidien en éliminant les obstacles ou en évitant d'en créer de nouveaux pour les personnes en situation de handicap.
+
+</div>
+<div class="col-md-6">
+
 ### <a href="https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu">YouTube : Apple : Accessibilité<small> (en anglais seulement)</small></a>
 
 De l’utilisation de votre iPhone sans voir l’écran, à l’adaptation des gestes à vos besoins physiques, découvrez comment les fonctionnalités d’accessibilité intégrées à vos appareils Apple peuvent vous aider à en faire plus.
+
+</div>
+</div>
+
+## Approvisionnement
+
+<div class="row wb-eqht gc-srvinfo">
+<div class="col-md-6">
+
+### [Accessibilité à Services publics et Approvisionnement Canada](https://www.canada.ca/fr/services-publics-approvisionnement/organisation/accessibilite.html)
+
+En tant que fournisseur de services communs du gouvernement du Canada, le SPAC s'efforce d'offrir un excellent service aux autres ministères fédéraux. En cherchant à améliorer l'accès à ses programmes et services pour les personnes handicapées, SPAC aide les ministères fédéraux à offrir des programmes et services de haute qualité à tous les Canadiens.
 
 </div>
 </div>
@@ -269,18 +288,6 @@ Ce glossaire contient 342 concepts et terminologies liés au projet de loi C-81 
 #### <a href="https://www.include-me.ca/federal-accessibility-legislation-alliance/resource/accessible-canada-act-plain-language">La Loi sur l'accessibilité du Canada en langage clair et simple<small> (en anglais seulement)</small></a>
 
 Ce document aide les gens à comprendre les principaux points du projet de loi C-81 ; une loi visant à assurer un Canada sans obstacles.
-
-</div>
-</div>
-
-## Approvisionnement
-
-<div class="row wb-eqht gc-srvinfo">
-<div class="col-md-6">
-
-### [Accessibilité à Services publics et Approvisionnement Canada](https://www.canada.ca/fr/services-publics-approvisionnement/organisation/accessibilite.html)
-
-En tant que fournisseur de services communs du gouvernement du Canada, le SPAC s'efforce d'offrir un excellent service aux autres ministères fédéraux. En cherchant à améliorer l'accès à ses programmes et services pour les personnes handicapées, SPAC aide les ministères fédéraux à offrir des programmes et services de haute qualité à tous les Canadiens.
 
 </div>
 </div>

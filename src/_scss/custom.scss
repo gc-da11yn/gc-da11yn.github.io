@@ -50,3 +50,21 @@
 	}
 
 }
+
+// Splash page styles
+
+.splash .sp-hb {
+	width: 500px
+}
+
+@media (min-width: 768px) {
+	.splash .sp-hb {
+		width: 500px
+	}
+}
+
+@media (min-width: 992px) {
+	.splash .sp-hb {
+		width: 600px
+	}
+}

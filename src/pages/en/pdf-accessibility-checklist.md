@@ -2,16 +2,16 @@
 title: PDF accessibility checklist
 description: Here you can find different questions to help you to know if your pdf document is accessible or not.
 internalLinks: true
-toggle: liste-de-verification-de-laccessibilite-des-documents-pdf
+toggle: Liste de vérification de l’accessibilité des documents PDF
 subject:
   - howTos
 tags:
   - createDocument
 hasDocument:
-  filename: "PDF_Accessibility_Checklist.pdf"
+  filename: PDF_Accessibility_Checklist.pdf
   sizeNumber: 10.8
-  sizeUnit: "KB"
-  type: "pdf"
+  sizeUnit: KB
+  type: pdf
 ---
 
 ## Introduction
@@ -32,7 +32,7 @@ We established a list of tools and resources to help developers verify their doc
 - [Foxit PDF Editor Instructional Tutorials](https://www.foxitsoftware.com/support/tutorial/?from=foxit%20phantompdf_business&utm_source=client-app)
 - [Foxit: Use Action Wizard to automatically make PDFs 508 compliant](https://www.foxitsoftware.com/blog/use-action-wizard-to-automatically-make-pdfs-508-compliant/)
 - [WebAIM: Foxit and PDF Accessibility](https://webaim.org/techniques/foxit/)
-- [Do's and Dont's for Accessible Designs]({{ rootPath }}en/dos-and-donts-for-developing-online-courses)
+- [Do's and Dont's for Accessible Designs]({{ pathPrefix }}/en/dos-and-donts-for-developing-online-courses)
 
 ## PDF Accessibility Checklist Instructions
 
