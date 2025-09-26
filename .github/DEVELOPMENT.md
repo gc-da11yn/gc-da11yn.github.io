@@ -104,6 +104,48 @@ To create a new page for the site in both the `src/pages/en` and `src/pages/fr` 
 
 The script will ask you for the English title and a description of the page, then the French title and description, and then if the page has any links that are internal to the Government of Canada firewall.
 
+#### Pages to Review System
+
+The pages-to-review system automatically tracks and displays pages that have been modified since the last upstream/main branch. This helps developers and reviewers identify what content needs to be checked before publishing.
+
+##### How It Works
+
+During the build process, the system:
+
+1. **Compares your current branch** against `upstream/main` to detect changed files
+2. **Identifies page files** in `src/pages/` and `src/main/` directories
+3. **Generates a review page** at `/en/pages-to-review/` listing all changed pages
+4. **Optimizes performance** with caching and conditional network operations
+
+##### Performance Optimizations
+
+The system includes several performance improvements:
+
+- **Development mode**: Skips network `git fetch` operations for faster builds
+- **Caching**: 5-minute cache prevents redundant git operations
+- **Smart fallbacks**: Uses existing git references when available
+- **Minimal overhead**: Lightweight operations focused on build performance
+
+##### Accessing Changed Pages
+
+- **During development**: View changed page URLs in the terminal output
+- **Review page**: Visit `/en/pages-to-review/` to see a formatted list of all changed pages
+- **Direct testing**: Use the provided URLs to test your changes immediately
+
+##### Manual Testing
+
+You can test the system directly:
+
+```bash
+# Check what pages are detected as changed
+node scripts/build-changed-pages.js
+
+# Run a development build to see the full workflow
+ELEVENTY_WATCH=true npm run build
+```
+
+For detailed technical information, see the [implementation documentation](../docs/implementation/pages-to-review-optimization.md).
+
 #### Checking the spelling on the site
 
 The `npm run spellcheck` command runs a spell checker on all the markdown and HTML files inside the `src` folder.
@@ -571,6 +613,48 @@ La commande `npm run eleventy` construit les pages HTML du dossier `src` dans le
 Pour créer une nouvelle page pour le site dans les répertoires `src/pages/en` et `src/pages/fr`, vous pouvez utiliser `npm run newPage`.
 
 Le script vous demandera le titre anglais et une description de la page, puis le titre et la description en français, et enfin si la page contient des liens internes au pare-feu du gouvernement du Canada.
+
+#### Système de pages à réviser
+
+Le système de pages à réviser suit automatiquement et affiche les pages qui ont été modifiées depuis la dernière branche upstream/main. Cela aide les développeurs et les réviseurs à identifier le contenu qui doit être vérifié avant la publication.
+
+##### Comment ça fonctionne
+
+Pendant le processus de construction, le système :
+
+1. **Compare votre branche actuelle** avec `upstream/main` pour détecter les fichiers modifiés
+2. **Identifie les fichiers de page** dans les répertoires `src/pages/` et `src/main/`
+3. **Génère une page de révision** à `/en/pages-to-review/` listant toutes les pages modifiées
+4. **Optimise les performances** avec la mise en cache et les opérations réseau conditionnelles
+
+##### Optimisations de performance
+
+Le système inclut plusieurs améliorations de performance :
+
+- **Mode développement** : Ignore les opérations `git fetch` réseau pour des constructions plus rapides
+- **Mise en cache** : Cache de 5 minutes empêche les opérations git redondantes
+- **Fallbacks intelligents** : Utilise les références git existantes quand disponibles
+- **Surcharge minimale** : Opérations légères axées sur les performances de construction
+
+##### Accès aux pages modifiées
+
+- **Pendant le développement** : Voir les URLs des pages modifiées dans la sortie du terminal
+- **Page de révision** : Visiter `/en/pages-to-review/` pour voir une liste formatée de toutes les pages modifiées
+- **Tests directs** : Utiliser les URLs fournies pour tester vos changements immédiatement
+
+##### Tests manuels
+
+Vous pouvez tester le système directement :
+
+```bash
+# Vérifier quelles pages sont détectées comme modifiées
+node scripts/build-changed-pages.js
+
+# Exécuter une construction de développement pour voir le flux de travail complet
+ELEVENTY_WATCH=true npm run build
+```
+
+Pour des informations techniques détaillées, voir la [documentation d'implémentation](../docs/implementation/pages-to-review-optimization.md).
 
 #### Vérification de l'orthographe sur le site
 
