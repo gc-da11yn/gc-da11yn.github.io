@@ -171,7 +171,7 @@
     </nav>
   </header>
   <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-    <div class="home">
+    <div class="banner home">
       <div class="container p-0 p-sm-3">
         <div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
           <h1 property="name" id="wb-cont"> Digital Accessibility Toolkit </h1>
@@ -179,33 +179,33 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <section class="container">
       <h2>Exploring your toolkit</h2>
-    </div>
-    <div class="container">
-      <div class="row wb-eqht mrgn-tp-lg gc-srvinfo">
-        <div class="col-md-6">
-          <h3><a href="/en/accessibility-fundamentals/">Accessibility Fundamentals</a></h3>
-          <p> Discover the principles behind accessible digital products and services. These principles remove barriers for people living with disabilities and ensures ease of use for all. </p>
-        </div>
-        <div class="col-md-6">
-          <h3><a href="/en/digital-accessibility-in-the-government-of-canada/">Digital accessibility in the Government of Canada</a></h3>
-          <p> Learn more about the Information and Communication Technology (<abbr>ICT</abbr>) accessibility standards, including the EN 301 549, which includes WCAG 2.1 level A and AA, when purchasing goods or services or designing a project, roles, and teams related to the Government of Canada. </p>
-        </div>
-        <div class="col-md-6">
-          <h3><a href="/en/how-tos/">How-tos</a></h3>
-          <p> Tips and core steps to help make all your digital products and content, such as documents and meetings, accessible. </p>
-        </div>
-        <div class="col-md-6">
-          <h3><a href="/en/learning-and-development/">Learning and Development</a></h3>
-          <p> Discover a curated collection of learning products to enhance your understanding of accessibility. Whether you're a developer, designer, or enthusiast, explore our links to courses, tutorials, and tools. Join us in creating a more inclusive digital world. </p>
-        </div>
-        <div class="col-md-6">
-          <h3><a href="/en/resources-and-tools/">Resources and Tools</a></h3>
-          <p> Explore the various guides and learning materials created by federal public servants working to advance digital accessibility. </p>
+      <div class="container">
+        <div class="row wb-eqht mrgn-tp-lg gc-srvinfo">
+          <div class="col-md-6">
+            <h3><a href="/en/accessibility-fundamentals/">Accessibility Fundamentals</a></h3>
+            <p> Discover the principles behind accessible digital products and services. These principles remove barriers for people living with disabilities and ensures ease of use for all. </p>
+          </div>
+          <div class="col-md-6">
+            <h3><a href="/en/digital-accessibility-in-the-government-of-canada/">Digital accessibility in the Government of Canada</a></h3>
+            <p> Learn more about the Information and Communication Technology (<abbr>ICT</abbr>) accessibility standards, including the EN 301 549, which includes WCAG 2.1 level A and AA, when purchasing goods or services or designing a project, roles, and teams related to the Government of Canada. </p>
+          </div>
+          <div class="col-md-6">
+            <h3><a href="/en/how-tos/">How-tos</a></h3>
+            <p> Tips and core steps to help make all your digital products and content, such as documents and meetings, accessible. </p>
+          </div>
+          <div class="col-md-6">
+            <h3><a href="/en/learning-and-development/">Learning and Development</a></h3>
+            <p> Discover a curated collection of learning products to enhance your understanding of accessibility. Whether you're a developer, designer, or enthusiast, explore our links to courses, tutorials, and tools. Join us in creating a more inclusive digital world. </p>
+          </div>
+          <div class="col-md-6">
+            <h3><a href="/en/resources-and-tools/">Resources and Tools</a></h3>
+            <p> Explore the various guides and learning materials created by federal public servants working to advance digital accessibility. </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <div class="well provisional well-lg brdr-0 mrgn-tp-lg">
       <section class="container">
         <h2 id="updates" class="mrgn-tp-sm">Latest updates</h2>
@@ -275,8 +275,8 @@
     <h2 class="wb-inv">About this site</h2>
     <div class="gc-main-footer">
       <div class="container">
-        <nav>
-          <h3>Government of Canada</h3>
+        <nav aria-labelledby="governmentOfCanadan">
+          <h3 id="governmentOfCanadan">Government of Canada</h3>
           <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
             <li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
             <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
@@ -296,20 +296,21 @@
             <li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
             <li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
             <li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
-            <li><a href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
-            <li><a href="https://www.canada.ca/en/services/finance.html">Money and finance</a></li>
+            <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+            <li><a href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
             <li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
-            <li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous peoples</a></li>
+            <li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous Peoples</a></li>
             <li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
             <li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+            <li><a href="https://www.canada.ca/en/services/life-events.html">Manage life events</a></li>
           </ul>
         </nav>
       </div>
     </div>
     <div class="gc-sub-footer">
       <div class="container d-flex align-items-center">
-        <nav>
-          <h3 class="wb-inv">Government of Canada Corporate</h3>
+        <nav aria-labelledby="governmentCorporateHeading">
+          <h3 class="wb-inv" id="governmentCorporateHeading">Government of Canada Corporate</h3>
           <ul>
             <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
             <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
