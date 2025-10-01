@@ -28,9 +28,12 @@ const resetColor = '\x1b[0m';
 // Check if we are in watch mode (development)
 const isWatchMode = process.env.ELEVENTY_WATCH === 'true';
 
-// Global variables for change tracking (to be improved in Phase 2)
+// Global variables for change tracking (Phase 2 optimized)
 global.changedFilePaths = new Set();
 global.gitChangedUrls = [];
+
+// Phase 2: Git operations cache for performance optimization
+const gitOperationsCache = new Map();
 
 module.exports = function (eleventyConfig) {
 
@@ -139,20 +142,30 @@ module.exports = function (eleventyConfig) {
     global.gitChangedUrls = [];
   });
 
-  // Add computed data for git creation dates
-  // TODO: This will be optimized with memoization in Phase 2
+  // Add computed data for git creation dates (Phase 2: Optimized with memoization)
   eleventyConfig.addGlobalData("eleventyComputed", {
     gitCreated: (data) => {
       if (data.page && data.page.inputPath) {
+        const cacheKey = `gitCreated:${data.page.inputPath}`;
+
+        // Check cache first
+        if (gitOperationsCache.has(cacheKey)) {
+          return gitOperationsCache.get(cacheKey);
+        }
+
         try {
           const gitCommand = `git log --format="%ai" --reverse "${data.page.inputPath}" | head -1`;
           const result = execSync(gitCommand, { encoding: 'utf8' }).trim();
 
-          if (result) {
-            return new Date(result);
-          }
+          const date = result ? new Date(result) : null;
+
+          // Cache the result
+          gitOperationsCache.set(cacheKey, date);
+          return date;
         } catch (error) {
-          // Silently handle errors - some files might not have git history
+          // Cache the null result to avoid repeated failures
+          gitOperationsCache.set(cacheKey, null);
+          return null;
         }
       }
       return null;
@@ -162,6 +175,17 @@ module.exports = function (eleventyConfig) {
   // Ignore template files from being built
   eleventyConfig.ignores.add("src/pages/_template.md");
   eleventyConfig.ignores.add("src/links/_template.md");
+
+  // Phase 2: Git operations cache management and debugging
+  eleventyConfig.addGlobalData("gitCacheSize", () => gitOperationsCache.size);
+
+  // Clear git cache function for development
+  global.clearGitCache = () => {
+    const size = gitOperationsCache.size;
+    gitOperationsCache.clear();
+    console.log(`🗑️  Cleared ${size} cached git operations`);
+    return size;
+  };
 
   // Return Eleventy configuration
   return {

@@ -3,17 +3,38 @@
  *
  * This module contains all custom collections for the Digital Accessibility Toolkit.
  * Collections group and filter content for easier template access.
+ *
+ * Phase 2 Enhancement: Added performance optimizations with caching and reduced iterations
  */
 
 const path = require('path');
 const { stripHtml } = require('string-strip-html');
 
+// Phase 2: Collections cache for performance optimization
+const collectionsCache = new Map();
+
 module.exports = function (eleventyConfig, markdownInstance) {
 
-  // Collection for extracting all headings from pages with TOC
+  // Collection for extracting all headings from pages with TOC (Phase 2: Optimized)
   eleventyConfig.addCollection("allHeadings", function (collectionApi) {
-    return collectionApi.getAll().map(item => {
+    const cacheKey = 'allHeadings';
+
+    // Check cache first
+    if (collectionsCache.has(cacheKey)) {
+      return collectionsCache.get(cacheKey);
+    }
+
+    const result = collectionApi.getAll().map(item => {
+      // Only process items that actually need TOC processing
       if (item.data.toc || item.data.tocSimple) {
+        const itemCacheKey = `headings:${item.inputPath}`;
+
+        // Check individual item cache
+        if (collectionsCache.has(itemCacheKey)) {
+          item.data.headings = collectionsCache.get(itemCacheKey);
+          return item;
+        }
+
         const tokens = markdownInstance.parse(item.template.frontMatter.content, {});
         const levels = item.data.tocSimple ? 1 : 2; // tocSimple only includes level 2 headings
         const validTags = Array.from({ length: levels + 1 }, (_, i) => `h${i + 2}`);
@@ -32,51 +53,96 @@ module.exports = function (eleventyConfig, markdownInstance) {
           return { level, text, id };
         });
 
+        // Cache the headings for this item
+        collectionsCache.set(itemCacheKey, headings);
         item.data.headings = headings;
       }
       return item;
     });
+
+    // Cache the complete collection
+    collectionsCache.set(cacheKey, result);
+    return result;
   });
 
-  // Custom collection for changed pages (git diff integration)
+  // Custom collection for changed pages (Phase 2: Optimized git diff integration)
   eleventyConfig.addCollection('changedPages', function (collectionApi) {
-    const changedPages = [];
+    const cacheKey = 'changedPages';
 
-    // This will be optimized in Phase 2 with better change detection
+    // Check cache first
+    if (collectionsCache.has(cacheKey)) {
+      return collectionsCache.get(cacheKey);
+    }
+
     const changedFilePaths = global.changedFilePaths || new Set();
 
-    collectionApi.getAll().forEach(item => {
-      const normalizedInputPath = path.relative('./', item.inputPath);
-      if (changedFilePaths.has(normalizedInputPath)) {
-        // Store both the URL, title, and locale for each changed page
-        changedPages.push({
-          url: item.url,
-          title: item.data.title || item.fileSlug, // fallback to fileSlug if no title
-          locale: item.data.locale || 'en' // default to 'en' if no locale is set
-        });
-      }
-    });
+    // Early return if no changed files
+    if (changedFilePaths.size === 0) {
+      const result = [];
+      collectionsCache.set(cacheKey, result);
+      return result;
+    }
 
-    return changedPages; // Returning the changed URLs, titles, and locales for the template
+    // More efficient filtering: only process items that might be changed
+    const changedPages = collectionApi.getAll()
+      .filter(item => {
+        const normalizedInputPath = path.relative('./', item.inputPath);
+        return changedFilePaths.has(normalizedInputPath);
+      })
+      .map(item => ({
+        url: item.url,
+        title: item.data.title || item.fileSlug, // fallback to fileSlug if no title
+        locale: item.data.locale || 'en' // default to 'en' if no locale is set
+      }));
+
+    // Cache the result
+    collectionsCache.set(cacheKey, changedPages);
+    return changedPages;
   });
 
-  // Collection of all pages that have at least one role
-  eleventyConfig.addCollection("rolePages", (api) =>
-    api.getAll().filter((item) => !!item.data.role)
-  );
+  // Collection of all pages that have at least one role (Phase 2: Optimized with caching)
+  eleventyConfig.addCollection("rolePages", (api) => {
+    const cacheKey = 'rolePages';
 
-  // Custom collection for role groups to work around pagination tag issues
+    if (collectionsCache.has(cacheKey)) {
+      return collectionsCache.get(cacheKey);
+    }
+
+    const result = api.getAll().filter((item) => !!item.data.role);
+    collectionsCache.set(cacheKey, result);
+    return result;
+  });
+
+  // Custom collection for role groups (Phase 2: Optimized with caching and pre-compiled regex)
   eleventyConfig.addCollection("roleGroup", (api) => {
-    // Find all pages generated from the roles-group.njk template OR
-    // pages with URLs matching role group patterns
-    return api.getAll().filter((item) => {
+    const cacheKey = 'roleGroup';
+
+    if (collectionsCache.has(cacheKey)) {
+      return collectionsCache.get(cacheKey);
+    }
+
+    // Pre-compile regex for better performance
+    const roleGroupPattern = /^\/(en|fr)\/roles\/(administration|author|business|design|development|testing)\/$/;
+
+    const result = api.getAll().filter((item) => {
       // Check if the page was generated from the roles-group template
       const fromRoleGroupTemplate = item.inputPath && item.inputPath.includes('roles-group.njk');
 
-      // Check if URL matches role group pattern (e.g., /en/roles/business/, /fr/roles/design/)
-      const matchesRoleGroupPattern = item.url && item.url.match(/^\/(en|fr)\/roles\/(administration|author|business|design|development|testing)\/$/);
+      // Check if URL matches role group pattern (optimized with pre-compiled regex)
+      const matchesRoleGroupPattern = item.url && roleGroupPattern.test(item.url);
 
       return fromRoleGroupTemplate || matchesRoleGroupPattern;
     });
+
+    collectionsCache.set(cacheKey, result);
+    return result;
   });
+
+  // Phase 2: Collections cache management
+  global.clearCollectionsCache = () => {
+    const size = collectionsCache.size;
+    collectionsCache.clear();
+    console.log(`🗂️  Cleared ${size} cached collection results`);
+    return size;
+  };
 };
