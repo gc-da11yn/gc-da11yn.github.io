@@ -1,334 +1,477 @@
+
+
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 
+	
 <head>
-  <meta charset="utf-8">
-  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-  <title>Website usage analytics- Digital Accessibility Toolkit</title>
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta name="description" content="Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience.">
-  <meta name="source-file" content="./src/main/en/about-us/website-usage-analytics/index.njk">
-  <link rel="alternate" hreflang="fr" href="/fr/analytique-de-lutilisation-du-site-web/index.html" />
-  <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
-  <link rel="stylesheet" href="/css/da11yn.css">
-  <!-- Meta tags -->
-  <meta name="author" content="Government of Canada" />
-  <meta name="dcterms.title" content="Website usage analytics" />
-  <meta name="dcterms.description" content="Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience." />
-  <meta name="dcterms.creator" content="Government of Canada">
-  <meta name="dcterms.language" content="en" />
-  <meta name="dcterms.created" content="2023-08-01">
-  <meta name="dcterms.modified" content="2025-06-27">
-  <meta name="dcterms.subject" content="; " />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
-  <script>
-    (function(w) {
-      "use strict";
-      if (w.location.hostname === "a11y.canada.ca") {
-        w.dataLayer = w.dataLayer || [];
-        w.gtag = function() {
-          w.dataLayer.push(arguments);
-        };
-        w.gtag('js', new Date());
-        w.gtag('config', 'G-SM9MSHWDVN');
-      }
-    })(window);
+	<meta charset="utf-8">
 
-  </script>
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	
+	<title>Website usage analytics- Digital Accessibility Toolkit</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name="description" content="Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience.">
+
+	
+
+	<meta name="source-file" content="./src/main/en/about-us/website-usage-analytics/index.njk">
+
+
+	
+	
+	
+	
+		
+	
+		<link rel="alternate" hreflang="fr" href="/fr/analytique-de-lutilisation-du-site-web/index.html" />
+	
+
+	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
+	<link rel="stylesheet" href="/css/da11yn.css">
+
+	<!-- Meta tags -->
+
+	<meta name="author" content="Government of Canada" />
+	<meta name="dcterms.title" content="Website usage analytics" />
+	<meta name="dcterms.description" content="Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience." />
+	<meta name="dcterms.creator" content="Government of Canada">
+	<meta name="dcterms.language" content="en" />
+	<meta name="dcterms.created" content="2023-08-01">
+	<meta name="dcterms.modified" content="2025-06-27" >
+	<meta name="dcterms.subject" content="; " />
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+	<script>
+		(function (w) {
+			"use strict";
+			if (w.location.hostname === "a11y.canada.ca") {
+				w.dataLayer = w.dataLayer || [];
+				w.gtag = function () {
+					w.dataLayer.push(arguments);
+				};
+				w.gtag('js', new Date());
+				w.gtag('config', 'G-SM9MSHWDVN');
+			}
+		})(window);
+	</script>
 </head>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-  <nav>
-    <ul id="wb-tphp">
-      <li class="wb-slc">
-        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
-      </li>
-      <li class="wb-slc visible-sm visible-md visible-lg">
-        <a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
-      </li>
-    </ul>
-  </nav>
-  <header>
-    <div id="wb-bnr" class="container">
-      <div class="row">
-        <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
-          <h2 class="wb-inv">Language selection</h2>
-          <ul class="list-inline mrgn-bttm-0">
-            <li>
-              <a lang="fr" hreflang="fr" href="/fr/analytique-de-lutilisation-du-site-web/">
-                <span class="hidden-xs" translate="no">Français</span>
-                <abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> fr</abbr>
-              </a>
-            </li>
-          </ul>
-        </section>
-        <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
-          <a href="https://www.canada.ca/en.html" property="url">
-            <img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" />
-            <span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
-          </a>
-          <meta property="name" content="Government of Canada">
-          <meta property="areaServed" typeof="Country" content="Canada" />
-          <link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
-        </div>
-        <section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
-          <h2>Search</h2>
-          <form action="https://canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search">
-            <div class="form-group wb-srch-qry">
-              <label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
-              <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca" />
-              <datalist id="wb-srch-q-ac"></datalist>
-            </div>
-            <div class="form-group submit">
-              <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
-                <span class="glyphicon-search glyphicon"></span>
-                <span class="wb-inv">Search</span>
-              </button>
-            </div>
-          </form>
-        </section>
-      </div>
-    </div>
-    <hr>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <nav class="gcweb-menu" typeof="SiteNavigationElement">
-            <h2 class="wb-inv">Menu</h2>
-            <button type="button" aria-haspopup="true" aria-expanded="false">
-              <span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
-            </button>
-            <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-    <nav id="wb-bc" property="breadcrumb">
-      <h2>Breadcrumb Navigation</h2>
-      <div class="container">
-        <ol class="breadcrumb" typeof="BreadcrumbList">
-          <!-- First breadcrumb: Canada.ca -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html">
-              <span property="name">Canada.ca</span>
-            </a>
-            <meta property="position" content="1">
-          </li>
-          <!-- Second breadcrumb: Locale-based home link -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="/en/">Digital Accessibility Toolkit</a>
-            <meta property="position" content="2">
-          </li>
-          <!-- Additional breadcrumbs based on tags and subjects -->
-          <!-- Special handling for role-based pages -->
-          <!-- Existing breadcrumbs logic for non-role pages -->
-          <!-- Breadcrumbs based on 'subject' -->
-          <!-- Breadcrumbs based on 'tags' -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="/en/about-us">
-              <span property="name">About Us</span>
-            </a>
-            <meta property="position" content="3">
-          </li>
-        </ol>
-      </div>
-    </nav>
-  </header>
-  <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-    <div class="banner">
-      <div class="container p-0 p-sm-3">
-        <div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
-          <h1 property="name" id="wb-cont">Website usage analytics </h1>
-          <p>Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience.</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <table id="dat-analytics" class="wb-charts wb-charts-bar table">
-        <caption>Website Analytics (last three months)</caption>
-        <!-- Table header with months as column headers -->
-        <thead>
-          <tr>
-            <td></td> <!-- Empty corner cell -->
-            <th>January 2025</th> <!-- Keep the full year-month format -->
-          </tr>
-        </thead>
-        <!-- Table body with metrics as row headers -->
-        <tbody>
-          <!-- Sessions Row -->
-          <tr>
-            <th>Sessions (Visits)</th>
-            <td>6306</td>
-          </tr>
-          <!-- Users Row -->
-          <tr>
-            <th>Users</th>
-            <td>3129</td>
-          </tr>
-          <!-- Pageviews Row -->
-          <tr>
-            <th>Pageviews</th>
-            <td>10908</td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="mrgn-tp-lg"><a href="/en/website-usage-analytics-data-view"><i class="fas fa-server mrgn-rght-md" aria-hidden="true"></i>Check out this information in a data view</a></p>
-      <section>
-        <h2>On this page</h2>
-        <ul class="list-col-xs-2 list-col-md-3 lst-spcd-2">
-          <li><a href="#2025-01">January 2025</a></li>
-        </ul>
-      </section>
-      <section class="mrgn-tp-lg mrgn-bttm-lg">
-        <div class="well">
-          <h2 class="mrgn-tp-sm" id="2025-01">January 2025</h2>
-          <p> The site recorded <strong>6306</strong> visits, with <strong>3129</strong> users and <strong>10908</strong> page views. The average bounce rate is <strong>0.48%</strong>, and the average session duration is <strong>3.22 minutes</strong>. </p>
-          <p> The most used devices are desktop computers (<strong>desktop - 95.13%</strong>), followed by mobile devices (<strong>mobile - 4.69%</strong>) and tablets (<strong>tablet - 0.17%</strong>). </p>
-          <p>The top three countries by visitors are:</p>
-          <ol>
-            <li><strong>Canada</strong>,</li>
-            <li><strong>United States</strong>, and</li>
-            <li><strong>France</strong>.</li>
-          </ol>
-        </div>
-      </section>
-      <h2>Past years</h2>
-      <ul>
-        <li><a href="/en/website-usage-analytics-2024/">View statistics from 2024</a></li>
-      </ul>
-    </div>
-    <section class="pagedetails container">
-      <h2 class="wb-inv">Page details</h2>
-      <dl id="wb-dtmd">
-        <dt>Date modified:</dt>
-        <dd><time property="dateModified">2025-06-27</time></dd>
-      </dl>
-    </section>
-  </main>
-  <aside class="contribute">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribute to this project</span><small>on Github.com</small></h2>
-        </div>
-        <div class="col-md-7">
-          <ul class="list-inline">
-            <li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Source code</a></li>
-            <li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Issues</a></li>
-            <li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions</a></li>
-          </ul>
-          <p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca?subject=Contribute%20to%20the%20Digital%20Accessibility%20Toolkit">Reach the Digital Accessibility Toolkit by email</a></p>
-        </div>
-      </div>
-    </div>
-  </aside>
-  <footer id="wb-info">
-    <h2 class="wb-inv">About this site</h2>
-    <div class="gc-main-footer">
-      <div class="container">
-        <nav aria-labelledby="governmentOfCanadan">
-          <h3 id="governmentOfCanadan">Government of Canada</h3>
-          <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
-            <li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
-            <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-            <li><a href="https://www.canada.ca/en/government/system.html">About government</a></li>
-          </ul>
-          <h4><span class="wb-inv">Themes and topics</span></h4>
-          <ul class="list-unstyled colcount-sm-2 colcount-md-3">
-            <li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
-            <li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
-            <li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
-            <li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
-            <li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-            <li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
-            <li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-            <li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
-            <li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
-            <li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
-            <li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
-            <li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
-            <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
-            <li><a href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
-            <li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
-            <li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous Peoples</a></li>
-            <li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
-            <li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
-            <li><a href="https://www.canada.ca/en/services/life-events.html">Manage life events</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="gc-sub-footer">
-      <div class="container d-flex align-items-center">
-        <nav aria-labelledby="governmentCorporateHeading">
-          <h3 class="wb-inv" id="governmentCorporateHeading">Government of Canada Corporate</h3>
-          <ul>
-            <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-            <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-            <li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
-            <li><a href="https://www.canada.ca/en/transparency/terms.htm">Terms and conditions</a></li>
-            <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-          </ul>
-        </nav>
-        <div class="wtrmrk align-self-end">
-          <img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
-</body>
+
+	<body vocab="http://schema.org/" typeof="WebPage">
+<nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+		</li>
+		<li class="wb-slc visible-sm visible-md visible-lg">
+			<a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
+		</li>
+	</ul>
+</nav>
+
+
+		
+
+<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+
+			
+
+
+
+
+	
+
+<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+	<h2 class="wb-inv">Language selection</h2>
+	<ul class="list-inline mrgn-bttm-0">
+		<li>
+			<a lang="fr" hreflang="fr" href="/fr/analytique-de-lutilisation-du-site-web/">
+				<span class="hidden-xs" translate="no">Français</span>
+				<abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> fr</abbr>
+			</a>
+		</li>
+	</ul>
+</section>
+
+
+
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="https://www.canada.ca/en.html" property="url">
+					<img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-en.svg" alt="Government of Canada" property="logo"/>
+					<span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+				</a>
+				<meta property="name" content="Government of Canada">
+				<meta property="areaServed" typeof="Country" content="Canada"/>
+				<link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg"/>
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Search</h2>
+				<form action="https://canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca"/>
+						<datalist id="wb-srch-q-ac"></datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+							<span class="glyphicon-search glyphicon"></span>
+							<span class="wb-inv">Search</span>
+						</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+
+<hr>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<nav class="gcweb-menu" typeof="SiteNavigationElement">
+				<h2 class="wb-inv">Menu</h2>
+				<button type="button" aria-haspopup="true" aria-expanded="false">
+					
+						<span class="wb-inv">Main
+						</span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+					
+				</button>
+				<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+
+<nav id="wb-bc" property="breadcrumb">
+	<h2>Breadcrumb Navigation</h2>
+	<div class="container">
+		<ol class="breadcrumb" typeof="BreadcrumbList">
+			<!-- First breadcrumb: Canada.ca -->
+			<li property="itemListElement" typeof="ListItem">
+				<a property="item" typeof="WebPage" href="https://www.canada.ca/en.html">
+					<span property="name">Canada.ca</span>
+				</a>
+				<meta property="position" content="1">
+			</li>
+
+			<!-- Second breadcrumb: Locale-based home link -->
+			
+			
+				<li property="itemListElement" typeof="ListItem">
+					<a property="item" typeof="WebPage" href="/en/">Digital Accessibility Toolkit</a>
+					<meta property="position" content="2">
+				</li>
+			
+
+			<!-- Additional breadcrumbs based on tags and subjects -->
+			
+				 
+
+				<!-- Special handling for role-based pages -->
+				
+					<!-- Existing breadcrumbs logic for non-role pages -->
+					<!-- Breadcrumbs based on 'subject' -->
+					
+
+					<!-- Breadcrumbs based on 'tags' -->
+					
+						
+							
+								<li property="itemListElement" typeof="ListItem">
+									<a property="item" typeof="WebPage" href="/en/about-us">
+										<span property="name">About Us</span>
+									</a>
+									<meta property="position" content="3">
+								</li>
+								
+							
+						
+					
+				
+			
+		</ol>
+	</div>
+</nav>
+
+
+</header>
+
+
+
+		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+
+		
+
+			<div class="banner">
+				<div class="container p-0 p-sm-3">
+					<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
+						<h1 property="name" id="wb-cont">Website usage analytics
+						</h1>
+						
+						<p>Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience.</p>
+						</div>
+				</div>
+			</div>
+
+			
+
+
+
+
+
+
+			<div class="container">
+				
+
+				
+
+				
+
+				
+<table id="dat-analytics" class="wb-charts wb-charts-bar table">
+	<caption>Website Analytics (last three months)</caption>
+
+	<!-- Table header with months as column headers -->
+	<thead>
+		<tr>
+			<td></td> <!-- Empty corner cell -->
+			
+			<th>January 2025</th> <!-- Keep the full year-month format -->
+			
+		</tr>
+	</thead>
+
+	<!-- Table body with metrics as row headers -->
+	<tbody>
+		<!-- Sessions Row -->
+		<tr>
+			<th>Sessions (Visits)</th>
+			
+			<td>6306</td>
+			
+		</tr>
+
+		<!-- Users Row -->
+		<tr>
+			<th>Users</th>
+			
+			<td>3129</td>
+			
+		</tr>
+
+		<!-- Pageviews Row -->
+		<tr>
+			<th>Pageviews</th>
+			
+			<td>10908</td>
+			
+		</tr>
+	</tbody>
+</table>
+
+
+<p class="mrgn-tp-lg"><a href="/en/website-usage-analytics-data-view"><i class="fas fa-server mrgn-rght-md" aria-hidden="true"></i>Check out this information in a data view</a></p>
+
+
+
+<section>
+	<h2>On this page</h2>
+	<ul class="list-col-xs-2 list-col-md-3 lst-spcd-2">
+	
+		<li><a href="#2025-01">January 2025</a></li>
+	
+	</ul>
+</section>
+
+
+
+<section class="mrgn-tp-lg mrgn-bttm-lg">
+	<div class="well">
+	<h2 class="mrgn-tp-sm" id="2025-01">January 2025</h2>
+	<p>
+		The site recorded <strong>6306</strong> visits, with
+		<strong>3129</strong> users and
+		<strong>10908</strong> page views.
+		The average bounce rate is <strong>0.48%</strong>, and the average session duration is
+		<strong>3.22 minutes</strong>.
+	</p>
+	<p>
+		The most used devices are desktop computers
+		(<strong>desktop - 95.13%</strong>),
+		followed by mobile devices
+		(<strong>mobile - 4.69%</strong>)
+		and tablets
+		(<strong>tablet - 0.17%</strong>).
+	</p>
+	<p>The top three countries by visitors are:</p>
+	<ol>
+		<li><strong>Canada</strong>,</li>
+		<li><strong>United States</strong>, and</li>
+		<li><strong>France</strong>.</li>
+	</ol>
+	</div>
+</section>
+
+
+<h2>Past years</h2>
+<ul>
+	<li><a href="/en/website-usage-analytics-2024/">View statistics from 2024</a></li>
+</ul>
+
+				
+			</div>
+
+			
+<section class="pagedetails container">
+	<h2 class="wb-inv">Page details</h2>
+	<dl id="wb-dtmd">
+		<dt>Date modified:</dt>
+		<dd><time property="dateModified">2025-06-27</time></dd>
+	</dl>
+</section>
+
+
+		
+		</main>
+
+		
+
+<aside class="contribute">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribute to this project</span><small>on Github.com</small></h2>
+			</div>
+			<div class="col-md-7">
+				<ul class="list-inline">
+					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Source code</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Issues</a></li>
+					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions</a></li>
+				</ul>
+				<p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca?subject=Contribute%20to%20the%20Digital%20Accessibility%20Toolkit">Reach the Digital Accessibility Toolkit by email</a></p>
+			</div>
+		</div>
+		
+		
+	</div>
+</aside>
+
+
+		
+<footer id="wb-info">
+	<h2 class="wb-inv">About this site</h2>
+	<div class="gc-main-footer">
+		<div class="container">
+			<nav aria-labelledby="governmentOfCanadan">
+				<h3 id="governmentOfCanadan">Government of Canada</h3>
+				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+					<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+					<li><a href="https://www.canada.ca/en/government/system.html">About government</a></li></ul>
+				<h4><span class="wb-inv">Themes and topics</span></h4>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3"><li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+					<li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+					<li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+					<li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+					<li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+					<li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+					<li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+					<li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+					<li><a href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+					<li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+					<li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous Peoples</a></li>
+					<li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
+					<li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+					<li><a href="https://www.canada.ca/en/services/life-events.html">Manage life events</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="gc-sub-footer">
+		<div class="container d-flex align-items-center">
+			<nav aria-labelledby="governmentCorporateHeading">
+				<h3 class="wb-inv" id="governmentCorporateHeading">Government of Canada Corporate</h3>
+				<ul>
+					<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+					<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+					<li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/terms.htm">Terms and conditions</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+				</ul>
+			</nav>
+			<div class="wtrmrk align-self-end">
+				<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script></body>
 
 </html>
+
+

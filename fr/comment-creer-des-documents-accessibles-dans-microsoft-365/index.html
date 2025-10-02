@@ -1,453 +1,688 @@
+
+
 <!DOCTYPE html>
 <html class="no-js" lang="fr" dir="ltr">
 
+	
 <head>
-  <meta charset="utf-8">
-  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-  <title>Comment créer des documents accessibles dans Microsoft 365- Boîte à outils de l&#39;accessibilité numérique</title>
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta name="description" content="Pratiques accessibles pour la création de documents numériques.">
-  <meta name="source-file" content="./src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-microsoft-365.njk">
-  <link rel="alternate" hreflang="en" href="/en/how-to-create-accessible-documents-in-microsoft-365/index.html" />
-  <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
-  <link rel="stylesheet" href="/css/da11yn.css">
-  <!-- Meta tags -->
-  <meta name="author" content="Gouvernement du Canada" />
-  <meta name="dcterms.title" content="Comment créer des documents accessibles dans Microsoft 365" />
-  <meta name="dcterms.description" content="Pratiques accessibles pour la création de documents numériques." />
-  <meta name="dcterms.creator" content="Gouvernement du Canada">
-  <meta name="dcterms.language" content="fr" />
-  <meta name="dcterms.created" content="2023-08-01">
-  <meta name="dcterms.modified" content="2024-08-26">
-  <meta name="dcterms.subject" content="Comment faire;Créer un document; " />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
-  <script>
-    (function(w) {
-      "use strict";
-      if (w.location.hostname === "a11y.canada.ca") {
-        w.dataLayer = w.dataLayer || [];
-        w.gtag = function() {
-          w.dataLayer.push(arguments);
-        };
-        w.gtag('js', new Date());
-        w.gtag('config', 'G-SM9MSHWDVN');
-      }
-    })(window);
+	<meta charset="utf-8">
 
-  </script>
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	
+	<title>Comment créer des documents accessibles dans Microsoft 365- Boîte à outils de l&#39;accessibilité numérique</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name="description" content="Pratiques accessibles pour la création de documents numériques.">
+
+	
+
+	<meta name="source-file" content="./src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-microsoft-365.njk">
+
+
+	
+	
+	
+	
+		
+	
+		<link rel="alternate" hreflang="en" href="/en/how-to-create-accessible-documents-in-microsoft-365/index.html" />
+	
+
+	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
+	<link rel="stylesheet" href="/css/da11yn.css">
+
+	<!-- Meta tags -->
+
+	<meta name="author" content="Gouvernement du Canada" />
+	<meta name="dcterms.title" content="Comment créer des documents accessibles dans Microsoft 365" />
+	<meta name="dcterms.description" content="Pratiques accessibles pour la création de documents numériques." />
+	<meta name="dcterms.creator" content="Gouvernement du Canada">
+	<meta name="dcterms.language" content="fr" />
+	<meta name="dcterms.created" content="2023-08-01">
+	<meta name="dcterms.modified" content="2024-08-26" >
+	<meta name="dcterms.subject" content="Comment faire;Créer un document; " />
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+	<script>
+		(function (w) {
+			"use strict";
+			if (w.location.hostname === "a11y.canada.ca") {
+				w.dataLayer = w.dataLayer || [];
+				w.gtag = function () {
+					w.dataLayer.push(arguments);
+				};
+				w.gtag('js', new Date());
+				w.gtag('config', 'G-SM9MSHWDVN');
+			}
+		})(window);
+	</script>
 </head>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-  <nav>
-    <ul id="wb-tphp">
-      <li class="wb-slc">
-        <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
-      </li>
-      <li class="wb-slc visible-sm visible-md visible-lg">
-        <a class="wb-sl" href="#wb-info">Passer à « Au sujet du gouvernement »</a>
-      </li>
-    </ul>
-  </nav>
-  <header>
-    <div id="wb-bnr" class="container">
-      <div class="row">
-        <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
-          <h2 class="wb-inv">Sélection de la langue</h2>
-          <ul class="list-inline mrgn-bttm-0">
-            <li>
-              <a lang="en" hreflang="en" href="/en/how-to-create-accessible-documents-in-microsoft-365/">
-                <span class="hidden-xs" translate="no">English</span>
-                <abbr title="English" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> en</abbr>
-              </a>
-            </li>
-          </ul>
-        </section>
-        <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
-          <a href="https://www.canada.ca/fr.html" property="url">
-            <img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-fr.svg" alt="Gouvernement du Canada" property="logo" />
-            <span class="wb-inv"> / <span lang="en">Government of Canada</span></span>
-          </a>
-          <meta property="name" content="Gouvernement du Canada">
-          <meta property="areaServed" typeof="Country" content="Canada" />
-          <link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
-        </div>
-        <section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
-          <h2>Recherche</h2>
-          <form action="https://canada.ca/fr/sr/srb.html" method="get" name="cse-search-box" role="search">
-            <div class="form-group wb-srch-qry">
-              <label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label>
-              <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca" />
-              <datalist id="wb-srch-q-ac"></datalist>
-            </div>
-            <div class="form-group submit">
-              <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
-                <span class="glyphicon-search glyphicon"></span>
-                <span class="wb-inv">Recherche</span>
-              </button>
-            </div>
-          </form>
-        </section>
-      </div>
-    </div>
-    <hr>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <nav class="gcweb-menu" typeof="SiteNavigationElement">
-            <h2 class="wb-inv">Menu</h2>
-            <button type="button" aria-haspopup="true" aria-expanded="false"> Menu <span class="wb-inv">principal </span>
-              <span class="expicon glyphicon glyphicon-chevron-down"></span>
-            </button>
-            <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://voyage.gc.ca/">Voyage et tourisme</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Prestations</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/fr/services/sante.html">Santé</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/fr/services/impots.html">Impôts</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport et infrastructure</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/fr/services/science.html">Science et innovation</a>
-              </li>
+
+	<body vocab="http://schema.org/" typeof="WebPage">
+<nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+		</li>
+		<li class="wb-slc visible-sm visible-md visible-lg">
+			<a class="wb-sl" href="#wb-info">Passer à « Au sujet du gouvernement »</a>
+		</li>
+	</ul>
+</nav>
+
+
+		
+
+<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+
+			
+
+
+
+
+	
+
+<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+	<h2 class="wb-inv">Sélection de la langue</h2>
+	<ul class="list-inline mrgn-bttm-0">
+		<li>
+			<a lang="en" hreflang="en" href="/en/how-to-create-accessible-documents-in-microsoft-365/">
+				<span class="hidden-xs" translate="no">English</span>
+				<abbr title="English" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> en</abbr>
+			</a>
+		</li>
+	</ul>
+</section>
+
+
+
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="https://www.canada.ca/fr.html" property="url">
+					<img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-fr.svg" alt="Gouvernement du Canada" property="logo"/>
+					<span class="wb-inv"> / <span lang="en">Government of Canada</span></span>
+				</a>
+				<meta property="name" content="Gouvernement du Canada">
+				<meta property="areaServed" typeof="Country" content="Canada"/>
+				<link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg"/>
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Recherche</h2>
+				<form action="https://canada.ca/fr/sr/srb.html" method="get" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca"/>
+						<datalist id="wb-srch-q-ac"></datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+							<span class="glyphicon-search glyphicon"></span>
+							<span class="wb-inv">Recherche</span>
+						</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+
+<hr>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<nav class="gcweb-menu" typeof="SiteNavigationElement">
+				<h2 class="wb-inv">Menu</h2>
+				<button type="button" aria-haspopup="true" aria-expanded="false">
+					
+						Menu <span class="wb-inv">principal
+						</span>
+						<span class="expicon glyphicon glyphicon-chevron-down"></span>
+					
+				</button>
+				<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://voyage.gc.ca/">Voyage et tourisme</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Prestations</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/fr/services/sante.html">Santé</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/fr/services/impots.html">Impôts</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport et infrastructure</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/fr/services/science.html">Science et innovation</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+
+<nav id="wb-bc" property="breadcrumb">
+	<h2>Piste de navigation</h2>
+	<div class="container">
+		<ol class="breadcrumb" typeof="BreadcrumbList">
+			<!-- First breadcrumb: Canada.ca -->
+			<li property="itemListElement" typeof="ListItem">
+				<a property="item" typeof="WebPage" href="https://www.canada.ca/fr.html">
+					<span property="name">Canada.ca</span>
+				</a>
+				<meta property="position" content="1">
+			</li>
+
+			<!-- Second breadcrumb: Locale-based home link -->
+			
+			
+				<li property="itemListElement" typeof="ListItem">
+					<a property="item" typeof="WebPage" href="/fr/">Boîte à outils de l&#39;accessibilité numérique</a>
+					<meta property="position" content="2">
+				</li>
+			
+
+			<!-- Additional breadcrumbs based on tags and subjects -->
+			
+				 
+
+				<!-- Special handling for role-based pages -->
+				
+					<!-- Existing breadcrumbs logic for non-role pages -->
+					<!-- Breadcrumbs based on 'subject' -->
+					
+						
+							<li property="itemListElement" typeof="ListItem">
+								<a property="item" typeof="WebPage" href="/fr/comment-faire">
+									<span property="name">Comment faire</span>
+								</a>
+								<meta property="position" content="3">
+							</li>
+							
+						
+					
+
+					<!-- Breadcrumbs based on 'tags' -->
+					
+						
+							
+								<li property="itemListElement" typeof="ListItem">
+									<a property="item" typeof="WebPage" href="/fr/creer-un-document">
+										<span property="name">Créer un document</span>
+									</a>
+									<meta property="position" content="4">
+								</li>
+								
+							
+						
+					
+				
+			
+		</ol>
+	</div>
+</nav>
+
+
+</header>
+
+
+
+		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+
+		
+
+			<div class="banner">
+				<div class="container p-0 p-sm-3">
+					<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
+						<h1 property="name" id="wb-cont">Comment créer des documents accessibles dans Microsoft 365
+						</h1>
+						
+						<p>Pratiques accessibles pour la création de documents numériques.</p>
+						</div>
+				</div>
+			</div>
+
+			
+
+
+
+
+
+
+			<div class="container">
+				
+				
+    
+    
+    
+    
+
+
+
+
+    
+    
+    
+
+
+
+    
+    
+    
+        
+    
+    <div class="gc-stp-stp">
+        <div class="toc row mrgn-tp-lg">
+            <ul class="wb-eqht-grd">
+                <li class="col-md-4 col-sm-6"><a class="list-group-item active" aria-current="page">Comment créer des documents accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"> dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/classeurs-excel-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-file-excel" aria-hidden="true"></i>
+                        
+                        Classeurs Excel accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/dessins-visio-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-project-diagram" aria-hidden="true"></i>
+                        
+                        Dessins Visio accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/documents-pdf-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-file-pdf" aria-hidden="true"></i>
+                        
+                        Documents PDF accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/documents-word-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-file-word" aria-hidden="true"></i>
+                        
+                        Documents Word accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/presentations-powerpoint-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-file-powerpoint" aria-hidden="true"></i>
+                        
+                        Présentations PowerPoint accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
             </ul>
-          </nav>
         </div>
-      </div>
     </div>
-    <nav id="wb-bc" property="breadcrumb">
-      <h2>Piste de navigation</h2>
-      <div class="container">
-        <ol class="breadcrumb" typeof="BreadcrumbList">
-          <!-- First breadcrumb: Canada.ca -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="https://www.canada.ca/fr.html">
-              <span property="name">Canada.ca</span>
-            </a>
-            <meta property="position" content="1">
-          </li>
-          <!-- Second breadcrumb: Locale-based home link -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="/fr/">Boîte à outils de l&#39;accessibilité numérique</a>
-            <meta property="position" content="2">
-          </li>
-          <!-- Additional breadcrumbs based on tags and subjects -->
-          <!-- Special handling for role-based pages -->
-          <!-- Existing breadcrumbs logic for non-role pages -->
-          <!-- Breadcrumbs based on 'subject' -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="/fr/comment-faire">
-              <span property="name">Comment faire</span>
-            </a>
-            <meta property="position" content="3">
-          </li>
-          <!-- Breadcrumbs based on 'tags' -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="/fr/creer-un-document">
-              <span property="name">Créer un document</span>
-            </a>
-            <meta property="position" content="4">
-          </li>
-        </ol>
-      </div>
-    </nav>
-  </header>
-  <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-    <div class="banner">
-      <div class="container p-0 p-sm-3">
-        <div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
-          <h1 property="name" id="wb-cont">Comment créer des documents accessibles dans Microsoft 365 </h1>
-          <p>Pratiques accessibles pour la création de documents numériques.</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="gc-stp-stp">
-        <div class="toc row mrgn-tp-lg">
-          <ul class="wb-eqht-grd">
-            <li class="col-md-4 col-sm-6"><a class="list-group-item active" aria-current="page">Comment créer des documents accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"> dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/classeurs-excel-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-file-excel" aria-hidden="true"></i> Classeurs Excel accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/dessins-visio-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-project-diagram" aria-hidden="true"></i> Dessins Visio accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/documents-pdf-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-file-pdf" aria-hidden="true"></i> Documents PDF accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/documents-word-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-file-word" aria-hidden="true"></i> Documents Word accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/presentations-powerpoint-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-file-powerpoint" aria-hidden="true"></i> Présentations PowerPoint accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="well">
+
+    <div class="well">
+        
+        
         <p class="mrgn-tp-md">Besoin de la version Office 2016 ? Essayez <a href="/fr/comment-creer-des-documents-accessibles-dans-office-2016/">Comment créer des documents accessibles <small><strong> dans Office 2016</strong></small></a></p>
-      </div>
-      <div class="alert alert-info">
-        <p><a href="https://support.microsoft.com/fr-fr/office/office-est-désormais-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office est désormais Microsoft 365</a>.</p>
-      </div>
-      <h2 id="quest-ce-quun-document-accessible" tabindex="-1">Qu'est-ce qu'un document accessible ?</h2>
-      <p>Un document accessible est entièrement utilisable par les personnes avec et sans handicap. Rendre vos documents accessibles permet aux utilisateurs de les naviguer de différentes manières.</p>
-      <p>Par exemple, une personne aveugle peut utiliser un lecteur d'écran ou un affichage en braille. Une personne ayant une déficience motrice peut utiliser un clavier plutôt qu'une souris. D'autres utilisateurs peuvent avoir besoin d'ajuster la taille de la police ou l'espacement pour compenser une perte de vision ou des handicaps cognitifs.</p>
-      <h3 id="respect-des-normes-daccessibilite" tabindex="-1">Respect des normes d'accessibilité</h3>
-      <p>L'accessibilité du contenu numérique (y compris les pages Web et les documents) est évaluée selon les directives pour l'accessibilité du contenu Web (WCAG). Suivre ce guide ne garantit pas une conformité totale à ces directives, mais c'est un bon début !</p>
-      <h2 id="redaction-du-contenu" tabindex="-1">Rédaction du contenu</h2>
-      <p>Utiliser un langage clair permet à tout le monde, y compris les personnes ayant des handicaps cognitifs, de comprendre le contenu des documents et d'utiliser l'information efficacement. Les documents doivent être clairs, concis et bien organisés.</p>
-      <ul>
-        <li>Utilisez des phrases courtes et un langage clair</li>
-        <li>Évaluez à un niveau de lecture de 8e année</li>
-        <li>Évitez le jargon et les mots inhabituels</li>
-        <li>Définissez les acronymes lors de leur première utilisation</li>
-        <li>Suivez les meilleures pratiques pour le sujet et le public visé</li>
-      </ul>
-      <h2 id="structure-du-document" tabindex="-1">Structure du document</h2>
-      <h3 id="titres" tabindex="-1">Titres</h3>
-      <p>Une bonne structure de titres facilite la navigation et la localisation du contenu, en particulier pour les utilisateurs de lecteurs d'écran. Il est crucial d'utiliser les styles de titres intégrés pour tous les titres.</p>
-      <p>Appliquez un ordre de titres logique et consécutif où les titres de niveau supérieur fournissent un contexte aux titres de niveau inférieur. Ne sautez pas les niveaux de titres. Par exemple :</p>
-      <ul>
-        <li>Les sous-sections d'un titre de niveau 1 doivent être de niveau 2, pas 3 ou 4</li>
-        <li>Les sous-sections d'un titre de niveau 2 doivent être de niveau 3, etc.</li>
-      </ul>
-      <p>Évitez ces <strong>erreurs courantes de titres</strong> :</p>
-      <ul>
-        <li>Formater le texte (gras, taille plus grande) au lieu d'utiliser les styles de titres</li>
-        <li>Utiliser les styles de titres pour formater le texte (gras, taille plus grande) lorsque le texte n'est pas un titre</li>
-        <li>Utiliser des couleurs, tailles ou polices différentes pour des titres de même niveau</li>
-      </ul>
-      <h3 id="tableaux" tabindex="-1">Tableaux</h3>
-      <p>Les tableaux peuvent être difficiles à naviguer ou à modifier pour les utilisateurs de lecteurs d'écran. Concevez des tableaux aussi simples que possible.</p>
-      <ul>
-        <li>N'utilisez pas de tableaux pour la mise en page / le style</li>
-        <li>Utilisez les fonctionnalités logicielles intégrées pour créer des tableaux</li>
-        <li>Définissez les en-têtes de colonne et de ligne</li>
-        <li>Ajoutez un texte alternatif aux tableaux avec un résumé court du contenu</li>
-        <li>Évitez les tableaux imbriqués, les cellules fusionnées, les cellules divisées ou les lignes / colonnes vides</li>
-      </ul>
-      <h3 id="liens-vers-des-sites-web" tabindex="-1">Liens vers des sites Web</h3>
-      <p>Le texte du lien doit avoir un sens même lorsqu'il est lu hors contexte, par exemple dans une liste de liens.</p>
-      <ul>
-        <li>Utilisez le nom du site Web ou de l'organisation comme texte de lien</li>
-        <li>N'utilisez pas l'URL comme texte de lien, sauf si l'URL complète doit apparaître en version imprimée</li>
-        <li>Évitez les formulations générales comme « Cliquez ici » ou « Pour en savoir plus »</li>
-        <li>Utilisez un texte de lien aussi court que possible tout en précisant clairement la destination du lien</li>
-      </ul>
-      <h3 id="autres-elements-speciaux" tabindex="-1">Autres éléments spéciaux</h3>
-      <p>Utilisez les fonctionnalités logicielles intégrées pour créer des éléments qui doivent être traités différemment du texte normal. Ceux-ci incluent :</p>
-      <ul>
-        <li>Les listes à puces et numérotées</li>
-        <li>La table des matières</li>
-        <li>Les en-têtes, pieds de page et numéros de page</li>
-      </ul>
-      <p><strong>Évitez d'utiliser des zones de texte</strong>. Les lecteurs d'écran les ignorent généralement et les utilisateurs de clavier ne peuvent pas y accéder.</p>
-      <h2 id="mise-en-forme" tabindex="-1">Mise en forme</h2>
-      <h3 id="couleurs" tabindex="-1">Couleurs</h3>
-      <p>Le texte doit avoir un rapport de contraste d'au moins 4,5:1 par rapport à l'arrière-plan. Le texte noir sur un fond blanc est toujours un choix sûr.</p>
-      <ul>
-        <li>Vérifiez le contraste avec l'<a href="https://developer.paciellogroup.com/resources/contrastanalyser/">Analyseur de contraste des couleurs</a> ou le <a href="https://webaim.org/resources/contrastchecker/">vérificateur de contraste de WebAIM</a></li>
-        <li>Évitez les images de fond complexes. Si vous devez utiliser une image de fond, utilisez le <a href="https://www.brandwood.com/a11y/">vérificateur a11y de texte sur image de fond</a></li>
-        <li>Ajoutez une bordure ou un contour contrastant autour du texte lorsque l'arrière-plan ne peut pas être changé pour respecter les exigences de contraste</li>
-      </ul>
-      <p>Les mêmes principes s'appliquent aux éléments non textuels significatifs tels que les icônes et les graphiques, mais l'exigence est assouplie à 3:1. Par exemple, les tranches adjacentes d'un diagramme en camembert doivent être faciles à distinguer les unes des autres.</p>
-      <h3 id="polices" tabindex="-1">Polices</h3>
-      <p>Choisissez des polices et des styles faciles à lire plutôt que décoratifs.</p>
-      <ul>
-        <li>Utilisez des polices sans empattement avec un espacement suffisant entre les lettres et les lignes <ul>
-            <li>Arial, Verdana et Calibri sont toutes des polices sans empattement</li>
-          </ul>
-        </li>
-        <li>La taille du texte du corps doit être de 11 à 14 points pour un document de style imprimé comme celui-ci <ul>
-            <li>Certaines polices paraissent plus grandes que d'autres. Comparez avec Arial en taille 12 points.</li>
-          </ul>
-        </li>
-        <li>Des polices plus grandes doivent être utilisées pour les présentations (minimum 18 points)</li>
-        <li>Évitez d'utiliser l'italique pour plus de quelques mots</li>
-      </ul>
-      <p>Ne vous fiez pas uniquement à la mise en forme visuelle pour transmettre des informations. Par exemple, évitez les phrases comme « tâches prioritaires en gras », « modifications surlignées en jaune » ou « voir la barre latérale gauche pour plus de détails ».</p>
-      <h2 id="elements-non-textuels" tabindex="-1">Éléments non textuels</h2>
-      <p>Les éléments visuels tels que les photos, icônes, diagrammes et tableaux doivent inclure un texte alternatif (« alt text ») qui répond brièvement à la question « Quelle information l'image transmet-elle ? ».</p>
-      <p>Un bon point de départ pour rédiger un texte alternatif est d'imaginer que vous décrivez l'image à une personne au téléphone.</p>
-      <h3 id="texte-alternatif-court" tabindex="-1">Texte alternatif court</h3>
-      <p>Gardez vos descriptions aussi brèves que possible (maximum 65 caractères). Ignorez les détails qui ne concernent pas le document. Par exemple, une photo d'un groupe d'étudiants apparaît dans un document sur le recrutement d'étudiants d'été.</p>
-      <ul>
-        <li>Bien : « Étudiants en formation dans une salle de réunion »</li>
-        <li>Trop long : « Cinq étudiants en tenue professionnelle assis dans une salle de réunion regardant un écran de projecteur tandis que le présentateur fait un geste vers l'étudiant le plus à gauche »</li>
-      </ul>
-      <p>Évitez ces <strong>erreurs courantes de texte alternatif</strong> :</p>
-      <ul>
-        <li>Mettre du texte à l'intérieur d'une image <ul>
-            <li>Si les images de texte ne peuvent pas être évitées, incluez tout le texte visible dans le texte alternatif</li>
-          </ul>
-        </li>
-        <li>Commencer chaque description par « Image de… » <ul>
-            <li>Commencez par « Capture d'écran de… » si l'image est une capture d'écran</li>
-          </ul>
-        </li>
-        <li>Répéter le texte d'une légende adjacente</li>
-        <li>Décrire des images décoratives (qui ne transmettent aucune information significative) <ul>
-            <li>Au lieu de cela, définissez <code>alt=&quot;&quot;</code> pour le web, ou définissez la description comme « décoratif » dans Word</li>
-          </ul>
-        </li>
-      </ul>
-      <h3 id="description-textuelle-longue" tabindex="-1">Description textuelle longue</h3>
-      <p>Parfois, le texte alternatif court ne suffit pas à décrire l'élément visuel. Dans ces cas, vous devez également fournir une description longue. Incluez-la dans le texte visible si possible.</p>
-      <p>Exemples :</p>
-      <ul>
-        <li>Plan de route avec directions : Décrivez chaque étape nécessaire pour suivre les instructions</li>
-        <li>Organigramme : Utilisez des composants numérotés pour décrire complètement le processus</li>
-        <li>Graphique linéaire : Décrivez les tendances, puis incluez les points de données dans un tableau</li>
-      </ul>
-      <p>Pour plus d'exemples, consultez le tutoriel du W3C sur les <a href="https://www.w3.org/WAI/tutorials/images/complex/">Images complexes</a>.</p>
-      <h3 id="video-audio-et-multimedia" tabindex="-1">Vidéo, audio et multimédia</h3>
-      <p>Les fichiers audio ou vidéo intégrés nécessitent une transcription. Les vidéos doivent comporter des sous-titres et une description audio. Les commandes du lecteur — démarrer, pause et arrêt — doivent être accessibles.</p>
-      <h2 id="ressources-supplementaires" tabindex="-1">Ressources supplémentaires</h2>
-      <ul>
-        <li><a href="https://support.google.com/docs/answer/6199477?hl=fr&amp;ref_topic=6039805">Google Docs – &quot;Rendre votre document ou votre présentation accessible&quot;</a></li>
-        <li><a href="https://support.office.com/fr-fr/article/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-de-handicaps-d9bf3683-87ac-47ea-b91a-78dcacb3c66d?omkt=fr-FR&amp;ui=fr-FR&amp;rs=fr-FR&amp;ad=FR">Microsoft – &quot;Rendre vos documents Word accessibles aux personnes atteintes de handicaps&quot;</a></li>
-        <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html#toc5">Guide de rédaction du contenu du site Canada.ca</a></li>
-        <li><a href="https://support.office.com/fr-fr/article/tester-la-lisibilit%C3%A9-de-votre-document-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2?omkt=fr-FR&amp;ui=fr-FR&amp;rs=fr-FR&amp;ad=FR">Tester la lisibilité de votre document</a> en anglais et <a href="http://www.scolarius.com/">Scolarius</a> en français</li>
-        <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Comprendre le contraste sans texte</a></li>
-        <li><a href="https://support.office.com/fr-fr/article/ajouter-du-texte-de-remplacement-%C3%A0-une-forme-une-image-un-graphique-un-graphique-smartart-ou-un-autre-objet-44989b2a-903c-4d9a-b742-6a75b451c669?omkt=fr-FR&amp;ui=fr-FR&amp;rs=fr-FR&amp;ad=FR">Ajouter du texte de remplacement – Microsoft Office</a></li>
-      </ul>
-      <div class="gc-stp-stp">
+    </div>
+
+
+
+				
+	
+	
+	
+
+
+<div class="alert alert-info">
+	
+	<p><a href="https://support.microsoft.com/fr-fr/office/office-est-désormais-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office est désormais Microsoft 365</a>.</p>
+	
+</div>
+
+
+				
+
+				
+
+				
+
+				
+
+
+<h2 id="quest-ce-quun-document-accessible" tabindex="-1">Qu'est-ce qu'un document accessible ?</h2>
+<p>Un document accessible est entièrement utilisable par les personnes avec et sans handicap. Rendre vos documents accessibles permet aux utilisateurs de les naviguer de différentes manières.</p>
+<p>Par exemple, une personne aveugle peut utiliser un lecteur d'écran ou un affichage en braille. Une personne ayant une déficience motrice peut utiliser un clavier plutôt qu'une souris. D'autres utilisateurs peuvent avoir besoin d'ajuster la taille de la police ou l'espacement pour compenser une perte de vision ou des handicaps cognitifs.</p>
+<h3 id="respect-des-normes-daccessibilite" tabindex="-1">Respect des normes d'accessibilité</h3>
+<p>L'accessibilité du contenu numérique (y compris les pages Web et les documents) est évaluée selon les directives pour l'accessibilité du contenu Web (WCAG). Suivre ce guide ne garantit pas une conformité totale à ces directives, mais c'est un bon début !</p>
+<h2 id="redaction-du-contenu" tabindex="-1">Rédaction du contenu</h2>
+<p>Utiliser un langage clair permet à tout le monde, y compris les personnes ayant des handicaps cognitifs, de comprendre le contenu des documents et d'utiliser l'information efficacement. Les documents doivent être clairs, concis et bien organisés.</p>
+<ul>
+<li>Utilisez des phrases courtes et un langage clair</li>
+<li>Évaluez à un niveau de lecture de 8e année</li>
+<li>Évitez le jargon et les mots inhabituels</li>
+<li>Définissez les acronymes lors de leur première utilisation</li>
+<li>Suivez les meilleures pratiques pour le sujet et le public visé</li>
+</ul>
+<h2 id="structure-du-document" tabindex="-1">Structure du document</h2>
+<h3 id="titres" tabindex="-1">Titres</h3>
+<p>Une bonne structure de titres facilite la navigation et la localisation du contenu, en particulier pour les utilisateurs de lecteurs d'écran. Il est crucial d'utiliser les styles de titres intégrés pour tous les titres.</p>
+<p>Appliquez un ordre de titres logique et consécutif où les titres de niveau supérieur fournissent un contexte aux titres de niveau inférieur. Ne sautez pas les niveaux de titres. Par exemple :</p>
+<ul>
+<li>Les sous-sections d'un titre de niveau 1 doivent être de niveau 2, pas 3 ou 4</li>
+<li>Les sous-sections d'un titre de niveau 2 doivent être de niveau 3, etc.</li>
+</ul>
+<p>Évitez ces <strong>erreurs courantes de titres</strong> :</p>
+<ul>
+<li>Formater le texte (gras, taille plus grande) au lieu d'utiliser les styles de titres</li>
+<li>Utiliser les styles de titres pour formater le texte (gras, taille plus grande) lorsque le texte n'est pas un titre</li>
+<li>Utiliser des couleurs, tailles ou polices différentes pour des titres de même niveau</li>
+</ul>
+<h3 id="tableaux" tabindex="-1">Tableaux</h3>
+<p>Les tableaux peuvent être difficiles à naviguer ou à modifier pour les utilisateurs de lecteurs d'écran. Concevez des tableaux aussi simples que possible.</p>
+<ul>
+<li>N'utilisez pas de tableaux pour la mise en page / le style</li>
+<li>Utilisez les fonctionnalités logicielles intégrées pour créer des tableaux</li>
+<li>Définissez les en-têtes de colonne et de ligne</li>
+<li>Ajoutez un texte alternatif aux tableaux avec un résumé court du contenu</li>
+<li>Évitez les tableaux imbriqués, les cellules fusionnées, les cellules divisées ou les lignes / colonnes vides</li>
+</ul>
+<h3 id="liens-vers-des-sites-web" tabindex="-1">Liens vers des sites Web</h3>
+<p>Le texte du lien doit avoir un sens même lorsqu'il est lu hors contexte, par exemple dans une liste de liens.</p>
+<ul>
+<li>Utilisez le nom du site Web ou de l'organisation comme texte de lien</li>
+<li>N'utilisez pas l'URL comme texte de lien, sauf si l'URL complète doit apparaître en version imprimée</li>
+<li>Évitez les formulations générales comme « Cliquez ici » ou « Pour en savoir plus »</li>
+<li>Utilisez un texte de lien aussi court que possible tout en précisant clairement la destination du lien</li>
+</ul>
+<h3 id="autres-elements-speciaux" tabindex="-1">Autres éléments spéciaux</h3>
+<p>Utilisez les fonctionnalités logicielles intégrées pour créer des éléments qui doivent être traités différemment du texte normal. Ceux-ci incluent :</p>
+<ul>
+<li>Les listes à puces et numérotées</li>
+<li>La table des matières</li>
+<li>Les en-têtes, pieds de page et numéros de page</li>
+</ul>
+<p><strong>Évitez d'utiliser des zones de texte</strong>. Les lecteurs d'écran les ignorent généralement et les utilisateurs de clavier ne peuvent pas y accéder.</p>
+<h2 id="mise-en-forme" tabindex="-1">Mise en forme</h2>
+<h3 id="couleurs" tabindex="-1">Couleurs</h3>
+<p>Le texte doit avoir un rapport de contraste d'au moins 4,5:1 par rapport à l'arrière-plan. Le texte noir sur un fond blanc est toujours un choix sûr.</p>
+<ul>
+<li>Vérifiez le contraste avec l'<a href="https://developer.paciellogroup.com/resources/contrastanalyser/">Analyseur de contraste des couleurs</a> ou le <a href="https://webaim.org/resources/contrastchecker/">vérificateur de contraste de WebAIM</a></li>
+<li>Évitez les images de fond complexes. Si vous devez utiliser une image de fond, utilisez le <a href="https://www.brandwood.com/a11y/">vérificateur a11y de texte sur image de fond</a></li>
+<li>Ajoutez une bordure ou un contour contrastant autour du texte lorsque l'arrière-plan ne peut pas être changé pour respecter les exigences de contraste</li>
+</ul>
+<p>Les mêmes principes s'appliquent aux éléments non textuels significatifs tels que les icônes et les graphiques, mais l'exigence est assouplie à 3:1. Par exemple, les tranches adjacentes d'un diagramme en camembert doivent être faciles à distinguer les unes des autres.</p>
+<h3 id="polices" tabindex="-1">Polices</h3>
+<p>Choisissez des polices et des styles faciles à lire plutôt que décoratifs.</p>
+<ul>
+<li>Utilisez des polices sans empattement avec un espacement suffisant entre les lettres et les lignes
+<ul>
+<li>Arial, Verdana et Calibri sont toutes des polices sans empattement</li>
+</ul>
+</li>
+<li>La taille du texte du corps doit être de 11 à 14 points pour un document de style imprimé comme celui-ci
+<ul>
+<li>Certaines polices paraissent plus grandes que d'autres. Comparez avec Arial en taille 12 points.</li>
+</ul>
+</li>
+<li>Des polices plus grandes doivent être utilisées pour les présentations (minimum 18 points)</li>
+<li>Évitez d'utiliser l'italique pour plus de quelques mots</li>
+</ul>
+<p>Ne vous fiez pas uniquement à la mise en forme visuelle pour transmettre des informations. Par exemple, évitez les phrases comme « tâches prioritaires en gras », « modifications surlignées en jaune » ou « voir la barre latérale gauche pour plus de détails ».</p>
+<h2 id="elements-non-textuels" tabindex="-1">Éléments non textuels</h2>
+<p>Les éléments visuels tels que les photos, icônes, diagrammes et tableaux doivent inclure un texte alternatif (« alt text ») qui répond brièvement à la question « Quelle information l'image transmet-elle ? ».</p>
+<p>Un bon point de départ pour rédiger un texte alternatif est d'imaginer que vous décrivez l'image à une personne au téléphone.</p>
+<h3 id="texte-alternatif-court" tabindex="-1">Texte alternatif court</h3>
+<p>Gardez vos descriptions aussi brèves que possible (maximum 65 caractères). Ignorez les détails qui ne concernent pas le document. Par exemple, une photo d'un groupe d'étudiants apparaît dans un document sur le recrutement d'étudiants d'été.</p>
+<ul>
+<li>Bien : « Étudiants en formation dans une salle de réunion »</li>
+<li>Trop long : « Cinq étudiants en tenue professionnelle assis dans une salle de réunion regardant un écran de projecteur tandis que le présentateur fait un geste vers l'étudiant le plus à gauche »</li>
+</ul>
+<p>Évitez ces <strong>erreurs courantes de texte alternatif</strong> :</p>
+<ul>
+<li>Mettre du texte à l'intérieur d'une image
+<ul>
+<li>Si les images de texte ne peuvent pas être évitées, incluez tout le texte visible dans le texte alternatif</li>
+</ul>
+</li>
+<li>Commencer chaque description par « Image de… »
+<ul>
+<li>Commencez par « Capture d'écran de… » si l'image est une capture d'écran</li>
+</ul>
+</li>
+<li>Répéter le texte d'une légende adjacente</li>
+<li>Décrire des images décoratives (qui ne transmettent aucune information significative)
+<ul>
+<li>Au lieu de cela, définissez <code>alt=&quot;&quot;</code> pour le web, ou définissez la description comme « décoratif » dans Word</li>
+</ul>
+</li>
+</ul>
+<h3 id="description-textuelle-longue" tabindex="-1">Description textuelle longue</h3>
+<p>Parfois, le texte alternatif court ne suffit pas à décrire l'élément visuel. Dans ces cas, vous devez également fournir une description longue. Incluez-la dans le texte visible si possible.</p>
+<p>Exemples :</p>
+<ul>
+<li>Plan de route avec directions : Décrivez chaque étape nécessaire pour suivre les instructions</li>
+<li>Organigramme : Utilisez des composants numérotés pour décrire complètement le processus</li>
+<li>Graphique linéaire : Décrivez les tendances, puis incluez les points de données dans un tableau</li>
+</ul>
+<p>Pour plus d'exemples, consultez le tutoriel du W3C sur les <a href="https://www.w3.org/WAI/tutorials/images/complex/">Images complexes</a>.</p>
+<h3 id="video-audio-et-multimedia" tabindex="-1">Vidéo, audio et multimédia</h3>
+<p>Les fichiers audio ou vidéo intégrés nécessitent une transcription. Les vidéos doivent comporter des sous-titres et une description audio. Les commandes du lecteur — démarrer, pause et arrêt — doivent être accessibles.</p>
+<h2 id="ressources-supplementaires" tabindex="-1">Ressources supplémentaires</h2>
+<ul>
+<li><a href="https://support.google.com/docs/answer/6199477?hl=fr&amp;ref_topic=6039805">Google Docs – &quot;Rendre votre document ou votre présentation accessible&quot;</a></li>
+<li><a href="https://support.office.com/fr-fr/article/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-de-handicaps-d9bf3683-87ac-47ea-b91a-78dcacb3c66d?omkt=fr-FR&amp;ui=fr-FR&amp;rs=fr-FR&amp;ad=FR">Microsoft – &quot;Rendre vos documents Word accessibles aux personnes atteintes de handicaps&quot;</a></li>
+<li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html#toc5">Guide de rédaction du contenu du site Canada.ca</a></li>
+<li><a href="https://support.office.com/fr-fr/article/tester-la-lisibilit%C3%A9-de-votre-document-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2?omkt=fr-FR&amp;ui=fr-FR&amp;rs=fr-FR&amp;ad=FR">Tester la lisibilité de votre document</a> en anglais et <a href="http://www.scolarius.com/">Scolarius</a> en français</li>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">Comprendre le contraste sans texte</a></li>
+<li><a href="https://support.office.com/fr-fr/article/ajouter-du-texte-de-remplacement-%C3%A0-une-forme-une-image-un-graphique-un-graphique-smartart-ou-un-autre-objet-44989b2a-903c-4d9a-b742-6a75b451c669?omkt=fr-FR&amp;ui=fr-FR&amp;rs=fr-FR&amp;ad=FR">Ajouter du texte de remplacement – Microsoft Office</a></li>
+</ul>
+
+
+				
+				
+    
+    
+    
+    
+
+
+
+
+    
+    
+    
+
+
+
+    
+    
+    
+        
+    
+    <div class="gc-stp-stp">
         <div class="toc row mrgn-tp-lg">
-          <ul class="wb-eqht-grd">
-            <li class="col-md-4 col-sm-6"><a class="list-group-item active" aria-current="page">Comment créer des documents accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"> dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/classeurs-excel-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-file-excel" aria-hidden="true"></i> Classeurs Excel accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/dessins-visio-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-project-diagram" aria-hidden="true"></i> Dessins Visio accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/documents-pdf-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-file-pdf" aria-hidden="true"></i> Documents PDF accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/documents-word-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-file-word" aria-hidden="true"></i> Documents Word accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-            <li class="col-md-4 col-sm-6"><a class="list-group-item" href="/fr/presentations-powerpoint-accessibles-dans-microsoft-365/">
-                <i class="fas fa-lg fa-file-powerpoint" aria-hidden="true"></i> Présentations PowerPoint accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
-          </ul>
+            <ul class="wb-eqht-grd">
+                <li class="col-md-4 col-sm-6"><a class="list-group-item active" aria-current="page">Comment créer des documents accessibles <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"> dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/classeurs-excel-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-file-excel" aria-hidden="true"></i>
+                        
+                        Classeurs Excel accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/dessins-visio-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-project-diagram" aria-hidden="true"></i>
+                        
+                        Dessins Visio accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/documents-pdf-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-file-pdf" aria-hidden="true"></i>
+                        
+                        Documents PDF accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/documents-word-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-file-word" aria-hidden="true"></i>
+                        
+                        Documents Word accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
+                    
+                    <li class="col-md-4 col-sm-6" ><a class="list-group-item" href="/fr/presentations-powerpoint-accessibles-dans-microsoft-365/">
+                        
+                            <i class="fas fa-lg fa-file-powerpoint" aria-hidden="true"></i>
+                        
+                        Présentations PowerPoint accessibles  <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">dans Microsoft 365</small></a></li>
+                
+            </ul>
         </div>
-      </div>
-      <div class="well">
+    </div>
+
+    <div class="well">
+        
+        
         <p class="mrgn-tp-md">Besoin de la version Office 2016 ? Essayez <a href="/fr/comment-creer-des-documents-accessibles-dans-office-2016/">Comment créer des documents accessibles <small><strong> dans Office 2016</strong></small></a></p>
-      </div>
     </div>
-    <section class="pagedetails container">
-      <h2 class="wb-inv">Détails de la page</h2>
-      <dl id="wb-dtmd">
-        <dt>Date de modification :</dt>
-        <dd><time property="dateModified">2024-08-26</time></dd>
-      </dl>
-    </section>
-  </main>
-  <aside class="contribute">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribuez à ce projet</span><small>sur Github.com</small></h2>
-        </div>
-        <div class="col-md-7">
-          <ul class="list-inline">
-            <li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Code source</a></li>
-            <li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Problèmes</a></li>
-            <li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions</a></li>
-          </ul>
-          <p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca?subject=Contribuer%20%C3%A0%20la%20Bo%C3%AEte%20%C3%A0%20outils%20de%20l&#39;accessibilit%C3%A9%20num%C3%A9rique">Contactez la Boîte à outils de l&#39;accessibilité numérique par courriel</a></p>
-        </div>
-      </div>
-    </div>
-  </aside>
-  <footer id="wb-info">
-    <h2 class="wb-inv">À propos de ce site</h2>
-    <div class="gc-main-footer">
-      <div class="container">
-        <nav aria-labelledby="governmentOfCanadan">
-          <h3 id="governmentOfCanadan">Gouvernement du Canada</h3>
-          <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
-            <li><a href="https://www.canada.ca/fr/contact.html">Toutes les coordonnées</a></li>
-            <li><a href="https://www.canada.ca/fr/gouvernement/min.html">Ministères et organismes</a></li>
-            <li><a href="https://www.canada.ca/fr/gouvernement/systeme.html">À propos du gouvernement</a></li>
-          </ul>
-          <h4><span class="wb-inv">Thèmes et sujets</span></h4>
-          <ul class="list-unstyled colcount-sm-2 colcount-md-3">
-            <li><a href="https://www.canada.ca/fr/services/emplois.html">Emplois</a></li>
-            <li><a href="https://www.canada.ca/fr/services/immigration-citoyennete.html">Immigration et citoyenneté</a></li>
-            <li><a href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
-            <li><a href="https://www.canada.ca/fr/services/entreprises.html">Entreprises</a></li>
-            <li><a href="https://www.canada.ca/fr/services/prestations.html">Prestations</a></li>
-            <li><a href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
-            <li><a href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
-            <li><a href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
-            <li><a href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
-            <li><a href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
-            <li><a href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
-            <li><a href="https://www.canada.ca/fr/services/transport.html">Transport et infrastructure</a></li>
-            <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=fra">Le Canada et le monde</a></li>
-            <li><a href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a></li>
-            <li><a href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
-            <li><a href="https://www.canada.ca/fr/services/autochtones.html">Autochtones</a></li>
-            <li><a href="https://www.canada.ca/fr/services/veterans-militaire.html">Vétérans et militaires</a></li>
-            <li><a href="https://www.canada.ca/fr/services/jeunesse.html">Jeunesse</a></li>
-            <li><a href="https://www.canada.ca/fr/services/evenements-vie.html">Gérer les événements de la vie</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="gc-sub-footer">
-      <div class="container d-flex align-items-center">
-        <nav aria-labelledby="governmentCorporateHeading">
-          <h3 class="wb-inv" id="governmentCorporateHeading">Organisation du gouvernement du Canada</h3>
-          <ul>
-            <li><a href="https://www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
-            <li><a href="https://www.canada.ca/fr/mobile.html">Applications mobiles</a></li>
-            <li><a href="https://www.canada.ca/fr/gouvernement/a-propos.html">À propos de Canada.ca</a></li>
-            <li><a href="https://www.canada.ca/fr/transparence/avis.html">Avis</a></li>
-            <li><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
-          </ul>
-        </nav>
-        <div class="wtrmrk align-self-end">
-          <img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbole du gouvernement du Canada" />
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
-</body>
+
+
+
+				
+			</div>
+
+			
+<section class="pagedetails container">
+	<h2 class="wb-inv">Détails de la page</h2>
+	<dl id="wb-dtmd">
+		<dt>Date de modification :</dt>
+		<dd><time property="dateModified">2024-08-26</time></dd>
+	</dl>
+</section>
+
+
+		
+		</main>
+
+		
+
+<aside class="contribute">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribuez à ce projet</span><small>sur Github.com</small></h2>
+			</div>
+			<div class="col-md-7">
+				<ul class="list-inline">
+					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a  href="https://github.com/gc-da11yn/gc-da11yn.github.io">Code source</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a  href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Problèmes</a></li>
+					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions</a></li>
+				</ul>
+				<p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca?subject=Contribuer%20%C3%A0%20la%20Bo%C3%AEte%20%C3%A0%20outils%20de%20l&#39;accessibilit%C3%A9%20num%C3%A9rique">Contactez la Boîte à outils de l&#39;accessibilité numérique par courriel</a></p>
+			</div>
+		</div>
+		
+		
+	</div>
+</aside>
+
+
+		
+<footer id="wb-info">
+	<h2 class="wb-inv">À propos de ce site</h2>
+	<div class="gc-main-footer">
+		<div class="container">
+			<nav aria-labelledby="governmentOfCanadan">
+				<h3 id="governmentOfCanadan">Gouvernement du Canada</h3>
+				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="https://www.canada.ca/fr/contact.html">Toutes les coordonnées</a></li>
+					<li><a href="https://www.canada.ca/fr/gouvernement/min.html">Ministères et organismes</a></li>
+					<li><a href="https://www.canada.ca/fr/gouvernement/systeme.html">À propos du gouvernement</a></li></ul>
+				<h4><span class="wb-inv">Thèmes et sujets</span></h4>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3"><li><a href="https://www.canada.ca/fr/services/emplois.html">Emplois</a></li>
+					<li><a href="https://www.canada.ca/fr/services/immigration-citoyennete.html">Immigration et citoyenneté</a></li>
+					<li><a href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+					<li><a href="https://www.canada.ca/fr/services/entreprises.html">Entreprises</a></li>
+					<li><a href="https://www.canada.ca/fr/services/prestations.html">Prestations</a></li>
+					<li><a href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
+					<li><a href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
+					<li><a href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+					<li><a href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+					<li><a href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+					<li><a href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+					<li><a href="https://www.canada.ca/fr/services/transport.html">Transport et infrastructure</a></li>
+					<li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=fra">Le Canada et le monde</a></li>
+					<li><a href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a></li>
+					<li><a href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+					<li><a href="https://www.canada.ca/fr/services/autochtones.html">Autochtones</a></li>
+					<li><a href="https://www.canada.ca/fr/services/veterans-militaire.html">Vétérans et militaires</a></li>
+					<li><a href="https://www.canada.ca/fr/services/jeunesse.html">Jeunesse</a></li>
+					<li><a href="https://www.canada.ca/fr/services/evenements-vie.html">Gérer les événements de la vie</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="gc-sub-footer">
+		<div class="container d-flex align-items-center">
+			<nav aria-labelledby="governmentCorporateHeading">
+				<h3 class="wb-inv" id="governmentCorporateHeading">Organisation du gouvernement du Canada</h3>
+				<ul>
+					<li><a href="https://www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
+					<li><a href="https://www.canada.ca/fr/mobile.html">Applications mobiles</a></li>
+					<li><a href="https://www.canada.ca/fr/gouvernement/a-propos.html">À propos de Canada.ca</a></li>
+					<li><a href="https://www.canada.ca/fr/transparence/avis.html">Avis</a></li>
+					<li><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
+				</ul>
+			</nav>
+			<div class="wtrmrk align-self-end">
+				<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbole du gouvernement du Canada" />
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script></body>
 
 </html>
+
+

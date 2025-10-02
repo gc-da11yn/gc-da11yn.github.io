@@ -1,750 +1,1042 @@
+
+
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 
+	
 <head>
-  <meta charset="utf-8">
-  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-  <title>Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement- Digital Accessibility Toolkit</title>
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta name="description" content="The framework for integrating accessibility into Information and Communication Technology (ICT)-related procurements within the Government of Canada (GC) emphasizes leveraging the EN 301 549 standard to ensure inclusivity and usability across ICT products and services, exceeding the minimum requirements of WCAG 2.1. Designed for GC departments, agencies, and suppliers, it outlines practical steps, roles, and resources to promote accessibility, aligning with the Accessible Canada Act and fostering a barrier-free digital environment.">
-  <meta name="source-file" content="./src/pages/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement.md">
-  <link rel="alternate" hreflang="fr" href="/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/index.html" />
-  <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
-  <link rel="stylesheet" href="/css/da11yn.css">
-  <!-- Meta tags -->
-  <meta name="author" content="Government of Canada" />
-  <meta name="dcterms.title" content="Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement" />
-  <meta name="dcterms.description" content="The framework for integrating accessibility into Information and Communication Technology (ICT)-related procurements within the Government of Canada (GC) emphasizes leveraging the EN 301 549 standard to ensure inclusivity and usability across ICT products and services, exceeding the minimum requirements of WCAG 2.1. Designed for GC departments, agencies, and suppliers, it outlines practical steps, roles, and resources to promote accessibility, aligning with the Accessible Canada Act and fostering a barrier-free digital environment." />
-  <meta name="dcterms.creator" content="Government of Canada">
-  <meta name="dcterms.language" content="en" />
-  <meta name="dcterms.created" content="2023-08-01">
-  <meta name="dcterms.modified" content="2025-09-19">
-  <meta name="dcterms.subject" content="Digital accessibility in the Government of Canada;Procurement; ; " />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
-  <script>
-    (function(w) {
-      "use strict";
-      if (w.location.hostname === "a11y.canada.ca") {
-        w.dataLayer = w.dataLayer || [];
-        w.gtag = function() {
-          w.dataLayer.push(arguments);
-        };
-        w.gtag('js', new Date());
-        w.gtag('config', 'G-SM9MSHWDVN');
-      }
-    })(window);
+	<meta charset="utf-8">
 
-  </script>
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	
+	<title>Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement- Digital Accessibility Toolkit</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name="description" content="The framework for integrating accessibility into Information and Communication Technology (ICT)-related procurements within the Government of Canada (GC) emphasizes leveraging the EN 301 549 standard to ensure inclusivity and usability across ICT products and services, exceeding the minimum requirements of WCAG 2.1. Designed for GC departments, agencies, and suppliers, it outlines practical steps, roles, and resources to promote accessibility, aligning with the Accessible Canada Act and fostering a barrier-free digital environment.">
+
+	
+
+	<meta name="source-file" content="./src/pages/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement.md">
+
+
+	
+	
+	
+	
+		
+	
+		<link rel="alternate" hreflang="fr" href="/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/index.html" />
+	
+
+	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
+	<link rel="stylesheet" href="/css/da11yn.css">
+
+	<!-- Meta tags -->
+
+	<meta name="author" content="Government of Canada" />
+	<meta name="dcterms.title" content="Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement" />
+	<meta name="dcterms.description" content="The framework for integrating accessibility into Information and Communication Technology (ICT)-related procurements within the Government of Canada (GC) emphasizes leveraging the EN 301 549 standard to ensure inclusivity and usability across ICT products and services, exceeding the minimum requirements of WCAG 2.1. Designed for GC departments, agencies, and suppliers, it outlines practical steps, roles, and resources to promote accessibility, aligning with the Accessible Canada Act and fostering a barrier-free digital environment." />
+	<meta name="dcterms.creator" content="Government of Canada">
+	<meta name="dcterms.language" content="en" />
+	<meta name="dcterms.created" content="2023-08-01">
+	<meta name="dcterms.modified" content="2025-09-19" >
+	<meta name="dcterms.subject" content="Digital accessibility in the Government of Canada;Procurement; ; " />
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+	<script>
+		(function (w) {
+			"use strict";
+			if (w.location.hostname === "a11y.canada.ca") {
+				w.dataLayer = w.dataLayer || [];
+				w.gtag = function () {
+					w.dataLayer.push(arguments);
+				};
+				w.gtag('js', new Date());
+				w.gtag('config', 'G-SM9MSHWDVN');
+			}
+		})(window);
+	</script>
 </head>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-  <nav>
-    <ul id="wb-tphp">
-      <li class="wb-slc">
-        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
-      </li>
-      <li class="wb-slc visible-sm visible-md visible-lg">
-        <a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
+
+	<body vocab="http://schema.org/" typeof="WebPage">
+<nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+		</li>
+		<li class="wb-slc visible-sm visible-md visible-lg">
+			<a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
+		</li>
+	</ul>
+</nav>
+
+
+		
+
+<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+
+			
+
+
+
+
+	
+
+<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+	<h2 class="wb-inv">Language selection</h2>
+	<ul class="list-inline mrgn-bttm-0">
+		<li>
+			<a lang="fr" hreflang="fr" href="/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/">
+				<span class="hidden-xs" translate="no">Français</span>
+				<abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> fr</abbr>
+			</a>
+		</li>
+	</ul>
+</section>
+
+
+
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="https://www.canada.ca/en.html" property="url">
+					<img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-en.svg" alt="Government of Canada" property="logo"/>
+					<span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+				</a>
+				<meta property="name" content="Government of Canada">
+				<meta property="areaServed" typeof="Country" content="Canada"/>
+				<link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg"/>
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Search</h2>
+				<form action="https://canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca"/>
+						<datalist id="wb-srch-q-ac"></datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+							<span class="glyphicon-search glyphicon"></span>
+							<span class="wb-inv">Search</span>
+						</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+
+<hr>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<nav class="gcweb-menu" typeof="SiteNavigationElement">
+				<h2 class="wb-inv">Menu</h2>
+				<button type="button" aria-haspopup="true" aria-expanded="false">
+					
+						<span class="wb-inv">Main
+						</span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+					
+				</button>
+				<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+
+<nav id="wb-bc" property="breadcrumb">
+	<h2>Breadcrumb Navigation</h2>
+	<div class="container">
+		<ol class="breadcrumb" typeof="BreadcrumbList">
+			<!-- First breadcrumb: Canada.ca -->
+			<li property="itemListElement" typeof="ListItem">
+				<a property="item" typeof="WebPage" href="https://www.canada.ca/en.html">
+					<span property="name">Canada.ca</span>
+				</a>
+				<meta property="position" content="1">
+			</li>
+
+			<!-- Second breadcrumb: Locale-based home link -->
+			
+			
+				<li property="itemListElement" typeof="ListItem">
+					<a property="item" typeof="WebPage" href="/en/">Digital Accessibility Toolkit</a>
+					<meta property="position" content="2">
+				</li>
+			
+
+			<!-- Additional breadcrumbs based on tags and subjects -->
+			
+				 
+
+				<!-- Special handling for role-based pages -->
+				
+					<!-- Existing breadcrumbs logic for non-role pages -->
+					<!-- Breadcrumbs based on 'subject' -->
+					
+						
+							<li property="itemListElement" typeof="ListItem">
+								<a property="item" typeof="WebPage" href="/en/digital-accessibility-in-the-government-of-canada">
+									<span property="name">Digital accessibility in the Government of Canada</span>
+								</a>
+								<meta property="position" content="3">
+							</li>
+							
+						
+					
+
+					<!-- Breadcrumbs based on 'tags' -->
+					
+						
+							
+								<li property="itemListElement" typeof="ListItem">
+									<a property="item" typeof="WebPage" href="/en/procurement">
+										<span property="name">Procurement</span>
+									</a>
+									<meta property="position" content="4">
+								</li>
+								
+							
+						
+							
+						
+					
+				
+			
+		</ol>
+	</div>
+</nav>
+
+
+</header>
+
+
+
+		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+
+		
+
+			<div class="banner">
+				<div class="container p-0 p-sm-3">
+					<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
+						<h1 property="name" id="wb-cont">Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement
+						</h1>
+						
+						<p>The framework for integrating accessibility into Information and Communication Technology (ICT)-related procurements within the Government of Canada (GC) emphasizes leveraging the EN 301 549 standard to ensure inclusivity and usability across ICT products and services, exceeding the minimum requirements of WCAG 2.1. Designed for GC departments, agencies, and suppliers, it outlines practical steps, roles, and resources to promote accessibility, aligning with the Accessible Canada Act and fostering a barrier-free digital environment.</p>
+						</div>
+				</div>
+			</div>
+
+			
+
+
+
+
+<div class="container">
+	<section class="alert alert-warning mrgn-tp-lg">
+		<h2>Important information</h2>
+		<ul>
+			
+			
+			
+			<li class="mrgn-tp-lg">Links that only work within the Government of Canada firewall are marked with <i class="fas fa-external-link-square-alt" aria-hidden="true"> <span class="mrgn-lft-sm">icon </span cl></i><span class="wb-inv">internal link</span></li>
+			
+		</ul>
+	</section>
+</div>
+
+
+
+			<div class="container">
+				
+
+				
+				
+
+<div class="row">
+	<div class="col-sm-6">
+		<a class="gc-dwnld-lnk" href="/docs/ProcurementGuideEN.docx" download="guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement">
+			<div class="well gc-dwnld">
+				<div class="row">
+					<div class="col-xs-4">
+						<p>
+							<img
+								 class="img-responsive thumbnail gc-dwnld-img"
+								 src="/img/doc.png"
+								 alt="" />
+						</p>
+					</div>
+					<div class="col-xs-8">
+						<p class="gc-dwnld-txt">
+							<span>Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement</span>
+							<span class="gc-dwnld-info">
+								(<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"><span class="wb-inv">Microsoft Word document</span></i>
+								77
+								<abbr title="KiloByte">KB</abbr>)
+							</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+				
+
+				
+				
+<aside>
+	<h2>On this page</h2>
+	<ul>
+		
+		
+		
+		
+	<li><a href="#about-the-guide">About the Guide</a>
+		
+		
+	
+		
+		
+		</li>
+	<li><a href="#audience">Audience</a>
+		
+		
+	
+		
+		
+		</li>
+	<li><a href="#context">Context</a>
+		
+		
+	
+		
+		
+		</li>
+	<li><a href="#about-the-en-301-549-standard">About the EN 301 549 Standard</a>
+		
+		
+	
+		
+		
+	
+	  <ul>
+		
+		
+		<li><a href="#accessibility-standards-canada-adopts-the-en-301-549">Accessibility Standards Canada adopts the EN 301 549</a></li>
+		
+		
+		
+		
+	
+		<li><a href="#use-the-en-301-549-2021-over-any-version-of-the-web-content-accessibility-guidelines-wcag-alone">Use the EN 301 549 (2021) over any version of the Web Content Accessibility Guidelines (WCAG) alone</a></li>
+		
+		
+		
+		
+	
+		<li><a href="#incorporate-the-en-301-549-2021-as-a-best-practice">Incorporate the EN 301 549 (2021) as a best practice</a></li>
+		
+		
+		
+		
+	
+		<li><a href="#roles-and-responsibilities">Roles and responsibilities</a></li>
+		
+		
+		
+		
+	
+		<li><a href="#departments-and-agencies">Departments and agencies</a></li>
+		
+		
+		
+		
+		</ul>
+	</li>
+	<li><a href="#summary-of-the-process-to-include-accessibility-requirements-in-ict-related-procurements">Summary of the process to include accessibility requirements in ICT-related procurements</a>
+		
+		
+	
+		
+		
+	
+	  <ul>
+		
+		
+		<li><a href="#business-owners-are-strongly-encouraged-to">Business Owners are strongly encouraged to:</a></li>
+		
+		
+		
+		
+	
+		<li><a href="#contracting-authorities-are-strongly-encouraged-to">Contracting Authorities are strongly encouraged to:</a></li>
+		
+		
+		
+		
+	
+		<li><a href="#justification-for-accessibility-decisions">Justification for accessibility decisions</a></li>
+		
+		
+		
+		
+		</ul>
+	</li>
+	<li><a href="#informing-the-supplier-community">Informing the supplier community</a>
+		
+		
+	
+		
+		
+		</li>
+	<li><a href="#where-to-find-help-and-resources">Where to find help and resources</a>
+		
+		
+	
+		
+		
+	
+	  <ul>
+		
+		
+		<li><a href="#tools-and-resources-for-the-gc">Tools and resources for the GC:</a></li>
+		
+		
+		
+		
+	
+		<li><a href="#tools-and-resources-for-the-gc-and-externally">Tools and resources for the GC and externally:</a></li>
+		
+		
+		
+		
+	
+		<li><a href="#shared-services-canada">Shared Services Canada</a></li>
+		
+		
+		
+		
+	
+		<li><a href="#public-services-and-procurement-canada-pspc">Public Services and Procurement Canada (PSPC)</a></li>
+		
+		
+		
+		
+		</ul>
+	</li>
+	<li><a href="#enquiries-and-comments-about-this-guide">Enquiries and comments about this Guide</a>
+		
+		
+	
+		
+		
+		</li>
+	<li><a href="#references">References</a>
+		
+		
+	
+		
+		
+	
+	  <ul>
+		
+		
+		<li><a href="#related-external-standards-and-specifications">Related External Standards and Specifications</a></li>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</ul>
+	</li>
+	<li><a href="#definitions">Definitions</a>
+		
+		
+	
+		
+		
+		</li>
+	<li><a href="#what-information-should-an-accessibility-conformance-report-acr-contain">What information should an Accessibility Conformance Report (ACR) contain?</a>
+		
+		</li>
+	
+		
+		
+		</ul>
+</aside>
+
+
+				
+
+				<h2 id="about-the-guide" tabindex="-1">About the Guide</h2>
+<p>This Guide has been prepared for Government of Canada (GC) departments, agencies and organizations. It explains how to apply the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32620">Guideline on Making Information Technology Usable by All</a> in competitive and non-competitive Information Communication Technology (ICT)-related procurements.</p>
+<p>In this Guide, “ICT-related procurement” means any good or service that includes an ICT component. Examples include:</p>
+<ul>
+<li>internal-facing or public-facing information technology (IT) solutions and equipment;</li>
+<li>documents (electronic content or non-web documents) such as:
+<ul>
+<li>instructional and technical manuals for a good or service;</li>
+<li>training materials;</li>
+<li>presentations;</li>
+<li>reports;</li>
+</ul>
+</li>
+<li>emails;</li>
+<li>support services;</li>
+<li>help desk.</li>
+</ul>
+<p>This Guide walks you through the steps for considering accessibility when developing requirements for your ICT-related procurements. It also includes helpful information about relevant ICT guidelines and standards.</p>
+<h2 id="audience" tabindex="-1">Audience</h2>
+<p>This Guide is for GC departments, agencies, and organizations, listed in Schedule I, I.1 and II of the <a href="http://laws-lois.justice.gc.ca/eng/acts/f-11/"><em>Financial Administration Act</em></a>.</p>
+<p>The Guide will help:</p>
+<ul>
+<li>Business Owners (Technical Authority or the Client) and Contracting Authorities in GC departments, agencies and organizations.</li>
+<li>Suppliers wanting to learn more about ICT accessibility requirements within GC procurements.</li>
+</ul>
+<h2 id="context" tabindex="-1">Context</h2>
+<p>The <a href="https://www.parl.ca/DocumentViewer/en/42-1/bill/C-81/royal-assent"><em>Accessible Canada Act</em></a> (ACA) was passed in 2019, to realize a barrier-free Canada by 2040. It requires entities under federal jurisdiction to identify, remove, and prevent accessibility barriers in seven priority areas, including ICT, and procurement.</p>
+<p>The ACA also requires organizations to publish accessibility plans and annual progress reports. You can find Departmental Accessibility Plans at <a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service.html">Accessibility in the public service - Canada.ca</a>.</p>
+<p>The <a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html">Accessibility Strategy for the Public Service of Canada</a>:</p>
+<ul>
+<li>sets out how the GC will advance accessibility for all Canadians through its policies, programs and services; and</li>
+<li>identifies SSC as the lead for developing the framework on how to embed accessibility requirements into ICT-related procurement.</li>
+</ul>
+<p>The <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32620">Guideline for Making Information Technology Usable by All</a>:</p>
+<ul>
+<li>strongly encourages departments, agencies, and organizations to leverage the “<a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ICTstandard&amp;utm_id=ICT+standard+adoption">CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)</a>” (CAN/ASC standard) when acquiring or developing internal-facing and external-facing ICT; and</li>
+<li>provides further context as to why accessibility is important to the GC.</li>
+</ul>
+<div class="well well-sm">
+<p><strong>Note:</strong> the CAN/ASC standard is a copy of the EN 301 549 v.3.2.1 (2021-03) <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">Harmonised European Standard Accessibility requirements for ICT products and services</a>.</p>
+</div>
+<h2 id="about-the-en-301-549-standard" tabindex="-1">About the EN 301 549 Standard</h2>
+<p>While this Guide refers to the standard as the “EN 301 549 (2021)”, its full name is “<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 (2021-03) Harmonised European Standard – Accessibility requirements for ICT products and services</a>”. The EN 301 549 (2021) defines accessibility requirements for ICT products and services.</p>
+<p>The EN 301 549 (2021) applies to almost every ICT procurement, such as:</p>
+<ul>
+<li>software, including mobile applications;</li>
+<li>websites/webpages (external facing websites and those internal to the GC);</li>
+<li>administrator panels;</li>
+<li>mobile devices;</li>
+<li>hardware, including laptops;</li>
+<li>printers;</li>
+<li>kiosks and transaction machines;</li>
+<li>documents (electronic content or non-web documents), including:
+<ul>
+<li>instructional and technical manuals for a good or service;</li>
+<li>training materials;</li>
+<li>presentations;</li>
+<li>reports; and</li>
+<li>emails.</li>
+</ul>
+</li>
+<li>ICT support, including:
+<ul>
+<li>help desks; and</li>
+<li>customer service support.</li>
+</ul>
+</li>
+<li>telecommunications products, including audio/web conferencing;</li>
+<li>group chats;</li>
+<li>videos; and</li>
+<li>information technology services.</li>
+</ul>
+<p>If the Business Owner is unsure whether something is ICT, ask:</p>
+<ul>
+<li>Is it digital?</li>
+<li>Does someone interact with it?</li>
+</ul>
+<p>If the answer to <strong>both</strong> of these questions is “yes”, then the EN 301 549 (2021) likely applies to your procurement.</p>
+<p>The <strong>type</strong> and <strong>functionality</strong> of the ICT goods or services that the GC is buying determine the method of supply and the accessibility requirements you will need to include in the solicitation, including the evaluation grid. This also applies to a procurement of a good or service this is not itself ICT, but that ICT will support.</p>
+<h3 id="accessibility-standards-canada-adopts-the-en-301-549" tabindex="-1">Accessibility Standards Canada adopts the EN 301 549</h3>
+<p><a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ICTstandard&amp;utm_id=ICT+standard+adoption">Accessible Standards Canada</a> has adopted “CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT) as a published National Standard of Canada. As an official standard of the Government of Canada, it is approved for use throughout the country.” This standard is not yet mandatory for the GC.</p>
+<h3 id="use-the-en-301-549-2021-over-any-version-of-the-web-content-accessibility-guidelines-wcag-alone" tabindex="-1">Use the EN 301 549 (2021) over any version of the Web Content Accessibility Guidelines (WCAG) alone</h3>
+<p>While the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=23601">Standard on Web Accessibility</a> requires each public-facing government <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=23601#webpage">Web page</a> to meet all five <a href="http://www.w3.org/TR/WCAG20/#conformance-reqs">WCAG 2.0 conformance requirements</a>, the Treasury Board of Canada Secretariat (TBS) is currently reviewing the Standard on Web Accessibility and recommends that organizations:</p>
+<ul>
+<li>adopt the CAN/ASC standard (<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a>); and</li>
+<li>follow the guidance in the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32620">Guideline on Making Information Technology Usable by All</a>.</li>
+</ul>
+<div class="well well-sm">
+<p><strong>Note:</strong> The EN 301 549 (2021) is a more inclusive standard and exceeds the minimum required by the Standard on Web Accessibility. For example, the EN 501 349 (2021) includes:</p>
+<ul>
+<li>WCAG 2.1 for web, native software, and non-web documents;</li>
+<li>additional requirements for hardware, authoring tools, support services, and more.</li>
+</ul>
+</div>
+<p>Ongoing advancements in technology require the GC to use a broader standard for ICT accessibility. This is why this guide recommends that Business Owners:</p>
+<ul>
+<li>implement the EN 301 549 (2021) until an updated EN 301 549 is published and there is guidance to move to the next version;</li>
+<li>do not use only any version of the WCAG standard alone, rather use the EN 301 549 (2021) which includes WCAG 2.1; and</li>
+<li>can use the EN 301 549 (2021) and <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a>.</li>
+</ul>
+<h3 id="incorporate-the-en-301-549-2021-as-a-best-practice" tabindex="-1">Incorporate the EN 301 549 (2021) as a best practice</h3>
+<p>We also recommend that Business Owners include all relevant ICT accessibility requirements from the EN 301 549 (2021) in ICT-related procurements. This includes Standing Offers and call-ups, Supply Arrangements and Contracts, Contract and Task Authorizations. By including the ICT accessibility requirements, this ensures that:</p>
+<ul>
+<li>the procurement is cost effective by avoiding:
+<ul>
+<li>incurring additional costs to remediate the ICT because ICT accessibility was not considered in the original procurement; or</li>
+<li>re-procuring an accessible solution.</li>
+</ul>
+</li>
+<li>the ICT goods and services are inclusive by design and accessible by default.</li>
+</ul>
+<p>Refer to <a href="#where-to-find-help-and-resources">Where to find help and resources</a> for assistance.</p>
+<h3 id="roles-and-responsibilities" tabindex="-1">Roles and responsibilities</h3>
+<p>Refer to the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692">Directive on the Management of Procurement- Canada.ca</a> to learn more about the roles and responsibilities of the Business Owner (Technical Authorities or Clients) and Contracting Authority.</p>
+<h3 id="departments-and-agencies" tabindex="-1">Departments and agencies</h3>
+<p>For all ICT-related procurements that:</p>
+<ul>
+<li>do not include accessibility requirements; or</li>
+<li>include a phased approach to ICT accessibility conformance (i.e., a remediation plan or roadmap),</li>
+</ul>
+<p>departments and agencies are strongly encouraged to seek approval of the justification from the appropriate authority (e.g., senior management, Section 32, etc.).</p>
+<h2 id="summary-of-the-process-to-include-accessibility-requirements-in-ict-related-procurements" tabindex="-1">Summary of the process to include accessibility requirements in ICT-related procurements</h2>
+<h3 id="business-owners-are-strongly-encouraged-to" tabindex="-1">Business Owners are strongly encouraged to:</h3>
+<ul>
+<li>understand the ICT components of the requirement and the accessibility requirements from the EN 301 549 (2021) that apply to the procurement;</li>
+<li>include the ICT accessibility requirements as part of the technical requirements for establishing or renewing a common Method of Supply such as Standing Offers (SO) and Supply Arrangements (SA);
+<ul>
+<li>This will permit the department or agency issuing a call-up or contract to incorporate specific accessibility requirements from the EN 301 549 (2021).</li>
+</ul>
+</li>
+<li>develop a budget to include accessibility conformance testing, end-user testing, and other validation requirements (if applicable) in their project plan;</li>
+<li>determine how to assess conformance with the accessibility requirements during the entire contract period;</li>
+<li>determine the timelines to develop, test, and release an ICT solution, including provisions for temporary workarounds to address any accessibility barriers before the ICT fully meets the accessibility requirements;</li>
+<li>understand the market’s maturity to deliver accessible ICT at either:
+<ul>
+<li>bid closing, or</li>
+<li>over a timeframe specified in the procurement</li>
+</ul>
+</li>
+<li>provide Industry Days early on in the ICT-related procurement process to allow suppliers to ask questions about:
+<ul>
+<li>ICT accessibility requirements; and</li>
+<li>other key requirements.</li>
+</ul>
+</li>
+<li>require all suppliers of the ICT to submit an Accessibility Conformance Report (ACR) preferably using the Voluntary Product Accessibility Template (<a href="https://www.itic.org/policy/accessibility/vpat">VPAT<sup>®</sup></a>) or a comparable format and provide in an accessible format.</li>
+</ul>
+<div class="well well-sm">
+<p><strong>Note:</strong> where the only ICT component are non-web documents only (e.g., Word, PowerPoint, PDF, etc.), requesting an ACR is not required. For further information on an ACR, please refer to <a href="#what-information-should-an-accessibility-conformance-report-acr-contain">What information should an Accessibility Conformance Report (ACR) contain?</a></p>
+</div>
+<p><strong>Clarifications of who provides the ACR and when it is provided:</strong></p>
+<ul>
+<li>when contracting for a <strong>Commercial-off-the-Shelf (COTS)</strong> the Original Equipment Manufacturer (OEM) supplier must provide the ACR with the bid and the successful supplier would provide a Roadmap and agree to remediate the solution over a period of time</li>
+<li>when contracting for a <strong>custom ICT solution</strong>, the OEM supplier must provide the ACR as described in the contract and ensure that the ICT solution is delivered to the ICT requirements</li>
+<li>when contracting with an <strong>integrator</strong>, the integrator must:
+<ul>
+<li>implement the solution to conform to the EN 301 549, to the greatest extent the OEM platform allows, using and enabling the OEM provided accessibility features or through custom implementations as appropriate;</li>
+<li>have a good working relationship with the OEM; and</li>
+<li>work with the OEM to address accessibility issues.</li>
+</ul>
+</li>
+<li>require suppliers of the ICT to have the ACR prepared by:
+<ul>
+<li>a third-party with professional ICT accessibility conformance testing (preferably); or</li>
+<li>the supplier’s own experienced in-house accessibility specialists.</li>
+</ul>
+</li>
+<li>specify which ICT accessibility standard(s) will be accepted as part of the Accessibility Conformance Report (ACR).
+<ul>
+<li>where the successful supplier(s) has submitted an ACR which records testing results against another ICT accessibility standard, the successful supplier(s) must provide an ACR in an accessible format which shows testing against the EN 301 549 (2021) standard within by a firm date</li>
+</ul>
+</li>
+<li>include language that says Canada understands that it is unlikely that suppliers will be able to fully conform with the EN 301 549 (2021) at bid closing, however at contract award, the winning bid will be required to demonstrate how full conformance will be achieved. At contract award, the successful supplier is required to:
+<ul>
+<li>submit a detailed roadmap in an accessible format where the proposed ICT solution does not fully conform with the EN 301 549 (2021) as specified by the Technical Authority. In this case, the contract should contain a firm date by which the supplier of the ICT solution must provide the roadmap. The roadmap should include:
+<ul>
+<li>details on how the successful supplier(s) of the ICT solution will remediate their ICT solution to conform with the EN 301 549 (2021) over a timeframe set out in the contract; and</li>
+<li>enough detail to monitor the ICT solution’s progress and delivery</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ensure that the process includes the following requirements:
+<ul>
+<li>accessibility conformance testing as follows:
+<ul>
+<li>evaluating accessibility conformance to the EN 301 549 (2021) during the bid evaluation phase; and</li>
+<li>as appropriate, at pre-determined intervals throughout the contract period.</li>
+</ul>
+</li>
+<li>user testing with persons with disabilities as follows:
+<ul>
+<li>the bid evaluation phase; and</li>
+<li>as appropriate, at pre-determined intervals throughout the contract period.</li>
+</ul>
+</li>
+<li>a feedback mechanism to address user complaints and accessibility issues that:
+<ul>
+<li>are known prior to contract award; and</li>
+<li>arise during contract administration.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>review and understand the supplier’s statements in their ACR about how their ICT solution conforms with the relevant sections of the EN 301 549 (2021)</li>
+<li>conduct the technical evaluation</li>
+</ul>
+<h3 id="contracting-authorities-are-strongly-encouraged-to" tabindex="-1">Contracting Authorities are strongly encouraged to:</h3>
+<ul>
+  <li>discuss with Business Owners if industry engagement is needed before starting an ICT-related procurement process (e.g., Request for Information with a draft Statement of Work). This work may help to assess market capacity to deliver a fully accessible ICT solution at contract award or if a phased approach is needed.</li>
+  <li>ensure the solicitation and resulting contract have binding accessibility language and ICT requirements.</li>
+  <li>ensure the solicitation and resulting contract include the Business Owner’s ICT requirements that can be generated from SSC’s Information and Communication Technology (ICT) Requirements Generator (Prototype) for the EN 301 549 (2021).The <a href="https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/">SSC tool generates the requirements from the EN 301 549 (2021)</a>.
+    <div class="well well-sm mrgn-tp-md">
+      <p><strong>Note:</strong> Alternatively, they can provide a hyperlink to either the:</p>
+      <ul>
+        <li><a href="/en/information-and-communication-technology-ict-accessibility-requirements/">Information and Communications Technology (ICT) Accessibility Requirements</a></li>
+        <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 pdf</a> or</li>
+        <li><a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&utm_medium=email&utm_campaign=ICTstandard&utm_id=ICT+standard+adoption">CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)</a>.</li>
+      </ul>
+    </div>
+  </li>
+  <li>ensure the ICT accessibility requirements are in the technical requirements when establishing or renewing a common method of supply. Two examples are Standing Offers (SO) and Supply Arrangements (SA). This gives identified users the ability to incorporate accessibility requirements from the EN 301 549 (2021) in future call-ups or contracts.</li>
+  <li>Ensure the Business Owner requires that the successful supplier(s) must
+    <ul>
+      <li>provide an ACR in an accessible format which shows testing results against the correct ICT accessibility standard by a firm date as specified in the contract</li>
+      <li>provide a detailed roadmap in an accessible format where the proposed ICT solution does not fully conform with the EN 301 549 (2021) at contract award. In this case, the contract should contain a firm date by which the supplier of the ICT solution must provide the roadmap. The roadmap should include:
+        <ol>
+          <li>details on how the successful supplier(s) of the ICT solution will remediate their ICT solution to conform with the EN 301 549 (2021) over a timeframe set out in the contract; and</li>
+          <li>enough detail to monitor the ICT solution’s progress and delivery</li>
+        </ol>
       </li>
     </ul>
-  </nav>
-  <header>
-    <div id="wb-bnr" class="container">
-      <div class="row">
-        <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
-          <h2 class="wb-inv">Language selection</h2>
-          <ul class="list-inline mrgn-bttm-0">
-            <li>
-              <a lang="fr" hreflang="fr" href="/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/">
-                <span class="hidden-xs" translate="no">Français</span>
-                <abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> fr</abbr>
-              </a>
-            </li>
-          </ul>
-        </section>
-        <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
-          <a href="https://www.canada.ca/en.html" property="url">
-            <img src="https://www.canada.ca/etc/designs/canada//wet-boew/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" />
-            <span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
-          </a>
-          <meta property="name" content="Government of Canada">
-          <meta property="areaServed" typeof="Country" content="Canada" />
-          <link property="logo" href="https://www.canada.ca/etc/designs/canada//wet-boew/assets/wmms-blk.svg" />
-        </div>
-        <section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
-          <h2>Search</h2>
-          <form action="https://canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search">
-            <div class="form-group wb-srch-qry">
-              <label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
-              <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca" />
-              <datalist id="wb-srch-q-ac"></datalist>
-            </div>
-            <div class="form-group submit">
-              <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
-                <span class="glyphicon-search glyphicon"></span>
-                <span class="wb-inv">Search</span>
-              </button>
-            </div>
-          </form>
-        </section>
-      </div>
+  </li>
+  <li>monitor, along with the Business Owner, contractor performance issues. This includes issues related to delivering on ICT accessibility commitments. This information will help select appropriate measures for addressing documented issues.</li>
+</ul>
+<h3 id="justification-for-accessibility-decisions" tabindex="-1">Justification for accessibility decisions</h3>
+<p>Wherever possible, ICT accessibility requirements should be included in all ICT-related procurements. The Business Owner should only consider including a phased approach when a fully compliant ICT solution at the time of bid closing is not possible.</p>
+<p>As per the Directive on the Management of Procurement, the Business Owner must provide a written justification when they do not include accessibility requirements in the procurement. This justification should clearly explain the rationale and must be kept in the procurement file.</p>
+<p>Refer to the <a href="#where-to-find-help-and-resources">Where to find help and resources</a> to learn more about:</p>
+<ul>
+<li>when accessibility may not apply; and</li>
+<li>when to use a phased approach.</li>
+</ul>
+<h2 id="informing-the-supplier-community" tabindex="-1">Informing the supplier community</h2>
+<p>Suppliers should expect ICT-related procurements to include relevant accessibility clauses from the EN 301 549 (2021) as per the Guideline on Making Information Technology Usable by All.</p>
+<p>Suppliers may also consult the <a href="/en/index.html">Digital Accessibility Toolkit</a>. This publicly-available resource was created by federal public servants, and provides:</p>
+<ul>
+<li>resources to learn more about the EN 301 549 (2021); and</li>
+<li>how-to guides and tools to build capacity in creating accessible content and digital solutions.</li>
+</ul>
+<p><strong>Remember:</strong> Suppliers must direct their questions about active procurements to the Contracting Authority named in the solicitation documentation.</p>
+<h2 id="where-to-find-help-and-resources" tabindex="-1">Where to find help and resources</h2>
+<h3 id="tools-and-resources-for-the-gc" tabindex="-1">Tools and resources for the GC:</h3>
+<ul>
+<li>information available to the GC only:
+<ul>
+<li>the SSC Accessible ICT Procurement Toolkit available at <a href="https://www.gcpedia.gc.ca/wiki/Procurement/_Approvisionnement?setlang=en&amp;uselang=en"><span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>Procurement - GCpedia</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="tools-and-resources-for-the-gc-and-externally" tabindex="-1">Tools and resources for the GC and externally:</h3>
+<ul>
+<li>information available publicly includes:
+<ul>
+<li>the <a href="/en/digital-accessibility-in-the-government-of-canada/">Digital Accessibility Toolkit</a> - an external facing website to:
+<ul>
+<li><a href="https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/">generate EN 301 549 (2021) requirements</a> that are relevant to the procurement; and</li>
+<li>review all relevant <a href="/en/information-and-communication-technology-ict-accessibility-requirements/">EN 501 349 (2021) ICT accessibility requirements</a> for ICT products and services;</li>
+<li>reference other accessibility guidance including concerning document accessibility.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>SSC Accessibility Accommodations and Adaptive Technology Program</strong> - SSC or Other Government Department and agency procurements. Contact: AAACT / AATIA (SSC/SPC) <a href="mailto:aaact-aatia@ssc-spc.gc.ca">aaact-aatia@ssc-spc.gc.ca</a> AAACT can help you to incorporate the EN 301 549 into ICT-related procurements.</li>
+</ul>
+<h3 id="shared-services-canada" tabindex="-1">Shared Services Canada</h3>
+<ul>
+<li>SSC Contracting Authorities can reach out to <strong>Strategic Initiatives (SI)</strong> with any procurement questions. Contact: SI / IS (SSC/SPC) <a href="mailto:eitpstrategicinitiatives.initiativesstrategiquesatie@ssc-spc.gc.ca">eitpstrategicinitiatives.initiativesstrategiquesatie@ssc-spc.gc.ca</a></li>
+</ul>
+<h3 id="public-services-and-procurement-canada-pspc" tabindex="-1">Public Services and Procurement Canada (PSPC)</h3>
+<ul>
+<li>PSPC Contracting Authorities can reach out to the <strong>Accessible Procurement Resource Center</strong> (APRC). Contact : PA CRA Accessible / AP Accessible PRC (TPSGC/PWGSC) <a href="mailto:TPSGC.PACRAAccessible-APAccessiblePRC.PWGSC@tpsgc-pwgsc.gc.ca">TPSGC.PACRAAccessible-APAccessiblePRC.PWGSC@tpsgc-pwgsc.gc.ca</a></li>
+</ul>
+<h2 id="enquiries-and-comments-about-this-guide" tabindex="-1">Enquiries and comments about this Guide</h2>
+<p>Please direct any enquiries or comments about this Guide to:</p>
+<p><strong>Website:</strong> <a href="https://www.canada.ca/en/shared-services/corporate/aaact-program.html">Accessibility, Accommodation and Adaptive Computer Technology (AAACT) - Canada.ca</a></p>
+<p><strong>E-mail:</strong> <a href="mailto:aaact-aatia@ssc-spc.gc.ca">aaact-aatia@ssc-spc.gc.ca</a></p>
+<p><strong>Toll Free:</strong> 1-866-442-2228</p>
+<h2 id="references" tabindex="-1">References</h2>
+<h3 id="related-external-standards-and-specifications" tabindex="-1">Related External Standards and Specifications</h3>
+<h4 id="ssc-external-hyperlinks" tabindex="-1">SSC external hyperlinks</h4>
+<ul>
+<li><a href="/en/information-and-communication-technology-ict-accessibility-requirements/">SSC ICT Accessibility Requirements (Based on EN 301 549 (2021))</a></li>
+</ul>
+<h4 id="other-international-accessibility-hyperlinks" tabindex="-1">Other international accessibility hyperlinks</h4>
+<ul>
+<li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 (2021-03) Harmonized European Standard – Accessibility requirements for ICT products and services</a></li>
+<li><a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html">Convention on the Rights of Persons with Disabilities</a></li>
+<li><a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a> - World Wide Web Consortium (W3C)</li>
+</ul>
+<h4 id="government-of-canada" tabindex="-1">Government of Canada</h4>
+<h5 id="legislation" tabindex="-1">Legislation</h5>
+<ul>
+<li><a href="https://www.laws-lois.justice.gc.ca/eng/acts/A-0.6/page-1.html"><em>Accessible Canada Act</em> (justice.gc.ca)</a></li>
+<li><a href="https://laws-lois.justice.gc.ca/eng/Const/page-12.html">Canadian Charter of Rights and Freedoms</a></li>
+<li><a href="http://laws-lois.justice.gc.ca/eng/acts/H-6/"><em>Canadian Human Rights Act</em></a></li>
+<li><a href="http://laws-lois.justice.gc.ca/eng/acts/F-11/"><em>Financial Administration Act</em></a></li>
+</ul>
+<h5 id="related-policy-instruments" tabindex="-1">Related policy instruments</h5>
+<ul>
+<li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603">Policy on Service and Digital</a></li>
+<li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32601">Directive on Service and Digital</a></li>
+<li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32593">Policy on the Planning and Management of Investments</a></li>
+<li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=30683">Policy on Communications and Federal Identity</a></li>
+<li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049">Values and Ethics Code for the Public Sector</a></li>
+<li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692">Directive on the Management of Procurement- Canada.ca</a></li>
+<li><a href="https://buyandsell.gc.ca/policy-and-guidelines/standard-acquisition-clauses-and-conditions-manual">Standard Acquisition Clauses and Conditions</a></li>
+<li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=23601">Standard on Web Accessibility</a></li>
+</ul>
+<h5 id="guidance" tabindex="-1">Guidance</h5>
+<ul>
+<li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32620">Guideline on Making Information Technology Usable by All- Canada.ca</a></li>
+<li><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html">Nothing Without Us: Accessibility Strategy for the Public Service of Canada</a></li>
+<li><a href="https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html">Government of Canada Digital Standards: Playbook</a></li>
+</ul>
+<h2 id="definitions" tabindex="-1">Definitions</h2>
+<p>In addition to the definitions below, you will find definitions helpful for understanding this Guide in Appendix C of the <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32593">Policy on the Planning and Management of Investments</a>.</p>
+<dl>
+  <dt>Accessibility</dt>
+  <dd>
+    <blockquote>
+    <p>“Extent to which products, systems, services, environments and facilities can be used by people from a population with the widest range of user needs, characteristics and capabilities, to achieve identified goals in identified contexts of use (from ISO 9241-11:2018 [i.15])”</p>
+    </blockquote>
+    <div class="well well-sm">
+      <p><strong>Note 1:</strong> Context of use includes direct use or use supported by assistive technologies.</p>
+      <p><strong>Note 2:</strong> The context in which the ICT is used may affect its overall accessibility. This context could include other products and services with which the ICT may interact<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>.</p>
     </div>
-    <hr>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <nav class="gcweb-menu" typeof="SiteNavigationElement">
-            <h2 class="wb-inv">Menu</h2>
-            <button type="button" aria-haspopup="true" aria-expanded="false">
-              <span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
-            </button>
-            <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+  </dd>
+  <dt>Accessibility Conformance Reports using the Voluntary Product Accessibility Template</dt>
+  <dd>
+    <blockquote>
+      <p>“The Accessibility Conformance Report (ACR) based on the ITI VPAT<sup>®</sup> is the leading global reporting format for assisting buyers and sellers in identifying information and communications technology (ICT) products and services with accessibility features. Version 2 of the VPAT<sup>®</sup> was expanded to include the leading ICT accessibility standards: Section 508 (U.S.), EN 301 549 (EU), and W3C/WAI WCAG.<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Footnote </span>2</a></sup>”</p>
+    </blockquote>
+  </dd>
+  <dt>Accessibility Conformance Testing</dt>
+  <dd>Is the evaluation of a product or service to the requirements of a given standard, guideline or specification.</dd>
+  <dt>End-user</dt>
+  <dd>The ultimate consumer of a finished product (good or service)<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Footnote </span>3</a></sup>.</dd>
+  <dt>Usability / User Testing / Disability inclusive user testing</dt>
+  <dd>
+    <p>Is the process of conducting usability testing with people with disabilities. This step is an important part of the user experience design process. It ensures that a product or system:</p>
+    <ul>
+      <li>is accessible and easy to use for all users, including those with disabilities</li>
+      <li>is designed to be inclusive and does not unintentionally exclude people with disabilities</li>
+    </ul>
+    <p>In these tests, it is important to:</p>
+    <ul>
+      <li>recruit participants with a wide variety of disabilities, such as visual, hearing, motor and cognitive disabilities.</li>
+      <li>ensure that the testing environment and materials are accessible. This includes the software, hardware, and any assistive technology that participants with disabilities may require.</li>
+    </ul>
+    <p>The insights disability inclusive user testing provides can show designers and developers where their product or system may be challenging or inaccessible. They can then use these insights to make it inclusive and accessible to all users.</p>
+  </dd>
+  <dt>Information and Communication Technology (ICT)</dt>
+  <dd>
+    Technology, equipment, or interconnected system or subsystem of equipment for which the principal function is the creation, conversion, duplication, automatic acquisition, storage, analysis, evaluation, manipulation, management, movement, control, display, switching, interchange, transmission, reception, or broadcast of data or information.
+    <div class="well well-sm">
+      <strong>NOTE:</strong> Examples of ICT are web pages, electronic content, telecommunications products, computers and ancillary equipment, software including mobile applications, information kiosks and transaction machines, videos, IT services, and multifunction office machines which copy, scan, and fax documents<sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Footnote </span>4</a></sup>.
     </div>
-    <nav id="wb-bc" property="breadcrumb">
-      <h2>Breadcrumb Navigation</h2>
-      <div class="container">
-        <ol class="breadcrumb" typeof="BreadcrumbList">
-          <!-- First breadcrumb: Canada.ca -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html">
-              <span property="name">Canada.ca</span>
-            </a>
-            <meta property="position" content="1">
-          </li>
-          <!-- Second breadcrumb: Locale-based home link -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="/en/">Digital Accessibility Toolkit</a>
-            <meta property="position" content="2">
-          </li>
-          <!-- Additional breadcrumbs based on tags and subjects -->
-          <!-- Special handling for role-based pages -->
-          <!-- Existing breadcrumbs logic for non-role pages -->
-          <!-- Breadcrumbs based on 'subject' -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="/en/digital-accessibility-in-the-government-of-canada">
-              <span property="name">Digital accessibility in the Government of Canada</span>
-            </a>
-            <meta property="position" content="3">
-          </li>
-          <!-- Breadcrumbs based on 'tags' -->
-          <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="/en/procurement">
-              <span property="name">Procurement</span>
-            </a>
-            <meta property="position" content="4">
-          </li>
-        </ol>
-      </div>
-    </nav>
-  </header>
-  <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-    <div class="banner">
-      <div class="container p-0 p-sm-3">
-        <div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
-          <h1 property="name" id="wb-cont">Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement </h1>
-          <p>The framework for integrating accessibility into Information and Communication Technology (ICT)-related procurements within the Government of Canada (GC) emphasizes leveraging the EN 301 549 standard to ensure inclusivity and usability across ICT products and services, exceeding the minimum requirements of WCAG 2.1. Designed for GC departments, agencies, and suppliers, it outlines practical steps, roles, and resources to promote accessibility, aligning with the Accessible Canada Act and fostering a barrier-free digital environment.</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <section class="alert alert-warning mrgn-tp-lg">
-        <h2>Important information</h2>
-        <ul>
-          <li class="mrgn-tp-lg">Links that only work within the Government of Canada firewall are marked with <i class="fas fa-external-link-square-alt" aria-hidden="true"> <span class="mrgn-lft-sm">icon </span cl></i><span class="wb-inv">internal link</span></li>
-        </ul>
-      </section>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <a class="gc-dwnld-lnk" href="/docs/ProcurementGuideEN.docx" download="guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement">
-            <div class="well gc-dwnld">
-              <div class="row">
-                <div class="col-xs-4">
-                  <p>
-                    <img class="img-responsive thumbnail gc-dwnld-img" src="/img/doc.png" alt="" />
-                  </p>
-                </div>
-                <div class="col-xs-8">
-                  <p class="gc-dwnld-txt">
-                    <span>Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement</span>
-                    <span class="gc-dwnld-info"> (<i class="fas fa-file-word mrg-rght-sm" aria-hidden="true"><span class="wb-inv">Microsoft Word document</span></i> 77 <abbr title="KiloByte">KB</abbr>) </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <aside>
-        <h2>On this page</h2>
-        <ul>
-          <li><a href="#about-the-guide">About the Guide</a>
-          </li>
-          <li><a href="#audience">Audience</a>
-          </li>
-          <li><a href="#context">Context</a>
-          </li>
-          <li><a href="#about-the-en-301-549-standard">About the EN 301 549 Standard</a>
-            <ul>
-              <li><a href="#accessibility-standards-canada-adopts-the-en-301-549">Accessibility Standards Canada adopts the EN 301 549</a></li>
-              <li><a href="#use-the-en-301-549-2021-over-any-version-of-the-web-content-accessibility-guidelines-wcag-alone">Use the EN 301 549 (2021) over any version of the Web Content Accessibility Guidelines (WCAG) alone</a></li>
-              <li><a href="#incorporate-the-en-301-549-2021-as-a-best-practice">Incorporate the EN 301 549 (2021) as a best practice</a></li>
-              <li><a href="#roles-and-responsibilities">Roles and responsibilities</a></li>
-              <li><a href="#departments-and-agencies">Departments and agencies</a></li>
-            </ul>
-          </li>
-          <li><a href="#summary-of-the-process-to-include-accessibility-requirements-in-ict-related-procurements">Summary of the process to include accessibility requirements in ICT-related procurements</a>
-            <ul>
-              <li><a href="#business-owners-are-strongly-encouraged-to">Business Owners are strongly encouraged to:</a></li>
-              <li><a href="#contracting-authorities-are-strongly-encouraged-to">Contracting Authorities are strongly encouraged to:</a></li>
-              <li><a href="#justification-for-accessibility-decisions">Justification for accessibility decisions</a></li>
-            </ul>
-          </li>
-          <li><a href="#informing-the-supplier-community">Informing the supplier community</a>
-          </li>
-          <li><a href="#where-to-find-help-and-resources">Where to find help and resources</a>
-            <ul>
-              <li><a href="#tools-and-resources-for-the-gc">Tools and resources for the GC:</a></li>
-              <li><a href="#tools-and-resources-for-the-gc-and-externally">Tools and resources for the GC and externally:</a></li>
-              <li><a href="#shared-services-canada">Shared Services Canada</a></li>
-              <li><a href="#public-services-and-procurement-canada-pspc">Public Services and Procurement Canada (PSPC)</a></li>
-            </ul>
-          </li>
-          <li><a href="#enquiries-and-comments-about-this-guide">Enquiries and comments about this Guide</a>
-          </li>
-          <li><a href="#references">References</a>
-            <ul>
-              <li><a href="#related-external-standards-and-specifications">Related External Standards and Specifications</a></li>
-            </ul>
-          </li>
-          <li><a href="#definitions">Definitions</a>
-          </li>
-          <li><a href="#what-information-should-an-accessibility-conformance-report-acr-contain">What information should an Accessibility Conformance Report (ACR) contain?</a>
-          </li>
-        </ul>
-      </aside>
-      <h2 id="about-the-guide" tabindex="-1">About the Guide</h2>
-      <p>This Guide has been prepared for Government of Canada (GC) departments, agencies and organizations. It explains how to apply the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32620">Guideline on Making Information Technology Usable by All</a> in competitive and non-competitive Information Communication Technology (ICT)-related procurements.</p>
-      <p>In this Guide, “ICT-related procurement” means any good or service that includes an ICT component. Examples include:</p>
-      <ul>
-        <li>internal-facing or public-facing information technology (IT) solutions and equipment;</li>
-        <li>documents (electronic content or non-web documents) such as: <ul>
-            <li>instructional and technical manuals for a good or service;</li>
-            <li>training materials;</li>
-            <li>presentations;</li>
-            <li>reports;</li>
-          </ul>
-        </li>
-        <li>emails;</li>
-        <li>support services;</li>
-        <li>help desk.</li>
-      </ul>
-      <p>This Guide walks you through the steps for considering accessibility when developing requirements for your ICT-related procurements. It also includes helpful information about relevant ICT guidelines and standards.</p>
-      <h2 id="audience" tabindex="-1">Audience</h2>
-      <p>This Guide is for GC departments, agencies, and organizations, listed in Schedule I, I.1 and II of the <a href="http://laws-lois.justice.gc.ca/eng/acts/f-11/"><em>Financial Administration Act</em></a>.</p>
-      <p>The Guide will help:</p>
-      <ul>
-        <li>Business Owners (Technical Authority or the Client) and Contracting Authorities in GC departments, agencies and organizations.</li>
-        <li>Suppliers wanting to learn more about ICT accessibility requirements within GC procurements.</li>
-      </ul>
-      <h2 id="context" tabindex="-1">Context</h2>
-      <p>The <a href="https://www.parl.ca/DocumentViewer/en/42-1/bill/C-81/royal-assent"><em>Accessible Canada Act</em></a> (ACA) was passed in 2019, to realize a barrier-free Canada by 2040. It requires entities under federal jurisdiction to identify, remove, and prevent accessibility barriers in seven priority areas, including ICT, and procurement.</p>
-      <p>The ACA also requires organizations to publish accessibility plans and annual progress reports. You can find Departmental Accessibility Plans at <a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service.html">Accessibility in the public service - Canada.ca</a>.</p>
-      <p>The <a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html">Accessibility Strategy for the Public Service of Canada</a>:</p>
-      <ul>
-        <li>sets out how the GC will advance accessibility for all Canadians through its policies, programs and services; and</li>
-        <li>identifies SSC as the lead for developing the framework on how to embed accessibility requirements into ICT-related procurement.</li>
-      </ul>
-      <p>The <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32620">Guideline for Making Information Technology Usable by All</a>:</p>
-      <ul>
-        <li>strongly encourages departments, agencies, and organizations to leverage the “<a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ICTstandard&amp;utm_id=ICT+standard+adoption">CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)</a>” (CAN/ASC standard) when acquiring or developing internal-facing and external-facing ICT; and</li>
-        <li>provides further context as to why accessibility is important to the GC.</li>
-      </ul>
-      <div class="well well-sm">
-        <p><strong>Note:</strong> the CAN/ASC standard is a copy of the EN 301 549 v.3.2.1 (2021-03) <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">Harmonised European Standard Accessibility requirements for ICT products and services</a>.</p>
-      </div>
-      <h2 id="about-the-en-301-549-standard" tabindex="-1">About the EN 301 549 Standard</h2>
-      <p>While this Guide refers to the standard as the “EN 301 549 (2021)”, its full name is “<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 (2021-03) Harmonised European Standard – Accessibility requirements for ICT products and services</a>”. The EN 301 549 (2021) defines accessibility requirements for ICT products and services.</p>
-      <p>The EN 301 549 (2021) applies to almost every ICT procurement, such as:</p>
-      <ul>
-        <li>software, including mobile applications;</li>
-        <li>websites/webpages (external facing websites and those internal to the GC);</li>
-        <li>administrator panels;</li>
-        <li>mobile devices;</li>
-        <li>hardware, including laptops;</li>
-        <li>printers;</li>
-        <li>kiosks and transaction machines;</li>
-        <li>documents (electronic content or non-web documents), including: <ul>
-            <li>instructional and technical manuals for a good or service;</li>
-            <li>training materials;</li>
-            <li>presentations;</li>
-            <li>reports; and</li>
-            <li>emails.</li>
-          </ul>
-        </li>
-        <li>ICT support, including: <ul>
-            <li>help desks; and</li>
-            <li>customer service support.</li>
-          </ul>
-        </li>
-        <li>telecommunications products, including audio/web conferencing;</li>
-        <li>group chats;</li>
-        <li>videos; and</li>
-        <li>information technology services.</li>
-      </ul>
-      <p>If the Business Owner is unsure whether something is ICT, ask:</p>
-      <ul>
-        <li>Is it digital?</li>
-        <li>Does someone interact with it?</li>
-      </ul>
-      <p>If the answer to <strong>both</strong> of these questions is “yes”, then the EN 301 549 (2021) likely applies to your procurement.</p>
-      <p>The <strong>type</strong> and <strong>functionality</strong> of the ICT goods or services that the GC is buying determine the method of supply and the accessibility requirements you will need to include in the solicitation, including the evaluation grid. This also applies to a procurement of a good or service this is not itself ICT, but that ICT will support.</p>
-      <h3 id="accessibility-standards-canada-adopts-the-en-301-549" tabindex="-1">Accessibility Standards Canada adopts the EN 301 549</h3>
-      <p><a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ICTstandard&amp;utm_id=ICT+standard+adoption">Accessible Standards Canada</a> has adopted “CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT) as a published National Standard of Canada. As an official standard of the Government of Canada, it is approved for use throughout the country.” This standard is not yet mandatory for the GC.</p>
-      <h3 id="use-the-en-301-549-2021-over-any-version-of-the-web-content-accessibility-guidelines-wcag-alone" tabindex="-1">Use the EN 301 549 (2021) over any version of the Web Content Accessibility Guidelines (WCAG) alone</h3>
-      <p>While the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=23601">Standard on Web Accessibility</a> requires each public-facing government <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=23601#webpage">Web page</a> to meet all five <a href="http://www.w3.org/TR/WCAG20/#conformance-reqs">WCAG 2.0 conformance requirements</a>, the Treasury Board of Canada Secretariat (TBS) is currently reviewing the Standard on Web Accessibility and recommends that organizations:</p>
-      <ul>
-        <li>adopt the CAN/ASC standard (<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a>); and</li>
-        <li>follow the guidance in the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32620">Guideline on Making Information Technology Usable by All</a>.</li>
-      </ul>
-      <div class="well well-sm">
-        <p><strong>Note:</strong> The EN 301 549 (2021) is a more inclusive standard and exceeds the minimum required by the Standard on Web Accessibility. For example, the EN 501 349 (2021) includes:</p>
-        <ul>
-          <li>WCAG 2.1 for web, native software, and non-web documents;</li>
-          <li>additional requirements for hardware, authoring tools, support services, and more.</li>
-        </ul>
-      </div>
-      <p>Ongoing advancements in technology require the GC to use a broader standard for ICT accessibility. This is why this guide recommends that Business Owners:</p>
-      <ul>
-        <li>implement the EN 301 549 (2021) until an updated EN 301 549 is published and there is guidance to move to the next version;</li>
-        <li>do not use only any version of the WCAG standard alone, rather use the EN 301 549 (2021) which includes WCAG 2.1; and</li>
-        <li>can use the EN 301 549 (2021) and <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a>.</li>
-      </ul>
-      <h3 id="incorporate-the-en-301-549-2021-as-a-best-practice" tabindex="-1">Incorporate the EN 301 549 (2021) as a best practice</h3>
-      <p>We also recommend that Business Owners include all relevant ICT accessibility requirements from the EN 301 549 (2021) in ICT-related procurements. This includes Standing Offers and call-ups, Supply Arrangements and Contracts, Contract and Task Authorizations. By including the ICT accessibility requirements, this ensures that:</p>
-      <ul>
-        <li>the procurement is cost effective by avoiding: <ul>
-            <li>incurring additional costs to remediate the ICT because ICT accessibility was not considered in the original procurement; or</li>
-            <li>re-procuring an accessible solution.</li>
-          </ul>
-        </li>
-        <li>the ICT goods and services are inclusive by design and accessible by default.</li>
-      </ul>
-      <p>Refer to <a href="#where-to-find-help-and-resources">Where to find help and resources</a> for assistance.</p>
-      <h3 id="roles-and-responsibilities" tabindex="-1">Roles and responsibilities</h3>
-      <p>Refer to the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692">Directive on the Management of Procurement- Canada.ca</a> to learn more about the roles and responsibilities of the Business Owner (Technical Authorities or Clients) and Contracting Authority.</p>
-      <h3 id="departments-and-agencies" tabindex="-1">Departments and agencies</h3>
-      <p>For all ICT-related procurements that:</p>
-      <ul>
-        <li>do not include accessibility requirements; or</li>
-        <li>include a phased approach to ICT accessibility conformance (i.e., a remediation plan or roadmap),</li>
-      </ul>
-      <p>departments and agencies are strongly encouraged to seek approval of the justification from the appropriate authority (e.g., senior management, Section 32, etc.).</p>
-      <h2 id="summary-of-the-process-to-include-accessibility-requirements-in-ict-related-procurements" tabindex="-1">Summary of the process to include accessibility requirements in ICT-related procurements</h2>
-      <h3 id="business-owners-are-strongly-encouraged-to" tabindex="-1">Business Owners are strongly encouraged to:</h3>
-      <ul>
-        <li>understand the ICT components of the requirement and the accessibility requirements from the EN 301 549 (2021) that apply to the procurement;</li>
-        <li>include the ICT accessibility requirements as part of the technical requirements for establishing or renewing a common Method of Supply such as Standing Offers (SO) and Supply Arrangements (SA); <ul>
-            <li>This will permit the department or agency issuing a call-up or contract to incorporate specific accessibility requirements from the EN 301 549 (2021).</li>
-          </ul>
-        </li>
-        <li>develop a budget to include accessibility conformance testing, end-user testing, and other validation requirements (if applicable) in their project plan;</li>
-        <li>determine how to assess conformance with the accessibility requirements during the entire contract period;</li>
-        <li>determine the timelines to develop, test, and release an ICT solution, including provisions for temporary workarounds to address any accessibility barriers before the ICT fully meets the accessibility requirements;</li>
-        <li>understand the market’s maturity to deliver accessible ICT at either: <ul>
-            <li>bid closing, or</li>
-            <li>over a timeframe specified in the procurement</li>
-          </ul>
-        </li>
-        <li>provide Industry Days early on in the ICT-related procurement process to allow suppliers to ask questions about: <ul>
-            <li>ICT accessibility requirements; and</li>
-            <li>other key requirements.</li>
-          </ul>
-        </li>
-        <li>require all suppliers of the ICT to submit an Accessibility Conformance Report (ACR) preferably using the Voluntary Product Accessibility Template (<a href="https://www.itic.org/policy/accessibility/vpat">VPAT<sup>®</sup></a>) or a comparable format and provide in an accessible format.</li>
-      </ul>
-      <div class="well well-sm">
-        <p><strong>Note:</strong> where the only ICT component are non-web documents only (e.g., Word, PowerPoint, PDF, etc.), requesting an ACR is not required. For further information on an ACR, please refer to <a href="#what-information-should-an-accessibility-conformance-report-acr-contain">What information should an Accessibility Conformance Report (ACR) contain?</a></p>
-      </div>
-      <p><strong>Clarifications of who provides the ACR and when it is provided:</strong></p>
-      <ul>
-        <li>when contracting for a <strong>Commercial-off-the-Shelf (COTS)</strong> the Original Equipment Manufacturer (OEM) supplier must provide the ACR with the bid and the successful supplier would provide a Roadmap and agree to remediate the solution over a period of time</li>
-        <li>when contracting for a <strong>custom ICT solution</strong>, the OEM supplier must provide the ACR as described in the contract and ensure that the ICT solution is delivered to the ICT requirements</li>
-        <li>when contracting with an <strong>integrator</strong>, the integrator must: <ul>
-            <li>implement the solution to conform to the EN 301 549, to the greatest extent the OEM platform allows, using and enabling the OEM provided accessibility features or through custom implementations as appropriate;</li>
-            <li>have a good working relationship with the OEM; and</li>
-            <li>work with the OEM to address accessibility issues.</li>
-          </ul>
-        </li>
-        <li>require suppliers of the ICT to have the ACR prepared by: <ul>
-            <li>a third-party with professional ICT accessibility conformance testing (preferably); or</li>
-            <li>the supplier’s own experienced in-house accessibility specialists.</li>
-          </ul>
-        </li>
-        <li>specify which ICT accessibility standard(s) will be accepted as part of the Accessibility Conformance Report (ACR). <ul>
-            <li>where the successful supplier(s) has submitted an ACR which records testing results against another ICT accessibility standard, the successful supplier(s) must provide an ACR in an accessible format which shows testing against the EN 301 549 (2021) standard within by a firm date</li>
-          </ul>
-        </li>
-        <li>include language that says Canada understands that it is unlikely that suppliers will be able to fully conform with the EN 301 549 (2021) at bid closing, however at contract award, the winning bid will be required to demonstrate how full conformance will be achieved. At contract award, the successful supplier is required to: <ul>
-            <li>submit a detailed roadmap in an accessible format where the proposed ICT solution does not fully conform with the EN 301 549 (2021) as specified by the Technical Authority. In this case, the contract should contain a firm date by which the supplier of the ICT solution must provide the roadmap. The roadmap should include: <ul>
-                <li>details on how the successful supplier(s) of the ICT solution will remediate their ICT solution to conform with the EN 301 549 (2021) over a timeframe set out in the contract; and</li>
-                <li>enough detail to monitor the ICT solution’s progress and delivery</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>ensure that the process includes the following requirements: <ul>
-            <li>accessibility conformance testing as follows: <ul>
-                <li>evaluating accessibility conformance to the EN 301 549 (2021) during the bid evaluation phase; and</li>
-                <li>as appropriate, at pre-determined intervals throughout the contract period.</li>
-              </ul>
-            </li>
-            <li>user testing with persons with disabilities as follows: <ul>
-                <li>the bid evaluation phase; and</li>
-                <li>as appropriate, at pre-determined intervals throughout the contract period.</li>
-              </ul>
-            </li>
-            <li>a feedback mechanism to address user complaints and accessibility issues that: <ul>
-                <li>are known prior to contract award; and</li>
-                <li>arise during contract administration.</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>review and understand the supplier’s statements in their ACR about how their ICT solution conforms with the relevant sections of the EN 301 549 (2021)</li>
-        <li>conduct the technical evaluation</li>
-      </ul>
-      <h3 id="contracting-authorities-are-strongly-encouraged-to" tabindex="-1">Contracting Authorities are strongly encouraged to:</h3>
-      <ul>
-        <li>discuss with Business Owners if industry engagement is needed before starting an ICT-related procurement process (e.g., Request for Information with a draft Statement of Work). This work may help to assess market capacity to deliver a fully accessible ICT solution at contract award or if a phased approach is needed.</li>
-        <li>ensure the solicitation and resulting contract have binding accessibility language and ICT requirements.</li>
-        <li>ensure the solicitation and resulting contract include the Business Owner’s ICT requirements that can be generated from SSC’s Information and Communication Technology (ICT) Requirements Generator (Prototype) for the EN 301 549 (2021).The <a href="https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/">SSC tool generates the requirements from the EN 301 549 (2021)</a>. <div class="well well-sm mrgn-tp-md">
-            <p><strong>Note:</strong> Alternatively, they can provide a hyperlink to either the:</p>
-            <ul>
-              <li><a href="/en/information-and-communication-technology-ict-accessibility-requirements/">Information and Communications Technology (ICT) Accessibility Requirements</a></li>
-              <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 pdf</a> or</li>
-              <li><a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&utm_medium=email&utm_campaign=ICTstandard&utm_id=ICT+standard+adoption">CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)</a>.</li>
-            </ul>
-          </div>
-        </li>
-        <li>ensure the ICT accessibility requirements are in the technical requirements when establishing or renewing a common method of supply. Two examples are Standing Offers (SO) and Supply Arrangements (SA). This gives identified users the ability to incorporate accessibility requirements from the EN 301 549 (2021) in future call-ups or contracts.</li>
-        <li>Ensure the Business Owner requires that the successful supplier(s) must <ul>
-            <li>provide an ACR in an accessible format which shows testing results against the correct ICT accessibility standard by a firm date as specified in the contract</li>
-            <li>provide a detailed roadmap in an accessible format where the proposed ICT solution does not fully conform with the EN 301 549 (2021) at contract award. In this case, the contract should contain a firm date by which the supplier of the ICT solution must provide the roadmap. The roadmap should include: <ol>
-                <li>details on how the successful supplier(s) of the ICT solution will remediate their ICT solution to conform with the EN 301 549 (2021) over a timeframe set out in the contract; and</li>
-                <li>enough detail to monitor the ICT solution’s progress and delivery</li>
-              </ol>
-            </li>
-          </ul>
-        </li>
-        <li>monitor, along with the Business Owner, contractor performance issues. This includes issues related to delivering on ICT accessibility commitments. This information will help select appropriate measures for addressing documented issues.</li>
-      </ul>
-      <h3 id="justification-for-accessibility-decisions" tabindex="-1">Justification for accessibility decisions</h3>
-      <p>Wherever possible, ICT accessibility requirements should be included in all ICT-related procurements. The Business Owner should only consider including a phased approach when a fully compliant ICT solution at the time of bid closing is not possible.</p>
-      <p>As per the Directive on the Management of Procurement, the Business Owner must provide a written justification when they do not include accessibility requirements in the procurement. This justification should clearly explain the rationale and must be kept in the procurement file.</p>
-      <p>Refer to the <a href="#where-to-find-help-and-resources">Where to find help and resources</a> to learn more about:</p>
-      <ul>
-        <li>when accessibility may not apply; and</li>
-        <li>when to use a phased approach.</li>
-      </ul>
-      <h2 id="informing-the-supplier-community" tabindex="-1">Informing the supplier community</h2>
-      <p>Suppliers should expect ICT-related procurements to include relevant accessibility clauses from the EN 301 549 (2021) as per the Guideline on Making Information Technology Usable by All.</p>
-      <p>Suppliers may also consult the <a href="/en/index.html">Digital Accessibility Toolkit</a>. This publicly-available resource was created by federal public servants, and provides:</p>
-      <ul>
-        <li>resources to learn more about the EN 301 549 (2021); and</li>
-        <li>how-to guides and tools to build capacity in creating accessible content and digital solutions.</li>
-      </ul>
-      <p><strong>Remember:</strong> Suppliers must direct their questions about active procurements to the Contracting Authority named in the solicitation documentation.</p>
-      <h2 id="where-to-find-help-and-resources" tabindex="-1">Where to find help and resources</h2>
-      <h3 id="tools-and-resources-for-the-gc" tabindex="-1">Tools and resources for the GC:</h3>
-      <ul>
-        <li>information available to the GC only: <ul>
-            <li>the SSC Accessible ICT Procurement Toolkit available at <a href="https://www.gcpedia.gc.ca/wiki/Procurement/_Approvisionnement?setlang=en&amp;uselang=en"><span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>Procurement - GCpedia</a></li>
-          </ul>
-        </li>
-      </ul>
-      <h3 id="tools-and-resources-for-the-gc-and-externally" tabindex="-1">Tools and resources for the GC and externally:</h3>
-      <ul>
-        <li>information available publicly includes: <ul>
-            <li>the <a href="/en/digital-accessibility-in-the-government-of-canada/">Digital Accessibility Toolkit</a> - an external facing website to: <ul>
-                <li><a href="https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/">generate EN 301 549 (2021) requirements</a> that are relevant to the procurement; and</li>
-                <li>review all relevant <a href="/en/information-and-communication-technology-ict-accessibility-requirements/">EN 501 349 (2021) ICT accessibility requirements</a> for ICT products and services;</li>
-                <li>reference other accessibility guidance including concerning document accessibility.</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><strong>SSC Accessibility Accommodations and Adaptive Technology Program</strong> - SSC or Other Government Department and agency procurements. Contact: AAACT / AATIA (SSC/SPC) <a href="mailto:aaact-aatia@ssc-spc.gc.ca">aaact-aatia@ssc-spc.gc.ca</a> AAACT can help you to incorporate the EN 301 549 into ICT-related procurements.</li>
-      </ul>
-      <h3 id="shared-services-canada" tabindex="-1">Shared Services Canada</h3>
-      <ul>
-        <li>SSC Contracting Authorities can reach out to <strong>Strategic Initiatives (SI)</strong> with any procurement questions. Contact: SI / IS (SSC/SPC) <a href="mailto:eitpstrategicinitiatives.initiativesstrategiquesatie@ssc-spc.gc.ca">eitpstrategicinitiatives.initiativesstrategiquesatie@ssc-spc.gc.ca</a></li>
-      </ul>
-      <h3 id="public-services-and-procurement-canada-pspc" tabindex="-1">Public Services and Procurement Canada (PSPC)</h3>
-      <ul>
-        <li>PSPC Contracting Authorities can reach out to the <strong>Accessible Procurement Resource Center</strong> (APRC). Contact : PA CRA Accessible / AP Accessible PRC (TPSGC/PWGSC) <a href="mailto:TPSGC.PACRAAccessible-APAccessiblePRC.PWGSC@tpsgc-pwgsc.gc.ca">TPSGC.PACRAAccessible-APAccessiblePRC.PWGSC@tpsgc-pwgsc.gc.ca</a></li>
-      </ul>
-      <h2 id="enquiries-and-comments-about-this-guide" tabindex="-1">Enquiries and comments about this Guide</h2>
-      <p>Please direct any enquiries or comments about this Guide to:</p>
-      <p><strong>Website:</strong> <a href="https://www.canada.ca/en/shared-services/corporate/aaact-program.html">Accessibility, Accommodation and Adaptive Computer Technology (AAACT) - Canada.ca</a></p>
-      <p><strong>E-mail:</strong> <a href="mailto:aaact-aatia@ssc-spc.gc.ca">aaact-aatia@ssc-spc.gc.ca</a></p>
-      <p><strong>Toll Free:</strong> 1-866-442-2228</p>
-      <h2 id="references" tabindex="-1">References</h2>
-      <h3 id="related-external-standards-and-specifications" tabindex="-1">Related External Standards and Specifications</h3>
-      <h4 id="ssc-external-hyperlinks" tabindex="-1">SSC external hyperlinks</h4>
-      <ul>
-        <li><a href="/en/information-and-communication-technology-ict-accessibility-requirements/">SSC ICT Accessibility Requirements (Based on EN 301 549 (2021))</a></li>
-      </ul>
-      <h4 id="other-international-accessibility-hyperlinks" tabindex="-1">Other international accessibility hyperlinks</h4>
-      <ul>
-        <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 (2021-03) Harmonized European Standard – Accessibility requirements for ICT products and services</a></li>
-        <li><a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html">Convention on the Rights of Persons with Disabilities</a></li>
-        <li><a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a> - World Wide Web Consortium (W3C)</li>
-      </ul>
-      <h4 id="government-of-canada" tabindex="-1">Government of Canada</h4>
-      <h5 id="legislation" tabindex="-1">Legislation</h5>
-      <ul>
-        <li><a href="https://www.laws-lois.justice.gc.ca/eng/acts/A-0.6/page-1.html"><em>Accessible Canada Act</em> (justice.gc.ca)</a></li>
-        <li><a href="https://laws-lois.justice.gc.ca/eng/Const/page-12.html">Canadian Charter of Rights and Freedoms</a></li>
-        <li><a href="http://laws-lois.justice.gc.ca/eng/acts/H-6/"><em>Canadian Human Rights Act</em></a></li>
-        <li><a href="http://laws-lois.justice.gc.ca/eng/acts/F-11/"><em>Financial Administration Act</em></a></li>
-      </ul>
-      <h5 id="related-policy-instruments" tabindex="-1">Related policy instruments</h5>
-      <ul>
-        <li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603">Policy on Service and Digital</a></li>
-        <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32601">Directive on Service and Digital</a></li>
-        <li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32593">Policy on the Planning and Management of Investments</a></li>
-        <li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=30683">Policy on Communications and Federal Identity</a></li>
-        <li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049">Values and Ethics Code for the Public Sector</a></li>
-        <li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692">Directive on the Management of Procurement- Canada.ca</a></li>
-        <li><a href="https://buyandsell.gc.ca/policy-and-guidelines/standard-acquisition-clauses-and-conditions-manual">Standard Acquisition Clauses and Conditions</a></li>
-        <li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=23601">Standard on Web Accessibility</a></li>
-      </ul>
-      <h5 id="guidance" tabindex="-1">Guidance</h5>
-      <ul>
-        <li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32620">Guideline on Making Information Technology Usable by All- Canada.ca</a></li>
-        <li><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html">Nothing Without Us: Accessibility Strategy for the Public Service of Canada</a></li>
-        <li><a href="https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html">Government of Canada Digital Standards: Playbook</a></li>
-      </ul>
-      <h2 id="definitions" tabindex="-1">Definitions</h2>
-      <p>In addition to the definitions below, you will find definitions helpful for understanding this Guide in Appendix C of the <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32593">Policy on the Planning and Management of Investments</a>.</p>
-      <dl>
-        <dt>Accessibility</dt>
-        <dd>
-          <blockquote>
-            <p>“Extent to which products, systems, services, environments and facilities can be used by people from a population with the widest range of user needs, characteristics and capabilities, to achieve identified goals in identified contexts of use (from ISO 9241-11:2018 [i.15])”</p>
-          </blockquote>
-          <div class="well well-sm">
-            <p><strong>Note 1:</strong> Context of use includes direct use or use supported by assistive technologies.</p>
-            <p><strong>Note 2:</strong> The context in which the ICT is used may affect its overall accessibility. This context could include other products and services with which the ICT may interact<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>.</p>
-          </div>
-        </dd>
-        <dt>Accessibility Conformance Reports using the Voluntary Product Accessibility Template</dt>
-        <dd>
-          <blockquote>
-            <p>“The Accessibility Conformance Report (ACR) based on the ITI VPAT<sup>®</sup> is the leading global reporting format for assisting buyers and sellers in identifying information and communications technology (ICT) products and services with accessibility features. Version 2 of the VPAT<sup>®</sup> was expanded to include the leading ICT accessibility standards: Section 508 (U.S.), EN 301 549 (EU), and W3C/WAI WCAG.<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Footnote </span>2</a></sup>”</p>
-          </blockquote>
-        </dd>
-        <dt>Accessibility Conformance Testing</dt>
-        <dd>Is the evaluation of a product or service to the requirements of a given standard, guideline or specification.</dd>
-        <dt>End-user</dt>
-        <dd>The ultimate consumer of a finished product (good or service)<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Footnote </span>3</a></sup>.</dd>
-        <dt>Usability / User Testing / Disability inclusive user testing</dt>
-        <dd>
-          <p>Is the process of conducting usability testing with people with disabilities. This step is an important part of the user experience design process. It ensures that a product or system:</p>
-          <ul>
-            <li>is accessible and easy to use for all users, including those with disabilities</li>
-            <li>is designed to be inclusive and does not unintentionally exclude people with disabilities</li>
-          </ul>
-          <p>In these tests, it is important to:</p>
-          <ul>
-            <li>recruit participants with a wide variety of disabilities, such as visual, hearing, motor and cognitive disabilities.</li>
-            <li>ensure that the testing environment and materials are accessible. This includes the software, hardware, and any assistive technology that participants with disabilities may require.</li>
-          </ul>
-          <p>The insights disability inclusive user testing provides can show designers and developers where their product or system may be challenging or inaccessible. They can then use these insights to make it inclusive and accessible to all users.</p>
-        </dd>
-        <dt>Information and Communication Technology (ICT)</dt>
-        <dd> Technology, equipment, or interconnected system or subsystem of equipment for which the principal function is the creation, conversion, duplication, automatic acquisition, storage, analysis, evaluation, manipulation, management, movement, control, display, switching, interchange, transmission, reception, or broadcast of data or information. <div class="well well-sm">
-            <strong>NOTE:</strong> Examples of ICT are web pages, electronic content, telecommunications products, computers and ancillary equipment, software including mobile applications, information kiosks and transaction machines, videos, IT services, and multifunction office machines which copy, scan, and fax documents<sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Footnote </span>4</a></sup>.
-          </div>
-        </dd>
-      </dl>
-      <h2 id="what-information-should-an-accessibility-conformance-report-acr-contain" tabindex="-1">What information should an Accessibility Conformance Report (ACR) contain?</h2>
-      <p>We recommend that suppliers use the industry template created by the Information Technology Industry Council (ITI). The “Voluntary Product Accessibility Template” and “VPAT” are registered service marks of the Information Technology Industry Council (ITI). For further information please refer to the <a href="https://www.itic.org/policy/accessibility">ITI website</a>.</p>
-      <p>The following information highlights some of the information which should be included when using an alternative format. This list is not exhaustive and should not be relied upon as the sole source of what information should be provided in a good ACR. The ACR should:</p>
-      <ul>
-        <li>be in an accessible format</li>
-        <li>report conformance to the ICT accessibility standard or guideline specified in the solicitation</li>
-        <li>clearly indicate when the ACR was created</li>
-        <li>provide contact information for the person who created the report</li>
-        <li>identify what was tested including version of product, confirmation that full solution was tested or disclose what sampling methodology was used to determine sample size</li>
-        <li>explain what type of testing and tools were used to test against the ICT accessibility standard or guideline</li>
-        <li>provide a list of the entire standard or guidelines list of requirements, record the appropriate level of conformance for each item, providing an explanation of where the areas of non-conformance are</li>
-        <li>any additional information needed to provide context and allow the ACR to clearly communicate its level of conformance</li>
-      </ul>
-      <p>If users are not using the industry template, we recommend that you do further research to understand what constitutes a good quality ACR and what information you need to provide about the accessibility conformance of your solution.</p>
-      <aside class="wb-fnote" role="note">
-        <h2 id="fn">Footnotes</h2>
-        <dl>
-          <dt>Footnote 1</dt>
-          <dd id="fn1">
-            <p>Copied from the EN 301 549 V3.2.1 (2021-03), 3 Definition of terms, symbols and abbreviations, page 15</p>
-            <p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a></p>
-          </dd>
-          <dt>Footnote 2</dt>
-          <dd id="fn2">
-            <p>Copied from the Information Technology Industry Council (ITI) website <a href="https://www.itic.org/policy/accessibility/vpat">VPAT<sup>®</sup> - Information Technology Industry Council (itic.org)</a>.</p>
-            <p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Return to footnote </span>2<span class="wb-inv"> referrer</span></a></p>
-          </dd>
-          <dt>Footnote 3</dt>
-          <dd id="fn3">
-            <p>Adopted from <a href="https://www.merriam-webster.com/dictionary/end%20user">End user Definition & Meaning - Merriam-Webster</a></p>
-            <p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Return to footnote </span>3<span class="wb-inv"> referrer</span></a></p>
-          </dd>
-          <dt>Footnote 4</dt>
-          <dd id="fn4">
-            <p>Copied from the EN 301 549 V3.2.1 (2021-03), 3 Definition of terms, symbols and abbreviations, page 17</p>
-            <p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Return to footnote </span>4<span class="wb-inv"> referrer</span></a></p>
-          </dd>
-        </dl>
-      </aside>
-    </div>
-    <section class="pagedetails container">
-      <h2 class="wb-inv">Page details</h2>
-      <dl id="wb-dtmd">
-        <dt>Date modified:</dt>
-        <dd><time property="dateModified">2025-09-19</time></dd>
-      </dl>
-    </section>
-  </main>
-  <aside class="contribute">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribute to this project</span><small>on Github.com</small></h2>
-        </div>
-        <div class="col-md-7">
-          <ul class="list-inline">
-            <li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Source code</a></li>
-            <li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Issues</a></li>
-            <li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions</a></li>
-          </ul>
-          <p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca?subject=Contribute%20to%20the%20Digital%20Accessibility%20Toolkit">Reach the Digital Accessibility Toolkit by email</a></p>
-        </div>
-      </div>
-    </div>
-  </aside>
-  <footer id="wb-info">
-    <h2 class="wb-inv">About this site</h2>
-    <div class="gc-main-footer">
-      <div class="container">
-        <nav aria-labelledby="governmentOfCanadan">
-          <h3 id="governmentOfCanadan">Government of Canada</h3>
-          <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
-            <li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
-            <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-            <li><a href="https://www.canada.ca/en/government/system.html">About government</a></li>
-          </ul>
-          <h4><span class="wb-inv">Themes and topics</span></h4>
-          <ul class="list-unstyled colcount-sm-2 colcount-md-3">
-            <li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
-            <li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
-            <li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
-            <li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
-            <li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-            <li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
-            <li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-            <li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
-            <li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
-            <li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
-            <li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
-            <li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
-            <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
-            <li><a href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
-            <li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
-            <li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous Peoples</a></li>
-            <li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
-            <li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
-            <li><a href="https://www.canada.ca/en/services/life-events.html">Manage life events</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="gc-sub-footer">
-      <div class="container d-flex align-items-center">
-        <nav aria-labelledby="governmentCorporateHeading">
-          <h3 class="wb-inv" id="governmentCorporateHeading">Government of Canada Corporate</h3>
-          <ul>
-            <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-            <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-            <li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
-            <li><a href="https://www.canada.ca/en/transparency/terms.htm">Terms and conditions</a></li>
-            <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-          </ul>
-        </nav>
-        <div class="wtrmrk align-self-end">
-          <img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
-</body>
+  </dd>
+</dl>
+<h2 id="what-information-should-an-accessibility-conformance-report-acr-contain" tabindex="-1">What information should an Accessibility Conformance Report (ACR) contain?</h2>
+<p>We recommend that suppliers use the industry template created by the Information Technology Industry Council (ITI). The “Voluntary Product Accessibility Template” and “VPAT” are registered service marks of the Information Technology Industry Council (ITI). For further information please refer to the <a href="https://www.itic.org/policy/accessibility">ITI website</a>.</p>
+<p>The following information highlights some of the information which should be included when using an alternative format. This list is not exhaustive and should not be relied upon as the sole source of what information should be provided in a good ACR. The ACR should:</p>
+<ul>
+<li>be in an accessible format</li>
+<li>report conformance to the ICT accessibility standard or guideline specified in the solicitation</li>
+<li>clearly indicate when the ACR was created</li>
+<li>provide contact information for the person who created the report</li>
+<li>identify what was tested including version of product, confirmation that full solution was tested or disclose what sampling methodology was used to determine sample size</li>
+<li>explain what type of testing and tools were used to test against the ICT accessibility standard or guideline</li>
+<li>provide a list of the entire standard or guidelines list of requirements, record the appropriate level of conformance for each item, providing an explanation of where the areas of non-conformance are</li>
+<li>any additional information needed to provide context and allow the ACR to clearly communicate its level of conformance</li>
+</ul>
+<p>If users are not using the industry template, we recommend that you do further research to understand what constitutes a good quality ACR and what information you need to provide about the accessibility conformance of your solution.</p>
+<aside class="wb-fnote" role="note">
+	<h2 id="fn">Footnotes</h2>
+	<dl>
+		<dt>Footnote 1</dt>
+		<dd id="fn1">
+			<p>Copied from the EN 301 549 V3.2.1 (2021-03), 3 Definition of terms, symbols and abbreviations, page 15</p>
+			<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+		<dt>Footnote 2</dt>
+		<dd id="fn2">
+			<p>Copied from the Information Technology Industry Council (ITI) website <a href="https://www.itic.org/policy/accessibility/vpat">VPAT<sup>®</sup> - Information Technology Industry Council (itic.org)</a>.</p>
+			<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Return to footnote </span>2<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+		<dt>Footnote 3</dt>
+		<dd id="fn3">
+			<p>Adopted from <a href="https://www.merriam-webster.com/dictionary/end%20user">End user Definition & Meaning - Merriam-Webster</a></p>
+			<p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Return to footnote </span>3<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+		<dt>Footnote 4</dt>
+		<dd id="fn4">
+			<p>Copied from the EN 301 549 V3.2.1 (2021-03), 3 Definition of terms, symbols and abbreviations, page 17</p>
+			<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Return to footnote </span>4<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+	</dl>
+</aside>
+
+				
+			</div>
+
+			
+<section class="pagedetails container">
+	<h2 class="wb-inv">Page details</h2>
+	<dl id="wb-dtmd">
+		<dt>Date modified:</dt>
+		<dd><time property="dateModified">2025-09-19</time></dd>
+	</dl>
+</section>
+
+
+		
+		</main>
+
+		
+
+<aside class="contribute">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribute to this project</span><small>on Github.com</small></h2>
+			</div>
+			<div class="col-md-7">
+				<ul class="list-inline">
+					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Source code</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Issues</a></li>
+					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions</a></li>
+				</ul>
+				<p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca?subject=Contribute%20to%20the%20Digital%20Accessibility%20Toolkit">Reach the Digital Accessibility Toolkit by email</a></p>
+			</div>
+		</div>
+		
+		
+	</div>
+</aside>
+
+
+		
+<footer id="wb-info">
+	<h2 class="wb-inv">About this site</h2>
+	<div class="gc-main-footer">
+		<div class="container">
+			<nav aria-labelledby="governmentOfCanadan">
+				<h3 id="governmentOfCanadan">Government of Canada</h3>
+				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+					<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+					<li><a href="https://www.canada.ca/en/government/system.html">About government</a></li></ul>
+				<h4><span class="wb-inv">Themes and topics</span></h4>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3"><li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+					<li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+					<li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+					<li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+					<li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+					<li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+					<li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+					<li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+					<li><a href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+					<li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+					<li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous Peoples</a></li>
+					<li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
+					<li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+					<li><a href="https://www.canada.ca/en/services/life-events.html">Manage life events</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="gc-sub-footer">
+		<div class="container d-flex align-items-center">
+			<nav aria-labelledby="governmentCorporateHeading">
+				<h3 class="wb-inv" id="governmentCorporateHeading">Government of Canada Corporate</h3>
+				<ul>
+					<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+					<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+					<li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/terms.htm">Terms and conditions</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+				</ul>
+			</nav>
+			<div class="wtrmrk align-self-end">
+				<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script></body>
 
 </html>
+
+
