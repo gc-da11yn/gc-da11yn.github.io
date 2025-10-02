@@ -14,34 +14,75 @@ const { execSync } = require('child_process');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { getChangedPagesForBuild } = require('./scripts/build-changed-pages');
 
-// Import configuration modules
+// Phase 2: Conditional module loading - Import modules only when needed
+// Always needed modules
 const configureMarkdown = require('./eleventy/config/markdown');
-const configureFilters = require('./eleventy/config/filters');
-const configureTransforms = require('./eleventy/config/transforms');
-const configureCollections = require('./eleventy/config/collections');
 const configurePassthrough = require('./eleventy/config/passthrough');
+
+// Conditionally loaded modules (lazy loading)
+let configureFilters, configureTransforms, configureCollections;
 
 // ANSI escape codes for colored console output
 const underline = '\x1b[4m';
 const resetColor = '\x1b[0m';
 
-// Check if we are in watch mode (development)
+// Phase 2: Environment detection for conditional loading
 const isWatchMode = process.env.ELEVENTY_WATCH === 'true';
+const environment = process.env.ELEVENTY_ENV || 'development';
+const isProduction = environment === 'production';
+const isDevelopment = environment === 'development' || environment === 'dev' || environment === 'local';
 
-// Global variables for change tracking (to be improved in Phase 2)
+// Global variables for change tracking (Phase 2 optimized)
 global.changedFilePaths = new Set();
 global.gitChangedUrls = [];
 
+// Phase 2: Git operations cache for performance optimization
+const gitOperationsCache = new Map();
+
 module.exports = function (eleventyConfig) {
+
+  // Phase 2: Performance timing for conditional loading
+  const configStart = performance.now();
+  if (isDevelopment) {
+    console.log(`🔧 Configuring Eleventy (Environment: ${environment})`);
+  }
 
   // Configure markdown processing and get markdown instance
   const markdownInstance = configureMarkdown(eleventyConfig);
 
-  // Configure all other modules
-  configureFilters(eleventyConfig, markdownInstance);
-  configureTransforms(eleventyConfig);
-  configureCollections(eleventyConfig, markdownInstance);
+  // Phase 2: Conditional module loading - Load modules based on environment and needs
+
+  // Always configure passthrough (needed for static assets)
   configurePassthrough(eleventyConfig);
+
+  // Lazy load filters (heavy module with caching) - Always needed for templates
+  if (!configureFilters) {
+    configureFilters = require('./eleventy/config/filters');
+  }
+  configureFilters(eleventyConfig, markdownInstance);
+
+  // Conditionally load transforms based on environment
+  if (!configureTransforms) {
+    configureTransforms = require('./eleventy/config/transforms');
+  }
+  // Skip expensive transforms in development for faster builds
+  if (isProduction || !isDevelopment) {
+    configureTransforms(eleventyConfig);
+  } else {
+    console.log('🏃 Skipping transforms in development mode for faster builds');
+  }
+
+  // Lazy load collections (expensive module with caching)
+  if (!configureCollections) {
+    configureCollections = require('./eleventy/config/collections');
+  }
+
+  // Pass environment options to collections for git operation optimization
+  const collectionsOptions = {
+    skipGitOps: isDevelopment && !process.env.ELEVENTY_WATCH,
+    markdownInstance
+  };
+  configureCollections(eleventyConfig, collectionsOptions);
 
   // Add core Eleventy plugins
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -139,29 +180,61 @@ module.exports = function (eleventyConfig) {
     global.gitChangedUrls = [];
   });
 
-  // Add computed data for git creation dates
-  // TODO: This will be optimized with memoization in Phase 2
-  eleventyConfig.addGlobalData("eleventyComputed", {
-    gitCreated: (data) => {
-      if (data.page && data.page.inputPath) {
-        try {
-          const gitCommand = `git log --format="%ai" --reverse "${data.page.inputPath}" | head -1`;
-          const result = execSync(gitCommand, { encoding: 'utf8' }).trim();
+  // Phase 2: Conditionally add git creation dates (optimize for development)
+  if (isProduction || process.env.ENABLE_GIT_DATES === 'true') {
+    eleventyConfig.addGlobalData("eleventyComputed", {
+      gitCreated: (data) => {
+        if (data.page && data.page.inputPath) {
+          const cacheKey = `gitCreated:${data.page.inputPath}`;
 
-          if (result) {
-            return new Date(result);
+          // Check cache first
+          if (gitOperationsCache.has(cacheKey)) {
+            return gitOperationsCache.get(cacheKey);
           }
-        } catch (error) {
-          // Silently handle errors - some files might not have git history
+
+          try {
+            const gitCommand = `git log --format="%ai" --reverse "${data.page.inputPath}" | head -1`;
+            const result = execSync(gitCommand, { encoding: 'utf8' }).trim();
+
+            const date = result ? new Date(result) : null;
+
+            // Cache the result
+            gitOperationsCache.set(cacheKey, date);
+            return date;
+          } catch (error) {
+            // Cache the null result to avoid repeated failures
+            gitOperationsCache.set(cacheKey, null);
+            return null;
+          }
         }
+        return null;
       }
-      return null;
-    }
-  });
+    });
+  } else {
+    console.log('🚀 Skipping git date operations in development for faster builds');
+  }
 
   // Ignore template files from being built
   eleventyConfig.ignores.add("src/pages/_template.md");
   eleventyConfig.ignores.add("src/links/_template.md");
+
+  // Phase 2: Git operations cache management and debugging
+  eleventyConfig.addGlobalData("gitCacheSize", () => gitOperationsCache.size);
+
+  // Clear git cache function for development
+  global.clearGitCache = () => {
+    const size = gitOperationsCache.size;
+    gitOperationsCache.clear();
+    console.log(`🗑️  Cleared ${size} cached git operations`);
+    return size;
+  };
+
+  // Phase 2: Configuration performance logging
+  if (isDevelopment) {
+    const configEnd = performance.now();
+    const configTime = ((configEnd - configStart) / 1000).toFixed(2);
+    console.log(`⚡ Eleventy configuration completed in ${configTime}s`);
+  }
 
   // Return Eleventy configuration
   return {

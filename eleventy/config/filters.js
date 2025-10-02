@@ -3,19 +3,39 @@
  *
  * This module contains all custom filters for the Digital Accessibility Toolkit.
  * Filters are used to transform data in templates.
+ *
+ * Phase 2 Enhancement: Added memoization for performance optimization
  */
 
 const { stripHtml } = require('string-strip-html');
 const { DateTime } = require('luxon');
 
+// Memoization cache for expensive filter operations
+const filterCache = new Map();
+
+// Generic memoization function for filters
+function memoize(fn, keyGenerator) {
+  return function(...args) {
+    const key = keyGenerator ? keyGenerator.apply(this, args) : JSON.stringify(args);
+
+    if (filterCache.has(key)) {
+      return filterCache.get(key);
+    }
+
+    const result = fn.apply(this, args);
+    filterCache.set(key, result);
+    return result;
+  };
+}
+
 module.exports = function (eleventyConfig, markdownInstance = null) {
 
-  // Strip HTML tags and create URL-friendly slugs
-  eleventyConfig.addFilter("stripTagsSlugify", (str) => {
+  // Strip HTML tags and create URL-friendly slugs (memoized for performance)
+  eleventyConfig.addFilter("stripTagsSlugify", memoize((str) => {
     if (!str) return;
     const eleventySlugify = eleventyConfig.getFilter('slug');
     return eleventySlugify(stripHtml(str).result, { lower: true, strict: true, locale: 'fr' });
-  });
+  }, (str) => `stripTagsSlugify:${str}`));
 
   // Filter collections by locale to match current page locale
   eleventyConfig.addFilter("localeMatch", function (collection) {
@@ -30,8 +50,8 @@ module.exports = function (eleventyConfig, markdownInstance = null) {
       .toFormat("yyyy'-'MM'-'dd");
   });
 
-  // Format date filter to display full date
-  eleventyConfig.addFilter("formatDate", function (dateObj) {
+  // Format date filter to display full date (memoized for performance)
+  eleventyConfig.addFilter("formatDate", memoize(function (dateObj) {
     const locale = this.ctx.locale || 'en';  // Use the locale from the context, default to 'en'
 
     let luxonDate;
@@ -46,21 +66,28 @@ module.exports = function (eleventyConfig, markdownInstance = null) {
     }
 
     return luxonDate.setLocale(locale).toLocaleString(DateTime.DATE_HUGE);  // Use DATE_HUGE for formatting
-  });
+  }, function (dateObj) {
+    const locale = this.ctx.locale || 'en';
+    const dateKey = dateObj instanceof Date ? dateObj.toISOString() : String(dateObj);
+    return `formatDate:${dateKey}:${locale}`;
+  }));
 
-  // Format year and month to display "Month Year" in the correct locale
-  eleventyConfig.addFilter("formatYearMonth", function (dateString) {
+  // Format year and month to display "Month Year" in the correct locale (memoized for performance)
+  eleventyConfig.addFilter("formatYearMonth", memoize(function (dateString) {
     const locale = this.ctx.locale || 'en';  // Use the locale from the context, default to 'en'
 
     return DateTime.fromFormat(dateString, 'yyyy-MM')
       .setLocale(locale)
       .toFormat('LLLL yyyy');  // Use LLLL for full month name
-  });
+  }, function (dateString) {
+    const locale = this.ctx.locale || 'en';
+    return `formatYearMonth:${dateString}:${locale}`;
+  }));
 
-  // Convert decimal to percentage
-  eleventyConfig.addFilter("percentage", function (value) {
+  // Convert decimal to percentage (memoized for performance)
+  eleventyConfig.addFilter("percentage", memoize(function (value) {
     return (parseFloat(value) * 100).toFixed(2) + '%';
-  });
+  }, (value) => `percentage:${value}`));
 
   // Get recent months from analytics data
   eleventyConfig.addFilter("recentMonths", function (analytics) {
@@ -115,4 +142,15 @@ module.exports = function (eleventyConfig, markdownInstance = null) {
     const words = stripped.trim().split(/\s+/);
     return words.length === 1 && words[0] === '' ? 0 : words.length;
   });
+
+  // Expose cache management functions for development/debugging
+  eleventyConfig.addGlobalData("filterCacheSize", () => filterCache.size);
+
+  // Clear cache function (useful for development)
+  global.clearFilterCache = () => {
+    const size = filterCache.size;
+    filterCache.clear();
+    console.log(`🧹 Cleared ${size} cached filter results`);
+    return size;
+  };
 };
