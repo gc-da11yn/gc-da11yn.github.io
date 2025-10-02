@@ -1,11 +1,14 @@
 /**
  * Eleventy Configuration - Main Entry Point
  *
- * Modular configuration for the Government of Canada Digital Accessibility Toolkit.
- * This file orchestrates all configuration modules for better maintainability.
+ * Plugin architecture for the Government of Canada Digital Accessibility Toolkit.
+ * This file orchestrates plugin-based configuration for maximum extensibility.
  *
- * Refactored: Phase 1 - Extract Configuration Objects
- * Date: September 26, 2025
+ * Evolution:
+ * - Phase 1: Modular configuration extraction
+ * - Phase 2: Performance optimizations with conditional loading
+ * - Phase 3: Complete plugin architecture (Current)
+ * Date: October 2, 2025
  */
 
 const fs = require('fs');
@@ -14,13 +17,17 @@ const { execSync } = require('child_process');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { getChangedPagesForBuild } = require('./scripts/build-changed-pages');
 
-// Phase 2: Conditional module loading - Import modules only when needed
-// Always needed modules
-const configureMarkdown = require('./eleventy/config/markdown');
+// Phase 3: Plugin Architecture imports
+const MarkdownPlugin = require('./eleventy/plugins/markdown-plugin');
+const FiltersPlugin = require('./eleventy/plugins/filters-plugin');
+const CollectionsPlugin = require('./eleventy/plugins/collections-plugin');
+
+// Legacy modular config (for backward compatibility during transition)
 const configurePassthrough = require('./eleventy/config/passthrough');
 
-// Conditionally loaded modules (lazy loading)
-let configureFilters, configureTransforms, configureCollections;
+// Conditionally loaded legacy modules
+// Conditionally loaded legacy modules
+let configureTransforms;
 
 // ANSI escape codes for colored console output
 const underline = '\x1b[4m';
@@ -41,25 +48,49 @@ const gitOperationsCache = new Map();
 
 module.exports = function (eleventyConfig) {
 
-  // Phase 2: Performance timing for conditional loading
+  // Phase 3: Performance timing for plugin architecture
   const configStart = performance.now();
-  if (isDevelopment) {
-    console.log(`🔧 Configuring Eleventy (Environment: ${environment})`);
-  }
 
-  // Configure markdown processing and get markdown instance
-  const markdownInstance = configureMarkdown(eleventyConfig);
+  console.log(`🚀 Eleventy Plugin Architecture (Environment: ${environment})`);
+
+  // Phase 3: Configure Core Plugins
+  try {
+    console.log('🔧 Configuring plugins...');
+
+    // Configure markdown plugin (foundational)
+    const markdownPlugin = new MarkdownPlugin({ environment });
+    markdownPlugin.configure(eleventyConfig);
+    console.log('✅ Markdown plugin configured');
+
+    // Configure filters plugin
+    const filtersPlugin = new FiltersPlugin({
+      environment,
+      enableMemoization: true
+    });
+    filtersPlugin.configure(eleventyConfig);
+    console.log('✅ Filters plugin configured');
+
+    // Configure collections plugin
+    const collectionsPlugin = new CollectionsPlugin({
+      environment,
+      skipGitOps: isDevelopment && !isWatchMode,
+      enableCaching: true
+    });
+    collectionsPlugin.configure(eleventyConfig);
+    console.log('✅ Collections plugin configured');
+
+    console.log('🎉 Plugin architecture: All plugins configured successfully!');
+  } catch (error) {
+    console.error('❌ Plugin configuration failed:', error.message);
+    throw error;
+  }
 
   // Phase 2: Conditional module loading - Load modules based on environment and needs
 
   // Always configure passthrough (needed for static assets)
   configurePassthrough(eleventyConfig);
 
-  // Lazy load filters (heavy module with caching) - Always needed for templates
-  if (!configureFilters) {
-    configureFilters = require('./eleventy/config/filters');
-  }
-  configureFilters(eleventyConfig, markdownInstance);
+  // Filters now handled by FiltersPlugin above
 
   // Conditionally load transforms based on environment
   if (!configureTransforms) {
@@ -72,19 +103,7 @@ module.exports = function (eleventyConfig) {
     console.log('🏃 Skipping transforms in development mode for faster builds');
   }
 
-  // Lazy load collections (expensive module with caching)
-  if (!configureCollections) {
-    configureCollections = require('./eleventy/config/collections');
-  }
-
-  // Pass environment options to collections for git operation optimization
-  const collectionsOptions = {
-    skipGitOps: isDevelopment && !process.env.ELEVENTY_WATCH,
-    markdownInstance
-  };
-  configureCollections(eleventyConfig, collectionsOptions);
-
-  // Add core Eleventy plugins
+  // Collections now handled by CollectionsPlugin above  // Add core Eleventy plugins
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   // Changed pages tracking system
