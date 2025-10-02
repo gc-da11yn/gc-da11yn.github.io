@@ -1,28 +1,31 @@
 {% set newPath = page.inputPath | replace("\./", "/") %}
 
-<aside class="contribute">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-5">
-				<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>{{ contribute[locale].contribute }}</span><small>{{ contribute[locale].small }}</small></h2>
+<aside>
+	{% include "./pageListLink.njk" %}
+	<div class="contribute">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>{{ contribute[locale].contribute }}</span><small>{{ contribute[locale].small }}</small></h2>
+				</div>
+				<div class="col-md-7">
+					<ul class="list-inline">
+						<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}</a></li>
+						<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">{{ contribute[locale].report }}</a></li>
+						<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == fr %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}</a></li>
+					</ul>
+					<p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:{{ contribute.email }}?subject={{ contribute[locale].emailSubject }}">{{ contribute[locale].emailText }}</a></p>
+				</div>
 			</div>
-			<div class="col-md-7">
-				<ul class="list-inline">
-					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}</a></li>
-					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">{{ contribute[locale].report }}</a></li>
-					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == fr %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}</a></li>
-				</ul>
-				<p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:{{ contribute.email }}?subject={{ contribute[locale].emailSubject }}">{{ contribute[locale].emailText }}</a></p>
-			</div>
-		</div>
-		{# This code block checks if the environment is set to "dev". If it is, it displays a paragraph with a link to Netlify and a link to edit the code for the current page on GitHub. #}
-		{% if settings.env == "dev" %}
-			<p>{{ contribute[locale].netlify }} <a{% if locale == "fr" %} {% endif %} href="https://www.netlify.com">Netlify</a></p>
-			{% if locale === 'en' %}
-				<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Edit code for the <strong>{{ title | safe }}</strong> page</a>.</p>
-			{% else %}
-				<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Modifier le code de la page <strong>{{ title| safe }}</strong></a>.</p>
+			{# This code block checks if the environment is set to "dev". If it is, it displays a paragraph with a link to Netlify and a link to edit the code for the current page on GitHub. #}
+			{% if settings.env == "dev" %}
+				<p>{{ contribute[locale].netlify }} <a{% if locale == "fr" %} {% endif %} href="https://www.netlify.com">Netlify</a></p>
+				{% if locale === 'en' %}
+					<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Edit code for the <strong>{{ title | safe }}</strong> page</a>.</p>
+				{% else %}
+					<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Modifier le code de la page <strong>{{ title| safe }}</strong></a>.</p>
+				{% endif %}
 			{% endif %}
-		{% endif %}
+		</div>
 	</div>
 </aside>
