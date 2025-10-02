@@ -13,7 +13,10 @@ const { stripHtml } = require('string-strip-html');
 // Phase 2: Collections cache for performance optimization
 const collectionsCache = new Map();
 
-module.exports = function (eleventyConfig, markdownInstance) {
+module.exports = function (eleventyConfig, options = {}) {
+  // Handle both old signature (markdownInstance) and new options object
+  const markdownInstance = options.markdownInstance || options;
+  const skipGitOps = options.skipGitOps || false;
 
   // Collection for extracting all headings from pages with TOC (Phase 2: Optimized)
   eleventyConfig.addCollection("allHeadings", function (collectionApi) {
@@ -72,6 +75,13 @@ module.exports = function (eleventyConfig, markdownInstance) {
     // Check cache first
     if (collectionsCache.has(cacheKey)) {
       return collectionsCache.get(cacheKey);
+    }
+
+    // Skip git-based operations in development mode for performance
+    if (skipGitOps) {
+      const result = [];
+      collectionsCache.set(cacheKey, result);
+      return result;
     }
 
     const changedFilePaths = global.changedFilePaths || new Set();
