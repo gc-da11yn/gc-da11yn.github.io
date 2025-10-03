@@ -34,8 +34,9 @@ class CollectionsPlugin extends EleventyBasePlugin {
     // Get markdown instance from dependencies
     const markdownInstance = this.getMarkdownInstance();
 
-    // Configure collections (skip headings for demo to avoid templateContent timing issues)
-    this.log('Skipping headings collection for demo (templateContent timing)', 'debug');
+    // TOC is now handled via src/_data/eleventyComputed.js
+
+    // Configure other collections
     this.configureChangedPagesCollection(eleventyConfig);
     this.configureTaggedCollections(eleventyConfig);
 
@@ -49,6 +50,84 @@ class CollectionsPlugin extends EleventyBasePlugin {
     const registry = require('./registry').getRegistry();
     const markdownPlugin = registry.get('MarkdownPlugin');
     return markdownPlugin?.getMarkdownInstance() || null;
+  }
+
+  /**
+   * Configure TOC generation using collection-based approach that works in development
+   */
+  configureTocComputedData(eleventyConfig) {
+    // Add collection to generate headings for each page
+    eleventyConfig.addCollection("pageHeadings", (collectionApi) => {
+      const pages = collectionApi.getAll();
+      const headingsMap = new Map();
+
+      pages.forEach(page => {
+        // Only process pages with toc frontmatter
+        if (!page.data.toc && !page.data.tocSimple) {
+          return;
+        }
+
+        try {
+          const fs = require('fs');
+
+          // Read the source markdown file
+          if (!page.inputPath) {
+            return;
+          }
+
+          const markdownContent = fs.readFileSync(page.inputPath, 'utf8');
+
+          // Get markdown instance
+          const markdownInstance = this.getMarkdownInstance();
+          if (!markdownInstance) {
+            return;
+          }
+
+          // Render markdown to HTML to extract headings
+          const html = markdownInstance.render(markdownContent);
+
+          // Extract headings from HTML
+          const headingRegex = /<h([23])[^>]*id="([^"]*)"[^>]*>(.*?)<\/h[23]>/gi;
+          const headings = [];
+          let match;
+
+          while ((match = headingRegex.exec(html)) !== null) {
+            const level = `h${match[1]}`;
+            const id = match[2];
+            const rawText = match[3];
+            const text = rawText.replace(/<[^>]+>/g, '').trim();
+
+            const levelNumber = parseInt(match[1]);
+            const minLevel = 2;
+            const maxLevel = page.data.tocSimple ? 2 : 3;
+
+            if (levelNumber >= minLevel && levelNumber <= maxLevel && text.length > 0) {
+              headings.push({
+                level,
+                text,
+                id
+              });
+            }
+          }
+
+          if (headings.length > 0) {
+            headingsMap.set(page.url, headings);
+          }
+        } catch (error) {
+          this.log(`Error generating TOC for ${page.inputPath}: ${error.message}`, 'warn');
+        }
+      });
+
+      return headingsMap;
+    });
+
+    // Add global data to make headings available in templates
+    eleventyConfig.addGlobalData("getPageHeadings", () => {
+      return (url) => {
+        // This will be populated by the collection
+        return null; // Placeholder - will be overridden by template logic
+      };
+    });
   }
 
   /**
@@ -91,21 +170,22 @@ class CollectionsPlugin extends EleventyBasePlugin {
                 const headings = tokens
                   .filter(token => token.type === 'heading_open')
                   .map(token => {
-                    const level = parseInt(token.tag.substring(1));
+                    const level = token.tag; // Keep as h2, h3, etc for template compatibility
                     const contentToken = tokens[tokens.indexOf(token) + 1];
                     const text = contentToken ? stripHtml(contentToken.content).result : '';
 
                     return {
                       level,
                       text,
-                      anchor: this.createSlug(text)
+                      id: this.createSlug(text) // Changed from 'anchor' to 'id' for template compatibility
                     };
                   })
                   .filter(heading => {
-                    // Filter based on toc settings
+                    // Filter based on toc settings - convert level string to number for comparison
+                    const levelNumber = parseInt(heading.level.substring(1)); // Extract number from "h2", "h3", etc.
                     const minLevel = item.data.tocSimple ? 2 : 2;
                     const maxLevel = item.data.tocSimple ? 2 : 3;
-                    return heading.level >= minLevel && heading.level <= maxLevel;
+                    return levelNumber >= minLevel && levelNumber <= maxLevel;
                   });
 
                 return { ...item, headings };
@@ -209,12 +289,26 @@ class CollectionsPlugin extends EleventyBasePlugin {
    * Create URL-friendly slug
    */
   createSlug(text) {
-    return text
+    // Enhanced slugify function with French accent transliteration
+    // This matches the stripTagsSlugify filter for consistency
+    return stripHtml(text).result
       .toLowerCase()
-      .trim()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/[\s_-]+/g, '-')
-      .replace(/^-+|-+$/g, '');
+      // Transliterate French accented characters to ASCII
+      .replace(/[àáâãäå]/g, 'a')
+      .replace(/[èéêë]/g, 'e')
+      .replace(/[ìíîï]/g, 'i')
+      .replace(/[òóôõö]/g, 'o')
+      .replace(/[ùúûü]/g, 'u')
+      .replace(/[ýÿ]/g, 'y')
+      .replace(/[ñ]/g, 'n')
+      .replace(/[ç]/g, 'c')
+      .replace(/[æ]/g, 'ae')
+      .replace(/[œ]/g, 'oe')
+      // Remove any remaining non-alphanumeric characters except spaces and hyphens
+      .replace(/[^a-z0-9 -]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
   }
 
   /**

@@ -137,18 +137,7 @@ class MarkdownPlugin extends EleventyBasePlugin {
       return self.renderToken(tokens, idx, options);
     };
 
-    md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
-      const token = tokens[idx];
-      const href = token.attrGet('href');
-
-      // Add external link attributes
-      if (href && (href.startsWith('http') && !href.includes('canada.ca'))) {
-        token.attrPush(['target', '_blank']);
-        token.attrPush(['rel', 'noopener noreferrer']);
-      }
-
-      return defaultRender(tokens, idx, options, env, self);
-    };
+    // Removed custom link_open renderer - all links will open in same tab/window
 
     // Custom renderer for better accessibility
     md.renderer.rules.image = function (tokens, idx, options, env, self) {

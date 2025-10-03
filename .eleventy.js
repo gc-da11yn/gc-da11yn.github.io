@@ -102,6 +102,91 @@ module.exports = function (eleventyConfig) {
     configureTransforms(eleventyConfig);
   } else {
     console.log('🏃 Skipping transforms in development mode for faster builds');
+    // But always include essential TOC transform
+    eleventyConfig.addTransform('extractTocHeadings', function(content, outputPath) {
+      // Only process HTML files
+      if (!outputPath || !outputPath.endsWith('.html')) {
+        return content;
+      }
+
+      // Access page data correctly
+      const pageData = this.page?.data || this.data || {};
+
+      // Skip if page doesn't need TOC
+      if (!pageData.toc && !pageData.tocSimple) {
+        return content;
+      }
+
+      // Extract headings from the HTML content
+      const headingRegex = /<h([23])([^>]*?)id="([^"]*)"([^>]*?)>(.*?)<\/h[23]>/gi;
+      const headings = [];
+      let match;
+
+      while ((match = headingRegex.exec(content)) !== null) {
+        const level = `h${match[1]}`;
+        const id = match[3];
+        const rawText = match[5];
+        // Strip HTML tags from heading text
+        const text = rawText.replace(/<[^>]+>/g, '').trim();
+
+        // Filter based on TOC settings
+        const levelNumber = parseInt(match[1]);
+        const minLevel = pageData.tocSimple ? 2 : 2;
+        const maxLevel = pageData.tocSimple ? 2 : 3;
+
+        if (levelNumber >= minLevel && levelNumber <= maxLevel) {
+          headings.push({
+            level,
+            text,
+            id
+          });
+        }
+      }
+
+      // Inject headings data into the page
+      if (headings.length > 0) {
+        // Replace the empty TOC with populated one
+        const tocRegex = /(<aside>\s*<h2>.*?On this page.*?<\/h2>\s*<ul>\s*)([\s\S]*?)(\s*<\/ul>\s*<\/aside>)/i;
+        const tocMatch = content.match(tocRegex);
+
+        if (tocMatch) {
+          let tocHtml = '';
+          let currentLevel = 2;
+
+          headings.forEach((heading, index) => {
+            const headingLevel = parseInt(heading.level.substring(1));
+
+            if (headingLevel === 2) {
+              // Close previous nested lists
+              if (currentLevel > 2) {
+                tocHtml += '</ul></li>';
+              } else if (index > 0) {
+                tocHtml += '</li>';
+              }
+              tocHtml += `<li><a href="#${heading.id}">${heading.text}</a>`;
+              currentLevel = 2;
+            } else if (headingLevel === 3 && !pageData.tocSimple) {
+              if (currentLevel < 3) {
+                tocHtml += '<ul>';
+                currentLevel = 3;
+              }
+              tocHtml += `<li><a href="#${heading.id}">${heading.text}</a></li>`;
+            }
+          });
+
+          // Close remaining tags
+          if (currentLevel > 2) {
+            tocHtml += '</ul></li>';
+          } else if (headings.length > 0) {
+            tocHtml += '</li>';
+          }
+
+          content = content.replace(tocRegex, `$1${tocHtml}$3`);
+        }
+      }
+
+      return content;
+    });
   }
 
   // Collections now handled by CollectionsPlugin above  // Add core Eleventy plugins
@@ -238,6 +323,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.ignores.add("src/pages/_template.md");
   eleventyConfig.ignores.add("src/links/_template.md");
 
+
+
   // Phase 2: Git operations cache management and debugging
   eleventyConfig.addGlobalData("gitCacheSize", () => gitOperationsCache.size);
 
@@ -267,6 +354,7 @@ module.exports = function (eleventyConfig) {
     templateFormats: ["html", "md", "njk", "css"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
-    setUseGitIgnore: false
+    setUseGitIgnore: false,
+    quietMode: isDevelopment || isWatchMode // Suppress verbose output only during development/watch
   };
 };
