@@ -134,7 +134,7 @@
 							<p>{% if settings.env == "local" %}<strong>{{ pageList[locale].descriptionText }}{% if locale === "fr" %} {% endif %}: </strong>{% endif %}{% if entry.data.description %}{{ entry.data.description | striptags(true) | escape | nl2br }}{% else %} <span class="label label-danger">{{ landingPage[locale].descriptionNoneText }}</span>{% endif %}</p>
 							{% if settings.env == "local" %}<p><strong>{{ pageList[locale].pathText }}{% if locale === "fr" %} {% endif %}:</strong> <code>{{ entry.url }}</code></p>{% endif %}
 							{% if settings.env == "local" %}<p><strong>{{ pageList[locale].filePathText }}{% if locale === "fr" %} {% endif %}:</strong> <code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></p>{% endif %}
-							{% if settings.env == "local" %}<p><strong>toggle{% if locale === "fr" %} {% endif %}:</strong> <code><a href="{{ pathPrefix }}/{{ otherLang }}/{{ entry.data.toggle }}">{{ entry.data.toggle }}</a></code></p>{% endif %}
+							{% if settings.env == "local" %}<p><strong>toggle{% if locale === "fr" %} {% endif %}:</strong> <code><a href="{{ pathPrefix }}/{{ otherLang }}/{{ entry.data.toggle | stripTagsSlugify }}/">{{ entry.data.toggle }}</a></code></p>{% endif %}
 						</section>
 					{% endif %}
 				{% endif %}
