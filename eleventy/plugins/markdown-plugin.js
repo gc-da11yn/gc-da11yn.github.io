@@ -11,6 +11,7 @@ const EleventyBasePlugin = require('./base-plugin');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
+const { stripHtml } = require('string-strip-html');
 
 class MarkdownPlugin extends EleventyBasePlugin {
 
@@ -27,13 +28,8 @@ class MarkdownPlugin extends EleventyBasePlugin {
       linkify: true,
       typographer: true,
       anchor: {
-        permalink: markdownItAnchor.permalink.headerLink({
-          class: 'header-anchor',
-          symbol: '#',
-          style: 'visually-hidden',
-          assistiveText: title => `Permalink to "${title}"`
-        }),
-        level: [2, 3, 4],
+        permalink: false, // Just add IDs, no clickable anchor links
+        level: [2, 3, 4, 5, 6],
         slugify: this.createSlugify()
       },
       attrs: {
@@ -53,14 +49,32 @@ class MarkdownPlugin extends EleventyBasePlugin {
   }
 
   /**
-   * Create consistent slugify function
+   * Create enhanced slugify function that matches FiltersPlugin stripTagsSlugify
+   * This ensures TOC anchors match the same slugification used elsewhere
    */
   createSlugify() {
     return (str) => {
-      return str
+      // Strip HTML tags first
+      let cleanStr = stripHtml(str).result;
+
+      // French accent transliteration
+      cleanStr = cleanStr
+        .replace(/[àáâãäå]/g, 'a')
+        .replace(/[èéêë]/g, 'e')
+        .replace(/[ìíîï]/g, 'i')
+        .replace(/[òóôõö]/g, 'o')
+        .replace(/[ùúûü]/g, 'u')
+        .replace(/[ýÿ]/g, 'y')
+        .replace(/[ñ]/g, 'n')
+        .replace(/[ç]/g, 'c')
+        .replace(/[æ]/g, 'ae')
+        .replace(/[œ]/g, 'oe');
+
+      // Standard slugification
+      return cleanStr
         .toLowerCase()
         .trim()
-        .replace(/[^\w\s-]/g, '') // Remove special characters
+        .replace(/[^\w\s-]/g, '') // Remove remaining special characters
         .replace(/[\s_-]+/g, '-') // Replace spaces and underscores with hyphens
         .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
     };

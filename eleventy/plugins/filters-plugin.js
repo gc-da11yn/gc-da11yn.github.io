@@ -138,11 +138,23 @@ class FiltersPlugin extends EleventyBasePlugin {
       return stripHtml(content).result;
     }));
 
-    // Create URL-friendly slugs
+    // Create URL-friendly slugs with proper French accent handling
     eleventyConfig.addFilter('stripTagsSlugify', this.memoize((content) => {
       if (!content) return '';
       return stripHtml(content).result
         .toLowerCase()
+        // Transliterate French accented characters to ASCII
+        .replace(/[àáâãäå]/g, 'a')
+        .replace(/[èéêë]/g, 'e')
+        .replace(/[ìíîï]/g, 'i')
+        .replace(/[òóôõö]/g, 'o')
+        .replace(/[ùúûü]/g, 'u')
+        .replace(/[ýÿ]/g, 'y')
+        .replace(/[ñ]/g, 'n')
+        .replace(/[ç]/g, 'c')
+        .replace(/[æ]/g, 'ae')
+        .replace(/[œ]/g, 'oe')
+        // Remove any remaining non-alphanumeric characters except spaces and hyphens
         .replace(/[^a-z0-9 -]/g, '')
         .replace(/\s+/g, '-')
         .replace(/-+/g, '-')

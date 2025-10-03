@@ -16,6 +16,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const { getChangedPagesForBuild } = require('./scripts/build-changed-pages');
+const { stripHtml } = require('string-strip-html');
 
 // Phase 3: Plugin Architecture imports
 const MarkdownPlugin = require('./eleventy/plugins/markdown-plugin');
