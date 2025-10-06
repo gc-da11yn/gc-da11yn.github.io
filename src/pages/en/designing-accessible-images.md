@@ -4,7 +4,7 @@ description: With this diagram, you will learn how to make the best choice for d
 toggle: Concevoir des images accessibles
 ---
 
-<img src="{{ pathPrefix }}img/en/introduction/accessible-image.jpg" class="img-responsive" alt="An infographic on how to use accessible images and use alternative text. Long description below" />
+<img src="{{ pathPrefix }}/img/en/introduction/accessible-image.jpg" class="img-responsive" alt="An infographic on how to use accessible images and use alternative text. Long description below" />
 
 ## The purpose of images
 
