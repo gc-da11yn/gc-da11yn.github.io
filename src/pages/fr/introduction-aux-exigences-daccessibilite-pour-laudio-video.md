@@ -70,7 +70,7 @@ Cela peut être fait en utilisant :
 
 [Directives pour la description sonore]({{ pathPrefix }}/fr/directives-pour-la-description-sonore)
 
-[Liste de contrôle pour la description sonore]({{ pathPrefix }}/fr/directives-pour-la-description-sonore#liste-de-contr%C3%B4le-pour-la-description-sonore)
+[Liste de contrôle pour la description sonore]({{ pathPrefix }}/fr/directives-pour-la-description-sonore/#liste-de-controle-pour-la-description-sonore)
 
 ## Accès au clavier
 

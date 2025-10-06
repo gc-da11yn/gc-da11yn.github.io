@@ -4,7 +4,7 @@ description: Grâce à ce diagramme, vous apprendrez à faire le meilleur choix 
 toggle: Designing accessible images
 ---
 
-<img src="{{ pathPrefix }}img/fr/introduction/image-accessible.jpg" class="img-responsive" alt="Une infographie sur la façon d'utiliser des images accessibles et d'utiliser le texte alternatif. Longue description ci-dessous" />
+<img src="{{ pathPrefix }}/img/fr/introduction/image-accessible.jpg" class="img-responsive" alt="Une infographie sur la façon d'utiliser des images accessibles et d'utiliser le texte alternatif. Longue description ci-dessous" />
 
 ## L'objectif des images
 

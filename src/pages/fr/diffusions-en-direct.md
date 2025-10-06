@@ -16,7 +16,7 @@ Les diffusions en direct sont définies comme un animateur qui présente un Powe
 
 - L’animateur doit lire tout ce qui figure sur le PowerPoint présenté;
 - La transcription en direct est recommandée pour un événement en direct. Une version nettoyée comprenant une formulation, une grammaire et une ponctuation correctes de la transcription en direct doit être mise à disposition.
-- Créer une [version accessible de PowerPoint](https://a11y.canada.ca/fr/guides/office365/accessible-powerpoint-documents-365/). Si le présentateur dit chaque mot sur chaque diapositive, on peut l’ignorer, mais ce n’est pas recommandé;
+- Créer une [version accessible de PowerPoint](https://a11y.canada.ca/fr/presentations-powerpoint-accessibles-dans-microsoft-365/). Si le présentateur dit chaque mot sur chaque diapositive, on peut l’ignorer, mais ce n’est pas recommandé;
 - Si l’événement est enregistré, les mêmes règles s’appliquent comme ci-dessus dans la section « Présentation enregistrée »;
 - La langue des signes n’est pas requise.
 
