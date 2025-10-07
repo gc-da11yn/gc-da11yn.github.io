@@ -1,5 +1,6 @@
 const pathPrefix = require('./pathPrefix')(); // resolve once per build
 const fs = require('fs');
+const { stripHtml } = require('string-strip-html');
 
 module.exports = {
 	eleventyExcludeFromCollections(data) {
@@ -39,13 +40,30 @@ module.exports = {
                 const level = match[1].length; // Number of # characters
                 const text = match[2].trim();
 
-                // Create ID from heading text (similar to markdown-it-anchor)
-                const id = text
+                // Create ID from heading text using the same logic as markdown-it-anchor
+                // This matches the slugification in both the markdown plugin and stripTagsSlugify filter
+                let cleanText = stripHtml(text).result;
+
+                // French accent transliteration (matching stripTagsSlugify filter)
+                cleanText = cleanText
+                    .replace(/[àáâãäå]/g, 'a')
+                    .replace(/[èéêë]/g, 'e')
+                    .replace(/[ìíîï]/g, 'i')
+                    .replace(/[òóôõö]/g, 'o')
+                    .replace(/[ùúûü]/g, 'u')
+                    .replace(/[ýÿ]/g, 'y')
+                    .replace(/[ñ]/g, 'n')
+                    .replace(/[ç]/g, 'c')
+                    .replace(/[æ]/g, 'ae')
+                    .replace(/[œ]/g, 'oe');
+
+                // Standard slugification (matching markdown plugin)
+                const id = cleanText
                     .toLowerCase()
-                    .replace(/[^\w\s-]/g, '') // Remove special characters
-                    .replace(/\s+/g, '-')      // Replace spaces with dashes
-                    .replace(/-+/g, '-')       // Replace multiple dashes with single dash
-                    .replace(/^-|-$/g, '');    // Remove leading/trailing dashes
+                    .trim()
+                    .replace(/[^\w\s-]/g, '') // Remove remaining special characters
+                    .replace(/[\s_-]+/g, '-') // Replace spaces and underscores with hyphens
+                    .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
 
                 // Filter based on TOC settings
                 const minLevel = 2;
