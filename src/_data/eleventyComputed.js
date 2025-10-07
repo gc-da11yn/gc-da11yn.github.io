@@ -62,7 +62,6 @@ module.exports = {
                 // Standard slugification (matching markdown plugin)
                 const id = cleanText
                     .toLowerCase()
-                    .trim()
                     .replace(/[^\w\s-]/g, '') // Remove remaining special characters
                     .replace(/[\s_-]+/g, '-') // Replace spaces and underscores with hyphens
                     .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
