@@ -472,11 +472,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/canada-school-of-public-service-csps/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -1067,11 +1062,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
-		<lastmod>2025-10-06</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/concevoir-des-images-accessibles/</loc>
 		<lastmod>2025-10-06</lastmod>
 	</url>
@@ -1084,5 +1074,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/introduction-aux-exigences-daccessibilite-pour-laudio-video/</loc>
 		<lastmod>2025-10-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
+		<lastmod>2025-10-07</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
+		<lastmod>2025-10-07</lastmod>
 	</url>
 </urlset>
