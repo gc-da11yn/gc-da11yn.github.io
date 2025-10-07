@@ -1,5 +1,6 @@
 const pathPrefix = require('./pathPrefix')(); // resolve once per build
 const fs = require('fs');
+const { stripHtml } = require('string-strip-html');
 
 module.exports = {
 	eleventyExcludeFromCollections(data) {
@@ -39,13 +40,31 @@ module.exports = {
                 const level = match[1].length; // Number of # characters
                 const text = match[2].trim();
 
-                // Create ID from heading text (similar to markdown-it-anchor)
-                const id = text
+                // Create ID from heading text using the same logic as markdown-it-anchor
+                // This matches the slugification in both the markdown plugin and stripTagsSlugify filter
+                let cleanText = stripHtml(text).result;
+
+                // French accent transliteration (matching stripTagsSlugify filter)
+                const accentMap = {
+                    'à': 'a', 'á': 'a', 'â': 'a', 'ã': 'a', 'ä': 'a', 'å': 'a',
+                    'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',
+                    'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i',
+                    'ò': 'o', 'ó': 'o', 'ô': 'o', 'õ': 'o', 'ö': 'o',
+                    'ù': 'u', 'ú': 'u', 'û': 'u', 'ü': 'u',
+                    'ý': 'y', 'ÿ': 'y',
+                    'ñ': 'n',
+                    'ç': 'c',
+                    'æ': 'ae',
+                    'œ': 'oe'
+                };
+                cleanText = cleanText.replace(/[àáâãäåèéêëìíîïòóôõöùúûüýÿñçæœ]/g, c => accentMap[c]);
+
+                // Standard slugification (matching markdown plugin)
+                const id = cleanText
                     .toLowerCase()
-                    .replace(/[^\w\s-]/g, '') // Remove special characters
-                    .replace(/\s+/g, '-')      // Replace spaces with dashes
-                    .replace(/-+/g, '-')       // Replace multiple dashes with single dash
-                    .replace(/^-|-$/g, '');    // Remove leading/trailing dashes
+                    .replace(/[^\w\s-]/g, '') // Remove remaining special characters
+                    .replace(/[\s_-]+/g, '-') // Replace spaces and underscores with hyphens
+                    .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
 
                 // Filter based on TOC settings
                 const minLevel = 2;

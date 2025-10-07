@@ -13,23 +13,8 @@ hasDocument:
   sizeUnit: KB
   type: word
 internalLinks: true
+toc: true
 ---
-
-## Sur cette page
-
-- [Introduction](#introduction)
-  - [Problèmes courants signalés par les personnes en situation de handicap](#problemes-courants-signales-par-les-personnes-en-situation-de-handicap)
-  - [Mobilité](#mobilite)
-  - [Cadre juridique canadien pour l'accessibilité des événements](#cadre-juridique-canadien-pour-laccessibilite-des-evenements)
-  - [Faits à retenir](#faits-a-retenir)
-- [Événements virtuels](#evenements-virtuels)
-  - [Feuille de route](#feuille-de-route)
-  - [Planification de l’événement : un à deux mois avant la tenue de l'événement (environ)](#planification-de-levenement-un-a-deux-mois-avant-la-tenue-de-levenement-environ)
-  - [Préparez-vous : une à deux semaines avant l'événement (environ)](#preparez-vous-une-a-deux-semaines-avant-levenement-environ)
-  - [Animez l'événement : jour de l'événement](#animez-levenement-jour-de-levenement)
-  - [Après l'événement](#apres-levenement)
-  - [À titre de référence : Ce qui affectera votre budget](#a-titre-de-reference-ce-qui-affectera-votre-budget)
-  - [À titre de référence : Plateformes virtuelles](#a-titre-de-reference-plateformes-virtuelles)
 
 ## Introduction
 
@@ -336,7 +321,7 @@ Veillez à inclure les renseignements suivants dans votre invitation à l'évén
 - Envoyez à l'avance le contenu de l'engagement, comme les sondages et les enquêtes, afin de donner aux personnes en situation de handicap le temps de le consulter, d'y accéder et de participer pendant l'événement;
 - Décrivez brièvement les objectifs de l'événement et clarifiez les sujets de discussion (par exemple, vous pourriez utiliser une à trois puces);
 - Mentionnez si la session sera enregistrée;
-- Partagez l’ébauche de [l’ordre du jour de l’événement](#etablissez-un-ordre-du-jour);
+- Partagez l’ébauche de [l’ordre du jour de l’événement](#tablissez-un-ordre-du-jour);
 - Proposez plusieurs moyens de participer à l'événement, tels que :
   - un lien en ligne;
   - un numéro d'accès direct.
@@ -344,7 +329,7 @@ Veillez à inclure les renseignements suivants dans votre invitation à l'évén
 - Indiquez les coordonnées des personnes à contacter pour les demandes de mesures d’adaptation et une date limite de soumission
   - Ajoutez des exemples de demandes de mesures d’adaptation, car souvent les personnes qui ont besoin de mesures d’adaptation n'osent pas en faire la demande
   - **Rappel :** Les personnes en situation de handicap ne sont pas tenues de divulguer leur handicap à qui que ce soit
-- Incluez des renseignements sur l’utilisation de la plateforme - consultez la [section sur les plateformes virtuelles pour l'organisation d'événements](#a-titre-de-reference-plateformes-virtuelles)
+- Incluez des renseignements sur l’utilisation de la plateforme - consultez la [section sur les plateformes virtuelles pour l'organisation d'événements](#titre-de-reference-plateformes-virtuelles)
 - Fournissez un point de contact pour permettre aux participants de poser des questions et de faire des commentaires à l'avance
 - Évitez les systèmes d'inscription
   - L'inscription peut devenir un obstacle; voyez s'il existe des solutions de rechange pour rendre l'événement plus inclusif. Si l'inscription est obligatoire, collaborez avec le coordinateur de l'événement pour la rendre simple et conforme aux [Règles pour l'accessibilité des contenus Web (<abbr>WCAG</abbr>) 2.1](https://www.w3.org/Translations/WCAG21-fr/)
@@ -412,7 +397,7 @@ Si une répétition est jugée souhaitable, nous recommandons vivement de la fai
 #### Commencez l'événement!
 
 - Si vous enregistrez l'événement, veillez à en informer les participants à l'avance
-- Si l'événement est bilingue, suivez les recommandations de la [section sur les évènements bilingues](#evenement-bilingue-meilleur-choix-pour-les-langues-officielles)
+- Si l'événement est bilingue, suivez les recommandations de la [section sur les évènements bilingues](#venement-bilingue-meilleur-choix-pour-les-langues-officielles)
 - L'hôte lit les textes pour accueillir les participants
 - Présentez les interprètes en langue des signes afin que les utilisateurs qui dépendent d’eux puissent mettre en place leurs mesures d’adaptation en utilisant la plateforme
   - [Microsoft Teams dispose d'un paramètre d'accessibilité permettant de mettre en place des interprètes en langue des signes](https://support.microsoft.com/fr-fr/office/utiliser-la-vue-langue-des-signes-dans-microsoft-teams-c6c11f67-0747-4598-ac27-c90801b94434)

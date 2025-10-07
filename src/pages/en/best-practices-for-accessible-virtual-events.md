@@ -13,22 +13,8 @@ hasDocument:
   sizeUnit: KB
   type: word
 internalLinks: true
+toc: true
 ---
-
-## On this page
-
-- [Introduction](#introduction)
-  - [Common issues reported by people with disabilities](#common-issues-reported-by-people-with-disabilities)
-  - [Canadian legal framework for accessible events](#canadian-legal-framework-for-accessible-events)
-  - [Facts to keep in mind](#facts-to-keep-in-mind)
-- [Virtual events](#virtual-events)
-  - [Roadmap](#roadmap)
-  - [Plan the event: 1 to 2 months before the event (approximately)](#plan-the-event-1-to-2-months-before-the-event-approximately)
-  - [Get ready: 1 to 2 weeks before the event (approximately)](#get-ready-1-to-2-weeks-before-the-event-approximately)
-  - [Day of the event](#day-of-the-event)
-  - [After the event](#after-the-event)
-  - [For reference: What will affect your budget](#for-reference-what-will-affect-your-budget)
-  - [For reference: Virtual platforms](#for-reference-virtual-platforms)
 
 ## Introduction
 
