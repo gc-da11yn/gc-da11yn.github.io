@@ -45,17 +45,19 @@ module.exports = {
                 let cleanText = stripHtml(text).result;
 
                 // French accent transliteration (matching stripTagsSlugify filter)
-                cleanText = cleanText
-                    .replace(/[àáâãäå]/g, 'a')
-                    .replace(/[èéêë]/g, 'e')
-                    .replace(/[ìíîï]/g, 'i')
-                    .replace(/[òóôõö]/g, 'o')
-                    .replace(/[ùúûü]/g, 'u')
-                    .replace(/[ýÿ]/g, 'y')
-                    .replace(/[ñ]/g, 'n')
-                    .replace(/[ç]/g, 'c')
-                    .replace(/[æ]/g, 'ae')
-                    .replace(/[œ]/g, 'oe');
+                const accentMap = {
+                    'à': 'a', 'á': 'a', 'â': 'a', 'ã': 'a', 'ä': 'a', 'å': 'a',
+                    'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',
+                    'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i',
+                    'ò': 'o', 'ó': 'o', 'ô': 'o', 'õ': 'o', 'ö': 'o',
+                    'ù': 'u', 'ú': 'u', 'û': 'u', 'ü': 'u',
+                    'ý': 'y', 'ÿ': 'y',
+                    'ñ': 'n',
+                    'ç': 'c',
+                    'æ': 'ae',
+                    'œ': 'oe'
+                };
+                cleanText = cleanText.replace(/[àáâãäåèéêëìíîïòóôõöùúûüýÿñçæœ]/g, c => accentMap[c]);
 
                 // Standard slugification (matching markdown plugin)
                 const id = cleanText
