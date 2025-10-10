@@ -1,0 +1,14 @@
+{#
+  Page List Link Component
+
+  This global bilingual component displays a call-to-action for users to view the complete list of pages.
+  - Text and URLs are sourced from `src/_data/pageList.js` using the current `locale`.
+  - Uses `{{ pathPrefix }}` and `{{ locale }}` for proper URL construction and deployment compatibility.
+  - Included on every page to improve site navigation and discoverability.
+#}
+<div class="pageList bg-light pb-3">
+    <div class="container">
+        <h2 class="h3">{{ pageList[locale].linkHeading }}</h2>
+        <p><i class="fas fa-search" aria-hidden="true"></i> {{ pageList[locale].linkPrefix }} <a href="{{ pathPrefix }}/{{ locale }}{{ pageList[locale].linkUrl }}">{{ pageList[locale].linkText }}</a>.</p>
+    </div>
+</div>
