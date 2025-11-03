@@ -9,7 +9,38 @@ tags:
 tocSimple: true
 ---
 
-## Apprentissage
+{# CMS-Managed Resources #}
+{% set locale = "fr" %}
+
+{% if collections.resourcesByTopicFr and resourceTopics and resourceTopics[locale] %}
+{% for topicKey, topicData in resourceTopics[locale] %}
+{% set topicResources = collections.resourcesByTopicFr[topicKey] %}
+{% if topicResources and topicResources.length > 0 %}
+
+## {{ topicData.label }}
+
+{% if topicData.description %}
+{{ topicData.description }}
+
+{% endif %}
+<div class="row wb-eqht gc-srvinfo">
+{% for resource in topicResources %}
+<div class="col-md-6">
+
+### {% if resource.data.internalLinks %}<a href="{{ resource.data.url }}">{{ resource.data.title }}<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span></a>{% else %}[{{ resource.data.title }}]({{ resource.data.url }}){% if resource.data.languageAvailability == "en" %}<small> (en anglais seulement)</small>{% endif %}{% endif %}
+
+{{ resource.data.description | safe }}
+
+</div>
+{% endfor %}
+</div>
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{# Legacy hardcoded content below - to be gradually migrated to CMS #}
+
+## Apprentissage (Legacy - sera retiré)
 
 <div class="row wb-eqht gc-srvinfo">
 <div class="col-md-6">

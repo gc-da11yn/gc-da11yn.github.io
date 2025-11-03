@@ -9,7 +9,38 @@ internalLinks: true
 tocSimple: true
 ---
 
-## Accessible meetings and events
+{# CMS-Managed Resources #}
+{% set locale = "en" %}
+
+{% if collections.resourcesByTopicEn and resourceTopics and resourceTopics[locale] %}
+{% for topicKey, topicData in resourceTopics[locale] %}
+{% set topicResources = collections.resourcesByTopicEn[topicKey] %}
+{% if topicResources and topicResources.length > 0 %}
+
+## {{ topicData.label }}
+
+{% if topicData.description %}
+{{ topicData.description }}
+
+{% endif %}
+<div class="row wb-eqht gc-srvinfo">
+{% for resource in topicResources %}
+<div class="col-md-6">
+
+### {% if resource.data.internalLinks %}<a href="{{ resource.data.url }}">{{ resource.data.title }}<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span></a>{% else %}[{{ resource.data.title }}]({{ resource.data.url }}){% if resource.data.languageAvailability == "fr" %}<small> (in French only)</small>{% endif %}{% endif %}
+
+{{ resource.data.description | safe }}
+
+</div>
+{% endfor %}
+</div>
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{# Legacy hardcoded content below - to be gradually migrated to CMS #}
+
+## Accessible meetings and events (Legacy - will be removed)
 
 Virtual meetings and events come in various formats and sizes – from small workshops with participants who know each other to large public meetings you are planning. It is critical to ensure meetings and events are fully accessible, from accessing them, to the presentations. By planning ahead, you can build accessibility into all aspects of the meeting. This will allow everyone to participate fully, including people with disabilities.
 

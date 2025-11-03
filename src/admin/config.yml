@@ -1,0 +1,84 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (or feature/decapCMS for testing)
+
+# Uncomment for local development testing
+# local_backend: tru
+
+# Media files configuration
+media_folder: "src/_images"
+public_folder: "/img"
+
+# Publish mode
+publish_mode: editorial_workflow
+
+# NOTE: Topic options below should match src/_data/resourceTopics.js
+# If you add/modify topics, update BOTH files to keep them in sync
+
+# i18n configuration for bilingual content
+i18n:
+  structure: multiple_folders
+  locales: [en, fr]
+  default_locale: en
+
+# Collections - Organize by content type
+collections:
+  # Resources Collection (Bilingual)
+  - name: "resources"
+    label: "Resources"
+    label_singular: "Resource"
+    folder: "src/resources"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: "title"
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        i18n: true
+        hint: "Resource title (provide both English and French)"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        i18n: true
+        hint: "May include HTML tags like <abbr>, <strong>, etc."
+      - label: "URL"
+        name: "url"
+        widget: "string"
+        i18n: true
+        hint: "Full URL to the resource (provide both English and French)"
+      - label: "Topic"
+        name: "topic"
+        widget: "select"
+        i18n: duplicate
+        options:
+          - { label: "Accessible meetings and events / Réunions et événements accessibles", value: "meetingsEvents" }
+          - { label: "Development / Développement", value: "development" }
+          - { label: "Learning / Apprentissage", value: "learning" }
+          - { label: "Policy / Politique", value: "policy" }
+          - { label: "Procurement / Approvisionnement", value: "procurement" }
+          - { label: "Services", value: "services" }
+        hint: "Category for grouping resources (must match src/_data/resourceTopics.js)"
+      - label: "Internal Links"
+        name: "internalLinks"
+        widget: "boolean"
+        default: false
+        required: false
+        i18n: duplicate
+        hint: "Check if resource requires GC network access"
+      - label: "Language Availability"
+        name: "languageAvailability"
+        widget: "select"
+        default: "both"
+        required: false
+        i18n: duplicate
+        options:
+          - { label: "Available in both languages", value: "both" }
+          - { label: "English only", value: "en" }
+          - { label: "French only / Français seulement", value: "fr" }
+        hint: "Indicates if resource is only available in one language"
+
+

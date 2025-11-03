@@ -33,14 +33,18 @@ eleventy/
 ### Key Directories
 ```
 src/
+├── admin/               # 🆕 Decap CMS admin interface
+│   ├── index.html       # CMS entry point
+│   ├── config.yml       # CMS configuration
+│   └── README.md        # CMS documentation
 ├── _data/               # Global data files and computed data
 │   ├── alerts.js        # Alert system configuration
 │   ├── header.js        # Header navigation data
 │   ├── footer.js        # Footer content data
-│   └── eleventyComputed.js # 🆕 TOC headings generation
+│   └── eleventyComputed.js # TOC headings generation
 ├── _includes/           # Nunjucks templates and partials
 │   └── partials/
-│       └── onThisPage.njk # 🆕 Table of Contents template
+│       └── onThisPage.njk # Table of Contents template
 ├── pages/en/            # English content pages
 ├── pages/fr/            # French content pages
 ├── main/en|fr/          # Landing pages and category indices
@@ -70,6 +74,22 @@ For significant architectural changes, template updates, or workflow modificatio
 - Include overview, changes made, testing results, and benefits
 - Document both English and French sections when applicable
 - Reference implementation docs in commit messages and PR descriptions
+
+### Content Management System (Decap CMS) ✅
+**Implemented**: November 3, 2025 on branch `feature/decapCMS`
+
+A user-friendly CMS for non-technical content editors to manage site content:
+- **Access**: Navigate to `/admin/` (requires Netlify Identity login)
+- **Local Testing**: Run `npx decap-server` and uncomment `local_backend: true` in config
+- **Collections**: Additional Resources page (bilingual), all pages (EN/FR)
+- **Features**: Visual markdown editor, media library, editorial workflow, Git-based
+- **Documentation**: See `docs/implementation/decap-cms-implementation.md` and `DECAP-CMS-SETUP.md`
+- **Setup Required**: Enable Netlify Identity and Git Gateway in Netlify dashboard
+
+**Key Files**:
+- `src/admin/config.yml` - CMS configuration
+- `src/admin/index.html` - CMS interface
+- Content managed: `src/pages/en/additional-resources.md` and `src/pages/fr/ressources-additionnelles.md`
 
 ### Essential npm Scripts
 - `npm start` - Development server with hot reload and change detection

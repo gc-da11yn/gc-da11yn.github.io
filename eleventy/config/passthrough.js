@@ -18,4 +18,7 @@ module.exports = function (eleventyConfig) {
 
   // Copy JavaScript files
   eleventyConfig.addPassthroughCopy({ "./src/_scripts": "js" });
+
+  // Copy Decap CMS admin files
+  eleventyConfig.addPassthroughCopy({ "./src/admin": "admin" });
 };
