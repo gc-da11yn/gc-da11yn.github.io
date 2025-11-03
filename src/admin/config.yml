@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (or feature/decapCMS for testing)
+  branch: feature/decapCMS # ⚠️ TODO: Change back to 'main' before merging PR!
 
 # Uncomment for local development testing
-# local_backend: tru
+# local_backend: true
 
 # Media files configuration
 media_folder: "src/_images"
