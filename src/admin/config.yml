@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-  branch: feature/decapCMS # ⚠️ TODO: Change back to 'main' before merging PR!
+  branch: main # Branch to update
 
 # Uncomment for local development testing
-# local_backend: true
+local_backend: true
 
 # Media files configuration
 media_folder: "src/_images"
@@ -80,5 +80,28 @@ collections:
           - { label: "English only", value: "en" }
           - { label: "French only / Français seulement", value: "fr" }
         hint: "Indicates if resource is only available in one language"
-
-
+      - label: "Resource Type"
+        name: "resourceType"
+        widget: "select"
+        default: "standard"
+        required: false
+        i18n: duplicate
+        options:
+          - { label: "Standard resource", value: "standard" }
+          - { label: "Parent resource (has sub-resources)", value: "parent" }
+          - { label: "Child resource (belongs under a parent)", value: "child" }
+        hint: "Determines heading level: standard/parent = h3, child = h4"
+      - label: "Parent Resource"
+        name: "parentResource"
+        widget: "relation"
+        collection: "resources"
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["{{title}}"]
+        required: false
+        i18n: duplicate
+        hint: "Search and select the parent resource (look for '(parent)' in the list)"
+        options_length: 100
+        filters:
+          - field: resourceType
+            values: ["parent"]

@@ -1,4 +1,4 @@
-const resourceTopics = require('../../_data/resourceTopics');
+const resourceTopics = require('../../../_data/resourceTopics');
 const { stripHtml } = require('string-strip-html');
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
 				return null;
 			}
 
-			const locale = 'fr';
+			const locale = 'en';
 			const topics = resourceTopics[locale];
 			const headings = [];
 
