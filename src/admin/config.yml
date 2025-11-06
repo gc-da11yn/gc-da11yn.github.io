@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update
 
 # Uncomment for local development testing
-local_backend: true
+# local_backend: true
 
 # Media files configuration
 media_folder: "src/_images"

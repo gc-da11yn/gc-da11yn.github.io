@@ -115,6 +115,38 @@ To create a new page for the site in both the `src/pages/en` and `src/pages/fr` 
 
 The script will ask you for the English title and a description of the page, then the French title and description, and then if the page has any links that are internal to the Government of Canada firewall.
 
+#### Content Management System (Decap CMS)
+
+The Digital Accessibility Toolkit includes a user-friendly CMS for managing resource content without needing to edit markdown files directly. The CMS is ideal for non-technical content editors.
+
+**Key Features:**
+
+- **Bilingual content management** with automatic cross-language linking
+- **Topic-based organization** with filtering and grouping
+- **Parent/child resource hierarchies** for related content
+- **Git-based workflow** with automatic commits and user attribution
+- **Visual editing interface** with live preview
+
+**Accessing the CMS:**
+
+- **Production**: Navigate to `/admin/` (requires Netlify Identity login)
+- **Local development**: Run `npx decap-server`, uncomment `local_backend: true` in `src/admin/config.yml`, then access `http://localhost:8080/admin/`
+
+**Documentation:**
+
+For complete setup instructions, configuration details, and troubleshooting:
+
+- **Quick Setup Guide**: `/DECAP-CMS-SETUP.md`
+- **Admin Folder README**: `/src/admin/README.md`
+- **Implementation Details**: `/docs/implementation/decap-cms-implementation.md`
+
+**What the CMS Manages:**
+
+- Resources collection: 112 bilingual resource files in `src/resources/en/` and `src/resources/fr/`
+- Topic organization: 6 categories (Learning, Development, Policy, etc.)
+- Resource types: Standard, parent, and child resources for hierarchical content
+- Language availability: Mark resources as bilingual, English-only, or French-only
+
 #### Pages to Review System
 
 The pages-to-review system automatically tracks and displays pages that have been modified since the last upstream/main branch. This helps developers and reviewers identify what content needs to be checked before publishing.
@@ -635,6 +667,38 @@ La commande `npm run eleventy` construit les pages HTML du dossier `src` dans le
 Pour créer une nouvelle page pour le site dans les répertoires `src/pages/en` et `src/pages/fr`, vous pouvez utiliser `npm run newPage`.
 
 Le script vous demandera le titre anglais et une description de la page, puis le titre et la description en français, et enfin si la page contient des liens internes au pare-feu du gouvernement du Canada.
+
+#### Système de gestion de contenu (Decap CMS)
+
+La Boîte à outils de l'accessibilité numérique comprend un CMS convivial pour gérer le contenu des ressources sans avoir besoin de modifier directement les fichiers markdown. Le CMS est idéal pour les éditeurs de contenu non techniques.
+
+**Fonctionnalités clés :**
+
+- **Gestion de contenu bilingue** avec liaison inter-langues automatique
+- **Organisation par sujets** avec filtrage et regroupement
+- **Hiérarchies de ressources parent/enfant** pour le contenu connexe
+- **Flux de travail basé sur Git** avec validations automatiques et attribution d'utilisateur
+- **Interface d'édition visuelle** avec aperçu en direct
+
+**Accès au CMS :**
+
+- **Production** : Naviguez vers `/admin/` (nécessite une connexion Netlify Identity)
+- **Développement local** : Exécutez `npx decap-server`, décommentez `local_backend: true` dans `src/admin/config.yml`, puis accédez à `http://localhost:8080/admin/`
+
+**Documentation :**
+
+Pour les instructions de configuration complètes, les détails de configuration et le dépannage :
+
+- **Guide de configuration rapide** : `/DECAP-CMS-SETUP.md`
+- **README du dossier admin** : `/src/admin/README.md`
+- **Détails de mise en œuvre** : `/docs/implementation/decap-cms-implementation.md`
+
+**Ce que le CMS gère :**
+
+- Collection Ressources : 112 fichiers de ressources bilingues dans `src/resources/en/` et `src/resources/fr/`
+- Organisation par sujets : 6 catégories (Apprentissage, Développement, Politique, etc.)
+- Types de ressources : Ressources standard, parent et enfant pour le contenu hiérarchique
+- Disponibilité linguistique : Marquer les ressources comme bilingues, anglais seulement ou français seulement
 
 #### Système de pages à réviser
 

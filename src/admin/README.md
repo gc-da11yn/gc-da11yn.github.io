@@ -27,9 +27,11 @@ Individual resource items for the Additional Resources page with bilingual suppo
 - **Location**: `src/resources/en/` and `src/resources/fr/`
 - **Structure**: Frontmatter-only markdown files
 - **i18n**: Single entry point with language tabs for title/description
-- **Fields**: title, description, url, topic, internalLinks, languageAvailability
-- **Topics**: 6 categories (meetingsEvents, development, learning, policy, procurement, services)
-- **Display**: Dynamic templates query collections and display alphabetically by topic
+- **Fields**: title, description, url, topic (full labels), resourceType, parentResource, internalLinks, languageAvailability
+- **Topics**: 6 categories with full labels ("Learning", "Development", etc.), converted to keys by collections plugin
+- **Parent/Child**: Hierarchical resources via resourceType (standard/parent/child) and parentResource relation
+- **View Controls**: Filter by topic with view_filters, group by topic with view_groups
+- **Display**: Dynamic templates query collections and display alphabetically by topic with parent/child nesting
 
 ## Local Development
 
@@ -57,7 +59,9 @@ To test the CMS locally:
 - **Bilingual entry**: Add resources in both EN and FR with language tabs
 - **Auto-toggle**: Cross-language linking automatically generated
 - **Language availability**: Mark resources as "both", "en", or "fr"
-- **Topic organization**: Resources grouped by category, sorted alphabetically
+- **Topic organization**: 6 topics with full labels in CMS, converted to keys in collections
+- **Parent/child resources**: Create hierarchical resource collections (parent with related children)
+- **View controls**: Filter resources by topic or toggle "Group by Topic" for organized display
 - **Internal links flag**: Indicate GC network-only resources
 - **Git-based**: All changes committed to repository with user attribution
 
@@ -100,9 +104,11 @@ Ce dossier contient la configuration du système de gestion de contenu (CMS) Dec
 - **Emplacement** : `src/resources/en/` et `src/resources/fr/`
 - **Structure** : Fichiers markdown frontmatter uniquement
 - **i18n** : Point d'entrée unique avec onglets de langue pour titre/description
-- **Champs** : title, description, url, topic, internalLinks, languageAvailability
-- **Sujets** : 6 catégories (meetingsEvents, development, learning, policy, procurement, services)
-- **Affichage** : Les modèles dynamiques interrogent les collections et affichent alphabétiquement par sujet
+- **Champs** : title, description, url, topic (étiquettes complètes), resourceType, parentResource, internalLinks, languageAvailability
+- **Sujets** : 6 catégories avec étiquettes complètes ("Apprentissage", "Développement", etc.), converties en clés par plugin collections
+- **Parent/Enfant** : Ressources hiérarchiques via resourceType (standard/parent/child) et relation parentResource
+- **Contrôles d'affichage** : Filtrer par sujet avec view_filters, regrouper par sujet avec view_groups
+- **Affichage** : Les modèles dynamiques interrogent les collections et affichent alphabétiquement par sujet avec imbrication parent/enfant
 
 ## Développement local
 
@@ -130,7 +136,9 @@ Pour tester le CMS localement :
 - **Entrée bilingue** : Ajoutez des ressources en EN et FR avec des onglets de langue
 - **Bascule automatique** : Liaison inter-langues générée automatiquement
 - **Disponibilité linguistique** : Marquez les ressources comme "both", "en" ou "fr"
-- **Organisation par sujet** : Ressources groupées par catégorie, triées alphabétiquement
+- **Organisation par sujet** : 6 sujets avec étiquettes complètes dans CMS, converties en clés dans collections
+- **Ressources parent/enfant** : Créer des collections de ressources hiérarchiques (parent avec enfants associés)
+- **Contrôles d'affichage** : Filtrer les ressources par sujet ou activer "Group by Topic" pour affichage organisé
 - **Indicateur de liens internes** : Indiquez les ressources du réseau du GC uniquement
 - **Basé sur Git** : Tous les changements validés dans le dépôt avec attribution d'utilisateur
 

@@ -24,10 +24,15 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
 - `src/resources/fr/*.md` - French resource items (frontmatter-only)
 - `src/resources/resources.11tydata.js` - Auto-toggle generation for cross-language linking
 
+**Template Pages:**
+- `src/main/en/resources-and-tools/additional-resources.njk` - Dynamic template for EN page
+- `src/main/fr/ressources-et-outils/ressources-additionnelles.njk` - Dynamic template for FR page
+- `src/main/en/resources-and-tools/additional-resources.11tydata.js` - Custom TOC generation for EN
+- `src/main/fr/ressources-et-outils/ressources-additionnelles.11tydata.js` - Custom TOC generation for FR
+
 **Data & Configuration:**
-- `src/_data/resourceTopics.js` - Topic definitions (labels, order, descriptions)
-- `src/pages/en/additional-resources.11tydata.js` - Custom TOC generation for EN page
-- `src/pages/fr/ressources-additionnelles.11tydata.js` - Custom TOC generation for FR page
+- `src/_data/resourceTopics.js` - Topic definitions with labels, order, descriptions, and helper functions
+- `eleventy/plugins/collections-plugin.js` - Resource collections with topic label-to-key conversion
 
 **Documentation:**
 - `docs/implementation/decap-cms-implementation.md` - Complete implementation details
@@ -39,8 +44,8 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
 - `eleventy/plugins/collections-plugin.js` - Added 4 resource collections
 - `eleventy/config/passthrough.js` - Added admin folder passthrough
 - `src/_includes/partials/head.njk` - Added Netlify Identity widget
-- `src/pages/en/additional-resources.md` - Dynamic template for displaying resources
-- `src/pages/fr/ressources-additionnelles.md` - Dynamic template for displaying resources
+- `src/main/en/resources-and-tools/additional-resources.njk` - Dynamic template for displaying resources
+- `src/main/fr/ressources-et-outils/ressources-additionnelles.njk` - Dynamic template for displaying resources
 
 ## 🚀 Next Steps for Production Deployment
 
@@ -121,11 +126,13 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
 3. Click **New Resources**
 4. **Fill in the fields:**
    - **Title**: Switch between EN/FR tabs to enter both languages
-   - **Description**: Enter brief description in both languages (supports HTML)
+   - **Description**: Enter brief description in both languages (supports HTML like `<abbr>`, `<strong>`)
    - **URL**: Enter link (shared field, appears once)
-   - **Topic**: Select category from dropdown (6 options)
+   - **Topic**: Select category from dropdown (full labels: "Learning", "Development", etc.)
    - **Language Availability**: Choose "both" (default), "en", or "fr"
    - **Internal Links**: Toggle on if resource requires GC network access
+   - **Resource Type**: Select "Standard resource" (default), "Parent resource", or "Child resource"
+   - **Parent Resource**: If child resource, select the parent from filtered dropdown
 5. **Save** to create a draft
 6. **Publish** → **Publish now** to commit to Git
 
@@ -153,6 +160,9 @@ Resources are organized into 6 topics (alphabetically sorted per language):
 
 ### Content Editor Features
 
+- **Topic organization:** Filter by 6 topics (Learning, Development, etc.) or group resources by topic
+- **View controls:** Use `view_filters` for quick filtering, toggle "Group by Topic" for organized display
+- **Parent/child resources:** Create hierarchical resource collections (parent with related children)
 - **Bilingual entry** with language tabs for title and description
 - **Shared metadata** for URL, topic, and flags
 - **Auto-toggle generation** for cross-language linking
@@ -206,11 +216,16 @@ backend:
    - Structure: Frontmatter-only markdown files
    - Single entry point with language tabs for title and description
    - Auto-generated cross-language toggle links
+   - Topic organization: Full labels stored in frontmatter ("Learning"), converted to keys by collections plugin
+   - Parent/child support: `resourceType` field (standard/parent/child), `parentResource` relation
+   - View controls: Filter by topic with `view_filters`, group by topic with `view_groups`
 
 ### How Resources Display
 
-- **Additional Resources pages** query resources from Eleventy collections
-- **Topics sorted alphabetically** in each language
+- **Additional Resources pages** query resources from Eleventy collections via `resourcesByTopicEn` and `resourcesByTopicFr`
+- **Topic labels** stored as full text in frontmatter ("Learning", "Development"), converted to keys by collections plugin
+- **Topics sorted alphabetically** in each language on rendered pages
+- **Parent/child hierarchy:** Parent resources shown with nested child resources as sublist items
 - **All resources shown** on both language pages
 - **Language indicators** for single-language resources:
   - EN page shows "(in French only)" for FR-only resources
@@ -284,9 +299,15 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
 - `src/resources/fr/*.md` - Éléments de ressources en français (frontmatter uniquement)
 - `src/resources/resources.11tydata.js` - Génération automatique de bascule pour liaison inter-langues
 
+**Pages modèles :**
+
+- `src/main/en/resources-and-tools/additional-resources.njk` - Modèle dynamique pour la page EN
+- `src/main/fr/ressources-et-outils/ressources-additionnelles.njk` - Modèle dynamique pour la page FR
+
 **Données et configuration :**
 
-- `src/_data/resourceTopics.js` - Définitions de sujets (étiquettes, ordre, descriptions)
+- `src/_data/resourceTopics.js` - Définitions de sujets avec étiquettes, ordre, descriptions et fonctions d'aide
+- `eleventy/plugins/collections-plugin.js` - Collections de ressources avec conversion étiquette-vers-clé
 - `src/pages/en/additional-resources.11tydata.js` - Génération de TDM personnalisée pour page EN
 - `src/pages/fr/ressources-additionnelles.11tydata.js` - Génération de TDM personnalisée pour page FR
 
@@ -301,8 +322,8 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
 - `eleventy/plugins/collections-plugin.js` - Ajout de 4 collections de ressources
 - `eleventy/config/passthrough.js` - Ajout de passthrough pour le dossier admin
 - `src/_includes/partials/head.njk` - Ajout du widget Netlify Identity
-- `src/pages/en/additional-resources.md` - Modèle dynamique pour afficher les ressources
-- `src/pages/fr/ressources-additionnelles.md` - Modèle dynamique pour afficher les ressources
+- `src/main/en/resources-and-tools/additional-resources.njk` - Converti de .md à .njk
+- `src/main/fr/ressources-et-outils/ressources-additionnelles.njk` - Converti de .md à .njk
 
 ## 🚀 Prochaines étapes pour le déploiement en production
 
@@ -383,11 +404,13 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
 3. Cliquez sur **New Resources**
 4. **Remplissez les champs :**
    - **Title** : Basculez entre les onglets EN/FR pour entrer les deux langues
-   - **Description** : Entrez une brève description dans les deux langues (prend en charge HTML)
+   - **Description** : Entrez une brève description dans les deux langues (prend en charge HTML comme `<abbr>`, `<strong>`)
    - **URL** : Entrez le lien (champ partagé, apparaît une fois)
-   - **Topic** : Sélectionnez la catégorie dans le menu déroulant (6 options)
+   - **Topic** : Sélectionnez la catégorie dans le menu déroulant (étiquettes complètes : "Apprentissage", "Développement", etc.)
    - **Language Availability** : Choisissez "both" (par défaut), "en" ou "fr"
    - **Internal Links** : Activez si la ressource nécessite un accès au réseau du GC
+   - **Resource Type** : Sélectionnez "Standard resource" (par défaut), "Parent resource" ou "Child resource"
+   - **Parent Resource** : Si ressource enfant, sélectionnez le parent dans le menu déroulant filtré
 5. **Enregistrez** pour créer un brouillon
 6. **Publiez** → **Publish now** pour valider dans Git
 
@@ -415,6 +438,9 @@ Les ressources sont organisées en 6 sujets (triés alphabétiquement par langue
 
 ### Fonctionnalités pour l'éditeur de contenu
 
+- **Organisation par sujets :** Filtrer par 6 sujets (Apprentissage, Développement, etc.) ou regrouper les ressources par sujet
+- **Contrôles d'affichage :** Utiliser `view_filters` pour filtrage rapide, activer "Group by Topic" pour affichage organisé
+- **Ressources parent/enfant :** Créer des collections de ressources hiérarchiques (parent avec enfants associés)
 - **Entrée bilingue** avec onglets de langue pour titre et description
 - **Métadonnées partagées** pour URL, sujet et indicateurs
 - **Génération automatique de bascule** pour liaison inter-langues
@@ -470,16 +496,21 @@ backend:
    - Structure : Fichiers markdown frontmatter uniquement
    - Point d'entrée unique avec onglets de langue pour titre et description
    - Liens de bascule inter-langues générés automatiquement
+   - Organisation par sujets : Étiquettes complètes stockées dans frontmatter ("Apprentissage"), converties en clés par plugin collections
+   - Support parent/enfant : Champ `resourceType` (standard/parent/child), relation `parentResource`
+   - Contrôles d'affichage : Filtrer par sujet avec `view_filters`, regrouper par sujet avec `view_groups`
 
 ### Comment les ressources s'affichent
 
-- **Les pages Ressources additionnelles** interrogent les ressources des collections Eleventy
-- **Sujets triés alphabétiquement** dans chaque langue
+- **Les pages Ressources additionnelles** interrogent les ressources des collections Eleventy via `resourcesByTopicEn` et `resourcesByTopicFr`
+- **Étiquettes de sujets** stockées en texte complet dans frontmatter ("Apprentissage", "Développement"), converties en clés par plugin collections
+- **Sujets triés alphabétiquement** dans chaque langue sur les pages rendues
+- **Hiérarchie parent/enfant :** Ressources parents affichées avec ressources enfants associées comme éléments de sous-liste
 - **Toutes les ressources affichées** sur les deux pages de langue
 - **Indicateurs de langue** pour les ressources en une seule langue :
   - La page EN affiche "(in French only)" pour les ressources FR uniquement
   - La page FR affiche "(en anglais seulement)" pour les ressources EN uniquement
-- **Descriptions de sujets** apparaissent sous certains titres de sujets (par ex., "Accessible meetings and events")
+- **Descriptions de sujets** apparaissent sous certains titres de sujets (par ex., "Réunions et événements accessibles")
 
 ### Fichiers multimédias
 
