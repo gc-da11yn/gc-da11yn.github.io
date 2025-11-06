@@ -33,14 +33,18 @@ eleventy/
 ### Key Directories
 ```
 src/
+├── admin/               # 🆕 Decap CMS admin interface
+│   ├── index.html       # CMS entry point
+│   ├── config.yml       # CMS configuration
+│   └── README.md        # CMS documentation
 ├── _data/               # Global data files and computed data
 │   ├── alerts.js        # Alert system configuration
 │   ├── header.js        # Header navigation data
 │   ├── footer.js        # Footer content data
-│   └── eleventyComputed.js # 🆕 TOC headings generation
+│   └── eleventyComputed.js # TOC headings generation
 ├── _includes/           # Nunjucks templates and partials
 │   └── partials/
-│       └── onThisPage.njk # 🆕 Table of Contents template
+│       └── onThisPage.njk # Table of Contents template
 ├── pages/en/            # English content pages
 ├── pages/fr/            # French content pages
 ├── main/en|fr/          # Landing pages and category indices
@@ -70,6 +74,30 @@ For significant architectural changes, template updates, or workflow modificatio
 - Include overview, changes made, testing results, and benefits
 - Document both English and French sections when applicable
 - Reference implementation docs in commit messages and PR descriptions
+
+### Content Management System (Decap CMS) ✅
+**Implemented**: November 3, 2025 on branch `feature/decapCMS`
+
+A user-friendly CMS for non-technical content editors to manage site content:
+- **Access**: Navigate to `/admin/` (requires Netlify Identity login)
+- **Local Testing**: Run `npx decap-server` and uncomment `local_backend: true` in config
+- **Collections**: Resources collection (bilingual i18n), template pages
+- **Features**: Visual markdown editor, media library, editorial workflow, Git-based, topic-based organization
+- **Documentation**: See `docs/implementation/decap-cms-implementation.md` and `DECAP-CMS-SETUP.md`
+- **Setup Required**: Enable Netlify Identity and Git Gateway in Netlify dashboard
+
+**Key Files**:
+- `src/admin/config.yml` - CMS configuration with view_filters and view_groups
+- `src/admin/index.html` - CMS interface
+- Resource files: `src/resources/en/*.md` and `src/resources/fr/*.md` (112 files total)
+- Template pages: `src/main/en/resources-and-tools/additional-resources.njk` and `src/main/fr/ressources-et-outils/ressources-additionnelles.njk`
+
+**CMS Architecture**:
+- **Topic Labels**: Full labels stored in frontmatter ("Learning", "Development"), converted to keys by collections plugin
+- **Helper Function**: `getTopicKeyFromLabel()` in `src/_data/resourceTopics.js` enables reverse lookup
+- **Collections Plugin**: Modified to convert topic labels to keys in `resourcesByTopicEn` and `resourcesByTopicFr`
+- **Parent/Child System**: `resourceType` field (standard/parent/child), `parentResource` relation for hierarchical resources
+- **View Controls**: `view_filters` for topic filtering, `view_groups` for grouping (with "Topic:" prefix limitation)
 
 ### Essential npm Scripts
 - `npm start` - Development server with hot reload and change detection

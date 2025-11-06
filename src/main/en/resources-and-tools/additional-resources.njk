@@ -1,0 +1,75 @@
+---
+title: Additional Resources
+layout: layouts/base.njk
+description: Resources and useful tools for web accessibility for employees of the Government of Canada.
+toggle: Ressources additionnelles
+tags:
+  - resourcesAndTools
+internalLinks: true
+tocSimple: true
+---
+
+{# CMS-Managed Resources #}
+{% set locale = "en" %}
+
+{% if collections.resourcesByTopicEn and resourceTopics and resourceTopics[locale] %}
+{% for topicKey, topicData in resourceTopics[locale] %}
+{% set topicResources = collections.resourcesByTopicEn[topicKey] %}
+{% if topicResources and topicResources.length > 0 %}
+
+<h2 id="{{ topicData.label | stripTagsSlugify }}" tabindex="-1">{{ topicData.label }}</h2>
+
+{% if topicData.description %}
+<p>{{ topicData.description }}</p>
+
+{% endif %}
+<div class="row wb-eqht gc-srvinfo">
+{% for resource in topicResources %}
+{# Only render standard and parent resources at top level, skip children #}
+{% if not resource.data.resourceType or resource.data.resourceType == "standard" %}
+<div class="col-md-6">
+
+<h3 id="{{ resource.data.title | stripTagsSlugify }}" tabindex="-1"><a href="{{ resource.data.url }}">{{ resource.data.title | safe }}{% if resource.data.languageAvailability == "fr" %}<small> (in French only)</small>{% endif %}{% if resource.data.internalLinks %}<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>{% endif %}</a></h3>
+
+{{ resource.data.description | safe }}
+
+</div>
+{% endif %}
+{% endfor %}
+</div>
+
+{# After all h3 resources, render h4 children grouped by parent #}
+{% for resource in topicResources %}
+{% if resource.data.resourceType == "parent" %}
+{% set hasChildren = false %}
+{% for childResource in topicResources %}
+{% if childResource.data.resourceType == "child" and childResource.data.parentResource == resource.fileSlug %}
+{% set hasChildren = true %}
+{% endif %}
+{% endfor %}
+{% if hasChildren %}
+
+<h3 id="{{ resource.data.title | stripTagsSlugify }}" tabindex="-1"><a href="{{ resource.data.url }}">{{ resource.data.title | safe }}</a></h3>
+
+<p>{{ resource.data.description | safe }}</p>
+
+<div class="row wb-eqht gc-srvinfo mrgn-tp-lg mrgn-bttm-lg">
+{% for childResource in topicResources %}
+{% if childResource.data.resourceType == "child" and childResource.data.parentResource == resource.fileSlug %}
+<div class="col-md-6">
+
+<h4 id="{{ childResource.data.title | stripTagsSlugify }}" tabindex="-1"><a href="{{ childResource.data.url }}">{{ childResource.data.title | safe }}{% if childResource.data.languageAvailability == "fr" %}<small> (in French only)</small>{% endif %}{% if childResource.data.internalLinks %}<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>{% endif %}</a></h4>
+
+{{ childResource.data.description | safe }}
+
+</div>
+{% endif %}
+{% endfor %}
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% endif %}
+{% endfor %}
+{% endif %}

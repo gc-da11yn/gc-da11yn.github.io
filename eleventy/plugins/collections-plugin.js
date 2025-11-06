@@ -39,6 +39,7 @@ class CollectionsPlugin extends EleventyBasePlugin {
     // Configure other collections
     this.configureChangedPagesCollection(eleventyConfig);
     this.configureTaggedCollections(eleventyConfig);
+    this.configureResourceCollections(eleventyConfig);
 
     this.log('Custom collections configured with caching and performance optimization');
   }
@@ -355,17 +356,73 @@ class CollectionsPlugin extends EleventyBasePlugin {
   }
 
   /**
-   * Get metadata with collection-specific info
+   * Configure resource collections for Additional Resources page
+   */
+  configureResourceCollections(eleventyConfig) {
+    // English resources
+    eleventyConfig.addCollection("resourcesEn", function(collectionApi) {
+      return collectionApi.getFilteredByGlob("src/resources/en/*.md");
+    });
+
+    // French resources
+    eleventyConfig.addCollection("resourcesFr", function(collectionApi) {
+      return collectionApi.getFilteredByGlob("src/resources/fr/*.md");
+    });
+
+    // Resources grouped by topic for English
+    eleventyConfig.addCollection("resourcesByTopicEn", function(collectionApi) {
+      const resources = collectionApi.getFilteredByGlob("src/resources/en/*.md");
+      const resourceTopics = require('../../src/_data/resourceTopics');
+      const grouped = {};
+
+      resources.forEach(resource => {
+        const topicLabel = resource.data.topic;
+        // Convert label to key using helper function
+        const topicKey = resourceTopics.getTopicKeyFromLabel(topicLabel, 'en') || topicLabel;
+
+        if (!grouped[topicKey]) {
+          grouped[topicKey] = [];
+        }
+        grouped[topicKey].push(resource);
+      });
+
+      return grouped;
+    });
+
+    // Resources grouped by topic for French
+    eleventyConfig.addCollection("resourcesByTopicFr", function(collectionApi) {
+      const resources = collectionApi.getFilteredByGlob("src/resources/fr/*.md");
+      const resourceTopics = require('../../src/_data/resourceTopics');
+      const grouped = {};
+
+      resources.forEach(resource => {
+        const topicLabel = resource.data.topic;
+        // Convert label to key using helper function
+        const topicKey = resourceTopics.getTopicKeyFromLabel(topicLabel, 'fr') || topicLabel;
+
+        if (!grouped[topicKey]) {
+          grouped[topicKey] = [];
+        }
+        grouped[topicKey].push(resource);
+      });
+
+      return grouped;
+    });
+  }
+
+  /**
+   * Get plugin metadata
    */
   getMetadata() {
     const base = super.getMetadata();
     return {
       ...base,
-      collections: ['allHeadings', 'changedPages', 'pagesBySubject', 'recentPages'],
+      collections: ['allHeadings', 'changedPages', 'pagesBySubject', 'recentPages', 'resourcesEn', 'resourcesFr', 'resourcesByTopicEn', 'resourcesByTopicFr'],
       features: {
         tocGeneration: true,
         changeTracking: true,
         subjectGrouping: true,
+        resourceGrouping: true,
         caching: this.options.enableCaching
       }
     };
