@@ -4,7 +4,7 @@ title: CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and
 description: Accessibility requirements suitable for public procurement of ICT
   products and services in Canada.
 url: https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services-1
-topic: policy
+topic: Policy
 internalLinks: false
 languageAvailability: both
 resourceType: standard

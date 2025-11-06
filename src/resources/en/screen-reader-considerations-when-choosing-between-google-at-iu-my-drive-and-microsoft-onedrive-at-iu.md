@@ -6,7 +6,7 @@ description: The choice between Google at IU My Drive and Microsoft OneDrive at
   and cons to both, which can differ depending on the screen reader and browser
   combination used.
 url: https://kb.iu.edu/d/bgdz
-topic: learning
+topic: Learning
 internalLinks: false
 languageAvailability: en
 resourceType: standard

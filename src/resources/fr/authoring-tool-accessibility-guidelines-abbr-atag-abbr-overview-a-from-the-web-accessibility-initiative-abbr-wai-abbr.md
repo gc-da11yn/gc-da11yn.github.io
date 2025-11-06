@@ -5,7 +5,7 @@ description: Les outils de création sont des logiciels et des services que les
   produire du contenu web (pages web statiques, applications web dynamiques,
   etc.)
 url: https://www.w3.org/WAI/standards-guidelines/atag/
-topic: policy
+topic: Politique
 internalLinks: false
 languageAvailability: en
 resourceType: standard

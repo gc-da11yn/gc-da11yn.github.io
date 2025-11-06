@@ -6,7 +6,7 @@ description: Suggestions for the portrayal of people with disabilities. People
   affect their lives. They are also asking that images chosen to portray them be
   respectful and not reinforce outdated stereotypes.
 url: https://www.canada.ca/en/employment-social-development/programs/disability/arc/words-images.html
-topic: learning
+topic: Learning
 internalLinks: false
 languageAvailability: both
 resourceType: standard

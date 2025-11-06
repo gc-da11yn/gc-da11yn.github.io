@@ -372,14 +372,18 @@ class CollectionsPlugin extends EleventyBasePlugin {
     // Resources grouped by topic for English
     eleventyConfig.addCollection("resourcesByTopicEn", function(collectionApi) {
       const resources = collectionApi.getFilteredByGlob("src/resources/en/*.md");
+      const resourceTopics = require('../../src/_data/resourceTopics');
       const grouped = {};
 
       resources.forEach(resource => {
-        const topic = resource.data.topic;
-        if (!grouped[topic]) {
-          grouped[topic] = [];
+        const topicLabel = resource.data.topic;
+        // Convert label to key using helper function
+        const topicKey = resourceTopics.getTopicKeyFromLabel(topicLabel, 'en') || topicLabel;
+
+        if (!grouped[topicKey]) {
+          grouped[topicKey] = [];
         }
-        grouped[topic].push(resource);
+        grouped[topicKey].push(resource);
       });
 
       return grouped;
@@ -388,14 +392,18 @@ class CollectionsPlugin extends EleventyBasePlugin {
     // Resources grouped by topic for French
     eleventyConfig.addCollection("resourcesByTopicFr", function(collectionApi) {
       const resources = collectionApi.getFilteredByGlob("src/resources/fr/*.md");
+      const resourceTopics = require('../../src/_data/resourceTopics');
       const grouped = {};
 
       resources.forEach(resource => {
-        const topic = resource.data.topic;
-        if (!grouped[topic]) {
-          grouped[topic] = [];
+        const topicLabel = resource.data.topic;
+        // Convert label to key using helper function
+        const topicKey = resourceTopics.getTopicKeyFromLabel(topicLabel, 'fr') || topicLabel;
+
+        if (!grouped[topicKey]) {
+          grouped[topicKey] = [];
         }
-        grouped[topic].push(resource);
+        grouped[topicKey].push(resource);
       });
 
       return grouped;

@@ -6,7 +6,7 @@ description: Renseignez-vous sur les différents services de traduction et de
   services et découvrez des conseils pratiques lorsque vous faites affaire avec
   le Bureau.
 url: https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/ministeres-departments/traduction-translation/accueil-home-fra.html
-topic: services
+topic: Services
 internalLinks: true
 languageAvailability: both
 resourceType: standard

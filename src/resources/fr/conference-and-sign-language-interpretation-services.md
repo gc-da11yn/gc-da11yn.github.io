@@ -8,7 +8,7 @@ description: Renseignez-vous sur les services d'interprétation offerts en
   d’événements. Apprenez comment demander ces services et découvrez des conseils
   pratiques lorsque vous faites affaire avec le Bureau.
 url: https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/accueil-home-fra.html
-topic: services
+topic: Services
 internalLinks: true
 languageAvailability: both
 resourceType: standard

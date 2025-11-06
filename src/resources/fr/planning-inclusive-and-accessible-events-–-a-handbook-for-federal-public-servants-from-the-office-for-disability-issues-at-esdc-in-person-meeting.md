@@ -8,7 +8,7 @@ description: Le Bureau de la condition des personnes handicapées
   gouvernement du Canada afin de fournir une orientation sur la planification
   d’événements inclusifs et accessibles.
 url: https://intranet.canada.ca/hr-rh/ve/dee-deme/piae-peia-fra.asp
-topic: meetingsEvents
+topic: Réunions et événements accessibles
 internalLinks: true
 languageAvailability: both
 resourceType: standard

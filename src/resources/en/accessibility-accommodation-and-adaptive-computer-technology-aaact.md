@@ -7,7 +7,7 @@ description: AAACT’s services and solutions help the public service to serve a
   training sessions to empower everyone with the knowledge and tools to help
   integrate accessibility into their digital projects.
 url: https://www.canada.ca/en/shared-services/services/employees-accessibility/aaact-program.html
-topic: services
+topic: Services
 internalLinks: false
 languageAvailability: both
 resourceType: standard

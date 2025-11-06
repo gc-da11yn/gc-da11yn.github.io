@@ -6,7 +6,7 @@ description: Chaque fonctionnaire a un rôle à jouer dans la création d’une
   l’inclusion au quotidien en éliminant les obstacles ou en évitant d’en créer
   de nouveaux pour les personnes en situation de handicap.
 url: https://www.csps-efpc.gc.ca/accessibility-learning-fra.aspx
-topic: learning
+topic: Apprentissage
 internalLinks: false
 languageAvailability: both
 resourceType: standard

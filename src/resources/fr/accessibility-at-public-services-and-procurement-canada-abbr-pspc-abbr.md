@@ -6,7 +6,7 @@ description: En tant que fournisseur de services communs du gouvernement du
   les personnes handicapées, SPAC aide les ministères fédéraux à offrir des
   programmes et services de haute qualité à tous les Canadiens.
 url: https://www.canada.ca/fr/services-publics-approvisionnement/organisation/accessibilite.html
-topic: procurement
+topic: Approvisionnement
 internalLinks: false
 languageAvailability: both
 resourceType: standard

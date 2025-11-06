@@ -1,4 +1,4 @@
-module.exports = {
+const topics = {
 	en: {
 		meetingsEvents: {
 			label: "Accessible meetings and events",
@@ -64,3 +64,18 @@ module.exports = {
 		}
 	}
 };
+
+// Helper function to get topic key from label
+// Used by collections to lookup topic data when topic is stored as label
+function getTopicKeyFromLabel(label, locale = 'en') {
+	const topicsForLocale = topics[locale];
+	for (const [key, data] of Object.entries(topicsForLocale)) {
+		if (data.label === label) {
+			return key;
+		}
+	}
+	return null;
+}
+
+module.exports = topics;
+module.exports.getTopicKeyFromLabel = getTopicKeyFromLabel;

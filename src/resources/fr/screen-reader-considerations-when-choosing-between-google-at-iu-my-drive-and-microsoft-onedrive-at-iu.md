@@ -7,7 +7,7 @@ description: Le choix entre Google à IU My Drive et Microsoft OneDrive à IU
   varier en fonction de la combinaison du lecteur d’écran et du navigateur
   utilisé.
 url: https://kb.iu.edu/d/bgdz
-topic: learning
+topic: Apprentissage
 internalLinks: false
 languageAvailability: en
 resourceType: standard

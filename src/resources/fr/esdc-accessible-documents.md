@@ -6,7 +6,7 @@ description: Les étapes de base nécessaires à l’accessibilité sont les mê
   incluant les personnes avec un handicapes, puisse lire et comprendre vos
   documents.
 url: https://bati-itao.github.io/resources/accessible-documents-fr.html
-topic: learning
+topic: Apprentissage
 internalLinks: false
 languageAvailability: both
 resourceType: standard

@@ -7,7 +7,7 @@ description: Cette ligne directrice soutient la direction du gouvernement du
   d’équipement et de solutions de la technologie de l’information
   (<abbr>TI</abbr>) pour rendre la TI utilisable par tous.
 url: https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32620
-topic: policy
+topic: Politique
 internalLinks: false
 languageAvailability: both
 resourceType: standard

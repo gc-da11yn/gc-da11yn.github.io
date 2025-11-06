@@ -6,7 +6,7 @@ description: Learn about the interpretation services in official languages,
   agencies for conferences and events. Find out how to request these services,
   and discover some tips for when you do business with the Bureau.
 url: https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/accueil-home-eng.html
-topic: services
+topic: Services
 internalLinks: true
 languageAvailability: both
 resourceType: standard

@@ -7,7 +7,7 @@ description: Suggestions pour la représentation des personnes en situation de
   demandent également que les images choisies pour les représenter soient
   respectueuses et ne renforcent pas des stéréotypes dépassés.
 url: https://www.canada.ca/fr/emploi-developpement-social/programmes/invalidite/cra/mots-images.html
-topic: learning
+topic: Apprentissage
 internalLinks: false
 languageAvailability: both
 resourceType: standard

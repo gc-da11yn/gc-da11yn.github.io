@@ -30,7 +30,30 @@ collections:
     folder: "src/resources"
     create: true
     slug: "{{slug}}"
-    identifier_field: "title"
+    view_filters:
+      - label: "Accessible meetings and events"
+        field: topic
+        pattern: "Accessible meetings and events"
+      - label: "Development"
+        field: topic
+        pattern: "Development"
+      - label: "Learning"
+        field: topic
+        pattern: "Learning"
+      - label: "Policy"
+        field: topic
+        pattern: "Policy"
+      - label: "Procurement"
+        field: topic
+        pattern: "Procurement"
+      - label: "Services"
+        field: topic
+        pattern: "Services"
+    view_groups:
+      - label: "Topic"
+        field: topic
+    sortable_fields: ["title", "topic"]
+    summary: "{{title}} ({{topic}})"
     i18n: true
     editor:
       preview: false
@@ -55,13 +78,19 @@ collections:
         widget: "select"
         i18n: duplicate
         options:
-          - { label: "Accessible meetings and events / Réunions et événements accessibles", value: "meetingsEvents" }
-          - { label: "Development / Développement", value: "development" }
-          - { label: "Learning / Apprentissage", value: "learning" }
-          - { label: "Policy / Politique", value: "policy" }
-          - { label: "Procurement / Approvisionnement", value: "procurement" }
-          - { label: "Services", value: "services" }
-        hint: "Category for grouping resources (must match src/_data/resourceTopics.js)"
+          - label: "Accessible meetings and events"
+            value: "Accessible meetings and events"
+          - label: "Development"
+            value: "Development"
+          - label: "Learning"
+            value: "Learning"
+          - label: "Policy"
+            value: "Policy"
+          - label: "Procurement"
+            value: "Procurement"
+          - label: "Services"
+            value: "Services"
+        hint: "Category for grouping resources (labels must match src/_data/resourceTopics.js)"
       - label: "Internal Links"
         name: "internalLinks"
         widget: "boolean"
@@ -78,7 +107,7 @@ collections:
         options:
           - { label: "Available in both languages", value: "both" }
           - { label: "English only", value: "en" }
-          - { label: "French only / Français seulement", value: "fr" }
+          - { label: "French only", value: "fr" }
         hint: "Indicates if resource is only available in one language"
       - label: "Resource Type"
         name: "resourceType"

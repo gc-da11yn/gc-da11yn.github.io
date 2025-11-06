@@ -5,7 +5,7 @@ description: De l’utilisation de votre iPhone sans voir l’écran, à l’ada
   d’accessibilité intégrées à vos appareils Apple peuvent vous aider à en faire
   plus.
 url: https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu
-topic: learning
+topic: Apprentissage
 internalLinks: false
 languageAvailability: en
 resourceType: standard

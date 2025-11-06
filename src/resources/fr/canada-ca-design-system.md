@@ -8,7 +8,7 @@ description: >-
 
   Le contenu du système de conception comprend :
 url: https://www.canada.ca/fr/gouvernement/a-propos/systeme-conception.html
-topic: development
+topic: Développement
 internalLinks: false
 languageAvailability: both
 resourceType: parent

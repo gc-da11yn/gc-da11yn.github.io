@@ -4,7 +4,7 @@ description: Les professionnels de l’accessibilité du monde entier se réunis
   pour définir, promouvoir et améliorer la profession de l’accessibilité par le
   biais du réseautage, de l’éducation et de la certification.
 url: https://www.accessibilityassociation.org/
-topic: learning
+topic: Apprentissage
 internalLinks: false
 languageAvailability: en
 resourceType: standard

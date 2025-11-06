@@ -5,7 +5,7 @@ description: Les Règles pour l’accessibilité des contenus Web
   rendre les contenus Web plus accessibles. Suivre ces règles rendra aussi les
   contenus Web souvent plus faciles d’utilisation aux utilisateurs en général.
 url: https://www.w3.org/Translations/WCAG21-fr/
-topic: policy
+topic: Politique
 internalLinks: false
 languageAvailability: both
 resourceType: standard

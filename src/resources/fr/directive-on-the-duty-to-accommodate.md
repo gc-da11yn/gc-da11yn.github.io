@@ -6,7 +6,7 @@ description: La directive donne des orientations aux gestionnaires et aux chefs
   qui offre à tous des chances égales au sein de l’administration publique
   centrale.
 url: https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32634
-topic: policy
+topic: Politique
 internalLinks: false
 languageAvailability: both
 resourceType: standard

@@ -6,7 +6,7 @@ description: As the Government of Canada’s common service provider, PSPC works
   helps federal departments provide high-quality programs and services to all
   Canadians.
 url: https://www.canada.ca/en/public-services-procurement/corporate/accessibility.html
-topic: procurement
+topic: Procurement
 internalLinks: false
 languageAvailability: both
 resourceType: standard

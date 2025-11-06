@@ -5,7 +5,7 @@ description: Prévoit les règles pour la gestion et la coordination des
   recherches sur l’opinion publique, les médias sociaux et les communications
   Web.
 url: https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=30682
-topic: policy
+topic: Politique
 internalLinks: false
 languageAvailability: both
 resourceType: standard

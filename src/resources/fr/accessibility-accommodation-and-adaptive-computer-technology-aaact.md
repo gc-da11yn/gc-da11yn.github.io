@@ -8,7 +8,7 @@ description: Les services et les solutions d'AATIA aident la fonction publique �
   formation pour permettre à chacun d’acquérir les connaissances et les outils
   nécessaires à l’intégration de l’accessibilité dans ses projets numériques.
 url: https://www.canada.ca/fr/services-partages/services/employes-accessibilite/programme-aatia.html
-topic: services
+topic: Services
 internalLinks: false
 languageAvailability: both
 resourceType: standard

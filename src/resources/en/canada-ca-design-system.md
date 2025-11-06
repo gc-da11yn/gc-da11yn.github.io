@@ -7,7 +7,7 @@ description: >-
 
   Design system content includes:
 url: https://www.canada.ca/en/government/about/design-system.html
-topic: development
+topic: Development
 internalLinks: false
 languageAvailability: both
 resourceType: parent

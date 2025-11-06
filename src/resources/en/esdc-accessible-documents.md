@@ -6,7 +6,7 @@ description: The core steps needed for accessibility are the same regardless of
   everyone, including persons with disabilities, can read and understand your
   documents.
 url: https://bati-itao.github.io/resources/accessible-documents-en.html
-topic: learning
+topic: Learning
 internalLinks: false
 languageAvailability: both
 resourceType: standard
