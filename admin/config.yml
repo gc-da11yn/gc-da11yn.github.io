@@ -27,6 +27,7 @@ collections:
   - name: "resources"
     label: "Resources"
     label_singular: "Resource"
+    description: "Manage bilingual resource items for the Additional Resources page. Use filters to find resources by topic, or toggle 'Group by Topic' for organized view."
     folder: "src/resources"
     create: true
     slug: "{{slug}}"
