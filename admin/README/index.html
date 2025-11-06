@@ -1,0 +1,137 @@
+<div lang="fr">
+<p>(<a href="#francais">Français</a>)</p>
+</div>
+<h1>Decap CMS Admin</h1>
+<p>This folder contains the Decap CMS (Content Management System) configuration for the Digital Accessibility Toolkit.</p>
+<h2 id="files" tabindex="-1">Files</h2>
+<ul>
+<li><strong>index.html</strong>: The CMS admin interface entry point</li>
+<li><strong>config.yml</strong>: CMS configuration including Resources collection with i18n support</li>
+</ul>
+<h2 id="access" tabindex="-1">Access</h2>
+<ul>
+<li><strong>Production</strong>: Navigate to <code>/admin/</code> on the live site (requires Netlify Identity login)</li>
+<li><strong>Local Development</strong>: Navigate to <code>http://localhost:8080/admin/</code> (requires local backend setup)</li>
+</ul>
+<h2 id="what-the-cms-manages" tabindex="-1">What the CMS Manages</h2>
+<h3 id="resources-collection" tabindex="-1">Resources Collection</h3>
+<p>Individual resource items for the Additional Resources page with bilingual support:</p>
+<ul>
+<li><strong>Location</strong>: <code>src/resources/en/</code> and <code>src/resources/fr/</code></li>
+<li><strong>Structure</strong>: Frontmatter-only markdown files</li>
+<li><strong>i18n</strong>: Single entry point with language tabs for title/description</li>
+<li><strong>Fields</strong>: title, description, url, topic (full labels), resourceType, parentResource, internalLinks, languageAvailability</li>
+<li><strong>Topics</strong>: 6 categories with full labels (“Learning”, “Development”, etc.), converted to keys by collections plugin</li>
+<li><strong>Parent/Child</strong>: Hierarchical resources via resourceType (standard/parent/child) and parentResource relation</li>
+<li><strong>View Controls</strong>: Filter by topic with view_filters, group by topic with view_groups</li>
+<li><strong>Display</strong>: Dynamic templates query collections and display alphabetically by topic with parent/child nesting</li>
+</ul>
+<h2 id="local-development" tabindex="-1">Local Development</h2>
+<p>To test the CMS locally:</p>
+<ol>
+<li>
+<p>Install and run the local backend:</p>
+<pre><code class="language-bash">npx decap-server
+</code></pre>
+</li>
+<li>
+<p>Uncomment the local backend line in <code>config.yml</code>:</p>
+<pre><code class="language-yaml">local_backend: true
+</code></pre>
+</li>
+<li>
+<p>Start the Eleventy dev server:</p>
+<pre><code class="language-bash">npm start
+</code></pre>
+</li>
+<li>
+<p>Access at <code>http://localhost:8080/admin/</code></p>
+</li>
+</ol>
+<h2 id="key-features" tabindex="-1">Key Features</h2>
+<ul>
+<li><strong>Bilingual entry</strong>: Add resources in both EN and FR with language tabs</li>
+<li><strong>Auto-toggle</strong>: Cross-language linking automatically generated</li>
+<li><strong>Language availability</strong>: Mark resources as “both”, “en”, or “fr”</li>
+<li><strong>Topic organization</strong>: 6 topics with full labels in CMS, converted to keys in collections</li>
+<li><strong>Parent/child resources</strong>: Create hierarchical resource collections (parent with related children)</li>
+<li><strong>View controls</strong>: Filter resources by topic or toggle “Group by Topic” for organized display</li>
+<li><strong>Internal links flag</strong>: Indicate GC network-only resources</li>
+<li><strong>Git-based</strong>: All changes committed to repository with user attribution</li>
+</ul>
+<h2 id="documentation" tabindex="-1">Documentation</h2>
+<p>See complete documentation:</p>
+<ul>
+<li><strong>Implementation details</strong>: <code>/docs/implementation/decap-cms-implementation.md</code></li>
+<li><strong>Quick setup guide</strong>: <code>/DECAP-CMS-SETUP.md</code></li>
+<li><strong>Decap CMS docs</strong>: <a href="https://decapcms.org/docs/">decapcms.org/docs</a></li>
+</ul>
+<hr>
+<div lang="fr" id="francais">
+<p>(<a href="#decap-cms-admin">English</a>)</p>
+</div>
+<h1>Administration de Decap CMS</h1>
+<p>Ce dossier contient la configuration du système de gestion de contenu (CMS) Decap pour la Boîte à outils de l’accessibilité numérique.</p>
+<h2 id="fichiers" tabindex="-1">Fichiers</h2>
+<ul>
+<li><strong>index.html</strong> : Point d’entrée de l’interface d’administration CMS</li>
+<li><strong>config.yml</strong> : Configuration CMS incluant la collection Ressources avec support i18n</li>
+</ul>
+<h2 id="acces" tabindex="-1">Accès</h2>
+<ul>
+<li><strong>Production</strong> : Naviguez vers <code>/admin/</code> sur le site en direct (nécessite une connexion Netlify Identity)</li>
+<li><strong>Développement local</strong> : Naviguez vers <code>http://localhost:8080/admin/</code> (nécessite la configuration du backend local)</li>
+</ul>
+<h2 id="ce-que-le-cms-gere" tabindex="-1">Ce que le CMS gère</h2>
+<h3 id="collection-ressources" tabindex="-1">Collection Ressources</h3>
+<p>Éléments de ressources individuels pour la page Ressources additionnelles avec support bilingue :</p>
+<ul>
+<li><strong>Emplacement</strong> : <code>src/resources/en/</code> et <code>src/resources/fr/</code></li>
+<li><strong>Structure</strong> : Fichiers markdown frontmatter uniquement</li>
+<li><strong>i18n</strong> : Point d’entrée unique avec onglets de langue pour titre/description</li>
+<li><strong>Champs</strong> : title, description, url, topic (étiquettes complètes), resourceType, parentResource, internalLinks, languageAvailability</li>
+<li><strong>Sujets</strong> : 6 catégories avec étiquettes complètes (“Apprentissage”, “Développement”, etc.), converties en clés par plugin collections</li>
+<li><strong>Parent/Enfant</strong> : Ressources hiérarchiques via resourceType (standard/parent/child) et relation parentResource</li>
+<li><strong>Contrôles d’affichage</strong> : Filtrer par sujet avec view_filters, regrouper par sujet avec view_groups</li>
+<li><strong>Affichage</strong> : Les modèles dynamiques interrogent les collections et affichent alphabétiquement par sujet avec imbrication parent/enfant</li>
+</ul>
+<h2 id="developpement-local" tabindex="-1">Développement local</h2>
+<p>Pour tester le CMS localement :</p>
+<ol>
+<li>
+<p>Installez et exécutez le backend local :</p>
+<pre><code class="language-bash">npx decap-server
+</code></pre>
+</li>
+<li>
+<p>Décommentez la ligne de backend local dans <code>config.yml</code> :</p>
+<pre><code class="language-yaml">local_backend: true
+</code></pre>
+</li>
+<li>
+<p>Démarrez le serveur de développement Eleventy :</p>
+<pre><code class="language-bash">npm start
+</code></pre>
+</li>
+<li>
+<p>Accédez à <code>http://localhost:8080/admin/</code></p>
+</li>
+</ol>
+<h2 id="fonctionnalites-cles" tabindex="-1">Fonctionnalités clés</h2>
+<ul>
+<li><strong>Entrée bilingue</strong> : Ajoutez des ressources en EN et FR avec des onglets de langue</li>
+<li><strong>Bascule automatique</strong> : Liaison inter-langues générée automatiquement</li>
+<li><strong>Disponibilité linguistique</strong> : Marquez les ressources comme “both”, “en” ou “fr”</li>
+<li><strong>Organisation par sujet</strong> : 6 sujets avec étiquettes complètes dans CMS, converties en clés dans collections</li>
+<li><strong>Ressources parent/enfant</strong> : Créer des collections de ressources hiérarchiques (parent avec enfants associés)</li>
+<li><strong>Contrôles d’affichage</strong> : Filtrer les ressources par sujet ou activer “Group by Topic” pour affichage organisé</li>
+<li><strong>Indicateur de liens internes</strong> : Indiquez les ressources du réseau du GC uniquement</li>
+<li><strong>Basé sur Git</strong> : Tous les changements validés dans le dépôt avec attribution d’utilisateur</li>
+</ul>
+<h2 id="documentation-1" tabindex="-1">Documentation</h2>
+<p>Consultez la documentation complète :</p>
+<ul>
+<li><strong>Détails de mise en œuvre</strong> : <code>/docs/implementation/decap-cms-implementation.md</code></li>
+<li><strong>Guide de configuration rapide</strong> : <code>/DECAP-CMS-SETUP.md</code></li>
+<li><strong>Documentation Decap CMS</strong> : <a href="https://decapcms.org/docs/">decapcms.org/docs</a></li>
+</ul>
