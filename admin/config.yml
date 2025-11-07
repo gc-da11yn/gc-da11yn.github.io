@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update
+  name: github
+  repo: gc-da11yn/gc-da11yn.github.io
+  branch: main # Base branch for PRs
+  # open_authoring: true # Uncomment to allow fork-based contributions
 
 # Uncomment for local development testing
 # local_backend: true
