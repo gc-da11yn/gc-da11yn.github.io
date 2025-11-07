@@ -68,8 +68,11 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
 
 1. **Navigate to CMS**: `https://a11ycanada.netlify.app/admin/`
 2. **Click "Login with GitHub"**
-3. **Authorize Decap CMS**: First-time users will see a GitHub OAuth authorization screen
-4. **Click "Authorize"** to grant the CMS access to your GitHub account
+3. **Authorize Decap CMS**: First-time users will see a GitHub OAuth authorization screen requesting access to "Public and private" repositories
+   
+   **⚠️ Important**: Despite the broad warning message, Decap CMS only accesses the `gc-da11yn/gc-da11yn.github.io` repository specified in the configuration. It cannot read or write to your other repositories. This is standard behavior for GitHub OAuth Apps used by Git-based CMS tools.
+
+4. **Click "Authorize"** to grant the CMS access
 5. **Start editing**: You'll be redirected to the CMS dashboard
 
 ## 🧪 Testing Locally
@@ -364,8 +367,11 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
 
 1. **Accédez au CMS** : `https://a11ycanada.netlify.app/admin/`
 2. **Cliquez sur "Login with GitHub"**
-3. **Autorisez Decap CMS** : Les nouveaux utilisateurs verront un écran d'autorisation OAuth GitHub
-4. **Cliquez sur "Authorize"** pour accorder l'accès du CMS à votre compte GitHub
+3. **Autorisez Decap CMS** : Les nouveaux utilisateurs verront un écran d'autorisation OAuth GitHub demandant l'accès aux dépôts "Public and private"
+   
+   **⚠️ Important** : Malgré le message d'avertissement large, Decap CMS accède uniquement au dépôt `gc-da11yn/gc-da11yn.github.io` spécifié dans la configuration. Il ne peut pas lire ou écrire dans vos autres dépôts. Il s'agit du comportement standard des applications OAuth GitHub utilisées par les outils CMS basés sur Git.
+
+4. **Cliquez sur "Authorize"** pour accorder l'accès
 5. **Commencez à éditer** : Vous serez redirigé vers le tableau de bord du CMS
 
 ## 🧪 Tests locaux
