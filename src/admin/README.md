@@ -15,8 +15,17 @@ This folder contains the Decap CMS (Content Management System) configuration for
 
 ## Access
 
-- **Production**: Navigate to `/admin/` on the live site (requires Netlify Identity login)
+- **Production**: Navigate to `https://a11ycanada.netlify.app/admin/` (requires GitHub account with repository access)
 - **Local Development**: Navigate to `http://localhost:8080/admin/` (requires local backend setup)
+
+## Authentication
+
+The CMS uses **GitHub OAuth** via Netlify's OAuth provider:
+
+- **Login**: Click "Login with GitHub"
+- **Requirements**: GitHub account with write access to `gc-da11yn/gc-da11yn.github.io`
+- **Workflow**: Changes create pull requests; merge PRs to deploy
+- **No Netlify Identity**: Removed in favor of direct GitHub authentication
 
 ## What the CMS Manages
 
@@ -63,7 +72,8 @@ To test the CMS locally:
 - **Parent/child resources**: Create hierarchical resource collections (parent with related children)
 - **View controls**: Filter resources by topic or toggle "Group by Topic" for organized display
 - **Internal links flag**: Indicate GC network-only resources
-- **Git-based**: All changes committed to repository with user attribution
+- **Pull request workflow**: Changes create PRs for review before deployment
+- **Individual attribution**: GitHub accounts provide clear authorship of changes
 
 ## Documentation
 
@@ -92,8 +102,26 @@ Ce dossier contient la configuration du système de gestion de contenu (CMS) Dec
 
 ## Accès
 
-- **Production** : Naviguez vers `/admin/` sur le site en direct (nécessite une connexion Netlify Identity)
+- **Production** : Naviguez vers `https://a11ycanada.netlify.app/admin/` (nécessite un compte GitHub avec accès au dépôt)
 - **Développement local** : Naviguez vers `http://localhost:8080/admin/` (nécessite la configuration du backend local)
+
+## Authentification
+
+Le CMS utilise **GitHub OAuth** via le fournisseur OAuth de Netlify :
+
+- **Connexion** : Cliquez sur "Login with GitHub"
+- **Exigences** : Compte GitHub avec accès en écriture à `gc-da11yn/gc-da11yn.github.io`
+- **Flux de travail** : Les modifications créent des pull requests; fusionner les PR pour déployer
+- **Pas de Netlify Identity** : Supprimé en faveur de l'authentification GitHub directe
+
+## Authentification
+
+Le CMS utilise **GitHub OAuth** via le fournisseur OAuth de Netlify :
+
+- **Connexion** : Cliquez sur "Login with GitHub"
+- **Exigences** : Compte GitHub avec accès en écriture à `gc-da11yn/gc-da11yn.github.io`
+- **Flux de travail** : Les modifications créent des pull requests; fusionner les PR pour déployer
+- **Pas de Netlify Identity** : Supprimé en faveur de l'authentification GitHub directe
 
 ## Ce que le CMS gère
 
@@ -140,7 +168,8 @@ Pour tester le CMS localement :
 - **Ressources parent/enfant** : Créer des collections de ressources hiérarchiques (parent avec enfants associés)
 - **Contrôles d'affichage** : Filtrer les ressources par sujet ou activer "Group by Topic" pour affichage organisé
 - **Indicateur de liens internes** : Indiquez les ressources du réseau du GC uniquement
-- **Basé sur Git** : Tous les changements validés dans le dépôt avec attribution d'utilisateur
+- **Flux de travail de pull request** : Les modifications créent des PR pour révision avant déploiement
+- **Attribution individuelle** : Les comptes GitHub fournissent une paternité claire des modifications
 
 ## Documentation
 

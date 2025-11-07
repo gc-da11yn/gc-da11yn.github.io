@@ -72,24 +72,29 @@ src/
 2. **eleventy/config/passthrough.js**
    - Added passthrough copy for admin folder to _site/admin
 
-3. **src/_includes/partials/head.njk**
-   - Added Netlify Identity widget script
-
-4. **package.json**
+3. **package.json**
    - Added decap-cms-app dependency
-   - Added netlify-identity-widget dependency
 
 ## Configuration Details
 
 ### Backend Configuration
 
-The CMS uses Git Gateway backend for authentication and content storage:
+The CMS uses GitHub backend for authentication and content storage:
 
 ```yaml
 backend:
-  name: git-gateway
+  name: github
+  repo: gc-da11yn/gc-da11yn.github.io
   branch: main
+  base_url: https://api.netlify.com  # Netlify's OAuth provider
+  auth_endpoint: auth                 # OAuth endpoint
 ```
+
+This configuration:
+- Uses **GitHub authentication** via Netlify's OAuth provider service
+- Creates **pull requests** for all content changes (editorial workflow)
+- Provides **individual user attribution** through GitHub accounts
+- Requires users to have **write access** to the repository
 
 **For local development**, uncomment this line in `src/admin/config.yml`:
 ```yaml
@@ -216,41 +221,36 @@ Defines topic categories with bilingual labels, display order, and optional desc
 
 **Display Order**: Topics sorted alphabetically per language (EN: Accessible meetings, Development, Learning...; FR: Apprentissage, Approvisionnement, Développement...)
 
-## Netlify Setup Requirements
+## Setup Requirements
 
-To enable Decap CMS in production, you need to configure Netlify:
+### Prerequisites
 
-### 1. Enable Netlify Identity
+1. **GitHub Account**: All users need a GitHub account with write access to the repository
+2. **Netlify OAuth**: Site configured to use Netlify's OAuth provider service (automatically set up)
 
-1. Go to your Netlify site dashboard
-2. Navigate to **Settings** → **Identity**
-3. Click **Enable Identity**
+### Netlify OAuth Configuration
 
-### 2. Configure Git Gateway
+The CMS uses Netlify's OAuth provider service to enable GitHub authentication:
 
-1. In Identity settings, scroll to **Services**
-2. Click **Enable Git Gateway**
-3. This allows the CMS to commit changes to your GitHub repository
+1. **Automatic Setup**: Netlify handles OAuth configuration when you use:
+   ```yaml
+   backend:
+     base_url: https://api.netlify.com
+     auth_endpoint: auth
+   ```
 
-### 3. Set Registration Preferences
+2. **No Manual OAuth App**: Unlike direct GitHub backend, Netlify's service manages the OAuth application
 
-1. In Identity settings, go to **Registration**
-2. Set to **Invite only** (recommended for GC sites)
-3. This prevents unauthorized users from accessing the CMS
+3. **User Access**: Users must have write permissions on the GitHub repository to create pull requests
 
-### 4. Invite Users
+### Granting Repository Access
 
-1. Go to **Identity** tab in your site dashboard
-2. Click **Invite users**
-3. Enter email addresses of content editors
-4. They'll receive invitation emails to set up their accounts
+To add content editors:
 
-### 5. Configure External Providers (Optional)
-
-For easier login, you can enable OAuth providers:
-1. In Identity settings, go to **External providers**
-2. Enable **GitHub** or **GitLab** (recommended for developers)
-3. Users can then log in with their existing accounts
+1. Go to GitHub repository settings
+2. Navigate to **Collaborators** or **Teams**
+3. Invite users and grant **Write** or **Maintain** access
+4. Users can now log in to the CMS with their GitHub account
 
 ## Local Development
 
@@ -284,7 +284,7 @@ For easier login, you can enable OAuth providers:
 ### Testing Changes
 
 1. Make content changes in the CMS
-2. Check that markdown files are updated in `src/pages/`
+2. Check that markdown files are updated in `src/resources/`
 3. Verify changes appear in the Eleventy build
 4. Test cross-language toggle links work correctly
 
@@ -292,12 +292,12 @@ For easier login, you can enable OAuth providers:
 
 ### Accessing the CMS
 
-1. **Production**: Navigate to `https://a11y.canada.ca/admin/`
+1. **Production**: Navigate to `https://a11ycanada.netlify.app/admin/`
 2. **Local**: Navigate to `http://localhost:8080/admin/` (or your dev server port)
 
 ### Adding a New Resource
 
-1. **Login** using Netlify Identity credentials
+1. **Login** using your GitHub account (click "Login with GitHub")
 2. Click **Resources** collection
 3. Click **New Resources**
 4. **Fill in the fields**:
@@ -311,16 +311,18 @@ For easier login, you can enable OAuth providers:
      - **fr** - French-only resource (shows on EN page with language indicator)
    - Toggle **internalLinks** if resource requires GC network access
 5. **Save** to create a draft
-6. **Publish** → **Publish now** to commit to repository
+6. **Publish** → **Publish now** to create a pull request
+
+**Note**: Changes create pull requests in GitHub. After merging the PR, Netlify will automatically deploy the updated site.
 
 ### Editing an Existing Resource
 
-1. **Login** to the CMS
+1. **Login** to the CMS with your GitHub account
 2. Click **Resources** collection
 3. **Find the resource** in the list (shown as English title)
 4. Click to edit
 5. **Update fields** as needed in both language tabs
-6. **Save** and **Publish**
+6. **Save** and **Publish** to create a pull request
 
 ### Understanding Resource Display
 
@@ -514,8 +516,8 @@ This ensures TOC anchor links match heading IDs generated by markdown processor.
 ### Documentation
 
 - [Decap CMS Documentation](https://decapcms.org/docs/)
-- [Netlify Identity Documentation](https://docs.netlify.com/visitor-access/identity/)
-- [Git Gateway Documentation](https://docs.netlify.com/visitor-access/git-gateway/)
+- [GitHub Backend Documentation](https://decapcms.org/docs/github-backend/)
+- [Netlify OAuth Provider](https://docs.netlify.com/security/secure-access-to-sites/oauth-provider-tokens/)
 
 ### Related Files
 
@@ -530,7 +532,7 @@ For issues or questions:
 
 1. Check this documentation first
 2. Review Decap CMS documentation
-3. Check Netlify Identity settings
+3. Verify GitHub repository permissions
 4. Contact IT Accessibility Office team
 
 ---
@@ -618,24 +620,29 @@ src/
 2. **eleventy/config/passthrough.js**
    - Ajout de la copie passthrough pour le dossier admin vers _site/admin
 
-3. **src/_includes/partials/head.njk**
-   - Ajout du script widget Netlify Identity
-
-4. **package.json**
+3. **package.json**
    - Ajout de la dépendance decap-cms-app
-   - Ajout de la dépendance netlify-identity-widget
 
 ## Détails de configuration
 
 ### Configuration du backend
 
-Le CMS utilise le backend Git Gateway pour l'authentification et le stockage de contenu :
+Le CMS utilise le backend GitHub pour l'authentification et le stockage de contenu :
 
 ```yaml
 backend:
-  name: git-gateway
+  name: github
+  repo: gc-da11yn/gc-da11yn.github.io
   branch: main
+  base_url: https://api.netlify.com  # Fournisseur OAuth de Netlify
+  auth_endpoint: auth                 # Point de terminaison OAuth
 ```
+
+Cette configuration :
+- Utilise **l'authentification GitHub** via le service de fournisseur OAuth de Netlify
+- Crée des **pull requests** pour toutes les modifications de contenu (flux de travail éditorial)
+- Fournit **l'attribution utilisateur individuelle** via les comptes GitHub
+- Nécessite que les utilisateurs aient **un accès en écriture** au dépôt
 
 **Pour le développement local**, décommentez cette ligne dans `src/admin/config.yml` :
 
@@ -772,42 +779,36 @@ Définit les catégories de sujets avec des étiquettes bilingues, un ordre d'af
 
 **Ordre d'affichage** : Sujets triés alphabétiquement par langue (EN: Accessible meetings, Development, Learning...; FR: Apprentissage, Approvisionnement, Développement...)
 
-## Configuration Netlify requise
+## Exigences de configuration
 
-Pour activer Decap CMS en production, vous devez configurer Netlify :
+### Prérequis
 
-### 1. Activer Netlify Identity
+1. **Compte GitHub** : Tous les utilisateurs ont besoin d'un compte GitHub avec accès en écriture au dépôt
+2. **OAuth Netlify** : Site configuré pour utiliser le service de fournisseur OAuth de Netlify (configuration automatique)
 
-1. Accédez au tableau de bord de votre site Netlify
-2. Naviguez vers **Settings** → **Identity**
-3. Cliquez sur **Enable Identity**
+### Configuration OAuth Netlify
 
-### 2. Configurer Git Gateway
+Le CMS utilise le service de fournisseur OAuth de Netlify pour activer l'authentification GitHub :
 
-1. Dans les paramètres Identity, faites défiler jusqu'à **Services**
-2. Cliquez sur **Enable Git Gateway**
-3. Cela permet au CMS de valider les modifications dans votre dépôt GitHub
+1. **Configuration automatique** : Netlify gère la configuration OAuth lorsque vous utilisez :
+   ```yaml
+   backend:
+     base_url: https://api.netlify.com
+     auth_endpoint: auth
+   ```
 
-### 3. Définir les préférences d'inscription
+2. **Pas d'application OAuth manuelle** : Contrairement au backend GitHub direct, le service de Netlify gère l'application OAuth
 
-1. Dans les paramètres Identity, allez à **Registration**
-2. Définir sur **Invite only** (recommandé pour les sites du GC)
-3. Cela empêche les utilisateurs non autorisés d'accéder au CMS
+3. **Accès utilisateur** : Les utilisateurs doivent avoir des permissions d'écriture sur le dépôt GitHub pour créer des pull requests
 
-### 4. Inviter des utilisateurs
+### Accorder l'accès au dépôt
 
-1. Accédez à l'onglet **Identity** dans le tableau de bord de votre site
-2. Cliquez sur **Invite users**
-3. Entrez les adresses e-mail des éditeurs de contenu
-4. Ils recevront des e-mails d'invitation pour configurer leurs comptes
+Pour ajouter des éditeurs de contenu :
 
-### 5. Configurer les fournisseurs externes (Optionnel)
-
-Pour une connexion plus facile, vous pouvez activer les fournisseurs OAuth :
-
-1. Dans les paramètres Identity, allez à **External providers**
-2. Activez **GitHub** ou **GitLab** (recommandé pour les développeurs)
-3. Les utilisateurs peuvent ensuite se connecter avec leurs comptes existants
+1. Accédez aux paramètres du dépôt GitHub
+2. Naviguez vers **Collaborators** ou **Teams**
+3. Invitez les utilisateurs et accordez l'accès **Write** ou **Maintain**
+4. Les utilisateurs peuvent maintenant se connecter au CMS avec leur compte GitHub
 
 ## Développement local
 
@@ -849,12 +850,12 @@ Pour une connexion plus facile, vous pouvez activer les fournisseurs OAuth :
 
 ### Accéder au CMS
 
-1. **Production** : Naviguer vers `https://a11y.canada.ca/admin/`
+1. **Production** : Naviguer vers `https://a11ycanada.netlify.app/admin/`
 2. **Local** : Naviguer vers `http://localhost:8080/admin/` (ou le port de votre serveur de développement)
 
 ### Ajouter une nouvelle ressource
 
-1. **Connexion** avec les identifiants Netlify Identity
+1. **Connexion** avec votre compte GitHub (cliquez sur "Login with GitHub")
 2. Cliquez sur la collection **Resources**
 3. Cliquez sur **New Resources**
 4. **Remplissez les champs** :
@@ -868,15 +869,18 @@ Pour une connexion plus facile, vous pouvez activer les fournisseurs OAuth :
      - **fr** - Ressource en français seulement (affichée sur la page EN avec indicateur de langue)
    - Basculez **internalLinks** si la ressource nécessite un accès au réseau du GC
 5. **Enregistrer** pour créer un brouillon
-6. **Publier** → **Publish now** pour valider dans le dépôt
+6. **Publier** → **Publish now** pour créer une pull request
+
+**Note** : Les modifications créent des pull requests dans GitHub. Après avoir fusionné la PR, Netlify déploiera automatiquement le site mis à jour.
 
 ### Modifier une ressource existante
 
-1. **Connexion** au CMS
+1. **Connexion** au CMS avec votre compte GitHub
 2. Cliquez sur la collection **Resources**
 3. **Trouvez la ressource** dans la liste (affichée comme titre anglais)
 4. Cliquez pour modifier
 5. **Mettez à jour les champs** au besoin dans les deux onglets de langue
+6. **Enregistrer** et **Publier** pour créer une pull request
 6. **Enregistrer** et **Publier**
 
 ### Comprendre l'affichage des ressources
@@ -1071,8 +1075,8 @@ Cela garantit que les liens d'ancrage de la TDM correspondent aux identifiants d
 ### Documentation
 
 - [Documentation Decap CMS](https://decapcms.org/docs/)
-- [Documentation Netlify Identity](https://docs.netlify.com/visitor-access/identity/)
-- [Documentation Git Gateway](https://docs.netlify.com/visitor-access/git-gateway/)
+- [Documentation du backend GitHub](https://decapcms.org/docs/github-backend/)
+- [Fournisseur OAuth Netlify](https://docs.netlify.com/security/secure-access-to-sites/oauth-provider-tokens/)
 
 ### Fichiers connexes
 
@@ -1087,12 +1091,16 @@ Pour les problèmes ou questions :
 
 1. Consultez d'abord cette documentation
 2. Consultez la documentation Decap CMS
-3. Vérifiez les paramètres Netlify Identity
+3. Vérifiez les permissions du dépôt GitHub
+
+1. Consultez d'abord cette documentation
+2. Consultez la documentation Decap CMS
+3. Vérifiez les permissions du dépôt GitHub
 4. Contactez l'équipe du Bureau de l'accessibilité des TI
 
 ---
 
 **Date de mise en œuvre** : 3 novembre 2025
-**Dernière mise à jour** : 3 novembre 2025
+**Dernière mise à jour** : 7 novembre 2025
 **Mis en œuvre par** : Équipe de développement
 **Révisé par** : En attente

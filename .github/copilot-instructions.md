@@ -77,18 +77,35 @@ For significant architectural changes, template updates, or workflow modificatio
 
 ### Content Management System (Decap CMS) ✅
 **Implemented**: November 3, 2025 on branch `feature/decapCMS`
+**Backend Updated**: November 7, 2025 - Switched to GitHub backend with Netlify OAuth
 
 A user-friendly CMS for non-technical content editors to manage site content:
-- **Access**: Navigate to `/admin/` (requires Netlify Identity login)
+- **Access**: Navigate to `/admin/` at https://a11ycanada.netlify.app/admin/
+- **Authentication**: GitHub OAuth (requires GitHub account with write access to repository)
 - **Local Testing**: Run `npx decap-server` and uncomment `local_backend: true` in config
 - **Collections**: Resources collection (bilingual i18n), template pages
-- **Features**: Visual markdown editor, media library, editorial workflow, Git-based, topic-based organization
+- **Features**: Visual markdown editor, media library, editorial workflow (PR-based), Git-based, topic-based organization
+- **Workflow**: Changes create pull requests in GitHub; merge PRs to deploy via Netlify
 - **Documentation**: See `docs/implementation/decap-cms-implementation.md` and `DECAP-CMS-SETUP.md`
-- **Setup Required**: Enable Netlify Identity and Git Gateway in Netlify dashboard
+
+**Backend Configuration**:
+```yaml
+backend:
+  name: github
+  repo: gc-da11yn/gc-da11yn.github.io
+  branch: main
+  base_url: https://api.netlify.com  # Netlify's OAuth provider
+  auth_endpoint: auth
+publish_mode: editorial_workflow
+```
+
+**User Requirements**:
+- GitHub account with write access to `gc-da11yn/gc-da11yn.github.io`
+- No Netlify Identity account needed (removed)
 
 **Key Files**:
-- `src/admin/config.yml` - CMS configuration with view_filters and view_groups
-- `src/admin/index.html` - CMS interface
+- `src/admin/config.yml` - CMS configuration with GitHub backend and view_filters/view_groups
+- `src/admin/index.html` - CMS interface (minimal, GitHub OAuth only)
 - Resource files: `src/resources/en/*.md` and `src/resources/fr/*.md` (112 files total)
 - Template pages: `src/main/en/resources-and-tools/additional-resources.njk` and `src/main/fr/ressources-et-outils/ressources-additionnelles.njk`
 

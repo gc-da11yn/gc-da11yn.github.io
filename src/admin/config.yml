@@ -2,6 +2,8 @@ backend:
   name: github
   repo: gc-da11yn/gc-da11yn.github.io
   branch: main # Base branch for PRs
+  base_url: https://api.netlify.com  # Netlify's OAuth provider
+  auth_endpoint: auth                 # OAuth endpoint
   # open_authoring: true # Uncomment to allow fork-based contributions
 
 # Uncomment for local development testing
