@@ -1655,4 +1655,14 @@
 		<loc>https://a11y.canada.ca/admin/README/</loc>
 		<lastmod>2025-11-07</lastmod>
 	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/resources/en/web-accessibility-assessment-framework-raweb-1/</loc>
+		<lastmod>2025-11-07</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/resources/fr/web-accessibility-assessment-framework-raweb-1/</loc>
+		<lastmod>2025-11-07</lastmod>
+	</url>
 </urlset>
