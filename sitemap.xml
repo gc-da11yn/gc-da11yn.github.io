@@ -1077,11 +1077,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/admin/</loc>
-		<lastmod>2025-11-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
 		<lastmod>2025-11-05</lastmod>
 	</url>
@@ -1654,5 +1649,10 @@
 	<url>
 		<loc>https://a11y.canada.ca/admin/README/</loc>
 		<lastmod>2025-11-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/admin/</loc>
+		<lastmod>2025-11-07</lastmod>
 	</url>
 </urlset>
