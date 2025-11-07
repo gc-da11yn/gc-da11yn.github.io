@@ -10,8 +10,16 @@
 </ul>
 <h2 id="access" tabindex="-1">Access</h2>
 <ul>
-<li><strong>Production</strong>: Navigate to <code>/admin/</code> on the live site (requires Netlify Identity login)</li>
+<li><strong>Production</strong>: Navigate to <code>https://a11ycanada.netlify.app/admin/</code> (requires GitHub account with repository access)</li>
 <li><strong>Local Development</strong>: Navigate to <code>http://localhost:8080/admin/</code> (requires local backend setup)</li>
+</ul>
+<h2 id="authentication" tabindex="-1">Authentication</h2>
+<p>The CMS uses <strong>GitHub OAuth</strong> via Netlify’s OAuth provider:</p>
+<ul>
+<li><strong>Login</strong>: Click “Login with GitHub”</li>
+<li><strong>Requirements</strong>: GitHub account with write access to <code>gc-da11yn/gc-da11yn.github.io</code></li>
+<li><strong>Workflow</strong>: Changes create pull requests; merge PRs to deploy</li>
+<li><strong>No Netlify Identity</strong>: Removed in favor of direct GitHub authentication</li>
 </ul>
 <h2 id="what-the-cms-manages" tabindex="-1">What the CMS Manages</h2>
 <h3 id="resources-collection" tabindex="-1">Resources Collection</h3>
@@ -57,7 +65,8 @@
 <li><strong>Parent/child resources</strong>: Create hierarchical resource collections (parent with related children)</li>
 <li><strong>View controls</strong>: Filter resources by topic or toggle “Group by Topic” for organized display</li>
 <li><strong>Internal links flag</strong>: Indicate GC network-only resources</li>
-<li><strong>Git-based</strong>: All changes committed to repository with user attribution</li>
+<li><strong>Pull request workflow</strong>: Changes create PRs for review before deployment</li>
+<li><strong>Individual attribution</strong>: GitHub accounts provide clear authorship of changes</li>
 </ul>
 <h2 id="documentation" tabindex="-1">Documentation</h2>
 <p>See complete documentation:</p>
@@ -79,8 +88,24 @@
 </ul>
 <h2 id="acces" tabindex="-1">Accès</h2>
 <ul>
-<li><strong>Production</strong> : Naviguez vers <code>/admin/</code> sur le site en direct (nécessite une connexion Netlify Identity)</li>
+<li><strong>Production</strong> : Naviguez vers <code>https://a11ycanada.netlify.app/admin/</code> (nécessite un compte GitHub avec accès au dépôt)</li>
 <li><strong>Développement local</strong> : Naviguez vers <code>http://localhost:8080/admin/</code> (nécessite la configuration du backend local)</li>
+</ul>
+<h2 id="authentification" tabindex="-1">Authentification</h2>
+<p>Le CMS utilise <strong>GitHub OAuth</strong> via le fournisseur OAuth de Netlify :</p>
+<ul>
+<li><strong>Connexion</strong> : Cliquez sur “Login with GitHub”</li>
+<li><strong>Exigences</strong> : Compte GitHub avec accès en écriture à <code>gc-da11yn/gc-da11yn.github.io</code></li>
+<li><strong>Flux de travail</strong> : Les modifications créent des pull requests; fusionner les PR pour déployer</li>
+<li><strong>Pas de Netlify Identity</strong> : Supprimé en faveur de l’authentification GitHub directe</li>
+</ul>
+<h2 id="authentification-1" tabindex="-1">Authentification</h2>
+<p>Le CMS utilise <strong>GitHub OAuth</strong> via le fournisseur OAuth de Netlify :</p>
+<ul>
+<li><strong>Connexion</strong> : Cliquez sur “Login with GitHub”</li>
+<li><strong>Exigences</strong> : Compte GitHub avec accès en écriture à <code>gc-da11yn/gc-da11yn.github.io</code></li>
+<li><strong>Flux de travail</strong> : Les modifications créent des pull requests; fusionner les PR pour déployer</li>
+<li><strong>Pas de Netlify Identity</strong> : Supprimé en faveur de l’authentification GitHub directe</li>
 </ul>
 <h2 id="ce-que-le-cms-gere" tabindex="-1">Ce que le CMS gère</h2>
 <h3 id="collection-ressources" tabindex="-1">Collection Ressources</h3>
@@ -126,7 +151,8 @@
 <li><strong>Ressources parent/enfant</strong> : Créer des collections de ressources hiérarchiques (parent avec enfants associés)</li>
 <li><strong>Contrôles d’affichage</strong> : Filtrer les ressources par sujet ou activer “Group by Topic” pour affichage organisé</li>
 <li><strong>Indicateur de liens internes</strong> : Indiquez les ressources du réseau du GC uniquement</li>
-<li><strong>Basé sur Git</strong> : Tous les changements validés dans le dépôt avec attribution d’utilisateur</li>
+<li><strong>Flux de travail de pull request</strong> : Les modifications créent des PR pour révision avant déploiement</li>
+<li><strong>Attribution individuelle</strong> : Les comptes GitHub fournissent une paternité claire des modifications</li>
 </ul>
 <h2 id="documentation-1" tabindex="-1">Documentation</h2>
 <p>Consultez la documentation complète :</p>
