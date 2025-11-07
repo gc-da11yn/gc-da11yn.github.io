@@ -158,6 +158,20 @@ The CMS uses an **editorial workflow** with pull requests for content review:
 6. **Further edits** will update the same PR branch
 7. **Merge PR in GitHub** to publish changes
 
+### Working with Drafts
+
+**Understanding Draft Behavior:**
+
+- **Drafts appear in all topic views**: When a resource is in draft status (not yet merged), it will appear at the top of **every topic filter** in the CMS UI with a "Draft" label. This is normal behavior and helps you find your drafts regardless of which filter you're using.
+- **Filter drafts only**: Use the **"Drafts" filter** at the top of the view filters to see only your draft resources
+- **After merging**: Once you merge the PR, the resource becomes published and will only appear under its assigned topic
+
+**Draft Workflow:**
+1. Create new resource → Automatically starts as draft
+2. Edit and save → Remains in draft status
+3. Set status to "In review" → Creates PR, still shows as draft in CMS
+4. Merge PR in GitHub → Draft becomes published, appears only in correct topic
+
 ### Understanding Language Availability
 
 - **both** (default): Resource appears on both EN and FR pages without language indicator
@@ -456,6 +470,20 @@ Le CMS utilise un **flux de travail éditorial** avec des demandes de tirage (pu
 5. **Enregistrez** et **Set status: In review** pour créer/mettre à jour la PR
 6. **D'autres modifications** mettront à jour la même branche PR
 7. **Fusionnez la PR dans GitHub** pour publier les modifications
+
+### Travailler avec les brouillons
+
+**Comprendre le comportement des brouillons :**
+
+- **Les brouillons apparaissent dans toutes les vues de sujet** : Lorsqu'une ressource est en statut de brouillon (pas encore fusionnée), elle apparaîtra en haut de **chaque filtre de sujet** dans l'interface du CMS avec une étiquette "Draft". C'est un comportement normal qui vous aide à trouver vos brouillons quel que soit le filtre que vous utilisez.
+- **Filtrer uniquement les brouillons** : Utilisez le filtre **"Drafts"** en haut des filtres de vue pour voir uniquement vos ressources en brouillon
+- **Après fusion** : Une fois que vous fusionnez la PR, la ressource devient publiée et n'apparaîtra que sous son sujet assigné
+
+**Flux de travail des brouillons :**
+1. Créer une nouvelle ressource → Commence automatiquement comme brouillon
+2. Modifier et enregistrer → Reste en statut de brouillon
+3. Définir le statut sur "In review" → Crée une PR, s'affiche toujours comme brouillon dans le CMS
+4. Fusionner la PR dans GitHub → Le brouillon devient publié, apparaît uniquement dans le bon sujet
 
 ### Comprendre la disponibilité linguistique
 

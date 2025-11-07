@@ -36,6 +36,9 @@ collections:
     create: true
     slug: "{{slug}}"
     view_filters:
+      - label: "Drafts"
+        field: draft
+        pattern: true
       - label: "Accessible meetings and events"
         field: topic
         pattern: "Accessible meetings and events"
