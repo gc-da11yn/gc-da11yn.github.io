@@ -47,33 +47,30 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
 - `src/main/en/resources-and-tools/additional-resources.njk` - Dynamic template for displaying resources
 - `src/main/fr/ressources-et-outils/ressources-additionnelles.njk` - Dynamic template for displaying resources
 
-## 🚀 Next Steps for Production Deployment
+## 🚀 Prerequisites and Setup
 
-### 1. Enable Netlify Identity
+### User Requirements
 
-1. Go to your Netlify site dashboard at [app.netlify.com](https://app.netlify.com)
-2. Select your site (gc-da11yn)
-3. Navigate to **Settings** → **Identity**
-4. Click **Enable Identity**
+**All CMS users must:**
+- Have a GitHub account
+- Have **write access** to the `gc-da11yn/gc-da11yn.github.io` repository
+- Be added as a collaborator or be part of a team with write permissions
 
-### 2. Configure Git Gateway
+### Adding Users to Repository
 
-1. In Identity settings, scroll to **Services**
-2. Click **Enable Git Gateway**
-3. This allows the CMS to commit changes to GitHub
+1. Go to repository settings: https://github.com/gc-da11yn/gc-da11yn.github.io/settings/access
+2. Click **"Add people"** or **"Manage access"**
+3. Search for the user's GitHub username
+4. Grant **"Write"** or **"Maintain"** role
+5. User will receive an invitation to accept
 
-### 3. Set Registration to Invite Only
+### First-Time CMS Access
 
-1. In Identity settings, go to **Registration**
-2. Change to **Invite only** (recommended for government sites)
-3. This prevents unauthorized access
-
-### 4. Invite Content Editors
-
-1. Go to the **Identity** tab in your site dashboard
-2. Click **Invite users**
-3. Enter email addresses of authorized content editors
-4. They'll receive invitation emails
+1. **Navigate to CMS**: `https://a11ycanada.netlify.app/admin/`
+2. **Click "Login with GitHub"**
+3. **Authorize Decap CMS**: First-time users will see a GitHub OAuth authorization screen
+4. **Click "Authorize"** to grant the CMS access to your GitHub account
+5. **Start editing**: You'll be redirected to the CMS dashboard
 
 ## 🧪 Testing Locally
 
@@ -119,9 +116,19 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
 
 ## 📝 Using the CMS
 
+### Editorial Workflow
+
+The CMS uses an **editorial workflow** with pull requests for content review:
+
+1. **Draft** → Work on content (saved locally in browser)
+2. **In Review** → Creates a pull request automatically when you click "Set status: In review"
+3. **Ready** → Marks PR as ready (approval happens in GitHub, not CMS)
+
+**Important:** Final approval and merging must be done in GitHub, not through the CMS interface.
+
 ### Adding a New Resource
 
-1. **Log in** at `/admin/`
+1. **Log in** at `https://a11ycanada.netlify.app/admin/` with GitHub
 2. Click **Resources** collection
 3. Click **New Resources**
 4. **Fill in the fields:**
@@ -134,15 +141,19 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
    - **Resource Type**: Select "Standard resource" (default), "Parent resource", or "Child resource"
    - **Parent Resource**: If child resource, select the parent from filtered dropdown
 5. **Save** to create a draft
-6. **Publish** → **Publish now** to commit to Git
+6. **Set status: In review** → This creates a pull request
+7. **Netlify creates a deploy preview** for the PR automatically
+8. **Review and approve in GitHub** → Merge the PR to publish changes
 
 ### Editing an Existing Resource
 
-1. **Log in** to CMS
+1. **Log in** to CMS with GitHub
 2. Click **Resources** collection
 3. **Find and click** the resource to edit
 4. **Update fields** as needed (use language tabs for title/description)
-5. **Save** and **Publish**
+5. **Save** and **Set status: In review** to create/update PR
+6. **Further edits** will update the same PR branch
+7. **Merge PR in GitHub** to publish changes
 
 ### Understanding Language Availability
 
@@ -167,16 +178,16 @@ Resources are organized into 6 topics (alphabetically sorted per language):
 - **Shared metadata** for URL, topic, and flags
 - **Auto-toggle generation** for cross-language linking
 - **Media library** for future image uploads
-- **Preview** changes before publishing
-- **Editorial workflow** for review process (can be enabled)
-- **Automatic Git commits** with your user attribution
+- **Editorial workflow** with pull request creation
+- **Deploy previews** for PR review via Netlify
+- **GitHub attribution:** All commits show your GitHub username
 
-## 🔒 Security Notes
+## 🔒 Security and Access
 
-- **Invite only:** Only invited users can access the CMS
-- **Git attribution:** All changes tracked to user accounts
-- **Editorial workflow:** Optional review process before publishing
-- **Role-based access:** Configure in Netlify Identity settings
+- **GitHub repository access required:** Only users with write permissions can use CMS
+- **Git attribution:** All changes tracked to individual GitHub accounts
+- **Pull request workflow:** Mandatory review process before merging
+- **Role-based access:** Managed through GitHub repository permissions
 
 ## 📚 Documentation
 
@@ -184,30 +195,26 @@ For complete details, see:
 - **Implementation docs:** `docs/implementation/decap-cms-implementation.md`
 - **Admin folder README:** `src/admin/README.md`
 - **Decap CMS docs:** [decapcms.org/docs](https://decapcms.org/docs/)
-- **Netlify Identity docs:** [docs.netlify.com/visitor-access/identity/](https://docs.netlify.com/visitor-access/identity/)
+- **GitHub backend docs:** [decapcms.org/docs/github-backend](https://decapcms.org/docs/github-backend/)
 
 ## ⚠️ Important Configuration Notes
 
-### Branch Setting
+### Backend Configuration
 
-The CMS is currently configured to commit to the `main` branch:
+The CMS uses GitHub backend with editorial workflow:
 
 ```yaml
 backend:
-  name: git-gateway
+  name: github
+  repo: gc-da11yn/gc-da11yn.github.io
   branch: main
 ```
 
-**For testing on this branch (feature/decapCMS):**
-
-Change the branch in `src/admin/config.yml`:
-```yaml
-backend:
-  name: git-gateway
-  branch: feature/decapCMS  # Change this to your current branch
-```
-
-**Remember to change it back to `main` before merging!**
+**How it works:**
+- Pull requests are created automatically when you set status to "In review"
+- PRs target the `main` branch
+- Netlify creates deploy previews for each PR
+- Merge PRs in GitHub to publish changes
 
 ### Collections Available
 
@@ -241,32 +248,42 @@ backend:
 ## 🐛 Troubleshooting
 
 ### Can't access CMS locally
+
 - Ensure `decap-server` is running
-- Check `local_backend: true` is uncommented
+- Check `local_backend: true` is uncommented in config
 - Verify Eleventy dev server is running
 
-### Changes not appearing
-- Check if changes were published (not just saved)
-- Wait for build to complete
-- Clear browser cache
+### Can't log in to CMS
 
-### Authentication issues in production
-- Verify Netlify Identity is enabled
-- Check Git Gateway is configured
-- Confirm user has been invited
+- Verify you have a GitHub account
+- Check you have **write access** to the repository
+- Try logging out and back in to refresh GitHub OAuth
+
+### Changes not appearing in PR
+
+- Check if you clicked "Set status: In review" to create the PR
+- Verify the PR was created in GitHub
+- Wait for Netlify deploy preview to build
+
+### Can't merge changes
+
+- Pull requests must be merged in GitHub, not in the CMS
+- Check that PR has been approved by required reviewers
+- Verify CI checks are passing
 
 ## 📞 Support
 
 For questions or issues:
+
 1. Check `docs/implementation/decap-cms-implementation.md`
 2. Review Decap CMS documentation
-3. Check Netlify dashboard for Identity status
+3. Verify GitHub repository permissions
 4. Contact the development team
 
 ---
 
-**Status:** ✅ Ready for testing
-**Next Action:** Configure Netlify Identity and invite users
+**Status:** ✅ Ready for production
+**CMS URL:** https://a11ycanada.netlify.app/admin/
 **Branch:** feature/decapCMS
 
 ---
@@ -325,33 +342,31 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
 - `src/main/en/resources-and-tools/additional-resources.njk` - Converti de .md à .njk
 - `src/main/fr/ressources-et-outils/ressources-additionnelles.njk` - Converti de .md à .njk
 
-## 🚀 Prochaines étapes pour le déploiement en production
+## 🚀 Prérequis et configuration
 
-### 1. Activer Netlify Identity
+### Exigences pour les utilisateurs
 
-1. Accédez au tableau de bord de votre site Netlify sur [app.netlify.com](https://app.netlify.com)
-2. Sélectionnez votre site (gc-da11yn)
-3. Naviguez vers **Settings** → **Identity**
-4. Cliquez sur **Enable Identity**
+**Tous les utilisateurs du CMS doivent :**
 
-### 2. Configurer Git Gateway
+- Avoir un compte GitHub
+- Avoir un **accès en écriture** au dépôt `gc-da11yn/gc-da11yn.github.io`
+- Être ajouté comme collaborateur ou faire partie d'une équipe avec des permissions d'écriture
 
-1. Dans les paramètres Identity, faites défiler jusqu'à **Services**
-2. Cliquez sur **Enable Git Gateway**
-3. Cela permet au CMS de valider les modifications dans GitHub
+### Ajouter des utilisateurs au dépôt
 
-### 3. Définir l'inscription sur invitation uniquement
+1. Accédez aux paramètres du dépôt : https://github.com/gc-da11yn/gc-da11yn.github.io/settings/access
+2. Cliquez sur **"Add people"** ou **"Manage access"**
+3. Recherchez le nom d'utilisateur GitHub de l'utilisateur
+4. Accordez le rôle **"Write"** ou **"Maintain"**
+5. L'utilisateur recevra une invitation à accepter
 
-1. Dans les paramètres Identity, allez à **Registration**
-2. Changez pour **Invite only** (recommandé pour les sites gouvernementaux)
-3. Cela empêche l'accès non autorisé
+### Premier accès au CMS
 
-### 4. Inviter les éditeurs de contenu
-
-1. Accédez à l'onglet **Identity** dans le tableau de bord de votre site
-2. Cliquez sur **Invite users**
-3. Entrez les adresses e-mail des éditeurs de contenu autorisés
-4. Ils recevront des e-mails d'invitation
+1. **Accédez au CMS** : `https://a11ycanada.netlify.app/admin/`
+2. **Cliquez sur "Login with GitHub"**
+3. **Autorisez Decap CMS** : Les nouveaux utilisateurs verront un écran d'autorisation OAuth GitHub
+4. **Cliquez sur "Authorize"** pour accorder l'accès du CMS à votre compte GitHub
+5. **Commencez à éditer** : Vous serez redirigé vers le tableau de bord du CMS
 
 ## 🧪 Tests locaux
 
@@ -397,9 +412,19 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
 
 ## 📝 Utiliser le CMS
 
+### Flux de travail éditorial
+
+Le CMS utilise un **flux de travail éditorial** avec des demandes de tirage (pull requests) pour la révision du contenu :
+
+1. **Brouillon (Draft)** → Travailler sur le contenu (sauvegardé localement dans le navigateur)
+2. **En révision (In Review)** → Crée une demande de tirage automatiquement lorsque vous cliquez sur "Set status: In review"
+3. **Prêt (Ready)** → Marque la PR comme prête (l'approbation se fait dans GitHub, pas dans le CMS)
+
+**Important :** L'approbation finale et la fusion doivent être effectuées dans GitHub, pas via l'interface du CMS.
+
 ### Ajouter une nouvelle ressource
 
-1. **Connectez-vous** à `/admin/`
+1. **Connectez-vous** à `https://a11ycanada.netlify.app/admin/` avec GitHub
 2. Cliquez sur la collection **Resources**
 3. Cliquez sur **New Resources**
 4. **Remplissez les champs :**
@@ -412,15 +437,19 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
    - **Resource Type** : Sélectionnez "Standard resource" (par défaut), "Parent resource" ou "Child resource"
    - **Parent Resource** : Si ressource enfant, sélectionnez le parent dans le menu déroulant filtré
 5. **Enregistrez** pour créer un brouillon
-6. **Publiez** → **Publish now** pour valider dans Git
+6. **Set status: In review** → Cela crée une demande de tirage
+7. **Netlify crée un aperçu de déploiement** pour la PR automatiquement
+8. **Révisez et approuvez dans GitHub** → Fusionnez la PR pour publier les modifications
 
 ### Modifier une ressource existante
 
-1. **Connectez-vous** au CMS
+1. **Connectez-vous** au CMS avec GitHub
 2. Cliquez sur la collection **Resources**
 3. **Trouvez et cliquez** sur la ressource à modifier
 4. **Mettez à jour les champs** au besoin (utilisez les onglets de langue pour title/description)
-5. **Enregistrez** et **Publiez**
+5. **Enregistrez** et **Set status: In review** pour créer/mettre à jour la PR
+6. **D'autres modifications** mettront à jour la même branche PR
+7. **Fusionnez la PR dans GitHub** pour publier les modifications
 
 ### Comprendre la disponibilité linguistique
 
@@ -445,16 +474,16 @@ Les ressources sont organisées en 6 sujets (triés alphabétiquement par langue
 - **Métadonnées partagées** pour URL, sujet et indicateurs
 - **Génération automatique de bascule** pour liaison inter-langues
 - **Bibliothèque multimédia** pour futurs téléchargements d'images
-- **Aperçu** des modifications avant publication
-- **Flux de travail éditorial** pour processus de révision (peut être activé)
-- **Validations Git automatiques** avec attribution de votre utilisateur
+- **Flux de travail éditorial** avec création de demandes de tirage
+- **Aperçus de déploiement** pour révision des PR via Netlify
+- **Attribution GitHub :** Tous les commits affichent votre nom d'utilisateur GitHub
 
-## 🔒 Notes de sécurité
+## 🔒 Sécurité et accès
 
-- **Invitation uniquement :** Seuls les utilisateurs invités peuvent accéder au CMS
-- **Attribution Git :** Tous les changements suivis aux comptes d'utilisateur
-- **Flux de travail éditorial :** Processus de révision optionnel avant publication
-- **Accès basé sur les rôles :** Configurer dans les paramètres Netlify Identity
+- **Accès au dépôt GitHub requis :** Seuls les utilisateurs avec des permissions d'écriture peuvent utiliser le CMS
+- **Attribution Git :** Tous les changements sont suivis aux comptes GitHub individuels
+- **Flux de travail par demandes de tirage :** Processus de révision obligatoire avant fusion
+- **Accès basé sur les rôles :** Géré via les permissions du dépôt GitHub
 
 ## 📚 Documentation
 
@@ -463,31 +492,27 @@ Pour des détails complets, consultez :
 - **Documentation de mise en œuvre :** `docs/implementation/decap-cms-implementation.md`
 - **README du dossier admin :** `src/admin/README.md`
 - **Documentation Decap CMS :** [decapcms.org/docs](https://decapcms.org/docs/)
-- **Documentation Netlify Identity :** [docs.netlify.com/visitor-access/identity/](https://docs.netlify.com/visitor-access/identity/)
+- **Documentation backend GitHub :** [decapcms.org/docs/github-backend](https://decapcms.org/docs/github-backend/)
 
 ## ⚠️ Notes de configuration importantes
 
-### Paramètre de branche
+### Configuration du backend
 
-Le CMS est actuellement configuré pour valider dans la branche `main` :
+Le CMS utilise le backend GitHub avec flux de travail éditorial :
 
 ```yaml
 backend:
-  name: git-gateway
+  name: github
+  repo: gc-da11yn/gc-da11yn.github.io
   branch: main
 ```
 
-**Pour les tests sur cette branche (feature/decapCMS) :**
+**Comment ça fonctionne :**
 
-Changez la branche dans `src/admin/config.yml` :
-
-```yaml
-backend:
-  name: git-gateway
-  branch: feature/decapCMS  # Changez ceci pour votre branche actuelle
-```
-
-**N'oubliez pas de le remettre à `main` avant la fusion !**
+- Les demandes de tirage sont créées automatiquement lorsque vous définissez le statut sur "In review"
+- Les PR ciblent la branche `main`
+- Netlify crée des aperçus de déploiement pour chaque PR
+- Fusionnez les PR dans GitHub pour publier les modifications
 
 ### Collections disponibles
 
@@ -523,20 +548,26 @@ backend:
 ### Impossible d'accéder au CMS localement
 
 - Assurez-vous que `decap-server` est en cours d'exécution
-- Vérifiez que `local_backend: true` est décommenté
+- Vérifiez que `local_backend: true` est décommenté dans la configuration
 - Vérifiez que le serveur de développement Eleventy est en cours d'exécution
 
-### Les modifications n'apparaissent pas
+### Impossible de se connecter au CMS
 
-- Vérifiez si les modifications ont été publiées (pas seulement enregistrées)
-- Attendez que la construction soit terminée
-- Effacez le cache du navigateur
+- Vérifiez que vous avez un compte GitHub
+- Vérifiez que vous avez un **accès en écriture** au dépôt
+- Essayez de vous déconnecter et de vous reconnecter pour actualiser l'OAuth GitHub
 
-### Problèmes d'authentification en production
+### Les modifications n'apparaissent pas dans la PR
 
-- Vérifiez que Netlify Identity est activé
-- Vérifiez que Git Gateway est configuré
-- Confirmez que l'utilisateur a été invité
+- Vérifiez si vous avez cliqué sur "Set status: In review" pour créer la PR
+- Vérifiez que la PR a été créée dans GitHub
+- Attendez que l'aperçu de déploiement Netlify soit construit
+
+### Impossible de fusionner les modifications
+
+- Les demandes de tirage doivent être fusionnées dans GitHub, pas dans le CMS
+- Vérifiez que la PR a été approuvée par les réviseurs requis
+- Vérifiez que les vérifications CI sont réussies
 
 ## 📞 Support
 
@@ -544,10 +575,13 @@ Pour les questions ou problèmes :
 
 1. Consultez `docs/implementation/decap-cms-implementation.md`
 2. Consultez la documentation Decap CMS
-3. Vérifiez le tableau de bord Netlify pour le statut Identity
+3. Vérifiez les permissions du dépôt GitHub
 4. Contactez l'équipe de développement
 
 ---
+
+**Statut :** ✅ Prêt pour la production
+**URL du CMS :** https://a11ycanada.netlify.app/admin/
 
 **Statut :** ✅ Prêt pour les tests
 **Prochaine action :** Configurer Netlify Identity et inviter des utilisateurs
