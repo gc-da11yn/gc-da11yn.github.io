@@ -106,14 +106,14 @@ collections:
             value: "Procurement"
           - label: "Services"
             value: "Services"
-        hint: "Category for grouping resources (labels must match src/_data/resourceTopics.js)"
+        hint: "Category for grouping resources (same for both languages - set in English tab)"
       - label: "Internal Links"
         name: "internalLinks"
         widget: "boolean"
         default: false
         required: false
         i18n: duplicate
-        hint: "Check if resource requires GC network access"
+        hint: "Check if resource requires GC network access (same for both languages - set in English tab)"
       - label: "Language Availability"
         name: "languageAvailability"
         widget: "select"
@@ -124,7 +124,7 @@ collections:
           - { label: "Available in both languages", value: "both" }
           - { label: "English only", value: "en" }
           - { label: "French only", value: "fr" }
-        hint: "Indicates if resource is only available in one language"
+        hint: "Indicates if resource is only available in one language (same for both languages - set in English tab)"
       - label: "Resource Type"
         name: "resourceType"
         widget: "select"
@@ -135,7 +135,7 @@ collections:
           - { label: "Standard resource", value: "standard" }
           - { label: "Parent resource (has sub-resources)", value: "parent" }
           - { label: "Child resource (belongs under a parent)", value: "child" }
-        hint: "Determines heading level: standard/parent = h3, child = h4"
+        hint: "Determines heading level (same for both languages - set in English tab)"
       - label: "Parent Resource"
         name: "parentResource"
         widget: "relation"
@@ -145,7 +145,7 @@ collections:
         display_fields: ["{{title}}"]
         required: false
         i18n: duplicate
-        hint: "Search and select the parent resource (look for '(parent)' in the list)"
+        hint: "Search and select the parent resource (same for both languages - set in English tab)"
         options_length: 100
         filters:
           - field: resourceType
