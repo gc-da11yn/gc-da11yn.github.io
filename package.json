@@ -55,7 +55,6 @@
     "broken-link-checker": "^0.7.8",
     "cross-env": "^7.0.3",
     "cspell": "^6.18.1",
-    "decap-cms-app": "^3.8.4",
     "dotenv": "^16.4.5",
     "eleventy-plugin-broken-links": "^2.0.3",
     "googleapis": "^144.0.0",
