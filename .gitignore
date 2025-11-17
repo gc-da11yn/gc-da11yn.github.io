@@ -1,6 +1,9 @@
 # Ignore analytics.json to prevent frequent commits
 src/_data/analytics.json
 
+# Auto-generated CMS config (regenerated on every build from scripts/generate-cms-config.js)
+src/admin/config.yml
+
 # Logs
 logs
 *.log
