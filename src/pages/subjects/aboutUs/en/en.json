@@ -1,0 +1,4 @@
+{
+    "permalink": "{{ permalinkPrefix }}{{ locale }}/{{ title | stripTagsSlugify }}/",
+    "locale": "en"
+}

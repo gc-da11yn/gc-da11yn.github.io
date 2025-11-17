@@ -242,7 +242,7 @@ class CollectionsPlugin extends EleventyBasePlugin {
    * Configure tag-based collections
    */
   configureTaggedCollections(eleventyConfig) {
-    // Collection for pages by subject
+    // Collection for pages by subject (grouped)
     eleventyConfig.addCollection('pagesBySubject', (collectionApi) => {
       const cacheKey = 'pagesBySubject';
 
@@ -270,6 +270,30 @@ class CollectionsPlugin extends EleventyBasePlugin {
         });
 
         return grouped;
+      });
+    });
+
+    // Get subject keys from tagList.js data file
+    const tagList = require('../../src/_data/tagList');
+    const subjectKeys = Object.keys(tagList.subjects.en);
+
+    subjectKeys.forEach(subjectKey => {
+      eleventyConfig.addCollection(subjectKey, (collectionApi) => {
+        const cacheKey = `subject:${subjectKey}`;
+
+        return this.getCached(cacheKey, () => {
+          return collectionApi.getAll()
+            .filter(item => {
+              // Check if subject array includes this key
+              const subjects = item.data.subject || [];
+              return subjects.includes(subjectKey);
+            })
+            .sort((a, b) => {
+              const titleA = a.data.title || '';
+              const titleB = b.data.title || '';
+              return titleA.localeCompare(titleB);
+            });
+        });
       });
     });
 
@@ -327,6 +351,11 @@ class CollectionsPlugin extends EleventyBasePlugin {
         this.cache.delete('changedPages');
         this.cache.delete('pagesBySubject');
         this.cache.delete('recentPages');
+
+        // Get subject keys from tagList.js and clear their caches
+        const tagList = require('../../src/_data/tagList');
+        const subjectKeys = Object.keys(tagList.subjects.en);
+        subjectKeys.forEach(key => this.cache.delete(`subject:${key}`));
 
         this.log(`Cleared collection caches for ${contentFiles.length} content changes`);
       }
