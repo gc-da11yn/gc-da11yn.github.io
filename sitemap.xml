@@ -172,66 +172,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/global-accessibility-standards/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-fundamentals/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-standards/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/community-directory/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/digital-accessibility-in-the-government-of-canada/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/procurement/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/approvisionnement/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/accessibilite-numerique-au-gouvernement-du-canada/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/normes-daccessibilite/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/repertoire-de-la-communaute/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/principes-de-base-de-laccessibilite/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/normes-daccessibilite-mondiales/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/</loc>
 		<lastmod>2025-07-17</lastmod>
 	</url>
@@ -267,11 +207,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/most-common-types-of-disability/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -298,11 +233,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/types-de-handicap-les-plus-courants/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -1663,6 +1593,76 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/global-accessibility-standards/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-fundamentals/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/most-common-types-of-disability/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-standards/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/community-directory/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/digital-accessibility-in-the-government-of-canada/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/procurement/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/approvisionnement/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/accessibilite-numerique-au-gouvernement-du-canada/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/normes-daccessibilite/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/repertoire-de-la-communaute/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/principes-de-base-de-laccessibilite/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/normes-daccessibilite-mondiales/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/types-de-handicap-les-plus-courants/</loc>
 		<lastmod>2025-11-18</lastmod>
 	</url>
 </urlset>
