@@ -157,16 +157,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/website-usage-analytics-2024/</loc>
-		<lastmod>2025-01-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web-2024/</loc>
-		<lastmod>2025-01-28</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/links/en/information-and-communication-technology-ict-requirements-generator-prototype-for-the-en-301-549-2021/</loc>
 		<lastmod>2025-06-06</lastmod>
 	</url>
@@ -178,16 +168,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/404.html</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/website-usage-analytics-data-view/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/website-usage-analytics/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
 	
@@ -263,16 +243,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/test-your-products/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web-visualisation-des-donnees/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
 	
@@ -482,11 +452,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/contact-us/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/designing-for-users-of-screen-readers/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -513,11 +478,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/designing-for-users-with-physical-or-motor-disabilities/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/digital-accessibility-toolkit-project/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -672,11 +632,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/research-on-our-target-audience/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/statistics-canada-statcan/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -688,11 +643,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/technical-summary-of-the-en-301-549-v321-2021/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/terms-of-reference/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -768,11 +718,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/conseils-pour-la-conception-de-cours-en-ligne/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/contactez-nous/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -887,11 +832,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/mandats/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/classeurs-excel-accessibles-dans-office-2016/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -992,17 +932,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/recherche-sur-notre-audience/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -1647,11 +1577,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/admin/README/</loc>
-		<lastmod>2025-11-07</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/resources/en/web-accessibility-assessment-framework-raweb-1/</loc>
 		<lastmod>2025-11-07</lastmod>
 	</url>
@@ -1664,5 +1589,80 @@
 	<url>
 		<loc>https://a11y.canada.ca/admin/</loc>
 		<lastmod>2025-11-12</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/admin/README/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/website-usage-analytics-2024/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/website-usage-analytics-data-view/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/website-usage-analytics/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web-2024/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web-visualisation-des-donnees/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/analytique-de-lutilisation-du-site-web/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/contact-us/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/digital-accessibility-toolkit-project/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/research-on-our-target-audience/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/terms-of-reference/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/contactez-nous/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/recherche-sur-notre-audience/</loc>
+		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/mandats/</loc>
+		<lastmod>2025-11-17</lastmod>
 	</url>
 </urlset>

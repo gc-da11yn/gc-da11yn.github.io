@@ -1,3 +1,28 @@
+# Decap CMS Configuration
+#
+# ⚠️ AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
+#
+# This file is generated from data files in src/_data/:
+#   - tagList.js (subjects and tags for content pages)
+#   - roles.js (role options for content pages)
+#   - resourceTopics.js (topic options for resources)
+#
+# To update dropdowns, edit the corresponding data file and run:
+#   npm run cms:config
+#
+# Local backend is automatically enabled when:
+#   - ELEVENTY_ENV is 'dev', 'development', or 'local'
+#   - --local flag is passed: npm run cms:config -- --local
+#
+# Generated: 2025-11-18T12:32:50.594Z
+# Environment: production
+# Local backend: disabled
+#
+# For more info, see:
+#   - docs/implementation/decap-cms-implementation.md
+#   - DECAP-CMS-SETUP.md
+#
+
 backend:
   name: github
   repo: gc-da11yn/gc-da11yn.github.io
@@ -15,138 +40,319 @@ public_folder: "/img"
 
 # Publish mode
 publish_mode: editorial_workflow
-
-# Site URL for deploy previews
-site_url: https://a11ycanada.netlify.app
-# Deploy preview template - {{branch}} is replaced with PR branch name
+site_url: https://a11y.canada.ca
+# Deploy preview template - {{pr_number}} is replaced with PR number
 # Resources page path appended to preview URL
 deploy_preview_url: https://deploy-preview-{{pr_number}}--a11ycanada.netlify.app
-
-# NOTE: Topic options below should match src/_data/resourceTopics.js
-# If you add/modify topics, update BOTH files to keep them in sync
 
 # i18n configuration for bilingual content
 i18n:
   structure: multiple_folders
-  locales: [en, fr]
+  locales:
+    - en
+    - fr
   default_locale: en
-
-# Collections - Organize by content type
 collections:
   # Resources Collection (Bilingual)
   - name: "resources"
-    label: "Resources"
-    label_singular: "Resource"
-    description: "Manage bilingual resource items for the Additional Resources page. Use filters to find resources by topic, or toggle 'Group by Topic' for organized view."
-    folder: "src/resources"
+    label: Resources
+    label_singular: Resource
+    description: Manage bilingual resource items for the Additional Resources page. Use filters to find resources by topic, or toggle 'Group by Topic' for organized view.
+    folder: src/resources
     create: true
     slug: "{{slug}}"
-    # Preview path - directs to Additional Resources page in deploy preview
-    preview_path: "en/additional-resources/"
+    preview_path: en/additional-resources/
     view_filters:
-      - label: "Drafts"
+      - label: Drafts
         field: draft
         pattern: true
-      - label: "Accessible meetings and events"
+      - label: Accessible meetings and events
         field: topic
-        pattern: "Accessible meetings and events"
-      - label: "Development"
+        pattern: Accessible meetings and events
+      - label: Development
         field: topic
-        pattern: "Development"
-      - label: "Learning"
+        pattern: Development
+      - label: Learning
         field: topic
-        pattern: "Learning"
-      - label: "Policy"
+        pattern: Learning
+      - label: Policy
         field: topic
-        pattern: "Policy"
-      - label: "Procurement"
+        pattern: Policy
+      - label: Procurement
         field: topic
-        pattern: "Procurement"
-      - label: "Services"
+        pattern: Procurement
+      - label: Services
         field: topic
-        pattern: "Services"
+        pattern: Services
     view_groups:
-      - label: "Topic"
+      - label: Topic
         field: topic
-    sortable_fields: ["title", "topic"]
+    sortable_fields:
+      - title
+      - topic
     summary: "{{title}} ({{topic}})"
     i18n: true
     editor:
       preview: false
     fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
+      - label: Title (required)
+        name: title
+        widget: string
         i18n: true
-        hint: "Resource title (provide both English and French)"
-      - label: "Description"
-        name: "description"
-        widget: "text"
+        hint: Resource title (provide both English and French)
+      - label: Description (required)
+        name: description
+        widget: text
         i18n: true
-        hint: "May include HTML tags like <abbr>, <strong>, etc."
-      - label: "URL"
-        name: "url"
-        widget: "string"
+        hint: May include HTML tags like <abbr>, <strong>, etc.
+      - label: URL (required)
+        name: url
+        widget: string
         i18n: true
-        hint: "Full URL to the resource (provide both English and French)"
-      - label: "Topic"
-        name: "topic"
-        widget: "select"
+        hint: Full URL to the resource (provide both English and French)
+      - label: Topic (required)
+        name: topic
+        widget: select
         i18n: duplicate
         options:
-          - label: "Accessible meetings and events"
-            value: "Accessible meetings and events"
-          - label: "Development"
-            value: "Development"
-          - label: "Learning"
-            value: "Learning"
-          - label: "Policy"
-            value: "Policy"
-          - label: "Procurement"
-            value: "Procurement"
-          - label: "Services"
-            value: "Services"
-        hint: "Category for grouping resources (same for both languages - set in English tab)"
-      - label: "Internal Links"
-        name: "internalLinks"
-        widget: "boolean"
+          - label: Accessible meetings and events
+            value: Accessible meetings and events
+          - label: Development
+            value: Development
+          - label: Learning
+            value: Learning
+          - label: Policy
+            value: Policy
+          - label: Procurement
+            value: Procurement
+          - label: Services
+            value: Services
+        hint: Category for grouping resources (same for both languages - set in English tab)
+      - label: Internal Links
+        name: internalLinks
+        widget: boolean
         default: false
         required: false
         i18n: duplicate
-        hint: "Check if resource requires GC network access (same for both languages - set in English tab)"
-      - label: "Language Availability"
-        name: "languageAvailability"
-        widget: "select"
-        default: "both"
+        hint: Check if resource requires GC network access (same for both languages - set in English tab)
+      - label: Language Availability
+        name: languageAvailability
+        widget: select
+        default: both
         required: false
         i18n: duplicate
         options:
-          - { label: "Available in both languages", value: "both" }
-          - { label: "English only", value: "en" }
-          - { label: "French only", value: "fr" }
-        hint: "Indicates if resource is only available in one language (same for both languages - set in English tab)"
-      - label: "Resource Type"
-        name: "resourceType"
-        widget: "select"
-        default: "standard"
+          - label: Available in both languages
+            value: both
+          - label: English only
+            value: en
+          - label: French only
+            value: fr
+        hint: Indicates if resource is only available in one language (same for both languages - set in English tab)
+      - label: Resource Type
+        name: resourceType
+        widget: select
+        default: standard
         required: false
         i18n: duplicate
         options:
-          - { label: "Standard resource", value: "standard" }
-          - { label: "Parent resource (has sub-resources)", value: "parent" }
-          - { label: "Child resource (belongs under a parent)", value: "child" }
-        hint: "Determines heading level (same for both languages - set in English tab)"
-      - label: "Parent Resource"
-        name: "parentResource"
-        widget: "relation"
-        collection: "resources"
-        search_fields: ["title"]
+          - label: Standard resource
+            value: standard
+          - label: Parent resource (has sub-resources)
+            value: parent
+          - label: Child resource (belongs under a parent)
+            value: child
+        hint: Determines heading level (same for both languages - set in English tab)
+      - label: Parent Resource
+        name: parentResource
+        widget: relation
+        collection: resources
+        search_fields:
+          - title
         value_field: "{{slug}}"
-        display_fields: ["{{title}}"]
+        display_fields:
+          - "{{title}}"
         required: false
         i18n: duplicate
-        hint: "Search and select the parent resource (same for both languages - set in English tab)"
+        hint: Search and select the parent resource (same for both languages - set in English tab)
         options_length: 100
         filters:
           - field: resourceType
-            values: ["parent"]
+            values:
+              - parent
+  - name: about
+    label: About Pages
+    label_singular: About Page
+    description: Manage About Us pages (incremental CMS rollout)
+    folder: src/pages/subjects/aboutUs
+    preview_path: en/aboutUs/
+    create: true
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - label: Archived
+        name: archived
+        widget: boolean
+        i18n: duplicate
+        required: false
+        default: false
+        hint: Archive page - removes from collections and shows banner
+      - label: Draft
+        name: isDraft
+        widget: boolean
+        i18n: duplicate
+        required: false
+        default: false
+        hint: Mark as draft - shows banner to users
+      - label: Needs Translation
+        name: needsTranslation
+        widget: boolean
+        i18n: duplicate
+        required: false
+        default: false
+        hint: Hide language toggle - shows translation notice
+      - label: Title (required)
+        name: title
+        widget: string
+        i18n: true
+        hint: Page title (required)
+      - label: Other language page title (required)
+        name: toggle
+        widget: string
+        i18n: true
+        hint: Enter the exact title of this page in the other language (e.g., if editing EN page, enter FR title). Used to generate language toggle link.
+      - label: Description (required)
+        name: description
+        widget: text
+        i18n: true
+        hint: Page description for meta tags and search (optional)
+      - label: Subject
+        name: subject
+        widget: select
+        i18n: duplicate
+        required: false
+        options:
+          - label: About Us
+            value: aboutUs
+          - label: Accessibility Fundamentals
+            value: accessibilityFundamentals
+          - label: Digital accessibility in the Government of Canada
+            value: accessibilityInTheGovernmentOfCanada
+          - label: How-tos
+            value: howTos
+          - label: Learning and Development
+            value: learningAndDevelopment
+          - label: Resources and Tools
+            value: resourcesAndTools
+        hint: Select subject (controls breadcrumbs and collections)
+      - label: Secondary Subject
+        name: tags
+        widget: select
+        multiple: true
+        i18n: duplicate
+        required: false
+        options:
+          - label: About the Digital the accessibility toolkit project
+            value: aboutTheDigitalTheAccessibilityToolkitProject
+          - label: About us section on homepage
+            value: mainAbout
+          - label: Accessibility Act
+            value: accessibilityAct
+          - label: Accessibility in your role
+            value: accessibilityInYourRole
+          - label: Accessibility standards
+            value: accessibilityStandards
+          - label: Accessible virtual events
+            value: accessibleVirtualEvents
+          - label: Community Directory
+            value: communityDirectory
+          - label: Contact us
+            value: contactUs
+          - label: Create document
+            value: createDocument
+          - label: Create emails
+            value: createEmails
+          - label: Create forms
+            value: createForms
+          - label: Create web content
+            value: createWebContent
+          - label: Design a course
+            value: designCourse
+          - label: Designing accessible services
+            value: designingAccessible
+          - label: Global Accessibility Standards
+            value: globalAccessibilityStandards
+          - label: How to create accessible documents in Microsoft 365
+            value: microsoft365
+          - label: How to create accessible documents in Office 2016
+            value: office2016
+          - label: Most Common Types of Disability
+            value: aboutDisabilities
+          - label: Procurement
+            value: procurement
+          - label: Test your products
+            value: testYourProducts
+          - label: Tip sheets for Microsoft Office
+            value: msTips
+        hint: Select secondary subject/subjects (controls breadcrumbs and collections)
+      - label: Role
+        name: role
+        widget: select
+        multiple: true
+        i18n: duplicate
+        required: false
+        options:
+          - label: Automated Quality Assurance (QA) testing
+            value: qaAutomated
+          - label: Back-end development
+            value: backEndDev
+          - label: Business analysis
+            value: businessAnalysis
+          - label: Content authoring
+            value: contentAuthoring
+          - label: Content publishing
+            value: contentPublishing
+          - label: Front-end development
+            value: frontEndDev
+          - label: Governance
+            value: governance
+          - label: Manual Quality Assurance (QA) testing
+            value: qaManual
+          - label: Product ownership
+            value: productOwnership
+          - label: Project management
+            value: projectManagement
+          - label: User experience (UX) design
+            value: uxDesign
+          - label: User experience (UX) research
+            value: uxResearch
+          - label: Visual design
+            value: visualDesign
+        hint: Select relevant role(s) for this page
+      - label: Show on Homepage About Section
+        name: mainAbout
+        widget: boolean
+        i18n: duplicate
+        required: false
+        default: false
+        hint: If enabled, this page will appear in the About section on the homepage (for About pages only)
+      - label: Table of Contents
+        name: toc
+        widget: boolean
+        i18n: duplicate
+        required: false
+        default: false
+        hint: Generate full TOC with h2 and h3 headings
+      - label: Internal GC Links
+        name: internalLinks
+        widget: boolean
+        i18n: duplicate
+        required: false
+        default: false
+        hint: Shows warning about GC network access requirement
+      - label: Body (required)
+        name: body
+        widget: markdown
+        i18n: true
+        hint: Main page content in markdown format (HTML allowed)
