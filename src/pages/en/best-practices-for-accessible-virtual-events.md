@@ -6,7 +6,7 @@ subject:
   - howTos
 tags:
   - accessibleVirtualEvents
-  - updatesMain
+updatesMain: true
 hasDocument:
   filename: Best_Practices_For_Hosting_Accessible_Events_EN.docx
   sizeNumber: 45

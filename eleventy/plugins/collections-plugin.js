@@ -40,6 +40,7 @@ class CollectionsPlugin extends EleventyBasePlugin {
     this.configureChangedPagesCollection(eleventyConfig);
     this.configureTaggedCollections(eleventyConfig);
     this.configureResourceCollections(eleventyConfig);
+    this.configureBooleanCollections(eleventyConfig);
 
     this.log('Custom collections configured with caching and performance optimization');
   }
@@ -436,6 +437,23 @@ class CollectionsPlugin extends EleventyBasePlugin {
       });
 
       return grouped;
+    });
+  }
+
+  /**
+   * Configure boolean-based collections
+   * These collections are based on boolean frontmatter properties instead of tags
+   */
+  configureBooleanCollections(eleventyConfig) {
+    // Collection for pages with updatesMain: true
+    eleventyConfig.addCollection('updatesMain', (collectionApi) => {
+      const cacheKey = 'updatesMain';
+
+      return this.getCached(cacheKey, () => {
+        return collectionApi.getAll()
+          .filter(item => item.data.updatesMain === true)
+          .sort((a, b) => new Date(b.date) - new Date(a.date)); // Most recent first
+      });
     });
   }
 
