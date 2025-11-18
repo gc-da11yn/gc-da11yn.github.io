@@ -202,47 +202,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessible-virtual-events/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/create-document/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/create-forms/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/create-web-content/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/design-a-course/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designing-accessible-services/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/how-tos/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/tip-sheets-for-microsoft-office/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/test-your-products/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
 	
@@ -267,47 +227,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-un-cours/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/creer-du-contenu-web/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/creer-un-document/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/creer-un-formulaire/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/evenements-virtuels-accessibles/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/fiches-de-conseils-pour-microsoft-office/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/comment-faire/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/principes-de-conception-pour-des-services-accessibles/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/testez-vos-produits/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
 	
@@ -1007,16 +927,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
-		<lastmod>2025-11-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
-		<lastmod>2025-11-05</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/resources/en/a-way-with-words-and-images/</loc>
 		<lastmod>2025-11-06</lastmod>
 	</url>
@@ -1664,5 +1574,95 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/mandats/</loc>
 		<lastmod>2025-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-virtual-events/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/create-document/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/create-forms/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/create-web-content/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/design-a-course/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/designing-accessible-services/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/how-tos/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/test-your-products/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-un-cours/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/creer-du-contenu-web/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/creer-un-document/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/creer-un-formulaire/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/evenements-virtuels-accessibles/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/comment-faire/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/principes-de-conception-pour-des-services-accessibles/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/testez-vos-produits/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<lastmod>2025-11-18</lastmod>
 	</url>
 </urlset>
