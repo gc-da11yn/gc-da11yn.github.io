@@ -202,11 +202,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/tip-sheets-for-microsoft-office/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/approvisionnement/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
@@ -223,11 +218,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/repertoire-de-la-communaute/</loc>
-		<lastmod>2025-06-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/fiches-de-conseils-pour-microsoft-office/</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
 	
@@ -417,11 +407,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -443,11 +428,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/live-broadcast/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -538,11 +518,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/personas-with-disabilities-for-inclusive-user-experience-ux-design/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-remediation-roadmap-template/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -697,11 +672,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/handicaps-cognitifs/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -847,17 +817,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -914,16 +874,6 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/introduction-aux-exigences-daccessibilite-pour-laudio-video/</loc>
 		<lastmod>2025-10-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
-		<lastmod>2025-10-07</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
-		<lastmod>2025-10-07</lastmod>
 	</url>
 	
 	<url>
@@ -1612,11 +1562,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/test-your-products/</loc>
-		<lastmod>2025-11-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
 		<lastmod>2025-11-18</lastmod>
 	</url>
@@ -1657,12 +1602,67 @@
 	</url>
 	
 	<url>
+		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/tip-sheets-for-microsoft-office/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/test-your-products/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/fiches-de-conseils-pour-microsoft-office/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://a11y.canada.ca/fr/testez-vos-produits/</loc>
 		<lastmod>2025-11-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<loc>https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-remediation-roadmap-template/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite/</loc>
+		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
 		<lastmod>2025-11-18</lastmod>
 	</url>
 </urlset>
