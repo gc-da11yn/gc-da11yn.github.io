@@ -71,16 +71,18 @@ module.exports = function (eleventyConfig) {
     filtersPlugin.configure(eleventyConfig);
     console.log('✅ Filters plugin configured');
 
-    // Configure collections plugin
-    const collectionsPlugin = new CollectionsPlugin({
-      environment,
-      skipGitOps: isDevelopment && !isWatchMode,
-      enableCaching: true
-    });
-    collectionsPlugin.configure(eleventyConfig);
-    console.log('✅ Collections plugin configured');
+  // Configure collections plugin
+  const collectionsPlugin = new CollectionsPlugin({
+    environment,
+    skipGitOps: isDevelopment && !isWatchMode,
+    enableCaching: true
+  });
+  collectionsPlugin.configure(eleventyConfig);
 
-    console.log('🎉 Plugin architecture: All plugins configured successfully!');
+  // Store reference to collections plugin for cache invalidation
+  global.collectionsPlugin = collectionsPlugin;
+
+  console.log('✅ Collections plugin configured');    console.log('🎉 Plugin architecture: All plugins configured successfully!');
   } catch (error) {
     console.error('❌ Plugin configuration failed:', error.message);
     throw error;
@@ -227,6 +229,18 @@ module.exports = function (eleventyConfig) {
       console.log(`Changed source file: ${file}`);
       changedFilesMap.set(file, null);
     });
+
+    // Clear collections plugin cache when content files change
+    // This ensures collections are rebuilt with updated frontmatter
+    const contentFiles = changedFiles.filter(file =>
+      file.endsWith('.md') || file.endsWith('.njk') || file.endsWith('.html')
+    );
+
+    if (contentFiles.length > 0 && global.collectionsPlugin) {
+      // Call the plugin's cache clearing method
+      global.collectionsPlugin.onFileChange(changedFiles);
+      console.log('🔄 Content changed - collection caches cleared');
+    }
   });
 
   // Get changed pages using optimized git operations (Method 2: Optimized Git diff)
@@ -355,6 +369,28 @@ module.exports = function (eleventyConfig) {
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
     setUseGitIgnore: false,
-    quietMode: isDevelopment || isWatchMode // Suppress verbose output only during development/watch
+    quietMode: isDevelopment || isWatchMode, // Suppress verbose output only during development/watch
+
+    // Watch configuration for better development experience
+    watchThrottleWaitTime: 100, // Milliseconds to wait before triggering a build (default: 0)
+
+    // Watch options (Chokidar configuration)
+    watchOptions: {
+      // Ignore patterns - prevent unnecessary rebuilds
+      ignored: [
+        'node_modules/**',
+        '.git/**',
+        '_site/**',
+        'broken-links*.json'
+      ],
+      // Chokidar options for more responsive watching
+      awaitWriteFinish: {
+        stabilityThreshold: 200, // Wait 200ms after last file change before rebuilding
+        pollInterval: 100
+      },
+      // Use polling in case file watching doesn't work (slower but more reliable)
+      // usePolling: false, // Set to true if file watching doesn't work on your system
+      // interval: 100 // Polling interval if usePolling is true
+    }
   };
 };

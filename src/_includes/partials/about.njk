@@ -5,7 +5,9 @@
 	<h2>{{ about[locale].about }}</h2>
 	<p>{{ about[locale].aboutPara }}</p>
 	<div class="row wb-eqht mrgn-tp-lg gc-srvinfo">
-		{% for item in collections.aboutUs| sort(false, false, 'data.title') | localeMatch(locale) %}
+		{% for item in collections.aboutUs | sort(false, false, 'data.title') | localeMatch(locale) %}
+		{# Only show pages with mainAbout: true #}
+		{% if item.data.mainAbout === true %}
 		<section class="col-md-4">
 			<h3><a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a></h3>
 			<p>
@@ -16,6 +18,7 @@
 			{% endif %}
 		</p>
 		</section>
+		{% endif %}
 		{% endfor %}
 	</div>
 </section>

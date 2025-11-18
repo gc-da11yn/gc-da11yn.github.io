@@ -16,8 +16,15 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
 
 **Admin Interface:**
 - `src/admin/index.html` - CMS admin interface entry point
-- `src/admin/config.yml` - CMS configuration with i18n Resources collection
+- `src/admin/config.yml` - ⚠️ **Auto-generated** - CMS configuration (DO NOT EDIT MANUALLY)
 - `src/admin/README.md` - Admin folder documentation
+
+**Generator Script:**
+- `scripts/generate-cms-config.js` - Generates config.yml from data files
+  - Reads from: `src/_data/tagList.js`, `roles.js`, `resourceTopics.js`
+  - Auto-runs on: `npm run build`, `npm run dev`, `npm run start-cms`
+  - Manual generation: `npm run cms:config` or `npm run cms:config -- --local`
+  - Output: `src/admin/config.yml` (ignored by git)
 
 **Resources System:**
 - `src/resources/en/*.md` - English resource items (frontmatter-only)
@@ -69,7 +76,7 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
 1. **Navigate to CMS**: `https://a11ycanada.netlify.app/admin/`
 2. **Click "Login with GitHub"**
 3. **Authorize Decap CMS**: First-time users will see a GitHub OAuth authorization screen requesting access to "Public and private" repositories
-   
+
    **⚠️ Important**: Despite the broad warning message, Decap CMS only accesses the `gc-da11yn/gc-da11yn.github.io` repository specified in the configuration. It cannot read or write to your other repositories. This is standard behavior for GitHub OAuth Apps used by Git-based CMS tools.
 
 4. **Click "Authorize"** to grant the CMS access
@@ -77,45 +84,56 @@ Decap CMS has been successfully installed and configured for the Digital Accessi
 
 ## 🧪 Testing Locally
 
-### Option 1: With Local Backend (Recommended for Development)
+### Quick Start: For CMS Development
 
-1. **Start the local backend server:**
+The simplest way to test the CMS locally:
+
+```bash
+npm run start-cms
+```
+
+This single command:
+
+1. Generates `config.yml` with `local_backend: true`
+2. Starts `decap-server` on port 8081
+3. Starts Eleventy dev server
+4. Access CMS at: `http://localhost:{PORT}/admin/`
+   - Port is auto-detected (usually 8080, but may vary if port is in use)
+   - Check console output for actual URL
+
+### Manual Steps (Alternative)
+
+If you need more control:
+
+1. **Generate config for local development:**
+
+   ```bash
+   npm run cms:config -- --local
+   ```
+
+2. **Start the local backend** (in one terminal):
+
    ```bash
    npx decap-server
    ```
-   Leave this running in a terminal window.
 
-2. **Uncomment the local backend line** in `src/admin/config.yml`:
-   ```yaml
-   local_backend: true
-   ```
+3. **Start Eleventy** (in another terminal):
 
-3. **Start the Eleventy dev server** (in another terminal):
    ```bash
    npm start
    ```
 
-4. **Access the CMS:**
-   - Navigate to `http://localhost:8080/admin/`
-   - Use any email/password for local testing
+4. **Access:** `http://localhost:{PORT}/admin/`
+   - Port is auto-detected (usually 8080, check console output for actual URL)
 
-5. **When done testing:**
-   - Re-comment the `local_backend: true` line before committing
+### Production Testing
 
-### Option 2: Without Local Backend (Production-like)
+To test with production-like config (no local backend):
 
-1. **Build the site:**
-   ```bash
-   npm run build
-   ```
-
-2. **Start production server:**
-   ```bash
-   npm run start-prod
-   ```
-
-3. **Access at:** `http://localhost:8080/admin/`
-   - Requires Netlify Identity to be configured
+```bash
+npm run build        # Generates config without local_backend
+npm run start-prod   # Serves the built site
+```
 
 ## 📝 Using the CMS
 
@@ -324,8 +342,16 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
 **Interface d'administration :**
 
 - `src/admin/index.html` - Point d'entrée de l'interface d'administration CMS
-- `src/admin/config.yml` - Configuration CMS avec collection Ressources i18n
+- `src/admin/config.yml` - ⚠️ **Auto-généré** - Configuration CMS (NE PAS MODIFIER MANUELLEMENT)
 - `src/admin/README.md` - Documentation du dossier d'administration
+
+**Script générateur :**
+
+- `scripts/generate-cms-config.js` - Génère config.yml à partir des fichiers de données
+  - Lit depuis : `src/_data/tagList.js`, `roles.js`, `resourceTopics.js`
+  - S'exécute automatiquement sur : `npm run build`, `npm run dev`, `npm run start-cms`
+  - Génération manuelle : `npm run cms:config` ou `npm run cms:config -- --local`
+  - Sortie : `src/admin/config.yml` (ignoré par git)
 
 **Système de ressources :**
 
@@ -382,7 +408,7 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
 1. **Accédez au CMS** : `https://a11ycanada.netlify.app/admin/`
 2. **Cliquez sur "Login with GitHub"**
 3. **Autorisez Decap CMS** : Les nouveaux utilisateurs verront un écran d'autorisation OAuth GitHub demandant l'accès aux dépôts "Public and private"
-   
+
    **⚠️ Important** : Malgré le message d'avertissement large, Decap CMS accède uniquement au dépôt `gc-da11yn/gc-da11yn.github.io` spécifié dans la configuration. Il ne peut pas lire ou écrire dans vos autres dépôts. Il s'agit du comportement standard des applications OAuth GitHub utilisées par les outils CMS basés sur Git.
 
 4. **Cliquez sur "Authorize"** pour accorder l'accès
@@ -390,45 +416,57 @@ Decap CMS a été installé et configuré avec succès pour la Boîte à outils 
 
 ## 🧪 Tests locaux
 
-### Option 1 : Avec backend local (Recommandé pour le développement)
+### Démarrage rapide : Pour le développement CMS
 
-1. **Démarrez le serveur backend local :**
+La façon la plus simple de tester le CMS localement :
+
+```bash
+npm run start-cms
+```
+
+Cette seule commande :
+
+1. Génère `config.yml` avec `local_backend: true`
+2. Démarre `decap-server` sur le port 8081
+3. Démarre le serveur de développement Eleventy
+4. Accédez au CMS à : `http://localhost:{PORT}/admin/`
+   - Le port est détecté automatiquement (généralement 8080, mais peut varier si le port est utilisé)
+   - Vérifiez la sortie de la console pour l'URL réelle
+
+### Étapes manuelles (Alternative)
+
+Si vous avez besoin de plus de contrôle :
+
+1. **Générez la configuration pour le développement local :**
+
+   ```bash
+   npm run cms:config -- --local
+   ```
+
+2. **Démarrez le backend local** (dans un terminal) :
+
    ```bash
    npx decap-server
    ```
-   Laissez-le en cours d'exécution dans une fenêtre de terminal.
 
-2. **Décommentez la ligne de backend local** dans `src/admin/config.yml` :
-   ```yaml
-   local_backend: true
-   ```
+3. **Démarrez Eleventy** (dans un autre terminal) :
 
-3. **Démarrez le serveur de développement Eleventy** (dans un autre terminal) :
    ```bash
    npm start
    ```
 
-4. **Accédez au CMS :**
-   - Naviguez vers `http://localhost:8080/admin/`
-   - Utilisez n'importe quel e-mail/mot de passe pour les tests locaux
+4. **Accès :** `http://localhost:{PORT}/admin/`
+   - Le port est détecté automatiquement (généralement 8080, mais peut varier si le port est utilisé)
+   - Vérifiez la sortie de la console pour l'URL réelle
 
-5. **Lorsque les tests sont terminés :**
-   - Recommentez la ligne `local_backend: true` avant de valider
+### Tests de production
 
-### Option 2 : Sans backend local (Similaire à la production)
+Pour tester avec une configuration similaire à la production (sans backend local) :
 
-1. **Construisez le site :**
-   ```bash
-   npm run build
-   ```
-
-2. **Démarrez le serveur de production :**
-   ```bash
-   npm run start-prod
-   ```
-
-3. **Accédez à :** `http://localhost:8080/admin/`
-   - Nécessite que Netlify Identity soit configuré
+```bash
+npm run build        # Génère la configuration sans local_backend
+npm run start-prod   # Sert le site construit
+```
 
 ## 📝 Utiliser le CMS
 

@@ -6,9 +6,10 @@
 
 # Decap CMS Implementation for Digital Accessibility Toolkit
 
-**Date**: November 3, 2025
-**Status**: ✅ Implemented
-**Branch**: feature/decapCMS
+**Date**: November 3, 2025 (Initial implementation)
+**Updated**: November 14, 2025 (Config generator added)
+**Status**: ✅ Implemented with auto-generated config
+**Branch**: feature/decapCMS-pages
 
 ## Overview
 
@@ -76,6 +77,53 @@ src/
    - Added decap-cms-app dependency
 
 ## Configuration Details
+
+### Auto-Generated Configuration
+
+**⚠️ Important**: `src/admin/config.yml` is auto-generated and should NOT be edited manually.
+
+**Generator Script**: `scripts/generate-cms-config.js`
+
+**Data Sources**:
+- `src/_data/tagList.js` - Subjects (6) and tags (21) for page collections
+- `src/_data/roles.js` - User roles (13) for filtering
+- `src/_data/resourceTopics.js` - Resource topics (6) with labels and descriptions
+
+**When Config is Generated**:
+- `npm run build` - Production build (no local backend)
+- `npm run dev` - Development build (no local backend)
+- `npm run start-cms` - CMS development (with local backend)
+- `npm run cms:config` - Manual generation (production mode)
+- `npm run cms:config -- --local` - Manual generation (local mode)
+
+**Generated Files**:
+- `src/admin/config.yml` - CMS configuration (ignored by git via `.gitignore`)
+
+**Features of Generator**:
+1. **Environment-aware**: Detects `--local` flag or `ELEVENTY_ENV=dev/development/local` for local backend
+2. **Reusable field definitions**: DRY principle with `commonFields` object
+3. **Data-driven**: Collections and field options populated from data files
+4. **Inline comments**: Adds helpful comments to generated YAML
+5. **Single source of truth**: All configuration logic in one JavaScript file
+
+**npm Scripts Overview**:
+```bash
+# Regular Development (no CMS)
+npm start          # Dev server (local env)
+npm run start-dev  # Dev server (dev env)
+npm run start-prod # Dev server (prod env)
+
+# CMS Development
+npm run start-cms  # Generates config + starts decap-server + dev server
+
+# Build Commands
+npm run build      # Generate config + build site (production)
+npm run dev        # Generate config + build site (development)
+
+# Manual Config Generation
+npm run cms:config           # Production mode
+npm run cms:config -- --local # Local mode with local_backend: true
+```
 
 ### Backend Configuration
 
@@ -277,9 +325,9 @@ To add content editors:
    ```
 
 5. **Access CMS**:
-   Navigate to `http://localhost:8080/admin/` (or whatever port Eleventy uses)
-
-6. **Login**: Use any email/password for local testing
+   Navigate to `http://localhost:{PORT}/admin/`
+   - Port is auto-detected (usually 8080, but may vary if port is in use)
+   - Check the console output for the actual URL displayed by the generator script
 
 ### Testing Changes
 
@@ -293,7 +341,9 @@ To add content editors:
 ### Accessing the CMS
 
 1. **Production**: Navigate to `https://a11ycanada.netlify.app/admin/`
-2. **Local**: Navigate to `http://localhost:8080/admin/` (or your dev server port)
+2. **Local**: Navigate to `http://localhost:{PORT}/admin/`
+   - Port is auto-detected (usually 8080, but may vary if port is in use)
+   - Check the console output for the actual URL displayed by the generator script
 
 ### Adding a New Resource
 
@@ -625,6 +675,58 @@ src/
 
 ## Détails de configuration
 
+### Configuration auto-générée
+
+**⚠️ Important** : `src/admin/config.yml` est auto-généré et ne doit PAS être modifié manuellement.
+
+**Script générateur** : `scripts/generate-cms-config.js`
+
+**Sources de données** :
+
+- `src/_data/tagList.js` - Sujets (6) et balises (21) pour les collections de pages
+- `src/_data/roles.js` - Rôles utilisateur (13) pour le filtrage
+- `src/_data/resourceTopics.js` - Sujets de ressources (6) avec étiquettes et descriptions
+
+**Quand la configuration est générée** :
+
+- `npm run build` - Construction de production (sans backend local)
+- `npm run dev` - Construction de développement (sans backend local)
+- `npm run start-cms` - Développement CMS (avec backend local)
+- `npm run cms:config` - Génération manuelle (mode production)
+- `npm run cms:config -- --local` - Génération manuelle (mode local)
+
+**Fichiers générés** :
+
+- `src/admin/config.yml` - Configuration CMS (ignoré par git via `.gitignore`)
+
+**Fonctionnalités du générateur** :
+
+1. **Détection d'environnement** : Détecte le drapeau `--local` ou `ELEVENTY_ENV=dev/development/local` pour le backend local
+2. **Définitions de champs réutilisables** : Principe DRY avec objet `commonFields`
+3. **Piloté par les données** : Collections et options de champs peuplées à partir des fichiers de données
+4. **Commentaires en ligne** : Ajoute des commentaires utiles au YAML généré
+5. **Source unique de vérité** : Toute la logique de configuration dans un seul fichier JavaScript
+
+**Aperçu des scripts npm** :
+
+```bash
+# Développement régulier (sans CMS)
+npm start          # Serveur de développement (env local)
+npm run start-dev  # Serveur de développement (env dev)
+npm run start-prod # Serveur de développement (env prod)
+
+# Développement CMS
+npm run start-cms  # Génère la config + démarre decap-server + serveur de développement
+
+# Commandes de construction
+npm run build      # Générer la config + construire le site (production)
+npm run dev        # Générer la config + construire le site (développement)
+
+# Génération manuelle de configuration
+npm run cms:config           # Mode production
+npm run cms:config -- --local # Mode local avec local_backend: true
+```
+
 ### Configuration du backend
 
 Le CMS utilise le backend GitHub pour l'authentification et le stockage de contenu :
@@ -835,9 +937,9 @@ Pour ajouter des éditeurs de contenu :
    ```
 
 5. **Accéder au CMS** :
-   Naviguer vers `http://localhost:8080/admin/` (ou le port qu'utilise Eleventy)
-
-6. **Connexion** : Utilisez n'importe quel e-mail/mot de passe pour les tests locaux
+   Naviguer vers `http://localhost:{PORT}/admin/`
+   - Le port est détecté automatiquement (généralement 8080, mais peut varier si le port est utilisé)
+   - Vérifiez la sortie de la console pour l'URL réelle affichée par le script de génération
 
 ### Tester les modifications
 
@@ -851,7 +953,9 @@ Pour ajouter des éditeurs de contenu :
 ### Accéder au CMS
 
 1. **Production** : Naviguer vers `https://a11ycanada.netlify.app/admin/`
-2. **Local** : Naviguer vers `http://localhost:8080/admin/` (ou le port de votre serveur de développement)
+2. **Local** : Naviguer vers `http://localhost:{PORT}/admin/`
+   - Le port est détecté automatiquement (généralement 8080, mais peut varier si le port est utilisé)
+   - Vérifiez la sortie de la console pour l'URL réelle affichée par le script de génération
 
 ### Ajouter une nouvelle ressource
 

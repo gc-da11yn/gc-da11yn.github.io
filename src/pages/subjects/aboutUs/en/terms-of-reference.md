@@ -2,7 +2,8 @@
 title: Terms of Reference
 description: Terms of Reference define the purpose and scope of the Digital Accessibility Toolkit project. It includes information regarding the structures of a project, key roles, membership, meeting, and more.
 toggle: Mandats
-tags:
+mainAbout: true
+subject:
   - aboutUs
 toc: true
 ---
@@ -61,7 +62,7 @@ Members
   - Shared Service Canada (<abbr>SSC</abbr>): Shawn Thompson, Accessibility, Accommodation and Adaptive Computer Technology (<abbr>AAACT</abbr>) Program (Development lead)
   - Canada School of Public Service (<abbr>CSPS</abbr>): Julie Bélisle Boutet, Digital Accessibility in Learning (Content lead)
 - Contributing resources:
-  - Open Government Working Group (<abbr>COGWG</abbr>) 
+  - Open Government Working Group (<abbr>COGWG</abbr>)
   - Canadian Digital Services (<abbr>CDS</abbr>)
 - Different subject matter experts, other than accessibility
   - Legal

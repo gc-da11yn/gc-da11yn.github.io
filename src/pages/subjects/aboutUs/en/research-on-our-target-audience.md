@@ -1,7 +1,8 @@
 ---
 title: Research on our target audience
-description: By developing a greater understanding of our users, we hope to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit’s website.
-tags:
+description: By developing a greater understanding of our users, we hope to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit's website.
+mainAbout: true
+subject:
   - aboutUs
 toggle: Recherche sur notre audience
 ---

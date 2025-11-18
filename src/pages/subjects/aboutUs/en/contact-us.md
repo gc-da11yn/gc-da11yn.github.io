@@ -1,9 +1,10 @@
 ---
 title: Contact us
-description: Interested in learning more? Reach out and get connected to our team.
 toggle: Contactez-nous
-tags:
+description: Interested in learning more? Reach out and get connected to our team.
+subject:
   - aboutUs
+mainAbout: true
 ---
 
 ## We would love to hear from you.
