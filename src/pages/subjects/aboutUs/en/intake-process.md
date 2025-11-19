@@ -12,7 +12,9 @@ mainAbout: false
 toc: true
 internalLinks: false
 ---
-## Introduction
+# Introduction
+
+## Why an intake process
 
 We created this process to make things clearer and easier for everyone. Over time, we noticed that without a defined approach, it was hard to stay consistent and make sure we were meeting accessibility standards. This process gives us a simple roadmap to follow so that:
 
@@ -81,8 +83,6 @@ Documented discussions and action items. 
 * Project Management WG (Responsible), 
 * Development WG (Consulted), 
 * UX, Design, Research WG (Consulted), 
-
- 
 
 ### Phase 4 Action 
 
