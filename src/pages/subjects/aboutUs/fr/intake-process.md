@@ -9,7 +9,7 @@ subject: aboutUs
 tags:
   - aboutTheDigitalTheAccessibilityToolkitProject
 role: null
-mainAbout: false
+mainAbout: true
 toc: true
 internalLinks: false
 ---

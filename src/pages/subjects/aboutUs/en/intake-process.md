@@ -8,7 +8,7 @@ description: add description here
 subject: aboutUs
 tags:
   - aboutTheDigitalTheAccessibilityToolkitProject
-mainAbout: false
+mainAbout: true
 toc: true
 internalLinks: false
 ---
