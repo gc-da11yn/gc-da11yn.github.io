@@ -8,7 +8,7 @@
 
 ## Technology
 
-The project is based on using the same technology as the [a11yproject](https://github.com/a11yproject/gc-da11yn.github.io).
+The project is based on using the same technology as the [a11yproject](https://github.com/a11yproject/a11yproject.com).
 
 Using [Eleventy](https://www.11ty.io), to build a simple static site which uses [nodeJS](https://nodejs.org/en/) to generate and deploying with [Github Actions](https://github.com/features/actions) to [Github Pages](https://pages.github.com) hosts the site.
 
@@ -563,7 +563,7 @@ ______________________
 
 ## Technologie
 
-Le projet est basé sur l'utilisation de la même technologie que le projet [a11yproject](https://github.com/a11yproject/gc-da11yn.github.io).
+Le projet est basé sur l'utilisation de la même technologie que le projet [a11yproject](https://github.com/a11yproject/a11yproject.com).
 
 En utilisant [Eleventy](https://www.11ty.io), pour construire un site statique simple qui utilise [nodeJS](https://nodejs.org/fr/) pour générer et déployer avec  [Github Actions](https://github.com/features/actions) aux [Github Pages](https://pages.github.com) hébergeant le site.
 
