@@ -522,11 +522,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-laccessibilite-des-documents-pdf/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/liste-de-verification-pour-laccessibilite-web/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -974,5 +969,10 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/types-de-handicap-les-plus-courants/</loc>
 		<lastmod>2025-11-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-laccessibilite-des-documents-pdf/</loc>
+		<lastmod>2026-02-04</lastmod>
 	</url>
 </urlset>
