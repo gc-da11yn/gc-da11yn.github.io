@@ -337,6 +337,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.ignores.add("src/pages/_template.md");
   eleventyConfig.ignores.add("src/links/_template.md");
 
+  // Ignore Decap CMS resource files - these should not be built as pages
+  // Resources are managed exclusively through Decap CMS and displayed via the template
+  eleventyConfig.ignores.add("src/resources/**/*.md");
+
+  // Ignore redirect link files - these are redirect-only files, not content pages
+  eleventyConfig.ignores.add("src/links/**/*.md");
+
 
 
   // Phase 2: Git operations cache management and debugging
