@@ -120,8 +120,42 @@ publish_mode: editorial_workflow
 - `npm start` - Development server with hot reload and change detection
 - `npm run build` - Production build
 - `npm run link-check` - Validates all internal/external links (**⚠️ NEEDS REVISION**: Works but needs automation improvements)
-- `npm run spellcheck` - Runs cspell on markdown content
+- `npm run spellcheck` - Runs cspell on markdown content with source file mapping
 - `npm run analytics` - Updates Google Analytics data (**⚠️ NEEDS REVISION**: Currently not working properly)
+
+### Quality Assurance & Spellcheck
+
+#### Spellcheck System ✅
+**Automated PR Validation**: Implemented with GitHub Actions workflow and source file path mapping
+
+**Local Spellcheck**:
+- **Command**: `npm run spellcheck`
+- **Tool**: CSpell v9.6.4 with English/French language support
+- **Configuration**: `.cspell.json` with custom dictionaries (`.custom-en.txt`, `.custom-fr.txt`, `.custom-names.txt`)
+- **Output**: Terminal display with source file paths (mapped from built HTML using meta tags)
+- **Runner**: `scripts/run-quality-checks.js` for intelligent path mapping
+
+**Automated PR Spellcheck**:
+- **Workflow**: `.github/workflows/spellcheck-pr.yml`
+- **Trigger**: Automatic on PR creation with changes to `src/**` only
+- **Results**: Appears in PR Checks tab with error reporting
+- **Features**: 
+  - Efficient path filtering prevents unnecessary checks
+  - Source file mapping shows actual markdown/HTML files, not build output
+  - Clean terminal output without JSON report files
+  - Bilingual support for English and French content
+
+**How It Works**:
+1. Developer creates PR with content changes
+2. GitHub Actions automatically triggers spellcheck workflow
+3. Spellcheck scans `src/**` changes and reports spelling errors
+4. Errors are mapped to source files using HTML meta tags
+5. Results appear in PR Checks tab for easy review
+
+**Performance**:
+- **Development**: `npm run spellcheck` completes in seconds
+- **CI/CD**: PR workflow runs in parallel with other checks
+- **Caching**: No redundant checks on unchanged files
 
 ### Git Integration Features
 The build system uses an optimized pages-to-review system that tracks changed files via git diff against upstream/main:
