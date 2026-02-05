@@ -6151,7 +6151,7 @@ toggle: Exigences en matière de technologies de l’information et des communic
 		<tr>
 			<td>
 				<p id="11.1.3.5.1"><strong>11.1.3.5.1 Identify input purpose (open functionality)</strong></p>
-				<p>Where ICT is non-web software that provides a user interfaceand supports access to assistive technologies for screen reading, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#identify-input-purpose">WCAG 2.1 Success Criterion 1.3.5 Identify Input Purpose</a>.</p>
+				<p>Where ICT is non-web software that provides a user interface and supports access to assistive technologies for screen reading, it shall satisfy the <a href="http://www.w3.org/TR/WCAG21/#identify-input-purpose">WCAG 2.1 Success Criterion 1.3.5 Identify Input Purpose</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.5.1 Identify input purpose (open functionality)</strong></p>

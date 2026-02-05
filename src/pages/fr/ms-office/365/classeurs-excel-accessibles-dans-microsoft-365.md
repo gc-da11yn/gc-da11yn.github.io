@@ -80,7 +80,7 @@ Les utilisateurs de lecteurs d’écran parcourent parfois la liste des liens. V
 
 Pour ajouter des hyperliens avec un titre pertinent&nbsp;:
 
-1. Saisissez ou collez une adresse Web dans votre documentet appuyez « l’espace » ou « entrer » pour convertir en lien hypertexte.
+1. Saisissez ou collez une adresse Web dans votre document et appuyez « l’espace » ou « entrer » pour convertir en lien hypertexte.
 2. Sélectionnez le lien et ouvrez le menu contextuel.
 3. Activez **Lien hypertexte**.
 4. Modifiez le **Texte à afficher** par un texte pertinent.

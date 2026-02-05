@@ -193,7 +193,27 @@ For detailed technical information, see the [implementation documentation](../do
 
 The `npm run spellcheck` command runs a spell checker on all the markdown and HTML files inside the `src` folder.
 
-The script will then display possible spelling errors in the terminal.
+The script will then display possible spelling errors in the terminal, with file paths mapped to source files for easy navigation.
+
+##### Spellcheck Configuration
+
+- **Tool**: CSpell v9.6.4 with English and French language support
+- **Configuration**: `.cspell.json` with custom dictionaries
+- **Custom Words**:
+  - `.custom-en.txt` - English-specific terms
+  - `.custom-fr.txt` - French-specific terms
+  - `.custom-names.txt` - Proper names and acronyms
+
+##### Automated PR Spellcheck
+
+Spellcheck is automatically run on every pull request via GitHub Actions:
+
+- **Workflow**: `.github/workflows/spellcheck-pr.yml`
+- **Trigger**: Pull requests with changes to `src/**`
+- **Reporting**: Results appear in the PR Checks tab
+- **Output**: Source file paths are mapped from built HTML for developer-friendly error reporting
+
+When you create a PR, the spellcheck workflow will automatically validate your content changes and report any spelling errors with direct links to the source files.
 
 #### Building the site for testing locally
 
@@ -559,6 +579,8 @@ ______________________
 
 <div lang="fr">
 
+## Français
+
 # Développement
 
 ## Technologie
@@ -746,7 +768,27 @@ Pour des informations techniques détaillées, voir la [documentation d'impléme
 
 La commande `npm run spellcheck` lance un vérificateur d'orthographe sur tous les fichiers markdown et HTML du dossier `src`.
 
-Le script affichera alors les éventuelles erreurs d'orthographe dans le terminal.
+Le script affichera alors les éventuelles erreurs d'orthographe dans le terminal, avec les chemins de fichiers mappés vers les fichiers source pour une navigation facile.
+
+##### Configuration de la vérification orthographique
+
+- **Outil** : CSpell v9.6.4 avec support des langues anglaise et française
+- **Configuration** : `.cspell.json` avec dictionnaires personnalisés
+- **Mots personnalisés** :
+  - `.custom-en.txt` - Termes spécifiques à l'anglais
+  - `.custom-fr.txt` - Termes spécifiques au français
+  - `.custom-names.txt` - Noms propres et acronymes
+
+##### Vérification orthographique automatisée de la demande de tirage
+
+La vérification orthographique s'exécute automatiquement sur chaque demande de tirage via GitHub Actions :
+
+- **Flux de travail** : `.github/workflows/spellcheck-pr.yml`
+- **Déclencheur** : Demandes de tirage avec modifications à `src/**`
+- **Signalement** : Les résultats apparaissent dans l'onglet Vérifications de la demande de tirage
+- **Sortie** : Les chemins des fichiers source sont mappés à partir du HTML généré pour une rapport d'erreurs convivial pour les développeurs
+
+Lorsque vous créez une demande de tirage, le flux de travail de vérification orthographique validera automatiquement les modifications de votre contenu et signalera les erreurs d'orthographe avec des liens directs vers les fichiers source.
 
 #### Construire le site pour le tester localement
 

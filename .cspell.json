@@ -2,7 +2,7 @@
 {
     "version": "0.2",
     "import": [
-        "node_modules/@cspell/dict-fr-fr/cspell-ext.json"
+        "@cspell/dict-fr-fr/cspell-ext.json"
     ],
     "dictionaries": [
         "fr-fr",
@@ -33,9 +33,13 @@
         }
     ],
     "ignorePaths": [
-        "node_modules"
+        "node_modules",
+        "_site/fr/liste-des-pages-tableau/index.html",
+        "_site/en/page-list-table/index.html"
     ],
     "ignoreRegExpList": [
-        "^.*[&\\(\\[\\{].*$"
+        "^.*[&\\(\\[\\{].*$",
+        "\\b\\w+\\s*=\\s*\"[^\"]*\"",
+        "\\b\\w+\\s*=\\s*'[^']*'"
     ]
 }

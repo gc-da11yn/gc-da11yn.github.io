@@ -235,7 +235,7 @@ Catégorie : Amélioration de la vision
 #### <span class="fas fa-signal" aria-hidden="true"></span> Compétences (aptitude)
 
 - Utilise des macbook et des produits Apple tous les jours pour son travail.
-- Techsavvy et s’appuie sur ses outils dans sa vie quotidienne.
+- <span lang="en">Tech-savvy</span> et s’appuie sur ses outils dans sa vie quotidienne.
 
 </div>
 <div class="col-md-6">

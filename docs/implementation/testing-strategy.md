@@ -1,3 +1,9 @@
+<div lang="fr">
+
+([Français](#Développement))
+
+</div>
+
 # Testing Strategy for Eleventy Refactoring
 
 This document outlines the comprehensive testing strategy for the Digital Accessibility Toolkit Eleventy configuration refactoring project.
@@ -107,9 +113,106 @@ npm run test:coverage      # Generate coverage report
 npm run test:ci            # Optimized for CI/CD pipelines
 ```
 
-## Test Data and Metrics
+## Quality Assurance: Spellcheck System
 
-### Performance Baseline
+### Overview
+
+The project includes an automated spellcheck system that validates content spelling for both English and French:
+
+- **Local Development**: `npm run spellcheck` for manual validation
+- **Automated PR Checks**: `.github/workflows/spellcheck-pr.yml` automatically runs on every PR
+- **Smart Output**: Source file paths mapped from built HTML for developer-friendly error reporting
+
+### Configuration
+
+**Tool**: CSpell v9.6.4
+- **Location**: `.cspell.json`
+- **Dictionaries**:
+  - `.custom-en.txt` - English-specific terms
+  - `.custom-fr.txt` - French-specific terms
+  - `.custom-names.txt` - Proper names and acronyms
+
+### GitHub Actions Workflow
+
+**Workflow File**: `.github/workflows/spellcheck-pr.yml`
+
+**Features**:
+- Triggers on pull requests with changes to `src/**` only
+- Reports results in the PR Checks tab
+- Runs in parallel with other checks for efficiency
+- Uses path filters to skip unnecessary checks on non-content files
+
+**Steps**:
+1. Checkout repository
+2. Setup Node.js environment
+3. Install dependencies (`npm ci`)
+4. Run spellcheck (`npm run spellcheck`)
+5. Upload artifacts (7-day retention)
+
+### Path Mapping System
+
+**Implementation**: `scripts/run-quality-checks.js`
+
+The spellcheck output maps errors from built HTML paths to source files:
+
+- **Input**: `_site/en/page-name/index.html:10:5 - Error message`
+- **Output**: `src/pages/en/page-name.md:10:5 - Error message`
+
+**Method**: Uses HTML meta tags (`<meta name="source-file" content="...">`) to track source file locations during build process.
+
+**Benefits**:
+- Developers see actual source files they work with
+- Direct file paths are clickable in many IDE terminals
+- Easier to navigate and fix spelling errors
+- Terminal-only output without cluttering the workspace
+
+### Development Workflow
+
+**Local Spellcheck**:
+```bash
+npm run spellcheck
+```
+
+**Result**: Displays spelling errors with source file paths in terminal
+
+**Expected Output**:
+```
+src/pages/en/my-page.md:15:3 - Unknown word
+src/pages/fr/ma-page.md:8:10 - Mot inconnu
+```
+
+### CI/CD Integration
+
+The spellcheck workflow is automatically triggered on:
+- **Pull Request Creation**: When PR includes `src/**` changes
+- **Pull Request Updates**: When new commits are pushed to the PR
+- **Manual Trigger**: Via GitHub Actions UI if needed
+
+**Output Location**: Results appear in PR Checks tab with pass/fail status and error details
+
+### Performance Considerations
+
+- **File Filtering**: Path filter ensures only changed content is checked, not entire site
+- **Caching**: No redundant checks on unchanged files
+- **Speed**: PR workflow completes in seconds
+- **Overhead**: Minimal impact on overall CI/CD pipeline
+
+### Adding Words to Dictionaries
+
+When legitimate words are flagged as spelling errors:
+
+1. Identify which dictionary file to update:
+   - `.custom-en.txt` - English terms
+   - `.custom-fr.txt` - French terms
+   - `.custom-names.txt` - Proper names and acronyms
+
+2. Add the word (one per line, case-sensitive)
+
+3. Commit the change: `git add .custom-*.txt && git commit`
+
+4. Next PR spellcheck will recognize the new word
+
+### Test Data and Metrics
 
 Tests automatically save performance metrics to `tests/performance/latest-metrics.json`:
 
@@ -186,6 +289,10 @@ Tests automatically save performance metrics to `tests/performance/latest-metric
 - **Metrics**: Quantifiable evidence of improvements
 
 ---
+
+<div lang="fr">
+
+## Français
 
 ## Stratégie de tests pour la refactorisation d'Eleventy (Français)
 
@@ -373,3 +480,119 @@ Les tests sauvegardent automatiquement les métriques de performance dans `tests
 - **Exemples**: Les tests servent d'exemples d'utilisation pour les modules
 - **Validation**: Prouve que la refactorisation maintient la fonctionnalité
 - **Métriques**: Preuve quantifiable des améliorations
+
+## Assurance qualité : Système de vérification orthographique (FR)
+
+### Aperçu
+
+Le projet comprend un système de vérification orthographique automatisé qui valide l'orthographe du contenu en anglais et en français :
+
+- **Développement local** : `npm run spellcheck` pour la validation manuelle
+- **Vérifications automatisées des demandes de tirage** : `.github/workflows/spellcheck-pr.yml` s'exécute automatiquement sur chaque demande de tirage
+- **Sortie intelligente** : Chemins de fichiers source mappés à partir du HTML généré pour un rapport d'erreurs convivial pour les développeurs
+
+### Configuration
+
+**Outil** : CSpell v9.6.4
+- **Emplacement** : `.cspell.json`
+- **Dictionnaires** :
+  - `.custom-en.txt` - Termes spécifiques à l'anglais
+  - `.custom-fr.txt` - Termes spécifiques au français
+  - `.custom-names.txt` - Noms propres et acronymes
+
+### Flux de travail GitHub Actions
+
+**Fichier de flux de travail** : `.github/workflows/spellcheck-pr.yml`
+
+**Fonctionnalités** :
+- Se déclenche sur les demandes de tirage avec des modifications à `src/**` uniquement
+- Signale les résultats dans l'onglet Vérifications de la demande de tirage
+- S'exécute en parallèle avec d'autres vérifications pour l'efficacité
+- Utilise les filtres de chemin pour ignorer les vérifications inutiles sur les fichiers sans contenu
+
+**Étapes** :
+1. Récupérer le référentiel
+2. Configuration de l'environnement Node.js
+3. Installation des dépendances (`npm ci`)
+4. Exécuter la vérification orthographique (`npm run spellcheck`)
+5. Télécharger les artefacts (rétention de 7 jours)
+
+### Système de mappage de chemin
+
+**Implémentation** : `scripts/run-quality-checks.js`
+
+La sortie de vérification orthographique mappe les erreurs des chemins HTML générés aux fichiers source :
+
+- **Entrée** : `_site/en/page-name/index.html:10:5 - Message d'erreur`
+- **Sortie** : `src/pages/en/page-name.md:10:5 - Message d'erreur`
+
+**Méthode** : Utilise des balises meta HTML (`<meta name="source-file" content="...">`) pour suivre les emplacements des fichiers source pendant le processus de construction.
+
+**Avantages** :
+- Les développeurs voient les fichiers source réels avec lesquels ils travaillent
+- Les chemins de fichier directs sont cliquables dans de nombreux terminaux IDE
+- Plus facile à naviguer et corriger les erreurs d'orthographe
+- Sortie réservée au terminal sans encombrement de l'espace de travail
+
+### Flux de travail de développement
+
+**Vérification orthographique locale** :
+```bash
+npm run spellcheck
+```
+
+**Résultat** : Affiche les erreurs d'orthographe avec les chemins des fichiers source dans le terminal
+
+**Sortie attendue** :
+```
+src/pages/en/my-page.md:15:3 - Mot inconnu
+src/pages/fr/ma-page.md:8:10 - Mot inconnu
+```
+
+### Intégration CI/CD
+
+Le flux de travail de vérification orthographique est automatiquement déclenché pour :
+- **Création de demande de tirage** : Lorsque la demande de tirage comprend des modifications à `src/**`
+- **Mises à jour de demande de tirage** : Lorsque de nouveaux commits sont envoyés vers la demande de tirage
+- **Déclenchement manuel** : Via l'interface utilisateur GitHub Actions si nécessaire
+
+**Emplacement de sortie** : Les résultats apparaissent dans l'onglet Vérifications de la demande de tirage avec le statut de réussite/échec et les détails des erreurs
+
+### Considérations de performance
+
+- **Filtrage de fichiers** : Le filtre de chemin garantit que seul le contenu modifié est vérifié, pas l'ensemble du site
+- **Mise en cache** : Aucune vérification redondante sur les fichiers inchangés
+- **Vitesse** : Le flux de travail de demande de tirage se termine en quelques secondes
+- **Surcharge** : Impact minimal sur le pipeline CI/CD global
+
+### Ajouter des mots aux dictionnaires
+
+Lorsque des mots légitimes sont signalés comme erreurs d'orthographe :
+
+1. Identifier le fichier dictionnaire à mettre à jour :
+   - `.custom-en.txt` - Termes anglais
+   - `.custom-fr.txt` - Termes français
+   - `.custom-names.txt` - Noms propres et acronymes
+
+2. Ajouter le mot (un par ligne, sensible à la casse)
+
+3. Valider la modification : `git add .custom-*.txt && git commit`
+
+4. La prochaine vérification orthographique de la demande de tirage reconnaîtra le nouveau mot
+
+### Données de test et métriques
+
+Les tests sauvegardent automatiquement les métriques de performance dans `tests/performance/latest-metrics.json` :
+
+- Temps de construction et nombre de fichiers
+- Statistiques d'utilisation mémoire
+- Horodatage et informations de phase
+- Données de comparaison pour suivre les améliorations
+
+#### Pour la documentation
+
+- **Exemples**: Les tests servent d'exemples d'utilisation pour les modules
+- **Validation**: Prouve que la refactorisation maintient la fonctionnalité
+- **Métriques**: Preuve quantifiable des améliorations
+
+</div>

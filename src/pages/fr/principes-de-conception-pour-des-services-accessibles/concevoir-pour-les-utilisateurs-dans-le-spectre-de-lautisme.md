@@ -32,7 +32,7 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 - Utiliser des figures de style et des expressions imagées
 - Créer des textes très longs
 - Mettre en place des boutons qui ne précisent pas l’action à effectuer
-- Consevoir des mises en pages complexes et surchargées
+- Concevoir des mises en pages complexes et surchargées
 
 </div>
 </div>

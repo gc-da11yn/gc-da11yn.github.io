@@ -236,7 +236,7 @@ Category: Vision Enhancements
 #### <span class="fas fa-signal" aria-hidden="true"></span> Skills (aptitude)
 
 - Uses macbook and apple products daily for her job.
-- Techsavvy and relies on her tools in her day-to-day life.
+- Tech-savvy and relies on her tools in her day-to-day life.
 
 </div>
 <div class="col-md-6">

@@ -2808,7 +2808,7 @@ toggle: Information and Communication Technology (<abbr>ICT</abbr>) Accessibilit
 				<ol>
 					<li>Vérifier qu’une indication tactile des moyens de lancement du mode vocal est fournie. </li>
 				</ol>
-				<p>Résult</p>
+				<p>Résultat</p>
 				<p>Réussite : L’énoncé testable no 1 est vrai</p>
 				<p>Échec : L’énoncé testable no 1 est faux. </p>
 				<p>Sans objet  : La condition préalable 1 ou 2 n’est pas remplie.</p>
@@ -6147,7 +6147,7 @@ toggle: Information and Communication Technology (<abbr>ICT</abbr>) Accessibilit
 		<tr>
 			<td>
 				<p id="11.1.3.5.1"><strong>11.1.3.5.1 Identifier la finalité de la saisie (fonction non restreinte)</strong></p>
-				<p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur etqui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle doit remplir le <a href="https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>.</p>
+				<p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle doit remplir le <a href="https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose">critère de succès 1.3.5 Identifier la finalité de la saisie des WCAG 2.1</a>.</p>
 			</td>
 			<td>
 				<p><strong>C.11.1.3.5.1 Identifier la finalité de la saisie (fonction non restreinte)</strong></p>
@@ -8853,8 +8853,8 @@ Aux fins du présent document, les termes figurant dans la norme EG 201 013[i.4]
 			<li>REMARQUE : Les pages Web, le contenu électronique, les produits de télécommunications, les ordinateurs et les équipements auxiliaires, les logiciels, y compris les applications mobiles, les kiosques d’information et les machines de transaction, les vidéos, les services informatiques et les machines de bureau multifonctions qui copient, numérisent et télécopient des documents sont des exemples de TIC.</li>
 		</ul>
 	</dd>
-	<dt>pièce manœuvrablee mécanique :</dt>
-	<dd>pièce manoeuvrable qui possède une interface mécanique pour activer, désactiver ou ajuster la TIC.
+	<dt>pièce manœuvrable mécanique :</dt>
+	<dd>pièce manœuvrable qui possède une interface mécanique pour activer, désactiver ou ajuster la TIC.
 		<ul>
 			<li>REMARQUE : Les couvercles de scanners, les stations d’accueil d’ordinateurs portables et les couvercles, ainsi que les interrupteurs et les verrous physiques sont des exemples de pièces manœuvrables mécaniques.</li>
 		</ul>
@@ -8881,7 +8881,7 @@ Aux fins du présent document, les termes figurant dans la norme EG 201 013[i.4]
 	<dd>Composante des TIC utilisée pour les activer, les désactiver ou les ajuster.
 		<ul>
 			<li>REMARQUE 1: Les pièces manœuvrables peuvent être fournies pour le matériel (voir les pièces manœuvrables mécaniques ci-dessus) et les logiciels. Un bouton à l’écran est un exemple d’une pièce manœuvrable fournie par un logiciel.</li>
-			<li>REMARQUE 2 : Les pièces manoeuvrables ne comprennent pas les pièces utilisées uniquement pour l’entretien ou la réparation ou d’autres interventions qui ne sont pas attendues d’un utilisateur typique si le produit fonctionne bien. Ces interventions comprennent : l’élimination des bourrages papier à l’intérieur de la machine, le remplacement des éléments ou des pièces internes de la machine qui peuvent exposer l’utilisateur final à des surfaces tranchantes ou chaudes, le remplacement ou la réparation des éléments désignés par les fabricants comme des éléments de service ou d’entretien dans la documentation utilisateur.</li>
+			<li>REMARQUE 2 : Les pièces manœuvrables ne comprennent pas les pièces utilisées uniquement pour l’entretien ou la réparation ou d’autres interventions qui ne sont pas attendues d’un utilisateur typique si le produit fonctionne bien. Ces interventions comprennent : l’élimination des bourrages papier à l’intérieur de la machine, le remplacement des éléments ou des pièces internes de la machine qui peuvent exposer l’utilisateur final à des surfaces tranchantes ou chaudes, le remplacement ou la réparation des éléments désignés par les fabricants comme des éléments de service ou d’entretien dans la documentation utilisateur.</li>
 		</ul>
 	</dd>
 	<dt>Logiciel de plateforme (plateforme):</dt>

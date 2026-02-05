@@ -150,7 +150,7 @@ Voici les points à retenir lorsque vous organisez un événement bilingue :
 - Planifiez le changement de langue pendant l'événement; essayez de changer de langue entre les sections plutôt qu'à l'intérieur d'une même diapositive afin de faciliter le suivi;
   - Prévenez les participants lorsqu’il y a un changement de langue : annoncez le changement et faites une pause de 5 à 10 secondes pour leur laisser le temps de changer la langue des sous-titres;
 - Désignez un gardien de la langue chargé de maintenir l'équilibre entre le français et l'anglais. Cette personne devrait veiller à ce que les deux langues officielles soient utilisées de manière équitable et équilibrée au cours de l'événement;
-- Accueillez tous les participants en français et en anglai;s
+- Accueillez tous les participants en français et en anglais
 - Rappelez aux participants qu'ils sont libres d'utiliser la langue officielle de leur choix;
 - Résumez les remarques de chaque participant dans l'autre langue.
 
