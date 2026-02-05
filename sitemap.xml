@@ -217,11 +217,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/introduction-to-accessibility-requirements-for-audio-video/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -462,11 +457,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/feuille-de-conseils-pour-microsoft-word/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -552,11 +542,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/classeurs-excel-accessibles-dans-microsoft-365/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/dessins-visio-accessibles-dans-microsoft-365/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -593,11 +578,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -732,11 +712,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/research-on-our-target-audience/</loc>
-		<lastmod>2025-11-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/terms-of-reference/</loc>
 		<lastmod>2025-11-17</lastmod>
 	</url>
@@ -748,11 +723,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique/</loc>
-		<lastmod>2025-11-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/recherche-sur-notre-audience/</loc>
 		<lastmod>2025-11-17</lastmod>
 	</url>
 	
@@ -882,11 +852,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
-		<lastmod>2025-11-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
 		<lastmod>2025-11-18</lastmod>
 	</url>
@@ -974,5 +939,40 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/liste-de-verification-de-laccessibilite-des-documents-pdf/</loc>
 		<lastmod>2026-02-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
+		<lastmod>2026-02-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
+		<lastmod>2026-02-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
+		<lastmod>2026-02-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/classeurs-excel-accessibles-dans-microsoft-365/</loc>
+		<lastmod>2026-02-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme/</loc>
+		<lastmod>2026-02-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/research-on-our-target-audience/</loc>
+		<lastmod>2026-02-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/recherche-sur-notre-audience/</loc>
+		<lastmod>2026-02-05</lastmod>
 	</url>
 </urlset>
