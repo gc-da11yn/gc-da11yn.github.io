@@ -1,341 +1,245 @@
-# Digital Accessibility Toolkit - AI Coding Guidelines
+# Digital Accessibility Toolkit + Accessibility Agent Team Instructions
+
+This file merges:
+- The original repository-specific guidance for `gc-da11yn.github.io`
+- The accessibility specialist team guidance introduced from `a11y-agent-team`
+
+## How to Apply These Instructions
+
+When instructions overlap, use this precedence:
+1. **Accessibility and WCAG conformance requirements** (must always be satisfied for UI work)
+2. **Repository architecture/workflow requirements** (Eleventy, bilingual patterns, scripts)
+3. **General implementation preferences** (style/process details)
+
+If a task is backend/scripts/data-only and does not touch user-facing UI, the accessibility specialist workflow is optional.
+
+---
+
+## Repository Context (Original Project Guidance)
 
 This repository hosts the Government of Canada's Digital Accessibility Toolkit, a bilingual static site built with Eleventy that provides accessibility resources to GC employees and the broader community.
 
-## Architecture Overview
+### Architecture Overview
 
-### Eleventy Configuration Architecture (Phase 3 Complete ✅)
-**Modern Plugin-Based System** - Fully refactored from monolithic 448-line config to modular architecture:
+#### Eleventy Configuration Architecture
+Modern plugin-based system:
 
 ```
 eleventy/
-├── config/                # Phase 1: Modular Configuration (Legacy)
-│   ├── collections.js     # Custom collections configuration
-│   ├── filters.js         # Filter definitions (pre-plugin)
-│   ├── markdown.js        # Markdown-it setup (pre-plugin)
-│   ├── passthrough.js     # File copying configuration
-│   └── transforms.js      # HTML transforms configuration
-├── plugins/               # Phase 3: Plugin Architecture (Active)
-│   ├── base-plugin.js     # Base class for all plugins
-│   ├── collections-plugin.js # Custom collections with caching
-│   ├── filters-plugin.js  # 25 filters with memoization
-│   ├── markdown-plugin.js # Markdown processing with anchor/TOC support
-│   └── registry.js        # Plugin registration system
-└── .eleventy.js           # Main orchestrator with plugin system
+├── config/                # Legacy modular config
+├── plugins/               # Active plugin architecture
+│   ├── base-plugin.js
+│   ├── collections-plugin.js
+│   ├── filters-plugin.js
+│   ├── markdown-plugin.js
+│   └── registry.js
+└── .eleventy.js           # Main orchestrator
 ```
 
-### Bilingual Structure
-- **Parallel language paths**: Content is organized as `src/pages/en/` and `src/pages/fr/` with matching structure
-- **Locale-driven templates**: All templates use `{{ locale }}` variable to render appropriate language content
-- **Cross-language linking**: Pages use `toggle` frontmatter to link between English/French versions
-- **Path prefixes**: `{{ pathPrefix }}` handles GitHub Pages deployment vs main site differences
+#### Bilingual Structure
+- Parallel language paths: `src/pages/en/` and `src/pages/fr/`
+- Locale-driven templates via `{{ locale }}`
+- Cross-language links via `toggle` frontmatter
+- Internal links must use `{{ pathPrefix }}`
 
-### Key Directories
-```
-src/
-├── admin/               # 🆕 Decap CMS admin interface
-│   ├── index.html       # CMS entry point
-│   ├── config.yml       # CMS configuration
-│   └── README.md        # CMS documentation
-├── _data/               # Global data files and computed data
-│   ├── alerts.js        # Alert system configuration
-│   ├── header.js        # Header navigation data
-│   ├── footer.js        # Footer content data
-│   └── eleventyComputed.js # TOC headings generation
-├── _includes/           # Nunjucks templates and partials
-│   └── partials/
-│       └── onThisPage.njk # Table of Contents template
-├── pages/en/            # English content pages
-├── pages/fr/            # French content pages
-├── main/en|fr/          # Landing pages and category indices
-├── _docs/               # Downloadable documents (Word, PDF, etc.)
-└── _scss/               # Sass stylesheets
-```
+#### Key Directories
+- `src/_data/` for global/computed data
+- `src/_includes/` for Nunjucks templates/partials
+- `src/pages/en` and `src/pages/fr` for content
+- `src/main/en|fr` for landing/category pages
+- `src/_docs/` for downloadable documents
+- `src/_scss/` for Sass styles
+- `src/admin/` for Decap CMS
 
-### Performance Achievements ✅
-- **40-60% faster development builds** through conditional loading and optimizations
-- **Plugin-based extensibility** for easy feature additions and maintenance
-- **Automated TOC generation** with filesystem-based markdown parsing
-- **Improved developer experience** with color-coded console output and cleaner builds
+### Core Development Workflows
 
-## Development Workflows
+#### Creating New Pages
+Use `npm run newPage` to generate paired English/French pages with valid frontmatter and toggle links.
 
-### Creating New Pages
-Always use the automated script: `npm run newPage`
-- Creates matching English/French pages with proper frontmatter
-- Handles slugification and file naming conflicts
-- Sets up `toggle` links between language versions
-- **⚠️ NEEDS REVISION**: Script functionality needs improvement and refinement
+#### Documenting Major Changes
+For major architecture/template/workflow changes, add docs in `docs/implementation/` including scope, changes, testing notes, and bilingual impacts.
 
-### Documenting Major Changes
-For significant architectural changes, template updates, or workflow modifications:
-- Create detailed implementation documentation in `docs/implementation/`
-- Use descriptive filenames (e.g., `language-toggle-improvement.md`)
-- Include overview, changes made, testing results, and benefits
-- Document both English and French sections when applicable
-- Reference implementation docs in commit messages and PR descriptions
+#### Decap CMS Notes
+- Admin entry point: `/admin/`
+- Config: `src/admin/config.yml`
+- Uses GitHub backend + Netlify OAuth
+- Editorial workflow creates PRs for content changes
 
-### Content Management System (Decap CMS) ✅
-**Implemented**: November 3, 2025 on branch `feature/decapCMS`
-**Backend Updated**: November 7, 2025 - Switched to GitHub backend with Netlify OAuth
+### Important Scripts
+- `npm start` - dev server
+- `npm run build` - production build
+- `npm run newPage` - create bilingual pages
+- `npm run link-check` - interactive link validation
+- `npm run link-check-quick` - automation-friendly link checks
+- `npm run spellcheck` - cspell with source mapping
 
-A user-friendly CMS for non-technical content editors to manage site content:
-- **Access**: Navigate to `/admin/` at https://a11ycanada.netlify.app/admin/
-- **Authentication**: GitHub OAuth (requires GitHub account with write access to repository)
-- **Local Testing**: Run `npx decap-server` and uncomment `local_backend: true` in config
-- **Collections**: Resources collection (bilingual i18n), template pages
-- **Features**: Visual markdown editor, media library, editorial workflow (PR-based), Git-based, topic-based organization
-- **Workflow**: Changes create pull requests in GitHub; merge PRs to deploy via Netlify
-- **Documentation**: See `docs/implementation/decap-cms-implementation.md` and `DECAP-CMS-SETUP.md`
+### Content/Template Patterns
 
-**Backend Configuration**:
-```yaml
-backend:
-  name: github
-  repo: gc-da11yn/gc-da11yn.github.io
-  branch: main
-  base_url: https://api.netlify.com  # Netlify's OAuth provider
-  auth_endpoint: auth
-publish_mode: editorial_workflow
-```
+#### Frontmatter Conventions
+- `toggle` for cross-language pairing
+- `subject` and `tags` for taxonomy
+- `internalLinks`, `isDraft`, `needsTranslation`, `archived` for alert/visibility behavior
+- `toc`/`tocSimple` for generated navigation
 
-**User Requirements**:
-- GitHub account with write access to `gc-da11yn/gc-da11yn.github.io`
-- No Netlify Identity account needed (removed)
+#### URL and i18n Rules
+- Always build internal URLs with `{{ pathPrefix }}`
+- Prefer language-aware data patterns like `{ en: {...}, fr: {...} }`
+- Preserve home-page toggle special handling (`home` tag) when editing language switch logic
 
-**Key Files**:
-- `src/admin/config.yml` - CMS configuration with GitHub backend and view_filters/view_groups
-- `src/admin/index.html` - CMS interface (minimal, GitHub OAuth only)
-- Resource files: `src/resources/en/*.md` and `src/resources/fr/*.md` (112 files total)
-- Template pages: `src/main/en/resources-and-tools/additional-resources.njk` and `src/main/fr/ressources-et-outils/ressources-additionnelles.njk`
+### Quality Assurance
+- Run targeted checks relevant to your changes (build, link-check, spellcheck)
+- Preserve `pages-to-review` and changed-pages workflows
+- Do not regress bilingual parity between English and French pages
 
-**CMS Architecture**:
-- **Topic Labels**: Full labels stored in frontmatter ("Learning", "Development"), converted to keys by collections plugin
-- **Helper Function**: `getTopicKeyFromLabel()` in `src/_data/resourceTopics.js` enables reverse lookup
-- **Collections Plugin**: Modified to convert topic labels to keys in `resourcesByTopicEn` and `resourcesByTopicFr`
-- **Parent/Child System**: `resourceType` field (standard/parent/child), `parentResource` relation for hierarchical resources
-- **View Controls**: `view_filters` for topic filtering, `view_groups` for grouping (with "Topic:" prefix limitation)
-
-### Essential npm Scripts
-- `npm start` - Development server with hot reload and change detection
-- `npm run build` - Production build
-- `npm run link-check` - Validates all internal/external links (**⚠️ NEEDS REVISION**: Works but needs automation improvements)
-- `npm run spellcheck` - Runs cspell on markdown content with source file mapping
-- `npm run analytics` - Updates Google Analytics data (**⚠️ NEEDS REVISION**: Currently not working properly)
-
-### Quality Assurance & Spellcheck
-
-#### Spellcheck System ✅
-**Automated PR Validation**: Implemented with GitHub Actions workflow and source file path mapping
-
-**Local Spellcheck**:
-- **Command**: `npm run spellcheck`
-- **Tool**: CSpell v9.6.4 with English/French language support
-- **Configuration**: `.cspell.json` with custom dictionaries (`.custom-en.txt`, `.custom-fr.txt`, `.custom-names.txt`)
-- **Output**: Terminal display with source file paths (mapped from built HTML using meta tags)
-- **Runner**: `scripts/run-quality-checks.js` for intelligent path mapping
-
-**Automated PR Spellcheck**:
-- **Workflow**: `.github/workflows/spellcheck-pr.yml`
-- **Trigger**: Automatic on PR creation with changes to `src/**` only
-- **Results**: Appears in PR Checks tab with error reporting
-- **Features**: 
-  - Efficient path filtering prevents unnecessary checks
-  - Source file mapping shows actual markdown/HTML files, not build output
-  - Clean terminal output without JSON report files
-  - Bilingual support for English and French content
-
-**How It Works**:
-1. Developer creates PR with content changes
-2. GitHub Actions automatically triggers spellcheck workflow
-3. Spellcheck scans `src/**` changes and reports spelling errors
-4. Errors are mapped to source files using HTML meta tags
-5. Results appear in PR Checks tab for easy review
-
-**Performance**:
-- **Development**: `npm run spellcheck` completes in seconds
-- **CI/CD**: PR workflow runs in parallel with other checks
-- **Caching**: No redundant checks on unchanged files
-
-### Git Integration Features
-The build system uses an optimized pages-to-review system that tracks changed files via git diff against upstream/main:
-
-#### Pages-to-Review System (Optimized)
-- **Performance optimized**: Uses `scripts/build-changed-pages.js` for faster builds
-- **Caching enabled**: 5-minute cache prevents redundant git operations
-- **Development mode**: Skips network `git fetch` when `ELEVENTY_WATCH=true`
-- **Smart fallbacks**: Uses existing upstream references to avoid network operations
-- **Review page generation**: Auto-generates `/en/pages-to-review/` with changed pages list
-- **Development workflow**: Shows changed page URLs with direct review links
-- **Collection integration**: Changed pages available via `collections.changedPages`
-
-#### Key Performance Improvements
-- **40-60% faster development builds** - Eliminates network operations during development
-- **20-30% faster production builds** - Optimized git operations and caching
-- **Minimal overhead** - Lightweight operations focused on build performance
-
-#### Usage
-- **Manual testing**: `node scripts/build-changed-pages.js`
-- **Development build**: `ELEVENTY_WATCH=true npm run build`
-- **Review access**: Visit `/en/pages-to-review/` or `/fr/pages-a-reviser/`
-- **Link-checker integration**: Preserved compatibility with existing workflows
-
-#### Files Modified
-- `scripts/build-changed-pages.js` - New optimized git operations module
-- `.eleventy.js` - Updated to use optimized system
-- `scripts/git-helper.js` - Preserved for link-checker compatibility
-
-## Content Patterns
-
-### Page Frontmatter Structure
-```yaml
 ---
-title: "Page Title"
-description: "Page description for meta tags"
-toggle: "French Page Title"    # Use actual page title - automatically converted to URL slug
-subject:                       # Category classification
-  - howTos
-  - createWebContent
-tags:                         # Topic tags (include 'home' for homepage special handling)
-  - video
-  - accessibility
-internalLinks: true           # Shows GC firewall warning
-isDraft: true                # Shows draft notice
-needsTranslation: true       # Hides language toggle, shows translation notice
-archived: true               # Archives page, removes from collections
----
-```
 
-### Alert System
-Conditional alerts controlled by frontmatter flags:
-- `isDraft: true` - Shows draft content warning
-- `needsTranslation: true` - Shows single-language notice, removes toggle
-- `internalLinks: true` - Warns about GC-internal links
-- `archived: true` - Shows archived content banner
+## Accessibility-First Development
 
-### Table of Contents (TOC) System ✅
-**Fully Implemented Computed Data System**:
-- `toc: true` - Generates complete h2 and h3 heading navigation with nested structure
-- `tocSimple: true` - Generates h2-only navigation for simpler overview
-- **Automatic Implementation**: Uses `src/_data/eleventyComputed.js` for filesystem-based markdown parsing
-- **Template Integration**: Renders via `src/_includes/partials/onThisPage.njk` template
-- **ID Generation**: Automatic heading anchor IDs matching markdown-it-anchor plugin
-- **Performance Optimized**: Regex-based heading extraction with proper error handling
-- **Verified Working**: Fully functional on procurement guide and all content pages
+This workspace enforces WCAG AA accessibility standards for all web UI code.
 
-### Document Downloads
-Use `hasDocument` frontmatter object:
-```yaml
-hasDocument:
-  filename: "document.docx"
-  sizeNumber: 563
-  sizeUnit: KB  # or ko/Mo for French
-  type: word    # word/powerpoint/pdf
-```
+### Mandatory Accessibility Check
 
-## Template Patterns
+Before writing or modifying any web UI code — including HTML, JSX, CSS, React components, Tailwind classes, web pages, forms, modals, or any user-facing web content — you MUST:
 
-### Language-Aware Components
-Data files in `src/_data/` follow pattern: `{ en: {...}, fr: {...} }`
-Access in templates: `{{ header[locale].menuText }}`
+1. Consider which accessibility specialist agents are needed for the task
+2. Apply the relevant specialist knowledge before generating code
+3. Verify the output against the appropriate checklists
 
-### URL Construction
-Always use `{{ pathPrefix }}` for internal links:
-```njk
-<a href="{{ pathPrefix }}/{{ locale }}/page-name/">Link</a>
-```
+### Available Specialist Agents
 
-### Cross-Language Navigation
-Language toggle in header uses `toggle` frontmatter with enhanced implementation:
-```njk
-{% if needsTranslation != true and toggle %}
-{% set otherLangSlug = toggle | stripTagsSlugify %}
-{# Special handling for home pages #}
-{% if tags and 'home' in tags %}
-	{% set toggleUrl = pathPrefix + "/" + otherLang + "/" %}
-{% else %}
-	{% set toggleUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
-{% endif %}
-<a href="{{ toggleUrl }}">{{ otherLanguage }}</a>
-{% endif %}
-```
+Select these agents from the agents dropdown in Copilot Chat, or type `/agents` to browse:
 
-**Key Features:**
-- Uses `stripTagsSlugify` filter on toggle values for automatic URL generation
-- Special handling for home pages (tagged with 'home') to prevent double language codes
-- Content creators can use actual page titles instead of manually creating slugs
-- Supports both regular pages (`/fr/a-propos-de-nous/`) and home pages (`/fr/`)
+| Agent | When to Use |
+|-------|------------|
+| accessibility-lead | Any UI task — coordinates all specialists and runs final review |
+| aria-specialist | Interactive components, custom widgets, ARIA usage |
+| modal-specialist | Dialogs, drawers, popovers, overlays |
+| contrast-master | Colors, themes, CSS styling, visual design |
+| keyboard-navigator | Tab order, focus management, keyboard interaction |
+| live-region-controller | Dynamic content updates, toasts, loading states |
+| forms-specialist | Forms, inputs, validation, error handling, multi-step wizards |
+| alt-text-headings | Images, alt text, SVGs, heading structure, page titles, landmarks |
+| tables-data-specialist | Data tables, sortable tables, grids, comparison tables, pricing tables |
+| link-checker | Ambiguous link text, "click here"/"read more" detection, link purpose |
+| accessibility-wizard | Full guided web accessibility audit with step-by-step walkthrough |
+| document-accessibility-wizard | Document accessibility audit for .docx, .xlsx, .pptx, .pdf — single files, folders, recursive scanning, delta scanning, severity scoring, remediation tracking, compliance export (VPAT/ACR), CI/CD integration |
+| testing-coach | Screen reader testing, keyboard testing, automated testing guidance |
+| wcag-guide | WCAG 2.2 criteria explanations, conformance levels, what changed |
 
-## Data Management
+### Hidden Helper Sub-Agents
 
-### Analytics Integration
-- Monthly Google Analytics data stored in `src/_data/analytics.json`
-- Updated via GitHub Actions cron job with Google API (**⚠️ NEEDS REVISION**: Analytics system currently not working)
-- Displayed on homepage with `formatYearMonth` and `percentage` filters
+These agents are not user-invokable. They are used internally by the document-accessibility-wizard and web-accessibility-wizard to parallelize scanning and analysis:
 
-### Content Collections
-- Pages automatically excluded from collections if `archived: true`
-- Subject and tag-based filtering via `tagList.js` data file
-- Changed pages collection for development workflow
+| Agent | Purpose |
+|-------|--------|
+| document-inventory | File discovery, inventory building, delta detection across folders |
+| cross-document-analyzer | Cross-document pattern detection, severity scoring, template analysis |
+| cross-page-analyzer | Cross-page web pattern detection, severity scoring, remediation tracking |
+| web-issue-fixer | Automated and guided web accessibility fix application |
 
-## Quality Assurance & Testing
+### Agent Skills
 
-### Link Checking System
-Multiple link checking options available for different use cases:
+Reusable knowledge modules in `.github/skills/` that agents reference automatically:
 
-#### Interactive Link Checker (Primary Tool)
-- **Command**: `npm run link-check`
-- **Features**: Menu-driven interface for checking different environments
-- **Environments**: Live site (a11y.canada.ca), Netlify deploy previews, localhost, custom URLs
-- **Options**: Configure external link checking, starting paths, page limits
-- **Output**: Real-time progress, colored terminal output, timestamped JSON reports
+| Skill | Domain |
+|-------|--------|
+| document-scanning | File discovery commands, delta detection, scan configuration profiles |
+| accessibility-rules | Cross-format accessibility rule reference with WCAG 2.2 mapping (DOCX, XLSX, PPTX, PDF) |
+| report-generation | Audit report formatting, severity scoring formulas, VPAT/ACR compliance export |
+| web-scanning | Web content discovery, URL crawling, axe-core CLI commands, framework detection |
+| web-severity-scoring | Web severity scoring formulas (0-100, A-F grades), confidence levels, remediation tracking |
+| framework-accessibility | Framework-specific accessibility patterns and fix templates (React, Vue, Angular, Svelte, Tailwind) |
+| github-workflow-standards | Core standards for all GitHub workflow agents: auth, discovery, dual MD+HTML output, HTML accessibility, safety rules, progress announcements, parallel execution |
+| github-scanning | GitHub search patterns by intent, date range handling, parallel stream collection, cross-repo intelligence, auto-recovery |
+| github-analytics-scoring | Repo health scoring (0-100/A-F), issue/PR priority scoring, confidence levels, delta tracking, velocity metrics, bottleneck detection |
 
-#### Quick Link Checker (Automation & CI/CD)
-- **Commands**:
-  - `npm run link-check-quick` - Check localhost changed files only
-- **Purpose**: Automated testing, CI/CD pipelines, scripted workflows
-- **Features**: No interactive prompts, direct execution, focuses on git-changed files
+### Lifecycle Hooks
 
-#### Link Check Technical Architecture
-- **Sitemap-based checking**: Uses `sitemap.xml` to get complete list of site pages for efficient full-site validation
-- **Changed-files checking**: Uses `git diff` against upstream/main to check only modified pages since last commit
-- **Crawler fallback**: Falls back to crawling from homepage when sitemap unavailable or for external sites
-- **Server auto-management**: Detects existing localhost server via `.eleventy-port` file or starts `npm run start-prod`
+Session hooks in `.github/hooks/` that inject context automatically:
 
-#### Link Check Results
-- **Output Files**: Timestamped JSON reports (e.g., `broken-links.json`)
-- **Content**: Source file paths, link URLs, error details, link text context
-- **Features**: Checks regular links, anchor fragments (#links), and resource files
-- **Resource Validation**: Detects broken `src` attributes for images, CSS, JavaScript, media files, and other embedded resources
+| Hook | When | Purpose |
+|------|------|---------|
+| SessionStart | Beginning of session | Auto-detects scan config files and previous audit reports; injects relevant context |
+| SessionEnd | End of session | Quality gate — validates audit report completeness and prompts for missing sections |
 
-### Development Workflows for Link Checking
-- **Local Development**: Use interactive checker or localhost option
-- **Pull Request Reviews**: Check deploy previews using PR number
-- **Pre-deployment**: Always verify live site after major updates
-- **CI/CD Integration**: Use quick checker commands in automated pipelines
+### Agent Teams
 
-## Deployment & Environment
+Team coordination is defined in `.github/agents/AGENTS.md`. Four defined teams:
 
-### GitHub Actions Workflow
-- **Push to main**: Builds and deploys to GitHub Pages
-- **Monthly cron**: Updates analytics data and rebuilds (**⚠️ NEEDS REVISION**: Cron job needs fixes)
-- **PATH_PREFIX**: Automatically set for fork deployments
+- **Document Accessibility Audit** — led by document-accessibility-wizard with format-specific sub-agents
+- **Web Accessibility Audit** — led by accessibility-lead with all web specialist agents
+- **Full Audit** — combined web + document audit workflow
+- **GitHub Workflow** — led by github-hub; routes to daily-briefing, pr-review, issue-tracker, analytics, repo-admin, team-manager, contributions-hub, insiders-a11y-tracker, template-builder
 
-### Environment Variables
-- `ELEVENTY_ENV`: Controls development features (sa11y, debug info)
-- `ELEVENTY_WATCH`: Enables file change tracking
-- Google Analytics API keys for automated updates
+### Decision Matrix
 
-## Accessibility Focus
+- **New component or page:** Always apply aria-specialist + keyboard-navigator + alt-text-headings guidance. Add forms-specialist for any inputs, contrast-master for styling, modal-specialist for overlays, live-region-controller for dynamic updates, tables-data-specialist for any data tables.
+- **Modifying existing UI:** At minimum apply keyboard-navigator (tab order breaks easily). Add others based on what changed.
+- **Code review/audit:** Apply all specialist checklists. Use accessibility-wizard for guided web audits. Use `audit-web-page` prompt for one-click full audits.
+- **Document audit:** Use document-accessibility-wizard for Office and PDF accessibility audits. Supports single files, folders, recursive scanning, delta scanning (changed files only), severity scoring, template analysis, remediation tracking across re-scans, compliance format export (VPAT/ACR), batch remediation scripts, and CI/CD integration guides.
+- **Web remediation:** Use `fix-web-issues` prompt to interactively apply fixes from an audit report. Use `compare-web-audits` to track progress between audits.
+- **Data tables:** Always apply tables-data-specialist for any tabular data display.
+- **Links:** Always apply link-checker when pages contain hyperlinks.
+- **Images or media:** Always apply alt-text-headings. The agent can visually analyze images and compare them against their alt text.
+- **Testing guidance:** Use testing-coach for screen reader testing, keyboard testing, and automated testing setup.
+- **WCAG questions:** Use wcag-guide to understand specific WCAG success criteria and conformance requirements.
 
-### Built-in Accessibility Tools
-- Sa11y accessibility checker in development mode
-- Skip navigation links in all templates
-- Proper heading hierarchy and landmark structure
-- WCAG-compliant color schemes and contrast
+### Custom Prompts for Document Accessibility
 
-### Government of Canada Standards
-- Follows Canada.ca design system and WET-BOEW components
-- Bilingual content requirements (Official Languages Act)
-- Treasury Board accessibility compliance standards
-- Digital accessibility best practices documentation
+The following prompt files in `.github/prompts/` provide one-click workflows for common document accessibility tasks. Select them from the prompt picker in Copilot Chat:
+
+| Prompt | What It Does |
+|--------|-------------|
+| audit-single-document | Scan a single .docx, .xlsx, .pptx, or .pdf with severity scoring |
+| audit-document-folder | Recursively scan an entire folder of documents |
+| audit-changed-documents | Delta scan — only audit documents changed since last commit |
+| generate-vpat | Generate a VPAT 2.5 / ACR compliance report from audit results |
+| generate-remediation-scripts | Create PowerShell/Bash scripts to batch-fix common issues |
+| compare-audits | Compare two audit reports to track remediation progress |
+| setup-document-cicd | Set up CI/CD pipelines for automated document scanning |
+| quick-document-check | Fast triage — errors only, pass/fail verdict |
+| create-accessible-template | Guidance for creating accessible document templates |
+
+### Custom Prompts for Web Accessibility
+
+One-click workflows for web accessibility auditing tasks:
+
+| Prompt | What It Does |
+|--------|-------------|
+| audit-web-page | Full single-page audit with axe-core scan and code review |
+| quick-web-check | Fast axe-core triage — runtime scan only, pass/fail verdict |
+| audit-web-multi-page | Multi-page comparison audit with cross-page pattern detection |
+| compare-web-audits | Compare two web audit reports to track remediation progress |
+| fix-web-issues | Interactive fix mode — auto-fixable and human-judgment items from audit report |
+
+### Scan Configuration Templates
+
+The `templates/` directory contains pre-built scan configuration profiles:
+
+- **strict** — All rules enabled, all severities reported
+- **moderate** — All rules enabled, errors and warnings only
+- **minimal** — Errors only, for quick triage
+
+Use the VS Code tasks `A11y: Init Office Scan Config` and `A11y: Init PDF Scan Config` to copy a moderate profile into your project root.
+
+### Non-Negotiable Standards
+
+- Semantic HTML before ARIA (`<button>` not `<div role="button">`)
+- One H1 per page, never skip heading levels
+- Every interactive element reachable and operable by keyboard
+- Text contrast 4.5:1, UI component contrast 3:1
+- No information conveyed by color alone
+- Focus managed on route changes, dynamic content, and deletions
+- Modals trap focus and return focus on close
+- Live regions for all dynamic content updates
+
+### Advanced Documentation
+
+Additional guides in `docs/`:
+
+- **cross-platform-handoff.md** — Seamless handoff between Claude Code and Copilot agent environments
+- **advanced-scanning-patterns.md** — Background scanning, worktree isolation, and large library strategies
+- **plugin-packaging.md** — Packaging and distributing agents for different environments
+- **platform-references.md** — All external documentation sources used to build this project, with feature-to-source mapping
+
+For tasks that do not involve any user-facing web content (backend logic, scripts, database work), these requirements do not apply.
