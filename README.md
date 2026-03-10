@@ -28,6 +28,8 @@ For documentation on the task forces created for this project, view the [Terms o
 
 See [DEVELOPMENT.md](.github/DEVELOPMENT.md) for more information.
 
+This repository uses the [a11y-agent-team](https://github.com/taylorarndt/a11y-agent-team) package for GitHub Copilot accessibility agents and workspace instruction scaffolding.
+
 ### Who will use this project?
 
 The content is created for GC employees although it can be used by anyone who works in digital accessibility.
@@ -78,6 +80,8 @@ Pour obtenir de la documentation sur les groupes de travail créés pour ce proj
 
 Consultez nos procédure de [DEVELOPMENT.md](.github/DEVELOPMENT.md#développement) pour plus de détails afin de proposer des changements.
 
+Ce dépôt utilise le package [a11y-agent-team](https://github.com/taylorarndt/a11y-agent-team) pour les agents d'accessibilité GitHub Copilot et la structure des instructions d'espace de travail.
+
 ### Qui utilisera ce projet?
 
 Le contenu a été créé à l'intention des employés du GC, mais il peut être utile pour toute personne travaillant dans le domaine de l'accessibilité numérique.
@@ -92,7 +96,7 @@ Promouvoir le travail que nous faisons dans le domaine de l'accessibilité numé
 
 ### Comment Contribuer
 
-Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre [section de discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) sur GitHub. Cette section est disponible seulement en anglais mais vous pouvez initier et participer à des discussion dans la langue de votre choix. 
+Vous avez une idée, une suggestion, une opinion ? Nous souhaitons vous entendre dans notre [section de discussion](https://github.com/gc-da11yn/gc-da11yn.github.io/discussions) sur GitHub. Cette section est disponible seulement en anglais mais vous pouvez initier et participer à des discussion dans la langue de votre choix.
 
 Consultez [CONTRIBUTING.md](.github/CONTRIBUTING.md) pour plus de détails.
 
