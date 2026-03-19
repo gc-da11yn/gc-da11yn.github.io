@@ -339,3 +339,13 @@ Multiple link checking options available for different use cases:
 - Bilingual content requirements (Official Languages Act)
 - Treasury Board accessibility compliance standards
 - Digital accessibility best practices documentation
+
+## GCDS Migration Rules
+
+### Decision 001: Native HTML for content, GCDS components for UI
+When generating or modifying templates during the WET-to-GCDS migration:
+- **Content markup stays native HTML** — `<h1>`–`<h6>`, `<p>`, `<ul>`, `<ol>`, `<table>`, `<a>`, `<blockquote>`, `<code>`, etc. Markdown-rendered output must not be wrapped in GCDS web components.
+- **GCDS web components are for UI** — navigation, header, footer, breadcrumbs, buttons, forms, cards, and other interactive/structural patterns.
+- **Keep templates simple** — Nunjucks templates should use standard HTML for content areas. Avoid unnecessary web component wrappers for static content.
+- **Rationale**: Markdown compatibility, native HTML semantics, better performance (no FOUC), lower maintenance for content authors, and alignment with GCDS design intent.
+- **Full decision record**: See `docs/implementation/gcds-implementation-decisions.md`
