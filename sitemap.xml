@@ -277,11 +277,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/canada-school-of-public-service-csps/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/captioning-checklist/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -558,11 +553,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/directives-pour-la-transcription/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/ecole-de-la-fonction-publique-du-canada-efpc/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -1664,5 +1654,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
 		<lastmod>2026-02-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/canada-school-of-public-service-csps/</loc>
+		<lastmod>2026-03-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ecole-de-la-fonction-publique-du-canada-efpc/</loc>
+		<lastmod>2026-03-20</lastmod>
 	</url>
 </urlset>
