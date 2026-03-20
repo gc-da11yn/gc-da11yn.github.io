@@ -35,21 +35,4 @@ L'École de la fonction publique du Canada (<abbr>EFPC</abbr>) a créé l'Acadé
 Le secteur d'activité Milieu de travail respectueux et inclusif (<abbr>MTRI</abbr>) de l'EFPC est responsable du développement et de la livraison de produits d'apprentissage sur l'accessibilité pour les fonctionnaires fédéraux. MTRI travaille en étroite collaboration avec des partenaires tels que le Bureau de l'accessibilité de la fonction publique (<abbr>BASP</abbr>), le Bureau du dirigeant principal des ressources humaines (<abbr>BDPRH</abbr>), l'équipe de l'accessibilité, de l'adaptation et de la technologie informatique adaptée (<abbr>AA</abbr>) et de nombreux autres intervenants pour créer des expériences d'apprentissage informatives, novatrices et engageantes sur le thème de l'accessibilité.
 
 </section>
-<section class="col-md-6">
-<h2 class="h4">L'&eacute;quipe de l&rsquo;Accessibilit&eacute; num&eacute;rique en apprentissage</h2>
-
-L'équipe d'accessibilité numérique en apprentissage de l'EFPC, qui fait partie de la division de l'expérience utilisateur, fournit à nos secteurs d'activité une formation, des outils, des directives et des conseils pour répondre aux normes d'accessibilité afin qu'ils puissent offrir aux apprenants une expérience d'apprentissage significative, inclusive et accessible. L'accessibilité doit se faire par conception et par défaut. Nous sommes là pour :
-
-- Mener le changement de culture vers une conception accessible et inclusive par la formation et le soutien technologique.
-- Établir et renforcer les meilleures pratiques de conception accessible et inclusive dès le départ.
-- Soutenir l'achat de solutions d'apprentissage accessibles et d'outils de création accessibles.
-- Collaborer avec d'autres spécialistes de l'accessibilité, de la conception, de la recherche et de l'utilisabilité au sein de l'École et dans l'ensemble de la fonction publique.
-- Établir des lignes directrices, des pratiques exemplaires et des processus pour la mise en œuvre et le maintien de produits et services accessibles et inclusifs.
-- Assurer l'encadrement et le perfectionnement professionnel des employés de l'École en matière d'accessibilité.
-
-Pour en savoir plus sur l'inclusion et l'accessibilité, ou pour obtenir de l'aide pour la conception ou le développement de votre apprentissage, veuillez contacter
-
-<digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca>
-
-</section>
 </div>

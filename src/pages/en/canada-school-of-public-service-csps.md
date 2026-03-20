@@ -35,21 +35,4 @@ The CSPS Digital Academy was established by the Canada School of Public Service 
 CSPS’ Respectful and Inclusive Workplace (<abbr>RIW</abbr>) business line is responsible for the development and delivery of learning products on accessibility for the federal public servants. RIW works in close collaboration with partners such as the Office of Public Service Accessibility (<abbr>OPSA</abbr>), the Office of the Chief Human Resource Officer (<abbr>OCHRO</abbr>), the Accessibility, Accommodation and Adaptive Computer Technology (<abbr>AAACT</abbr>) team, and many other stakeholders to create informative, innovative, and engaging learning experiences on the topic of accessibility.
 
 </section>
-<section class="col-md-6">
-<h2 class="h4">Digital Accessibility in Learning team</h2>
-
-The CSPS Digital Accessibility in Learning team, under the User Experience division, provides our business lines with training, tools, guidelines, and advice to meet accessibility standards so that they can provide learners with a meaningful, inclusive, and accessible learning experience. Accessibility must be by design and by default. We are here to:
-
-- Lead the culture change towards accessible and inclusive design through training and technology support.
-- Establish and reinforce accessible and inclusive design best practices from the start.
-- Support the purchase of accessible learning solutions and accessible authoring tools.
-- Collaborate with other accessibility, design, research, and usability specialists within the School, and across the public service.
-- Establish guidelines, best practices, and processes for implementing and maintaining accessibility and inclusive products and services.
-- Provide coaching and professional development to School employees on accessibility.
-
-To learn more about inclusion and accessibility, or to access help with your learning design or development, please contact the Digital Accessibility team.
-
-<digitalaccessibilityinlearning-accessibilitenumerique@csps-efpc.gc.ca>
-
-</section>
 </div>
