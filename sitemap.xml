@@ -1517,22 +1517,12 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
-		<lastmod>2025-11-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/making-accessible-emails/</loc>
 		<lastmod>2025-11-18</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/accessibility-remediation-roadmap-template/</loc>
-		<lastmod>2025-11-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
 		<lastmod>2025-11-18</lastmod>
 	</url>
 	
@@ -1664,5 +1654,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/ecole-de-la-fonction-publique-du-canada-efpc/</loc>
 		<lastmod>2026-03-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
+		<lastmod>2026-04-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
+		<lastmod>2026-04-28</lastmod>
 	</url>
 </urlset>
