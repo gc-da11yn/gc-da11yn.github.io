@@ -1642,11 +1642,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
-		<lastmod>2026-02-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/canada-school-of-public-service-csps/</loc>
 		<lastmod>2026-03-20</lastmod>
 	</url>
@@ -1663,6 +1658,11 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
+		<lastmod>2026-04-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
 		<lastmod>2026-04-28</lastmod>
 	</url>
 </urlset>
