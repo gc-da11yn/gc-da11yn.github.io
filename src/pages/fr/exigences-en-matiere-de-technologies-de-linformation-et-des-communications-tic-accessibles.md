@@ -4917,7 +4917,7 @@ toggle: Information and Communication Technology (<abbr>ICT</abbr>) Accessibilit
 					<li><strong>L’exception des 20 heures : </strong>la limite de temps est supérieure à 20 heures.</li>
 				</ul>
 				<p>REMARQUE 1 : Ce critère de succès permet de s’assurer que les utilisateurs peuvent exécuter leurs tâches sans changement inattendu de contenu ou de contexte résultant de la limite de temps. Il devrait être considéré conjointement avec le <a href="https://www.w3.org/Translations/WCAG21-fr/#on-focus">critère de succès 3.2.1 des WCAG</a>, qui pose des limites aux changements de contenu ou de contexte résultant d’une action de l’utilisateur.</p>
-				<p>REMARQUE 2 : Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai des WCAG 2.1</a>, après le remplacement de « le contenu » par « documents » et l’ajout des mots « des WCAG 2.1 » après les mots « critère de succès » à laremarque 1 ci-dessus.</p>
+				<p>REMARQUE 2 : Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable">critère de succès 2.2.1 Réglage du délai des WCAG 2.1</a>, après le remplacement de « le contenu » par « documents » et l’ajout des mots « des WCAG 2.1 » après les mots « critère de succès » à la remarque 1 ci-dessus.</p>
       </td>
 			<td>
 				<p><strong>C.10.2.2.1 Réglage du délai</strong></p>
@@ -4951,7 +4951,7 @@ toggle: Information and Communication Technology (<abbr>ICT</abbr>) Accessibilit
 				<p>REMARQUE 2 : Puisque toute partie d’un document ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter le document entier, il est nécessaire que le contenu présent dans le document (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) satisfasse à ce critère de succès. </p>
 				<p>REMARQUE 3 : Il n’est pas exigé que le contenu mis à jour périodiquement par logiciel ou diffusé en flux à l’agent utilisateur conserve ou présente l’information générée ou reçue entre la mise en pause et la reprise de la présentation, puisque cela peut ne pas être techniquement possible et s’avérer trompeur dans beaucoup de situations.</p>
 				<p>REMARQUE 4 : Une animation survenant dans une phase de pré-chargement ou dans une situation similaire peut être considérée comme essentielle si aucune interaction n’est permise à tous les utilisateurs durant cette phase et si l’absence d’indication de progression est susceptible de perturber les utilisateurs ou de leur faire croire que le contenu est figé ou défectueux.</p>
-				<p>REMARQUE 5 : Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer des WCAG 2.1</a>, après remplacement de « page » et de « page Web » par « document », suppression de « Voir l’exigence de conformité 5 : Non-interférence »dansla remarque 2 du critère de succès, l’ajout des mots « des WCAG 2.1 » à la suite de « règle 2.3 » à la remarque 1 et la reformulation de la remarque2 de façon à éviter le mot « doit ».</p>
+				<p>REMARQUE 5 : Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide">critère de succès 2.2.2 Mettre en pause, arrêter, masquer des WCAG 2.1</a>, après remplacement de « page » et de « page Web » par « document », suppression de « Voir l’exigence de conformité 5 : Non-interférence »dans la remarque 2 du critère de succès, l’ajout des mots « des WCAG 2.1 » à la suite de « règle 2.3 » à la remarque 1 et la reformulation de la remarque2 de façon à éviter le mot « doit ».</p>
       </td>
 			<td>
 				<p><strong>C.10.2.2.2 Mettre en pause, arrêter, masquer</strong></p>
@@ -6229,7 +6229,7 @@ toggle: Information and Communication Technology (<abbr>ICT</abbr>) Accessibilit
 				<p><strong>Tableau 11.1 : Critère de succès du logiciel : Contrôle du son</strong></p>
 				<p>Si du son dans un logiciel est audible automatiquement pendant plus de 3 secondes, un mécanisme est disponible pour le mettre en pause, l’arrêter ou pour en contrôler le volume de façon indépendante du niveau de volume du système général.</p>
 				<p>REMARQUE 1 : Puisque toute partie d’un logiciel ne satisfaisant pas à ce critère de succès peut interférer avec la capacité de l’utilisateur à exploiter le logiciel entier, tout le contenu présent dans le logiciel (qu’il soit utilisé pour satisfaire à d’autres critères de succès ou non) doit satisfaire à ce critère de succès.</p>
-				<p>REMARQUE 2 : Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>, après remplacement de « sur une page Web » par « dans un logiciel », de « tout contenu » par « toute partie d’un logiciel », de « page entière » par « logiciel entier », de « sur la page Web » par « sur le document », après suppression de « Voir l’exigence de conformité 5 : Non-interférence » et aprèsl’ajout de la remarque 1.</p>
+				<p>REMARQUE 2 : Ce critère de succès est identique au <a href="https://www.w3.org/Translations/WCAG21-fr/#audio-control">critère de succès 1.4.2 Contrôle du son des WCAG 2.1</a>, après remplacement de « sur une page Web » par « dans un logiciel », de « tout contenu » par « toute partie d’un logiciel », de « page entière » par « logiciel entier », de « sur la page Web » par « sur le document », après suppression de « Voir l’exigence de conformité 5 : Non-interférence » et après l’ajout de la remarque 1.</p>
       </td>
 			<td>
 				<p><strong>C.11.1.4.2 Contrôle du son</strong></p>
@@ -7256,7 +7256,7 @@ toggle: Information and Communication Technology (<abbr>ICT</abbr>) Accessibilit
 		<tr>
 			<td>
 				<p id="11.3.3.1.1"><strong>11.3.3.1.1 Identification des erreurs (fonction non restreinte)</strong></p>
-				<p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistancepour la lecture d’écran, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>. </p>
+				<p>Lorsque la TIC est un logiciel non Web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle doit satisfaire au <a href="https://www.w3.org/Translations/WCAG21-fr/#error-identification">critère de succès 3.3.1 Identification des erreurs des WCAG 2.1</a>. </p>
       </td>
 			<td>
 				<p><strong>C.11.3.3.1.1 Identification des erreurs (fonction non restreinte)</strong></p>
