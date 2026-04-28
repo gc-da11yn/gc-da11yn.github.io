@@ -1,7 +1,9 @@
 # GC Design System Migration Plan
 
 ## Overview
-This plan defines how the Digital Accessibility Toolkit will migrate from WET/GCWeb patterns to the GC Design System with a controlled, incremental approach.
+This plan defines how the Digital Accessibility Toolkit will migrate from [WET/GCWeb](https://wet-boew.github.io/GCWeb/index-en.html) patterns to the [GC Design System](https://design-system.canada.ca/en/) with a controlled, incremental approach.
+
+The [GC Design System](https://design-system.canada.ca/en/) is the Government of Canada's new standard for web interfaces and will eventually replace the current [WET/GCWeb](https://wet-boew.github.io/GCWeb/index-en.html) approach.
 
 ## What Is Now In Place
 - Migration epic issue: [Plan migration from WET to GC Design System (discovery + phased implementation plan) #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
@@ -16,6 +18,12 @@ This plan defines how the Digital Accessibility Toolkit will migrate from WET/GC
   - [GC Design System Migration Plan](gcds-migration-plan.md)
   - [GC Design System Migration Inventory](gcds-migration-inventory.md)
   - [GC Design System Migration Issue Map](gcds-migration-issue-map.md)
+  - [GC Design System Implementation Decisions](gcds-implementation-decisions.md)
+- Migration tracking PR: [GCDS migration tracking branch: migration/gcds -> main #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
+
+## Key References
+- [WET/GCWeb (current framework)](https://wet-boew.github.io/GCWeb/index-en.html)
+- [GC Design System (target framework)](https://design-system.canada.ca/en/)
 
 ## Scope
 - Keep Eleventy architecture in place.
