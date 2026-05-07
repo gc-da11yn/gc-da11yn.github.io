@@ -13,6 +13,9 @@ Track current WET/GCWeb dependency hotspots and the reusable structures affected
   - [Assess delivery strategy: incremental migration vs full cutover #775](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/775)
   - [Draft phased implementation plan and child issue breakdown #776](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/776)
 
+## Detailed Inventories
+- [WET/GCWeb Dependency Inventory](gcds-wet-dependency-inventory.md) — complete file-by-file inventory of every WET, GCWeb, Bootstrap 3, and FontAwesome dependency (#771)
+
 ## High-Impact WET Dependency Hotspots
 - `src/_includes/partials/head.njk`
   - WET theme CSS includes
