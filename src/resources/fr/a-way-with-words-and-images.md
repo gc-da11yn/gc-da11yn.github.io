@@ -11,4 +11,5 @@ topic: Apprentissage
 internalLinks: false
 languageAvailability: both
 resourceType: standard
+parentResource: null
 ---

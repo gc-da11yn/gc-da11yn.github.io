@@ -1,5 +1,5 @@
 ---
-title: A way with words and images
+title: A way with words and images - this test
 description: Suggestions for the portrayal of people with disabilities. People
   with disabilities are asking Canadians, and the media in particular, to use
   respectful terms when writing and speaking about them or about issues that
