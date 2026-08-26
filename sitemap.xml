@@ -422,11 +422,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessible-word-documents-in-microsoft-365/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/page-moved-or-deleted/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -1654,6 +1649,11 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
 		<lastmod>2026-04-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessible-word-documents-in-microsoft-365/</loc>
+		<lastmod>2026-05-22</lastmod>
 	</url>
 	
 	<url>
