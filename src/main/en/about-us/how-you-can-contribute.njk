@@ -1,0 +1,30 @@
+---
+title: How you can contribute
+description: How to contribute.
+toggle: comment-contribuer
+tags: aboutUs
+---
+
+{% if collections.rolesInvolvedInAccessibility === undefined %}
+
+	{% include "partials/alert-landingpages.njk" %}
+
+{% else %}
+
+<div class="row wb-eqht mrgn-tp-lg gc-drmt">
+	{% for item in collections.rolesInvolvedInAccessibility | sort(false, false, 'data.title') | localeMatch(locale) %}
+		{% if item.data.tags[1] != "rolesInvolvedInAccessibility" %}
+			<div class="col-md-6">
+				<h3><a href="{{ item.url }}">{{ item.data.title | safe }}</a></h3>
+				<p>
+					{% if item.data.description %}
+					{{ item.data.description | safe }}
+					{% else %}
+					{{ landingPage[locale].descriptionNoneText }}
+					{% endif %}
+				</p>
+			</div>
+		{% endif %}
+	{% endfor %}
+</div>
+{% endif %}

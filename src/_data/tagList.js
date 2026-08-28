@@ -25,6 +25,7 @@ module.exports = {
 				"Comment créer des documents accessibles dans Office 2016",
 			microsoft365:
 				"Comment créer des documents accessibles dans Microsoft 365",
+			rolesInvolvedInAccessibility: "Rôles impliqués pour garantir l'accessibilité du Web",
 		},
 		en: {
 			aboutDisabilities: "Most Common Types of Disability",
@@ -49,6 +50,7 @@ module.exports = {
 			office2016: "How to create accessible documents in Office 2016",
 			msTips: "Tip sheets for Microsoft Office",
 			microsoft365: "How to create accessible documents in Microsoft 365",
+			rolesInvolvedInAccessibility: "Roles Involved in for ensuring web accessibility",
 		},
 	},
 	subjects: {
