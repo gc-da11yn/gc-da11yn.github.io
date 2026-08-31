@@ -1,6 +1,6 @@
 # WET-to-GCDS Component Map
 
-<!-- cspell:ignore inview pagedetails skipnav tagfilter -->
+<!-- cspell:ignore inview lightbox pagedetails skipnav tagfilter -->
 
 **Issue:** [Map current WET patterns to GC Design System components #773](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/773)
 **Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
@@ -49,10 +49,11 @@ The following table maps high-usage shared patterns to implementation targets. B
 | **Card-like content previews** | Page directory card view and any verified preview pattern | [`<gcds-card>`](https://design-system.canada.ca/en/components/card/) in `<gcds-grid>` | Direct when card use criteria fit | Do not convert every grouped link into a card; avoid nested interactive controls | Page families |
 | **Office document navigation** | `office-toc.njk` | Labelled native navigation list or verified GCDS side navigation | Native/custom | The current links are peer-document navigation, not a multi-step process; do not map them to tabs or `<gcds-stepper>` | Page families |
 | **Download block and file-type icons** | `download.njk` | Native download link, `<gcds-icon>`, and GCDS layout components | Composed | Keep file type and size as text; the icon cannot be the only indicator | Page families |
-| **Page-directory overlays** | `pageList.njk`, `pageListTable.njk` | Native inline disclosure or `<dialog>`, selected by interaction purpose | No equivalent | GCDS has no modal component; modal behavior requires focus entry, containment, Escape, close control, and focus return | Complex features |
+| **Page-directory overlays and clauses lightbox** | `pageList.njk`, `pageListTable.njk`, `scope.njk` | Native inline content or disclosure; `<dialog>` only for a confirmed modal task | No equivalent | GCDS has no modal or lightbox component; prefer inline access for filters and long reference content | Complex features |
 | **Tag filtering and card search** | `pageList.njk` | GCDS form controls plus custom filtering and result status | No equivalent | Replace `wb-tagfilter`; group controls, preserve state, and announce result count and no-results changes politely | Complex features |
-| **Enhanced directory table** | `pageListTable.njk` | [`<gcds-table>`](https://design-system.canada.ca/en/components/table/) | Direct with data adaptation | Validate filtering, sorting, pagination, responsive column removal, captions, and headers against directory requirements | Complex features |
+| **Enhanced directory table** | `pageListTable.njk` | [`<gcds-table>`](https://design-system.canada.ca/en/components/table/) plus separately justified custom enhancements | Composed | Table presentation is direct; filtering, sorting, pagination, result status, and column controls require independent redesign and testing | Complex features |
 | **WET table-to-chart behavior** | `analytics-chart.njk`, `src/_scripts/chart.js` | Native data table plus separately evaluated chart enhancement | No equivalent | GCDS has no chart component; the table remains authoritative and the chart needs equivalent text and non-colour cues | Complex features |
+| **WET footnotes** | Bilingual ICT procurement guides | Native reference links, footnotes section, and descriptive return links | Native/custom | Preserve stable identifiers and bidirectional keyboard navigation; plugin JavaScript is unnecessary | Page families |
 | **Equal-height plugin** | `office-toc.njk`, `updatesMain.njk`, landing pages | `<gcds-grid>` or native CSS grid | Remove | Modern grid layout removes the need for equal-height JavaScript | Cleanup |
 | **WET spacing, visibility, border, and text utilities** | Shared templates, SCSS, content pages | [GCDS CSS Shortcuts](https://design-system.canada.ca/en/css-shortcuts/) and [design tokens](https://design-system.canada.ca/en/styles/design-tokens/) | Direct styling | Replace by pattern rather than mechanical class substitution; responsive hiding must not remove required information | Cleanup |
 | **Bootstrap wells and custom page banner** | `base.njk`, `home.njk`, `banner.scss`, content callouts | Native semantic content with [GCDS CSS Shortcuts](https://design-system.canada.ca/en/css-shortcuts/); `<gcds-notice>` only for actual notices | Native/custom | A visual box is not automatically a notice; preserve one page-level heading and avoid component wrapping for prose | Cleanup |
@@ -65,13 +66,16 @@ The following table maps high-usage shared patterns to implementation targets. B
 The following WET behaviors have no current one-to-one GCDS replacement:
 
 - Modal and side-panel overlays.
+- Long-reference lightbox behavior.
 - Card-view tag filtering and result announcements.
+- Enhanced-table filtering, sorting, pagination, and column controls.
 - Table-to-chart conversion.
 - Randomized splash imagery.
 - Sticky behavior for the archived-content notice.
 - A Canada.ca doormat component.
+- WET footnote presentation and return navigation.
 
-These gaps are redesign inputs for [Identify no 1:1 replacement patterns and redesign requirements #774](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/774). They must not be implemented through speculative custom-element names.
+These gaps are evaluated in the [No-Direct-Replacement Analysis](gcds-no-direct-replacement-analysis.md) for [issue #774](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/774). They must not be implemented through speculative custom-element names.
 
 ## Implementation Guardrails
 
