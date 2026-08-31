@@ -155,6 +155,12 @@ Each feature preview must include:
 
 Production continues to deploy from `main` through the existing GitHub Pages workflow. This strategy does not add feature flags, branch-based production deployment, or other deployment infrastructure.
 
+### JavaScript and Native Fallbacks
+
+GCDS web components require JavaScript to register, attach Shadow DOM, and provide their enhanced presentation and behavior. A JavaScript-disabled page is therefore not expected to reproduce the fully upgraded GCDS interface.
+
+The requirement is that essential content and tasks use a practical native baseline or have a documented exception. Native links, forms, headings, lists, tables, and visible text should remain available before component upgrade where the component composition permits it. Each feature review must record what remains usable without JavaScript and identify any task that depends entirely on component upgrade.
+
 ## Quality Gates
 
 ### Every Feature Pull Request
@@ -167,6 +173,7 @@ Production continues to deploy from `main` through the existing GitHub Pages wor
 - Changed English and French states are reviewed.
 - Keyboard operation, focus visibility, accessible names, landmarks, and reflow are checked when relevant.
 - No rendered page loads both WET and GCDS framework assets.
+- Essential native fallbacks and any approved JavaScript-dependent exceptions are recorded.
 
 ### Shell Milestone
 
@@ -174,7 +181,7 @@ Production continues to deploy from `main` through the existing GitHub Pages wor
 - Heading hierarchy and landmark structure are valid.
 - English and French routes and counterpart links are correct.
 - The shell works at 200% and 400% zoom and in forced-colour mode.
-- Essential navigation remains usable when JavaScript is unavailable.
+- Essential navigation has a tested native fallback where practical; JavaScript-dependent exceptions are documented.
 
 ### Final Cutover
 

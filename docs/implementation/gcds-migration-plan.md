@@ -24,6 +24,7 @@ The [GC Design System](https://design-system.canada.ca/en/) is the Government of
   - [GC Design System Migration Issue Map](gcds-migration-issue-map.md)
   - [GC Design System Implementation Decisions](gcds-implementation-decisions.md)
   - [GCDS Delivery Strategy](gcds-delivery-strategy.md)
+  - [GCDS Phased Implementation Plan](gcds-phased-implementation-plan.md)
 - Migration tracking PR: [GCDS migration tracking branch: migration/gcds -> main #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
 
 ## Key References
@@ -52,49 +53,47 @@ The [GC Design System](https://design-system.canada.ca/en/) is the Government of
 
 ## Phases
 
+The [GCDS Phased Implementation Plan](gcds-phased-implementation-plan.md) is the canonical source for child-issue scope, dependencies, risk, completion criteria, and verification.
+
 ### 1. Discovery
 
 - Confirm WET dependency inventory and template/component inventory.
-- Finalize component mapping and no-1:1 redesign list.
+- Finalize component mapping, no-direct-replacement analysis, delivery strategy, and implementation backlog.
 
-### 2. Shell
+### 2. Foundation
+
+- Pin GCDS versions.
+- Add an isolated parallel layout and English/French preview fixtures.
+- Keep normal site output on WET.
+
+### 3. Shell
 
 - Build a parallel GCDS shell without changing the default layout or content files.
-- Migrate global shell templates and wrappers in cohesive PRs:
-  - head
-  - header
-  - language toggle wrapper
-  - breadcrumbs
-  - footer
-  - skip nav
-  - date modified wrapper
+- Migrate header/navigation, footer, and page-shell groups in sequential pull requests.
+- Complete a shell milestone review before shared component work.
 
-### 3. Components
+### 4. Components
 
-- Migrate shared cards, alerts, list/table wrappers, and other reusable partials.
+- Migrate notices, archived state, secondary navigation, downloads, contribution UI, and recurring page-family templates.
 
-### 4. Behaviors
+### 5. Behavior
 
-- Replace interactive WET behaviors in priority order:
-  - overlays/modals
-  - tag filtering
-  - enhanced tables
-  - charts
-  - splash randomizer
-  - footnotes/lightbox patterns
+- Replace overlays, filtering, enhanced tables, clauses references, footnotes, and chart behavior using the approved redesign decisions.
+- Preserve native content and task baselines where practical.
 
-### 5. Cleanup
+### 6. Cleanup
 
+- Migrate the language-selection and not-found pages.
+- Migrate residual WET-dependent markup in bilingual content pairs after templates and behaviors are stable.
 - Remove WET/GCWeb CSS/JS includes and class-level dependencies.
 - Remove transitional compatibility code no longer needed.
-- Migrate remaining WET-dependent markup in bilingual content pairs after shared templates and behaviors are stable.
 
-### 6. QA and Cutover
+### 7. QA and Cutover
 
 - Run build, spellcheck, and link checks.
 - Validate bilingual routing/toggle behavior.
 - Run accessibility checks and manual regression checks.
-- Merge final PR from `migration/gcds` to `main`.
+- Merge final PR from `migration/gcds` to `main` only after explicit approval.
 
 ## QA Gates Per Phase
 
