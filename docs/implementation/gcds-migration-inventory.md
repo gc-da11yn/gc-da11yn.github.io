@@ -24,6 +24,7 @@ Track current WET/GCWeb dependency hotspots and the reusable structures affected
 - [WET-to-GCDS Component Map](gcds-component-map.md) - direct, composed, native, and no-equivalent mappings with implementation priorities (#773)
 - [No-Direct-Replacement Analysis](gcds-no-direct-replacement-analysis.md) - redesign options, accessibility requirements, recommendations, risks, and relative effort for patterns without complete GCDS replacements (#774)
 - [GCDS Delivery Strategy](gcds-delivery-strategy.md) - incremental branch and review workflow, atomic shell milestone, content-last sequencing, quality gates, cutover, and rollback decision (#775)
+- [GCDS Phased Implementation Plan](gcds-phased-implementation-plan.md) - seven implementation phases and a proposed 16-item child backlog with dependencies, risk, completion criteria, and verification (#776)
 
 ## High-Impact WET Dependency Hotspots
 
@@ -79,8 +80,8 @@ Track current WET/GCWeb dependency hotspots and the reusable structures affected
 - The component mapping for [Map current WET patterns to GC Design System components #773](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/773) is complete.
 - The redesign analysis for [Identify no 1:1 replacement patterns and redesign requirements #774](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/774) is complete.
 - The delivery decision for [Assess delivery strategy: incremental migration vs full cutover #775](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/775) is documented.
-- The next planning task is [Draft phased implementation plan and child issue breakdown #776](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/776).
+- The proposed backlog for [Draft phased implementation plan and child issue breakdown #776](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/776) is documented and awaits approval before child issues are created.
 
 ## Notes
 
-The discovery artifacts for [WET dependencies #771](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/771), [shared templates #772](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/772), [component mapping #773](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/773), [no-direct-replacement analysis #774](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/774), and [delivery strategy #775](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/775) are complete. The phased implementation and child-issue breakdown remains tracked in [issue #776](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/776).
+The discovery artifacts for [WET dependencies #771](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/771), [shared templates #772](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/772), [component mapping #773](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/773), [no-direct-replacement analysis #774](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/774), [delivery strategy #775](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/775), and [phased implementation plan #776](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/776) are documented. Child issue creation follows approval of the #776 backlog.
