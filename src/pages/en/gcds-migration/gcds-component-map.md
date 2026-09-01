@@ -4,7 +4,7 @@ description: Mapping of current WET and GCWeb patterns to GCDS components, nativ
 toc: true
 ---
 
-<!-- cspell:ignore inview lightbox pagedetails skipnav tagfilter -->
+<!-- cspell:ignore Glyphicons inview landingpages lightbox pagedetails skipnav tagfilter wordmark -->
 
 {% set documentDetails %}
 
