@@ -1,5 +1,7 @@
 # Digital Accessibility Toolkit + Accessibility Agent Team Instructions
 
+<!-- cspell:ignore cicd frontmatter worktree -->
+
 This file merges:
 - The original repository-specific guidance for `gc-da11yn.github.io`
 - The accessibility specialist team guidance introduced from `a11y-agent-team`
@@ -58,6 +60,30 @@ Use `npm run newPage` to generate paired English/French pages with valid frontma
 
 #### Documenting Major Changes
 For major architecture/template/workflow changes, add docs in `docs/implementation/` including scope, changes, testing notes, and bilingual impacts.
+
+GCDS migration documents are the exception: keep their canonical Markdown
+sources in `src/pages/en/gcds-migration/` so Eleventy publishes them as
+unlisted English HTML pages.
+
+- Maintain `src/pages/en/gcds-migration/index.md` as the unlisted index linking
+	to every published migration document. It renders at `/en/gcds-migration/`.
+- Migration documents render at flat `/en/<file-slug>/` routes through
+	`gcds-migration.json`, rather than beneath the index route.
+- Use `gcds-migration.json` to provide the English locale and the "GCDS
+	migration documentation" parent breadcrumb. The breadcrumb template omits
+	that link from the index itself.
+- Give each document a description and `toc: true`. Do not add a French toggle
+	or normal site-navigation link until translations and publication navigation
+	are approved.
+- Use `{{ pathPrefix }}` for links between migration documents, and link to
+	published routes rather than source `.md` files.
+- When a document begins with an Issue, Epic, Branch, Date, Status, or related
+	details list, capture the Markdown list in `documentDetails` and render it
+	with the `markdown` filter inside `<div class="well well-lg">`. This preserves
+	the semantic list while providing the established visual treatment.
+- Update the migration index and focused assertions in
+	`tests/integration/build-validation.test.js` whenever a migration document is
+	added, removed, or renamed.
 
 #### Decap CMS Notes
 - Admin entry point: `/admin/`
@@ -252,4 +278,4 @@ When generating or modifying templates during the WET-to-GCDS migration:
 - **GCDS web components are for UI** — navigation, header, footer, breadcrumbs, buttons, forms, cards, and other interactive/structural patterns.
 - **Keep templates simple** — Nunjucks templates should use standard HTML for content areas. Avoid unnecessary web component wrappers for static content.
 - **Rationale**: Markdown compatibility, native HTML semantics, better performance (no FOUC), lower maintenance for content authors, and alignment with GCDS design intent.
-- **Full decision record**: See `docs/implementation/gcds-implementation-decisions.md`
+- **Full decision record**: See `src/pages/en/gcds-migration/gcds-implementation-decisions.md`

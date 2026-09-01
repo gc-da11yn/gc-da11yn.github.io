@@ -1,10 +1,23 @@
-# GCDS Delivery Strategy
+---
+title: GCDS Delivery Strategy
+description: Delivery, review, quality assurance, cutover, and rollback strategy for the incremental GCDS migration.
+toc: true
+---
 
-**Issue:** [Assess delivery strategy: incremental migration vs full cutover #775](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/775)
-**Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
-**Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
-**Date:** 2026-08-31
-**Status:** Accepted for implementation planning
+{% set documentDetails %}
+
+- **Issue:** [Assess delivery strategy: incremental migration vs full cutover #775](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/775)
+- **Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
+- **Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
+- **Date:** August 31, 2026
+- **Status:** Accepted for implementation planning
+
+{% endset %}
+<!-- markdownlint-disable MD033 -->
+<div class="well well-lg">
+{{ documentDetails | markdown | safe }}
+</div>
+<!-- markdownlint-enable MD033 -->
 
 ## Decision
 
@@ -125,7 +138,7 @@ Migrate shared UI in cohesive behavior groups rather than by arbitrary file coun
 
 ### 7. Complex Behaviors
 
-Implement the approved recommendations from the [No-Direct-Replacement Analysis](gcds-no-direct-replacement-analysis.md). Directory filtering, enhanced tables, clauses reference content, footnotes, analytics, and splash behavior should each receive focused scope and validation.
+Implement the approved recommendations from the [No-Direct-Replacement Analysis]({{ pathPrefix }}/en/gcds-no-direct-replacement-analysis/). Directory filtering, enhanced tables, clauses reference content, footnotes, analytics, and splash behavior should each receive focused scope and validation.
 
 ### 8. Standalone Pages
 

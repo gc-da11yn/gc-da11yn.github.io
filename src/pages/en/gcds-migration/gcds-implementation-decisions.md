@@ -1,4 +1,8 @@
-# GCDS Migration: Implementation Decisions
+---
+title: "GCDS Migration: Implementation Decisions"
+description: Architectural and implementation decisions governing the migration from WET and GCWeb to GCDS.
+toc: true
+---
 
 This document records architectural and implementation decisions made during the migration from WET/GCWeb to the GC Design System (GCDS). Each decision is numbered and includes context, rationale, and implications to support long-term maintainability.
 
@@ -79,4 +83,4 @@ This approach provides focused previews, review, and rollback while preserving a
 - `migration/gcds` must be rebased onto `upstream/main` before each new work package.
 - Netlify deploy previews provide staging for feature and integration review.
 - Production remains on WET until the final cutover.
-- The [GCDS Delivery Strategy](gcds-delivery-strategy.md) is the canonical record for workflow, sequencing, quality gates, risks, and rollback.
+- The [GCDS Delivery Strategy]({{ pathPrefix }}/en/gcds-delivery-strategy/) is the canonical record for workflow, sequencing, quality gates, risks, and rollback.

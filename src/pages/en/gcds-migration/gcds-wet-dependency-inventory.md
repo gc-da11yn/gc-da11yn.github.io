@@ -1,10 +1,25 @@
-# WET/GCWeb Dependency Inventory
+---
+title: WET/GCWeb Dependency Inventory
+description: File-level inventory of WET, GCWeb, Bootstrap, FontAwesome, JavaScript, and custom CSS dependencies affecting the GCDS migration.
+toc: true
+---
 
-**Issue:** #771  
-**Epic:** #770 (WET-to-GCDS Migration)  
-**Branch:** `migration/gcds` (PR #778)  
-**Date:** 2026-04-28  
-**Decision reference:** Decision 001 — native HTML for content, GCDS components for UI only
+<!-- cspell:ignore archv brdr bttm cdssnc drmt dwnld eqht gcweb inview mrgn pagedetails rght skipnav srvinfo tagfilter valuelabels wmms -->
+
+{% set documentDetails %}
+
+- **Issue:** [Inventory WET dependencies across templates, assets, CSS, and JS #771](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/771)
+- **Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
+- **Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
+- **Date:** April 28, 2026
+- **Decision reference:** [Decision 001 - use native HTML for content, GCDS components for UI]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-001-use-native-html-for-content-gcds-components-for-ui)
+
+{% endset %}
+<!-- markdownlint-disable MD033 -->
+<div class="well well-lg">
+{{ documentDetails | markdown | safe }}
+</div>
+<!-- markdownlint-enable MD033 -->
 
 ---
 

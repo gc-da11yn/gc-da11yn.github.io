@@ -1,12 +1,25 @@
-# Shared Template Inventory
+---
+title: Shared Template Inventory
+description: Inventory of shared Eleventy layouts, partials, macros, data contracts, and migration-critical template relationships.
+toc: true
+---
 
 <!-- cspell:ignore landingpages pagedetails skipnav -->
 
-**Issue:** [Inventory shared layouts, includes, partials, and reusable template structure #772](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/772)
-**Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
-**Branch:** `migration/gcds` (PR #778)
-**Date:** 2026-08-26
-**Decision reference:** Decision 001 - native HTML for content, GCDS components for UI only
+{% set documentDetails %}
+
+- **Issue:** [Inventory shared layouts, includes, partials, and reusable template structure #772](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/772)
+- **Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
+- **Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
+- **Date:** August 26, 2026
+- **Decision reference:** [Decision 001 - use native HTML for content, GCDS components for UI]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-001-use-native-html-for-content-gcds-components-for-ui)
+
+{% endset %}
+<!-- markdownlint-disable MD033 -->
+<div class="well well-lg">
+{{ documentDetails | markdown | safe }}
+</div>
+<!-- markdownlint-enable MD033 -->
 
 ## Scope
 

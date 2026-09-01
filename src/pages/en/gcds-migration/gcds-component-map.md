@@ -1,16 +1,29 @@
-# WET-to-GCDS Component Map
+---
+title: WET-to-GCDS Component Map
+description: Mapping of current WET and GCWeb patterns to GCDS components, native HTML, custom implementations, and patterns without direct replacements.
+toc: true
+---
 
 <!-- cspell:ignore inview lightbox pagedetails skipnav tagfilter -->
 
-**Issue:** [Map current WET patterns to GC Design System components #773](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/773)
-**Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
-**Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
-**Date:** 2026-08-26
-**Decision reference:** [Decision 001 - use native HTML for content, GCDS components for UI](gcds-implementation-decisions.md#decision-001-use-native-html-for-content-gcds-components-for-ui)
+{% set documentDetails %}
+
+- **Issue:** [Map current WET patterns to GC Design System components #773](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/773)
+- **Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
+- **Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
+- **Date:** August 26, 2026
+- **Decision reference:** [Decision 001 - use native HTML for content, GCDS components for UI]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-001-use-native-html-for-content-gcds-components-for-ui)
+
+{% endset %}
+<!-- markdownlint-disable MD033 -->
+<div class="well well-lg">
+{{ documentDetails | markdown | safe }}
+</div>
+<!-- markdownlint-enable MD033 -->
 
 ## Purpose
 
-This map converts the completed [WET/GCWeb Dependency Inventory](gcds-wet-dependency-inventory.md) and [Shared Template Inventory](gcds-shared-template-inventory.md) into implementation guidance. It distinguishes direct GCDS replacements from composed patterns, native or custom implementations, and patterns with no current GCDS equivalent.
+This map converts the completed [WET/GCWeb Dependency Inventory]({{ pathPrefix }}/en/gcds-wet-dependency-inventory/) and [Shared Template Inventory]({{ pathPrefix }}/en/gcds-shared-template-inventory/) into implementation guidance. It distinguishes direct GCDS replacements from composed patterns, native or custom implementations, and patterns with no current GCDS equivalent.
 
 The map reflects the [current GC Design System component catalog](https://design-system.canada.ca/en/components/) as reviewed on 2026-08-26. The implementation phase must pin and test a specific GCDS package version before relying on any component API.
 
@@ -57,7 +70,7 @@ The following table maps high-usage shared patterns to implementation targets. B
 | **Equal-height plugin** | `office-toc.njk`, `updatesMain.njk`, landing pages | `<gcds-grid>` or native CSS grid | Remove | Modern grid layout removes the need for equal-height JavaScript | Cleanup |
 | **WET spacing, visibility, border, and text utilities** | Shared templates, SCSS, content pages | [GCDS CSS Shortcuts](https://design-system.canada.ca/en/css-shortcuts/) and [design tokens](https://design-system.canada.ca/en/styles/design-tokens/) | Direct styling | Replace by pattern rather than mechanical class substitution; responsive hiding must not remove required information | Cleanup |
 | **Bootstrap wells and custom page banner** | `base.njk`, `home.njk`, `banner.scss`, content callouts | Native semantic content with [GCDS CSS Shortcuts](https://design-system.canada.ca/en/css-shortcuts/); `<gcds-notice>` only for actual notices | Native/custom | A visual box is not automatically a notice; preserve one page-level heading and avoid component wrapping for prose | Cleanup |
-| **Inline WET classes in Markdown content** | `src/pages/**/*.md` | Native HTML plus [GCDS CSS Shortcuts](https://design-system.canada.ca/en/css-shortcuts/) where presentation remains necessary | Native/custom | Follow [Decision 001](gcds-implementation-decisions.md#decision-001-use-native-html-for-content-gcds-components-for-ui); remove obsolete classes without changing content semantics or bilingual parity | Cleanup |
+| **Inline WET classes in Markdown content** | `src/pages/**/*.md` | Native HTML plus [GCDS CSS Shortcuts](https://design-system.canada.ca/en/css-shortcuts/) where presentation remains necessary | Native/custom | Follow [Decision 001]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-001-use-native-html-for-content-gcds-components-for-ui); remove obsolete classes without changing content semantics or bilingual parity | Cleanup |
 | **Splash image randomizer** | `index.html` | Static presentation or separately justified custom script | No equivalent | Prefer removal; if retained, ensure full operation without JavaScript and prevent layout shift | Standalone pages |
 | **Standalone splash and not-found shells** | `index.html`, `404.html` | Composed GCDS signature, container, grid, link, and footer patterns | Composed | These pages bypass Eleventy layouts and need independent bilingual, keyboard, and no-JavaScript validation | Standalone pages |
 
@@ -75,13 +88,13 @@ The following WET behaviors have no current one-to-one GCDS replacement:
 - A Canada.ca doormat component.
 - WET footnote presentation and return navigation.
 
-These gaps are evaluated in the [No-Direct-Replacement Analysis](gcds-no-direct-replacement-analysis.md) for [issue #774](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/774). They must not be implemented through speculative custom-element names.
+These gaps are evaluated in the [No-Direct-Replacement Analysis]({{ pathPrefix }}/en/gcds-no-direct-replacement-analysis/) for [issue #774](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/774). They must not be implemented through speculative custom-element names.
 
 ## Implementation Guardrails
 
 - Pin the GCDS component and [CSS Shortcuts](https://design-system.canada.ca/en/css-shortcuts/) versions before implementation.
 - Preserve English and French data contracts, counterpart links, and route behavior.
-- Keep Markdown-rendered content as native HTML under [Decision 001](gcds-implementation-decisions.md#decision-001-use-native-html-for-content-gcds-components-for-ui).
+- Keep Markdown-rendered content as native HTML under [Decision 001]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-001-use-native-html-for-content-gcds-components-for-ui).
 - Treat component replacement and behavior replacement as separate checks.
 - Verify keyboard order, focus visibility, landmarks, accessible names, responsive reflow, and no-JavaScript rendering for each migrated page family.
 - Keep native tables and text alternatives available when adding filtering, sorting, or charts.
