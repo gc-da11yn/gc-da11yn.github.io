@@ -1,4 +1,8 @@
-# GC Design System Migration Inventory
+---
+title: GC Design System Migration Inventory
+description: Inventory of WET and GCWeb dependency hotspots, shared structures, reusable patterns, and completed migration discovery artifacts.
+toc: true
+---
 
 <!-- cspell:ignore skipnav pagedetails lightbox -->
 
@@ -19,12 +23,12 @@ Track current WET/GCWeb dependency hotspots and the reusable structures affected
 
 ## Detailed Inventories
 
-- [WET/GCWeb Dependency Inventory](gcds-wet-dependency-inventory.md) - complete file-by-file inventory of every WET, GCWeb, Bootstrap 3, and FontAwesome dependency (#771)
-- [Shared Template Inventory](gcds-shared-template-inventory.md) - shared layouts, partials, macros, data contracts, reuse relationships, and shell-critical classifications (#772)
-- [WET-to-GCDS Component Map](gcds-component-map.md) - direct, composed, native, and no-equivalent mappings with implementation priorities (#773)
-- [No-Direct-Replacement Analysis](gcds-no-direct-replacement-analysis.md) - redesign options, accessibility requirements, recommendations, risks, and relative effort for patterns without complete GCDS replacements (#774)
-- [GCDS Delivery Strategy](gcds-delivery-strategy.md) - incremental branch and review workflow, atomic shell milestone, content-last sequencing, quality gates, cutover, and rollback decision (#775)
-- [GCDS Phased Implementation Plan](gcds-phased-implementation-plan.md) - seven implementation phases and a proposed 16-item child backlog with dependencies, risk, completion criteria, and verification (#776)
+- [WET/GCWeb Dependency Inventory]({{ pathPrefix }}/en/gcds-wet-dependency-inventory/) - complete file-by-file inventory of every WET, GCWeb, Bootstrap 3, and FontAwesome dependency (#771)
+- [Shared Template Inventory]({{ pathPrefix }}/en/gcds-shared-template-inventory/) - shared layouts, partials, macros, data contracts, reuse relationships, and shell-critical classifications (#772)
+- [WET-to-GCDS Component Map]({{ pathPrefix }}/en/gcds-component-map/) - direct, composed, native, and no-equivalent mappings with implementation priorities (#773)
+- [No-Direct-Replacement Analysis]({{ pathPrefix }}/en/gcds-no-direct-replacement-analysis/) - redesign options, accessibility requirements, recommendations, risks, and relative effort for patterns without complete GCDS replacements (#774)
+- [GCDS Delivery Strategy]({{ pathPrefix }}/en/gcds-delivery-strategy/) - incremental branch and review workflow, atomic shell milestone, content-last sequencing, quality gates, cutover, and rollback decision (#775)
+- [GCDS Phased Implementation Plan]({{ pathPrefix }}/en/gcds-phased-implementation-plan/) - seven implementation phases and a proposed 16-item child backlog with dependencies, risk, completion criteria, and verification (#776)
 
 ## High-Impact WET Dependency Hotspots
 

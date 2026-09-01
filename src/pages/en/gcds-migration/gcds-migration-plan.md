@@ -1,10 +1,14 @@
-# GC Design System Migration Plan
+---
+title: GC Design System Migration Plan
+description: Overview of the scope, phases, quality gates, and delivery approach for migrating the Digital Accessibility Toolkit to GCDS.
+toc: true
+---
 
 <!-- cspell:ignore lightbox -->
 
 ## Overview
 
-This plan defines how the Digital Accessibility Toolkit will migrate from [WET/GCWeb](https://wet-boew.github.io/GCWeb/index-en.html) patterns to the [GC Design System](https://design-system.canada.ca/en/). The [GCDS Delivery Strategy](gcds-delivery-strategy.md) records the controlling decision: incremental development and review on `migration/gcds`, a parallel shell during implementation, and one final production cutover.
+This plan defines how the Digital Accessibility Toolkit will migrate from [WET/GCWeb](https://wet-boew.github.io/GCWeb/index-en.html) patterns to the [GC Design System](https://design-system.canada.ca/en/). The [GCDS Delivery Strategy]({{ pathPrefix }}/en/gcds-delivery-strategy/) records the controlling decision: incremental development and review on `migration/gcds`, a parallel shell during implementation, and one final production cutover.
 
 The [GC Design System](https://design-system.canada.ca/en/) is the Government of Canada's new standard for web interfaces and will eventually replace the current [WET/GCWeb](https://wet-boew.github.io/GCWeb/index-en.html) approach.
 
@@ -19,12 +23,12 @@ The [GC Design System](https://design-system.canada.ca/en/) is the Government of
   - [Assess delivery strategy: incremental migration vs full cutover #775](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/775)
   - [Draft phased implementation plan and child issue breakdown #776](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/776)
 - Planning documentation added:
-  - [GC Design System Migration Plan](gcds-migration-plan.md)
-  - [GC Design System Migration Inventory](gcds-migration-inventory.md)
-  - [GC Design System Migration Issue Map](gcds-migration-issue-map.md)
-  - [GC Design System Implementation Decisions](gcds-implementation-decisions.md)
-  - [GCDS Delivery Strategy](gcds-delivery-strategy.md)
-  - [GCDS Phased Implementation Plan](gcds-phased-implementation-plan.md)
+  - [GC Design System Migration Plan]({{ pathPrefix }}/en/gcds-migration-plan/)
+  - [GC Design System Migration Inventory]({{ pathPrefix }}/en/gcds-migration-inventory/)
+  - [GC Design System Migration Issue Map]({{ pathPrefix }}/en/gcds-migration-issue-map/)
+  - [GC Design System Implementation Decisions]({{ pathPrefix }}/en/gcds-implementation-decisions/)
+  - [GCDS Delivery Strategy]({{ pathPrefix }}/en/gcds-delivery-strategy/)
+  - [GCDS Phased Implementation Plan]({{ pathPrefix }}/en/gcds-phased-implementation-plan/)
 - Migration tracking PR: [GCDS migration tracking branch: migration/gcds -> main #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
 
 ## Key References
@@ -53,7 +57,7 @@ The [GC Design System](https://design-system.canada.ca/en/) is the Government of
 
 ## Phases
 
-The [GCDS Phased Implementation Plan](gcds-phased-implementation-plan.md) is the canonical source for child-issue scope, dependencies, risk, completion criteria, and verification.
+The [GCDS Phased Implementation Plan]({{ pathPrefix }}/en/gcds-phased-implementation-plan/) is the canonical source for child-issue scope, dependencies, risk, completion criteria, and verification.
 
 ### 1. Discovery
 
