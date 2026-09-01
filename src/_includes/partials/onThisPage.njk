@@ -1,6 +1,6 @@
 {% if headings %}
-<aside>
-	<h2>{{ onThisPage[locale].heading }}</h2>
+<nav aria-labelledby="on-this-page-heading">
+	<h2 id="on-this-page-heading">{{ onThisPage[locale].heading }}</h2>
 	<ul>
 		{% set current_level = 2 %}
 		{% for heading in headings %}
@@ -23,5 +23,5 @@
 		{% if current_level > 2 %}</ul>
 		</li>{% endif %}
 		</ul>
-</aside>
+</nav>
 {% endif %}

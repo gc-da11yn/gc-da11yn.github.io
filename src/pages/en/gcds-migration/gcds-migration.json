@@ -1,0 +1,10 @@
+{
+    "permalink": "{{ permalinkPrefix }}en/{{ page.fileSlug }}/",
+    "locale": "en",
+    "breadcrumbs": [
+        {
+            "title": "GCDS migration documentation",
+            "url": "/en/gcds-migration/"
+        }
+    ]
+}
