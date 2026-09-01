@@ -1,16 +1,29 @@
-# GCDS No-Direct-Replacement Analysis
+---
+title: GCDS No-Direct-Replacement Analysis
+description: Redesign requirements and recommendations for WET behaviors and interface patterns without complete GCDS replacements.
+toc: true
+---
 
 <!-- cspell:ignore inview laccessibilit lapprovisionnement linclusion linformation lightbox tagfilter -->
 
-**Issue:** [Identify no 1:1 replacement patterns and redesign requirements #774](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/774)
-**Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
-**Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
-**Date:** 2026-08-31
-**Decision reference:** [Decision 001 - use native HTML for content, GCDS components for UI](gcds-implementation-decisions.md#decision-001-use-native-html-for-content-gcds-components-for-ui)
+{% set documentDetails %}
+
+- **Issue:** [Identify no 1:1 replacement patterns and redesign requirements #774](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/774)
+- **Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
+- **Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
+- **Date:** August 31, 2026
+- **Decision reference:** [Decision 001 - use native HTML for content, GCDS components for UI]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-001-use-native-html-for-content-gcds-components-for-ui)
+
+{% endset %}
+<!-- markdownlint-disable MD033 -->
+<div class="well well-lg">
+{{ documentDetails | markdown | safe }}
+</div>
+<!-- markdownlint-enable MD033 -->
 
 ## Purpose
 
-This analysis defines redesign requirements for WET plugins and custom interface patterns that do not have a complete one-to-one replacement in the [GC Design System component catalog](https://design-system.canada.ca/en/components/). It builds on the [WET/GCWeb Dependency Inventory](gcds-wet-dependency-inventory.md), [Shared Template Inventory](gcds-shared-template-inventory.md), and [WET-to-GCDS Component Map](gcds-component-map.md).
+This analysis defines redesign requirements for WET plugins and custom interface patterns that do not have a complete one-to-one replacement in the [GC Design System component catalog](https://design-system.canada.ca/en/components/). It builds on the [WET/GCWeb Dependency Inventory]({{ pathPrefix }}/en/gcds-wet-dependency-inventory/), [Shared Template Inventory]({{ pathPrefix }}/en/gcds-shared-template-inventory/), and [WET-to-GCDS Component Map]({{ pathPrefix }}/en/gcds-component-map/).
 
 The recommendations separate visual replacement from behavioral replacement. A GCDS component may replace presentation while filtering, focus management, announcements, or progressive enhancement still require a separate design decision.
 

@@ -1,4 +1,8 @@
-# GC Design System Migration Issue Map
+---
+title: GC Design System Migration Issue Map
+description: Relationship between the GCDS migration epic, discovery issues, implementation phases, branches, and completion conditions.
+toc: true
+---
 
 ## What Is Now In Place
 
@@ -35,7 +39,7 @@
 
 ## Migration Phases
 
-The [GCDS Phased Implementation Plan](gcds-phased-implementation-plan.md) defines the proposed child-issue backlog. Issue numbers will be added after the backlog is approved and the issues are created.
+The [GCDS Phased Implementation Plan]({{ pathPrefix }}/en/gcds-phased-implementation-plan/) defines the proposed child-issue backlog. Issue numbers will be added after the backlog is approved and the issues are created.
 
 1. Discovery
 2. Foundation
