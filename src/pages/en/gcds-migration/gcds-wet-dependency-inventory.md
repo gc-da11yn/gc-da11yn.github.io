@@ -188,6 +188,7 @@ toc: true
 
 ## 7. FontAwesome 5 Usage
 
+{% raw %}
 | File | Icons Used | GCDS Replacement | Notes |
 |---|---|---|---|
 | `contribute.njk` | `fab fa-github`, `fas fa-code`, `fas fa-exclamation-circle`, `fas fa-comments`, `fas fa-envelope` | GCDS icons or inline SVG | GitHub/contribute section icons |
@@ -198,6 +199,7 @@ toc: true
 | `pageListTable.njk` | `fas fa-download` | GCDS icon or inline SVG | CSV download button |
 | **main/ landing pages** (46 files) | `fas fa-external-link-square-alt` | GCDS icon or inline SVG | External link indicators in doormat links |
 | **Content pages** (various `.md`) | `fas fa-external-link-square-alt` | Inline SVG or remove | Embedded in markdown content |
+{% endraw %}
 
 ---
 
@@ -257,6 +259,7 @@ These markdown files embed WET/BS3 HTML classes directly in content. They need g
 
 All files under `src/main/en/` and `src/main/fr/` follow an identical template pattern:
 
+{% raw %}
 ```html
 <div class="row wb-eqht mrgn-tp-lg gc-drmt">  <!-- or gc-srvinfo -->
   <div class="col-md-6">
@@ -268,6 +271,7 @@ All files under `src/main/en/` and `src/main/fr/` follow an identical template p
   </div>
 </div>
 ```
+{% endraw %}
 
 **Dependencies per landing page:**
 - `wb-eqht` (equal height plugin)

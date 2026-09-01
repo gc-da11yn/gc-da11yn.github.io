@@ -107,6 +107,10 @@ describe('Eleventy Build Validation', () => {
         if (gcdsMigrationDocumentSlugsWithDetails.includes(slug)) {
           expect(htmlContent).toMatch(/<div class="well well-lg">\s*<ul>/);
         }
+        if (slug === 'gcds-wet-dependency-inventory') {
+          expect(htmlContent).toContain('{{ item.data.fontIcon }}');
+          expect(htmlContent).toContain('{{ title }}');
+        }
         expect(htmlContent).not.toMatch(/href="[^"]+\.md(?:#|\")/);
       }
     });
