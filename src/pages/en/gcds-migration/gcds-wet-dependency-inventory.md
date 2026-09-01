@@ -4,7 +4,7 @@ description: File-level inventory of WET, GCWeb, Bootstrap, FontAwesome, JavaScr
 toc: true
 ---
 
-<!-- cspell:ignore archv brdr bttm cdssnc drmt dwnld eqht gcweb inview mrgn pagedetails rght skipnav srvinfo tagfilter valuelabels wmms -->
+<!-- cspell:ignore archv brdr bttm cdssnc drmt dwnld eqht gctheme gcweb inview mrgn pagedetails rght skipnav srvinfo tagfilter valuelabels wmms -->
 
 {% set documentDetails %}
 
