@@ -12,6 +12,19 @@ subject:
 
 {% else %}
 
+</div>
+
+<div class="bg-light p-3">
+
+	<div class="container">
+		<p>For standards related to Canadian accessibility requirements, please refer to the following page on our site: <a href="{{ pathPrefix }}/{{ locale }}/accessibility-standards">Accessibility standards</a></p>
+	</div>
+
+</div>
+
+
+<div class="container">
+
 <div class="row wb-eqht mrgn-tp-lg gc-drmt">
 	{% for item in collections.globalAccessibilityStandards | sort(false, false, 'data.title') | localeMatch(locale) %}
 	<div class="col-md-6">

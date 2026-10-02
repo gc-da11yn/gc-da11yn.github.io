@@ -6,9 +6,107 @@ subject:
   - accessibilityInTheGovernmentOfCanada
 ---
 
-{% if collections.accessibilityStandards === undefined %}
+</div>
 
-	{% include "partials/alert-landingpages.njk" %}
+<div class="bg-light p-3">
+
+	<div class="container">
+		<p>For standards related to global accessibility requirements, please refer to the following page on our site: <a href="{{ pathPrefix }}/{{ locale }}/global-accessibility-standards">Global accessibility standards</a></p>
+	</div>
+
+</div>
+
+<div class="container">
+
+<div class="row mrgn-tp-lg">
+
+<div class="col-md-4 pull-right">
+<section class="panel panel-default">
+  <header class="panel-heading">
+   <h2 class="panel-title">Important dates</h2>
+  </header>
+  <div class="panel-body">
+   <dl>
+     <dt>Websites and web applications</dt>
+     <dd>December 5, 2027</dd>
+     <dt>Mobile applications</dt>
+     <dd>December 5, 2028</dd>
+     <dt>Digital documents</dt>
+     <dd>December 5, 2028</dd>
+   </dl>
+  </div>
+  <footer class="panel-footer">
+  <p class="small">Applies to public sector organizations, excluding transportation service providers (TSPs) and broadcasting and telecommunications organizations (BTOs). <span class="nowrap"><a href="#mid-screen" aria-controls="mid-screen" class="overlay-lnk" role="button">Further details on the requirements.</a></span></p>
+  </footer>
+</section>
+</div>
+
+<section id="mid-screen" class="wb-overlay modal-content overlay-def wb-popup-mid">
+	<header class="modal-header">
+		<h2 class="modal-title">Digital Accessibility Requirements for Public Sector Organizations</h2>
+	</header>
+	<div class="modal-body">
+		<p>This document includes only requirements that apply to public sector organizations, excluding transportation service providers (TSPs) and broadcasting and telecommunications organizations (BTOs).</p>
+		<h3>By December 5, 2027</h3>
+		<h4>Provide digital accessibility training</h4>
+		<p>Organizations must provide accessibility training to employees who develop, maintain, buy, or manage digital technologies. Refresher training must be provided at least every three years.</p>
+		<h4>Make new or updated web pages accessible</h4>
+		<p>Employee-facing and public-facing web pages and web applications must meet accessibility requirements.</p>
+		<h4>Publish accessibility statements for web content</h4>
+		<p>Publish and annually update accessibility statements describing accessibility features, known barriers, plans to address barriers, and available accessible alternatives.</p>
+		<h3>By December 5, 2028</h3>
+		<h4>Make digital documents accessible</h4>
+		<p>New or updated digital documents published on websites or mobile applications must meet accessibility requirements.</p>
+		<h4>Make mobile applications accessible</h4>
+		<p>New mobile applications must meet accessibility requirements. Existing public-facing mobile applications must be assessed to identify accessibility gaps.</p>
+		<h4>Publish accessibility statements for mobile applications and digital documents</h4>
+		<p>Publish and annually update accessibility statements for regulated mobile applications and digital documents.</p>
+		<h4>Obtain accessibility assessments for procurement</h4>
+		<p>Obtain an accessibility conformity assessment for certain products or services purchased to develop or provide regulated digital technologies.</p>
+		<h3>At a Glance</h3>
+		<h4>December 5, 2027:</h4>
+		<ul>
+			<li>Accessibility training;</li>
+			<li>accessible web pages;</li>
+			<li>accessibility statements for web content.</li>
+		</ul>
+		<h4>December 5, 2028:</h4>
+		<ul>
+			<li>Accessible digital documents;</li>
+			<li>accessible mobile applications;</li>
+			<li>accessibility statements for apps and documents;</li>
+			<li>accessibility assessments for certain procurements.</li>
+		</ul>
+		<p>Refer to the <a href="https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/digital-technologies-phase-1.html#h2.5">Guidance overview of regulatory amendments: Digital Technologies Phase 1</a> for more details.</p>
+	</div>
+</section>
+
+<p>The minimum ICT accessibility standard for the Government of Canada is:</p>
+
+<ul>
+	<li>In May 2024 Accessible Standards Canada adopted the <a href="https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt">CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)</a> as a National Standard of Canada. The CAN/ASC standard is the same as the EN 301 549 (2021-03).</li>
+</ul>
+
+<h2 class="h4">Phase 1 of the ICT accessibility regulations under the Accessible Canada Act</h2>
+
+<p>Published in December 2025. Refer to the regulations for the GC implementation effective dates.</p>
+
+<ul>
+	<li>Canada Gazette: <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html">Canada Gazette, Part 2, Volume 159, Number 26: Regulations Amending the Accessible Canada Regulations</a></li>
+	<li>Plain Language Summary: <a href="https://www.canada.ca/en/employment-social-development/programs/accessible-canada/regulations-summary-act/amendment.html">Summary of the changes to the Accessible Canada Regulations about Digital Accessibility</a></li>
+	<li>Guidance: <a href="https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/digital-technologies-phase-1.html">Guidance overview of regulatory amendments: Digital Technologies Phase 1</a></li>
+</ul>
+
+<h2 class="h4">Direction on Information Communication Technologies Accessibility; towards regulatory implementation</h2>
+
+<ul>
+	<li><a href="https://www.canada.ca/en/government/system/digital-government/policies-standards/policy-service-digital-announcements/direction-information-communication-technologies-accessibility-towards-regulatory-implementation.html">Direction on Information Communication Technologies Accessibility; towards regulatory implementation</a></li>
+</ul>
+
+</div>
+</div>
+
+{% if collections.accessibilityStandards === undefined %}
 
 {% else %}
 
