@@ -1,6 +1,6 @@
 <div lang="fr">
 
-([Français](#boîte-à-outils-d'accessibilité-numérique))
+([Français](#boîte-à-outils-daccessibilité-numérique))
 
 </div>
 
