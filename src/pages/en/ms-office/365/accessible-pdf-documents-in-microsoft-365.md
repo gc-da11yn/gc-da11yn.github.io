@@ -156,7 +156,7 @@ Enabling PhantomPDF’s built-in accessibility features, located in the Ribbon u
 
 Testing a form with [NVDA (a free screen reader)](https://www.nvaccess.org/) will quickly identify label and tab order issues. Try to fill out the form using nothing but your ears and your keyboard. This will give you an idea of what screen reader users will experience.
 
-An alternative to PhantomPDF’s inbuilt accessibility checker is [Free PDF Accessibility Checker (PAC) 2021 - PDF/UA Foundation (pdfua.foundation)](https://pdfua.foundation/en/pdf-accessibility-checker-pac/). While this program alone won’t allow you to remediate issues, you may be able to make your fixes upstream in the authoring tool (Word, InDesign, etc.). It may also identify issues that PhantomPDF does not.
+An alternative to PhantomPDF’s inbuilt accessibility checker is [Free PDF Accessibility Checker (PAC) 2026 - PDF/UA Foundation (pdfua.foundation)](https://pac.pdf-accessibility.org/en/download). While this program alone won’t allow you to remediate issues, you may be able to make your fixes upstream in the authoring tool (Word, InDesign, etc.). It may also identify issues that PhantomPDF does not.
 
 ## Additional resources
 

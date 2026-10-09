@@ -156,7 +156,7 @@ L’activation des fonctions d’accessibilité intégrées de Foxit PDF Editor,
 
 Vérifiez votre formulaire avec <a href="https://www.nvaccess.org/">NVDA (un lecteur d’écran gratuit)<small> (en anglais seulement)</small></a> pour repérer rapidement les problèmes liés à l’ordre des balises et des tabulations. Tentez de remplir le formulaire en n’utilisant que vos oreilles et votre clavier. Cela vous donnera une idée de l’expérience des utilisateurs de lecteurs d’écran.
 
-Outre le vérificateur d’accessibilité intégré de Foxit PDF Editor, un autre outil est le <a href="https://pdfua.foundation/fr/pac-2021-le-verificateur-pdf-gratuit/">PAC 2021 - Le vérificateur PDF gratuit - PDF/UA Foundation (pdfua.foundation)<small> (en anglais seulement)</small></a>. Bien que ce programme ne vous permette pas, à lui seul, de remédier aux problèmes, il est possible que vous puissiez effectuer vos corrections dans l’outil d’édition au préalable (Word, InDesign, etc.). Il peut également cerner des problèmes que Foxit PDF Editor n’a pas su reconnaître.
+Outre le vérificateur d’accessibilité intégré de Foxit PDF Editor, un autre outil est le <a href="https://pac.pdf-accessibility.org/en/download">PAC 2026 - Le vérificateur PDF gratuit - PDF/UA Foundation (pdfua.foundation)<small> (en anglais seulement)</small></a>. Bien que ce programme ne vous permette pas, à lui seul, de remédier aux problèmes, il est possible que vous puissiez effectuer vos corrections dans l’outil d’édition au préalable (Word, InDesign, etc.). Il peut également cerner des problèmes que Foxit PDF Editor n’a pas su reconnaître.
 
 ## Ressources supplémentaires
 
