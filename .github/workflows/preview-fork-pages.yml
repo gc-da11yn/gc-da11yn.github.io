@@ -1,0 +1,51 @@
+name: Preview branch on fork GitHub Pages
+
+# Builds a GCDS feature branch and publishes it to the fork's GitHub Pages (gh-pages branch),
+# so the work in progress can be browsed without touching main. Never runs on gc-da11yn.
+on:
+  push:
+    branches:
+      - 'feature/gcds-**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fork-pages-preview
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.repository_owner != 'gc-da11yn'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history for "git Last Modified" dates
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build site
+        env:
+          PATH_PREFIX: ${{ github.event.repository.name }}
+        run: npm run build
+
+      # The CNAME points to a11y.canada.ca; publishing it from a fork would break the fork's Pages URL.
+      - name: Remove custom domain file
+        run: rm -f _site/CNAME
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

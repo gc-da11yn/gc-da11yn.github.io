@@ -123,7 +123,7 @@
 				{% else %}
 					{% if entry.data.tags %}
 						<section class="col-md-6" data-wb-tags="{{ entry.data.subject }} {{ entry.data.tags }}{% for items in isLanding[6] %}{% if items != "m" %} notLanding{% endif %}{% endfor %}">
-							<h2 class="h4"><a href="{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></h2>
+							<h2 class="h4"><a href="{{ pathPrefix }}{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></h2>
 							{% if settings.env == "local" %}
 								{% if entry.data.subject %}
 									<p><strong>subject{% if locale === "fr" %} {% endif %}:</strong> <span class="label label-success">{{ entry.data.subject }}</span></p>
