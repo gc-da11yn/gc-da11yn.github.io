@@ -9,6 +9,9 @@
 
 	<body vocab="http://schema.org/" typeof="WebPage">
 
+		{#- Only shown in basic HTML mode (see head.njk), so nobody gets stuck in it -#}
+		<p class="basic-html-notice bg-light p-200 m-0 text-center">{{ skipnav[locale].basicNotice }} <a href="?wbdisable=false">{{ skipnav[locale].standardVersion }}</a></p>
+
 		{% include "partials/header.njk" %}
 
 		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" id="main">

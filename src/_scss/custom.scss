@@ -1,60 +1,8 @@
-.a11y-standards-list {
-	list-style: none;
-
-	&>li {
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-
-	span {
-		margin-right: 15px;
-	}
-}
-
 /* Page list link (pageListLink.njk): grey background */
 .page-list-link {
 	background-color: var(--gcds-bg-light);
 }
 
-
-// Added because GCWeb doesn't cover h2, blockquotes and li in the doormat styles
-.gc-drmt,
-.gc-srvinfo {
-
-	h2 {
-		font-size: 1em;
-		margin-bottom: 5px;
-		margin-top: 23px
-	}
-
-	li {
-		font-size: 17px;
-		line-height: 1.5em;
-	}
-
-	blockquote {
-		font-size: 17px;
-	}
-
-	footer {
-		font-size: 17px;
-	}
-
-}
-
-// Added because GCWeb doesn't cover links in well.header-rwd
-.well.header-rwd {
-	a {
-		color: #fff;
-
-		&:hover,
-		&:focus {
-			text-decoration: none;
-			color: #A0CCF8;
-		}
-	}
-
-}
 
 // Splash page styles
 
@@ -101,7 +49,8 @@ gcds-header > nav[slot="skip-to-nav"] {
 
 /* Basic HTML version: only offer the switch that applies */
 .basic-html .skip-to-basic,
-:root:not(.basic-html) .skip-to-standard {
+:root:not(.basic-html) .skip-to-standard,
+:root:not(.basic-html) .basic-html-notice {
 	display: none;
 }
 
@@ -322,4 +271,16 @@ main table:not(.wb-charts) {
 		padding-inline-start: var(--gcds-spacing-300);
 		border-inline-start: var(--gcds-border-width-lg) solid var(--gcds-border-default);
 	}
+}
+
+/* 404 page: "404 error" tag */
+.error-tag {
+	display: inline-block;
+	padding-block: var(--gcds-spacing-50);
+	padding-inline: var(--gcds-spacing-150);
+	font-size: var(--gcds-font-sizes-text-small);
+	font-weight: bold;
+	color: var(--gcds-text-primary);
+	background-color: var(--gcds-color-red-50);
+	border-inline-start: var(--gcds-border-width-lg) solid var(--gcds-danger-border);
 }
