@@ -71,7 +71,7 @@ layout: false
 
 
 	<body class="splash" vocab="http://schema.org/" resource="#wb-webpage" typeof="WebPage">
-		<div id="bg" data-wb-randomize='{ "shuffle": true, "selector": "img", "toggle": "hide" }'><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-1.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-2.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-3.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-4.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-5.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-6.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-7.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-8.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-9.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-10.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-11.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-12.jpg" alt=""></div>
+		<div id="bg"><img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-1.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-2.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-3.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-4.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-5.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-6.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-7.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-8.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-9.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-10.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-11.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-12.jpg" alt=""></div>
 		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
 			<div class="sp-hb">
 				<div class="sp-bx col-xs-12">
@@ -109,8 +109,14 @@ layout: false
 			</div>
 		</main>
 
-<!--		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>-->
-<!--		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>-->
-<!--		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>-->
+		{#- TRANSITION-ONLY: shows one random background, replacing WET's randomize plugin, until the splash page is rebuilt with GCDS. -#}
+		<script>
+			(function () {
+				var imgs = document.querySelectorAll("#bg img");
+				var pick = Math.floor(Math.random() * imgs.length);
+				imgs[0].classList.add("hide");
+				imgs[pick].classList.remove("hide");
+			})();
+		</script>
 	</body>
 </html>
