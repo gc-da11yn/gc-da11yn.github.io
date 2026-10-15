@@ -284,3 +284,29 @@ main table:not(.wb-charts) {
 	background-color: var(--gcds-color-red-50);
 	border-inline-start: var(--gcds-border-width-lg) solid var(--gcds-danger-border);
 }
+
+// Splash page (/): full-screen background photo behind the language box
+.splash-bg img {
+	position: fixed;
+	inset: 0;
+	z-index: -1;
+	inline-size: 100%;
+	block-size: 100%;
+	object-fit: cover;
+}
+
+// Splash panel centred on the page; width from the GCDS docs splash page
+.splash-page {
+	min-block-size: 100dvh;
+}
+
+.splash-panel {
+	inline-size: 100%;
+	max-inline-size: 34rem;
+}
+
+// Wordmark at the GCDS footer's small size
+.splash-wordmark {
+	inline-size: var(--gcds-footer-sub-signature-sm-width);
+	max-block-size: var(--gcds-footer-sub-signature-sm-max-height);
+}
