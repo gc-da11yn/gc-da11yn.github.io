@@ -112,8 +112,8 @@ layout: false
 		{#- TRANSITION-ONLY: shows one random background, replacing WET's randomize plugin, until the splash page is rebuilt with GCDS. -#}
 		<script>
 			(function () {
-				var imgs = document.querySelectorAll("#bg img");
-				var pick = Math.floor(Math.random() * imgs.length);
+				const imgs = document.querySelectorAll("#bg img");
+				const pick = Math.floor(Math.random() * imgs.length);
 				imgs[0].classList.add("hide");
 				imgs[pick].classList.remove("hide");
 			})();
