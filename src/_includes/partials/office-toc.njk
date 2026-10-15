@@ -40,7 +40,7 @@
         </ul>
     </nav>
 
-    <div class="bg-light p-300">
+    <div class="bg-light p-300 mb-400">
         {% set versionSlug = version | slugify %}
         {% set otherVersionSlug = otherVersion | slugify %}
         <p class="mb-0">{{ tryText }} <a href="{{ pathPrefix }}{{ page.url | replace(versionSlug,otherVersionSlug) }}">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>

@@ -89,7 +89,7 @@ gcds-header > nav[slot="skip-to-nav"] {
 
 	font-size: var(--gcds-font-sizes-text-small-mobile);}
 
-/* Page list table: keep dates on one line (no GCDS shortcut for white-space) */
+/* Page list table: keep dates on one line (no GCDS CSS shortcut for white-space) */
 .page-list-date {
 	white-space: nowrap;
 }
@@ -221,6 +221,12 @@ main table:not(.wb-charts) {
 	@media only screen and (width < 48em) {
 		font: var(--gcds-button-font-mobile);
 	}
+}
+
+/* GCDS CSS shortcuts cap every paragraph at --gcds-text-character-limit; let paragraphs fill
+   their container like the rest of the content. Element specificity, so shortcut classes still win. */
+p {
+	max-width: none;
 }
 
 /* Content defaults for page content (Markdown and CMS): the CSS shortcuts reset every margin,
