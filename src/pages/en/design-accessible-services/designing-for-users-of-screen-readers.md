@@ -12,10 +12,10 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
 - <a href="{{ pathPrefix }}/docs/posters/ScreenReader-en_2023.pdf" download>Designing for users of screen readers (<abbr title="Portable Document Format">PDF</abbr>, 51 <abbr title="KiloByte">KB</abbr>)</a>
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> Do
 
 - Describe images and provide transcripts for video
 - Follow a linear logical layout
@@ -24,9 +24,9 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - Write descriptive links and headings
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don't
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Don't
 
 - Only show information in an image or video
 - Spread content all over a page

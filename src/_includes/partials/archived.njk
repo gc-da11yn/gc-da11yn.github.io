@@ -1,15 +1,6 @@
-{# Top banner #}
-<div class="wb-inview show-none" aria-hidden="true" data-inview="top-bar">
-	<section class="gc-archv">
-		<div class="container">
-			{%- include "partials/archived-text.njk" -%}
-		</div>
-	</section>
-</div>
-
-{# Replaces banner with sticky top banner #}
-<section id="top-bar" class="gc-archv wb-overlay modal-content overlay-def wb-bar-t" role="alert">
-	<div class="container">
-	{%- include "partials/archived-text.njk" -%}
-	</div>
-</section>
+{#- Archived page notice (replaces the WET in-view and sticky archive banners) -#}
+<gcds-container layout="page" padding="300">
+	<gcds-notice notice-role="warning" notice-title-tag="h2" notice-title="{{ archiveStrings[locale].archivedHeading }}">
+		<p class="mb-0">{{ archiveStrings[locale].archivedPara | safe }}</p>
+	</gcds-notice>
+</gcds-container>

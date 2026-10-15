@@ -25,10 +25,8 @@ Note: These instructions apply to the current version of Word as of December 202
 
 The easiest way to create an accessible PDF is to begin with an accessible Word document. Once you have created an accessible document in Word, if you do not have a professional version of a PDF authoring tool installed, export it through **File** > **Export** > **Create PDF/XPS Document** > **Create PDF/XPS** (do not use "print to PDF"!).
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/pdf-365-001.png" alt="Screenshot of Export dialog in Word demonstrating where in the file menu to export a PDF. Namely File > Export > Create PDF/XPS">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/pdf-365-001.png" alt="Screenshot of Export dialog in Word demonstrating where in the file menu to export a PDF. Namely File > Export > Create PDF/XPS">
 </div>
 
 In the dialog box, select **Options** and check these boxes:
@@ -37,10 +35,8 @@ In the dialog box, select **Options** and check these boxes:
 - Document properties
 - Document structure tags
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/pdf-365-002.png" alt="Screenshot of PDF export options in Word">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/pdf-365-002.png" alt="Screenshot of PDF export options in Word">
 </div>
 
 If you do have a professional PDF authoring tool installed, a tab for the tool should be added to Microsoft Word Ribbon menu. To create a PDF:
@@ -70,18 +66,14 @@ Foxit PDF Editor provides a built-in accessibility checker. The checker does not
 
 To run the accessibility checker, open your PDF document and **in the Ribbon** select the **Accessibility** tab then select **Full Check**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/pdf-365-003.png" alt="Screenshot of Accessibility Checker in Phantom PDF">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/pdf-365-003.png" alt="Screenshot of Accessibility Checker in Phantom PDF">
 </div>
 
 Under **Report Options** uncheck "**Create accessibility report**" if you do not wish to export the issues, and select **Start Checking**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/pdf-365-004.png" alt="Screenshot of the Accessibility Checker options menu in Phantom PDF">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/pdf-365-004.png" alt="Screenshot of the Accessibility Checker options menu in Phantom PDF">
 </div>
 
 This will generate a list of issues similar to the one pictured above. Inspect each failure, issues will need to be either resolved or checked manually.

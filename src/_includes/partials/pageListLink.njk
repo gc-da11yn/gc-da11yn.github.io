@@ -6,9 +6,13 @@
   - Uses `{{ pathPrefix }}` and `{{ locale }}` for proper URL construction and deployment compatibility.
   - Included on every page to improve site navigation and discoverability.
 #}
-<div class="pageList bg-light pb-3">
-    <div class="container">
-        <h2 class="h3">{{ pageList[locale].linkHeading }}</h2>
-        <p><i class="fas fa-search" aria-hidden="true"></i> {{ pageList[locale].linkPrefix }} <a href="{{ pathPrefix }}/{{ locale }}{{ pageList[locale].linkUrl }}">{{ pageList[locale].linkText }}</a>.</p>
-    </div>
-</div>
+<gcds-container layout="page" padding="300" class="page-list-link">
+  <h3 class="mt-0 mb-200">
+    {{ pageList[locale].linkHeading }}
+  </h3>
+  <span>
+    <gcds-icon name="search" margin-right="100"></gcds-icon>
+    {{ pageList[locale].linkPrefix }}
+    <a href="{{ pathPrefix }}/{{ locale }}{{ pageList[locale].linkUrl }}">{{ pageList[locale].linkText }}</a>.
+  </span>
+</gcds-container>

@@ -62,15 +62,13 @@ The long text summary is useful for all users. Make it visible in the web page o
 
 For a road map with directions, the long description should describe each step to follow the directions.
 
-<div class="row">
-<div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/visio-01.gif" alt="Flowchart illustrating the login process">
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/en/office2016/visio-01.gif" alt="Flowchart illustrating the login process">
 </div>
 
 In order to best convey the message of the above flow chart to all users, the long description should use numbered components:
 
-<div class="brdr-rds-0 well">
+<div class="bg-light p-300">
 
 **Flowchart illustrating the login process:**
 
@@ -91,7 +89,7 @@ Using HTML, a complete textual description including all relationships with hype
 
 Example for complex data flow diagram:
 
-<div class="brdr-rds-0 well">
+<div class="bg-light p-300">
 
 #### Component D (Header)
 

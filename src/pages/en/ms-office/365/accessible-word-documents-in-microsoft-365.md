@@ -15,10 +15,8 @@ How to use the Accessibility Checker:
 2. Activate the results in the **Accessibility Checker** pane
 3. Address the listed issues. Helpful information to understand and fix the different issues is provided at the bottom of the pane
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-001.jpg" alt="Screenshot of &quot;Check for issues&quot; menu">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/word-365-001.jpg" alt="Screenshot of &quot;Check for issues&quot; menu">
 </div>
 
 The **Accessibility Checker** is also located on the Ribbon under the **Review** tab > **Check Accessibility**. Activate the "Keep accessibility checker running while I work" check box in the checker pane to keep track of accessibility issues in real time.
@@ -41,10 +39,8 @@ How to create a template:
 3. Type a name for your template in the **File** **name** field
 4. Activate the **Word Template** option in the **Save as** **type** list
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-002.jpg" alt="Screenshot of saving as a template">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/word-365-002.jpg" alt="Screenshot of saving as a template">
 </div>
 
 How to open a template:
@@ -65,9 +61,9 @@ Headings allow users to navigate and locate content. To ensure the document stru
 
 Ensure headings are denoted through structure and not only denoted implicitly (by using different fonts, font sizes, bolding, italics, etc.). Created styles will not be treated structurally as headings.
 
-<div class="row">
-<div class="col-md-6">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-003.jpg" alt="Screenshot of Styles toolbar">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
+<img src="{{ pathPrefix }}/img/en/office365/word-365-003.jpg" alt="Screenshot of Styles toolbar">
 </div>
 </div>
 
@@ -94,10 +90,8 @@ To use headers and footers in Word:
 3. Choose your preferred style
 4. After creating the **Header** or **Footer**, press the “**Esc**” key to return to the main body of the document
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-004.jpg" alt="Screenshot of Insert Header pop-up">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/word-365-004.jpg" alt="Screenshot of Insert Header pop-up">
 </div>
 
 ### Columns
@@ -111,9 +105,9 @@ To insert columns:
 3. Select the desired number of columns from the grid
 4. As you type, the current column will fill and spill into the next
 
-<div class="row">
-<div class="col-md-6">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-005.jpg" alt="Screenshot of Columns menu">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
+<img src="{{ pathPrefix }}/img/en/office365/word-365-005.jpg" alt="Screenshot of Columns menu">
 </div>
 </div>
 
@@ -128,9 +122,9 @@ To create a list:
 - Open the **Home** tab in the ribbon
 - Under the **Paragraph** toolbar, you will find list options such as **bullets, numbering, sorting, etc.**
 
-<div class="row">
-<div class="col-md-6">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-006.jpg" alt="Screenshot of Paragraph toolbar">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
+<img src="{{ pathPrefix }}/img/en/office365/word-365-006.jpg" alt="Screenshot of Paragraph toolbar">
 </div>
 </div>
 
@@ -158,10 +152,8 @@ To assign alternative text to images:
 5. If the image is meaningful, convey in words the meaning, function, or purpose communicated by the image
 6. Activate the **Close** button
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-007.jpg" alt="Screenshot of Format Picture menu">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/word-365-007.jpg" alt="Screenshot of Format Picture menu">
 </div>
 
 Be sure to check and update any automatically generated alternative text for images.
@@ -172,10 +164,8 @@ Ensure complex images and charts provide long descriptions. Complex images inclu
 
 To add a long description to diagrams and chart, first add concise alt text (e.g. the chart title) as describe above. Then, include a longer text alternative below the chart.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-008.jpg" alt="Screenshot of Format Chart Area menu">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/word-365-008.jpg" alt="Screenshot of Format Chart Area menu">
 </div>
 
 ### Links
@@ -189,10 +179,8 @@ To add hyperlinks with meaningful text:
 3. Activate **Edit Hyperlink**
 4. Edit the **Text to Display** field with meaningful text.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-009.jpg" alt="Screenshot of Edit Hyperlink">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/word-365-009.jpg" alt="Screenshot of Edit Hyperlink">
 </div>
 
 ## Additional Resources

@@ -15,10 +15,8 @@ Comment utiliser le vérificateur d'accessibilité&nbsp;:
 2. Passez en revue les résultats dans le volet **Vérificateur d'accessibilité**.
 3. Corrigez les problèmes énumérés. Au bas du volet, vous trouverez des renseignements pratiques pour comprendre et résoudre les différents problèmes.
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-001.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-001.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
 </div>
 
 Le **vérificateur d’accessibilité** peut aussi être accédé dans le ruban du haut sous le l’onglet «&#8201;**Révision**&#8201;» &gt; **Vérifier l'accessibilité**. Ensuite, cocher l’option «&#8201;vérificateur d’accessibilité conserver en cours d’exécution pendant que je travaille&#8201;» afin de vérifier l’accessibilité en temps réel.
@@ -38,10 +36,8 @@ Donnez à chaque diapositive un titre unique. Les personnes malvoyantes, ayant d
 1. Pour rétablir les signets de la diapositive sélectionnée, sélectionnez l'onglet **Accueil** et, dans le groupe **Diapositives**, sélectionnez **Rétablir**.
 2. Sur la diapositive, saisissez un titre unique et descriptif.
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-002.jpg" alt="Capture d’écran de l'onglet Accueil dans le groupe Diapositives" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-002.jpg" alt="Capture d’écran de l'onglet Accueil dans le groupe Diapositives" />
 </div>
 
 Pour qu'un titre soit invisible sur la diapositive, mais qu'il soit lu par les lecteurs d'écran&nbsp;:
@@ -50,10 +46,8 @@ Pour qu'un titre soit invisible sur la diapositive, mais qu'il soit lu par les l
 2. Dans le menu **Organiser**, sélectionnez **Afficher le volet Sélection**.
 3. Dans le volet **Sélection**, trouvez la zone de texte **Titre** et activez ensuite sur l'icône en forme d'œil située à côté.
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-003.jpg" alt="Capture d’écran de Menu Organiser" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-003.jpg" alt="Capture d’écran de Menu Organiser" />
 </div>
 
 ### Structure du texte
@@ -103,10 +97,8 @@ Pour changer l’ordre de lecture :
     1. Glissez et déposez les éléments vers le nouvel emplacement.
     2. Choisissez l’article et sélectionnez ensuite la flèche vers le haut (avancer) ou vers le bas (reculer)
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-004.jpg" alt="Capture d’écran de Menu Organiser" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-004.jpg" alt="Capture d’écran de Menu Organiser" />
 </div>
 
 ### Tableaux
@@ -142,10 +134,8 @@ Les présentations PowerPoint comportent généralement des images. Les images o
 5. Si l’image a une signification, convoiter les mots de sa signification, son but, sa fonction qui est communiquée par l’image.
 6. Activez le bouton **Fermer**.
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-005.jpg" alt="Capture d’écran de Outil Format de l’image" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/powerpoint-365-005.jpg" alt="Capture d’écran de Outil Format de l’image" />
 </div>
 
 Veuillez vérifier et mettre-ajour tout texte qui sera généré comme texte de remplacement pour les images.

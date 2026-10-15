@@ -1,5 +1,5 @@
 ---
-title: "We couldn't find that Web page (Error 404) / <span lang='fr'>Nous ne pouvons trouver cette page Web (Erreur 404)</span>"
+title: "Page not found (404) / <span lang='fr'>Page non trouvée (404)</span>"
 permalink: 404.html
 layout: false
 ---
@@ -8,60 +8,90 @@ layout: false
 
 	<head>
 		<meta charset="utf-8" />
-		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 		<title>{{ title | striptags(true) | escape | nl2br }}</title>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<meta name="robots" content="noindex, nofollow, noarchive" />
 		<link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme-srv.css" />
 
+		<!-- GC Design System CSS Shortcuts -->
+		<link
+			rel="stylesheet"
+			href="{{ pathPrefix }}/css/gcds-css-shortcuts.min.css"
+		/>
+
+		<!-- GC Design System -->
+		<link
+			rel="stylesheet"
+			href="{{ pathPrefix }}/gcds/gcds.css"
+		/>
+		<script
+			type="module"
+			src="{{ pathPrefix }}/gcds/gcds.esm.js"
+		></script>
+
+		<!-- Site styles (error tag) -->
+		<link rel="stylesheet" href="{{ pathPrefix }}/css/da11yn.css" />
 	</head>
 
-	<body vocab="http://schema.org/" resource="#wb-webpage" typeof="WebPage">
-		<header id="wb-bnr" class="container">
-			<div class="row" property="publisher" resource="#wb-publisher" typeof="GovernmentOrganization">
-				<div class="col-sm-6 text-right">
-					<img id="gcwu-sig" src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" /><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
-					<meta property="name" content="Government of Canada" />
-					<meta property="name" lang="fr" content="Gouvernement du Canada" />
-					<meta property="areaServed" typeOf="Country" content="Canada" />
-				</div>
-				<div class="col-sm-6">
-					<img id="wmms" src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" property="logo" /><span class="wb-inv"> / <span lang="fr">Government of Canada</span></span>
-				</div>
-			</div>
+	<body>
+		<header>
+			<gcds-container layout="page" class="px-300 pt-300" tag="div">
+				<gcds-signature type="signature" variant="colour" has-link="true" lang="en"></gcds-signature>
+			</gcds-container>
 		</header>
-		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" class="container">
-			<h1 class="wb-inv">{{ title  | safe }}</h1>
-			<div class="row mrgn-tp-lg">
 
-				<section class="col-md-6">
-					<h2><span class="glyphicon glyphicon-warning-sign mrgn-rght-md" aria-hidden="true"></span>We couldn't find that Web page (Error 404)</h2>
-					<p>We're sorry you ended up here. Sometimes a page gets moved or deleted, but hopefully we can help you find what you're looking for.</p>
-					<ul>
-						<li>Browsing to the <a href="{{ pathPrefix }}/en/">Digital Accessibility Toolkit (<abbr>DAT</abbr>) homepage</a> and navigate our new site,</li>
-						<li>Visit our page that <a href="{{ pathPrefix }}/en/page-list/">lists all our pages</a> with a filter option,</li>
-						<li>Use the search in the top of our site,</li>
-						<li>Visit our <a href="{{ pathPrefix }}/en/contact-us">contact us</a> page to find a way to let us know you couldn’t find what you’re looking for, or</li>
-						<li>Visit <a href="https://www.canada.ca/en.html">Canada.ca</a> </li>
-					</ul>
-				</section>
+		<main>
+			<gcds-container layout="page" class="px-300" tag="div">
+				<h1 class="visibility-sr-only">{{ title | safe }}</h1>
 
-				<section class="col-md-6" lang="fr">
-					<h2><span class="glyphicon glyphicon-warning-sign mrgn-rght-md" aria-hidden="true"></span>Nous ne pouvons trouver cette page Web (Erreur 404)</h2>
-					<p>Nous sommes désolés que vous avez arrivé sur cette page. Il arrive parfois qu'une page ait été déplacée ou supprimée. Nous espérons que les liens suivants vont vous permettre de trouver ce que vous cherchez.</p>
-					<ul>
-						<li>Naviguez vers notre nouvelle <a href="{{ pathPrefix }}/fr/">page d’accueil de la boite à outils d’accessibilité numérique</a>,</li>
-						<li>Visitez notre page qui répertorie <a href="{{ pathPrefix }}/fr/liste-des-pages">toutes nos pages</a> avec une option de filtrage,</li>
-						<li>Utilisez la fonction de recherche en haut de notre site,</li>
-						<li>Visitez notre <a href="{{ pathPrefix }}/fr/contactez-nous">page de contact</a> pour nous faire savoir que vous n'avez pas trouvé, ou</li>
-						<li>Visitez <a href="https://www.canada.ca/fr.html">Canada.ca</a></li>
-					</ul>
-				</section>
+				<gcds-grid columns="1fr" columns-desktop="1fr 1fr" gap="500">
 
-			</div>
+					<section id="english">
+						{#- Language jump links: only on small screens, where the two columns stack -#}
+						<p class="lg:d-none mt-300 mb-0" lang="fr"><a href="#francais">Aller à la version française</a></p>
+						<h2 class="font-size-h1 mt-300 mb-300">Page not found</h2>
+						<p class="error-tag mb-300">404 error</p>
+						<p class="mb-300">The page you’re looking for may have been moved or deleted. Check that the web address (URL) is spelled correctly. Do not include special characters or spaces in the URL.</p>
+						<p class="mb-200">You may be looking for:</p>
+						<ul class="list-disc ps-500 mb-400">
+							<li class="mb-100"><a href="https://www.canada.ca/en.html">Canada.ca home page</a></li>
+							<li class="mb-100"><a href="https://www.canada.ca/en/services.html">Government of Canada services</a></li>
+							<li class="mb-100"><a href="https://www.canada.ca/en/contact.html">Contact the Government of Canada</a></li>
+							<li class="mb-100"><a href="{{ pathPrefix }}/en/">Digital Accessibility Toolkit (<abbr>DAT</abbr>) home page</a></li>
+							<li class="mb-100"><a href="{{ pathPrefix }}/en/page-list/">List of all our pages</a></li>
+							<li class="mb-100"><a href="{{ pathPrefix }}/en/contact-us/">Contact the Digital Accessibility Toolkit</a></li>
+						</ul>
+						<gcds-search class="d-block container-xs" search-id="search-en" lang="en" action="https://www.canada.ca/en/sr/srb.html" placeholder="Canada.ca"></gcds-search>
+					</section>
+
+					<section id="francais" lang="fr">
+						<p class="lg:d-none mt-300 mb-0" lang="en"><a href="#english">Go to the English version</a></p>
+						<h2 class="font-size-h1 mt-300 mb-300">Page non trouvée</h2>
+						<p class="error-tag mb-300">Erreur 404</p>
+						<p class="mb-300">La page que vous souhaitez consulter a peut-être été déplacée ou supprimée. Assurez-vous que l’adresse Web (URL) est exacte. N’incluez pas de caractères spéciaux ni d’espaces dans l’URL.</p>
+						<p class="mb-200">Vous cherchez peut-être l’une des pages suivantes :</p>
+						<ul class="list-disc ps-500 mb-400">
+							<li class="mb-100"><a href="https://www.canada.ca/fr.html">Page d’accueil de Canada.ca</a></li>
+							<li class="mb-100"><a href="https://www.canada.ca/fr/services.html">Services du gouvernement du Canada</a></li>
+							<li class="mb-100"><a href="https://www.canada.ca/fr/contact.html">Coordonnées du gouvernement du Canada</a></li>
+							<li class="mb-100"><a href="{{ pathPrefix }}/fr/">Page d’accueil de la Boîte à outils de l’accessibilité numérique</a></li>
+							<li class="mb-100"><a href="{{ pathPrefix }}/fr/liste-des-pages/">Liste de toutes nos pages</a></li>
+							<li class="mb-100"><a href="{{ pathPrefix }}/fr/contactez-nous/">Contacter la Boîte à outils de l’accessibilité numérique</a></li>
+						</ul>
+						<gcds-search class="d-block container-xs" search-id="search-fr" lang="fr" action="https://www.canada.ca/fr/sr/srb.html" placeholder="Canada.ca"></gcds-search>
+					</section>
+
+				</gcds-grid>
+			</gcds-container>
 		</main>
+
+		<footer>
+			<gcds-container layout="page" class="px-300 pt-300" tag="div">
+				<div class="d-flex justify-content-end">
+					<gcds-signature type="wordmark" variant="colour" lang="en"></gcds-signature>
+				</div>
+			</gcds-container>
+		</footer>
 	</body>
 
 </html>

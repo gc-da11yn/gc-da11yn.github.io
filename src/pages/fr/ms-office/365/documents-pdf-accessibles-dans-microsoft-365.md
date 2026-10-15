@@ -25,10 +25,8 @@ Remarque&nbsp;: Ces instructions font référence à la version actuelle de Word
 
 Le moyen le plus simple de créer un fichier PDF accessible consiste à commencer par un document Word accessible. Une fois que vous avez créé un document accessible dans Word et n’avez pas un outil de création de PDF professionnelle, vous pouvez l’exporter en cliquant sur **Fichier** &gt; **Exporter** &gt; **Créer un document PDF/XPS** &gt; **Créer PDF/XPS** (n’utilisez jamais la fonction Imprimer au format PDF!).
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/pdf-365-001.jpg" alt="Capture écran qui démontre le processus d'exportation d'un PDF dans Word. Fichier > Exporter > Créer un document PDF/XPS > Créer PDF/XPS">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office365/pdf-365-001.jpg" alt="Capture écran qui démontre le processus d'exportation d'un PDF dans Word. Fichier > Exporter > Créer un document PDF/XPS > Créer PDF/XPS">
 </div>
 
 Dans la boîte de dialogue, sélectionnez **Options** et cochez les cases suivantes&nbsp;:
@@ -37,10 +35,8 @@ Dans la boîte de dialogue, sélectionnez **Options** et cochez les cases suivan
 - Propriétés du document
 - Balises de structure du document
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/pdf-365-002.jpg" alt="Capture écran qui démontre le bouton « Options » activé lors du processus d'exportation de PDF dans Word.">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office365/pdf-365-002.jpg" alt="Capture écran qui démontre le bouton « Options » activé lors du processus d'exportation de PDF dans Word.">
 </div>
 
 Si vous avez un outil de création PDF professionnelle installée, un onglet devrait être présent dans le menu ruban du haut dans Microsoft Word. Pour créer un PDF&nbsp;:
@@ -70,18 +66,14 @@ Foxit PDF Editor offre un outil d’évaluation d’accessibilité intégré. L�
 
 Pour se servir du vérificateur d’accessibilité, ouvrir votre document PDF et choisir Accessibilité dans le menu ruban. Ensuite sélectionner **Vérification complète**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/pdf-365-003.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office365/pdf-365-003.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
 </div>
 
 Sous **Options de rapport**, désélectionner « Créer un rapport d’accessibilité » si vous ne désirez pas exporter un document qui souligne les erreurs et ensuite choisir **Commencer la vérification**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/pdf-365-004.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office365/pdf-365-004.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
 </div>
 
 Ceci permettra a généré une liste des échecs semblable a celles dans la photo précédente. Vérifier chaque échec, car elles auront à être corrigées, souvent de façon manuelle.

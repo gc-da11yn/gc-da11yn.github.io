@@ -1,7 +1,7 @@
 {# expects: lang, locale, rolesData, groupRoleKeys, collections #}
 <aside>
 	<h2>{{ onThisPage[locale].heading }}</h2>
-	<ul class="mrgn-bttm-lg">
+	<ul class="mb-400">
 		{% for rk in groupRoleKeys %}
 		{% set label = rolesData.labels[lang][rk] or rk %}
 		{% set anchor = label | stripTagsSlugify %}

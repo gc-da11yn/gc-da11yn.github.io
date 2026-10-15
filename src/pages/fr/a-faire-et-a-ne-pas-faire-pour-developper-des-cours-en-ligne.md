@@ -8,10 +8,10 @@ tags:
   - designCourse
 ---
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> À faire
 
 - Utiliser des couleurs avec un haut contraste (4.5 à 1 pour niveau AA) et tester votre palette de couleurs en utilisant le paramètre de contraste élevé de votre ordinateur
 - Fournir des sous-titres et une transcription (de base ou descriptive) pour les éléments vidéo et audio
@@ -35,9 +35,9 @@ tags:
 - Publier toutes les informations sur les pages web
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> À ne pas faire
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> À ne pas faire
 
 - N’utilisez pas des couleurs trop brillantes (fluo)
 - Ne vous fiez pas uniquement aux éléments visuels d’une vidéo pour transmettre de l’information

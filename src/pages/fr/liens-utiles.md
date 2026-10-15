@@ -5,7 +5,7 @@ toggle: Useful Links
 internalLinks: true
 ---
 
-<table class="wb-tables table table-striped table-hover">
+<table>
 <thead>
 <tr>
 <td>Titre</td>
@@ -105,7 +105,7 @@ internalLinks: true
 <td>Politique</td>
 </tr>
 <tr>
-<td><a href="https://intranet.canada.ca/wg-tg/gc-cg/accessible-communications-accessibles/str-sor-fra.asp">Liste des ressources, outils et services d’accessibilité générale<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span></a></a></td>
+<td><a href="https://intranet.canada.ca/wg-tg/gc-cg/accessible-communications-accessibles/str-sor-fra.asp">Liste des ressources, outils et services d’accessibilité générale<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Lien interne</span></a></a></td>
 <td>Découvrez les services, les outils et les ressources qui permettent de créer des produits de communication et des activités accessibles.</td>
 <td>Liste</td>
 </tr>

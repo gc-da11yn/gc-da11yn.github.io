@@ -120,7 +120,7 @@ The intention for this section is to clearly communicate strategies to address t
 
 #### Issue status definitions
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th>Status</th>
@@ -155,7 +155,7 @@ The intention for this section is to clearly communicate strategies to address t
 
 [Action Item - If this Roadmap is going to be providing priorities to determine remediation timeframes, consider using the below definition as a starting point and adjust as needed. If the Roadmap does not use a priority rating to define timelines, then this column of the Accessibility Remediation Roadmap Details table can be removed.]
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th>Priority</th>
@@ -204,7 +204,7 @@ The intention for this section is to clearly communicate strategies to address t
 
 ### Accessibility remediation roadmap details
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th>Related Non-conformant clause(s)</th>
@@ -269,7 +269,7 @@ Refer to [Annex 1 – Sample Accessibility Remediation Roadmap Details Table](#a
 
 The Vendor agrees to remediate all identified ICT accessibility deficiencies outlined in this Accessibility Remediation Roadmap by the specified deadlines. Failure to meet these deadlines may result in contractual penalties or adjustments as deemed necessary by the GC Functional Product Owner. Regular status updates must be provided, and the Vendor will ensure all updates comply with the target accessibility standard.]
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th>Stakeholder Name</th>
@@ -315,7 +315,7 @@ The Vendor agrees to remediate all identified ICT accessibility deficiencies out
 - The Sample Accessibility Remediation Roadmap Details Table has been prefilled with three sample issues which must be removed when you provide your Roadmap.
 - EN indicates the EN 301 549 - V3.2.1 (2021-03) clause. It is recommended to link it to the proper clause in the standard. Roadmap creators can use either the reference to the EN 301 549 - V3.2.1 (2021-03) clause (e.g. EN 9.1.4.3 Contrast (Minimum)) or the equivalent reference to the CAN/ASC - EN 301 549:2024 clause (e.g. CAN/ASC 9.1.4.3 Contrast (Minimum)).
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th><span id="_Annex_1_–" class="anchor"></span>Related Non-conformant clause(s)</th>

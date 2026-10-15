@@ -14,8 +14,6 @@ layout: false
 	<head>
 		<meta charset="utf-8">
 		<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 		<title>{{ title.en }} / {{ title.fr }}</title>
 
 		<!-- Meta tags -->
@@ -46,10 +44,18 @@ layout: false
 		<meta property="dcterms:description" lang="fr" content="{{ description.fr }}">
 
 		<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-		<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
-		<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/messages.min.css">
-		<link rel="stylesheet" href="{{ pathPrefix }}/css/da11yn.css">
+		<!-- GC Design System CSS Shortcuts -->
+		<link rel="stylesheet" href="{{ pathPrefix }}/css/gcds-css-shortcuts.min.css" />
+
+		<!-- GC Design System -->
+		<link rel="stylesheet" href="{{ pathPrefix }}/gcds/gcds.css" />
+		<script type="module" src="{{ pathPrefix }}/gcds/gcds.esm.js"></script>
+
+		<!-- Without JavaScript, the native links replace the buttons -->
+		<noscript><style>gcds-button { display: none; }</style></noscript>
+
+		<!-- Site styles (splash background) -->
+		<link rel="stylesheet" href="{{ pathPrefix }}/css/da11yn.css" />
 
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
@@ -70,47 +76,64 @@ layout: false
 	</head>
 
 
-	<body class="splash" vocab="http://schema.org/" resource="#wb-webpage" typeof="WebPage">
-		<div id="bg" data-wb-randomize='{ "shuffle": true, "selector": "img", "toggle": "hide" }'><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-1.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-2.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-3.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-4.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-5.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-6.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-7.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-8.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-9.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-10.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-11.jpg" alt=""><img class="hide" src="https://www.canada.ca/content/dam/canada/splash/sp-bg-12.jpg" alt=""></div>
-		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-			<div class="sp-hb">
-				<div class="sp-bx col-xs-12">
-					<h1 property="name" class="wb-inv">{{ title.en }} / <span lang="fr">{{ title.fr }}</span></h1>
-					<div class="row">
-						<div class="col-xs-11 col-md-8" property="publisher" resource="#wb-publisher" typeof="GovernmentOrganization">
-							<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/sig-blk-en.svg" width="283" alt="Government of Canada" property="logo"><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
-							<meta property="name" content="Government of Canada">
-							<meta property="name" lang="fr" content="Gouvernement du Canada">
-							<meta property="areaServed" typeof="Country" content="Canada">
-						</div>
-					</div>
-					<div class="row">
-						<section class="col-xs-6 text-right">
-							<h2 class="h6">{{ title.en }}</h2>
-							<p><a href="{{ pathPrefix }}/en/" class="btn btn-primary" translate="no">English</a></p>
-						</section>
-						<section class="col-xs-6" lang="fr">
-							<h2 class="h6">{{ title.fr | safe }}</h2>
-							<p><a href="{{ pathPrefix }}/fr/" class="btn btn-primary" translate="no">Français</a></p>
-						</section>
-					</div>
+	<body vocab="http://schema.org/" resource="#webpage" typeof="WebPage">
+		<div class="splash-bg">
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-1.jpg" alt="">
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-2.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-3.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-4.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-5.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-6.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-7.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-8.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-9.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-10.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-11.jpg" alt="" hidden>
+			<img src="https://www.canada.ca/content/dam/canada/splash/sp-bg-12.jpg" alt="" hidden>
+		</div>
 
-				</div>
-				<div class="sp-bx-bt col-xs-12">
-					<div class="row">
-						<div class="col-xs-7 col-md-8">
-							<a href="https://www.canada.ca/en/transparency/terms.html" class="sp-lk">Terms and conditions</a> <span class="glyphicon glyphicon-asterisk"></span> <a href="https://www.canada.ca/fr/transparence/avis.html" class="sp-lk" lang="fr">Avis</a>
-						</div>
-						<div class="col-xs-5 col-md-4 text-right mrgn-bttm-md">
-							<img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" width="127" alt="Symbol of the Government of Canada"><span class="wb-inv"> / <span lang="fr">Symbole du gouvernement du Canada</span></span>
-						</div>
+		<main class="splash-page d-flex align-items-center justify-content-center px-300 pt-300 pb-1000" property="mainContentOfPage" resource="#main" typeof="WebPageElement">
+			<div class="splash-panel">
+				<div class="bg-white p-400">
+					<h1 class="visibility-sr-only" property="name">{{ title.en }} / <span lang="fr">{{ title.fr }}</span></h1>
+					<div property="publisher" resource="#publisher" typeof="GovernmentOrganization">
+						<gcds-signature type="signature" variant="colour" lang="en"></gcds-signature>
+						<meta property="name" content="Government of Canada">
+						<meta property="name" lang="fr" content="Gouvernement du Canada">
+						<meta property="areaServed" typeof="Country" content="Canada">
 					</div>
+					<div class="d-grid grid-cols-2 gap-400 mt-400">
+						<section class="text-right">
+							<h2 class="font-size-text font-bold mt-0 mb-200">{{ title.en }}</h2>
+							<gcds-button type="link" href="{{ pathPrefix }}/en/" lang="en" translate="no">English</gcds-button>
+							<noscript><a href="{{ pathPrefix }}/en/" translate="no">English</a></noscript>
+						</section>
+						<section lang="fr">
+							<h2 class="font-size-text font-bold mt-0 mb-200">{{ title.fr | safe }}</h2>
+							<gcds-button type="link" href="{{ pathPrefix }}/fr/" lang="fr" translate="no">Français</gcds-button>
+							<noscript><a href="{{ pathPrefix }}/fr/" translate="no">Français</a></noscript>
+						</section>
+					</div>
+				</div>
+				<div class="bg-light px-400 py-300 d-flex justify-content-between align-items-center gap-300">
+					<p class="font-size-text-small m-0 me-auto">
+						<a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a>
+						<span aria-hidden="true">&bull;</span>
+						<a href="https://www.canada.ca/fr/transparence/avis.html" lang="fr">Avis</a>
+					</p>
+					<gcds-signature class="splash-wordmark flex-shrink-0" type="wordmark" variant="colour" lang="en"></gcds-signature>
 				</div>
 			</div>
 		</main>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
-		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+		{#- Show one random background photo (replaces WET's randomize plugin) -#}
+		<script>
+			(function () {
+				const imgs = document.querySelectorAll(".splash-bg img");
+				const pick = Math.floor(Math.random() * imgs.length);
+				imgs[0].hidden = true;
+				imgs[pick].hidden = false;
+			})();
+		</script>
 	</body>
 </html>

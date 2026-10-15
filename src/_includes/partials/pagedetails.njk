@@ -1,8 +1,5 @@
-{# Date modified component: https://wet-boew.github.io/GCWeb/sites/date-modified/date-modified-en.html #}
-<section class="pagedetails container">
-	<h2 class="wb-inv">{{ pagedetails[locale].pageDetailsHeading }}</h2>
-	<dl id="wb-dtmd">
-		<dt>{{ pagedetails[locale].dateModified }}</dt>
-		<dd><time property="dateModified">{{ page.date | postDate }}</time></dd>
-	</dl>
-</section>
+{# Date modified: https://design-system.canada.ca/en/components/date-modified/ #}
+<gcds-container tag="section" layout="page" class="pagedetails">
+  <h2 class="visibility-sr-only">{{ pagedetails[locale].pageDetailsHeading }}</h2>
+  <gcds-date-modified>{{ page.date | postDate }}</gcds-date-modified>
+</gcds-container>

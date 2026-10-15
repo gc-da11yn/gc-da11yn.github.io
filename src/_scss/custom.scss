@@ -1,55 +1,8 @@
-.a11y-standards-list {
-	list-style: none;
-
-	&>li {
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-
-	span {
-		margin-right: 15px;
-	}
+/* Page list link (pageListLink.njk): grey background */
+.page-list-link {
+	background-color: var(--gcds-bg-light);
 }
 
-
-// Added because GCWeb doesn't cover h2, blockquotes and li in the doormat styles
-.gc-drmt,
-.gc-srvinfo {
-
-	h2 {
-		font-size: 1em;
-		margin-bottom: 5px;
-		margin-top: 23px
-	}
-
-	li {
-		font-size: 17px;
-		line-height: 1.5em;
-	}
-
-	blockquote {
-		font-size: 17px;
-	}
-
-	footer {
-		font-size: 17px;
-	}
-
-}
-
-// Added because GCWeb doesn't cover links in well.header-rwd
-.well.header-rwd {
-	a {
-		color: #fff;
-
-		&:hover,
-		&:focus {
-			text-decoration: none;
-			color: #A0CCF8;
-		}
-	}
-
-}
 
 // Splash page styles
 
@@ -67,4 +20,299 @@
 	.splash .sp-hb {
 		width: 600px
 	}
+}
+
+/* GCDS: skip-to-nav styles (temporary until supported in GCDS) */
+gcds-header > nav[slot="skip-to-nav"] {
+	position: absolute;
+	inset-block-start: var(--gcds-header-skiptonav-top);
+	inline-size: 100%;
+	margin-inline: auto;
+	text-align: center;
+
+	a {
+		position: absolute;
+		inset-block-start: var(--gcds-spacing-0);
+		inset-inline: var(--gcds-spacing-0);
+		inline-size: fit-content;
+		margin-inline: auto;
+		z-index: 3;
+
+		&:not(:focus) {
+			block-size: var(--gcds-spacing-0);
+			inline-size: var(--gcds-spacing-0);
+			overflow: hidden;
+			clip-path: inset(50%);
+		}
+	}
+}
+
+/* Basic HTML version: only offer the switch that applies */
+.basic-html .skip-to-basic,
+:root:not(.basic-html) .skip-to-standard,
+:root:not(.basic-html) .basic-html-notice {
+	display: none;
+}
+
+/* GCDS: light notice on dark background */
+.dev-tags {
+	p {
+		margin-block: var(--gcds-spacing-0) var(--gcds-spacing-100);
+	}
+
+	gcds-notice {
+		--gcds-notice-text: var(--gcds-text-light);
+		--gcds-heading-role-primary: var(--gcds-text-light);
+		--gcds-heading-default-text: var(--gcds-text-light);
+	}
+}
+
+/* GCDS: tags */
+.dev-tag {
+	padding-block: var(--gcds-spacing-25);
+	color: var(--gcds-text-primary);
+
+	&.dev-tag--subject {
+		background-color: var(--gcds-color-green-100);
+		border-inline-start-color: var(--gcds-color-green-700);
+	}
+
+	&.dev-tag--tag {
+		background-color: var(--gcds-color-blue-100);
+		border-inline-start-color: var(--gcds-color-blue-600);
+	}
+
+	&.dev-tag--role {
+		background-color: var(--gcds-color-yellow-100);
+		border-inline-start-color: var(--gcds-color-yellow-700);
+	}
+
+	font-size: var(--gcds-font-sizes-text-small-mobile);}
+
+/* Page list table: keep dates on one line (no GCDS CSS shortcut for white-space) */
+.page-list-date {
+	white-space: nowrap;
+}
+
+/* Page list table: native fieldset matching gcds-checkboxes, spacing handled by gcds-grid gap */
+.page-list-fieldset {
+	--gcds-checkbox-margin: var(--gcds-spacing-0);
+	border: 0;
+	padding: 0;
+	margin: 0;
+	min-inline-size: auto;
+
+	legend {
+		float: none; // TRANSITION-ONLY: undoes WET's floated legend, remove with wetboewRuntime
+		inline-size: auto;
+		padding: 0;
+		margin-block-end: var(--gcds-spacing-150);
+		font: var(--gcds-checkbox-legend-font-mobile);
+
+		@media only screen and (width >= 48em) {
+			font: var(--gcds-checkbox-legend-font-desktop);
+		}
+	}
+}
+
+
+/* Images scale down to fit their container (replaces WET img-responsive) */
+img {
+	max-inline-size: 100%;
+	block-size: auto;
+}
+
+/* Office tip sheets navigation (replaces WET list-group) */
+.office-toc__item {
+	display: block;
+	block-size: 100%;
+	padding: var(--gcds-spacing-200);
+	border: var(--gcds-border-width-sm) solid var(--gcds-border-default);
+
+	&[aria-current="page"] {
+		color: var(--gcds-text-light);
+		background-color: var(--gcds-bg-primary);
+		border-color: var(--gcds-bg-primary);
+	}
+}
+
+/* Content tables (replaces WET table, table-bordered, table-striped) */
+main table:not(.wb-charts) {
+	inline-size: 100%;
+	margin-block-end: var(--gcds-spacing-400);
+	border-collapse: collapse;
+
+	th,
+	td {
+		padding: var(--gcds-spacing-150);
+		text-align: start;
+		vertical-align: top;
+		border: var(--gcds-border-width-sm) solid var(--gcds-border-default);
+	}
+
+	thead th {
+		background-color: var(--gcds-bg-light);
+	}
+
+	tbody tr:nth-child(even) {
+		background-color: var(--gcds-bg-light);
+	}
+
+	caption {
+		margin-block-end: var(--gcds-spacing-150);
+		font-weight: bold;
+		text-align: start;
+	}
+}
+
+/* Description list with terms beside definitions on wider screens (replaces WET dl-horizontal) */
+.dl-columns {
+	dt {
+		font-weight: bold;
+	}
+
+	dd {
+		margin-inline-start: 0;
+		margin-block-end: var(--gcds-spacing-150);
+	}
+
+	@media only screen and (width >= 48em) {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
+		column-gap: var(--gcds-spacing-300);
+	}
+}
+
+/* Link styled as a GCDS secondary button (native, so it works without JavaScript) */
+.button-link {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--gcds-spacing-100);
+	inline-size: var(--gcds-button-width);
+	padding: var(--gcds-button-padding);
+	font: var(--gcds-button-font-desktop);
+	text-decoration: none;
+	color: var(--gcds-button-secondary-default-text);
+	background-color: var(--gcds-button-secondary-default-background);
+	border: var(--gcds-button-border-width) solid currentColor;
+	border-radius: var(--gcds-button-border-radius);
+
+	&:visited:not(:focus) {
+		color: var(--gcds-button-secondary-default-text);
+	}
+
+	&:hover {
+		background-color: var(--gcds-button-secondary-hover-background);
+	}
+
+	&:active {
+		color: var(--gcds-button-shared-active-text);
+		background-color: var(--gcds-button-shared-active-background);
+	}
+
+	&:focus {
+		color: var(--gcds-button-shared-focus-text);
+		background-color: var(--gcds-button-shared-focus-background);
+		border-color: var(--gcds-button-shared-focus-background);
+		box-shadow: var(--gcds-button-shared-focus-box-shadow);
+		outline: var(--gcds-button-shared-focus-outline-width) solid var(--gcds-button-shared-focus-background);
+	}
+
+	@media only screen and (width < 48em) {
+		font: var(--gcds-button-font-mobile);
+	}
+}
+
+/* GCDS CSS shortcuts cap every paragraph at --gcds-text-character-limit; let paragraphs fill
+   their container like the rest of the content. Element specificity, so shortcut classes still win. */
+p {
+	max-width: none;
+}
+
+/* Content defaults for page content (Markdown and CMS): the CSS shortcuts reset every margin,
+   padding and list style. Scoped to .page-content in the layouts; :where() keeps it at element
+   specificity so shortcut classes (mb-0, list-none, ps-0) still win. */
+:where(.page-content) {
+	p,
+	ul,
+	ol,
+	dl,
+	blockquote,
+	figure,
+	pre {
+		margin-block-end: var(--gcds-spacing-300);
+	}
+
+	ul,
+	ol {
+		padding-inline-start: var(--gcds-spacing-500);
+	}
+
+	ul {
+		list-style: disc;
+	}
+
+	ol {
+		list-style: decimal;
+	}
+
+	ul ul {
+		list-style: circle;
+	}
+
+	li {
+		margin-block-end: var(--gcds-spacing-100);
+	}
+
+	li > ul,
+	li > ol {
+		margin-block: var(--gcds-spacing-100) var(--gcds-spacing-0);
+	}
+
+	dd {
+		margin-inline-start: var(--gcds-spacing-300);
+	}
+
+	blockquote {
+		padding-inline-start: var(--gcds-spacing-300);
+		border-inline-start: var(--gcds-border-width-lg) solid var(--gcds-border-default);
+	}
+}
+
+/* 404 page: "404 error" tag */
+.error-tag {
+	display: inline-block;
+	padding-block: var(--gcds-spacing-50);
+	padding-inline: var(--gcds-spacing-150);
+	font-size: var(--gcds-font-sizes-text-small);
+	font-weight: bold;
+	color: var(--gcds-text-primary);
+	background-color: var(--gcds-color-red-50);
+	border-inline-start: var(--gcds-border-width-lg) solid var(--gcds-danger-border);
+}
+
+// Splash page (/): full-screen background photo behind the language box
+.splash-bg img {
+	position: fixed;
+	inset: 0;
+	z-index: -1;
+	inline-size: 100%;
+	block-size: 100%;
+	object-fit: cover;
+}
+
+// Splash panel centred on the page; width from the GCDS docs splash page
+.splash-page {
+	min-block-size: 100dvh;
+}
+
+.splash-panel {
+	inline-size: 100%;
+	max-inline-size: 34rem;
+}
+
+// Wordmark at the GCDS footer's small size
+.splash-wordmark {
+	inline-size: var(--gcds-footer-sub-signature-sm-width);
+	max-block-size: var(--gcds-footer-sub-signature-sm-max-height);
 }

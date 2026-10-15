@@ -1,4 +1,4 @@
-<table id="dat-analytics" class="wb-charts wb-charts-bar table">
+<table id="dat-analytics"{% if wetboewRuntime %} class="wb-charts wb-charts-bar"{% endif %}>
 	<caption>{% if locale === "en" %}Website Analytics (last three months){% else %}Analyse du site web (trois derniers mois){% endif %}</caption>
 
 	<!-- Table header with months as column headers -->

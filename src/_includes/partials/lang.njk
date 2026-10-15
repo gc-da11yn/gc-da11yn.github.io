@@ -7,15 +7,7 @@
 {% else %}
 	{% set toggleUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
 {% endif %}
-<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
-	<h2 class="wb-inv">{{ header[locale].languageSelections }}</h2>
-	<ul class="list-inline mrgn-bttm-0">
-		<li>
-			<a lang="{{ otherLang }}" hreflang="{{ otherLang }}" href="{{ toggleUrl }}">
-				<span class="hidden-xs" translate="no">{{ otherLanguage }}</span>
-				<abbr title="{{ otherLanguage }}" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"> {{ otherLang }}</abbr>
-			</a>
-		</li>
-	</ul>
-</section>
+
+  <gcds-lang-toggle slot="toggle" href="{{ toggleUrl }}">
+  </gcds-lang-toggle>
 {% endif %}

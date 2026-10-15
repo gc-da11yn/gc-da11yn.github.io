@@ -65,13 +65,18 @@
 
 {% endif %}
 
-<div class="alert alert-warning">
+<gcds-notice
+	notice-role="warning"
+	notice-title-tag="h2"
+	notice-title="{% if locale === 'en' %}Topic pages are hidden{% else %}Les pages thématiques sont masquées{% endif %}"
+	class="mb-300"
+>
 	{% if locale === "en" %}
-		<p>The list of pages below <strong>does not list</strong> the topic pages. To add those disable the "Hide topic pages" checkbox.</p>
+		<p class="m-0">The list of pages below <strong>does not list</strong> the topic pages. To add those disable the "Hide topic pages" checkbox.</p>
 	{% else %}
-		<p>La liste des pages ci-dessous <strong>ne contient pas</strong> les pages thématiques. Pour les ajouter, désactivez la case à cocher "Cacher des pages de thèmes".</p>
+		<p class="m-0">La liste des pages ci-dessous <strong>ne contient pas</strong> les pages thématiques. Pour les ajouter, désactivez la case à cocher « Cacher des pages de thèmes ».</p>
 	{% endif %}
-</div>
+</gcds-notice>
 
 <div id="filteredAppsList" class="wb-tagfilter provisional wb-filter" data-wb-filter='{
 		"selector": "section",
@@ -118,7 +123,7 @@
 				{% else %}
 					{% if entry.data.tags %}
 						<section class="col-md-6" data-wb-tags="{{ entry.data.subject }} {{ entry.data.tags }}{% for items in isLanding[6] %}{% if items != "m" %} notLanding{% endif %}{% endfor %}">
-							<h2 class="h4"><a href="{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></h2>
+							<h2 class="h4"><a href="{{ pathPrefix }}{{ entry.url }}">{{ entry.data.title | striptags(true) | escape | nl2br }}</a></h2>
 							{% if settings.env == "local" %}
 								{% if entry.data.subject %}
 									<p><strong>subject{% if locale === "fr" %} {% endif %}:</strong> <span class="label label-success">{{ entry.data.subject }}</span></p>

@@ -34,7 +34,7 @@ toggle: Information and Communication Technology (<abbr>ICT</abbr>) Accessibilit
 - [Annexe - Références (de la norme EN 301 549)](#annexe---références-de-la-norme-en-301-549-en-anglais-seulement)
 - [Annexe – Définition des termes, symboles et abréviations](#annexe-définition-des-termes-symboles-et-abréviations-daprès-la-norme-en-301-549)
 
-<table class="table table-striped table-hover">
+<table>
 	<thead>
 		<tr>
 			<th>
@@ -8665,7 +8665,7 @@ REMARQUE : Bien que les hyperliens inclus dans cette clause soient valides au mo
 
 Les documents de référence suivants sont nécessaires à l'application du présent document.
 
-<ul class="list-unstyled">
+<ul class="list-none ps-0">
   <li><strong>[1]</strong> ETSI ETS 300 381 (Edition 1) (December 1994): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids".</li>
   <li><strong>[2]</strong> ETSI ES 200 381-1 (V1.2.1) (October 2012): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids Part 1: Fixed-line speech terminals".</li>
   <li><strong>[3]</strong> ETSI ES 200 381-2 (V1.1.1) (October 2012): "Telephony for hearing impaired people; Inductive coupling of telephone earphones to hearing aids; Part 2: Cellular speech terminals".</li>
@@ -8689,7 +8689,7 @@ REMARQUE : Bien que les hyperliens inclus dans cette clause soient valides au mo
 
 Les documents de référence suivants ne sont pas nécessaires pour l'application du présent document, mais ils aident l'utilisateur dans un domaine particulier.
 
-<ul class="list-unstyled">
+<ul class="list-none ps-0">
   <li><strong>[i.1]</strong> ANSI/IEEE C63.19 (2011): "American National Standard Method of Measurement of Compatibility between Wireless Communication Devices and Hearing Aids".</li>
   <li><strong>[i.2]</strong> ANSI/TIA-4965: "Receive volume control requirements for digital and analogue wireline terminals".</li>
   <li><strong>[i.3]</strong> European Commission M 376-EN: "Standardization Mandate to CEN, CENELEC and ETSI in support of European accessibility requirements for public procurement of products and services in the ICT domain".</li>

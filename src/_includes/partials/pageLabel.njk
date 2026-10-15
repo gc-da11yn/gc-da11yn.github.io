@@ -1,64 +1,66 @@
-<div class="bg-dark text-white mrgn-bttm-lg">
-	<section class="container">
-		{% if locale === "en" %}
-			<h2>Subjects, tags and roles</h2>
-		{% else %}
-			<h2>Sujets, étiquettes et rôles</h2>
-		{% endif %}
-		<div class="alert alert-warning">
-		{% if locale === "en" %}
-			<p class="text-white">This section is for development only and will not be visible on the live site.</p>
-		{% else %}
-			<p class="text-white">Cette section est réservée au développement et ne sera pas visible sur le site actuel.</p>
-		{% endif %}
-		</div>
-		<div class="row mrgn-bttm-lg">
-			<div class="col-md-4">
-				{% if subject %}
-					<p{% if locale === "fr" %} lang="en"{% endif %}>subject:</p>
-					<ul>
-						<li><span class="label label-success">{{ subject }}</span></li>
-					</ul>
-				{% else %}
-					{% if locale === "en" %}
-						<p>There is no "subject"</p>
-					{% else %}
-						<p>Il n'y a pas de "<span lang="en">subject</span>"</p>
-					{% endif %}
-				{% endif %}
-			</div>
-			<div class="col-md-4">
-				{% if tags %}
-					<p{% if locale === "fr" %} lang="en"{% endif %}>tags:</p>
-					<ul>
-						{% for item in tags %}
-							<li><span class="label label-info">{{ item }}</span></li>
-						{% endfor %}
-					</ul>
-				{% else %}
-					{% if locale === "en" %}
-						<p>There are no "tags"</p>
-					{% else %}
-						<p>Il n'y a pas de "<span lang="en">tags</span>"</p>
-					{% endif %}
-				{% endif %}
-			</div>
-			<div class="col-md-4">
-				{% if role %}
-					<p{% if locale === "fr" %} lang="en"{% endif %}>roles:</p>
-					<ul>
-						{% for item in role %}
-							<li><span class="label label-info">{{ item }}</span></li>
-						{% endfor %}
-					</ul>
-				{% else %}
-					{% if locale === "en" %}
-						<p>There are no "roles"</p>
-					{% else %}
-						<p>Il n'y a pas de "<span lang="en">rôles</span>"</p>
-					{% endif %}
-				{% endif %}
-			</div>
-		</div>
-	</section>
-</div>
+<gcds-container tag="section" layout="full" class="dev-tags bg-dark text-light mb-500">
+  <gcds-container layout="page" padding="300">
+    <h2 class="mt-0 mb-300 text-light">
+      {% if locale === "en" %}Subjects, tags and roles{% else %}Sujets, étiquettes et rôles{% endif %}
+    </h2>
+
+    <gcds-notice
+      notice-role="warning"
+      notice-title-tag="h3"
+      notice-title="{% if locale === 'en' %}Development only{% else %}Développement seulement{% endif %}"
+    >
+      <p>
+        {% if locale === "en" %}
+          This section is for development only and will not be visible on the live site.
+        {% else %}
+          Cette section est réservée au développement et ne sera pas visible sur le site actuel.
+        {% endif %}
+      </p>
+    </gcds-notice>
+
+    <gcds-grid columns="1fr" columns-tablet="1fr 1fr 1fr" gap="300" class="mt-300">
+      <div>
+        {% if subject %}
+          <p{% if locale === "fr" %} lang="en"{% endif %}>subject:</p>
+          <ul class="list-disc">
+            <li><span class="dev-tag dev-tag--subject d-inline-block px-100 bs-lg font-bold">{{ subject }}</span></li>
+          </ul>
+        {% elif locale === "en" %}
+          <p>There is no "subject"</p>
+        {% else %}
+          <p>Il n'y a pas de « <span lang="en">subject</span> »</p>
+        {% endif %}
+      </div>
+
+      <div>
+        {% if tags %}
+          <p{% if locale === "fr" %} lang="en"{% endif %}>tags:</p>
+          <ul class="list-disc">
+            {% for item in tags %}
+              <li><span class="dev-tag dev-tag--tag d-inline-block px-100 bs-lg font-bold">{{ item }}</span></li>
+            {% endfor %}
+          </ul>
+        {% elif locale === "en" %}
+          <p>There are no "tags"</p>
+        {% else %}
+          <p>Il n'y a pas de « <span lang="en">tags</span> »</p>
+        {% endif %}
+      </div>
+
+      <div>
+        {% if role %}
+          <p{% if locale === "fr" %} lang="en"{% endif %}>roles:</p>
+          <ul class="list-disc">
+            {% for item in role %}
+              <li><span class="dev-tag dev-tag--tag d-inline-block px-100 bs-lg font-bold">{{ item }}</span></li>
+            {% endfor %}
+          </ul>
+        {% elif locale === "en" %}
+          <p>There are no "roles"</p>
+        {% else %}
+          <p>Il n'y a pas de « <span lang="en">roles</span> »</p>
+        {% endif %}
+      </div>
+    </gcds-grid>
+  </gcds-container>
+</gcds-container>

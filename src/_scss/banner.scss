@@ -1,24 +1,16 @@
 // Banner styles
-$theme-color: #31393A;
 
 .banner {
-	background: no-repeat center center;
-	background-size: cover;
-	background-image: url("../img/banner.png");
-	margin-bottom: 25px;
+	background: url("../img/banner.png") center / cover no-repeat;
+	margin-block-end: var(--gcds-spacing-300);
 
-	.bg-gctheme.well.header-rwd {
-		background-color: $theme-color;
-		width: 90%;
+	.banner__box {
+		background-color: var(--gcds-bg-dark);
+		color: var(--gcds-text-light);
+		padding: var(--gcds-spacing-250);
 
-		@media (min-width: 768px) {
-			width: 75%;
-		}
-
-		h1 {
-			width: 100%;
-			font-weight: 500;
-			margin-top: 10px;
+		p {
+			margin-block: var(--gcds-spacing-0);
 		}
 	}
 }

@@ -60,7 +60,7 @@ The Direction on Information Communications Technologies Accessibility:
 - strongly encourages departments, agencies, and organizations to leverage the “[CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)](https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&utm_medium=email&utm_campaign=ICTstandard&utm_id=ICT+standard+adoption)” (CAN/ASC standard) when acquiring or developing internal-facing and external-facing ICT; and
 - provides further context as to why accessibility is important to the GC.
 
-<div class="well well-sm">
+<div class="bg-light p-200">
 
 **Note:** the CAN/ASC standard is a copy of the EN 301 549 v.3.2.1 (2021-03) [Harmonised European Standard Accessibility requirements for ICT products and services](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf).
 
@@ -148,7 +148,7 @@ departments and agencies are strongly encouraged to seek approval of the justifi
   - other key requirements.
 - require all suppliers of the ICT to submit an Accessibility Conformance Report (ACR) preferably using the Voluntary Product Accessibility Template ([VPAT<sup>®</sup>](https://www.itic.org/policy/accessibility/vpat)) or a comparable format and provide in an accessible format.
 
-<div class="well well-sm">
+<div class="bg-light p-200">
 
 **Note:** where the only ICT component are non-web documents only (e.g., Word, PowerPoint, PDF, etc.), requesting an ACR is not required. For further information on an ACR, please refer to [What information should an Accessibility Conformance Report (ACR) contain?](#what-information-should-an-accessibility-conformance-report-acr-contain)
 
@@ -186,13 +186,13 @@ departments and agencies are strongly encouraged to seek approval of the justifi
 
 ### Contracting Authorities are strongly encouraged to:
 
-{# This is in HTML due to the complicated lists inside lists with the `div class="well well-sm", #}
+{# This is in HTML due to the complicated lists inside lists with the `div class="bg-light p-200", #}
 
 <ul>
   <li>discuss with Business Owners if industry engagement is needed before starting an ICT-related procurement process (e.g., Request for Information with a draft Statement of Work). This work may help to assess market capacity to deliver a fully accessible ICT solution at contract award or if a phased approach is needed.</li>
   <li>ensure the solicitation and resulting contract have binding accessibility language and ICT requirements.</li>
   <li>ensure the solicitation and resulting contract include the Business Owner’s ICT requirements that can be generated from SSC’s Information and Communication Technology (ICT) Requirements Generator (Prototype) for the EN 301 549. The <a href="https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/">SSC tool currently generates the requirements from the EN 301 549 (2021)</a>.
-    <div class="well well-sm mrgn-tp-md">
+    <div class="bg-light p-200 mt-200">
       <p><strong>Note:</strong> Alternatively, they can provide a hyperlink to either the:</p>
       <ul>
         <li><a href="{{ pathPrefix }}/en/information-and-communication-technology-ict-accessibility-requirements/">Information and Communications Technology (ICT) Accessibility Requirements</a></li>
@@ -246,7 +246,7 @@ Suppliers may also consult:
 ### Tools and resources for the GC:
 
 - information available to the GC only:
-  - the SSC Accessible ICT Procurement Toolkit available at [<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>Procurement - GCpedia](https://www.gcpedia.gc.ca/wiki/Procurement/_Approvisionnement?setlang=en&uselang=en)
+  - the SSC Accessible ICT Procurement Toolkit available at [<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Internal link</span>Procurement - GCpedia](https://www.gcpedia.gc.ca/wiki/Procurement/_Approvisionnement?setlang=en&uselang=en)
 
 ### Tools and resources for the GC and externally:
 
@@ -332,17 +332,17 @@ In addition to the definitions below, you will find definitions helpful for unde
     <blockquote>
     <p>means the “extent to which products, systems, services, environments and facilities can be used by people from a population with the widest range of user needs, characteristics and capabilities, to achieve identified goals in identified contexts of use (from ISO 9241-11:2018 [i.15])”</p>
     </blockquote>
-    <div class="well well-sm">
+    <div class="bg-light p-200">
       <p><strong>Note 1:</strong> Context of use includes direct use or use supported by assistive technologies.</p>
-      <p><strong>Note 2:</strong> The context in which the ICT is used may affect its overall accessibility. This context could include other products and services with which the ICT may interact.<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup></p>
+      <p><strong>Note 2:</strong> The context in which the ICT is used may affect its overall accessibility. This context could include other products and services with which the ICT may interact.<sup id="fn1-rf"><a href="#fn1"><span class="visibility-sr-only">Footnote </span>1</a></sup></p>
     </div>
   </dd>
   <dt>Accessibility Conformance Report or ACR</dt>
-  <dd>means an unredacted report completed by a third-party or by the Supplier’s in-house accessibility specialist, that is based on the Voluntary Product Accessibility Template (VPAT<sup>®</sup>)<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Footnote </span>2</a></sup> or a comparable format, and details the test results of the ICT Solution against the applicable sections of the Accessibility Standard identified in the solicitation documents or, if no Accessibility Standard is specified, the EN 301 549.</dd>
+  <dd>means an unredacted report completed by a third-party or by the Supplier’s in-house accessibility specialist, that is based on the Voluntary Product Accessibility Template (VPAT<sup>®</sup>)<sup id="fn2-rf"><a href="#fn2"><span class="visibility-sr-only">Footnote </span>2</a></sup> or a comparable format, and details the test results of the ICT Solution against the applicable sections of the Accessibility Standard identified in the solicitation documents or, if no Accessibility Standard is specified, the EN 301 549.</dd>
   <dt>Accessibility Conformance Testing</dt>
   <dd>means the evaluation of a product or service to the requirements of a given standard, guideline or specification</dd>
   <dt>End-user</dt>
-  <dd>means the ultimate consumer of a finished product (good or service).<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Footnote </span>3</a></sup></dd>
+  <dd>means the ultimate consumer of a finished product (good or service).<sup id="fn3-rf"><a href="#fn3"><span class="visibility-sr-only">Footnote </span>3</a></sup></dd>
   <dt>Usability / User Testing / Disability inclusive user testing</dt>
   <dd>
     <p>means the process of conducting usability testing with people with disabilities. This step is an important part of the user experience design process. It ensures that a product or system:</p>
@@ -360,8 +360,8 @@ In addition to the definitions below, you will find definitions helpful for unde
   <dt>Information and Communication Technology (ICT)</dt>
   <dd>
     means “technology, equipment, or interconnected system or subsystem of equipment for which the principal function is the creation, conversion, duplication, automatic acquisition, storage, analysis, evaluation, manipulation, management, movement, control, display, switching, interchange, transmission, reception, or broadcast of data or information
-    <div class="well well-sm">
-      <strong>NOTE:</strong> Examples of ICT are web pages, electronic content, telecommunications products, computers and ancillary equipment, software including mobile applications, information kiosks and transaction machines, videos, IT services, and multifunction office machines which copy, scan, and fax documents.<sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Footnote </span>4</a></sup>
+    <div class="bg-light p-200">
+      <strong>NOTE:</strong> Examples of ICT are web pages, electronic content, telecommunications products, computers and ancillary equipment, software including mobile applications, information kiosks and transaction machines, videos, IT services, and multifunction office machines which copy, scan, and fax documents.<sup id="fn4-rf"><a href="#fn4"><span class="visibility-sr-only">Footnote </span>4</a></sup>
     </div>
   </dd>
 </dl>
@@ -383,28 +383,28 @@ The following information highlights some of the information which should be inc
 
 If users are not using the industry template, we recommend that you do further research to understand what constitutes a good quality ACR and what information you need to provide about the accessibility conformance of your solution.
 
-<aside class="wb-fnote" role="note">
+<aside role="note">
   <h2 id="fn">Footnotes</h2>
   <dl>
     <dt>Footnote 1</dt>
     <dd id="fn1">
       <p>Copied from the EN 301 549 V3.2.1 (2021-03), 3 Definition of terms, symbols and abbreviations, page 15</p>
-      <p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a></p>
+      <p><a href="#fn1-rf"><span class="visibility-sr-only">Return to footnote </span>1<span class="visibility-sr-only"> referrer</span></a></p>
     </dd>
     <dt>Footnote 2</dt>
     <dd id="fn2">
       <p>Copied from the Information Technology Industry Council (ITI) website <a href="https://www.itic.org/policy/accessibility/vpat">VPAT&reg; - Information Technology Industry Council (itic.org)</a></p>
-      <p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Return to footnote </span>2<span class="wb-inv"> referrer</span></a></p>
+      <p><a href="#fn2-rf"><span class="visibility-sr-only">Return to footnote </span>2<span class="visibility-sr-only"> referrer</span></a></p>
     </dd>
     <dt>Footnote 3</dt>
     <dd id="fn3">
       <p>Adopted from <a href="https://www.merriam-webster.com/dictionary/end%20user">End user Definition &amp; Meaning - Merriam-Webster</a></p>
-      <p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Return to footnote </span>3<span class="wb-inv"> referrer</span></a></p>
+      <p><a href="#fn3-rf"><span class="visibility-sr-only">Return to footnote </span>3<span class="visibility-sr-only"> referrer</span></a></p>
     </dd>
     <dt>Footnote 4</dt>
     <dd id="fn4">
       <p>Copied from the EN 301 549 V3.2.1 (2021-03), 3 Definition of terms, symbols and abbreviations, page 17</p>
-      <p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Return to footnote </span>4<span class="wb-inv"> referrer</span></a></p>
+      <p><a href="#fn4-rf"><span class="visibility-sr-only">Return to footnote </span>4<span class="visibility-sr-only"> referrer</span></a></p>
     </dd>
   </dl>
 </aside>

@@ -60,7 +60,7 @@ La [Direction relative à l’accessibilité des technologies de l’information
 - encourage fortement les ministères, les organismes et les organisations à s’inspirer de la norme « [CAN/ASC – EN 301 549:2024 Exigences d’accessibilité pour les produits et services TIC (EN 301 549:2021, IDT)](https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic) » (norme CAN/ASC) lorsqu’ils acquièrent ou développent des TIC internes et publiques;
 - fournit un contexte supplémentaire pour expliquer pourquoi l’accessibilité est importante pour le GC.
 
-<div class="well well-sm">
+<div class="bg-light p-200">
 
 **Remarque :** La norme CAN/ASC est une copie de la norme EN 301 549 v.3.2.1 (2021-03) <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">Norme européenne harmonisée – Exigences en matière d’accessibilité applicables aux produits et services liés aux TIC<small> (en anglais seulement)</small></a>.
 
@@ -148,7 +148,7 @@ les ministères et organismes sont fortement encouragés à obtenir l’approbat
   - d’autres exigences clés.
 - exiger que tous les fournisseurs des TIC présentent, dans un format accessible, un rapport de conformité de l’accessibilité (RCA), de préférence en utilisant le modèle volontaire d’accessibilité des produits (<a href="https://www.itic.org/policy/accessibility/vpat">VPAT<sup>®</sup><small> (en anglais seulement)</small></a>) ou un format comparable.
 
-<div class="well well-sm">
+<div class="bg-light p-200">
 
 **Remarque :** Lorsque la seule composante TIC est des documents non destinés au Web (p. ex., Word, PowerPoint, PDF, etc.), il n’est pas exigé de demander un RCA. Pour de plus amples renseignements sur le RCA, veuillez consulter Quels renseignements le rapport de conformité de l’accessibilité (RCA) devrait-il contenir?
 
@@ -186,13 +186,13 @@ les ministères et organismes sont fortement encouragés à obtenir l’approbat
 
 ### On encourage fortement les autorités contractantes à :
 
-{# This is in HTML due to the complicated lists inside lists with the `div class="well well-sm", #}
+{# This is in HTML due to the complicated lists inside lists with the `div class="bg-light p-200", #}
 
 <ul>
   <li>discuter avec les propriétaires fonctionnels de la nécessité d’un engagement industriel avant d’entamer un processus d’approvisionnement lié aux TIC (p. ex., une demande d’information accompagnée d’un projet d’énoncé des travaux). Ce travail peut aider à évaluer la capacité du marché à livrer une solution de TIC entièrement accessible au moment de l’attribution du contrat ou si une approche progressive est nécessaire;</li>
   <li>veiller à ce que la demande de soumissions et le contrat subséquent contiennent un langage d’accessibilité et des exigences en matière de TIC ayant force exécutoire;</li>
   <li>s’assurer que la demande de soumissions et le contrat subséquent incluent les exigences du propriétaire fonctionnel en matière de TIC qui peuvent être générées à partir du générateur (prototype) d’exigences en matière de technologies de l’information et des communications (TIC) de SPC pour la norme EN 301 549. <a href="https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/fr">L’outil de SPC génère actuellement les exigences de la norme EN 301 549 (2021)</a>.
-    <div class="well well-sm mrgn-tp-md">
+    <div class="bg-light p-200 mt-200">
       <p><strong>Remarque :</strong> Les autorités contractantes peuvent également fournir un lien hypertexte vers&nbsp;:</p>
         <ul>
           <li><a href="{{ pathPrefix }}/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/">les exigences d’accessibilité des technologies de l’information et des communications (TIC)</a></li>
@@ -246,7 +246,7 @@ Les fournisseurs peuvent également consulter :
 ### Outils et ressources pour le GC :
 
 - Renseignements mis uniquement à la disposition du GC :
-  - la Boîte à outils pour l’approvisionnement en TIC accessibles de SPC disponible à [<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>Approvisionnement – GCpedia](https://www.gcpedia.gc.ca/wiki/Procurement/_Approvisionnement?setlang=en&uselang=en).
+  - la Boîte à outils pour l’approvisionnement en TIC accessibles de SPC disponible à [<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Lien interne</span>Approvisionnement – GCpedia](https://www.gcpedia.gc.ca/wiki/Procurement/_Approvisionnement?setlang=en&uselang=en).
 
 ### Outils et ressources pour le GC et à l’externe :
 
@@ -332,17 +332,17 @@ En plus des définitions ci-dessous, vous trouverez des définitions utiles à l
     <blockquote>
       <p>signifie « degré selon lequel des produits, des systèmes, des services, des environnements et des installations peuvent être utilisés par des personnes issues d’une population ayant le plus large éventail possible de besoins, de caractéristiques et de capacités dans des contextes d’utilisation identifiés (de l’ISO 9241-11:2018 [i.15]).
     </blockquote>
-    <div class="well well-sm">
+    <div class="bg-light p-200">
       <p><strong>Remarque 1 :</strong> Le contexte d’utilisation comprend l’utilisation directe et l’utilisation assistée par des technologies d’assistance.</p>
-      <p><strong>Remarque 2 :</strong> Le contexte dans lequel la TIC est utilisée peut affecter son accessibilité générale. Ce contexte pourrait inclure d’autres produits et services avec lesquels la TIC peut interagir.»<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup>.</p>
+      <p><strong>Remarque 2 :</strong> Le contexte dans lequel la TIC est utilisée peut affecter son accessibilité générale. Ce contexte pourrait inclure d’autres produits et services avec lesquels la TIC peut interagir.»<sup id="fn1-rf"><a href="#fn1"><span class="visibility-sr-only">Note de bas de page </span>1</a></sup>.</p>
     </div>
   </dd>
   <dt>Rapports de conformité de l’accessibilité ou RCA</dt>
-  <dd>rapport non expurgé produit par un tiers ou par le spécialiste de l’accessibilité du fournisseur, qui est fondé sur le Modèle volontaire d’accessibilité des produits (VPAT<sup>®</sup>) ou un format comparable, et détaille les résultats des tests de la solution de TIC par rapport aux articles de la norme d’accessibilité indiquée dans les documents de demande de soumissions ou, si aucune norme d’accessibilité n’est précisée, de la norme EN 301 549<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Note de bas de page </span>2</a></sup>.</dd>
+  <dd>rapport non expurgé produit par un tiers ou par le spécialiste de l’accessibilité du fournisseur, qui est fondé sur le Modèle volontaire d’accessibilité des produits (VPAT<sup>®</sup>) ou un format comparable, et détaille les résultats des tests de la solution de TIC par rapport aux articles de la norme d’accessibilité indiquée dans les documents de demande de soumissions ou, si aucune norme d’accessibilité n’est précisée, de la norme EN 301 549<sup id="fn2-rf"><a href="#fn2"><span class="visibility-sr-only">Note de bas de page </span>2</a></sup>.</dd>
   <dt>Tests de conformité de l’accessibilité</dt>
   <dd>signifie evaluation d’un produit ou d’un service par rapport aux exigences d’une norme, d’une ligne directrice ou d’une spécification donnée.</dd>
   <dt>Utilisateur final</dt>
-  <dd>signifie le dernier utilisateur d’un produit fini (bien ou service)<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Note de bas de page </span>3</a></sup>.</dd>
+  <dd>signifie le dernier utilisateur d’un produit fini (bien ou service)<sup id="fn3-rf"><a href="#fn3"><span class="visibility-sr-only">Note de bas de page </span>3</a></sup>.</dd>
   <dt>Utilisabilité / tests d’utilisateur / tests d’utilisateur inclusifs à l’égard des personnes en situation de handicap</dt>
   <dd>
     <p>signifie le processus qui consiste à effectuer des tests d’utilisabilité auprès des personnes en situation de handicap. Cette étape est une partie importante du processus de conception de l’expérience utilisateur. Elle permet de s’assurer qu’un produit ou un système </p>:
@@ -360,8 +360,8 @@ En plus des définitions ci-dessous, vous trouverez des définitions utiles à l
   <dt>Technologie de l’information et des communications (TIC)</dt>
   <dd>
     signifie la « technologie, équipement ou encore système ou sous-système d’équipement interconnecté dont la principale fonction est la création, la conversion, la duplication, l’acquisition automatique, le stockage, l’analyse, l’évaluation, la manipulation, la gestion, le déplacement, le contrôle, l’affichage, la commutation, l’échange, la transmission, la réception ou la diffusion de données ou d’informations. »
-    <div class="well well-sm">
-      <strong>NOTE :</strong> Des exemples de TIC sont les pages Web, le contenu électronique, les produits de télécommunication, les ordinateurs et équipements auxiliaires, les logiciels, y compris les applications mobiles, les guichets d’information et machines de transaction, les vidéos, les services informatiques et les machines bureautiques multifonctions qui photocopient, numérisent et télécopient des documents.<sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Note de bas de page </span>4</a></sup>
+    <div class="bg-light p-200">
+      <strong>NOTE :</strong> Des exemples de TIC sont les pages Web, le contenu électronique, les produits de télécommunication, les ordinateurs et équipements auxiliaires, les logiciels, y compris les applications mobiles, les guichets d’information et machines de transaction, les vidéos, les services informatiques et les machines bureautiques multifonctions qui photocopient, numérisent et télécopient des documents.<sup id="fn4-rf"><a href="#fn4"><span class="visibility-sr-only">Note de bas de page </span>4</a></sup>
     </div>
   </dd>
 </dl>
@@ -383,28 +383,28 @@ Voici certains des renseignements qui devraient être inclus lors de l’utilisa
 
 Si les utilisateurs n’utilisent pas le modèle de l’industrie, nous vous recommandons de faire des recherches supplémentaires pour comprendre ce qui constitue un RCA de bonne qualité et quels renseignements vous devez fournir au sujet de la conformité de votre solution en matière d’accessibilité.
 
-<aside class="wb-fnote" role="note">
+<aside role="note">
 	<h2 id="fn">Notes de bas de page</h2>
 	<dl>
 		<dt>Note de bas de page 1</dt>
 		<dd id="fn1">
 			<p>Copié de la norme EN 301 549 V3.2.1 (2021-03), 3 Définition des termes, symboles et abréviations, page 15</p>
-			<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Retour à la référence de la note de bas de page </span>1</a></p>
+			<p><a href="#fn1-rf"><span class="visibility-sr-only">Retour à la référence de la note de bas de page </span>1</a></p>
 		</dd>
 		<dt>Note de bas de page 2</dt>
 		<dd id="fn2">
 			<p>Copié du site Web de l’Information Technology Industry Council (ITI) <a href="https://www.i<small> (en anglais seulement)</small>tic.org/policy/accessibility/vpat">VPAT<sup>®</sup> – Information Technology Industry Council (itic.org)</a>.</p>
-			<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Retour à la <span>première</span> référence de la note de bas de page </span>2</a></p>
+			<p><a href="#fn2-rf"><span class="visibility-sr-only">Retour à la <span>première</span> référence de la note de bas de page </span>2</a></p>
 		</dd>
 		<dt>Note de bas de page 3</dt>
 		<dd id="fn3">
 			<p>Traduction en français de la <a href="https://www.merriam-webster.com/dictionary/end%20user">définition en anglais d’utilisateur final dans le Merriam-Webster<small> (en anglais seulement)</small></a>.</p>
-			<p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Retour à la référence de la note de bas de page </span>3</a></p>
+			<p><a href="#fn3-rf"><span class="visibility-sr-only">Retour à la référence de la note de bas de page </span>3</a></p>
 		</dd>
 		<dt>Note de bas de page 4</dt>
 		<dd id="fn4">
 			<p>Copié de la norme EN 301 549 V3.2.1 (2021-03), 3 Définition des termes, symboles et abréviations, page 17</p>
-			<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Retour à la <span>première</span> référence de la note de bas de page </span>4</a></p>
+			<p><a href="#fn4-rf"><span class="visibility-sr-only">Retour à la <span>première</span> référence de la note de bas de page </span>4</a></p>
 		</dd>
 	</dl>
 </aside>

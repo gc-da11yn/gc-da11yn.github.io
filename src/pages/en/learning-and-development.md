@@ -7,7 +7,7 @@ tags:
   - main
 ---
 
-<div class="gc-srvinfo">
+<div>
 
 ## [CSPS Accessibility Learning Series (csps-efpc.gc.ca)](https://www.csps-efpc.gc.ca/accessibility-learning-eng.aspx)
 
@@ -17,15 +17,15 @@ This series includes links to foundational courses, videos, job aids, strategies
 
 ### Courses
 
-<div class="row wb-eqht">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### [Addressing Disability Inclusion and Barriers to Accessibility (INC115) (csps-efpc.gc.ca)](https://catalogue.csps-efpc.gc.ca/product?catalog=INC115&cm_locale=en)
 
 This online self-paced course challenges common assumptions and beliefs about people with disabilities and aims to shift the perspective from the impairment to the barrier. Participants will learn about the different barriers faced by people with disabilities and how to make their workplaces and the services they provide inclusive, accessible and barrier free.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### [Disability Management and Workplace Wellness (INC120) (csps-efpc.gc.ca)](https://catalogue.csps-efpc.gc.ca/product?catalog=INC120&cm_locale=en)
 
@@ -61,6 +61,6 @@ This online self-paced course outlines the disability management process for res
 
 ## Series of workshop, available on GcPedia
 
-- [GC Accessibility Training and Events (gcpedia.gc.ca)<span class="fas fa-external-link-square-alt mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/GC_Accessibility_Training_and_Events_/_Formation_et_événements_du_GC_sur_l'accessibilité?setlang=en&uselang=en)
+- [GC Accessibility Training and Events (gcpedia.gc.ca)<span class="fas fa-external-link-square-alt ms-50" aria-hidden="true"></span><span class="visibility-sr-only"> Internal link</span>](https://www.gcpedia.gc.ca/wiki/GC_Accessibility_Training_and_Events_/_Formation_et_événements_du_GC_sur_l'accessibilité?setlang=en&uselang=en)
 
 </div>

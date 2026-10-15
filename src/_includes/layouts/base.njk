@@ -9,50 +9,53 @@
 
 	<body vocab="http://schema.org/" typeof="WebPage">
 
-		{%- if archived -%}
-			{%- include "partials/archived.njk" -%}
-		{%- endif -%}
-
-		{% include "partials/skipnav.njk" %}
+		{#- Only shown in basic HTML mode (see head.njk), so nobody gets stuck in it -#}
+		<p class="basic-html-notice bg-light p-200 m-0 text-center">{{ skipnav[locale].basicNotice }} <a href="?wbdisable=false">{{ skipnav[locale].standardVersion }}</a></p>
 
 		{% include "partials/header.njk" %}
 
-		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+		<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" id="main">
 
 		{% block content %}
-
-			<div class="banner">
-				<div class="container p-0 p-sm-3">
-					<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
-						<h1 property="name" id="wb-cont">
-							{%- if archived -%}
-								{{ archiveStrings[locale].archivedTitle }}
-							{%- endif -%}
-							{{ title | safe }}
-						</h1>
-						{% if description %}
-						<p>{{ description | safe }}</p>
-						{% else %}
-						<p><strong>{{ landingPage[locale].descriptionNoneText }}</strong></p>
-						{% endif %}
-						{%- if role -%}
-						<hr />
-						<h2 class="h6">Related roles:</h2>
-						<ul class="list-inline">
-							{% for key in role %}
-							<li class="label label-success">
-								{{ roles.labels[locale][key] or key }}
-							</li>
-							{% endfor %}
-						</ul>
+			<gcds-container layout="full" class="banner">
+			  <gcds-container layout="page" padding="200">
+				<gcds-grid columns="1fr" columns-desktop="4fr 1fr" class="py-150">
+				  <div class="banner__box">
+					<h1 class="mt-0 mb-300 text-light" property="name">
+						{%- if archived -%}
+							{{ archiveStrings[locale].archivedTitle }}
 						{%- endif -%}
-					</div>
-				</div>
-			</div>
+						{{ title | safe }}
+					</h1>
+					{% if description %}
+					<p>{{ description | safe }}</p>
+					{% else %}
+					<p><strong>{{ landingPage[locale].descriptionNoneText }}</strong></p>
+					{% endif %}
+					{%- if role -%}
+					<hr />
+					<h2 class="font-size-h6">Related roles:</h2>
+					<ul class="list-none ps-0 d-flex flex-wrap gap-100">
+						{% for key in role %}
+						<li class="dev-tag dev-tag--subject d-inline-block px-100 bs-lg font-bold">
+							{{ roles.labels[locale][key] or key }}
+						</li>
+						{% endfor %}
+					</ul>
+					{%- endif -%}
+				  </div>
+				</gcds-grid>
+			  </gcds-container>
+			</gcds-container>
+
+			{%- if archived -%}
+			{%- include "partials/archived.njk" -%}
+			{%- endif %}
 
 			{% include "partials/alerts.njk" %}
 
-			<div class="container">
+			{#- "fullWidth: true" in front matter lets wide content (e.g. the page list table) use the full width. -#}
+			{% if fullWidth %}<gcds-container layout="full" class="px-300 pb-300">{% else %}<gcds-container layout="page" padding="300">{% endif %}
 				{% if officeTOC === true %}
 				{% include "partials/office-toc.njk" %}
 				{% include "partials/office365Notice.njk" %}
@@ -66,11 +69,13 @@
 				{% include "partials/onThisPage.njk" %}
 				{% endif %}
 
+				<div class="page-content">
 				{{ content | safe }}
+				</div>
 				{% if officeTOC === true %}
 				{% include "partials/office-toc.njk" %}
 				{% endif %}
-			</div>
+			</gcds-container>
 
 			{% include "partials/pagedetails.njk" %}
 
@@ -82,8 +87,11 @@
 		{% include "partials/footer.njk" %}
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+		{#- TRANSITION-ONLY: WET runtime only on pages with "wetboewRuntime: true" in front matter, until their behaviour is migrated. -#}
+		{% if wetboewRuntime %}
 		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
 		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+		{% endif %}
 
 		{%- if js === "chart" -%}
 

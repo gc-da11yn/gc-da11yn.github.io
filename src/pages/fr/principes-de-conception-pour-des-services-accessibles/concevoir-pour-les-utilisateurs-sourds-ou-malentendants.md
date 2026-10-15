@@ -12,10 +12,10 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 
 - <a href="{{ pathPrefix }}/docs/posters/Sourds-fr_2023.pdf" download>Concevoir pour les utilisateurs sourds ou malentendants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 70 <abbr title="kilo-octet">ko</abbr>)</a>
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> À faire
 
 - Écrire dans un langage clair
 - Utiliser des sous-titres ou fournir des transcriptions pour les vidéos
@@ -24,9 +24,9 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 - Laisser les utilisateurs choisir leur moyen de communication préféré lors des réservations
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Chose à ne pas faire
 
 - Utiliser des mots compliqués ou des figures de style
 - Mettre du contenu audio ou vidéo uniquement

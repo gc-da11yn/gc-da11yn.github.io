@@ -1,26 +1,25 @@
 {% if collections.aboutUs === undefined %}
 
 {% else %}
-<section class="container">
-	<h2>{{ about[locale].about }}</h2>
+<gcds-container tag="section" layout="page" padding="300">
+	<h2 class="mt-300 mb-300">{{ about[locale].about }}</h2>
 	<p>{{ about[locale].aboutPara }}</p>
-	<div class="row wb-eqht mrgn-tp-lg gc-srvinfo">
+	<gcds-grid columns="1fr" columns-desktop="1fr 1fr 1fr" gap="400" class="mt-300">
 		{% for item in collections.aboutUs | sort(false, false, 'data.title') | localeMatch(locale) %}
 		{# Only show pages with mainAbout: true #}
 		{% if item.data.mainAbout === true %}
-		<section class="col-md-4">
-			<h3><a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a></h3>
-			<p>
+		<section>
+			<h3 class="mt-0 mb-100"><a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a></h3>
+			<p class="font-size-text-small">
 			{% if item.data.description %}
 			{{ item.data.description }}
 			{% else %}
 			{{ landingPage[locale].descriptionNoneText }}
 			{% endif %}
-		</p>
+			</p>
 		</section>
 		{% endif %}
 		{% endfor %}
-	</div>
-</section>
-
+	</gcds-grid>
+</gcds-container>
 {% endif %}

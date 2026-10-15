@@ -15,11 +15,22 @@
 <script src="https://cdn.jsdelivr.net/combine/gh/ryersondmp/sa11y@{{sa11yVersion}}/dist/js/lang/{{locale}}.umd.js,gh/ryersondmp/sa11y@{{sa11yVersion}}/dist/js/sa11y.umd.min.js"></script>
 <script>
 Sa11y.Lang.addI18n(Sa11yLang{{ locale | capitalize }}.strings);
+/*
+ Ignores
+  - .gcds-footer__main: False positive: the gcds-footer main band has a background image, so Sa11y can't
+                        calculate contrast and flags its text as "unknown". The text is white on dark blue
+                        and passes. Uses the internal class because 'gcds-footer' can't reach inside its shadow DOM.
+                        Same issue exists with wet-boew
+  - img[src*="sig-blk-en.svg"]: Issue only exists on wet-boew, removed here
+  - #wb-srch-q: Issue only exists on wet-boew, removed here. gcds-search shows an expected placeholder warning;
+                it has a hidden label, so can be dismissed.
+*/
 const sa11y = new Sa11y.Sa11y({
   checkRoot: "body",
   developerChecksOnByDefault: true,
-  contrastIgnore: '.gc-main-footer',
-  imageIgnore: 'img[src*="sig-blk-en.svg"]',
-  containerIgnore: '#wb-srch-q',
+  contrastIgnore: '.gcds-footer__main',
+  imageIgnore: '',
+  containerIgnore: '',
+  autoDetectShadowComponents: true
 });
 </script>

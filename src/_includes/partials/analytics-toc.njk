@@ -2,7 +2,7 @@
 
 <section>
 	<h2>{{ onThisPage }}</h2>
-	<ul class="list-col-xs-2 list-col-md-3 lst-spcd-2">
+	<ul class="d-grid grid-cols-2 md:grid-cols-3 gap-x-400 gap-y-100">
 	{% for month, results in analytics %}
 		<li><a href="#{{ month }}">{{ month | formatYearMonth }}</a></li>
 	{% endfor %}

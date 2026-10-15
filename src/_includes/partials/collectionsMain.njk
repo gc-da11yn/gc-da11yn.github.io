@@ -1,16 +1,14 @@
-<div class="container">
-	<div class="row wb-eqht mrgn-tp-lg gc-srvinfo">
-		{% for item in collections.main | sort(false, false, 'data.title') | localeMatch(locale) %}
-		<div class="col-md-6">
-			<h3><a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a></h3>
-			<p>
-				{% if item.data.description %}
-				{{ item.data.description | safe }}
-				{% else %}
-				{{ landingPage[locale].descriptionNoneText }}
-				{% endif %}
-			</p>
-		</div>
-		{% endfor %}
+<gcds-grid columns="1fr" columns-desktop="1fr 1fr" gap="400" class="mt-300">
+	{% for item in collections.main | sort(false, false, 'data.title') | localeMatch(locale) %}
+	<div>
+		<h3 class="mt-0 mb-100"><a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a></h3>
+		<p>
+			{% if item.data.description %}
+			{{ item.data.description | safe }}
+			{% else %}
+			{{ landingPage[locale].descriptionNoneText }}
+			{% endif %}
+		</p>
 	</div>
-</div>
+	{% endfor %}
+</gcds-grid>

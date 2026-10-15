@@ -12,10 +12,10 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 
 - <a href="{{ pathPrefix }}/docs/posters/Malvoyants-fr_2023.pdf" download>Concevoir pour les utilisateurs malvoyants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 45 <abbr title="kilo-octet">ko</abbr>)</a>
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> À faire
 
 - Utiliser de bons contrastes de couleurs et une taille de police lisible
 - Publier toute l’information dans les pages web
@@ -24,9 +24,9 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 - Mettre les boutons et les notifications en contexte
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Chose à ne pas faire
 
 - Utiliser des contrastes de couleurs faibles et des polices de petite taille
 - Ensevelir l’information dans le contenu téléchargé

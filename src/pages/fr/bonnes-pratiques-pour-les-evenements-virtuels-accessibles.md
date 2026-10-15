@@ -218,7 +218,7 @@ Des mesures d’adaptation peuvent être nécessaires pour remplir les obligatio
 
 Les personnes qui sont sourdes, malentendantes ou qui maîtrisent la langue des signes peuvent avoir des difficultés avec les sous-titres écrits, car il s'agit de leur deuxième langue. L'interprétation en langue des signes améliore également l'expérience en transmettant l'intonation, l'émotion et des renseignements audio importants.
 
-- Pour réserver des services d'interprétation en langue des signes pour les conférences et événements du GC, veuillez consulter le site suivant : [Services d'interprétation en langues des signes – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/signe-sign-fra.html)
+- Pour réserver des services d'interprétation en langue des signes pour les conférences et événements du GC, veuillez consulter le site suivant : [Services d'interprétation en langues des signes – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/signe-sign-fra.html)
 
 ##### Traduction en temps réel des communications
 
@@ -235,8 +235,8 @@ Le sous-titrage permet aux personnes qui sont sourdes, qui ont subi une perte d�
 Les événements bilingues peuvent constituer un obstacle pour les personnes unilingues en situation de handicap. Pour garantir le plein accès, des traductions vocales simultanées sont nécessaires. Les sous-titres traduits ou le contenu à l'écran ne sont pas accessibles aux utilisateurs non visuels. Par conséquent, ils doivent attendre les changements de langue sans aucun stimulus et s'en remettre uniquement aux résumés des points de discussion dans leur langue.
 
 - Pour réserver des services de traduction simultanée pour les conférences et les événements du GC, veuillez consulter les sites suivants :
-  - Pour le français et l’anglais : [Services d'interprétation des conférences en langues officielles – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/officielle-official-fra.html);
-  - Pour les langues autochtones : [Services d'interprétation des conférences en langues autochtones – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/autochtones-indigenous-fra.html).
+  - Pour le français et l’anglais : [Services d'interprétation des conférences en langues officielles – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/officielle-official-fra.html);
+  - Pour les langues autochtones : [Services d'interprétation des conférences en langues autochtones – Services et outils linguistiques du Bureau de la traduction<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Lien interne</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/autochtones-indigenous-fra.html).
 
 **Remarque :** Ceci nécessite une plateforme virtuelle qui offre plusieurs canaux vocaux, un pour chaque langue. Lorsque le présentateur ne parle plus la langue du canal vocal, l'interprète affecté au canal vocal doit prononcer la traduction.
 
@@ -344,7 +344,7 @@ Un scénario pour l'hôte peut être très utile pour guider l'événement. En g
 
 Vous trouverez ci-dessous un exemple de modèle de scénario de discours d'ouverture que vous pouvez modifier à votre guise :
 
-<div class="well mrgn-tp-lg mrgn-bttm-lg">
+<div class="bg-light p-300 mt-400 mb-400">
 
 Bienvenue à notre **[nom de l'événement]** à propos de **[ajouter une courte description de l'événement]**. Je m'appelle **[dites votre nom]** et je serai votre hôte aujourd'hui. **[L'hôte devrait prendre le temps de [reconnaître les Premières Nations et les territoires traditionnels (consultez le guide)](https://www.caut.ca/fr/content/guide-de-reconnaissance-des-premieres-nations-et-des-territoires-traditionnels).]** Je vais d’abord aborder quelques points d’ordre administratif concernant l’événement virtuel d’aujourd’hui :
 
@@ -511,7 +511,7 @@ Dans la mesure du possible, nous recommandons ce qui suit :
 
 ##### Ressources supplémentaires pour l'organisateur
 
-- Apprendre à [créer des invitations bilingues à des événements <span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://163gc.sharepoint.com/sites/Collaboration/SitePages/fr/Invitations-a-des-reunions%20-bilingues.aspx)
+- Apprendre à [créer des invitations bilingues à des événements <span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Lien interne</span>](https://163gc.sharepoint.com/sites/Collaboration/SitePages/fr/Invitations-a-des-reunions%20-bilingues.aspx)
 - [Proposez des événements virtuels attrayants et accessibles avec Microsoft Teams et Microsoft 365 - Formation](https://learn.microsoft.com/fr-ca/training/paths/m365-virtual-events-fundamentals/)
 - [Bonnes pratiques pour la configuration et l’exécution d’une réunion Teams ou d’un événement en direct pour les sourds et malentendants](https://support.microsoft.com/fr-fr/office/bonnes-pratiques-pour-la-configuration-et-l-ex%C3%A9cution-d-une-r%C3%A9union-teams-ou-d-un-%C3%A9v%C3%A9nement-en-direct-pour-les-sourds-et-malentendants-6d5ff6ac-c6f3-434b-ac95-c6e2e15ff0ac)
 
