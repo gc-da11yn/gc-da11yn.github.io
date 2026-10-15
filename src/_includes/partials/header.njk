@@ -3,7 +3,7 @@
 {% set otherLanguage = "Français" if locale == "en" else
 	"English" %}
 <header>
-	<gcds-header lang="{{ locale }}" lang-href="" skip-to-href="#main">
+	<gcds-header lang="{{ locale }}" skip-to-href="#main">
 		{% include "partials/skipnav.njk" %}
 	    {% include "partials/lang.njk" %}
 		<gcds-search search-id="search" slot="search" action="https://canada.ca/{{ locale }}/sr/srb.html"

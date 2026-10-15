@@ -54,13 +54,13 @@
 	<!-- GC Design System CSS Shortcuts -->
 	<link
 	  rel="stylesheet"
-	  href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.2.0/dist/gcds-css-shortcuts.min.css"
+	  href="{{ pathPrefix }}/css/gcds-css-shortcuts.min.css"
 	/>
 
 	<!-- GC Design System -->
     <link
       rel="stylesheet"
-      href="https://cdn.design-system.canada.ca/@gcds-core/components@1.6.0/dist/gcds/gcds.css"
+      href="{{ pathPrefix }}/gcds/gcds.css"
     />
 
 	<!-- Site styles: after GCDS so they can build on it -->
@@ -81,7 +81,7 @@
         if (!basic) {
           var gcds = document.createElement("script");
           gcds.type = "module";
-          gcds.src = "https://cdn.design-system.canada.ca/@gcds-core/components@1.6.0/dist/gcds/gcds.esm.js";
+          gcds.src = "{{ pathPrefix }}/gcds/gcds.esm.js";
           document.head.appendChild(gcds);
         }
       })();

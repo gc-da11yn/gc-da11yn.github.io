@@ -21,4 +21,10 @@ module.exports = function (eleventyConfig) {
 
   // Copy Decap CMS admin files
   eleventyConfig.addPassthroughCopy({ "./src/admin": "admin" });
+
+  // Copy GC Design System files from npm (versions set in package.json)
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/@gcds-core/components/dist/gcds": "gcds",
+    "./node_modules/@gcds-core/css-shortcuts/dist/gcds-css-shortcuts.min.css": "css/gcds-css-shortcuts.min.css",
+  });
 };
