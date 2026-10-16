@@ -6,7 +6,7 @@ subject:
 tags:
   - procurement
 hasDocument:
-  filename: les_exigences_en_matière_daccessibilité_des_TIC_avec_sections_informatives.docx
+  filename: les_exigences_en_matière_daccessibilité_des_TIC_avec_sections_informatives.docx
   sizeNumber: 1
   sizeUnit: MB
   type: word
