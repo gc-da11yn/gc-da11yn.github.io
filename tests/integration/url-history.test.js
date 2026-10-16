@@ -104,9 +104,11 @@ permalink: "/${locale}/{{ title | stripTagsSlugify }}/"
     const output = await build();
     await build();
     const file = path.join(output, 'en/first/index.html');
+    const manifest = fs.readFileSync(path.join(output, MANIFEST), 'utf8');
     fs.writeFileSync(file, 'external edit');
     await expect(build()).rejects.toThrow(/externally changed/);
     expect(fs.readFileSync(file, 'utf8')).toBe('external edit');
+    expect(fs.readFileSync(path.join(output, MANIFEST), 'utf8')).toBe(manifest);
   });
 
   test('will not overwrite a passthrough asset with an old-URL redirect', async () => {
@@ -130,6 +132,35 @@ permalink: "/${locale}/{{ title | stripTagsSlugify }}/"
       .replace('src/pages/en/example.njk', 'src/pages/en/other.njk');
     fs.writeFileSync(path.join(root, 'src/pages/en/other.njk'), source);
     await expect(build()).rejects.toThrow(/collision/);
+  });
+
+  test('recovers after a post-render collision without deleting the output directory', async () => {
+    writePage('First');
+    const output = await build();
+    fs.copyFileSync(path.join(output, MANIFEST), baseline);
+    const unrelated = path.join(output, 'unrelated.txt');
+    fs.writeFileSync(unrelated, 'keep');
+    writePage('Second');
+    const otherFile = path.join(root, 'src/pages/en/other.njk');
+    fs.writeFileSync(otherFile,
+      fs.readFileSync(path.join(root, 'src/pages/en/example.njk'), 'utf8')
+        .replace('title: "Second"', 'title: "First"')
+        .replace('src/pages/en/example.njk', 'src/pages/en/other.njk'));
+
+    await expect(build()).rejects.toThrow(/collision/);
+    expect(fs.existsSync(path.join(output, MANIFEST))).toBe(false);
+    expect(fs.readFileSync(path.join(output, 'en/first/index.html'), 'utf8'))
+      .toContain('src/pages/en/other.njk');
+
+    fs.unlinkSync(otherFile);
+    writePage('First');
+    await expect(build()).resolves.toBe(output);
+    expect(fs.readFileSync(path.join(output, 'en/first/index.html'), 'utf8'))
+      .toContain('src/pages/en/example.njk');
+    expect(JSON.parse(fs.readFileSync(path.join(output, MANIFEST))).pages[0].url)
+      .toBe('/en/first/');
+    expect(fs.readFileSync(unrelated, 'utf8')).toBe('keep');
+    await expect(build()).resolves.toBe(output);
   });
 
   test('a return to the original title cleans stale local outputs without a redirect loop', async () => {

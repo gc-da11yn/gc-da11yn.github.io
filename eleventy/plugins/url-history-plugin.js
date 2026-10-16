@@ -30,6 +30,8 @@ module.exports = function urlHistoryPlugin(eleventyConfig) {
           removable.push(file);
         }
       }
+      // Rendering can fail after changing files, so the old hashes must not survive it.
+      fs.unlinkSync(localManifest);
       for (const file of removable) fs.unlinkSync(file);
     }
   });

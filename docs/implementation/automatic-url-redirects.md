@@ -143,7 +143,11 @@ links or change home-page/language-switch conventions.
   stale local output.
 - The output manifest includes SHA-256 ownership records. On a rebuild, only
   exact owned HTML files are removed before regeneration; externally changed
-  owned files cause an error. Unrelated files are not cleaned.
+  owned files cause an error. After all ownership checks pass, the old output
+  manifest is removed before cleanup and rendering. A failed build therefore
+  cannot leave stale hashes that block the next build after the source is fixed.
+  Successful builds write a fresh manifest; the published baseline is unchanged
+  by a local failure. Unrelated files are not cleaned.
 - Never reset `gh-pages` or publish an old artifact as a rollback without
   preserving the latest history. Rebuild the desired content against the latest
   manifest. Recover missing history from publication Git history, then rebuild.
@@ -167,7 +171,8 @@ HTML alone is insufficient.
 
 Implementation verification results:
 
-- Focused Jest command above: **29 tests passed**.
+- Focused Jest command above: **30 tests passed**, including recovery after a
+  post-render collision without deleting the output directory.
 - Normal and `PATH_PREFIX=toolkit` builds above: **passed**, importing 190 current
   published page identities.
 - Real Chrome: **passed** query/fragment preservation with JavaScript and
