@@ -254,7 +254,7 @@ Suppliers may also consult:
   - [Guidance on Digital Technologies Accessibility Regulations - Canada.ca](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/category-digital-technologies.html)
   - the [Digital Accessibility Toolkit]({{ pathPrefix }}/en/digital-accessibility-in-the-government-of-canada/) - an external facing website to:
     - [generate EN 301 549 (2021) requirements](https://2021-prod.ict-cio.ssc-spc.cloud-nuage.canada.ca/) that are relevant to the procurement; and
-    - [Accessibility remediation roadmap template]({{ pathPrefix }}/en/procurement/accessibility-remediation-roadmap-template-instructions/);
+    - [Accessibility Remediation Roadmap template]({{ pathPrefix }}/en/procurement/accessibility-remediation-roadmap-template-instructions/);
     - [Technical Summary of the EN 301 549 v3.2.1 (2021)]({{ pathPrefix }}/en/technical-summary-of-the-en-301-549-v321-2021/); and
     - review all relevant [EN 501 349 (2021) ICT accessibility requirements]({{ pathPrefix }}/en/information-and-communication-technology-ict-accessibility-requirements/) for ICT products and services;
     - reference other accessibility guidance including concerning document accessibility.

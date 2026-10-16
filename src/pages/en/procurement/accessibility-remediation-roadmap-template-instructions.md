@@ -1,5 +1,5 @@
 ---
-title: Accessibility remediation roadmap template
+title: Accessibility Remediation Roadmap template
 description: This Accessibility Remediation Roadmap template is designed primarily for use in procurements or projects where accessibility conformance is required to be reached over time. The template outlines the essential information the Government of Canada would expect in an Accessibility Remediation Roadmap to understand and address deficiencies listed in an Accessibility Conformance Report (ACR).
 layout: layouts/base.njk
 toggle: Le modèle de feuille de route pour la correction des problèmes d’accessibilité
@@ -16,7 +16,7 @@ hasDocument:
   filename: procurement-remediation-roadmap-template.docx
 ---
 
-## Purpose of the accessibility remediation roadmap template
+## Purpose of the Accessibility Remediation Roadmap template
 
 This Accessibility Remediation Roadmap (Roadmap) template has been developed by SSC to address known Information and Communication Technology (ICT) accessibility deficiencies. Government of Canada Technical Authorities / Business Owners can use this template as is, modify it, or decide not to use it.
 
@@ -34,7 +34,7 @@ This Accessibility Remediation Roadmap template is designed primarily for use in
 - Accessible Format: Both the Accessibility Conformance Report and the Accessibility Remediation Roadmap must be created in an accessible format.
 - Contractual Obligations: If this template is used to fulfill contractual requirements, ensure it is adapted to provide all required information as per the contract terms.
 
-## How to use the accessibility remediation roadmap template
+## How to use the Accessibility Remediation Roadmap template
 
 Inline Instructions
 
@@ -42,7 +42,7 @@ Inline Instructions
 - Follow these instructions to complete each section of the Accessibility Remediation Roadmap.
 - Remove the [instructions] once the section is complete.
 
-## Refer to Annex 1 - Sample Accessibility remediation roadmap details table
+## Refer to Annex 1 - Sample Accessibility Remediation Roadmap details table
 
 Refer to the provided sample [Annex 1 – Sample Accessibility Remediation Roadmap Details Table](#annex-1-sample-accessibility-remediation-roadmap-details-table) for guidance on how to structure and present known accessibility issues.
 
@@ -57,7 +57,7 @@ Refer to the provided sample [Annex 1 – Sample Accessibility Remediation Roadm
 
 [Action Item: Delete the Accessibility Remediation Roadmap Template Instructions section, including this line, once your document is complete.]
 
-## Accessibility remediation roadmap (roadmap) [action item – good / service name and version] – [action item – company name]
+## Accessibility Remediation Roadmap (roadmap) [action item – good / service name and version] – [action item – company name]
 
 ### Roadmap timeline
 
@@ -202,7 +202,7 @@ The intention for this section is to clearly communicate strategies to address t
 - **Remarks and Explanations – List all details and information applicable for the issue listed. Enter the required** justification for any issue with a status marked as “Will Not Fix” or “Blocked”.
 - **Temporary Workarounds - List any methods you know of that can help affected users temporarily work around the problem.**
 
-### Accessibility remediation roadmap details
+### Accessibility Remediation Roadmap details
 
 <table class="table table-bordered table-striped">
 <thead>
@@ -306,7 +306,7 @@ The Vendor agrees to remediate all identified ICT accessibility deficiencies out
 </tbody>
 </table>
 
-## Annex 1 – Sample accessibility remediation roadmap details table
+## Annex 1 – Sample Accessibility Remediation Roadmap details table
 
 [Action Item - Annex 1 – Sample Accessibility Remediation Roadmap Details Table– (Delete before issuing your template)
 
