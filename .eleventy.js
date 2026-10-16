@@ -22,6 +22,7 @@ const { stripHtml } = require('string-strip-html');
 const MarkdownPlugin = require('./eleventy/plugins/markdown-plugin');
 const FiltersPlugin = require('./eleventy/plugins/filters-plugin');
 const CollectionsPlugin = require('./eleventy/plugins/collections-plugin');
+const urlHistoryPlugin = require('./eleventy/plugins/url-history-plugin');
 
 // Legacy modular config (for backward compatibility during transition)
 const configurePassthrough = require('./eleventy/config/passthrough');
@@ -48,6 +49,7 @@ global.gitChangedUrls = [];
 const gitOperationsCache = new Map();
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(urlHistoryPlugin);
 
   // Phase 3: Performance timing for plugin architecture
   const configStart = performance.now();
