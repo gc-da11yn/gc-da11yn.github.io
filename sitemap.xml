@@ -157,16 +157,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca.</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca.</loc>
-		<lastmod>2025-06-06</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/404.html</loc>
 		<lastmod>2025-06-27</lastmod>
 	</url>
@@ -1497,16 +1487,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/accessibility-remediation-roadmap-template/</loc>
-		<lastmod>2025-11-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite/</loc>
-		<lastmod>2025-11-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/rendre-vos-courriels-accessibles/</loc>
 		<lastmod>2025-11-18</lastmod>
 	</url>
@@ -1538,16 +1518,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/digital-accessibility-in-the-government-of-canada/</loc>
-		<lastmod>2025-11-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/procurement/</loc>
-		<lastmod>2025-11-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/approvisionnement/</loc>
 		<lastmod>2025-11-18</lastmod>
 	</url>
 	
@@ -1587,11 +1557,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
-		<lastmod>2026-02-05</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
 		<lastmod>2026-02-05</lastmod>
 	</url>
@@ -1627,17 +1592,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
-		<lastmod>2026-04-28</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/guide-pour-linclusion-de-laccessibilite-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic/</loc>
-		<lastmod>2026-04-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
 		<lastmod>2026-04-28</lastmod>
 	</url>
 	
@@ -1664,5 +1619,60 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/documents-pdf-accessibles-dans-microsoft-365/</loc>
 		<lastmod>2026-10-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/information-and-communication-technology-ict-accessibility-requirements/</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca.</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca.</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca.</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca.</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/procurement/</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/approvisionnement/</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/guide-for-including-accessibility-in-information-and-communication-technology-ict-related-procurement/</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/accessibility-remediation-roadmap-template/</loc>
+		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite/</loc>
+		<lastmod>2026-10-16</lastmod>
 	</url>
 </urlset>
