@@ -1,5 +1,9 @@
 name: Deploy and Update Analytics
 
+concurrency:
+  group: pages-publication-${{ github.repository }}
+  cancel-in-progress: false
+
 on:
   push:
     branches:
