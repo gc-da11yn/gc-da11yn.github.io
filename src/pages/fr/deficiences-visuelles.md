@@ -12,6 +12,8 @@ toggle: Visual Impairments
 
 - <a href="{{ pathPrefix }}/docs/posters/Malvoyants-fr_2023.pdf" download>Concevoir pour les utilisateurs malvoyants (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 45 <abbr title="kilo-octet">ko</abbr>)</a>
 - [Concevoir pour les utilisateurs malvoyants (<abbr>HTML</abbr>)]({{ pathPrefix }}/fr/concevoir-pour-les-utilisateurs-malvoyants/)
+- <a href="{{ pathPrefix }}/docs/posters/RevuesDecran-fr_2023.pdf" download>Concevoir pour les utilisateurs de revues d’écran (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 53 <abbr title="kilo-octet">ko</abbr>)</a>
+- [Concevoir pour les utilisateurs de revues d’écran (<abbr>HTML</abbr>)]({{ pathPrefix }}/fr/concevoir-pour-les-utilisateurs-de-revues-decran/)
 
 ## Cécité
 
