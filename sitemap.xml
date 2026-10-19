@@ -467,11 +467,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/visual-impairments/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/web-accessibility-checklist/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
@@ -508,11 +503,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/deficiences-auditives/</loc>
-		<lastmod>2025-09-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/deficiences-visuelles/</loc>
 		<lastmod>2025-09-19</lastmod>
 	</url>
 	
@@ -1673,6 +1663,16 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/fr/liste-des-pages-tableau/</loc>
+		<lastmod>2026-10-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/visual-impairments/</loc>
+		<lastmod>2026-10-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/deficiences-visuelles/</loc>
 		<lastmod>2026-10-19</lastmod>
 	</url>
 </urlset>
