@@ -215,7 +215,7 @@ Spellcheck is automatically run on every pull request via GitHub Actions:
 - **Reporting**: Results appear in the PR Checks tab
 - **Output**: Source file paths are mapped from built HTML for developer-friendly error reporting
 
-When you create a PR, the spellcheck workflow will automatically validate your content changes and report any spelling errors with direct links to the source files.
+When you create a PR, the spellcheck workflow will automatically check your content changes and report spelling findings with direct links to the source files. Spelling findings alone do not fail the check; build failures and spellcheck execution errors still do. The complete log is uploaded as a workflow artifact.
 
 #### Building the site for testing locally
 
@@ -792,7 +792,7 @@ La vérification orthographique s'exécute automatiquement sur chaque demande de
 - **Signalement** : Les résultats apparaissent dans l'onglet Vérifications de la demande de tirage
 - **Sortie** : Les chemins des fichiers source sont mappés à partir du HTML généré pour une rapport d'erreurs convivial pour les développeurs
 
-Lorsque vous créez une demande de tirage, le flux de travail de vérification orthographique validera automatiquement les modifications de votre contenu et signalera les erreurs d'orthographe avec des liens directs vers les fichiers source.
+Lorsque vous créez une demande de tirage, le flux de travail de vérification orthographique vérifiera automatiquement les modifications de votre contenu et signalera les problèmes d'orthographe avec des liens directs vers les fichiers source. Les problèmes d'orthographe à eux seuls ne font pas échouer la vérification; les échecs de compilation et les erreurs d'exécution de la vérification orthographique la font toujours échouer. Le journal complet est téléversé comme artefact du flux de travail.
 
 #### Construire le site pour le tester localement
 
