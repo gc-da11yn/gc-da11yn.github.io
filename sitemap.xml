@@ -2,18 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/page-list-table/</loc>
-		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/page-list/</loc>
 		<lastmod>2023-11-27</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/liste-des-pages-tableau/</loc>
-		<lastmod>2023-12-01</lastmod>
 	</url>
 	
 	<url>
@@ -1674,5 +1664,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite/</loc>
 		<lastmod>2026-10-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/site-page-inventory/</loc>
+		<lastmod>2026-10-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/liste-des-pages-tableau/</loc>
+		<lastmod>2026-10-19</lastmod>
 	</url>
 </urlset>
