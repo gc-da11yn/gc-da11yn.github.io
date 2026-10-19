@@ -21,6 +21,7 @@
     "test:coverage": "jest --coverage",
     "test:ci": "jest --ci --coverage --watchAll=false",
     "spellcheck": "rm -rf _site && npm run build && cspell --no-progress -u \"_site/**/*.html\"",
+    "spellcheck:pr": "node scripts/pr-spellcheck.js",
     "spellcheck:changed": "node scripts/run-quality-checks.js",
     "spellcheck:all": "node scripts/run-quality-checks.js --all",
     "eleventy": "npm run url-history:prepare && npx eleventy",

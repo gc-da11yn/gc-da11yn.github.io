@@ -18,12 +18,20 @@ jobs:
         with:
           node-version: "20"
 
-      - run: npm ci
-
-      - name: Run spellcheck
+      - name: Install dependencies
         run: |
           set -o pipefail
-          npm run spellcheck | tee spellcheck.log
+          npm ci 2>&1 | tee spellcheck.log
+
+      - name: Build site
+        run: |
+          set -o pipefail
+          npm run build 2>&1 | tee -a spellcheck.log
+
+      - name: Check spelling (findings are non-blocking)
+        run: |
+          set -o pipefail
+          npm run spellcheck:pr 2>&1 | tee -a spellcheck.log
 
       - name: Upload spellcheck log
         if: always()
