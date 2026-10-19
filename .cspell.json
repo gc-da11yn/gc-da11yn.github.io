@@ -35,7 +35,8 @@
     "ignorePaths": [
         "node_modules",
         "_site/fr/liste-des-pages-tableau/index.html",
-        "_site/en/page-list-table/index.html"
+        "_site/en/page-list-table/index.html",
+        "_site/en/site-page-inventory/index.html"
     ],
     "ignoreRegExpList": [
         "^.*[&\\(\\[\\{].*$",
