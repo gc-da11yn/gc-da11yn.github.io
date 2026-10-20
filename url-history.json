@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": "485a79e34628a71b76b282875e4b5f740f99b8b7",
+  "revision": "69d4338cef20ed26458bb785513190693fb2e052",
   "pages": [
     {
       "source": "src/main/en/about-us/index.njk",
@@ -1906,40 +1906,12 @@
   ],
   "artifacts": [
     {
-      "file": "en/page-list/index.html",
-      "hash": "2be9b7c218fdd5dd35f12288a35249dca8aff73ccf8624c83328f6fe4486de2d"
-    },
-    {
-      "file": "en/pages-to-review/index.html",
-      "hash": "d6cd41776b0398094bd267a1043f3e4287424b109c95222583358767d2238a2a"
-    },
-    {
       "file": "en/site-page-inventory/index.html",
       "hash": "ce5bc0df63377b99adacc00f0ccf6fd6ab6b56b16862becba12bb8fbae0a82ff"
     },
     {
-      "file": "en/roles/administration/index.html",
-      "hash": "d47cfbef988463eea9bc4abd48a5b02a05367be1abd988aa3265a9d7926c949f"
-    },
-    {
-      "file": "en/roles/author/index.html",
-      "hash": "d616db8ff8aee211bcfa14aa35f535df81d355ed65a2b34981e6a241a5301578"
-    },
-    {
-      "file": "en/roles/business/index.html",
-      "hash": "5abc29d994daf0df5927ec1842d8873dd4dd73a7d0c4f967106cce8c426913ee"
-    },
-    {
-      "file": "en/roles/design/index.html",
-      "hash": "395d71177e9f04dcbdfba9d0b7120929a453f02303c61d162915f439dd5427f5"
-    },
-    {
-      "file": "en/roles/development/index.html",
-      "hash": "9e922442982b354eb7a3e47ff5fac21225d05e9adfbe218106bf44e876dd53c1"
-    },
-    {
-      "file": "en/roles/testing/index.html",
-      "hash": "edd808147c8f304fb46d58fc3d8dc61deea7db37beebab2ef84225aa0c9e6f96"
+      "file": "en/page-list/index.html",
+      "hash": "2be9b7c218fdd5dd35f12288a35249dca8aff73ccf8624c83328f6fe4486de2d"
     },
     {
       "file": "en/roles/backEndDev/index.html",
@@ -1994,12 +1966,68 @@
       "hash": "aac16e15e665913fcd65f5205246018cc0366e45379f5943c9bd5100b112b095"
     },
     {
+      "file": "en/pages-to-review/index.html",
+      "hash": "d6cd41776b0398094bd267a1043f3e4287424b109c95222583358767d2238a2a"
+    },
+    {
+      "file": "en/roles/administration/index.html",
+      "hash": "d47cfbef988463eea9bc4abd48a5b02a05367be1abd988aa3265a9d7926c949f"
+    },
+    {
+      "file": "en/roles/author/index.html",
+      "hash": "d616db8ff8aee211bcfa14aa35f535df81d355ed65a2b34981e6a241a5301578"
+    },
+    {
+      "file": "en/roles/business/index.html",
+      "hash": "5abc29d994daf0df5927ec1842d8873dd4dd73a7d0c4f967106cce8c426913ee"
+    },
+    {
+      "file": "en/roles/design/index.html",
+      "hash": "395d71177e9f04dcbdfba9d0b7120929a453f02303c61d162915f439dd5427f5"
+    },
+    {
+      "file": "en/roles/development/index.html",
+      "hash": "9e922442982b354eb7a3e47ff5fac21225d05e9adfbe218106bf44e876dd53c1"
+    },
+    {
+      "file": "en/roles/testing/index.html",
+      "hash": "edd808147c8f304fb46d58fc3d8dc61deea7db37beebab2ef84225aa0c9e6f96"
+    },
+    {
       "file": "fr/liste-des-pages-tableau/index.html",
       "hash": "6c48a685a3bf3f54f5d8bd72a823d5c877ab582b8c1f71f1a0a7b0cd3834d5fe"
     },
     {
+      "file": "fr/liste-des-pages/index.html",
+      "hash": "e34bfb7bce24d4537fc5373af5d4acdc9cebc55761ce2748cf53bfc21a2a3676"
+    },
+    {
       "file": "fr/pages-a-reviser/index.html",
       "hash": "59b0d82f2af1759b9109f02153e01b40ea07586521cca0ab448ae35a53d40cdf"
+    },
+    {
+      "file": "fr/roles/administration/index.html",
+      "hash": "36757122cd86d16cf65bd343ea81312588cb5652c6323bfba360f7569fb6cbc6"
+    },
+    {
+      "file": "fr/roles/author/index.html",
+      "hash": "59a213a9dcfdc3a4a3d43d67988675af07e376574d40299da7e77c0df590252a"
+    },
+    {
+      "file": "fr/roles/business/index.html",
+      "hash": "26a9100ccecf4ef19e5e75ed11fc8fdfcb8e3658e816d8bea25c9d29ed2324d6"
+    },
+    {
+      "file": "fr/roles/design/index.html",
+      "hash": "0a42b8174ebc99489afe15a3322265e425eb065118a7a3631df5322262807902"
+    },
+    {
+      "file": "fr/roles/development/index.html",
+      "hash": "3742c0186b59f478a9fb10fe66b79a99b48eda90aae21482bccbc60df18690e2"
+    },
+    {
+      "file": "fr/roles/testing/index.html",
+      "hash": "60478ffc913b4914950d937e236f0cbc8b1c542ebbaf51e8241c3c0519ff29f4"
     },
     {
       "file": "fr/roles/backEndDev/index.html",
@@ -2054,40 +2082,8 @@
       "hash": "ef61ca7fd8e0f44a43c8a41dae3dcdf7fab86fcdf567d16b63bf33323d5a99f0"
     },
     {
-      "file": "fr/liste-des-pages/index.html",
-      "hash": "e34bfb7bce24d4537fc5373af5d4acdc9cebc55761ce2748cf53bfc21a2a3676"
-    },
-    {
       "file": "en/additional-resources-on-accessible-meetings-and-events/index.html",
       "hash": "0ec9600d34d7d367c61c68bb10e029cc6c47cdad30c536c580eba21a86ecb911"
-    },
-    {
-      "file": "fr/roles/administration/index.html",
-      "hash": "36757122cd86d16cf65bd343ea81312588cb5652c6323bfba360f7569fb6cbc6"
-    },
-    {
-      "file": "fr/roles/author/index.html",
-      "hash": "59a213a9dcfdc3a4a3d43d67988675af07e376574d40299da7e77c0df590252a"
-    },
-    {
-      "file": "fr/roles/business/index.html",
-      "hash": "26a9100ccecf4ef19e5e75ed11fc8fdfcb8e3658e816d8bea25c9d29ed2324d6"
-    },
-    {
-      "file": "fr/roles/design/index.html",
-      "hash": "0a42b8174ebc99489afe15a3322265e425eb065118a7a3631df5322262807902"
-    },
-    {
-      "file": "fr/roles/development/index.html",
-      "hash": "3742c0186b59f478a9fb10fe66b79a99b48eda90aae21482bccbc60df18690e2"
-    },
-    {
-      "file": "fr/roles/testing/index.html",
-      "hash": "60478ffc913b4914950d937e236f0cbc8b1c542ebbaf51e8241c3c0519ff29f4"
-    },
-    {
-      "file": "en/alternative-text-and-long-description-best-practices/index.html",
-      "hash": "d0b0c23f1645cee7f57c362b5e91ff7b7184149f2384b7b6570b038f679e3319"
     },
     {
       "file": "en/accessibility-testing-101/index.html",
@@ -2102,16 +2098,16 @@
       "hash": "cfabb0b13c89c4fcc3ba2bc2f5baac7c33f2212f670142154552537a34d4baed"
     },
     {
+      "file": "en/best-practices-for-accessible-virtual-events/index.html",
+      "hash": "a0848b1d6410a5ee9f2d4a20ae331fde0294fce46279311f8cab915253b7870e"
+    },
+    {
       "file": "en/canada-school-of-public-service-csps/index.html",
       "hash": "7091333f5ee91e81be6285113046301cc11ac673fc2ea09b1ecf0ebf23c56aca"
     },
     {
-      "file": "en/designing-accessible-images/index.html",
-      "hash": "19cc4001f20c5fadbda5d083aa8af054da505184a5a2b70ad7f844298c4d0dcb"
-    },
-    {
-      "file": "en/employment-and-social-development-canada-esdc/index.html",
-      "hash": "838e26a23f542d7e00b8eea74a1719160a9c9e9710004bd1fe9d65a040deb0a2"
+      "file": "en/alternative-text-and-long-description-best-practices/index.html",
+      "hash": "d0b0c23f1645cee7f57c362b5e91ff7b7184149f2384b7b6570b038f679e3319"
     },
     {
       "file": "en/captioning-checklist/index.html",
@@ -2122,8 +2118,8 @@
       "hash": "1c92d01e592cc228afb579983cd59c27432716412050512218eadf62f6ba9893"
     },
     {
-      "file": "en/find-out-how-to-make-accessible-digital-forms/index.html",
-      "hash": "b982999602d279cf71735836361fe728de356562b7907a5028896a8e85fce5d1"
+      "file": "en/designing-accessible-images/index.html",
+      "hash": "19cc4001f20c5fadbda5d083aa8af054da505184a5a2b70ad7f844298c4d0dcb"
     },
     {
       "file": "en/dos-and-donts-for-developing-online-courses/index.html",
@@ -2134,36 +2130,36 @@
       "hash": "933445bb1a359016417051735e6bc9e0beef9f20d5d28d733f75b17b216ed4aa"
     },
     {
+      "file": "en/find-out-how-to-make-accessible-digital-forms/index.html",
+      "hash": "b982999602d279cf71735836361fe728de356562b7907a5028896a8e85fce5d1"
+    },
+    {
+      "file": "en/employment-and-social-development-canada-esdc/index.html",
+      "hash": "838e26a23f542d7e00b8eea74a1719160a9c9e9710004bd1fe9d65a040deb0a2"
+    },
+    {
       "file": "en/introduction-to-accessibility-requirements-for-audio-video/index.html",
       "hash": "2db7c78e22366223b52ea61dc504d000a438b58cdc15efdeed896f2d50a48a7d"
-    },
-    {
-      "file": "en/live-broadcast/index.html",
-      "hash": "aefc8db414933d324a9b3fd8daa589bf532fe7029ea6011943ba22a943c5392b"
-    },
-    {
-      "file": "en/language-of-audiovideo-content/index.html",
-      "hash": "c80efc4d72f59c40ecdccd3adf4074b0748bc4606deb9f96446c4ec2e1c59f8d"
     },
     {
       "file": "en/learning-and-development/index.html",
       "hash": "8a34e83cd49dbf07c33e15718627b79f94b1ea626bcd771a73ee07d20f1a0a2b"
     },
     {
-      "file": "en/mobility-flexibility-and-body-structure-disabilities/index.html",
-      "hash": "bc761441f601a080bae0e6bce240763d82b03ac9092a7faa3d465313ff7eac2f"
+      "file": "en/language-of-audiovideo-content/index.html",
+      "hash": "c80efc4d72f59c40ecdccd3adf4074b0748bc4606deb9f96446c4ec2e1c59f8d"
     },
     {
-      "file": "en/best-practices-for-accessible-virtual-events/index.html",
-      "hash": "a0848b1d6410a5ee9f2d4a20ae331fde0294fce46279311f8cab915253b7870e"
+      "file": "en/live-broadcast/index.html",
+      "hash": "aefc8db414933d324a9b3fd8daa589bf532fe7029ea6011943ba22a943c5392b"
+    },
+    {
+      "file": "en/making-accessible-emails/index.html",
+      "hash": "3747c224926d4640ecabc0e4001e622b4d77cf0f850a126af88e39470fbaa023"
     },
     {
       "file": "en/microsoft-document-compliance-checklist/index.html",
       "hash": "1b50488579c382dc0c423e6b8675aba4cd0dfa7f06a273749f48b169472f0f29"
-    },
-    {
-      "file": "en/statistics-canada-statcan/index.html",
-      "hash": "683bba026faed506a8fc828e7b2ce7547ed4df3f24e84f068a7fa8dc7dc84bdc"
     },
     {
       "file": "en/page-moved-or-deleted/index.html",
@@ -2174,36 +2170,52 @@
       "hash": "51aed4e405812b8f2f570f5f50d5a45f1449fb553c50c7e6aaafde193f372879"
     },
     {
+      "file": "en/pdf-accessibility-checklist/index.html",
+      "hash": "f501c5b20def0351c8a7f61228112ee12a12f41d4d6c70663c343a49eabc12c7"
+    },
+    {
       "file": "en/personas-with-disabilities-for-inclusive-user-experience-ux-design/index.html",
       "hash": "47570493dfb4eb4e014e593fe441596e564aaa36dd55a5758661c056d463b3d5"
     },
     {
-      "file": "en/the-structure-of-web-content-accessibility-guidelines-wcag-21/index.html",
-      "hash": "8e89279c032deade44324460b00634a70b28149b54fdb3cc6abd71cd6c0ce859"
+      "file": "en/mobility-flexibility-and-body-structure-disabilities/index.html",
+      "hash": "bc761441f601a080bae0e6bce240763d82b03ac9092a7faa3d465313ff7eac2f"
     },
     {
-      "file": "en/pdf-accessibility-checklist/index.html",
-      "hash": "f501c5b20def0351c8a7f61228112ee12a12f41d4d6c70663c343a49eabc12c7"
+      "file": "en/statistics-canada-statcan/index.html",
+      "hash": "683bba026faed506a8fc828e7b2ce7547ed4df3f24e84f068a7fa8dc7dc84bdc"
     },
     {
       "file": "en/targeted-engagement-draft-standard-on-information-and-communication-technology-ict-accessibility/index.html",
       "hash": "a4895dee802e61dff2b040cc6952f1d6b9dd123479a47d7050d1e7bdae393f8f"
     },
     {
-      "file": "en/making-accessible-emails/index.html",
-      "hash": "3747c224926d4640ecabc0e4001e622b4d77cf0f850a126af88e39470fbaa023"
-    },
-    {
       "file": "en/tips-for-creating-online-courses/index.html",
       "hash": "5261ea4d399d1b61d6be3aabf05a4e806136cd2b28173baae578e2a5a70552e0"
+    },
+    {
+      "file": "en/technical-summary-of-the-en-301-549-v321-2021/index.html",
+      "hash": "61100711eea76a110a7dbb13b162657bae462f5c93e02a4802541d0f506f9bfc"
+    },
+    {
+      "file": "en/transcript-checklist/index.html",
+      "hash": "f1963c1bbda8cbae1bbfb81685e0c40dc098218483266d7249cacf5cb730bd95"
+    },
+    {
+      "file": "en/the-structure-of-web-content-accessibility-guidelines-wcag-21/index.html",
+      "hash": "8e89279c032deade44324460b00634a70b28149b54fdb3cc6abd71cd6c0ce859"
     },
     {
       "file": "en/transcript-guidelines/index.html",
       "hash": "af5991d61024548f6e34f32ecc956814cc9953d3f79ae42ab5976c890343893d"
     },
     {
-      "file": "en/transcript-checklist/index.html",
-      "hash": "f1963c1bbda8cbae1bbfb81685e0c40dc098218483266d7249cacf5cb730bd95"
+      "file": "en/useful-links/index.html",
+      "hash": "f70b8bd7984d8003e7e13294ebc0e908fe08b3e37d5bf319edd71a312244a04e"
+    },
+    {
+      "file": "en/virtual-meeting-platforms-and-accessibility-features/index.html",
+      "hash": "e2e2ea9a7e4e6186dfa07607e58ee5dd986a1d78d334c9748e28163aef7f9ee9"
     },
     {
       "file": "en/universal-design-for-learning-udl/index.html",
@@ -2214,36 +2226,24 @@
       "hash": "3bd4c036abacd5cf01584992a4bbefb9044508fb7f2e458bd5a0140221cfc282"
     },
     {
-      "file": "en/technical-summary-of-the-en-301-549-v321-2021/index.html",
-      "hash": "61100711eea76a110a7dbb13b162657bae462f5c93e02a4802541d0f506f9bfc"
+      "file": "en/what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta/index.html",
+      "hash": "c95844f8ffa590bd71f5a2384bc4ab81de14ea187abb85e74f7bad8d6007c0ea"
     },
     {
-      "file": "en/useful-links/index.html",
-      "hash": "f70b8bd7984d8003e7e13294ebc0e908fe08b3e37d5bf319edd71a312244a04e"
+      "file": "fr/apprentissage-et-perfectionnement/index.html",
+      "hash": "3559ee5d6f262ba97bc0a0b2b67e4c8e39fde6929eaa08005f93aadeb212f7d1"
     },
     {
       "file": "en/web-accessibility-checklist/index.html",
       "hash": "c12d8c24389b44226cfae21273fb585a666d236214d65c7496c9b8d034674d78"
     },
     {
-      "file": "fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne/index.html",
-      "hash": "963884993a16baa494f50461753d81912e0321a729a52935e292b29ed77cc491"
-    },
-    {
-      "file": "en/what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta/index.html",
-      "hash": "c95844f8ffa590bd71f5a2384bc4ab81de14ea187abb85e74f7bad8d6007c0ea"
-    },
-    {
       "file": "fr/ameliorer-laccessibilite-des-formulaires/index.html",
       "hash": "53c61d898ebd3a4a864d5e07c832f91fe783676d1281c5c7e78540b6ef913a67"
     },
     {
-      "file": "en/virtual-meeting-platforms-and-accessibility-features/index.html",
-      "hash": "e2e2ea9a7e4e6186dfa07607e58ee5dd986a1d78d334c9748e28163aef7f9ee9"
-    },
-    {
-      "file": "fr/apprentissage-et-perfectionnement/index.html",
-      "hash": "3559ee5d6f262ba97bc0a0b2b67e4c8e39fde6929eaa08005f93aadeb212f7d1"
+      "file": "fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne/index.html",
+      "hash": "963884993a16baa494f50461753d81912e0321a729a52935e292b29ed77cc491"
     },
     {
       "file": "fr/concevoir-des-images-accessibles/index.html",
@@ -2258,20 +2258,20 @@
       "hash": "9ed39665fc490706b6816435f1032d917225c2a8ecf5b0cd360e8ba9ea9462eb"
     },
     {
-      "file": "fr/deficiences-auditives/index.html",
-      "hash": "9b9534feb86851969540f8cc7fb22757ddefddde3d0292e7be5c11b6928c0fa1"
+      "file": "fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/index.html",
+      "hash": "638f39c9fb0e7cf5d9e310a7a8e16b46da45a73ba72bbdca891369bb476ba734"
     },
     {
-      "file": "fr/diffusions-en-direct/index.html",
-      "hash": "29ee6dd58dc860da95fe0b7539d387a4b9cbc8833c882baaa2bec19d6f69d41a"
+      "file": "fr/deficiences-auditives/index.html",
+      "hash": "9b9534feb86851969540f8cc7fb22757ddefddde3d0292e7be5c11b6928c0fa1"
     },
     {
       "file": "fr/deficiences-visuelles/index.html",
       "hash": "d9ba346d174903f1da3a9df5ee574ce9e708ac6d00d43877663ff65dfd8ab259"
     },
     {
-      "file": "fr/directives-pour-la-transcription/index.html",
-      "hash": "5d0fe20e2cb527e7f51b7b7edab5b69889bd934cdedf1831777101ba77069d61"
+      "file": "fr/diffusions-en-direct/index.html",
+      "hash": "29ee6dd58dc860da95fe0b7539d387a4b9cbc8833c882baaa2bec19d6f69d41a"
     },
     {
       "file": "fr/directives-pour-la-description-sonore/index.html",
@@ -2282,12 +2282,12 @@
       "hash": "9b007d9f295de0f2270dccbbcdf98b72e32b3c79e0791236991997acc7a7328d"
     },
     {
-      "file": "fr/enregistrements/index.html",
-      "hash": "662ee408de21cbd02ead20f0945577f1d495f97a961eae8a40987d2f1d683a32"
+      "file": "fr/directives-pour-la-transcription/index.html",
+      "hash": "5d0fe20e2cb527e7f51b7b7edab5b69889bd934cdedf1831777101ba77069d61"
     },
     {
-      "file": "fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/index.html",
-      "hash": "638f39c9fb0e7cf5d9e310a7a8e16b46da45a73ba72bbdca891369bb476ba734"
+      "file": "fr/enregistrements/index.html",
+      "hash": "662ee408de21cbd02ead20f0945577f1d495f97a961eae8a40987d2f1d683a32"
     },
     {
       "file": "fr/emploi-et-developpement-social-canada-edsc/index.html",
@@ -2298,20 +2298,24 @@
       "hash": "7a27d9a4fb9677f38302a31f9df21ec2ba8b811afb3959f663861fd2af24e550"
     },
     {
+      "file": "fr/handicaps-cognitifs/index.html",
+      "hash": "6b8f353b042343d54832efd94165bc820e8ae9c28854b95379dc9e1925e256ee"
+    },
+    {
       "file": "fr/handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle/index.html",
       "hash": "a83d5cba2a7a88ceefc7ff7d237d993530df123a6f924adf57411587f6b8c1f0"
+    },
+    {
+      "file": "fr/la-structure-des-regles-pour-laccessibilite-des-contenus-web-wcag-21/index.html",
+      "hash": "3bd32b9e1dbf2a6509b83da9f3eece8ef32574d7f1ceaf405ec4cd5e55bb6468"
     },
     {
       "file": "fr/introduction-aux-exigences-daccessibilite-pour-laudio-video/index.html",
       "hash": "09a9008eba0e6091e6c3ccd524948ec08e0bde3c1b1d5a08860492e23018b03f"
     },
     {
-      "file": "fr/handicaps-cognitifs/index.html",
-      "hash": "6b8f353b042343d54832efd94165bc820e8ae9c28854b95379dc9e1925e256ee"
-    },
-    {
-      "file": "fr/la-structure-des-regles-pour-laccessibilite-des-contenus-web-wcag-21/index.html",
-      "hash": "3bd32b9e1dbf2a6509b83da9f3eece8ef32574d7f1ceaf405ec4cd5e55bb6468"
+      "file": "fr/liste-de-controle-des-transcriptions/index.html",
+      "hash": "f3aff9b9ff59f1434291c89362e37bd2f3fc4c6967f45819e4b8fae048b6600f"
     },
     {
       "file": "fr/langue-du-contenu-audiovideo/index.html",
@@ -2330,44 +2334,28 @@
       "hash": "99a5c786efa81aad06bffc32bfa5c9d9e4044ee4999f4898d903b893cdd1a0b3"
     },
     {
-      "file": "fr/liste-de-verification-de-laccessibilite-des-documents-pdf/index.html",
-      "hash": "cfc090b7c7b28914b349882137513ed652bf72a60bfa5a71b02ad359aa1e670d"
-    },
-    {
-      "file": "fr/liste-de-controle-des-transcriptions/index.html",
-      "hash": "f3aff9b9ff59f1434291c89362e37bd2f3fc4c6967f45819e4b8fae048b6600f"
-    },
-    {
       "file": "fr/liste-de-verification-pour-laccessibilite-web/index.html",
       "hash": "87c45dc802156b0aa3d05dc5b0e01528f010d6ca408dee69e79d7a6241799403"
-    },
-    {
-      "file": "fr/personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu/index.html",
-      "hash": "7a0e5656c8844ce9cca2ac556e42eb024812c71e54352ad6aa17535696fc53f5"
     },
     {
       "file": "fr/page-deplacee-ou-supprimee/index.html",
       "hash": "997ac0a639c191cb1080c1c5b77a13058f9f6ebdde61554e6558c3f55a9406b2"
     },
     {
-      "file": "fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic/index.html",
-      "hash": "7c4b85f18afd1d39dc684731f15292632591288836f226531ab77748cb0d8565"
+      "file": "fr/liste-de-verification-de-laccessibilite-des-documents-pdf/index.html",
+      "hash": "cfc090b7c7b28914b349882137513ed652bf72a60bfa5a71b02ad359aa1e670d"
     },
     {
       "file": "fr/plateformes-de-reunions-virtuelles-et-fonctionnalites/index.html",
       "hash": "d40be7bb701c5bc4f0f6386b0135b5efd33e895cc9e2d4d96f2e3ea8fe17d381"
     },
     {
-      "file": "fr/resume-technique-de-la-norme-en-301-549-v321-2021/index.html",
-      "hash": "935285429bfe138b4132e5cce8b10011053b1ec09ec8323c689fb8bbea084293"
+      "file": "fr/personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu/index.html",
+      "hash": "7a0e5656c8844ce9cca2ac556e42eb024812c71e54352ad6aa17535696fc53f5"
     },
     {
-      "file": "fr/rendre-vos-courriels-accessibles/index.html",
-      "hash": "0c3ebc2c0d02005a762e4203c227dee05f2f733259d9b6e02dd368dec7552964"
-    },
-    {
-      "file": "fr/statistique-canada-statcan/index.html",
-      "hash": "bb33ec59f9ba234b8e56d18365fc97a14a2c910b58d149b3bcbfc83ba2d17c8e"
+      "file": "fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic/index.html",
+      "hash": "7c4b85f18afd1d39dc684731f15292632591288836f226531ab77748cb0d8565"
     },
     {
       "file": "fr/ressources-additionnelles-sur-les-reunions-et-evenements-accessibles/index.html",
@@ -2378,40 +2366,52 @@
       "hash": "796b76303d5ccecf58d2fbdd46bf96787cc98a7c4e4fb91a85dcb5eb5b5ebcb4"
     },
     {
-      "file": "fr/texte-alternatif-et-description-longue-bonnes-pratiques/index.html",
-      "hash": "a3669fd3ceda2e9bee4d1d220212ae84fb8289369efd546d706650e2aa27937b"
+      "file": "fr/statistique-canada-statcan/index.html",
+      "hash": "bb33ec59f9ba234b8e56d18365fc97a14a2c910b58d149b3bcbfc83ba2d17c8e"
+    },
+    {
+      "file": "fr/resume-technique-de-la-norme-en-301-549-v321-2021/index.html",
+      "hash": "935285429bfe138b4132e5cce8b10011053b1ec09ec8323c689fb8bbea084293"
+    },
+    {
+      "file": "fr/rendre-vos-courriels-accessibles/index.html",
+      "hash": "0c3ebc2c0d02005a762e4203c227dee05f2f733259d9b6e02dd368dec7552964"
     },
     {
       "file": "fr/test-daccessibilite-101/index.html",
       "hash": "ac9ce4b43a8db4c56c9da11b5beeb213ff93d8688ed0f1d215d4dbd2ebe0be8a"
     },
     {
+      "file": "fr/texte-alternatif-et-description-longue-bonnes-pratiques/index.html",
+      "hash": "a3669fd3ceda2e9bee4d1d220212ae84fb8289369efd546d706650e2aa27937b"
+    },
+    {
       "file": "en/accessibility-fundamentals/index.html",
       "hash": "2d03e1d352aa46a1ccd1b610597b799e8babe42946ea1792abe404c72b3a50bc"
     },
     {
-      "file": "en/community-directory/index.html",
-      "hash": "9fa9a73dd3a077f1f41dff8080ef106f91d2b1544da475cc88c1fb5199452b67"
-    },
-    {
-      "file": "en/most-common-types-of-disability/index.html",
-      "hash": "b7c9609e9242ac34bb0c111abb77c7d812cfd7e4282cd2bae48e0d3a07777030"
-    },
-    {
-      "file": "en/digital-accessibility-in-the-government-of-canada/index.html",
-      "hash": "91e69a0cd8929113801daba39ec52bf2c64459ad30fb5705f158ba82cc1e3ff2"
+      "file": "en/about-us/index.html",
+      "hash": "1fb4ce2911321ed1ab0f3c584beb01eb18899e86522342548951227766e20a95"
     },
     {
       "file": "en/accessibility-standards/index.html",
       "hash": "7716aac97abaae4d9aa369f0573d923508cf5de84bb7be9d75ef915aeb255abd"
     },
     {
-      "file": "en/procurement/index.html",
-      "hash": "a349a3a9613ab65a21c27aa91213445cb2cf72fbf6f5245c8589f8e784d734b4"
+      "file": "en/most-common-types-of-disability/index.html",
+      "hash": "b7c9609e9242ac34bb0c111abb77c7d812cfd7e4282cd2bae48e0d3a07777030"
     },
     {
-      "file": "en/global-accessibility-standards/index.html",
-      "hash": "321ae6467a03086a2002ccbac699e0d68cd552920e8703cf9f8781121e021b53"
+      "file": "en/community-directory/index.html",
+      "hash": "9fa9a73dd3a077f1f41dff8080ef106f91d2b1544da475cc88c1fb5199452b67"
+    },
+    {
+      "file": "en/digital-accessibility-in-the-government-of-canada/index.html",
+      "hash": "91e69a0cd8929113801daba39ec52bf2c64459ad30fb5705f158ba82cc1e3ff2"
+    },
+    {
+      "file": "en/procurement/index.html",
+      "hash": "a349a3a9613ab65a21c27aa91213445cb2cf72fbf6f5245c8589f8e784d734b4"
     },
     {
       "file": "en/accessible-virtual-events/index.html",
@@ -2430,12 +2430,16 @@
       "hash": "840dcf63f3191461193c97098196b1f83559f017c11823012d6888c45189f9e5"
     },
     {
-      "file": "en/designing-accessible-services/index.html",
-      "hash": "d78a3ee8600e9d1823c63b3828878d8c9f2094dbbb707f74da0b9d18de9d1eef"
-    },
-    {
       "file": "en/design-a-course/index.html",
       "hash": "dad77e78ebe11ad5d7b205bb4c2baf3543c485fe2c324c86504230607211fe97"
+    },
+    {
+      "file": "en/tip-sheets-for-microsoft-office/index.html",
+      "hash": "e1ef6d9f6b1ec872bdc0ba76c4cbbc82d043e209712200244e95f427c822b317"
+    },
+    {
+      "file": "en/designing-accessible-services/index.html",
+      "hash": "d78a3ee8600e9d1823c63b3828878d8c9f2094dbbb707f74da0b9d18de9d1eef"
     },
     {
       "file": "en/how-tos/index.html",
@@ -2446,40 +2450,44 @@
       "hash": "403aec648ea383879b3eeb3c6d5506dc71d6a4ab4f58315c54a7a80821fdd6aa"
     },
     {
-      "file": "en/additional-resources/index.html",
-      "hash": "d2ba945a2141b83b00dcc15a6275ff28b62512a99ec9cdb8f04ab00f73856c99"
+      "file": "en/resources-and-tools/index.html",
+      "hash": "584c001c4fb194b099242a7acaa66310775cc3480965ecb7d23ed8da168de9d2"
     },
     {
-      "file": "en/tip-sheets-for-microsoft-office/index.html",
-      "hash": "e1ef6d9f6b1ec872bdc0ba76c4cbbc82d043e209712200244e95f427c822b317"
+      "file": "en/additional-resources/index.html",
+      "hash": "d2ba945a2141b83b00dcc15a6275ff28b62512a99ec9cdb8f04ab00f73856c99"
     },
     {
       "file": "en/tools/index.html",
       "hash": "ffa08cfb7495a668634b5d521969119bd7394c2b54196036dbe9a8cd6b996fae"
     },
     {
-      "file": "en/resources-and-tools/index.html",
-      "hash": "584c001c4fb194b099242a7acaa66310775cc3480965ecb7d23ed8da168de9d2"
+      "file": "en/roles/index.html",
+      "hash": "bfac159bd1c3e8acf3a379db3a82c018a2863f933355abe861e1d21b83e55ebb"
     },
     {
       "file": "fr/a-propos-de-nous/index.html",
       "hash": "5c91b8e092a2fb5491032609b9f6cddf4f06a19d5fee5baae76f4db3a3ffc93b"
     },
     {
-      "file": "en/resources/index.html",
-      "hash": "7152c795dba4b5c233191aaa4280305d0b6ef41301a950e1c108f07bae99ffb3"
-    },
-    {
       "file": "fr/approvisionnement/index.html",
       "hash": "72e1501cc4231e2b5e6cb77711568b25ca353cd2fd388e667722a192328711fb"
+    },
+    {
+      "file": "fr/repertoire-de-la-communaute/index.html",
+      "hash": "2c82506d50fce48fe2bd691a07dfc61f9c528210737d285653536c61fdec0a52"
     },
     {
       "file": "fr/accessibilite-numerique-au-gouvernement-du-canada/index.html",
       "hash": "5587ea73d9d2ad8a5e6325aedd95ec315b6b0113fb90444723401f8ea0e15c5c"
     },
     {
-      "file": "en/roles/index.html",
-      "hash": "bfac159bd1c3e8acf3a379db3a82c018a2863f933355abe861e1d21b83e55ebb"
+      "file": "en/resources/index.html",
+      "hash": "7152c795dba4b5c233191aaa4280305d0b6ef41301a950e1c108f07bae99ffb3"
+    },
+    {
+      "file": "en/global-accessibility-standards/index.html",
+      "hash": "321ae6467a03086a2002ccbac699e0d68cd552920e8703cf9f8781121e021b53"
     },
     {
       "file": "fr/normes-daccessibilite/index.html",
@@ -2490,52 +2498,44 @@
       "hash": "ce46d6fd2cfc265826ad3fa8387433ad9f27cec9c158673f2ae920268357b54c"
     },
     {
-      "file": "fr/concevoir-un-cours/index.html",
-      "hash": "af7e135d044f25e3de7105ced1238d4e3a00efc3d99cb452ee0bc143248fa0de"
+      "file": "fr/creer-un-formulaire/index.html",
+      "hash": "53134e00e9613787a742e8e2d587a52a28d7483e7e3bb2b6d1078dd08999d819"
     },
     {
-      "file": "fr/repertoire-de-la-communaute/index.html",
-      "hash": "2c82506d50fce48fe2bd691a07dfc61f9c528210737d285653536c61fdec0a52"
+      "file": "fr/concevoir-un-cours/index.html",
+      "hash": "af7e135d044f25e3de7105ced1238d4e3a00efc3d99cb452ee0bc143248fa0de"
     },
     {
       "file": "fr/evenements-virtuels-accessibles/index.html",
       "hash": "4bc4b3dc772c4162d5e4c1634946d3d2f051466dabaa31b8521f677e203dd9fd"
     },
     {
-      "file": "fr/creer-un-formulaire/index.html",
-      "hash": "53134e00e9613787a742e8e2d587a52a28d7483e7e3bb2b6d1078dd08999d819"
+      "file": "fr/fiches-de-conseils-pour-microsoft-office/index.html",
+      "hash": "fe8930a215162559fe104684f6229e8471de50af1659bf0bcaf1c18d5b0a6c96"
     },
     {
       "file": "fr/creer-un-document/index.html",
       "hash": "77b8de8163b9fead94006acc12a1873d4a21fb3da13d5d41b30c8c27d0a7e0d2"
     },
     {
-      "file": "fr/fiches-de-conseils-pour-microsoft-office/index.html",
-      "hash": "fe8930a215162559fe104684f6229e8471de50af1659bf0bcaf1c18d5b0a6c96"
-    },
-    {
-      "file": "fr/comment-faire/index.html",
-      "hash": "2cc04015157e03ee6d53eacba9fd0b07dbfc739c086ff855c35cc36618966659"
-    },
-    {
       "file": "fr/principes-de-conception-pour-des-services-accessibles/index.html",
       "hash": "0412bfdd4726c7ae1cb9d9f7d3239d711366802f13482a8d578b911e9f1b8898"
-    },
-    {
-      "file": "fr/testez-vos-produits/index.html",
-      "hash": "c957edc476a8a573eaf98bebdc2aadc9acf6bbaa394e5c5a1f75fd2d3a5079bc"
-    },
-    {
-      "file": "fr/normes-daccessibilite-mondiales/index.html",
-      "hash": "3cae2cdb4023c9b75f7c8e54ea2b22b4724da0cd51d74f193091802037373508"
     },
     {
       "file": "fr/principes-de-base-de-laccessibilite/index.html",
       "hash": "0b932fa56a34dcb48545c598d14d8093eb9116a20a2af47eaac4cc8530c0af98"
     },
     {
-      "file": "fr/ressources-et-outils/index.html",
-      "hash": "2b09cf2d0807838aa0049d2228530669cdace9724291384374dd1844934a45a1"
+      "file": "fr/normes-daccessibilite-mondiales/index.html",
+      "hash": "3cae2cdb4023c9b75f7c8e54ea2b22b4724da0cd51d74f193091802037373508"
+    },
+    {
+      "file": "fr/testez-vos-produits/index.html",
+      "hash": "c957edc476a8a573eaf98bebdc2aadc9acf6bbaa394e5c5a1f75fd2d3a5079bc"
+    },
+    {
+      "file": "fr/comment-faire/index.html",
+      "hash": "2cc04015157e03ee6d53eacba9fd0b07dbfc739c086ff855c35cc36618966659"
     },
     {
       "file": "fr/types-de-handicap-les-plus-courants/index.html",
@@ -2546,6 +2546,14 @@
       "hash": "bd86a52aab4b7c9e3bc8534dfed7ecb887c7678bbc25d28ff707cbf35753ad38"
     },
     {
+      "file": "fr/ressources-additionnelles/index.html",
+      "hash": "36f78e5825fcaebebd1d7a621ab1734d1f13b3ee08b26fbe62c5c7c6118c55f1"
+    },
+    {
+      "file": "fr/ressources-et-outils/index.html",
+      "hash": "2b09cf2d0807838aa0049d2228530669cdace9724291384374dd1844934a45a1"
+    },
+    {
       "file": "fr/ressources/index.html",
       "hash": "bb1befb227f34689d82b53a7cdb224d31b833277af22cda24a5549ee7682a218"
     },
@@ -2554,64 +2562,60 @@
       "hash": "e8cb15adae18e9c8546173ba78058c938bc24ba317dadeb00f9315fb95476eae"
     },
     {
-      "file": "fr/ressources-additionnelles/index.html",
-      "hash": "36f78e5825fcaebebd1d7a621ab1734d1f13b3ee08b26fbe62c5c7c6118c55f1"
-    },
-    {
-      "file": "en/designing-for-users-of-screen-readers/index.html",
-      "hash": "6f19bfb5fe7b9594cc786c0c02fd39e907a99041e9da132ffcbc52c694cbf04b"
-    },
-    {
-      "file": "en/designing-for-users-who-are-deaf-or-hard-of-hearing/index.html",
-      "hash": "11f34229424618088df38af016a5b9f2d45563e1180a10ad943ddfe594c8add7"
+      "file": "en/mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021/index.html",
+      "hash": "a7b67e4b80d1e9ae9f646f2c8bc5cb1ae971ca6444144abd038aa0e1a8161501"
     },
     {
       "file": "en/designing-for-users-on-the-autism-spectrum/index.html",
       "hash": "4440d7d53fdb791ede5afef284d804257a81840e4a019f66f39cf9f5146dbcf5"
     },
     {
-      "file": "en/designing-for-users-with-physical-or-motor-disabilities/index.html",
-      "hash": "083a9d1cb03e1c3012ca036f8befaa86689d4a0549d94937fc4aa0000be5de8b"
-    },
-    {
       "file": "en/designing-for-users-with-cognitive-disabilities/index.html",
       "hash": "0d0b96a637edb13580066d2ecf95d0aa2178f14a09d243990414fd4ebf59e25b"
+    },
+    {
+      "file": "en/designing-for-users-who-are-deaf-or-hard-of-hearing/index.html",
+      "hash": "11f34229424618088df38af016a5b9f2d45563e1180a10ad943ddfe594c8add7"
     },
     {
       "file": "en/designing-for-users-with-low-vision/index.html",
       "hash": "2af6b0aa827eab8d6df2c58e1bc35d0ca9d96ba21fa26bc2b1dde3c1ce6b1526"
     },
     {
-      "file": "en/mapping-between-revised-section-508-and-en-301-549-2014-2018-2019-and-2021/index.html",
-      "hash": "a7b67e4b80d1e9ae9f646f2c8bc5cb1ae971ca6444144abd038aa0e1a8161501"
+      "file": "en/designing-for-users-of-screen-readers/index.html",
+      "hash": "6f19bfb5fe7b9594cc786c0c02fd39e907a99041e9da132ffcbc52c694cbf04b"
     },
     {
-      "file": "fr/mise-en-correspondance-entre-larticle-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021/index.html",
-      "hash": "7176bfbb92edb38e999c242a52eda01e785923cc624e996cfaa1bd57f4a3b108"
-    },
-    {
-      "file": "fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/index.html",
-      "hash": "952b2d231a0d16996f1c94429ee906891939776b00e1e0f9ba6605d3ff615798"
-    },
-    {
-      "file": "fr/concevoir-pour-les-utilisateurs-malvoyants/index.html",
-      "hash": "6a8f2b3565821fdeb5f065020b8abd4bd9f4112d4cb24a02cebcc84791406cfa"
+      "file": "en/designing-for-users-with-physical-or-motor-disabilities/index.html",
+      "hash": "083a9d1cb03e1c3012ca036f8befaa86689d4a0549d94937fc4aa0000be5de8b"
     },
     {
       "file": "en/accessibility-remediation-roadmap-template/index.html",
       "hash": "7ead1b979e36119485bb8b243a78e2431bd1cd5165ca2a2b0937dd47550cc5a3"
     },
     {
-      "file": "fr/concevoir-pour-les-utilisateurs-de-revues-decran/index.html",
-      "hash": "0b063e913c1e561d7075e249516b82666468afacbfedeb4bdb7b35215e357711"
+      "file": "fr/mise-en-correspondance-entre-larticle-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021/index.html",
+      "hash": "7176bfbb92edb38e999c242a52eda01e785923cc624e996cfaa1bd57f4a3b108"
     },
     {
       "file": "fr/concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme/index.html",
       "hash": "d67f45227149fc00bd5ec76bcacd38236f0b5750994e79e7c02cd00104c104ff"
     },
     {
+      "file": "fr/concevoir-pour-les-utilisateurs-de-revues-decran/index.html",
+      "hash": "0b063e913c1e561d7075e249516b82666468afacbfedeb4bdb7b35215e357711"
+    },
+    {
+      "file": "fr/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur/index.html",
+      "hash": "952b2d231a0d16996f1c94429ee906891939776b00e1e0f9ba6605d3ff615798"
+    },
+    {
       "file": "fr/concevoir-pour-les-utilisateurs-sourds-ou-malentendants/index.html",
       "hash": "a331e44cf27ea7b7e2f90eb82ffca31df35eedcc033cf45ba44dd971a22e0314"
+    },
+    {
+      "file": "fr/concevoir-pour-les-utilisateurs-malvoyants/index.html",
+      "hash": "6a8f2b3565821fdeb5f065020b8abd4bd9f4112d4cb24a02cebcc84791406cfa"
     },
     {
       "file": "fr/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif/index.html",
@@ -2626,60 +2630,56 @@
       "hash": "864e9b8b3801f8ac3281664a7cf689a1cac723748ac00680fbf5c3806ae2a0aa"
     },
     {
-      "file": "en/website-usage-analytics/index.html",
-      "hash": "1c40fc74c6ebf71eb7c7d12a5d1f3158d5548493acb81bef1831e43afca07cb4"
-    },
-    {
-      "file": "fr/analytique-de-lutilisation-du-site-web/index.html",
-      "hash": "834717373fb2c6cfe0fd5ea6d7c25ad342f6eccf6b2947f6b0b4c4054f57d66f"
+      "file": "fr/le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite/index.html",
+      "hash": "4aa571d85ee6303c3682cbca20e9487b66f6984f8d8cdd52bd7b12b46accccc6"
     },
     {
       "file": "fr/analytique-de-lutilisation-du-site-web-2024/index.html",
       "hash": "ea6eaaddecfd2aa1de8699cb7d4f6ce96b11d56479de79ec04c92f9d5c6ca9a1"
     },
     {
+      "file": "en/website-usage-analytics/index.html",
+      "hash": "1c40fc74c6ebf71eb7c7d12a5d1f3158d5548493acb81bef1831e43afca07cb4"
+    },
+    {
       "file": "fr/analytique-de-lutilisation-du-site-web-visualisation-des-donnees/index.html",
       "hash": "2e56407f5cec03982d4f5c802a4730ed3486f18331a7919f8fbc69bd08e7cb5f"
+    },
+    {
+      "file": "fr/analytique-de-lutilisation-du-site-web/index.html",
+      "hash": "834717373fb2c6cfe0fd5ea6d7c25ad342f6eccf6b2947f6b0b4c4054f57d66f"
     },
     {
       "file": "en/contact-us/index.html",
       "hash": "4882701f934e457bb45d2423da03af1636e9d9f4e7c4c672aad4ad9fecbd1ba2"
     },
     {
-      "file": "fr/le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite/index.html",
-      "hash": "4aa571d85ee6303c3682cbca20e9487b66f6984f8d8cdd52bd7b12b46accccc6"
+      "file": "en/digital-accessibility-toolkit-project/index.html",
+      "hash": "2bbb9cd7181b1bcaa35dc5d27482f160660a1bcef74f48cc1f3ce9fe0e2430a5"
     },
     {
       "file": "en/terms-of-reference/index.html",
       "hash": "9e1823de34b96d7c080ea53a098aa627de8c1f827f9ac484d2067182bfea1ef1"
     },
     {
-      "file": "en/digital-accessibility-toolkit-project/index.html",
-      "hash": "2bbb9cd7181b1bcaa35dc5d27482f160660a1bcef74f48cc1f3ce9fe0e2430a5"
+      "file": "en/research-on-our-target-audience/index.html",
+      "hash": "5b4c4f63228144ad7e507b028ecea9ea1738a8041c750d42cac7e097ba8e812e"
     },
     {
       "file": "fr/contactez-nous/index.html",
       "hash": "2d7c44f81e98c3cb469401fb09d2cf65427b654fc46f0ae2c3a15c93d951e26d"
     },
     {
+      "file": "fr/recherche-sur-notre-audience/index.html",
+      "hash": "b51f08d319435a0e240d7a0393c9a62409b648cdd9f2dd3844bc954341db557e"
+    },
+    {
       "file": "fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique/index.html",
       "hash": "5c13aafab069b44412204be55db3019e0cc99ddcb4856692d068a2a2fa7a79b2"
     },
     {
-      "file": "en/research-on-our-target-audience/index.html",
-      "hash": "5b4c4f63228144ad7e507b028ecea9ea1738a8041c750d42cac7e097ba8e812e"
-    },
-    {
-      "file": "en/about-us/index.html",
-      "hash": "1fb4ce2911321ed1ab0f3c584beb01eb18899e86522342548951227766e20a95"
-    },
-    {
       "file": "fr/mandats/index.html",
       "hash": "223382c5a90d676d36aa9cec468f923ac4ffbf9e17e78adfe7f1c5371dd5d2bb"
-    },
-    {
-      "file": "en/tip-sheet-for-microsoft-word/index.html",
-      "hash": "4a5522b961124ac9039f0291033e51f8d7fed65bbf30291d919321ebd4e894c2"
     },
     {
       "file": "en/tip-sheet-for-microsoft-outlook/index.html",
@@ -2690,10 +2690,6 @@
       "hash": "4647939532ac31de3aaea8e52df8cbf5db51a8768fdce4928ab0a75bd690601c"
     },
     {
-      "file": "fr/recherche-sur-notre-audience/index.html",
-      "hash": "b51f08d319435a0e240d7a0393c9a62409b648cdd9f2dd3844bc954341db557e"
-    },
-    {
       "file": "fr/feuille-de-conseils-pour-microsoft-word/index.html",
       "hash": "9bed06380814a69e2b5ac7af04b0a6d0b60bff0312b4843beccf4bb6cb8f887d"
     },
@@ -2702,24 +2698,24 @@
       "hash": "b7a27052454707d884467fdc401a8cf38c3fdc79cfa30cc1142f4612ebfddb15"
     },
     {
-      "file": "fr/feuille-de-conseils-pour-la-presentation-microsoft-powerpoint/index.html",
-      "hash": "c0e34fd215f3019afafa593afe05f8a7dc60ba490b30846a6b9b6fa8fe6ab054"
+      "file": "en/tip-sheet-for-microsoft-word/index.html",
+      "hash": "4a5522b961124ac9039f0291033e51f8d7fed65bbf30291d919321ebd4e894c2"
     },
     {
-      "file": "en/how-to-create-accessible-documents-in-microsoft-365/index.html",
-      "hash": "0d69fbd301d7736310aa9b8ca82e29f485f1edf8e7d1b74e8c19b7044f732dbd"
+      "file": "fr/feuille-de-conseils-pour-la-presentation-microsoft-powerpoint/index.html",
+      "hash": "c0e34fd215f3019afafa593afe05f8a7dc60ba490b30846a6b9b6fa8fe6ab054"
     },
     {
       "file": "en/how-to-create-accessible-documents-in-office-2016/index.html",
       "hash": "96fbca6ab6e566a2ec9f52fb1dad1b8c8492cdeb53265b78b3a6d048992d6558"
     },
     {
-      "file": "en/accessible-excel-workbooks-in-office-2016/index.html",
-      "hash": "c0bfb3ffb17e5ba0c6dc008eec8ef4e825fa33135418ebed6b938033c8efd2f2"
+      "file": "en/how-to-create-accessible-documents-in-microsoft-365/index.html",
+      "hash": "0d69fbd301d7736310aa9b8ca82e29f485f1edf8e7d1b74e8c19b7044f732dbd"
     },
     {
-      "file": "en/accessible-pdf-documents-in-office-2016/index.html",
-      "hash": "86729065f2aba3cb0893ee07369f6f9eabf6fba561543c32e17fd01d7a51e6e2"
+      "file": "en/accessible-excel-workbooks-in-office-2016/index.html",
+      "hash": "c0bfb3ffb17e5ba0c6dc008eec8ef4e825fa33135418ebed6b938033c8efd2f2"
     },
     {
       "file": "fr/comment-creer-des-documents-accessibles-dans-office-2016/index.html",
@@ -2730,88 +2726,92 @@
       "hash": "ed79ad8dd9d23d93d9945e8c473b6cbe3a967778074e834ed7a2d942510f39bd"
     },
     {
-      "file": "en/accessible-visio-drawings-in-office-2016/index.html",
-      "hash": "92e101c0d9125554145342ac4b0e12ec851157ca183d410db8f6e605e24999fe"
+      "file": "en/accessible-pdf-documents-in-office-2016/index.html",
+      "hash": "86729065f2aba3cb0893ee07369f6f9eabf6fba561543c32e17fd01d7a51e6e2"
     },
     {
       "file": "en/accessible-word-documents-in-office-2016/index.html",
       "hash": "34fe02e21b3d2eb4e273e2503048c90e35035b7890dacd4222c44abc4f710f6a"
     },
     {
-      "file": "en/accessible-excel-workbooks-in-microsoft-365/index.html",
-      "hash": "8278c9b4446ff43ab5a3aea664d4331bbc489e88a1a4154465f11b82b14e49b4"
-    },
-    {
-      "file": "en/accessible-pdf-documents-in-microsoft-365/index.html",
-      "hash": "d9fac5566ead7c81f89b5e928a840c7529e082e119993f28c95388a0c2ffaa58"
-    },
-    {
-      "file": "en/accessible-visio-drawings-in-microsoft-365/index.html",
-      "hash": "4745d9d97362000241cd438dc9f296ede52cb87403de6dad55b7a349791b0843"
-    },
-    {
-      "file": "fr/classeurs-excel-accessibles-dans-office-2016/index.html",
-      "hash": "d7218a0ad84404688bd6b8acc2de2a319559bbec169eb11a4f567d1e1e8469db"
-    },
-    {
-      "file": "en/accessible-powerpoint-presentations-in-microsoft-365/index.html",
-      "hash": "0d3e505645f562570578565af8d1e15311785b4ab900517bf1165274dbf35291"
+      "file": "en/accessible-visio-drawings-in-office-2016/index.html",
+      "hash": "92e101c0d9125554145342ac4b0e12ec851157ca183d410db8f6e605e24999fe"
     },
     {
       "file": "en/accessible-powerpoint-presentations-in-office-2016/index.html",
       "hash": "951ba49ad4ff35931ace2c69d2b7da6ae674bf8def7ec811721712e6cf8d9945"
     },
     {
-      "file": "fr/documents-word-accessibles-dans-office-2016/index.html",
-      "hash": "32733c423b40c509e614d4af2120247e2e0735d0f186ef435ef175f16532bdca"
+      "file": "en/accessible-pdf-documents-in-microsoft-365/index.html",
+      "hash": "d9fac5566ead7c81f89b5e928a840c7529e082e119993f28c95388a0c2ffaa58"
     },
     {
-      "file": "fr/dessins-visio-accessibles-dans-office-2016/index.html",
-      "hash": "91fab8b13ffc649b4bc128824a010621be6ff3e001b498af5a0b4428ff04e3b9"
+      "file": "en/accessible-excel-workbooks-in-microsoft-365/index.html",
+      "hash": "8278c9b4446ff43ab5a3aea664d4331bbc489e88a1a4154465f11b82b14e49b4"
+    },
+    {
+      "file": "en/accessible-visio-drawings-in-microsoft-365/index.html",
+      "hash": "4745d9d97362000241cd438dc9f296ede52cb87403de6dad55b7a349791b0843"
     },
     {
       "file": "en/accessible-word-documents-in-microsoft-365/index.html",
       "hash": "63c220b303b6d1aa227c7116ca3e146131d036a9f929ff8fda1dfa6985755372"
     },
     {
-      "file": "fr/presentations-powerpoint-accessibles-dans-office-2016/index.html",
-      "hash": "667c780bfd15ec1663ece23a0df42f11a1f8c69c9ef1c95925b0c343eb82f583"
+      "file": "fr/dessins-visio-accessibles-dans-office-2016/index.html",
+      "hash": "91fab8b13ffc649b4bc128824a010621be6ff3e001b498af5a0b4428ff04e3b9"
+    },
+    {
+      "file": "en/accessible-powerpoint-presentations-in-microsoft-365/index.html",
+      "hash": "0d3e505645f562570578565af8d1e15311785b4ab900517bf1165274dbf35291"
+    },
+    {
+      "file": "fr/classeurs-excel-accessibles-dans-office-2016/index.html",
+      "hash": "d7218a0ad84404688bd6b8acc2de2a319559bbec169eb11a4f567d1e1e8469db"
     },
     {
       "file": "fr/documents-pdf-accessibles-dans-office-2016/index.html",
       "hash": "13bbfe19f583f5221440487fee4ab9737eca1c1e12058f23439f1d3e923e8bc3"
     },
     {
-      "file": "fr/documents-pdf-accessibles-dans-microsoft-365/index.html",
-      "hash": "86beea705a87e87aa2ea1315236f0a232bc9dd9afb2dbe4a0c6cdacd965a6b8b"
+      "file": "fr/documents-word-accessibles-dans-office-2016/index.html",
+      "hash": "32733c423b40c509e614d4af2120247e2e0735d0f186ef435ef175f16532bdca"
     },
     {
-      "file": "fr/classeurs-excel-accessibles-dans-microsoft-365/index.html",
-      "hash": "12630aae0a44ed7a9fca1f9879104375e2532e2a25247f8fbb092c24ab40f7ad"
-    },
-    {
-      "file": "fr/documents-word-accessibles-dans-microsoft-365/index.html",
-      "hash": "d8b88e683af61ce98374ca2e66bbd2c4a8f454d51c9a3edbc3b33b819f0a389d"
+      "file": "fr/presentations-powerpoint-accessibles-dans-office-2016/index.html",
+      "hash": "667c780bfd15ec1663ece23a0df42f11a1f8c69c9ef1c95925b0c343eb82f583"
     },
     {
       "file": "fr/dessins-visio-accessibles-dans-microsoft-365/index.html",
       "hash": "5de67a0f10792b1ce7c7c46db8b5bbb10a1088cc08eba487ad6ff84ee80ebff5"
     },
     {
-      "file": "fr/presentations-powerpoint-accessibles-dans-microsoft-365/index.html",
-      "hash": "88793c9ce5c5aff2e10adf0090013ab8dd0aac6029b6dcba143c6da334f02b46"
+      "file": "fr/classeurs-excel-accessibles-dans-microsoft-365/index.html",
+      "hash": "12630aae0a44ed7a9fca1f9879104375e2532e2a25247f8fbb092c24ab40f7ad"
     },
     {
-      "file": "fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/index.html",
-      "hash": "e0094e295a151f89e88ea8a14c83f8fdc405f7119e5ed5215022e203b5df4fc0"
+      "file": "fr/documents-pdf-accessibles-dans-microsoft-365/index.html",
+      "hash": "86beea705a87e87aa2ea1315236f0a232bc9dd9afb2dbe4a0c6cdacd965a6b8b"
+    },
+    {
+      "file": "fr/documents-word-accessibles-dans-microsoft-365/index.html",
+      "hash": "d8b88e683af61ce98374ca2e66bbd2c4a8f454d51c9a3edbc3b33b819f0a389d"
+    },
+    {
+      "file": "fr/presentations-powerpoint-accessibles-dans-microsoft-365/index.html",
+      "hash": "88793c9ce5c5aff2e10adf0090013ab8dd0aac6029b6dcba143c6da334f02b46"
     },
     {
       "file": "en/information-and-communication-technology-ict-accessibility-requirements/index.html",
       "hash": "2dd656314e3deea3f3fd38486fcacc4bd8012058e5b20127486539b52a21bf2e"
     },
     {
+      "file": "fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/index.html",
+      "hash": "e0094e295a151f89e88ea8a14c83f8fdc405f7119e5ed5215022e203b5df4fc0"
+    },
+    {
       "file": "en/index.html",
-      "hash": "a055e3ec897978992fa0ce2858069a2bd88c6a61752357ea0dbbfc03b983d48f"
+      "hash": "c1a90c5f0268d73fbe734703549c0a64a6b797aabed792d5a762b63846cccb97"
     },
     {
       "file": "fr/index.html",
