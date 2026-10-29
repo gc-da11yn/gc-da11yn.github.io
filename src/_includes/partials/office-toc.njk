@@ -28,26 +28,22 @@
     {% else %}
         {% set tryText = "Besoin de la version " + otherVersion + " ? Essayez" %}
     {% endif %}
-    <div class="gc-stp-stp">
-        <div class="toc row mrgn-tp-lg">
-            <ul class="wb-eqht-grd">
-                <li class="col-md-4 col-sm-6"><a class="list-group-item{% if page.url === indexURL %} active{% endif %}"{% if page.url===indexURL %} aria-current="page"{% endif %}{% if page.url !=indexURL %} href="{{ pathPrefix }}{{ indexURL }}"{% endif %}>{{ indexTitle }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"> {{ inOffice }} {{ version }}</small></a></li>
-                {% for item in collections | localeMatch(locale) %}
-                    {% set title = item.data.title %}
-                    <li class="col-md-4 col-sm-6" {% if page.url==item.url %} aria-current="page" {% endif %}><a class="list-group-item{% if page.url == item.url %} active{% endif %}"{% if page.url !=item.url %} href="{{ pathPrefix }}{{ item.url }}"{% endif %}>
-                        {% if item.data.fontIcon %}
-                            <i class="fas fa-lg {{ item.data.fontIcon }}" aria-hidden="true"></i>
-                        {% endif %}
-                        {{ title | replace(inOffice + " " + version, "") }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block">{{ inOffice }} {{ version }}</small></a></li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
+    <nav aria-label="{{ indexTitle }} {{ inOffice }} {{ version }}" class="mt-400 mb-400">
+        <ul class="office-toc d-grid sm:grid-cols-2 lg:grid-cols-3 gap-200 list-none ps-0 mb-0">
+            <li>{% if page.url === indexURL %}<span class="office-toc__item" aria-current="page">{% else %}<a class="office-toc__item" href="{{ pathPrefix }}{{ indexURL }}">{% endif %}{{ indexTitle }} <small class="d-block">{{ inOffice }} {{ version }}</small>{% if page.url === indexURL %}</span>{% else %}</a>{% endif %}</li>
+            {% for item in collections | localeMatch(locale) %}
+                {% set title = item.data.title %}
+                <li>{% if page.url == item.url %}<span class="office-toc__item" aria-current="page">{% else %}<a class="office-toc__item" href="{{ pathPrefix }}{{ item.url }}">{% endif %}
+                    {% if item.data.fontIcon %}<i class="fas fa-lg {{ item.data.fontIcon }} me-50" aria-hidden="true"></i>{% endif %}
+                    {{ title | replace(inOffice + " " + version, "") }} <small class="d-block">{{ inOffice }} {{ version }}</small>{% if page.url == item.url %}</span>{% else %}</a>{% endif %}</li>
+            {% endfor %}
+        </ul>
+    </nav>
 
-    <div class="well">
+    <div class="bg-light p-300 mb-400">
         {% set versionSlug = version | slugify %}
         {% set otherVersionSlug = otherVersion | slugify %}
-        <p class="mrgn-tp-md">{{ tryText }} <a href="{{ pathPrefix }}{{ page.url | replace(versionSlug,otherVersionSlug) }}">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
+        <p class="mb-0">{{ tryText }} <a href="{{ pathPrefix }}{{ page.url | replace(versionSlug,otherVersionSlug) }}">{{ title | replace(inOffice + " " + version,"") }}<small><strong> {{ inOffice }} {{ otherVersion }}</strong></small></a></p>
     </div>
 
 {% endif %}

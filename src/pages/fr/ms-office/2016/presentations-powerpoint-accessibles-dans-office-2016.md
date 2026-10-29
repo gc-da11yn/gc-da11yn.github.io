@@ -9,10 +9,8 @@ fontIcon: fa-file-powerpoint
 
 La suite Microsoft Office (Word, Excel, PowerPoint) comporte un programme intégré de vérification de l’accessibilité. Le vérificateur ne détecte pas tous les problèmes, mais recherche des éléments comme les textes de remplacement manquants, les titres de diapositive en double et les problèmes potentiels d'ordre de lecture.
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/powerpoint-01.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office2016/powerpoint-01.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
 </div>
 
 Comment utiliser le vérificateur d'accessibilité&nbsp;:
@@ -115,10 +113,8 @@ Les présentations PowerPoint comportent généralement des images. Les images o
 5. Saisissez un texte de remplacement pertinent dans la case **Description**.
 6. Activez le bouton **Fermer**.
 
-<div class="row">
-<div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/powerpoint-02.jpg" alt="Capture d’écran de Outil Format de l’image" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office2016/powerpoint-02.jpg" alt="Capture d’écran de Outil Format de l’image" />
 </div>
 
 Conseils et lignes directrices&nbsp;:
@@ -178,10 +174,8 @@ Vous pouvez également effectuer l’une des opérations suivantes après avoir 
 1. Pour regrouper des formes et d’autres objets, à partir de l’onglet **Format de la forme**, activez la fonction **Grouper > Grouper**.
 2. Pour grouper des images, à partir de l’onglet **Format de l’image**, activez la fonction **Grouper > Grouper**.
 
-<div class="row">
-<div class="col-md-9">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/powerpoint-03.jpg" alt="Capture d’écran de Menu Grouper" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office2016/powerpoint-03.jpg" alt="Capture d’écran de Menu Grouper" />
 </div>
 
 ## Ressources supplémentaires

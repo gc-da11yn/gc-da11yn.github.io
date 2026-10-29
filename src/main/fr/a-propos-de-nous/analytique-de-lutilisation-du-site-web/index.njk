@@ -2,20 +2,21 @@
 title: Analytique de l’utilisation du site Web
 description: Fournit un aperçu des données d’utilisation du site, telles que le nombre de sessions, d’utilisateurs, de pages vues et les taux de rebond. Il met également en évidence les appareils les plus utilisés et les principaux pays d’origine des visiteurs du site. Les données sont régulièrement mises à jour pour refléter l’activité récente, ce qui nous aide à comprendre comment les utilisateurs interagissent avec le site et à améliorer l’expérience globale.
 toggle: website-usage-analytics
+wetboewRuntime: true # TRANSITION-ONLY: WET charts plugin draws the analytics chart, until a GCDS-compatible chart replaces it
 subject:
   - aboutUs
 ---
 
 {% include "partials/analytics-chart.njk" %}
 
-<p class="mrgn-tp-lg"><a href="{{ pathPrefix }}/fr/analytique-de-lutilisation-du-site-web-visualisation-des-donnees"><i class="fas fa-server mrgn-rght-md" aria-hidden="true"></i>Consultez ces informations sous forme de données</a></p>
+<p class="mt-400"><a href="{{ pathPrefix }}/fr/analytique-de-lutilisation-du-site-web-visualisation-des-donnees"><i class="fas fa-server me-200" aria-hidden="true"></i>Consultez ces informations sous forme de données</a></p>
 
 {% include "partials/analytics-toc.njk" %}
 
 {% for month, results in analytics %}
-<section class="mrgn-tp-lg mrgn-bttm-lg">
-	<div class="well">
-		<h2 class="mrgn-tp-sm" id="{{ month }}">{{ month | formatYearMonth }}</h2>
+<section class="mt-400 mb-400">
+	<div class="bg-light p-300">
+		<h2 class="mt-50" id="{{ month }}">{{ month | formatYearMonth }}</h2>
 		<p>
 			Le site a enregistré <strong>{{ results.results[0].sessions }}</strong> visites, avec
 			<strong>{{ results.results[0].newUsers }}</strong> utilisateurs et

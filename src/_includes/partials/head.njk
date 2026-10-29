@@ -43,10 +43,49 @@
 		<link rel="alternate" hreflang="{{ otherLang }}" href="{{ toggleUrl }}index.html" />
 	{% endif %}
 
+
 	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+	{#- TRANSITION-ONLY: WET runtime only on pages with "wetboewRuntime: true" in front matter, until their behaviour is migrated. -#}
+	{% if wetboewRuntime %}
 	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
+	{% endif %}
+
+	<!-- GC Design System CSS Shortcuts -->
+	<link
+	  rel="stylesheet"
+	  href="{{ pathPrefix }}/css/gcds-css-shortcuts.min.css"
+	/>
+
+	<!-- GC Design System -->
+    <link
+      rel="stylesheet"
+      href="{{ pathPrefix }}/gcds/gcds.css"
+    />
+
+	<!-- Site styles: after GCDS so they can build on it -->
 	<link rel="stylesheet" href="{{ pathPrefix }}/css/da11yn.css">
+    {#- Basic HTML version: "?wbdisable=true" skips the GCDS scripts (same parameter as WET), "?wbdisable=false" turns them back on. -#}
+    <script>
+      (function () {
+        var key = "basicHtml";
+        var match = location.search.match(/[?&]wbdisable=(true|false)/);
+        var basic = !!match && match[1] === "true";
+        try {
+          if (match) {
+            if (basic) { localStorage.setItem(key, "1"); } else { localStorage.removeItem(key); }
+          }
+          basic = localStorage.getItem(key) === "1";
+        } catch (e) {}
+        document.documentElement.classList.add(basic ? "basic-html" : "standard-html");
+        if (!basic) {
+          var gcds = document.createElement("script");
+          gcds.type = "module";
+          gcds.src = "{{ pathPrefix }}/gcds/gcds.esm.js";
+          document.head.appendChild(gcds);
+        }
+      })();
+    </script>
 
 	<!-- Meta tags -->
 

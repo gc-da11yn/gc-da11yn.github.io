@@ -51,16 +51,16 @@ We believe it is important to account for a wide range of human experiences. Thi
   - [Valeria – Cognitive and Auditory](#valeria-cognitive-and-auditory)
   - [Yosef – Mobility and Speech](#yosef-mobility-and-speech)
 
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Brandon – Auditory
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronouns</dt>
 <dd>He/Him</dd>
 <dt>Age</dt>
@@ -79,7 +79,7 @@ We believe it is important to account for a wide range of human experiences. Thi
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Skills (aptitude)
 
@@ -87,7 +87,7 @@ We believe it is important to account for a wide range of human experiences. Thi
 - Knows sign-language.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Tools (adaptive technology, devices, other)
 
@@ -98,8 +98,8 @@ Category: audio replacement and enhancement.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
 
@@ -108,7 +108,7 @@ Category: audio replacement and enhancement.
 - Often asks for instructions or conversations to be repeated to him.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Barriers & frustrations (specifics, attitudes)
 
@@ -117,24 +117,24 @@ Category: audio replacement and enhancement.
 - Group meetings, back-to-back meetings, or just too many meetings in a day can be draining.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Quote:
 > “When music is playing while a speaker is speaking, it’s very distracting. WCAG 2.1 has a criterion that says background noise has to be certain decibels below the speaker’s voice but it’s an AAA level. This means it’s not mandatory for companies and organizations to comply with this criterion.”
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Alasie - Vision
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronouns</dt>
 <dd>She/Her</dd>
 <dt>Age</dt>
@@ -152,7 +152,7 @@ Category: audio replacement and enhancement.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Skills (aptitude)
 
@@ -160,7 +160,7 @@ Category: audio replacement and enhancement.
 - Highly skilled computer user who uses contrast adjustments to see the screen clearly.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Tools (adaptive technology, devices, other)
 
@@ -175,8 +175,8 @@ Category: Vision Enhancements
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
 
@@ -185,7 +185,7 @@ Category: Vision Enhancements
 - Digital files to be available in accessible formats.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Barriers & frustrations (specifics, attitudes)
 
@@ -195,24 +195,24 @@ Category: Vision Enhancements
 - Speakers who do not provide information that help understand information displayed visually.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Quote:
 > “It's really annoying when the colours of the text and background are so close to each other, it makes anything on the screen hard to read.”
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Yenah - Dexterity
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronouns </dt>
 <dd>She/Her.</dd>
 <dt>Age </dt>
@@ -231,7 +231,7 @@ Category: Vision Enhancements
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Skills (aptitude)
 
@@ -239,7 +239,7 @@ Category: Vision Enhancements
 - Tech-savvy and relies on her tools in her day-to-day life.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Tools (adaptive technology, devices, other)
 
@@ -252,8 +252,8 @@ Category: Mobility and Dexterity Enhancement.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
 
@@ -263,7 +263,7 @@ Category: Mobility and Dexterity Enhancement.
 - Links with proper names to clearly indicate where the link leads to and what its purpose is.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Barriers & frustrations (specifics, attitudes)
 
@@ -272,24 +272,24 @@ Category: Mobility and Dexterity Enhancement.
 - When alternative interaction patterns are not available and the required action is difficult to complete (ex: shaking a device, pinching, drawing, etc).
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Quote:
 > “The buttons on my phone screen can be so small, I want to hit a checkbox but accidentally click another option, I have to uncheck the wrong one to proceed but it’s frustrating.”
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Ike - Mobility
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronouns </dt>
 <dd>They/Them.</dd>
 <dt>Age </dt>
@@ -308,14 +308,14 @@ Category: Mobility and Dexterity Enhancement.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Skills (aptitude)
 
 - Has experience providing training on web and document accessibility.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Tools (adaptive technology, devices, other)
 
@@ -328,8 +328,8 @@ Category: Mobility Enhancements.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
 
@@ -338,7 +338,7 @@ Category: Mobility Enhancements.
 - Ability to view web content in both portrait and landscape orientation.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Barriers & frustrations (specifics, attitudes)
 
@@ -348,24 +348,24 @@ Category: Mobility Enhancements.
 - Obstructions on accessible routes including ramps and corridors.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Quote:
 > ”I cannot book a workspace like everyone else does because the application does not support keyboard navigation.”
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Damien - Cognitive
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronouns </dt>
 <dd>He/Him.</dd>
 <dt>Age </dt>
@@ -383,7 +383,7 @@ Category: Mobility Enhancements.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Skills (aptitude)
 
@@ -391,7 +391,7 @@ Category: Mobility Enhancements.
 - Prefers having the option to customize my environment (ex: tools and tech, room light and temperature, monitor display, etc.)
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Tools (adaptive technology, devices, other)
 
@@ -402,8 +402,8 @@ Category: Cognitive and Learning Style Enhancement.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
 
@@ -413,7 +413,7 @@ Category: Cognitive and Learning Style Enhancement.
 - Sites with multiple pathways of navigations to make the site easier to use.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Barriers & frustrations (specifics, attitudes)
 
@@ -421,24 +421,24 @@ Category: Cognitive and Learning Style Enhancement.
 - Often deals with headaches and migraines.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Quote:
 > “When I’m using a website, I find it frustrating when there is no consistency in page layouts and some terminologies to confirm my actions can be difficult to understand.”
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Valeria – Cognitive and Auditory
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> About
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronouns </dt>
 <dd>She/Her.</dd>
 <dt>Age </dt>
@@ -457,7 +457,7 @@ Category: Cognitive and Learning Style Enhancement.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Skills (aptitude)
 
@@ -465,7 +465,7 @@ Category: Cognitive and Learning Style Enhancement.
 - Skilled in Microsoft Office applications.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Tools (adaptive technology, devices, other)
 
@@ -477,8 +477,8 @@ Category: Cognitive and Learning Style Enhancement and others.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
 
@@ -487,7 +487,7 @@ Category: Cognitive and Learning Style Enhancement and others.
 - Use of simple, plain language, free of acronyms, metaphors, slangs, explanatory instructions, and descriptive images.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Barriers & frustrations (specifics, attitudes)
 
@@ -495,24 +495,24 @@ Category: Cognitive and Learning Style Enhancement and others.
 - Use of captions that are inaccurate or non-customizable.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Quote:
 > “When I fill out a form online, it’s difficult to complete the task within the given time. It is even more frustrating when I don’t know how much time I have, the site times out and deletes my work, and I have to redo the form all over again.”
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Yosef – Mobility and Speech
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true"></span> About
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronouns </dt>
 <dd>He/Him.</dd>
 <dt>Age </dt>
@@ -531,7 +531,7 @@ Category: Cognitive and Learning Style Enhancement and others.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Skills (aptitude)
 
@@ -539,7 +539,7 @@ Category: Cognitive and Learning Style Enhancement and others.
 - Often requires repeated exposure to content to understand it.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Tools (adaptive technology, devices, other)
 
@@ -553,8 +553,8 @@ Category: Mobility and Speech replacement or enhancements.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Needs (tasks, environments)
 
@@ -563,7 +563,7 @@ Category: Mobility and Speech replacement or enhancements.
 - Must use an ergonomic keyboard and mouse for daily office use.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Barriers & frustrations (specifics, attitudes)
 
@@ -572,11 +572,11 @@ Category: Mobility and Speech replacement or enhancements.
 - Support and help centers that offer phone numbers as the only way to communicate with their organization.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Quote:
 > “It can be very tiring to have to tab through irrelevant material to reach the content need.”
 
-</div>
 </div>
 </section>

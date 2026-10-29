@@ -17,15 +17,15 @@ eleventyComputed:
 {% set groupKey = rolesData.roles[roleKey].group %}
 {% set groupName = rolesData.groups[lang][groupKey] %}
 
-<div class="mrgn-bttm-lg">
+<div class="mb-400">
   <p>
-    <span class="label label-success">{{ rolesData.labels[lang][roleKey] }}</span>
-    <span class="mrgn-lft-sm">Part of the <a href="{{ pathPrefix }}{{ permalinkPrefix }}{{ locale }}/roles/{{ groupKey }}/">{{ groupName }}</a></span>
+    <span class="dev-tag dev-tag--subject d-inline-block px-100 bs-lg font-bold">{{ rolesData.labels[lang][roleKey] }}</span>
+    <span class="ms-50">Part of the <a href="{{ pathPrefix }}{{ permalinkPrefix }}{{ locale }}/roles/{{ groupKey }}/">{{ groupName }}</a></span>
   </p>
 </div>
 
 {% if rolesData.arrm[lang][roleKey] %}
-<section class="mrgn-bttm-xl">
+<section class="mb-600">
   {% if rolesData.arrm[lang][roleKey].keyDeliverables %}
   <h4>Key deliverable examples:</h4>
   <ul>
@@ -66,18 +66,18 @@ eleventyComputed:
   | sort(false, false, 'data.title') %}
 
 {% if items.length %}
-<section class="mrgn-bttm-xl">
+<section class="mb-600">
   <h2>Resources and guidance</h2>
-  <div class="row wb-eqht mrgn-tp-lg gc-drmt">
+  <div class="d-grid lg:grid-cols-2 gap-x-400 mt-400">
   {% for item in items %}
-    <div class="col-md-6">
-      <h2 class="h4">
+    <div>
+      <h2 class="font-size-h4">
         <a{% if item.data.redirect %} rel="external"{% endif %}
            href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ pathPrefix }}{{ item.url }}{% endif %}"
            {% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>
           {% if item.data.internal === true %}
-            <span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span>
-            <span class="wb-inv"> {{ alerts[locale].hiddenTextLink }}</span>
+            <span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span>
+            <span class="visibility-sr-only"> {{ alerts[locale].hiddenTextLink }}</span>
           {% endif %}
           {{ item.data.title | safe }}
           {% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}
@@ -95,7 +95,7 @@ eleventyComputed:
   </div>
 </section>
 {% else %}
-<section class="mrgn-bttm-xl">
+<section class="mb-600">
   <h2>Resources and guidance</h2>
   {% include "partials/role-content-coming-soon.njk" %}
 </section>

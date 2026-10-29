@@ -1,11 +1,6 @@
-
-<nav>
-	<ul id="wb-tphp">
-		<li class="wb-slc">
-			<a class="wb-sl" href="#wb-cont">{{ skipnav[locale].mainContent }}</a>
-		</li>
-		<li class="wb-slc visible-sm visible-md visible-lg">
-			<a class="wb-sl" href="#wb-info">{{ skipnav[locale].aboutGovernment }}</a>
-		</li>
-	</ul>
-</nav>
+		<nav slot="skip-to-nav" label="{{ skipnav[locale].label }}">
+			<a href="#main">{{ skipnav[locale].mainContent }}</a>
+			<a href="#footer">{{ skipnav[locale].aboutGovernment }}</a>
+			<a class="skip-to-basic" href="?wbdisable=true">{{ skipnav[locale].basicHtml }}</a>
+			<a class="skip-to-standard" href="?wbdisable=false">{{ skipnav[locale].standardVersion }}</a>
+		</nav>

@@ -15,10 +15,8 @@ How to use the Accessibility Checker:
 2. Review the results in the **Accessibility Checker** pane
 3. Address the listed issues. Helpful information to understand and fix the different issues is provided at the bottom of the pane
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-001.jpg" alt="Screenshot of Check for Issues menu" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/powerpoint-365-001.jpg" alt="Screenshot of Check for Issues menu" />
 </div>
 
 The **Accessibility Checker** is also located on the Ribbon under the **Review** tab > **Check Accessibility**. Activate the "Keep accessibility checker running while I work" check box in the checker pane to keep track of accessibility issues in real time.
@@ -38,10 +36,8 @@ Give every slide a unique title. People who have vision loss or learning / cogni
 1. To restore all placeholders for the selected slide, on the **Home** tab, in the **Slides** group, select **Reset**
 2. On the slide, type a unique and descriptive title
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-002.jpg" alt="Screenshot of Slides group in Home tab" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/powerpoint-365-002.jpg" alt="Screenshot of Slides group in Home tab" />
 </div>
 
 To make a title invisible on the slide, but still voiced by screen readers:
@@ -50,10 +46,8 @@ To make a title invisible on the slide, but still voiced by screen readers:
 2. In the **Arrange** menu, select **Selection Pane**
 3. In the **Selection** pane, locate the **Title** text box, and then activate the eye icon next to it
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-003.jpg" alt="Screenshot of Arrange menu" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/powerpoint-365-003.jpg" alt="Screenshot of Arrange menu" />
 </div>
 
 ### Text structure
@@ -103,10 +97,8 @@ To change the reading order:
     1. Drag and drop items to the new location
     2. Select the item and then select the Up arrow button (Bring Forward) or Down arrow button (Send Backward)
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-004.jpg" alt="Screenshot of Arrange menu" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/powerpoint-365-004.jpg" alt="Screenshot of Arrange menu" />
 </div>
 
 ### Tables
@@ -142,10 +134,8 @@ PowerPoint presentations usually include images. Images need equivalent alternat
 5. If the image is meaningful, convey in words the meaning, function, or purpose communicated by the image
 6. Activate the **Close** button
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/powerpoint-365-005.jpg" alt="Screenshot of Format Picture tool">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/powerpoint-365-005.jpg" alt="Screenshot of Format Picture tool">
 </div>
 
 Be sure to check and update any automatically generated alternative text for images.

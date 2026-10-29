@@ -50,16 +50,16 @@ Nous croyons qu’il est important de tenir compte d’un large éventail d’ex
   - [Valeria – Cognitive et Auditory](#valeria-cognitive-et-auditive)
   - [Yosef – Mobilité et parole](#yosef-mobilite-et-parole)
 
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Brandon - Auditif
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronoms</dt>
 <dd>Il / Lui</dd>
 <dt>Âge</dt>
@@ -78,7 +78,7 @@ Nous croyons qu’il est important de tenir compte d’un large éventail d’ex
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Compétences (aptitude)
 
@@ -86,7 +86,7 @@ Nous croyons qu’il est important de tenir compte d’un large éventail d’ex
 - Connaît la langue des signes.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Outils (technologie d’adaptation, appareils, autres)
 
@@ -97,8 +97,8 @@ Catégorie: remplacement et amélioration audio.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Besoins (tâches, environnements)
 
@@ -107,7 +107,7 @@ Catégorie: remplacement et amélioration audio.
 - Demande souvent que des instructions ou des conversations lui soient répétées.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Obstacles et frustrations (détails, attitudes)
 
@@ -116,24 +116,24 @@ Catégorie: remplacement et amélioration audio.
 - Les réunions de groupe, les réunions consécutives ou tout simplement trop de réunions dans une journée peuvent être épuisantes.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Citation :
 > « Lorsque de la musique joue pendant qu’un haut-parleur parle, c’est très distrayant. WCAG 2.1 a un critère qui dit que le bruit de fond doit être certains décibels en dessous de la voix de l’orateur, mais c’est un niveau AAA. Cela signifie qu’il n’est pas obligatoire pour les entreprises et les organisations de se conformer à ce critère. »
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Alasie - Vision
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronoms</dt>
 <dd>Elle / Elle.</dd>
 <dt>Âge </dt>
@@ -151,7 +151,7 @@ Catégorie: remplacement et amélioration audio.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Compétences (aptitude)
 
@@ -159,7 +159,7 @@ Catégorie: remplacement et amélioration audio.
 - Utilisateur d’ordinateur hautement qualifié qui utilise des réglages de contraste pour voir clairement l’écran.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Outils (technologie d’adaptation, appareils, autres)
 
@@ -174,8 +174,8 @@ Catégorie : Amélioration de la vision
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Besoins (tâches, environnements)
 
@@ -184,7 +184,7 @@ Catégorie : Amélioration de la vision
 - Les fichiers numériques seront disponibles dans des formats accessibles.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Obstacles et frustrations (détails, attitudes)
 
@@ -194,24 +194,24 @@ Catégorie : Amélioration de la vision
 - Les conférenciers qui ne fournissent pas  d’informations qui aident à comprendre les informations affichées visuellement.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Citation :
 > « C’est vraiment ennuyeux quand les couleurs du texte et de l’arrière-plan sont si proches les unes des autres, cela rend tout ce qui se trouve à l’écran difficile à lire. »
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Yenah - Dextérité
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronoms </dt>
 <dd>Elle / Elle.</dd>
 <dt>Âge </dt>
@@ -230,7 +230,7 @@ Catégorie : Amélioration de la vision
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Compétences (aptitude)
 
@@ -238,7 +238,7 @@ Catégorie : Amélioration de la vision
 - <span lang="en">Tech-savvy</span> et s’appuie sur ses outils dans sa vie quotidienne.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Outils (technologie d’adaptation, appareils, autres)
 
@@ -251,8 +251,8 @@ Catégorie: Amélioration de la mobilité et de la dextérité.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Besoins (tâches, environnements)
 
@@ -262,7 +262,7 @@ Catégorie: Amélioration de la mobilité et de la dextérité.
 - Liens avec les noms propres pour indiquer clairement où le lien mène et quel est son but.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Obstacles et frustrations (détails, attitudes)
 
@@ -271,24 +271,24 @@ Catégorie: Amélioration de la mobilité et de la dextérité.
 - Lorsque d’autres modèles d’interaction ne sont pas disponibles et que l’action requise est difficile à accomplir (ex: secouer un appareil, pincer, dessiner, etc.).
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Citation :
 > « Les boutons sur l’écran de mon téléphone peuvent être si petits, je veux appuyer sur une case à cocher mais accidentellement cliquer sur une autre option, je dois décocher le mauvais pour continuer, mais c’est frustrant. »
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Ike - Mobility
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronoms </dt>
 <dd>Ils / Eux.</dd>
 <dt>Âge  </dt>
@@ -307,14 +307,14 @@ Catégorie: Amélioration de la mobilité et de la dextérité.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Compétences (aptitude)
 
 - A de l’expérience dans la prestation de formation sur l’accessibilité du Web et des documents
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Outils (technologie d’adaptation, appareils, autres)
 
@@ -327,8 +327,8 @@ Catégorie : Amélioration de la mobilité.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Besoins (tâches, environnements)
 
@@ -337,7 +337,7 @@ Catégorie : Amélioration de la mobilité.
 - Possibilité de visualiser le contenu Web en orientation portrait et paysage.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Obstacles et frustrations (détails, attitudes)
 
@@ -347,24 +347,24 @@ Catégorie : Amélioration de la mobilité.
 - Obstacles sur les routes accessibles, y compris les rampes et les corridors.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Citation :
 > « Je ne peux pas réserver un espace de travail comme tout le monde le fait parce que l’application ne prend pas en charge la navigation au clavier. »
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Damien - Cognitive
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronoms </dt>
 <dd>Il / Lui.</dd>
 <dt>Âge </dt>
@@ -382,7 +382,7 @@ Catégorie : Amélioration de la mobilité.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Compétences (aptitude)
 
@@ -390,7 +390,7 @@ Catégorie : Amélioration de la mobilité.
 - Préfère avoir la possibilité de personnaliser mon environnement (ex: outils et technologie, lumière ambiante et température, affichage du moniteur, etc.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Outils (technologie d’adaptation, appareils, autres)
 
@@ -401,8 +401,8 @@ Catégorie: Amélioration du style cognitif et d’apprentissage.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Besoins (tâches, environnements)
 
@@ -412,7 +412,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage.
 - Sites avec plusieurs voies de navigation pour rendre le site plus facile à utiliser.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Obstacles et frustrations (détails, attitudes)
 
@@ -420,24 +420,24 @@ Catégorie: Amélioration du style cognitif et d’apprentissage.
 - Traite souvent des maux de tête et des migraines.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Citation :
 > “When I’m using a website, I find it frustrating when there is no consistency in page layouts and some terminologies to confirm my actions can be difficult to understand.”
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Valeria – Cognitive et auditive
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronoms </dt>
 <dd>Elle / Elle.</dd>
 <dt>Âge </dt>
@@ -456,7 +456,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Compétences (aptitude)
 
@@ -464,7 +464,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage.
 - Qualifié dans les applications Microsoft Office.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Outils (technologie d’adaptation, appareils, autres)
 
@@ -476,8 +476,8 @@ Catégorie: Amélioration du style cognitif et d’apprentissage et autres.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Besoins (tâches, environnements)
 
@@ -486,7 +486,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage et autres.
 - Utilisation d’un langage simple et simple, exempt d’acronymes, de métaphores, d’argots, d’instructions explicatives et d’images descriptives.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Obstacles et frustrations (détails, attitudes)
 
@@ -494,24 +494,24 @@ Catégorie: Amélioration du style cognitif et d’apprentissage et autres.
 - Utilisation de légendes inexactes ou non personnalisables.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Citation :
 > « Lorsque je remplis un formulaire en ligne, il est difficile de terminer la tâche dans les délais donnés. C’est encore plus frustrant quand je ne sais pas combien de temps j’ai, le site chronoppe et supprime mon travail, et je dois refaire le formulaire à nouveau. «
 
 </div>
-</div>
 </section>
-<section class="brdr-tp mrgn-tp-lg">
+<section class="bt-sm mt-400">
 
 ### Yosef – Mobilité et parole
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="far fa-address-card" aria-hidden="true" ></span> À propos
 
-<dl class="dl-horizontal brdr-0">
+<dl class="dl-columns">
 <dt>Pronoms </dt>
 <dd>Il / Lui.</dd>
 <dt>Âge </dt>
@@ -530,7 +530,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage et autres.
 </dd>
 </dl>
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-signal" aria-hidden="true"></span> Compétences (aptitude)
 
@@ -538,7 +538,7 @@ Catégorie: Amélioration du style cognitif et d’apprentissage et autres.
 - Nécessite souvent une exposition répétée au contenu pour le comprendre.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-tools" aria-hidden="true"></span> Outils (technologie d’adaptation, appareils, autres)
 
@@ -552,8 +552,8 @@ Catégorie : Remplacement ou amélioration de la mobilité et de la parole.
 
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### <span class="fas fa-notes-medical" aria-hidden="true"></span> Besoins (tâches, environnements)
 
@@ -562,7 +562,7 @@ Catégorie : Remplacement ou amélioration de la mobilité et de la parole.
 - Doit utiliser un clavier et une souris ergonomiques  pour  une utilisation quotidienne au bureau.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### <span class="fas fa-hand-paper" aria-hidden="true"></span> Obstacles et frustrations (détails, attitudes)
 
@@ -571,11 +571,11 @@ Catégorie : Remplacement ou amélioration de la mobilité et de la parole.
 - Centres de support et d’aide qui offrent des numéros de téléphone comme seul moyen de communiquer avec leur organisation.
 
 </div>
-<div class="col-md-12">
+</div>
+<div>
 
 #### <span class="fas fa-quote-left" aria-hidden="true"></span> Citation :
 > « Il peut être très fatigant d’avoir à parcourir des documents non pertinents pour atteindre le contenu dont j’ai besoin. «
 
-</div>
 </div>
 </section>

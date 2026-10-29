@@ -15,10 +15,8 @@ Comment utiliser le vérificateur d’accessibilité&nbsp;:
 2. Examinez les résultats dans le volet **Vérificateur d’accessibilité**.
 3. Corrigez les problèmes énumérés. Au bas du volet, vous trouverez des renseignements pratiques pour comprendre et résoudre les différents problèmes.
 
-<div class="row">
-<div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/excel-365-001.jpg" alt="Capture d’écran de menu vérification de l’accessibilité" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/excel-365-001.jpg" alt="Capture d’écran de menu vérification de l’accessibilité" />
 </div>
 
 Le **vérificateur d’accessibilité** peut aussi être accédé dans le ruban du haut sous le l’onglet «&#8201;Révision&#8201;» \> Vérifier l'accessibilité. Ensuite, cocher l’option «&#8201;vérificateur d’accessibilité conserver en cours d’exécution pendant que je travaille&#8201;» afin de vérifier l’accessibilité en temps réel.
@@ -60,10 +58,8 @@ Pour attribuer du texte de remplacement aux images&nbsp;:
 5. Si une image ne transmet aucune information (c’est-à-dire qu’elle est décorative ou redondante), activer la boite « image décoratif » sous le champ **Description**.
 6. Activez le bouton **Fermer**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/excel-365-002.jpg" alt="Capture d’écran de Outil Format de l’image" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office365/excel-365-002.jpg" alt="Capture d’écran de Outil Format de l’image" />
 </div>
 
 ### Graphiques et diagrammes
@@ -85,10 +81,8 @@ Pour ajouter des hyperliens avec un titre pertinent&nbsp;:
 3. Activez **Lien hypertexte**.
 4. Modifiez le **Texte à afficher** par un texte pertinent.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/excel-365-003.jpg" alt="Capture d’écran de Insérer un lien hypertexte" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office365/excel-365-003.jpg" alt="Capture d’écran de Insérer un lien hypertexte" />
 </div>
 
 ## Ressources supplémentaires

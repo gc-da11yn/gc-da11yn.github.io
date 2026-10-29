@@ -1,55 +1,47 @@
 .contribute {
-	background-color: black;
-	color: #fff;
-	padding-bottom: 25px !important;
+	background-color: var(--gcds-color-black);
 
-	ul {
+	.contribute-subtitle {
+		color: var(--gcds-color-grayscale-300);
+		padding-inline-start: var(--gcds-spacing-550);
+	}
 
-		@media only screen and (min-width: 992px) {
-			padding-top: 4em;
+	.contribute-links {
+		justify-content: start;
+		margin-block: var(--gcds-spacing-0) var(--gcds-spacing-200);
+		padding-inline-start: var(--gcds-spacing-0);
+
+		li {
+			display: flex;
+			align-items: center;
+			gap: var(--gcds-spacing-100);
+			list-style: none;
 		}
 	}
 
-	li {
-		padding-bottom: 15px;
+	.fa-fw,
+	gcds-icon {
+		color: var(--gcds-text-light);
 	}
-
-	small {
-		display: block;
-		color: #aaa;
-		margin-top: 5px;
-
-	}
-
-	h2 {
-		margin-bottom: 15px;
-
-		small {
-			@media (min-width: 576px) {
-				margin-left: 45px;
-			}
-			margin-top: 5px;
-		}
-	}
-
-	.fa-fw {
-		margin-right: 8px;
-	}
-
 
 	a {
-		text-decoration: none;
-		border-bottom: solid 1px;
-		color: #fff;
+		color: var(--gcds-link-light);
+		text-decoration: underline;
+		text-decoration-thickness: var(--gcds-link-decoration-thickness);
+		text-underline-offset: var(--gcds-link-underline-offset);
 
-		&:hover,
-		&:focus {
-			border-bottom: none;
+		&:hover {
+			text-decoration-thickness: var(--gcds-link-hover-decoration-thickness);
 		}
 
-		small {
-			margin-left: 15px;
+		&:focus {
+			background-color: var(--gcds-link-focus-background);
+			color: var(--gcds-link-focus-text);
+			text-decoration: none;
+			border-radius: var(--gcds-link-focus-border-radius);
+			outline: var(--gcds-link-focus-outline-width) solid var(--gcds-link-focus-background);
+			outline-offset: var(--gcds-link-focus-outline-offset);
+			box-shadow: var(--gcds-link-focus-box-shadow);
 		}
 	}
 }
-

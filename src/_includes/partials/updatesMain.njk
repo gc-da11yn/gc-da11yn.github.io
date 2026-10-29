@@ -1,27 +1,24 @@
 {%- set idUpdates = "updates" if locale === "en" else
 "actualites" -%}
 
-<div class="well provisional well-lg brdr-0 mrgn-tp-lg">
-
 {% if collections.updatesMain === undefined %}
 
 {% else %}
-<section class="container">
-	<h2 id="{{ idUpdates }}" class="mrgn-tp-sm">{% if locale === "en" %}Latest updates{% else %}Dernières mises à jour{% endif %}</h2>
-	<p>
-		{% if locale === "en" %}
-		Explore our latest content
-		{% else %}
-		Explorez notre contenu le plus récent.
-		{% endif %}
-	</p>
-	<ul class="row wb-eqht-grd list-unstyled small">
-	{% for item in collections.updatesMain | sort(attribute='date', reverse=true) | localeMatch(locale) %}
-		<li class="col-xs-12 col-sm-6 mrgn-tp-sm mrgn-bttm-sm"><a href="{{ pathPrefix }}{{ item.url }} ">{{ item.data.title }} <small class="visible-xs-inline visible-sm-block visible-md-block visible-lg-block"><time>{{ item.date | postDate }}</time></small></a></li>
-	{% endfor %}
-	</ul>
-</section>
-
+<gcds-container tag="section" layout="full" class="bg-light mt-500">
+	<gcds-container layout="page" padding="300">
+		<h2 class="mt-0 mb-300" id="{{ idUpdates }}">{% if locale === "en" %}Latest updates{% else %}Dernières mises à jour{% endif %}</h2>
+		<p>
+			{% if locale === "en" %}
+			Explore our latest content
+			{% else %}
+			Explorez notre contenu le plus récent.
+			{% endif %}
+		</p>
+		<ul class="list-none p-0 m-0 d-grid gap-200 md:grid-cols-2">
+		{% for item in collections.updatesMain | sort(attribute='date', reverse=true) | localeMatch(locale) %}
+			<li><a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a> <small class="d-block"><time>{{ item.date | postDate }}</time></small></li>
+		{% endfor %}
+		</ul>
+	</gcds-container>
+</gcds-container>
 {% endif %}
-
-</div>

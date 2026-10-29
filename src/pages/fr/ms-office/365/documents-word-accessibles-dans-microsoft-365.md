@@ -17,10 +17,8 @@ Comment utiliser le vérificateur d’accessibilité&nbsp;:
 	<li>Corrigez les problèmes énumérés. Au bas du volet, vous trouverez des renseignements pratiques pour comprendre et résoudre les différents problèmes.</li>
 </ol>
 
-<div class="row">
-<div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-001.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/word-365-001.jpg" alt="Capture d’écran de Menu Vérification de l’accessibilité" />
 </div>
 
 Le **vérificateur d’accessibilité** peut aussi être accédé dans le ruban du haut sous le l’onglet «&#8201; **Révision** &#8201;» &gt; **Vérifier l'accessibilité**. Ensuite, cocher l’option «&#8201; vérificateur d’accessibilité conserver en cours d’exécution pendant que je travaille &#8201;» afin de vérifier l’accessibilité en temps réel.
@@ -47,10 +45,8 @@ Comment créer un modèle&nbsp;:
 	<li>Activez l’option **Modèle Word** à partir de la liste **Format** **du fichier**.</li>
 </ol>
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-002.jpg" alt="Capture d’écran de comment enregistrer sous un modèle" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/word-365-002.jpg" alt="Capture d’écran de comment enregistrer sous un modèle" />
 </div>
 
 Comment ouvrir un modèle&nbsp;:
@@ -73,10 +69,8 @@ Les titres permettent aux utilisateurs de naviguer au sein d’un document et de
 
 Veillez à dénoter les titres par le biais de la structure utilisée et non seulement de façon implicite (à l’aide de diverses polices, tailles de police, caractère gras, italique, etc.). Les styles créés ne seront pas traités comme des titres du point de vue de la structure.
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-003.jpg" alt="Capture d’écran de barre latérale de styles" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/word-365-003.jpg" alt="Capture d’écran de barre latérale de styles" />
 </div>
 
 Pour modifier le style des titres&nbsp;:
@@ -104,10 +98,8 @@ Pour utiliser les en-têtes et les pieds de page dans Word&nbsp;:
 	<li>Après la création de l’**En-tête** ou du **Pied de page**, appuyez sur la touche «&#8201;**Esc**&#8201;» pour revenir au corps du document.</li>
 </ol>
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-004.jpg" alt="Capture d’écran de insérer un message d’avertissement à un en-tête" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/word-365-004.jpg" alt="Capture d’écran de insérer un message d’avertissement à un en-tête" />
 </div>
 
 ### Colonnes
@@ -121,10 +113,8 @@ Pour insérer des colonnes&nbsp;:
 3. Sélectionnez le nombre de colonnes désiré à l’aide de la grille.
 4. Au fur et à mesure que vous tapez, la colonne actuelle se remplit et continue dans la prochaine.
 
-<div class="row">
-<div class="col-md-10 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-005.jpg" alt="Capture d’écran de menu des colonnes" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/word-365-005.jpg" alt="Capture d’écran de menu des colonnes" />
 </div>
 
 ### Listes
@@ -140,10 +130,8 @@ Pour créer une liste&nbsp;:
 - Ouvrez l’onglet **Accueil** sur le ruban.
 - Sous la barre d’outils **Paragraphe** se trouve les options pour les listes, comme **les puces, la numérotation, le tri, **etc.
 
-<div class="row">
-<div class="col-md-12 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-006.jpg" alt="Capture d’écran de barre d’outils des paragraphes" />
-</div>
+<div class="mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/word-365-006.jpg" alt="Capture d’écran de barre d’outils des paragraphes" />
 </div>
 
 ## Polices
@@ -170,10 +158,8 @@ Pour incorporer du texte de remplacement aux images&nbsp;:
 5. Si l’image est importante, communiquez en mots le sens, la fonction ou l’objectif transmis par l’image.
 6. Activez le bouton **Fermer**.
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-007.jpg" alt="Capture d’écran de outil Format de l’image" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/word-365-007.jpg" alt="Capture d’écran de outil Format de l’image" />
 </div>
 
 Veuillez vérifier et mettre-ajour tout texte qui sera généré comme texte de remplacement pour les images.
@@ -184,10 +170,8 @@ Veillez à ce que les images et les graphiques complexes comportent de longues d
 
 Pour ajouter une description longue aux diagrammes et aux graphiques,, d’abord ajoutez un pertinent texte de remplacement comme est décrit. Ensuite, ajoutez un texte de remplacement pertinent pour le graphique.
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-008.jpg" alt="Capture d’écran du Menu Format de la zone de graphique" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/word-365-008.jpg" alt="Capture d’écran du Menu Format de la zone de graphique" />
 </div>
 
 ### Hyperliens
@@ -201,10 +185,8 @@ Pour ajouter des hyperliens avec un texte pertinent&nbsp;:
 3. Activez **Modifier le lien hypertexte**.
 4. Modifiez le **Texte à afficher** par un texte pertinent.
 
-<div class="row">
-<div class="col-md-12 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office365/word-365-009.jpg" alt="Capture d’écran de Modifier le lien hypertexte" />
-</div>
+<div class="mb-200">
+<img src="{{ pathPrefix }}/img/fr/office365/word-365-009.jpg" alt="Capture d’écran de Modifier le lien hypertexte" />
 </div>
 
 ## Ressources supplémentaires

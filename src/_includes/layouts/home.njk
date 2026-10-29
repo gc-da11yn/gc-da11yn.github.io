@@ -6,24 +6,28 @@
 
 {% block content %}
 
-<div class="banner home">
-	<div class="container p-0 p-sm-3">
-		<div class="well header-rwd brdr-0 brdr-rds-0 text-white bg-gctheme">
-			<h1 property="name" id="wb-cont">
-				{{ title | safe }}
-			</h1>
-			<p>{{ description | safe }}</p>
-		</div>
-	</div>
-</div>
+<gcds-container layout="full" class="banner">
+  <gcds-container layout="page" padding="200">
+    <gcds-grid columns="1fr" columns-desktop="4fr 1fr" class="py-250">
+      <div class="banner__box">
+        <h1 class="mt-0 mb-200 text-light" property="name">
+          {{ title | safe }}
+        </h1>
+        <p>{{ description | safe }}</p>
+      </div>
+    </gcds-grid>
+  </gcds-container>
+</gcds-container>
 
 {% include "partials/alerts.njk" %}
 
-<section class="container">
-	<h2>{{ home[locale].explore }}</h2>
+<gcds-container tag="section" layout="page" padding="300">
+	<h2 class="mt-0 mb-300">{{ home[locale].explore }}</h2>
+	<div class="page-content">
 	{{ content | safe }}
+	</div>
 	{% include "partials/collectionsMain.njk" %}
-</section>
+</gcds-container>
 
 {% include "partials/updatesMain.njk" %}
 {% include "partials/about.njk" %}

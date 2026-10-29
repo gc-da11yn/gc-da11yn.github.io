@@ -53,7 +53,7 @@ module.exports = {
 		// Brand
 		governmentOfCanada: "Government of Canada",
 		governmentOfCanadaURL: "https://www.canada.ca/en.html",
-		searchCanadaCa: "Search Canada.ca",
+		searchCanadaCa: "Canada.ca",
 		search: "Search",
 
 		// Menu

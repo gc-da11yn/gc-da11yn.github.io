@@ -12,10 +12,10 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 
 - <a href="{{ pathPrefix }}/docs/posters/SpectreAutisme-fr_2023.pdf" download>Concevoir pour les utilisateurs dans le spectre de l'autisme (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 67 <abbr title="kilo-octet">ko</abbr>)</a>
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> À faire
 
 - Utiliser des couleurs simples
 - Écrire dans un langage clair
@@ -24,9 +24,9 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 - Construire des mises en pages simples et cohérentes
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Chose à ne pas faire
 
 - Utiliser des couleurs vives et contrastées
 - Utiliser des figures de style et des expressions imagées

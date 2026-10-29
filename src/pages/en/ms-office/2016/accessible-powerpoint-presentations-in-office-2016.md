@@ -9,10 +9,8 @@ fontIcon: fa-file-powerpoint
 
 The Microsoft Office suite (Word, Excel, Power Point) provides a built-in accessibility validator. The checker does not identify all issues but looks for things such as missing alternative text, duplicate slide titles and potential reading order issues.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/powerpoint-01.jpg" alt="Screenshot of Check for Issues menu" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/powerpoint-01.jpg" alt="Screenshot of Check for Issues menu" />
 </div>
 
 How to use the Accessibility Checker:
@@ -115,10 +113,8 @@ PowerPoint presentations usually include images. Images need equivalent alternat
 5. Enter an appropriate alternative text in the in the **Description** box
 6. Activate the **Close** button
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/powerpoint-02.jpg" alt="Screenshot of Format Picture tool">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/powerpoint-02.jpg" alt="Screenshot of Format Picture tool">
 </div>
 
 Tips and Guidelines:
@@ -178,10 +174,8 @@ Alternatively, you can do one of the following after selecting the element you w
 1. To group shapes and other objects, on the **Drawing Tools Format** tab, activate **Group > Group**
 2. To group pictures, on the **Picture Tools Format** tab, activate **Group > Group**
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/powerpoint-03.jpg" alt="Screenshot of Group menu">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/powerpoint-03.jpg" alt="Screenshot of Group menu">
 </div>
 
 ## Additional resources

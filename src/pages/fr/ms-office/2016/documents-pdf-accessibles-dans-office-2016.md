@@ -25,10 +25,8 @@ Remarque&nbsp;: Ces instructions font référence à Word 2013 et 2016.
 
 Le moyen le plus simple de créer un fichier PDF accessible consiste à commencer par un document Word accessible. Une fois que vous avez créé un document accessible dans Word, exportez-le en cliquant sur **Fichier** &gt; **Exporter** &gt; **Créer un document PDF/XPS** &gt; **Créer PDF/XPS** (n’utilisez jamais la fonction Imprimer au format PDF!).
 
-<div class="row">
-<div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/pdf-01.jpg" alt="Capture d’écran de exporter le texte en format Word">
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office2016/pdf-01.jpg" alt="Capture d’écran de exporter le texte en format Word">
 </div>
 
 Dans la boîte de dialogue, sélectionnez **Options **et cochez les cases suivantes&nbsp;:
@@ -39,10 +37,8 @@ Dans la boîte de dialogue, sélectionnez **Options **et cochez les cases suivan
 
 Les cases restantes doivent être décochées.
 
-<div class="row">
-<div class="col-md-9">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/pdf-02.jpg" alt="Capture d’écran de Options d’exportation du format PDF au format Word">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office2016/pdf-02.jpg" alt="Capture d’écran de Options d’exportation du format PDF au format Word">
 </div>
 
 ### Produits Adobe
@@ -65,18 +61,14 @@ Foxit PDF Editor offre un outil d’évaluation d’accessibilité intégré. L�
 
 Pour se servir du vérificateur d’accessibilité, ouvrir votre document PDF et choisir Accessibilité dans le menu ruban. Ensuite sélectionner **Vérification complète**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/pdf-03.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office2016/pdf-03.jpg" alt="Capture d’écran de la liste des succès et échecs d'accessibilité dans Phantom PDF">
 </div>
 
 Sous **Options de rapport**, désélectionner « Créer un rapport d’accessibilité » si vous ne désirez pas exporter un document qui souligne les erreurs et ensuite choisir **Commencer la vérification**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/pdf-04.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office2016/pdf-04.jpg" alt="Capture d’écran du menu Options de vérificateur d'accessibilité">
 </div>
 
 Ceci permettra a généré une liste des échecs semblable a celles dans la photo précédente. Vérifier chaque échec, car elles auront à être corrigées, souvent de façon manuelle.

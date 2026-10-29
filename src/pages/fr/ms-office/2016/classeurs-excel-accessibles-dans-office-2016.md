@@ -9,10 +9,8 @@ fontIcon: fa-file-excel
 
 Microsoft Office (Word, Excel, PowerPoint) comporte un programme intégré de vérification de l’accessibilité. Le vérificateur ne détecte pas tous les problèmes, mais recherche des éléments, comme les textes de remplacement manquants, les titres de diapositive en double et les problèmes potentiels d’ordre de lecture.
 
-<div class="row">
-<div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/excel-01.jpg" alt="Capture d’écran de menu vérification de l’accessibilité" />
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office2016/excel-01.jpg" alt="Capture d’écran de menu vérification de l’accessibilité" />
 </div>
 
 Comment utiliser le vérificateur d’accessibilité&nbsp;:
@@ -59,10 +57,8 @@ Pour attribuer du texte de remplacement aux images&nbsp;:
 7. Si une image ne transmet aucune information (c’est-à-dire qu’elle est décorative ou redondante), saisissez le mot « décoratif » (sans les guillemets) dans le champ** Description**.
 8. Activez le bouton **Fermer**.
 
-<div class="row">
-<div class="col-md-9">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/excel-02.jpg" alt="Capture d’écran de Outil Format de l’image" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office2016/excel-02.jpg" alt="Capture d’écran de Outil Format de l’image" />
 </div>
 
 ### Graphiques et diagrammes
@@ -93,10 +89,8 @@ Pour ajouter des hyperliens avec un titre pertinent&nbsp;:
 3. Activez **Lien hypertexte**.
 4. Modifiez le **Texte à afficher** par un texte pertinent.
 
-<div class="row">
-<div class="col-md-9">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/excel-03.jpg" alt="Capture d’écran de Insérer un lien hypertexte" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/fr/office2016/excel-03.jpg" alt="Capture d’écran de Insérer un lien hypertexte" />
 </div>
 
 ## Ressources supplémentaires

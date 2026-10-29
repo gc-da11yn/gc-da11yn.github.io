@@ -9,10 +9,8 @@ fontIcon: fa-file-excel
 
 Microsoft Office (Word, Excel, Power Point) provides a built-in accessibility validator. The checker does not identify all issues, but looks for things such as: missing alternative text, duplicate slide titles, and potential reading order issues.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/excel-01.jpg" alt="Screenshot of Check for Issues menu">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/excel-01.jpg" alt="Screenshot of Check for Issues menu">
 </div>
 
 How to use the Accessibility Checker:
@@ -59,10 +57,8 @@ To assign alternative text to images:
 7. If an image conveys no information (i.e., it is decorative or redundant), enter the word “decorative” (no quotes) **in the** **Description** **field**
 8. Activate the **Close** button
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/excel-02.jpg" alt="Screenshot of Format Picture sidebar" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/excel-02.jpg" alt="Screenshot of Format Picture sidebar" />
 </div>
 
 ### Charts and diagrams
@@ -93,10 +89,8 @@ To add hyperlinks with meaningful text:
 3. Activate **Hyperlink**
 4. Edit the **Text to Display field with meaningful text**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/excel-03.jpg" alt="Screenshot of Insert Hyperlink dialog" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/excel-03.jpg" alt="Screenshot of Insert Hyperlink dialog" />
 </div>
 
 ## Additional resources

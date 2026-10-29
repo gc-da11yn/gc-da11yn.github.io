@@ -9,10 +9,8 @@ fontIcon: fa-file-word
 
 Microsoft Office (Word, Excel, Power Point) provides a built-in accessibility validator. The checker does not identify all issues, but looks for things such as: missing alternative text, duplicate slide titles, and potential reading order issues.
 
-<div class="row">
-<div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-01.jpg" alt="Screenshot of &quot;Check for issues&quot; menu">
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/en/office2016/word-01.jpg" alt="Screenshot of &quot;Check for issues&quot; menu">
 </div>
 
 How to use the Accessibility Checker:
@@ -39,10 +37,8 @@ How to create a template:
 3. Type a name for your template in the **File name** field
 4. Activate the **Word Template** option in the **Save as type** list
 
-<div class="row">
-<div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-02.jpg" alt="Screenshot of saving as a template">
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/en/office2016/word-02.jpg" alt="Screenshot of saving as a template">
 </div>
 
 How to open a template:
@@ -64,10 +60,8 @@ Headings allow users to navigate and locate content. To ensure the document stru
 
 Ensure headings are denoted through structure and not only denoted implicitly (by using different fonts, font sizes, bolding, italics, etc.). Created styles will not be treated structurally as headings.
 
-<div class="row">
-<div class="col-md-9 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-03.jpg" alt="Screenshot of Styles toolbar">
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/en/office2016/word-03.jpg" alt="Screenshot of Styles toolbar">
 </div>
 
 To style headings:
@@ -93,10 +87,8 @@ To use headers and footers in Word:
 3. Choose your preferred style
 4. After creating the **Header** or **Footer**, press the “**Esc**” key to return to the main body of the document
 
-<div class="row">
-<div class="col-md-9">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-04.jpg" alt="Screenshot of Insert Header pop-up">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/word-04.jpg" alt="Screenshot of Insert Header pop-up">
 </div>
 
 ### Columns
@@ -123,9 +115,9 @@ To create a list:
 - Open the **Home** tab in the ribbon
 - Under the **Paragraph** toolbar, you will find list options such as **bullets, numbering, sorting, etc.**
 
-<div class="row">
-<div class="col-md-6">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-06.jpg" alt="Screenshot of Paragraph toolbar">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
+<img src="{{ pathPrefix }}/img/en/office2016/word-06.jpg" alt="Screenshot of Paragraph toolbar">
 </div>
 </div>
 
@@ -154,10 +146,8 @@ To assign alternative text to images:
 7. If an image conveys no information (i.e., it is decorative or redundant), enter the word “decorative” (no quotes) in the **Description field.**
 8. Activate the **Close** button
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-07.jpg" alt="Screenshot of Format Picture menu">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/word-07.jpg" alt="Screenshot of Format Picture menu">
 </div>
 
 ### Charts and Diagrams
@@ -175,10 +165,8 @@ To add a long description to diagrams and chart:
     3. The relationship of elements in the correct order
 5. Activate the **Close** button
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-08.jpg" alt="Screenshot of Format Chart Area menu">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/word-08.jpg" alt="Screenshot of Format Chart Area menu">
 </div>
 
 ### Links
@@ -192,10 +180,8 @@ To add hyperlinks with meaningful text:
 3. Activate **Edit Hyperlink**
 4. Edit the **Text to Display** **field with meaningful text**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office2016/word-09.jpg" alt="Screenshot of Edit Hyperlink">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office2016/word-09.jpg" alt="Screenshot of Edit Hyperlink">
 </div>
 
 ## Additional Resources

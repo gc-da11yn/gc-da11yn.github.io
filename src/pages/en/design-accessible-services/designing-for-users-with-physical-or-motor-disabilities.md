@@ -12,10 +12,10 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
 - <a href="{{ pathPrefix }}/docs/posters/MotorPhysical-en_2023.pdf" download>Designing for users with physical or motor disabilities (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> Do
 
 - Make large clickable actions
 - Give clickable elements space
@@ -24,9 +24,9 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - Provide shortcuts
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don't
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Don't
 
 - Demand precision
 - Bunch interactions together

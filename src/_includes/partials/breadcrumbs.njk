@@ -48,86 +48,59 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 
 #}
 
-<nav id="wb-bc" property="breadcrumb">
-	<h2>{{ header[locale].breadcrumbsHeading }}</h2>
-	<div class="container">
-		<ol class="breadcrumb" typeof="BreadcrumbList">
-			<!-- First breadcrumb: Canada.ca -->
-			<li property="itemListElement" typeof="ListItem">
-				<a property="item" typeof="WebPage" href="{{ header[locale].governmentOfCanadaURL }}">
-					<span property="name">Canada.ca</span>
-				</a>
-				<meta property="position" content="1">
-			</li>
+<gcds-breadcrumbs slot="breadcrumb">
+		<!-- First breadcrumb: Canada.ca - already set by default on GcdsHeader -->
+		<!-- Second breadcrumb: Locale-based home link -->
+		{% set url = page.url | replace("/", "") %}
+		{% if url != locale %}
+			<gcds-breadcrumbs-item href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/">{{ settings[locale].metaTitle }}</gcds-breadcrumbs-item>
+		{% endif %}
 
-			<!-- Second breadcrumb: Locale-based home link -->
-			{% set url = page.url | replace("/", "") %}
-			{% if url != locale %}
-				<li property="itemListElement" typeof="ListItem">
-					<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/">{{ settings[locale].metaTitle }}</a>
-					<meta property="position" content="2">
-				</li>
-			{% endif %}
+		<!-- Additional breadcrumbs based on tags and subjects -->
+		{% if tags[0] != "main" and url != locale %}
+			{% set counter = 3 %} {# Start the counter from 3, as 1 and 2 are already used #}
 
-			<!-- Additional breadcrumbs based on tags and subjects -->
-			{% if tags[0] != "main" and url != locale %}
-				{% set counter = 3 %} {# Start the counter from 3, as 1 and 2 are already used #}
+			<!-- Special handling for role-based pages -->
+			{% if page.url and page.url.startsWith('/' + locale + '/roles/') and page.url != '/' + locale + '/roles/' %}
+				<!-- Add "Accessibility in Your Role" breadcrumb -->
+				<gcds-breadcrumbs-item href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/roles/">
+					{{ tagList.subjects[locale].roles }}
+				</gcds-breadcrumbs-item>
+				{% set counter = counter + 1 %}
 
-				<!-- Special handling for role-based pages -->
-				{% if page.url and page.url.startsWith('/' + locale + '/roles/') and page.url != '/' + locale + '/roles/' %}
-					<!-- Add "Accessibility in Your Role" breadcrumb -->
-					<li property="itemListElement" typeof="ListItem">
-						<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/roles/">
-							<span property="name">{{ tagList.subjects[locale].roles }}</span>
-						</a>
-						<meta property="position" content="{{ counter }}">
-					</li>
-					{% set counter = counter + 1 %}
-
-					<!-- For individual role pages, add the role group breadcrumb -->
-					{% if pagination and pagination.items %}
-						{% set currentRole = pagination.items[pagination.pageNumber] %}
-						{% if currentRole.key and roles.roles[currentRole.key] %}
-							{% set groupKey = roles.roles[currentRole.key].group %}
-							<li property="itemListElement" typeof="ListItem">
-								<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/roles/{{ groupKey }}/">
-									<span property="name">{{ roles.groups[locale][groupKey] }}</span>
-								</a>
-								<meta property="position" content="{{ counter }}">
-							</li>
-						{% endif %}
-					{% endif %}
-				{% else %}
-					<!-- Existing breadcrumbs logic for non-role pages -->
-					<!-- Breadcrumbs based on 'subject' -->
-					{% if subject %}
-						{% for breadcrumb in subject %}
-							<li property="itemListElement" typeof="ListItem">
-								<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
-									<span property="name">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</span>
-								</a>
-								<meta property="position" content="{{ counter }}">
-							</li>
-							{% set counter = counter + 1 %}
-						{% endfor %}
-					{% endif %}
-
-					<!-- Breadcrumbs based on 'tags' -->
-					{% if tags %}
-						{% for breadcrumb in tags %}
-							{% if breadcrumb != "updatesMain" %}
-								<li property="itemListElement" typeof="ListItem">
-									<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
-										<span property="name">{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}</span>
-									</a>
-									<meta property="position" content="{{ counter }}">
-								</li>
-								{% set counter = counter + 1 %}
-							{% endif %}
-						{% endfor %}
+				<!-- For individual role pages, add the role group breadcrumb -->
+				{% if pagination and pagination.items %}
+					{% set currentRole = pagination.items[pagination.pageNumber] %}
+					{% if currentRole.key and roles.roles[currentRole.key] %}
+						{% set groupKey = roles.roles[currentRole.key].group %}
+						<gcds-breadcrumbs-item href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/roles/{{ groupKey }}/">
+							{{ roles.groups[locale][groupKey] }}
+						</gcds-breadcrumbs-item>
 					{% endif %}
 				{% endif %}
+			{% else %}
+				<!-- Existing breadcrumbs logic for non-role pages -->
+				<!-- Breadcrumbs based on 'subject' -->
+				{% if subject %}
+					{% for breadcrumb in subject %}
+						<gcds-breadcrumbs-item href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
+							{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}
+						</gcds-breadcrumbs-item>
+						{% set counter = counter + 1 %}
+					{% endfor %}
+				{% endif %}
+
+				<!-- Breadcrumbs based on 'tags' -->
+				{% if tags %}
+					{% for breadcrumb in tags %}
+						{% if breadcrumb != "updatesMain" %}
+							<gcds-breadcrumbs-item href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/{{ tagList.tags[locale][breadcrumb] | stripTagsSlugify or tagList.subjects[locale][breadcrumb] | stripTagsSlugify }}">
+								{{ tagList.tags[locale][breadcrumb] or tagList.subjects[locale][breadcrumb] }}
+							</gcds-breadcrumbs-item>
+							{% set counter = counter + 1 %}
+						{% endif %}
+					{% endfor %}
+				{% endif %}
 			{% endif %}
-		</ol>
-	</div>
-</nav>
+		{% endif %}
+      </gcds-breadcrumbs>

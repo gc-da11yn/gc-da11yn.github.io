@@ -61,15 +61,13 @@ La description textuelle longue est utile pour tous les utilisateurs. Rendez-la 
 
 Dans le cas d’une carte routière avec itinéraires, la description longue décrit chaque étape permettant de suivre les itinéraires.
 
-<div class="row">
-<div class="col-md-7 mrgn-bttm-md">
-<img class="img-responsive" src="{{ pathPrefix }}/img/fr/office2016/visio-01.jpg" alt="Organigramme illustrant le processus de connexion">
-</div>
+<div class="container-md mb-200">
+<img src="{{ pathPrefix }}/img/fr/office2016/visio-01.jpg" alt="Organigramme illustrant le processus de connexion">
 </div>
 
 Pour transmettre adéquatement à tous les utilisateurs le message d’un organigramme, la description longue utilise des éléments numériques.
 
-<div class="brdr-rds-0 well">
+<div class="bg-light p-300">
 
 #### Organigramme illustrant le processus de connexion :
 
@@ -90,7 +88,7 @@ Pour un diagramme avec composants, la description longue commence par un résum�
 
 Exemple d’organigramme de flux de données complexe&nbsp;:
 
-<div class="brdr-rds-0 well">
+<div class="bg-light p-300">
 
 ### Composant D (en-tête)
 

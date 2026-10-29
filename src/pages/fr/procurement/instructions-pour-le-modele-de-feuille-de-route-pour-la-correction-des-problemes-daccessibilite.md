@@ -120,7 +120,7 @@ L’objectif de cette section est de communiquer clairement les stratégies visa
 
 #### Définition de l’état des problèmes
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th>État</th>
@@ -155,7 +155,7 @@ L’objectif de cette section est de communiquer clairement les stratégies visa
 
 [Mesure à prendre – Si cette feuille de route doit fournir des priorités pour déterminer les délais d’exécution des mesures correctives, il convient d’utiliser la définition ci-dessous comme point de départ et de l’adapter au besoin. Si la feuille de route n’utilise pas un niveau de priorité pour définir les délais, il est possible de supprimer cette colonne du tableau « Détails de la feuille de route pour la correction des problèmes d’accessibilité ».]
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th>Priorité</th>
@@ -204,7 +204,7 @@ L’objectif de cette section est de communiquer clairement les stratégies visa
 
 ### Détails de la feuille de route pour la correction des problèmes d’accessibilité
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th>Clause(s) connexe(s) non conforme(s)</th>
@@ -269,7 +269,7 @@ Consultez l’[Annexe 1 – Exemple de tableau « Détails de la feuille de rou
 
 Le fournisseur accepte de corriger toutes les lacunes en matière d’accessibilité des TIC décrites dans la présente feuille de route pour la correction des problèmes d’accessibilité, et ce, dans les délais prescrits. Le non-respect de ces délais peut entraîner des pénalités contractuelles ou des ajustements jugés nécessaires par le responsable fonctionnel de produit du GC. Des mises à jour régulières de l’état doivent être fournies, et le fournisseur veillera à ce que toutes les mises à jour soient conformes à la norme d’accessibilité cible.]
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th>Nom de l’intervenant</th>
@@ -315,7 +315,7 @@ Le fournisseur accepte de corriger toutes les lacunes en matière d’accessibil
 - L’exemple de tableau « Détails de la feuille de route pour la correction des problèmes d’accessibilité » a été rempli au préalable avec trois exemples de problèmes qui doivent être supprimés lorsque vous fournissez votre feuille de route.
 - EN indique la clause EN 301 549 - V3.2.1 (2021-03). Il est recommandé de la relier à la clause appropriée de la norme. Les créateurs de la feuille de route peuvent utiliser soit la référence à la clause EN 301 549 - V3.2.1 (2021-03) (p. ex. EN 9.1.4.3 Contraste (Minimum)), soit la référence équivalente à la clause CAN/ASC - EN 301 549:2024 (p. ex. CAN/ASC 9.1.4.3 Contraste (Minimum)).
 
-<table class="table table-bordered table-striped">
+<table>
 <thead>
 <tr>
 <th><span id="_Annex_1_–" class="anchor"></span>Clause(s) connexe(s) non conforme(s)</th>

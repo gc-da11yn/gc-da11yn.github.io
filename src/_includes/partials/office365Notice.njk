@@ -7,11 +7,15 @@
 	{% set tryText = "Ce n\'est pas la version que vous recherchez ? Essayez" %}
 {% endif %}
 {% if tags[1] === "microsoft365" or page.fileSlug === indexSlug + "-" + inOffice + "-microsoft-365" %}
-<div class="alert alert-info">
-	{% if locale === "en" %}
+
+{% if locale === "en" %}
+<gcds-notice notice-role="info" notice-title-tag="h3" notice-title="Product name change">
 	<p><a href="https://support.microsoft.com/en-us/office/office-is-now-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office is now Microsoft 365</a>.</p>
-	{% else %}
+</gcds-notice>
+{% else %}
+<gcds-notice notice-role="info" notice-title-tag="h3" notice-title="Changement de nom du produit">
 	<p><a href="https://support.microsoft.com/fr-fr/office/office-est-désormais-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office est désormais Microsoft 365</a>.</p>
-	{% endif %}
-</div>
+</gcds-notice>
+{% endif %}
+
 {% endif %}

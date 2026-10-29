@@ -1,21 +1,17 @@
 {% set branch = "main" %}
 {% from "macros/contentType.njk" import getContentType %}
 
-</div>
-<div class="container-fluid">
-	<p><a href="#full-screen" aria-controls="full-screen" class="overlay-lnk btn btn-primary btn-block" role="button">{{ pageList[locale].definitionButtonText }}</a></p>
+	{#- TRANSITION-ONLY: WET overlay link, until GCDS has a dialog. -#}
+	<a href="#full-screen" aria-controls="full-screen" class="overlay-lnk btn btn-primary btn-block mb-200" role="button">{{ pageList[locale].definitionButtonText }}</a>
 
 	<!-- CSV Download Button -->
-	<div class="mrgn-bttm-md">
-		<a href="{{ pathPrefix }}/docs/pages-{{ locale }}.csv" download class="btn btn-default">
-			<i class="fas fa-download" aria-hidden="true"></i>
-			{% if locale === "en" %}
-				Download CSV Export
-			{% else %}
-				Télécharger l'export CSV
-			{% endif %}
+	<p class="mb-300">
+		<a class="button-link" href="{{ pathPrefix }}/docs/pages-{{ locale }}.csv" download="pages-{{ locale }}.csv">
+			<gcds-icon name="download"></gcds-icon>
+			{% if locale === "en" %}Download CSV Export{% else %}Télécharger l'export CSV{% endif %}
 		</a>
-	</div>
+	</p>
+
 	<section id="full-screen" class="wb-overlay modal-content overlay-def wb-popup-full">
 		<header class="modal-header">
 			<h2>{{ pageList[locale].definitionButtonText }}</h2>
@@ -53,123 +49,81 @@
 		</div>
 	</section>
 
-	<div id="filteredAppsList" class="wb-tagfilter provisional">
+{#- gcds-table handles keyword filter, sorting and pagination; page-list-table.js applies the checkboxes. -#}
+	{% set en = locale === "en" %}
+	{% set columns = [
+		{ field: "title", header: ("Title" if en else "Titre"), slotted: true, sort: true, rowHeader: true },
+		{ field: "tags", slotted: true, header: pageList[locale].tagsText, sort: true },
+		{ field: "subject", slotted: true, header: pageList[locale].subjectsText, sort: true },
+		{ field: "role", slotted: true, header: ("Role" if en else "Rôle"), sort: true },
+		{ field: "layout", header: ("Layout" if en else "Mise en page"), sort: true },
+		{ field: "modified", slotted: true, header: ("Date Modified" if en else "Date de modification"), sort: true },
+		{ field: "created", slotted: true, header: ("Date Created" if en else "Date de création"), sort: true },
+		{ field: "type", header: ("Content Type" if en else "Type de contenu"), sort: true },
+		{ field: "file", header: ("Link to file" if en else "Lien vers le fichier"), slotted: true }
+	] %}
 
-		<div class="form-group mrgn-bttm-0">
-			<fieldset>
-				<legend class="h5 mrgn-tp-0"><span class="field-name">Visible columns</span></legend>
-				<ul class="list-unstyled list-inline">
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_1" checked> {% if locale === "en" %}Title{% else %}Titre{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_3" checked> {{ pageList[locale].tagsText }}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_4" checked> {{ pageList[locale].subjectsText }}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_5" checked> {% if locale === "en" %}Role{% else %}Rôle{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_6" checked> {% if locale === "en" %}Layout{% else %}Mise en page{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_7" checked> {% if locale === "en" %}Date Modified{% else %}Date de modification{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_8" checked> {% if locale === "en" %}Date Created{% else %}Date de création{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_9" checked> {% if locale === "en" %}Content Type{% else %}Type de contenu{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_10" checked> {% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="isLanding" checked> {% if locale === "en" %}Is a landing page?{% else %}Une page d'atterrissage ?{% endif %}
-						</label>
-					</li>
-					<li class="checkbox">
-						<label>
-							<input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="isPage" checked> {% if locale === "en" %}Is a content page?{% else %}Une page de contenu ?{% endif %}
-						</label>
-					</li>
-				</ul>
-			</fieldset>
-		</div>
+	{% set columnOptions = [] %}
+	{% for column in columns %}
+		{% set columnOptions = (columnOptions.push({ id: "column-" + column.field, label: column.header, value: column.field, checked: true }), columnOptions) %}
+	{% endfor %}
+	{% set columnOptions = (columnOptions.push(
+		{ id: "column-isLanding", label: ("Is a landing page?" if en else "Une page d'atterrissage ?"), value: "isLanding", checked: true },
+		{ id: "column-isPage", label: ("Is a content page?" if en else "Une page de contenu ?"), value: "isPage", checked: true }
+	), columnOptions) %}
 
-		<table class="wb-tagfilter-items table table-bordered wb-tables table-striped table-hover filterEmphasis provisional">
-			<thead>
-				<tr>
-					<th data-wb-tags="col_1">{% if locale === "en" %}Title{% else %}Titre{% endif %}</th>
-					<th data-wb-tags="col_3">{{ pageList[locale].tagsText }}</th>
-					<th data-wb-tags="col_4">{{ pageList[locale].subjectsText }}</th>
-					<th data-wb-tags="col_5">{% if locale === "en" %}Role{% else %}Rôle{% endif %}</th>
-					<th data-wb-tags="col_6">{% if locale === "en" %}Layout{% else %}Mise en page{% endif %}</th>
-					<th data-wb-tags="col_7">{% if locale === "en" %}Date Modified{% else %}Date de modification{% endif %}</th>
-					<th data-wb-tags="col_8">{% if locale === "en" %}Date Created{% else %}Date de création{% endif %}</th>
-					<th data-wb-tags="col_9">{% if locale === "en" %}Content Type{% else %}Type de contenu{% endif %}</th>
-					<th data-wb-tags="col_10">{% if locale === "en" %}Link to file{% else %}Lien vers le fichier{% endif %}</th>
-				</tr>
-			</thead>
-			<tbody>
-				{% for entry in entries | sort(false, false, 'data.title') %}
-				{% set newPath = entry.inputPath | replace("\./", "/") %}
-				{% set otherLocale = "fr" if locale === "en" else "en" %}
-				{% set toggleURL = entry.inputPath | replace("\./src/" + locale + "/", "/" + otherLocale + "/") %}
-				{% set isLanding = entry.inputPath | replace("/", ",") %}
-				{% if entry.data.locale == locale %}
-				{% if entry.data.redirect %}
-				{% elif entry.inputPath.endsWith('.csv.njk') %}
-				{% else %}
-				<tr{% for items in isLanding[6] %}{% if items === "m" %} data-wb-tags="isLanding"{% else %} data-wb-tags="isPage"{% endif %}{% endfor %}>
-					<td data-wb-tags="col_1">
-					<a href="{{ entry.url }}">{{ entry.data.title | safe }}</a></td>
-					<td data-wb-tags="col_3">
-						{% for item in entry.data.tags %}
-						<span class="label label-info">{{ item }}</span>
-						{% endfor %}
-					</td>
-					<td data-wb-tags="col_4"><span class="label label-success">{{ entry.data.subject }}</span></td>
-					<td data-wb-tags="col_5">
-						{% if entry.data.role %}
-						{% set roleList = entry.data.role if entry.data.role is iterable and entry.data.role is not string else [entry.data.role] %}
-						{% for roleItem in roleList %}
-						<span class="label label-warning">{{ roleItem }}</span>
-						{% endfor %}
-						{% endif %}
-					</td>
-					<td data-wb-tags="col_6">{{ entry.data.layout or "" }}</td>
-					<td data-wb-tags="col_7">{{ entry.date | postDate if entry.date else "" }}</td>
-					<td data-wb-tags="col_8">{{ entry.data.gitCreated | postDate if entry.data.gitCreated else "" }}</td>
-					<td data-wb-tags="col_9">{{ getContentType(entry.inputPath, locale) }}</td>
-					<td data-wb-tags="col_10"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/{{ branch }}{{ newPath }}">{{ newPath }}</a></code></td>
-				</tr>
-				{% endif %}
-				{% endif %}
-				{% endfor %}
-			</tbody>
-		</table>
-	</div>
-</div>
-<div class="container">
+	{% set rows = [] %}
+	{% for entry in entries | sort(false, false, 'data.title') %}
+		{% if entry.data.locale == locale and not entry.data.redirect and not entry.inputPath.endsWith('.csv.njk') %}
+			{% set newPath = entry.inputPath | replace("\./", "/") %}
+			{% set contentType %}{{ getContentType(entry.inputPath, locale) }}{% endset %}
+			{% if not entry.data.role %}{% set roleList = [] %}{% elif entry.data.role is string %}{% set roleList = [entry.data.role] %}{% else %}{% set roleList = entry.data.role %}{% endif %}
+			{% set rows = (rows.push({
+				title: entry.data.title | striptags(true),
+				url: entry.url,
+				tags: (entry.data.tags | join(", ")) if entry.data.tags else "",
+				subject: entry.data.subject or "",
+				role: roleList | join(", "),
+				layout: entry.data.layout or "",
+				modified: (entry.date | postDate) if entry.date else "",
+				created: (entry.data.gitCreated | postDate) if entry.data.gitCreated else "",
+				type: contentType | trim,
+				file: newPath,
+				fileUrl: "https://github.com/gc-da11yn/gc-da11yn.github.io/tree/" + branch + newPath,
+				pageType: "isLanding" if "/main/" in entry.inputPath else "isPage"
+			}), rows) %}
+		{% endif %}
+	{% endfor %}
+
+	{#- Single-option gcds-checkboxes in a native fieldset so the options can sit in columns. -#}
+	<fieldset id="page-list-table-columns" class="page-list-fieldset mb-300">
+		<legend>{{ pageList[locale].columnsLegend }}</legend>
+		<gcds-grid columns="1fr 1fr" columns-tablet="repeat(3, 1fr)" columns-desktop="repeat(4, 1fr)" gap="150">
+			{% for option in columnOptions %}
+			<gcds-checkboxes name="page-list-table-columns" options="{{ [option] | dump | escape }}"></gcds-checkboxes>
+			{% endfor %}
+		</gcds-grid>
+	</fieldset>
+
+	<gcds-table
+		id="page-list-table"
+		filter
+		sort
+		pagination
+		pagination-size="25"
+		columns="{{ columns | dump | escape }}"
+		data="{{ rows | dump | escape }}"
+	>
+		<span slot="caption">{{ pageList[locale].tableCaption }}</span>
+		<template slot="cell:title"><gcds-link data-bind-template-href="{url}" data-bind="title"></gcds-link></template>
+		<template slot="cell:tags"><page-list-tags variant="tag" data-bind-tags="tags" class="d-flex flex-wrap gap-50"></page-list-tags></template>
+		<template slot="cell:subject"><page-list-tags variant="subject" data-bind-tags="subject" class="d-flex flex-wrap gap-50"></page-list-tags></template>
+		<template slot="cell:role"><page-list-tags variant="role" data-bind-tags="role" class="d-flex flex-wrap gap-50"></page-list-tags></template>
+		<template slot="cell:modified"><span class="page-list-date" data-bind="modified"></span></template>
+		<template slot="cell:created"><span class="page-list-date" data-bind="created"></span></template>
+		<template slot="cell:file"><gcds-link data-bind-template-href="{fileUrl}" data-bind="file"></gcds-link></template>
+	</gcds-table>
+
+	<noscript><p>{{ pageList[locale].noScriptText }}</p></noscript>
+
+<script src="{{ pathPrefix }}/js/page-list-table.js" defer></script>

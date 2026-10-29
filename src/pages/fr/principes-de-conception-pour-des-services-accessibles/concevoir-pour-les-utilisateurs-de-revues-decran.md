@@ -12,10 +12,10 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 
 - <a href="{{ pathPrefix }}/docs/posters/RevuesDecran-fr_2023.pdf" download>Concevoir pour les utilisateurs de revues d’écran (<abbr lang="en" title="Portable Document Format">PDF</abbr>, 53 <abbr title="kilo-octet">ko</abbr>)</a>
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> À faire
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> À faire
 
 - Décrire les images et fournir des transcriptions pour les vidéos
 - Établir une mise en page linéaire et logique
@@ -24,9 +24,9 @@ Affiches imprimables en format (<abbr lang="en" title="Portable Document Format"
 - Rédiger des liens et des titres descriptifs
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Chose à ne pas faire
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Chose à ne pas faire
 
 - Afficher l’information que dans une image ou une vidéo
 - Répartir le contenu sur toute la page

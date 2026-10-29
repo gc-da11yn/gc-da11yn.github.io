@@ -10,15 +10,15 @@ tags:
 
 {% include "partials/alert-landingpages.njk" %}
 
-<div class="row mrgn-tp-lg gc-drmt">
+<div class="d-grid lg:grid-cols-2 gap-x-400 mt-400">
 	{% for roleGroup in groupPairsFr %}
-	<div class="col-md-6">
+	<div>
 		<h2>
 			<a href="{{ pathPrefix }}{{ permalinkPrefix }}{{ locale }}/roles/{{ roleGroup[0] }}/">{{ roleGroup[1] }}</a>
 		</h2>
-		<ul class="list-inline">
+		<ul class="list-none ps-0 d-flex flex-wrap gap-100">
 			{% for roleLabel in roleGroup[3] %}
-			<li class="label label-success m-1">{{ roleLabel }}</li>
+			<li class="dev-tag dev-tag--subject d-inline-block px-100 bs-lg font-bold">{{ roleLabel }}</li>
 			{% endfor %}
 		</ul>
 		<p>{{ roleGroup[2] }}</p>

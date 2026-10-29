@@ -12,10 +12,10 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
 - <a href="{{ pathPrefix }}/docs/posters/Hearing-en_2023.pdf" download>Designing for users who are deaf or hard of hearing (<abbr title="Portable Document Format">PDF</abbr>, 53 <abbr title="KiloByte">KB</abbr>)</a>
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> Do
 
 - Write in plain language
 - Use subtitles or provide transcripts for videos
@@ -24,9 +24,9 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - Let users ask for their preferred communication support when booking appointments
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don't
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Don't
 
 - Use complicated words or figures of speech
 - Put content in audio or video only

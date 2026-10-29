@@ -9,9 +9,9 @@ description: On this page, you’ll find a list of pages that have been modified
 <ul>
 	{% for page in collections.changedPages %}
 	{% if page.locale != locale %}
-	<li><a href="{{ page.url }}" lang="{{ page.locale }}">{{ page.title }}</a></li>
+	<li><a href="{{ pathPrefix }}{{ page.url }}" lang="{{ page.locale }}">{{ page.title }}</a></li>
 	{% else %}
-	<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	<li><a href="{{ pathPrefix }}{{ page.url }}">{{ page.title }}</a></li>
 	{% endif %}
 	{% endfor %}
 </ul>

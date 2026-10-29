@@ -216,7 +216,7 @@ Accommodations may be necessary to fulfill the obligations outlines in the [Dire
 
 People who are deaf, hard of hearing, or sign language-fluent may struggle with written captions as it's their second language. Sign language interpretation also enhances the experience by conveying intonation, emotion, and meaningful audio information.
 
-- To book sign language interpretation for GC conferences and events, please visit: [Sign language interpretation services<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/signe-sign-eng.html)
+- To book sign language interpretation for GC conferences and events, please visit: [Sign language interpretation services<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/signe-sign-eng.html)
 
 ##### Communication Access Realtime Translation (<abbr>CART</abbr>)
 
@@ -231,8 +231,8 @@ Captions enables people who are deaf, have a hearing loss and people who have co
 Bilingual events can be a barrier for unilingual individuals with disabilities. To ensure full accessibility, simultaneous voiced translations are necessary. Translated captions or on-screen content alone cannot be accessed by non-visual users. As a result, they must wait for language switches without any stimuli and rely solely on summaries of the talking points in their language.
 
 - To book simultaneous translation for GC conferences and events please visit:
-  - For English and French: [Official language conference interpretation services<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/officielle-official-eng.html)
-  - For Indigenous languages: [Indigenous language conference interpretation services<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/autochtones-indigenous-eng.html)
+  - For English and French: [Official language conference interpretation services<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/officielle-official-eng.html)
+  - For Indigenous languages: [Indigenous language conference interpretation services<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Internal link</span>](https://gcintranet.tpsgc-pwgsc.gc.ca/bt-tb/interpretation/autochtones-indigenous-eng.html)
 
 **Note:** This requires a virtual platform that offers multiple voice channels, one for each language. When the presenter is no longer speaking the voice channel’s language, the interpreter assigned to the voice channel must speak the translation.
 
@@ -340,7 +340,7 @@ A script for the host can be especially useful to guide the event. Usually such 
 
 Below you will find an example of an opening statements script template that you can modify for your own purposes:
 
-<div class="well mrgn-tp-lg mrgn-bttm-lg">
+<div class="bg-light p-300 mt-400 mb-400">
 
 Welcome to our **[name of event]** about **[add a quick description of the event]**. My name is **[say name]** and I will be your Host today. **[Host should take some time to [acknowledge First Peoples and traditional territory (see guide)](https://www.caut.ca/content/guide-acknowledging-first-peoples-traditional-territory).]** I will first cover a few housekeeping points about today’s virtual event:
 
@@ -505,7 +505,7 @@ When possible, we recommend:
 
 ##### Additional resources for the organizer
 
-- Learn [how to make bilingual event invitations<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> Internal link</span>](https://163gc.sharepoint.com/sites/Collaboration/SitePages/Bilingual-Meeting-Invitations.aspx)
+- Learn [how to make bilingual event invitations<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> Internal link</span>](https://163gc.sharepoint.com/sites/Collaboration/SitePages/Bilingual-Meeting-Invitations.aspx)
 - [Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365 - Training](https://learn.microsoft.com/en-us/training/paths/m365-virtual-events-fundamentals/)
 - [Best practices for setting up and running a Teams event or Live event for the deaf and hard of hearing](https://support.microsoft.com/en-us/office/best-practices-for-setting-up-and-running-a-teams-meeting-or-live-event-for-the-deaf-and-hard-of-hearing-6d5ff6ac-c6f3-434b-ac95-c6e2e15ff0ac)
 

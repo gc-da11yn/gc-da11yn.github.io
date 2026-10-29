@@ -12,10 +12,10 @@ Printable posters(<abbr title="Portable Document Format">PDF</abbr> format):
 
 - <a href="{{ pathPrefix }}/docs/posters/AutismSpect-en_2023.pdf" download>Designing for users on the autism spectrum (<abbr title="Portable Document Format">PDF</abbr>, 47 <abbr title="KiloByte">KB</abbr>)</a>
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> Do
 
 - Use simple colours
 - Write in plain language
@@ -24,9 +24,9 @@ Printable posters(<abbr title="Portable Document Format">PDF</abbr> format):
 - Build simple and consistent layouts
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don't
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Don't
 
 - Use bright contrasting colours
 - Use figures of speech and idioms

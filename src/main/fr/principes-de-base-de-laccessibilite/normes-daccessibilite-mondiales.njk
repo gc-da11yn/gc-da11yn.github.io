@@ -12,9 +12,9 @@ subject:
 
 {% else %}
 
-<div class="row wb-eqht mrgn-tp-lg gc-drmt">
+<div class="d-grid lg:grid-cols-2 gap-x-400 mt-400">
 	{% for item in collections.globalAccessibilityStandards | sort(false, false, 'data.title') | localeMatch(locale) %}
-	<div class="col-md-6">
+	<div>
 		<h2><a href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ pathPrefix }}{{ item.url }} {% endif %}" {% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}" {% endif %}>{{ item.data.title | safe }}{% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}</a></h2>
 		<p>
 			{% if item.data.description %}

@@ -12,10 +12,10 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 
 - <a href="{{ pathPrefix }}/docs/posters/LowVision-en_2023.pdf" download>Designing for users with low vision (<abbr title="Portable Document Format">PDF</abbr>, 43 <abbr title="KiloByte">KB</abbr>)</a>
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> Do
 
 - Use good colour contrast and a readable font size
 - Publish all information on web pages
@@ -24,9 +24,9 @@ Printable posters (<abbr title="Portable Document Format">PDF</abbr> format):
 - Put buttons and notifications in context
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don't
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Don't
 
 - Use low colour contrasts and small font sizes
 - Bury information in downloads

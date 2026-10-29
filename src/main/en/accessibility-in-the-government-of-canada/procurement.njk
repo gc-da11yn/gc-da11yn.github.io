@@ -12,10 +12,10 @@ subject:
 
 {% else %}
 
-<div class="row wb-eqht mrgn-tp-lg gc-drmt">
+<div class="d-grid lg:grid-cols-2 gap-x-400 mt-400">
 	{% for item in collections.procurement | sort(false, false, 'data.title') | localeMatch(locale) %}
-	<div class="col-md-6">
-		<h2><a{% if item.data.redirect %} rel="external"{% endif %} href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ pathPrefix }}{{ item.url }} {% endif %}"{% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>{% if item.data.internal === true %}<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> {{ alerts[locale].hiddenTextLink }}</span>{% endif %}{{ item.data.title | safe }}{% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}</a></h2>
+	<div>
+		<h2><a{% if item.data.redirect %} rel="external"{% endif %} href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ pathPrefix }}{{ item.url }} {% endif %}"{% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>{% if item.data.internal === true %}<span class="fas fa-external-link-square-alt ms-50 me-50" aria-hidden="true"></span><span class="visibility-sr-only"> {{ alerts[locale].hiddenTextLink }}</span>{% endif %}{{ item.data.title | safe }}{% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}</a></h2>
 		<p>
 			{% if item.data.description %}
 			{{ item.data.description | safe }}
@@ -25,8 +25,8 @@ subject:
 		</p>
 	</div>
 	{% endfor %}
-	<div class="col-md-6">
-		<h2 class="h4">CAN-ASC – EN 301 549:2024</h2>
+	<div>
+		<h2 class="font-size-h4">CAN-ASC – EN 301 549:2024</h2>
 		<p>If you want a HTML version of the EN 301 549 v3.2.1 (2021), refer to the <a href="https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt">CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT) - Accessibility Standards Canada.</a></p>
 	</div>
 </div>

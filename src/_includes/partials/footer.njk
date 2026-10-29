@@ -1,52 +1,6 @@
-
-<footer id="wb-info">
-	<h2 class="wb-inv">{{ footer[locale].aboutThisSite }}</h2>
-	<div class="gc-main-footer">
-		<div class="container">
-			<nav aria-labelledby="governmentOfCanadan">
-				<h3 id="governmentOfCanadan">{{ footer[locale].governmentOfCanadan }}</h3>
-				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="{{ footer[locale].allContactsLink }}">{{ footer[locale].allContacts }}</a></li>
-					<li><a href="{{ footer[locale].departmentsAndAgenciesURL }}">{{ footer[locale].departmentsAndAgencies }}</a></li>
-					<li><a href="{{ footer[locale].aboutGovernmentURL }}">{{ footer[locale].aboutGovernment }}</a></li></ul>
-				<h4><span class="wb-inv">{{ footer[locale].themesAndTopics }}</span></h4>
-				<ul class="list-unstyled colcount-sm-2 colcount-md-3"><li><a href="{{ footer[locale].jobsURL }}">{{ footer[locale].jobs }}</a></li>
-					<li><a href="{{ footer[locale].immigrationURL }}">{{ footer[locale].immigration }}</a></li>
-					<li><a href="{{ footer[locale].travelURL }}">{{ footer[locale].travel }}</a></li>
-					<li><a href="{{ footer[locale].businessURL }}">{{ footer[locale].business }}</a></li>
-					<li><a href="{{ footer[locale].benefitsURL }}">{{ footer[locale].benefits }}</a></li>
-					<li><a href="{{ footer[locale].healthURL }}">{{ footer[locale].health }}</a></li>
-					<li><a href="{{ footer[locale].taxesURL }}">{{ footer[locale].taxes }}</a></li>
-					<li><a href="{{ footer[locale].environmentURL }}">{{ footer[locale].environment }}</a></li>
-					<li><a href="{{ footer[locale].defenceURL }}">{{ footer[locale].defence }}</a></li>
-					<li><a href="{{ footer[locale].cultureURL }}">{{ footer[locale].culture }}</a></li>
-					<li><a href="{{ footer[locale].policingURL }}">{{ footer[locale].policing }}</a></li>
-					<li><a href="{{ footer[locale].transportURL }}">{{ footer[locale].transport }}</a></li>
-					<li><a href="{{ footer[locale].internationalURL }}">{{ footer[locale].international }}</a></li>
-					<li><a href="{{ footer[locale].financeURL }}">{{ footer[locale].finance }}</a></li>
-					<li><a href="{{ footer[locale].scienceURL }}">{{ footer[locale].science }}</a></li>
-					<li><a href="{{ footer[locale].indigenousURL }}">{{ footer[locale].indigenous }}</a></li>
-					<li><a href="{{ footer[locale].veteransURL }}">{{ footer[locale].veterans }}</a></li>
-					<li><a href="{{ footer[locale].youthURL }}">{{ footer[locale].youth }}</a></li>
-					<li><a href="{{ footer[locale].lifeEventsURL }}">{{ footer[locale].lifeEvents }}</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-	<div class="gc-sub-footer">
-		<div class="container d-flex align-items-center">
-			<nav aria-labelledby="governmentCorporateHeading">
-				<h3 class="wb-inv" id="governmentCorporateHeading">{{ footer[locale].governmentCorporateHeading }}</h3>
-				<ul>
-					<li><a href="{{ footer[locale].socialURL }}">{{ footer[locale].social }}</a></li>
-					<li><a href="{{ footer[locale].mobileURL }}">{{ footer[locale].mobile }}</a></li>
-					<li><a href="{{ footer[locale].aboutURL }}">{{ footer[locale].about }}</a></li>
-					<li><a href="{{ footer[locale].termsURL }}">{{ footer[locale].terms }}</a></li>
-					<li><a href="{{ footer[locale].privacyURL }}">{{ footer[locale].privacy }}</a></li>
-				</ul>
-			</nav>
-			<div class="wtrmrk align-self-end">
-				<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="{{ footer[locale].symbolOfCanada }}" />
-			</div>
-		</div>
-	</div>
-</footer>
+<gcds-footer
+  id="footer"
+  display="full"
+  lang="{{ locale }}"
+  sub-links='{ "{{ footer[locale].social }}": "{{ footer[locale].socialURL }}", "{{ footer[locale].mobile }}": "{{ footer[locale].mobileURL }}", "{{ footer[locale].about }}": "{{ footer[locale].aboutURL }}", "{{ footer[locale].terms }}": "{{ footer[locale].termsURL }}", "{{ footer[locale].privacy }}": "{{ footer[locale].privacyURL }}" }'
+></gcds-footer>

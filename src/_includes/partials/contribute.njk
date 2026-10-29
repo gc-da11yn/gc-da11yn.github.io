@@ -1,31 +1,49 @@
 {% set newPath = page.inputPath | replace("\./", "/") %}
 
 <aside>
-	{% include "./pageListLink.njk" %}
-	<div class="contribute">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5">
-					<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>{{ contribute[locale].contribute }}</span><small>{{ contribute[locale].small }}</small></h2>
-				</div>
-				<div class="col-md-7">
-					<ul class="list-inline">
-						<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}</a></li>
-						<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == "fr" %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">{{ contribute[locale].report }}</a></li>
-						<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a{% if locale == fr %} {% endif %} href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}</a></li>
-					</ul>
-					<p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:{{ contribute.email }}?subject={{ contribute[locale].emailSubject }}">{{ contribute[locale].emailText }}</a></p>
-				</div>
-			</div>
-			{# This code block checks if the environment is set to "dev". If it is, it displays a paragraph with a link to Netlify and a link to edit the code for the current page on GitHub. #}
-			{% if settings.env == "dev" %}
-				<p>{{ contribute[locale].netlify }} <a{% if locale == "fr" %} {% endif %} href="https://www.netlify.com">Netlify</a></p>
-				{% if locale === 'en' %}
-					<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Edit code for the <strong>{{ title | safe }}</strong> page</a>.</p>
-				{% else %}
-					<p class="text-center"><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">Modifier le code de la page <strong>{{ title| safe }}</strong></a>.</p>
-				{% endif %}
-			{% endif %}
-		</div>
-	</div>
+  {% include "./pageListLink.njk" %}
+
+ <gcds-container layout="page" padding="300" class="contribute">
+   <gcds-grid columns="1fr" columns-tablet="5fr 7fr" gap="300">
+     <div>
+       <h2 class="mt-0 mb-0 text-light">
+         <i class="fab fa-github fa-fw" aria-hidden="true"></i>
+         {{ contribute[locale].contribute }}
+       </h2>
+       <p class="contribute-subtitle">{{ contribute[locale].small }}</p>
+     </div>
+
+     <div>
+		<ul class="contribute-links d-flex flex-wrap gap-300 list-none p-0 mt-0 mb-200">
+         <li class="d-flex align-items-center gap-100">
+           <i class="fas fa-code fa-fw" aria-hidden="true"></i>
+           <a class="link-light" href="https://github.com/gc-da11yn/gc-da11yn.github.io">{{ contribute[locale].see }}</a>
+         </li>
+         <li class="d-flex align-items-center gap-100">
+           <gcds-icon name="exclamation-circle"></gcds-icon>
+           <a class="link-light" href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">{{ contribute[locale].report }}</a>
+         </li>
+         <li class="d-flex align-items-center gap-100">
+           <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+           <a class="link-light" href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">{{ contribute[locale].join }}</a>
+         </li>
+       </ul>
+       <span>
+         <gcds-icon name="email" margin-right="100"></gcds-icon>
+         <a href="mailto:{{ contribute.email }}?subject={{ contribute[locale].emailSubject }}">{{ contribute[locale].emailText }}</a>
+       </span>
+     </div>
+   </gcds-grid>
+
+   {% if settings.env == "dev" %}
+     <p class="mt-300">
+       {{ contribute[locale].netlify }} <a href="https://www.netlify.com">Netlify</a>
+     </p>
+     <p>
+       <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/edit/main{{ newPath }}">
+         {% if locale == "en" %}Edit code for the <strong>{{ title | safe }}</strong> page{% else %}Modifier le code de la page <strong>{{ title | safe }}</strong>{% endif %}
+       </a>.
+     </p>
+   {% endif %}
+ </gcds-container>
 </aside>

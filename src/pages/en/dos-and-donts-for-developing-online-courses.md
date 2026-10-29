@@ -8,10 +8,10 @@ tags:
   - designCourse
 ---
 
-<div class="row">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
-## <span class="fas fa-thumbs-up mrgn-rght-md" aria-hidden="true"></span> Do’s
+## <span class="fas fa-thumbs-up me-200" aria-hidden="true"></span> Do’s
 
 - Use high-contrast colours (4.5 to 1 for level AA) and test your colour scheme by using the high contrast setting of your computer
 - Include videos and audio captions, and a basic or descriptive transcript
@@ -36,9 +36,9 @@ tags:
 
 
 </div>
-<div class="col-md-6">
+<div>
 
-## <span class="fas fa-thumbs-down mrgn-rght-md" aria-hidden="true"></span> Don’ts
+## <span class="fas fa-thumbs-down me-200" aria-hidden="true"></span> Don’ts
 
 - Don’t use bright contrasting colours
 - Don’t rely solely on visuals in a video to convey information

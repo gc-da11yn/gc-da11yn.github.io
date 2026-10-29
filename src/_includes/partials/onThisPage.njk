@@ -1,7 +1,7 @@
 {% if headings %}
 <aside>
 	<h2>{{ onThisPage[locale].heading }}</h2>
-	<ul>
+	<ul class="list-disc ps-500">
 		{% set current_level = 2 %}
 		{% for heading in headings %}
 		{% if heading.level == 'h2' %}
@@ -12,7 +12,7 @@
 		{% if loop.last %}</li>{% endif %}
 	{% elseif heading.level == 'h3' and not tocSimple %}
 	{% if current_level < 3 %}
-	  <ul>
+	  <ul class="list-circle ps-500">
 		{% set current_level = 3 %}
 		{% endif %}
 		<li><a href="#{{ heading.id }}">{{ heading.text }}</a></li>

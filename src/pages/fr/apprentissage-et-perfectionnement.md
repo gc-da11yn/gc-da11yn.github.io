@@ -7,7 +7,7 @@ tags:
   - main
 ---
 
-<div class="gc-srvinfo">
+<div>
 
 ## [Série d'apprentissage sur l'accessibilité - EFPC (csps-efpc.gc.ca)](https://www.csps-efpc.gc.ca/accessibility-learning-fra.aspx)
 
@@ -17,15 +17,15 @@ Cette série comprend des liens vers des cours de base, des vidéos, des outils 
 
 ### Cours
 
-<div class="row wb-eqht">
-<div class="col-md-6">
+<div class="d-grid lg:grid-cols-2 gap-x-400">
+<div>
 
 #### [Favoriser l'inclusion des personnes en situation de handicap et la levée des obstacles à l'accessibilité (INC115) (csps-efpc.gc.ca)](https://catalogue.csps-efpc.gc.ca/product?catalog=INC115&cm_locale=fr)
 
 Ce cours en ligne à rythme libre vous amènera à remettre en question les suppositions et les croyances habituelles au sujet des personnes en situation de handicap, mais aussi à porter votre attention sur l'obstacle plutôt que sur la déficience. Vous découvrirez les différents obstacles auxquels font face les personnes en situation de handicap et apprendrez comment rendre votre milieu de travail et les services que vous offrez inclusifs, accessibles et exempts d'obstacles.
 
 </div>
-<div class="col-md-6">
+<div>
 
 #### [Gestion de l'incapacité et mieux-être en milieu de travail (INC120) (csps-efpc.gc.ca)](https://catalogue.csps-efpc.gc.ca/product?catalog=INC120&cm_locale=fr)
 
@@ -62,6 +62,6 @@ l'emploi et aux restrictions liées à l'emploi tels que les blessures, les mala
 
 ## Série d'atelier, disponible sur GcPedia
 
-- [Formation et événements du GC sur l'accessibilité ( gcpedia.gc.ca )<span class="fas fa-external-link-square-alt mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> Lien interne</span>](https://www.gcpedia.gc.ca/wiki/GC_Accessibility_Training_and_Events_/_Formation_et_événements_du_GC_sur_l'accessibilité?setlang=fr&uselang=fr)
+- [Formation et événements du GC sur l'accessibilité ( gcpedia.gc.ca )<span class="fas fa-external-link-square-alt ms-50" aria-hidden="true"></span><span class="visibility-sr-only"> Lien interne</span>](https://www.gcpedia.gc.ca/wiki/GC_Accessibility_Training_and_Events_/_Formation_et_événements_du_GC_sur_l'accessibilité?setlang=fr&uselang=fr)
 
 </div>

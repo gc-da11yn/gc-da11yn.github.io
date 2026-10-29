@@ -15,10 +15,8 @@ How to use the Accessibility Checker:
 2. Review the results in the **Accessibility Checker** pane
 3. Address the listed issues. Helpful information to understand and fix the different issues is provided at the bottom of the pane
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/excel-365-001.jpg" alt="Screenshot of Check for Issues menu">
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/excel-365-001.jpg" alt="Screenshot of Check for Issues menu">
 </div>
 
 The **Accessibility Checker** is also located on the Ribbon under the **Review** tab > **Check Accessibility**. Activate the "Keep accessibility checker running while I work" check box in the checker pane to keep track of accessibility issues in real time.
@@ -60,10 +58,8 @@ To assign alternative text to images:
 5. If the image is meaningful, convey in words the meaning, function, or purpose communicated by the image
 6. Activate the **Close** button
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/excel-365-002.jpg" alt="Screenshot of Format Picture sidebar" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/excel-365-002.jpg" alt="Screenshot of Format Picture sidebar" />
 </div>
 
 ### Charts and diagrams
@@ -85,10 +81,8 @@ To add hyperlinks with meaningful text:
 3. Activate **Hyperlink**
 4. Edit the **Text to Display field with meaningful text**.
 
-<div class="row">
-<div class="col-md-7">
-<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/excel-365-003.jpg" alt="Screenshot of Insert Hyperlink dialog" />
-</div>
+<div class="container-md">
+<img src="{{ pathPrefix }}/img/en/office365/excel-365-003.jpg" alt="Screenshot of Insert Hyperlink dialog" />
 </div>
 
 ## Additional resources

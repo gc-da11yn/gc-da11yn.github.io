@@ -2,6 +2,7 @@
 title: Website usage analytics
 description: Provides an overview of website usage data, such as the number of visits, users, pageviews, and bounce rates. It also highlights the most frequently used devices and the top countries where users visit the site. The data is updated regularly to reflect the latest activity, helping us understand how people interact with the website and improve the overall experience.
 toggle: analytique-de-lutilisation-du-site-web
+wetboewRuntime: true # TRANSITION-ONLY: WET charts plugin draws the analytics chart, until a GCDS-compatible chart replaces it
 subject:
   - aboutUs
 mainAbout: true
@@ -9,14 +10,14 @@ mainAbout: true
 
 {% include "partials/analytics-chart.njk" %}
 
-<p class="mrgn-tp-lg"><a href="{{ pathPrefix }}/en/website-usage-analytics-data-view"><i class="fas fa-server mrgn-rght-md" aria-hidden="true"></i>Check out this information in a data view</a></p>
+<p class="mt-400"><a href="{{ pathPrefix }}/en/website-usage-analytics-data-view"><i class="fas fa-server me-200" aria-hidden="true"></i>Check out this information in a data view</a></p>
 
 {% include "partials/analytics-toc.njk" %}
 
 {% for month, results in analytics %}
-<section class="mrgn-tp-lg mrgn-bttm-lg">
-	<div class="well">
-	<h2 class="mrgn-tp-sm" id="{{ month }}">{{ month | formatYearMonth }}</h2>
+<section class="mt-400 mb-400">
+	<div class="bg-light p-300">
+	<h2 class="mt-50" id="{{ month }}">{{ month | formatYearMonth }}</h2>
 	<p>
 		The site recorded <strong>{{ results.results[0].sessions }}</strong> visits, with
 		<strong>{{ results.results[0].newUsers }}</strong> users and
