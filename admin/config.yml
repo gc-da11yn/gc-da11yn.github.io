@@ -14,7 +14,7 @@
 #   - ELEVENTY_ENV is 'dev', 'development', or 'local'
 #   - --local flag is passed: npm run cms:config -- --local
 #
-# Generated: 2026-10-20T15:14:15.495Z
+# Generated: 2026-11-01T02:50:57.484Z
 # Environment: production
 # Local backend: disabled
 #
