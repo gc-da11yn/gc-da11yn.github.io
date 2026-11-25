@@ -4,6 +4,8 @@ description: Architectural and implementation decisions governing the migration 
 toc: true
 ---
 
+<!-- cspell:ignore wordmark -->
+
 This document records architectural and implementation decisions made during the migration from WET/GCWeb to the GC Design System (GCDS). Each decision is numbered and includes context, rationale, and implications to support long-term maintainability.
 
 ---
@@ -84,3 +86,36 @@ This approach provides focused previews, review, and rollback while preserving a
 - Netlify deploy previews provide staging for feature and integration review.
 - Production remains on WET until the final cutover.
 - The [GCDS Delivery Strategy]({{ pathPrefix }}/en/gcds-delivery-strategy/) is the canonical record for workflow, sequencing, quality gates, risks, and rollback.
+
+## Decision 003: Use a simple GCDS look with toolkit-specific navigation
+
+### Decision 003 Status
+
+Accepted for implementation planning
+
+### Decision 003 Date
+
+2026-11-25
+
+### Decision 003 Context
+
+The previous visual language is based on GCWeb and the Canada.ca shell. The migration should adopt GCDS rather than reproduce that visual treatment, while retaining required Government of Canada identity and the toolkit's existing user-facing functions.
+
+### Decision 003 Outcome
+
+- Keep the Government of Canada signature and wordmark and retain localized search.
+- Do not reproduce the Canada.ca theme or topic menu.
+- Design and approve the toolkit's own bilingual site menu, including its labels, hierarchy, responsive behavior, and keyboard interaction.
+- Use GCDS components, design tokens, CSS Shortcuts, and semantic native HTML first, with the least custom CSS needed for site-specific presentation.
+- Preserve user-facing behavior supplied by WET. Use a native or GCDS solution where one exists and focused custom JavaScript where a required behavior has no replacement.
+
+### Decision 003 Rationale
+
+A simple GCDS direction makes the target visual system clear, while a toolkit-specific menu can reflect the site's information architecture rather than Canada.ca's broader navigation. Prioritizing system styles reduces maintenance and avoids rebuilding GCWeb in custom CSS. Preserving behavior avoids treating a visual migration as an unapproved removal of user functions.
+
+### Decision 003 Implications
+
+- The toolkit site-menu design must be approved before Work Package 2 begins.
+- Work Package 12 replaces the analytics chart rather than assuming it can be removed.
+- Custom CSS and JavaScript require a documented gap and focused regression coverage.
+- Material changes to site navigation or user-facing functions require an explicit product or accessibility decision.

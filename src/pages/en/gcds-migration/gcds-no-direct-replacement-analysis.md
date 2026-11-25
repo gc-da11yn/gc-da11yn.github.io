@@ -43,7 +43,7 @@ The following table prioritizes patterns that need redesign decisions rather tha
 | Clauses lightbox | Opens a long bilingual clauses reference in a WET lightbox | Use an in-page section with direct navigation; consider `<details>` only if collapsing the content improves comprehension | serious | Small | 1 |
 | Card and table filtering | Searches and filters generated page collections | Build a progressively enhanced native form with visible result status and a complete no-JavaScript list or table | serious | Large | 1 |
 | Enhanced directory table | Adds filtering, sorting, pagination, and column controls | Establish essential behaviors through user needs; retain only justified enhancements around a semantic table | serious | Large | 1 |
-| Analytics chart | Converts a data table into a bar chart | Keep the table authoritative; remove the chart unless research supports an accessible enhancement | serious | Medium | 2 |
+| Analytics chart | Converts a data table into a bar chart | Keep the table authoritative and replace the visual chart with an accessible GCDS-independent enhancement | serious | Medium | 2 |
 | Archived-content banner | Duplicates a notice in an in-view sticky overlay | Render one persistent inline notice; add non-obscuring sticky behavior only if evidence supports it | serious | Small | 1 |
 | Canada.ca doormats | Presents grouped landing-page links | Use native headings and link lists in `<gcds-grid>` | moderate | Medium | 2 |
 | WET footnotes | Connects references, notes, and return links | Preserve bidirectional native anchor links and descriptive accessible names without plugin JavaScript | moderate | Small | 2 |
@@ -170,7 +170,7 @@ GCDS does not provide a chart component. WET currently transforms a native data 
 
 ### Chart Recommendation
 
-Use the captioned data table as the authoritative presentation and remove the chart unless analytics users demonstrate a need for visual trend comparison. If retained, treat the chart as an optional enhancement and evaluate the chosen chart library independently.
+Use the captioned data table as the authoritative presentation and preserve the existing visual chart task with a focused accessible enhancement that does not depend on WET or jQuery. Prefer a minimal implementation with no new dependency, and evaluate any chart library or custom JavaScript against the same accessibility requirements.
 
 ### Chart Accessibility Requirements
 
@@ -179,6 +179,8 @@ Use the captioned data table as the authoritative presentation and remove the ch
 - Do not rely on colour alone to distinguish values or series.
 - Make exact values available without hover or pointer input.
 - Respect reduced-motion and forced-colour preferences.
+- Keep the chart and table synchronized in English and French, including labels and values.
+- Preserve the existing comparison task rather than treating chart removal as an implementation cleanup.
 
 ## Archived-Content Banner
 
