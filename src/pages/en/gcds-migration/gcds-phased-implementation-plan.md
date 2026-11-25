@@ -85,22 +85,22 @@ The following table lists the linear implementation order. Child issue numbers a
 
 | Order | Phase | Proposed Child Issue | Risk | Depends On |
 | --- | --- | --- | --- | --- |
-| 1 | Foundation | Establish parallel GCDS foundation and preview fixture | moderate | Discovery acceptance |
-| 2 | Shell | Migrate header and custom site navigation | serious | 1 and site-menu design approval |
-| 3 | Shell | Migrate footer and contextual links | moderate | 2 |
-| 4 | Shell | Complete and approve parallel page shell | serious | 3 |
-| 5 | Components | Migrate notices and archived-content state | serious | 4 |
-| 6 | Components | Migrate secondary navigation, downloads, and contribution UI | moderate | 5 |
-| 7 | Components | Migrate landing, collection, update, and role templates | moderate | 6 |
-| 8 | Behavior | Replace page-directory overlays with inline structure | serious | 7 |
-| 9 | Behavior | Replace directory tag filtering with progressive enhancement | serious | 8 |
-| 10 | Behavior | Replace enhanced directory table behavior | serious | 9 |
-| 11 | Behavior | Replace clauses lightbox and WET footnotes with native references | moderate | 10 |
-| 12 | Behavior | Replace analytics chart enhancement | moderate | 11 |
-| 13 | Cleanup | Migrate language-selection and not-found pages | serious | 12 |
-| 14 | Cleanup | Migrate remaining inline content dependencies | serious | 13 |
-| 15 | Cleanup | Activate GCDS default layout and remove legacy runtime | critical | 14 |
-| 16 | QA/Cutover | Complete full-site QA and production cutover | critical | 15 |
+| 1 | Foundation | [#811](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/811) Establish parallel GCDS foundation and preview fixture | moderate | Discovery acceptance |
+| 2 | Shell | [#813](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/813) Migrate header and custom site navigation | serious | #811 and site-menu design approval |
+| 3 | Shell | [#814](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/814) Migrate footer and contextual links | moderate | #813 |
+| 4 | Shell | [#815](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/815) Complete and approve parallel page shell | serious | #814 |
+| 5 | Components | [#816](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/816) Migrate notices and archived-content state | serious | #815 |
+| 6 | Components | [#817](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/817) Migrate secondary navigation, downloads, and contribution UI | moderate | #816 |
+| 7 | Components | [#818](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/818) Migrate landing, collection, update, and role templates | moderate | #817 |
+| 8 | Behavior | [#819](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/819) Replace page-directory overlays with inline structure | serious | #818 |
+| 9 | Behavior | [#820](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/820) Replace directory tag filtering with progressive enhancement | serious | #819 |
+| 10 | Behavior | [#821](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/821) Replace enhanced directory table behavior | serious | #820 |
+| 11 | Behavior | [#822](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/822) Replace clauses lightbox and WET footnotes with native references | moderate | #821 |
+| 12 | Behavior | [#823](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/823) Replace analytics chart enhancement | moderate | #822 |
+| 13 | Cleanup | [#824](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/824) Migrate language-selection and not-found pages | serious | #823 |
+| 14 | Cleanup | [#825](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/825) Migrate remaining inline content dependencies | serious | #824 |
+| 15 | Cleanup | [#826](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/826) Activate GCDS default layout and remove legacy runtime | critical | #825 |
+| 16 | QA/Cutover | [#827](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/827) Complete full-site QA and production cutover | critical | #826 |
 
 Implementation remains sequential under Decision 002. Dependencies may be adjusted in the approved GitHub issue bodies only when doing so does not create concurrent feature branches or mix framework runtimes.
 
@@ -714,4 +714,6 @@ After approval:
 - Sixteen reviewable child issues define titles, scope, exclusions, dependencies, risk, completion criteria, and verification.
 - Dependencies, blockers, milestone gates, and production confirmation are explicit.
 - Build, links, accessibility, bilingual routing, and JavaScript fallback assessment are defined phase by phase.
-- The backlog is ready for review before GitHub issue and Project 13 creation.
+- The approved implementation issues are #811 and #813 through #827.
+- All implementation issues are linked to #770 and #776, assigned to the GCDS Migration milestone, and added to Project 13 as Backlog.
+- Work Package #811 is the only package ready to activate after the planning PR is merged.
