@@ -142,7 +142,7 @@ describe('Eleventy Build Validation', () => {
       expect(htmlContent.match(/<h1\b/g)).toHaveLength(1);
       expect(htmlContent).toMatch(new RegExp(`<link rel="alternate" hreflang="${counterpart}" href="/${counterpart}/gcds-foundation-preview/index.html">`));
       expect(htmlContent).toMatch(
-        new RegExp(`<a\\s+data-counterpart\\s+lang="${counterpart}"\\s+hreflang="${counterpart}"\\s+href="/${counterpart}/gcds-foundation-preview/"\\s+translate="no"\\s*>${linkLabel}</a>`)
+        new RegExp(`<a\\s+data-counterpart[\\s\\S]*?lang="${counterpart}"[\\s\\S]*?hreflang="${counterpart}"[\\s\\S]*?href="/${counterpart}/gcds-foundation-preview/"[\\s\\S]*?translate="no"[\\s\\S]*?>${linkLabel}</a>`)
       );
       expect(htmlContent).toContain('href="#main-content"');
       expect(htmlContent).toContain('/gcds/gcds.css');

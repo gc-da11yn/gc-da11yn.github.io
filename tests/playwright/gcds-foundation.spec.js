@@ -25,6 +25,7 @@ for (const fixture of fixtures) {
     await page.waitForFunction(() => customElements.get("gcds-container"));
 
     await expect(page.locator("main")).toHaveCount(1);
+    await expect(page.getByRole("banner")).toHaveCount(1);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(fixture.title);
     await expect(page.locator("html")).toHaveAttribute("lang", fixture.locale);
 
@@ -34,6 +35,14 @@ for (const fixture of fixtures) {
     await expect(counterpart).toHaveAttribute("hreflang", fixture.counterpart);
     await expect(counterpart).toHaveAttribute("translate", "no");
     await expect(counterpart).toHaveText(fixture.counterpartLabel);
+
+    const navigation = page.locator("gcds-side-nav");
+    await expect(navigation).toBeVisible();
+    await expect(navigation.locator("gcds-nav-link")).toHaveCount(6);
+    await expect(page.getByRole("link", { name: "Accessibility Fundamentals" }).or(
+      page.getByRole("link", { name: "Principes de base de l’accessibilité" })
+    )).toBeVisible();
+    await expect(page.locator("gcds-search")).toBeVisible();
 
     await page.keyboard.press("Tab");
     const skipLink = page.locator('a[href="#main-content"]');
@@ -49,8 +58,12 @@ for (const fixture of fixtures) {
     await page.goto(fixture.path);
 
     await expect(page.locator("main")).toHaveCount(1);
+    await expect(page.getByRole("banner")).toHaveCount(1);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(fixture.title);
     await expect(page.locator("[data-counterpart]")).toBeVisible();
+    await expect(page.locator(".gcds-site-nav-fallback")).toBeVisible();
+    await expect(page.locator(".gcds-site-nav-fallback a")).toHaveCount(6);
+    await expect(page.locator(".gcds-search-fallback")).toBeVisible();
     const skipLink = page.locator('a[href="#main-content"]');
     await expect(skipLink).toBeVisible();
     await page.keyboard.press("Tab");
@@ -66,8 +79,11 @@ for (const fixture of fixtures) {
 
     expect(await page.evaluate(() => customElements.get("gcds-container"))).toBeUndefined();
     await expect(page.locator("main")).toHaveCount(1);
+    await expect(page.getByRole("banner")).toHaveCount(1);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(fixture.title);
     await expect(page.locator("[data-counterpart]")).toBeVisible();
+    await expect(page.locator(".gcds-site-nav-fallback")).toBeVisible();
+    await expect(page.locator(".gcds-search-fallback")).toBeVisible();
   });
 }
 

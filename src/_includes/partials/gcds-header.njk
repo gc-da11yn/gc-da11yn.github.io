@@ -1,0 +1,66 @@
+{% set otherLang = "fr" if locale == "en" else "en" %}
+{% set otherLanguage = "Français" if locale == "en" else "English" %}
+{% set otherLangSlug = toggle | stripTagsSlugify if toggle else "gcds-foundation-preview" %}
+{% if tags and 'home' in tags %}
+{% set languageUrl = pathPrefix + "/" + otherLang + "/" %}
+{% set languageLinkUrl = languageUrl %}
+{% else %}
+{% set languageUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/index.html" %}
+{% set languageLinkUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
+{% endif %}
+
+<gcds-header
+    lang="{{ locale }}"
+    skip-to-href="#main-content"
+    role="banner"
+  >
+    <a slot="skip-to-nav" class="gcds-skip-link" href="#main-content">{{ gcdsPreview[locale].skipToMain }}</a>
+
+    <a href="{{ header[locale].governmentOfCanadaURL }}" class="gcds-header__brand-fallback">
+      {{ header[locale].governmentOfCanada }}
+    </a>
+
+    {% if needsTranslation != true %}
+    <a
+      data-counterpart
+      slot="toggle"
+      lang="{{ otherLang }}"
+      hreflang="{{ otherLang }}"
+      href="{{ languageLinkUrl }}"
+      translate="no"
+    >{{ otherLanguage }}</a>
+    {% endif %}
+
+    <gcds-search
+      slot="search"
+      action="https://canada.ca/{{ locale }}/sr/srb.html"
+      name="q"
+      placeholder="{{ header[locale].searchCanadaCa }}"
+      search-id="gcds-site-search"
+      lang="{{ locale }}"
+    ></gcds-search>
+    <form class="gcds-search-fallback" action="https://canada.ca/{{ locale }}/sr/srb.html" method="get" role="search">
+      <label for="gcds-site-search-fallback">{{ header[locale].searchCanadaCa }}</label>
+      <input id="gcds-site-search-fallback" name="q" type="search">
+      <button type="submit">{{ header[locale].search }}</button>
+    </form>
+
+    <gcds-side-nav slot="menu" label="{{ siteMenu[locale].label }}" lang="{{ locale }}">
+      <gcds-nav-link slot="home" href="{{ pathPrefix }}/{{ locale }}/">
+        {{ siteMenu[locale].home }}
+      </gcds-nav-link>
+      {% for item in siteMenu[locale].links %}
+      <gcds-nav-link href="{{ pathPrefix }}{{ item.url }}">
+        {{ item.label }}
+      </gcds-nav-link>
+      {% endfor %}
+    </gcds-side-nav>
+    <nav class="gcds-site-nav-fallback" aria-label="{{ siteMenu[locale].label }}">
+      <ul>
+        <li><a href="{{ pathPrefix }}/{{ locale }}/">{{ siteMenu[locale].home }}</a></li>
+        {% for item in siteMenu[locale].links %}
+        <li><a href="{{ pathPrefix }}{{ item.url }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+</gcds-header>

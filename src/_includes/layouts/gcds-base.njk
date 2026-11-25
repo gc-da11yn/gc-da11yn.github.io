@@ -2,7 +2,7 @@
 <html lang="{{ locale }}">
   {% include "layouts/gcds-head.njk" %}
   <body>
-    <a href="#main-content">{{ gcdsPreview[locale].skipToMain }}</a>
+    {% include "partials/gcds-header.njk" %}
 
     <main id="main-content" tabindex="-1">
       <gcds-container layout="page" padding="300">

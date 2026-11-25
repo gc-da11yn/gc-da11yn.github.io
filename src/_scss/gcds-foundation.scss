@@ -1,0 +1,23 @@
+.gcds-header__brand-fallback,
+.gcds-search-fallback,
+.gcds-site-nav-fallback {
+  display: block;
+}
+
+gcds-header:defined .gcds-header__brand-fallback,
+gcds-header:defined .gcds-search-fallback,
+gcds-side-nav:defined + .gcds-site-nav-fallback {
+  display: none;
+}
+
+gcds-side-nav:not(:defined),
+gcds-search:not(:defined) {
+  display: none;
+}
+
+.gcds-site-nav-fallback ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+

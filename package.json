@@ -30,7 +30,7 @@
     "eleventy": "npm run url-history:prepare && npx eleventy",
     "watch:eleventy": "npm run url-history:prepare && eleventy --serve",
     "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
-    "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
+    "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css && sass --style=compressed src/_scss/gcds-foundation.scss _site/css/gcds-foundation.css",
     "watch:sass": "npm run sass-start -- --watch",
     "start": "cross-env ELEVENTY_WATCH=true ELEVENTY_ENV=local npm-run-all --parallel watch:sass serve:port -- spellcheck:changed",
     "start-cms": "npm-run-all \"cms:config -- --local\" --parallel start decap-server",
