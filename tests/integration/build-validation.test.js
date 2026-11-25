@@ -9,6 +9,28 @@ const fs = require('fs').promises;
 const path = require('path');
 const { execSync } = require('child_process');
 
+const gcdsMigrationDocumentSlugs = [
+  'gcds-component-map',
+  'gcds-delivery-strategy',
+  'gcds-implementation-decisions',
+  'gcds-migration-inventory',
+  'gcds-migration-issue-map',
+  'gcds-migration-plan',
+  'gcds-no-direct-replacement-analysis',
+  'gcds-phased-implementation-plan',
+  'gcds-shared-template-inventory',
+  'gcds-wet-dependency-inventory'
+];
+
+const gcdsMigrationDocumentSlugsWithDetails = [
+  'gcds-component-map',
+  'gcds-delivery-strategy',
+  'gcds-no-direct-replacement-analysis',
+  'gcds-phased-implementation-plan',
+  'gcds-shared-template-inventory',
+  'gcds-wet-dependency-inventory'
+];
+
 describe('Eleventy Build Validation', () => {
 
   beforeAll(async () => {
@@ -69,6 +91,41 @@ describe('Eleventy Build Validation', () => {
 
       expect(enContent).toContain('lang="en"');
       expect(frContent).toContain('lang="fr"');
+    });
+
+    test('generates accessible GCDS migration documents', async () => {
+      for (const slug of gcdsMigrationDocumentSlugs) {
+        const outputPath = path.join('_site', 'en', slug, 'index.html');
+        const htmlContent = await fs.readFile(outputPath, 'utf8');
+
+        expect(htmlContent).toContain('<html class="no-js" lang="en"');
+        expect(htmlContent.match(/<h1\b/g)).toHaveLength(1);
+        expect(htmlContent).toContain('<nav aria-labelledby="on-this-page-heading">');
+        expect(htmlContent).toContain('<h2 id="on-this-page-heading">On this page</h2>');
+        expect(htmlContent).toContain('<span property="name">GCDS migration documentation</span>');
+        expect(htmlContent).toContain('href="/en/gcds-migration/"');
+        if (gcdsMigrationDocumentSlugsWithDetails.includes(slug)) {
+          expect(htmlContent).toMatch(/<div class="well well-lg">\s*<ul>/);
+        }
+        if (slug === 'gcds-wet-dependency-inventory') {
+          expect(htmlContent).toContain('{{ item.data.fontIcon }}');
+          expect(htmlContent).toContain('{{ title }}');
+        }
+        expect(htmlContent).not.toMatch(/href="[^"]+\.md(?:#|\")/);
+      }
+    });
+
+    test('generates the GCDS migration documentation index', async () => {
+      const htmlContent = await fs.readFile('_site/en/gcds-migration/index.html', 'utf8');
+
+      expect(htmlContent).toContain('<html class="no-js" lang="en"');
+      expect(htmlContent.match(/<h1\b/g)).toHaveLength(1);
+      expect(htmlContent).toContain('<nav aria-labelledby="on-this-page-heading">');
+      expect(htmlContent).not.toContain('<span property="name">GCDS migration documentation</span>');
+
+      for (const slug of gcdsMigrationDocumentSlugs) {
+        expect(htmlContent).toContain(`href="/en/${slug}/"`);
+      }
     });
   });
 

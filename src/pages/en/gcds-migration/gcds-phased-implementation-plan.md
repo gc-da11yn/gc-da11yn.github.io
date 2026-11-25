@@ -1,19 +1,32 @@
-# GCDS Phased Implementation Plan
+---
+title: GCDS Phased Implementation Plan
+description: Phased work packages, dependencies, completion criteria, and verification requirements for migrating the Digital Accessibility Toolkit to GCDS.
+toc: true
+---
 
 <!-- cspell:ignore fieldsets lightbox pagedetails skipnav tagfilter unupgraded -->
 
-**Issue:** [Draft phased implementation plan and child issue breakdown #776](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/776)
-**Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
-**Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
-**Deploy preview:** [Digital Accessibility Toolkit / Boîte à outils de l'accessibilité numérique](https://deploy-preview-778--a11ycanada.netlify.app/)
-**Date:** 2026-08-31
-**Status:** Proposed for backlog approval
+{% set documentDetails %}
+
+- **Issue:** [Draft phased implementation plan and child issue breakdown #776](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/776)
+- **Epic:** [Plan migration from WET to GC Design System #770](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/770)
+- **Branch:** `migration/gcds` - [GCDS migration tracking PR #778](https://github.com/gc-da11yn/gc-da11yn.github.io/pull/778)
+- **Deploy preview:** [Digital Accessibility Toolkit deploy preview](https://deploy-preview-778--a11ycanada.netlify.app/)
+- **Date:** August 31, 2026
+- **Status:** Proposed for backlog approval
+
+{% endset %}
+<!-- markdownlint-disable MD033 -->
+<div class="well well-lg">
+{{ documentDetails | markdown | safe }}
+</div>
+<!-- markdownlint-enable MD033 -->
 
 ## Purpose
 
 This plan converts the completed discovery work into an executable GCDS migration backlog. It defines phases, child-issue boundaries, dependencies, risk, completion criteria, and verification checkpoints.
 
-The plan follows [Decision 001](gcds-implementation-decisions.md#decision-001-use-native-html-for-content-gcds-components-for-ui) and [Decision 002](gcds-implementation-decisions.md#decision-002-use-incremental-integration-with-one-production-cutover). Detailed evidence comes from the [WET/GCWeb Dependency Inventory](gcds-wet-dependency-inventory.md), [Shared Template Inventory](gcds-shared-template-inventory.md), [WET-to-GCDS Component Map](gcds-component-map.md), [No-Direct-Replacement Analysis](gcds-no-direct-replacement-analysis.md), and [GCDS Delivery Strategy](gcds-delivery-strategy.md).
+The plan follows [Decision 001]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-001-use-native-html-for-content-gcds-components-for-ui) and [Decision 002]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-002-use-incremental-integration-with-one-production-cutover). Detailed evidence comes from the [WET/GCWeb Dependency Inventory]({{ pathPrefix }}/en/gcds-wet-dependency-inventory/), [Shared Template Inventory]({{ pathPrefix }}/en/gcds-shared-template-inventory/), [WET-to-GCDS Component Map]({{ pathPrefix }}/en/gcds-component-map/), [No-Direct-Replacement Analysis]({{ pathPrefix }}/en/gcds-no-direct-replacement-analysis/), and [GCDS Delivery Strategy]({{ pathPrefix }}/en/gcds-delivery-strategy/).
 
 ## Delivery Rules
 
