@@ -4,7 +4,7 @@ description: Phased work packages, dependencies, completion criteria, and verifi
 toc: true
 ---
 
-<!-- cspell:ignore fieldsets lightbox pagedetails skipnav tagfilter unupgraded -->
+<!-- cspell:ignore fieldsets lightbox pagedetails skipnav tagfilter unupgraded wordmark -->
 
 {% set documentDetails %}
 
@@ -26,6 +26,8 @@ toc: true
 
 This plan converts the completed discovery work into an executable GCDS migration backlog. It defines phases, child-issue boundaries, dependencies, risk, completion criteria, and verification checkpoints.
 
+The migration also changes the visual direction: use a simple GCDS presentation rather than recreate the current GCWeb or Canada.ca appearance. Keep the Government of Canada signature and wordmark, retain search, and replace the Canada.ca theme and topic menu with the toolkit's own bilingual site menu.
+
 The plan follows [Decision 001]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-001-use-native-html-for-content-gcds-components-for-ui) and [Decision 002]({{ pathPrefix }}/en/gcds-implementation-decisions/#decision-002-use-incremental-integration-with-one-production-cutover). Detailed evidence comes from the [WET/GCWeb Dependency Inventory]({{ pathPrefix }}/en/gcds-wet-dependency-inventory/), [Shared Template Inventory]({{ pathPrefix }}/en/gcds-shared-template-inventory/), [WET-to-GCDS Component Map]({{ pathPrefix }}/en/gcds-component-map/), [No-Direct-Replacement Analysis]({{ pathPrefix }}/en/gcds-no-direct-replacement-analysis/), and [GCDS Delivery Strategy]({{ pathPrefix }}/en/gcds-delivery-strategy/).
 
 ## Delivery Rules
@@ -38,6 +40,9 @@ The plan follows [Decision 001]({{ pathPrefix }}/en/gcds-implementation-decision
 - Develop the GCDS shell in parallel and never load WET and GCDS framework assets on the same rendered page.
 - Defer content-file changes until templates, shared UI, and complex behaviors are stable.
 - Keep English and French behavior and data contracts equivalent.
+- Use GCDS components, design tokens, CSS Shortcuts, and semantic native HTML before adding custom CSS. Keep custom CSS focused on genuinely site-specific presentation.
+- Preserve existing user-facing WET functionality. Use native HTML or GCDS when they provide the behavior; otherwise implement and document a focused accessible JavaScript enhancement.
+- Design and approve the toolkit's site menu before the header work package. Its labels, hierarchy, responsive behavior, and keyboard interaction are not implied by the current Canada.ca menu.
 - Use Netlify deploy previews for review and merge only after required checks and approvals pass.
 - Do not merge PR #778 to `main` without explicit production-cutover approval.
 
@@ -58,6 +63,8 @@ Every child issue must meet these conditions unless its scope explains why a che
 - The Netlify deploy preview renders the changed states without unexpected console errors.
 - No rendered page loads both WET and GCDS framework assets.
 - Automated and manual verification results are recorded in the pull request.
+- Existing user-facing functions remain available unless a separately approved product decision changes them.
+- New custom CSS has a documented GCDS or native-HTML gap, and new JavaScript replaces a defined WET behavior rather than duplicating one supplied by the platform.
 - New behavior and temporary compatibility code are documented where future cleanup depends on them.
 
 ## Common Verification
@@ -79,7 +86,7 @@ The following table lists the linear implementation order. Child issue numbers a
 | Order | Phase | Proposed Child Issue | Risk | Depends On |
 | --- | --- | --- | --- | --- |
 | 1 | Foundation | Establish parallel GCDS foundation and preview fixture | moderate | Discovery acceptance |
-| 2 | Shell | Migrate header and global navigation group | serious | 1 |
+| 2 | Shell | Migrate header and custom site navigation | serious | 1 and site-menu design approval |
 | 3 | Shell | Migrate footer and contextual links | moderate | 2 |
 | 4 | Shell | Complete and approve parallel page shell | serious | 3 |
 | 5 | Components | Migrate notices and archived-content state | serious | 4 |
@@ -89,7 +96,7 @@ The following table lists the linear implementation order. Child issue numbers a
 | 9 | Behavior | Replace directory tag filtering with progressive enhancement | serious | 8 |
 | 10 | Behavior | Replace enhanced directory table behavior | serious | 9 |
 | 11 | Behavior | Replace clauses lightbox and WET footnotes with native references | moderate | 10 |
-| 12 | Behavior | Remove or replace analytics chart enhancement | moderate | 11 |
+| 12 | Behavior | Replace analytics chart enhancement | moderate | 11 |
 | 13 | Cleanup | Migrate language-selection and not-found pages | serious | 12 |
 | 14 | Cleanup | Migrate remaining inline content dependencies | serious | 13 |
 | 15 | Cleanup | Activate GCDS default layout and remove legacy runtime | critical | 14 |
@@ -150,22 +157,24 @@ Issues #771 through #776 form the Discovery phase.
 
 ## Phase 2: Shell
 
-### Work Package 2: Migrate Header and Global Navigation Group
+### Work Package 2: Migrate Header and Custom Site Navigation
 
 **Proposed branch:** `feature/gcds-header`
 
-**Purpose:** Replace the global header as one coherent bilingual and keyboard-navigation unit.
+**Purpose:** Replace the global header as a simple, coherent bilingual and keyboard-navigation unit without reproducing the Canada.ca theme and topic menu.
 
 **Scope:**
 
-- Add GCDS header, signature, language toggle, Canada.ca search, theme and topic menu, top navigation, and skip-navigation partials.
+- Add GCDS header, Government of Canada signature and wordmark, language toggle, localized search, approved toolkit site menu, and skip-navigation partials.
+- Use the approved bilingual site-menu labels, hierarchy, responsive states, active-state rules, and keyboard behavior.
 - Reuse existing locale data and counterpart URL logic.
 - Preserve search endpoint, query parameter, labels, path prefixes, home-page handling, and translation suppression.
+- Use GCDS components and CSS Shortcuts; limit custom CSS to documented gaps that cannot be solved by the system or semantic native HTML.
 - Bind the new header group only to the parallel GCDS layout and fixtures.
 
-**Exclusions:** Footer, body grid, shared notices, page-family navigation, and changes to current WET header partials.
+**Exclusions:** The Canada.ca theme and topic menu, footer, body grid, shared notices, page-family navigation, and changes to current WET header partials.
 
-**Dependencies and blockers:** Work Package 1; official component APIs and slot composition must be confirmed for the pinned version.
+**Dependencies and blockers:** Work Package 1; approved bilingual site-menu design; official component APIs and slot composition confirmed for the pinned version.
 
 **Risk:** `serious`
 
@@ -174,7 +183,7 @@ Issues #771 through #776 form the Discovery phase.
 - Header identity appears once and landmarks are not duplicated.
 - English and French language toggles resolve to the correct fixture counterparts.
 - Search submits the correct localized query.
-- Global and site navigation have descriptive names and correct active-state behavior.
+- The custom site navigation has descriptive names and correct active-state behavior without the Canada.ca theme or topic menu.
 - The skip link is first in logical keyboard order, becomes visible on focus, and reaches the main target.
 
 **Specific verification:**
@@ -182,6 +191,7 @@ Issues #771 through #776 form the Discovery phase.
 - Test complete keyboard order at narrow and wide viewports.
 - Verify search, menu, and language-toggle accessible names with a screen reader.
 - Test 200% and 400% zoom for overlap or obscured focus.
+- Compare the GCDS shell with the approved simple visual direction and confirm custom CSS is limited to documented site-specific needs.
 - Assess essential navigation before component upgrade and with JavaScript disabled; document exceptions.
 
 ### Work Package 3: Migrate Footer and Contextual Links
@@ -361,12 +371,12 @@ All migrated shared UI and page-family fixtures must render in both languages wi
 
 **Scope:**
 
-- Move definitions and filtering controls into logical inline document positions.
+- Move definitions and filtering controls into logical inline document positions without removing the associated user tasks.
 - Preserve headings, fieldsets, legends, and the complete generated result set.
 - Remove `wb-overlay`, full-screen popup, and side-panel behavior from GCDS output.
 - Add representative directory states to the GCDS preview surface.
 
-**Exclusions:** Filtering JavaScript, sorting, pagination, and final content-file cleanup.
+**Exclusions:** Filtering JavaScript, sorting, pagination, final content-file cleanup, and removing directory functions.
 
 **Dependencies and blockers:** Work Package 7; no blockers because the approved #774 recommendation is inline structure.
 
@@ -392,7 +402,7 @@ All migrated shared UI and page-family fixtures must render in both languages wi
 
 **Scope:**
 
-- Confirm and implement only the filters needed for directory tasks.
+- Preserve the current user-facing directory filtering tasks with a focused native form and necessary filters.
 - Provide visibly labelled search and grouped checkbox controls.
 - Add client-side filtering without jQuery.
 - Preserve state, keep focus stable, provide reset, and announce result count and no-results changes through one polite status region.
@@ -424,7 +434,7 @@ All migrated shared UI and page-family fixtures must render in both languages wi
 
 **Scope:**
 
-- Confirm which sorting, pagination, and column controls are essential.
+- Preserve the current user-facing sorting, pagination, column, and filtering tasks unless a separate product decision changes them.
 - Render a complete captioned table with correct headers as the baseline.
 - Implement approved enhancements without jQuery or WET table plugins.
 - Expose sort and page state, preserve focus, and avoid removing essential columns at narrow widths.
@@ -478,22 +488,22 @@ All migrated shared UI and page-family fixtures must render in both languages wi
 - Navigate every reference and return path with keyboard and screen reader.
 - Verify focus visibility and browser history after fragment navigation.
 
-### Work Package 12: Remove or Replace Analytics Chart Enhancement
+### Work Package 12: Replace Analytics Chart Enhancement
 
 **Proposed branch:** `feature/gcds-analytics`
 
-**Purpose:** Remove WET chart behavior while preserving authoritative analytics data.
+**Purpose:** Replace WET chart behavior while preserving the user-facing visualization and authoritative analytics data.
 
 **Scope:**
 
 - Keep the captioned native data table as the authoritative presentation.
-- Remove the chart enhancement unless a documented user need justifies retaining it.
-- If retained, separately evaluate the chosen library for text alternatives, exact value access, non-colour cues, keyboard access, and reduced motion.
+- Replace the current chart with a focused accessible enhancement when GCDS does not provide a chart component.
+- Evaluate the chosen implementation for exact values, text alternatives, non-colour cues, keyboard access, bilingual text, and reduced motion.
 - Remove WET chart initialization and jQuery dependencies from GCDS output.
 
 **Exclusions:** General analytics collection or reporting changes.
 
-**Dependencies and blockers:** Work Package 11; evidence of user need and an approved library are blockers only if a chart is retained.
+**Dependencies and blockers:** Work Package 11; selection of a minimal chart approach that preserves the current user task.
 
 **Risk:** `moderate`
 
@@ -501,13 +511,13 @@ All migrated shared UI and page-family fixtures must render in both languages wi
 
 - Analytics data remains complete and understandable in both languages.
 - WET chart classes, initialization, and plugin URLs are absent from GCDS output.
-- Any retained visualization is supplementary and meets its documented accessibility requirements.
+- The replacement visualization preserves the current user task and is supplementary to the complete table.
 - The analytics page remains useful without JavaScript.
 
 **Specific verification:**
 
 - Check table caption and header associations.
-- If a chart remains, verify exact values without hover, text summary, non-colour cues, and reduced-motion behavior.
+- Verify chart and table parity, exact values without hover, text summary, non-colour cues, keyboard access, and reduced-motion behavior.
 
 ### Behavior Exit Gate
 
@@ -669,7 +679,7 @@ The following table demonstrates that each known migration area has an implement
 | Discovery Pattern | Work Package |
 | --- | --- |
 | GCDS packages, CSS Shortcuts, parallel layout, head | 1 |
-| Header, identity, language, search, global and site navigation, skip link | 2 |
+| Header, identity, language, search, approved custom site navigation, skip link | 2 |
 | Footer and contextual links | 3 |
 | Main shell, grid, title, breadcrumbs, date modified | 4 |
 | Alerts, notices, archived state | 5 |
@@ -679,7 +689,7 @@ The following table demonstrates that each known migration area has an implement
 | Tag filtering and result announcements | 9 |
 | Enhanced table behavior | 10 |
 | Clauses lightbox and footnotes | 11 |
-| Table-to-chart behavior | 12 |
+| Accessible analytics chart replacement and data table | 12 |
 | Splash randomizer and standalone shells | 13 |
 | Inline content utilities, layout classes, and icons | 14 |
 | Default layout, WET runtime, jQuery, FontAwesome, compatibility code | 15 |
