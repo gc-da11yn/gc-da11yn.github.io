@@ -18,7 +18,7 @@ module.exports = {
       },
       {
         label: "Accessibility in the Government of Canada",
-        url: "/en/accessibility-in-the-government-of-canada/"
+        url: "/en/digital-accessibility-in-the-government-of-canada/"
       },
       {
         label: "About Us",
@@ -44,7 +44,7 @@ module.exports = {
       },
       {
         label: "Accessibilité au gouvernement du Canada",
-        url: "/fr/accessibilite-au-gouvernement-du-canada/"
+        url: "/fr/accessibilite-numerique-au-gouvernement-du-canada/"
       },
       {
         label: "À propos de nous",
