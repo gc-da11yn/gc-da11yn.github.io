@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+  {% include "layouts/gcds-head.njk" %}
+  <body>
+    <a href="#main-content">{{ gcdsPreview[locale].skipToMain }}</a>
+
+    <main id="main-content" tabindex="-1">
+      <gcds-container layout="page" padding="300">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+        {{ content | safe }}
+      </gcds-container>
+    </main>
+  </body>
+</html>

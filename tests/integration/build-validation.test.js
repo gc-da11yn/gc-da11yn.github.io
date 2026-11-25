@@ -127,6 +127,50 @@ describe('Eleventy Build Validation', () => {
         expect(htmlContent).toContain(`href="/en/${slug}/"`);
       }
     });
+
+    test.each([
+      ['en', 'fr', 'Français'],
+      ['fr', 'en', 'English']
+    ])('generates the isolated GCDS %s foundation preview', async (locale, counterpart, linkLabel) => {
+      const outputPath = path.join('_site', locale, 'gcds-foundation-preview', 'index.html');
+      const htmlContent = await fs.readFile(outputPath, 'utf8');
+
+      expect(htmlContent).toContain(`<!DOCTYPE html>`);
+      expect(htmlContent).toContain(`<html lang="${locale}">`);
+      expect(htmlContent.match(/<main\b/g)).toHaveLength(1);
+      expect(htmlContent).toContain('<main id="main-content" tabindex="-1">');
+      expect(htmlContent.match(/<h1\b/g)).toHaveLength(1);
+      expect(htmlContent).toMatch(new RegExp(`<link rel="alternate" hreflang="${counterpart}" href="/${counterpart}/gcds-foundation-preview/index.html">`));
+      expect(htmlContent).toMatch(
+        new RegExp(`<a\\s+data-counterpart\\s+lang="${counterpart}"\\s+hreflang="${counterpart}"\\s+href="/${counterpart}/gcds-foundation-preview/"\\s+translate="no"\\s*>${linkLabel}</a>`)
+      );
+      expect(htmlContent).toContain('href="#main-content"');
+      expect(htmlContent).toContain('/gcds/gcds.css');
+      expect(htmlContent).toContain('/gcds/gcds.esm.js');
+      expect(htmlContent).toContain('/css/gcds-css-shortcuts.min.css');
+      expect(htmlContent).toContain('/img/favicon.ico');
+      expect(htmlContent).not.toMatch(/wet-boew|jquery|fontawesome/i);
+    });
+
+    test('does not advertise a suppressed GCDS translation', async () => {
+      const htmlContent = await fs.readFile(
+        '_site/en/gcds-foundation-preview-no-translation/index.html',
+        'utf8'
+      );
+
+      expect(htmlContent).not.toContain('rel="alternate"');
+      expect(htmlContent).not.toContain('data-counterpart');
+    });
+
+    test('keeps normal home pages on the WET layout', async () => {
+      for (const locale of ['en', 'fr']) {
+        const htmlContent = await fs.readFile(path.join('_site', locale, 'index.html'), 'utf8');
+        expect(htmlContent).toContain('wet-boew/css/theme.min.css');
+        expect(htmlContent).toContain('wet-boew/js/wet-boew.min.js');
+        expect(htmlContent).not.toContain('/gcds/gcds.esm.js');
+        expect(htmlContent).not.toContain('/css/gcds-css-shortcuts.min.css');
+      }
+    });
   });
 
   describe('HTML Structure', () => {
@@ -151,6 +195,13 @@ describe('Eleventy Build Validation', () => {
     test('CSS is properly linked', async () => {
       const htmlContent = await fs.readFile('_site/en/index.html', 'utf8');
       expect(htmlContent).toContain('da11yn.css');
+    });
+
+    test('copies pinned GCDS assets', async () => {
+      await expect(fs.access('_site/gcds/gcds.css')).resolves.not.toThrow();
+      await expect(fs.access('_site/gcds/gcds.esm.js')).resolves.not.toThrow();
+      await expect(fs.access('_site/css/gcds-css-shortcuts.min.css')).resolves.not.toThrow();
+      await expect(fs.access('_site/img/favicon.ico')).resolves.not.toThrow();
     });
   });
 
