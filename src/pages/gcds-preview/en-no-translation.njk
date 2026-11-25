@@ -1,0 +1,15 @@
+---
+title: GC Design System foundation translation fallback
+description: Translation-suppressed fixture for the parallel GCDS foundation.
+locale: en
+layout: layouts/gcds-base.njk
+permalink: "{{ permalinkPrefix }}en/gcds-foundation-preview-no-translation/"
+toggle: gcds-foundation-preview
+needsTranslation: true
+eleventyExcludeFromCollections: true
+---
+
+<!-- cspell:ignore eleventy -->
+
+<h2>{{ gcdsPreview[locale].fallbackHeading }}</h2>
+<p>{{ gcdsPreview[locale].fallback }}</p>

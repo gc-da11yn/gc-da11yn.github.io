@@ -1,0 +1,22 @@
+---
+title: Aperçu de la fondation du Système de design GC
+description: Aperçu français pour la fondation parallèle du Système de design GC.
+locale: fr
+layout: layouts/gcds-base.njk
+permalink: "{{ permalinkPrefix }}fr/gcds-foundation-preview/"
+toggle: gcds-foundation-preview
+---
+
+<h2>{{ gcdsPreview[locale].contentHeading }}</h2>
+<p>{{ gcdsPreview[locale].content }}</p>
+<p>
+  <a
+    data-counterpart
+    lang="{{ gcdsPreview[locale].counterpart }}"
+    hreflang="{{ gcdsPreview[locale].counterpart }}"
+    href="{{ pathPrefix }}/en/gcds-foundation-preview/"
+    translate="no"
+  >{{ gcdsPreview[locale].counterpartLabel }}</a>
+</p>
+<h2>{{ gcdsPreview[locale].fallbackHeading }}</h2>
+<p>{{ gcdsPreview[locale].fallback }}</p>

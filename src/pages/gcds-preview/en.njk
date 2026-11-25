@@ -1,0 +1,22 @@
+---
+title: GC Design System foundation preview
+description: English preview fixture for the parallel GCDS foundation.
+locale: en
+layout: layouts/gcds-base.njk
+permalink: "{{ permalinkPrefix }}en/gcds-foundation-preview/"
+toggle: gcds-foundation-preview
+---
+
+<h2>{{ gcdsPreview[locale].contentHeading }}</h2>
+<p>{{ gcdsPreview[locale].content }}</p>
+<p>
+  <a
+    data-counterpart
+    lang="{{ gcdsPreview[locale].counterpart }}"
+    hreflang="{{ gcdsPreview[locale].counterpart }}"
+    href="{{ pathPrefix }}/fr/gcds-foundation-preview/"
+    translate="no"
+  >{{ gcdsPreview[locale].counterpartLabel }}</a>
+</p>
+<h2>{{ gcdsPreview[locale].fallbackHeading }}</h2>
+<p>{{ gcdsPreview[locale].fallback }}</p>
