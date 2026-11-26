@@ -151,6 +151,18 @@ describe('Eleventy Build Validation', () => {
       expect(htmlContent).toContain('/css/gcds-css-shortcuts.min.css');
       expect(htmlContent).toContain('/img/favicon.ico');
       expect(htmlContent).not.toMatch(/wet-boew|jquery|fontawesome/i);
+
+      const contextualLink = locale === 'en'
+        ? ['Digital Accessibility Toolkit', 'Accessibility in Government of Canada', '/en/about/organizations/']
+        : ['Boîte à outils de l&#39;accessibilité numérique', 'Accessibilité au gouvernement du Canada', '/fr/about/organizations/'];
+
+      expect(htmlContent).toContain('<gcds-footer');
+      expect(htmlContent).toContain('display="compact"');
+      expect(htmlContent).toContain(`contextual-heading="${contextualLink[0]}"`);
+      expect(htmlContent).toContain(`"${contextualLink[1]}":"https://a11y.canada.ca${contextualLink[2]}"`);
+      expect(htmlContent).toContain('class="gcds-footer-fallback"');
+      expect(htmlContent.match(/<footer\b/g)).toHaveLength(1);
+      expect(htmlContent).not.toContain('href=""');
     });
 
     test('does not advertise a suppressed GCDS translation', async () => {

@@ -8,7 +8,11 @@ const fixtures = [
     counterpartPath: "/fr/gcds-foundation-preview/",
     counterpartLabel: "Français",
     skipLabel: "Skip to main content",
-    title: "GC Design System foundation preview"
+    title: "GC Design System foundation preview",
+    contextualHeading: "Digital Accessibility Toolkit",
+    contextualLink: "Accessibility in Government of Canada",
+    corporateHeading: "Government of Canada Corporate",
+    standardLink: "Terms and conditions"
   },
   {
     path: "/fr/gcds-foundation-preview/",
@@ -17,7 +21,11 @@ const fixtures = [
     counterpartPath: "/en/gcds-foundation-preview/",
     counterpartLabel: "English",
     skipLabel: "Passer au contenu principal",
-    title: "Aperçu de la fondation du Système de design GC"
+    title: "Aperçu de la fondation du Système de design GC",
+    contextualHeading: "Boîte à outils de l'accessibilité numérique",
+    contextualLink: "Accessibilité au gouvernement du Canada",
+    corporateHeading: "Organisation du gouvernement du Canada",
+    standardLink: "Avis"
   }
 ];
 
@@ -81,6 +89,26 @@ for (const fixture of fixtures) {
     await expect(skipLink).toBeFocused();
     await page.keyboard.press("Enter");
     await expect(page.locator("#main-content")).toBeFocused();
+    const fallbackFooter = page.locator(".gcds-footer-fallback");
+    await expect(page.locator("gcds-footer")).toBeHidden();
+    await expect(fallbackFooter).toBeVisible();
+    await expect(fallbackFooter.getByRole("contentinfo")).toHaveCount(0);
+    await expect(page.getByRole("contentinfo")).toHaveCount(1);
+    await expect(fallbackFooter.getByRole("heading", { name: fixture.contextualHeading })).toBeVisible();
+    const contextualLink = fallbackFooter.getByRole("link", { name: fixture.contextualLink });
+    await expect(contextualLink).toBeVisible();
+    await expect(fallbackFooter.getByRole("link", { name: fixture.standardLink })).toBeVisible();
+    await contextualLink.focus();
+    await expect(contextualLink).toBeFocused();
+    await page.keyboard.press("Tab");
+    await expect(fallbackFooter.getByRole("link").nth(1)).toBeFocused();
+    for (const width of [320, 640, 1280]) {
+      await page.setViewportSize({ width, height: 800 });
+      const hasHorizontalOverflow = await page.evaluate(
+        () => document.documentElement.scrollWidth > document.documentElement.clientWidth
+      );
+      expect(hasHorizontalOverflow).toBe(false);
+    }
     await context.close();
   });
 
@@ -96,6 +124,10 @@ for (const fixture of fixtures) {
     await expect(page.locator(".gcds-site-nav-fallback")).toBeVisible();
     await expect(page.locator(".gcds-search-fallback")).toBeVisible();
     await expect(page.locator(".gcds-breadcrumbs-fallback")).toBeVisible();
+    const fallbackFooter = page.locator(".gcds-footer-fallback");
+    await expect(fallbackFooter).toBeVisible();
+    await expect(page.getByRole("contentinfo")).toHaveCount(1);
+    await expect(fallbackFooter.getByRole("link", { name: fixture.contextualLink })).toBeVisible();
   });
 }
 
@@ -132,6 +164,36 @@ test("header layout remains usable at reflow and forced-colour settings", async 
   await expect(skipLink).toBeFocused();
   await expect(skipLink).toBeVisible();
 });
+
+for (const fixture of fixtures) {
+  test(`${fixture.locale} GCDS footer exposes one landmark and keyboard-accessible links`, async ({ page }) => {
+    await page.goto(fixture.path);
+    await page.waitForFunction(() => customElements.get("gcds-footer"));
+
+    const footer = page.locator("gcds-footer");
+    await expect(footer).toBeVisible();
+    await expect(page.locator(".gcds-footer-fallback")).toBeHidden();
+    await expect(page.getByRole("contentinfo")).toHaveCount(1);
+    await expect(footer.getByRole("heading", { name: fixture.contextualHeading })).toBeVisible();
+    await expect(footer.getByRole("heading", { name: fixture.corporateHeading })).toHaveCount(1);
+    const contextual = footer.getByRole("link", { name: fixture.contextualLink });
+    const nextFooterLink = footer.getByRole("link").nth(1);
+    await expect(contextual).toBeVisible();
+    await contextual.focus();
+    await expect(contextual).toBeFocused();
+    await page.keyboard.press("Tab");
+    await expect(nextFooterLink).toBeFocused();
+
+    for (const width of [320, 640, 1280]) {
+      await page.setViewportSize({ width, height: 800 });
+      await expect(footer).toBeVisible();
+      const hasHorizontalOverflow = await page.evaluate(
+        () => document.documentElement.scrollWidth > document.documentElement.clientWidth
+      );
+      expect(hasHorizontalOverflow).toBe(false);
+    }
+  });
+}
 
 test("translation-suppressed fixture does not advertise a counterpart", async ({ page }) => {
   await page.goto("/en/gcds-foundation-preview-no-translation/");
