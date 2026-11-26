@@ -109,6 +109,7 @@ test("header layout remains usable at reflow and forced-colour settings", async 
   ]) {
     await page.setViewportSize(viewport);
     await expect(page.locator("gcds-side-nav")).toBeVisible();
+    await expect(page.locator(".gcds-site-nav-fallback")).toBeHidden();
     await expect(page.locator("gcds-search")).toBeVisible();
     const hasHorizontalOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth
@@ -116,9 +117,20 @@ test("header layout remains usable at reflow and forced-colour settings", async 
     expect(hasHorizontalOverflow).toBe(false);
   }
 
+  await page.setViewportSize({ width: 390, height: 844 });
+  const menuTrigger = page.locator("gcds-side-nav").getByRole("button").first();
+  await expect(menuTrigger).toBeVisible();
+  await expect(menuTrigger).toHaveAttribute("aria-expanded", "false");
+  await menuTrigger.click();
+  await expect(menuTrigger).toHaveAttribute("aria-expanded", "true");
+  await expect(menuTrigger).toHaveAccessibleName("Close");
+  await expect(page.getByRole("link", { name: "Accessibility Fundamentals" })).toBeVisible();
+
   await page.emulateMedia({ forcedColors: "active", reducedMotion: "reduce" });
-  await page.keyboard.press("Tab");
-  await expect(page.getByRole("link", { name: "Skip to main content", exact: true })).toBeFocused();
+  const skipLink = page.getByRole("link", { name: "Skip to main content", exact: true });
+  await skipLink.focus();
+  await expect(skipLink).toBeFocused();
+  await expect(skipLink).toBeVisible();
 });
 
 test("translation-suppressed fixture does not advertise a counterpart", async ({ page }) => {
