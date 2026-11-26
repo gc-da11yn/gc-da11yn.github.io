@@ -1,0 +1,19 @@
+{% set currentUrl = page.url | replace("/", "") %}
+{% if currentUrl != locale %}
+<gcds-breadcrumbs slot="breadcrumb" lang="{{ locale }}">
+  <gcds-breadcrumbs-item href="{{ pathPrefix }}/{{ locale }}/">
+    {{ settings[locale].metaTitle }}
+  </gcds-breadcrumbs-item>
+  {% if breadcrumbs %}
+  {% for breadcrumb in breadcrumbs %}
+  {% if breadcrumb.url != page.url %}
+  <gcds-breadcrumbs-item href="{{ pathPrefix }}{{ breadcrumb.url }}">
+    {{ breadcrumb.title }}
+  </gcds-breadcrumbs-item>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+</gcds-breadcrumbs>
+
+{% include "partials/pe-breadcrumbs.njk" %}
+{% endif %}

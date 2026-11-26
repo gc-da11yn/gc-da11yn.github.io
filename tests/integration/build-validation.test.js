@@ -11,6 +11,7 @@ const { execSync } = require('child_process');
 
 const gcdsMigrationDocumentSlugs = [
   'gcds-component-map',
+  'gcds-customization-log',
   'gcds-delivery-strategy',
   'gcds-implementation-decisions',
   'gcds-migration-inventory',

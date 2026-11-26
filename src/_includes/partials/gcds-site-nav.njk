@@ -1,0 +1,12 @@
+<gcds-side-nav label="{{ siteMenu[locale].label }}" lang="{{ locale }}">
+  <gcds-nav-link slot="home" href="{{ pathPrefix }}/{{ locale }}/"{% if page.url == "/" + locale + "/" %} current{% endif %}>
+    {{ siteMenu[locale].home }}
+  </gcds-nav-link>
+  {% for item in siteMenu[locale].links %}
+  <gcds-nav-link href="{{ pathPrefix }}{{ item.url }}"{% if page.url == item.url %} current{% endif %}>
+    {{ item.label }}
+  </gcds-nav-link>
+  {% endfor %}
+</gcds-side-nav>
+
+{% include "partials/pe-site-nav.njk" %}

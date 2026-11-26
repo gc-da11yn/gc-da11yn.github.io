@@ -11,6 +11,7 @@ toc: true
 - [GCDS Delivery Strategy]({{ pathPrefix }}/en/gcds-delivery-strategy/): Incremental delivery, review, cutover, and rollback strategy.
 - [GCDS Migration: Implementation Decisions]({{ pathPrefix }}/en/gcds-implementation-decisions/): Architectural decisions governing the migration.
 - [GCDS Phased Implementation Plan]({{ pathPrefix }}/en/gcds-phased-implementation-plan/): Work packages, dependencies, completion criteria, and verification requirements.
+- [GCDS Custom CSS and JavaScript Log]({{ pathPrefix }}/en/gcds-customization-log/): Plain-language record of site-specific styling and JavaScript, including reasons, accessibility impact, and removal conditions.
 - [GC Design System Migration Issue Map]({{ pathPrefix }}/en/gcds-migration-issue-map/): Relationship between the epic, discovery issues, implementation phases, and completion conditions.
 
 ## Discovery and analysis
