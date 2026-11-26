@@ -202,7 +202,7 @@ Active
 
 ### GCDS option checked
 
-The enhanced footer uses the documented compact display, contextual heading, and contextual-links property. GCDS supplies the Government of Canada identity and standard corporate links.
+The enhanced footer uses the documented full display, contextual heading, and contextual-links property. GCDS supplies the Government of Canada identity and standard government, theme, and corporate links.
 
 ### Why it is needed
 
@@ -210,7 +210,7 @@ GCDS needs JavaScript to register `<gcds-footer>` and create its footer landmark
 
 ### What changed
 
-The stylesheet hides the GCDS host before registration, presents a native footer fallback, and removes that fallback after the component registers. Only fallback spacing, wrapping, and duplicate-content visibility are customized.
+The stylesheet hides the GCDS host before registration, presents a native full-footer fallback, and removes that fallback after the component registers. Only fallback spacing, wrapping, and duplicate-content visibility are customized.
 
 ### Accessibility impact
 

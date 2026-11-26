@@ -95,13 +95,14 @@ for (const fixture of fixtures) {
     await expect(fallbackFooter.getByRole("contentinfo")).toHaveCount(0);
     await expect(page.getByRole("contentinfo")).toHaveCount(1);
     await expect(fallbackFooter.getByRole("heading", { name: fixture.contextualHeading })).toBeVisible();
+    await expect(fallbackFooter.getByRole("link")).toHaveCount(30);
     const contextualLink = fallbackFooter.getByRole("link", { name: fixture.contextualLink });
     await expect(contextualLink).toBeVisible();
     await expect(fallbackFooter.getByRole("link", { name: fixture.standardLink })).toBeVisible();
     await contextualLink.focus();
     await expect(contextualLink).toBeFocused();
     await page.keyboard.press("Tab");
-    await expect(fallbackFooter.getByRole("link").nth(1)).toBeFocused();
+    await expect(fallbackFooter.getByRole("link").nth(2)).toBeFocused();
     for (const width of [320, 640, 1280]) {
       await page.setViewportSize({ width, height: 800 });
       const hasHorizontalOverflow = await page.evaluate(
@@ -176,8 +177,9 @@ for (const fixture of fixtures) {
     await expect(page.getByRole("contentinfo")).toHaveCount(1);
     await expect(footer.getByRole("heading", { name: fixture.contextualHeading })).toBeVisible();
     await expect(footer.getByRole("heading", { name: fixture.corporateHeading })).toHaveCount(1);
+    await expect(footer.getByRole("link")).toHaveCount(30);
     const contextual = footer.getByRole("link", { name: fixture.contextualLink });
-    const nextFooterLink = footer.getByRole("link").nth(1);
+    const nextFooterLink = footer.getByRole("link").nth(2);
     await expect(contextual).toBeVisible();
     await contextual.focus();
     await expect(contextual).toBeFocused();

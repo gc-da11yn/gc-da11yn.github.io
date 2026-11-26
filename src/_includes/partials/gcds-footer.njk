@@ -1,25 +1,7 @@
 <gcds-footer
-  display="compact"
+  display="full"
   contextual-heading="{{ footer[locale].contextualHeader }}"
-  contextual-links='{"{{ footer[locale].contextualLinkText2 }}":"{{ footer[locale].contextualLink2 }}"}'
+  contextual-links='{"{{ footer[locale].contextualLinkText1 }}":"{{ footer[locale].contextualLink1 }}", "{{ footer[locale].contextualLinkText2 }}":"{{ footer[locale].contextualLink2 }}", "{{ footer[locale].contextualLinkText3 }}":"{{ footer[locale].contextualLink3 }}"}'
 ></gcds-footer>
 
-<footer class="gcds-footer-fallback" aria-label="{{ footer[locale].aboutThisSite }}">
-  <nav aria-labelledby="gcds-contextual-footer-heading">
-    <h2 id="gcds-contextual-footer-heading">{{ footer[locale].contextualHeader }}</h2>
-    <ul>
-      <li><a href="{{ footer[locale].contextualLink2 }}">{{ footer[locale].contextualLinkText2 }}</a></li>
-    </ul>
-  </nav>
-  <nav aria-labelledby="gcds-corporate-footer-heading">
-    <h2 id="gcds-corporate-footer-heading">{{ footer[locale].governmentCorporateHeading }}</h2>
-    <ul>
-      <li><a href="{{ footer[locale].socialURL }}">{{ footer[locale].social }}</a></li>
-      <li><a href="{{ footer[locale].mobileURL }}">{{ footer[locale].mobile }}</a></li>
-      <li><a href="{{ footer[locale].aboutURL }}">{{ footer[locale].about }}</a></li>
-      <li><a href="{{ footer[locale].termsURL }}">{{ footer[locale].terms }}</a></li>
-      <li><a href="{{ footer[locale].privacyURL }}">{{ footer[locale].privacy }}</a></li>
-    </ul>
-  </nav>
-  <p>{{ footer[locale].symbolOfCanada }}</p>
-</footer>
+{% include "partials/pe-footer.njk" %}

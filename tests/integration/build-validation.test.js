@@ -157,9 +157,11 @@ describe('Eleventy Build Validation', () => {
         : ['Boîte à outils de l&#39;accessibilité numérique', 'Accessibilité au gouvernement du Canada', '/fr/about/organizations/'];
 
       expect(htmlContent).toContain('<gcds-footer');
-      expect(htmlContent).toContain('display="compact"');
+      expect(htmlContent).toContain('display="full"');
       expect(htmlContent).toContain(`contextual-heading="${contextualLink[0]}"`);
       expect(htmlContent).toContain(`"${contextualLink[1]}":"https://a11y.canada.ca${contextualLink[2]}"`);
+      expect(htmlContent).toContain(`/${locale}/contact${locale === 'fr' ? 'ez-nous' : '-us'}/`);
+      expect(htmlContent).toContain(`/${locale}/roles/`);
       expect(htmlContent).toContain('class="gcds-footer-fallback"');
       expect(htmlContent.match(/<footer\b/g)).toHaveLength(1);
       expect(htmlContent).not.toContain('href=""');
