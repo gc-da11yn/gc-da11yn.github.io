@@ -1,0 +1,13 @@
+<nav class="gcds-breadcrumbs-fallback" aria-label="{{ header[locale].breadcrumbsHeading }}">
+  <ol>
+    <li><a href="{{ header[locale].governmentOfCanadaURL }}">Canada.ca</a></li>
+    <li><a href="{{ pathPrefix }}/{{ locale }}/">{{ settings[locale].metaTitle }}</a></li>
+    {% if breadcrumbs %}
+    {% for breadcrumb in breadcrumbs %}
+    {% if breadcrumb.url != page.url %}
+    <li><a href="{{ pathPrefix }}{{ breadcrumb.url }}">{{ breadcrumb.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+  </ol>
+</nav>

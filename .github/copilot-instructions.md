@@ -84,6 +84,20 @@ unlisted English HTML pages.
 - Update the migration index and focused assertions in
 	`tests/integration/build-validation.test.js` whenever a migration document is
 	added, removed, or renamed.
+- Track every site-owned GCDS CSS or JavaScript customization in
+	`src/pages/en/gcds-migration/gcds-customization-log.md`.
+- Do not modify GCDS base CSS or JavaScript under `node_modules/`. Prefer a
+	documented GCDS component option, design token, CSS Shortcut, semantic native
+	HTML, then a minimal site-owned customization.
+- For each custom CSS or JavaScript entry, record the status, related issue,
+	affected files, GCDS/native options considered, reason, plain-language
+	change, accessibility impact, and removal condition.
+- Treat JavaScript in `tests/` as test-only code. Document production
+	JavaScript in the customization log, including the preserved user behavior,
+	interaction model, no-JavaScript baseline, keyboard and screen-reader
+	behavior, and replacement condition.
+- Keep the log current in the same pull request as the customization. Revisit
+	existing entries when a GCDS update may make them removable.
 
 #### Decap CMS Notes
 - Admin entry point: `/admin/`

@@ -2,14 +2,18 @@
 <html lang="{{ locale }}">
   {% include "layouts/gcds-head.njk" %}
   <body>
-    <a href="#main-content">{{ gcdsPreview[locale].skipToMain }}</a>
+    <a class="gcds-skip-link" href="#main-content">{{ gcdsPreview[locale].skipToMain }}</a>
+    {% include "partials/gcds-header.njk" %}
 
-    <main id="main-content" tabindex="-1">
-      <gcds-container layout="page" padding="300">
-        <h1>{{ title }}</h1>
-        <p>{{ description }}</p>
-        {{ content | safe }}
-      </gcds-container>
-    </main>
+    <gcds-container layout="page" padding="300">
+      <gcds-grid columns="1fr" columns-desktop="1fr 3fr">
+        {% include "partials/gcds-site-nav.njk" %}
+        <main id="main-content" tabindex="-1">
+          <h1>{{ title }}</h1>
+          <p>{{ description }}</p>
+          {{ content | safe }}
+        </main>
+      </gcds-grid>
+    </gcds-container>
   </body>
 </html>
