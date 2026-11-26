@@ -184,6 +184,45 @@ The fallback retains one named navigation landmark and ordered links. The enhanc
 
 Remove the customization if GCDS provides a native pre-upgrade breadcrumb fallback with equivalent semantics and presentation.
 
+## Footer fallback visibility and layout
+
+### Status
+
+Active
+
+### Related issue
+
+[Migrate footer and contextual links #814](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/814)
+
+### Files
+
+- `src/_scss/gcds-foundation.scss`
+- `src/_includes/partials/gcds-footer.njk`
+- `src/_includes/layouts/gcds-base.njk`
+
+### GCDS option checked
+
+The enhanced footer uses the documented full display, contextual heading, and contextual-links property. GCDS supplies the Government of Canada identity and standard government, theme, and corporate links.
+
+### Why it is needed
+
+GCDS needs JavaScript to register `<gcds-footer>` and create its footer landmark. A native fallback keeps the contextual and standard footer links available before component upgrade or without JavaScript.
+
+### What changed
+
+The stylesheet hides the GCDS host before registration, presents a native full-footer fallback, and removes that fallback after the component registers. Only fallback spacing, wrapping, and duplicate-content visibility are customized.
+
+### Accessibility impact
+
+- The enhanced and fallback states each expose one content-information landmark.
+- Contextual and corporate links remain native links in both states.
+- The fallback list wraps without horizontal scrolling at narrow viewports.
+- No custom keyboard or screen-reader behavior is added.
+
+### Removal condition
+
+Remove the customization if GCDS provides a usable native light-DOM footer and its contextual links before JavaScript registration.
+
 ## Custom JavaScript
 
 No site-owned JavaScript has been added for the GCDS foundation or header work. Playwright JavaScript files in `tests/playwright/` are test code and are not shipped to users.
