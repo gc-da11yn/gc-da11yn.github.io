@@ -51,6 +51,11 @@ body:has(gcds-header:defined) .gcds-skip-link {
   display: none;
 }
 
+#main-content {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 gcds-footer:not(:defined) {
   display: none;
 }
@@ -77,5 +82,23 @@ gcds-footer:defined + .gcds-footer-fallback {
 .gcds-footer-fallback nav + nav,
 .gcds-footer-fallback p {
   margin-block-start: 1.5rem;
+}
+
+.gcds-date-modified-fallback {
+  margin: 2rem 0 0;
+}
+
+.gcds-date-modified-fallback dt,
+.gcds-date-modified-fallback dd {
+  display: inline;
+  margin: 0;
+}
+
+gcds-date-modified:not(:defined) {
+  display: none;
+}
+
+gcds-date-modified:defined + .gcds-date-modified-fallback {
+  display: none;
 }
 

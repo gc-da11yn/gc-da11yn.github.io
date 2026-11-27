@@ -223,9 +223,84 @@ The stylesheet hides the GCDS host before registration, presents a native full-f
 
 Remove the customization if GCDS provides a usable native light-DOM footer and its contextual links before JavaScript registration.
 
+## Date-modified fallback
+
+### Status
+
+Active
+
+### Related issue
+
+[Complete and approve parallel page shell #815](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/815)
+
+### Files
+
+- `src/_scss/gcds-foundation.scss`
+- `src/_includes/layouts/gcds-base.njk`
+- `src/_includes/partials/gcds-date-modified.njk`
+- `eleventy/plugins/filters-plugin.js`
+
+### GCDS option checked
+
+The enhanced state uses the supported `<gcds-date-modified>` component and its localized label. The date comes from the existing `page.date` source.
+
+### Why it is needed
+
+The GCDS component requires JavaScript to register and render its visible date label and semantic definition list. A native fallback keeps the localized modification date and its label available before upgrade and without JavaScript.
+
+### What changed
+
+The page renders the localized date in GCDS light DOM and a native definition list containing a machine-readable `<time>`. The fallback is hidden only after the custom element registers.
+
+### Accessibility impact
+
+- The visible date and label remain available without JavaScript.
+- The fallback uses native definition-list and time semantics.
+- The enhanced component supplies the same localized English or French text.
+- The existing `page.date` source remains the single date input.
+
+### Removal condition
+
+Remove the fallback CSS and native definition list if a supported GCDS API preserves the visible label and date before JavaScript registration.
+
+## Main grid reflow
+
+### Status
+
+Active
+
+### Related issue
+
+[Complete and approve parallel page shell #815](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/815)
+
+### Files
+
+- `src/_scss/gcds-foundation.scss`
+- `src/_includes/layouts/gcds-base.njk`
+
+### GCDS option checked
+
+The shell uses the GCDS page container and grid. The existing `<gcds-side-nav>` responsive threshold remains unchanged.
+
+### Why it is needed
+
+A grid item's default minimum width can be wider than its available track when long page titles or zoomed content approaches a narrow layout.
+
+### What changed
+
+The stable `<main>` target can shrink below its min-content width, and long words wrap inside the content column.
+
+### Accessibility impact
+
+The shell remains readable without horizontal scrolling at narrow widths and high zoom. Reading order and focus behavior are unchanged.
+
+### Removal condition
+
+Remove the two overrides if a GCDS container or grid update prevents grid-item min-content overflow with equivalent narrow-layout behavior.
+
 ## Custom JavaScript
 
-No site-owned JavaScript has been added for the GCDS foundation or header work. Playwright JavaScript files in `tests/playwright/` are test code and are not shipped to users.
+No site-owned browser JavaScript has been added for the GCDS foundation or shell. The `localizedDate` Eleventy filter runs only during the build and is not shipped to users. Playwright JavaScript files in `tests/playwright/` are test code and are not shipped to users.
 
 Future custom JavaScript must be documented here with:
 

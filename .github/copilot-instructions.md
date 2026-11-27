@@ -86,6 +86,21 @@ unlisted English HTML pages.
 	added, removed, or renamed.
 - Track every site-owned GCDS CSS or JavaScript customization in
 	`src/pages/en/gcds-migration/gcds-customization-log.md`.
+- Keep GCDS progressive-enhancement fallbacks in `pe-*.njk` partials next to
+	the matching GCDS partial. Follow the existing `pe-site-nav.njk`,
+	`pe-breadcrumbs.njk`, `pe-footer.njk`, `pe-header.njk`, `pe-search.njk`,
+	`pe-date-modified.njk`, and `pe-skip-link.njk` pattern.
+- A `gcds-*.njk` partial owns the enhanced custom element and must include its
+	adjacent `pe-*.njk` fallback at the original position. Preserve markup,
+	native semantics, IDs, localized data, conditionals, inclusion order, and
+	`:defined` or sibling relationships used by fallback visibility CSS.
+- Keep the skip fallback and main target stable. Do not duplicate landmarks,
+	search forms, navigation, footer content, date values, or skip links between
+	enhanced and fallback states.
+- Extraction-only fallback refactors must preserve rendered behavior. Treat
+	accessibility or output changes as separate implementation work with tests
+	for enhanced, no-JavaScript, failed-upgrade, delayed-upgrade, keyboard,
+	English, French, and path-prefix states.
 - Do not modify GCDS base CSS or JavaScript under `node_modules/`. Prefer a
 	documented GCDS component option, design token, CSS Shortcut, semantic native
 	HTML, then a minimal site-owned customization.
