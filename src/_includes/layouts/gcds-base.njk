@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+  {% include "layouts/gcds-head.njk" %}
+  <body>
+    {% include "partials/pe-skip-link.njk" %}
+    {% include "partials/gcds-header.njk" %}
+
+    <gcds-container layout="page" padding="300">
+      <gcds-grid columns="1fr"{% if not tags or 'home' not in tags %} columns-desktop="1fr 3fr"{% endif %}>
+        {% if not tags or 'home' not in tags %}
+        {% include "partials/gcds-site-nav.njk" %}
+        {% endif %}
+        <main id="main-content" tabindex="-1">
+          <header class="gcds-page-header">
+            <h1>{{ title | safe }}</h1>
+            {% if archived %}
+            {% include "partials/gcds-archived-notice.njk" %}
+            {% endif %}
+            {% if description %}
+            <p class="gcds-page-description">{{ description | safe }}</p>
+            {% endif %}
+          </header>
+          {% include "partials/gcds-notices.njk" %}
+          {% if officeTOC === true %}
+            {% set gcdsOfficeNavPosition = "top" %}
+            {% include "partials/gcds-office-toc.njk" %}
+          {% endif %}
+          {% if hasDocument %}
+            {% include "partials/gcds-download.njk" %}
+          {% endif %}
+          {% if toc or tocSimple %}
+            {% include "partials/gcds-on-this-page.njk" %}
+          {% endif %}
+          <div class="gcds-page-content">
+            {{ content | safe }}
+          </div>
+          {% if officeTOC === true %}
+            {% set gcdsOfficeNavPosition = "bottom" %}
+            {% include "partials/gcds-office-toc.njk" %}
+          {% endif %}
+          {% include "partials/gcds-date-modified.njk" %}
+        </main>
+      </gcds-grid>
+    </gcds-container>
+    {% include "partials/gcds-footer.njk" %}
+  </body>
+</html>

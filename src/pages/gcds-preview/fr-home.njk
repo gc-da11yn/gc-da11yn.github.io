@@ -1,0 +1,24 @@
+---
+title: Aperçu parallèle de la page d’accueil du Système de design GC
+description: Aperçu parallèle français pour la migration des familles de pages du Système de design GC.
+locale: fr
+layout: layouts/gcds-base.njk
+permalink: "{{ permalinkPrefix }}fr/gcds-home-preview/"
+toggle: gcds-home-preview
+date: 2026-11-22
+breadcrumbs:
+  - title: Aperçu de la fondation du Système de design GC
+    url: /fr/gcds-foundation-preview/
+tags:
+  - home
+eleventyExcludeFromCollections: true
+---
+
+<!-- cspell:ignore eleventy -->
+
+<p>Cet aperçu présente les liens des collections, des mises à jour et de l’espace à propos sous forme de titres et de listes natifs dans des mises en page adaptatives du Système de design GC.</p>
+<p><a href="{{ pathPrefix }}/fr/">Consulter la page d’accueil actuelle de la Boîte à outils de l’accessibilité numérique</a>.</p>
+
+{% include "partials/gcds-collections.njk" %}
+{% include "partials/gcds-updates.njk" %}
+{% include "partials/gcds-about.njk" %}

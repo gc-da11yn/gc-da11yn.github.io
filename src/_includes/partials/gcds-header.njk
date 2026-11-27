@@ -1,0 +1,30 @@
+{% set otherLang = "fr" if locale == "en" else "en" %}
+{% set otherLangSlug = toggle | stripTagsSlugify if toggle else "gcds-foundation-preview" %}
+{% if page.url == "/" + locale + "/" %}
+{% set languageUrl = pathPrefix + "/" + otherLang + "/" %}
+{% set languageLinkUrl = languageUrl %}
+{% else %}
+{% set languageUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/index.html" %}
+{% set languageLinkUrl = pathPrefix + "/" + otherLang + "/" + otherLangSlug + "/" %}
+{% endif %}
+
+<gcds-header
+    lang="{{ locale }}"
+    {% if needsTranslation != true %}lang-href="{{ languageLinkUrl }}"{% endif %}
+    skip-to-href="#main-content"
+    role="banner"
+  >
+    {% include "partials/pe-header.njk" %}
+
+    <gcds-search
+      slot="search"
+      action="https://canada.ca/{{ locale }}/sr/srb.html"
+      name="q"
+      placeholder="Canada.ca"
+      search-id="gcds-site-search"
+      lang="{{ locale }}"
+    ></gcds-search>
+    {% include "partials/pe-search.njk" %}
+
+    {% include "partials/gcds-breadcrumbs.njk" %}
+</gcds-header>

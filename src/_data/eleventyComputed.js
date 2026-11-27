@@ -4,7 +4,7 @@ const { stripHtml } = require('string-strip-html');
 
 module.exports = {
 	eleventyExcludeFromCollections(data) {
-		return data.archived === true;
+		return data.eleventyExcludeFromCollections === true || data.archived === true;
 	},
 
     headings: (data) => {

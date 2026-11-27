@@ -1,0 +1,10 @@
+<section
+  class="gcds-notice-fallback gcds-notice-fallback--{{ noticeRole }}"
+  aria-labelledby="{{ noticeId }}-fallback-title"
+>
+  <{{ noticeTitleTag }} id="{{ noticeId }}-fallback-title">
+    <span class="gcds-notice-fallback__role">{{ gcdsNotices[locale].roles[noticeRole] }}:</span>
+    {{ noticeTitle }}
+  </{{ noticeTitleTag }}>
+  {{ noticeContent | safe }}
+</section>

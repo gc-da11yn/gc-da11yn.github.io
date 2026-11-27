@@ -1,11 +1,13 @@
+// cspell:ignore Canadan
+
 module.exports = {
   fr: {
     allContacts: "Toutes les coordonnées",
     allContactsLink: "https://www.canada.ca/fr/contact.html",
     contextualHeader: "Boîte à outils de l'accessibilité numérique",
-    contextualLink1: "",
+    contextualLink1: "https://a11y.canada.ca/fr/contactez-nous/",
     contextualLink2: "https://a11y.canada.ca/fr/about/organizations/",
-    contextualLink3: "",
+    contextualLink3: "https://a11y.canada.ca/fr/roles/",
     contextualLinkText1: "Contacter la Boîte à outils de l'accessibilité numérique",
     contextualLinkText2: "Accessibilité au gouvernement du Canada",
     contextualLinkText3: "Accessibilité par rôle",
@@ -69,9 +71,9 @@ module.exports = {
   },
   en: {
     contextualHeader: "Digital Accessibility Toolkit",
-    contextualLink1: "",
+    contextualLink1: "https://a11y.canada.ca/en/contact-us/",
     contextualLink2: "https://a11y.canada.ca/en/about/organizations/",
-    contextualLink3: "",
+    contextualLink3: "https://a11y.canada.ca/en/roles/",
     contextualLinkText1: "Contact the Digital Accessibility Toolkit",
     contextualLinkText2: "Accessibility in Government of Canada",
     contextualLinkText3: "Accessibility in your role",

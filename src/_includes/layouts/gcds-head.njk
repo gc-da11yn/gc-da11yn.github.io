@@ -1,0 +1,45 @@
+{% set otherLang = "fr" if locale == "en" else "en" %}
+<head>
+  <meta charset="utf-8">
+  <title>{{ title | striptags(true) | escape }} - {{ settings[locale].metaTitle }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ description | striptags(true) | escape }}">
+  <meta name="source-file" content="{{ page.inputPath }}">
+
+  {% if needsTranslation != true and toggle %}
+  {% set otherLangSlug = toggle | stripTagsSlugify %}
+  <link rel="alternate" hreflang="{{ otherLang }}" href="{{ pathPrefix }}/{{ otherLang }}/{{ otherLangSlug }}/index.html">
+  {% endif %}
+
+  <meta name="author" content="{{ header[locale].governmentOfCanada }}">
+  <meta name="dcterms.title" content="{{ title | striptags(true) | escape }}">
+  <meta name="dcterms.description" content="{{ description | striptags(true) | escape }}">
+  <meta name="dcterms.creator" content="{{ header[locale].governmentOfCanada }}">
+  <meta name="dcterms.language" content="{{ locale }}">
+  <meta name="dcterms.created" content="{{ settings.dateCreated }}">
+  <meta name="dcterms.modified" content="{{ page.date | postDate }}">
+
+  {% if settings.env == "dev" %}
+  <meta name="robots" content="noindex, nofollow">
+  {% endif %}
+  <link rel="icon" type="image/x-icon" href="{{ pathPrefix }}/img/favicon.ico">
+  <link rel="stylesheet" href="{{ pathPrefix }}/gcds/gcds.css">
+  <link rel="stylesheet" href="{{ pathPrefix }}/css/gcds-css-shortcuts.min.css">
+  <link rel="stylesheet" href="{{ pathPrefix }}/css/gcds-foundation.css">
+  <script type="module" src="{{ pathPrefix }}/gcds/gcds.esm.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+  <script>
+    (function (w) {
+      "use strict";
+      if (w.location.hostname === "a11y.canada.ca") {
+        w.dataLayer = w.dataLayer || [];
+        w.gtag = function () {
+          w.dataLayer.push(arguments);
+        };
+        w.gtag("js", new Date());
+        w.gtag("config", "G-SM9MSHWDVN");
+      }
+    })(window);
+  </script>
+</head>

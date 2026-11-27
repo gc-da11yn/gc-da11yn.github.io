@@ -1,0 +1,52 @@
+{% for group in gcdsRoleGroups %}
+{% set label = group[1] %}
+{% set anchor = label | stripTagsSlugify %}
+{% set groupRoleKeys = group[0] | roleKeysForGroup(roles) %}
+{% set sourceItems = gcdsRoleItems or collections.rolePages %}
+{% set items = sourceItems
+| byAnyRole(groupRoleKeys)
+| localeMatch(locale)
+| sort(false, false, 'data.title') %}
+<section class="gcds-page-family-section" aria-labelledby="{{ anchor }}">
+	<h2 id="{{ anchor }}" tabindex="-1">{{ label }}</h2>
+	{% if group[3] and group[3].length %}
+	<ul class="gcds-role-labels">
+		{% for roleLabel in group[3] %}
+		<li>{{ roleLabel }}</li>
+		{% endfor %}
+	</ul>
+	{% endif %}
+	<p>
+		<a href="{{ pathPrefix }}{{ permalinkPrefix }}{{ locale }}/roles/{{ group[0] }}/">{% if locale === "fr" %}Aller à la page {{ label | lower }}{% else %}Go to {{ label | lower }} page{% endif %}</a>
+		{% if items.length %}<span>({{ items.length }})</span>{% endif %}
+	</p>
+	{% if items.length %}
+	<ul class="gcds-link-grid">
+		{% for item in items %}
+		<li>
+			<h3>
+				<a{% if item.data.redirect %} rel="external"{% endif %}
+					href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ pathPrefix }}{{ item.url }}{% endif %}"
+					{% if item.data.oneLanguage %}hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>
+					{% if item.data.internal === true %}
+					<span class="gcds-sr-only">{{ alerts[locale].hiddenTextLink }} </span>
+					{% endif %}
+					{{ item.data.title | safe }}
+					{% if item.data.oneLanguage %}<span> {{ landingPage[locale].otherLangOnly }}</span>{% endif %}
+				</a>
+			</h3>
+			<p>
+				{% if item.data.description %}
+				{{ item.data.description | safe }}
+				{% else %}
+				{{ landingPage[locale].descriptionNoneText }}
+				{% endif %}
+			</p>
+		</li>
+		{% endfor %}
+	</ul>
+	{% else %}
+	<p><strong>{{ alerts[locale].roleContentComingSoon }}</strong> {{ alerts[locale].roleContentComingSoonTextGroup }}</p>
+	{% endif %}
+</section>
+{% endfor %}

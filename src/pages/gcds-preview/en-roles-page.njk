@@ -1,0 +1,38 @@
+---
+title: GCDS role page family preview
+description: English fixture for role mini-navigation and role-group sections in the parallel GCDS shell.
+locale: en
+layout: layouts/gcds-base.njk
+permalink: "{{ permalinkPrefix }}en/gcds-role-page-preview/"
+toggle: gcds-role-page-preview
+date: 2026-11-27
+tags:
+  - main
+breadcrumbs:
+  - title: GC Design System foundation preview
+    url: /en/gcds-foundation-preview/
+eleventyExcludeFromCollections: true
+gcdsRoleItems:
+  - url: /en/how-tos/create-web-content/
+    data:
+      title: Create web content
+      description: Guidance for authors creating accessible web content.
+      locale: en
+      role:
+        - contentAuthoring
+  - url: /en/how-tos/test-your-products/
+    data:
+      title: Test your products
+      description: Guidance for checking digital products for accessibility.
+      locale: en
+      role:
+        - qaManual
+---
+
+<!-- cspell:ignore eleventy -->
+
+<p><a href="{{ pathPrefix }}/en/roles/">View the current Accessibility in your role page</a>.</p>
+
+{% set gcdsRoleGroups = groupPairsEn %}
+{% include "partials/gcds-role-mini-toc.njk" %}
+{% include "partials/gcds-role-group-sections.njk" %}

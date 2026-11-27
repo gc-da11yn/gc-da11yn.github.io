@@ -1,0 +1,22 @@
+{% if collections.aboutUs %}
+<section class="gcds-page-family-section" aria-labelledby="gcds-about-heading">
+	<h2 id="gcds-about-heading">{{ about[locale].about }}</h2>
+	<p>{{ about[locale].aboutPara }}</p>
+	<ul class="gcds-link-grid">
+		{% for item in collections.aboutUs | sort(false, false, 'data.title') | localeMatch(locale) %}
+		{% if item.data.mainAbout === true %}
+		<li>
+			<h3><a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a></h3>
+			<p>
+				{% if item.data.description %}
+				{{ item.data.description | safe }}
+				{% else %}
+				{{ landingPage[locale].descriptionNoneText }}
+				{% endif %}
+			</p>
+		</li>
+		{% endif %}
+		{% endfor %}
+	</ul>
+</section>
+{% endif %}

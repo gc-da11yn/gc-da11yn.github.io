@@ -18,9 +18,10 @@ The first and second level never change, the other levels are based on the front
 
 ### Output
 
-Canada.ca > Digital Accessibility Toolkit > [subject] > [tags]
+Canada.ca > Digital Accessibility Toolkit > [subject] > [tags] > [explicit breadcrumbs]
 
 Subject and tags are arrays found inside the frontmatter of the pages, which are looped depending on their values.
+The optional `breadcrumbs` array accepts objects with `title` and `url` values. A breadcrumb matching the current page URL is omitted.
 
 ## Exceptions
 
@@ -126,6 +127,21 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 							{% endif %}
 						{% endfor %}
 					{% endif %}
+				{% endif %}
+
+				<!-- Explicit breadcrumbs for page hierarchies outside subjects and tags -->
+				{% if breadcrumbs %}
+					{% for breadcrumb in breadcrumbs %}
+						{% if breadcrumb.url != page.url %}
+							<li property="itemListElement" typeof="ListItem">
+								<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}{{ breadcrumb.url }}">
+									<span property="name">{{ breadcrumb.title }}</span>
+								</a>
+								<meta property="position" content="{{ counter }}">
+							</li>
+							{% set counter = counter + 1 %}
+						{% endif %}
+					{% endfor %}
 				{% endif %}
 			{% endif %}
 		</ol>

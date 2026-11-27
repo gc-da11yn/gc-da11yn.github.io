@@ -1,0 +1,8 @@
+<nav class="gcds-site-nav-fallback" aria-label="{{ siteMenu[locale].label }}">
+  <ul>
+    <li><a href="{{ pathPrefix }}/{{ locale }}/"{% if page.url == "/" + locale + "/" %} aria-current="page"{% endif %}>{{ siteMenu[locale].home }}</a></li>
+    {% for item in siteMenu[locale].links %}
+    <li><a href="{{ pathPrefix }}{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

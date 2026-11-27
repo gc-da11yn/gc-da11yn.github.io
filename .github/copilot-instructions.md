@@ -1,5 +1,7 @@
 # Digital Accessibility Toolkit + Accessibility Agent Team Instructions
 
+<!-- cspell:ignore cicd frontmatter worktree -->
+
 This file merges:
 - The original repository-specific guidance for `gc-da11yn.github.io`
 - The accessibility specialist team guidance introduced from `a11y-agent-team`
@@ -58,6 +60,59 @@ Use `npm run newPage` to generate paired English/French pages with valid frontma
 
 #### Documenting Major Changes
 For major architecture/template/workflow changes, add docs in `docs/implementation/` including scope, changes, testing notes, and bilingual impacts.
+
+GCDS migration documents are the exception: keep their canonical Markdown
+sources in `src/pages/en/gcds-migration/` so Eleventy publishes them as
+unlisted English HTML pages.
+
+- Maintain `src/pages/en/gcds-migration/index.md` as the unlisted index linking
+	to every published migration document. It renders at `/en/gcds-migration/`.
+- Migration documents render at flat `/en/<file-slug>/` routes through
+	`gcds-migration.json`, rather than beneath the index route.
+- Use `gcds-migration.json` to provide the English locale and the "GCDS
+	migration documentation" parent breadcrumb. The breadcrumb template omits
+	that link from the index itself.
+- Give each document a description and `toc: true`. Do not add a French toggle
+	or normal site-navigation link until translations and publication navigation
+	are approved.
+- Use `{{ pathPrefix }}` for links between migration documents, and link to
+	published routes rather than source `.md` files.
+- When a document begins with an Issue, Epic, Branch, Date, Status, or related
+	details list, capture the Markdown list in `documentDetails` and render it
+	with the `markdown` filter inside `<div class="well well-lg">`. This preserves
+	the semantic list while providing the established visual treatment.
+- Update the migration index and focused assertions in
+	`tests/integration/build-validation.test.js` whenever a migration document is
+	added, removed, or renamed.
+- Track every site-owned GCDS CSS or JavaScript customization in
+	`src/pages/en/gcds-migration/gcds-customization-log.md`.
+- Keep GCDS progressive-enhancement fallbacks in `pe-*.njk` partials next to
+	the matching GCDS partial. Follow the existing `pe-site-nav.njk`,
+	`pe-breadcrumbs.njk`, `pe-footer.njk`, `pe-header.njk`, `pe-search.njk`,
+	`pe-date-modified.njk`, and `pe-skip-link.njk` pattern.
+- A `gcds-*.njk` partial owns the enhanced custom element and must include its
+	adjacent `pe-*.njk` fallback at the original position. Preserve markup,
+	native semantics, IDs, localized data, conditionals, inclusion order, and
+	`:defined` or sibling relationships used by fallback visibility CSS.
+- Keep the skip fallback and main target stable. Do not duplicate landmarks,
+	search forms, navigation, footer content, date values, or skip links between
+	enhanced and fallback states.
+- Extraction-only fallback refactors must preserve rendered behavior. Treat
+	accessibility or output changes as separate implementation work with tests
+	for enhanced, no-JavaScript, failed-upgrade, delayed-upgrade, keyboard,
+	English, French, and path-prefix states.
+- Do not modify GCDS base CSS or JavaScript under `node_modules/`. Prefer a
+	documented GCDS component option, design token, CSS Shortcut, semantic native
+	HTML, then a minimal site-owned customization.
+- For each custom CSS or JavaScript entry, record the status, related issue,
+	affected files, GCDS/native options considered, reason, plain-language
+	change, accessibility impact, and removal condition.
+- Treat JavaScript in `tests/` as test-only code. Document production
+	JavaScript in the customization log, including the preserved user behavior,
+	interaction model, no-JavaScript baseline, keyboard and screen-reader
+	behavior, and replacement condition.
+- Keep the log current in the same pull request as the customization. Revisit
+	existing entries when a GCDS update may make them removable.
 
 #### Decap CMS Notes
 - Admin entry point: `/admin/`
@@ -243,3 +298,13 @@ Additional guides in `docs/`:
 - **platform-references.md** — All external documentation sources used to build this project, with feature-to-source mapping
 
 For tasks that do not involve any user-facing web content (backend logic, scripts, database work), these requirements do not apply.
+
+## GCDS Migration Rules
+
+### Decision 001: Native HTML for content, GCDS components for UI
+When generating or modifying templates during the WET-to-GCDS migration:
+- **Content markup stays native HTML** — `<h1>`–`<h6>`, `<p>`, `<ul>`, `<ol>`, `<table>`, `<a>`, `<blockquote>`, `<code>`, etc. Markdown-rendered output must not be wrapped in GCDS web components.
+- **GCDS web components are for UI** — navigation, header, footer, breadcrumbs, buttons, forms, cards, and other interactive/structural patterns.
+- **Keep templates simple** — Nunjucks templates should use standard HTML for content areas. Avoid unnecessary web component wrappers for static content.
+- **Rationale**: Markdown compatibility, native HTML semantics, better performance (no FOUC), lower maintenance for content authors, and alignment with GCDS design intent.
+- **Full decision record**: See `src/pages/en/gcds-migration/gcds-implementation-decisions.md`

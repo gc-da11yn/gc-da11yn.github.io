@@ -21,4 +21,10 @@ module.exports = function (eleventyConfig) {
 
   // Copy Decap CMS admin files
   eleventyConfig.addPassthroughCopy({ "./src/admin": "admin" });
+
+  // GC Design System assets are copied independently of the existing WET runtime.
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/@gcds-core/components/dist/gcds": "gcds",
+    "./node_modules/@gcds-core/css-shortcuts/dist/gcds-css-shortcuts.min.css": "css/gcds-css-shortcuts.min.css",
+  });
 };

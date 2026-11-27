@@ -1,0 +1,24 @@
+---
+title: GC Design System parallel home preview
+description: English parallel home fixture for the GCDS page-family migration.
+locale: en
+layout: layouts/gcds-base.njk
+permalink: "{{ permalinkPrefix }}en/gcds-home-preview/"
+toggle: gcds-home-preview
+date: 2026-11-22
+breadcrumbs:
+  - title: GC Design System foundation preview
+    url: /en/gcds-foundation-preview/
+tags:
+  - home
+eleventyExcludeFromCollections: true
+---
+
+<!-- cspell:ignore eleventy -->
+
+<p>This fixture presents collection, update, and about links as native headings and lists in responsive GCDS layouts.</p>
+<p><a href="{{ pathPrefix }}/en/">View the current Digital Accessibility Toolkit home page</a>.</p>
+
+{% include "partials/gcds-collections.njk" %}
+{% include "partials/gcds-updates.njk" %}
+{% include "partials/gcds-about.njk" %}
