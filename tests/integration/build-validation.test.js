@@ -278,6 +278,27 @@ describe('Eleventy Build Validation', () => {
       expect(htmlContent).not.toMatch(/wet-boew|jquery|fontawesome/i);
     });
 
+    test.each(['en', 'fr'])(
+      'keeps the GCDS %s secondary UI fixture out of production Office collections',
+      async (locale) => {
+        const productionGuide = await fs.readFile(
+          path.join(
+            '_site',
+            locale,
+            locale === 'en'
+              ? 'accessible-word-documents-in-microsoft-365'
+              : 'documents-word-accessibles-dans-microsoft-365',
+            'index.html'
+          ),
+          'utf8'
+        );
+
+        expect(productionGuide).not.toContain(
+          `href="/${locale}/gcds-secondary-ui-preview/"`
+        );
+      }
+    );
+
     test('keeps GCDS shell links under a configured path prefix', async () => {
       try {
         execSync('npm run build', {
