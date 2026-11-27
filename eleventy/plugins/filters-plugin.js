@@ -96,6 +96,13 @@ class FiltersPlugin extends EleventyBasePlugin {
       return DateTime.fromJSDate(new Date(date)).toFormat(format);
     }, (date, format) => `${date}-${format}`));
 
+    eleventyConfig.addFilter('localizedDate', this.memoize((date, locale) => {
+      if (!date) return '';
+      return DateTime.fromJSDate(new Date(date), { zone: 'utc' })
+        .setLocale(locale)
+        .toLocaleString(DateTime.DATE_FULL);
+    }, (date, locale) => `${date}-${locale}`));
+
     // Format year-month for analytics
     eleventyConfig.addFilter('formatYearMonth', this.memoize((dateStr) => {
       if (!dateStr) return '';

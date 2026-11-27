@@ -19,6 +19,7 @@ const gcdsMigrationDocumentSlugs = [
   'gcds-migration-plan',
   'gcds-no-direct-replacement-analysis',
   'gcds-phased-implementation-plan',
+  'gcds-shell-milestone-review',
   'gcds-shared-template-inventory',
   'gcds-wet-dependency-inventory'
 ];
@@ -28,6 +29,7 @@ const gcdsMigrationDocumentSlugsWithDetails = [
   'gcds-delivery-strategy',
   'gcds-no-direct-replacement-analysis',
   'gcds-phased-implementation-plan',
+  'gcds-shell-milestone-review',
   'gcds-shared-template-inventory',
   'gcds-wet-dependency-inventory'
 ];
@@ -141,6 +143,11 @@ describe('Eleventy Build Validation', () => {
       expect(htmlContent.match(/<main\b/g)).toHaveLength(1);
       expect(htmlContent).toContain('<main id="main-content" tabindex="-1">');
       expect(htmlContent.match(/<h1\b/g)).toHaveLength(1);
+      expect(htmlContent.match(/<gcds-header\b/g)).toHaveLength(1);
+      expect(htmlContent.match(/<footer\b/g)).toHaveLength(1);
+      expect(htmlContent).toContain('<header class="gcds-page-header">');
+      expect(htmlContent).toContain('<p class="gcds-page-description">');
+      expect(htmlContent).toContain('<div class="gcds-page-content">');
       expect(htmlContent).toMatch(new RegExp(`<link rel="alternate" hreflang="${counterpart}" href="/${counterpart}/gcds-foundation-preview/index.html">`));
       expect(htmlContent).toMatch(
         new RegExp(`<a\\s+data-counterpart[\\s\\S]*?lang="${counterpart}"[\\s\\S]*?hreflang="${counterpart}"[\\s\\S]*?href="/${counterpart}/gcds-foundation-preview/"[\\s\\S]*?translate="no"[\\s\\S]*?>${linkLabel}</a>`)
@@ -151,6 +158,21 @@ describe('Eleventy Build Validation', () => {
       expect(htmlContent).toContain('/css/gcds-css-shortcuts.min.css');
       expect(htmlContent).toContain('/img/favicon.ico');
       expect(htmlContent).not.toMatch(/wet-boew|jquery|fontawesome/i);
+
+      const localizedDate = locale === 'en' ? 'November 20, 2026' : '20 novembre 2026';
+      const breadcrumbPaths = locale === 'en'
+        ? ['/en/resources/', '/en/resources/guidance/']
+        : ['/fr/ressources/', '/fr/ressources/conseils/'];
+
+      expect(htmlContent).toContain('<gcds-date-modified');
+      expect(htmlContent).toContain(localizedDate);
+      expect(htmlContent).toContain('<time datetime="2026-11-20">');
+      expect(htmlContent).toContain('class="gcds-date-modified-fallback"');
+      expect(htmlContent).toContain('<meta name="dcterms.modified" content="2026-11-20">');
+      expect(htmlContent).toContain(`hreflang="${counterpart}"`);
+      for (const breadcrumbPath of breadcrumbPaths) {
+        expect(htmlContent).toContain(`href="${breadcrumbPath}"`);
+      }
 
       const contextualLink = locale === 'en'
         ? ['Digital Accessibility Toolkit', 'Accessibility in Government of Canada', '/en/about/organizations/']
@@ -165,6 +187,60 @@ describe('Eleventy Build Validation', () => {
       expect(htmlContent).toContain('class="gcds-footer-fallback"');
       expect(htmlContent.match(/<footer\b/g)).toHaveLength(1);
       expect(htmlContent).not.toContain('href=""');
+    });
+
+    test.each(['en', 'fr'])('omits an empty GCDS %s description region', async (locale) => {
+      const outputPath = path.join(
+        '_site',
+        locale,
+        'gcds-foundation-preview-no-description',
+        'index.html'
+      );
+      const htmlContent = await fs.readFile(outputPath, 'utf8');
+
+      expect(htmlContent.match(/<h1\b/g)).toHaveLength(1);
+      expect(htmlContent).not.toContain('class="gcds-page-description"');
+      expect(htmlContent).toContain('<meta name="description" content="">');
+      expect(htmlContent).toContain('<gcds-date-modified');
+      expect(htmlContent).not.toMatch(/wet-boew|jquery|fontawesome/i);
+    });
+
+    test.each(['en', 'fr'])('uses the full-width GCDS %s parallel home shell', async (locale) => {
+      const htmlContent = await fs.readFile(
+        path.join('_site', locale, 'gcds-home-preview', 'index.html'),
+        'utf8'
+      );
+
+      expect(htmlContent.match(/<main\b/g)).toHaveLength(1);
+      expect(htmlContent.match(/<h1\b/g)).toHaveLength(1);
+      expect(htmlContent).toContain('<gcds-grid columns="1fr">');
+      expect(htmlContent).not.toContain('columns-desktop="1fr 3fr"');
+      expect(htmlContent).not.toContain('<gcds-side-nav');
+      expect(htmlContent).not.toMatch(/wet-boew|jquery|fontawesome/i);
+    });
+
+    test('keeps GCDS shell links under a configured path prefix', async () => {
+      try {
+        execSync('npm run build', {
+          stdio: 'pipe',
+          env: { ...process.env, PATH_PREFIX: 'toolkit' }
+        });
+        const htmlContent = await fs.readFile(
+          path.join('_site', 'en', 'gcds-foundation-preview', 'index.html'),
+          'utf8'
+        );
+
+        expect(htmlContent).toContain('href="/toolkit/en/"');
+        expect(htmlContent).toContain('href="/toolkit/en/resources/"');
+        expect(htmlContent).toContain('href="/toolkit/fr/gcds-foundation-preview/"');
+        expect(htmlContent).toContain('href="/toolkit/gcds/gcds.css"');
+        expect(htmlContent).toContain('href="#main-content"');
+      } finally {
+        execSync('npm run build', {
+          stdio: 'pipe',
+          env: { ...process.env, PATH_PREFIX: '' }
+        });
+      }
     });
 
     test('does not advertise a suppressed GCDS translation', async () => {

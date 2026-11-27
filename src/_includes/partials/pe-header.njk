@@ -1,0 +1,14 @@
+<a href="{{ header[locale].governmentOfCanadaURL }}" class="gcds-header__brand-fallback">
+  {{ header[locale].governmentOfCanada }}
+</a>
+
+{% if needsTranslation != true %}
+<a
+  data-counterpart
+  class="gcds-lang-toggle-fallback"
+  lang="{{ otherLang }}"
+  hreflang="{{ otherLang }}"
+  href="{{ languageLinkUrl }}"
+  translate="no"
+>{{ "Français" if locale == "en" else "English" }}</a>
+{% endif %}

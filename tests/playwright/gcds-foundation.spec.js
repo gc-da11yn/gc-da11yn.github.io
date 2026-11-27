@@ -8,7 +8,10 @@ const fixtures = [
     counterpartPath: "/fr/gcds-foundation-preview/",
     counterpartLabel: "Français",
     skipLabel: "Skip to main content",
-    title: "GC Design System foundation preview",
+    title: "GC Design System foundation preview for a bilingual digital accessibility toolkit",
+    description: "English preview fixture for the parallel GCDS foundation.",
+    date: "November 20, 2026",
+    breadcrumbs: ["Resources", "Accessibility guidance"],
     contextualHeading: "Digital Accessibility Toolkit",
     contextualLink: "Accessibility in Government of Canada",
     corporateHeading: "Government of Canada Corporate",
@@ -21,7 +24,10 @@ const fixtures = [
     counterpartPath: "/en/gcds-foundation-preview/",
     counterpartLabel: "English",
     skipLabel: "Passer au contenu principal",
-    title: "Aperçu de la fondation du Système de design GC",
+    title: "Aperçu de la fondation du Système de design GC pour une boîte à outils d’accessibilité numérique bilingue",
+    description: "Aperçu français pour la fondation parallèle du Système de design GC.",
+    date: "20 novembre 2026",
+    breadcrumbs: ["Ressources", "Conseils en accessibilité"],
     contextualHeading: "Boîte à outils de l'accessibilité numérique",
     contextualLink: "Accessibilité au gouvernement du Canada",
     corporateHeading: "Organisation du gouvernement du Canada",
@@ -36,8 +42,13 @@ for (const fixture of fixtures) {
 
     await expect(page.locator("main")).toHaveCount(1);
     await expect(page.getByRole("banner")).toHaveCount(1);
+    await expect(page.getByRole("contentinfo")).toHaveCount(1);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(fixture.title);
+    await expect(page.locator(".gcds-page-description")).toHaveText(fixture.description);
     await expect(page.locator("html")).toHaveAttribute("lang", fixture.locale);
+    await expect(page.locator('meta[name="description"]')).toHaveAttribute("content", fixture.description);
+    await expect(page.locator('meta[name="dcterms.modified"]')).toHaveAttribute("content", "2026-11-20");
+    await expect(page.locator("gcds-date-modified")).toContainText(fixture.date);
 
     const counterpart = page.locator("[data-counterpart]");
     await expect(counterpart).toHaveAttribute("href", fixture.counterpartPath);
@@ -57,6 +68,10 @@ for (const fixture of fixtures) {
     await expect(page.locator("gcds-search")).toHaveAttribute("placeholder", "Canada.ca");
     await expect(page.locator("gcds-breadcrumbs")).toBeVisible();
     await expect(page.locator(`gcds-breadcrumbs-item[href="/${fixture.locale}/"]`)).toBeVisible();
+    await expect(page.locator("gcds-breadcrumbs > gcds-breadcrumbs-item")).toHaveCount(3);
+    for (const breadcrumb of fixture.breadcrumbs) {
+      await expect(page.locator("gcds-breadcrumbs-item", { hasText: breadcrumb })).toHaveCount(1);
+    }
     await page.setViewportSize({ width: 1280, height: 900 });
     const navigationBox = await navigation.boundingBox();
     const mainBox = await page.locator("main").boundingBox();
@@ -68,6 +83,17 @@ for (const fixture of fixtures) {
     await expect(skipLink).toBeVisible();
     await page.keyboard.press("Enter");
     await expect(page.locator("#main-content")).toBeFocused();
+
+    const shellOrder = await page.locator("body").evaluate((body) =>
+      ["GCDS-HEADER", "MAIN", "GCDS-FOOTER"].every((tag, index, tags) =>
+        index === 0 ||
+        Boolean(
+          body.querySelector(tags[index - 1]).compareDocumentPosition(body.querySelector(tag)) &
+          Node.DOCUMENT_POSITION_FOLLOWING
+        )
+      )
+    );
+    expect(shellOrder).toBe(true);
   });
 
   test(`${fixture.locale} fixture keeps native content without JavaScript`, async ({ browser }) => {
@@ -78,11 +104,15 @@ for (const fixture of fixtures) {
     await expect(page.locator("main")).toHaveCount(1);
     await expect(page.getByRole("banner")).toHaveCount(1);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(fixture.title);
+    await expect(page.locator(".gcds-page-description")).toHaveText(fixture.description);
     await expect(page.locator("[data-counterpart]")).toBeVisible();
     await expect(page.locator(".gcds-site-nav-fallback")).toBeVisible();
     await expect(page.locator(".gcds-site-nav-fallback a")).toHaveCount(6);
     await expect(page.locator(".gcds-search-fallback")).toBeVisible();
     await expect(page.locator(".gcds-breadcrumbs-fallback")).toBeVisible();
+    await expect(page.locator(".gcds-date-modified-fallback")).toBeVisible();
+    await expect(page.locator(".gcds-date-modified-fallback")).toContainText(fixture.date);
+    await expect(page.locator(".gcds-date-modified-fallback time")).toHaveAttribute("datetime", "2026-11-20");
     const skipLink = page.getByRole("link", { name: fixture.skipLabel, exact: true });
     await expect(skipLink).toBeVisible();
     await page.keyboard.press("Tab");
@@ -125,6 +155,7 @@ for (const fixture of fixtures) {
     await expect(page.locator(".gcds-site-nav-fallback")).toBeVisible();
     await expect(page.locator(".gcds-search-fallback")).toBeVisible();
     await expect(page.locator(".gcds-breadcrumbs-fallback")).toBeVisible();
+    await expect(page.locator(".gcds-date-modified-fallback")).toBeVisible();
     const fallbackFooter = page.locator(".gcds-footer-fallback");
     await expect(fallbackFooter).toBeVisible();
     await expect(page.getByRole("contentinfo")).toHaveCount(1);
@@ -150,6 +181,19 @@ test("header layout remains usable at reflow and forced-colour settings", async 
     expect(hasHorizontalOverflow).toBe(false);
   }
 
+  for (const effectiveViewport of [
+    { zoom: "200%", width: 640 },
+    { zoom: "400%", width: 320 }
+  ]) {
+    await page.setViewportSize({ width: effectiveViewport.width, height: 800 });
+    const hasHorizontalOverflow = await page.evaluate(
+      () => document.documentElement.scrollWidth > document.documentElement.clientWidth
+    );
+    expect(hasHorizontalOverflow).toBe(false);
+    await expect(page.locator("main")).toBeVisible();
+    await expect(page.locator("gcds-side-nav")).toBeVisible();
+  }
+
   await page.setViewportSize({ width: 390, height: 844 });
   const menuTrigger = page.locator("gcds-side-nav").getByRole("button").first();
   await expect(menuTrigger).toBeVisible();
@@ -164,6 +208,18 @@ test("header layout remains usable at reflow and forced-colour settings", async 
   await skipLink.focus();
   await expect(skipLink).toBeFocused();
   await expect(skipLink).toBeVisible();
+  const focusAppearance = await skipLink.evaluate((link) => {
+    const style = getComputedStyle(link);
+    return {
+      outlineStyle: style.outlineStyle,
+      outlineWidth: style.outlineWidth,
+      boxShadow: style.boxShadow
+    };
+  });
+  expect(
+    focusAppearance.outlineStyle !== "none" && focusAppearance.outlineWidth !== "0px"
+      || focusAppearance.boxShadow !== "none"
+  ).toBe(true);
 });
 
 for (const fixture of fixtures) {
@@ -203,3 +259,41 @@ test("translation-suppressed fixture does not advertise a counterpart", async ({
   await expect(page.locator('link[rel="alternate"]')).toHaveCount(0);
   await expect(page.locator("[data-counterpart]")).toHaveCount(0);
 });
+
+for (const locale of ["en", "fr"]) {
+  test(`${locale} fixture omits a missing description and keeps an ordered heading outline`, async ({ page }) => {
+    await page.goto(`/${locale}/gcds-foundation-preview-no-description/`);
+    await page.waitForFunction(() => customElements.get("gcds-date-modified"));
+
+    await expect(page.locator(".gcds-page-description")).toHaveCount(0);
+    await expect(page.locator('meta[name="description"]')).toHaveAttribute("content", "");
+    await expect(page.locator("main h1")).toHaveCount(1);
+    const headingLevels = await page.locator("main h1, main h2, main h3, main h4, main h5, main h6")
+      .evaluateAll((headings) => headings.map((heading) => Number(heading.tagName.slice(1))));
+    for (let index = 1; index < headingLevels.length; index += 1) {
+      expect(headingLevels[index] - headingLevels[index - 1]).toBeLessThanOrEqual(1);
+    }
+  });
+
+  test(`${locale} parallel home fixture uses a full-width shell`, async ({ page }) => {
+    await page.goto(`/${locale}/gcds-home-preview/`);
+    await page.waitForFunction(() => customElements.get("gcds-container"));
+
+    await expect(page.locator("main")).toHaveCount(1);
+    await expect(page.locator("gcds-side-nav")).toHaveCount(0);
+    await expect(page.locator("gcds-grid")).not.toHaveAttribute("columns-desktop");
+    await expect(page.getByRole("banner")).toHaveCount(1);
+    await expect(page.getByRole("contentinfo")).toHaveCount(1);
+    await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
+    const counterpartLocale = locale === "en" ? "fr" : "en";
+    await expect(page.locator("[data-counterpart]")).toHaveAttribute(
+      "href",
+      `/${counterpartLocale}/gcds-home-preview/`
+    );
+    await page.setViewportSize({ width: 320, height: 800 });
+    const hasHorizontalOverflow = await page.evaluate(
+      () => document.documentElement.scrollWidth > document.documentElement.clientWidth
+    );
+    expect(hasHorizontalOverflow).toBe(false);
+  });
+}
