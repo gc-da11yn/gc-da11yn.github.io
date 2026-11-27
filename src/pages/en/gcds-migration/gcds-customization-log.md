@@ -383,6 +383,50 @@ The stylesheet adds wrapping grid and spacing rules and a visible border for dow
 
 Remove or reduce these rules if GCDS CSS Shortcuts or a documented GCDS component provides equivalent native-light-DOM semantics, responsive layout, and visible metadata without hiding the no-JavaScript baseline.
 
+## Page-family grid and list layout
+
+### Status
+
+Active
+
+### Related issue
+
+[Migrate Landing, Collection, Update, and Role Templates #818](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/818)
+
+### Files
+
+- `src/_scss/gcds-foundation.scss`
+- `src/_includes/partials/gcds-collections.njk`
+- `src/_includes/partials/gcds-about.njk`
+- `src/_includes/partials/gcds-updates.njk`
+- `src/_includes/partials/gcds-landing-links.njk`
+- `src/_includes/partials/gcds-role-mini-toc.njk`
+- `src/_includes/partials/gcds-role-group-sections.njk`
+
+### GCDS option checked
+
+The page-family content uses native headings, semantic lists, and links within the GCDS page-shell grid. The component map and doormat analysis confirmed that these grouped links are navigation patterns, not verified card previews. The page-family lists use native CSS Grid directly to avoid inheriting the shell's desktop column ratio through a nested GCDS grid.
+
+### Why it is needed
+
+GCDS grid styles the upgraded container, but semantic list markup remains responsible for document relationships and the complete baseline before component registration. A small site-owned rule supplies the responsive grid on that list and keeps the native baseline usable when GCDS JavaScript is disabled or fails to load.
+
+### What changed
+
+The stylesheet turns page-family lists into a one-column layout that becomes two columns at 48 rem. It removes browser list markers without removing list semantics, preserves flexible item widths, wraps role mini-navigation, and keeps links underlined in forced-colour mode.
+
+### Accessibility impact
+
+- Heading levels and list relationships remain available in enhanced, no-JavaScript, and failed-upgrade states.
+- English and French fixtures preserve the same structural relationships and existing data.
+- Links and labels preserve native list semantics at every breakpoint without redundant ARIA.
+- The layout reflows at 320 CSS pixels and at 200% and 400% zoom without equal-height JavaScript.
+- Focus indicators use native browser behavior.
+
+### Removal condition
+
+Remove or reduce these rules if GCDS provides a documented responsive grid pattern that preserves semantic list children before and after component registration without site-owned layout CSS.
+
 ## Custom JavaScript
 
 No site-owned browser JavaScript has been added for the GCDS foundation or shell. The `localizedDate` Eleventy filter runs only during the build and is not shipped to users. Playwright JavaScript files in `tests/playwright/` are test code and are not shipped to users.

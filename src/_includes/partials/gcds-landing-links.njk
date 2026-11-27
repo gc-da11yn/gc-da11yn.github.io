@@ -1,0 +1,33 @@
+{% if gcdsLandingItems %}
+<section class="gcds-page-family-section" aria-labelledby="gcds-landing-heading">
+	<h2 id="gcds-landing-heading" class="gcds-sr-only">{% if locale === "en" %}Topics in this section{% else %}Sujets de cette section{% endif %}</h2>
+	<div class="gcds-link-grid">
+		{% for item in gcdsLandingItems %}
+		{% if not item.data.tags or item.data.tags.length === 0 %}
+		<section>
+			<h3>
+				<a{% if item.data.redirect %} rel="external"{% endif %}
+					href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ pathPrefix }}{{ item.url }}{% endif %}"
+					{% if item.data.oneLanguage %}hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>
+					{% if item.data.internal === true %}
+					<span class="gcds-sr-only">{{ alerts[locale].hiddenTextLink }} </span>
+					{% endif %}
+					{{ item.data.title | safe }}
+					{% if item.data.oneLanguage %}<span> {{ landingPage[locale].otherLangOnly }}</span>{% endif %}
+				</a>
+			</h3>
+			<p>
+				{% if item.data.description %}
+				{{ item.data.description | safe }}
+				{% else %}
+				{{ landingPage[locale].descriptionNoneText }}
+				{% endif %}
+			</p>
+		</section>
+		{% endif %}
+		{% endfor %}
+	</div>
+</section>
+{% else %}
+{% include "partials/alert-landingpages.njk" %}
+{% endif %}

@@ -1,0 +1,22 @@
+---
+title: GCDS landing page family preview
+description: English fixture for collection landing links in the parallel GCDS shell.
+locale: en
+layout: layouts/gcds-base.njk
+permalink: "{{ permalinkPrefix }}en/gcds-landing-page-preview/"
+toggle: gcds-landing-page-preview
+date: 2026-11-27
+tags:
+  - main
+breadcrumbs:
+  - title: GC Design System foundation preview
+    url: /en/gcds-foundation-preview/
+eleventyExcludeFromCollections: true
+---
+
+<!-- cspell:ignore eleventy -->
+
+<p><a href="{{ pathPrefix }}/en/how-tos/">View the current How-tos landing page</a>.</p>
+
+{% set gcdsLandingItems = collections.howTos | sort(false, false, 'data.title') | localeMatch(locale) %}
+{% include "partials/gcds-landing-links.njk" %}

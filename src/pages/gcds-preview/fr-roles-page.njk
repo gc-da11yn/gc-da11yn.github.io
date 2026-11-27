@@ -1,0 +1,38 @@
+---
+title: Aperçu d’une famille de pages de rôles du Système de design GC
+description: Aperçu français de la mini-navigation et des sections de groupes de rôles dans l’enveloppe parallèle du Système de design GC.
+locale: fr
+layout: layouts/gcds-base.njk
+permalink: "{{ permalinkPrefix }}fr/gcds-role-page-preview/"
+toggle: gcds-role-page-preview
+date: 2026-11-27
+tags:
+  - main
+breadcrumbs:
+  - title: Aperçu de la fondation du Système de design GC
+    url: /fr/gcds-foundation-preview/
+eleventyExcludeFromCollections: true
+gcdsRoleItems:
+  - url: /fr/comment-faire/creer-du-contenu-web/
+    data:
+      title: Créer du contenu Web
+      description: Conseils pour les auteurs qui créent du contenu Web accessible.
+      locale: fr
+      role:
+        - contentAuthoring
+  - url: /fr/comment-faire/testez-vos-produits/
+    data:
+      title: Testez vos produits
+      description: Conseils pour vérifier l’accessibilité des produits numériques.
+      locale: fr
+      role:
+        - qaManual
+---
+
+<!-- cspell:ignore eleventy -->
+
+<p><a href="{{ pathPrefix }}/fr/roles/">Consulter la page actuelle L’accessibilité dans votre rôle</a>.</p>
+
+{% set gcdsRoleGroups = groupPairsFr %}
+{% include "partials/gcds-role-mini-toc.njk" %}
+{% include "partials/gcds-role-group-sections.njk" %}

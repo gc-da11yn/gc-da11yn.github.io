@@ -1,6 +1,6 @@
 ---
 title: GC Design System parallel home preview
-description: English parallel home fixture for the GCDS page shell.
+description: English parallel home fixture for the GCDS page-family migration.
 locale: en
 layout: layouts/gcds-base.njk
 permalink: "{{ permalinkPrefix }}en/gcds-home-preview/"
@@ -16,5 +16,9 @@ eleventyExcludeFromCollections: true
 
 <!-- cspell:ignore eleventy -->
 
-<h2>Welcome to the parallel shell</h2>
-<p>This home fixture uses the full-width shell without side navigation.</p>
+<p>This fixture presents collection, update, and about links as native headings and lists in responsive GCDS layouts.</p>
+<p><a href="{{ pathPrefix }}/en/">View the current Digital Accessibility Toolkit home page</a>.</p>
+
+{% include "partials/gcds-collections.njk" %}
+{% include "partials/gcds-updates.njk" %}
+{% include "partials/gcds-about.njk" %}
