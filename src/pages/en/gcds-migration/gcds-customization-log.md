@@ -298,6 +298,46 @@ The shell remains readable without horizontal scrolling at narrow widths and hig
 
 Remove the two overrides if a GCDS container or grid update prevents grid-item min-content overflow with equivalent narrow-layout behavior.
 
+## Notice fallback visibility and presentation
+
+### Status
+
+Active
+
+### Related issue
+
+[Migrate Notices and Archived-Content State #816](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/816)
+
+### Files
+
+- `src/_scss/gcds-foundation.scss`
+- `src/_includes/partials/gcds-notice.njk`
+- `src/_includes/partials/pe-notice.njk`
+
+### GCDS option checked
+
+The enhanced state uses the supported `<gcds-notice>` notice roles, localized title, and heading-level attributes. The notice content remains native light-DOM HTML.
+
+### Why it is needed
+
+`<gcds-notice>` requires JavaScript before it can render its localized title and notice icon. A native fallback keeps the complete message visible when JavaScript is disabled or component registration fails.
+
+### What changed
+
+Each enhanced notice is followed by one native `section` containing the localized role, heading, and content. Site-owned CSS hides the enhanced host until registration and then removes the duplicate fallback. The fallback is visually distinguished with a border and background.
+
+### Accessibility impact
+
+- Static messages have no live alert or `aria-live` semantics.
+- Enhanced and fallback states preserve heading levels, localized names, native lists, and links.
+- The fallback remains readable and keyboard operable without JavaScript.
+- Long messages wrap at narrow widths and follow the page heading in reading order.
+- Focus behavior uses native links only.
+
+### Removal condition
+
+Remove the fallback markup and visibility CSS if GCDS preserves the notice title, message, semantics, and native links in light DOM before JavaScript registration.
+
 ## Custom JavaScript
 
 No site-owned browser JavaScript has been added for the GCDS foundation or shell. The `localizedDate` Eleventy filter runs only during the build and is not shipped to users. Playwright JavaScript files in `tests/playwright/` are test code and are not shipped to users.

@@ -236,6 +236,18 @@ describe('Eleventy Build Validation', () => {
         expect(htmlContent).toContain('href="/toolkit/fr/gcds-foundation-preview/"');
         expect(htmlContent).toContain('href="/toolkit/gcds/gcds.css"');
         expect(htmlContent).toContain('href="#main-content"');
+        const noticeHtml = await fs.readFile(
+          path.join('_site', 'en', 'gcds-landing-notice-preview', 'index.html'),
+          'utf8'
+        );
+        expect(noticeHtml).toContain('href="/toolkit/en/contact-us/"');
+        expect(noticeHtml).not.toContain('href="/en/contact-us/"');
+        const archivedNoticeHtml = await fs.readFile(
+          path.join('_site', 'en', 'gcds-notices-preview', 'index.html'),
+          'utf8'
+        );
+        expect(archivedNoticeHtml).toContain('href="/toolkit/en/#updates"');
+        expect(archivedNoticeHtml).not.toContain('href="en/#updates"');
       } finally {
         execSync('npm run build', {
           stdio: 'pipe',
@@ -252,6 +264,50 @@ describe('Eleventy Build Validation', () => {
 
       expect(htmlContent).not.toContain('rel="alternate"');
       expect(htmlContent).not.toContain('data-counterpart');
+    });
+
+    test.each([
+      ['en', 'notices', 2, 'We have archived this page and it&#39;s content', 'Important information'],
+      ['fr', 'notices', 2, 'Nous avons archivé cette page et son contenu', 'Informations importantes'],
+      ['en', 'landing-notice', 1, 'Content in progress'],
+      ['fr', 'landing-notice', 1, 'Contenu en cours'],
+      ['en', 'office-notice', 1, 'Office version notice'],
+      ['fr', 'office-notice', 1, 'Avis concernant la version d’Office'],
+      ['en', 'standard-notice', 1, 'Standard update'],
+      ['fr', 'standard-notice', 1, 'Mise à jour de la norme']
+    ])('generates the isolated GCDS %s %s fixture', async (
+      locale,
+      fixtureName,
+      noticeCount,
+      ...noticeTitles
+    ) => {
+      const htmlContent = await fs.readFile(
+        path.join('_site', locale, `gcds-${fixtureName}-preview`, 'index.html'),
+        'utf8'
+      );
+
+      expect(htmlContent.match(/<gcds-notice\b/g)).toHaveLength(noticeCount);
+      expect(htmlContent.match(/class="gcds-notice-fallback /g)).toHaveLength(noticeCount);
+      expect(htmlContent).not.toMatch(/role="alert"|aria-live=/);
+      expect(htmlContent).not.toMatch(/wet-boew|jquery|fontawesome/i);
+      expect(htmlContent).toContain('notice-title-tag="h2"');
+      for (const title of noticeTitles) {
+        expect(htmlContent).toContain(title);
+      }
+    });
+
+    test('keeps the archived GCDS notice after the page heading', async () => {
+      const htmlContent = await fs.readFile(
+        '_site/en/gcds-notices-preview/index.html',
+        'utf8'
+      );
+      const headingPosition = htmlContent.indexOf('<h1>');
+      const noticePosition = htmlContent.indexOf('<gcds-notice');
+
+      expect(headingPosition).toBeGreaterThan(-1);
+      expect(noticePosition).toBeGreaterThan(headingPosition);
+      expect(htmlContent).not.toMatch(/<h1>Archived page:/);
+      expect(htmlContent.match(/archived-notice-fallback-title/g)).toHaveLength(2);
     });
 
     test('keeps normal home pages on the WET layout', async () => {

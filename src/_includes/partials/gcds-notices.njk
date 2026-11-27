@@ -1,0 +1,83 @@
+{% set otherLang = "fr" if locale == "en" else "en" %}
+
+{% if isDraft or needsTranslation or internalLinks %}
+  {% set noticeId = "page-status-notice" %}
+  {% set noticeRole = "warning" %}
+  {% set noticeTitleTag = "h2" %}
+  {% set noticeTitle = alerts[locale].alertHeading %}
+  {% set noticeContent %}
+    <ul>
+      {% if isDraft == true %}
+      <li>{{ alerts[locale].draftText }}</li>
+      {% endif %}
+      {% if needsTranslation == true %}
+      <li lang="{{ otherLang }}">{{ alerts[locale].translationText }}</li>
+      {% endif %}
+      {% if internalLinks == true %}
+      <li>{{ alerts[locale].internalLinkText }}{{ alerts[locale].icon }}{{ alerts[locale].hiddenTextLink }}.</li>
+      {% endif %}
+    </ul>
+  {% endset %}
+  {% include "partials/gcds-notice.njk" %}
+{% endif %}
+
+{% if gcdsLandingNotice %}
+  {% set noticeId = "landing-page-notice" %}
+  {% set noticeRole = "info" %}
+  {% set noticeTitleTag = "h2" %}
+  {% set noticeTitle = gcdsNotices[locale].landingTitle %}
+  {% set noticeContent %}
+    {% if locale === "en" %}
+    <p>We are currently in the process of collecting information on this subject. Please return in the near future for updates.</p>
+    <p>If you have any materials you would like to share, please feel free to visit our <a href="{{ pathPrefix }}/en/contact-us/">contact page</a>. Thank you!</p>
+    {% else %}
+    <p>Nous travaillons actuellement à rassembler du contenue sur ce sujet. Veuillez revenir bientôt pour des mises à jour.</p>
+    <p>Si vous avez du matériel que vous souhaitez contribuer, veuillez visiter notre <a href="{{ pathPrefix }}/fr/contactez-nous/">page de contact</a>. Merci!</p>
+    {% endif %}
+  {% endset %}
+  {% include "partials/gcds-notice.njk" %}
+{% endif %}
+
+{% if gcdsStandardNotice %}
+  {% set noticeId = "standard-notice" %}
+  {% set noticeRole = "info" %}
+  {% set noticeTitleTag = "h2" %}
+  {% set noticeTitle = gcdsNotices[locale].standardTitle %}
+  {% set noticeContent %}
+    {% if locale === "en" %}
+    <p>The standard has been removed as it’s being updated. If you have any questions, please send an email to <a href="mailto:servicedigital-servicesnumerique@tbs-sct.gc.ca">servicedigital-servicesnumerique@tbs-sct.gc.ca</a>.</p>
+    {% else %}
+    <p>La norme a été retirée car elle est présentement en processus de révision. Si vous avez des questions, veuillez envoyer un courriel à <a href="mailto:servicedigital-servicesnumerique@tbs-sct.gc.ca">servicedigital-servicesnumerique@tbs-sct.gc.ca</a>.</p>
+    {% endif %}
+    {% if gcdsLongNotice %}
+      {% if locale === "en" %}
+      <p>This extended test message confirms that a lengthy notice remains readable when several sentences, a long link, and a particularly-long-unbroken-test-value-that-must-wrap-at-narrow-viewports are included.</p>
+      {% else %}
+      <p>Ce message d’essai prolongé confirme qu’un long avis demeure lisible lorsqu’il comprend plusieurs phrases, un lien long et une valeur de test particulièrement longue et continue qui doit être renvoyée à la ligne sur les petits écrans.</p>
+      {% endif %}
+    {% endif %}
+  {% endset %}
+  {% include "partials/gcds-notice.njk" %}
+{% endif %}
+
+{% if locale === "en" %}
+  {% set indexSlug = "how-to-create-accessible-documents" %}
+  {% set inOffice = "in" %}
+{% else %}
+  {% set indexSlug = "comment-creer-des-documents-accessibles" %}
+  {% set inOffice = "dans" %}
+{% endif %}
+{% if officeTOC === true and (tags[1] === "microsoft365" or page.fileSlug === indexSlug + "-" + inOffice + "-microsoft-365") %}
+  {% set noticeId = "office-notice" %}
+  {% set noticeRole = "info" %}
+  {% set noticeTitleTag = "h2" %}
+  {% set noticeTitle = gcdsNotices[locale].officeTitle %}
+  {% set noticeContent %}
+    {% if locale === "en" %}
+    <p><a href="https://support.microsoft.com/en-us/office/office-is-now-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office is now Microsoft 365</a>.</p>
+    {% else %}
+    <p><a href="https://support.microsoft.com/fr-fr/office/office-est-désormais-microsoft-365-22eac811-08d6-4df3-92dd-77f193e354a5">Office est désormais Microsoft 365</a>.</p>
+    {% endif %}
+  {% endset %}
+  {% include "partials/gcds-notice.njk" %}
+{% endif %}
