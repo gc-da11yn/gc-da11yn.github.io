@@ -13,10 +13,14 @@
         <main id="main-content" tabindex="-1">
           <header class="gcds-page-header">
             <h1>{{ title | safe }}</h1>
+            {% if archived %}
+            {% include "partials/gcds-archived-notice.njk" %}
+            {% endif %}
             {% if description %}
             <p class="gcds-page-description">{{ description | safe }}</p>
             {% endif %}
           </header>
+          {% include "partials/gcds-notices.njk" %}
           <div class="gcds-page-content">
             {{ content | safe }}
           </div>

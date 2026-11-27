@@ -1,0 +1,8 @@
+{% set noticeId = "archived-notice" %}
+{% set noticeRole = "warning" %}
+{% set noticeTitleTag = "h2" %}
+{% set noticeTitle = archiveStrings[locale].archivedHeading %}
+{% set noticeContent %}
+  <p>{{ gcdsNotices[locale].archivedParagraph | safe }}</p>
+{% endset %}
+{% include "partials/gcds-notice.njk" %}

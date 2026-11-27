@@ -102,3 +102,34 @@ gcds-date-modified:defined + .gcds-date-modified-fallback {
   display: none;
 }
 
+gcds-notice:not(:defined) {
+  display: none;
+}
+
+.gcds-notice-fallback {
+  padding: 1rem 1.25rem;
+  border-inline-start: 0.375rem solid #2e5ca5;
+  background: #f4f8fc;
+  overflow-wrap: anywhere;
+}
+
+.gcds-notice-fallback--warning {
+  border-inline-start-color: #7b4d00;
+  background: #fff8e6;
+}
+
+gcds-notice:defined + .gcds-notice-fallback {
+  display: none;
+}
+
+.gcds-notice-fallback__role {
+  font-weight: 700;
+}
+
+.gcds-page-header gcds-notice,
+.gcds-page-header .gcds-notice-fallback,
+#main-content > gcds-notice,
+#main-content > .gcds-notice-fallback {
+  margin-block: 1.5rem;
+}
+

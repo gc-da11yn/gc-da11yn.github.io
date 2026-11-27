@@ -1,0 +1,8 @@
+<gcds-notice
+  notice-role="{{ noticeRole }}"
+  notice-title-tag="{{ noticeTitleTag }}"
+  notice-title="{{ noticeTitle | escape }}"
+>
+  {{ noticeContent | safe }}
+</gcds-notice>
+{% include "partials/pe-notice.njk" %}
