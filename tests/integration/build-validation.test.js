@@ -161,8 +161,8 @@ describe('Eleventy Build Validation', () => {
 
       const localizedDate = locale === 'en' ? 'November 20, 2026' : '20 novembre 2026';
       const breadcrumbPaths = locale === 'en'
-        ? ['/en/resources/', '/en/resources/guidance/']
-        : ['/fr/ressources/', '/fr/ressources/conseils/'];
+        ? ['/en/resources-and-tools/', '/en/resources/']
+        : ['/fr/ressources-et-outils/', '/fr/ressources/'];
 
       expect(htmlContent).toContain('<gcds-date-modified');
       expect(htmlContent).toContain(localizedDate);
@@ -231,6 +231,7 @@ describe('Eleventy Build Validation', () => {
         );
 
         expect(htmlContent).toContain('href="/toolkit/en/"');
+        expect(htmlContent).toContain('href="/toolkit/en/resources-and-tools/"');
         expect(htmlContent).toContain('href="/toolkit/en/resources/"');
         expect(htmlContent).toContain('href="/toolkit/fr/gcds-foundation-preview/"');
         expect(htmlContent).toContain('href="/toolkit/gcds/gcds.css"');

@@ -11,7 +11,10 @@ const fixtures = [
     title: "GC Design System foundation preview for a bilingual digital accessibility toolkit",
     description: "English preview fixture for the parallel GCDS foundation.",
     date: "November 20, 2026",
-    breadcrumbs: ["Resources", "Accessibility guidance"],
+    breadcrumbs: [
+      { title: "Resources and Tools", path: "/en/resources-and-tools/" },
+      { title: "Resources", path: "/en/resources/" }
+    ],
     contextualHeading: "Digital Accessibility Toolkit",
     contextualLink: "Accessibility in Government of Canada",
     corporateHeading: "Government of Canada Corporate",
@@ -27,7 +30,10 @@ const fixtures = [
     title: "Aperçu de la fondation du Système de design GC pour une boîte à outils d’accessibilité numérique bilingue",
     description: "Aperçu français pour la fondation parallèle du Système de design GC.",
     date: "20 novembre 2026",
-    breadcrumbs: ["Ressources", "Conseils en accessibilité"],
+    breadcrumbs: [
+      { title: "Ressources et outils", path: "/fr/ressources-et-outils/" },
+      { title: "Ressources", path: "/fr/ressources/" }
+    ],
     contextualHeading: "Boîte à outils de l'accessibilité numérique",
     contextualLink: "Accessibilité au gouvernement du Canada",
     corporateHeading: "Organisation du gouvernement du Canada",
@@ -70,7 +76,13 @@ for (const fixture of fixtures) {
     await expect(page.locator(`gcds-breadcrumbs-item[href="/${fixture.locale}/"]`)).toBeVisible();
     await expect(page.locator("gcds-breadcrumbs > gcds-breadcrumbs-item")).toHaveCount(3);
     for (const breadcrumb of fixture.breadcrumbs) {
-      await expect(page.locator("gcds-breadcrumbs-item", { hasText: breadcrumb })).toHaveCount(1);
+      const item = page.locator(
+        `gcds-breadcrumbs-item[href="${breadcrumb.path}"]`,
+        { hasText: breadcrumb.title }
+      );
+      await expect(item).toHaveCount(1);
+      const response = await page.request.get(breadcrumb.path);
+      expect(response.status()).toBe(200);
     }
     await page.setViewportSize({ width: 1280, height: 900 });
     const navigationBox = await navigation.boundingBox();
