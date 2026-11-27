@@ -1,0 +1,56 @@
+{% if locale === "en" %}
+	{% set indexSlug = "how-to-create-accessible-documents" %}
+	{% set indexTitle = "How to create accessible documents" %}
+	{% set inOffice = "in" %}
+{% else %}
+	{% set indexSlug = "comment-creer-des-documents-accessibles" %}
+	{% set indexTitle = "Comment créer des documents accessibles" %}
+	{% set inOffice = "dans" %}
+{% endif %}
+
+{% if tags[1] === "office2016" or page.fileSlug === indexSlug + "-" + inOffice + "-office-2016" %}
+	{% set version = "Office 2016" %}
+	{% set otherVersion = "Microsoft 365" %}
+	{% set officeItems = collections.office2016 | sort(attribute="data.title") %}
+{% endif %}
+{% if tags[1] === "microsoft365" or page.fileSlug === indexSlug + "-" + inOffice + "-microsoft-365" %}
+	{% set version = "Microsoft 365" %}
+	{% set otherVersion = "Office 2016" %}
+	{% set officeItems = collections.microsoft365 | sort(attribute="data.title") %}
+{% endif %}
+
+{% if officeTOC === true and version %}
+	{% set versionSlug = version | slugify %}
+	{% set indexURL = "/" + locale + "/" + indexSlug + "-" + inOffice + "-" + versionSlug + "/" %}
+	{% if gcdsOfficeItems %}
+		{% set officeItems = gcdsOfficeItems %}
+	{% endif %}
+	{% set currentOfficeUrl = page.url %}
+	{% set alternateUrl = gcdsOfficeAlternateUrl or currentOfficeUrl | replace(versionSlug, otherVersion | slugify) %}
+	{% set alternateTitle = gcdsOfficeAlternateTitle or title | replace(inOffice + " " + version, "") %}
+	<nav class="gcds-office-navigation" aria-label="{{ gcdsSecondaryUi[locale].officeNavigationTop if gcdsOfficeNavPosition == 'top' else gcdsSecondaryUi[locale].officeNavigationBottom }}">
+		<ul class="gcds-office-navigation__list">
+			<li>
+				<a href="{{ pathPrefix }}{{ indexURL }}"{% if currentOfficeUrl === indexURL %} aria-current="page"{% endif %}>
+					<span>{{ indexTitle }} {{ inOffice }} {{ version }}</span>
+					{% if currentOfficeUrl === indexURL %}<span class="gcds-office-navigation__current">({{ gcdsSecondaryUi[locale].currentPage }})</span>{% endif %}
+				</a>
+			</li>
+			{% for item in officeItems | localeMatch(locale) %}
+				{% set itemTitle = item.data.title %}
+				<li>
+					<a href="{{ pathPrefix }}{{ item.url }}"{% if currentOfficeUrl === item.url %} aria-current="page"{% endif %}>
+						<span>{{ itemTitle }}</span>
+						{% if currentOfficeUrl === item.url %}<span class="gcds-office-navigation__current">({{ gcdsSecondaryUi[locale].currentPage }})</span>{% endif %}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+		<p class="gcds-office-navigation__alternate">
+			<a href="{{ pathPrefix }}{{ alternateUrl }}">
+				{{ gcdsSecondaryUi[locale].otherVersion }} {{ otherVersion }}:
+				{{ alternateTitle }} {{ inOffice }} {{ otherVersion }}
+			</a>
+		</p>
+	</nav>
+{% endif %}

@@ -8,6 +8,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 const { execSync } = require('child_process');
+const { JSDOM } = require('jsdom');
 
 const gcdsMigrationDocumentSlugs = [
   'gcds-component-map',
@@ -173,6 +174,29 @@ describe('Eleventy Build Validation', () => {
       for (const breadcrumbPath of breadcrumbPaths) {
         expect(htmlContent).toContain(`href="${breadcrumbPath}"`);
       }
+      const previewRoutes = locale === 'en'
+        ? [
+          'gcds-home-preview',
+          'gcds-notices-preview',
+          'gcds-landing-notice-preview',
+          'gcds-office-notice-preview',
+          'gcds-standard-notice-preview',
+          'gcds-secondary-ui-preview',
+          'gcds-foundation-preview-no-description',
+          'gcds-foundation-preview-no-translation'
+        ]
+        : [
+          'gcds-home-preview',
+          'gcds-notices-preview',
+          'gcds-landing-notice-preview',
+          'gcds-office-notice-preview',
+          'gcds-standard-notice-preview',
+          'gcds-secondary-ui-preview',
+          'gcds-foundation-preview-no-description'
+        ];
+      for (const route of previewRoutes) {
+        expect(htmlContent).toContain(`href="/${locale}/${route}/"`);
+      }
 
       const contextualLink = locale === 'en'
         ? ['Digital Accessibility Toolkit', 'Accessibility in Government of Canada', '/en/about/organizations/']
@@ -187,6 +211,41 @@ describe('Eleventy Build Validation', () => {
       expect(htmlContent).toContain('class="gcds-footer-fallback"');
       expect(htmlContent.match(/<footer\b/g)).toHaveLength(1);
       expect(htmlContent).not.toContain('href=""');
+    });
+
+    test.each([
+      ['en', 'gcds-home-preview', 'GC Design System foundation preview'],
+      ['fr', 'gcds-home-preview', 'Aperçu de la fondation du Système de design GC'],
+      ['en', 'gcds-notices-preview', 'GC Design System foundation preview'],
+      ['fr', 'gcds-notices-preview', 'Aperçu de la fondation du Système de design GC'],
+      ['en', 'gcds-landing-notice-preview', 'GC Design System foundation preview'],
+      ['fr', 'gcds-landing-notice-preview', 'Aperçu de la fondation du Système de design GC'],
+      ['en', 'gcds-office-notice-preview', 'GC Design System foundation preview'],
+      ['fr', 'gcds-office-notice-preview', 'Aperçu de la fondation du Système de design GC'],
+      ['en', 'gcds-standard-notice-preview', 'GC Design System foundation preview'],
+      ['fr', 'gcds-standard-notice-preview', 'Aperçu de la fondation du Système de design GC'],
+      ['en', 'gcds-secondary-ui-preview', 'GC Design System foundation preview'],
+      ['fr', 'gcds-secondary-ui-preview', 'Aperçu de la fondation du Système de design GC'],
+      ['en', 'gcds-foundation-preview-no-description', 'GC Design System foundation preview'],
+      ['fr', 'gcds-foundation-preview-no-description', 'Aperçu de la fondation du Système de design GC'],
+      ['en', 'gcds-foundation-preview-no-translation', 'GC Design System foundation preview']
+    ])('links the %s %s breadcrumb to the GCDS preview index', async (
+      locale,
+      route,
+      indexTitle
+    ) => {
+      const htmlContent = await fs.readFile(
+        path.join('_site', locale, route, 'index.html'),
+        'utf8'
+      );
+
+      expect(htmlContent).toContain(
+        `<gcds-breadcrumbs-item href="/${locale}/gcds-foundation-preview/">`
+      );
+      expect(htmlContent).toContain(indexTitle);
+      expect(htmlContent).toContain(
+        `<li><a href="/${locale}/gcds-foundation-preview/">${indexTitle}</a></li>`
+      );
     });
 
     test.each(['en', 'fr'])('omits an empty GCDS %s description region', async (locale) => {
@@ -248,6 +307,18 @@ describe('Eleventy Build Validation', () => {
         );
         expect(archivedNoticeHtml).toContain('href="/toolkit/en/#updates"');
         expect(archivedNoticeHtml).not.toContain('href="en/#updates"');
+        const secondaryUiHtml = await fs.readFile(
+          path.join('_site', 'en', 'gcds-secondary-ui-preview', 'index.html'),
+          'utf8'
+        );
+        expect(secondaryUiHtml).toContain('href="/toolkit/docs/ProcurementGuideEN.docx"');
+        expect(secondaryUiHtml).toContain(
+          'href="/toolkit/en/gcds-secondary-ui-preview/" aria-current="page"'
+        );
+        expect(secondaryUiHtml).not.toContain('href="/docs/ProcurementGuideEN.docx"');
+        expect(secondaryUiHtml).toContain(
+          'href="/toolkit/en/gcds-foundation-preview/"'
+        );
       } finally {
         execSync('npm run build', {
           stdio: 'pipe',
@@ -309,6 +380,100 @@ describe('Eleventy Build Validation', () => {
       expect(htmlContent).not.toMatch(/<h1>Archived page:/);
       expect(htmlContent.match(/archived-notice-fallback-title/g)).toHaveLength(2);
     });
+
+    test.each([
+      {
+        locale: 'en',
+        onThisPage: 'On this page',
+        officeLabel: 'Office 2016 and Microsoft 365 document navigation',
+        currentLabel: 'Current page',
+        filename: 'ProcurementGuideEN.docx',
+        type: 'Microsoft Word document',
+        unit: 'KB',
+        versionUrl: '/en/accessible-word-documents-in-office-2016/'
+      },
+      {
+        locale: 'fr',
+        onThisPage: 'Sur cette page',
+        officeLabel: 'Navigation dans les documents Office 2016 et Microsoft 365',
+        currentLabel: 'Page actuelle',
+        filename: 'ProcurementGuideFR.docx',
+        type: 'Document Microsoft Word',
+        unit: 'ko',
+        versionUrl: '/fr/documents-word-accessibles-dans-office-2016/'
+      }
+    ])('generates accessible native GCDS secondary UI for $locale', async ({
+      locale,
+      onThisPage,
+      officeLabel,
+      currentLabel,
+      filename,
+      type,
+      unit,
+      versionUrl
+    }) => {
+      const htmlContent = await fs.readFile(
+        path.join('_site', locale, 'gcds-secondary-ui-preview', 'index.html'),
+        'utf8'
+      );
+      const document = new JSDOM(htmlContent).window.document;
+
+      expect(document.querySelectorAll('main')).toHaveLength(1);
+      expect(document.querySelectorAll('main h1')).toHaveLength(1);
+      expect(htmlContent).not.toMatch(/wet-boew|jquery|fontawesome|class="fa[sbr]? /i);
+      const toc = document.querySelector('.gcds-secondary-nav');
+      expect(toc).not.toBeNull();
+      expect(toc.querySelector('h2').textContent.trim()).toBe(onThisPage);
+      for (const link of toc.querySelectorAll('a')) {
+        const target = document.getElementById(link.hash.slice(1));
+        expect(target).not.toBeNull();
+        expect(['H2', 'H3']).toContain(target.tagName);
+        expect(target.textContent.trim()).toBe(link.textContent.trim());
+      }
+
+      const officeNavigations = document.querySelectorAll(`nav[aria-label^="${officeLabel}"]`);
+      expect(officeNavigations).toHaveLength(2);
+      for (const navigation of officeNavigations) {
+        expect(navigation.querySelectorAll('[aria-current="page"]')).toHaveLength(1);
+        const current = navigation.querySelector('[aria-current="page"]');
+        expect(current.textContent).toContain(currentLabel);
+        expect(current.getAttribute('href')).toBe(`/${locale}/gcds-secondary-ui-preview/`);
+        expect(current.querySelector('span').textContent.trim()).toBe(
+          document.querySelector('main h1').textContent.trim()
+        );
+        const alternateLink = navigation.querySelector('.gcds-office-navigation__alternate a');
+        expect(alternateLink.getAttribute('href')).toBe(versionUrl);
+        expect(alternateLink.textContent).toContain('Office 2016');
+      }
+
+      const downloadLink = document.querySelector('.gcds-download__link');
+      expect(downloadLink.getAttribute('download')).toBe(filename);
+      expect(downloadLink.getAttribute('href')).toBe(`/docs/${filename}`);
+      expect(downloadLink.textContent).toContain(filename);
+      expect(downloadLink.textContent).toContain(type);
+      expect(downloadLink.textContent).toContain(unit);
+
+      expect(document.querySelector('.gcds-contribute')).toBeNull();
+    });
+
+    test.each(['en', 'fr'])(
+      'keeps the GCDS %s Office notice preview current in both peer navigations',
+      async (locale) => {
+        const htmlContent = await fs.readFile(
+          path.join('_site', locale, 'gcds-office-notice-preview', 'index.html'),
+          'utf8'
+        );
+        const document = new JSDOM(htmlContent).window.document;
+        const expectedName = document.querySelector('main h1').textContent.trim();
+        const expectedUrl = `/${locale}/gcds-office-notice-preview/`;
+
+        for (const navigation of document.querySelectorAll('.gcds-office-navigation')) {
+          const current = navigation.querySelector('[aria-current="page"]');
+          expect(current.getAttribute('href')).toBe(expectedUrl);
+          expect(current.querySelector('span').textContent.trim()).toBe(expectedName);
+        }
+      }
+    );
 
     test('keeps normal home pages on the WET layout', async () => {
       for (const locale of ['en', 'fr']) {

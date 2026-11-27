@@ -21,9 +21,23 @@
             {% endif %}
           </header>
           {% include "partials/gcds-notices.njk" %}
+          {% if officeTOC === true %}
+            {% set gcdsOfficeNavPosition = "top" %}
+            {% include "partials/gcds-office-toc.njk" %}
+          {% endif %}
+          {% if hasDocument %}
+            {% include "partials/gcds-download.njk" %}
+          {% endif %}
+          {% if toc or tocSimple %}
+            {% include "partials/gcds-on-this-page.njk" %}
+          {% endif %}
           <div class="gcds-page-content">
             {{ content | safe }}
           </div>
+          {% if officeTOC === true %}
+            {% set gcdsOfficeNavPosition = "bottom" %}
+            {% include "partials/gcds-office-toc.njk" %}
+          {% endif %}
           {% include "partials/gcds-date-modified.njk" %}
         </main>
       </gcds-grid>

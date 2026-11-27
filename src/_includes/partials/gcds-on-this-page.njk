@@ -1,0 +1,26 @@
+{% if headings %}
+<nav class="gcds-secondary-nav" aria-labelledby="on-this-page-heading">
+	<h2 id="on-this-page-heading">{{ onThisPage[locale].heading }}</h2>
+	<ul>
+		{% set currentLevel = 2 %}
+		{% set parentOpen = false %}
+		{% for heading in headings %}
+			{% if heading.level == "h2" %}
+				{% if loop.index > 1 and currentLevel == 3 %}</li></ul>{% elif loop.index > 1 %}</li>{% endif %}
+				<li><a href="#{{ heading.id }}">{{ heading.text }}</a>
+				{% set currentLevel = 2 %}
+				{% set parentOpen = true %}
+			{% elif heading.level == "h3" and not tocSimple and currentLevel == 3 %}
+				<li><a href="#{{ heading.id }}">{{ heading.text }}</a></li>
+			{% elif heading.level == "h3" and not tocSimple and parentOpen %}
+				<ul>
+					<li><a href="#{{ heading.id }}">{{ heading.text }}</a></li>
+				{% set currentLevel = 3 %}
+			{% elif heading.level == "h3" and not tocSimple %}
+				<li><a href="#{{ heading.id }}">{{ heading.text }}</a></li>
+			{% endif %}
+		{% endfor %}
+		{% if currentLevel == 3 %}</ul></li>{% elif parentOpen %}</li>{% endif %}
+	</ul>
+</nav>
+{% endif %}
