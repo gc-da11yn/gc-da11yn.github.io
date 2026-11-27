@@ -1,0 +1,17 @@
+<section class="gcds-page-family-section" aria-labelledby="gcds-collections-heading">
+	<h2 id="gcds-collections-heading">{{ home[locale].explore }}</h2>
+	<ul class="gcds-link-grid">
+		{% for item in collections.main | sort(false, false, 'data.title') | localeMatch(locale) %}
+		<li>
+			<h3><a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a></h3>
+			<p>
+				{% if item.data.description %}
+				{{ item.data.description | safe }}
+				{% else %}
+				{{ landingPage[locale].descriptionNoneText }}
+				{% endif %}
+			</p>
+		</li>
+		{% endfor %}
+	</ul>
+</section>

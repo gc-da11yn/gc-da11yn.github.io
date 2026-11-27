@@ -1,0 +1,14 @@
+{% if collections.updatesMain %}
+<section class="gcds-page-family-section" aria-labelledby="gcds-updates-heading">
+	<h2 id="gcds-updates-heading">{% if locale === "en" %}Latest updates{% else %}Dernières mises à jour{% endif %}</h2>
+	<p>{% if locale === "en" %}Explore our latest content.{% else %}Explorez notre contenu le plus récent.{% endif %}</p>
+	<ul class="gcds-link-grid gcds-link-grid--updates">
+		{% for item in collections.updatesMain | sort(attribute='date', reverse=true) | localeMatch(locale) %}
+		<li>
+			<a href="{{ pathPrefix }}{{ item.url }}">{{ item.data.title }}</a>
+			<time datetime="{{ item.date | machineDate }}">{{ item.date | postDate }}</time>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+{% endif %}

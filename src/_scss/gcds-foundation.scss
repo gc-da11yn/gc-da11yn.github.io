@@ -199,3 +199,94 @@ gcds-notice:defined + .gcds-notice-fallback {
   margin-block-start: 0.5rem;
 }
 
+.gcds-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.gcds-page-family-section,
+.gcds-role-nav {
+  margin-block: 2rem;
+}
+
+.gcds-link-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem 2rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gcds-link-grid > li,
+.gcds-link-grid > section {
+  min-width: 0;
+}
+
+.gcds-link-grid h2,
+.gcds-link-grid h3 {
+  margin-block: 0 0.5rem;
+}
+
+.gcds-link-grid p,
+.gcds-link-grid time {
+  margin-block: 0;
+}
+
+.gcds-link-grid--updates time {
+  display: block;
+  margin-block-start: 0.25rem;
+}
+
+.gcds-role-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gcds-role-nav li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.gcds-role-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gcds-role-labels > li {
+  max-width: 100%;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid currentColor;
+  border-radius: 0.25rem;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 48rem) {
+  .gcds-link-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (forced-colors: active) {
+  .gcds-link-grid a,
+  .gcds-role-nav a {
+    text-decoration: underline;
+  }
+}
+

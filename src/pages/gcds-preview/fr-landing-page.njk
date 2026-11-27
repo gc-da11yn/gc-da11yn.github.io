@@ -1,0 +1,22 @@
+---
+title: Aperçu d’une famille de pages d’accueil du Système de design GC
+description: Aperçu français des liens d’une page d’accueil de collection dans l’enveloppe parallèle du Système de design GC.
+locale: fr
+layout: layouts/gcds-base.njk
+permalink: "{{ permalinkPrefix }}fr/gcds-landing-page-preview/"
+toggle: gcds-landing-page-preview
+date: 2026-11-27
+tags:
+  - main
+breadcrumbs:
+  - title: Aperçu de la fondation du Système de design GC
+    url: /fr/gcds-foundation-preview/
+eleventyExcludeFromCollections: true
+---
+
+<!-- cspell:ignore eleventy -->
+
+<p><a href="{{ pathPrefix }}/fr/comment-faire/">Consulter la page actuelle Comment faire</a>.</p>
+
+{% set gcdsLandingItems = collections.howTos | sort(false, false, 'data.title') | localeMatch(locale) %}
+{% include "partials/gcds-landing-links.njk" %}
