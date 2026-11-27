@@ -20,7 +20,7 @@ Do not edit files inside `node_modules/@gcds-core/` or replace the GCDS base CSS
 
 - Site-owned GCDS CSS: `src/_scss/gcds-foundation.scss`
 - Site-owned GCDS JavaScript: none
-- Purpose of the current CSS: keep native fallbacks available before component upgrade and remove duplicate fallback content after upgrade
+- Purpose of the current CSS: keep native fallbacks available before component upgrade and present migrated secondary interfaces without recreating WET
 - Production GCDS base assets: not modified
 
 ## How to add an entry
@@ -337,6 +337,51 @@ Each enhanced notice is followed by one native `section` containing the localize
 ### Removal condition
 
 Remove the fallback markup and visibility CSS if GCDS preserves the notice title, message, semantics, and native links in light DOM before JavaScript registration.
+
+## Secondary navigation and download layout
+
+### Status
+
+Active
+
+### Related issue
+
+[Migrate Secondary Navigation and Downloads #817](https://github.com/gc-da11yn/gc-da11yn.github.io/issues/817)
+
+### Files
+
+- `src/_scss/gcds-foundation.scss`
+- `src/_includes/layouts/gcds-base.njk`
+- `src/_includes/partials/gcds-on-this-page.njk`
+- `src/_includes/partials/gcds-office-toc.njk`
+- `src/_includes/partials/gcds-download.njk`
+- `src/_data/gcdsSecondaryUi.js`
+
+The English and French fixtures are `src/pages/gcds-preview/en-secondary-ui.md` and `src/pages/gcds-preview/fr-secondary-ui.md`. The focused verification lives in `tests/integration/build-validation.test.js` and `tests/playwright/gcds-secondary-ui.spec.js`; those files are test coverage rather than production customizations.
+
+### GCDS option checked
+
+The component map recommends native navigation and download links for these supporting interfaces. The implementation also checked the available GCDS grid and text utilities, but retained native light-DOM lists and links for the complete no-JavaScript baseline.
+
+### Why it is needed
+
+Native links and lists provide the required semantics, but need a small amount of site-owned layout CSS for peer-document link groups and visible download metadata. The former GCWeb and Bootstrap classes are not available in GCDS fixtures.
+
+### What changed
+
+The stylesheet adds wrapping grid and spacing rules and a visible border for download links and Office peer-document links. It uses no custom behavior, icon fonts, fixed widths, or hidden essential content.
+
+### Accessibility impact
+
+- Secondary navigation remains native and labelled in enhanced, no-JavaScript, and failed-upgrade states.
+- Download metadata remains visible as text without icons.
+- Long English and French names wrap at 320 CSS pixels and high zoom.
+- Current-page state is exposed with `aria-current="page"` and visible text.
+- Forced-colour mode keeps native links, underlines, focus indicators, and borders available.
+
+### Removal condition
+
+Remove or reduce these rules if GCDS CSS Shortcuts or a documented GCDS component provides equivalent native-light-DOM semantics, responsive layout, and visible metadata without hiding the no-JavaScript baseline.
 
 ## Custom JavaScript
 

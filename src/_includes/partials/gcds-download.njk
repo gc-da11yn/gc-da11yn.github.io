@@ -1,0 +1,12 @@
+{% set normalizedUnit = download.unitMap[hasDocument.sizeUnit | lower] or hasDocument.sizeUnit %}
+{% set translations = download[locale] %}
+<div class="gcds-download">
+	<a class="gcds-download__link" href="{{ pathPrefix }}/docs/{{ hasDocument.filename }}" download="{{ hasDocument.filename }}">
+		<span class="gcds-download__title">{{ translations.downloadText }}: {{ title | safe }}</span>
+		<span class="gcds-download__metadata">
+			<span class="gcds-download__filename">{{ hasDocument.filename }}</span>
+			<span>{{ translations.type[hasDocument.type] }}</span>
+			<span>{{ hasDocument.sizeNumber }} <abbr title="{{ translations.sizeUnits[normalizedUnit] }}">{{ translations.localizedUnits[normalizedUnit] }}</abbr></span>
+		</span>
+	</a>
+</div>

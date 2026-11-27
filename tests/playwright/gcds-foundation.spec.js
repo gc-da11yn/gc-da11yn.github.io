@@ -272,6 +272,50 @@ test("translation-suppressed fixture does not advertise a counterpart", async ({
   await expect(page.locator("[data-counterpart]")).toHaveCount(0);
 });
 
+for (const fixture of [
+  {
+    indexPath: "/en/gcds-foundation-preview/",
+    childPath: "/en/gcds-secondary-ui-preview/",
+    indexTitle: "GC Design System foundation preview"
+  },
+  {
+    indexPath: "/fr/gcds-foundation-preview/",
+    childPath: "/fr/gcds-secondary-ui-preview/",
+    indexTitle: "Aperçu de la fondation du Système de design GC"
+  }
+]) {
+  test(`${fixture.indexPath} acts as the preview index and enhanced/fallback breadcrumb target`, async ({
+    browser,
+    page
+  }) => {
+    await page.goto(fixture.indexPath);
+    await expect(
+      page.locator(".gcds-page-content").getByRole("link", {
+        name: fixture.indexPath.startsWith("/en/")
+          ? "Secondary navigation and download preview"
+          : "Aperçu de la navigation secondaire et du téléchargement"
+      })
+    ).toHaveAttribute("href", fixture.childPath);
+
+    await page.goto(fixture.childPath);
+    await page.waitForFunction(() => customElements.get("gcds-breadcrumbs"));
+    await expect(
+      page.locator(`gcds-breadcrumbs-item[href="${fixture.indexPath}"]`)
+    ).toContainText(fixture.indexTitle);
+
+    const context = await browser.newContext({ javaScriptEnabled: false });
+    const fallbackPage = await context.newPage();
+    await fallbackPage.goto(fixture.childPath);
+    const fallbackLink = fallbackPage
+      .locator(".gcds-breadcrumbs-fallback")
+      .getByRole("link", { name: fixture.indexTitle });
+    await expect(fallbackLink).toBeVisible();
+    await fallbackLink.focus();
+    await expect(fallbackLink).toBeFocused();
+    await context.close();
+  });
+}
+
 for (const locale of ["en", "fr"]) {
   test(`${locale} fixture omits a missing description and keeps an ordered heading outline`, async ({ page }) => {
     await page.goto(`/${locale}/gcds-foundation-preview-no-description/`);

@@ -133,3 +133,69 @@ gcds-notice:defined + .gcds-notice-fallback {
   margin-block: 1.5rem;
 }
 
+.gcds-secondary-nav,
+.gcds-office-navigation,
+.gcds-download {
+  overflow-wrap: anywhere;
+}
+
+.gcds-secondary-nav,
+.gcds-office-navigation,
+.gcds-download {
+  margin-block: 1.5rem;
+}
+
+.gcds-secondary-nav h2 {
+  margin-block-end: 0.75rem;
+}
+
+.gcds-office-navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gcds-office-navigation__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 0.75rem;
+}
+
+.gcds-office-navigation__list a {
+  display: block;
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid #26374a;
+}
+
+.gcds-office-navigation__current {
+  display: block;
+  font-weight: 700;
+}
+
+.gcds-office-navigation__alternate {
+  margin-block-start: 1rem;
+}
+
+.gcds-download__link {
+  display: block;
+  max-width: 40rem;
+  padding: 1rem 1.25rem;
+  border: 2px solid #26374a;
+}
+
+.gcds-download__title,
+.gcds-download__metadata,
+.gcds-download__metadata > span {
+  display: block;
+}
+
+.gcds-download__title,
+.gcds-download__filename {
+  font-weight: 700;
+}
+
+.gcds-download__metadata {
+  margin-block-start: 0.5rem;
+}
+
